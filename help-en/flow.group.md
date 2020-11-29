@@ -1,0 +1,27 @@
+# flow.group
+
+```
+
+
+[F]  [1 2 3(
+|    |
+|    |
+[flow.group @by 5]
+|
+[m set]
+|
+[ (
+
+            
+```
+---
+arguments:
+
+SIZE: group by this size<br>
+
+---
+properties:
+
+@by: group size<br>
+@free: free space left in group<br>
+

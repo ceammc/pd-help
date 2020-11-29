@@ -1,0 +1,33 @@
+# midi.event2prg
+
+```
+
+
+[B]
+|
+[openpanel]
+|
+[read $1, bang(
+|
+[midi.file]  [play( [stop(
+|            |      |
+[midi.track    @join]
+|
+[midi.ev->prg]
+|
+[midi.prg->str @symbol]
+|
+[msg set]
+|
+[ (
+
+            
+```
+---
+arguments:
+
+
+---
+properties:
+
+

@@ -1,0 +1,45 @@
+# proto.sp.alpaca
+
+```
+
+
+[ui.knob] [version? #d(
+|
+|         [clear #a( [fill #b( [ui.hrd @mode 1] [F]         [S digits=5]
+|                              |                |           |
+[brightness $1(                [msg row 2 #c]   [str $1 #e( [char $1 #f(
+|
+|                              [ui.menu none digital1 digital2 analog]
+|                              |
+|                              [mode 0 $2 #g(
+|
+[proto.sp.alpaca #z]
+|
+[hw.arduino @rate 9600 @reconnect]
+|
+[proto.sp.alpaca]
+|
+[route digital analog]
+|                  ^|
+[route 0 1 2 3   ] [route 0 1]
+|    ^|  ^^|  ^^^| |     ^|
+[T]  [T]  [T]  [T] [F]   [F]
+
+[X a->z]
+[X b->z]
+[X c->z]
+[X d->z]
+[X e->z]
+[X f->z]
+[X g->z]
+
+            
+```
+---
+arguments:
+
+
+---
+properties:
+
+

@@ -1,0 +1,33 @@
+# local.list
+
+```
+
+
+[list a b c(  [set 3 2 1(
+|             |
+|  [1 2 3(    |            [bng]
+|  |          |            |
+[local.list id]            [local.list id]
+|                          |
+[msg set]                  [msg set]
+|                          |
+[ (                        [ (
+
+            
+```
+---
+arguments:
+
+ID: object ID<br>
+
+---
+properties:
+
+@empty: 1 if list is
+            empty, otherwise 0<br>
+@size: number of
+            elements in list<br>
+
+see also:<br>
+![local.float]("img/object_local.float.png")
+![local.int]("img/object_local.int.png")

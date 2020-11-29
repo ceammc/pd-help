@@ -31,4 +31,4 @@ properties:
             elements in list<br>
 
 see also:<br>
-![data.fifo]("img/object_data.fifo.png")
+![data.fifo](img/object_data.fifo.png)

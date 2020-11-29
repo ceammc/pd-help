@@ -21,5 +21,5 @@ properties:
 
 
 see also:<br>
-![math.e]("img/object_math.e.png")
-![math.pi~]("img/object_math.pi~.png")
+![math.e](img/object_math.e.png)
+![math.pi~](img/object_math.pi~.png)

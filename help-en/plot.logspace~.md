@@ -49,5 +49,5 @@ properties:
             interval<br>
 
 see also:<br>
-![plot.linspace~]("img/object_plot.linspace~.png")
-![plot.geomspace~]("img/object_plot.geomspace~.png")
+![plot.linspace~](img/object_plot.linspace~.png)
+![plot.geomspace~](img/object_plot.geomspace~.png)

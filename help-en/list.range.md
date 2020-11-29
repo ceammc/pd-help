@@ -24,5 +24,5 @@ properties:
 
 
 see also:<br>
-![list.min]("img/object_list.min.png")
-![list.max]("img/object_list.max.png")
+![list.min](img/object_list.min.png)
+![list.max](img/object_list.max.png)

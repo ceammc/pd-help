@@ -30,5 +30,5 @@ properties:
             dictionary. If not specified no output is performed.<br>
 
 see also:<br>
-![data.dict]("img/object_data.dict.png")
-![flow.route]("img/object_flow.route.png")
+![data.dict](img/object_data.dict.png)
+![flow.route](img/object_flow.route.png)

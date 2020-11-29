@@ -32,4 +32,4 @@ properties:
             to -1, substring to the end of string<br>
 
 see also:<br>
-![string.split]("img/object_string.split.png")
+![string.split](img/object_string.split.png)

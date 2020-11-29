@@ -31,5 +31,5 @@ properties:
 
 
 see also:<br>
-![prop.declare]("img/object_prop.declare.png")
-![patch.props]("img/object_patch.props.png")
+![prop.declare](img/object_prop.declare.png)
+![patch.props](img/object_patch.props.png)

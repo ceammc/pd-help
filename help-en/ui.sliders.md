@@ -84,5 +84,5 @@ properties:
             pixels<br>
 
 see also:<br>
-![ui.slider]("img/object_ui.slider.png")
-![ui.preset]("img/object_ui.preset.png")
+![ui.slider](img/object_ui.slider.png)
+![ui.preset](img/object_ui.preset.png)

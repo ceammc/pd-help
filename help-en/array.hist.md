@@ -47,4 +47,4 @@ properties:
 @max: maximum value<br>
 
 see also:<br>
-![list.histogram]("img/object_list.histogram.png")
+![list.histogram](img/object_list.histogram.png)

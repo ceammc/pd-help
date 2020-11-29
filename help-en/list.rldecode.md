@@ -23,4 +23,4 @@ properties:
 
 
 see also:<br>
-![list.rlencode]("img/object_list.rlencode.png")
+![list.rlencode](img/object_list.rlencode.png)

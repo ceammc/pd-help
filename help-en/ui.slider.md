@@ -91,6 +91,6 @@ properties:
             pixels<br>
 
 see also:<br>
-![ui.slider2d]("img/object_ui.slider2d.png")
-![ui.sliders]("img/object_ui.sliders.png")
-![ui.knob]("img/object_ui.knob.png")
+![ui.slider2d](img/object_ui.slider2d.png)
+![ui.sliders](img/object_ui.sliders.png)
+![ui.knob](img/object_ui.knob.png)

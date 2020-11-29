@@ -42,5 +42,5 @@ properties:
             processing<br>
 
 see also:<br>
-![flt.highshelf~]("img/object_flt.highshelf~.png")
-![flt.biquad~]("img/object_flt.biquad~.png")
+![flt.highshelf~](img/object_flt.highshelf~.png)
+![flt.biquad~](img/object_flt.biquad~.png)

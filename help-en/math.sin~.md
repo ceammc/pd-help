@@ -37,5 +37,5 @@ properties:
 
 
 see also:<br>
-![math.sin]("img/object_math.sin.png")
-![math.cos~]("img/object_math.cos~.png")
+![math.sin](img/object_math.sin.png)
+![math.cos~](img/object_math.cos~.png)

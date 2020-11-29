@@ -28,4 +28,4 @@ properties:
             index<br>
 
 see also:<br>
-![flow.demultiplex]("img/object_flow.demultiplex.png")
+![flow.demultiplex](img/object_flow.demultiplex.png)

@@ -38,4 +38,4 @@ properties:
             on overflow<br>
 
 see also:<br>
-![array.each]("img/object_array.each.png")
+![array.each](img/object_array.each.png)

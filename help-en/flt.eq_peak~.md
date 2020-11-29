@@ -42,6 +42,6 @@ properties:
             processing<br>
 
 see also:<br>
-![flt.eq_peak_cq~]("img/object_flt.eq_peak_cq~.png")
-![flt.lowshelf~]("img/object_flt.lowshelf~.png")
-![flt.highshelf~]("img/object_flt.highshelf~.png")
+![flt.eq_peak_cq~](img/object_flt.eq_peak_cq~.png)
+![flt.lowshelf~](img/object_flt.lowshelf~.png)
+![flt.highshelf~](img/object_flt.highshelf~.png)

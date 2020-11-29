@@ -27,4 +27,4 @@ properties:
             otherwise as string.<br>
 
 see also:<br>
-![conv.str2sec]("img/object_conv.str2sec.png")
+![conv.str2sec](img/object_conv.str2sec.png)

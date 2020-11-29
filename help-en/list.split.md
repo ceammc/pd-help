@@ -27,4 +27,4 @@ properties:
 @at: split point<br>
 
 see also:<br>
-![list.at]("img/object_list.at.png")
+![list.at](img/object_list.at.png)

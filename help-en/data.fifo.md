@@ -36,4 +36,4 @@ properties:
             elements you can add to queue until it full<br>
 
 see also:<br>
-![data.list]("img/object_data.list.png")
+![data.list](img/object_data.list.png)

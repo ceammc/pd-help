@@ -40,6 +40,6 @@ properties:
             processing<br>
 
 see also:<br>
-![flt.biquad~]("img/object_flt.biquad~.png")
-![flt.bpf12~]("img/object_flt.bpf12~.png")
-![flt.c_notch~]("img/object_flt.c_notch~.png")
+![flt.biquad~](img/object_flt.biquad~.png)
+![flt.bpf12~](img/object_flt.bpf12~.png)
+![flt.c_notch~](img/object_flt.c_notch~.png)

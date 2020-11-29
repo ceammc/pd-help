@@ -56,4 +56,4 @@ properties:
             plain waves.<br>
 
 see also:<br>
-![hoa.encoder~]("img/object_hoa.encoder~.png")
+![hoa.encoder~](img/object_hoa.encoder~.png)

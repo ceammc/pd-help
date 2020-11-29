@@ -55,5 +55,5 @@ properties:
 @value: current list<br>
 
 see also:<br>
-![list.gen]("img/object_list.gen.png")
-![list.seq]("img/object_list.seq.png")
+![list.gen](img/object_list.gen.png)
+![list.seq](img/object_list.seq.png)

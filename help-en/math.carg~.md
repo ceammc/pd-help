@@ -30,4 +30,4 @@ properties:
 
 
 see also:<br>
-![math.cabs~]("img/object_math.cabs~.png")
+![math.cabs~](img/object_math.cabs~.png)

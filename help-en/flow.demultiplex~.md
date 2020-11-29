@@ -36,5 +36,5 @@ properties:
             output<br>
 
 see also:<br>
-![flow.demultiplex2~]("img/object_flow.demultiplex2~.png")
-![flow.demultiplex]("img/object_flow.demultiplex.png")
+![flow.demultiplex2~](img/object_flow.demultiplex2~.png)
+![flow.demultiplex](img/object_flow.demultiplex.png)

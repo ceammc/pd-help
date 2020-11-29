@@ -37,5 +37,5 @@ properties:
 
 
 see also:<br>
-![math.exp~]("img/object_math.exp~.png")
-![math.log2]("img/object_math.log2.png")
+![math.exp~](img/object_math.exp~.png)
+![math.log2](img/object_math.log2.png)

@@ -22,4 +22,4 @@ properties:
 
 
 see also:<br>
-![math.erf~]("img/object_math.erf~.png")
+![math.erf~](img/object_math.erf~.png)

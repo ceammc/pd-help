@@ -56,4 +56,4 @@ properties:
             mode. If on outputs @mouse_down and @mouse_drag events<br>
 
 see also:<br>
-![ui.matrix]("img/object_ui.matrix.png")
+![ui.matrix](img/object_ui.matrix.png)

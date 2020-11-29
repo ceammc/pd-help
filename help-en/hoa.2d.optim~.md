@@ -49,4 +49,4 @@ properties:
 @inphase: alias for @mode inphase.<br>
 
 see also:<br>
-![hoa.2d.decoder~]("img/object_hoa.2d.decoder~.png")
+![hoa.2d.decoder~](img/object_hoa.2d.decoder~.png)

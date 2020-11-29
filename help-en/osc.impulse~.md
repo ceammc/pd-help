@@ -27,7 +27,7 @@ properties:
             processing<br>
 
 see also:<br>
-![osc.saw~]("img/object_osc.saw~.png")
-![osc.tri~]("img/object_osc.tri~.png")
-![osc.square~]("img/object_osc.square~.png")
-![lfo.impulse~]("img/object_lfo.impulse~.png")
+![osc.saw~](img/object_osc.saw~.png)
+![osc.tri~](img/object_osc.tri~.png)
+![osc.square~](img/object_osc.square~.png)
+![lfo.impulse~](img/object_lfo.impulse~.png)

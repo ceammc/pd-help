@@ -41,6 +41,6 @@ properties:
             processing<br>
 
 see also:<br>
-![flt.hpf24~]("img/object_flt.hpf24~.png")
-![flt.lpf12~]("img/object_flt.lpf12~.png")
-![flt.c_hpf~]("img/object_flt.c_hpf~.png")
+![flt.hpf24~](img/object_flt.hpf24~.png)
+![flt.lpf12~](img/object_flt.lpf12~.png)
+![flt.c_hpf~](img/object_flt.c_hpf~.png)

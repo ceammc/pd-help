@@ -27,4 +27,4 @@ properties:
             outlets<br>
 
 see also:<br>
-![hradio]("img/object_hradio.png")
+![hradio](img/object_hradio.png)

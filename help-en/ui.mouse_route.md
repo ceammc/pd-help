@@ -43,5 +43,5 @@ properties:
             property<br>
 
 see also:<br>
-![ui.mouse_filter]("img/object_ui.mouse_filter.png")
-![ui.rslider]("img/object_ui.rslider.png")
+![ui.mouse_filter](img/object_ui.mouse_filter.png)
+![ui.rslider](img/object_ui.rslider.png)

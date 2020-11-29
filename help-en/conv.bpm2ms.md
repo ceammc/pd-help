@@ -36,5 +36,5 @@ properties:
 
 
 see also:<br>
-![conv.bpm2sec]("img/object_conv.bpm2sec.png")
-![conv.bpm2hz]("img/object_conv.bpm2hz.png")
+![conv.bpm2sec](img/object_conv.bpm2sec.png)
+![conv.bpm2hz](img/object_conv.bpm2hz.png)

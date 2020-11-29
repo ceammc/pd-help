@@ -47,5 +47,5 @@ properties:
             GOP)<br>
 
 see also:<br>
-![patch.args]("img/object_patch.args.png")
-![canvas.top]("img/object_canvas.top.png")
+![patch.args](img/object_patch.args.png)
+![canvas.top](img/object_canvas.top.png)

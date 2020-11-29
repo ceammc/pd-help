@@ -24,4 +24,4 @@ properties:
 
 
 see also:<br>
-![list.^search]("img/object_list.^search.png")
+![list.^search](img/object_list.^search.png)

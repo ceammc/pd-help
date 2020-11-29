@@ -28,4 +28,4 @@ properties:
 @array: array name<br>
 
 see also:<br>
-![array.p2s]("img/object_array.p2s.png")
+![array.p2s](img/object_array.p2s.png)

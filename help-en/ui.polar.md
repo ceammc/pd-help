@@ -71,4 +71,4 @@ properties:
             pixels<br>
 
 see also:<br>
-![ui.slider2d]("img/object_ui.slider2d.png")
+![ui.slider2d](img/object_ui.slider2d.png)

@@ -23,4 +23,4 @@ properties:
 
 
 see also:<br>
-![math.gcd]("img/object_math.gcd.png")
+![math.gcd](img/object_math.gcd.png)

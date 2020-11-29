@@ -20,4 +20,4 @@ properties:
 
 
 see also:<br>
-![is_even]("img/object_is_even.png")
+![is_even](img/object_is_even.png)

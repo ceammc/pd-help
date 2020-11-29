@@ -23,4 +23,4 @@ properties:
 
 
 see also:<br>
-![noise.pink~]("img/object_noise.pink~.png")
+![noise.pink~](img/object_noise.pink~.png)

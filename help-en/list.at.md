@@ -50,5 +50,5 @@ properties:
             outputs error message to console<br>
 
 see also:<br>
-![list.^at]("img/object_list.^at.png")
-![list.apply_to]("img/object_list.apply_to.png")
+![list.^at](img/object_list.^at.png)
+![list.apply_to](img/object_list.apply_to.png)

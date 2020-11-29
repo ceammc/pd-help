@@ -32,4 +32,4 @@ properties:
             ratio (src/dest)<br>
 
 see also:<br>
-![list.stretch]("img/object_list.stretch.png")
+![list.stretch](img/object_list.stretch.png)

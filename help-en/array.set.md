@@ -32,4 +32,4 @@ properties:
 @redraw: redraw array view<br>
 
 see also:<br>
-![array.each]("img/object_array.each.png")
+![array.each](img/object_array.each.png)

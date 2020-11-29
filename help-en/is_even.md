@@ -20,4 +20,4 @@ properties:
 
 
 see also:<br>
-![is_odd]("img/object_is_odd.png")
+![is_odd](img/object_is_odd.png)

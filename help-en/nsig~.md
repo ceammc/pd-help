@@ -32,4 +32,4 @@ properties:
 @values: current output values<br>
 
 see also:<br>
-![sig~]("img/object_sig~.png")
+![sig~](img/object_sig~.png)

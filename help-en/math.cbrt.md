@@ -20,4 +20,4 @@ properties:
 
 
 see also:<br>
-![math.sqrt]("img/object_math.sqrt.png")
+![math.sqrt](img/object_math.sqrt.png)

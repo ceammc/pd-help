@@ -34,5 +34,5 @@ properties:
             after full cycle<br>
 
 see also:<br>
-![metro]("img/object_metro.png")
-![metro.seq]("img/object_metro.seq.png")
+![metro](img/object_metro.png)
+![metro.seq](img/object_metro.seq.png)

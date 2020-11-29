@@ -24,5 +24,5 @@ properties:
 
 
 see also:<br>
-![pack]("img/object_pack.png")
-![flow.pack]("img/object_flow.pack.png")
+![pack](img/object_pack.png)
+![flow.pack](img/object_flow.pack.png)

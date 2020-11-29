@@ -34,6 +34,6 @@ properties:
 
 
 see also:<br>
-![list.contains]("img/object_list.contains.png")
-![list.all_of]("img/object_list.all_of.png")
-![list.none_of]("img/object_list.none_of.png")
+![list.contains](img/object_list.contains.png)
+![list.all_of](img/object_list.all_of.png)
+![list.none_of](img/object_list.none_of.png)

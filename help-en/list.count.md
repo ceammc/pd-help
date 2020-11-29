@@ -24,4 +24,4 @@ properties:
 @pattern: new pattern value<br>
 
 see also:<br>
-![list.count_if]("img/object_list.count_if.png")
+![list.count_if](img/object_list.count_if.png)

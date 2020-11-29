@@ -50,4 +50,4 @@ properties:
             slant<br>
 
 see also:<br>
-![ui.scope~]("img/object_ui.scope~.png")
+![ui.scope~](img/object_ui.scope~.png)

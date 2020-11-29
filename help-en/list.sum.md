@@ -20,5 +20,5 @@ properties:
 
 
 see also:<br>
-![list.product]("img/object_list.product.png")
-![list.reduce]("img/object_list.reduce.png")
+![list.product](img/object_list.product.png)
+![list.reduce](img/object_list.reduce.png)

@@ -22,5 +22,5 @@ properties:
 
 
 see also:<br>
-![data.dict]("img/object_data.dict.png")
-![dict.values]("img/object_dict.values.png")
+![data.dict](img/object_data.dict.png)
+![dict.values](img/object_dict.values.png)

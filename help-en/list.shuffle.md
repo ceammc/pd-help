@@ -22,5 +22,5 @@ properties:
 
 
 see also:<br>
-![list.sort]("img/object_list.sort.png")
-![list.reverse]("img/object_list.reverse.png")
+![list.sort](img/object_list.sort.png)
+![list.reverse](img/object_list.reverse.png)

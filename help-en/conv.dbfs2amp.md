@@ -26,4 +26,4 @@ properties:
 
 
 see also:<br>
-![amp-&gt;dbfs]("img/object_amp-&gt;dbfs.png")
+![amp-&gt;dbfs](img/object_amp-&gt;dbfs.png)

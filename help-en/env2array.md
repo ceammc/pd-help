@@ -41,4 +41,4 @@ properties:
 @raw: alias to @mode raw property<br>
 
 see also:<br>
-![env-&gt;vline]("img/object_env-&gt;vline.png")
+![env-&gt;vline](img/object_env-&gt;vline.png)

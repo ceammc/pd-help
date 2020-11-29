@@ -60,5 +60,5 @@ properties:
             slant<br>
 
 see also:<br>
-![preset.float]("img/object_preset.float.png")
-![preset.storage]("img/object_preset.storage.png")
+![preset.float](img/object_preset.float.png)
+![preset.storage](img/object_preset.storage.png)

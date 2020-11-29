@@ -39,4 +39,4 @@ properties:
             automatically<br>
 
 see also:<br>
-![ui.plot~]("img/object_ui.plot~.png")
+![ui.plot~](img/object_ui.plot~.png)

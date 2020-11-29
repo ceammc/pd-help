@@ -31,4 +31,4 @@ properties:
 @sep: separator<br>
 
 see also:<br>
-![string.join]("img/object_string.join.png")
+![string.join](img/object_string.join.png)

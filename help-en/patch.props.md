@@ -30,5 +30,5 @@ properties:
 
 
 see also:<br>
-![prop.declare]("img/object_prop.declare.png")
-![prop]("img/object_prop.png")
+![prop.declare](img/object_prop.declare.png)
+![prop](img/object_prop.png)

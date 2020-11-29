@@ -37,4 +37,4 @@ properties:
 @fold: alias for @method fold<br>
 
 see also:<br>
-![list.length]("img/object_list.length.png")
+![list.length](img/object_list.length.png)

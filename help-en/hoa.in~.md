@@ -29,6 +29,6 @@ properties:
             instances<br>
 
 see also:<br>
-![hoa.in]("img/object_hoa.in.png")
-![hoa.out]("img/object_hoa.out.png")
-![hoa.out~]("img/object_hoa.out~.png")
+![hoa.in](img/object_hoa.in.png)
+![hoa.out](img/object_hoa.out.png)
+![hoa.out~](img/object_hoa.out~.png)

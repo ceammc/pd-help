@@ -22,7 +22,7 @@ properties:
 
 
 see also:<br>
-![math.ceil]("img/object_math.ceil.png")
-![math.floor]("img/object_math.floor.png")
-![math.round]("img/object_math.round.png")
-![math.math]("img/object_math.math.png")
+![math.ceil](img/object_math.ceil.png)
+![math.floor](img/object_math.floor.png)
+![math.round](img/object_math.round.png)
+![math.math](img/object_math.math.png)

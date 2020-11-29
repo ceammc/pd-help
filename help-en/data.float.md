@@ -29,4 +29,4 @@ properties:
             value<br>
 
 see also:<br>
-![data.int]("img/object_data.int.png")
+![data.int](img/object_data.int.png)

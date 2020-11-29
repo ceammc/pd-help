@@ -67,4 +67,4 @@ properties:
 @as_any: trim list or symbol selector on output.<br>
 
 see also:<br>
-![route]("img/object_route.png")
+![route](img/object_route.png)

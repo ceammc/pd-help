@@ -37,5 +37,5 @@ properties:
 
 
 see also:<br>
-![math.cosh~]("img/object_math.cosh~.png")
-![math.acosh]("img/object_math.acosh.png")
+![math.cosh~](img/object_math.cosh~.png)
+![math.acosh](img/object_math.acosh.png)

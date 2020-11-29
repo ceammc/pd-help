@@ -39,5 +39,5 @@ properties:
 @maxfreq(Hz): max tracked frequency<br>
 
 see also:<br>
-![sigmund~]("img/object_sigmund~.png")
-![fiddle~]("img/object_fiddle~.png")
+![sigmund~](img/object_sigmund~.png)
+![fiddle~](img/object_fiddle~.png)

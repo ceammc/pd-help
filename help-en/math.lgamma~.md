@@ -36,5 +36,5 @@ properties:
 
 
 see also:<br>
-![math.lgamma]("img/object_math.lgamma.png")
-![math.gamma~]("img/object_math.gamma~.png")
+![math.lgamma](img/object_math.lgamma.png)
+![math.gamma~](img/object_math.gamma~.png)

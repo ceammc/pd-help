@@ -34,4 +34,4 @@ properties:
             state as list of 1 and 0<br>
 
 see also:<br>
-![math.or]("img/object_math.or.png")
+![math.or](img/object_math.or.png)

@@ -22,5 +22,5 @@ properties:
 
 
 see also:<br>
-![list.sort]("img/object_list.sort.png")
-![list.shuffle]("img/object_list.shuffle.png")
+![list.sort](img/object_list.sort.png)
+![list.shuffle](img/object_list.shuffle.png)

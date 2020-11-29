@@ -31,5 +31,5 @@ properties:
             output<br>
 
 see also:<br>
-![flow.multiplex2~]("img/object_flow.multiplex2~.png")
-![flow.multiplex]("img/object_flow.multiplex.png")
+![flow.multiplex2~](img/object_flow.multiplex2~.png)
+![flow.multiplex](img/object_flow.multiplex.png)

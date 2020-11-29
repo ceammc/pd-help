@@ -38,4 +38,4 @@ properties:
             input string<br>
 
 see also:<br>
-![str.remove]("img/object_str.remove.png")
+![str.remove](img/object_str.remove.png)

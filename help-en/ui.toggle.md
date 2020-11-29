@@ -48,4 +48,4 @@ properties:
             slant<br>
 
 see also:<br>
-![ui.bang]("img/object_ui.bang.png")
+![ui.bang](img/object_ui.bang.png)

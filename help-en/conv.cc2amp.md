@@ -26,5 +26,5 @@ properties:
 @to: end value of output range<br>
 
 see also:<br>
-![lin-&gt;lin]("img/object_lin-&gt;lin.png")
-![lin-&gt;curve]("img/object_lin-&gt;curve.png")
+![lin-&gt;lin](img/object_lin-&gt;lin.png)
+![lin-&gt;curve](img/object_lin-&gt;curve.png)

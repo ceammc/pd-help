@@ -69,5 +69,5 @@ properties:
             slant<br>
 
 see also:<br>
-![ui.radio]("img/object_ui.radio.png")
-![ui.toggle]("img/object_ui.toggle.png")
+![ui.radio](img/object_ui.radio.png)
+![ui.toggle](img/object_ui.toggle.png)

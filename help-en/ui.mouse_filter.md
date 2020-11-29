@@ -49,5 +49,5 @@ properties:
             property<br>
 
 see also:<br>
-![ui.mouse_route]("img/object_ui.mouse_route.png")
-![ui.rslider]("img/object_ui.rslider.png")
+![ui.mouse_route](img/object_ui.mouse_route.png)
+![ui.rslider](img/object_ui.rslider.png)

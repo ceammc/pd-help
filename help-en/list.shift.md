@@ -39,4 +39,4 @@ properties:
 @shift: shift amount<br>
 
 see also:<br>
-![list.rotate]("img/object_list.rotate.png")
+![list.rotate](img/object_list.rotate.png)

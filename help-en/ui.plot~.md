@@ -101,4 +101,4 @@ properties:
             slant<br>
 
 see also:<br>
-![array.plot~]("img/object_array.plot~.png")
+![array.plot~](img/object_array.plot~.png)

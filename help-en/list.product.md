@@ -23,4 +23,4 @@ properties:
 
 
 see also:<br>
-![list.sum]("img/object_list.sum.png")
+![list.sum](img/object_list.sum.png)

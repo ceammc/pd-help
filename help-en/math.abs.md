@@ -22,4 +22,4 @@ properties:
 
 
 see also:<br>
-![math.floor]("img/object_math.floor.png")
+![math.floor](img/object_math.floor.png)

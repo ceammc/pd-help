@@ -27,5 +27,5 @@ properties:
 
 
 see also:<br>
-![data.set]("img/object_data.set.png")
-![set.diff]("img/object_set.diff.png")
+![data.set](img/object_data.set.png)
+![set.diff](img/object_set.diff.png)

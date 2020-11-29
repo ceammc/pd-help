@@ -36,4 +36,4 @@ properties:
 @pow: alias to @type pow<br>
 
 see also:<br>
-![xfade~]("img/object_xfade~.png")
+![xfade~](img/object_xfade~.png)

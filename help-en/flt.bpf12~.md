@@ -52,5 +52,5 @@ properties:
             processing<br>
 
 see also:<br>
-![flt.bpf24~]("img/object_flt.bpf24~.png")
-![flt.c_bpf~]("img/object_flt.c_bpf~.png")
+![flt.bpf24~](img/object_flt.bpf24~.png)
+![flt.c_bpf~](img/object_flt.c_bpf~.png)

@@ -34,4 +34,4 @@ properties:
 @array: array name<br>
 
 see also:<br>
-![array.s2p]("img/object_array.s2p.png")
+![array.s2p](img/object_array.s2p.png)

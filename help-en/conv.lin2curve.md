@@ -47,4 +47,4 @@ properties:
 @minmax: alias to @clip minmax<br>
 
 see also:<br>
-![conv.lin2exp]("img/object_conv.lin2exp.png")
+![conv.lin2exp](img/object_conv.lin2exp.png)

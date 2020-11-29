@@ -27,6 +27,6 @@ properties:
             processing<br>
 
 see also:<br>
-![lfo.tri~]("img/object_lfo.tri~.png")
-![lfo.square~]("img/object_lfo.square~.png")
-![lfo.impulse~]("img/object_lfo.impulse~.png")
+![lfo.tri~](img/object_lfo.tri~.png)
+![lfo.square~](img/object_lfo.square~.png)
+![lfo.impulse~](img/object_lfo.impulse~.png)

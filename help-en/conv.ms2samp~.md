@@ -36,4 +36,4 @@ properties:
 
 
 see also:<br>
-![conv.samp2ms~]("img/object_conv.samp2ms~.png")
+![conv.samp2ms~](img/object_conv.samp2ms~.png)

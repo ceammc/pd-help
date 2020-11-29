@@ -30,4 +30,4 @@ properties:
 
 
 see also:<br>
-![prop&lt;-]("img/object_prop&lt;-.png")
+![prop&lt;-](img/object_prop&lt;-.png)

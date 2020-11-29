@@ -31,4 +31,4 @@ properties:
             selector<br>
 
 see also:<br>
-![string.match]("img/object_string.match.png")
+![string.match](img/object_string.match.png)

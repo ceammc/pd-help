@@ -28,5 +28,5 @@ properties:
 
 
 see also:<br>
-![dyn.limit~]("img/object_dyn.limit~.png")
-![dyn.comp~]("img/object_dyn.comp~.png")
+![dyn.limit~](img/object_dyn.limit~.png)
+![dyn.comp~](img/object_dyn.comp~.png)

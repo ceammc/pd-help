@@ -28,4 +28,4 @@ properties:
 
 
 see also:<br>
-![chaos.gbman0]("img/object_chaos.gbman0.png")
+![chaos.gbman0](img/object_chaos.gbman0.png)

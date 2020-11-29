@@ -29,5 +29,5 @@ properties:
             elements in list<br>
 
 see also:<br>
-![global.float]("img/object_global.float.png")
-![global.int]("img/object_global.int.png")
+![global.float](img/object_global.float.png)
+![global.int](img/object_global.int.png)

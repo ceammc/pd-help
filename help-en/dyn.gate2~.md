@@ -42,4 +42,4 @@ properties:
             processing<br>
 
 see also:<br>
-![dyn.gate~]("img/object_dyn.gate~.png")
+![dyn.gate~](img/object_dyn.gate~.png)

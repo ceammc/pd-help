@@ -52,4 +52,4 @@ properties:
 
 
 see also:<br>
-![chaos.std0]("img/object_chaos.std0.png")
+![chaos.std0](img/object_chaos.std0.png)

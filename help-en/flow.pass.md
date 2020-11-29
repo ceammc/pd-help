@@ -27,5 +27,5 @@ properties:
 @values: atoms to pass<br>
 
 see also:<br>
-![flow.pass_if]("img/object_flow.pass_if.png")
-![flow.reject]("img/object_flow.reject.png")
+![flow.pass_if](img/object_flow.pass_if.png)
+![flow.reject](img/object_flow.reject.png)

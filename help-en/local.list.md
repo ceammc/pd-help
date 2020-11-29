@@ -29,5 +29,5 @@ properties:
             elements in list<br>
 
 see also:<br>
-![local.float]("img/object_local.float.png")
-![local.int]("img/object_local.int.png")
+![local.float](img/object_local.float.png)
+![local.int](img/object_local.int.png)

@@ -26,5 +26,5 @@ properties:
 @max: random range upper bound<br>
 
 see also:<br>
-![random.int]("img/object_random.int.png")
-![random.gauss]("img/object_random.gauss.png")
+![random.int](img/object_random.int.png)
+![random.gauss](img/object_random.gauss.png)

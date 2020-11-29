@@ -27,5 +27,5 @@ properties:
 @from: enumeration starting index<br>
 
 see also:<br>
-![list.repack]("img/object_list.repack.png")
-![list.unpack]("img/object_list.unpack.png")
+![list.repack](img/object_list.repack.png)
+![list.unpack](img/object_list.unpack.png)

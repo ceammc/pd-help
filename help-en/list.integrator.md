@@ -41,4 +41,4 @@ properties:
             on.<br>
 
 see also:<br>
-![list.delta]("img/object_list.delta.png")
+![list.delta](img/object_list.delta.png)

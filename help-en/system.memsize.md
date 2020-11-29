@@ -25,4 +25,4 @@ properties:
 
 
 see also:<br>
-![system.memused]("img/object_system.memused.png")
+![system.memused](img/object_system.memused.png)

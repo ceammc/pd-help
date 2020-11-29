@@ -37,4 +37,4 @@ properties:
             twice at adjacent events.<br>
 
 see also:<br>
-![random.int]("img/object_random.int.png")
+![random.int](img/object_random.int.png)

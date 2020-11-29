@@ -67,4 +67,4 @@ properties:
 @ramp: ramp time<br>
 
 see also:<br>
-![hoa.2d.projector~]("img/object_hoa.2d.projector~.png")
+![hoa.2d.projector~](img/object_hoa.2d.projector~.png)

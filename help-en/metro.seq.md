@@ -38,5 +38,5 @@ properties:
             index<br>
 
 see also:<br>
-![metro]("img/object_metro.png")
-![metro.pattern]("img/object_metro.pattern.png")
+![metro](img/object_metro.png)
+![metro.pattern](img/object_metro.pattern.png)

@@ -27,5 +27,5 @@ properties:
             elements in list<br>
 
 see also:<br>
-![data.mlist]("img/object_data.mlist.png")
-![local.mlist]("img/object_local.mlist.png")
+![data.mlist](img/object_data.mlist.png)
+![local.mlist](img/object_local.mlist.png)

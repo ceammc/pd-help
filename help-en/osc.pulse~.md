@@ -38,4 +38,4 @@ properties:
             cycle<br>
 
 see also:<br>
-![osc.impulse~]("img/object_osc.impulse~.png")
+![osc.impulse~](img/object_osc.impulse~.png)

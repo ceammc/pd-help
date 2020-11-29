@@ -20,5 +20,5 @@ properties:
 
 
 see also:<br>
-![math.log]("img/object_math.log.png")
-![math.exp]("img/object_math.exp.png")
+![math.log](img/object_math.log.png)
+![math.exp](img/object_math.exp.png)

@@ -30,5 +30,5 @@ properties:
             time-shift<br>
 
 see also:<br>
-![env.tscale]("img/object_env.tscale.png")
-![envelope]("img/object_envelope.png")
+![env.tscale](img/object_env.tscale.png)
+![envelope](img/object_envelope.png)

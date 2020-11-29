@@ -32,6 +32,6 @@ properties:
             (-1 means end of list)<br>
 
 see also:<br>
-![list.search]("img/object_list.search.png")
-![list.contains]("img/object_list.contains.png")
-![list.^contains]("img/object_list.^contains.png")
+![list.search](img/object_list.search.png)
+![list.contains](img/object_list.contains.png)
+![list.^contains](img/object_list.^contains.png)

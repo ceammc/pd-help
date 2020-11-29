@@ -29,5 +29,5 @@ properties:
 @keys: list of all found SMC key<br>
 
 see also:<br>
-![hw.apple_sms]("img/object_hw.apple_sms.png")
-![hw.cpu_temp]("img/object_hw.cpu_temp.png")
+![hw.apple_sms](img/object_hw.apple_sms.png)
+![hw.cpu_temp](img/object_hw.cpu_temp.png)

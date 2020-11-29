@@ -36,6 +36,6 @@ properties:
             processing<br>
 
 see also:<br>
-![osc.saw~]("img/object_osc.saw~.png")
-![osc.tri~]("img/object_osc.tri~.png")
-![lfo.square~]("img/object_lfo.square~.png")
+![osc.saw~](img/object_osc.saw~.png)
+![osc.tri~](img/object_osc.tri~.png)
+![lfo.square~](img/object_lfo.square~.png)

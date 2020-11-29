@@ -23,4 +23,4 @@ properties:
 
 
 see also:<br>
-![string]("img/object_string.png")
+![string](img/object_string.png)

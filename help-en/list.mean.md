@@ -21,4 +21,4 @@ properties:
 
 
 see also:<br>
-![list.normalize]("img/object_list.normalize.png")
+![list.normalize](img/object_list.normalize.png)

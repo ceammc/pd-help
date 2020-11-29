@@ -32,6 +32,6 @@ properties:
             processing<br>
 
 see also:<br>
-![lfo.+pulse~]("img/object_lfo.+pulse~.png")
-![lfo.square~]("img/object_lfo.square~.png")
-![lfo.impulse~]("img/object_lfo.impulse~.png")
+![lfo.+pulse~](img/object_lfo.+pulse~.png)
+![lfo.square~](img/object_lfo.square~.png)
+![lfo.impulse~](img/object_lfo.impulse~.png)

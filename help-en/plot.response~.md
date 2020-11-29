@@ -49,5 +49,5 @@ properties:
             in [0..SR/2] instead of [0..pi]<br>
 
 see also:<br>
-![plot.linspace~]("img/object_plot.linspace~.png")
-![plot.geomspace~]("img/object_plot.geomspace~.png")
+![plot.linspace~](img/object_plot.linspace~.png)
+![plot.geomspace~](img/object_plot.geomspace~.png)

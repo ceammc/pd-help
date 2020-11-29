@@ -25,5 +25,5 @@ properties:
 @cue: related cue<br>
 
 see also:<br>
-![tl.toggle]("img/object_tl.toggle.png")
-![tl.cue]("img/object_tl.cue.png")
+![tl.toggle](img/object_tl.toggle.png)
+![tl.cue](img/object_tl.cue.png)

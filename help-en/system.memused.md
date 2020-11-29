@@ -24,4 +24,4 @@ properties:
 
 
 see also:<br>
-![system.memsize]("img/object_system.memsize.png")
+![system.memsize](img/object_system.memsize.png)

@@ -54,4 +54,4 @@ properties:
             pixels<br>
 
 see also:<br>
-![ui.toggle]("img/object_ui.toggle.png")
+![ui.toggle](img/object_ui.toggle.png)

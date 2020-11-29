@@ -29,5 +29,5 @@ properties:
             means all available harmonics until SR/2<br>
 
 see also:<br>
-![osc.saw~]("img/object_osc.saw~.png")
-![osc.square~]("img/object_osc.square~.png")
+![osc.saw~](img/object_osc.saw~.png)
+![osc.square~](img/object_osc.square~.png)

@@ -31,5 +31,5 @@ properties:
 @smooth: smooth control signal to avoid zipping-noise<br>
 
 see also:<br>
-![pan.sqrt~]("img/object_pan.sqrt~.png")
-![pan.cos~]("img/object_pan.cos~.png")
+![pan.sqrt~](img/object_pan.sqrt~.png)
+![pan.cos~](img/object_pan.cos~.png)

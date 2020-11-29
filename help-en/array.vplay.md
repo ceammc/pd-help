@@ -50,4 +50,4 @@ properties:
             to 1)<br>
 
 see also:<br>
-![list.each]("img/object_list.each.png")
+![list.each](img/object_list.each.png)

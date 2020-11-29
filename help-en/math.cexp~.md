@@ -44,4 +44,4 @@ properties:
 
 
 see also:<br>
-![math.carg~]("img/object_math.carg~.png")
+![math.carg~](img/object_math.carg~.png)

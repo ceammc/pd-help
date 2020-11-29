@@ -33,5 +33,5 @@ properties:
             elements in list<br>
 
 see also:<br>
-![set-&gt;list]("img/object_set-&gt;list.png")
-![data.list]("img/object_data.list.png")
+![set-&gt;list](img/object_set-&gt;list.png)
+![data.list](img/object_data.list.png)

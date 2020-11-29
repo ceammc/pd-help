@@ -21,5 +21,5 @@ properties:
 
 
 see also:<br>
-![list.repack]("img/object_list.repack.png")
-![list.separate]("img/object_list.separate.png")
+![list.repack](img/object_list.repack.png)
+![list.separate](img/object_list.separate.png)

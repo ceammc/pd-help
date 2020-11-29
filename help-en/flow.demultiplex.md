@@ -29,4 +29,4 @@ properties:
             inlet<br>
 
 see also:<br>
-![flow.multiplex]("img/object_flow.multiplex.png")
+![flow.multiplex](img/object_flow.multiplex.png)

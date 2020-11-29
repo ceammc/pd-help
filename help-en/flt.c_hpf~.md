@@ -39,5 +39,5 @@ properties:
             processing<br>
 
 see also:<br>
-![flt.biquad~]("img/object_flt.biquad~.png")
-![flt.hpf12~]("img/object_flt.hpf12~.png")
+![flt.biquad~](img/object_flt.biquad~.png)
+![flt.hpf12~](img/object_flt.hpf12~.png)

@@ -24,4 +24,4 @@ properties:
 
 
 see also:<br>
-![system.hostname]("img/object_system.hostname.png")
+![system.hostname](img/object_system.hostname.png)

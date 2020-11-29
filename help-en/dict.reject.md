@@ -23,4 +23,4 @@ properties:
 
 
 see also:<br>
-![data.dict]("img/object_data.dict.png")
+![data.dict](img/object_data.dict.png)

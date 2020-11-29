@@ -20,4 +20,4 @@ properties:
 
 
 see also:<br>
-![canvas.current]("img/object_canvas.current.png")
+![canvas.current](img/object_canvas.current.png)

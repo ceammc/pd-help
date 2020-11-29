@@ -29,4 +29,4 @@ properties:
 
 
 see also:<br>
-![msg]("img/object_msg.png")
+![msg](img/object_msg.png)

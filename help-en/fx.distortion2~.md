@@ -53,6 +53,6 @@ properties:
             processing<br>
 
 see also:<br>
-![fx.distortion~]("img/object_fx.distortion~.png")
-![fx.distortion1~]("img/object_fx.distortion1~.png")
-![fx.distortion3~]("img/object_fx.distortion3~.png")
+![fx.distortion~](img/object_fx.distortion~.png)
+![fx.distortion1~](img/object_fx.distortion1~.png)
+![fx.distortion3~](img/object_fx.distortion3~.png)

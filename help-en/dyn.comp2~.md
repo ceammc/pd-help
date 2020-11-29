@@ -43,4 +43,4 @@ properties:
             processing<br>
 
 see also:<br>
-![dyn.comp~]("img/object_dyn.comp~.png")
+![dyn.comp~](img/object_dyn.comp~.png)

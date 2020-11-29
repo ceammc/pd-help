@@ -29,6 +29,6 @@ properties:
             atom<br>
 
 see also:<br>
-![is_float]("img/object_is_float.png")
-![is_symbol]("img/object_is_symbol.png")
-![is_list]("img/object_is_list.png")
+![is_float](img/object_is_float.png)
+![is_symbol](img/object_is_symbol.png)
+![is_list](img/object_is_list.png)

@@ -22,5 +22,5 @@ properties:
 
 
 see also:<br>
-![tl.bang]("img/object_tl.bang.png")
-![tl.toggle]("img/object_tl.toggle.png")
+![tl.bang](img/object_tl.bang.png)
+![tl.toggle](img/object_tl.toggle.png)

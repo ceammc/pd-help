@@ -24,4 +24,4 @@ properties:
 
 
 see also:<br>
-![math.cmul~]("img/object_math.cmul~.png")
+![math.cmul~](img/object_math.cmul~.png)

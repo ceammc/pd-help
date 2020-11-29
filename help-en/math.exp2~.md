@@ -37,4 +37,4 @@ properties:
 
 
 see also:<br>
-![math.log2~]("img/object_math.log2~.png")
+![math.log2~](img/object_math.log2~.png)

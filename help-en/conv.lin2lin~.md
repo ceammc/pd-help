@@ -36,4 +36,4 @@ properties:
 @minmax: alias to @clip minmax<br>
 
 see also:<br>
-![conv.lin2lin]("img/object_conv.lin2lin.png")
+![conv.lin2lin](img/object_conv.lin2lin.png)

@@ -22,6 +22,6 @@ properties:
 
 
 see also:<br>
-![math.acos]("img/object_math.acos.png")
-![math.asin]("img/object_math.asin.png")
-![math.cos]("img/object_math.cos.png")
+![math.acos](img/object_math.acos.png)
+![math.asin](img/object_math.asin.png)
+![math.cos](img/object_math.cos.png)

@@ -38,5 +38,5 @@ properties:
             Note: symbols are greater then numbers<br>
 
 see also:<br>
-![list.max]("img/object_list.max.png")
-![list.range]("img/object_list.range.png")
+![list.max](img/object_list.max.png)
+![list.range](img/object_list.range.png)

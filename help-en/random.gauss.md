@@ -37,5 +37,5 @@ properties:
             deviation<br>
 
 see also:<br>
-![random.float]("img/object_random.float.png")
-![random.int]("img/object_random.int.png")
+![random.float](img/object_random.float.png)
+![random.int](img/object_random.int.png)

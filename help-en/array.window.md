@@ -36,4 +36,4 @@ properties:
 @type: window type<br>
 
 see also:<br>
-![window]("img/object_window.png")
+![window](img/object_window.png)

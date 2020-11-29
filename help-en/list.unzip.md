@@ -34,4 +34,4 @@ properties:
             outputs<br>
 
 see also:<br>
-![list.zip]("img/object_list.zip.png")
+![list.zip](img/object_list.zip.png)

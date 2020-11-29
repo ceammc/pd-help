@@ -48,4 +48,4 @@ properties:
             processing<br>
 
 see also:<br>
-![fx.freeverb2~]("img/object_fx.freeverb2~.png")
+![fx.freeverb2~](img/object_fx.freeverb2~.png)

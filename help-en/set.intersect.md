@@ -29,5 +29,5 @@ properties:
 
 
 see also:<br>
-![data.set]("img/object_data.set.png")
-![set.union]("img/object_set.union.png")
+![data.set](img/object_data.set.png)
+![set.union](img/object_set.union.png)

@@ -28,4 +28,4 @@ properties:
             symbol given<br>
 
 see also:<br>
-![conv.sec2str]("img/object_conv.sec2str.png")
+![conv.sec2str](img/object_conv.sec2str.png)

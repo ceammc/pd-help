@@ -40,4 +40,4 @@ properties:
             processing<br>
 
 see also:<br>
-![fx.sdelay~]("img/object_fx.sdelay~.png")
+![fx.sdelay~](img/object_fx.sdelay~.png)

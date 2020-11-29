@@ -36,4 +36,4 @@ properties:
 @minmax: alias to @clip minmax<br>
 
 see also:<br>
-![conv.cc2amp]("img/object_conv.cc2amp.png")
+![conv.cc2amp](img/object_conv.cc2amp.png)

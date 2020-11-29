@@ -34,5 +34,5 @@ properties:
             entries in dictionary<br>
 
 see also:<br>
-![data.set]("img/object_data.set.png")
-![data.mlist]("img/object_data.mlist.png")
+![data.set](img/object_data.set.png)
+![data.mlist](img/object_data.mlist.png)

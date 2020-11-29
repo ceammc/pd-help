@@ -83,4 +83,4 @@ properties:
             pixels<br>
 
 see also:<br>
-![ui.slider]("img/object_ui.slider.png")
+![ui.slider](img/object_ui.slider.png)

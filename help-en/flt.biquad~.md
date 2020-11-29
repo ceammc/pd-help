@@ -42,5 +42,5 @@ properties:
 
 
 see also:<br>
-![flt.c_bpf~]("img/object_flt.c_bpf~.png")
-![flt.c_hpf~]("img/object_flt.c_hpf~.png")
+![flt.c_bpf~](img/object_flt.c_bpf~.png)
+![flt.c_hpf~](img/object_flt.c_hpf~.png)

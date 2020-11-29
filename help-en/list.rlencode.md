@@ -22,4 +22,4 @@ properties:
 
 
 see also:<br>
-![list.rldecode]("img/object_list.rldecode.png")
+![list.rldecode](img/object_list.rldecode.png)

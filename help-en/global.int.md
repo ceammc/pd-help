@@ -27,4 +27,4 @@ properties:
 @value: current value<br>
 
 see also:<br>
-![global.float]("img/object_global.float.png")
+![global.float](img/object_global.float.png)

@@ -26,4 +26,4 @@ properties:
 @array: array name<br>
 
 see also:<br>
-![array.sum]("img/object_array.sum.png")
+![array.sum](img/object_array.sum.png)

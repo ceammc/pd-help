@@ -24,4 +24,4 @@ properties:
 @int: operate on integers only<br>
 
 see also:<br>
-![math.sync_sub]("img/object_math.sync_sub.png")
+![math.sync_sub](img/object_math.sync_sub.png)

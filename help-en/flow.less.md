@@ -24,5 +24,5 @@ properties:
 
 
 see also:<br>
-![flow.greater]("img/object_flow.greater.png")
-![flow.less_eq]("img/object_flow.less_eq.png")
+![flow.greater](img/object_flow.greater.png)
+![flow.less_eq](img/object_flow.less_eq.png)

@@ -22,4 +22,4 @@ properties:
 
 
 see also:<br>
-![math.abs]("img/object_math.abs.png")
+![math.abs](img/object_math.abs.png)

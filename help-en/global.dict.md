@@ -28,5 +28,5 @@ properties:
             entries in dictionary<br>
 
 see also:<br>
-![data.dict]("img/object_data.dict.png")
-![global.dict]("img/object_global.dict.png")
+![data.dict](img/object_data.dict.png)
+![global.dict](img/object_global.dict.png)

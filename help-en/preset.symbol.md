@@ -32,6 +32,6 @@ properties:
 @subpatch: include subpatch name to path<br>
 
 see also:<br>
-![preset.storage]("img/object_preset.storage.png")
-![preset.float]("img/object_preset.float.png")
-![preset.list]("img/object_preset.list.png")
+![preset.storage](img/object_preset.storage.png)
+![preset.float](img/object_preset.float.png)
+![preset.list](img/object_preset.list.png)

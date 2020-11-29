@@ -20,4 +20,4 @@ properties:
 
 
 see also:<br>
-![math.inf]("img/object_math.inf.png")
+![math.inf](img/object_math.inf.png)

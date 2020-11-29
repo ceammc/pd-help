@@ -29,5 +29,5 @@ properties:
 
 
 see also:<br>
-![data.set]("img/object_data.set.png")
-![set.intersect]("img/object_set.intersect.png")
+![data.set](img/object_data.set.png)
+![set.intersect](img/object_set.intersect.png)

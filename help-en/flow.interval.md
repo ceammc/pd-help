@@ -24,4 +24,4 @@ properties:
 
 
 see also:<br>
-![timer]("img/object_timer.png")
+![timer](img/object_timer.png)

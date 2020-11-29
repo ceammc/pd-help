@@ -46,4 +46,4 @@ properties:
             processing<br>
 
 see also:<br>
-![fx.echo~]("img/object_fx.echo~.png")
+![fx.echo~](img/object_fx.echo~.png)

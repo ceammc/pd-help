@@ -24,5 +24,5 @@ properties:
 
 
 see also:<br>
-![env-&gt;vline]("img/object_env-&gt;vline.png")
-![env-&gt;array]("img/object_env-&gt;array.png")
+![env-&gt;vline](img/object_env-&gt;vline.png)
+![env-&gt;array](img/object_env-&gt;array.png)

@@ -38,4 +38,4 @@ properties:
             processing<br>
 
 see also:<br>
-![noise.lfreq0~]("img/object_noise.lfreq0~.png")
+![noise.lfreq0~](img/object_noise.lfreq0~.png)

@@ -49,4 +49,4 @@ properties:
             slant<br>
 
 see also:<br>
-![ui.spectroscope~]("img/object_ui.spectroscope~.png")
+![ui.spectroscope~](img/object_ui.spectroscope~.png)

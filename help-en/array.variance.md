@@ -28,4 +28,4 @@ properties:
 @array: array name<br>
 
 see also:<br>
-![array.stddev]("img/object_array.stddev.png")
+![array.stddev](img/object_array.stddev.png)

@@ -37,5 +37,5 @@ properties:
 
 
 see also:<br>
-![math.atanh~]("img/object_math.atanh~.png")
-![math.tanh]("img/object_math.tanh.png")
+![math.atanh~](img/object_math.atanh~.png)
+![math.tanh](img/object_math.tanh.png)

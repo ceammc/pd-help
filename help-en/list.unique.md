@@ -25,4 +25,4 @@ properties:
             appearing order<br>
 
 see also:<br>
-![list.sort]("img/object_list.sort.png")
+![list.sort](img/object_list.sort.png)

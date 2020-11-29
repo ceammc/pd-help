@@ -27,5 +27,5 @@ properties:
             elements in list<br>
 
 see also:<br>
-![data.set]("img/object_data.set.png")
-![global.set]("img/object_global.set.png")
+![data.set](img/object_data.set.png)
+![global.set](img/object_global.set.png)

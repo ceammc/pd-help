@@ -47,5 +47,5 @@ properties:
             processing<br>
 
 see also:<br>
-![env.adsr~]("img/object_env.adsr~.png")
-![env.ar~]("img/object_env.ar~.png")
+![env.adsr~](img/object_env.adsr~.png)
+![env.ar~](img/object_env.ar~.png)

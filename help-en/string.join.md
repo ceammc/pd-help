@@ -26,4 +26,4 @@ properties:
 @sep: separator<br>
 
 see also:<br>
-![string.split]("img/object_string.split.png")
+![string.split](img/object_string.split.png)

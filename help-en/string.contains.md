@@ -25,4 +25,4 @@ properties:
 
 
 see also:<br>
-![str.ends_with]("img/object_str.ends_with.png")
+![str.ends_with](img/object_str.ends_with.png)

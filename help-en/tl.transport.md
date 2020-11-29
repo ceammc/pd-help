@@ -22,4 +22,4 @@ properties:
 
 
 see also:<br>
-![tl.cue]("img/object_tl.cue.png")
+![tl.cue](img/object_tl.cue.png)

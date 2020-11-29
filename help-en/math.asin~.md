@@ -37,5 +37,5 @@ properties:
 
 
 see also:<br>
-![math.asin]("img/object_math.asin.png")
-![math.acos~]("img/object_math.acos~.png")
+![math.asin](img/object_math.asin.png)
+![math.acos~](img/object_math.acos~.png)

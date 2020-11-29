@@ -23,5 +23,5 @@ properties:
 @cue: related cue<br>
 
 see also:<br>
-![tl.bang]("img/object_tl.bang.png")
-![tl.cue]("img/object_tl.cue.png")
+![tl.bang](img/object_tl.bang.png)
+![tl.cue](img/object_tl.cue.png)

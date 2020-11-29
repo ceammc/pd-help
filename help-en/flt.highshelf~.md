@@ -34,5 +34,5 @@ properties:
             processing<br>
 
 see also:<br>
-![flt.lowshelf~]("img/object_flt.lowshelf~.png")
-![flt.c_highshelf~]("img/object_flt.c_highshelf~.png")
+![flt.lowshelf~](img/object_flt.lowshelf~.png)
+![flt.c_highshelf~](img/object_flt.c_highshelf~.png)

@@ -28,6 +28,6 @@ properties:
 
 
 see also:<br>
-![preset.float]("img/object_preset.float.png")
-![preset.symbol]("img/object_preset.symbol.png")
-![preset.list]("img/object_preset.list.png")
+![preset.float](img/object_preset.float.png)
+![preset.symbol](img/object_preset.symbol.png)
+![preset.list](img/object_preset.list.png)

@@ -28,4 +28,4 @@ properties:
 @array: array name<br>
 
 see also:<br>
-![array.variance]("img/object_array.variance.png")
+![array.variance](img/object_array.variance.png)

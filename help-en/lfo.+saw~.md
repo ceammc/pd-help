@@ -35,6 +35,6 @@ properties:
             processing<br>
 
 see also:<br>
-![lfo.saw~]("img/object_lfo.saw~.png")
-![lfo.+square~]("img/object_lfo.+square~.png")
-![lfo.impulse~]("img/object_lfo.impulse~.png")
+![lfo.saw~](img/object_lfo.saw~.png)
+![lfo.+square~](img/object_lfo.+square~.png)
+![lfo.impulse~](img/object_lfo.impulse~.png)

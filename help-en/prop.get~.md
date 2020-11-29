@@ -26,4 +26,4 @@ properties:
 
 
 see also:<br>
-![prop-&gt;]("img/object_prop-&gt;.png")
+![prop-&gt;](img/object_prop-&gt;.png)

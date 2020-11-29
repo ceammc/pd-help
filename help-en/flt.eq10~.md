@@ -49,4 +49,4 @@ properties:
             processing<br>
 
 see also:<br>
-![flt.eq_peak~]("img/object_flt.eq_peak~.png")
+![flt.eq_peak~](img/object_flt.eq_peak~.png)

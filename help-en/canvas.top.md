@@ -37,5 +37,5 @@ properties:
 @y: window y-pos<br>
 
 see also:<br>
-![patch.args]("img/object_patch.args.png")
-![canvas.current]("img/object_canvas.current.png")
+![patch.args](img/object_patch.args.png)
+![canvas.current](img/object_canvas.current.png)

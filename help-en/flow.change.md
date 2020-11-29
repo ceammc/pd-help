@@ -34,4 +34,4 @@ properties:
 @onrepeat: function called when repeat occurs<br>
 
 see also:<br>
-![change]("img/object_change.png")
+![change](img/object_change.png)

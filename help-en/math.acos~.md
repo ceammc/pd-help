@@ -37,4 +37,4 @@ properties:
 
 
 see also:<br>
-![math.acos]("img/object_math.acos.png")
+![math.acos](img/object_math.acos.png)

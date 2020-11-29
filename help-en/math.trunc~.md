@@ -42,6 +42,6 @@ properties:
 
 
 see also:<br>
-![math.trunc]("img/object_math.trunc.png")
-![math.ceil~]("img/object_math.ceil~.png")
-![math.round~]("img/object_math.round~.png")
+![math.trunc](img/object_math.trunc.png)
+![math.ceil~](img/object_math.ceil~.png)
+![math.round~](img/object_math.round~.png)

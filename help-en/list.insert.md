@@ -25,5 +25,5 @@ properties:
             index<br>
 
 see also:<br>
-![list.append]("img/object_list.append.png")
-![list.prepend]("img/object_list.prepend.png")
+![list.append](img/object_list.append.png)
+![list.prepend](img/object_list.prepend.png)

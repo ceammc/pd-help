@@ -28,4 +28,4 @@ properties:
             elements in list<br>
 
 see also:<br>
-![data.list]("img/object_data.list.png")
+![data.list](img/object_data.list.png)

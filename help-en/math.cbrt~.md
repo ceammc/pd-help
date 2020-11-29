@@ -37,4 +37,4 @@ properties:
 
 
 see also:<br>
-![math.cbrt]("img/object_math.cbrt.png")
+![math.cbrt](img/object_math.cbrt.png)

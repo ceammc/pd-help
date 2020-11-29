@@ -39,4 +39,4 @@ properties:
 @size: new size<br>
 
 see also:<br>
-![list.shift]("img/object_list.shift.png")
+![list.shift](img/object_list.shift.png)

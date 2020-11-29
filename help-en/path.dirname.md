@@ -31,4 +31,4 @@ properties:
 
 
 see also:<br>
-![path.basename]("img/object_path.basename.png")
+![path.basename](img/object_path.basename.png)

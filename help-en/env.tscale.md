@@ -29,5 +29,5 @@ properties:
 @scale: time-scale<br>
 
 see also:<br>
-![env.tshift]("img/object_env.tshift.png")
-![envelope]("img/object_envelope.png")
+![env.tshift](img/object_env.tshift.png)
+![envelope](img/object_envelope.png)

@@ -64,4 +64,4 @@ properties:
             slant<br>
 
 see also:<br>
-![ui.number]("img/object_ui.number.png")
+![ui.number](img/object_ui.number.png)

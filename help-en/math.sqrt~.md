@@ -37,5 +37,5 @@ properties:
 
 
 see also:<br>
-![math.squared~]("img/object_math.squared~.png")
-![math.sqrt]("img/object_math.sqrt.png")
+![math.squared~](img/object_math.squared~.png)
+![math.sqrt](img/object_math.sqrt.png)

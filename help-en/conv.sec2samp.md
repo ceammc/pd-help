@@ -22,4 +22,4 @@ properties:
 
 
 see also:<br>
-![conv.samp2sec]("img/object_conv.samp2sec.png")
+![conv.samp2sec](img/object_conv.samp2sec.png)

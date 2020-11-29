@@ -37,5 +37,5 @@ properties:
 
 
 see also:<br>
-![math.atan]("img/object_math.atan.png")
-![math.acos~]("img/object_math.acos~.png")
+![math.atan](img/object_math.atan.png)
+![math.acos~](img/object_math.acos~.png)

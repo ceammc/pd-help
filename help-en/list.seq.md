@@ -32,4 +32,4 @@ properties:
 @closed: generate closed range sequence<br>
 
 see also:<br>
-![list.gen]("img/object_list.gen.png")
+![list.gen](img/object_list.gen.png)

@@ -23,4 +23,4 @@ properties:
 
 
 see also:<br>
-![math.&gt;=&#39;]("img/object_math.&gt;=&#39;.png")
+![math.&gt;=&#39;](img/object_math.&gt;=&#39;.png)

@@ -28,4 +28,4 @@ properties:
 @value: current value<br>
 
 see also:<br>
-![data.float]("img/object_data.float.png")
+![data.float](img/object_data.float.png)

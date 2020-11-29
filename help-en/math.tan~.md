@@ -36,6 +36,6 @@ properties:
 
 
 see also:<br>
-![math.tan~]("img/object_math.tan~.png")
-![math.asin]("img/object_math.asin.png")
-![math.atan]("img/object_math.atan.png")
+![math.tan~](img/object_math.tan~.png)
+![math.asin](img/object_math.asin.png)
+![math.atan](img/object_math.atan.png)

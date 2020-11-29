@@ -24,4 +24,4 @@ properties:
 
 
 see also:<br>
-![math.cdiv~]("img/object_math.cdiv~.png")
+![math.cdiv~](img/object_math.cdiv~.png)

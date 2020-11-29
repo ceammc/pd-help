@@ -44,5 +44,5 @@ properties:
             interval<br>
 
 see also:<br>
-![plot.geomspace~]("img/object_plot.geomspace~.png")
-![plot.logspace~]("img/object_plot.logspace~.png")
+![plot.geomspace~](img/object_plot.geomspace~.png)
+![plot.logspace~](img/object_plot.logspace~.png)

@@ -28,5 +28,5 @@ properties:
             value<br>
 
 see also:<br>
-![local.int]("img/object_local.int.png")
-![global.int]("img/object_global.int.png")
+![local.int](img/object_local.int.png)
+![global.int](img/object_global.int.png)

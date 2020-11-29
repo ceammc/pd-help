@@ -20,4 +20,4 @@ properties:
 
 
 see also:<br>
-![math.math]("img/object_math.math.png")
+![math.math](img/object_math.math.png)

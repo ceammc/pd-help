@@ -23,4 +23,4 @@ properties:
 
 
 see also:<br>
-![math.lcm]("img/object_math.lcm.png")
+![math.lcm](img/object_math.lcm.png)

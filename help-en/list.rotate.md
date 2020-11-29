@@ -32,4 +32,4 @@ properties:
             rotation direction to opposite<br>
 
 see also:<br>
-![list.choice]("img/object_list.choice.png")
+![list.choice](img/object_list.choice.png)

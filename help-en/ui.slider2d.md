@@ -78,5 +78,5 @@ properties:
             pixels<br>
 
 see also:<br>
-![ui.slider]("img/object_ui.slider.png")
-![ui.polar]("img/object_ui.polar.png")
+![ui.slider](img/object_ui.slider.png)
+![ui.polar](img/object_ui.polar.png)

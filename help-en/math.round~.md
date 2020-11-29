@@ -26,4 +26,4 @@ properties:
 
 
 see also:<br>
-![math.round]("img/object_math.round.png")
+![math.round](img/object_math.round.png)

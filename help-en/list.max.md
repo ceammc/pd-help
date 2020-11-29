@@ -38,4 +38,4 @@ properties:
             Note: symbols are greater then numbers<br>
 
 see also:<br>
-![list.min]("img/object_list.min.png")
+![list.min](img/object_list.min.png)

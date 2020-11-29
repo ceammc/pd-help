@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # string.equal
 
 ```
@@ -14,6 +17,8 @@
             
 ```
 ---
+check strings for equality
+---
 arguments:
 
 STR: second string initial value<br>
@@ -22,5 +27,6 @@ STR: second string initial value<br>
 properties:
 
 
+---
 see also:<br>
-![string](img/object_string.png)
+[![string](img/object_string.png)](string.md)

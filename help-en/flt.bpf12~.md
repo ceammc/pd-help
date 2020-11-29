@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # flt.bpf12~
 
 ```
@@ -35,6 +38,8 @@
             
 ```
 ---
+Two pole band-pass butterworth filter
+---
 arguments:
 
 freq(Hz): center
@@ -51,6 +56,7 @@ properties:
 @active: on/off dsp
             processing<br>
 
+---
 see also:<br>
-![flt.bpf24~](img/object_flt.bpf24~.png)
-![flt.c_bpf~](img/object_flt.c_bpf~.png)
+[![flt.bpf24~](img/object_flt.bpf24~.png)](flt.bpf24~.md)
+[![flt.c_bpf~](img/object_flt.c_bpf~.png)](flt.c_bpf~.md)

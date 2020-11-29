@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # xfade2~
 
 ```
@@ -20,6 +23,8 @@
             
 ```
 ---
+multi stereo-signal crossfade
+---
 arguments:
 
 N: number of signal inputs
@@ -35,5 +40,6 @@ properties:
 @lin: alias to @type lin<br>
 @pow: alias to @type pow<br>
 
+---
 see also:<br>
-![xfade~](img/object_xfade~.png)
+[![xfade~](img/object_xfade~.png)](xfade~.md)

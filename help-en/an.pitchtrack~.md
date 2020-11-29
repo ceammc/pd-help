@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # an.pitchtrack~
 
 ```
@@ -17,6 +20,8 @@
 
             
 ```
+---
+pitch tracker
 ---
 arguments:
 
@@ -38,6 +43,7 @@ properties:
             fidelity threshold to report the pitch<br>
 @maxfreq(Hz): max tracked frequency<br>
 
+---
 see also:<br>
-![sigmund~](img/object_sigmund~.png)
-![fiddle~](img/object_fiddle~.png)
+[![sigmund~](img/object_sigmund~.png)](sigmund~.md)
+[![fiddle~](img/object_fiddle~.png)](fiddle~.md)

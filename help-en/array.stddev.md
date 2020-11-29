@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # array.stddev
 
 ```
@@ -18,6 +21,8 @@
             
 ```
 ---
+calculates standard deviation for array values
+---
 arguments:
 
 NAME: array name<br>
@@ -27,5 +32,6 @@ properties:
 
 @array: array name<br>
 
+---
 see also:<br>
-![array.variance](img/object_array.variance.png)
+[![array.variance](img/object_array.variance.png)](array.variance.md)

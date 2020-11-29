@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # pan.cos~
 
 ```
@@ -18,6 +21,8 @@
             
 ```
 ---
+two channel equal power sine/cosine panner
+---
 arguments:
 
 POS: panning position. -1 means
@@ -30,6 +35,7 @@ properties:
             position. -1 means left, 0 - center, +1 - right<br>
 @smooth: smooth control signal to avoid zipping-noise<br>
 
+---
 see also:<br>
-![pan.lin~](img/object_pan.lin~.png)
-![pan.sqrt~](img/object_pan.sqrt~.png)
+[![pan.lin~](img/object_pan.lin~.png)](pan.lin~.md)
+[![pan.sqrt~](img/object_pan.sqrt~.png)](pan.sqrt~.md)

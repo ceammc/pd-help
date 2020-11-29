@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # list.min
 
 ```
@@ -22,6 +25,8 @@
             
 ```
 ---
+returns smallest element in the list
+---
 arguments:
 
 
@@ -37,6 +42,7 @@ properties:
 @any: alias for @type any. Find greatest atom of any type.
             Note: symbols are greater then numbers<br>
 
+---
 see also:<br>
-![list.max](img/object_list.max.png)
-![list.range](img/object_list.range.png)
+[![list.max](img/object_list.max.png)](list.max.md)
+[![list.range](img/object_list.range.png)](list.range.md)

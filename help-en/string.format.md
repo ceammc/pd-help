@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # string.format
 
 ```
@@ -16,6 +19,8 @@
 
             
 ```
+---
+formats string like printf.
 ---
 arguments:
 

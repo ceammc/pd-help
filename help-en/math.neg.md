@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # math.neg
 
 ```
@@ -13,6 +16,8 @@
 
             
 ```
+---
+negate function
 ---
 arguments:
 

@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # hoa.2d.wider~
 
 ```
@@ -29,6 +32,8 @@
 
             
 ```
+---
+a 2d fractional ambisonic order simulator
 ---
 arguments:
 

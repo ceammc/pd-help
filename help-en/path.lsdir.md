@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # path.lsdir
 
 ```
@@ -21,6 +24,8 @@
 
             
 ```
+---
+list directory contents
 ---
 arguments:
 

@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # osc.sinfb~
 
 ```
@@ -23,6 +26,8 @@
 
             
 ```
+---
+Sine oscilator with feedback
 ---
 arguments:
 

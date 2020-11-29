@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # fx.freqshift~
 
 ```
@@ -19,6 +22,8 @@
 
             
 ```
+---
+frequency shifter or single-sideband ring modulation
 ---
 arguments:
 

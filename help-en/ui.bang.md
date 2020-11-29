@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # ui.bang
 
 ```
@@ -13,6 +16,8 @@
 
             
 ```
+---
+A bang... that&#39;s all
 ---
 arguments:
 
@@ -53,5 +58,6 @@ properties:
 @label_margins: label offset in
             pixels<br>
 
+---
 see also:<br>
-![ui.toggle](img/object_ui.toggle.png)
+[![ui.toggle](img/object_ui.toggle.png)](ui.toggle.md)

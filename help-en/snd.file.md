@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # snd.file
 
 ```
@@ -39,6 +42,8 @@
 
             
 ```
+---
+Sound file loader on steroids
 ---
 arguments:
 

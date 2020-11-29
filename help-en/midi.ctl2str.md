@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # midi.ctl2str
 
 ```
@@ -15,6 +18,8 @@
 
             
 ```
+---
+convert Standard MIDI Controllers number to name
 ---
 arguments:
 

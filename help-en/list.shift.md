@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # list.shift
 
 ```
@@ -28,6 +31,8 @@
             
 ```
 ---
+shifts the contents of the list with linear interpolation
+---
 arguments:
 
 shift: shift amount. Float values cause linear
@@ -38,5 +43,6 @@ properties:
 
 @shift: shift amount<br>
 
+---
 see also:<br>
-![list.rotate](img/object_list.rotate.png)
+[![list.rotate](img/object_list.rotate.png)](list.rotate.md)

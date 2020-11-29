@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # ui.preset
 
 ```
@@ -24,6 +27,8 @@
 
             
 ```
+---
+Preset manager
 ---
 arguments:
 
@@ -59,6 +64,7 @@ properties:
 @fontslant: font
             slant<br>
 
+---
 see also:<br>
-![preset.float](img/object_preset.float.png)
-![preset.storage](img/object_preset.storage.png)
+[![preset.float](img/object_preset.float.png)](preset.float.md)
+[![preset.storage](img/object_preset.storage.png)](preset.storage.md)

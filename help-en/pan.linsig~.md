@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # pan.linsig~
 
 ```
@@ -16,6 +19,8 @@
             
 ```
 ---
+two channel linear panner with signal control
+---
 arguments:
 
 
@@ -23,6 +28,7 @@ arguments:
 properties:
 
 
+---
 see also:<br>
-![pan.sqrt~](img/object_pan.sqrt~.png)
-![pan.cos~](img/object_pan.cos~.png)
+[![pan.sqrt~](img/object_pan.sqrt~.png)](pan.sqrt~.md)
+[![pan.cos~](img/object_pan.cos~.png)](pan.cos~.md)

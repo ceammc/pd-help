@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # system.cursor
 
 ```
@@ -17,6 +20,8 @@
 
             
 ```
+---
+Output cursor motion, mousewheel and buttonclicks
 ---
 arguments:
 

@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # expand_env
 
 ```
@@ -29,6 +32,8 @@
             
 ```
 ---
+Substitute enviroment variables in data stream
+---
 arguments:
 
 
@@ -38,5 +43,6 @@ properties:
 @any: if specified - also do substitution in message
             selector<br>
 
+---
 see also:<br>
-![replace](img/object_replace.png)
+[![replace](img/object_replace.png)](replace.md)

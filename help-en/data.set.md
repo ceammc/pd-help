@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # data.set
 
 ```
@@ -20,6 +23,8 @@
             
 ```
 ---
+container that store unique elements
+---
 arguments:
 
 X: set elements<br>
@@ -32,6 +37,7 @@ properties:
 @size: number of
             elements in list<br>
 
+---
 see also:<br>
-![set-&gt;list](img/object_set-&gt;list.png)
-![data.list](img/object_data.list.png)
+[![set-&gt;list](img/object_set-&gt;list.png)](set->list.md)
+[![data.list](img/object_data.list.png)](data.list.md)

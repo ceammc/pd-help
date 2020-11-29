@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # math.cmul~
 
 ```
@@ -16,6 +19,8 @@
             
 ```
 ---
+multiplication of complex signals
+---
 arguments:
 
 
@@ -23,5 +28,6 @@ arguments:
 properties:
 
 
+---
 see also:<br>
-![math.cdiv~](img/object_math.cdiv~.png)
+[![math.cdiv~](img/object_math.cdiv~.png)](math.cdiv~.md)

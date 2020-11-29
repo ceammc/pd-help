@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # list.at
 
 ```
@@ -27,6 +30,8 @@
             
 ```
 ---
+on input list outputs element(s) at specified index(es)
+---
 arguments:
 
 position: single or multiple elements position<br>
@@ -49,6 +54,7 @@ properties:
 @default: default output value if not found. If not set,
             outputs error message to console<br>
 
+---
 see also:<br>
-![list.^at](img/object_list.^at.png)
-![list.apply_to](img/object_list.apply_to.png)
+[![list.^at](img/object_list.^at.png)](list.^at.md)
+[![list.apply_to](img/object_list.apply_to.png)](list.apply_to.md)

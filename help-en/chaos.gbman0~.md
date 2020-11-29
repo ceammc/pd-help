@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # chaos.gbman0~
 
 ```
@@ -18,6 +21,8 @@
             
 ```
 ---
+Gingerbreadman map chaotic generator
+---
 arguments:
 
 X: initial x value, default 1.2<br>
@@ -27,5 +32,6 @@ Y: initial y value, default 2.1<br>
 properties:
 
 
+---
 see also:<br>
-![chaos.gbman0](img/object_chaos.gbman0.png)
+[![chaos.gbman0](img/object_chaos.gbman0.png)](chaos.gbman0.md)

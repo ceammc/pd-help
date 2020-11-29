@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # math.floor
 
 ```
@@ -14,6 +17,8 @@
             
 ```
 ---
+round to largest integral value not greater than x
+---
 arguments:
 
 
@@ -21,7 +26,8 @@ arguments:
 properties:
 
 
+---
 see also:<br>
-![math.ceil](img/object_math.ceil.png)
-![math.round](img/object_math.round.png)
-![math.trunc](img/object_math.trunc.png)
+[![math.ceil](img/object_math.ceil.png)](math.ceil.md)
+[![math.round](img/object_math.round.png)](math.round.md)
+[![math.trunc](img/object_math.trunc.png)](math.trunc.md)

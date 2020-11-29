@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # osc.pulse~
 
 ```
@@ -24,6 +27,8 @@
             
 ```
 ---
+Bandlimited pulse train oscillator
+---
 arguments:
 
 freq(Hz): frequency<br>
@@ -37,5 +42,6 @@ properties:
 @duty: duty
             cycle<br>
 
+---
 see also:<br>
-![osc.impulse~](img/object_osc.impulse~.png)
+[![osc.impulse~](img/object_osc.impulse~.png)](osc.impulse~.md)

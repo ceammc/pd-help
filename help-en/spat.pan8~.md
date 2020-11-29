@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # spat.pan8~
 
 ```
@@ -28,6 +31,8 @@
             
 ```
 ---
+GMEM SPAT: 8-outputs spatializer
+---
 arguments:
 
 ANGLE: circle panning position in
@@ -43,5 +48,6 @@ properties:
 @active: on/off dsp
             processing<br>
 
+---
 see also:<br>
-![pan4~](img/object_pan4~.png)
+[![pan4~](img/object_pan4~.png)](pan4~.md)

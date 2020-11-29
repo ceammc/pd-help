@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # list.choice
 
 ```
@@ -26,6 +29,8 @@
             
 ```
 ---
+returns random element from list
+---
 arguments:
 
 
@@ -36,5 +41,6 @@ properties:
             given: every time output value at new list position, do not repeat choosed position
             twice at adjacent events.<br>
 
+---
 see also:<br>
-![random.int](img/object_random.int.png)
+[![random.int](img/object_random.int.png)](random.int.md)

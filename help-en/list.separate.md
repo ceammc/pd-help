@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # list.separate
 
 ```
@@ -16,6 +19,8 @@
             
 ```
 ---
+sends list elements one by one separately
+---
 arguments:
 
 
@@ -26,6 +31,7 @@ properties:
             enumeration is active output pairs: INDEX ATOM, otherwise single atoms<br>
 @from: enumeration starting index<br>
 
+---
 see also:<br>
-![list.repack](img/object_list.repack.png)
-![list.unpack](img/object_list.unpack.png)
+[![list.repack](img/object_list.repack.png)](list.repack.md)
+[![list.unpack](img/object_list.unpack.png)](list.unpack.md)

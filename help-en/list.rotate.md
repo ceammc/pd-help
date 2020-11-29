@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # list.rotate
 
 ```
@@ -20,6 +23,8 @@
             
 ```
 ---
+rotates list
+---
 arguments:
 
 STEP: rotate step. Negative step changes rotation
@@ -31,5 +36,6 @@ properties:
 @step: rotate step. Negative value change
             rotation direction to opposite<br>
 
+---
 see also:<br>
-![list.choice](img/object_list.choice.png)
+[![list.choice](img/object_list.choice.png)](list.choice.md)

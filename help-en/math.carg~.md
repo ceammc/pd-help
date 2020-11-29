@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # math.carg~
 
 ```
@@ -22,6 +25,8 @@
             
 ```
 ---
+phase angle of a complex signals
+---
 arguments:
 
 
@@ -29,5 +34,6 @@ arguments:
 properties:
 
 
+---
 see also:<br>
-![math.cabs~](img/object_math.cabs~.png)
+[![math.cabs~](img/object_math.cabs~.png)](math.cabs~.md)

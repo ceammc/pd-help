@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # plot.response~
 
 ```
@@ -34,6 +37,8 @@
             
 ```
 ---
+output amp/phase freq response to impulse
+---
 arguments:
 
 N: @n property<br>
@@ -48,6 +53,7 @@ properties:
 @sr: using samplerate. If true output
             in [0..SR/2] instead of [0..pi]<br>
 
+---
 see also:<br>
-![plot.linspace~](img/object_plot.linspace~.png)
-![plot.geomspace~](img/object_plot.geomspace~.png)
+[![plot.linspace~](img/object_plot.linspace~.png)](plot.linspace~.md)
+[![plot.geomspace~](img/object_plot.geomspace~.png)](plot.geomspace~.md)

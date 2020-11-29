@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # flt.c_highshelf~
 
 ```
@@ -27,6 +30,8 @@
             
 ```
 ---
+Highshelf filter coefficient calculator for biquad
+---
 arguments:
 
 freq(Hz): cutoff frequency<br>
@@ -41,6 +46,7 @@ properties:
 @active: on/off dsp
             processing<br>
 
+---
 see also:<br>
-![flt.highshelf~](img/object_flt.highshelf~.png)
-![flt.biquad~](img/object_flt.biquad~.png)
+[![flt.highshelf~](img/object_flt.highshelf~.png)](flt.highshelf~.md)
+[![flt.biquad~](img/object_flt.biquad~.png)](flt.biquad~.md)

@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # fx.drive~
 
 ```
@@ -21,6 +24,8 @@
 
             
 ```
+---
+Guitarix drive effect
 ---
 arguments:
 

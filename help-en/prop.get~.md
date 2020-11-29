@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # prop.get~
 
 ```
@@ -18,6 +21,8 @@
             
 ```
 ---
+Property extractor from sound stream
+---
 arguments:
 
 
@@ -25,5 +30,6 @@ arguments:
 properties:
 
 
+---
 see also:<br>
-![prop-&gt;](img/object_prop-&gt;.png)
+[![prop-&gt;](img/object_prop-&gt;.png)](prop->.md)

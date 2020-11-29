@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # math.expr
 
 ```
@@ -30,6 +33,8 @@
 
             
 ```
+---
+dynamic [expr]
 ---
 arguments:
 

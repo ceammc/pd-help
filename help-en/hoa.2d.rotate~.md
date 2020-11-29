@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # hoa.2d.rotate~
 
 ```
@@ -31,6 +34,8 @@
             
 ```
 ---
+a 2D ambisonic sound field rotation
+---
 arguments:
 
 ORDER: the order of
@@ -41,5 +46,6 @@ properties:
 
 @order: the order of decomposition<br>
 
+---
 see also:<br>
-![hoa.encoder~](img/object_hoa.encoder~.png)
+[![hoa.encoder~](img/object_hoa.encoder~.png)](hoa.encoder~.md)

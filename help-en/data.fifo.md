@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # data.fifo
 
 ```
@@ -18,6 +21,8 @@
             
 ```
 ---
+First-In-First-Out (FIFO) queue data container
+---
 arguments:
 
 size: if specified, creates fixed-size queue.
@@ -35,5 +40,6 @@ properties:
 @free: number of
             elements you can add to queue until it full<br>
 
+---
 see also:<br>
-![data.list](img/object_data.list.png)
+[![data.list](img/object_data.list.png)](data.list.md)

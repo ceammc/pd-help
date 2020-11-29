@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # math.reciprocal~
 
 ```
@@ -28,6 +31,8 @@
 
             
 ```
+---
+calculate reciprocal number for signals
 ---
 arguments:
 

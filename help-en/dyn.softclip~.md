@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # dyn.softclip~
 
 ```
@@ -16,6 +19,8 @@
 
             
 ```
+---
+soft signal clip
 ---
 arguments:
 

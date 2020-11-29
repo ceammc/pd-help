@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # math.squared~
 
 ```
@@ -29,6 +32,8 @@
 
             
 ```
+---
+signal value square
 ---
 arguments:
 

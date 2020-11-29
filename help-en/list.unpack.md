@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # list.unpack
 
 ```
@@ -12,6 +15,8 @@
             
 ```
 ---
+unpack list elements to separate outlets
+---
 arguments:
 
 N: number of outlets<br>
@@ -20,6 +25,7 @@ N: number of outlets<br>
 properties:
 
 
+---
 see also:<br>
-![list.repack](img/object_list.repack.png)
-![list.separate](img/object_list.separate.png)
+[![list.repack](img/object_list.repack.png)](list.repack.md)
+[![list.separate](img/object_list.separate.png)](list.separate.md)

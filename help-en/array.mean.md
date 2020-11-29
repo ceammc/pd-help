@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # array.mean
 
 ```
@@ -16,6 +19,8 @@
             
 ```
 ---
+calculates array arithmetic mean value
+---
 arguments:
 
 NAME: array name<br>
@@ -25,5 +30,6 @@ properties:
 
 @array: array name<br>
 
+---
 see also:<br>
-![array.sum](img/object_array.sum.png)
+[![array.sum](img/object_array.sum.png)](array.sum.md)

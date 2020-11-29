@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # math.sync_eq
 
 ```
@@ -21,6 +24,8 @@
             
 ```
 ---
+sync equal numbers check
+---
 arguments:
 
 F: second number<br>
@@ -31,5 +36,6 @@ properties:
 @epsilon: compare epsilon. If not
             zero calculates expession: -epsilon &lt; abs(A-B) &lt; +epsilon<br>
 
+---
 see also:<br>
-![math.!=&#39;](img/object_math.!=&#39;.png)
+[![math.!=&#39;](img/object_math.!=&#39;.png)](math.!='.md)

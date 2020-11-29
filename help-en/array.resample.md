@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # array.resample
 
 ```
@@ -22,6 +25,8 @@
 
             
 ```
+---
+array resampler
 ---
 arguments:
 

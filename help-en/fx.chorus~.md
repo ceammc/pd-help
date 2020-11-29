@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # fx.chorus~
 
 ```
@@ -21,6 +24,8 @@
 
             
 ```
+---
+Chorus effect
 ---
 arguments:
 

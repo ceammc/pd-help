@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # flow.count
 
 ```
@@ -15,6 +18,8 @@
 
             
 ```
+---
+control flow event counter
 ---
 arguments:
 

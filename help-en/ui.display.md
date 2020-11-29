@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # ui.display
 
 ```
@@ -23,6 +26,8 @@
 
             
 ```
+---
+Display GUI object
 ---
 arguments:
 
@@ -58,5 +63,6 @@ properties:
 @fontslant: font
             slant<br>
 
+---
 see also:<br>
-![msg](img/object_msg.png)
+[![msg](img/object_msg.png)](msg.md)

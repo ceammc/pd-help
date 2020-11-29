@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # string.starts_with
 
 ```
@@ -16,6 +19,8 @@
             
 ```
 ---
+checks if given string starts with specified prefix
+---
 arguments:
 
 PREFIX: prefix<br>
@@ -24,5 +29,6 @@ PREFIX: prefix<br>
 properties:
 
 
+---
 see also:<br>
-![str.ends_with](img/object_str.ends_with.png)
+[![str.ends_with](img/object_str.ends_with.png)](str.ends_with.md)

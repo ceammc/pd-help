@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # dict.pass
 
 ```
@@ -14,6 +17,8 @@
             
 ```
 ---
+passes specified keys in dict
+---
 arguments:
 
 KEYS: keys<br>
@@ -22,5 +27,6 @@ KEYS: keys<br>
 properties:
 
 
+---
 see also:<br>
-![data.dict](img/object_data.dict.png)
+[![data.dict](img/object_data.dict.png)](data.dict.md)

@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # flt.c_lpf~
 
 ```
@@ -23,6 +26,8 @@
             
 ```
 ---
+LPF coefficient calculator for biquad filter
+---
 arguments:
 
 freq(Hz): center
@@ -39,6 +44,7 @@ properties:
 @active: on/off dsp
             processing<br>
 
+---
 see also:<br>
-![flt.biquad~](img/object_flt.biquad~.png)
-![flt.lpf12~](img/object_flt.lpf12~.png)
+[![flt.biquad~](img/object_flt.biquad~.png)](flt.biquad~.md)
+[![flt.lpf12~](img/object_flt.lpf12~.png)](flt.lpf12~.md)

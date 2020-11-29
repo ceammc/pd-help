@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # flow.gate
 
 ```
@@ -12,6 +15,8 @@
             
 ```
 ---
+control flow gate. [spigot] analog
+---
 arguments:
 
 PASS: init gate state. 1 means open, 0 - closed. By default
@@ -23,5 +28,6 @@ properties:
 @state: gate state. 1 means open, 0 -
             closed<br>
 
+---
 see also:<br>
-![flow.pass](img/object_flow.pass.png)
+[![flow.pass](img/object_flow.pass.png)](flow.pass.md)

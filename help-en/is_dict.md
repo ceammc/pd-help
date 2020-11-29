@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # is_dict
 
 ```
@@ -14,6 +17,8 @@
             
 ```
 ---
+checks if input data has *dict* type
+---
 arguments:
 
 
@@ -21,5 +26,6 @@ arguments:
 properties:
 
 
+---
 see also:<br>
-![data.dict](img/object_data.dict.png)
+[![data.dict](img/object_data.dict.png)](data.dict.md)

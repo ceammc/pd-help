@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # conv.ms2samp
 
 ```
@@ -12,6 +15,9 @@
             
 ```
 ---
+convert time in milliseconds to number of samples according to current
+            samplerate
+---
 arguments:
 
 
@@ -19,5 +25,6 @@ arguments:
 properties:
 
 
+---
 see also:<br>
-![conv.samp2ms](img/object_conv.samp2ms.png)
+[![conv.samp2ms](img/object_conv.samp2ms.png)](conv.samp2ms.md)

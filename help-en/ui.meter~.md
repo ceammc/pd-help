@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # ui.meter~
 
 ```
@@ -23,6 +26,8 @@
 
             
 ```
+---
+Shows peak and rms signal level
 ---
 arguments:
 

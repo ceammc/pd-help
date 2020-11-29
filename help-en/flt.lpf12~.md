@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # flt.lpf12~
 
 ```
@@ -28,6 +31,8 @@
             
 ```
 ---
+Low-pass second order Butterworth filter
+---
 arguments:
 
 freq(Hz): cutoff
@@ -40,7 +45,8 @@ properties:
 @active: on/off dsp
             processing<br>
 
+---
 see also:<br>
-![flt.lpf24~](img/object_flt.lpf24~.png)
-![flt.hpf12~](img/object_flt.hpf12~.png)
-![flt.c_lpf~](img/object_flt.c_lpf~.png)
+[![flt.lpf24~](img/object_flt.lpf24~.png)](flt.lpf24~.md)
+[![flt.hpf12~](img/object_flt.hpf12~.png)](flt.hpf12~.md)
+[![flt.c_lpf~](img/object_flt.c_lpf~.png)](flt.c_lpf~.md)

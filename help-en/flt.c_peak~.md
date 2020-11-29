@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # flt.c_peak~
 
 ```
@@ -23,6 +26,8 @@
             
 ```
 ---
+Peaking equalizer calculator for biquad
+---
 arguments:
 
 freq(Hz): center
@@ -42,6 +47,7 @@ properties:
 @active: on/off dsp
             processing<br>
 
+---
 see also:<br>
-![flt.eq_peak~](img/object_flt.eq_peak~.png)
-![flt.biquad~](img/object_flt.biquad~.png)
+[![flt.eq_peak~](img/object_flt.eq_peak~.png)](flt.eq_peak~.md)
+[![flt.biquad~](img/object_flt.biquad~.png)](flt.biquad~.md)

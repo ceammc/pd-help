@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # list.route
 
 ```
@@ -53,6 +56,8 @@
             
 ```
 ---
+acts like [route] but for lists
+---
 arguments:
 
 @type: list of matched atoms<br>
@@ -66,5 +71,6 @@ properties:
             simplification - transform them to floats or symbols<br>
 @as_any: trim list or symbol selector on output.<br>
 
+---
 see also:<br>
-![route](img/object_route.png)
+[![route](img/object_route.png)](route.md)

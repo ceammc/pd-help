@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # system.memsize
 
 ```
@@ -17,6 +20,9 @@
             
 ```
 ---
+returns the size of physical memory (RAM) in bytes round to float data
+            type.
+---
 arguments:
 
 
@@ -24,5 +30,6 @@ arguments:
 properties:
 
 
+---
 see also:<br>
-![system.memused](img/object_system.memused.png)
+[![system.memused](img/object_system.memused.png)](system.memused.md)

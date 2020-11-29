@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # synth.ks~
 
 ```
@@ -30,6 +33,8 @@
 
             
 ```
+---
+Karplus-Strong string
 ---
 arguments:
 

@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # an.onset~
 
 ```
@@ -15,6 +18,8 @@
 
             
 ```
+---
+onset detector
 ---
 arguments:
 
@@ -62,5 +67,6 @@ properties:
 @active: audio processing
             state<br>
 
+---
 see also:<br>
-![an.onset](img/object_an.onset.png)
+[![an.onset](img/object_an.onset.png)](an.onset.md)

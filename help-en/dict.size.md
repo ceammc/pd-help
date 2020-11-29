@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # dict.size
 
 ```
@@ -14,6 +17,8 @@
             
 ```
 ---
+dictionary size
+---
 arguments:
 
 
@@ -21,6 +26,7 @@ arguments:
 properties:
 
 
+---
 see also:<br>
-![data.dict](img/object_data.dict.png)
-![dict.keys](img/object_dict.keys.png)
+[![data.dict](img/object_data.dict.png)](data.dict.md)
+[![dict.keys](img/object_dict.keys.png)](dict.keys.md)

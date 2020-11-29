@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # list.rldecode
 
 ```
@@ -14,6 +17,8 @@
             
 ```
 ---
+Run-length list decoder (RLE)
+---
 arguments:
 
 LST: initial element repeat list<br>
@@ -22,5 +27,6 @@ LST: initial element repeat list<br>
 properties:
 
 
+---
 see also:<br>
-![list.rlencode](img/object_list.rlencode.png)
+[![list.rlencode](img/object_list.rlencode.png)](list.rlencode.md)

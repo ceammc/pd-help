@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # list.length
 
 ```
@@ -14,6 +17,8 @@
             
 ```
 ---
+returns the number of atoms in the list
+---
 arguments:
 
 
@@ -21,5 +26,6 @@ arguments:
 properties:
 
 
+---
 see also:<br>
-![list.at](img/object_list.at.png)
+[![list.at](img/object_list.at.png)](list.at.md)

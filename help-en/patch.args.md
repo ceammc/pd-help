@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # patch.args
 
 ```
@@ -14,6 +17,8 @@
             
 ```
 ---
+Get patch or subpatch arguments
+---
 arguments:
 
 
@@ -21,7 +26,8 @@ arguments:
 properties:
 
 
+---
 see also:<br>
-![canvas.current](img/object_canvas.current.png)
-![canvas.top](img/object_canvas.top.png)
-![list-&gt;props](img/object_list-&gt;props.png)
+[![canvas.current](img/object_canvas.current.png)](canvas.current.md)
+[![canvas.top](img/object_canvas.top.png)](canvas.top.md)
+[![list-&gt;props](img/object_list-&gt;props.png)](list->props.md)

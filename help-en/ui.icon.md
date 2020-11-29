@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # ui.icon
 
 ```
@@ -265,6 +268,8 @@
             
 ```
 ---
+simple icon with button capabilities
+---
 arguments:
 
 NAME: icon name from list<br>
@@ -303,5 +308,6 @@ properties:
 @fontslant: font
             slant<br>
 
+---
 see also:<br>
-![ui.bang](img/object_ui.bang.png)
+[![ui.bang](img/object_ui.bang.png)](ui.bang.md)

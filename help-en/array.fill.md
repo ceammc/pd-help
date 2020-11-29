@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # array.fill
 
 ```
@@ -42,6 +45,8 @@
             
 ```
 ---
+fill array with single value or pattern
+---
 arguments:
 
 
@@ -52,5 +57,6 @@ properties:
 @redraw: redraw after array
             change<br>
 
+---
 see also:<br>
-![array.each](img/object_array.each.png)
+[![array.each](img/object_array.each.png)](array.each.md)

@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # array.variance
 
 ```
@@ -18,6 +21,8 @@
             
 ```
 ---
+calculates variance of array values
+---
 arguments:
 
 NAME: array name<br>
@@ -27,5 +32,6 @@ properties:
 
 @array: array name<br>
 
+---
 see also:<br>
-![array.stddev](img/object_array.stddev.png)
+[![array.stddev](img/object_array.stddev.png)](array.stddev.md)

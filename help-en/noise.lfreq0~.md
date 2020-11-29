@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # noise.lfreq0~
 
 ```
@@ -25,6 +28,8 @@
             
 ```
 ---
+sampled/held noise (piecewise constant)
+---
 arguments:
 
 FREQ: noise generation freq<br>
@@ -37,5 +42,6 @@ properties:
 @active: on/off dsp
             processing<br>
 
+---
 see also:<br>
-![noise.lfreq~](img/object_noise.lfreq~.png)
+[![noise.lfreq~](img/object_noise.lfreq~.png)](noise.lfreq~.md)

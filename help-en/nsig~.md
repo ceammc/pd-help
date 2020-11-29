@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # nsig~
 
 ```
@@ -19,6 +22,8 @@
             
 ```
 ---
+Mulitchannel converter from control to audio rate
+---
 arguments:
 
 NUM: @n property<br>
@@ -31,5 +36,6 @@ properties:
             inputs/outputs<br>
 @values: current output values<br>
 
+---
 see also:<br>
-![sig~](img/object_sig~.png)
+[![sig~](img/object_sig~.png)](sig~.md)

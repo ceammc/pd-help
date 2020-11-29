@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # string.ends_with
 
 ```
@@ -16,6 +19,8 @@
             
 ```
 ---
+checks if given string ends with specified suffix
+---
 arguments:
 
 SUFFIX: suffix<br>
@@ -24,5 +29,6 @@ SUFFIX: suffix<br>
 properties:
 
 
+---
 see also:<br>
-![str.starts_with](img/object_str.starts_with.png)
+[![str.starts_with](img/object_str.starts_with.png)](str.starts_with.md)

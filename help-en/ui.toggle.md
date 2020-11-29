@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # ui.toggle
 
 ```
@@ -17,6 +20,8 @@
 
             
 ```
+---
+modern toggle widget
 ---
 arguments:
 
@@ -47,5 +52,6 @@ properties:
 @fontslant: font
             slant<br>
 
+---
 see also:<br>
-![ui.bang](img/object_ui.bang.png)
+[![ui.bang](img/object_ui.bang.png)](ui.bang.md)

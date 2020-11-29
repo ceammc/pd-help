@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # midi.event2ctl
 
 ```
@@ -23,6 +26,8 @@
 
             
 ```
+---
+convert MidiEvent message to controller channel/value pair
 ---
 arguments:
 

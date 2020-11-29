@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # array.do
 
 ```
@@ -23,6 +26,8 @@
             
 ```
 ---
+iterate and modify array content via side-chain
+---
 arguments:
 
 
@@ -33,5 +38,6 @@ properties:
 @redraw: redraw after array
             change<br>
 
+---
 see also:<br>
-![array.each](img/object_array.each.png)
+[![array.each](img/object_array.each.png)](array.each.md)

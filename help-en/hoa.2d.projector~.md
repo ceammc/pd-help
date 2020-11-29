@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # hoa.2d.projector~
 
 ```
@@ -28,6 +31,8 @@
             
 ```
 ---
+a plane waves decomposer from circular harmonics domain
+---
 arguments:
 
 ORDER: the order of
@@ -42,5 +47,6 @@ properties:
 @n: 
             number of channels (planewaves)<br>
 
+---
 see also:<br>
-![hoa.2d.recomposer~](img/object_hoa.2d.recomposer~.png)
+[![hoa.2d.recomposer~](img/object_hoa.2d.recomposer~.png)](hoa.2d.recomposer~.md)

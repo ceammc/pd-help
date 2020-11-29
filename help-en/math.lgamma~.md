@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # math.lgamma~
 
 ```
@@ -28,6 +31,9 @@
             
 ```
 ---
+natural logarithm of the absolute value of the gamma function for
+            signals
+---
 arguments:
 
 
@@ -35,6 +41,7 @@ arguments:
 properties:
 
 
+---
 see also:<br>
-![math.lgamma](img/object_math.lgamma.png)
-![math.gamma~](img/object_math.gamma~.png)
+[![math.lgamma](img/object_math.lgamma.png)](math.lgamma.md)
+[![math.gamma~](img/object_math.gamma~.png)](math.gamma~.md)

@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # ui.incdec
 
 ```
@@ -17,6 +20,8 @@
 
             
 ```
+---
+value increment/decrement
 ---
 arguments:
 
@@ -48,5 +53,6 @@ properties:
 @fontslant: font
             slant<br>
 
+---
 see also:<br>
-![ui.number](img/object_ui.number.png)
+[![ui.number](img/object_ui.number.png)](ui.number.md)

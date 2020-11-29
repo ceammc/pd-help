@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # lfo.pulse~
 
 ```
@@ -18,6 +21,8 @@
             
 ```
 ---
+Full-range unit-amplitude low frequency pulse train
+---
 arguments:
 
 freq(Hz): frequency<br>
@@ -31,7 +36,8 @@ properties:
 @active: on/off dsp
             processing<br>
 
+---
 see also:<br>
-![lfo.+pulse~](img/object_lfo.+pulse~.png)
-![lfo.square~](img/object_lfo.square~.png)
-![lfo.impulse~](img/object_lfo.impulse~.png)
+[![lfo.+pulse~](img/object_lfo.+pulse~.png)](lfo.+pulse~.md)
+[![lfo.square~](img/object_lfo.square~.png)](lfo.square~.md)
+[![lfo.impulse~](img/object_lfo.impulse~.png)](lfo.impulse~.md)

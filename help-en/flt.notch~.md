@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # flt.notch~
 
 ```
@@ -23,6 +26,8 @@
             
 ```
 ---
+band-rejection filter
+---
 arguments:
 
 freq(Hz): center frequency<br>
@@ -36,5 +41,6 @@ properties:
 @active: on/off dsp
             processing<br>
 
+---
 see also:<br>
-![flt.bpf12~](img/object_flt.bpf12~.png)
+[![flt.bpf12~](img/object_flt.bpf12~.png)](flt.bpf12~.md)

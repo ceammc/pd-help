@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # global.dict
 
 ```
@@ -14,6 +17,8 @@
             
 ```
 ---
+global named dict object
+---
 arguments:
 
 ID: object ID<br>
@@ -27,6 +32,7 @@ properties:
 @size: number of
             entries in dictionary<br>
 
+---
 see also:<br>
-![data.dict](img/object_data.dict.png)
-![global.dict](img/object_global.dict.png)
+[![data.dict](img/object_data.dict.png)](data.dict.md)
+[![global.dict](img/object_global.dict.png)](global.dict.md)

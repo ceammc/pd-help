@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # env.vscale
 
 ```
@@ -19,6 +22,8 @@
             
 ```
 ---
+Envelope value-scale
+---
 arguments:
 
 SCALE: value-scale<br>
@@ -28,6 +33,7 @@ properties:
 
 @scale: value-scale<br>
 
+---
 see also:<br>
-![env.tscale](img/object_env.tscale.png)
-![envelope](img/object_envelope.png)
+[![env.tscale](img/object_env.tscale.png)](env.tscale.md)
+[![envelope](img/object_envelope.png)](envelope.md)

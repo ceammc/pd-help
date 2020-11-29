@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # array.sum2
 
 ```
@@ -16,6 +19,8 @@
             
 ```
 ---
+calculates sum of squares of array elements
+---
 arguments:
 
 NAME: array name<br>
@@ -25,5 +30,6 @@ properties:
 
 @array: array name<br>
 
+---
 see also:<br>
-![array.sum](img/object_array.sum.png)
+[![array.sum](img/object_array.sum.png)](array.sum.md)

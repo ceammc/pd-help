@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # live.capture~
 
 ```
@@ -17,6 +20,9 @@
 
             
 ```
+---
+record up to 32s of sound and playback the recorded sound in
+            loop
 ---
 arguments:
 

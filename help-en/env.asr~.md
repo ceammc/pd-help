@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # env.asr~
 
 ```
@@ -24,6 +27,8 @@
             
 ```
 ---
+Attack/Sustain/Release envelope generator
+---
 arguments:
 
 attack(ms): attack
@@ -46,6 +51,7 @@ properties:
 @active: on/off dsp
             processing<br>
 
+---
 see also:<br>
-![env.adsr~](img/object_env.adsr~.png)
-![env.ar~](img/object_env.ar~.png)
+[![env.adsr~](img/object_env.adsr~.png)](env.adsr~.md)
+[![env.ar~](img/object_env.ar~.png)](env.ar~.md)

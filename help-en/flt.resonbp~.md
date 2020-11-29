@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # flt.resonbp~
 
 ```
@@ -18,6 +21,8 @@
             
 ```
 ---
+Simple resonant bandpass filter
+---
 arguments:
 
 freq(Hz): center
@@ -33,5 +38,6 @@ properties:
 @active: on/off dsp
             processing<br>
 
+---
 see also:<br>
-![flt.bpf12~](img/object_flt.bpf12~.png)
+[![flt.bpf12~](img/object_flt.bpf12~.png)](flt.bpf12~.md)

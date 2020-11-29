@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # vline2env
 
 ```
@@ -16,6 +19,8 @@
             
 ```
 ---
+Converts vline messages to env
+---
 arguments:
 
 
@@ -23,6 +28,7 @@ arguments:
 properties:
 
 
+---
 see also:<br>
-![env-&gt;vline](img/object_env-&gt;vline.png)
-![env-&gt;array](img/object_env-&gt;array.png)
+[![env-&gt;vline](img/object_env-&gt;vline.png)](env->vline.md)
+[![env-&gt;array](img/object_env-&gt;array.png)](env->array.md)

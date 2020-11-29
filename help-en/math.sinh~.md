@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # math.sinh~
 
 ```
@@ -32,6 +35,8 @@
             
 ```
 ---
+hyperbolic sine for signals
+---
 arguments:
 
 
@@ -39,6 +44,7 @@ arguments:
 properties:
 
 
+---
 see also:<br>
-![math.asinh~](img/object_math.asinh~.png)
-![math.sinh](img/object_math.sinh.png)
+[![math.asinh~](img/object_math.asinh~.png)](math.asinh~.md)
+[![math.sinh](img/object_math.sinh.png)](math.sinh.md)

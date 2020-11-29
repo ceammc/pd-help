@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # array.copy
 
 ```
@@ -28,6 +31,8 @@
             
 ```
 ---
+copy samples from one array to another
+---
 arguments:
 
 
@@ -37,5 +42,6 @@ properties:
 @resize: resize of destination array
             on overflow<br>
 
+---
 see also:<br>
-![array.each](img/object_array.each.png)
+[![array.each](img/object_array.each.png)](array.each.md)

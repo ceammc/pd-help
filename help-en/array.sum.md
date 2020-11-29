@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # array.sum
 
 ```
@@ -16,6 +19,8 @@
             
 ```
 ---
+calculates sum of array elements
+---
 arguments:
 
 NAME: array name<br>
@@ -25,5 +30,6 @@ properties:
 
 @array: array name<br>
 
+---
 see also:<br>
-![array.sum2](img/object_array.sum2.png)
+[![array.sum2](img/object_array.sum2.png)](array.sum2.md)

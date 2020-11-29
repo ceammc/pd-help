@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # system.colorpanel
 
 ```
@@ -13,6 +16,8 @@
 
             
 ```
+---
+System color panel dialog popup
 ---
 arguments:
 

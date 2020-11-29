@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # array.plot~
 
 ```
@@ -24,6 +27,8 @@
             
 ```
 ---
+plot signal on specified array
+---
 arguments:
 
 
@@ -38,5 +43,6 @@ properties:
 @yauto: calculate y-axis range
             automatically<br>
 
+---
 see also:<br>
-![ui.plot~](img/object_ui.plot~.png)
+[![ui.plot~](img/object_ui.plot~.png)](ui.plot~.md)

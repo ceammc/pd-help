@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # list.walk
 
 ```
@@ -25,6 +28,8 @@
 
             
 ```
+---
+Walks thru the list
 ---
 arguments:
 
@@ -54,6 +59,7 @@ properties:
             size<br>
 @value: current list<br>
 
+---
 see also:<br>
-![list.gen](img/object_list.gen.png)
-![list.seq](img/object_list.seq.png)
+[![list.gen](img/object_list.gen.png)](list.gen.md)
+[![list.seq](img/object_list.seq.png)](list.seq.md)

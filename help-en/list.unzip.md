@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # list.unzip
 
 ```
@@ -19,6 +22,8 @@
             
 ```
 ---
+splits list to N lists, each to separate output
+---
 arguments:
 
 N: number of output outlets<br>
@@ -33,5 +38,6 @@ properties:
             specified value, if number of elements in the input list is not multiple of number of
             outputs<br>
 
+---
 see also:<br>
-![list.zip](img/object_list.zip.png)
+[![list.zip](img/object_list.zip.png)](list.zip.md)

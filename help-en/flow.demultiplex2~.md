@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # flow.demultiplex2~
 
 ```
@@ -27,6 +30,8 @@
             
 ```
 ---
+audio stream stereo demultiplexer
+---
 arguments:
 
 N: number of output
@@ -38,6 +43,7 @@ properties:
 @value: gain coefficients per each
             output<br>
 
+---
 see also:<br>
-![flow.demultiplex~](img/object_flow.demultiplex~.png)
-![flow.demultiplex](img/object_flow.demultiplex.png)
+[![flow.demultiplex~](img/object_flow.demultiplex~.png)](flow.demultiplex~.md)
+[![flow.demultiplex](img/object_flow.demultiplex.png)](flow.demultiplex.md)

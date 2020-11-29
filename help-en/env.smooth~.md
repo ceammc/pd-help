@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # env.smooth~
 
 ```
@@ -19,6 +22,8 @@
             
 ```
 ---
+An envelope with an exponential attack and release
+---
 arguments:
 
 duration(ms): attack time<br>
@@ -31,5 +36,6 @@ properties:
 @active: on/off dsp
             processing<br>
 
+---
 see also:<br>
-![env.adsr~](img/object_env.adsr~.png)
+[![env.adsr~](img/object_env.adsr~.png)](env.adsr~.md)

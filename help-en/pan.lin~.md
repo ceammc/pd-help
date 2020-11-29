@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # pan.lin~
 
 ```
@@ -18,6 +21,8 @@
             
 ```
 ---
+two channel linear panner
+---
 arguments:
 
 POS: panning position. -1 means
@@ -30,6 +35,7 @@ properties:
             position. -1 means left, 0 - center, +1 - right<br>
 @smooth: smooth control signal to avoid zipping-noise<br>
 
+---
 see also:<br>
-![pan.sqrt~](img/object_pan.sqrt~.png)
-![pan.cos~](img/object_pan.cos~.png)
+[![pan.sqrt~](img/object_pan.sqrt~.png)](pan.sqrt~.md)
+[![pan.cos~](img/object_pan.cos~.png)](pan.cos~.md)

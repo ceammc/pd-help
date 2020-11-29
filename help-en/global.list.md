@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # global.list
 
 ```
@@ -16,6 +19,8 @@
             
 ```
 ---
+global named list object
+---
 arguments:
 
 ID: object ID<br>
@@ -28,6 +33,7 @@ properties:
 @size: number of
             elements in list<br>
 
+---
 see also:<br>
-![global.float](img/object_global.float.png)
-![global.int](img/object_global.int.png)
+[![global.float](img/object_global.float.png)](global.float.md)
+[![global.int](img/object_global.int.png)](global.int.md)

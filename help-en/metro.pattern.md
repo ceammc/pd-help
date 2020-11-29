@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # metro.pattern
 
 ```
@@ -20,6 +23,8 @@
             
 ```
 ---
+metro with rhythmic patterns
+---
 arguments:
 
 PATTERN: list of time intervals<br>
@@ -33,6 +38,7 @@ properties:
 @sync: sync mode - change pattern
             after full cycle<br>
 
+---
 see also:<br>
-![metro](img/object_metro.png)
-![metro.seq](img/object_metro.seq.png)
+[![metro](img/object_metro.png)](metro.md)
+[![metro.seq](img/object_metro.seq.png)](metro.seq.md)

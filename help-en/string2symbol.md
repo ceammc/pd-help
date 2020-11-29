@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # string2symbol
 
 ```
@@ -15,6 +18,8 @@
 
             
 ```
+---
+converts string to symbol
 ---
 arguments:
 

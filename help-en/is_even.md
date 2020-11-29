@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # is_even
 
 ```
@@ -12,6 +15,8 @@
             
 ```
 ---
+checks if input number is even
+---
 arguments:
 
 
@@ -19,5 +24,6 @@ arguments:
 properties:
 
 
+---
 see also:<br>
-![is_odd](img/object_is_odd.png)
+[![is_odd](img/object_is_odd.png)](is_odd.md)

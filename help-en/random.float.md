@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # random.float
 
 ```
@@ -14,6 +17,8 @@
             
 ```
 ---
+random float generator in specified range
+---
 arguments:
 
 MIN: random range lower bound<br>
@@ -25,6 +30,7 @@ properties:
 @min: random range lower bound<br>
 @max: random range upper bound<br>
 
+---
 see also:<br>
-![random.int](img/object_random.int.png)
-![random.gauss](img/object_random.gauss.png)
+[![random.int](img/object_random.int.png)](random.int.md)
+[![random.gauss](img/object_random.gauss.png)](random.gauss.md)

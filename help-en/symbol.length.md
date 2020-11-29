@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # symbol.length
 
 ```
@@ -13,6 +16,8 @@
 
             
 ```
+---
+number of characters in symbol (unicode supported)
 ---
 arguments:
 

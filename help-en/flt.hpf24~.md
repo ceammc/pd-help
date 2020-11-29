@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # flt.hpf24~
 
 ```
@@ -28,6 +31,8 @@
             
 ```
 ---
+High-pass fourth order Butterworth filter
+---
 arguments:
 
 freq(Hz): cutoff
@@ -40,7 +45,8 @@ properties:
 @active: on/off dsp
             processing<br>
 
+---
 see also:<br>
-![flt.hpf12~](img/object_flt.hpf12~.png)
-![flt.lpf12~](img/object_flt.lpf12~.png)
-![flt.c_hpf~](img/object_flt.c_hpf~.png)
+[![flt.hpf12~](img/object_flt.hpf12~.png)](flt.hpf12~.md)
+[![flt.lpf12~](img/object_flt.lpf12~.png)](flt.lpf12~.md)
+[![flt.c_hpf~](img/object_flt.c_hpf~.png)](flt.c_hpf~.md)

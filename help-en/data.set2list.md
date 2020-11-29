@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # data.set2list
 
 ```
@@ -20,6 +23,8 @@
             
 ```
 ---
+converts set to list
+---
 arguments:
 
 
@@ -28,5 +33,6 @@ properties:
 
 @sort: if specified - sort output list<br>
 
+---
 see also:<br>
-![data.set](img/object_data.set.png)
+[![data.set](img/object_data.set.png)](data.set.md)

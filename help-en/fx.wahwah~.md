@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # fx.wahwah~
 
 ```
@@ -19,6 +22,8 @@
 
             
 ```
+---
+digitized CryBaby wah pedal
 ---
 arguments:
 

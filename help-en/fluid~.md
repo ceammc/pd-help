@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # fluid~
 
 ```
@@ -24,6 +27,8 @@
 
             
 ```
+---
+FluidSynth SoundFont 2 player
 ---
 arguments:
 

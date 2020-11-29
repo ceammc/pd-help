@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # fx.pitchshift~
 
 ```
@@ -22,6 +25,8 @@
 
             
 ```
+---
+simple pitch shifter based on 2 delay lines
 ---
 arguments:
 

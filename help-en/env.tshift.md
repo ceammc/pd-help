@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # env.tshift
 
 ```
@@ -19,6 +22,8 @@
             
 ```
 ---
+Envelope time-shift (horizontal)
+---
 arguments:
 
 SHIFT(ms): time-shift<br>
@@ -29,6 +34,7 @@ properties:
 @shift(ms): 
             time-shift<br>
 
+---
 see also:<br>
-![env.tscale](img/object_env.tscale.png)
-![envelope](img/object_envelope.png)
+[![env.tscale](img/object_env.tscale.png)](env.tscale.md)
+[![envelope](img/object_envelope.png)](envelope.md)

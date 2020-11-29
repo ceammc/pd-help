@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # string.remove
 
 ```
@@ -19,6 +22,8 @@
 
             
 ```
+---
+remove substring from input string
 ---
 arguments:
 

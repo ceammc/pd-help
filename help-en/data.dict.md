@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # data.dict
 
 ```
@@ -21,6 +24,8 @@
             
 ```
 ---
+dictionary container: store values by key
+---
 arguments:
 
 
@@ -33,6 +38,7 @@ properties:
 @size: number of
             entries in dictionary<br>
 
+---
 see also:<br>
-![data.set](img/object_data.set.png)
-![data.mlist](img/object_data.mlist.png)
+[![data.set](img/object_data.set.png)](data.set.md)
+[![data.mlist](img/object_data.mlist.png)](data.mlist.md)

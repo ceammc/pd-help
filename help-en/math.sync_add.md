@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # math.sync_add
 
 ```
@@ -14,6 +17,8 @@
             
 ```
 ---
+sync addition
+---
 arguments:
 
 F: second addend<br>
@@ -23,5 +28,6 @@ properties:
 
 @int: operate on integers only<br>
 
+---
 see also:<br>
-![math.sync_sub](img/object_math.sync_sub.png)
+[![math.sync_sub](img/object_math.sync_sub.png)](math.sync_sub.md)

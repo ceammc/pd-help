@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # hoa.2d.recomposer~
 
 ```
@@ -37,6 +40,9 @@
             
 ```
 ---
+recomposes a 2d plane wave decomposition into circular
+            harmonics
+---
 arguments:
 
 ORDER: the order of
@@ -66,5 +72,6 @@ properties:
 @free: alias for @mode free<br>
 @ramp: ramp time<br>
 
+---
 see also:<br>
-![hoa.2d.projector~](img/object_hoa.2d.projector~.png)
+[![hoa.2d.projector~](img/object_hoa.2d.projector~.png)](hoa.2d.projector~.md)

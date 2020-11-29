@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # fx.sdelay~
 
 ```
@@ -23,6 +26,8 @@
             
 ```
 ---
+smooth delay with a feedback control
+---
 arguments:
 
 delay(ms): 
@@ -45,5 +50,6 @@ properties:
 @active: on/off dsp
             processing<br>
 
+---
 see also:<br>
-![fx.echo~](img/object_fx.echo~.png)
+[![fx.echo~](img/object_fx.echo~.png)](fx.echo~.md)

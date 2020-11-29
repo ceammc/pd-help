@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # math.sync_div
 
 ```
@@ -20,6 +23,8 @@
 
             
 ```
+---
+sync division
 ---
 arguments:
 

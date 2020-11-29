@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # env.adsr~
 
 ```
@@ -28,6 +31,8 @@
 
             
 ```
+---
+ADSR (Attack, Decay, Sustain, Release) envelope generator
 ---
 arguments:
 

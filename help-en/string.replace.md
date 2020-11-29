@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # string.replace
 
 ```
@@ -18,6 +21,8 @@
             
 ```
 ---
+replace from one substring to another in input string
+---
 arguments:
 
 FROM: substring for replace<br>
@@ -37,5 +42,6 @@ properties:
 @last: alias to @mode last - replace last occurence in
             input string<br>
 
+---
 see also:<br>
-![str.remove](img/object_str.remove.png)
+[![str.remove](img/object_str.remove.png)](str.remove.md)

@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # flow.less
 
 ```
@@ -14,6 +17,8 @@
             
 ```
 ---
+numeric stream router, like many [moses]
+---
 arguments:
 
 LIST: compare values: list of floats in ascending
@@ -23,6 +28,7 @@ LIST: compare values: list of floats in ascending
 properties:
 
 
+---
 see also:<br>
-![flow.greater](img/object_flow.greater.png)
-![flow.less_eq](img/object_flow.less_eq.png)
+[![flow.greater](img/object_flow.greater.png)](flow.greater.md)
+[![flow.less_eq](img/object_flow.less_eq.png)](flow.less_eq.md)

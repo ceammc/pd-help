@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # data.int
 
 ```
@@ -18,6 +21,8 @@
             
 ```
 ---
+robust int object
+---
 arguments:
 
 INT: set initial value<br>
@@ -27,5 +32,6 @@ properties:
 
 @value: current value<br>
 
+---
 see also:<br>
-![data.float](img/object_data.float.png)
+[![data.float](img/object_data.float.png)](data.float.md)

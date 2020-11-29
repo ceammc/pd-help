@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # fx.freeverb~
 
 ```
@@ -26,6 +29,8 @@
             
 ```
 ---
+freeverb - common used open-source reverb
+---
 arguments:
 
 ROOM: room size<br>
@@ -47,5 +52,6 @@ properties:
 @active: on/off dsp
             processing<br>
 
+---
 see also:<br>
-![fx.freeverb2~](img/object_fx.freeverb2~.png)
+[![fx.freeverb2~](img/object_fx.freeverb2~.png)](fx.freeverb2~.md)

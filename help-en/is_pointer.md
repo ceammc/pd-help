@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # is_pointer
 
 ```
@@ -14,6 +17,8 @@
             
 ```
 ---
+checks if input data has *pointer* type
+---
 arguments:
 
 
@@ -21,8 +26,9 @@ arguments:
 properties:
 
 
+---
 see also:<br>
-![is_any](img/object_is_any.png)
-![is_float](img/object_is_float.png)
-![is_symbol](img/object_is_symbol.png)
-![is_list](img/object_is_list.png)
+[![is_any](img/object_is_any.png)](is_any.md)
+[![is_float](img/object_is_float.png)](is_float.md)
+[![is_symbol](img/object_is_symbol.png)](is_symbol.md)
+[![is_list](img/object_is_list.png)](is_list.md)

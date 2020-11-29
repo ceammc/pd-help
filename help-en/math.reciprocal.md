@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # math.reciprocal
 
 ```
@@ -13,6 +16,8 @@
 
             
 ```
+---
+calculate reciprocal number
 ---
 arguments:
 

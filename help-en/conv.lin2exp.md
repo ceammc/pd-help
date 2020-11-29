@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # conv.lin2exp
 
 ```
@@ -17,6 +20,8 @@
 
             
 ```
+---
+maps linear range to exponential range
 ---
 arguments:
 
@@ -39,6 +44,7 @@ properties:
 @max: alias to @clip max<br>
 @minmax: alias to @clip minmax<br>
 
+---
 see also:<br>
-![conv.lin2lin](img/object_conv.lin2lin.png)
-![conv.lin2curve](img/object_conv.lin2curve.png)
+[![conv.lin2lin](img/object_conv.lin2lin.png)](conv.lin2lin.md)
+[![conv.lin2curve](img/object_conv.lin2curve.png)](conv.lin2curve.md)

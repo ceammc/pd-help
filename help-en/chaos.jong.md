@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # chaos.jong
 
 ```
@@ -38,6 +41,8 @@
             
 ```
 ---
+Peter de Jong attractor
+---
 arguments:
 
 A: a-value (default 1.4)<br>
@@ -51,5 +56,6 @@ Y: x init value (default 0)<br>
 properties:
 
 
+---
 see also:<br>
-![chaos.std0](img/object_chaos.std0.png)
+[![chaos.std0](img/object_chaos.std0.png)](chaos.std0.md)

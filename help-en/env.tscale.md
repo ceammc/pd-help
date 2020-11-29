@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # env.tscale
 
 ```
@@ -19,6 +22,8 @@
             
 ```
 ---
+Envelope time-scale
+---
 arguments:
 
 SCALE: time-scale<br>
@@ -28,6 +33,7 @@ properties:
 
 @scale: time-scale<br>
 
+---
 see also:<br>
-![env.tshift](img/object_env.tshift.png)
-![envelope](img/object_envelope.png)
+[![env.tshift](img/object_env.tshift.png)](env.tshift.md)
+[![envelope](img/object_envelope.png)](envelope.md)

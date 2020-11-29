@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # conv.str2sec
 
 ```
@@ -18,6 +21,8 @@
             
 ```
 ---
+converts formatted time to float value in seconds
+---
 arguments:
 
 
@@ -27,5 +32,6 @@ properties:
 @on_err: value returned when unrecognized
             symbol given<br>
 
+---
 see also:<br>
-![conv.sec2str](img/object_conv.sec2str.png)
+[![conv.sec2str](img/object_conv.sec2str.png)](conv.sec2str.md)

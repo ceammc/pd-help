@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # osc.impulse~
 
 ```
@@ -16,6 +19,8 @@
             
 ```
 ---
+Bandlimited impulse train generator
+---
 arguments:
 
 freq(Hz): frequency<br>
@@ -26,8 +31,9 @@ properties:
 @active: on/off dsp
             processing<br>
 
+---
 see also:<br>
-![osc.saw~](img/object_osc.saw~.png)
-![osc.tri~](img/object_osc.tri~.png)
-![osc.square~](img/object_osc.square~.png)
-![lfo.impulse~](img/object_lfo.impulse~.png)
+[![osc.saw~](img/object_osc.saw~.png)](osc.saw~.md)
+[![osc.tri~](img/object_osc.tri~.png)](osc.tri~.md)
+[![osc.square~](img/object_osc.square~.png)](osc.square~.md)
+[![lfo.impulse~](img/object_lfo.impulse~.png)](lfo.impulse~.md)

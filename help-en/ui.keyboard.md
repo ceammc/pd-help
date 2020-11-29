@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # ui.keyboard
 
 ```
@@ -24,6 +27,8 @@
 
             
 ```
+---
+keyboard widget
 ---
 arguments:
 
@@ -55,5 +60,6 @@ properties:
 @fontslant: font
             slant<br>
 
+---
 see also:<br>
-![ui.preset](img/object_ui.preset.png)
+[![ui.preset](img/object_ui.preset.png)](ui.preset.md)

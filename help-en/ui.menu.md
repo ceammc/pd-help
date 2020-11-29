@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # ui.menu
 
 ```
@@ -27,6 +30,8 @@
 
             
 ```
+---
+Dropdown menu
 ---
 arguments:
 
@@ -67,5 +72,6 @@ properties:
 @fontslant: font
             slant<br>
 
+---
 see also:<br>
-![ui.radio](img/object_ui.radio.png)
+[![ui.radio](img/object_ui.radio.png)](ui.radio.md)

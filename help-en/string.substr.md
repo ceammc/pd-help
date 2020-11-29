@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # string.substr
 
 ```
@@ -16,6 +19,8 @@
             
 ```
 ---
+extract substring from input string
+---
 arguments:
 
 FROM: substring position. May be relative: -1 means one
@@ -31,5 +36,6 @@ properties:
 @len: substring length. If equal
             to -1, substring to the end of string<br>
 
+---
 see also:<br>
-![string.split](img/object_string.split.png)
+[![string.split](img/object_string.split.png)](string.split.md)

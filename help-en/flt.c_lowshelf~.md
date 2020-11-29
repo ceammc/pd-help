@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # flt.c_lowshelf~
 
 ```
@@ -27,6 +30,8 @@
             
 ```
 ---
+Lowshelf filter coefficient calculator for biquad
+---
 arguments:
 
 freq(Hz): cutoff frequency<br>
@@ -41,6 +46,7 @@ properties:
 @active: on/off dsp
             processing<br>
 
+---
 see also:<br>
-![flt.lowshelf~](img/object_flt.lowshelf~.png)
-![flt.biquad~](img/object_flt.biquad~.png)
+[![flt.lowshelf~](img/object_flt.lowshelf~.png)](flt.lowshelf~.md)
+[![flt.biquad~](img/object_flt.biquad~.png)](flt.biquad~.md)

@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # env.follow~
 
 ```
@@ -16,6 +19,8 @@
             
 ```
 ---
+Envelope follower with independent attack and release times
+---
 arguments:
 
 attack(ms): 
@@ -33,5 +38,6 @@ properties:
 @active: on/off dsp
             processing<br>
 
+---
 see also:<br>
-![env.adsr~](img/object_env.adsr~.png)
+[![env.adsr~](img/object_env.adsr~.png)](env.adsr~.md)

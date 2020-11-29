@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # dyn.gate~
 
 ```
@@ -19,6 +22,8 @@
 
             
 ```
+---
+mono signal gate
 ---
 arguments:
 
@@ -43,5 +48,6 @@ properties:
 @active: on/off dsp
             processing<br>
 
+---
 see also:<br>
-![dyn.gate2~](img/object_dyn.gate2~.png)
+[![dyn.gate2~](img/object_dyn.gate2~.png)](dyn.gate2~.md)

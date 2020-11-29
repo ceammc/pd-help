@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # local.int
 
 ```
@@ -17,6 +20,8 @@
             
 ```
 ---
+canvas-scoped named integer variable
+---
 arguments:
 
 ID: object ID<br>
@@ -26,7 +31,8 @@ properties:
 
 @value: current value<br>
 
+---
 see also:<br>
-![local.float](img/object_local.float.png)
-![local.list](img/object_local.list.png)
-![global.int](img/object_global.int.png)
+[![local.float](img/object_local.float.png)](local.float.md)
+[![local.list](img/object_local.list.png)](local.list.md)
+[![global.int](img/object_global.int.png)](global.int.md)

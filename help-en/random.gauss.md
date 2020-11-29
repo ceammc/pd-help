@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # random.gauss
 
 ```
@@ -24,6 +27,8 @@
             
 ```
 ---
+gaussian random distribution
+---
 arguments:
 
 MU: the mean<br>
@@ -36,6 +41,7 @@ properties:
 @sigma: the standard
             deviation<br>
 
+---
 see also:<br>
-![random.float](img/object_random.float.png)
-![random.int](img/object_random.int.png)
+[![random.float](img/object_random.float.png)](random.float.md)
+[![random.int](img/object_random.int.png)](random.int.md)

@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # proto.sp.alpaca
 
 ```
@@ -35,6 +38,8 @@
 
             
 ```
+---
+protocol parser for Arduino-based CEAMMC footswitch
 ---
 arguments:
 

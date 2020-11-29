@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # math.exp2~
 
 ```
@@ -29,6 +32,8 @@
             
 ```
 ---
+base-2 exponential for signal
+---
 arguments:
 
 
@@ -36,5 +41,6 @@ arguments:
 properties:
 
 
+---
 see also:<br>
-![math.log2~](img/object_math.log2~.png)
+[![math.log2~](img/object_math.log2~.png)](math.log2~.md)

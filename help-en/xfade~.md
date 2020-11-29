@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # xfade~
 
 ```
@@ -19,6 +22,8 @@
 
             
 ```
+---
+multi signal crossfade
 ---
 arguments:
 

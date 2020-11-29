@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # an.onset
 
 ```
@@ -32,6 +35,8 @@
 
             
 ```
+---
+onset detector for arrays
 ---
 arguments:
 
@@ -79,5 +84,6 @@ properties:
             whitening<br>
 @delay(ms): constant system delay to take back from detection time<br>
 
+---
 see also:<br>
-![an.onset~](img/object_an.onset~.png)
+[![an.onset~](img/object_an.onset~.png)](an.onset~.md)

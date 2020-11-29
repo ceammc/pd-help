@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # dyn.limit2~
 
 ```
@@ -20,6 +23,8 @@
             
 ```
 ---
+stereo 1176LN Peak Limiter
+---
 arguments:
 
 
@@ -27,6 +32,7 @@ arguments:
 properties:
 
 
+---
 see also:<br>
-![dyn.limit~](img/object_dyn.limit~.png)
-![dyn.comp~](img/object_dyn.comp~.png)
+[![dyn.limit~](img/object_dyn.limit~.png)](dyn.limit~.md)
+[![dyn.comp~](img/object_dyn.comp~.png)](dyn.comp~.md)

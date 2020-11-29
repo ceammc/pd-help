@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # window
 
 ```
@@ -26,6 +29,8 @@
 
             
 ```
+---
+returns window value by given window position
 ---
 arguments:
 

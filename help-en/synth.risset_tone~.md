@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # synth.risset_tone~
 
 ```
@@ -17,6 +20,8 @@
 
             
 ```
+---
+Jean Claude Risset&#39;s endless glissando
 ---
 arguments:
 

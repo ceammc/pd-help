@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # math.polyeval
 
 ```
@@ -13,6 +16,8 @@
 
             
 ```
+---
+evaluates the polynomial described by the coefficients list
 ---
 arguments:
 

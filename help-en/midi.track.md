@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # midi.track
 
 ```
@@ -29,6 +32,8 @@
 
             
 ```
+---
+extract track from MidiFile
 ---
 arguments:
 

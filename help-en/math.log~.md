@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # math.log~
 
 ```
@@ -29,6 +32,8 @@
             
 ```
 ---
+natural logarithm
+---
 arguments:
 
 
@@ -36,6 +41,7 @@ arguments:
 properties:
 
 
+---
 see also:<br>
-![math.exp~](img/object_math.exp~.png)
-![math.log2](img/object_math.log2.png)
+[![math.exp~](img/object_math.exp~.png)](math.exp~.md)
+[![math.log2](img/object_math.log2.png)](math.log2.md)

@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # string.join
 
 ```
@@ -16,6 +19,8 @@
             
 ```
 ---
+joins (concatenates) strings with separator
+---
 arguments:
 
 SEP: separator. For space use &#39; &#39;.<br>
@@ -25,5 +30,6 @@ properties:
 
 @sep: separator<br>
 
+---
 see also:<br>
-![string.split](img/object_string.split.png)
+[![string.split](img/object_string.split.png)](string.split.md)

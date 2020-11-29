@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # mix~
 
 ```
@@ -29,6 +32,8 @@
 
             
 ```
+---
+multislot signal mixer
 ---
 arguments:
 

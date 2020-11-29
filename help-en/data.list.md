@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # data.list
 
 ```
@@ -18,6 +21,8 @@
             
 ```
 ---
+list container
+---
 arguments:
 
 X: initial list values<br>
@@ -30,5 +35,6 @@ properties:
 @size: number of
             elements in list<br>
 
+---
 see also:<br>
-![data.fifo](img/object_data.fifo.png)
+[![data.fifo](img/object_data.fifo.png)](data.fifo.md)

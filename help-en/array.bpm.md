@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # array.bpm
 
 ```
@@ -19,6 +22,8 @@
 
             
 ```
+---
+BPM calculator
 ---
 arguments:
 

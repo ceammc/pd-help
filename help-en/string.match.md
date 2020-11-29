@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # string.match
 
 ```
@@ -14,6 +17,8 @@
 
             
 ```
+---
+check if string match regular expression
 ---
 arguments:
 

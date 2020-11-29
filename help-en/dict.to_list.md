@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # dict.to_list
 
 ```
@@ -14,6 +17,8 @@
             
 ```
 ---
+converts dictionary to plain list
+---
 arguments:
 
 
@@ -21,5 +26,6 @@ arguments:
 properties:
 
 
+---
 see also:<br>
-![data.dict](img/object_data.dict.png)
+[![data.dict](img/object_data.dict.png)](data.dict.md)

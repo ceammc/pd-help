@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # math.abs~
 
 ```
@@ -14,6 +17,8 @@
             
 ```
 ---
+absolute value function for signals
+---
 arguments:
 
 
@@ -21,5 +26,6 @@ arguments:
 properties:
 
 
+---
 see also:<br>
-![math.abs](img/object_math.abs.png)
+[![math.abs](img/object_math.abs.png)](math.abs.md)

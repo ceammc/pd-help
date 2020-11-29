@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # list.seq
 
 ```
@@ -16,6 +19,8 @@
             
 ```
 ---
+numeric sequence list generator
+---
 arguments:
 
 FROM: start value<br>
@@ -31,5 +36,6 @@ properties:
             positive)<br>
 @closed: generate closed range sequence<br>
 
+---
 see also:<br>
-![list.gen](img/object_list.gen.png)
+[![list.gen](img/object_list.gen.png)](list.gen.md)

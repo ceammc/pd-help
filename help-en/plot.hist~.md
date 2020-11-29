@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # plot.hist~
 
 ```
@@ -29,6 +32,8 @@
             
 ```
 ---
+calculate and output signal histogram
+---
 arguments:
 
 NSAMP: @nsamp property<br>
@@ -45,7 +50,8 @@ properties:
 @clip: clip input values into input
             range, otherwise just ignore them<br>
 
+---
 see also:<br>
-![plot.linspace~](img/object_plot.linspace~.png)
-![plot.geomspace~](img/object_plot.geomspace~.png)
-![plot.response~](img/object_plot.response~.png)
+[![plot.linspace~](img/object_plot.linspace~.png)](plot.linspace~.md)
+[![plot.geomspace~](img/object_plot.geomspace~.png)](plot.geomspace~.md)
+[![plot.response~](img/object_plot.response~.png)](plot.response~.md)

@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # canvas.dir
 
 ```
@@ -12,6 +15,8 @@
             
 ```
 ---
+current canvas directory
+---
 arguments:
 
 
@@ -19,6 +24,7 @@ arguments:
 properties:
 
 
+---
 see also:<br>
-![canvas.name](img/object_canvas.name.png)
-![canvas.path](img/object_canvas.path.png)
+[![canvas.name](img/object_canvas.name.png)](canvas.name.md)
+[![canvas.path](img/object_canvas.path.png)](canvas.path.md)

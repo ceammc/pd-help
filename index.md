@@ -6,6 +6,9 @@ CEAMMC Puredata is a general purpose Pd distribution and library that is used fo
 
 [repository link: https://github.com/uliss/pure-data](https://github.com/uliss/pure-data)<br>
 
+---
+[reference pages - english](help-en/ceamc_lib.md)<br>
+
 Authors<br>
 Serge Poltavsky Alex Nadzharov
 

@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # list.resize
 
 ```
@@ -20,6 +23,8 @@
             
 ```
 ---
+changes list size
+---
 arguments:
 
 SIZE: desired list size<br>
@@ -36,5 +41,6 @@ properties:
 @wrap: alias for @method wrap<br>
 @fold: alias for @method fold<br>
 
+---
 see also:<br>
-![list.length](img/object_list.length.png)
+[![list.length](img/object_list.length.png)](list.length.md)

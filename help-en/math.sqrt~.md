@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # math.sqrt~
 
 ```
@@ -29,6 +32,8 @@
             
 ```
 ---
+square root for signal
+---
 arguments:
 
 
@@ -36,6 +41,7 @@ arguments:
 properties:
 
 
+---
 see also:<br>
-![math.squared~](img/object_math.squared~.png)
-![math.sqrt](img/object_math.sqrt.png)
+[![math.squared~](img/object_math.squared~.png)](math.squared~.md)
+[![math.sqrt](img/object_math.sqrt.png)](math.sqrt.md)

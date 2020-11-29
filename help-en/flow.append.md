@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # flow.append
 
 ```
@@ -23,6 +26,8 @@
 
             
 ```
+---
+inject message into flow
 ---
 arguments:
 

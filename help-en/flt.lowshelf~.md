@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # flt.lowshelf~
 
 ```
@@ -18,6 +21,8 @@
             
 ```
 ---
+gain boost|cut below some frequency
+---
 arguments:
 
 freq(Hz): corner
@@ -33,6 +38,7 @@ properties:
 @active: on/off dsp
             processing<br>
 
+---
 see also:<br>
-![flt.highshelf~](img/object_flt.highshelf~.png)
-![flt.c_lowshelf~](img/object_flt.c_lowshelf~.png)
+[![flt.highshelf~](img/object_flt.highshelf~.png)](flt.highshelf~.md)
+[![flt.c_lowshelf~](img/object_flt.c_lowshelf~.png)](flt.c_lowshelf~.md)

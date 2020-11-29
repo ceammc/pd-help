@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # ui.link
 
 ```
@@ -16,6 +19,8 @@
 
             
 ```
+---
+Hyperlink widget
 ---
 arguments:
 

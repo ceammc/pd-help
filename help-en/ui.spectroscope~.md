@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # ui.spectroscope~
 
 ```
@@ -17,6 +20,8 @@
 
             
 ```
+---
+Spectroscope GUI object
 ---
 arguments:
 
@@ -49,5 +54,6 @@ properties:
 @fontslant: font
             slant<br>
 
+---
 see also:<br>
-![ui.scope~](img/object_ui.scope~.png)
+[![ui.scope~](img/object_ui.scope~.png)](ui.scope~.md)

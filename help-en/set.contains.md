@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # set.contains
 
 ```
@@ -16,6 +19,8 @@
             
 ```
 ---
+check if specified element is in set
+---
 arguments:
 
 X: searched elements<br>
@@ -24,5 +29,6 @@ X: searched elements<br>
 properties:
 
 
+---
 see also:<br>
-![data.set](img/object_data.set.png)
+[![data.set](img/object_data.set.png)](data.set.md)

@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # hw.kbd_light
 
 ```
@@ -15,6 +18,8 @@
 
             
 ```
+---
+Get/set keyboard light on some devices
 ---
 arguments:
 

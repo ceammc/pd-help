@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # fx.bitdown~
 
 ```
@@ -19,6 +22,8 @@
 
             
 ```
+---
+bit downer and downsampler effect
 ---
 arguments:
 

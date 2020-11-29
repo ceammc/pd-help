@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # math.pi~
 
 ```
@@ -13,6 +16,8 @@
             
 ```
 ---
+mathematical constant
+---
 arguments:
 
 MUL: multiplier. default is 1<br>
@@ -21,5 +26,6 @@ MUL: multiplier. default is 1<br>
 properties:
 
 
+---
 see also:<br>
-![math.pi](img/object_math.pi.png)
+[![math.pi](img/object_math.pi.png)](math.pi.md)

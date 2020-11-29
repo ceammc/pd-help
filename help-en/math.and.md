@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # math.and
 
 ```
@@ -20,6 +23,8 @@
             
 ```
 ---
+operation AND for multiple arguments
+---
 arguments:
 
 NUM: number of
@@ -33,5 +38,6 @@ properties:
 @state: internal logic
             state as list of 1 and 0<br>
 
+---
 see also:<br>
-![math.or](img/object_math.or.png)
+[![math.or](img/object_math.or.png)](math.or.md)

@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # math.sync_or
 
 ```
@@ -14,6 +17,8 @@
             
 ```
 ---
+sync logical OR operation
+---
 arguments:
 
 V: second value<br>
@@ -22,5 +27,6 @@ V: second value<br>
 properties:
 
 
+---
 see also:<br>
-![math.&amp;&amp;&#39;](img/object_math.&amp;&amp;&#39;.png)
+[![math.&amp;&amp;&#39;](img/object_math.&amp;&amp;&#39;.png)](math.&&'.md)

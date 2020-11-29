@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # ui.tab
 
 ```
@@ -17,6 +20,8 @@
 
             
 ```
+---
+displays a list of text buttons or text toggles
 ---
 arguments:
 
@@ -62,5 +67,6 @@ properties:
 @fontslant: font
             slant<br>
 
+---
 see also:<br>
-![ui.menu](img/object_ui.menu.png)
+[![ui.menu](img/object_ui.menu.png)](ui.menu.md)

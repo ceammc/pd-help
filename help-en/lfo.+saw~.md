@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # lfo.+saw~
 
 ```
@@ -22,6 +25,8 @@
             
 ```
 ---
+Positive unit-amplitude low frequency saw wave
+---
 arguments:
 
 freq(Hz): frequency<br>
@@ -34,7 +39,8 @@ properties:
 @active: on/off dsp
             processing<br>
 
+---
 see also:<br>
-![lfo.saw~](img/object_lfo.saw~.png)
-![lfo.+square~](img/object_lfo.+square~.png)
-![lfo.impulse~](img/object_lfo.impulse~.png)
+[![lfo.saw~](img/object_lfo.saw~.png)](lfo.saw~.md)
+[![lfo.+square~](img/object_lfo.+square~.png)](lfo.+square~.md)
+[![lfo.impulse~](img/object_lfo.impulse~.png)](lfo.impulse~.md)

@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # list.slice
 
 ```
@@ -22,6 +25,8 @@
             
 ```
 ---
+extract sublist
+---
 arguments:
 
 FROM: @from property<br>
@@ -37,5 +42,6 @@ properties:
             index to address elements from the end<br>
 @step: slice step<br>
 
+---
 see also:<br>
-![list.at](img/object_list.at.png)
+[![list.at](img/object_list.at.png)](list.at.md)

@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # prop.declare
 
 ```
@@ -13,6 +16,8 @@
 
             
 ```
+---
+declare named property for subpatch or abstraction
 ---
 arguments:
 
@@ -36,6 +41,7 @@ properties:
 @enum: allowed values (without default value) (for symbol
             properties only)<br>
 
+---
 see also:<br>
-![prop](img/object_prop.png)
-![patch.props](img/object_patch.props.png)
+[![prop](img/object_prop.png)](prop.md)
+[![patch.props](img/object_patch.props.png)](patch.props.md)

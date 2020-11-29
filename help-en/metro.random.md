@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # metro.random
 
 ```
@@ -18,6 +21,8 @@
             
 ```
 ---
+metro random bang with specified range
+---
 arguments:
 
 MIN(ms): minimal bang
@@ -33,6 +38,7 @@ properties:
 @max(ms): maximum
             bang interval<br>
 
+---
 see also:<br>
-![metro](img/object_metro.png)
-![metro.pattern](img/object_metro.pattern.png)
+[![metro](img/object_metro.png)](metro.md)
+[![metro.pattern](img/object_metro.pattern.png)](metro.pattern.md)

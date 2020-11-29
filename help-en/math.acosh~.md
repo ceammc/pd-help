@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # math.acosh~
 
 ```
@@ -29,6 +32,8 @@
             
 ```
 ---
+hyperbolic arc cosine for signals
+---
 arguments:
 
 
@@ -36,6 +41,7 @@ arguments:
 properties:
 
 
+---
 see also:<br>
-![math.cosh~](img/object_math.cosh~.png)
-![math.acosh](img/object_math.acosh.png)
+[![math.cosh~](img/object_math.cosh~.png)](math.cosh~.md)
+[![math.acosh](img/object_math.acosh.png)](math.acosh.md)

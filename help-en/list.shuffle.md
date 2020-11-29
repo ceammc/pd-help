@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # list.shuffle
 
 ```
@@ -14,6 +17,8 @@
             
 ```
 ---
+randomly rearranges elements in list
+---
 arguments:
 
 
@@ -21,6 +26,7 @@ arguments:
 properties:
 
 
+---
 see also:<br>
-![list.sort](img/object_list.sort.png)
-![list.reverse](img/object_list.reverse.png)
+[![list.sort](img/object_list.sort.png)](list.sort.md)
+[![list.reverse](img/object_list.reverse.png)](list.reverse.md)

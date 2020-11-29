@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # flt.c_notch~
 
 ```
@@ -23,6 +26,8 @@
             
 ```
 ---
+Band-reject coefficient calculator for biquad filter
+---
 arguments:
 
 freq(Hz): center
@@ -39,7 +44,8 @@ properties:
 @active: on/off dsp
             processing<br>
 
+---
 see also:<br>
-![flt.c_bpf~](img/object_flt.c_bpf~.png)
-![flt.notch~](img/object_flt.notch~.png)
-![flt.biquad~](img/object_flt.biquad~.png)
+[![flt.c_bpf~](img/object_flt.c_bpf~.png)](flt.c_bpf~.md)
+[![flt.notch~](img/object_flt.notch~.png)](flt.notch~.md)
+[![flt.biquad~](img/object_flt.biquad~.png)](flt.biquad~.md)

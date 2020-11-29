@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # dict.values
 
 ```
@@ -16,6 +19,8 @@
             
 ```
 ---
+dictionary values as mlist
+---
 arguments:
 
 
@@ -23,7 +28,8 @@ arguments:
 properties:
 
 
+---
 see also:<br>
-![data.dict](img/object_data.dict.png)
-![data.mlist](img/object_data.mlist.png)
-![dict.keys](img/object_dict.keys.png)
+[![data.dict](img/object_data.dict.png)](data.dict.md)
+[![data.mlist](img/object_data.mlist.png)](data.mlist.md)
+[![dict.keys](img/object_dict.keys.png)](dict.keys.md)

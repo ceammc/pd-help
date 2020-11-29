@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # math.asin~
 
 ```
@@ -29,6 +32,8 @@
             
 ```
 ---
+arc sine for signals
+---
 arguments:
 
 
@@ -36,6 +41,7 @@ arguments:
 properties:
 
 
+---
 see also:<br>
-![math.asin](img/object_math.asin.png)
-![math.acos~](img/object_math.acos~.png)
+[![math.asin](img/object_math.asin.png)](math.asin.md)
+[![math.acos~](img/object_math.acos~.png)](math.acos~.md)

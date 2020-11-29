@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # hoa.2d.optim~
 
 ```
@@ -32,6 +35,8 @@
             
 ```
 ---
+a 2D ambisonic optimization tool
+---
 arguments:
 
 ORDER: the order of decomposition<br>
@@ -48,5 +53,6 @@ properties:
 @maxre: alias for @mode maxre.<br>
 @inphase: alias for @mode inphase.<br>
 
+---
 see also:<br>
-![hoa.2d.decoder~](img/object_hoa.2d.decoder~.png)
+[![hoa.2d.decoder~](img/object_hoa.2d.decoder~.png)](hoa.2d.decoder~.md)

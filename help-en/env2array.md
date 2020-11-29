@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # env2array
 
 ```
@@ -23,6 +26,8 @@
             
 ```
 ---
+Renders envelope to specified array
+---
 arguments:
 
 ARRAY: array name<br>
@@ -40,5 +45,6 @@ properties:
 @resize: alias to @mode resize property<br>
 @raw: alias to @mode raw property<br>
 
+---
 see also:<br>
-![env-&gt;vline](img/object_env-&gt;vline.png)
+[![env-&gt;vline](img/object_env-&gt;vline.png)](env->vline.md)

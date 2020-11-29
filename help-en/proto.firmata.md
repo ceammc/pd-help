@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # proto.firmata
 
 ```
@@ -37,6 +40,8 @@
 
             
 ```
+---
+Firmata Arduino protocol support
 ---
 arguments:
 

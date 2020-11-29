@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # math.sign
 
 ```
@@ -13,6 +16,8 @@
 
             
 ```
+---
+sign function
 ---
 arguments:
 

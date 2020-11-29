@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # plot.linspace~
 
 ```
@@ -24,6 +27,9 @@
             
 ```
 ---
+outputs numbers spaced evenly spaced over a specified
+            interval
+---
 arguments:
 
 
@@ -43,6 +49,7 @@ properties:
 @endpoint: include @stop to
             interval<br>
 
+---
 see also:<br>
-![plot.geomspace~](img/object_plot.geomspace~.png)
-![plot.logspace~](img/object_plot.logspace~.png)
+[![plot.geomspace~](img/object_plot.geomspace~.png)](plot.geomspace~.md)
+[![plot.logspace~](img/object_plot.logspace~.png)](plot.logspace~.md)

@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # hoa.out
 
 ```
@@ -21,6 +24,8 @@
             
 ```
 ---
+message outlet for a patcher loaded by hoa.process~
+---
 arguments:
 
 INDEX: outlet index<br>
@@ -30,7 +35,8 @@ properties:
 
 @index: outlet index<br>
 
+---
 see also:<br>
-![hoa.out~](img/object_hoa.out~.png)
-![hoa.in](img/object_hoa.in.png)
-![hoa.in~](img/object_hoa.in~.png)
+[![hoa.out~](img/object_hoa.out~.png)](hoa.out~.md)
+[![hoa.in](img/object_hoa.in.png)](hoa.in.md)
+[![hoa.in~](img/object_hoa.in~.png)](hoa.in~.md)

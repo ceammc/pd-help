@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # replace
 
 ```
@@ -18,6 +21,8 @@
             
 ```
 ---
+Replace atoms in data stream
+---
 arguments:
 
 FROM: replace subject<br>
@@ -29,5 +34,6 @@ properties:
 @from: replace subject<br>
 @to: replace value<br>
 
+---
 see also:<br>
-![flow.pass](img/object_flow.pass.png)
+[![flow.pass](img/object_flow.pass.png)](flow.pass.md)

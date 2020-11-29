@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # ui.polar
 
 ```
@@ -17,6 +20,8 @@
 
             
 ```
+---
+2D slider in polar coordinates
 ---
 arguments:
 
@@ -70,5 +75,6 @@ properties:
 @label_margins: label offset in
             pixels<br>
 
+---
 see also:<br>
-![ui.slider2d](img/object_ui.slider2d.png)
+[![ui.slider2d](img/object_ui.slider2d.png)](ui.slider2d.md)

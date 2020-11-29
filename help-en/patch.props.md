@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # patch.props
 
 ```
@@ -22,6 +25,8 @@
             
 ```
 ---
+patch properties manager
+---
 arguments:
 
 
@@ -29,6 +34,7 @@ arguments:
 properties:
 
 
+---
 see also:<br>
-![prop.declare](img/object_prop.declare.png)
-![prop](img/object_prop.png)
+[![prop.declare](img/object_prop.declare.png)](prop.declare.md)
+[![prop](img/object_prop.png)](prop.md)

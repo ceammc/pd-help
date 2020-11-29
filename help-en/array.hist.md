@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # array.hist
 
 ```
@@ -30,6 +33,8 @@
             
 ```
 ---
+calculates array histogram
+---
 arguments:
 
 NAME: array name<br>
@@ -46,5 +51,6 @@ properties:
 @min: minimal value<br>
 @max: maximum value<br>
 
+---
 see also:<br>
-![list.histogram](img/object_list.histogram.png)
+[![list.histogram](img/object_list.histogram.png)](list.histogram.md)

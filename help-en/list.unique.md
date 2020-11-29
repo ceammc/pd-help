@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # list.unique
 
 ```
@@ -15,6 +18,8 @@
             
 ```
 ---
+removes duplicates from input list
+---
 arguments:
 
 
@@ -24,5 +29,6 @@ properties:
 @stable: if true - preserves element
             appearing order<br>
 
+---
 see also:<br>
-![list.sort](img/object_list.sort.png)
+[![list.sort](img/object_list.sort.png)](list.sort.md)

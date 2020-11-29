@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # flt.eq_peak~
 
 ```
@@ -23,6 +26,9 @@
             
 ```
 ---
+second order &#34;peaking equalizer&#34; section (gain boost or cut near some
+            frequency). Also called a &#34;parametric equalizer&#34; section.
+---
 arguments:
 
 freq(Hz): peak
@@ -41,7 +47,8 @@ properties:
 @active: on/off dsp
             processing<br>
 
+---
 see also:<br>
-![flt.eq_peak_cq~](img/object_flt.eq_peak_cq~.png)
-![flt.lowshelf~](img/object_flt.lowshelf~.png)
-![flt.highshelf~](img/object_flt.highshelf~.png)
+[![flt.eq_peak_cq~](img/object_flt.eq_peak_cq~.png)](flt.eq_peak_cq~.md)
+[![flt.lowshelf~](img/object_flt.lowshelf~.png)](flt.lowshelf~.md)
+[![flt.highshelf~](img/object_flt.highshelf~.png)](flt.highshelf~.md)

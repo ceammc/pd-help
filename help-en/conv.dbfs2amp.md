@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # conv.dbfs2amp
 
 ```
@@ -18,6 +21,8 @@
             
 ```
 ---
+convert decibel full scale to amplitude
+---
 arguments:
 
 
@@ -25,5 +30,6 @@ arguments:
 properties:
 
 
+---
 see also:<br>
-![amp-&gt;dbfs](img/object_amp-&gt;dbfs.png)
+[![amp-&gt;dbfs](img/object_amp-&gt;dbfs.png)](amp->dbfs.md)

@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # local.set
 
 ```
@@ -14,6 +17,8 @@
             
 ```
 ---
+local named set object
+---
 arguments:
 
 ID: object ID<br>
@@ -26,6 +31,7 @@ properties:
 @size: number of
             elements in list<br>
 
+---
 see also:<br>
-![data.set](img/object_data.set.png)
-![global.set](img/object_global.set.png)
+[![data.set](img/object_data.set.png)](data.set.md)
+[![global.set](img/object_global.set.png)](global.set.md)

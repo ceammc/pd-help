@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # noise.lfreq~
 
 ```
@@ -25,6 +28,8 @@
             
 ```
 ---
+noise.lfreq0~ smoothed with no overshoot
+---
 arguments:
 
 FREQ: noise generation freq<br>
@@ -37,5 +42,6 @@ properties:
 @active: on/off dsp
             processing<br>
 
+---
 see also:<br>
-![noise.lfreq0~](img/object_noise.lfreq0~.png)
+[![noise.lfreq0~](img/object_noise.lfreq0~.png)](noise.lfreq0~.md)

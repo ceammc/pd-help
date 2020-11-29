@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # flt.freqz~
 
 ```
@@ -38,6 +41,8 @@
 
             
 ```
+---
+compute the frequency response of a digital filter
 ---
 arguments:
 

@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # list.product
 
 ```
@@ -15,6 +18,8 @@
             
 ```
 ---
+calculates product of floats in list
+---
 arguments:
 
 
@@ -22,5 +27,6 @@ arguments:
 properties:
 
 
+---
 see also:<br>
-![list.sum](img/object_list.sum.png)
+[![list.sum](img/object_list.sum.png)](list.sum.md)

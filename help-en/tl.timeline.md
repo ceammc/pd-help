@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # tl.timeline
 
 ```
@@ -30,6 +33,8 @@
             
 ```
 ---
+Timeline - event scheduler
+---
 arguments:
 
 LENGTH(sec): timeline length<br>
@@ -54,5 +59,6 @@ properties:
             timeline never stops by itself. Fixed timeline can have @loop property for
             repeats<br>
 
+---
 see also:<br>
-![tl.cue](img/object_tl.cue.png)
+[![tl.cue](img/object_tl.cue.png)](tl.cue.md)

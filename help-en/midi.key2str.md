@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # midi.key2str
 
 ```
@@ -15,6 +18,8 @@
 
             
 ```
+---
+convert key number to SPN name according to tonality
 ---
 arguments:
 

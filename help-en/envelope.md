@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # envelope
 
 ```
@@ -22,6 +25,8 @@
 
             
 ```
+---
+Envelope data type
 ---
 arguments:
 
@@ -48,6 +53,7 @@ properties:
 @values: list of point values<br>
 @stops: list of stop points<br>
 
+---
 see also:<br>
-![env-&gt;array](img/object_env-&gt;array.png)
-![env-&gt;vline](img/object_env-&gt;vline.png)
+[![env-&gt;array](img/object_env-&gt;array.png)](env->array.md)
+[![env-&gt;vline](img/object_env-&gt;vline.png)](env->vline.md)

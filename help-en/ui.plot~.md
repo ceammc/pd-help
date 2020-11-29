@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # ui.plot~
 
 ```
@@ -33,6 +36,8 @@
 
             
 ```
+---
+signal plotter
 ---
 arguments:
 
@@ -100,5 +105,6 @@ properties:
 @fontslant: font
             slant<br>
 
+---
 see also:<br>
-![array.plot~](img/object_array.plot~.png)
+[![array.plot~](img/object_array.plot~.png)](array.plot~.md)

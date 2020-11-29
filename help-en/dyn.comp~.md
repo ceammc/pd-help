@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # dyn.comp~
 
 ```
@@ -17,6 +20,8 @@
 
             
 ```
+---
+mono dynamic range compressors
 ---
 arguments:
 
@@ -42,5 +47,6 @@ properties:
 @active: on/off dsp
             processing<br>
 
+---
 see also:<br>
-![dyn.comp2~](img/object_dyn.comp2~.png)
+[![dyn.comp2~](img/object_dyn.comp2~.png)](dyn.comp2~.md)

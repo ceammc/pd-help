@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # chaos.std0~
 
 ```
@@ -20,6 +23,8 @@
             
 ```
 ---
+Standard map chaotic generator
+---
 arguments:
 
 X: initial x value, default 0.5<br>
@@ -29,5 +34,6 @@ Y: initial y value, default 0<br>
 properties:
 
 
+---
 see also:<br>
-![chaos.std0](img/object_chaos.std0.png)
+[![chaos.std0](img/object_chaos.std0.png)](chaos.std0.md)

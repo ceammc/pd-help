@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # ui.slider2d
 
 ```
@@ -24,6 +27,8 @@
 
             
 ```
+---
+2D slider widget
 ---
 arguments:
 
@@ -77,6 +82,7 @@ properties:
 @label_margins: label offset in
             pixels<br>
 
+---
 see also:<br>
-![ui.slider](img/object_ui.slider.png)
-![ui.polar](img/object_ui.polar.png)
+[![ui.slider](img/object_ui.slider.png)](ui.slider.md)
+[![ui.polar](img/object_ui.polar.png)](ui.polar.md)

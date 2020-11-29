@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # math.gamma~
 
 ```
@@ -28,6 +31,8 @@
             
 ```
 ---
+gamma function for floating point signals
+---
 arguments:
 
 
@@ -35,6 +40,7 @@ arguments:
 properties:
 
 
+---
 see also:<br>
-![math.gamma](img/object_math.gamma.png)
-![math.lgamma~](img/object_math.lgamma~.png)
+[![math.gamma](img/object_math.gamma.png)](math.gamma.md)
+[![math.lgamma~](img/object_math.lgamma~.png)](math.lgamma~.md)

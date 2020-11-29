@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # list.^at
 
 ```
@@ -11,6 +14,8 @@
 
             
 ```
+---
+on input index(es) outputs list element(s)
 ---
 arguments:
 
@@ -33,5 +38,6 @@ properties:
 @wrap: alias to @method wrap. In range [0, LIST_SIZE)
             ordinal elements are returned. Other indexes are wrapped by modulo division.<br>
 
+---
 see also:<br>
-![list.at](img/object_list.at.png)
+[![list.at](img/object_list.at.png)](list.at.md)

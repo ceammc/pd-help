@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # math.lcm
 
 ```
@@ -14,6 +17,8 @@
             
 ```
 ---
+calculate least common multiple
+---
 arguments:
 
 ARG2: second argument<br>
@@ -22,5 +27,6 @@ ARG2: second argument<br>
 properties:
 
 
+---
 see also:<br>
-![math.gcd](img/object_math.gcd.png)
+[![math.gcd](img/object_math.gcd.png)](math.gcd.md)

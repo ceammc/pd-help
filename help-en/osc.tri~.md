@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # osc.tri~
 
 ```
@@ -25,6 +28,8 @@
             
 ```
 ---
+Bandlimited triangle wave oscillator
+---
 arguments:
 
 freq(Hz): frequency<br>
@@ -35,7 +40,8 @@ properties:
 @active: on/off dsp
             processing<br>
 
+---
 see also:<br>
-![osc.saw~](img/object_osc.saw~.png)
-![osc.square~](img/object_osc.square~.png)
-![lfo.tri~](img/object_lfo.tri~.png)
+[![osc.saw~](img/object_osc.saw~.png)](osc.saw~.md)
+[![osc.square~](img/object_osc.square~.png)](osc.square~.md)
+[![lfo.tri~](img/object_lfo.tri~.png)](lfo.tri~.md)

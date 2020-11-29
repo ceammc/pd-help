@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # list.split
 
 ```
@@ -16,6 +19,9 @@
             
 ```
 ---
+splits list into two parts, the length of first list is specified by the
+            argument.
+---
 arguments:
 
 AT: size of first list. The size of the list on the second
@@ -26,5 +32,6 @@ properties:
 
 @at: split point<br>
 
+---
 see also:<br>
-![list.at](img/object_list.at.png)
+[![list.at](img/object_list.at.png)](list.at.md)

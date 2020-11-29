@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # local.mlist
 
 ```
@@ -14,6 +17,8 @@
             
 ```
 ---
+local named mlist object
+---
 arguments:
 
 ID: object ID<br>
@@ -26,6 +31,7 @@ properties:
 @size: number of
             elements in list<br>
 
+---
 see also:<br>
-![data.mlist](img/object_data.mlist.png)
-![local.list](img/object_local.list.png)
+[![data.mlist](img/object_data.mlist.png)](data.mlist.md)
+[![local.list](img/object_local.list.png)](local.list.md)

@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # flow.multiplex2~
 
 ```
@@ -23,6 +26,8 @@
             
 ```
 ---
+audio stream stereo multiplexer
+---
 arguments:
 
 N: number of input
@@ -34,6 +39,7 @@ properties:
 @value: gain coefficients per each
             input<br>
 
+---
 see also:<br>
-![flow.multiplex~](img/object_flow.multiplex~.png)
-![flow.multiplex](img/object_flow.multiplex.png)
+[![flow.multiplex~](img/object_flow.multiplex~.png)](flow.multiplex~.md)
+[![flow.multiplex](img/object_flow.multiplex.png)](flow.multiplex.md)

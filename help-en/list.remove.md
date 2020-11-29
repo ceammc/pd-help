@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # list.remove
 
 ```
@@ -16,6 +19,8 @@
             
 ```
 ---
+on input list remove element(s) at specified positions
+---
 arguments:
 
 INDEXES: list of indexes to remove. Negative indexes are
@@ -25,5 +30,6 @@ INDEXES: list of indexes to remove. Negative indexes are
 properties:
 
 
+---
 see also:<br>
-![list.insert](img/object_list.insert.png)
+[![list.insert](img/object_list.insert.png)](list.insert.md)

@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # dyn.comp2~
 
 ```
@@ -17,6 +20,8 @@
 
             
 ```
+---
+stereo dynamic range compressor
 ---
 arguments:
 
@@ -42,5 +47,6 @@ properties:
 @active: on/off dsp
             processing<br>
 
+---
 see also:<br>
-![dyn.comp~](img/object_dyn.comp~.png)
+[![dyn.comp~](img/object_dyn.comp~.png)](dyn.comp~.md)

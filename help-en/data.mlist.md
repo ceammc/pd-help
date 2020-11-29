@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # data.mlist
 
 ```
@@ -14,6 +17,8 @@
             
 ```
 ---
+multidimensional list container
+---
 arguments:
 
 X: initial list values in (). For example: (1 2 3 (1 2)
@@ -27,5 +32,6 @@ properties:
 @size: number of
             elements in list<br>
 
+---
 see also:<br>
-![data.list](img/object_data.list.png)
+[![data.list](img/object_data.list.png)](data.list.md)

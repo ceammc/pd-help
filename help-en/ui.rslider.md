@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # ui.rslider
 
 ```
@@ -15,6 +18,8 @@
 
             
 ```
+---
+range slider
 ---
 arguments:
 
@@ -66,6 +71,7 @@ properties:
 @label_margins: label offset in
             pixels<br>
 
+---
 see also:<br>
-![ui.slider](img/object_ui.slider.png)
-![ui.sliders](img/object_ui.sliders.png)
+[![ui.slider](img/object_ui.slider.png)](ui.slider.md)
+[![ui.sliders](img/object_ui.sliders.png)](ui.sliders.md)

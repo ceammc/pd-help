@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # fx.drone_box~
 
 ```
@@ -21,6 +24,8 @@
 
             
 ```
+---
+mono sympathetic resonance generator
 ---
 arguments:
 

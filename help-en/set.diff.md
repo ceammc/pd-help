@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # set.diff
 
 ```
@@ -18,6 +21,8 @@
             
 ```
 ---
+difference between two sets
+---
 arguments:
 
 ARGS: right set elements<br>
@@ -26,6 +31,7 @@ ARGS: right set elements<br>
 properties:
 
 
+---
 see also:<br>
-![data.set](img/object_data.set.png)
-![set.union](img/object_set.union.png)
+[![data.set](img/object_data.set.png)](data.set.md)
+[![set.union](img/object_set.union.png)](set.union.md)

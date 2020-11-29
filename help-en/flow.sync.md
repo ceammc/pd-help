@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # flow.sync
 
 ```
@@ -20,6 +23,8 @@
             
 ```
 ---
+bus with only hot inlets
+---
 arguments:
 
 N: Number of
@@ -29,5 +34,6 @@ N: Number of
 properties:
 
 
+---
 see also:<br>
-![flow.pack&#39;](img/object_flow.pack&#39;.png)
+[![flow.pack&#39;](img/object_flow.pack&#39;.png)](flow.pack'.md)

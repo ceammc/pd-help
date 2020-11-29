@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # array.window
 
 ```
@@ -24,6 +27,8 @@
             
 ```
 ---
+fill array with window
+---
 arguments:
 
 
@@ -35,5 +40,6 @@ properties:
             change<br>
 @type: window type<br>
 
+---
 see also:<br>
-![window](img/object_window.png)
+[![window](img/object_window.png)](window.md)

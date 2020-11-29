@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # hoa.out~
 
 ```
@@ -17,6 +20,8 @@
             
 ```
 ---
+signal inlet for a patcher loaded by hoa.process~
+---
 arguments:
 
 EXTRA: shortcut for @extra property<br>
@@ -28,7 +33,8 @@ properties:
             are added to the &#34;normal&#34; instance inlet and can be used to send signal to all
             instances<br>
 
+---
 see also:<br>
-![hoa.out](img/object_hoa.out.png)
-![hoa.in](img/object_hoa.in.png)
-![hoa.in~](img/object_hoa.in~.png)
+[![hoa.out](img/object_hoa.out.png)](hoa.out.md)
+[![hoa.in](img/object_hoa.in.png)](hoa.in.md)
+[![hoa.in~](img/object_hoa.in~.png)](hoa.in~.md)

@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # math.sync_and
 
 ```
@@ -14,6 +17,8 @@
             
 ```
 ---
+sync logical AND operation
+---
 arguments:
 
 V: second value<br>
@@ -22,5 +27,6 @@ V: second value<br>
 properties:
 
 
+---
 see also:<br>
-![math.||&#39;](img/object_math.||&#39;.png)
+[![math.||&#39;](img/object_math.||&#39;.png)](math.||'.md)

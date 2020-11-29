@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # plot.logspace~
 
 ```
@@ -24,6 +27,8 @@
             
 ```
 ---
+outputs numbers spaced evenly on a log scale
+---
 arguments:
 
 start: @start property<br>
@@ -48,6 +53,7 @@ properties:
 @endpoint: include @stop to
             interval<br>
 
+---
 see also:<br>
-![plot.linspace~](img/object_plot.linspace~.png)
-![plot.geomspace~](img/object_plot.geomspace~.png)
+[![plot.linspace~](img/object_plot.linspace~.png)](plot.linspace~.md)
+[![plot.geomspace~](img/object_plot.geomspace~.png)](plot.geomspace~.md)

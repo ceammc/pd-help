@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # hw.display
 
 ```
@@ -13,6 +16,8 @@
 
             
 ```
+---
+get/set display properties
 ---
 arguments:
 

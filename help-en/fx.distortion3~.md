@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # fx.distortion3~
 
 ```
@@ -25,6 +28,8 @@
             
 ```
 ---
+simple distortion #3 from Guitarix effects set
+---
 arguments:
 
 
@@ -44,7 +49,8 @@ properties:
 @bypass: if set to 1 - bypass
             &#39;effected&#39; signal.<br>
 
+---
 see also:<br>
-![fx.distortion~](img/object_fx.distortion~.png)
-![fx.distortion1~](img/object_fx.distortion1~.png)
-![fx.distortion2~](img/object_fx.distortion2~.png)
+[![fx.distortion~](img/object_fx.distortion~.png)](fx.distortion~.md)
+[![fx.distortion1~](img/object_fx.distortion1~.png)](fx.distortion1~.md)
+[![fx.distortion2~](img/object_fx.distortion2~.png)](fx.distortion2~.md)

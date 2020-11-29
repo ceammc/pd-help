@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # hoa.2d.encoder~
 
 ```
@@ -27,6 +30,8 @@
             
 ```
 ---
+hoa 2d encoder
+---
 arguments:
 
 ORDER: the order of
@@ -37,5 +42,6 @@ properties:
 
 @order: the order of decomposition<br>
 
+---
 see also:<br>
-![hoa.2d.decoder~](img/object_hoa.2d.decoder~.png)
+[![hoa.2d.decoder~](img/object_hoa.2d.decoder~.png)](hoa.2d.decoder~.md)

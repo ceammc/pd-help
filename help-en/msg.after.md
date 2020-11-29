@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # msg.after
 
 ```
@@ -18,6 +21,8 @@
             
 ```
 ---
+send specified message after incoming message
+---
 arguments:
 
 DELAY(ms): message
@@ -28,5 +33,6 @@ MSG: message arguments<br>
 properties:
 
 
+---
 see also:<br>
-![msg](img/object_msg.png)
+[![msg](img/object_msg.png)](msg.md)

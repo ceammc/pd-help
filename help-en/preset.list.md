@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # preset.list
 
 ```
@@ -20,6 +23,8 @@
             
 ```
 ---
+load/store symbol preset
+---
 arguments:
 
 ID: preset id (should be unique in most use
@@ -36,7 +41,8 @@ properties:
 @global: use global path like /ID<br>
 @subpatch: include subpatch name to path<br>
 
+---
 see also:<br>
-![preset.storage](img/object_preset.storage.png)
-![preset.float](img/object_preset.float.png)
-![preset.symbol](img/object_preset.symbol.png)
+[![preset.storage](img/object_preset.storage.png)](preset.storage.md)
+[![preset.float](img/object_preset.float.png)](preset.float.md)
+[![preset.symbol](img/object_preset.symbol.png)](preset.symbol.md)

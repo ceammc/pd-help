@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # string.split
 
 ```
@@ -20,6 +23,8 @@
             
 ```
 ---
+split string by separator
+---
 arguments:
 
 SEP: separator. If nonspecified - separate by every char.
@@ -30,5 +35,6 @@ properties:
 
 @sep: separator<br>
 
+---
 see also:<br>
-![string.join](img/object_string.join.png)
+[![string.join](img/object_string.join.png)](string.join.md)

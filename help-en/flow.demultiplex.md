@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # flow.demultiplex
 
 ```
@@ -15,6 +18,8 @@
             
 ```
 ---
+control flow demultiplexer
+---
 arguments:
 
 N: number of outlets<br>
@@ -28,5 +33,6 @@ properties:
             specified you can&#39;t get or set @index property of current object: use right
             inlet<br>
 
+---
 see also:<br>
-![flow.multiplex](img/object_flow.multiplex.png)
+[![flow.multiplex](img/object_flow.multiplex.png)](flow.multiplex.md)

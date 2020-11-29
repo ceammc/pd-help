@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # fx.echo~
 
 ```
@@ -17,6 +20,8 @@
 
             
 ```
+---
+simple echo effect
 ---
 arguments:
 
@@ -39,5 +44,6 @@ properties:
 @active: on/off dsp
             processing<br>
 
+---
 see also:<br>
-![fx.sdelay~](img/object_fx.sdelay~.png)
+[![fx.sdelay~](img/object_fx.sdelay~.png)](fx.sdelay~.md)

@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # list.set
 
 ```
@@ -16,6 +19,8 @@
 
             
 ```
+---
+on input list set value at specified position
 ---
 arguments:
 

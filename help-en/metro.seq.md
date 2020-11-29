@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # metro.seq
 
 ```
@@ -20,6 +23,8 @@
             
 ```
 ---
+metro sequencer
+---
 arguments:
 
 INTERVAL(ms): metro tempo in
@@ -37,6 +42,7 @@ properties:
 @current: current pattern
             index<br>
 
+---
 see also:<br>
-![metro](img/object_metro.png)
-![metro.pattern](img/object_metro.pattern.png)
+[![metro](img/object_metro.png)](metro.md)
+[![metro.pattern](img/object_metro.pattern.png)](metro.pattern.md)

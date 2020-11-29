@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # hoa.in
 
 ```
@@ -21,6 +24,8 @@
             
 ```
 ---
+message inlet for a patcher loaded by hoa.process~
+---
 arguments:
 
 INDEX: shortcut for @index property<br>
@@ -31,7 +36,8 @@ properties:
 @index: Defines an inlet
             index<br>
 
+---
 see also:<br>
-![hoa.in~](img/object_hoa.in~.png)
-![hoa.out](img/object_hoa.out.png)
-![hoa.out~](img/object_hoa.out~.png)
+[![hoa.in~](img/object_hoa.in~.png)](hoa.in~.md)
+[![hoa.out](img/object_hoa.out.png)](hoa.out.md)
+[![hoa.out~](img/object_hoa.out~.png)](hoa.out~.md)

@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # prop
 
 ```
@@ -22,6 +25,8 @@
             
 ```
 ---
+get/set named property value for subpatch or abstraction
+---
 arguments:
 
 @NAME: property name<br>
@@ -30,6 +35,7 @@ arguments:
 properties:
 
 
+---
 see also:<br>
-![prop.declare](img/object_prop.declare.png)
-![patch.props](img/object_patch.props.png)
+[![prop.declare](img/object_prop.declare.png)](prop.declare.md)
+[![patch.props](img/object_patch.props.png)](patch.props.md)

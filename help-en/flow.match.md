@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # flow.match
 
 ```
@@ -19,6 +22,8 @@
             
 ```
 ---
+route data flow by regexp match
+---
 arguments:
 
 RE_LST: list of regular
@@ -30,5 +35,6 @@ properties:
 @cut: cut or pass message
             selector<br>
 
+---
 see also:<br>
-![string.match](img/object_string.match.png)
+[![string.match](img/object_string.match.png)](string.match.md)

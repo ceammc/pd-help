@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # ui.gain~
 
 ```
@@ -28,6 +31,8 @@
 
             
 ```
+---
+UI gain control
 ---
 arguments:
 

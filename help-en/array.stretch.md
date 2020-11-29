@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # array.stretch
 
 ```
@@ -35,6 +38,8 @@
 
             
 ```
+---
+array time-stretch, pitch-shift or rate-change
 ---
 arguments:
 

@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # list.integrator
 
 ```
@@ -17,6 +20,9 @@
 
             
 ```
+---
+returns the sum of the previously stored list and the current one then
+            stores this sum
 ---
 arguments:
 
@@ -40,5 +46,6 @@ properties:
             list with repeated values from the end to the beginning, then back and so
             on.<br>
 
+---
 see also:<br>
-![list.delta](img/object_list.delta.png)
+[![list.delta](img/object_list.delta.png)](list.delta.md)

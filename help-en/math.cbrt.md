@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # math.cbrt
 
 ```
@@ -12,6 +15,8 @@
             
 ```
 ---
+cube root function
+---
 arguments:
 
 
@@ -19,5 +24,6 @@ arguments:
 properties:
 
 
+---
 see also:<br>
-![math.sqrt](img/object_math.sqrt.png)
+[![math.sqrt](img/object_math.sqrt.png)](math.sqrt.md)

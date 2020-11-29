@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # list.first
 
 ```
@@ -14,6 +17,8 @@
             
 ```
 ---
+returns first list element
+---
 arguments:
 
 
@@ -21,6 +26,7 @@ arguments:
 properties:
 
 
+---
 see also:<br>
-![list.last](img/object_list.last.png)
-![list.at](img/object_list.at.png)
+[![list.last](img/object_list.last.png)](list.last.md)
+[![list.at](img/object_list.at.png)](list.at.md)

@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # ui.radio
 
 ```
@@ -17,6 +20,8 @@
 
             
 ```
+---
+counterpart of the vanilla radio toggle
 ---
 arguments:
 
@@ -55,5 +60,6 @@ properties:
 @mouse_events: mouse events output
             mode. If on outputs @mouse_down and @mouse_drag events<br>
 
+---
 see also:<br>
-![ui.matrix](img/object_ui.matrix.png)
+[![ui.matrix](img/object_ui.matrix.png)](ui.matrix.md)

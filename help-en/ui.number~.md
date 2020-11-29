@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # ui.number~
 
 ```
@@ -10,6 +13,8 @@
 
             
 ```
+---
+counterpart of the vanilla [nbx] for signal
 ---
 arguments:
 
@@ -42,5 +47,6 @@ properties:
 @fontslant: font
             slant<br>
 
+---
 see also:<br>
-![ui.number](img/object_ui.number.png)
+[![ui.number](img/object_ui.number.png)](ui.number.md)

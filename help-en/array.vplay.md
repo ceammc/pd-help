@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # array.vplay
 
 ```
@@ -27,6 +30,8 @@
             
 ```
 ---
+simple array player for using with vline~
+---
 arguments:
 
 NAME: array name<br>
@@ -49,5 +54,6 @@ properties:
 @reversed: playing backwards (if set
             to 1)<br>
 
+---
 see also:<br>
-![list.each](img/object_list.each.png)
+[![list.each](img/object_list.each.png)](list.each.md)

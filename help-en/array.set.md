@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # array.set
 
 ```
@@ -19,6 +22,8 @@
             
 ```
 ---
+set array content from list
+---
 arguments:
 
 NAME: array name<br>
@@ -31,5 +36,6 @@ properties:
             range<br>
 @redraw: redraw array view<br>
 
+---
 see also:<br>
-![array.each](img/object_array.each.png)
+[![array.each](img/object_array.each.png)](array.each.md)

@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # flt.c_bpf~
 
 ```
@@ -23,6 +26,8 @@
             
 ```
 ---
+BPF coefficient calculator for biquad filter
+---
 arguments:
 
 freq(Hz): center
@@ -39,7 +44,8 @@ properties:
 @active: on/off dsp
             processing<br>
 
+---
 see also:<br>
-![flt.biquad~](img/object_flt.biquad~.png)
-![flt.bpf12~](img/object_flt.bpf12~.png)
-![flt.c_notch~](img/object_flt.c_notch~.png)
+[![flt.biquad~](img/object_flt.biquad~.png)](flt.biquad~.md)
+[![flt.bpf12~](img/object_flt.bpf12~.png)](flt.bpf12~.md)
+[![flt.c_notch~](img/object_flt.c_notch~.png)](flt.c_notch~.md)

@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # noise.crackle~
 
 ```
@@ -15,6 +18,8 @@
 
             
 ```
+---
+sparse noise generator
 ---
 arguments:
 

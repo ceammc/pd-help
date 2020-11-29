@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # ui.dsp~
 
 ```
@@ -13,6 +16,8 @@
 
             
 ```
+---
+GUI for turning DSP on/off
 ---
 arguments:
 

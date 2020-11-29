@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # conv.lin2lin~
 
 ```
@@ -13,6 +16,8 @@
 
             
 ```
+---
+convert from one linear range to another for signals
 ---
 arguments:
 
@@ -35,5 +40,6 @@ properties:
 @max: alias to @clip max<br>
 @minmax: alias to @clip minmax<br>
 
+---
 see also:<br>
-![conv.lin2lin](img/object_conv.lin2lin.png)
+[![conv.lin2lin](img/object_conv.lin2lin.png)](conv.lin2lin.md)

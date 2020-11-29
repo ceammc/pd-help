@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # list.resample
 
 ```
@@ -20,6 +23,8 @@
             
 ```
 ---
+resample list with specified ratio
+---
 arguments:
 
 RATIO: resample
@@ -31,5 +36,6 @@ properties:
 @ratio: resample
             ratio (src/dest)<br>
 
+---
 see also:<br>
-![list.stretch](img/object_list.stretch.png)
+[![list.stretch](img/object_list.stretch.png)](list.stretch.md)

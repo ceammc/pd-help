@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # flt.eq10~
 
 ```
@@ -29,6 +32,8 @@
             
 ```
 ---
+graphic 10 band equalizer
+---
 arguments:
 
 
@@ -48,5 +53,6 @@ properties:
 @active: on/off dsp
             processing<br>
 
+---
 see also:<br>
-![flt.eq_peak~](img/object_flt.eq_peak~.png)
+[![flt.eq_peak~](img/object_flt.eq_peak~.png)](flt.eq_peak~.md)

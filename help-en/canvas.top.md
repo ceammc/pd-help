@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # canvas.top
 
 ```
@@ -20,6 +23,8 @@
             
 ```
 ---
+verbose information about top-level canvas
+---
 arguments:
 
 
@@ -36,6 +41,7 @@ properties:
 @x: window x-pos<br>
 @y: window y-pos<br>
 
+---
 see also:<br>
-![patch.args](img/object_patch.args.png)
-![canvas.current](img/object_canvas.current.png)
+[![patch.args](img/object_patch.args.png)](patch.args.md)
+[![canvas.current](img/object_canvas.current.png)](canvas.current.md)

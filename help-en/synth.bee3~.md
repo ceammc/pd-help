@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # synth.bee3~
 
 ```
@@ -24,6 +27,8 @@
 
             
 ```
+---
+Hammond-oid organ FM synthesis instrument
 ---
 arguments:
 

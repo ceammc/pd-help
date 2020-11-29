@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # conv.pitch2midi
 
 ```
@@ -23,6 +26,8 @@
 
             
 ```
+---
+converts symbol pitch name to MIDI note number
 ---
 arguments:
 

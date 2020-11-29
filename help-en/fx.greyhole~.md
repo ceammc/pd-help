@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # fx.greyhole~
 
 ```
@@ -22,6 +25,8 @@
 
             
 ```
+---
+A complex echo-like effect
 ---
 arguments:
 
@@ -55,5 +60,6 @@ properties:
 @active: on/off dsp
             processing<br>
 
+---
 see also:<br>
-![fx.freeverb2~](img/object_fx.freeverb2~.png)
+[![fx.freeverb2~](img/object_fx.freeverb2~.png)](fx.freeverb2~.md)

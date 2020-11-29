@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # hw.apple_sms
 
 ```
@@ -17,6 +20,8 @@
 
             
 ```
+---
+query the sudden motion sensor in Apples
 ---
 arguments:
 

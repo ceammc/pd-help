@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # math.div
 
 ```
@@ -14,6 +17,8 @@
 
             
 ```
+---
+division (on lists too)
 ---
 arguments:
 

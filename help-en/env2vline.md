@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # env2vline
 
 ```
@@ -37,6 +40,8 @@
             
 ```
 ---
+Converts envelope to bunch of vline messages
+---
 arguments:
 
 
@@ -46,6 +51,7 @@ properties:
 @sync: sync with input data. When set
             to 1 outputs envelope (as fixed) on every input data<br>
 
+---
 see also:<br>
-![vline-&gt;env](img/object_vline-&gt;env.png)
-![env-&gt;array](img/object_env-&gt;array.png)
+[![vline-&gt;env](img/object_vline-&gt;env.png)](vline->env.md)
+[![env-&gt;array](img/object_env-&gt;array.png)](env->array.md)

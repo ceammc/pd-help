@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # dict.contains
 
 ```
@@ -14,6 +17,8 @@
             
 ```
 ---
+predicate to check if dict contains a keys
+---
 arguments:
 
 KEY: checked keys<br>
@@ -22,6 +27,7 @@ KEY: checked keys<br>
 properties:
 
 
+---
 see also:<br>
-![data.dict](img/object_data.dict.png)
-![dict.keys](img/object_dict.keys.png)
+[![data.dict](img/object_data.dict.png)](data.dict.md)
+[![dict.keys](img/object_dict.keys.png)](dict.keys.md)

@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # random.int
 
 ```
@@ -12,6 +15,8 @@
             
 ```
 ---
+Random integer generator in specified range
+---
 arguments:
 
 
@@ -19,6 +24,7 @@ arguments:
 properties:
 
 
+---
 see also:<br>
-![random.float](img/object_random.float.png)
-![random.gauss](img/object_random.gauss.png)
+[![random.float](img/object_random.float.png)](random.float.md)
+[![random.gauss](img/object_random.gauss.png)](random.gauss.md)

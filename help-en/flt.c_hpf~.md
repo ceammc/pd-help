@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # flt.c_hpf~
 
 ```
@@ -22,6 +25,8 @@
             
 ```
 ---
+HPF coefficient calculator for biquad filter
+---
 arguments:
 
 freq(Hz): center
@@ -38,6 +43,7 @@ properties:
 @active: on/off dsp
             processing<br>
 
+---
 see also:<br>
-![flt.biquad~](img/object_flt.biquad~.png)
-![flt.hpf12~](img/object_flt.hpf12~.png)
+[![flt.biquad~](img/object_flt.biquad~.png)](flt.biquad~.md)
+[![flt.hpf12~](img/object_flt.hpf12~.png)](flt.hpf12~.md)

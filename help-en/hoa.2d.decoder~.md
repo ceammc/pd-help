@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # hoa.2d.decoder~
 
 ```
@@ -17,6 +20,8 @@
 
             
 ```
+---
+hoa 2d decoder
 ---
 arguments:
 
@@ -55,5 +60,6 @@ properties:
 @nwaves: number of
             plain waves.<br>
 
+---
 see also:<br>
-![hoa.encoder~](img/object_hoa.encoder~.png)
+[![hoa.encoder~](img/object_hoa.encoder~.png)](hoa.encoder~.md)

@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # system.getenv
 
 ```
@@ -15,6 +18,8 @@
             
 ```
 ---
+Get system environment variables
+---
 arguments:
 
 VAR: environment variable name<br>
@@ -23,5 +28,6 @@ VAR: environment variable name<br>
 properties:
 
 
+---
 see also:<br>
-![system.hostname](img/object_system.hostname.png)
+[![system.hostname](img/object_system.hostname.png)](system.hostname.md)

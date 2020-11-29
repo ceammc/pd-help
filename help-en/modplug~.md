@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # modplug~
 
 ```
@@ -21,6 +24,8 @@
 
             
 ```
+---
+MOD file player (using libmodplug)
 ---
 arguments:
 

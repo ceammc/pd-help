@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # ui.matrix
 
 ```
@@ -27,6 +30,8 @@
 
             
 ```
+---
+The matrix of toggles has you.
 ---
 arguments:
 
@@ -68,6 +73,7 @@ properties:
 @fontslant: font
             slant<br>
 
+---
 see also:<br>
-![ui.radio](img/object_ui.radio.png)
-![ui.toggle](img/object_ui.toggle.png)
+[![ui.radio](img/object_ui.radio.png)](ui.radio.md)
+[![ui.toggle](img/object_ui.toggle.png)](ui.toggle.md)

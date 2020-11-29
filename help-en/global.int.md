@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # global.int
 
 ```
@@ -17,6 +20,8 @@
             
 ```
 ---
+global named integer object
+---
 arguments:
 
 ID: object ID<br>
@@ -26,5 +31,6 @@ properties:
 
 @value: current value<br>
 
+---
 see also:<br>
-![global.float](img/object_global.float.png)
+[![global.float](img/object_global.float.png)](global.float.md)

@@ -1,3 +1,6 @@
+[<<< reference home](ceammc_lib.md)
+---
+
 # dict.from_list
 
 ```
@@ -14,6 +17,8 @@
             
 ```
 ---
+creates dictionary from list
+---
 arguments:
 
 STEP: key/value length in input list<br>
@@ -24,5 +29,6 @@ properties:
 @step: key/value length in input
             list<br>
 
+---
 see also:<br>
-![data.dict](img/object_data.dict.png)
+[![data.dict](img/object_data.dict.png)](data.dict.md)

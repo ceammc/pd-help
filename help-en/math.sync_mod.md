@@ -6,6 +6,14 @@
 
 sync remainder of modulo division (float or integer)
 
+---
+
+on division by zero outputs nothing: just put error message into console<br>
+
+
+---
+
+
 ```
 
 

@@ -6,6 +6,16 @@
 
 splits list to N lists, each to separate output
 
+---
+
+For N = 2 and list elements [1 2 3 4] we get [1 3] on output 1 and [2 4] on output
+            2.If input value is [1 2 3 4 5] the output depends on split method.If @min method used, output is [1 3 5] and [2 4]. If @pad method used with value
+            X, output if [1 3 5] and [2 4 X]<br>
+
+
+---
+
+
 ```
 
 

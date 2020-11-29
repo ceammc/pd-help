@@ -6,6 +6,14 @@
 
 load/store symbol preset
 
+---
+
+Named list preset entry. Can store/load up to 16 various lists<br>
+
+
+---
+
+
 ```
 
 

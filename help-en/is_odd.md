@@ -6,6 +6,14 @@
 
 checks if input number is odd
 
+---
+
+<br>
+
+
+---
+
+
 ```
 
 

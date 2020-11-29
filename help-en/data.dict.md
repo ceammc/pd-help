@@ -6,6 +6,15 @@
 
 dictionary container: store values by key
 
+---
+
+Syntax: [key1: value key2 : &#34;with space&#34;]. Nested dictionaries are supported: [a:
+            [A:1 B:2]]).<br>
+
+
+---
+
+
 ```
 
 

@@ -6,6 +6,15 @@
 
 send specified message after incoming message
 
+---
+
+if new input message received, while delayed message is not send, the delayed
+            message is resetted<br>
+
+
+---
+
+
 ```
 
 

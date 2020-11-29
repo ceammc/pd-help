@@ -6,6 +6,14 @@
 
 2D slider widget
 
+---
+
+2D sliders widget<br>
+
+
+---
+
+
 ```
 
 

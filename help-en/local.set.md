@@ -6,6 +6,14 @@
 
 local named set object
 
+---
+
+Defines local scope set variable, accessed by ID name<br>
+
+
+---
+
+
 ```
 
                      

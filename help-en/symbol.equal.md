@@ -6,6 +6,14 @@
 
 check symbols for equality
 
+---
+
+<br>
+
+
+---
+
+
 ```
 
 

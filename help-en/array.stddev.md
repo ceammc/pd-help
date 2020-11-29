@@ -6,6 +6,14 @@
 
 calculates standard deviation for array values
 
+---
+
+<br>
+
+
+---
+
+
 ```
 
 

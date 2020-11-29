@@ -6,6 +6,14 @@
 
 Peter de Jong attractor
 
+---
+
+A non-interpolating generator based on the difference equations:x[n+1] = sin(a * y[n]) - cos(b * x[n])y[n+1] = sin(c * x[n]) - cos(d * y[n])<br>
+
+
+---
+
+
 ```
 
 

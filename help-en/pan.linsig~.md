@@ -6,6 +6,14 @@
 
 two channel linear panner with signal control
 
+---
+
+<br>
+
+
+---
+
+
 ```
 
 

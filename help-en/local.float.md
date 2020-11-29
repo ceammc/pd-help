@@ -6,6 +6,15 @@
 
 canvas-scoped named float variable
 
+---
+
+Defines named local float variable, accessed by name and available only within its
+            patch (canvas). Note: it is not accessible even from subpatch.<br>
+
+
+---
+
+
 ```
 
 

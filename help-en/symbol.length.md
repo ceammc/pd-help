@@ -6,6 +6,14 @@
 
 number of characters in symbol (unicode supported)
 
+---
+
+<br>
+
+
+---
+
+
 ```
 
 

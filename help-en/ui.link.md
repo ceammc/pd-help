@@ -6,6 +6,16 @@
 
 Hyperlink widget
 
+---
+
+Link allows to open external URLs, not only Pd patches but all kind of URL
+            supported by your OS. If relative file path is given, it searched in current directory,
+            then Pd doc directory and Pd external directories<br>
+
+
+---
+
+
 ```
 
 

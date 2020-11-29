@@ -6,6 +6,15 @@
 
 array time-stretch, pitch-shift or rate-change
 
+---
+
+Based on SoundTouch library for changing the Tempo, Pitch and Playback Rates of
+            arrays. Copies time-stretched data from source to destination array<br>
+
+
+---
+
+
 ```
 
  

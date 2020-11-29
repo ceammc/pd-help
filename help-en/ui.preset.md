@@ -6,6 +6,16 @@
 
 Preset manager
 
+---
+
+Saves presets value of UI objects that have @presetname property. Can handle UI
+            objects only on the save canvas, no subpatches or abstractions are supported.NOTE: if no UI widgets with @presetname on canvas - *Shift-click* is
+            disabled.Active slot is highlighted, available slots are dark gray<br>
+
+
+---
+
+
 ```
 
 

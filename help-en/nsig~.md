@@ -6,6 +6,14 @@
 
 Mulitchannel converter from control to audio rate
 
+---
+
+<br>
+
+
+---
+
+
 ```
 
 

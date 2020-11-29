@@ -6,6 +6,15 @@
 
 message inlet for a patcher loaded by hoa.process~
 
+---
+
+hoa.in defines a message inlet for a patcher loaded by a hoa.process~
+            object.<br>
+
+
+---
+
+
 ```
 
 

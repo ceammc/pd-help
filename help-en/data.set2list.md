@@ -6,6 +6,15 @@
 
 converts set to list
 
+---
+
+Note: output list is not sorted by default. You can use @sort flag to get sorted
+            output<br>
+
+
+---
+
+
 ```
 
 

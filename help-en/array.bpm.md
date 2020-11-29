@@ -6,6 +6,14 @@
 
 BPM calculator
 
+---
+
+Calculates BPM (Beats Per Minute) rate using SoundTouch library<br>
+
+
+---
+
+
 ```
 
 

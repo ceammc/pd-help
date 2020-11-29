@@ -6,6 +6,16 @@
 
 Substitute enviroment variables in data stream
 
+---
+
+Environment variable %HOME% will be replaced by home user directory under
+            UNIXSome special variables defined: %DOC% - path to PureData doc directory, %CEAMMC% -
+            path to ceammc library directory<br>
+
+
+---
+
+
 ```
 
 

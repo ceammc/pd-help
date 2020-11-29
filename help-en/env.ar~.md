@@ -6,6 +6,14 @@
 
 Attack/Release envelope generator
 
+---
+
+click on object to activate envelope<br>
+
+
+---
+
+
 ```
 
 

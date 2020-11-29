@@ -6,6 +6,15 @@
 
 Converts envelope to bunch of vline messages
 
+---
+
+Supports stop-points for multisegment envelopes. Note: non-linear envelopes are
+            outputted using linear approximation<br>
+
+
+---
+
+
 ```
 
 

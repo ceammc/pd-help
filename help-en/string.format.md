@@ -6,6 +6,14 @@
 
 formats string like printf.
 
+---
+
+This format modifiers are supported: %d, %u, %i, %o, %x, %X, %s, %e, %E.<br>
+
+
+---
+
+
 ```
 
 

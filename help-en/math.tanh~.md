@@ -6,6 +6,14 @@
 
 hyperbolic tangent for signals
 
+---
+
+Outputs hyperbolic tangent of input signal<br>
+
+
+---
+
+
 ```
 
 

@@ -7,6 +7,16 @@
 recomposes a 2d plane wave decomposition into circular
             harmonics
 
+---
+
+Recomposes a plane wave decomposition into circular harmonics. There&#39;s three
+            modes, fixe (default), fisheye and free.The hoa.2d.recomposer~ can be controlled either by message or with the help of its
+            dedicated graphical user interface hoa.2d.recomposer.<br>
+
+
+---
+
+
 ```
 
 

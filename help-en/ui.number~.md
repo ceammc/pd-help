@@ -6,6 +6,14 @@
 
 counterpart of the vanilla [nbx] for signal
 
+---
+
+Shows one sample from input block via specified interval<br>
+
+
+---
+
+
 ```
 
 

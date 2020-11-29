@@ -6,6 +6,17 @@
 
 freeverb - common used open-source reverb
 
+---
+
+A simple Schroeder reverberator primarily developed by &#34;Jezar at Dreampoint&#34; that
+            is extensively used in the free-software world. It uses four Schroeder allpasses in
+            series and eight parallel Schroeder-Moorer filtered-feedback comb-filters for each
+            audio channel, and is said to be especially well tuned.<br>
+
+
+---
+
+
 ```
 
 

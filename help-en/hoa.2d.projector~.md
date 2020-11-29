@@ -6,6 +6,14 @@
 
 a plane waves decomposer from circular harmonics domain
 
+---
+
+Discretizes the ambisonic sound field into the plane waves domain.<br>
+
+
+---
+
+
 ```
 
 

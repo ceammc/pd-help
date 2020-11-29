@@ -6,6 +6,14 @@
 
 convert from MIDI Control Change range
 
+---
+
+By default converts from [0..127] to [0..1]<br>
+
+
+---
+
+
 ```
 
 

@@ -6,6 +6,14 @@
 
 gain boost|cut below some frequency
 
+---
+
+<br>
+
+
+---
+
+
 ```
 
 

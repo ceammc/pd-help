@@ -6,6 +6,14 @@
 
 calculate reciprocal number for signals
 
+---
+
+<br>
+
+
+---
+
+
 ```
 
 

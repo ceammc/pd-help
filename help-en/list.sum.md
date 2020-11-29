@@ -6,6 +6,14 @@
 
 calculates sum of floats in list
 
+---
+
+<br>
+
+
+---
+
+
 ```
 
 

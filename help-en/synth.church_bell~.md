@@ -6,6 +6,16 @@
 
 generic church bell modal model
 
+---
+
+Modeled after T. Rossing and R. Perrin, Vibrations of Bells, Applied Acoustics 2,
+            1987Model height is 301 mmThis model contains 7 excitation positions going linearly from the bottom to the
+            top of the bell<br>
+
+
+---
+
+
 ```
 
 

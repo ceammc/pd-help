@@ -6,6 +6,14 @@
 
 checks if given path exists
 
+---
+
+<br>
+
+
+---
+
+
 ```
 
 

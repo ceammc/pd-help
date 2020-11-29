@@ -6,6 +6,14 @@
 
 check strings for equality
 
+---
+
+<br>
+
+
+---
+
+
 ```
 
 

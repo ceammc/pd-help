@@ -6,6 +6,14 @@
 
 Multiple slider widget
 
+---
+
+<br>
+
+
+---
+
+
 ```
 
 

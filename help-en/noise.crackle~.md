@@ -6,6 +6,15 @@
 
 sparse noise generator
 
+---
+
+Random impulses in the amplitude range -1 to 1 are generated at an average rate of
+            @freq impulses per second<br>
+
+
+---
+
+
 ```
 
 

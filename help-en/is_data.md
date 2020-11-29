@@ -6,6 +6,14 @@
 
 checks if input data has *data* type
 
+---
+
+<br>
+
+
+---
+
+
 ```
 
 

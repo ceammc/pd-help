@@ -6,6 +6,15 @@
 
 Sound file loader on steroids
 
+---
+
+Deal with sound files: gets files info and loads them into arrays. Various formats
+            are supported. Supports array name patterns.<br>
+
+
+---
+
+
 ```
 
 

@@ -6,6 +6,15 @@
 
 arc sine for signals
 
+---
+
+Outputs the principle value of the arc sine of input signal. The result is in the
+            range [-pi/2, +pi/2]<br>
+
+
+---
+
+
 ```
 
 

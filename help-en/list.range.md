@@ -6,6 +6,14 @@
 
 returns list smallest and largest value
 
+---
+
+Note: numbers are smaller then symbols<br>
+
+
+---
+
+
 ```
 
 

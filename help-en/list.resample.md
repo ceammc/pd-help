@@ -6,6 +6,14 @@
 
 resample list with specified ratio
 
+---
+
+<br>
+
+
+---
+
+
 ```
 
 

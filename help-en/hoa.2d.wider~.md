@@ -6,6 +6,16 @@
 
 a 2d fractional ambisonic order simulator
 
+---
+
+hoa.2d.wider~ can be used to wide the diffusion of a localised sound. The order
+            depending signals are weighted and appear in a logarithmic way to have linear
+            changes.<br>
+
+
+---
+
+
 ```
 
 

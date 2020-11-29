@@ -6,6 +6,15 @@
 
 canvas-scoped named integer variable
 
+---
+
+Defines named local integer variable, accessed by name and available only within
+            its patch (canvas). Note: it is not accessible even from subpatch.<br>
+
+
+---
+
+
 ```
 
 

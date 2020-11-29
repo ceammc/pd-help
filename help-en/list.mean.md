@@ -6,6 +6,14 @@
 
 calculates average of list of floats
 
+---
+
+<br>
+
+
+---
+
+
 ```
 
 

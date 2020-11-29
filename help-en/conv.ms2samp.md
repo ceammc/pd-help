@@ -7,6 +7,14 @@
 convert time in milliseconds to number of samples according to current
             samplerate
 
+---
+
+<br>
+
+
+---
+
+
 ```
 
 

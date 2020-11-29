@@ -6,6 +6,15 @@
 
 Hammond-oid organ FM synthesis instrument
 
+---
+
+This class implements a simple 4 operator topology, also referred to as algorithm
+            8 of the TX81Z<br>
+
+
+---
+
+
 ```
 
 

@@ -6,6 +6,14 @@
 
 send message when patch loads
 
+---
+
+like [loadbang], but with message and click support.Click on object sends message again.<br>
+
+
+---
+
+
 ```
 
 

@@ -6,6 +6,14 @@
 
 returns IP address by DNS name
 
+---
+
+<br>
+
+
+---
+
+
 ```
 
 

@@ -6,6 +6,14 @@
 
 spreads input channels across the stereo field
 
+---
+
+<br>
+
+
+---
+
+
 ```
 
 

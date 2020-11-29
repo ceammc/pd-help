@@ -6,6 +6,14 @@
 
 convert from amplitude to decibel full scale
 
+---
+
+Note: amplitude value 0 is converted to -144 db (24-bit range)<br>
+
+
+---
+
+
 ```
 
 

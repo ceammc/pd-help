@@ -6,6 +6,15 @@
 
 counterpart of the vanilla radio toggle
 
+---
+
+[ui.hrd] alias for horizontal radio, [ui.vrd] alias for vertical radio, [ui.hrd*]
+            alias for horizontal radio checklist.<br>
+
+
+---
+
+
 ```
 
 

@@ -6,6 +6,14 @@
 
 calculates array histogram
 
+---
+
+Values outside of range @min...@max are ignored<br>
+
+
+---
+
+
 ```
 
 

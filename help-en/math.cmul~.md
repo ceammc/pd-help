@@ -6,6 +6,14 @@
 
 multiplication of complex signals
 
+---
+
+Calculates for signals (a + bi) * (c + di) = (ac - bd) + (ad + bc)i<br>
+
+
+---
+
+
 ```
 
 

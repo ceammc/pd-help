@@ -6,6 +6,14 @@
 
 onset detector for arrays
 
+---
+
+Onset detector based on aubio library<br>
+
+
+---
+
+
 ```
 
 

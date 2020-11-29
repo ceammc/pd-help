@@ -6,6 +6,14 @@
 
 global named float object
 
+---
+
+Defines global scope float variable, accessed by ID name.<br>
+
+
+---
+
+
 ```
 
 

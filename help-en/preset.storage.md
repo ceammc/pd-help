@@ -6,6 +6,15 @@
 
 preset storage control
 
+---
+
+Preset storage allows to load and store presets, read and write them to
+            files<br>
+
+
+---
+
+
 ```
 
 

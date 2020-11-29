@@ -6,6 +6,15 @@
 
 dynamic [expr]
 
+---
+
+Operators: +, -, *, /, %, &lt;, &lt;=, &gt;=, &gt;, ==, !=Functions: sin(), cos(), tan(), atan(), sqrt(), ln(), log2(), log10(), exp(),
+            round(), ceil(), float(), fact(), min(), max(), sign(), abs()Constants: $pi, $eVariables: $f, $f0, $f1 ... $f9Array access: array1[$f]<br>
+
+
+---
+
+
 ```
 
 

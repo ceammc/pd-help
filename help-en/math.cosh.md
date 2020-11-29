@@ -6,6 +6,14 @@
 
 hyperbolic cosine function
 
+---
+
+The coshf() function computes the hyperbolic cosine of input value.Special values:cosh(+-0) returns 1.cosh(+-infinity) returns +infinity.<br>
+
+
+---
+
+
 ```
 
 

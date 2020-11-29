@@ -6,6 +6,14 @@
 
 calculate greatest common divisor
 
+---
+
+<br>
+
+
+---
+
+
 ```
 
 

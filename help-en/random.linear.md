@@ -6,6 +6,15 @@
 
 random linear distribution
 
+---
+
+Generates random number in interval [@v0, @v1) with linear distribution [@p0,
+            @p1)<br>
+
+
+---
+
+
 ```
 
 

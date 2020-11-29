@@ -6,6 +6,16 @@
 
 simple icon with button capabilities
 
+---
+
+Alt+Click outputs all possible icon names to Pd window. Can be in bang, button and
+            toggle modes. Button mode is default: outputs 1 on mouse down, 0 on mouse up. See @mode
+            property for more information.<br>
+
+
+---
+
+
 ```
 
 

@@ -6,6 +6,15 @@
 
 Band-reject coefficient calculator for biquad filter
 
+---
+
+Calculates coefficients for transfer function: H(z)=(b0 + b1*z⁻¹ + b2*z⁻²)/(1 +
+            a1*z⁻¹ + a2*z⁻²)<br>
+
+
+---
+
+
 ```
 
 

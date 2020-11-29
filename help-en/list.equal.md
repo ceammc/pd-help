@@ -6,6 +6,14 @@
 
 checks if given lists are equal
 
+---
+
+<br>
+
+
+---
+
+
 ```
 
 

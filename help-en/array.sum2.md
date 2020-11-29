@@ -6,6 +6,14 @@
 
 calculates sum of squares of array elements
 
+---
+
+<br>
+
+
+---
+
+
 ```
 
 

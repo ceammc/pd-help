@@ -6,6 +6,14 @@
 
 Gingerbreadman map chaotic generator
 
+---
+
+A non-interpolating sound generator based on the difference equations:x(n+1) = 1 - y(n) + |x(n)|y(n+1) = x(n)<br>
+
+
+---
+
+
 ```
 
 

@@ -6,6 +6,15 @@
 
 Replace atoms in data stream
 
+---
+
+From/to values can be specified both as @from/@to properties or first and second
+            arguments.<br>
+
+
+---
+
+
 ```
 
 

@@ -6,6 +6,14 @@
 
 filter mouse events from ui objects
 
+---
+
+pass only specified mouse events from ui.* objects<br>
+
+
+---
+
+
 ```
 
 

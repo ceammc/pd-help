@@ -6,6 +6,15 @@
 
 Wurlitzer electric piano FM synthesis instrument
 
+---
+
+This class implements two simple FM Pairs summed together, also referred to as
+            algorithm 5 of the TX81Z<br>
+
+
+---
+
+
 ```
 
 

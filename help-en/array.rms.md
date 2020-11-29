@@ -6,6 +6,14 @@
 
 calculates root mean square value for array
 
+---
+
+<br>
+
+
+---
+
+
 ```
 
 

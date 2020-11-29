@@ -6,6 +6,14 @@
 
 calculates variance of array values
 
+---
+
+<br>
+
+
+---
+
+
 ```
 
 

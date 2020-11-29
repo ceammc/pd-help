@@ -6,6 +6,15 @@
 
 message outlet for a patcher loaded by hoa.process~
 
+---
+
+hoa.out defines a message outlet for a patcher loaded by a hoa.process~
+            object.<br>
+
+
+---
+
+
 ```
 
 

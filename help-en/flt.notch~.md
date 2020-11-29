@@ -6,6 +6,15 @@
 
 band-rejection filter
 
+---
+
+filter that passes most frequencies unaltered, but attenuates those in a specific
+            range to very low levels. It is the opposite of a band-pass filter.<br>
+
+
+---
+
+
 ```
 
 

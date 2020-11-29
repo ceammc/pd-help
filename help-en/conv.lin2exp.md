@@ -6,6 +6,15 @@
 
 maps linear range to exponential range
 
+---
+
+The output range must not include zero. If the input exceeds the input range, by
+            default clip is applied.<br>
+
+
+---
+
+
 ```
 
 

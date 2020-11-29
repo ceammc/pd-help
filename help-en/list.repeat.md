@@ -6,6 +6,14 @@
 
 creates new list by repeating given list specified times
 
+---
+
+<br>
+
+
+---
+
+
 ```
 
 

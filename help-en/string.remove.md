@@ -6,6 +6,14 @@
 
 remove substring from input string
 
+---
+
+<br>
+
+
+---
+
+
 ```
 
 

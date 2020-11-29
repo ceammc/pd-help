@@ -6,6 +6,14 @@
 
 load/store float preset
 
+---
+
+Named float preset entry. Can store/load up to 16 various float values<br>
+
+
+---
+
+
 ```
 
 

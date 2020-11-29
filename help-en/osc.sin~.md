@@ -6,6 +6,14 @@
 
 Sine wave oscillator
 
+---
+
+included for library comprehension<br>
+
+
+---
+
+
 ```
 
 

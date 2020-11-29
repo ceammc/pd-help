@@ -6,6 +6,17 @@
 
 Timeline - event scheduler
 
+---
+
+With timeline you can schedule your events and start/pause/stop/move timeThis time formats for event are supported: *clock format* - HH:MM:SS.MS, or values
+            like NUMBER UNIT: 10 ms, 10 msec, 20 sec, 30.5s. Note: spaces are ignored.Empty timeline always contains &#34;end&#34; event, that can&#39;t be removed. Events are
+            referred by name or by index. Negative indexes are supported: -1 means last event (not
+            &#34;end&#34; event, but last user event)<br>
+
+
+---
+
+
 ```
 
 

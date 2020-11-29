@@ -6,6 +6,14 @@
 
 sampled/held noise (piecewise constant)
 
+---
+
+new random number every int(SR/freq) samples or so<br>
+
+
+---
+
+
 ```
 
 

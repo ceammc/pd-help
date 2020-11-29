@@ -6,6 +6,14 @@
 
 base-2 logarithm
 
+---
+
+Outputs the value of the logarithm of argument x to base 2Special values:log2(1) return +0.log2(+infinity) return +infinity.<br>
+
+
+---
+
+
 ```
 
 

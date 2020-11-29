@@ -6,6 +6,14 @@
 
 checks if given string starts with specified prefix
 
+---
+
+<br>
+
+
+---
+
+
 ```
 
 

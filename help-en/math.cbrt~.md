@@ -6,6 +6,14 @@
 
 cube root function for signals
 
+---
+
+Outputs the cube root of input signalSpecial values:cbrt(+-0) returns +-0.cbrt(+-infinity) returns +-infinity.<br>
+
+
+---
+
+
 ```
 
 

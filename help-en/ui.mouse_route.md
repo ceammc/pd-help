@@ -6,6 +6,14 @@
 
 routes mouse events from ui objects
 
+---
+
+routes only specified mouse events from ui.* objects<br>
+
+
+---
+
+
 ```
 
 

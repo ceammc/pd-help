@@ -6,6 +6,14 @@
 
 Get/set keyboard light on some devices
 
+---
+
+Only Apple keyboards are supported at this moment<br>
+
+
+---
+
+
 ```
 
 

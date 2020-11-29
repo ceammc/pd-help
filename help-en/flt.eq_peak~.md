@@ -7,6 +7,14 @@
 second order &#34;peaking equalizer&#34; section (gain boost or cut near some
             frequency). Also called a &#34;parametric equalizer&#34; section.
 
+---
+
+<br>
+
+
+---
+
+
 ```
 
 

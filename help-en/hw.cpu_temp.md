@@ -6,6 +6,14 @@
 
 get CPU temperature
 
+---
+
+At this moment supports only MacOSX<br>
+
+
+---
+
+
 ```
 
 

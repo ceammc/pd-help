@@ -6,6 +6,15 @@
 
 range slider
 
+---
+
+By default outputs messages on mouse click, mouse up and draggingTo output messages only on specified event use: @mouse_events=1 and
+            [ui.mouse_filter]<br>
+
+
+---
+
+
 ```
 
 

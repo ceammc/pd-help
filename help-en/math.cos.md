@@ -6,6 +6,15 @@
 
 cosine function
 
+---
+
+The cos() function computes the cosine of input value (measured in radians).Special values:cos(+-0) returns 1.cos(+-infinity) returns a NaN and raises the &#34;invalid&#34; floating-point
+            exception.<br>
+
+
+---
+
+
 ```
 
 

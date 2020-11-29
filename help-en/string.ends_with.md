@@ -6,6 +6,14 @@
 
 checks if given string ends with specified suffix
 
+---
+
+<br>
+
+
+---
+
+
 ```
 
 

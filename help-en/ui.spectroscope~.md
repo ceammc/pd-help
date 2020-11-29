@@ -6,6 +6,14 @@
 
 Spectroscope GUI object
 
+---
+
+<br>
+
+
+---
+
+
 ```
 
 

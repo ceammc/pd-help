@@ -6,6 +6,14 @@
 
 envelope editor widget
 
+---
+
+Editor of sound envelope function<br>
+
+
+---
+
+
 ```
 
 

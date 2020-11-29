@@ -6,6 +6,14 @@
 
 declare named property for subpatch or abstraction
 
+---
+
+<br>
+
+
+---
+
+
 ```
 
 

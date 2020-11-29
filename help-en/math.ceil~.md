@@ -6,6 +6,14 @@
 
 round to smallest integral value not less than input value
 
+---
+
+<br>
+
+
+---
+
+
 ```
 
 

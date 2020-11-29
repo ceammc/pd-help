@@ -6,6 +6,14 @@
 
 global named mlist object
 
+---
+
+Defines global scope mlist variable, accessed by ID name<br>
+
+
+---
+
+
 ```
 
 

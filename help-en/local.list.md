@@ -6,6 +6,15 @@
 
 local named list object
 
+---
+
+Defines local scope list variable, accessed by ID name and available only within
+            its patch (canvas).<br>
+
+
+---
+
+
 ```
 
 

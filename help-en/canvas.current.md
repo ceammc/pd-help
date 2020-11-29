@@ -6,6 +6,14 @@
 
 verbose information about current canvas
 
+---
+
+<br>
+
+
+---
+
+
 ```
 
 

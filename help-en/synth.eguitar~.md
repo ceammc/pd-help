@@ -6,6 +6,14 @@
 
 simple electric guitar model with steel strings
 
+---
+
+<br>
+
+
+---
+
+
 ```
 
 

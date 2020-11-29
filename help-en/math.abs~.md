@@ -6,6 +6,14 @@
 
 absolute value function for signals
 
+---
+
+The abs() function computes the absolute value of the float input.<br>
+
+
+---
+
+
 ```
 
 

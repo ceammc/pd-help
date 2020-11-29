@@ -6,6 +6,14 @@
 
 checks if given string contains specified substring
 
+---
+
+<br>
+
+
+---
+
+
 ```
 
 

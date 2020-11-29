@@ -6,6 +6,15 @@
 
 hoa 2d encoder
 
+---
+
+Creates the circular harmonics of a signal depending of a given order and a
+            position on a circle given in radians (θ).<br>
+
+
+---
+
+
 ```
 
 

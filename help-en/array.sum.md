@@ -6,6 +6,14 @@
 
 calculates sum of array elements
 
+---
+
+<br>
+
+
+---
+
+
 ```
 
 

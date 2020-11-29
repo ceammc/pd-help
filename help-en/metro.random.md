@@ -6,6 +6,14 @@
 
 metro random bang with specified range
 
+---
+
+Random distribution: uniform<br>
+
+
+---
+
+
 ```
 
 

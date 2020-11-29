@@ -6,6 +6,15 @@
 
 a 2d ambisonic multisource spatializer
 
+---
+
+Encodes several sources in the circular harmonics domain with distance
+            compensation and muting system<br>
+
+
+---
+
+
 ```
 
 

@@ -6,6 +6,14 @@
 
 ADSR (Attack, Decay, Sustain, Release) envelope generator
 
+---
+
+<br>
+
+
+---
+
+
 ```
 
 

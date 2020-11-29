@@ -6,6 +6,15 @@
 
 returns smallest element in the list
 
+---
+
+By default returns smallest float in list, this equal to using @float
+            property.Also you can choose smallest symbol from list by using @symbol property.<br>
+
+
+---
+
+
 ```
 
 

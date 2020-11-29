@@ -7,6 +7,14 @@
 convert array sample position to relative phase position
             [0..1]
 
+---
+
+with this object you can get relative position in array<br>
+
+
+---
+
+
 ```
 
 

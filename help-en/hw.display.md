@@ -6,6 +6,14 @@
 
 get/set display properties
 
+---
+
+At this moment supports only MacOSX<br>
+
+
+---
+
+
 ```
 
 

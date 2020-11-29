@@ -6,6 +6,14 @@
 
 stretches list - changes its size with linear interpolation
 
+---
+
+<br>
+
+
+---
+
+
 ```
 
 

@@ -6,6 +6,14 @@
 
 constant-Q second order peaking equalizer section
 
+---
+
+<br>
+
+
+---
+
+
 ```
 
 

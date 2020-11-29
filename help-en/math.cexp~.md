@@ -6,6 +6,17 @@
 
 exponent of a complex signals
 
+---
+
+Base-e exponential of complex signal, that is e (Euler&#39;s number, 2.7182818) raised
+            to the complex signal powerThe complex exponential function e^z for z = x+jy equals e^x (cos(y) + j
+            sin(y))The exponential function is an entire function in the complex plane and has no
+            branch cuts<br>
+
+
+---
+
+
 ```
 
 

@@ -6,6 +6,14 @@
 
 converts string to symbol
 
+---
+
+<br>
+
+
+---
+
+
 ```
 
 

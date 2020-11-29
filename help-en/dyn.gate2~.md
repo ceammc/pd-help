@@ -6,6 +6,14 @@
 
 stereo signal gate
 
+---
+
+<br>
+
+
+---
+
+
 ```
 
 

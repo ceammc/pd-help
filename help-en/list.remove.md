@@ -6,6 +6,14 @@
 
 on input list remove element(s) at specified positions
 
+---
+
+<br>
+
+
+---
+
+
 ```
 
 

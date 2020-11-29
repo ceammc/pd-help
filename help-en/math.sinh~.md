@@ -6,6 +6,14 @@
 
 hyperbolic sine for signals
 
+---
+
+Outputs hyperbolic sine of input signalsinh x = (ℯˣ - ℯ⁻ˣ)/2<br>
+
+
+---
+
+
 ```
 
 

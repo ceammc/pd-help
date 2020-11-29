@@ -6,6 +6,15 @@
 
 logarithm functions
 
+---
+
+The log10() function computes the value of the logarithm of argument x to base
+            10.Special values:log10(+-0) return -infinitylog10(1) return +0.log10(x) return a NaNlog10(+infinity) return +infinity.<br>
+
+
+---
+
+
 ```
 
 

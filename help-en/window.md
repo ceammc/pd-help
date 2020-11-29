@@ -6,6 +6,14 @@
 
 returns window value by given window position
 
+---
+
+<br>
+
+
+---
+
+
 ```
 
 

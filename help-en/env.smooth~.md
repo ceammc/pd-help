@@ -6,6 +6,14 @@
 
 An envelope with an exponential attack and release
 
+---
+
+<br>
+
+
+---
+
+
 ```
 
 

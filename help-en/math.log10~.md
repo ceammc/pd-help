@@ -6,6 +6,14 @@
 
 natural logarithm
 
+---
+
+Outputs the value of the base-10 logarithmSpecial values:log10(1) return +0.log10(+infinity) return +infinity.<br>
+
+
+---
+
+
 ```
 
 

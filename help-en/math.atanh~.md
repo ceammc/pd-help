@@ -6,6 +6,14 @@
 
 hyperbolic arc tangent for signals
 
+---
+
+Outputs the principle value of the hyperbolic arc tangent of input signal<br>
+
+
+---
+
+
 ```
 
 

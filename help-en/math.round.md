@@ -6,6 +6,15 @@
 
 round to integral value, regardless of rounding direction
 
+---
+
+The round() functions return the integral value nearest to x rounding half-way
+            cases away from zero, regardless of the current rounding direction.Special values:round(+-0) returns +-0.round(+-infinity) returns +-infinity.<br>
+
+
+---
+
+
 ```
 
 

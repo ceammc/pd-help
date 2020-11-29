@@ -6,6 +6,14 @@
 
 negate function
 
+---
+
+Returns value with opposite sign<br>
+
+
+---
+
+
 ```
 
 

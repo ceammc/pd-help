@@ -6,6 +6,14 @@
 
 find array min and max element value
 
+---
+
+<br>
+
+
+---
+
+
 ```
 
 

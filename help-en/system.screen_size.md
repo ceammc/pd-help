@@ -6,6 +6,14 @@
 
 returns current screen size in pixels
 
+---
+
+<br>
+
+
+---
+
+
 ```
 
 

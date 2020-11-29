@@ -6,6 +6,14 @@
 
 sync division
 
+---
+
+on division by zero outputs nothing: just put error message into console<br>
+
+
+---
+
+
 ```
 
 

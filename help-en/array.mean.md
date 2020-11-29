@@ -6,6 +6,14 @@
 
 calculates array arithmetic mean value
 
+---
+
+<br>
+
+
+---
+
+
 ```
 
 

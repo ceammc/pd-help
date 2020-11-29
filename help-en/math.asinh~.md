@@ -6,6 +6,14 @@
 
 hyperbolic arc sine for signals
 
+---
+
+Outputs the principle value of the hyperbolic arc sine of input signal<br>
+
+
+---
+
+
 ```
 
 

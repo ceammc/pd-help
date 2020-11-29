@@ -6,6 +6,14 @@
 
 evaluates the polynomial described by the coefficients list
 
+---
+
+<br>
+
+
+---
+
+
 ```
 
 

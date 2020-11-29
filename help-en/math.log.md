@@ -6,6 +6,14 @@
 
 natural logarithm
 
+---
+
+Computes the value of the natural logarithm of argument x.Special values:log(+-0) return -infinitylog(1) return +0.log(x) return a NaNlog(+infinity) return +infinity.<br>
+
+
+---
+
+
 ```
 
 

@@ -6,6 +6,14 @@
 
 numeric sequence list generator
 
+---
+
+<br>
+
+
+---
+
+
 ```
 
 

@@ -6,6 +6,15 @@
 
 First-In-First-Out (FIFO) queue data container
 
+---
+
+If size argument specified - creates queue with fixed size. When count of values
+            exceed this limit, outputs and removes first value in queue.<br>
+
+
+---
+
+
 ```
 
 

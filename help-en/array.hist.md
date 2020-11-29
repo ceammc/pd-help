@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # array.hist
+
+
+calculates array histogram
 
 ```
 
@@ -32,8 +35,7 @@
 
             
 ```
----
-calculates array histogram
+
 ---
 arguments:
 
@@ -53,4 +55,4 @@ properties:
 
 ---
 see also:<br>
-[![list.histogram](img/object_list.histogram.png)](list.histogram.md)
+[![list.histogram](img/object_list.histogram.png)](list.histogram.html)

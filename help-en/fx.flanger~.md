@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # fx.flanger~
+
+
+mono flanging effect
 
 ```
 
@@ -34,8 +37,7 @@
 
             
 ```
----
-mono flanging effect
+
 ---
 arguments:
 

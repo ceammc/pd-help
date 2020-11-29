@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # set.symdiff
+
+
+symmetric difference between two sets
 
 ```
 
@@ -20,8 +23,7 @@
 
             
 ```
----
-symmetric difference between two sets
+
 ---
 arguments:
 
@@ -33,5 +35,5 @@ properties:
 
 ---
 see also:<br>
-[![data.set](img/object_data.set.png)](data.set.md)
-[![set.diff](img/object_set.diff.png)](set.diff.md)
+[![data.set](img/object_data.set.png)](data.set.html)
+[![set.diff](img/object_set.diff.png)](set.diff.html)

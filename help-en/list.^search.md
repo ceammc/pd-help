@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # list.^search
+
+
+on input atom returns it index in list
 
 ```
 
@@ -22,8 +25,7 @@
 
             
 ```
----
-on input atom returns it index in list
+
 ---
 arguments:
 
@@ -38,6 +40,6 @@ properties:
 
 ---
 see also:<br>
-[![list.search](img/object_list.search.png)](list.search.md)
-[![list.contains](img/object_list.contains.png)](list.contains.md)
-[![list.^contains](img/object_list.^contains.png)](list.^contains.md)
+[![list.search](img/object_list.search.png)](list.search.html)
+[![list.contains](img/object_list.contains.png)](list.contains.html)
+[![list.^contains](img/object_list.^contains.png)](list.^contains.html)

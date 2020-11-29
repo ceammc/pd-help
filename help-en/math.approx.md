@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # math.approx
+
+
+check if input value approximately equal to pattern
 
 ```
 
@@ -18,8 +21,7 @@
 
             
 ```
----
-check if input value approximately equal to pattern
+
 ---
 arguments:
 

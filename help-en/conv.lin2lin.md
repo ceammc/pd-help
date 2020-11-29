@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # conv.lin2lin
+
+
+convert from one linear range to another
 
 ```
 
@@ -16,8 +19,7 @@
 
             
 ```
----
-convert from one linear range to another
+
 ---
 arguments:
 
@@ -42,4 +44,4 @@ properties:
 
 ---
 see also:<br>
-[![conv.cc2amp](img/object_conv.cc2amp.png)](conv.cc2amp.md)
+[![conv.cc2amp](img/object_conv.cc2amp.png)](conv.cc2amp.html)

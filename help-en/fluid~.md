@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # fluid~
+
+
+FluidSynth SoundFont 2 player
 
 ```
 
@@ -27,8 +30,7 @@
 
             
 ```
----
-FluidSynth SoundFont 2 player
+
 ---
 arguments:
 

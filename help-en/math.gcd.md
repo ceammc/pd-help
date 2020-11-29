@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # math.gcd
+
+
+calculate greatest common divisor
 
 ```
 
@@ -16,8 +19,7 @@
 
             
 ```
----
-calculate greatest common divisor
+
 ---
 arguments:
 
@@ -29,4 +31,4 @@ properties:
 
 ---
 see also:<br>
-[![math.lcm](img/object_math.lcm.png)](math.lcm.md)
+[![math.lcm](img/object_math.lcm.png)](math.lcm.html)

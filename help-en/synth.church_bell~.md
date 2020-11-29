@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # synth.church_bell~
+
+
+generic church bell modal model
 
 ```
 
@@ -29,8 +32,7 @@
 
             
 ```
----
-generic church bell modal model
+
 ---
 arguments:
 

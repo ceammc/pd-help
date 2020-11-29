@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # math.tan~
+
+
+tangent function
 
 ```
 
@@ -30,8 +33,7 @@
 
             
 ```
----
-tangent function
+
 ---
 arguments:
 
@@ -42,6 +44,6 @@ properties:
 
 ---
 see also:<br>
-[![math.tan~](img/object_math.tan~.png)](math.tan~.md)
-[![math.asin](img/object_math.asin.png)](math.asin.md)
-[![math.atan](img/object_math.atan.png)](math.atan.md)
+[![math.tan~](img/object_math.tan~.png)](math.tan~.html)
+[![math.asin](img/object_math.asin.png)](math.asin.html)
+[![math.atan](img/object_math.atan.png)](math.atan.html)

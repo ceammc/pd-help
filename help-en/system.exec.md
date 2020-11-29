@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # system.exec
+
+
+run external command in separate process
 
 ```
 
@@ -20,8 +23,7 @@
 
             
 ```
----
-run external command in separate process
+
 ---
 arguments:
 

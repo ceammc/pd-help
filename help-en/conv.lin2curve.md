@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # conv.lin2curve
+
+
+map linear to exponential range with 0 allowed.
 
 ```
 
@@ -24,8 +27,7 @@
 
             
 ```
----
-map linear to exponential range with 0 allowed.
+
 ---
 arguments:
 
@@ -53,4 +55,4 @@ properties:
 
 ---
 see also:<br>
-[![conv.lin2exp](img/object_conv.lin2exp.png)](conv.lin2exp.md)
+[![conv.lin2exp](img/object_conv.lin2exp.png)](conv.lin2exp.html)

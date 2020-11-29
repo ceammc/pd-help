@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # ui.icon
+
+
+simple icon with button capabilities
 
 ```
 
@@ -267,8 +270,7 @@
 
             
 ```
----
-simple icon with button capabilities
+
 ---
 arguments:
 
@@ -310,4 +312,4 @@ properties:
 
 ---
 see also:<br>
-[![ui.bang](img/object_ui.bang.png)](ui.bang.md)
+[![ui.bang](img/object_ui.bang.png)](ui.bang.html)

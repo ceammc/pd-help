@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # list.insert
+
+
+insert atom or list to the specified position of input list
 
 ```
 
@@ -17,8 +20,7 @@
 
             
 ```
----
-insert atom or list to the specified position of input list
+
 ---
 arguments:
 
@@ -31,5 +33,5 @@ properties:
 
 ---
 see also:<br>
-[![list.append](img/object_list.append.png)](list.append.md)
-[![list.prepend](img/object_list.prepend.png)](list.prepend.md)
+[![list.append](img/object_list.append.png)](list.append.html)
+[![list.prepend](img/object_list.prepend.png)](list.prepend.html)

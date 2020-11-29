@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # chaos.std0~
+
+
+Standard map chaotic generator
 
 ```
 
@@ -22,8 +25,7 @@
 
             
 ```
----
-Standard map chaotic generator
+
 ---
 arguments:
 
@@ -36,4 +38,4 @@ properties:
 
 ---
 see also:<br>
-[![chaos.std0](img/object_chaos.std0.png)](chaos.std0.md)
+[![chaos.std0](img/object_chaos.std0.png)](chaos.std0.html)

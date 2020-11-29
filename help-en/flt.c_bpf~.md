@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # flt.c_bpf~
+
+
+BPF coefficient calculator for biquad filter
 
 ```
 
@@ -25,8 +28,7 @@
 
             
 ```
----
-BPF coefficient calculator for biquad filter
+
 ---
 arguments:
 
@@ -46,6 +48,6 @@ properties:
 
 ---
 see also:<br>
-[![flt.biquad~](img/object_flt.biquad~.png)](flt.biquad~.md)
-[![flt.bpf12~](img/object_flt.bpf12~.png)](flt.bpf12~.md)
-[![flt.c_notch~](img/object_flt.c_notch~.png)](flt.c_notch~.md)
+[![flt.biquad~](img/object_flt.biquad~.png)](flt.biquad~.html)
+[![flt.bpf12~](img/object_flt.bpf12~.png)](flt.bpf12~.html)
+[![flt.c_notch~](img/object_flt.c_notch~.png)](flt.c_notch~.html)

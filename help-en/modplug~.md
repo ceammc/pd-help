@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # modplug~
+
+
+MOD file player (using libmodplug)
 
 ```
 
@@ -24,8 +27,7 @@
 
             
 ```
----
-MOD file player (using libmodplug)
+
 ---
 arguments:
 

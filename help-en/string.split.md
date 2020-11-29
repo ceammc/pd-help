@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # string.split
+
+
+split string by separator
 
 ```
 
@@ -22,8 +25,7 @@
 
             
 ```
----
-split string by separator
+
 ---
 arguments:
 
@@ -37,4 +39,4 @@ properties:
 
 ---
 see also:<br>
-[![string.join](img/object_string.join.png)](string.join.md)
+[![string.join](img/object_string.join.png)](string.join.html)

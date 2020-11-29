@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # ui.colorpanel
+
+
+colorchooser widget
 
 ```
 
@@ -23,8 +26,7 @@
 
             
 ```
----
-colorchooser widget
+
 ---
 arguments:
 
@@ -70,4 +72,4 @@ properties:
 
 ---
 see also:<br>
-[![ui.number](img/object_ui.number.png)](ui.number.md)
+[![ui.number](img/object_ui.number.png)](ui.number.html)

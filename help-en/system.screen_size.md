@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # system.screen_size
+
+
+returns current screen size in pixels
 
 ```
 
@@ -17,8 +20,7 @@
 
             
 ```
----
-returns current screen size in pixels
+
 ---
 arguments:
 

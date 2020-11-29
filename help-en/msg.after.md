@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # msg.after
+
+
+send specified message after incoming message
 
 ```
 
@@ -20,8 +23,7 @@
 
             
 ```
----
-send specified message after incoming message
+
 ---
 arguments:
 
@@ -35,4 +37,4 @@ properties:
 
 ---
 see also:<br>
-[![msg](img/object_msg.png)](msg.md)
+[![msg](img/object_msg.png)](msg.html)

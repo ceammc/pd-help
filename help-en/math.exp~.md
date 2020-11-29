@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # math.exp~
+
+
+base-e exponential for signal
 
 ```
 
@@ -31,8 +34,7 @@
 
             
 ```
----
-base-e exponential for signal
+
 ---
 arguments:
 
@@ -43,5 +45,5 @@ properties:
 
 ---
 see also:<br>
-[![math.log~](img/object_math.log~.png)](math.log~.md)
-[![math.exp2~](img/object_math.exp2~.png)](math.exp2~.md)
+[![math.log~](img/object_math.log~.png)](math.log~.html)
+[![math.exp2~](img/object_math.exp2~.png)](math.exp2~.html)

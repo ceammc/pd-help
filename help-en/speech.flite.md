@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # speech.flite
+
+
+render speech to array
 
 ```
 
@@ -32,8 +35,7 @@
 
             
 ```
----
-render speech to array
+
 ---
 arguments:
 

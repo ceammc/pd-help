@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # flow.once
+
+
+one message pass thru
 
 ```
 
@@ -14,8 +17,7 @@
 
             
 ```
----
-one message pass thru
+
 ---
 arguments:
 
@@ -26,4 +28,4 @@ properties:
 
 ---
 see also:<br>
-[![flow.gate](img/object_flow.gate.png)](flow.gate.md)
+[![flow.gate](img/object_flow.gate.png)](flow.gate.html)

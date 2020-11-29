@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # math.sync_mod
+
+
+sync remainder of modulo division (float or integer)
 
 ```
 
@@ -23,8 +26,7 @@
 
             
 ```
----
-sync remainder of modulo division (float or integer)
+
 ---
 arguments:
 
@@ -37,4 +39,4 @@ properties:
 
 ---
 see also:<br>
-[![math.sync_div](img/object_math.sync_div.png)](math.sync_div.md)
+[![math.sync_div](img/object_math.sync_div.png)](math.sync_div.html)

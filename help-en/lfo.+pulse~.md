@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # lfo.+pulse~
+
+
+Unit-amplitude nonnegative low frequency pulse train
 
 ```
 
@@ -21,8 +24,7 @@
 
             
 ```
----
-Unit-amplitude nonnegative low frequency pulse train
+
 ---
 arguments:
 
@@ -39,6 +41,6 @@ properties:
 
 ---
 see also:<br>
-[![lfo.pulse~](img/object_lfo.pulse~.png)](lfo.pulse~.md)
-[![lfo.+square~](img/object_lfo.+square~.png)](lfo.+square~.md)
-[![lfo.impulse~](img/object_lfo.impulse~.png)](lfo.impulse~.md)
+[![lfo.pulse~](img/object_lfo.pulse~.png)](lfo.pulse~.html)
+[![lfo.+square~](img/object_lfo.+square~.png)](lfo.+square~.html)
+[![lfo.impulse~](img/object_lfo.impulse~.png)](lfo.impulse~.html)

@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # plot.hist~
+
+
+calculate and output signal histogram
 
 ```
 
@@ -31,8 +34,7 @@
 
             
 ```
----
-calculate and output signal histogram
+
 ---
 arguments:
 
@@ -52,6 +54,6 @@ properties:
 
 ---
 see also:<br>
-[![plot.linspace~](img/object_plot.linspace~.png)](plot.linspace~.md)
-[![plot.geomspace~](img/object_plot.geomspace~.png)](plot.geomspace~.md)
-[![plot.response~](img/object_plot.response~.png)](plot.response~.md)
+[![plot.linspace~](img/object_plot.linspace~.png)](plot.linspace~.html)
+[![plot.geomspace~](img/object_plot.geomspace~.png)](plot.geomspace~.html)
+[![plot.response~](img/object_plot.response~.png)](plot.response~.html)

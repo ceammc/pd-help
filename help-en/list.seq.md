@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # list.seq
+
+
+numeric sequence list generator
 
 ```
 
@@ -18,8 +21,7 @@
 
             
 ```
----
-numeric sequence list generator
+
 ---
 arguments:
 
@@ -38,4 +40,4 @@ properties:
 
 ---
 see also:<br>
-[![list.gen](img/object_list.gen.png)](list.gen.md)
+[![list.gen](img/object_list.gen.png)](list.gen.html)

@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # ui.slider
+
+
+counterpart of the vanilla slider
 
 ```
 
@@ -25,8 +28,7 @@
 
             
 ```
----
-counterpart of the vanilla slider
+
 ---
 arguments:
 
@@ -97,6 +99,6 @@ properties:
 
 ---
 see also:<br>
-[![ui.slider2d](img/object_ui.slider2d.png)](ui.slider2d.md)
-[![ui.sliders](img/object_ui.sliders.png)](ui.sliders.md)
-[![ui.knob](img/object_ui.knob.png)](ui.knob.md)
+[![ui.slider2d](img/object_ui.slider2d.png)](ui.slider2d.html)
+[![ui.sliders](img/object_ui.sliders.png)](ui.sliders.html)
+[![ui.knob](img/object_ui.knob.png)](ui.knob.html)

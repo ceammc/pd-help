@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # list.route
+
+
+acts like [route] but for lists
 
 ```
 
@@ -55,8 +58,7 @@
 
             
 ```
----
-acts like [route] but for lists
+
 ---
 arguments:
 
@@ -73,4 +75,4 @@ properties:
 
 ---
 see also:<br>
-[![route](img/object_route.png)](route.md)
+[![route](img/object_route.png)](route.html)

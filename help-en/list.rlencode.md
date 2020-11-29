@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # list.rlencode
+
+
+RLE (run-length encoding) for lists
 
 ```
 
@@ -16,8 +19,7 @@
 
             
 ```
----
-RLE (run-length encoding) for lists
+
 ---
 arguments:
 
@@ -28,4 +30,4 @@ properties:
 
 ---
 see also:<br>
-[![list.rldecode](img/object_list.rldecode.png)](list.rldecode.md)
+[![list.rldecode](img/object_list.rldecode.png)](list.rldecode.html)

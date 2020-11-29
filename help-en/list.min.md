@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # list.min
+
+
+returns smallest element in the list
 
 ```
 
@@ -24,8 +27,7 @@
 
             
 ```
----
-returns smallest element in the list
+
 ---
 arguments:
 
@@ -44,5 +46,5 @@ properties:
 
 ---
 see also:<br>
-[![list.max](img/object_list.max.png)](list.max.md)
-[![list.range](img/object_list.range.png)](list.range.md)
+[![list.max](img/object_list.max.png)](list.max.html)
+[![list.range](img/object_list.range.png)](list.range.html)

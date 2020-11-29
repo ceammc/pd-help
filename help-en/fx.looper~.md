@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # fx.looper~
+
+
+One track looper
 
 ```
 
@@ -21,8 +24,7 @@
 
             
 ```
----
-One track looper
+
 ---
 arguments:
 

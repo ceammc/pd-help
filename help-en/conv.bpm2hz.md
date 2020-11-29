@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # conv.bpm2hz
+
+
+converts BPM to frequency in herz
 
 ```
 
@@ -24,8 +27,7 @@
 
             
 ```
----
-converts BPM to frequency in herz
+
 ---
 arguments:
 
@@ -36,4 +38,4 @@ properties:
 
 ---
 see also:<br>
-[![conv.bpm2ms](img/object_conv.bpm2ms.png)](conv.bpm2ms.md)
+[![conv.bpm2ms](img/object_conv.bpm2ms.png)](conv.bpm2ms.html)

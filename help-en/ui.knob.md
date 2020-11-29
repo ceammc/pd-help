@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # ui.knob
+
+
+knob widget
 
 ```
 
@@ -21,8 +24,7 @@
 
             
 ```
----
-knob widget
+
 ---
 arguments:
 
@@ -89,4 +91,4 @@ properties:
 
 ---
 see also:<br>
-[![ui.slider](img/object_ui.slider.png)](ui.slider.md)
+[![ui.slider](img/object_ui.slider.png)](ui.slider.html)

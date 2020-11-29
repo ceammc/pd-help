@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # is_file
+
+
+checks if file exists and accessible
 
 ```
 
@@ -16,8 +19,7 @@
 
             
 ```
----
-checks if file exists and accessible
+
 ---
 arguments:
 

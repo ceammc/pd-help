@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # ui.gain2~
+
+
+UI stereo gain control
 
 ```
 
@@ -20,8 +23,7 @@
 
             
 ```
----
-UI stereo gain control
+
 ---
 arguments:
 

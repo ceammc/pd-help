@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # flow.pass
+
+
+pass specified values
 
 ```
 
@@ -20,8 +23,7 @@
 
             
 ```
----
-pass specified values
+
 ---
 arguments:
 
@@ -33,5 +35,5 @@ properties:
 
 ---
 see also:<br>
-[![flow.pass_if](img/object_flow.pass_if.png)](flow.pass_if.md)
-[![flow.reject](img/object_flow.reject.png)](flow.reject.md)
+[![flow.pass_if](img/object_flow.pass_if.png)](flow.pass_if.html)
+[![flow.reject](img/object_flow.reject.png)](flow.reject.html)

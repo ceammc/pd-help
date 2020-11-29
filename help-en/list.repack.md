@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # list.repack
+
+
+repack input list to specified size
 
 ```
 
@@ -15,8 +18,7 @@
 
             
 ```
----
-repack input list to specified size
+
 ---
 arguments:
 

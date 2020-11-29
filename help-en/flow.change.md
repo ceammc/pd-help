@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # flow.change
+
+
+rejects redundant input values
 
 ```
 
@@ -27,8 +30,7 @@
 
             
 ```
----
-rejects redundant input values
+
 ---
 arguments:
 
@@ -40,4 +42,4 @@ properties:
 
 ---
 see also:<br>
-[![change](img/object_change.png)](change.md)
+[![change](img/object_change.png)](change.html)

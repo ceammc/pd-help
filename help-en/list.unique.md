@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # list.unique
+
+
+removes duplicates from input list
 
 ```
 
@@ -17,8 +20,7 @@
 
             
 ```
----
-removes duplicates from input list
+
 ---
 arguments:
 
@@ -31,4 +33,4 @@ properties:
 
 ---
 see also:<br>
-[![list.sort](img/object_list.sort.png)](list.sort.md)
+[![list.sort](img/object_list.sort.png)](list.sort.html)

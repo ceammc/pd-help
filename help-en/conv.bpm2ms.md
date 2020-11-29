@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # conv.bpm2ms
+
+
+convert frequency in BPM to period in milliseconds
 
 ```
 
@@ -30,8 +33,7 @@
 
             
 ```
----
-convert frequency in BPM to period in milliseconds
+
 ---
 arguments:
 
@@ -42,5 +44,5 @@ properties:
 
 ---
 see also:<br>
-[![conv.bpm2sec](img/object_conv.bpm2sec.png)](conv.bpm2sec.md)
-[![conv.bpm2hz](img/object_conv.bpm2hz.png)](conv.bpm2hz.md)
+[![conv.bpm2sec](img/object_conv.bpm2sec.png)](conv.bpm2sec.html)
+[![conv.bpm2hz](img/object_conv.bpm2hz.png)](conv.bpm2hz.html)

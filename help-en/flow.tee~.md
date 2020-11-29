@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # flow.tee~
+
+
+separate audio and control streams
 
 ```
 
@@ -18,8 +21,7 @@
 
             
 ```
----
-separate audio and control streams
+
 ---
 arguments:
 

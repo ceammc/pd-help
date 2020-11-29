@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # math.atan~
+
+
+arc tangent for signals
 
 ```
 
@@ -31,8 +34,7 @@
 
             
 ```
----
-arc tangent for signals
+
 ---
 arguments:
 
@@ -43,5 +45,5 @@ properties:
 
 ---
 see also:<br>
-[![math.atan](img/object_math.atan.png)](math.atan.md)
-[![math.acos~](img/object_math.acos~.png)](math.acos~.md)
+[![math.atan](img/object_math.atan.png)](math.atan.html)
+[![math.acos~](img/object_math.acos~.png)](math.acos~.html)

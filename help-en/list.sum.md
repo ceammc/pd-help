@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # list.sum
+
+
+calculates sum of floats in list
 
 ```
 
@@ -14,8 +17,7 @@
 
             
 ```
----
-calculates sum of floats in list
+
 ---
 arguments:
 
@@ -26,5 +28,5 @@ properties:
 
 ---
 see also:<br>
-[![list.product](img/object_list.product.png)](list.product.md)
-[![list.reduce](img/object_list.reduce.png)](list.reduce.md)
+[![list.product](img/object_list.product.png)](list.product.html)
+[![list.reduce](img/object_list.reduce.png)](list.reduce.html)

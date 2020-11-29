@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # env.tscale
+
+
+Envelope time-scale
 
 ```
 
@@ -21,8 +24,7 @@
 
             
 ```
----
-Envelope time-scale
+
 ---
 arguments:
 
@@ -35,5 +37,5 @@ properties:
 
 ---
 see also:<br>
-[![env.tshift](img/object_env.tshift.png)](env.tshift.md)
-[![envelope](img/object_envelope.png)](envelope.md)
+[![env.tshift](img/object_env.tshift.png)](env.tshift.html)
+[![envelope](img/object_envelope.png)](envelope.html)

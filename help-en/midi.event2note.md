@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # midi.event2note
+
+
+convert MidiEvent message to midi note/velocity pair
 
 ```
 
@@ -26,8 +29,7 @@
 
             
 ```
----
-convert MidiEvent message to midi note/velocity pair
+
 ---
 arguments:
 

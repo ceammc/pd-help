@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # list.choice
+
+
+returns random element from list
 
 ```
 
@@ -28,8 +31,7 @@
 
             
 ```
----
-returns random element from list
+
 ---
 arguments:
 
@@ -43,4 +45,4 @@ properties:
 
 ---
 see also:<br>
-[![random.int](img/object_random.int.png)](random.int.md)
+[![random.int](img/object_random.int.png)](random.int.html)

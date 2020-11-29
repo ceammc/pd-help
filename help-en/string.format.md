@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # string.format
+
+
+formats string like printf.
 
 ```
 
@@ -19,8 +22,7 @@
 
             
 ```
----
-formats string like printf.
+
 ---
 arguments:
 

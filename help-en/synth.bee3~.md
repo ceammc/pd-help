@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # synth.bee3~
+
+
+Hammond-oid organ FM synthesis instrument
 
 ```
 
@@ -27,8 +30,7 @@
 
             
 ```
----
-Hammond-oid organ FM synthesis instrument
+
 ---
 arguments:
 

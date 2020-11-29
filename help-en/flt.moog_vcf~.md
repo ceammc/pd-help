@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # flt.moog_vcf~
+
+
+Moog Voltage Controlled Filter
 
 ```
 
@@ -20,8 +23,7 @@
 
             
 ```
----
-Moog Voltage Controlled Filter
+
 ---
 arguments:
 

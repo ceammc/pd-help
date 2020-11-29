@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # list.search
+
+
+search specified items in input list
 
 ```
 
@@ -18,8 +21,7 @@
 
             
 ```
----
-search specified items in input list
+
 ---
 arguments:
 
@@ -30,4 +32,4 @@ properties:
 
 ---
 see also:<br>
-[![list.^search](img/object_list.^search.png)](list.^search.md)
+[![list.^search](img/object_list.^search.png)](list.^search.html)

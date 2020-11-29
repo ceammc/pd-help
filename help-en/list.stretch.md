@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # list.stretch
+
+
+stretches list - changes its size with linear interpolation
 
 ```
 
@@ -30,8 +33,7 @@
 
             
 ```
----
-stretches list - changes its size with linear interpolation
+
 ---
 arguments:
 
@@ -45,4 +47,4 @@ properties:
 
 ---
 see also:<br>
-[![list.shift](img/object_list.shift.png)](list.shift.md)
+[![list.shift](img/object_list.shift.png)](list.shift.html)

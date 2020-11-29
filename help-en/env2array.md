@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # env2array
+
+
+Renders envelope to specified array
 
 ```
 
@@ -25,8 +28,7 @@
 
             
 ```
----
-Renders envelope to specified array
+
 ---
 arguments:
 
@@ -47,4 +49,4 @@ properties:
 
 ---
 see also:<br>
-[![env-&gt;vline](img/object_env-&gt;vline.png)](env->vline.md)
+[![env-&gt;vline](img/object_env-&gt;vline.png)](env->vline.html)

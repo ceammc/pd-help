@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # array.plot~
+
+
+plot signal on specified array
 
 ```
 
@@ -26,8 +29,7 @@
 
             
 ```
----
-plot signal on specified array
+
 ---
 arguments:
 
@@ -45,4 +47,4 @@ properties:
 
 ---
 see also:<br>
-[![ui.plot~](img/object_ui.plot~.png)](ui.plot~.md)
+[![ui.plot~](img/object_ui.plot~.png)](ui.plot~.html)

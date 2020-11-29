@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # string.remove
+
+
+remove substring from input string
 
 ```
 
@@ -22,8 +25,7 @@
 
             
 ```
----
-remove substring from input string
+
 ---
 arguments:
 

@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # spat.pan8~
+
+
+GMEM SPAT: 8-outputs spatializer
 
 ```
 
@@ -30,8 +33,7 @@
 
             
 ```
----
-GMEM SPAT: 8-outputs spatializer
+
 ---
 arguments:
 
@@ -50,4 +52,4 @@ properties:
 
 ---
 see also:<br>
-[![pan4~](img/object_pan4~.png)](pan4~.md)
+[![pan4~](img/object_pan4~.png)](pan4~.html)

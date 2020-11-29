@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # ui.preset
+
+
+Preset manager
 
 ```
 
@@ -27,8 +30,7 @@
 
             
 ```
----
-Preset manager
+
 ---
 arguments:
 
@@ -66,5 +68,5 @@ properties:
 
 ---
 see also:<br>
-[![preset.float](img/object_preset.float.png)](preset.float.md)
-[![preset.storage](img/object_preset.storage.png)](preset.storage.md)
+[![preset.float](img/object_preset.float.png)](preset.float.html)
+[![preset.storage](img/object_preset.storage.png)](preset.storage.html)

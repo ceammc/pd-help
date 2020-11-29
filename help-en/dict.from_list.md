@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # dict.from_list
+
+
+creates dictionary from list
 
 ```
 
@@ -16,8 +19,7 @@
 
             
 ```
----
-creates dictionary from list
+
 ---
 arguments:
 
@@ -31,4 +33,4 @@ properties:
 
 ---
 see also:<br>
-[![data.dict](img/object_data.dict.png)](data.dict.md)
+[![data.dict](img/object_data.dict.png)](data.dict.html)

@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # pan.cos~
+
+
+two channel equal power sine/cosine panner
 
 ```
 
@@ -20,8 +23,7 @@
 
             
 ```
----
-two channel equal power sine/cosine panner
+
 ---
 arguments:
 
@@ -37,5 +39,5 @@ properties:
 
 ---
 see also:<br>
-[![pan.lin~](img/object_pan.lin~.png)](pan.lin~.md)
-[![pan.sqrt~](img/object_pan.sqrt~.png)](pan.sqrt~.md)
+[![pan.lin~](img/object_pan.lin~.png)](pan.lin~.html)
+[![pan.sqrt~](img/object_pan.sqrt~.png)](pan.sqrt~.html)

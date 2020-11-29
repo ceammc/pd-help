@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # math.carg~
+
+
+phase angle of a complex signals
 
 ```
 
@@ -24,8 +27,7 @@
 
             
 ```
----
-phase angle of a complex signals
+
 ---
 arguments:
 
@@ -36,4 +38,4 @@ properties:
 
 ---
 see also:<br>
-[![math.cabs~](img/object_math.cabs~.png)](math.cabs~.md)
+[![math.cabs~](img/object_math.cabs~.png)](math.cabs~.html)

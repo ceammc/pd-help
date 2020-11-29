@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # ui.sliders
+
+
+Multiple slider widget
 
 ```
 
@@ -28,8 +31,7 @@
 
             
 ```
----
-Multiple slider widget
+
 ---
 arguments:
 
@@ -90,5 +92,5 @@ properties:
 
 ---
 see also:<br>
-[![ui.slider](img/object_ui.slider.png)](ui.slider.md)
-[![ui.preset](img/object_ui.preset.png)](ui.preset.md)
+[![ui.slider](img/object_ui.slider.png)](ui.slider.html)
+[![ui.preset](img/object_ui.preset.png)](ui.preset.html)

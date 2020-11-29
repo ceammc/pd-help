@@ -1,7 +1,11 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # array.s2p
+
+
+convert array sample position to relative phase position
+            [0..1]
 
 ```
 
@@ -20,9 +24,7 @@
 
             
 ```
----
-convert array sample position to relative phase position
-            [0..1]
+
 ---
 arguments:
 
@@ -35,4 +37,4 @@ properties:
 
 ---
 see also:<br>
-[![array.p2s](img/object_array.p2s.png)](array.p2s.md)
+[![array.p2s](img/object_array.p2s.png)](array.p2s.html)

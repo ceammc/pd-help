@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # set.equal
+
+
+checks if two sets are equal (contains same elements)
 
 ```
 
@@ -18,8 +21,7 @@
 
             
 ```
----
-checks if two sets are equal (contains same elements)
+
 ---
 arguments:
 
@@ -31,4 +33,4 @@ properties:
 
 ---
 see also:<br>
-[![data.set](img/object_data.set.png)](data.set.md)
+[![data.set](img/object_data.set.png)](data.set.html)

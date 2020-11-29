@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # ui.bang
+
+
+A bang... that&#39;s all
 
 ```
 
@@ -16,8 +19,7 @@
 
             
 ```
----
-A bang... that&#39;s all
+
 ---
 arguments:
 
@@ -60,4 +62,4 @@ properties:
 
 ---
 see also:<br>
-[![ui.toggle](img/object_ui.toggle.png)](ui.toggle.md)
+[![ui.toggle](img/object_ui.toggle.png)](ui.toggle.html)

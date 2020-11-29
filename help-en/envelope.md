@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # envelope
+
+
+Envelope data type
 
 ```
 
@@ -25,8 +28,7 @@
 
             
 ```
----
-Envelope data type
+
 ---
 arguments:
 
@@ -55,5 +57,5 @@ properties:
 
 ---
 see also:<br>
-[![env-&gt;array](img/object_env-&gt;array.png)](env->array.md)
-[![env-&gt;vline](img/object_env-&gt;vline.png)](env->vline.md)
+[![env-&gt;array](img/object_env-&gt;array.png)](env->array.html)
+[![env-&gt;vline](img/object_env-&gt;vline.png)](env->vline.html)

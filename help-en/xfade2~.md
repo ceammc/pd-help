@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # xfade2~
+
+
+multi stereo-signal crossfade
 
 ```
 
@@ -22,8 +25,7 @@
 
             
 ```
----
-multi stereo-signal crossfade
+
 ---
 arguments:
 
@@ -42,4 +44,4 @@ properties:
 
 ---
 see also:<br>
-[![xfade~](img/object_xfade~.png)](xfade~.md)
+[![xfade~](img/object_xfade~.png)](xfade~.html)

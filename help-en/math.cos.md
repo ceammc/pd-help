@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # math.cos
+
+
+cosine function
 
 ```
 
@@ -14,8 +17,7 @@
 
             
 ```
----
-cosine function
+
 ---
 arguments:
 
@@ -26,7 +28,7 @@ properties:
 
 ---
 see also:<br>
-[![math.sin](img/object_math.sin.png)](math.sin.md)
-[![math.tan](img/object_math.tan.png)](math.tan.md)
-[![math.asin](img/object_math.asin.png)](math.asin.md)
-[![math.acos](img/object_math.acos.png)](math.acos.md)
+[![math.sin](img/object_math.sin.png)](math.sin.html)
+[![math.tan](img/object_math.tan.png)](math.tan.html)
+[![math.asin](img/object_math.asin.png)](math.asin.html)
+[![math.acos](img/object_math.acos.png)](math.acos.html)

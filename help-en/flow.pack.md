@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # flow.pack
+
+
+flow pack
 
 ```
 
@@ -15,8 +18,7 @@
 
             
 ```
----
-flow pack
+
 ---
 arguments:
 
@@ -30,6 +32,6 @@ properties:
 
 ---
 see also:<br>
-[![pack](img/object_pack.png)](pack.md)
-[![flow.sync](img/object_flow.sync.png)](flow.sync.md)
-[![flow.sync_pack](img/object_flow.sync_pack.png)](flow.sync_pack.md)
+[![pack](img/object_pack.png)](pack.html)
+[![flow.sync](img/object_flow.sync.png)](flow.sync.html)
+[![flow.sync_pack](img/object_flow.sync_pack.png)](flow.sync_pack.html)

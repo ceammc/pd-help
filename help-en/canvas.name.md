@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # canvas.name
+
+
+current canvas name
 
 ```
 
@@ -14,8 +17,7 @@
 
             
 ```
----
-current canvas name
+
 ---
 arguments:
 
@@ -26,4 +28,4 @@ properties:
 
 ---
 see also:<br>
-[![canvas.current](img/object_canvas.current.png)](canvas.current.md)
+[![canvas.current](img/object_canvas.current.png)](canvas.current.html)

@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # list.count
+
+
+returns the number of items that equal to specified value
 
 ```
 
@@ -16,8 +19,7 @@
 
             
 ```
----
-returns the number of items that equal to specified value
+
 ---
 arguments:
 
@@ -30,4 +32,4 @@ properties:
 
 ---
 see also:<br>
-[![list.count_if](img/object_list.count_if.png)](list.count_if.md)
+[![list.count_if](img/object_list.count_if.png)](list.count_if.html)

@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # math.mul
+
+
+multiplication (on lists too)
 
 ```
 
@@ -17,8 +20,7 @@
 
             
 ```
----
-multiplication (on lists too)
+
 ---
 arguments:
 

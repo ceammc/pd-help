@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # array.do
+
+
+iterate and modify array content via side-chain
 
 ```
 
@@ -25,8 +28,7 @@
 
             
 ```
----
-iterate and modify array content via side-chain
+
 ---
 arguments:
 
@@ -40,4 +42,4 @@ properties:
 
 ---
 see also:<br>
-[![array.each](img/object_array.each.png)](array.each.md)
+[![array.each](img/object_array.each.png)](array.each.html)

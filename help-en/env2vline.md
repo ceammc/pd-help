@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # env2vline
+
+
+Converts envelope to bunch of vline messages
 
 ```
 
@@ -39,8 +42,7 @@
 
             
 ```
----
-Converts envelope to bunch of vline messages
+
 ---
 arguments:
 
@@ -53,5 +55,5 @@ properties:
 
 ---
 see also:<br>
-[![vline-&gt;env](img/object_vline-&gt;env.png)](vline->env.md)
-[![env-&gt;array](img/object_env-&gt;array.png)](env->array.md)
+[![vline-&gt;env](img/object_vline-&gt;env.png)](vline->env.html)
+[![env-&gt;array](img/object_env-&gt;array.png)](env->array.html)

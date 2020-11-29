@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # local.set
+
+
+local named set object
 
 ```
 
@@ -16,8 +19,7 @@
 
             
 ```
----
-local named set object
+
 ---
 arguments:
 
@@ -33,5 +35,5 @@ properties:
 
 ---
 see also:<br>
-[![data.set](img/object_data.set.png)](data.set.md)
-[![global.set](img/object_global.set.png)](global.set.md)
+[![data.set](img/object_data.set.png)](data.set.html)
+[![global.set](img/object_global.set.png)](global.set.html)

@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # system.cursor
+
+
+Output cursor motion, mousewheel and buttonclicks
 
 ```
 
@@ -20,8 +23,7 @@
 
             
 ```
----
-Output cursor motion, mousewheel and buttonclicks
+
 ---
 arguments:
 

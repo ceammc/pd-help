@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # lfo.+saw~
+
+
+Positive unit-amplitude low frequency saw wave
 
 ```
 
@@ -24,8 +27,7 @@
 
             
 ```
----
-Positive unit-amplitude low frequency saw wave
+
 ---
 arguments:
 
@@ -41,6 +43,6 @@ properties:
 
 ---
 see also:<br>
-[![lfo.saw~](img/object_lfo.saw~.png)](lfo.saw~.md)
-[![lfo.+square~](img/object_lfo.+square~.png)](lfo.+square~.md)
-[![lfo.impulse~](img/object_lfo.impulse~.png)](lfo.impulse~.md)
+[![lfo.saw~](img/object_lfo.saw~.png)](lfo.saw~.html)
+[![lfo.+square~](img/object_lfo.+square~.png)](lfo.+square~.html)
+[![lfo.impulse~](img/object_lfo.impulse~.png)](lfo.impulse~.html)

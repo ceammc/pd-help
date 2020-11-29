@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # math.erf~
+
+
+error function for signals
 
 ```
 
@@ -29,8 +32,7 @@
 
             
 ```
----
-error function for signals
+
 ---
 arguments:
 
@@ -41,4 +43,4 @@ properties:
 
 ---
 see also:<br>
-[![math.erf](img/object_math.erf.png)](math.erf.md)
+[![math.erf](img/object_math.erf.png)](math.erf.html)

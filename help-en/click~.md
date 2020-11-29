@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # click~
+
+
+Output single impulse on bang
 
 ```
 
@@ -18,8 +21,7 @@
 
             
 ```
----
-Output single impulse on bang
+
 ---
 arguments:
 

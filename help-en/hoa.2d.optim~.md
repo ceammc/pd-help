@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # hoa.2d.optim~
+
+
+a 2D ambisonic optimization tool
 
 ```
 
@@ -34,8 +37,7 @@
 
             
 ```
----
-a 2D ambisonic optimization tool
+
 ---
 arguments:
 
@@ -55,4 +57,4 @@ properties:
 
 ---
 see also:<br>
-[![hoa.2d.decoder~](img/object_hoa.2d.decoder~.png)](hoa.2d.decoder~.md)
+[![hoa.2d.decoder~](img/object_hoa.2d.decoder~.png)](hoa.2d.decoder~.html)

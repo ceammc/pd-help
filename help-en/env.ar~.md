@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # env.ar~
+
+
+Attack/Release envelope generator
 
 ```
 
@@ -27,8 +30,7 @@
 
             
 ```
----
-Attack/Release envelope generator
+
 ---
 arguments:
 
@@ -48,4 +50,4 @@ properties:
 
 ---
 see also:<br>
-[![env.adsr~](img/object_env.adsr~.png)](env.adsr~.md)
+[![env.adsr~](img/object_env.adsr~.png)](env.adsr~.html)

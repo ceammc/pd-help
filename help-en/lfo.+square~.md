@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # lfo.+square~
+
+
+Positive low frequency square wave
 
 ```
 
@@ -18,8 +21,7 @@
 
             
 ```
----
-Positive low frequency square wave
+
 ---
 arguments:
 
@@ -33,6 +35,6 @@ properties:
 
 ---
 see also:<br>
-[![lfo.square~](img/object_lfo.square~.png)](lfo.square~.md)
-[![lfo.impulse~](img/object_lfo.impulse~.png)](lfo.impulse~.md)
-[![lfo.tri~](img/object_lfo.tri~.png)](lfo.tri~.md)
+[![lfo.square~](img/object_lfo.square~.png)](lfo.square~.html)
+[![lfo.impulse~](img/object_lfo.impulse~.png)](lfo.impulse~.html)
+[![lfo.tri~](img/object_lfo.tri~.png)](lfo.tri~.html)

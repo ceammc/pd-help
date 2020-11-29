@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # hw.cpu_temp
+
+
+get CPU temperature
 
 ```
 
@@ -17,8 +20,7 @@
 
             
 ```
----
-get CPU temperature
+
 ---
 arguments:
 

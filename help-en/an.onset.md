@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # an.onset
+
+
+onset detector for arrays
 
 ```
 
@@ -35,8 +38,7 @@
 
             
 ```
----
-onset detector for arrays
+
 ---
 arguments:
 
@@ -86,4 +88,4 @@ properties:
 
 ---
 see also:<br>
-[![an.onset~](img/object_an.onset~.png)](an.onset~.md)
+[![an.onset~](img/object_an.onset~.png)](an.onset~.html)

@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # tl.cue
+
+
+Timeline section
 
 ```
 
@@ -16,8 +19,7 @@
 
             
 ```
----
-Timeline section
+
 ---
 arguments:
 
@@ -28,5 +30,5 @@ properties:
 
 ---
 see also:<br>
-[![tl.bang](img/object_tl.bang.png)](tl.bang.md)
-[![tl.toggle](img/object_tl.toggle.png)](tl.toggle.md)
+[![tl.bang](img/object_tl.bang.png)](tl.bang.html)
+[![tl.toggle](img/object_tl.toggle.png)](tl.toggle.html)

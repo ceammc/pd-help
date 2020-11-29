@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # string.contains
+
+
+checks if given string contains specified substring
 
 ```
 
@@ -18,8 +21,7 @@
 
             
 ```
----
-checks if given string contains specified substring
+
 ---
 arguments:
 
@@ -31,4 +33,4 @@ properties:
 
 ---
 see also:<br>
-[![str.ends_with](img/object_str.ends_with.png)](str.ends_with.md)
+[![str.ends_with](img/object_str.ends_with.png)](str.ends_with.html)

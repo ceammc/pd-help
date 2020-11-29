@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # array.minmax
+
+
+find array min and max element value
 
 ```
 
@@ -22,8 +25,7 @@
 
             
 ```
----
-find array min and max element value
+
 ---
 arguments:
 

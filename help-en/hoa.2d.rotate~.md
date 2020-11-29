@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # hoa.2d.rotate~
+
+
+a 2D ambisonic sound field rotation
 
 ```
 
@@ -33,8 +36,7 @@
 
             
 ```
----
-a 2D ambisonic sound field rotation
+
 ---
 arguments:
 
@@ -48,4 +50,4 @@ properties:
 
 ---
 see also:<br>
-[![hoa.encoder~](img/object_hoa.encoder~.png)](hoa.encoder~.md)
+[![hoa.encoder~](img/object_hoa.encoder~.png)](hoa.encoder~.html)

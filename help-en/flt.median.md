@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # flt.median~
+
+
+Median control flow filter
 
 ```
 
@@ -20,8 +23,7 @@
 
             
 ```
----
-Median control flow filter
+
 ---
 arguments:
 

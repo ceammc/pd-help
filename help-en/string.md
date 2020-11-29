@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # string
+
+
+string constructor
 
 ```
 
@@ -23,8 +26,7 @@
 
             
 ```
----
-string constructor
+
 ---
 arguments:
 

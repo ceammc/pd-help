@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # midi.event2prg
+
+
+convert MidiEvent message to midi program change value
 
 ```
 
@@ -26,8 +29,7 @@
 
             
 ```
----
-convert MidiEvent message to midi program change value
+
 ---
 arguments:
 

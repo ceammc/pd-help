@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # conv.list2props
+
+
+converts list to series of property messages
 
 ```
 
@@ -16,8 +19,7 @@
 
             
 ```
----
-converts list to series of property messages
+
 ---
 arguments:
 

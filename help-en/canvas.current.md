@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # canvas.current
+
+
+verbose information about current canvas
 
 ```
 
@@ -20,8 +23,7 @@
 
             
 ```
----
-verbose information about current canvas
+
 ---
 arguments:
 
@@ -53,5 +55,5 @@ properties:
 
 ---
 see also:<br>
-[![patch.args](img/object_patch.args.png)](patch.args.md)
-[![canvas.top](img/object_canvas.top.png)](canvas.top.md)
+[![patch.args](img/object_patch.args.png)](patch.args.html)
+[![canvas.top](img/object_canvas.top.png)](canvas.top.html)

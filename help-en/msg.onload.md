@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # msg.onload
+
+
+send message when patch loads
 
 ```
 
@@ -15,8 +18,7 @@
 
             
 ```
----
-send message when patch loads
+
 ---
 arguments:
 

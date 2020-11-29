@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # list.prepend
+
+
+prepend atom or list before input list
 
 ```
 
@@ -17,8 +20,7 @@
 
             
 ```
----
-prepend atom or list before input list
+
 ---
 arguments:
 
@@ -29,4 +31,4 @@ properties:
 
 ---
 see also:<br>
-[![list.append](img/object_list.append.png)](list.append.md)
+[![list.append](img/object_list.append.png)](list.append.html)

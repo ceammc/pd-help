@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # array.vplay
+
+
+simple array player for using with vline~
 
 ```
 
@@ -29,8 +32,7 @@
 
             
 ```
----
-simple array player for using with vline~
+
 ---
 arguments:
 
@@ -56,4 +58,4 @@ properties:
 
 ---
 see also:<br>
-[![list.each](img/object_list.each.png)](list.each.md)
+[![list.each](img/object_list.each.png)](list.each.html)

@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # list.set
+
+
+on input list set value at specified position
 
 ```
 
@@ -19,8 +22,7 @@
 
             
 ```
----
-on input list set value at specified position
+
 ---
 arguments:
 

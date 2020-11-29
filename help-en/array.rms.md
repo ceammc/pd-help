@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # array.rms
+
+
+calculates root mean square value for array
 
 ```
 
@@ -22,8 +25,7 @@
 
             
 ```
----
-calculates root mean square value for array
+
 ---
 arguments:
 
@@ -36,5 +38,5 @@ properties:
 
 ---
 see also:<br>
-[![array.mean](img/object_array.mean.png)](array.mean.md)
-[![array.sum2](img/object_array.sum2.png)](array.sum2.md)
+[![array.mean](img/object_array.mean.png)](array.mean.html)
+[![array.sum2](img/object_array.sum2.png)](array.sum2.html)

@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # fx.greyhole~
+
+
+A complex echo-like effect
 
 ```
 
@@ -25,8 +28,7 @@
 
             
 ```
----
-A complex echo-like effect
+
 ---
 arguments:
 
@@ -62,4 +64,4 @@ properties:
 
 ---
 see also:<br>
-[![fx.freeverb2~](img/object_fx.freeverb2~.png)](fx.freeverb2~.md)
+[![fx.freeverb2~](img/object_fx.freeverb2~.png)](fx.freeverb2~.html)

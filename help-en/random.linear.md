@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # random.linear
+
+
+random linear distribution
 
 ```
 
@@ -28,8 +31,7 @@
 
             
 ```
----
-random linear distribution
+
 ---
 arguments:
 
@@ -44,5 +46,5 @@ properties:
 
 ---
 see also:<br>
-[![random.float](img/object_random.float.png)](random.float.md)
-[![random.int](img/object_random.int.png)](random.int.md)
+[![random.float](img/object_random.float.png)](random.float.html)
+[![random.int](img/object_random.int.png)](random.int.html)

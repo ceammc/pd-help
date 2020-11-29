@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # list.rotate
+
+
+rotates list
 
 ```
 
@@ -22,8 +25,7 @@
 
             
 ```
----
-rotates list
+
 ---
 arguments:
 
@@ -38,4 +40,4 @@ properties:
 
 ---
 see also:<br>
-[![list.choice](img/object_list.choice.png)](list.choice.md)
+[![list.choice](img/object_list.choice.png)](list.choice.html)

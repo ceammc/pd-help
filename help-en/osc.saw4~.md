@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # osc.saw4~
+
+
+Bandlimited sawtooth wave
 
 ```
 
@@ -29,8 +32,7 @@
 
             
 ```
----
-Bandlimited sawtooth wave
+
 ---
 arguments:
 
@@ -46,7 +48,7 @@ properties:
 
 ---
 see also:<br>
-[![osc.saw~](img/object_osc.saw~.png)](osc.saw~.md)
-[![osc.tri~](img/object_osc.tri~.png)](osc.tri~.md)
-[![osc.square~](img/object_osc.square~.png)](osc.square~.md)
-[![lfo.tri~](img/object_lfo.tri~.png)](lfo.tri~.md)
+[![osc.saw~](img/object_osc.saw~.png)](osc.saw~.html)
+[![osc.tri~](img/object_osc.tri~.png)](osc.tri~.html)
+[![osc.square~](img/object_osc.square~.png)](osc.square~.html)
+[![lfo.tri~](img/object_lfo.tri~.png)](lfo.tri~.html)

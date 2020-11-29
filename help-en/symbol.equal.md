@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # symbol.equal
+
+
+check symbols for equality
 
 ```
 
@@ -16,8 +19,7 @@
 
             
 ```
----
-check symbols for equality
+
 ---
 arguments:
 

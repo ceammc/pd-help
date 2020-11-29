@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # gain~
+
+
+multislot signal gain
 
 ```
 
@@ -30,8 +33,7 @@
 
             
 ```
----
-multislot signal gain
+
 ---
 arguments:
 

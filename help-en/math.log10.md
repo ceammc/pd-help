@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # math.log10
+
+
+logarithm functions
 
 ```
 
@@ -16,8 +19,7 @@
 
             
 ```
----
-logarithm functions
+
 ---
 arguments:
 
@@ -28,4 +30,4 @@ properties:
 
 ---
 see also:<br>
-[![math.exp](img/object_math.exp.png)](math.exp.md)
+[![math.exp](img/object_math.exp.png)](math.exp.html)

@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # math.inf
+
+
+infinity value that cannot be represented accurately
 
 ```
 
@@ -14,8 +17,7 @@
 
             
 ```
----
-infinity value that cannot be represented accurately
+
 ---
 arguments:
 
@@ -26,4 +28,4 @@ properties:
 
 ---
 see also:<br>
-[![math.nan](img/object_math.nan.png)](math.nan.md)
+[![math.nan](img/object_math.nan.png)](math.nan.html)

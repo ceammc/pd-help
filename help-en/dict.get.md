@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # dict.get
+
+
+output dict values
 
 ```
 
@@ -20,8 +23,7 @@
 
             
 ```
----
-output dict values
+
 ---
 arguments:
 
@@ -36,5 +38,5 @@ properties:
 
 ---
 see also:<br>
-[![data.dict](img/object_data.dict.png)](data.dict.md)
-[![flow.route](img/object_flow.route.png)](flow.route.md)
+[![data.dict](img/object_data.dict.png)](data.dict.html)
+[![flow.route](img/object_flow.route.png)](flow.route.html)

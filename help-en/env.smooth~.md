@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # env.smooth~
+
+
+An envelope with an exponential attack and release
 
 ```
 
@@ -21,8 +24,7 @@
 
             
 ```
----
-An envelope with an exponential attack and release
+
 ---
 arguments:
 
@@ -38,4 +40,4 @@ properties:
 
 ---
 see also:<br>
-[![env.adsr~](img/object_env.adsr~.png)](env.adsr~.md)
+[![env.adsr~](img/object_env.adsr~.png)](env.adsr~.html)

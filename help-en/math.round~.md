@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # math.round~
+
+
+signal round
 
 ```
 
@@ -20,8 +23,7 @@
 
             
 ```
----
-signal round
+
 ---
 arguments:
 
@@ -32,4 +34,4 @@ properties:
 
 ---
 see also:<br>
-[![math.round](img/object_math.round.png)](math.round.md)
+[![math.round](img/object_math.round.png)](math.round.html)

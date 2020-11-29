@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # math.cdiv~
+
+
+division of complex signals
 
 ```
 
@@ -18,8 +21,7 @@
 
             
 ```
----
-division of complex signals
+
 ---
 arguments:
 
@@ -30,4 +32,4 @@ properties:
 
 ---
 see also:<br>
-[![math.cmul~](img/object_math.cmul~.png)](math.cmul~.md)
+[![math.cmul~](img/object_math.cmul~.png)](math.cmul~.html)

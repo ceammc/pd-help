@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # ui.mouse_filter
+
+
+filter mouse events from ui objects
 
 ```
 
@@ -20,8 +23,7 @@
 
             
 ```
----
-filter mouse events from ui objects
+
 ---
 arguments:
 
@@ -55,5 +57,5 @@ properties:
 
 ---
 see also:<br>
-[![ui.mouse_route](img/object_ui.mouse_route.png)](ui.mouse_route.md)
-[![ui.rslider](img/object_ui.rslider.png)](ui.rslider.md)
+[![ui.mouse_route](img/object_ui.mouse_route.png)](ui.mouse_route.html)
+[![ui.rslider](img/object_ui.rslider.png)](ui.rslider.html)

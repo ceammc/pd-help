@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # list.separate
+
+
+sends list elements one by one separately
 
 ```
 
@@ -18,8 +21,7 @@
 
             
 ```
----
-sends list elements one by one separately
+
 ---
 arguments:
 
@@ -33,5 +35,5 @@ properties:
 
 ---
 see also:<br>
-[![list.repack](img/object_list.repack.png)](list.repack.md)
-[![list.unpack](img/object_list.unpack.png)](list.unpack.md)
+[![list.repack](img/object_list.repack.png)](list.repack.html)
+[![list.unpack](img/object_list.unpack.png)](list.unpack.html)

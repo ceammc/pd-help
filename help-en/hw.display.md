@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # hw.display
+
+
+get/set display properties
 
 ```
 
@@ -16,8 +19,7 @@
 
             
 ```
----
-get/set display properties
+
 ---
 arguments:
 

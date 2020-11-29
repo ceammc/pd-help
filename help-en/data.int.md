@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # data.int
+
+
+robust int object
 
 ```
 
@@ -20,8 +23,7 @@
 
             
 ```
----
-robust int object
+
 ---
 arguments:
 
@@ -34,4 +36,4 @@ properties:
 
 ---
 see also:<br>
-[![data.float](img/object_data.float.png)](data.float.md)
+[![data.float](img/object_data.float.png)](data.float.html)

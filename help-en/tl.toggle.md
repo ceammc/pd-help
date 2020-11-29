@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # tl.toggle
+
+
+Timeline bang
 
 ```
 
@@ -16,8 +19,7 @@
 
             
 ```
----
-Timeline bang
+
 ---
 arguments:
 
@@ -29,5 +31,5 @@ properties:
 
 ---
 see also:<br>
-[![tl.bang](img/object_tl.bang.png)](tl.bang.md)
-[![tl.cue](img/object_tl.cue.png)](tl.cue.md)
+[![tl.bang](img/object_tl.bang.png)](tl.bang.html)
+[![tl.cue](img/object_tl.cue.png)](tl.cue.html)

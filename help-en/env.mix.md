@@ -1,7 +1,11 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # env.mix
+
+
+Mix between two envelopes. Envelopes should contain equal number of
+            segments
 
 ```
 
@@ -23,9 +27,7 @@
 
             
 ```
----
-Mix between two envelopes. Envelopes should contain equal number of
-            segments
+
 ---
 arguments:
 
@@ -36,5 +38,5 @@ properties:
 
 ---
 see also:<br>
-[![env.tscale](img/object_env.tscale.png)](env.tscale.md)
-[![envelope](img/object_envelope.png)](envelope.md)
+[![env.tscale](img/object_env.tscale.png)](env.tscale.html)
+[![envelope](img/object_envelope.png)](envelope.html)

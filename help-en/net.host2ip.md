@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # net.host2ip
+
+
+returns IP address by DNS name
 
 ```
 
@@ -17,8 +20,7 @@
 
             
 ```
----
-returns IP address by DNS name
+
 ---
 arguments:
 

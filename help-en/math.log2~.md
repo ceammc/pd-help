@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # math.log2~
+
+
+base-2 logarithm
 
 ```
 
@@ -31,8 +34,7 @@
 
             
 ```
----
-base-2 logarithm
+
 ---
 arguments:
 
@@ -43,5 +45,5 @@ properties:
 
 ---
 see also:<br>
-[![math.exp2~](img/object_math.exp2~.png)](math.exp2~.md)
-[![math.log2](img/object_math.log2.png)](math.log2.md)
+[![math.exp2~](img/object_math.exp2~.png)](math.exp2~.html)
+[![math.log2](img/object_math.log2.png)](math.log2.html)

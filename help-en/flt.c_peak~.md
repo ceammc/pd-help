@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # flt.c_peak~
+
+
+Peaking equalizer calculator for biquad
 
 ```
 
@@ -25,8 +28,7 @@
 
             
 ```
----
-Peaking equalizer calculator for biquad
+
 ---
 arguments:
 
@@ -49,5 +51,5 @@ properties:
 
 ---
 see also:<br>
-[![flt.eq_peak~](img/object_flt.eq_peak~.png)](flt.eq_peak~.md)
-[![flt.biquad~](img/object_flt.biquad~.png)](flt.biquad~.md)
+[![flt.eq_peak~](img/object_flt.eq_peak~.png)](flt.eq_peak~.html)
+[![flt.biquad~](img/object_flt.biquad~.png)](flt.biquad~.html)

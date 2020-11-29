@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # osc.saw~
+
+
+Alias-free sawtooth wave
 
 ```
 
@@ -29,8 +32,7 @@
 
             
 ```
----
-Alias-free sawtooth wave
+
 ---
 arguments:
 
@@ -44,7 +46,7 @@ properties:
 
 ---
 see also:<br>
-[![osc.saw4~](img/object_osc.saw4~.png)](osc.saw4~.md)
-[![osc.tri~](img/object_osc.tri~.png)](osc.tri~.md)
-[![osc.square~](img/object_osc.square~.png)](osc.square~.md)
-[![lfo.tri~](img/object_lfo.tri~.png)](lfo.tri~.md)
+[![osc.saw4~](img/object_osc.saw4~.png)](osc.saw4~.html)
+[![osc.tri~](img/object_osc.tri~.png)](osc.tri~.html)
+[![osc.square~](img/object_osc.square~.png)](osc.square~.html)
+[![lfo.tri~](img/object_lfo.tri~.png)](lfo.tri~.html)

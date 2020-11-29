@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # string2symbol
+
+
+converts string to symbol
 
 ```
 
@@ -18,8 +21,7 @@
 
             
 ```
----
-converts string to symbol
+
 ---
 arguments:
 

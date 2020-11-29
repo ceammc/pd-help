@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # global.int
+
+
+global named integer object
 
 ```
 
@@ -19,8 +22,7 @@
 
             
 ```
----
-global named integer object
+
 ---
 arguments:
 
@@ -33,4 +35,4 @@ properties:
 
 ---
 see also:<br>
-[![global.float](img/object_global.float.png)](global.float.md)
+[![global.float](img/object_global.float.png)](global.float.html)

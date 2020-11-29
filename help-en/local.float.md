@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # local.float
+
+
+canvas-scoped named float variable
 
 ```
 
@@ -19,8 +22,7 @@
 
             
 ```
----
-canvas-scoped named float variable
+
 ---
 arguments:
 
@@ -34,5 +36,5 @@ properties:
 
 ---
 see also:<br>
-[![local.int](img/object_local.int.png)](local.int.md)
-[![global.int](img/object_global.int.png)](global.int.md)
+[![local.int](img/object_local.int.png)](local.int.html)
+[![global.int](img/object_global.int.png)](global.int.html)

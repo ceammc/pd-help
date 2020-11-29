@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # tl.transport
+
+
+Timeline transport control
 
 ```
 
@@ -16,8 +19,7 @@
 
             
 ```
----
-Timeline transport control
+
 ---
 arguments:
 
@@ -28,4 +30,4 @@ properties:
 
 ---
 see also:<br>
-[![tl.cue](img/object_tl.cue.png)](tl.cue.md)
+[![tl.cue](img/object_tl.cue.png)](tl.cue.html)

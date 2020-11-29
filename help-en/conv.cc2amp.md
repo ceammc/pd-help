@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # conv.cc2amp
+
+
+convert from MIDI Control Change range
 
 ```
 
@@ -16,8 +19,7 @@
 
             
 ```
----
-convert from MIDI Control Change range
+
 ---
 arguments:
 
@@ -32,5 +34,5 @@ properties:
 
 ---
 see also:<br>
-[![lin-&gt;lin](img/object_lin-&gt;lin.png)](lin->lin.md)
-[![lin-&gt;curve](img/object_lin-&gt;curve.png)](lin->curve.md)
+[![lin-&gt;lin](img/object_lin-&gt;lin.png)](lin->lin.html)
+[![lin-&gt;curve](img/object_lin-&gt;curve.png)](lin->curve.html)

@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # ui.polar
+
+
+2D slider in polar coordinates
 
 ```
 
@@ -20,8 +23,7 @@
 
             
 ```
----
-2D slider in polar coordinates
+
 ---
 arguments:
 
@@ -77,4 +79,4 @@ properties:
 
 ---
 see also:<br>
-[![ui.slider2d](img/object_ui.slider2d.png)](ui.slider2d.md)
+[![ui.slider2d](img/object_ui.slider2d.png)](ui.slider2d.html)

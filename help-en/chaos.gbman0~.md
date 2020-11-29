@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # chaos.gbman0~
+
+
+Gingerbreadman map chaotic generator
 
 ```
 
@@ -20,8 +23,7 @@
 
             
 ```
----
-Gingerbreadman map chaotic generator
+
 ---
 arguments:
 
@@ -34,4 +36,4 @@ properties:
 
 ---
 see also:<br>
-[![chaos.gbman0](img/object_chaos.gbman0.png)](chaos.gbman0.md)
+[![chaos.gbman0](img/object_chaos.gbman0.png)](chaos.gbman0.html)

@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # flow.demultiplex2~
+
+
+audio stream stereo demultiplexer
 
 ```
 
@@ -29,8 +32,7 @@
 
             
 ```
----
-audio stream stereo demultiplexer
+
 ---
 arguments:
 
@@ -45,5 +47,5 @@ properties:
 
 ---
 see also:<br>
-[![flow.demultiplex~](img/object_flow.demultiplex~.png)](flow.demultiplex~.md)
-[![flow.demultiplex](img/object_flow.demultiplex.png)](flow.demultiplex.md)
+[![flow.demultiplex~](img/object_flow.demultiplex~.png)](flow.demultiplex~.html)
+[![flow.demultiplex](img/object_flow.demultiplex.png)](flow.demultiplex.html)

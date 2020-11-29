@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # metro.seq
+
+
+metro sequencer
 
 ```
 
@@ -22,8 +25,7 @@
 
             
 ```
----
-metro sequencer
+
 ---
 arguments:
 
@@ -44,5 +46,5 @@ properties:
 
 ---
 see also:<br>
-[![metro](img/object_metro.png)](metro.md)
-[![metro.pattern](img/object_metro.pattern.png)](metro.pattern.md)
+[![metro](img/object_metro.png)](metro.html)
+[![metro.pattern](img/object_metro.pattern.png)](metro.pattern.html)

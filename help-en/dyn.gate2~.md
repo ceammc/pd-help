@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # dyn.gate2~
+
+
+stereo signal gate
 
 ```
 
@@ -20,8 +23,7 @@
 
             
 ```
----
-stereo signal gate
+
 ---
 arguments:
 
@@ -48,4 +50,4 @@ properties:
 
 ---
 see also:<br>
-[![dyn.gate~](img/object_dyn.gate~.png)](dyn.gate~.md)
+[![dyn.gate~](img/object_dyn.gate~.png)](dyn.gate~.html)

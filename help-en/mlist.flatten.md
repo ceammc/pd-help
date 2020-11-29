@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # mlist.flatten
+
+
+flatten nested mlist
 
 ```
 
@@ -16,8 +19,7 @@
 
             
 ```
----
-flatten nested mlist
+
 ---
 arguments:
 
@@ -28,4 +30,4 @@ properties:
 
 ---
 see also:<br>
-[![data.mlist](img/object_data.mlist.png)](data.mlist.md)
+[![data.mlist](img/object_data.mlist.png)](data.mlist.html)

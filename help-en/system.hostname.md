@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # system.hostname
+
+
+outputs system hostname
 
 ```
 
@@ -14,8 +17,7 @@
 
             
 ```
----
-outputs system hostname
+
 ---
 arguments:
 

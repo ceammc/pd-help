@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # flt.c_hpf~
+
+
+HPF coefficient calculator for biquad filter
 
 ```
 
@@ -24,8 +27,7 @@
 
             
 ```
----
-HPF coefficient calculator for biquad filter
+
 ---
 arguments:
 
@@ -45,5 +47,5 @@ properties:
 
 ---
 see also:<br>
-[![flt.biquad~](img/object_flt.biquad~.png)](flt.biquad~.md)
-[![flt.hpf12~](img/object_flt.hpf12~.png)](flt.hpf12~.md)
+[![flt.biquad~](img/object_flt.biquad~.png)](flt.biquad~.html)
+[![flt.hpf12~](img/object_flt.hpf12~.png)](flt.hpf12~.html)

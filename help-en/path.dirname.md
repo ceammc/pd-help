@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # path.dirname
+
+
+outputs directory portion of pathname
 
 ```
 
@@ -25,8 +28,7 @@
 
             
 ```
----
-outputs directory portion of pathname
+
 ---
 arguments:
 
@@ -37,4 +39,4 @@ properties:
 
 ---
 see also:<br>
-[![path.basename](img/object_path.basename.png)](path.basename.md)
+[![path.basename](img/object_path.basename.png)](path.basename.html)

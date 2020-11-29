@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # msg
+
+
+message constructor
 
 ```
 
@@ -39,8 +42,7 @@
 
             
 ```
----
-message constructor
+
 ---
 arguments:
 

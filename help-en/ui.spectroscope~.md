@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # ui.spectroscope~
+
+
+Spectroscope GUI object
 
 ```
 
@@ -20,8 +23,7 @@
 
             
 ```
----
-Spectroscope GUI object
+
 ---
 arguments:
 
@@ -56,4 +58,4 @@ properties:
 
 ---
 see also:<br>
-[![ui.scope~](img/object_ui.scope~.png)](ui.scope~.md)
+[![ui.scope~](img/object_ui.scope~.png)](ui.scope~.html)

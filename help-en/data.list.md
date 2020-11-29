@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # data.list
+
+
+list container
 
 ```
 
@@ -20,8 +23,7 @@
 
             
 ```
----
-list container
+
 ---
 arguments:
 
@@ -37,4 +39,4 @@ properties:
 
 ---
 see also:<br>
-[![data.fifo](img/object_data.fifo.png)](data.fifo.md)
+[![data.fifo](img/object_data.fifo.png)](data.fifo.html)

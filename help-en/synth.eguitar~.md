@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # synth.eguitar~
+
+
+simple electric guitar model with steel strings
 
 ```
 
@@ -33,8 +36,7 @@
 
             
 ```
----
-simple electric guitar model with steel strings
+
 ---
 arguments:
 

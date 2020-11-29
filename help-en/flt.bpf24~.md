@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # flt.bpf24~
+
+
+Four pole band-pass butterworth filter
 
 ```
 
@@ -52,8 +55,7 @@
 
             
 ```
----
-Four pole band-pass butterworth filter
+
 ---
 arguments:
 
@@ -73,4 +75,4 @@ properties:
 
 ---
 see also:<br>
-[![flt.bpf12~](img/object_flt.bpf12~.png)](flt.bpf12~.md)
+[![flt.bpf12~](img/object_flt.bpf12~.png)](flt.bpf12~.html)

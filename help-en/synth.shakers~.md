@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # synth.shakers~
+
+
+various percussion sounds from STK library
 
 ```
 
@@ -30,8 +33,7 @@
 
             
 ```
----
-various percussion sounds from STK library
+
 ---
 arguments:
 

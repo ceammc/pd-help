@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # fx.zita_rev1~
+
+
+Zita stereo reverb
 
 ```
 
@@ -37,8 +40,7 @@
 
             
 ```
----
-Zita stereo reverb
+
 ---
 arguments:
 

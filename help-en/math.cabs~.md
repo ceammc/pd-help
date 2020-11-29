@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # math.cabs~
+
+
+magnitude of a complex signals
 
 ```
 
@@ -24,8 +27,7 @@
 
             
 ```
----
-magnitude of a complex signals
+
 ---
 arguments:
 
@@ -36,4 +38,4 @@ properties:
 
 ---
 see also:<br>
-[![math.carg~](img/object_math.carg~.png)](math.carg~.md)
+[![math.carg~](img/object_math.carg~.png)](math.carg~.html)

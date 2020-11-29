@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # preset.float
+
+
+load/store float preset
 
 ```
 
@@ -17,8 +20,7 @@
 
             
 ```
----
-load/store float preset
+
 ---
 arguments:
 
@@ -38,6 +40,6 @@ properties:
 
 ---
 see also:<br>
-[![preset.storage](img/object_preset.storage.png)](preset.storage.md)
-[![preset.symbol](img/object_preset.symbol.png)](preset.symbol.md)
-[![preset.list](img/object_preset.list.png)](preset.list.md)
+[![preset.storage](img/object_preset.storage.png)](preset.storage.html)
+[![preset.symbol](img/object_preset.symbol.png)](preset.symbol.html)
+[![preset.list](img/object_preset.list.png)](preset.list.html)

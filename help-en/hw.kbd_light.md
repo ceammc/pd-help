@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # hw.kbd_light
+
+
+Get/set keyboard light on some devices
 
 ```
 
@@ -18,8 +21,7 @@
 
             
 ```
----
-Get/set keyboard light on some devices
+
 ---
 arguments:
 

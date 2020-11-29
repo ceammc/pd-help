@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # math.sync_sub
+
+
+sync subtraction
 
 ```
 
@@ -16,8 +19,7 @@
 
             
 ```
----
-sync subtraction
+
 ---
 arguments:
 
@@ -30,4 +32,4 @@ properties:
 
 ---
 see also:<br>
-[![math.sync_add](img/object_math.sync_add.png)](math.sync_add.md)
+[![math.sync_add](img/object_math.sync_add.png)](math.sync_add.html)

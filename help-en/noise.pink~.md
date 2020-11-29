@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # noise.pink~
+
+
+Pink noise generator
 
 ```
 
@@ -17,8 +20,7 @@
 
             
 ```
----
-Pink noise generator
+
 ---
 arguments:
 
@@ -29,4 +31,4 @@ properties:
 
 ---
 see also:<br>
-[![noise.white~](img/object_noise.white~.png)](noise.white~.md)
+[![noise.white~](img/object_noise.white~.png)](noise.white~.html)

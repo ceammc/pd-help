@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # fx.granulator~
+
+
+simple input stream granulator
 
 ```
 
@@ -22,8 +25,7 @@
 
             
 ```
----
-simple input stream granulator
+
 ---
 arguments:
 

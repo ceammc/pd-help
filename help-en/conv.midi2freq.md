@@ -1,7 +1,11 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # conv.midi2freq
+
+
+convert from midi pitch to frequency in hz (with various base A and
+            temperament)
 
 ```
 
@@ -29,9 +33,7 @@
 
             
 ```
----
-convert from midi pitch to frequency in hz (with various base A and
-            temperament)
+
 ---
 arguments:
 
@@ -47,4 +49,4 @@ properties:
 
 ---
 see also:<br>
-[![mtof](img/object_mtof.png)](mtof.md)
+[![mtof](img/object_mtof.png)](mtof.html)

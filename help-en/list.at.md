@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # list.at
+
+
+on input list outputs element(s) at specified index(es)
 
 ```
 
@@ -29,8 +32,7 @@
 
             
 ```
----
-on input list outputs element(s) at specified index(es)
+
 ---
 arguments:
 
@@ -56,5 +58,5 @@ properties:
 
 ---
 see also:<br>
-[![list.^at](img/object_list.^at.png)](list.^at.md)
-[![list.apply_to](img/object_list.apply_to.png)](list.apply_to.md)
+[![list.^at](img/object_list.^at.png)](list.^at.html)
+[![list.apply_to](img/object_list.apply_to.png)](list.apply_to.html)

@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # list.sort
+
+
+sorts list values by ascending order
 
 ```
 
@@ -16,8 +19,7 @@
                 
             
 ```
----
-sorts list values by ascending order
+
 ---
 arguments:
 
@@ -28,6 +30,6 @@ properties:
 
 ---
 see also:<br>
-[![list.sort_with](img/object_list.sort_with.png)](list.sort_with.md)
-[![list.reverse](img/object_list.reverse.png)](list.reverse.md)
-[![list.shuffle](img/object_list.shuffle.png)](list.shuffle.md)
+[![list.sort_with](img/object_list.sort_with.png)](list.sort_with.html)
+[![list.reverse](img/object_list.reverse.png)](list.reverse.html)
+[![list.shuffle](img/object_list.shuffle.png)](list.shuffle.html)

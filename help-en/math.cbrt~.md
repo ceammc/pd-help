@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # math.cbrt~
+
+
+cube root function for signals
 
 ```
 
@@ -31,8 +34,7 @@
 
             
 ```
----
-cube root function for signals
+
 ---
 arguments:
 
@@ -43,4 +45,4 @@ properties:
 
 ---
 see also:<br>
-[![math.cbrt](img/object_math.cbrt.png)](math.cbrt.md)
+[![math.cbrt](img/object_math.cbrt.png)](math.cbrt.html)

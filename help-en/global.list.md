@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # global.list
+
+
+global named list object
 
 ```
 
@@ -18,8 +21,7 @@
 
             
 ```
----
-global named list object
+
 ---
 arguments:
 
@@ -35,5 +37,5 @@ properties:
 
 ---
 see also:<br>
-[![global.float](img/object_global.float.png)](global.float.md)
-[![global.int](img/object_global.int.png)](global.int.md)
+[![global.float](img/object_global.float.png)](global.float.html)
+[![global.int](img/object_global.int.png)](global.int.html)

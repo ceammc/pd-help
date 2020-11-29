@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # global.mlist
+
+
+global named mlist object
 
 ```
 
@@ -16,8 +19,7 @@
 
             
 ```
----
-global named mlist object
+
 ---
 arguments:
 
@@ -33,5 +35,5 @@ properties:
 
 ---
 see also:<br>
-[![data.mlist](img/object_data.mlist.png)](data.mlist.md)
-[![local.mlist](img/object_local.mlist.png)](local.mlist.md)
+[![data.mlist](img/object_data.mlist.png)](data.mlist.html)
+[![local.mlist](img/object_local.mlist.png)](local.mlist.html)

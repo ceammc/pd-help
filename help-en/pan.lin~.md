@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # pan.lin~
+
+
+two channel linear panner
 
 ```
 
@@ -20,8 +23,7 @@
 
             
 ```
----
-two channel linear panner
+
 ---
 arguments:
 
@@ -37,5 +39,5 @@ properties:
 
 ---
 see also:<br>
-[![pan.sqrt~](img/object_pan.sqrt~.png)](pan.sqrt~.md)
-[![pan.cos~](img/object_pan.cos~.png)](pan.cos~.md)
+[![pan.sqrt~](img/object_pan.sqrt~.png)](pan.sqrt~.html)
+[![pan.cos~](img/object_pan.cos~.png)](pan.cos~.html)

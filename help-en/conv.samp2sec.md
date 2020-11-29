@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # conv.samp2sec
+
+
+convert samples to time according to samplerate
 
 ```
 
@@ -16,8 +19,7 @@
 
             
 ```
----
-convert samples to time according to samplerate
+
 ---
 arguments:
 
@@ -28,4 +30,4 @@ properties:
 
 ---
 see also:<br>
-[![conv.sec2samp](img/object_conv.sec2samp.png)](conv.sec2samp.md)
+[![conv.sec2samp](img/object_conv.sec2samp.png)](conv.sec2samp.html)

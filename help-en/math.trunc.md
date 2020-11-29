@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # math.trunc
+
+
+truncate to integer value
 
 ```
 
@@ -16,8 +19,7 @@
 
             
 ```
----
-truncate to integer value
+
 ---
 arguments:
 
@@ -28,7 +30,7 @@ properties:
 
 ---
 see also:<br>
-[![math.ceil](img/object_math.ceil.png)](math.ceil.md)
-[![math.floor](img/object_math.floor.png)](math.floor.md)
-[![math.round](img/object_math.round.png)](math.round.md)
-[![math.math](img/object_math.math.png)](math.math.md)
+[![math.ceil](img/object_math.ceil.png)](math.ceil.html)
+[![math.floor](img/object_math.floor.png)](math.floor.html)
+[![math.round](img/object_math.round.png)](math.round.html)
+[![math.math](img/object_math.math.png)](math.math.html)

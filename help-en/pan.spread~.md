@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # pan.spread~
+
+
+spreads input channels across the stereo field
 
 ```
 
@@ -36,8 +39,7 @@
 
             
 ```
----
-spreads input channels across the stereo field
+
 ---
 arguments:
 

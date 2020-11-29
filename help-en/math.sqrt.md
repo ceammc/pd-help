@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # math.sqrt
+
+
+square root function
 
 ```
 
@@ -14,8 +17,7 @@
 
             
 ```
----
-square root function
+
 ---
 arguments:
 
@@ -26,4 +28,4 @@ properties:
 
 ---
 see also:<br>
-[![math.math](img/object_math.math.png)](math.math.md)
+[![math.math](img/object_math.math.png)](math.math.html)

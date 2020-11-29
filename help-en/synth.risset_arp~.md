@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # synth.risset_arp~
+
+
+Jean Claude Risset&#39;s harmonic arpeggio effect
 
 ```
 
@@ -24,8 +27,7 @@
 
             
 ```
----
-Jean Claude Risset&#39;s harmonic arpeggio effect
+
 ---
 arguments:
 

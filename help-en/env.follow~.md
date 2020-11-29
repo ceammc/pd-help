@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # env.follow~
+
+
+Envelope follower with independent attack and release times
 
 ```
 
@@ -18,8 +21,7 @@
 
             
 ```
----
-Envelope follower with independent attack and release times
+
 ---
 arguments:
 
@@ -40,4 +42,4 @@ properties:
 
 ---
 see also:<br>
-[![env.adsr~](img/object_env.adsr~.png)](env.adsr~.md)
+[![env.adsr~](img/object_env.adsr~.png)](env.adsr~.html)

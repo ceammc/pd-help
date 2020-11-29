@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # fx.freeverb2~
+
+
+freeverb2 - stereo version of freeverb
 
 ```
 
@@ -28,8 +31,7 @@
 
             
 ```
----
-freeverb2 - stereo version of freeverb
+
 ---
 arguments:
 

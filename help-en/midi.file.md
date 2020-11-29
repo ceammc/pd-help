@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # midi.file
+
+
+standard midi file SMF reader and writer
 
 ```
 
@@ -32,8 +35,7 @@
 
             
 ```
----
-standard midi file SMF reader and writer
+
 ---
 arguments:
 

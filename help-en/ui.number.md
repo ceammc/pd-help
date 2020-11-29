@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # ui.number
+
+
+counterpart of the vanilla [nbx]
 
 ```
 
@@ -23,8 +26,7 @@
 
             
 ```
----
-counterpart of the vanilla [nbx]
+
 ---
 arguments:
 
@@ -63,4 +65,4 @@ properties:
 
 ---
 see also:<br>
-[![ui.number~](img/object_ui.number~.png)](ui.number~.md)
+[![ui.number~](img/object_ui.number~.png)](ui.number~.html)

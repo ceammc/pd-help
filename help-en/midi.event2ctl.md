@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # midi.event2ctl
+
+
+convert MidiEvent message to controller channel/value pair
 
 ```
 
@@ -26,8 +29,7 @@
 
             
 ```
----
-convert MidiEvent message to controller channel/value pair
+
 ---
 arguments:
 

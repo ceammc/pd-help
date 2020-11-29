@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # flt.notch~
+
+
+band-rejection filter
 
 ```
 
@@ -25,8 +28,7 @@
 
             
 ```
----
-band-rejection filter
+
 ---
 arguments:
 
@@ -43,4 +45,4 @@ properties:
 
 ---
 see also:<br>
-[![flt.bpf12~](img/object_flt.bpf12~.png)](flt.bpf12~.md)
+[![flt.bpf12~](img/object_flt.bpf12~.png)](flt.bpf12~.html)

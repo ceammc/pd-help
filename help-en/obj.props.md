@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # obj.props
+
+
+property extractor
 
 ```
 
@@ -19,8 +22,7 @@
 
             
 ```
----
-property extractor
+
 ---
 arguments:
 

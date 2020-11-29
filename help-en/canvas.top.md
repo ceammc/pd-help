@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # canvas.top
+
+
+verbose information about top-level canvas
 
 ```
 
@@ -22,8 +25,7 @@
 
             
 ```
----
-verbose information about top-level canvas
+
 ---
 arguments:
 
@@ -43,5 +45,5 @@ properties:
 
 ---
 see also:<br>
-[![patch.args](img/object_patch.args.png)](patch.args.md)
-[![canvas.current](img/object_canvas.current.png)](canvas.current.md)
+[![patch.args](img/object_patch.args.png)](patch.args.html)
+[![canvas.current](img/object_canvas.current.png)](canvas.current.html)

@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # list.walk
+
+
+Walks thru the list
 
 ```
 
@@ -28,8 +31,7 @@
 
             
 ```
----
-Walks thru the list
+
 ---
 arguments:
 
@@ -61,5 +63,5 @@ properties:
 
 ---
 see also:<br>
-[![list.gen](img/object_list.gen.png)](list.gen.md)
-[![list.seq](img/object_list.seq.png)](list.seq.md)
+[![list.gen](img/object_list.gen.png)](list.gen.html)
+[![list.seq](img/object_list.seq.png)](list.seq.html)

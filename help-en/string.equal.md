@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # string.equal
+
+
+check strings for equality
 
 ```
 
@@ -16,8 +19,7 @@
 
             
 ```
----
-check strings for equality
+
 ---
 arguments:
 
@@ -29,4 +31,4 @@ properties:
 
 ---
 see also:<br>
-[![string](img/object_string.png)](string.md)
+[![string](img/object_string.png)](string.html)

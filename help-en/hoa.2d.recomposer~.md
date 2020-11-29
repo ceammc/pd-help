@@ -1,7 +1,11 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # hoa.2d.recomposer~
+
+
+recomposes a 2d plane wave decomposition into circular
+            harmonics
 
 ```
 
@@ -39,9 +43,7 @@
 
             
 ```
----
-recomposes a 2d plane wave decomposition into circular
-            harmonics
+
 ---
 arguments:
 
@@ -74,4 +76,4 @@ properties:
 
 ---
 see also:<br>
-[![hoa.2d.projector~](img/object_hoa.2d.projector~.png)](hoa.2d.projector~.md)
+[![hoa.2d.projector~](img/object_hoa.2d.projector~.png)](hoa.2d.projector~.html)

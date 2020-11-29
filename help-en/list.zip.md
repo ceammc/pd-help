@@ -1,7 +1,11 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # list.zip
+
+
+takes n lists from n inlets (specified by argument) and output their
+            elements sequentially (list1-1 list2-1 list1-2 list2-2 etc.).
 
 ```
 
@@ -19,9 +23,7 @@
 
             
 ```
----
-takes n lists from n inlets (specified by argument) and output their
-            elements sequentially (list1-1 list2-1 list1-2 list2-2 etc.).
+
 ---
 arguments:
 
@@ -48,4 +50,4 @@ properties:
 
 ---
 see also:<br>
-[![list.unzip](img/object_list.unzip.png)](list.unzip.md)
+[![list.unzip](img/object_list.unzip.png)](list.unzip.html)

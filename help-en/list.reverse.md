@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # list.reverse
+
+
+reverses the order of the elements in the list
 
 ```
 
@@ -16,8 +19,7 @@
 
             
 ```
----
-reverses the order of the elements in the list
+
 ---
 arguments:
 
@@ -28,5 +30,5 @@ properties:
 
 ---
 see also:<br>
-[![list.sort](img/object_list.sort.png)](list.sort.md)
-[![list.shuffle](img/object_list.shuffle.png)](list.shuffle.md)
+[![list.sort](img/object_list.sort.png)](list.sort.html)
+[![list.shuffle](img/object_list.shuffle.png)](list.shuffle.html)

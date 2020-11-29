@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # xdac~
+
+
+dac~ with channel ranges
 
 ```
 
@@ -10,8 +13,7 @@
 
             
 ```
----
-dac~ with channel ranges
+
 ---
 arguments:
 

@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # string.replace
+
+
+replace from one substring to another in input string
 
 ```
 
@@ -20,8 +23,7 @@
 
             
 ```
----
-replace from one substring to another in input string
+
 ---
 arguments:
 
@@ -44,4 +46,4 @@ properties:
 
 ---
 see also:<br>
-[![str.remove](img/object_str.remove.png)](str.remove.md)
+[![str.remove](img/object_str.remove.png)](str.remove.html)

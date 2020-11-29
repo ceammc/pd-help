@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # noise.lfreq0~
+
+
+sampled/held noise (piecewise constant)
 
 ```
 
@@ -27,8 +30,7 @@
 
             
 ```
----
-sampled/held noise (piecewise constant)
+
 ---
 arguments:
 
@@ -44,4 +46,4 @@ properties:
 
 ---
 see also:<br>
-[![noise.lfreq~](img/object_noise.lfreq~.png)](noise.lfreq~.md)
+[![noise.lfreq~](img/object_noise.lfreq~.png)](noise.lfreq~.html)

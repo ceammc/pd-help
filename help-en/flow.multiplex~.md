@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # flow.multiplex~
+
+
+audio stream multiplexer
 
 ```
 
@@ -21,8 +24,7 @@
 
             
 ```
----
-audio stream multiplexer
+
 ---
 arguments:
 
@@ -37,5 +39,5 @@ properties:
 
 ---
 see also:<br>
-[![flow.multiplex2~](img/object_flow.multiplex2~.png)](flow.multiplex2~.md)
-[![flow.multiplex](img/object_flow.multiplex.png)](flow.multiplex.md)
+[![flow.multiplex2~](img/object_flow.multiplex2~.png)](flow.multiplex2~.html)
+[![flow.multiplex](img/object_flow.multiplex.png)](flow.multiplex.html)

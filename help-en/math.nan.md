@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # math.nan
+
+
+Not a Number, unrepresentable value
 
 ```
 
@@ -14,8 +17,7 @@
 
             
 ```
----
-Not a Number, unrepresentable value
+
 ---
 arguments:
 
@@ -26,4 +28,4 @@ properties:
 
 ---
 see also:<br>
-[![math.inf](img/object_math.inf.png)](math.inf.md)
+[![math.inf](img/object_math.inf.png)](math.inf.html)

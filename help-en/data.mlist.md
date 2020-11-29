@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # data.mlist
+
+
+multidimensional list container
 
 ```
 
@@ -16,8 +19,7 @@
 
             
 ```
----
-multidimensional list container
+
 ---
 arguments:
 
@@ -34,4 +36,4 @@ properties:
 
 ---
 see also:<br>
-[![data.list](img/object_data.list.png)](data.list.md)
+[![data.list](img/object_data.list.png)](data.list.html)

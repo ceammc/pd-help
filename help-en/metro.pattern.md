@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # metro.pattern
+
+
+metro with rhythmic patterns
 
 ```
 
@@ -22,8 +25,7 @@
 
             
 ```
----
-metro with rhythmic patterns
+
 ---
 arguments:
 
@@ -40,5 +42,5 @@ properties:
 
 ---
 see also:<br>
-[![metro](img/object_metro.png)](metro.md)
-[![metro.seq](img/object_metro.seq.png)](metro.seq.md)
+[![metro](img/object_metro.png)](metro.html)
+[![metro.seq](img/object_metro.seq.png)](metro.seq.html)

@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # math.lcm
+
+
+calculate least common multiple
 
 ```
 
@@ -16,8 +19,7 @@
 
             
 ```
----
-calculate least common multiple
+
 ---
 arguments:
 
@@ -29,4 +31,4 @@ properties:
 
 ---
 see also:<br>
-[![math.gcd](img/object_math.gcd.png)](math.gcd.md)
+[![math.gcd](img/object_math.gcd.png)](math.gcd.html)

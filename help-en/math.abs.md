@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # math.abs
+
+
+absolute value function
 
 ```
 
@@ -16,8 +19,7 @@
 
             
 ```
----
-absolute value function
+
 ---
 arguments:
 
@@ -28,4 +30,4 @@ properties:
 
 ---
 see also:<br>
-[![math.floor](img/object_math.floor.png)](math.floor.md)
+[![math.floor](img/object_math.floor.png)](math.floor.html)

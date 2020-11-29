@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # pan.sqrt~
+
+
+two channel equal power square root panner
 
 ```
 
@@ -20,8 +23,7 @@
 
             
 ```
----
-two channel equal power square root panner
+
 ---
 arguments:
 
@@ -37,5 +39,5 @@ properties:
 
 ---
 see also:<br>
-[![pan.lin~](img/object_pan.lin~.png)](pan.lin~.md)
-[![pan.cos~](img/object_pan.cos~.png)](pan.cos~.md)
+[![pan.lin~](img/object_pan.lin~.png)](pan.lin~.html)
+[![pan.cos~](img/object_pan.cos~.png)](pan.cos~.html)

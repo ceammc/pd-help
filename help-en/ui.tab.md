@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # ui.tab
+
+
+displays a list of text buttons or text toggles
 
 ```
 
@@ -20,8 +23,7 @@
 
             
 ```
----
-displays a list of text buttons or text toggles
+
 ---
 arguments:
 
@@ -69,4 +71,4 @@ properties:
 
 ---
 see also:<br>
-[![ui.menu](img/object_ui.menu.png)](ui.menu.md)
+[![ui.menu](img/object_ui.menu.png)](ui.menu.html)

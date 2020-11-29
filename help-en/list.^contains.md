@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # list.^contains
+
+
+on input atom or list checks if specified list contains it
 
 ```
 
@@ -28,8 +31,7 @@
 
             
 ```
----
-on input atom or list checks if specified list contains it
+
 ---
 arguments:
 
@@ -40,6 +42,6 @@ properties:
 
 ---
 see also:<br>
-[![list.contains](img/object_list.contains.png)](list.contains.md)
-[![list.all_of](img/object_list.all_of.png)](list.all_of.md)
-[![list.none_of](img/object_list.none_of.png)](list.none_of.md)
+[![list.contains](img/object_list.contains.png)](list.contains.html)
+[![list.all_of](img/object_list.all_of.png)](list.all_of.html)
+[![list.none_of](img/object_list.none_of.png)](list.none_of.html)

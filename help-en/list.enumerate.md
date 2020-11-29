@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # list.enumerate
+
+
+enumerates input list
 
 ```
 
@@ -18,8 +21,7 @@
 
             
 ```
----
-enumerates input list
+
 ---
 arguments:
 

@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # data.dict
+
+
+dictionary container: store values by key
 
 ```
 
@@ -23,8 +26,7 @@
 
             
 ```
----
-dictionary container: store values by key
+
 ---
 arguments:
 
@@ -40,5 +42,5 @@ properties:
 
 ---
 see also:<br>
-[![data.set](img/object_data.set.png)](data.set.md)
-[![data.mlist](img/object_data.mlist.png)](data.mlist.md)
+[![data.set](img/object_data.set.png)](data.set.html)
+[![data.mlist](img/object_data.mlist.png)](data.mlist.html)

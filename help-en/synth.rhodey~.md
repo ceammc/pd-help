@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # synth.rhodey~
+
+
+STK Fender Rhodes electric piano FM synthesis instrument
 
 ```
 
@@ -27,8 +30,7 @@
 
             
 ```
----
-STK Fender Rhodes electric piano FM synthesis instrument
+
 ---
 arguments:
 

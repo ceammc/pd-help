@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # fx.bitdown~
+
+
+bit downer and downsampler effect
 
 ```
 
@@ -22,8 +25,7 @@
 
             
 ```
----
-bit downer and downsampler effect
+
 ---
 arguments:
 

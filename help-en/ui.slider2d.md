@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # ui.slider2d
+
+
+2D slider widget
 
 ```
 
@@ -27,8 +30,7 @@
 
             
 ```
----
-2D slider widget
+
 ---
 arguments:
 
@@ -84,5 +86,5 @@ properties:
 
 ---
 see also:<br>
-[![ui.slider](img/object_ui.slider.png)](ui.slider.md)
-[![ui.polar](img/object_ui.polar.png)](ui.polar.md)
+[![ui.slider](img/object_ui.slider.png)](ui.slider.html)
+[![ui.polar](img/object_ui.polar.png)](ui.polar.html)

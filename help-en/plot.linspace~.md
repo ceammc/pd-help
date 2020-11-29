@@ -1,7 +1,11 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # plot.linspace~
+
+
+outputs numbers spaced evenly spaced over a specified
+            interval
 
 ```
 
@@ -26,9 +30,7 @@
 
             
 ```
----
-outputs numbers spaced evenly spaced over a specified
-            interval
+
 ---
 arguments:
 
@@ -51,5 +53,5 @@ properties:
 
 ---
 see also:<br>
-[![plot.geomspace~](img/object_plot.geomspace~.png)](plot.geomspace~.md)
-[![plot.logspace~](img/object_plot.logspace~.png)](plot.logspace~.md)
+[![plot.geomspace~](img/object_plot.geomspace~.png)](plot.geomspace~.html)
+[![plot.logspace~](img/object_plot.logspace~.png)](plot.logspace~.html)

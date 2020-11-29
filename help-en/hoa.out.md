@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # hoa.out
+
+
+message outlet for a patcher loaded by hoa.process~
 
 ```
 
@@ -23,8 +26,7 @@
 
             
 ```
----
-message outlet for a patcher loaded by hoa.process~
+
 ---
 arguments:
 
@@ -37,6 +39,6 @@ properties:
 
 ---
 see also:<br>
-[![hoa.out~](img/object_hoa.out~.png)](hoa.out~.md)
-[![hoa.in](img/object_hoa.in.png)](hoa.in.md)
-[![hoa.in~](img/object_hoa.in~.png)](hoa.in~.md)
+[![hoa.out~](img/object_hoa.out~.png)](hoa.out~.html)
+[![hoa.in](img/object_hoa.in.png)](hoa.in.html)
+[![hoa.in~](img/object_hoa.in~.png)](hoa.in~.html)

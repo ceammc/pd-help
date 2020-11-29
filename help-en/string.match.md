@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # string.match
+
+
+check if string match regular expression
 
 ```
 
@@ -17,8 +20,7 @@
 
             
 ```
----
-check if string match regular expression
+
 ---
 arguments:
 

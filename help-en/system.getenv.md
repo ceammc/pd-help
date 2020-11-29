@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # system.getenv
+
+
+Get system environment variables
 
 ```
 
@@ -17,8 +20,7 @@
 
             
 ```
----
-Get system environment variables
+
 ---
 arguments:
 
@@ -30,4 +32,4 @@ properties:
 
 ---
 see also:<br>
-[![system.hostname](img/object_system.hostname.png)](system.hostname.md)
+[![system.hostname](img/object_system.hostname.png)](system.hostname.html)

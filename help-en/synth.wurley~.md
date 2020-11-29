@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # synth.wurley~
+
+
+Wurlitzer electric piano FM synthesis instrument
 
 ```
 
@@ -27,8 +30,7 @@
 
             
 ```
----
-Wurlitzer electric piano FM synthesis instrument
+
 ---
 arguments:
 

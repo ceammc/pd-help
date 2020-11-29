@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # flt.c_lowshelf~
+
+
+Lowshelf filter coefficient calculator for biquad
 
 ```
 
@@ -29,8 +32,7 @@
 
             
 ```
----
-Lowshelf filter coefficient calculator for biquad
+
 ---
 arguments:
 
@@ -48,5 +50,5 @@ properties:
 
 ---
 see also:<br>
-[![flt.lowshelf~](img/object_flt.lowshelf~.png)](flt.lowshelf~.md)
-[![flt.biquad~](img/object_flt.biquad~.png)](flt.biquad~.md)
+[![flt.lowshelf~](img/object_flt.lowshelf~.png)](flt.lowshelf~.html)
+[![flt.biquad~](img/object_flt.biquad~.png)](flt.biquad~.html)

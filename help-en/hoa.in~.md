@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # hoa.in~
+
+
+signal inlet for a patcher loaded by hoa.process~
 
 ```
 
@@ -19,8 +22,7 @@
 
             
 ```
----
-signal inlet for a patcher loaded by hoa.process~
+
 ---
 arguments:
 
@@ -35,6 +37,6 @@ properties:
 
 ---
 see also:<br>
-[![hoa.in](img/object_hoa.in.png)](hoa.in.md)
-[![hoa.out](img/object_hoa.out.png)](hoa.out.md)
-[![hoa.out~](img/object_hoa.out~.png)](hoa.out~.md)
+[![hoa.in](img/object_hoa.in.png)](hoa.in.html)
+[![hoa.out](img/object_hoa.out.png)](hoa.out.html)
+[![hoa.out~](img/object_hoa.out~.png)](hoa.out~.html)

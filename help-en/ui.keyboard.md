@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # ui.keyboard
+
+
+keyboard widget
 
 ```
 
@@ -27,8 +30,7 @@
 
             
 ```
----
-keyboard widget
+
 ---
 arguments:
 
@@ -62,4 +64,4 @@ properties:
 
 ---
 see also:<br>
-[![ui.preset](img/object_ui.preset.png)](ui.preset.md)
+[![ui.preset](img/object_ui.preset.png)](ui.preset.html)

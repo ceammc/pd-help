@@ -1,7 +1,11 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # fx.vocoder~
+
+
+very simple vocoder where the spectrum of the modulation signal is
+            analyzed using a 32-band filter bank
 
 ```
 
@@ -22,9 +26,7 @@
 
             
 ```
----
-very simple vocoder where the spectrum of the modulation signal is
-            analyzed using a 32-band filter bank
+
 ---
 arguments:
 

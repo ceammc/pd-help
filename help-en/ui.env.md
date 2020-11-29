@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # ui.env
+
+
+envelope editor widget
 
 ```
 
@@ -33,8 +36,7 @@
 
             
 ```
----
-envelope editor widget
+
 ---
 arguments:
 

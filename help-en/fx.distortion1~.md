@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # fx.distortion1~
+
+
+distortion #1 from Guitarix effects set
 
 ```
 
@@ -27,8 +30,7 @@
 
             
 ```
----
-distortion #1 from Guitarix effects set
+
 ---
 arguments:
 
@@ -74,6 +76,6 @@ properties:
 
 ---
 see also:<br>
-[![fx.distortion~](img/object_fx.distortion~.png)](fx.distortion~.md)
-[![fx.distortion2~](img/object_fx.distortion2~.png)](fx.distortion2~.md)
-[![fx.distortion3~](img/object_fx.distortion3~.png)](fx.distortion3~.md)
+[![fx.distortion~](img/object_fx.distortion~.png)](fx.distortion~.html)
+[![fx.distortion2~](img/object_fx.distortion2~.png)](fx.distortion2~.html)
+[![fx.distortion3~](img/object_fx.distortion3~.png)](fx.distortion3~.html)

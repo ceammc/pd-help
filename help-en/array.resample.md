@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # array.resample
+
+
+array resampler
 
 ```
 
@@ -25,8 +28,7 @@
 
             
 ```
----
-array resampler
+
 ---
 arguments:
 

@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # flt.dcblock~
+
+
+mono DC blocker
 
 ```
 
@@ -20,8 +23,7 @@
 
             
 ```
----
-mono DC blocker
+
 ---
 arguments:
 
@@ -32,4 +34,4 @@ properties:
 
 ---
 see also:<br>
-[![flt.dcblock2~](img/object_flt.dcblock2~.png)](flt.dcblock2~.md)
+[![flt.dcblock2~](img/object_flt.dcblock2~.png)](flt.dcblock2~.html)

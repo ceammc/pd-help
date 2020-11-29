@@ -1,7 +1,11 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # list.integrator
+
+
+returns the sum of the previously stored list and the current one then
+            stores this sum
 
 ```
 
@@ -20,9 +24,7 @@
 
             
 ```
----
-returns the sum of the previously stored list and the current one then
-            stores this sum
+
 ---
 arguments:
 
@@ -48,4 +50,4 @@ properties:
 
 ---
 see also:<br>
-[![list.delta](img/object_list.delta.png)](list.delta.md)
+[![list.delta](img/object_list.delta.png)](list.delta.html)

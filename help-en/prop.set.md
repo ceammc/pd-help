@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # prop.set
+
+
+Property injector
 
 ```
 
@@ -21,8 +24,7 @@
 
             
 ```
----
-Property injector
+
 ---
 arguments:
 
@@ -33,4 +35,4 @@ properties:
 
 ---
 see also:<br>
-[![prop-&gt;](img/object_prop-&gt;.png)](prop->.md)
+[![prop-&gt;](img/object_prop-&gt;.png)](prop->.html)

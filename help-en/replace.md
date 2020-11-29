@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # replace
+
+
+Replace atoms in data stream
 
 ```
 
@@ -20,8 +23,7 @@
 
             
 ```
----
-Replace atoms in data stream
+
 ---
 arguments:
 
@@ -36,4 +38,4 @@ properties:
 
 ---
 see also:<br>
-[![flow.pass](img/object_flow.pass.png)](flow.pass.md)
+[![flow.pass](img/object_flow.pass.png)](flow.pass.html)

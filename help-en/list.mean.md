@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # list.mean
+
+
+calculates average of list of floats
 
 ```
 
@@ -15,8 +18,7 @@
 
             
 ```
----
-calculates average of list of floats
+
 ---
 arguments:
 
@@ -27,4 +29,4 @@ properties:
 
 ---
 see also:<br>
-[![list.normalize](img/object_list.normalize.png)](list.normalize.md)
+[![list.normalize](img/object_list.normalize.png)](list.normalize.html)

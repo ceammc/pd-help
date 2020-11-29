@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # math.ceil
+
+
+round to smallest integral value not less than input value
 
 ```
 
@@ -14,8 +17,7 @@
 
             
 ```
----
-round to smallest integral value not less than input value
+
 ---
 arguments:
 
@@ -26,6 +28,6 @@ properties:
 
 ---
 see also:<br>
-[![math.floor](img/object_math.floor.png)](math.floor.md)
-[![math.round](img/object_math.round.png)](math.round.md)
-[![math.trunc](img/object_math.trunc.png)](math.trunc.md)
+[![math.floor](img/object_math.floor.png)](math.floor.html)
+[![math.round](img/object_math.round.png)](math.round.html)
+[![math.trunc](img/object_math.trunc.png)](math.trunc.html)

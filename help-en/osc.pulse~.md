@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # osc.pulse~
+
+
+Bandlimited pulse train oscillator
 
 ```
 
@@ -26,8 +29,7 @@
 
             
 ```
----
-Bandlimited pulse train oscillator
+
 ---
 arguments:
 
@@ -44,4 +46,4 @@ properties:
 
 ---
 see also:<br>
-[![osc.impulse~](img/object_osc.impulse~.png)](osc.impulse~.md)
+[![osc.impulse~](img/object_osc.impulse~.png)](osc.impulse~.html)

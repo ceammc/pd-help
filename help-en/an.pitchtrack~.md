@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # an.pitchtrack~
+
+
+pitch tracker
 
 ```
 
@@ -20,8 +23,7 @@
 
             
 ```
----
-pitch tracker
+
 ---
 arguments:
 
@@ -45,5 +47,5 @@ properties:
 
 ---
 see also:<br>
-[![sigmund~](img/object_sigmund~.png)](sigmund~.md)
-[![fiddle~](img/object_fiddle~.png)](fiddle~.md)
+[![sigmund~](img/object_sigmund~.png)](sigmund~.html)
+[![fiddle~](img/object_fiddle~.png)](fiddle~.html)

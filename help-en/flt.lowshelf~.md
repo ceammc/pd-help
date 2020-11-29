@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # flt.lowshelf~
+
+
+gain boost|cut below some frequency
 
 ```
 
@@ -20,8 +23,7 @@
 
             
 ```
----
-gain boost|cut below some frequency
+
 ---
 arguments:
 
@@ -40,5 +42,5 @@ properties:
 
 ---
 see also:<br>
-[![flt.highshelf~](img/object_flt.highshelf~.png)](flt.highshelf~.md)
-[![flt.c_lowshelf~](img/object_flt.c_lowshelf~.png)](flt.c_lowshelf~.md)
+[![flt.highshelf~](img/object_flt.highshelf~.png)](flt.highshelf~.html)
+[![flt.c_lowshelf~](img/object_flt.c_lowshelf~.png)](flt.c_lowshelf~.html)

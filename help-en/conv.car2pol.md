@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # conv.car2pol
+
+
+convert cartesian coords to polar
 
 ```
 
@@ -20,8 +23,7 @@
 
             
 ```
----
-convert cartesian coords to polar
+
 ---
 arguments:
 
@@ -32,4 +34,4 @@ properties:
 
 ---
 see also:<br>
-[![conv.pol2car](img/object_conv.pol2car.png)](conv.pol2car.md)
+[![conv.pol2car](img/object_conv.pol2car.png)](conv.pol2car.html)

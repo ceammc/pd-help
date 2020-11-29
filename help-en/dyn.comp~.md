@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # dyn.comp~
+
+
+mono dynamic range compressors
 
 ```
 
@@ -20,8 +23,7 @@
 
             
 ```
----
-mono dynamic range compressors
+
 ---
 arguments:
 
@@ -49,4 +51,4 @@ properties:
 
 ---
 see also:<br>
-[![dyn.comp2~](img/object_dyn.comp2~.png)](dyn.comp2~.md)
+[![dyn.comp2~](img/object_dyn.comp2~.png)](dyn.comp2~.html)

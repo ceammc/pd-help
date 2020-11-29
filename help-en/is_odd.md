@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # is_odd
+
+
+checks if input number is odd
 
 ```
 
@@ -14,8 +17,7 @@
 
             
 ```
----
-checks if input number is odd
+
 ---
 arguments:
 
@@ -26,4 +28,4 @@ properties:
 
 ---
 see also:<br>
-[![is_even](img/object_is_even.png)](is_even.md)
+[![is_even](img/object_is_even.png)](is_even.html)

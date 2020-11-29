@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # math.sync_mul
+
+
+sync multiplication
 
 ```
 
@@ -23,8 +26,7 @@
 
             
 ```
----
-sync multiplication
+
 ---
 arguments:
 

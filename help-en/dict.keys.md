@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # dict.keys
+
+
+get list of dict keys
 
 ```
 
@@ -16,8 +19,7 @@
 
             
 ```
----
-get list of dict keys
+
 ---
 arguments:
 
@@ -28,5 +30,5 @@ properties:
 
 ---
 see also:<br>
-[![data.dict](img/object_data.dict.png)](data.dict.md)
-[![dict.values](img/object_dict.values.png)](dict.values.md)
+[![data.dict](img/object_data.dict.png)](data.dict.html)
+[![dict.values](img/object_dict.values.png)](dict.values.html)

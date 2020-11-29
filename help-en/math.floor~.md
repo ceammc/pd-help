@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # math.floor~
+
+
+round to largest integral value not greater than x
 
 ```
 
@@ -36,8 +39,7 @@
 
             
 ```
----
-round to largest integral value not greater than x
+
 ---
 arguments:
 
@@ -48,7 +50,7 @@ properties:
 
 ---
 see also:<br>
-[![math.floor](img/object_math.floor.png)](math.floor.md)
-[![math.ceil~](img/object_math.ceil~.png)](math.ceil~.md)
-[![math.round~](img/object_math.round~.png)](math.round~.md)
-[![math.trunc~](img/object_math.trunc~.png)](math.trunc~.md)
+[![math.floor](img/object_math.floor.png)](math.floor.html)
+[![math.ceil~](img/object_math.ceil~.png)](math.ceil~.html)
+[![math.round~](img/object_math.round~.png)](math.round~.html)
+[![math.trunc~](img/object_math.trunc~.png)](math.trunc~.html)

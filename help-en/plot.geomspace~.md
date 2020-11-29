@@ -1,7 +1,11 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # plot.geomspace~
+
+
+outputs numbers spaced evenly on a log scale (a geometric
+            progression)
 
 ```
 
@@ -26,9 +30,7 @@
 
             
 ```
----
-outputs numbers spaced evenly on a log scale (a geometric
-            progression)
+
 ---
 arguments:
 
@@ -54,5 +56,5 @@ properties:
 
 ---
 see also:<br>
-[![plot.linspace~](img/object_plot.linspace~.png)](plot.linspace~.md)
-[![plot.logspace~](img/object_plot.logspace~.png)](plot.logspace~.md)
+[![plot.linspace~](img/object_plot.linspace~.png)](plot.linspace~.html)
+[![plot.logspace~](img/object_plot.logspace~.png)](plot.logspace~.html)

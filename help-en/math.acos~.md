@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # math.acos~
+
+
+arc cosine function for signals
 
 ```
 
@@ -31,8 +34,7 @@
 
             
 ```
----
-arc cosine function for signals
+
 ---
 arguments:
 
@@ -43,4 +45,4 @@ properties:
 
 ---
 see also:<br>
-[![math.acos](img/object_math.acos.png)](math.acos.md)
+[![math.acos](img/object_math.acos.png)](math.acos.html)

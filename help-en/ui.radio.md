@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # ui.radio
+
+
+counterpart of the vanilla radio toggle
 
 ```
 
@@ -20,8 +23,7 @@
 
             
 ```
----
-counterpart of the vanilla radio toggle
+
 ---
 arguments:
 
@@ -62,4 +64,4 @@ properties:
 
 ---
 see also:<br>
-[![ui.matrix](img/object_ui.matrix.png)](ui.matrix.md)
+[![ui.matrix](img/object_ui.matrix.png)](ui.matrix.html)

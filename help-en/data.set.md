@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # data.set
+
+
+container that store unique elements
 
 ```
 
@@ -22,8 +25,7 @@
 
             
 ```
----
-container that store unique elements
+
 ---
 arguments:
 
@@ -39,5 +41,5 @@ properties:
 
 ---
 see also:<br>
-[![set-&gt;list](img/object_set-&gt;list.png)](set->list.md)
-[![data.list](img/object_data.list.png)](data.list.md)
+[![set-&gt;list](img/object_set-&gt;list.png)](set->list.html)
+[![data.list](img/object_data.list.png)](data.list.html)

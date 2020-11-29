@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # math.atanh~
+
+
+hyperbolic arc tangent for signals
 
 ```
 
@@ -31,8 +34,7 @@
 
             
 ```
----
-hyperbolic arc tangent for signals
+
 ---
 arguments:
 
@@ -43,5 +45,5 @@ properties:
 
 ---
 see also:<br>
-[![math.sinh~](img/object_math.sinh~.png)](math.sinh~.md)
-[![math.asinh](img/object_math.asinh.png)](math.asinh.md)
+[![math.sinh~](img/object_math.sinh~.png)](math.sinh~.html)
+[![math.asinh](img/object_math.asinh.png)](math.asinh.html)

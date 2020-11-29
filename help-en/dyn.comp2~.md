@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # dyn.comp2~
+
+
+stereo dynamic range compressor
 
 ```
 
@@ -20,8 +23,7 @@
 
             
 ```
----
-stereo dynamic range compressor
+
 ---
 arguments:
 
@@ -49,4 +51,4 @@ properties:
 
 ---
 see also:<br>
-[![dyn.comp~](img/object_dyn.comp~.png)](dyn.comp~.md)
+[![dyn.comp~](img/object_dyn.comp~.png)](dyn.comp~.html)

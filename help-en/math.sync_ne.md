@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # math.sync_ne
+
+
+sync numbers for not equality
 
 ```
 
@@ -23,8 +26,7 @@
 
             
 ```
----
-sync numbers for not equality
+
 ---
 arguments:
 
@@ -38,4 +40,4 @@ properties:
 
 ---
 see also:<br>
-[![math.==&#39;](img/object_math.==&#39;.png)](math.=='.md)
+[![math.==&#39;](img/object_math.==&#39;.png)](math.=='.html)

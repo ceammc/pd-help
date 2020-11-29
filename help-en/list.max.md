@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # list.max
+
+
+returns largest element in the list
 
 ```
 
@@ -24,8 +27,7 @@
 
             
 ```
----
-returns largest element in the list
+
 ---
 arguments:
 
@@ -44,4 +46,4 @@ properties:
 
 ---
 see also:<br>
-[![list.min](img/object_list.min.png)](list.min.md)
+[![list.min](img/object_list.min.png)](list.min.html)

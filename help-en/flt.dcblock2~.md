@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # flt.dcblock2~
+
+
+stereo DC blocker
 
 ```
 
@@ -20,8 +23,7 @@
 
             
 ```
----
-stereo DC blocker
+
 ---
 arguments:
 
@@ -32,4 +34,4 @@ properties:
 
 ---
 see also:<br>
-[![flt.dcblock~](img/object_flt.dcblock~.png)](flt.dcblock~.md)
+[![flt.dcblock~](img/object_flt.dcblock~.png)](flt.dcblock~.html)

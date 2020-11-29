@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # set.size
+
+
+get number of elements in set
 
 ```
 
@@ -18,8 +21,7 @@
 
             
 ```
----
-get number of elements in set
+
 ---
 arguments:
 
@@ -30,4 +32,4 @@ properties:
 
 ---
 see also:<br>
-[![data.set](img/object_data.set.png)](data.set.md)
+[![data.set](img/object_data.set.png)](data.set.html)

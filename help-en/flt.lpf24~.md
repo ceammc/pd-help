@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # flt.lpf24~
+
+
+Low-pass fourth order Butterworth filter
 
 ```
 
@@ -30,8 +33,7 @@
 
             
 ```
----
-Low-pass fourth order Butterworth filter
+
 ---
 arguments:
 
@@ -47,6 +49,6 @@ properties:
 
 ---
 see also:<br>
-[![flt.lpf12~](img/object_flt.lpf12~.png)](flt.lpf12~.md)
-[![flt.hpf12~](img/object_flt.hpf12~.png)](flt.hpf12~.md)
-[![flt.c_lpf~](img/object_flt.c_lpf~.png)](flt.c_lpf~.md)
+[![flt.lpf12~](img/object_flt.lpf12~.png)](flt.lpf12~.html)
+[![flt.hpf12~](img/object_flt.hpf12~.png)](flt.hpf12~.html)
+[![flt.c_lpf~](img/object_flt.c_lpf~.png)](flt.c_lpf~.html)

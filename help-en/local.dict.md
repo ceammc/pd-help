@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # local.dict
+
+
+local named dict object
 
 ```
 
@@ -16,8 +19,7 @@
 
             
 ```
----
-local named dict object
+
 ---
 arguments:
 
@@ -34,5 +36,5 @@ properties:
 
 ---
 see also:<br>
-[![data.dict](img/object_data.dict.png)](data.dict.md)
-[![global.dict](img/object_global.dict.png)](global.dict.md)
+[![data.dict](img/object_data.dict.png)](data.dict.html)
+[![global.dict](img/object_global.dict.png)](global.dict.html)

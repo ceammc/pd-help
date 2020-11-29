@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # system.memused
+
+
+returns the process physical memory use - current and peak
 
 ```
 
@@ -18,8 +21,7 @@
                 
             
 ```
----
-returns the process physical memory use - current and peak
+
 ---
 arguments:
 
@@ -30,4 +32,4 @@ properties:
 
 ---
 see also:<br>
-[![system.memsize](img/object_system.memsize.png)](system.memsize.md)
+[![system.memsize](img/object_system.memsize.png)](system.memsize.html)

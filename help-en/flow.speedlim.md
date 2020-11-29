@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # flow.speedlim
+
+
+control stream speed limiter
 
 ```
 
@@ -24,8 +27,7 @@
 
             
 ```
----
-control stream speed limiter
+
 ---
 arguments:
 

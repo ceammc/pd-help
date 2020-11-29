@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # math.pi~
+
+
+mathematical constant
 
 ```
 
@@ -15,8 +18,7 @@
 
             
 ```
----
-mathematical constant
+
 ---
 arguments:
 
@@ -28,4 +30,4 @@ properties:
 
 ---
 see also:<br>
-[![math.pi](img/object_math.pi.png)](math.pi.md)
+[![math.pi](img/object_math.pi.png)](math.pi.html)

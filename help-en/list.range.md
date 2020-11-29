@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # list.range
+
+
+returns list smallest and largest value
 
 ```
 
@@ -18,8 +21,7 @@
 
             
 ```
----
-returns list smallest and largest value
+
 ---
 arguments:
 
@@ -30,5 +32,5 @@ properties:
 
 ---
 see also:<br>
-[![list.min](img/object_list.min.png)](list.min.md)
-[![list.max](img/object_list.max.png)](list.max.md)
+[![list.min](img/object_list.min.png)](list.min.html)
+[![list.max](img/object_list.max.png)](list.max.html)

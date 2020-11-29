@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # ui.menu
+
+
+Dropdown menu
 
 ```
 
@@ -30,8 +33,7 @@
 
             
 ```
----
-Dropdown menu
+
 ---
 arguments:
 
@@ -74,4 +76,4 @@ properties:
 
 ---
 see also:<br>
-[![ui.radio](img/object_ui.radio.png)](ui.radio.md)
+[![ui.radio](img/object_ui.radio.png)](ui.radio.html)

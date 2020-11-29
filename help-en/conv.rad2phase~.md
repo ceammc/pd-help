@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # conv.rad2phase~
+
+
+convert radians value to phase
 
 ```
 
@@ -16,8 +19,7 @@
 
             
 ```
----
-convert radians value to phase
+
 ---
 arguments:
 
@@ -28,4 +30,4 @@ properties:
 
 ---
 see also:<br>
-[![conv.phase2rad~](img/object_conv.phase2rad~.png)](conv.phase2rad~.md)
+[![conv.phase2rad~](img/object_conv.phase2rad~.png)](conv.phase2rad~.html)

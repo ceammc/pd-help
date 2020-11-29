@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # flt.biquad~
+
+
+second order IIR filter.
 
 ```
 
@@ -36,8 +39,7 @@
 
             
 ```
----
-second order IIR filter.
+
 ---
 arguments:
 
@@ -48,5 +50,5 @@ properties:
 
 ---
 see also:<br>
-[![flt.c_bpf~](img/object_flt.c_bpf~.png)](flt.c_bpf~.md)
-[![flt.c_hpf~](img/object_flt.c_hpf~.png)](flt.c_hpf~.md)
+[![flt.c_bpf~](img/object_flt.c_bpf~.png)](flt.c_bpf~.html)
+[![flt.c_hpf~](img/object_flt.c_hpf~.png)](flt.c_hpf~.html)

@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # flow.match
+
+
+route data flow by regexp match
 
 ```
 
@@ -21,8 +24,7 @@
 
             
 ```
----
-route data flow by regexp match
+
 ---
 arguments:
 
@@ -37,4 +39,4 @@ properties:
 
 ---
 see also:<br>
-[![string.match](img/object_string.match.png)](string.match.md)
+[![string.match](img/object_string.match.png)](string.match.html)

@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # fx.echo~
+
+
+simple echo effect
 
 ```
 
@@ -20,8 +23,7 @@
 
             
 ```
----
-simple echo effect
+
 ---
 arguments:
 
@@ -46,4 +48,4 @@ properties:
 
 ---
 see also:<br>
-[![fx.sdelay~](img/object_fx.sdelay~.png)](fx.sdelay~.md)
+[![fx.sdelay~](img/object_fx.sdelay~.png)](fx.sdelay~.html)

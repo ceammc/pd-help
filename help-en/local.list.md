@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # local.list
+
+
+local named list object
 
 ```
 
@@ -18,8 +21,7 @@
 
             
 ```
----
-local named list object
+
 ---
 arguments:
 
@@ -35,5 +37,5 @@ properties:
 
 ---
 see also:<br>
-[![local.float](img/object_local.float.png)](local.float.md)
-[![local.int](img/object_local.int.png)](local.int.md)
+[![local.float](img/object_local.float.png)](local.float.html)
+[![local.int](img/object_local.int.png)](local.int.html)

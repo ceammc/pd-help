@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # list.shift
+
+
+shifts the contents of the list with linear interpolation
 
 ```
 
@@ -30,8 +33,7 @@
 
             
 ```
----
-shifts the contents of the list with linear interpolation
+
 ---
 arguments:
 
@@ -45,4 +47,4 @@ properties:
 
 ---
 see also:<br>
-[![list.rotate](img/object_list.rotate.png)](list.rotate.md)
+[![list.rotate](img/object_list.rotate.png)](list.rotate.html)

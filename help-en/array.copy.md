@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # array.copy
+
+
+copy samples from one array to another
 
 ```
 
@@ -30,8 +33,7 @@
 
             
 ```
----
-copy samples from one array to another
+
 ---
 arguments:
 
@@ -44,4 +46,4 @@ properties:
 
 ---
 see also:<br>
-[![array.each](img/object_array.each.png)](array.each.md)
+[![array.each](img/object_array.each.png)](array.each.html)

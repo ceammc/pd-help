@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # ui.mouse_route
+
+
+routes mouse events from ui objects
 
 ```
 
@@ -14,8 +17,7 @@
 
             
 ```
----
-routes mouse events from ui objects
+
 ---
 arguments:
 
@@ -49,5 +51,5 @@ properties:
 
 ---
 see also:<br>
-[![ui.mouse_filter](img/object_ui.mouse_filter.png)](ui.mouse_filter.md)
-[![ui.rslider](img/object_ui.rslider.png)](ui.rslider.md)
+[![ui.mouse_filter](img/object_ui.mouse_filter.png)](ui.mouse_filter.html)
+[![ui.rslider](img/object_ui.rslider.png)](ui.rslider.html)

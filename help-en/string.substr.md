@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # string.substr
+
+
+extract substring from input string
 
 ```
 
@@ -18,8 +21,7 @@
 
             
 ```
----
-extract substring from input string
+
 ---
 arguments:
 
@@ -38,4 +40,4 @@ properties:
 
 ---
 see also:<br>
-[![string.split](img/object_string.split.png)](string.split.md)
+[![string.split](img/object_string.split.png)](string.split.html)

@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # math.asin
+
+
+arc sine function
 
 ```
 
@@ -14,8 +17,7 @@
 
             
 ```
----
-arc sine function
+
 ---
 arguments:
 
@@ -26,6 +28,6 @@ properties:
 
 ---
 see also:<br>
-[![math.acos](img/object_math.acos.png)](math.acos.md)
-[![math.atan](img/object_math.atan.png)](math.atan.md)
-[![math.cos](img/object_math.cos.png)](math.cos.md)
+[![math.acos](img/object_math.acos.png)](math.acos.html)
+[![math.atan](img/object_math.atan.png)](math.atan.html)
+[![math.cos](img/object_math.cos.png)](math.cos.html)

@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # flow.less_eq
+
+
+numeric stream router, like many [moses]
 
 ```
 
@@ -16,8 +19,7 @@
 
             
 ```
----
-numeric stream router, like many [moses]
+
 ---
 arguments:
 
@@ -30,4 +32,4 @@ properties:
 
 ---
 see also:<br>
-[![flow.less](img/object_flow.less.png)](flow.less.md)
+[![flow.less](img/object_flow.less.png)](flow.less.html)

@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # midi.prg2str
+
+
+convert GM Instrument number to name (string or symbol)
 
 ```
 
@@ -18,8 +21,7 @@
 
             
 ```
----
-convert GM Instrument number to name (string or symbol)
+
 ---
 arguments:
 

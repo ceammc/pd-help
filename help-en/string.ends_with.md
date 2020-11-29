@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # string.ends_with
+
+
+checks if given string ends with specified suffix
 
 ```
 
@@ -18,8 +21,7 @@
 
             
 ```
----
-checks if given string ends with specified suffix
+
 ---
 arguments:
 
@@ -31,4 +33,4 @@ properties:
 
 ---
 see also:<br>
-[![str.starts_with](img/object_str.starts_with.png)](str.starts_with.md)
+[![str.starts_with](img/object_str.starts_with.png)](str.starts_with.html)

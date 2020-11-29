@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # ui.label
+
+
+simple label widget
 
 ```
 
@@ -28,8 +31,7 @@
 
             
 ```
----
-simple label widget
+
 ---
 arguments:
 

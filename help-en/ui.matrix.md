@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # ui.matrix
+
+
+The matrix of toggles has you.
 
 ```
 
@@ -30,8 +33,7 @@
 
             
 ```
----
-The matrix of toggles has you.
+
 ---
 arguments:
 
@@ -75,5 +77,5 @@ properties:
 
 ---
 see also:<br>
-[![ui.radio](img/object_ui.radio.png)](ui.radio.md)
-[![ui.toggle](img/object_ui.toggle.png)](ui.toggle.md)
+[![ui.radio](img/object_ui.radio.png)](ui.radio.html)
+[![ui.toggle](img/object_ui.toggle.png)](ui.toggle.html)

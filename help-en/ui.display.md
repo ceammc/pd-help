@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # ui.display
+
+
+Display GUI object
 
 ```
 
@@ -26,8 +29,7 @@
 
             
 ```
----
-Display GUI object
+
 ---
 arguments:
 
@@ -65,4 +67,4 @@ properties:
 
 ---
 see also:<br>
-[![msg](img/object_msg.png)](msg.md)
+[![msg](img/object_msg.png)](msg.html)

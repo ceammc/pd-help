@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # matrix~
+
+
+signal routing matrix
 
 ```
 
@@ -19,8 +22,7 @@
 
             
 ```
----
-signal routing matrix
+
 ---
 arguments:
 

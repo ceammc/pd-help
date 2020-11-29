@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # noise.lfreq~
+
+
+noise.lfreq0~ smoothed with no overshoot
 
 ```
 
@@ -27,8 +30,7 @@
 
             
 ```
----
-noise.lfreq0~ smoothed with no overshoot
+
 ---
 arguments:
 
@@ -44,4 +46,4 @@ properties:
 
 ---
 see also:<br>
-[![noise.lfreq0~](img/object_noise.lfreq0~.png)](noise.lfreq0~.md)
+[![noise.lfreq0~](img/object_noise.lfreq0~.png)](noise.lfreq0~.html)

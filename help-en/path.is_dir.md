@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # path.is_dir
+
+
+check if path is directory
 
 ```
 
@@ -14,8 +17,7 @@
 
             
 ```
----
-check if path is directory
+
 ---
 arguments:
 

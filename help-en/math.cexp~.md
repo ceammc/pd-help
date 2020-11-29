@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # math.cexp~
+
+
+exponent of a complex signals
 
 ```
 
@@ -38,8 +41,7 @@
 
             
 ```
----
-exponent of a complex signals
+
 ---
 arguments:
 
@@ -50,4 +52,4 @@ properties:
 
 ---
 see also:<br>
-[![math.carg~](img/object_math.carg~.png)](math.carg~.md)
+[![math.carg~](img/object_math.carg~.png)](math.carg~.html)

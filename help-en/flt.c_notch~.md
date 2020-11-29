@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # flt.c_notch~
+
+
+Band-reject coefficient calculator for biquad filter
 
 ```
 
@@ -25,8 +28,7 @@
 
             
 ```
----
-Band-reject coefficient calculator for biquad filter
+
 ---
 arguments:
 
@@ -46,6 +48,6 @@ properties:
 
 ---
 see also:<br>
-[![flt.c_bpf~](img/object_flt.c_bpf~.png)](flt.c_bpf~.md)
-[![flt.notch~](img/object_flt.notch~.png)](flt.notch~.md)
-[![flt.biquad~](img/object_flt.biquad~.png)](flt.biquad~.md)
+[![flt.c_bpf~](img/object_flt.c_bpf~.png)](flt.c_bpf~.html)
+[![flt.notch~](img/object_flt.notch~.png)](flt.notch~.html)
+[![flt.biquad~](img/object_flt.biquad~.png)](flt.biquad~.html)

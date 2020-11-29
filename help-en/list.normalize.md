@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # list.normalize
+
+
+normalizes float list values to get their sum = 1.0
 
 ```
 
@@ -26,8 +29,7 @@
 
             
 ```
----
-normalizes float list values to get their sum = 1.0
+
 ---
 arguments:
 

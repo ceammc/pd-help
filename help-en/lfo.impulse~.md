@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # lfo.impulse~
+
+
+Unit-amplitude low-frequency impulse train
 
 ```
 
@@ -17,8 +20,7 @@
 
             
 ```
----
-Unit-amplitude low-frequency impulse train
+
 ---
 arguments:
 

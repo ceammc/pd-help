@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # string.length
+
+
+number of characters in string (unicode supported)
 
 ```
 
@@ -16,8 +19,7 @@
 
             
 ```
----
-number of characters in string (unicode supported)
+
 ---
 arguments:
 

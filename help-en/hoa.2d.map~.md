@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # hoa.2d.map~
+
+
+a 2d ambisonic multisource spatializer
 
 ```
 
@@ -44,8 +47,7 @@
 
             
 ```
----
-a 2d ambisonic multisource spatializer
+
 ---
 arguments:
 

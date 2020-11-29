@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # nsig~
+
+
+Mulitchannel converter from control to audio rate
 
 ```
 
@@ -21,8 +24,7 @@
 
             
 ```
----
-Mulitchannel converter from control to audio rate
+
 ---
 arguments:
 
@@ -38,4 +40,4 @@ properties:
 
 ---
 see also:<br>
-[![sig~](img/object_sig~.png)](sig~.md)
+[![sig~](img/object_sig~.png)](sig~.html)

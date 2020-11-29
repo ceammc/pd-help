@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # data.fifo
+
+
+First-In-First-Out (FIFO) queue data container
 
 ```
 
@@ -20,8 +23,7 @@
 
             
 ```
----
-First-In-First-Out (FIFO) queue data container
+
 ---
 arguments:
 
@@ -42,4 +44,4 @@ properties:
 
 ---
 see also:<br>
-[![data.list](img/object_data.list.png)](data.list.md)
+[![data.list](img/object_data.list.png)](data.list.html)

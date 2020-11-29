@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # list.equal
+
+
+checks if given lists are equal
 
 ```
 
@@ -19,8 +22,7 @@
 
             
 ```
----
-checks if given lists are equal
+
 ---
 arguments:
 

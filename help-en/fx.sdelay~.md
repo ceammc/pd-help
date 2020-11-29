@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # fx.sdelay~
+
+
+smooth delay with a feedback control
 
 ```
 
@@ -25,8 +28,7 @@
 
             
 ```
----
-smooth delay with a feedback control
+
 ---
 arguments:
 
@@ -52,4 +54,4 @@ properties:
 
 ---
 see also:<br>
-[![fx.echo~](img/object_fx.echo~.png)](fx.echo~.md)
+[![fx.echo~](img/object_fx.echo~.png)](fx.echo~.html)

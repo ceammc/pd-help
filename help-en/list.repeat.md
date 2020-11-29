@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # list.repeat
+
+
+creates new list by repeating given list specified times
 
 ```
 
@@ -18,8 +21,7 @@
 
             
 ```
----
-creates new list by repeating given list specified times
+
 ---
 arguments:
 

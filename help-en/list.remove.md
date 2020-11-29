@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # list.remove
+
+
+on input list remove element(s) at specified positions
 
 ```
 
@@ -18,8 +21,7 @@
 
             
 ```
----
-on input list remove element(s) at specified positions
+
 ---
 arguments:
 
@@ -32,4 +34,4 @@ properties:
 
 ---
 see also:<br>
-[![list.insert](img/object_list.insert.png)](list.insert.md)
+[![list.insert](img/object_list.insert.png)](list.insert.html)

@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # math.sync_ge
+
+
+sync greater equal numbers compare
 
 ```
 
@@ -16,8 +19,7 @@
 
             
 ```
----
-sync greater equal numbers compare
+
 ---
 arguments:
 
@@ -29,4 +31,4 @@ properties:
 
 ---
 see also:<br>
-[![math.&lt;=&#39;](img/object_math.&lt;=&#39;.png)](math.<='.md)
+[![math.&lt;=&#39;](img/object_math.&lt;=&#39;.png)](math.<='.html)

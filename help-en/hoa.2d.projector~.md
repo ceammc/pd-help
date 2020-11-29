@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # hoa.2d.projector~
+
+
+a plane waves decomposer from circular harmonics domain
 
 ```
 
@@ -30,8 +33,7 @@
 
             
 ```
----
-a plane waves decomposer from circular harmonics domain
+
 ---
 arguments:
 
@@ -49,4 +51,4 @@ properties:
 
 ---
 see also:<br>
-[![hoa.2d.recomposer~](img/object_hoa.2d.recomposer~.png)](hoa.2d.recomposer~.md)
+[![hoa.2d.recomposer~](img/object_hoa.2d.recomposer~.png)](hoa.2d.recomposer~.html)

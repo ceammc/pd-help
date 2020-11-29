@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # expand_env
+
+
+Substitute enviroment variables in data stream
 
 ```
 
@@ -31,8 +34,7 @@
 
             
 ```
----
-Substitute enviroment variables in data stream
+
 ---
 arguments:
 
@@ -45,4 +47,4 @@ properties:
 
 ---
 see also:<br>
-[![replace](img/object_replace.png)](replace.md)
+[![replace](img/object_replace.png)](replace.html)

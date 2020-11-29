@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # math.round
+
+
+round to integral value, regardless of rounding direction
 
 ```
 
@@ -16,8 +19,7 @@
 
             
 ```
----
-round to integral value, regardless of rounding direction
+
 ---
 arguments:
 
@@ -28,6 +30,6 @@ properties:
 
 ---
 see also:<br>
-[![math.ceil](img/object_math.ceil.png)](math.ceil.md)
-[![math.floor](img/object_math.floor.png)](math.floor.md)
-[![math.trunc](img/object_math.trunc.png)](math.trunc.md)
+[![math.ceil](img/object_math.ceil.png)](math.ceil.html)
+[![math.floor](img/object_math.floor.png)](math.floor.html)
+[![math.trunc](img/object_math.trunc.png)](math.trunc.html)

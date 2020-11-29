@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # fx.distortion~
+
+
+cubic nonlinearity distortion
 
 ```
 
@@ -27,8 +30,7 @@
 
             
 ```
----
-cubic nonlinearity distortion
+
 ---
 arguments:
 

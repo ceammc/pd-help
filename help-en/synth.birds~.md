@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # synth.birds~
+
+
+bird singing generator
 
 ```
 
@@ -29,8 +32,7 @@
 
             
 ```
----
-bird singing generator
+
 ---
 arguments:
 

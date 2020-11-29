@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # flow.multiplex
+
+
+control flow multiplexer
 
 ```
 
@@ -19,8 +22,7 @@
 
             
 ```
----
-control flow multiplexer
+
 ---
 arguments:
 
@@ -34,4 +36,4 @@ properties:
 
 ---
 see also:<br>
-[![flow.demultiplex](img/object_flow.demultiplex.png)](flow.demultiplex.md)
+[![flow.demultiplex](img/object_flow.demultiplex.png)](flow.demultiplex.html)

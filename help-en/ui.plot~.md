@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # ui.plot~
+
+
+signal plotter
 
 ```
 
@@ -36,8 +39,7 @@
 
             
 ```
----
-signal plotter
+
 ---
 arguments:
 
@@ -107,4 +109,4 @@ properties:
 
 ---
 see also:<br>
-[![array.plot~](img/object_array.plot~.png)](array.plot~.md)
+[![array.plot~](img/object_array.plot~.png)](array.plot~.html)

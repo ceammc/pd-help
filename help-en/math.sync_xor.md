@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # math.sync_xor
+
+
+sync logical XOR operation
 
 ```
 
@@ -16,8 +19,7 @@
 
             
 ```
----
-sync logical XOR operation
+
 ---
 arguments:
 
@@ -29,4 +31,4 @@ properties:
 
 ---
 see also:<br>
-[![math.||&#39;](img/object_math.||&#39;.png)](math.||'.md)
+[![math.||&#39;](img/object_math.||&#39;.png)](math.||'.html)

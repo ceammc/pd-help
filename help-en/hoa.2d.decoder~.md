@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # hoa.2d.decoder~
+
+
+hoa 2d decoder
 
 ```
 
@@ -20,8 +23,7 @@
 
             
 ```
----
-hoa 2d decoder
+
 ---
 arguments:
 
@@ -62,4 +64,4 @@ properties:
 
 ---
 see also:<br>
-[![hoa.encoder~](img/object_hoa.encoder~.png)](hoa.encoder~.md)
+[![hoa.encoder~](img/object_hoa.encoder~.png)](hoa.encoder~.html)

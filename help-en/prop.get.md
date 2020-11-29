@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # prop.get
+
+
+Property extractor
 
 ```
 
@@ -24,8 +27,7 @@
 
             
 ```
----
-Property extractor
+
 ---
 arguments:
 
@@ -36,4 +38,4 @@ properties:
 
 ---
 see also:<br>
-[![prop&lt;-](img/object_prop&lt;-.png)](prop<-.md)
+[![prop&lt;-](img/object_prop&lt;-.png)](prop<-.html)

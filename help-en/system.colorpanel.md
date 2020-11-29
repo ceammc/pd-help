@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # system.colorpanel
+
+
+System color panel dialog popup
 
 ```
 
@@ -16,8 +19,7 @@
 
             
 ```
----
-System color panel dialog popup
+
 ---
 arguments:
 

@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # math.sin~
+
+
+sine function
 
 ```
 
@@ -31,8 +34,7 @@
 
             
 ```
----
-sine function
+
 ---
 arguments:
 
@@ -43,5 +45,5 @@ properties:
 
 ---
 see also:<br>
-[![math.sin](img/object_math.sin.png)](math.sin.md)
-[![math.cos~](img/object_math.cos~.png)](math.cos~.md)
+[![math.sin](img/object_math.sin.png)](math.sin.html)
+[![math.cos~](img/object_math.cos~.png)](math.cos~.html)

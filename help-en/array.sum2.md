@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # array.sum2
+
+
+calculates sum of squares of array elements
 
 ```
 
@@ -18,8 +21,7 @@
 
             
 ```
----
-calculates sum of squares of array elements
+
 ---
 arguments:
 
@@ -32,4 +34,4 @@ properties:
 
 ---
 see also:<br>
-[![array.sum](img/object_array.sum.png)](array.sum.md)
+[![array.sum](img/object_array.sum.png)](array.sum.html)

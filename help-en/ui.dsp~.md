@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # ui.dsp~
+
+
+GUI for turning DSP on/off
 
 ```
 
@@ -16,8 +19,7 @@
 
             
 ```
----
-GUI for turning DSP on/off
+
 ---
 arguments:
 

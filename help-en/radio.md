@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # radio
+
+
+float index to outlet values as radio switch
 
 ```
 
@@ -18,8 +21,7 @@
 
             
 ```
----
-float index to outlet values as radio switch
+
 ---
 arguments:
 
@@ -33,4 +35,4 @@ properties:
 
 ---
 see also:<br>
-[![hradio](img/object_hradio.png)](hradio.md)
+[![hradio](img/object_hradio.png)](hradio.html)

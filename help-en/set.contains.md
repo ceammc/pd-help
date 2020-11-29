@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # set.contains
+
+
+check if specified element is in set
 
 ```
 
@@ -18,8 +21,7 @@
 
             
 ```
----
-check if specified element is in set
+
 ---
 arguments:
 
@@ -31,4 +33,4 @@ properties:
 
 ---
 see also:<br>
-[![data.set](img/object_data.set.png)](data.set.md)
+[![data.set](img/object_data.set.png)](data.set.html)

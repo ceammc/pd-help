@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # array.sum
+
+
+calculates sum of array elements
 
 ```
 
@@ -18,8 +21,7 @@
 
             
 ```
----
-calculates sum of array elements
+
 ---
 arguments:
 
@@ -32,4 +34,4 @@ properties:
 
 ---
 see also:<br>
-[![array.sum2](img/object_array.sum2.png)](array.sum2.md)
+[![array.sum2](img/object_array.sum2.png)](array.sum2.html)

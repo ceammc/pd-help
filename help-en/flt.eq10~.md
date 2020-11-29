@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # flt.eq10~
+
+
+graphic 10 band equalizer
 
 ```
 
@@ -31,8 +34,7 @@
 
             
 ```
----
-graphic 10 band equalizer
+
 ---
 arguments:
 
@@ -55,4 +57,4 @@ properties:
 
 ---
 see also:<br>
-[![flt.eq_peak~](img/object_flt.eq_peak~.png)](flt.eq_peak~.md)
+[![flt.eq_peak~](img/object_flt.eq_peak~.png)](flt.eq_peak~.html)

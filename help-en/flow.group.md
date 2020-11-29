@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # flow.group
+
+
+group data atoms in list of specified size
 
 ```
 
@@ -17,8 +20,7 @@
 
             
 ```
----
-group data atoms in list of specified size
+
 ---
 arguments:
 

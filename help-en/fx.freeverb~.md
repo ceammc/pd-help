@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # fx.freeverb~
+
+
+freeverb - common used open-source reverb
 
 ```
 
@@ -28,8 +31,7 @@
 
             
 ```
----
-freeverb - common used open-source reverb
+
 ---
 arguments:
 
@@ -54,4 +56,4 @@ properties:
 
 ---
 see also:<br>
-[![fx.freeverb2~](img/object_fx.freeverb2~.png)](fx.freeverb2~.md)
+[![fx.freeverb2~](img/object_fx.freeverb2~.png)](fx.freeverb2~.html)

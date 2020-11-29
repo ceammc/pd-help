@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # array.window
+
+
+fill array with window
 
 ```
 
@@ -26,8 +29,7 @@
 
             
 ```
----
-fill array with window
+
 ---
 arguments:
 
@@ -42,4 +44,4 @@ properties:
 
 ---
 see also:<br>
-[![window](img/object_window.png)](window.md)
+[![window](img/object_window.png)](window.html)

@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # osc.blit~
+
+
+Bandlimited impulse train oscillator
 
 ```
 
@@ -19,8 +22,7 @@
 
             
 ```
----
-Bandlimited impulse train oscillator
+
 ---
 arguments:
 
@@ -35,5 +37,5 @@ properties:
 
 ---
 see also:<br>
-[![osc.saw~](img/object_osc.saw~.png)](osc.saw~.md)
-[![osc.square~](img/object_osc.square~.png)](osc.square~.md)
+[![osc.saw~](img/object_osc.saw~.png)](osc.saw~.html)
+[![osc.square~](img/object_osc.square~.png)](osc.square~.html)

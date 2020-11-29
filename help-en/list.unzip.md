@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # list.unzip
+
+
+splits list to N lists, each to separate output
 
 ```
 
@@ -21,8 +24,7 @@
 
             
 ```
----
-splits list to N lists, each to separate output
+
 ---
 arguments:
 
@@ -40,4 +42,4 @@ properties:
 
 ---
 see also:<br>
-[![list.zip](img/object_list.zip.png)](list.zip.md)
+[![list.zip](img/object_list.zip.png)](list.zip.html)

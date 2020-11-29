@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # flow.gate
+
+
+control flow gate. [spigot] analog
 
 ```
 
@@ -14,8 +17,7 @@
 
             
 ```
----
-control flow gate. [spigot] analog
+
 ---
 arguments:
 
@@ -30,4 +32,4 @@ properties:
 
 ---
 see also:<br>
-[![flow.pass](img/object_flow.pass.png)](flow.pass.md)
+[![flow.pass](img/object_flow.pass.png)](flow.pass.html)

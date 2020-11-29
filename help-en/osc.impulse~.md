@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # osc.impulse~
+
+
+Bandlimited impulse train generator
 
 ```
 
@@ -18,8 +21,7 @@
 
             
 ```
----
-Bandlimited impulse train generator
+
 ---
 arguments:
 
@@ -33,7 +35,7 @@ properties:
 
 ---
 see also:<br>
-[![osc.saw~](img/object_osc.saw~.png)](osc.saw~.md)
-[![osc.tri~](img/object_osc.tri~.png)](osc.tri~.md)
-[![osc.square~](img/object_osc.square~.png)](osc.square~.md)
-[![lfo.impulse~](img/object_lfo.impulse~.png)](lfo.impulse~.md)
+[![osc.saw~](img/object_osc.saw~.png)](osc.saw~.html)
+[![osc.tri~](img/object_osc.tri~.png)](osc.tri~.html)
+[![osc.square~](img/object_osc.square~.png)](osc.square~.html)
+[![lfo.impulse~](img/object_lfo.impulse~.png)](lfo.impulse~.html)

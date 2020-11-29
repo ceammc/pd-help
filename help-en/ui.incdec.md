@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # ui.incdec
+
+
+value increment/decrement
 
 ```
 
@@ -20,8 +23,7 @@
 
             
 ```
----
-value increment/decrement
+
 ---
 arguments:
 
@@ -55,4 +57,4 @@ properties:
 
 ---
 see also:<br>
-[![ui.number](img/object_ui.number.png)](ui.number.md)
+[![ui.number](img/object_ui.number.png)](ui.number.html)

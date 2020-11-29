@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # flow.sync_pack
+
+
+flow pack with all hot inlets
 
 ```
 
@@ -15,8 +18,7 @@
 
             
 ```
----
-flow pack with all hot inlets
+
 ---
 arguments:
 
@@ -30,5 +32,5 @@ properties:
 
 ---
 see also:<br>
-[![pack](img/object_pack.png)](pack.md)
-[![flow.pack](img/object_flow.pack.png)](flow.pack.md)
+[![pack](img/object_pack.png)](pack.html)
+[![flow.pack](img/object_flow.pack.png)](flow.pack.html)

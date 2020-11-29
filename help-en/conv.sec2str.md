@@ -1,7 +1,11 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # conv.sec2str
+
+
+converts float time in seconds to formated symbol (or
+            string)
 
 ```
 
@@ -18,9 +22,7 @@
 
             
 ```
----
-converts float time in seconds to formated symbol (or
-            string)
+
 ---
 arguments:
 
@@ -34,4 +36,4 @@ properties:
 
 ---
 see also:<br>
-[![conv.str2sec](img/object_conv.str2sec.png)](conv.str2sec.md)
+[![conv.str2sec](img/object_conv.str2sec.png)](conv.str2sec.html)

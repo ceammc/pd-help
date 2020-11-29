@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # synth.fgrain~
+
+
+file granulator from STK
 
 ```
 
@@ -30,8 +33,7 @@
 
             
 ```
----
-file granulator from STK
+
 ---
 arguments:
 

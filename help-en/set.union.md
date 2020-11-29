@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # set.union
+
+
+output union of given sets
 
 ```
 
@@ -22,8 +25,7 @@
 
             
 ```
----
-output union of given sets
+
 ---
 arguments:
 
@@ -35,5 +37,5 @@ properties:
 
 ---
 see also:<br>
-[![data.set](img/object_data.set.png)](data.set.md)
-[![set.intersect](img/object_set.intersect.png)](set.intersect.md)
+[![data.set](img/object_data.set.png)](data.set.html)
+[![set.intersect](img/object_set.intersect.png)](set.intersect.html)

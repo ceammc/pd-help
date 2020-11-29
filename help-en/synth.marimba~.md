@@ -1,7 +1,11 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # synth.marimba~
+
+
+simple marimba physical model implementing a single tone bar connected to
+            tube
 
 ```
 
@@ -35,9 +39,7 @@
 
             
 ```
----
-simple marimba physical model implementing a single tone bar connected to
-            tube
+
 ---
 arguments:
 

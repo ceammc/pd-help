@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # ui.rslider
+
+
+range slider
 
 ```
 
@@ -18,8 +21,7 @@
 
             
 ```
----
-range slider
+
 ---
 arguments:
 
@@ -73,5 +75,5 @@ properties:
 
 ---
 see also:<br>
-[![ui.slider](img/object_ui.slider.png)](ui.slider.md)
-[![ui.sliders](img/object_ui.sliders.png)](ui.sliders.md)
+[![ui.slider](img/object_ui.slider.png)](ui.slider.html)
+[![ui.sliders](img/object_ui.sliders.png)](ui.sliders.html)

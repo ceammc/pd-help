@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # flow.interval
+
+
+measure time between flow events
 
 ```
 
@@ -18,8 +21,7 @@
 
             
 ```
----
-measure time between flow events
+
 ---
 arguments:
 
@@ -30,4 +32,4 @@ properties:
 
 ---
 see also:<br>
-[![timer](img/object_timer.png)](timer.md)
+[![timer](img/object_timer.png)](timer.html)

@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # ui.aview
+
+
+array view with cursor and selection
 
 ```
 
@@ -48,8 +51,7 @@
 
             
 ```
----
-array view with cursor and selection
+
 ---
 arguments:
 

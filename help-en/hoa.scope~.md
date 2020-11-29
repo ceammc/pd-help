@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # hoa.scope~
+
+
+a 2d ambisonic harmonic scope
 
 ```
 
@@ -25,8 +28,7 @@
 
             
 ```
----
-a 2d ambisonic harmonic scope
+
 ---
 arguments:
 

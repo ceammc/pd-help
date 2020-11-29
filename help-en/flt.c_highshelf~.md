@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # flt.c_highshelf~
+
+
+Highshelf filter coefficient calculator for biquad
 
 ```
 
@@ -29,8 +32,7 @@
 
             
 ```
----
-Highshelf filter coefficient calculator for biquad
+
 ---
 arguments:
 
@@ -48,5 +50,5 @@ properties:
 
 ---
 see also:<br>
-[![flt.highshelf~](img/object_flt.highshelf~.png)](flt.highshelf~.md)
-[![flt.biquad~](img/object_flt.biquad~.png)](flt.biquad~.md)
+[![flt.highshelf~](img/object_flt.highshelf~.png)](flt.highshelf~.html)
+[![flt.biquad~](img/object_flt.biquad~.png)](flt.biquad~.html)

@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # math.or
+
+
+operation OR for multiple arguments
 
 ```
 
@@ -22,8 +25,7 @@
 
             
 ```
----
-operation OR for multiple arguments
+
 ---
 arguments:
 
@@ -40,4 +42,4 @@ properties:
 
 ---
 see also:<br>
-[![math.and](img/object_math.and.png)](math.and.md)
+[![math.and](img/object_math.and.png)](math.and.html)

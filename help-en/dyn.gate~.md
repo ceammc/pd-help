@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # dyn.gate~
+
+
+mono signal gate
 
 ```
 
@@ -22,8 +25,7 @@
 
             
 ```
----
-mono signal gate
+
 ---
 arguments:
 
@@ -50,4 +52,4 @@ properties:
 
 ---
 see also:<br>
-[![dyn.gate2~](img/object_dyn.gate2~.png)](dyn.gate2~.md)
+[![dyn.gate2~](img/object_dyn.gate2~.png)](dyn.gate2~.html)

@@ -1,7 +1,10 @@
-[<<< reference home](ceammc_lib.md)
+[< reference home](ceammc_lib.html)
 ---
 
 # tl.timeline
+
+
+Timeline - event scheduler
 
 ```
 
@@ -32,8 +35,7 @@
 
             
 ```
----
-Timeline - event scheduler
+
 ---
 arguments:
 
@@ -61,4 +63,4 @@ properties:
 
 ---
 see also:<br>
-[![tl.cue](img/object_tl.cue.png)](tl.cue.md)
+[![tl.cue](img/object_tl.cue.png)](tl.cue.html)

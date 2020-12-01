@@ -1,4 +1,4 @@
-[< reference home](ceammc_lib.html)
+[< справка — содержание](ceammc_lib.html)
 ---
 
 # ui.toggle
@@ -33,11 +33,11 @@
 ```
 
 ---
-arguments:
+аргументы:
 
 
 ---
-properties:
+свойства:
 
 @value: текущее значение<br>
 @presetname: название пресета для использования с
@@ -59,5 +59,5 @@ properties:
 @fontslant: курсивный шрифт<br>
 
 ---
-see also:<br>
+смотрите также:<br>
 [![ui.bang](img/object_ui.bang.png)](ui.bang.html)

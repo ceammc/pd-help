@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pddoc version="1.0">
+    <object name="ui.toggle" type="gui">
+        <title>ui.toggle</title>
+        <meta>
+            <authors>
+                <author>Pierre Guillot</author>
+                <author>Serge Poltavsky</author>
+            </authors>
+            <description>обновленный виджет-переключатель</description>
+            <license>GPL3 или позднее</license>
+            <library>ceammc</library>
+            <category view="link">ui</category>
+            <keywords>ui toggle кнопка переключатель</keywords>
+            <since>0.1</since>
+            <aliases>
+                <alias view="link">ui.t</alias>
+            </aliases>
+            <also>
+                <see view="link">ui.bang</see>
+            </also>
+        </meta>
+        <info>
+            <par>Это обновленный вариант стандарной кнопки (toggle)</par>
+        </info>
+        <properties>
+            <property name="@value" type="float" default="0" enum="0 1">текущее значение</property>
+            <!-- common -->
+            <property name="@presetname" type="symbol" default="(null)">название пресета для использования с
+            [ui.preset]</property>
+            <property name="@send" type="symbol" default="(null)">адрес для отправки сообщения (send)</property>
+            <property name="@receive" type="symbol" default="(null)">имя источника сообщений (receive)</property>
+            <property name="@size" type="list" default="15 15">размер виджета (пара значений: ширина, высота)</property>
+            <property name="@pinned" type="int" enum="0 1" default="0">режим  if 1 - put element
+            to the lowest level</property>
+            <property name="@active_color" type="list" default="0 0.75 1 1">активный цвет (список значений для красного, зеленого и синего цветов в диапазоне 0..1)</property>
+            <property name="@background_color" type="list" default="0.93 0.93 0.93 1">element
+            background color (list of red, green, blue values in 0-1 range)</property>
+            <property name="@border_color" type="list" default="0.6 0.6 0.6 1">border color (list
+            of red, green, blue values in 0-1 range)</property>
+            <property name="@fontsize" type="int" minvalue="4" maxvalue="11" default="11">
+            размер шрифта</property>
+            <property name="@fontname" type="symbol" default="Helvetica">название шрифта</property>
+            <property name="@fontweight" type="symbol" enum="normal bold" default="normal">жирный шрифт</property>
+            <property name="@fontslant" type="symbol" enum="roman italic" default="roman">курсивный шрифт</property>
+        </properties>
+        <methods>
+            <method name="dump">отправляет содержимое объекта в консоль Pd</method>
+            <method name="set">устанавливает значение без отправки на выход</method>
+            <!-- presets -->
+            <method name="load">загружает выбранный пресет
+            <param type="int" name="IDX" required="true">индекс пресета</param></method>
+            <method name="store">сохраняет выбранный пресет 
+            <param type="int" name="IDX" required="true">индекс пресета</param></method>
+            <method name="clear">удаляет выбранный пресет 
+            <param type="int" name="IDX" required="true">индекс пресета</param></method>
+            <!-- common-->
+            <method name="pos">устанавливает положение виджета в патче
+            <param name="X" type="float" required="true">координата x правого верхнего угла</param>
+            <param name="Y" type="float" required="true">координата y правого верхнего угла</param></method>
+        </methods>
+        <inlets>
+            <inlet>
+                <xinfo on="bang">изменяет состояние переключателя</xinfo>
+                <xinfo on="float">значение *0* устанавливает переключатель в выключенное состояние и отправляет 0. Любое другое значение устанавливает переключатель во включенное состояние и отправляет 1</xinfo>
+            </inlet>
+        </inlets>
+        <outlets>
+            <outlet>отправляет 0 или 1</outlet>
+        </outlets>
+        <example>
+            <pdascii>
+<![CDATA[
+                  [T]
+                  |
+[B] [0( [1( [-1(  [set $1(
+|   |   |   |     |
+|   |   |   |     |
+[ui.toggle @size=40x40]
+|
+|
+[m set]
+|
+[ (
+]]>
+            </pdascii>
+        </example>
+    </object>
+</pddoc>

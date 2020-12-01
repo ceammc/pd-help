@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pddoc version="1.0">
+    <object name="math.pi">
+        <title>math.pi</title>
+        <meta>
+            <authors>
+                <author>Serge Poltavsky</author>
+            </authors>
+            <description>mathematical constant</description>
+            <license>GPL3 or later</license>
+            <library>ceammc</library>
+            <category>math</category>
+            <keywords>math pi</keywords>
+            <also>
+                <see>math.e</see>
+                <see>math.pi~</see>
+            </also>
+            <since>0.1</since>
+            <aliases>
+                <alias>pi</alias>
+            </aliases>
+        </meta>
+        <arguments>
+            <argument name="MUL" type="float">multiplier. default is 1</argument>
+        </arguments>
+        <info>
+            <par>The number PI is a mathematical constant, the ratio of a circle's circumference to
+            its diameter, commonly approximated as 3.14159.</par>
+        </info>
+        <inlets>
+            <inlet>
+                <xinfo on="bang">outputs value</xinfo>
+            </inlet>
+        </inlets>
+        <outlets>
+            <outlet>output value</outlet>
+        </outlets>
+        <example>
+            <pdascii>
+<![CDATA[
+[B]             [B]
+|               |
+[math.pi]       [math.pi 2]
+|               |
+[F digits=10]   [F digits=10]
+]]>
+            </pdascii>
+        </example>
+    </object>
+</pddoc>

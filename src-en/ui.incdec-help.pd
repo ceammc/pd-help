@@ -1,0 +1,154 @@
+#N canvas 0 0 785 555 12;
+#X declare -lib ceammc;
+#X obj 568 50 cnv 1 197 23 empty empty empty 17 7 0 10 -245760 -1 0;
+#X text 568 50 value increment/decrement;
+#X obj 1 1 cnv 5 765 40 empty empty ui.incdec 20 20 0 20 -104026 -4096
+0;
+#X obj 672 13 ui.link @background_color 0.39216 0.39216 0.39216 @title
+[ui.incdec] @url ui.incdec-help.pd;
+#X obj 50 118 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X msg 88 118 inc;
+#X msg 146 118 dec;
+#X floatatom 347 118 5 0 0 0 - - -;
+#X msg 165 147 @value?;
+#X msg 261 147 set 10;
+#X msg 347 147 @step \$1;
+#X floatatom 194 176 5 0 0 0 - - -;
+#X obj 50 205 ui.incdec @step 0.1;
+#X obj 50 234 prop-> @value;
+#X floatatom 50 262 5 0 0 0 - - -;
+#X floatatom 146 262 5 0 0 0 - - -;
+#X obj 20 301 cnv 1 745 1 empty empty empty 17 7 0 10 -203890 -1 0;
+#X obj 20 306 cnv 5 98 26 empty empty properties: 4 10 0 14 -262144
+-49933 0;
+#X msg 110 341 @receive;
+#X text 245 341 Get/Set receive source. Type: symbol. Default value:
+(null).;
+#X msg 110 370 @send;
+#X text 245 370 Get/Set send destination. Type: symbol. Default value:
+(null).;
+#X msg 110 412 @step;
+#X text 245 412 Get/Set increment step. Type: float. Default value:
+1\. Min value: 0\.;
+#X msg 110 454 @value;
+#X text 245 454 Get/Set current widget value. Type: float. Default
+value: 0\.;
+#X msg 110 483 @arrow_color;
+#X text 245 483 Get/Set arrow color (list of red \, green \, blue values
+in 0-1 range). Type: list. Default value: 0.6 0.6 0.6 1\.;
+#X msg 110 525 @background_color;
+#X text 245 525 Get/Set element background color (list of red \, green
+\, blue values in 0-1 range). Type: list. Default value: 0.93 0.93
+0.93 1\.;
+#X msg 110 582 @border_color;
+#X text 245 582 Get/Set border color (list of red \, green \, blue
+values in 0-1 range). Type: list. Default value: 0.6 0.6 0.6 1\.;
+#X msg 110 624 @fontname;
+#X text 245 624 Get/Set fontname. Type: symbol. Default value: Helvetica.;
+#X msg 110 653 @fontsize;
+#X text 245 653 Get/Set fontsize. Type: int. Default value: 11\. Range:
+4\...11\.;
+#X msg 110 695 @fontslant;
+#X text 245 695 Get/Set font slant. Type: symbol. Default value: roman.
+Allowed values: roman \, italic.;
+#X msg 110 737 @fontweight;
+#X text 245 737 Get/Set font weight. Type: symbol. Default value: normal.
+Allowed values: normal \, bold.;
+#X msg 110 779 @pinned;
+#X text 245 779 Get/Set pin mode. if 1 - put element to the lowest
+level. Type: int. Default value: 0\. Allowed values: 0 \, 1\.;
+#X msg 110 821 @presetname;
+#X text 245 821 Get/Set preset name for using with [ui.preset]. Type:
+symbol. Default value: (null).;
+#X msg 110 863 @size;
+#X text 245 863 Get/Set element size (width \, height pair). Type:
+list. Default value: 15 20\.;
+#X obj 20 915 cnv 1 745 1 empty empty empty 17 7 0 10 -203890 -1 0;
+#X obj 20 920 cnv 5 73 26 empty empty methods: 4 10 0 14 -262144
+-49933 0;
+#X msg 110 955 clear;
+#X text 245 955 clears specified preset. Arguments are:;
+#X obj 255 978 cnv 1 29 23 empty empty empty 17 7 0 10 -245695 -1 0;
+#X text 255 978 IDX: preset index. Type: int.;
+#X msg 110 1003 dec;
+#X text 245 1003 decrements widget with output.;
+#X msg 110 1030 inc;
+#X text 245 1030 increments widget with output.;
+#X msg 110 1057 load;
+#X text 245 1057 loads specified preset. Arguments are:;
+#X obj 255 1080 cnv 1 29 23 empty empty empty 17 7 0 10 -245695 -1 0;
+#X text 255 1080 IDX: preset index. Type: int.;
+#X msg 110 1105 pos;
+#X text 245 1105 set UI element position. Arguments are:;
+#X obj 255 1128 cnv 1 15 23 empty empty empty 17 7 0 10 -245695 -1 0;
+#X text 255 1128 X: top left x-coord. Type: float.;
+#X obj 255 1151 cnv 1 15 23 empty empty empty 17 7 0 10 -245695 -1 0;
+#X text 255 1151 Y: top right y-coord. Type: float.;
+#X msg 110 1176 set;
+#X text 245 1176 set widget value with no output. Arguments are:;
+#X obj 255 1199 cnv 1 30 23 empty empty empty 17 7 0 10 -245695 -1 0;
+#X text 255 1199 VAL: value. Type: float.;
+#X msg 110 1224 store;
+#X text 245 1224 stores specified preset. Arguments are:;
+#X obj 255 1247 cnv 1 29 23 empty empty empty 17 7 0 10 -245695 -1 0;
+#X text 255 1247 IDX: preset index. Type: int.;
+#X obj 20 1282 cnv 1 745 1 empty empty empty 17 7 0 10 -203890 -1 0;
+#X obj 20 1287 cnv 5 64 26 empty empty inlets: 4 10 0 14 -262144
+-49933 0;
+#X text 110 1288 1\.;
+#X text 150 1288 *bang*;
+#X text 245 1288 outputs current widget value.;
+#X text 150 1308 *float*;
+#X text 245 1308 change widget value and output it.;
+#X obj 20 1338 cnv 1 745 1 empty empty empty 17 7 0 10 -203890 -1 0;
+#X obj 20 1343 cnv 5 73 26 empty empty outlets: 4 10 0 14 -262144
+-49933 0;
+#X text 110 1344 1\.;
+#X text 245 1344 output value.;
+#X obj 10 48 ui.link @title index @url ../index-help.pd;
+#X text 51 45 ::;
+#X obj 67 48 ui.link @title ceammc @url ceammc-help.pd;
+#X text 115 45 ::;
+#X obj 131 48 ui.link @title ui @url ceammc.ui-help.pd;
+#X obj 1 1394 cnv 5 765 48 empty empty empty 17 7 0 10 -203890 -1 0;
+#X text 10 1397 library: ceammc v0.9.0;
+#X text 598 1409 see also:;
+#X obj 672 1412 ui.link @background_color 0.78431 0.78431 0.78431
+@title [ui.number] @url ui.number-help.pd;
+#N canvas 10 1416 400 290 info 0;
+#X obj 1 1 cnv 1 107 287 empty empty empty 17 7 0 10 -183085 -1 0;
+#X text 10 10 library:;
+#X text 120 10 ceammc;
+#X text 10 32 version:;
+#X text 120 32 0.9.0;
+#X text 10 54 object:;
+#X text 120 54 ui.incdec;
+#X text 10 76 category:;
+#X text 120 76 ui;
+#X text 10 98 since:;
+#X text 120 98 0.1;
+#X text 10 120 authors:;
+#X text 120 120 Pierre Guillot;
+#X text 10 142 license:;
+#X text 120 142 GPL3 or later;
+#X text 10 164 keywords:;
+#X text 120 164 ui \, increment \, decrement;
+#X text 10 186 website:;
+#X obj 120 189 ui.link @title https://github.com/uliss/pure-data @url
+https://github.com/uliss/pure-data;
+#X obj 120 208 declare -lib ceammc;
+#X obj 120 268 cnv 1 270 1 empty empty empty 17 7 0 10 -203890 -1 0;
+#X text 120 268 generated by pddoc;
+#X restore 10 1416 pd info;
+#X connect 7 0 10 0;
+#X connect 4 0 12 0;
+#X connect 5 0 12 0;
+#X connect 6 0 12 0;
+#X connect 8 0 12 0;
+#X connect 11 0 12 0;
+#X connect 9 0 12 0;
+#X connect 10 0 12 0;
+#X connect 12 0 13 0;
+#X connect 13 0 14 0;
+#X connect 13 1 15 0;

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pddoc version="1.0">
+    <object name="ui.toggle" type="gui">
+        <title>ui.toggle</title>
+        <meta>
+            <authors>
+                <author>Pierre Guillot</author>
+                <author>Serge Poltavsky</author>
+            </authors>
+            <description>modern toggle widget</description>
+            <license>GPL3 or later</license>
+            <library>ceammc</library>
+            <category view="link">ui</category>
+            <keywords>ui toggle</keywords>
+            <since>0.1</since>
+            <aliases>
+                <alias view="link">ui.t</alias>
+            </aliases>
+            <also>
+                <see view="link">ui.bang</see>
+            </also>
+        </meta>
+        <info>
+            <par>This is the ceammc counterpart of the vanilla toggle</par>
+        </info>
+        <properties>
+            <property name="@value" type="float" default="0" enum="0 1">widget value</property>
+            <!-- common -->
+            <property name="@presetname" type="symbol" default="(null)">preset name for using with
+            [ui.preset]</property>
+            <property name="@send" type="symbol" default="(null)">send destination</property>
+            <property name="@receive" type="symbol" default="(null)">receive source</property>
+            <property name="@size" type="list" default="15 15">element size (width, height
+            pair)</property>
+            <property name="@pinned" type="int" enum="0 1" default="0">pin mode. if 1 - put element
+            to the lowest level</property>
+            <property name="@active_color" type="list" default="0 0.75 1 1">active color (list of
+            red, green, blue values in 0-1 range)</property>
+            <property name="@background_color" type="list" default="0.93 0.93 0.93 1">element
+            background color (list of red, green, blue values in 0-1 range)</property>
+            <property name="@border_color" type="list" default="0.6 0.6 0.6 1">border color (list
+            of red, green, blue values in 0-1 range)</property>
+            <property name="@fontsize" type="int" minvalue="4" maxvalue="11" default="11">
+            fontsize</property>
+            <property name="@fontname" type="symbol" default="Helvetica">fontname</property>
+            <property name="@fontweight" type="symbol" enum="normal bold" default="normal">font
+            weight</property>
+            <property name="@fontslant" type="symbol" enum="roman italic" default="roman">font
+            slant</property>
+        </properties>
+        <methods>
+            <method name="dump">dumps all object info to Pd console window</method>
+            <method name="set">sets toggle state without output</method>
+            <!-- presets -->
+            <method name="load">loads specified preset 
+            <param type="int" name="IDX" required="true">preset index</param></method>
+            <method name="store">stores specified preset 
+            <param type="int" name="IDX" required="true">preset index</param></method>
+            <method name="clear">clears specified preset 
+            <param type="int" name="IDX" required="true">preset index</param></method>
+            <!-- common-->
+            <method name="pos">set UI element position 
+            <param name="X" type="float" required="true">top left x-coord</param>
+            <param name="Y" type="float" required="true">top right y-coord</param></method>
+        </methods>
+        <inlets>
+            <inlet>
+                <xinfo on="bang">change toggle state</xinfo>
+                <xinfo on="float">if *0* given, sets state to unchecked and outputs 0. On any other
+                number sets to checked state and outputs 1.</xinfo>
+            </inlet>
+        </inlets>
+        <outlets>
+            <outlet>outputs 0 or 1</outlet>
+        </outlets>
+        <example>
+            <pdascii>
+<![CDATA[
+                  [T]
+                  |
+[B] [0( [1( [-1(  [set $1(
+|   |   |   |     |
+|   |   |   |     |
+[ui.toggle @size=40x40]
+|
+|
+[m set]
+|
+[ (
+]]>
+            </pdascii>
+        </example>
+    </object>
+</pddoc>

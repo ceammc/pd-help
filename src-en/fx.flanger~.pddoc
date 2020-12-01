@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pddoc version="1.0">
+    <object name="fx.flanger~">
+        <title>fx.flanger~</title>
+        <meta>
+            <authors>
+                <author>Serge Poltavsky</author>
+            </authors>
+            <description>mono flanging effect</description>
+            <license>GPL3 or later</license>
+            <library>ceammc</library>
+            <category>fx</category>
+            <keywords>fx flanger</keywords>
+            <since>0.2</since>
+        </meta>
+        <properties>
+            <property name="@delay" type="float" minvalue="0" maxvalue="20" units="millisecond"
+            default="10">flange delay</property>
+            <property name="@offset" type="float" minvalue="0" maxvalue="20" units="millisecond"
+            default="1">flange delay offset</property>
+            <property name="@speed" type="float" minvalue="0" maxvalue="10" default="0.5"
+            units="herz">flanger frequency</property>
+            <property name="@feedback" type="float" minvalue="0" maxvalue="1" default="0">feedback
+            gain</property>
+            <property name="@invert" type="int" enum="0 1" default="0">0 for normal, 1 to invert
+            sign of flanging sum</property>
+            <property name="@drywet" type="float" minvalue="0" maxvalue="1" default="1">proportion
+            of mix between the original (dry) and 'effected' (wet) signals. 0 - dry signal, 1 -
+            wet.</property>
+            <property name="@bypass" type="int" enum="0 1" default="0">if set to 1 - bypass
+            'effected' signal.</property>
+            <property name="@active" type="int" enum="0 1" default="1">on/off dsp
+            processing</property>
+        </properties>
+        <inlets>
+            <inlet type="audio">
+                <xinfo>input signal</xinfo>
+            </inlet>
+        </inlets>
+        <outlets>
+            <outlet type="audio">output signal</outlet>
+        </outlets>
+        <example>
+            <pdascii>
+<![CDATA[
+[T]
+|
+[metro 5000]
+|
+[open %CEAMMC%/guitar1.wav, 1(
+|
+[expand_env] [F]         [F]         [F]          [ui.knob]
+|            |           |           |            |
+|            |           |           |            |
+|            |           |           |            |
+[readsf~]    [@speed $1( [@delay $1( [@offset $1( [@feedback $1(
+|            |           |           |            |
+|            [s flng                              ]
+|
+|                                       [ui.knob]
+|                                       |
+|  [r flng]   [T]          [T]          |
+|  |          |            |            |
+|  |          [@invert $1( [@bypass $1( [@drywet $1(
+|  |          |            |            |
+[fx.flanger~                            ]
+|
+[ui.gain~ @size 120 16]   [ui.dsp~]
+|\
+[dac~]
+]]>
+            </pdascii>
+        </example>
+    </object>
+</pddoc>

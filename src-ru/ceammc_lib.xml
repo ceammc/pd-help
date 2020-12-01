@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library xmlns:xi="http://www.w3.org/2001/XInclude" name="ceammc" version="1.0">
+  <category name="ui">
+    <entry descr="обновленный виджет-переключатель" name="ui.toggle" ref_view="link">
+      <xi:include href="ui.toggle.pddoc" parse="xml"/>
+    </entry>
+  </category>
+  <meta>
+    <version>0.0</version>
+    <authors>
+      <author>Pierre Guillot</author>
+      <author>Serge Poltavsky</author>
+    </authors>
+  </meta>
+</library>
+

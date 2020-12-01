@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pddoc version="1.0">
+    <object name="ui.tab" type="gui">
+        <title>ui.tab</title>
+        <meta>
+            <authors>
+                <author>Pierre Guillot</author>
+                <author>Serge Poltavsky</author>
+            </authors>
+            <description>displays a list of text buttons or text toggles</description>
+            <license>GPL3 or later</license>
+            <library>ceammc</library>
+            <category view="link">ui</category>
+            <keywords>ui tab</keywords>
+            <since>0.1</since>
+            <also>
+                <see view="link">ui.menu</see>
+            </also>
+        </meta>
+        <properties>
+            <property name="@items" type="int" default="1" minvalue="1" maxvalue="256">number of
+            tabs</property>
+            <property name="@toggle" type="int" default="0" enum="0 1">toggle mode. In toggle moe
+            multiple selection is possible</property>
+            <property name="@orientation" type="int" enum="0 1" default="0">tab orientation. 1 is
+            vertical, 0 is horizontal</property>
+            <property name="@selected" type="list" readonly="true">list of selected items (in
+            toggle mode)</property>
+            <property name="@current" type="int" default="0" readonly="true">current selected index
+            (in switch mode)</property>
+            <property name="@count" type="int" default="0" readonly="true">number of
+            tabs</property>
+            <!-- common -->
+            <property name="@presetname" type="symbol" default="(null)">preset name for using with
+            [ui.preset]</property>
+            <property name="@send" type="symbol" default="(null)">send destination</property>
+            <property name="@receive" type="symbol" default="(null)">receive source</property>
+            <property name="@size" type="list" default="100 15">element size (width, height
+            pair)</property>
+            <property name="@pinned" type="int" enum="0 1" default="0">pin mode. if 1 - put element
+            to the lowest level</property>
+            <property name="@active_color" type="list" default="0 0.75 1 1">active color (list of
+            red, green, blue values in 0-1 range)</property>
+            <property name="@text_color" type="list" default="0 0 0 1">text color (list of red,
+            green, blue values in 0-1 range)</property>
+            <property name="@hover_color" type="list" default="0.5 0.5 0.5 1">hover color (list of
+            red, green, blue values in 0-1 range)</property>
+            <property name="@background_color" type="list" default="0.93 0.93 0.93 1">element
+            background color (list of red, green, blue values in 0-1 range)</property>
+            <property name="@border_color" type="list" default="0.6 0.6 0.6 1">border color (list
+            of red, green, blue values in 0-1 range)</property>
+            <property name="@fontsize" type="int" minvalue="4" maxvalue="11" default="11">
+            fontsize</property>
+            <property name="@fontname" type="symbol" default="Helvetica">fontname</property>
+            <property name="@fontweight" type="symbol" enum="normal bold" default="normal">font
+            weight</property>
+            <property name="@fontslant" type="symbol" enum="roman italic" default="roman">font
+            slant</property>
+        </properties>
+        <methods>
+            <method name="append">appends new tab item 
+            <param name="ATOMS" type="list" required="true">item name</param></method>
+            <method name="insert">inserts new tab item before specified position 
+            <param name="IDX" type="int" minvalue="0" required="true">item position</param>
+            <param name="ATOM" type="atom" required="true">item name</param></method>
+            <method name="clear">clears all tab menu</method>
+            <method name="delete">removes item from tab 
+            <param name="IDX" type="int" minvalue="0" required="true">removed item
+            index</param></method>
+            <method name="set_item">renames tab item 
+            <param name="IDX" type="int" required="true" minvalue="0">item index</param>
+            <param name="ATOMS" type="list" required="true">item name</param></method>
+            <method name="set">silently sets tab state. 
+            <param name="IDX" type="int" minvalue="0" required="true">item index</param></method>
+            <method name="select">selects specified item in tab 
+            <param name="IDX" type="int" minvalue="0" required="true">item index</param></method>
+            <!-- presets -->
+            <method name="load">loads specified preset 
+            <param type="int" name="IDX" required="true">preset index</param></method>
+            <method name="store">stores specified preset 
+            <param type="int" name="IDX" required="true">preset index</param></method>
+            <method name="clear">clears specified preset 
+            <param type="int" name="IDX" required="true">preset index</param></method>
+            <!-- common-->
+            <method name="pos">set UI element position 
+            <param name="X" type="float" required="true">top left x-coord</param>
+            <param name="Y" type="float" required="true">top right y-coord</param></method>
+        </methods>
+        <inlets>
+            <inlet>
+                <xinfo on="bang">in single mode outputs tab state as list: INDEX TAB_NAME. In
+                toggle mode outputs current state like: @selected 0 1 0 1 0 etc. and list of two
+                values: [CHANGED_IDX CHANGED_VALUE]</xinfo>
+                <xinfo on="float">only in single mode: change tab by index and output list: INDEX
+                TAB_NAME</xinfo>
+                <xinfo on="any">selects item equal to given and output list: INDEX TAB_NAME</xinfo>
+            </inlet>
+        </inlets>
+        <outlets>
+            <outlet>output</outlet>
+        </outlets>
+        <example>
+            <pdascii>
+<![CDATA[
+[append sqrt(    [set_item 0 white_noise(
+|                |
+| [insert 0 saw( |  [delete 1(
+| |              |  |
+| | [clear( [F]  |  | [B]  [tri (   [T]
+| | |       |    |  | |    |        |
+| | |       |    |  | |    |        [@toggle $1(
+| | |       |    |  | |    |        |
+[ui.tab      @items sin tri @size 350 15]
+|
+[ui.d]
+]]>
+            </pdascii>
+        </example>
+    </object>
+</pddoc>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pddoc version="1.0">
+    <object name="ui.menu" type="gui">
+        <title>ui.menu</title>
+        <meta>
+            <authors>
+                <author>Pierre Guillot</author>
+                <author>Serge Poltavsky</author>
+            </authors>
+            <description>Dropdown menu</description>
+            <license>GPL3 or later</license>
+            <library>ceammc</library>
+            <category view="link">ui</category>
+            <keywords>ui menu</keywords>
+            <since>0.1</since>
+            <also>
+                <see view="link">ui.radio</see>
+            </also>
+        </meta>
+        <properties>
+            <property name="@items" type="list">list of menu items</property>
+            <property name="@index" type="int" default="0">current menu item index</property>
+            <property name="@value" type="symbol">current menu item value</property>
+            <property name="@count" type="int" readonly="true" default="0">number of menu
+            items</property>
+            <property name="@max_length" type="int" minvalue="10" maxvalue="1024" default="100">
+            maximum displayed item character length</property>
+            <property name="@open" type="int" default="0" enum="0 1">opened state</property>
+            <property name="@title" type="symbol" readonly="true">current element text</property>
+            <!-- common -->
+            <property name="@presetname" type="symbol" default="(null)">preset name for using with
+            [ui.preset]</property>
+            <property name="@send" type="symbol" default="(null)">send destination</property>
+            <property name="@receive" type="symbol" default="(null)">receive source</property>
+            <property name="@size" type="list" default="100 16">element size (width, height
+            pair)</property>
+            <property name="@pinned" type="int" enum="0 1" default="0">pin mode. if 1 - put element
+            to the lowest level</property>
+            <property name="@active_color" type="list" default="0 0.75 1 1">active color (list of
+            red, green, blue values in 0-1 range)</property>
+            <property name="@text_color" type="list" default="0 0 0 1">text color (list of red,
+            green, blue values in 0-1 range)</property>
+            <property name="@background_color" type="list" default="0.93 0.93 0.93 1">element
+            background color (list of red, green, blue values in 0-1 range)</property>
+            <property name="@border_color" type="list" default="0.6 0.6 0.6 1">border color (list
+            of red, green, blue values in 0-1 range)</property>
+            <property name="@fontsize" type="int" minvalue="4" maxvalue="11" default="11">
+            fontsize</property>
+            <property name="@fontname" type="symbol" default="Helvetica">fontname</property>
+            <property name="@fontweight" type="symbol" enum="normal bold" default="normal">font
+            weight</property>
+            <property name="@fontslant" type="symbol" enum="roman italic" default="roman">font
+            slant</property>
+        </properties>
+        <methods>
+            <method name="append">appends new menu item 
+            <param name="ATOMS" type="list" required="true">item name</param></method>
+            <method name="insert">inserts new menu item before specified position 
+            <param name="IDX" type="int" minvalue="0" required="true">item position</param>
+            <param name="ATOM" type="atom" required="true">item name</param></method>
+            <method name="clear">clears all items menu</method>
+            <method name="delete">removes item from menu 
+            <param name="IDX" type="int" minvalue="0" required="true">removed item
+            index</param></method>
+            <method name="set_item">renames menu item 
+            <param name="IDX" type="int" required="true" minvalue="0">item index</param>
+            <param name="ATOM" type="list" required="true">item name</param></method>
+            <method name="set">silently sets menu state. 
+            <param name="IDX" type="int" minvalue="0" required="true">item index</param></method>
+            <method name="file_glob">fill menu with filenames. 
+            <param name="PATTERN" type="symbol" required="true">filename pattern, like * (all
+            files), *.wav (all wav files) etc.</param>
+            <param name="DIR" type="symbol" required="false">search directory. If omitted - search
+            in patch directory. Performs tilde (~) expansion to home directory. To elide long
+            filenames see @max_length property.</param></method>
+            <!-- presets -->
+            <method name="load">loads specified preset 
+            <param type="int" name="IDX" required="true">preset index</param></method>
+            <method name="store">stores specified preset 
+            <param type="int" name="IDX" required="true">preset index</param></method>
+            <!-- common-->
+            <method name="pos">set UI element position 
+            <param name="X" type="float" required="true">top left x-coord</param>
+            <param name="Y" type="float" required="true">top right y-coord</param></method>
+        </methods>
+        <inlets>
+            <inlet>
+                <xinfo on="bang">outputs current menu state as list: INDEX ITEM_NAME</xinfo>
+                <xinfo on="float">change menu state and output list: INDEX ITEM_NAME</xinfo>
+                <xinfo on="any">selects item equal to given and output list: INDEX
+                ITEM_NAME</xinfo>
+            </inlet>
+        </inlets>
+        <outlets>
+            <outlet>output</outlet>
+        </outlets>
+        <example>
+            <pdascii>
+<![CDATA[
+[clear, file_glob * %DOC%/sound, 0(
+|
+[expand_env]
+|
+[ui.menu @max_length 32 @size 200 16]
+|
+[list.at 1]
+|
+[S digits=60]
+|
+[t       b s]
+|         ^|
+[del 100] [open $1(
+|         |
+[1( [0(   |
+|   |     |
+[readsf~  ]
+|
+[ui.gain~ @size 120 16]   [ui.dsp~]
+| \
+[dac~]
+]]>
+            </pdascii>
+        </example>
+    </object>
+</pddoc>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pddoc version="1.0">
+    <object name="flt.highshelf~">
+        <title>flt.highshelf~</title>
+        <meta>
+            <authors>
+                <author>Alex Nadzharov</author>
+                <author>Serge Poltavsky</author>
+            </authors>
+            <description>gain boost|cut above some frequency</description>
+            <license>GPL3 or later</license>
+            <library>ceammc</library>
+            <category>flt</category>
+            <keywords>filter highshelf</keywords>
+            <since>0.1</since>
+            <also>
+                <see>flt.lowshelf~</see>
+                <see>flt.c_highshelf~</see>
+            </also>
+        </meta>
+        <arguments>
+            <argument name="freq" type="float" units="herz" minvalue="20" maxvalue="20000">starting
+            frequency for the shelf</argument>
+            <argument name="gain" type="float" units="decibel" minvalue="-15" maxvalue="15">amount
+            of boost or cut apply to the signal</argument>
+        </arguments>
+        <properties>
+            <property name="@freq" type="float" units="herz" minvalue="20" maxvalue="20000"
+            default="10000">starting frequency for the shelf</property>
+            <property name="@gain" type="float" units="decibel" minvalue="-15" maxvalue="15"
+            default="0">amount of boost or cut apply to the signal</property>
+            <property name="@active" type="int" enum="0 1" default="1">on/off dsp
+            processing</property>
+        </properties>
+        <inlets>
+            <inlet type="audio">
+                <xinfo>input signal</xinfo>
+            </inlet>
+        </inlets>
+        <outlets>
+            <outlet type="audio">filtered signal</outlet>
+        </outlets>
+        <example>
+            <pdascii>
+<![CDATA[
+[noise~]   [F]         [F]
+|          |           |
+|          [@freq $1(  [@gain $1(
+|          |           |
+|          |           |
+|          |           |
+[flt.highshelf~ 3000 -15]
+|
+[ui.gain~ @size 120 14] [ui.dsp~]
+|\
+[dac~]
+]]>
+            </pdascii>
+        </example>
+    </object>
+</pddoc>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pddoc version="1.0">
+    <object name="ui.incdec" type="gui">
+        <title>ui.incdec</title>
+        <meta>
+            <authors>
+                <author>Pierre Guillot</author>
+            </authors>
+            <description>value increment/decrement</description>
+            <license>GPL3 or later</license>
+            <library>ceammc</library>
+            <category view="link">ui</category>
+            <keywords>ui increment decrement</keywords>
+            <since>0.1</since>
+            <also>
+                <see view="link">ui.number</see>
+            </also>
+        </meta>
+        <properties>
+            <property name="@step" type="float" default="1" minvalue="0">increment step</property>
+            <property name="@value" type="float" default="0">current widget value</property>
+            <!-- common -->
+            <property name="@presetname" type="symbol" default="(null)">preset name for using with
+            [ui.preset]</property>
+            <property name="@send" type="symbol" default="(null)">send destination</property>
+            <property name="@receive" type="symbol" default="(null)">receive source</property>
+            <property name="@size" type="list" default="15 20">element size (width, height
+            pair)</property>
+            <property name="@pinned" type="int" enum="0 1" default="0">pin mode. if 1 - put element
+            to the lowest level</property>
+            <property name="@arrow_color" type="list" default="0.6 0.6 0.6 1">arrow color (list of
+            red, green, blue values in 0-1 range)</property>
+            <property name="@background_color" type="list" default="0.93 0.93 0.93 1">element
+            background color (list of red, green, blue values in 0-1 range)</property>
+            <property name="@border_color" type="list" default="0.6 0.6 0.6 1">border color (list
+            of red, green, blue values in 0-1 range)</property>
+            <property name="@fontsize" type="int" minvalue="4" maxvalue="11" default="11">
+            fontsize</property>
+            <property name="@fontname" type="symbol" default="Helvetica">fontname</property>
+            <property name="@fontweight" type="symbol" enum="normal bold" default="normal">font
+            weight</property>
+            <property name="@fontslant" type="symbol" enum="roman italic" default="roman">font
+            slant</property>
+        </properties>
+        <methods>
+            <method name="set">set widget value with no output 
+            <param name="VAL" type="float" required="true">value</param></method>
+            <method name="inc">increments widget with output</method>
+            <method name="dec">decrements widget with output</method>
+            <!-- presets -->
+            <method name="load">loads specified preset 
+            <param type="int" name="IDX" required="true">preset index</param></method>
+            <method name="store">stores specified preset 
+            <param type="int" name="IDX" required="true">preset index</param></method>
+            <method name="clear">clears specified preset 
+            <param type="int" name="IDX" required="true">preset index</param></method>
+            <!-- common-->
+            <method name="pos">set UI element position 
+            <param name="X" type="float" required="true">top left x-coord</param>
+            <param name="Y" type="float" required="true">top right y-coord</param></method>
+        </methods>
+        <inlets>
+            <inlet>
+                <xinfo on="bang">outputs current widget value</xinfo>
+                <xinfo on="float">change widget value and output it</xinfo>
+            </inlet>
+        </inlets>
+        <outlets>
+            <outlet>output value</outlet>
+        </outlets>
+        <example>
+            <pdascii>
+<![CDATA[
+[B] [inc( [dec(                [F]
+|   |     |                    |
+|   |     | [@value?( [set 10( [@step $1(
+|   |     | |         |        |
+|   |     | |  [F]    |        |
+|   |     | |  |      |        |
+[ui.incdec            @step 0.1]
+|
+[prop-> @value]
+|         ^|
+[F]       [F]
+]]>
+            </pdascii>
+        </example>
+    </object>
+</pddoc>

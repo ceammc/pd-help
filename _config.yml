@@ -1,1 +1,2 @@
 #theme: jekyll-theme-minimal
+exclude: src-en, src-ru

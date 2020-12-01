@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pddoc version="1.0">
+    <object name="data.set">
+        <title>data.set</title>
+        <meta>
+            <authors>
+                <author>Serge Poltavsky</author>
+            </authors>
+            <description>container that store unique elements</description>
+            <license>GPL3 or later</license>
+            <library>ceammc</library>
+            <category>data</category>
+            <keywords>data set</keywords>
+            <since>0.3</since>
+            <also>
+                <see>set-&gt;list</see>
+                <see>data.list</see>
+            </also>
+        </meta>
+        <arguments>
+            <argument name="X" type="any">set elements</argument>
+        </arguments>
+        <properties>
+            <property name="@empty" readonly="true" enum="0 1" type="int" default="1">1 if list is
+            empty, otherwise 0</property>
+            <property name="@size" readonly="true" minvalue="0" type="int" default="0">number of
+            elements in list</property>
+        </properties>
+        <methods>
+            <method name="add">add values to the set 
+            <param name="VAL" type="list" required="true">added values</param></method>
+            <method name="clear">removes all set elements</method>
+            <method name="remove">remove elements from the set 
+            <param name="VAL" type="list" required="true">elements</param></method>
+            <method name="set">sets new set content without output 
+            <param name="LIST" type="list" required="true">new set content</param></method>
+        </methods>
+        <inlets>
+            <inlet>
+                <xinfo on="bang">output set content</xinfo>
+                <xinfo on="float">adds new element to set, no output</xinfo>
+                <xinfo on="symbol">adds new element to set, no output</xinfo>
+                <xinfo on="list">adds new elements to set, no output</xinfo>
+                <xinfo on="data:set">set new set content and output</xinfo>
+            </inlet>
+        </inlets>
+        <outlets>
+            <outlet>set output</outlet>
+        </outlets>
+        <example>
+            <pdascii>
+<![CDATA[
+[F]
+|
+[$1, bang( [clear(
+|        __/
+[data.set]
+|
+[set->list]
+|
+[list.range]
+|
+[msg set]
+|
+[ (
+]]>
+            </pdascii>
+        </example>
+    </object>
+</pddoc>

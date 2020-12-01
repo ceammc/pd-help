@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pddoc version="1.0">
+    <object name="flt.hpf24~">
+        <title>flt.hpf24~</title>
+        <meta>
+            <authors>
+                <author>Alex Nadzharov</author>
+                <author>Serge Poltavsky</author>
+            </authors>
+            <description>High-pass fourth order Butterworth filter</description>
+            <license>GPL3 or later</license>
+            <library>ceammc</library>
+            <category>flt</category>
+            <keywords>filter highpass</keywords>
+            <since>0.1</since>
+            <also>
+                <see>flt.hpf12~</see>
+                <see>flt.lpf12~</see>
+                <see>flt.c_hpf~</see>
+            </also>
+        </meta>
+        <info>
+            <par>A high-pass filter is an electronic filter that passes signals with a frequency
+            higher than a certain cutoff frequency and attenuates signals with frequencies lower
+            than the cutoff frequency.</par>
+            <par>Butterworth filter is a type of filter designed to have a frequency response as
+            flat as possible in the passband.</par>
+            <a href="https://en.wikipedia.org/wiki/Butterworth_filter">wiki: Butterworth filter</a>
+        </info>
+        <properties>
+            <property name="@freq" type="float" units="herz" minvalue="20" maxvalue="20000"
+            default="10000">cutoff frequency</property>
+            <property name="@active" type="int" enum="0 1" default="1">on/off dsp
+            processing</property>
+        </properties>
+        <arguments>
+            <argument name="freq" type="float" minvalue="20" maxvalue="20000" units="herz">cutoff
+            frequency</argument>
+        </arguments>
+        <inlets>
+            <inlet type="audio">
+                <xinfo>input signal</xinfo>
+            </inlet>
+        </inlets>
+        <outlets>
+            <outlet type="audio">filtered signal</outlet>
+        </outlets>
+        <example>
+            <pdascii>
+<![CDATA[
+[T]
+|
+[metro 10] [ui.hsl]
+|          |
+[click~]   [lin->lin 0 1 500 15000]
+|          |
+[*~ 100]   [@freq $1(
+|          |
+[flt.hpf24~ 5000]
+|
+[ui.spectroscope~ @size=400x120]
+
+
+
+
+
+
+
+
+
+[ui.dsp~]
+]]>
+            </pdascii>
+        </example>
+    </object>
+</pddoc>

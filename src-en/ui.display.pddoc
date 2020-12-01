@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pddoc version="1.0">
+    <object name="ui.display" type="gui">
+        <title>ui.display</title>
+        <meta>
+            <authors>
+                <author>Alex Nadzharov</author>
+                <author>Serge Poltavsky</author>
+            </authors>
+            <description>Display GUI object</description>
+            <license>GPL3 or later</license>
+            <library>ceammc</library>
+            <category view="link">ui</category>
+            <keywords>display</keywords>
+            <since>0.1</since>
+            <aliases>
+                <alias view="link">ui.d</alias>
+            </aliases>
+            <also>
+                <see>msg</see>
+            </also>
+        </meta>
+        <mouse>
+            <event editmode="false" type="double-click">show/hide message type</event>
+            <event editmode="false" type="right-click" keys="Shift">open object help</event>
+            <event editmode="false" type="right-click" keys="Alt">open properties dialog</event>
+            <event editmode="true" type="right-click" keys="Shift">open object help</event>
+            <event editmode="true" type="right-click" keys="Alt">open properties dialog</event>
+        </mouse>
+        <inlets>
+            <inlet>
+                <xinfo on="list">accepts any messages and displays it.</xinfo>
+            </inlet>
+        </inlets>
+        <methods>
+            <method name="pos">set UI element position 
+            <param name="X" type="float" required="true">top left x-coord</param>
+            <param name="Y" type="float" required="true">top right y-coord</param></method>
+        </methods>
+        <properties>
+            <property name="@auto_size" type="int" default="1" enum="0 1">flag if automatically
+            resize contents to feet incoming message</property>
+            <property name="@display_type" type="int" default="0" enum="0 1">flag for displaying
+            incoming message type</property>
+            <property name="@display_events" type="int" default="1" enum="0 1">flag for blinking on
+            incoming messages</property>
+            <property name="@send" type="symbol" default="(null)">send destination</property>
+            <property name="@receive" type="symbol" default="(null)">receive source</property>
+            <property name="@size" type="list" default="150 18">element size (width, height
+            pair)</property>
+            <property name="@pinned" type="int" enum="0 1" default="0">pin mode. if 1 - put element
+            to the lowest level</property>
+            <property name="@active_color" type="list" default="0 0.75 1 1">element active color
+            (list of red, green, blue values in 0-1 range)</property>
+            <property name="@text_color" type="list" default="0 0 0 1">text color (list of red,
+            green, blue values in 0-1 range)</property>
+            <property name="@background_color" type="list" default="0.93 0.93 0.93 1">element
+            background color (list of red, green, blue values in 0-1 range)</property>
+            <property name="@border_color" type="list" default="0.6 0.6 0.6 1">border color (list
+            of red, green, blue values in 0-1 range)</property>
+            <property name="@fontsize" type="int" minvalue="4" maxvalue="11" default="11">
+            fontsize</property>
+            <property name="@fontname" type="symbol" default="Helvetica">fontname</property>
+            <property name="@fontweight" type="symbol" enum="normal bold" default="normal">font
+            weight</property>
+            <property name="@fontslant" type="symbol" enum="roman italic" default="roman">font
+            slant</property>
+        </properties>
+        <example>
+            <pdascii>
+<![CDATA[
+
+[list a b c( [1( [symbol X( [any msg( [bang(
+|            |   |          |         |
+|            |   |          |         |
+|            |   |          |         |
+[ui.display                           ]
+
+
+/* display message type */
+
+[list a b c( [1( [symbol X( [any msg( [bang(
+|            |   |          |         |
+|            |   |          |         |
+|            |   |          |         |
+[ui.display            @display_type=1]
+
+
+]]>
+            </pdascii>
+        </example>
+    </object>
+</pddoc>

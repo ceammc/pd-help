@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pddoc version="1.0">
+    <object name="ui.bang" type="gui">
+        <title>ui.bang</title>
+        <meta>
+            <authors>
+                <author>Pierre Guillot</author>
+            </authors>
+            <description>"A bang... that's all". Виджет - кнопка</description>
+            <license>GPL3 or later</license>
+            <library>ceammc</library>
+            <category view="link">ui</category>
+            <keywords>ui bang</keywords>
+            <since>0.1</since>
+            <aliases>
+                <alias view="link">ui.b</alias>
+            </aliases>
+            <also>
+                <see view="link">ui.toggle</see>
+            </also>
+        </meta>
+        <info>
+            <par>полностью аналогичен стандартному объекту bng</par>
+        </info>
+        <methods>
+            <method name="dump">отправляет всю информацию об объекте в консоль Pd.</method>
+            <method name="pos">устанавливает положение виджета в патче
+            <param name="X" type="float" required="true">координата x правого верхнего угла</param>
+            <param name="Y" type="float" required="true">координата y правого верхнего угла</param></method>
+        </methods>
+        <properties>
+            <property name="@send" type="symbol" default="(null)">адрес для отправки сообщения (send)</property>
+            <property name="@receive" type="symbol" default="(null)">имя источника сообщений (receive)</property>
+            <property name="@size" type="list" default="15 15">размер виджета (пара значений: ширина, высота)</property>
+            <property name="@pinned" type="int" enum="0 1" default="0">режим  if 1 - put element
+            to the lowest level</property>
+            <property name="@active_color" type="list" default="0 0.75 1 1">активный цвет (список значений для красного, зеленого и синего цветов в диапазоне 0..1)</property>
+            <property name="@background_color" type="list" default="0.93 0.93 0.93 1">цвет фона (список значений для красного, зеленого и синего цветов в диапазоне 0..1)</property>
+            <property name="@border_color" type="list" default="0.6 0.6 0.6 1">цвет рамки (список значений для красного, зеленого и синего цветов в диапазоне 0..1)</property>
+            <property name="@fontsize" type="int" minvalue="4" maxvalue="11" default="11">
+            размер шрифта</property>
+            <property name="@fontname" type="symbol" default="Helvetica">название шрифта</property>
+            <property name="@fontweight" type="symbol" enum="normal bold" default="normal">жирный шрифт</property>
+            <property name="@fontslant" type="symbol" enum="roman italic" default="roman">курсивный шрифт</property>
+            <!-- label -->
+            <property name="@label" type="symbol" default="(null)">label text</property>
+            <property name="@label_color" type="list" default="0 0 0 1">label color in RGB format
+            within 0-1 range, for example: 0.2 0.4 0.1</property>
+            <property name="@label_inner" type="int" enum="0 1" default="0">label position (1 -
+            inner, 0 - outer).</property>
+            <property name="@label_align" type="symbol" enum="left center right" default="left">
+            label horizontal align</property>
+            <property name="@label_valign" type="symbol" enum="top center bottom" default="top">
+            label vertical align</property>
+            <property name="@label_side" type="symbol" enum="left top right bottom" default="top">
+            label snap side</property>
+            <property name="@label_margins" type="list" default="0 0">label offset in
+            pixels</property>
+        </properties>
+        <inlets>
+            <inlet>
+                <xinfo on="bang">отправляет bang</xinfo>
+                <xinfo on="float">отправляет bang</xinfo>
+                <xinfo on="symbol">отправляет bang</xinfo>
+                <xinfo on="list">отправляет bang</xinfo>
+            </inlet>
+        </inlets>
+        <outlets>
+            <outlet>выход bang</outlet>
+        </outlets>
+        <example>
+            <pdascii>
+<![CDATA[
+[dump(
+|
+[ui.bang @size=40x40 @send=b_out @receive=b_in]
+|
+|      [B]
+|      |
+[B]    [s b_in]
+]]>
+            </pdascii>
+        </example>
+    </object>
+</pddoc>

@@ -1,6 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <library xmlns:xi="http://www.w3.org/2001/XInclude" name="ceammc" version="1.0">
   <category name="ui">
+    <entry descr="&quot;A bang... that's all&quot;. Виджет - кнопка" name="ui.bang" ref_view="link">
+      <xi:include href="ui.bang.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="Объект интерфейса &quot;дисплей&quot;" name="ui.display" ref_view="link">
+      <xi:include href="ui.display.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="GUI for turning DSP on/off" name="ui.dsp~" ref_view="link">
+      <xi:include href="ui.dsp~.pddoc.xml" parse="xml"/>
+    </entry>
+    <entry descr="envelope editor widget" name="ui.env" ref_view="link">
+      <xi:include href="ui.env.pddoc.xml" parse="xml"/>
+    </entry>
+    <entry descr="UI gain control" name="ui.gain~" ref_view="link">
+      <xi:include href="ui.gain~.pddoc.xml" parse="xml"/>
+    </entry>
+    <entry descr="keyboard widget" name="ui.keyboard" ref_view="link">
+      <xi:include href="ui.keyboard.pddoc.xml" parse="xml"/>
+    </entry>
+    <entry descr="knob widget" name="ui.knob" ref_view="link">
+      <xi:include href="ui.knob.pddoc.xml" parse="xml"/>
+    </entry>
+    <entry descr="simple label widget" name="ui.label" ref_view="link">
+      <xi:include href="ui.label.pddoc.xml" parse="xml"/>
+    </entry>
+    <entry descr="Hyperlink widget" name="ui.link" ref_view="link">
+      <xi:include href="ui.link.pddoc.xml" parse="xml"/>
+    </entry>
     <entry descr="обновленный виджет-переключатель" name="ui.toggle" ref_view="link">
       <xi:include href="ui.toggle.pddoc" parse="xml"/>
     </entry>
@@ -8,8 +35,10 @@
   <meta>
     <version>0.0</version>
     <authors>
+      <author>Alex Nadzharov</author>
       <author>Pierre Guillot</author>
       <author>Serge Poltavsky</author>
+      <author>Serge Potlavsky</author>
     </authors>
   </meta>
 </library>

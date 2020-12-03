@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pddoc version="1.0">
+    <object name="ui.display" type="gui">
+        <title>ui.display</title>
+        <meta>
+            <authors>
+                <author>Alex Nadzharov</author>
+                <author>Serge Poltavsky</author>
+            </authors>
+            <description>Объект интерфейса "дисплей"</description>
+            <license>GPL3 or later</license>
+            <library>ceammc</library>
+            <category view="link">ui</category>
+            <keywords>display</keywords>
+            <since>0.1</since>
+            <aliases>
+                <alias view="link">ui.d</alias>
+            </aliases>
+            <also>
+                <see>msg</see>
+            </also>
+        </meta>
+        <mouse>
+            <event editmode="false" type="double-click">отображать/не показывать тип сообщения</event>
+            <event editmode="false" type="right-click" keys="Shift">открыть справку по объекту</event>
+            <event editmode="false" type="right-click" keys="Alt">открыть окно свойств</event>
+            <event editmode="true" type="right-click" keys="Shift">открыть справку по объекту</event>
+            <event editmode="true" type="right-click" keys="Alt">открыть окно свойств</event>
+        </mouse>
+        <inlets>
+            <inlet>
+                <xinfo on="list">принимает любые сообщения и показывает их</xinfo>
+            </inlet>
+        </inlets>
+        <methods>
+            <method name="pos">устанавливает положение виджета в патче
+            <param name="X" type="float" required="true">координата x правого верхнего угла</param>
+            <param name="Y" type="float" required="true">координата y правого верхнего угла</param></method>
+        </methods>
+        <properties>
+            <property name="@auto_size" type="int" default="1" enum="0 1">включите для того, чтобы размер объекта автоматически устанавливался в соотсветствии с размером входящего сообщения</property>
+            <property name="@display_type" type="int" default="0" enum="0 1">флаг отображания типа входящего сообщения</property>
+            <property name="@display_events" type="int" default="1" enum="0 1">флаг для визуальной индикации (мигание цветом) входящих сообщений</property>
+
+            <property name="@send" type="symbol" default="(null)">адрес для отправки сообщения (send)</property>
+            <property name="@receive" type="symbol" default="(null)">имя источника сообщений (receive)</property>
+            <property name="@size" type="list" default="15 15">размер виджета (пара значений: ширина, высота)</property>
+            <property name="@pinned" type="int" enum="0 1" default="0">режим  if 1 - put element
+            to the lowest level</property>
+            <property name="@active_color" type="list" default="0 0.75 1 1">активный цвет (список значений для красного, зеленого и синего цветов в диапазоне 0..1)</property>
+            <property name="@background_color" type="list" default="0.93 0.93 0.93 1">цвет фона (список значений для красного, зеленого и синего цветов в диапазоне 0..1)</property>
+            <property name="@border_color" type="list" default="0.6 0.6 0.6 1">цвет рамки (список значений для красного, зеленого и синего цветов в диапазоне 0..1)</property>
+            <property name="@fontsize" type="int" minvalue="4" maxvalue="11" default="11">
+            размер шрифта</property>
+            <property name="@fontname" type="symbol" default="Helvetica">название шрифта</property>
+            <property name="@fontweight" type="symbol" enum="normal bold" default="normal">жирный шрифт</property>
+            <property name="@fontslant" type="symbol" enum="roman italic" default="roman">курсивный шрифт</property>
+        </properties>
+        <example>
+            <pdascii>
+<![CDATA[
+
+[list a b c( [1( [symbol X( [any msg( [bang(
+|            |   |          |         |
+|            |   |          |         |
+|            |   |          |         |
+[ui.display                           ]
+
+
+/* display message type */
+
+[list a b c( [1( [symbol X( [any msg( [bang(
+|            |   |          |         |
+|            |   |          |         |
+|            |   |          |         |
+[ui.display            @display_type=1]
+
+
+]]>
+            </pdascii>
+        </example>
+    </object>
+</pddoc>

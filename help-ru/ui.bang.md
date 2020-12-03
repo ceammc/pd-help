@@ -1,14 +1,14 @@
 [< справка — содержание](ceammc_lib.html)
 ---
 
-# ui.toggle
+# ui.bang
 
 
-обновленный виджет-переключатель
+&#34;A bang... that&#39;s all&#34;. Виджет - кнопка
 
 ---
 
-Это обновленный вариант стандарной кнопки (toggle)<br>
+полностью аналогичен стандартному объекту bng<br>
 
 
 ---
@@ -17,17 +17,13 @@
 ```
 
 
-                  [T]
-                  |
-[B] [0( [1( [-1(  [set $1(
-|   |   |   |     |
-|   |   |   |     |
-[ui.toggle @size=40x40]
+[dump(
 |
+[ui.bang @size=40x40 @send=b_out @receive=b_in]
 |
-[m set]
-|
-[ (
+|      [B]
+|      |
+[B]    [s b_in]
 
             
 ```
@@ -39,9 +35,6 @@
 ---
 свойства:
 
-@value: текущее значение<br>
-@presetname: название пресета для использования с
-            [ui.preset]<br>
 @send: адрес для отправки сообщения (send)<br>
 @receive: имя источника сообщений (receive)<br>
 @size: размер виджета (пара значений: ширина, высота)<br>
@@ -55,7 +48,20 @@
 @fontname: название шрифта<br>
 @fontweight: жирный шрифт<br>
 @fontslant: курсивный шрифт<br>
+@label: label text<br>
+@label_color: label color in RGB format
+            within 0-1 range, for example: 0.2 0.4 0.1<br>
+@label_inner: label position (1 -
+            inner, 0 - outer).<br>
+@label_align: 
+            label horizontal align<br>
+@label_valign: 
+            label vertical align<br>
+@label_side: 
+            label snap side<br>
+@label_margins: label offset in
+            pixels<br>
 
 ---
 смотрите также:<br>
-[![ui.bang](img/object_ui.bang.png)](ui.bang.html)
+[![ui.toggle](img/object_ui.toggle.png)](ui.toggle.html)

@@ -17,5 +17,6 @@ pd_lib2md ceammc_lib.xml --output ceammc_lib.md -f
 for filename in *.md; do
     mv "$filename" "../help-ru/$filename"
 done
+rm -rf ../help-ru/img
 mv img ../help-ru/img
 

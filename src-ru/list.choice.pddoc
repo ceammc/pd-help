@@ -6,7 +6,7 @@
             <authors>
                 <author>Serge Poltavsky</author>
             </authors>
-            <description>returns random element from list</description>
+            <description>Выбирает случайный элемент из списка</description>
             <license>GPL3 or later</license>
             <library>ceammc</library>
             <category>list</category>
@@ -17,18 +17,16 @@
             </also>
         </meta>
         <properties>
-            <property name="@norepeat" type="int" default="0" enum="0 1">norepeat property. If 1 is
-            given: every time output value at new list position, do not repeat choosed position
-            twice at adjacent events.</property>
+            <property name="@norepeat" type="int" default="0" enum="0 1">Свойство norepeat property. Если установлено значение 1: каждое новое значение на выходе берется из нового элемента списка и не повторяется.</property>
         </properties>
         <inlets>
             <inlet>
-                <xinfo on="list">Input list</xinfo>
-                <xinfo on="data">Input mlist</xinfo>
+                <xinfo on="list">список</xinfo>
+                <xinfo on="data">многоуровневый список (mlist)</xinfo>
             </inlet>
         </inlets>
         <outlets>
-            <outlet>random list element</outlet>
+            <outlet>случайный элемент списка</outlet>
         </outlets>
         <example>
             <pdascii>

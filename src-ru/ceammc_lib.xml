@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <library xmlns:xi="http://www.w3.org/2001/XInclude" name="ceammc" version="1.0">
   <category name="list">
+    <entry descr="Выбирает случайный элемент из списка" name="list.choice" ref_view="object">
+      <xi:include href="list.choice.pddoc" parse="xml"/>
+    </entry>
     <entry descr="Создает список указанной длины при помощи внешнего генератора" name="list.gen" ref_view="object">
       <xi:include href="list.gen.pddoc" parse="xml"/>
     </entry>
@@ -19,6 +22,9 @@
     </entry>
     <entry descr="Объект интерфейса &quot;дисплей&quot;" name="ui.display" ref_view="link">
       <xi:include href="ui.display.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="Обновленный виджет-переключатель" name="ui.toggle" ref_view="link">
+      <xi:include href="ui.toggle.pddoc" parse="xml"/>
     </entry>
   </category>
   <meta>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pddoc version="1.0">
+    <object name="list.zip">
+        <title>list.zip</title>
+        <meta>
+            <authors>
+                <author>Alex Nadzharov</author>
+                <author>Serge Poltavsky</author>
+            </authors>
+            <description>takes n lists from n inlets (specified by argument) and output their
+            elements sequentially (list1-1 list2-1 list1-2 list2-2 etc.).</description>
+            <license>GPL3 or later</license>
+            <library>ceammc</library>
+            <category>list</category>
+            <keywords>list functional</keywords>
+            <since>0.1</since>
+            <aliases>
+                <alias>list.interleave</alias>
+            </aliases>
+            <also>
+                <see>list.unzip</see>
+            </also>
+        </meta>
+        <arguments>
+            <argument name="N" type="int" minvalue="2">number of inputs</argument>
+        </arguments>
+        <properties>
+            <property name="@method" type="symbol" enum="min pad clip wrap fold" default="min">
+            behavior, if list have different sizes</property>
+            <property name="@min" type="alias">alias for "@oversize min" property. Truncates lists
+            to minimal common size</property>
+            <property name="@clip" type="alias">alias for "@oversize clip" property. Pad shortest
+            list with last element to conform longest list</property>
+            <property name="@wrap" type="alias">alias for "@oversize wrap" property. Pad shortest
+            list with repeated values from the beginning.</property>
+            <property name="@fold" type="alias">alias for "@oversize fold" property. Pad shortest
+            list with repeated values from the end to the beginning, then back and so
+            on.</property>
+            <property name="@pad" type="atom" default="0">pad value for pad method of
+            resizing</property>
+            <property name="@l0" type="list" readonly="true">first list</property>
+            <property name="@l1" type="list" readonly="true">second list, etc.</property>
+        </properties>
+        <inlets dynamic="true">
+            <inlet>
+                <xinfo on="list">input list</xinfo>
+            </inlet>
+        </inlets>
+        <outlets>
+            <outlet>interleaved list</outlet>
+        </outlets>
+        <example>
+            <pdascii>
+<![CDATA[
+[10 20 30(  [list a b( [1 2 3 4 5(
+|           |          |
+|  [@pad(   |  [@clip( |    [@wrap( [@fold(
+|  |        |  |       |    |       |
+|  |        |. |       |..  |       |
+[list.zip                     3 @min]
+|
+[msg set]
+|
+[ (
+]]>
+            </pdascii>
+        </example>
+    </object>
+</pddoc>

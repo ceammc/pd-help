@@ -7,7 +7,7 @@
                 <author>Pierre Guillot</author>
                 <author>Serge Poltavsky</author>
             </authors>
-            <description>обновленный виджет-переключатель</description>
+            <description>Обновленный виджет-переключатель</description>
             <license>GPL3 или позднее</license>
             <library>ceammc</library>
             <category view="link">ui</category>
@@ -49,9 +49,9 @@
             <!-- presets -->
             <method name="load">загружает выбранный пресет
             <param type="int" name="IDX" required="true">индекс пресета</param></method>
-            <method name="store">сохраняет выбранный пресет 
+            <method name="store">сохраняет выбранный пресет
             <param type="int" name="IDX" required="true">индекс пресета</param></method>
-            <method name="clear">удаляет выбранный пресет 
+            <method name="clear">удаляет выбранный пресет
             <param type="int" name="IDX" required="true">индекс пресета</param></method>
             <!-- common-->
             <method name="pos">устанавливает положение виджета в патче

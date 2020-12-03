@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pddoc version="1.0">
+    <object name="list.gen">
+        <title>list.gen</title>
+        <meta>
+            <authors>
+                <author>Serge Poltavsky</author>
+            </authors>
+            <description>Создает список указанной длины при помощи внешнего генератора</description>
+            <license>GPL3 or later</license>
+            <library>ceammc</library>
+            <category>list</category>
+            <keywords>list generate</keywords>
+            <since>0.1</since>
+            <also>
+                <see>list.seq</see>
+                <see>list.shuffle</see>
+                <see>list.choice</see>
+            </also>
+        </meta>
+        <info>
+            <par>Обратите внимание: длина списка ограничена 1024 элементами</par>
+        </info>
+        <arguments>
+            <argument type="int" minvalue="1" maxvalue="1024" name="N">длина сгенерированного символа/argument>
+        </arguments>
+        <methods>
+            <method name="dump">отправляет всю информацию об объекте в консоль Pd.</method>
+        </methods>
+        <properties>
+            <property name="@count" type="int" minvalue="1" maxvalue="1024" default="1">длина сгенерированного списка</property>
+        </properties>
+        <inlets>
+            <inlet>
+                <xinfo on="bang">запуск генерации списка</xinfo>
+                <xinfo on="int" minvalue="0" maxvalue="1024">изменяет значение длины списка и запускает генерацию</xinfo>
+            </inlet>
+            <inlet>
+                <xinfo on="any">вход для значений, полученных от генератора</xinfo>
+            </inlet>
+        </inlets>
+        <outlets>
+            <outlet>получаемый список</outlet>
+            <outlet>выход с сообщениями bang для объекта-генератора</outlet>
+        </outlets>
+        <example>
+            <pdascii>
+<![CDATA[
+    [F]       [F]
+    |         |
+[B] |  [dump( [@count $1(
+|   |  |      |
+|   |  |      |
+|   |  |      |
+[list.gen    3] X [random 100]
+|
+[m set]
+|
+[ (
+]]>
+            </pdascii>
+        </example>
+    </object>
+</pddoc>

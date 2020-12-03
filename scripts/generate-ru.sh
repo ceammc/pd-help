@@ -6,7 +6,7 @@ mkdir help-ru > /dev/null
 cd src-ru
 
 # lib:
-files=(*)
+files=(*.pddoc)
 pd_makelibrary --library ceammc ${files[@]} > ceammc_lib.xml
 
 for filename in *.pddoc; do

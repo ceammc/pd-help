@@ -4,6 +4,14 @@
     <entry descr="Создает список указанной длины при помощи внешнего генератора" name="list.gen" ref_view="object">
       <xi:include href="list.gen.pddoc" parse="xml"/>
     </entry>
+    <entry descr="Генератор последовательностей чисел" name="list.seq" ref_view="object">
+      <xi:include href="list.seq.pddoc" parse="xml"/>
+    </entry>
+  </category>
+  <category name="msg">
+    <entry descr="Конструктор сообщений" name="msg" ref_view="object">
+      <xi:include href="msg.pddoc" parse="xml"/>
+    </entry>
   </category>
   <category name="ui">
     <entry descr="&quot;A bang... that's all&quot;. Виджет - кнопка" name="ui.bang" ref_view="link">
@@ -11,9 +19,6 @@
     </entry>
     <entry descr="Объект интерфейса &quot;дисплей&quot;" name="ui.display" ref_view="link">
       <xi:include href="ui.display.pddoc" parse="xml"/>
-    </entry>
-    <entry descr="Обновленный виджет-переключатель" name="ui.toggle" ref_view="link">
-      <xi:include href="ui.toggle.pddoc" parse="xml"/>
     </entry>
   </category>
   <meta>

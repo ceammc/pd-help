@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pddoc version="1.0">
+    <object name="msg">
+        <title>msg</title>
+        <meta>
+            <authors>
+                <author>Serge Poltavsky</author>
+            </authors>
+            <description>Конструктор сообщений</description>
+            <license>GPL3 or later</license>
+            <library>ceammc</library>
+            <category>msg</category>
+            <keywords>msg message</keywords>
+            <aliases>
+                <alias>m</alias>
+            </aliases>
+            <since>0.1</since>
+        </meta>
+        <arguments>
+            <argument name="NAME" type="symbol">селектор сообщения</argument>
+            <argument name="X" type="any">содержимое сообщения</argument>
+        </arguments>
+        <inlets>
+            <inlet>
+                <xinfo on="any">добавляет все атомы в содержимое сообщения и отправляет его</xinfo>
+                <xinfo on="list">добавляет список в содержимое сообщения и отправляет его</xinfo>
+                <xinfo on="float">добавляет число в содержимое сообщения и отправляет его</xinfo>
+                <xinfo on="symbol">добавляет символ в содержимое сообщения и отправляет его</xinfo>
+            </inlet>
+            <inlet>
+                <xinfo on="symbol">заменяет селектор сообщения</xinfo>
+                <xinfo on="list">заменяет селектор сообщения и первые атомы</xinfo>
+            </inlet>
+        </inlets>
+        <outlets>
+            <outlet>выход сообщения</outlet>
+        </outlets>
+        <example>
+            <pdascii>
+<![CDATA[
+[F]   [F]     [F]     [F]       [F]         [F]
+|     |       |       |         |           |
+[msg] [msg a] [msg 1] [msg 1 2] [msg a b c] [msg @a]
+|     |       |       |         |           |
+|     |       |       |         |           |
+[ui.display                  @display_type=1]
+
+
+[symbol A( [symbol A( [symbol A( [symbol A(
+|          |          |          |
+[msg]      [msg B]    [msg 1 2]  [msg a b c]
+|          |          |          |
+|          |          |          |
+[ui.display                  @display_type=1]
+
+
+[b c(  [b c(   [b c(   [b c(     [d e(       [b(
+|      |       |       |         |           |
+[msg]  [msg a] [msg 1] [msg 1 2] [msg a b c] [msg @a]
+|      |       |       |         |           |
+|      |       |       |         |           |
+[ui.display                   @display_type=1]
+
+
+[bang( [bang(  [bang(  [bang(    [bang(      [bang(
+|      |       |       |         |           |
+[msg]  [msg a] [msg 1] [msg 1 2] [msg a b c] [msg @a]
+|      |       |       |         |           |
+|      |       |       |         |           |
+[ui.display                   @display_type=1]
+]]>
+            </pdascii>
+        </example>
+    </object>
+</pddoc>

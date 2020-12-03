@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pddoc version="1.0">
+    <object name="list.seq">
+        <title>list.seq</title>
+        <meta>
+            <authors>
+                <author>Alex Nadzharov</author>
+                <author>Serge Poltavsky</author>
+            </authors>
+            <description>Генератор последовательностей чисел</description>
+            <license>GPL3 or later</license>
+            <library>ceammc</library>
+            <category>list</category>
+            <keywords>list seq sequence</keywords>
+            <since>0.1</since>
+            <also>
+                <see>list.gen</see>
+            </also>
+        </meta>
+        <arguments>
+            <argument name="FROM" type="float">начальное значение</argument>
+            <argument name="TO" type="float">конечное значение</argument>
+            <argument name="STEP" type="float">размер шага</argument>
+        </arguments>
+        <properties>
+            <property name="@from" type="float" default="0">начальное значение</property>
+            <property name="@to" type="float" default="1">конечное значение</property>
+            <property name="@step" type="float" default="1">размер шага (всегда больше 0)</property>
+            <property name="@closed" type="flag">если 1, используется весь диапазон значений</property>
+        </properties>
+        <inlets>
+            <inlet>
+                <xinfo on="bang">отправляет сгенерированный список</xinfo>
+                <xinfo on="float">устанавливает свойства @from=0, @to=X и отправляет сгенерированный список</xinfo>
+                <xinfo on="list">если предоставлены 3 аргумента: они устанавливаются в свойства @from, @to и @step
+                соответственно. Если 2 аргумента: они устанавливаются в свойства @from, @to, значение @step устанавливается в
+                *1*. Если 1 аргумент, @from устанавливается в 0, @to устанавливается в указанное значение, а @step устанавливается в *1*</xinfo>
+            </inlet>
+        </inlets>
+        <outlets>
+            <outlet>generated sequence</outlet>
+        </outlets>
+        <example>
+            <pdascii>
+<![CDATA[
+[B]            [1 -1 0.1(
+|       [2 10( |
+|  [F]  |      |
+|  |    |      |
+[list.seq 3 10 2]
+|
+[m set]
+|
+[ (
+]]>
+            </pdascii>
+        </example>
+    </object>
+</pddoc>

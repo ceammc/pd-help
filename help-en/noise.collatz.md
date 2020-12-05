@@ -8,7 +8,8 @@ Part of a-chaos library
 
 ---
 
-Collatz conjecture output<br>
+Collatz conjecture output
+<br>
 
 
 ---

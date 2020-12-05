@@ -8,7 +8,8 @@ sine function
 
 ---
 
-Computes the sine of input signal (in radians)<br>
+Computes the sine of input signal (in radians)
+<br>
 
 
 ---

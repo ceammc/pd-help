@@ -9,7 +9,8 @@ numeric stream router
 ---
 
 Numbers thar are *less* or *equal* then first argument are passed to N-th
-            inlet<br>
+            inlet
+<br>
 
 
 ---

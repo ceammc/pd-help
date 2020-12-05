@@ -10,8 +10,10 @@ Low-pass fourth order Butterworth filter
 
 A low-pass filter is a filter that passes signals with a frequency lower than a
             certain cutoff frequency and attenuates signals with frequencies higher than the cutoff
-            frequency. A low-pass filter is the complement of a high-pass filter.Butterworth filter is a type of filter designed to have a frequency response as
-            flat as possible in the passband.<br>
+            frequency. A low-pass filter is the complement of a high-pass filter.
+Butterworth filter is a type of filter designed to have a frequency response as
+            flat as possible in the passband.
+<br>
 
 
 ---

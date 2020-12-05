@@ -8,7 +8,8 @@ metro random bang with specified range
 
 ---
 
-Random distribution: uniform<br>
+Random distribution: uniform
+<br>
 
 
 ---

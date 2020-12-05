@@ -9,7 +9,8 @@ multi signal crossfade
 ---
 
 control float value in range [0-1) controls xfade between first and second
-            signals, [1-2) between second and third etc.<br>
+            signals, [1-2) between second and third etc.
+<br>
 
 
 ---

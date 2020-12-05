@@ -9,7 +9,8 @@ creates dictionary from list
 ---
 
 Convertion depends on property @step, which means a length of key/value pair.
-            First element of the pair becames a key, and other elements becames value.<br>
+            First element of the pair becames a key, and other elements becames value.
+<br>
 
 
 ---

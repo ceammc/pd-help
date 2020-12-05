@@ -8,7 +8,9 @@ gamma function
 
 ---
 
-Extension of factorial function to real numbersFor any positive integer n, Γ(n) = (n−1)!<br>
+Extension of factorial function to real numbers
+For any positive integer n, Γ(n) = (n−1)!
+<br>
 
 
 ---

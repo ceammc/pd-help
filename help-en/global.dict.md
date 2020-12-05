@@ -9,7 +9,8 @@ global named dict object
 ---
 
 Defines global scope dict variable, accessed by ID name and available fro
-            everywhere<br>
+            everywhere
+<br>
 
 
 ---

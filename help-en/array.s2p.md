@@ -9,7 +9,8 @@ convert array sample position to relative phase position
 
 ---
 
-with this object you can get relative position in array<br>
+with this object you can get relative position in array
+<br>
 
 
 ---

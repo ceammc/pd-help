@@ -8,7 +8,9 @@ search specified items in input list
 
 ---
 
-Returns item position in list or -1 if not found.If several items are specified returns list of positions.<br>
+Returns item position in list or -1 if not found.
+If several items are specified returns list of positions.
+<br>
 
 
 ---

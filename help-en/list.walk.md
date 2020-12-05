@@ -10,7 +10,8 @@ Walks thru the list
 
 Universal list walker. If you want to output current element and when move to next
             - use [1( message, Otherwise - use [next( if you want first move to next position and
-            then output it.<br>
+            then output it.
+<br>
 
 
 ---

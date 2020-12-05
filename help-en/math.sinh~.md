@@ -8,7 +8,9 @@ hyperbolic sine for signals
 
 ---
 
-Outputs hyperbolic sine of input signalsinh x = (ℯˣ - ℯ⁻ˣ)/2<br>
+Outputs hyperbolic sine of input signal
+sinh x = (ℯˣ - ℯ⁻ˣ)/2
+<br>
 
 
 ---

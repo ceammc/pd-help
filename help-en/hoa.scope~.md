@@ -8,7 +8,8 @@ a 2d ambisonic harmonic scope
 
 ---
 
-displays the circular harmonics of an ambisonic sound field<br>
+displays the circular harmonics of an ambisonic sound field
+<br>
 
 
 ---

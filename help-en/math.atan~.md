@@ -8,7 +8,8 @@ arc tangent for signals
 
 ---
 
-Outputs arc tangent of input signal. The result is in the range [-π/2, +π/2]<br>
+Outputs arc tangent of input signal. The result is in the range [-π/2, +π/2]
+<br>
 
 
 ---

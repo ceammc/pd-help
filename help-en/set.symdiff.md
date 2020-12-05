@@ -9,7 +9,8 @@ symmetric difference between two sets
 ---
 
 Symmetric difference, of two sets is the set of elements which are in either of
-            the sets and not in their intersection<br>
+            the sets and not in their intersection
+<br>
 
 
 ---

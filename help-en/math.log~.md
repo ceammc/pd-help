@@ -8,7 +8,11 @@ natural logarithm
 
 ---
 
-Outputs the value of the natural logarithmSpecial values:log(1) return +0.log(+infinity) return +infinity.<br>
+Outputs the value of the natural logarithm
+Special values:
+log(1) return +0.
+log(+infinity) return +infinity.
+<br>
 
 
 ---

@@ -8,7 +8,8 @@ cosine function
 
 ---
 
-Computes the cosine of input signal (in radians)<br>
+Computes the cosine of input signal (in radians)
+<br>
 
 
 ---

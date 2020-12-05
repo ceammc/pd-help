@@ -8,7 +8,8 @@ prepend atom or list before input list
 
 ---
 
-Works with data atoms<br>
+Works with data atoms
+<br>
 
 
 ---

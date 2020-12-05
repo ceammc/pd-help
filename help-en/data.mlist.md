@@ -8,7 +8,10 @@ multidimensional list container
 
 ---
 
-Syntax: values are separated by spaces: (1 2 3) - list of 1, 2 and 3Nested lists: (1 2 3 (nested liat values))Symbols with spaces: (&#34;single item list&#34;)<br>
+Syntax: values are separated by spaces: (1 2 3) - list of 1, 2 and 3
+Nested lists: (1 2 3 (nested liat values))
+Symbols with spaces: (&#34;single item list&#34;)
+<br>
 
 
 ---

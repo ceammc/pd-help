@@ -9,7 +9,8 @@ get/set named property value for subpatch or abstraction
 ---
 
 Property should be declared with [prop.declare]. Min/max limits can be set to
-            property<br>
+            property
+<br>
 
 
 ---

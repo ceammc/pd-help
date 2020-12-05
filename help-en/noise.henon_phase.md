@@ -8,7 +8,12 @@ Part of a-chaos library
 
 ---
 
-Henon Phase DiagramsWritten by Paul BourkeJanuary 1991xn+1 = xn cos(a) - (yn - xn2) sin(a) yn+1 = xn sin(a) + (yn - xn2) cos(a) <br>
+Henon Phase Diagrams
+Written by Paul Bourke
+January 1991
+xn+1 = xn cos(a) - (yn - xn2) sin(a) 
+yn+1 = xn sin(a) + (yn - xn2) cos(a) 
+<br>
 
 
 ---

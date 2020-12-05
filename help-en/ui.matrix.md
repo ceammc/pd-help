@@ -9,7 +9,9 @@ The matrix of toggles has you.
 ---
 
 Rectangle matrix of toggles. Note: all matrix operations have following cell
-            address format - ROW COL.On click outputs message with format [cell ROW COL VALUE(<br>
+            address format - ROW COL.
+On click outputs message with format [cell ROW COL VALUE(
+<br>
 
 
 ---

@@ -8,7 +8,8 @@ Part of a-chaos library
 
 ---
 
-a port of Richard&#39;s chaos-baker from chaos collection<br>
+a port of Richard&#39;s chaos-baker from chaos collection
+<br>
 
 
 ---

@@ -9,7 +9,8 @@ converts BPM to frequency in herz
 ---
 
 Converts frequency from BPM (beats per minute) to herz. It is simple as /60, but
-            more readable.<br>
+            more readable.
+<br>
 
 
 ---

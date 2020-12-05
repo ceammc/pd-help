@@ -8,7 +8,8 @@ square root for signal
 
 ---
 
-outputs NAN if input signal &lt;0<br>
+outputs NAN if input signal &lt;0
+<br>
 
 
 ---

@@ -8,7 +8,9 @@ render speech to array
 
 ---
 
-Renders floats, symbols and list to wavetables using flite TTS engine.Rendering is performed in separate thread.<br>
+Renders floats, symbols and list to wavetables using flite TTS engine.
+Rendering is performed in separate thread.
+<br>
 
 
 ---

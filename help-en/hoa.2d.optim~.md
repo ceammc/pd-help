@@ -9,8 +9,13 @@ a 2D ambisonic optimization tool
 ---
 
 Weights the circular harmonics signals depending on the ambisonic optimization. It
-            can be &#34;basic&#34; for no optimization, &#34;maxre&#34; or &#34;inphase&#34;.If no optimization-mode is specified, the optimization will be inphase.Maxre optimization is used when audience is confined to the center of the
-            circle.Inphase optimization is used when the audience covers all the circle.NB: This is theoretical, the best choice is to trust your ears.<br>
+            can be &#34;basic&#34; for no optimization, &#34;maxre&#34; or &#34;inphase&#34;.
+If no optimization-mode is specified, the optimization will be inphase.
+Maxre optimization is used when audience is confined to the center of the
+            circle.
+Inphase optimization is used when the audience covers all the circle.
+NB: This is theoretical, the best choice is to trust your ears.
+<br>
 
 
 ---

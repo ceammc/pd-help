@@ -8,7 +8,8 @@ load/store symbol preset
 
 ---
 
-Named symbol preset entry. Can store/load up to 16 various symbol values<br>
+Named symbol preset entry. Can store/load up to 16 various symbol values
+<br>
 
 
 ---

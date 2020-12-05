@@ -8,7 +8,8 @@ envelope editor widget
 
 ---
 
-Editor of sound envelope function<br>
+Editor of sound envelope function
+<br>
 
 
 ---

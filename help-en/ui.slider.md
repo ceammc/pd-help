@@ -8,7 +8,8 @@ counterpart of the vanilla slider
 
 ---
 
-[ui.hsl] is alias for horizontal slider, [ui.vsl] - for vertical<br>
+[ui.hsl] is alias for horizontal slider, [ui.vsl] - for vertical
+<br>
 
 
 ---

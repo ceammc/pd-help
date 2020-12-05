@@ -8,7 +8,8 @@ Part of a-chaos library
 
 ---
 
-Generates Fibonacci number according to index<br>
+Generates Fibonacci number according to index
+<br>
 
 
 ---

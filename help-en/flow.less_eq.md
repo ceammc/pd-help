@@ -8,7 +8,8 @@ numeric stream router, like many [moses]
 
 ---
 
-Numbers thar are *less equal* then N-th argument are passed to N-th inlet<br>
+Numbers thar are *less equal* then N-th argument are passed to N-th inlet
+<br>
 
 
 ---

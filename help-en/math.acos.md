@@ -9,7 +9,11 @@ arc cosine function
 ---
 
 The acos() function computes the principle value of the arc cosine of input value.
-            The result is in the range [0, pi].Special values:acos(1) returns +0.acos(x) returns a NAN.<br>
+            The result is in the range [0, pi].
+Special values:
+acos(1) returns +0.
+acos(x) returns a NAN.
+<br>
 
 
 ---

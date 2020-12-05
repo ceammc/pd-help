@@ -8,7 +8,8 @@ Timeline bang
 
 ---
 
-Output 1 when cue section activated, 0 when switched to other cue section<br>
+Output 1 when cue section activated, 0 when switched to other cue section
+<br>
 
 
 ---

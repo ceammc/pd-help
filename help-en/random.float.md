@@ -9,7 +9,8 @@ random float generator in specified range
 ---
 
 generates a random floating-point value uniformly distributed in the range
-            [min..max)<br>
+            [min..max)
+<br>
 
 
 ---

@@ -8,7 +8,8 @@ Random integer generator in specified range
 
 ---
 
-Generates pseudo-random number in specified closed interval.<br>
+Generates pseudo-random number in specified closed interval.
+<br>
 
 
 ---

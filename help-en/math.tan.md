@@ -8,8 +8,12 @@ tangent function
 
 ---
 
-The tan() function computes the tangent of x (measured in radians).Special values:tan(+-0) returns +-0.tan(+-infinity) returns a NaN and raises the &#34;invalid&#34; floating-point
-            exception.<br>
+The tan() function computes the tangent of x (measured in radians).
+Special values:
+tan(+-0) returns +-0.
+tan(+-infinity) returns a NaN and raises the &#34;invalid&#34; floating-point
+            exception.
+<br>
 
 
 ---

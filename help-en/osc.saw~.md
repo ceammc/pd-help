@@ -9,7 +9,8 @@ Alias-free sawtooth wave
 ---
 
 Polynomial Transition Regions (PTR) used for aliasing suppression. 2nd order
-            interpolation.<br>
+            interpolation.
+<br>
 
 
 ---

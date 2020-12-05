@@ -8,7 +8,8 @@ graphic 10 band equalizer
 
 ---
 
-One band per octave. 5th-order Butterworth filters<br>
+One band per octave. 5th-order Butterworth filters
+<br>
 
 
 ---

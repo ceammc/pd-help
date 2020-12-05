@@ -8,7 +8,11 @@ square root function
 
 ---
 
-The sqrt() function compute the non-negative square root of x.Special values:sqrt(-0) returns -0.sqrt(x) returns a NaN and generates a domain error for x &lt; 0.<br>
+The sqrt() function compute the non-negative square root of x.
+Special values:
+sqrt(-0) returns -0.
+sqrt(x) returns a NaN and generates a domain error for x &lt; 0.
+<br>
 
 
 ---

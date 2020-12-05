@@ -8,7 +8,8 @@ tangent function
 
 ---
 
-Outputs the tangent of x (measured in radians).<br>
+Outputs the tangent of x (measured in radians).
+<br>
 
 
 ---

@@ -8,7 +8,8 @@ get/set display properties
 
 ---
 
-At this moment supports only MacOSX<br>
+At this moment supports only MacOSX
+<br>
 
 
 ---

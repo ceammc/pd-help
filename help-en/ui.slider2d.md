@@ -8,7 +8,8 @@
 
 ---
 
-2D sliders widget<br>
+2D sliders widget
+<br>
 
 
 ---

@@ -8,7 +8,8 @@ simple label widget
 
 ---
 
-With spaces, text-align, font customization and word wrap<br>
+With spaces, text-align, font customization and word wrap
+<br>
 
 
 ---

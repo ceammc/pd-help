@@ -9,8 +9,10 @@ counterpart of the vanilla [nbx]
 ---
 
 Display mode: key &#39;-&#39; and &#39;+&#39; increments value. Mouse drag changes value. Default
-            step is 1/pixel. Holding SHIFT divide step by 100. Holding CTRL multiply by 10.Input mode: Double click to enter new value. Accepted keys: -.0123456789. Press
-            ENTER or TAB key to finish. ESCAPE undo input, BACKSPACE removes last character.<br>
+            step is 1/pixel. Holding SHIFT divide step by 100. Holding CTRL multiply by 10.
+Input mode: Double click to enter new value. Accepted keys: -.0123456789. Press
+            ENTER or TAB key to finish. ESCAPE undo input, BACKSPACE removes last character.
+<br>
 
 
 ---

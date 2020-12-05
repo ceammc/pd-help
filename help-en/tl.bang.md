@@ -9,7 +9,8 @@ Timeline bang (with possible delay)
 ---
 
 Bang only when nearest left tl.cue was activated. If other cue is activated and
-            bang was scheduled by @delay property - it canceled<br>
+            bang was scheduled by @delay property - it canceled
+<br>
 
 
 ---

@@ -9,7 +9,8 @@ local named dict object
 ---
 
 Defines local scope dict variable, accessed by ID name and available only within
-            its patch (canvas)<br>
+            its patch (canvas)
+<br>
 
 
 ---

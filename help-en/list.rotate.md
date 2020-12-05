@@ -9,7 +9,8 @@ rotates list
 ---
 
 [list.rotate] and [list.&lt;&lt;] rotate list left. [list.&gt;&gt; rotates
-            right.<br>
+            right.
+<br>
 
 
 ---

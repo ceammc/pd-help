@@ -9,7 +9,9 @@ returns largest element in the list
 ---
 
 By default returns largest float in list, this equal to using @float
-            property.Also you can choose largest symbol from list, using @symbol property.<br>
+            property.
+Also you can choose largest symbol from list, using @symbol property.
+<br>
 
 
 ---

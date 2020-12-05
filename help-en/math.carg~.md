@@ -8,7 +8,8 @@ phase angle of a complex signals
 
 ---
 
-outputs the phase angle in the interval [−π π]<br>
+outputs the phase angle in the interval [−π π]
+<br>
 
 
 ---

@@ -10,7 +10,8 @@ compute the frequency response of a digital filter
 
 Given the M-order numerator b and N-order denominator a of a digital filter,
             compute its frequency response: H(eʲʷ) = B(eʲʷ)/A(eʲʷ) =
-            (b⁰+b¹e⁻ʲʷ+...+bᴹe⁻ʲʷᴹ)/(1+a¹e⁻ʲʷ+...+aᴺe⁻ʲʷᴺ)<br>
+            (b⁰+b¹e⁻ʲʷ+...+bᴹe⁻ʲʷᴹ)/(1+a¹e⁻ʲʷ+...+aᴺe⁻ʲʷᴺ)
+<br>
 
 
 ---

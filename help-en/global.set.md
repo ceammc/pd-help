@@ -8,7 +8,8 @@ global named set object
 
 ---
 
-Defines global scope set variable, accessed by ID name<br>
+Defines global scope set variable, accessed by ID name
+<br>
 
 
 ---

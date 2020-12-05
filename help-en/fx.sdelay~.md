@@ -9,7 +9,8 @@ smooth delay with a feedback control
 ---
 
 delay that doesn&#39;t click and doesn&#39;t transpose when the delay time is
-            changed<br>
+            changed
+<br>
 
 
 ---

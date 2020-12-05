@@ -9,7 +9,8 @@ arc cosine function for signals
 ---
 
 Outputs the principle value of the arc cosine of input signal. The result is in
-            the range [0, pi]<br>
+            the range [0, pi]
+<br>
 
 
 ---

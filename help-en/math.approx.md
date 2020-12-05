@@ -8,7 +8,8 @@ check if input value approximately equal to pattern
 
 ---
 
-checks is |x - pattern| &lt;= |epsilon|<br>
+checks is |x - pattern| &lt;= |epsilon|
+<br>
 
 
 ---

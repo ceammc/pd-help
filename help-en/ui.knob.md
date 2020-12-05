@@ -8,7 +8,8 @@ knob widget
 
 ---
 
-Simple knob widget with default range 0-1.<br>
+Simple knob widget with default range 0-1.
+<br>
 
 
 ---

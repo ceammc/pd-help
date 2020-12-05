@@ -8,7 +8,8 @@ convert decibel full scale to amplitude
 
 ---
 
-Note: db values &lt;= -144 are converted to 0<br>
+Note: db values &lt;= -144 are converted to 0
+<br>
 
 
 ---

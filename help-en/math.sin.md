@@ -8,7 +8,11 @@ sine function
 
 ---
 
-The sin() function computes the sine of input value (measured in radians).Special values:sin(+-0) returns +-0.sin(+-infinity) returns a NaN.<br>
+The sin() function computes the sine of input value (measured in radians).
+Special values:
+sin(+-0) returns +-0.
+sin(+-infinity) returns a NaN.
+<br>
 
 
 ---

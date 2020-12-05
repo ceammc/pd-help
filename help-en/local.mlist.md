@@ -9,7 +9,8 @@ local named mlist object
 ---
 
 Defines local scope mlist variable, accessed by ID name and available only within
-            its patch (canvas).<br>
+            its patch (canvas).
+<br>
 
 
 ---

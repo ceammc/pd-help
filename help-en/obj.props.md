@@ -8,7 +8,8 @@ property extractor
 
 ---
 
-extract properties from object, connected to second outlet<br>
+extract properties from object, connected to second outlet
+<br>
 
 
 ---

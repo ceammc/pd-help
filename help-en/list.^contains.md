@@ -8,7 +8,9 @@ on input atom or list checks if specified list contains it
 
 ---
 
-Outputs 1 if contains, otherwise 0Different arguments order then in [list.^contains]<br>
+Outputs 1 if contains, otherwise 0
+Different arguments order then in [list.^contains]
+<br>
 
 
 ---

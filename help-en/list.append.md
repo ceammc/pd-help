@@ -8,7 +8,8 @@ append atom or list to the end of input list
 
 ---
 
-Works with data atoms<br>
+Works with data atoms
+<br>
 
 
 ---

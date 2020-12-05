@@ -11,7 +11,8 @@ map linear to exponential range with 0 allowed.
 map the receiver from an assumed linear input range to an exponential curve output
             range. Unlike with [conv.lin2exp], the output range may include zero. If the input
             exceeds the input range, the following behaviours are specified by the clip
-            property.<br>
+            property.
+<br>
 
 
 ---

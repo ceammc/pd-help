@@ -9,7 +9,8 @@ Property extractor from sound stream
 ---
 
 Extracts properties from sound stream with matching. Non property values are
-            passed untouched.<br>
+            passed untouched.
+<br>
 
 
 ---

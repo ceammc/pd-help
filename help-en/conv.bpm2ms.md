@@ -9,7 +9,8 @@ convert frequency in BPM to period in milliseconds
 ---
 
 Converts frequency from BPM (beats per minute) to period in ms. It is simple as
-            (60 / f) * 1000, but more readable.<br>
+            (60 / f) * 1000, but more readable.
+<br>
 
 
 ---

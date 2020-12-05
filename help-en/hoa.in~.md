@@ -8,7 +8,8 @@ signal inlet for a patcher loaded by hoa.process~
 
 ---
 
-defines a signal inlet for a patcher loaded by a hoa.process~ object<br>
+defines a signal inlet for a patcher loaded by a hoa.process~ object
+<br>
 
 
 ---

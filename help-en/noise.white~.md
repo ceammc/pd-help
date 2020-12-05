@@ -8,7 +8,8 @@ White noise generator
 
 ---
 
-outputs random numbers between -1 and 1 at signal rate.<br>
+outputs random numbers between -1 and 1 at signal rate.
+<br>
 
 
 ---

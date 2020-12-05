@@ -8,7 +8,8 @@ global named list object
 
 ---
 
-Defines global scope list variable, accessed by ID name.<br>
+Defines global scope list variable, accessed by ID name.
+<br>
 
 
 ---

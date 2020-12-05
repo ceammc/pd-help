@@ -8,7 +8,8 @@ advanced message router
 
 ---
 
-if no match occured - output original message to last outlet<br>
+if no match occured - output original message to last outlet
+<br>
 
 
 ---

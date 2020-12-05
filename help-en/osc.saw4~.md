@@ -9,7 +9,8 @@ Bandlimited sawtooth wave
 ---
 
 Differentiated Polynomial Waves (DPW) used for aliasing suppression. 4nd order
-            interpolation.<br>
+            interpolation.
+<br>
 
 
 ---

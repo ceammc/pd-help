@@ -8,7 +8,8 @@ global named integer object
 
 ---
 
-Defines global scope integer variable, accessed by ID name.<br>
+Defines global scope integer variable, accessed by ID name.
+<br>
 
 
 ---

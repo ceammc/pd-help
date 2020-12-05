@@ -8,7 +8,8 @@ convert array phase [0..1] to sample position
 
 ---
 
-this object allows to get relative access to array<br>
+this object allows to get relative access to array
+<br>
 
 
 ---

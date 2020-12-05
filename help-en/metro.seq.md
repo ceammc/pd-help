@@ -8,7 +8,8 @@ metro sequencer
 
 ---
 
-Easy way to build beat machines<br>
+Easy way to build beat machines
+<br>
 
 
 ---

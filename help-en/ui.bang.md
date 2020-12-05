@@ -8,7 +8,8 @@ A bang... that&#39;s all
 
 ---
 
-do nothing more than vanilla bang for the moment...<br>
+do nothing more than vanilla bang for the moment...
+<br>
 
 
 ---

@@ -9,7 +9,8 @@ Property extractor
 ---
 
 Extracts properties from data stream with matching. Non property values are passed
-            untouched.<br>
+            untouched.
+<br>
 
 
 ---

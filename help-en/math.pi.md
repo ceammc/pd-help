@@ -9,7 +9,8 @@ mathematical constant
 ---
 
 The number PI is a mathematical constant, the ratio of a circle&#39;s circumference to
-            its diameter, commonly approximated as 3.14159.<br>
+            its diameter, commonly approximated as 3.14159.
+<br>
 
 
 ---

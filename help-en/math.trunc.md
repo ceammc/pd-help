@@ -8,7 +8,8 @@ truncate to integer value
 
 ---
 
-Outputs the integral value nearest to but no larger in magnitude than x<br>
+Outputs the integral value nearest to but no larger in magnitude than x
+<br>
 
 
 ---

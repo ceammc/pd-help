@@ -9,7 +9,11 @@ inverse hyperbolic sine function
 ---
 
 The asinh() function computes the inverse hyperbolic sine of the real
-            argumentSpecial values:asinh(+-0) returns +-0.asinh(+-infinity) returns +-infinity.<br>
+            argument
+Special values:
+asinh(+-0) returns +-0.
+asinh(+-infinity) returns +-infinity.
+<br>
 
 
 ---

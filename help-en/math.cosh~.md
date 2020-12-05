@@ -8,7 +8,9 @@ hyperbolic cosine for signals
 
 ---
 
-Outputs hyperbolic cosine of input signalcosh x = (ℯˣ + ℯ⁻ˣ)/2<br>
+Outputs hyperbolic cosine of input signal
+cosh x = (ℯˣ + ℯ⁻ˣ)/2
+<br>
 
 
 ---

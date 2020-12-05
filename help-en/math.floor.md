@@ -9,7 +9,11 @@ round to largest integral value not greater than x
 ---
 
 The floor() functions return the largest integral value less than or equal to
-            x.Special values:floor(+-0) returns +-0.floor(+-infinity) returns +-infinity.<br>
+            x.
+Special values:
+floor(+-0) returns +-0.
+floor(+-infinity) returns +-infinity.
+<br>
 
 
 ---

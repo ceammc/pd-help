@@ -8,7 +8,8 @@ negate function
 
 ---
 
-Returns value with opposite sign<br>
+Returns value with opposite sign
+<br>
 
 
 ---

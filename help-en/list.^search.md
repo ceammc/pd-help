@@ -8,7 +8,8 @@ on input atom returns it index in list
 
 ---
 
-Outputs index or -1 if not found<br>
+Outputs index or -1 if not found
+<br>
 
 
 ---

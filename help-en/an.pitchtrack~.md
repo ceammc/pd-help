@@ -9,7 +9,8 @@ pitch tracker
 ---
 
 Period-length detector using Philip McLeod&#39;s Specially Normalized AutoCorrelation
-            function (SNAC)<br>
+            function (SNAC)
+<br>
 
 
 ---

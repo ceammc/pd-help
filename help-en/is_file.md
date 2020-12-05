@@ -8,7 +8,8 @@ checks if file exists and accessible
 
 ---
 
-If relative path is given file searched under patch directory<br>
+If relative path is given file searched under patch directory
+<br>
 
 
 ---

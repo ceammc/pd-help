@@ -8,7 +8,8 @@ patch properties manager
 
 ---
 
-Property should be declared with [prop.declare]<br>
+Property should be declared with [prop.declare]
+<br>
 
 
 ---

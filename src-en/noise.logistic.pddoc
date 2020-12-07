@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <pddoc version="1.0">
-    <object name="noise.lyapunov">
-        <title>noise.lyapunov</title>
+    <object name="noise.logistic">
+        <title>noise.logistic</title>
         <meta>
             <authors>
                 <author>André Sier</author>
@@ -15,21 +15,7 @@
             <since>.5</since>
         </meta>
         <info>
-            <par>inspired by Paul Bourke, implementation by André Sier  </par>
-            <par>---</par>
-            <par>lyapunov random attractors</par>
-            <par>---</par>
-            <par>Paul Bourke's words http://astronomy.swin.edu.au/%7Epbourke/fractals/lyapunov/</par>
-            <par>---</par>
-            <par>On average 98% of the random selections of (an, bn) result in an infinite series.</par> 
-            <par>This is so common because of the range (-2 &lt;= a,b &lt;= 2) for each of the parameters 
-            a and b, the number of infinite cases will reduce greatly with a smaller range.</par> 
-            <par>About 1% were point attractors, and about 0.5% were periodic basins of attraction.</par>
-            <par>===</par>
-            <par>xn+1 = a0 + a1 xn + a2 xn2 + a3 xn yn + a4 yn + a5 yn2</par>
-            <par>yn+1 = b0 + b1 xn + b2 xn2 + b3 xn yn + b4 yn + b5 yn2</par> 
-            <par>===</par>
-            <par>see references in object's source code</par>
+            <par>logistic distribution</par>
 
         </info>
         <arguments>
@@ -48,14 +34,9 @@
             <param type="int" name="OM" required="true">enables output when cut or fold value is changed</param></method>
 
             <method name="a">
-            <param type="float" name="A" required="true">a value</param></method>
+            <param type="float" name="LAMBDA" required="true">lambda value</param></method>
             <method name="b">
-            <param type="float" name="B" required="true">b value</param></method>
-
-            <method name="x">
-            <param type="float" name="NX" required="true">x value</param></method>
-            <method name="y">
-            <param type="float" name="NY" required="true">y value</param></method>
+            <param type="float" name="SEED" required="true">seed value</param></method>
             
         </methods>
         <inlets>
@@ -79,23 +60,16 @@
   |           |
   [om $1 #om( [set $1 #set( [reset #reset(
 
- [F]           [F]
- |             |
- [x $1 #x(     [y $1 #y(  
+ [F]                     [F]
+ |                       |
+ [lambda $1 #lambda(     [seed $1 #seed(    
 
-    [F]       [F]       
-    |         |         
-    [a $1 #a( [b $1 #b(  
-
-[noise.lyapunov #noise-obj]
+[noise.logistic #noise-obj]
 |
 [ui.display {i=1,o=0}]
 
-[X x:0->noise-obj:0]  
-[X y:0->noise-obj:0] 
-
-[X a:0->noise-obj:0]
-[X b:0->noise-obj:0]
+[X lambda:0->noise-obj:0]  
+[X seed:0->noise-obj:0] 
 
 [X om:0->noise-obj:0]
 [X set:0->noise-obj:0]

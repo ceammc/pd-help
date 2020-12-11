@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pddoc version="1.0">
+    <object name="data.set">
+        <title>data.set</title>
+        <meta>
+            <authors>
+                <author>Serge Poltavsky</author>
+            </authors>
+            <description>Контейнер данных, который сохраняет только уникальные значения (set) - множество</description>
+            <license>GPL3 or later</license>
+            <library>ceammc</library>
+            <category>data</category>
+            <keywords>data set</keywords>
+            <since>0.3</since>
+            <also>
+                <see>set-&gt;list</see>
+                <see>data.list</see>
+            </also>
+        </meta>
+        <arguments>
+            <argument name="X" type="any">элементы множества</argument>
+        </arguments>
+        <properties>
+            <property name="@empty" readonly="true" enum="0 1" type="int" default="1">1 если множество пустое, иначе 0</property>
+            <property name="@size" readonly="true" minvalue="0" type="int" default="0">количество элементов в множестве</property>
+        </properties>
+        <methods>
+            <method name="add">добавить значения в множество
+            <param name="VAL" type="list" required="true">значения</param></method>
+            <method name="clear">удаляет все элементы множества</method>
+            <method name="remove">удалить значения из множества
+            <param name="VAL" type="list" required="true">значения</param></method>
+            <method name="set">устанавливает новое множество, не отправляет ничего на выход
+            <param name="LIST" type="list" required="true">новое множество</param></method>
+        </methods>
+        <inlets>
+            <inlet>
+                <xinfo on="bang">отправляет содержимое множества</xinfo>
+                <xinfo on="float">добавляет новый элемент в множество, не отправляет ничего на выход</xinfo>
+                <xinfo on="symbol">добавляет новый элемент в множество, не отправляет ничего на выход</xinfo>
+                <xinfo on="list">добавляет новые элементы в множество, не отправляет ничего на выход</xinfo>
+                <xinfo on="data:set">устанавливает новое множество и отправляет его на выход</xinfo>
+            </inlet>
+        </inlets>
+        <outlets>
+            <outlet>выход для множества (set)</outlet>
+        </outlets>
+        <example>
+            <pdascii>
+<![CDATA[
+[F]
+|
+[$1, bang( [clear(
+|        __/
+[data.set]
+|
+[set->list]
+|
+[list.range]
+|
+[msg set]
+|
+[ (
+]]>
+            </pdascii>
+        </example>
+    </object>
+</pddoc>

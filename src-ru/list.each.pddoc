@@ -6,7 +6,7 @@
             <authors>
                 <author>Serge Poltavsky</author>
             </authors>
-            <description>обрабатывает каждое значение списка при помощи внешнего объекта (объектов)</description>
+            <description>Обрабатывает каждое значение списка при помощи внешнего объекта (объектов)</description>
             <license>GPL3 or later</license>
             <library>ceammc</library>
             <category>list</category>

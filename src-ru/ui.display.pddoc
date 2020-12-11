@@ -7,7 +7,7 @@
                 <author>Alex Nadzharov</author>
                 <author>Serge Poltavsky</author>
             </authors>
-            <description>Объект интерфейса "дисплей"</description>
+            <description>Виджет - "дисплей"</description>
             <license>GPL3 or later</license>
             <library>ceammc</library>
             <category view="link">ui</category>

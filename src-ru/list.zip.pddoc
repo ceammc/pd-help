@@ -7,7 +7,7 @@
                 <author>Alex Nadzharov</author>
                 <author>Serge Poltavsky</author>
             </authors>
-            <description>принимает n списков из n входов (указанных в аргументе) и отправляет их значения последовательно (list1-1 list2-1 list1-2 list2-2 итд.).</description>
+            <description>Принимает N списков из N входов (указанных в аргументе) и отправляет их значения последовательно (list1-1 list2-1 list1-2 list2-2 итд.).</description>
             <license>GPL3 or later</license>
             <library>ceammc</library>
             <category>list</category>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pddoc version="1.0">
+    <object name="data.mlist">
+        <title>data.mlist</title>
+        <meta>
+            <authors>
+                <author>Serge Poltavsky</author>
+            </authors>
+            <description>контейнер для многоуровневого списка (mlist)</description>
+            <license>GPL3 or later</license>
+            <library>ceammc</library>
+            <category>data</category>
+            <keywords>data multilist</keywords>
+            <since>0.6</since>
+            <also>
+                <see>data.list</see>
+            </also>
+            <aliases>
+                <alias>mlist</alias>
+                <alias>ml</alias>
+            </aliases>
+        </meta>
+        <info>
+            <par>Синтаксис: значения, разделенные пробелами:(1 2 3) - список из значений 1, 2 и 3</par>
+            <par>Вложенные списки: (1 2 3 (значения элементов вложенного списка))</par>
+            <par>Символы с пробелами: ("список с одним элементом")</par>
+        </info>
+        <arguments>
+            <argument name="X" type="any">начальные значения для списка. Пример: (1 2 3 (1 2)
+            4)</argument>
+        </arguments>
+        <properties>
+            <property name="@empty" readonly="true" enum="0 1" type="int" default="1">1 если список пустой, иначе 0</property>
+            <property name="@size" readonly="true" minvalue="0" type="int" default="0">количество элементов в списке</property>
+        </properties>
+        <methods>
+            <method name="append">добавляет элементы в конец списка
+            <param name="VAL" type="atom" required="true">элементы списка</param></method>
+            <method name="prepend">добавляет элементы в начало списка
+            <param name="VAL" type="atom" required="true">элементы списка</param></method>
+            <method name="insert">вставка элементов в указанной позиции в списке
+            <param name="IDX" type="int" required="true">номер позиции в списке</param>
+            <param name="VAL" type="atom" required="true">значение</param></method>
+            <method name="fill">заполняет список указанным значением
+            <param name="VAL" type="atom" required="true">значение</param></method>
+            <method name="reverse">реверс списка</method>
+            <method name="shuffle">перестановка элементов списка в случайном порядке</method>
+            <method name="sort">сортировка списка</method>
+            <method name="clear">удаление всех элементов списка</method>
+            <method name="pop">удаление последнего элемента списка</method>
+            <method name="remove">удаление указанного элемента
+            <param name="IDX" type="int" required="true">номер элемента</param></method>
+            <method name="set">установка нового значения списка без отправки на выход
+            <param name="LIST" type="list" required="true">новое содержимое списка</param></method>
+            <method name="(....)" example="true">sets new list without output</method>
+
+            <method name="dump">отправляет всю информацию об объекте в консоль Pd</method>
+        </methods>
+        <inlets>
+            <inlet>
+                <xinfo on="bang">отправляет текущее значение списка</xinfo>
+                <xinfo on="list">устанавливает новое значение списка и отправляет его</xinfo>
+            </inlet>
+        </inlets>
+        <outlets>
+            <outlet>список или элементы списка</outlet>
+        </outlets>
+        <example>
+            <pdascii>
+<![CDATA[
+[bang(
+|
+|  [\(A B C), bang(
+|  |
+[data.mlist (1 2 3 (1 3 3))]
+|
+[ui.display @display_type=1]
+]]>
+            </pdascii>
+        </example>
+    </object>
+</pddoc>

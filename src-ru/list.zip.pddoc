@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pddoc version="1.0">
+    <object name="list.zip">
+        <title>list.zip</title>
+        <meta>
+            <authors>
+                <author>Alex Nadzharov</author>
+                <author>Serge Poltavsky</author>
+            </authors>
+            <description>принимает n списков из n входов (указанных в аргументе) и отправляет их значения последовательно (list1-1 list2-1 list1-2 list2-2 итд.).</description>
+            <license>GPL3 or later</license>
+            <library>ceammc</library>
+            <category>list</category>
+            <keywords>list functional</keywords>
+            <since>0.1</since>
+            <aliases>
+                <alias>list.interleave</alias>
+            </aliases>
+            <also>
+                <see>list.unzip</see>
+            </also>
+        </meta>
+        <arguments>
+            <argument name="N" type="int" minvalue="2">количество входов</argument>
+        </arguments>
+        <properties>
+            <property name="@method" type="symbol" enum="min pad clip wrap fold" default="min">
+            поведение объекта в случае если у списков разные размеры</property>
+            <property name="@min" type="alias">сокращение для свойства "@oversize min". Сокращает список до минимальной длины</property>
+            <property name="@clip" type="alias">сокращение для свойства "@oversize clip". Дополняет самый короткий список последним элементом из этого списка до количества элементов самого длинного списка</property>
+            <property name="@wrap" type="alias">сокращение для свойства "@oversize wrap". Дополняет самый короткий список его значениями с начала.</property>
+            <property name="@fold" type="alias">сокращение для свойства "@oversize fold" property. Дополняет самый короткий список его значениями с конца до начала, затем обратно до конца итд.</property>
+            <property name="@pad" type="atom" default="0">значение для заполнения если указан метод изменения размера списка, который его использует</property>
+            <property name="@l0" type="list" readonly="true">первый список</property>
+            <property name="@l1" type="list" readonly="true">второй список, итд.</property>
+        </properties>
+        <inlets dynamic="true">
+            <inlet>
+              <xinfo on="list">входящий список</xinfo>
+              <xinfo on="data:mlist">многоуровневый список (mlist)</xinfo>
+            </inlet>
+        </inlets>
+        <outlets>
+            <outlet>объединенный список</outlet>
+        </outlets>
+        <example>
+            <pdascii>
+<![CDATA[
+[10 20 30(  [list a b( [1 2 3 4 5(
+|           |          |
+|  [@pad(   |  [@clip( |    [@wrap( [@fold(
+|  |        |  |       |    |       |
+|  |        |. |       |..  |       |
+[list.zip                     3 @min]
+|
+[msg set]
+|
+[ (
+]]>
+            </pdascii>
+        </example>
+    </object>
+</pddoc>

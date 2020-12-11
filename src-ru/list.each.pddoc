@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pddoc version="1.0">
+    <object name="list.each">
+        <title>list.each</title>
+        <meta>
+            <authors>
+                <author>Serge Poltavsky</author>
+            </authors>
+            <description>обрабатывает каждое значение списка при помощи внешнего объекта (объектов)</description>
+            <license>GPL3 or later</license>
+            <library>ceammc</library>
+            <category>list</category>
+            <keywords>list functional</keywords>
+            <since>0.1</since>
+            <also>
+                <see>list.do</see>
+                <see>list.apply_to</see>
+            </also>
+        </meta>
+        <info>
+            <par>Каждый набор элементов (количество указано свойством @step) отправляется через правый выход на внешний объект и затем ожидает их на правом входе. В результате возможны обработка и фильтрация списков.</par>
+        </info>
+        <arguments>
+            <argument name="step" type="int" minvalue="1" maxvalue="1024">смотрите свойство @step</argument>
+        </arguments>
+        <properties>
+            <property name="@step" type="int" minvalue="1" maxvalue="1024" default="1">количество элементов, которое отправляется на правый выход при каждой итерации</property>
+        </properties>
+        <inlets>
+            <inlet>
+                <xinfo on="list">список</xinfo>
+                <xinfo on="data:mlist">список (поддерживается mlist)</xinfo>
+            </inlet>
+            <inlet>
+                <xinfo>Новое модифицированное значение из обрабатывающего объекта.</xinfo>
+            </inlet>
+        </inlets>
+        <outlets>
+            <outlet>Новый обработанный список (или mlist)</outlet>
+            <outlet>отдельный элемент (если значение свойства @step &gt; 1) или список значений</outlet>
+        </outlets>
+        <example>
+            <pdascii>
+<![CDATA[
+[1 2 3 4 5 6 7 8 9(   [1 2 3 4 5 6 7 8 9(
+|                     |
+[list.each] X [pow 2] [list.each 2] X [*]
+|                     |
+[msg set]             [msg set]
+|                     |
+[ (                   [ (
+
+/* more complex example: multiply by three element in list */
+
+[1 2 3 4 5 6 7 8 9(
+|
+|  [hradio]
+|  |
+|  [@step $1(
+|  |
+[list.each 3] X [list.reduce] X [*]
+|
+[msg set]
+|
+[ (
+]]>
+            </pdascii>
+        </example>
+    </object>
+</pddoc>

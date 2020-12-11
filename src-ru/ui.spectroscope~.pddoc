@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pddoc version="1.0">
+    <object name="ui.spectroscope~" type="gui">
+        <title>ui.spectroscope~</title>
+        <meta>
+            <authors>
+                <author>Alex Nadzharov</author>
+                <author>Serge Poltavsky</author>
+            </authors>
+            <description>Анализатор спектра</description>
+            <license>GPL3 or later</license>
+            <library>ceammc</library>
+            <category view="link">ui</category>
+            <keywords>ui spectroscope</keywords>
+            <since>0.1</since>
+            <aliases>
+                <alias view="link">ui.ssc~</alias>
+            </aliases>
+            <also>
+                <see view="link">ui.scope~</see>
+            </also>
+        </meta>
+        <methods>
+            <!-- common-->
+            <method name="pos">устанавливает положение виджета в патче
+            <param name="X" type="float" required="true">координата x правого верхнего угла</param>
+            <param name="Y" type="float" required="true">координата y правого верхнего угла</param></method>
+        </methods>
+        <properties>
+            <property name="@refresh" type="int" minvalue="20" maxvalue="1000" default="100"
+            units="millisecond">примерная частота обновления</property>
+            <property name="@log_scale" type="int" default="0" enum="0 1">отображение в логарифмической шкале</property>
+            <!-- common -->
+            <property name="@send" type="symbol" default="(null)">адрес для отправки сообщения (send)</property>
+            <property name="@receive" type="symbol" default="(null)">имя источника сообщений (receive)</property>
+            <property name="@size" type="list" default="15 15">размер виджета (пара значений: ширина, высота)</property>
+            <property name="@pinned" type="int" enum="0 1" default="0">режим  if 1 - put element
+            to the lowest level</property>
+            <property name="@active_color" type="list" default="0 0.75 1 1">активный цвет (список значений для красного, зеленого и синего цветов в диапазоне 0..1)</property>
+            <property name="@background_color" type="list" default="0.93 0.93 0.93 1">цвет фона (список значений для красного, зеленого и синего цветов в диапазоне 0..1)</property>
+            <property name="@border_color" type="list" default="0.6 0.6 0.6 1">цвет рамки (список значений для красного, зеленого и синего цветов в диапазоне 0..1)</property>
+            <property name="@fontsize" type="int" minvalue="4" maxvalue="11" default="11">
+            размер шрифта</property>
+            <property name="@fontname" type="symbol" default="Helvetica">название шрифта</property>
+            <property name="@fontweight" type="symbol" enum="normal bold" default="normal">жирный шрифт</property>
+            <property name="@fontslant" type="symbol" enum="roman italic" default="roman">курсивный шрифт</property>
+        </properties>
+        <inlets>
+            <inlet type="audio">
+                <xinfo>signal input</xinfo>
+            </inlet>
+        </inlets>
+        <example>
+            <pdascii>
+<![CDATA[
+[ui.dsp~]
+         [F]             [F]
+         |               |
+[noise~] [osc.saw~ 1000] [osc~ 5000]
+|        |               |
+| [T]    | [T]           | [T]  [T]
+| |.     | |.            | |.   |
+[*~]     [*~]            [*~]   [@log_scale $1(
+|        |               |      |
+|        |               |      |
+[ui.spectroscope~   @size=500x150]
+]]>
+            </pdascii>
+        </example>
+    </object>
+</pddoc>

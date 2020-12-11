@@ -1,14 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <library xmlns:xi="http://www.w3.org/2001/XInclude" name="ceammc" version="1.0">
+  <category name="data">
+    <entry descr="Контейнер для словаря(dictionary): хранит пары ключ-значение" name="data.dict" ref_view="object">
+      <xi:include href="data.dict.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="контейнер для многоуровневого списка (mlist)" name="data.mlist" ref_view="object">
+      <xi:include href="data.mlist.pddoc" parse="xml"/>
+    </entry>
+  </category>
   <category name="list">
     <entry descr="Выбирает случайный элемент из списка" name="list.choice" ref_view="object">
       <xi:include href="list.choice.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="обрабатывает каждое значение списка при помощи внешнего объекта (объектов)" name="list.each" ref_view="object">
+      <xi:include href="list.each.pddoc" parse="xml"/>
     </entry>
     <entry descr="Создает список указанной длины при помощи внешнего генератора" name="list.gen" ref_view="object">
       <xi:include href="list.gen.pddoc" parse="xml"/>
     </entry>
     <entry descr="Генератор последовательностей чисел" name="list.seq" ref_view="object">
       <xi:include href="list.seq.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="переставляет значения списка в случайном порядке" name="list.shuffle" ref_view="object">
+      <xi:include href="list.shuffle.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="Разделяет список на N списков и отправляет их на отдельные выходы" name="list.unzip" ref_view="object">
+      <xi:include href="list.unzip.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="принимает n списков из n входов (указанных в аргументе) и отправляет их значения последовательно (list1-1 list2-1 list1-2 list2-2 итд.)." name="list.zip" ref_view="object">
+      <xi:include href="list.zip.pddoc" parse="xml"/>
     </entry>
   </category>
   <category name="msg">
@@ -22,6 +42,12 @@
     </entry>
     <entry descr="Объект интерфейса &quot;дисплей&quot;" name="ui.display" ref_view="link">
       <xi:include href="ui.display.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="Объект интерфейса для включения/выключения DSP" name="ui.dsp~" ref_view="link">
+      <xi:include href="ui.dsp~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="Анализатор спектра" name="ui.spectroscope~" ref_view="link">
+      <xi:include href="ui.spectroscope~.pddoc" parse="xml"/>
     </entry>
     <entry descr="Обновленный виджет-переключатель" name="ui.toggle" ref_view="link">
       <xi:include href="ui.toggle.pddoc" parse="xml"/>

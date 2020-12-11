@@ -6,7 +6,7 @@
             <authors>
                 <author>Serge Poltavsky</author>
             </authors>
-            <description>randomly rearranges elements in list</description>
+            <description>переставляет значения списка в случайном порядке</description>
             <license>GPL3 or later</license>
             <library>ceammc</library>
             <category>list</category>
@@ -19,12 +19,12 @@
         </meta>
         <inlets>
             <inlet>
-                <xinfo on="list">input list</xinfo>
-                <xinfo on="data:mlist">input mlist</xinfo>
+                <xinfo on="list">список</xinfo>
+                <xinfo on="data:mlist">многоуровневый список (mlist)</xinfo>
             </inlet>
         </inlets>
         <outlets>
-            <outlet>new shuffled list</outlet>
+            <outlet>новый перемешанный список</outlet>
         </outlets>
         <example>
             <pdascii>

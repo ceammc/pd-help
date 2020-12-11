@@ -6,7 +6,7 @@
             <authors>
                 <author>Serge Poltavsky</author>
             </authors>
-            <description>container that store unique elements</description>
+            <description>контейнер данных, который сохраняет только уникальные значение (set)</description>
             <license>GPL3 or later</license>
             <library>ceammc</library>
             <category>data</category>
@@ -27,12 +27,12 @@
             elements in list</property>
         </properties>
         <methods>
-            <method name="add">add values to the set 
+            <method name="add">add values to the set
             <param name="VAL" type="list" required="true">added values</param></method>
             <method name="clear">removes all set elements</method>
-            <method name="remove">remove elements from the set 
+            <method name="remove">remove elements from the set
             <param name="VAL" type="list" required="true">elements</param></method>
-            <method name="set">sets new set content without output 
+            <method name="set">sets new set content without output
             <param name="LIST" type="list" required="true">new set content</param></method>
         </methods>
         <inlets>

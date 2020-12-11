@@ -7,7 +7,7 @@
                 <author>Pierre Guillot</author>
                 <author>Serge Poltavsky</author>
             </authors>
-            <description>GUI for turning DSP on/off</description>
+            <description>Объект интерфейса для включения/выключения DSP</description>
             <license>GPL3 or later</license>
             <library>ceammc</library>
             <category view="link">ui</category>
@@ -15,21 +15,22 @@
             <since>0.1</since>
         </meta>
         <mouse>
-            <event editmode="false" type="left-click">toggle DSP processing</event>
-            <event editmode="false" type="right-click">opens popup menu with items: Audio
-            Settings</event>
-            <event editmode="false" type="right-click" keys="Shift">open object help</event>
-            <event editmode="false" type="right-click" keys="Alt">open properties dialog</event>
-            <event editmode="true" type="right-click" keys="Shift">open object help</event>
-            <event editmode="true" type="right-click" keys="Alt">open properties dialog</event>
+            <event editmode="false" type="left-click">включает/выключает обработку звука  (DSP)</event>
+            <event editmode="false" type="right-click">открывает меню с пунктами: Audio
+            Settings (Настройки звука)</event>
+            <event editmode="false" type="right-click" keys="Shift">открыть справку по объекту</event>
+            <event editmode="false" type="right-click" keys="Alt">открыть окно свойств</event>
+            <event editmode="true" type="right-click" keys="Shift">открыть справку по объекту</event>
+            <event editmode="true" type="right-click" keys="Alt">открыть окно свойств</event>
         </mouse>
         <methods>
-            <method name="start">starts audio processing</method>
-            <method name="stop">stops audio processing</method>
-            <method name="settings">opens audio settings dialog</method>
-            <method name="pos">set UI element position
-            <param name="X" type="float" required="true">top left x-coord</param>
-            <param name="Y" type="float" required="true">top right y-coord</param></method>
+            <method name="start">запуск обработки звука</method>
+            <method name="stop">остановка обработки звука</method>
+            <method name="settings">открывает окно настройки обработки звука (audio settings)</method>
+
+            <method name="pos">устанавливает положение виджета в патче
+            <param name="X" type="float" required="true">координата x правого верхнего угла</param>
+            <param name="Y" type="float" required="true">координата y правого верхнего угла</param></method>
         </methods>
         <properties>
             <property name="@send" type="symbol" default="(null)">адрес для отправки сообщения (send)</property>

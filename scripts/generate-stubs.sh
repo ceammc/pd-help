@@ -1,0 +1,1 @@
+python3 scripts/gen_vanilla_pddoc_stubs.py

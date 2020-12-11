@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library xmlns:xi="http://www.w3.org/2001/XInclude" name="puredata" version="1.0">
+  <category name="основное">
+    <entry descr="отправляет сообщение bang" name="bang" ref_view="object">
+      <xi:include href="bang.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="сохраняет и загружает число" name="float" ref_view="object">
+      <xi:include href="float.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="сохраняет и загружает число" name="int" ref_view="object">
+      <xi:include href="int.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="разделяет поток чисел" name="moses" ref_view="object">
+      <xi:include href="moses.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="создает составные сообщения" name="pack" ref_view="object">
+      <xi:include href="pack.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="принимает отправленные сообщения" name="receive" ref_view="object">
+      <xi:include href="receive.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="маршрутизирует сообщения в соответствии с их первым элементом" name="route" ref_view="object">
+      <xi:include href="route.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="проверяет на совпадение чисел или символов" name="select" ref_view="object">
+      <xi:include href="select.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="отправляет сообщение объекту с указанным именем" name="send" ref_view="object">
+      <xi:include href="send.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="соединение сообщений с возможностью отключения" name="spigot" ref_view="object">
+      <xi:include href="spigot.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="сохраняет и загружает символ" name="symbol" ref_view="object">
+      <xi:include href="symbol.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="выстраивает сообщения в последовательность и конвертирует их" name="trigger" ref_view="object">
+      <xi:include href="trigger.pddoc" parse="xml"/>
+    </entry>
+  </category>
+  <meta>
+    <version>0.0</version>
+    <authors>
+      <author>Miller Smith Puckette</author>
+    </authors>
+  </meta>
+</library>
+

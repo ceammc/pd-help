@@ -1,0 +1,272 @@
+%%% START
+% general основное
+bang,0.27,output a bang message,отправляет сообщение bang
+float,0.48,store and recall a number,сохраняет и загружает число
+symbol,0.48,store and recall a symbol,сохраняет и загружает символ
+int,0.48,store and recall a number,сохраняет и загружает число
+send,0.48,send a message to a named object,отправляет сообщение объекту с указанным именем
+receive,0.48,catch "sent" messages,принимает отправленные сообщения
+select,0.33,test for matching numbers or symbols,проверяет на совпадение чисел или символов
+route,0.43,route messages according to first element,маршрутизирует сообщения в соответствии с их первым элементом
+pack,0.34,make compound messages,создает составные сообщения
+unpack,0.33,get elements of compound messages
+trigger,0.33,sequence and convert messages,выстраивает сообщения в последовательность и конвертирует их
+spigot,0.38,interruptible message connection,соединение сообщений с  возможностью отключения
+moses,0.33,part a numeric stream,разделяет поток чисел
+%%% STOP
+until
+print
+makefilename
+change
+swap
+value
+list
+
+% time время
+delay
+metro
+line
+timer
+cputime
+realtime
+pipe
+
+% math математика
+expr
+plus
+minus
+mult
+div
+pow
+
+% math математика
+eq
+neq
+gt
+lt
+gteq
+lteq
+
+% math математика
+and
+bitwiseand
+or
+bitwiseor
+xor
+shiftleft
+shiftright
+
+% math математика
+mtof
+powtodb
+rmstodb
+ftom
+dbtopow
+dbtorms
+mod
+div
+sin
+cos
+tan
+atan
+atan2
+sqrt
+log
+exp
+abs
+random
+max
+min
+clip
+wrap
+
+% io операции_ввода/вывода
+notein
+ctlin
+pgmin
+bendin
+touchin
+midiin
+polytouchin
+sysexin
+midirealtimein
+noteout
+ctlout
+pgmout
+bendout
+touchout
+polytouchout
+midiout
+makenote
+stripnote
+
+% io операции_ввода/вывода
+oscparse
+oscformat
+
+% io операции_ввода/вывода
+fudiparse
+fudiformat
+
+% arrays массивы
+tabread
+tabread4
+tabwrite
+soundfiler
+table
+array
+
+% misc разное
+loadbang
+declare
+savestate
+pdcontrol
+netsend
+netreceive
+qlist
+textfile
+text
+openpanel
+savepanel
+bag
+poly
+key
+keyup
+keyname
+
+% audio_math аудио_математика
+expr~
+fexpr~
+plus~
+minus~
+mult~
+div~
+max~
+min~
+clip~
+sqrt~
+rsqrt~
+q8_sqrt~
+q8_rsqrt~
+wrap~
+fft~
+ifft~
+rfft~
+rifft~
+pow~
+log~
+exp~
+abs~
+framp~
+motf~
+ftom~
+rmstodb~
+dbtorms~
+
+% general_audio аудио_основное
+dac~
+adc~
+sig~
+line~
+vline~
+threshold~
+snapshot~
+vsnapshot~
+bang~
+samplerate~
+send~
+receive~
+throw~
+catch~
+readsf~
+writesf~
+
+% audio_oscillators_and_tables аудио_осцилляторы_и_таблицы
+phasor~
+cos~
+osc~
+yabwrite~
+tabplay~
+tabread~
+tabread4~
+tabosc4~
+tabsend~
+tabreceive~
+
+% audio_filters аудио_фильтры
+vcf~
+noise~
+env~
+hip~
+lop~
+slop~
+bp~
+biquad~
+samphold~
+print~
+rpole~
+rzero~
+rzero_rev~
+cpole~
+czero~
+czero_rev~
+
+% audio_delay аудио_линии_задержки
+delwrite~
+delread~
+delread4~
+vd~
+
+% subwindows субокна
+pd
+inlet
+outlet
+inlet~
+outlet~
+clone
+block~
+switch
+
+% data_templates шаблоны_данных
+struct
+drawcurve
+filledcurve
+drawpolygon
+filledpolygon
+drawtext
+drawsymbol
+plot
+drawnumber
+
+% accessing_data доступ_к_данным
+pointer
+get
+set
+element
+getsize
+setsize
+append
+scalar
+
+% extra дополнительно
+sigmund~
+bonk~
+choice
+hilbert~
+complex-mod~
+loop~
+lrshift~
+pd~
+stdout
+rev1~
+rev2~
+rev3~
+bob~
+
+% obsolete устаревшие
+scope~
+namecanvas
+template
+
+
+

@@ -10,7 +10,7 @@ Part of a-chaos library
 
 chaos-ginger.a
 inputs
-1 == z/seed) defaults (0.82) // x, y default to (0.7,1.2)
+1 == z/seed defaults (0.82) // x, y default to (0.7,1.2)
 outputs:
 (2d)
 formulae:

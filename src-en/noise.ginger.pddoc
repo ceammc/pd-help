@@ -16,7 +16,7 @@
         <info>
 			<par>chaos-ginger.a</par>
 		<par>inputs</par>
-			<par>1 == z/seed) defaults (0.82) // x, y default to (0.7,1.2)</par>
+			<par>1 == z/seed defaults (0.82) // x, y default to (0.7,1.2)</par>
 		<par>outputs:</par>
 			<par>(2d)</par>
 

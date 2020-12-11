@@ -32,8 +32,7 @@ See also Peter de Jong attractors
  
  a = 1.3, b = 1.7, c = 0.5, d = 1.4
 ---
- 
- a-chaos vers 1.0.2
+ a-chaos v1.0.2
 
 <br>
 

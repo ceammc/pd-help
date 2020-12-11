@@ -14,7 +14,7 @@
             <since>.5</since>
         </meta>
         <info>
-            <par>a port of Richard's chaos-baker from chaos collection</par>
+            <par>Port of Richard's chaos-baker from chaos collection</par>
         </info>
         <arguments>
             <argument name="ARG0" type="float">initial value</argument>

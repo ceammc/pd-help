@@ -17,16 +17,16 @@
         <info>
             <par>Ikeda attractor</par>
             <par>---------------</par>
-<par>zn+1 = a + b zn exp[ i k - i p / (1 + | zn2 | ) ]</par>
-<par>---</par>
-<par>where z is a complex number</par>
-<par>real number formula by euler returns:</par>
-<par>===</par>
-<par>xn+1 = a + k*( x0*cos(b-(p/(1+x0*x0+y0*y0))) - y0*sin(b-(p/(1*x0*x0+y0*y0))) )</par>
-<par>yn+1 =     k*( x0*sin(b-(p/(1+x0*x0+y0*y0))) - y0*cos(b-(p/(1*x0*x0+y0*y0))) )</par>
-<par>===</par>
-<par>a = 0.85, b = 0.9, k = 0.4, p = 7.7</par>
-<par>a = 1.0, b = 0.9, k = 0.4, p = 6.0</par>
+            <par>zn+1 = a + b zn exp[ i k - i p / (1 + | zn2 | ) ]</par>
+            <par>---</par>
+            <par>where z is a complex number</par>
+            <par>real number formula by euler returns:</par>
+            <par>===</par>
+            <par>xn+1 = a + k*( x0*cos(b-(p/(1+x0*x0+y0*y0))) - y0*sin(b-(p/(1*x0*x0+y0*y0))) )</par>
+            <par>yn+1 =     k*( x0*sin(b-(p/(1+x0*x0+y0*y0))) - y0*cos(b-(p/(1*x0*x0+y0*y0))) )</par>
+            <par>===</par>
+            <par>a = 0.85, b = 0.9, k = 0.4, p = 7.7</par>
+            <par>a = 1.0, b = 0.9, k = 0.4, p = 6.0</par>
         </info>
         <arguments>
             <argument name="ARG0" type="float">a value (optional)</argument>

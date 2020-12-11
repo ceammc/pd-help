@@ -8,7 +8,7 @@ Part of a-chaos library
 
 ---
 
-stein distribution
+Stein distribution
 <br>
 
 

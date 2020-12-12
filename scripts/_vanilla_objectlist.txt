@@ -13,72 +13,73 @@ unpack,0.33,get elements of compound messages
 trigger,0.33,sequence and convert messages,выстраивает сообщения в последовательность и конвертирует их
 spigot,0.38,interruptible message connection,соединение сообщений с  возможностью отключения
 moses,0.33,part a numeric stream,разделяет поток чисел
-%%% STOP
-until
-print
-makefilename
-change
-swap
-value
-list
+until,0.28,looping mechanism,инструмент для создания циклов
+print,0.42,print out messages,вывод сообщений в консоль
+makefilename,0.48,format a symbol with a variable field,форматирование символа при помощи переменной
+change,0.27,remove repeated numbers from a stream,удаляет одинаковые значения из потока сообщений
+swap,0.41,swap two numbers,переставляет местами два числа
+value,0.48-1,shared numeric value,глобальная переменная, сохраняющая числовое значение
+list,0.48,manipulate lists,работа со списками
 
 % time время
-delay
-metro
-line
-timer
-cputime
-realtime
-pipe
+delay,0.45,send a message after a time delay,отправляет сообщение через указанное время
+metro,0.48,send a message periodically,отправляет сообщения периодически
+line,0.48,send a series of lineary stepped numbered,отправляет последовательность чисел с линейным переходом
+timer,0.47,measure time intervals,измерение временных интервалов
+cputime,0.33,measure CPU time,измерение загрузки процессора
+realtime,0.33,measure real time,измерение реального времени
+pipe,dynamically growable delay line for numbers,линия задержки для чисел с изменяемым количеством элементов в ней
+
 
 % math математика
-expr
-plus
-minus
-mult
-div
-pow
+expr,0.48-2,С-style expressions,выражения с С-подобным синтаксисом
+plus,0.47,arithmetic,арифметика
+minus,0.47,arithmetic,арифметика
+mult,0.47,arithmetic,арифметика
+div,0.47,arithmetic,арифметика
+pow,0.47,arithmetic,арифметика
 
 % math математика
-eq
-neq
-gt
-lt
-gteq
-lteq
+eq,0.47,relational tests,сравнения
+neq,0.47,relational tests,сравнения
+gt,0.47,relational tests,сравнения
+lt,0.47,relational tests,сравнения
+gteq,0.47,relational tests,сравнения
+lteq,0.47,relational tests,сравнения
 
 % math математика
-and
-bitwiseand
-or
-bitwiseor
-xor
-shiftleft
-shiftright
+and,0.47,bit twiddling,логические операции (побитовые)
+bitwiseand,0.47,bit twiddling,логические операции (побитовые)
+or,0.47,bit twiddling,логические операции (побитовые)
+bitwiseor,0.47,bit twiddling,логические операции (побитовые)
+xor,0.47,bit twiddling,логические операции (побитовые)
+shiftleft,0.47,bit twiddling,логические операции (побитовые)
+shiftright,0.47,bit twiddling,логические операции (побитовые)
 
 % math математика
-mtof
-powtodb
-rmstodb
-ftom
-dbtopow
-dbtorms
-mod
-div
-sin
-cos
-tan
-atan
-atan2
-sqrt
-log
-exp
-abs
-random
-max
-min
-clip
-wrap
+mtof,0.40,convert acoustical units,конвертация акустических единиц измерения
+powtodb,0.40,convert acoustical units,конвертация акустических единиц измерения
+rmstodb,0.40,convert acoustical units,конвертация акустических единиц измерения
+ftom,0.40,convert acoustical units,конвертация акустических единиц измерения
+dbtopow,0.40,convert acoustical units,конвертация акустических единиц измерения
+dbtorms,0.40,convert acoustical units,конвертация акустических единиц измерения
+mod,0.40,higher math,математические операции
+div,0.40,higher math,математические операции
+sin,0.40,higher math,математические операции
+cos,0.40,higher math,математические операции
+tan,0.40,higher math,математические операции
+atan,0.40,higher math,математические операции
+atan2,0.40,higher math,математические операции
+sqrt,0.40,higher math,математические операции
+log,0.40,higher math,математические операции
+exp,0.40,higher math,математические операции
+abs,0.40,higher math,математические операции
+random,0.40,higher math,математические операции
+max,0.40,higher math,математические операции
+min,0.40,higher math,математические операции
+clip,0.40,higher math,математические операции
+wrap,0.40,higher math,математические операции
+%%% STOP
 
 % io операции_ввода/вывода
 notein

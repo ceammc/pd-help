@@ -1,8 +1,153 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <library xmlns:xi="http://www.w3.org/2001/XInclude" name="puredata" version="1.0">
+  <category name="время">
+    <entry descr="измерение загрузки процессора" name="cputime" ref_view="object">
+      <xi:include href="cputime.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="отправляет сообщение через указанное время" name="delay" ref_view="object">
+      <xi:include href="delay.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="отправляет последовательность чисел с линейным переходом" name="line" ref_view="object">
+      <xi:include href="line.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="отправляет сообщения периодически" name="metro" ref_view="object">
+      <xi:include href="metro.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="измерение реального времени" name="realtime" ref_view="object">
+      <xi:include href="realtime.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="измерение временных интервалов" name="timer" ref_view="object">
+      <xi:include href="timer.pddoc" parse="xml"/>
+    </entry>
+  </category>
+  <category name="математика">
+    <entry descr="математические операции" name="abs" ref_view="object">
+      <xi:include href="abs.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="логические операции (побитовые)" name="and" ref_view="object">
+      <xi:include href="and.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="математические операции" name="atan" ref_view="object">
+      <xi:include href="atan.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="математические операции" name="atan2" ref_view="object">
+      <xi:include href="atan2.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="логические операции (побитовые)" name="bitwiseand" ref_view="object">
+      <xi:include href="bitwiseand.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="логические операции (побитовые)" name="bitwiseor" ref_view="object">
+      <xi:include href="bitwiseor.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="математические операции" name="clip" ref_view="object">
+      <xi:include href="clip.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="математические операции" name="cos" ref_view="object">
+      <xi:include href="cos.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="конвертация акустических единиц измерения" name="dbtopow" ref_view="object">
+      <xi:include href="dbtopow.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="конвертация акустических единиц измерения" name="dbtorms" ref_view="object">
+      <xi:include href="dbtorms.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="математические операции" name="div" ref_view="object">
+      <xi:include href="div.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="сравнения" name="eq" ref_view="object">
+      <xi:include href="eq.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="математические операции" name="exp" ref_view="object">
+      <xi:include href="exp.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="выражения с С-подобным синтаксисом" name="expr" ref_view="object">
+      <xi:include href="expr.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="конвертация акустических единиц измерения" name="ftom" ref_view="object">
+      <xi:include href="ftom.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="сравнения" name="gt" ref_view="object">
+      <xi:include href="gt.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="сравнения" name="gteq" ref_view="object">
+      <xi:include href="gteq.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="математические операции" name="log" ref_view="object">
+      <xi:include href="log.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="сравнения" name="lt" ref_view="object">
+      <xi:include href="lt.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="сравнения" name="lteq" ref_view="object">
+      <xi:include href="lteq.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="математические операции" name="max" ref_view="object">
+      <xi:include href="max.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="математические операции" name="min" ref_view="object">
+      <xi:include href="min.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="арифметика" name="minus" ref_view="object">
+      <xi:include href="minus.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="математические операции" name="mod" ref_view="object">
+      <xi:include href="mod.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="конвертация акустических единиц измерения" name="mtof" ref_view="object">
+      <xi:include href="mtof.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="арифметика" name="mult" ref_view="object">
+      <xi:include href="mult.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="сравнения" name="neq" ref_view="object">
+      <xi:include href="neq.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="логические операции (побитовые)" name="or" ref_view="object">
+      <xi:include href="or.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="арифметика" name="plus" ref_view="object">
+      <xi:include href="plus.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="арифметика" name="pow" ref_view="object">
+      <xi:include href="pow.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="конвертация акустических единиц измерения" name="powtodb" ref_view="object">
+      <xi:include href="powtodb.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="математические операции" name="random" ref_view="object">
+      <xi:include href="random.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="конвертация акустических единиц измерения" name="rmstodb" ref_view="object">
+      <xi:include href="rmstodb.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="логические операции (побитовые)" name="shiftleft" ref_view="object">
+      <xi:include href="shiftleft.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="логические операции (побитовые)" name="shiftright" ref_view="object">
+      <xi:include href="shiftright.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="математические операции" name="sin" ref_view="object">
+      <xi:include href="sin.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="математические операции" name="sqrt" ref_view="object">
+      <xi:include href="sqrt.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="математические операции" name="tan" ref_view="object">
+      <xi:include href="tan.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="математические операции" name="wrap" ref_view="object">
+      <xi:include href="wrap.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="логические операции (побитовые)" name="xor" ref_view="object">
+      <xi:include href="xor.pddoc" parse="xml"/>
+    </entry>
+  </category>
   <category name="основное">
     <entry descr="отправляет сообщение bang" name="bang" ref_view="object">
       <xi:include href="bang.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="удаляет одинаковые значения из потока сообщений" name="change" ref_view="object">
+      <xi:include href="change.pddoc" parse="xml"/>
     </entry>
     <entry descr="сохраняет и загружает число" name="float" ref_view="object">
       <xi:include href="float.pddoc" parse="xml"/>
@@ -10,11 +155,20 @@
     <entry descr="сохраняет и загружает число" name="int" ref_view="object">
       <xi:include href="int.pddoc" parse="xml"/>
     </entry>
+    <entry descr="работа со списками" name="list" ref_view="object">
+      <xi:include href="list.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="форматирование символа при помощи переменной" name="makefilename" ref_view="object">
+      <xi:include href="makefilename.pddoc" parse="xml"/>
+    </entry>
     <entry descr="разделяет поток чисел" name="moses" ref_view="object">
       <xi:include href="moses.pddoc" parse="xml"/>
     </entry>
     <entry descr="создает составные сообщения" name="pack" ref_view="object">
       <xi:include href="pack.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="вывод сообщений в консоль" name="print" ref_view="object">
+      <xi:include href="print.pddoc" parse="xml"/>
     </entry>
     <entry descr="принимает отправленные сообщения" name="receive" ref_view="object">
       <xi:include href="receive.pddoc" parse="xml"/>
@@ -31,11 +185,20 @@
     <entry descr="соединение сообщений с возможностью отключения" name="spigot" ref_view="object">
       <xi:include href="spigot.pddoc" parse="xml"/>
     </entry>
+    <entry descr="переставляет местами два числа" name="swap" ref_view="object">
+      <xi:include href="swap.pddoc" parse="xml"/>
+    </entry>
     <entry descr="сохраняет и загружает символ" name="symbol" ref_view="object">
       <xi:include href="symbol.pddoc" parse="xml"/>
     </entry>
     <entry descr="выстраивает сообщения в последовательность и конвертирует их" name="trigger" ref_view="object">
       <xi:include href="trigger.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="инструмент для создания циклов" name="until" ref_view="object">
+      <xi:include href="until.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="глобальная переменная" name="value" ref_view="object">
+      <xi:include href="value.pddoc" parse="xml"/>
     </entry>
   </category>
   <meta>

@@ -42,13 +42,13 @@ def basic_string(s):
 
 for e in ds:
     if e.startswith("%%% START"):
-        started = True
+        Data.started = True
         continue
     if e.startswith("%%% STOP"):
-        started = False
+        Data.started = False
         continue
 
-    if started:
+    if Data.started:
         if e.startswith("% "):
             category_string(e)
         else:

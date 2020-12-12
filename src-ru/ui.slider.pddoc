@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pddoc version="1.0">
+    <object name="ui.slider" type="gui">
+        <title>ui.slider</title>
+        <meta>
+            <authors>
+                <author>Pierre Guillot</author>
+            </authors>
+            <description>Альтернатива стандартному слайдеру</description>
+            <license>GPL3 or later</license>
+            <library>ceammc</library>
+            <category view="link">ui</category>
+            <keywords>ui slider</keywords>
+            <since>0.1</since>
+            <aliases>
+                <alias view="link">ui.hsl</alias>
+                <alias view="link">ui.vsl</alias>
+            </aliases>
+            <also>
+                <see view="link">ui.slider2d</see>
+                <see view="link">ui.sliders</see>
+                <see view="link">ui.knob</see>
+            </also>
+        </meta>
+        <info>
+            <par>[ui.hsl] - сокращение для горизонтального слайдера, [ui.vsl] - для вертикального</par>
+        </info>
+        <mouse>
+            <event editmode="true" type="drag" keys="Cmd">изменяет значение слайдера</event>
+            <event editmode="true" type="double-click" keys="Cmd">изменяет ориентацию слайдера в окне патча</event>
+            <event editmode="0" type="drag">изменяет значение слайдера</event>
+            <event editmode="0" type="drag" keys="Shift">медленно меняет значение слайдера (только если он установлен в режим относительного значения, relative mode)</event>
+            <event editmode="0" type="left-click">переходит к значению, если значение свойства @mode равно 1</event>
+            <event editmode="0" type="double-click" keys="Shift">включает/выключает режим MIDI-learn mode (отображается красной рамкой)</event>
+        </mouse>
+        <properties>
+            <property name="@min" type="float" default="0">минимальное значение слайдера</property>
+            <property name="@max" type="float" default="1">максимальное значение слайдера</property>
+            <property name="@mode" type="int" enum="0 1" default="0">режим относительного значения. Если включен, не переходит на значение по нажатию мыши</property>
+            <property name="@midi_channel" type="int" minvalue="0" maxvalue="16" default="0">канал
+            MIDI для привязки значения. 0 - принимает все каналы</property>
+            <property name="@midi_control" type="int" minvalue="0" maxvalue="128" default="0">
+            номер MIDI контроллера для привязки значения. 0 - значение слайдера не привязано.</property>
+            <property name="@midi_pickup" type="int" enum="0 1" default="1">подхватывать текущее значение по MIDI.
+            Если привязка значения слайдера к MIDI активна, в режиме @midi_pickup вам нужно пройти текущее значение слайдера при помощи миди-сообщений. Это предотвращает случайные смены значения при получении сообщений control change</property>
+            <property name="@active_scale" type="int" enum="0 1" default="0">включает режим отрисовки активной шкалы</property>
+            <property name="@value" type="float" default="0">текущее значение</property>
+            <property name="@show_value" type="int" default="0" enum="0 1">отображать значение (только в горизонтальном режиме)</property>
+            <property name="@value_pos" type="symbol" default="center" enum="left center right">
+            положение отображаемого значения</property>
+            <property name="@value_precision" type="int" default="2" minvalue="0" maxvalue="7">
+            количество цифр после запятой в отображаемом значении</property>
+            <property name="@scale" type="symbol" default="linear" enum="linear log">выбор шкалы - логарифмической или линейной.</property>
+            <!-- common -->
+            <property name="@presetname" type="symbol" default="(null)">имя пресета для использования с объектом [ui.preset]</property>
+            <property name="@send" type="symbol" default="(null)">адрес для отправки сообщения (send)</property>
+            <property name="@receive" type="symbol" default="(null)">имя источника сообщений (receive)</property>
+            <property name="@size" type="list" default="15 15">размер виджета (пара значений: ширина, высота)</property>
+            <property name="@pinned" type="int" enum="0 1" default="0">режим  if 1 - put element
+            to the lowest level</property>
+            <property name="@active_color" type="list" default="0 0.75 1 1">активный цвет (список значений для красного, зеленого и синего цветов в диапазоне 0..1)</property>
+            <property name="@background_color" type="list" default="0.93 0.93 0.93 1">цвет фона (список значений для красного, зеленого и синего цветов в диапазоне 0..1)</property>
+            <property name="@border_color" type="list" default="0.6 0.6 0.6 1">цвет рамки (список значений для красного, зеленого и синего цветов в диапазоне 0..1)</property>
+            <property name="@fontsize" type="int" minvalue="4" maxvalue="11" default="11">
+            размер шрифта</property>
+            <property name="@fontname" type="symbol" default="Helvetica">название шрифта</property>
+            <property name="@fontweight" type="symbol" enum="normal bold" default="normal">жирный шрифт</property>
+            <property name="@fontslant" type="symbol" enum="roman italic" default="roman">курсивный шрифт</property>
+            <!-- label -->
+            <property name="@label" type="symbol" default="(null)">содержимое текстовой метки</property>
+            <property name="@label_color" type="list" default="0 0 0 1">цвет текстовой метки в формате RGB в диапазоне 0-1, например 0.2 0.4 0.1</property>
+            <property name="@label_inner" type="int" enum="0 1" default="0">положение текстовой метки (1 -
+            внутри, 0 - снаружи).</property>
+            <property name="@label_align" type="symbol" enum="left center right" default="left">
+            горизонтальное выравнивание текстовой метки</property>
+            <property name="@label_valign" type="symbol" enum="top center bottom" default="top">
+            вертикальное выравнивание текстовой метки</property>
+            <property name="@label_side" type="symbol" enum="left top right bottom" default="top">
+            сторона текстовой метки, по которой происходит привязка</property>
+            <property name="@label_margins" type="list" default="0 0">смещение метки в пикселях</property>
+        </properties>
+        <methods>
+            <method name="set">устанавливает значение слайдера без отправки
+            <param name="V" type="float" required="true">новое значение</param></method>
+            <method name="++">инкремент всех значений слайдеров, без отправки на выход</method>
+            <method name="--">декремент всех значений слайдеров, без отправки на выход</method>
+            <method name="+">добавляет число к значению каждого слайдера без отправки на выход
+            <param name="V" type="float" required="true">прибавляемое значение</param></method>
+            <method name="-">вычитает число из значения каждого слайдера без отправки на выход
+            <param name="V" type="float" required="true">вычитаемое значение</param></method>
+            <method name="*">умножает число на значение каждого слайдера без отправки на выход
+            <param name="V" type="float" required="true">множитель</param></method>
+            <method name="/">делит число на значение каждого слайдера без отправки на выход
+            <param name="V" type="float" required="true">делитель</param></method>
+            <!-- presets -->
+            <method name="load">загружает указанный пресет
+            <param type="int" name="IDX" required="true">номер пресета</param></method>
+            <method name="store">сохраняет указанный пресет
+            <param type="int" name="IDX" required="true">номер пресета</param></method>
+            <method name="clear">удаляет указанный пресет
+            <param type="int" name="IDX" required="true">номер пресета</param></method>
+            <!-- common-->
+            <method name="pos">устанавливает положение виджета в патче
+            <param name="X" type="float" required="true">координата x правого верхнего угла</param>
+            <param name="Y" type="float" required="true">координата y правого верхнего угла</param></method>
+        </methods>
+        <inlets>
+            <inlet>
+                <xinfo on="bang">запускает отправку текущего значения слайдера</xinfo>
+                <xinfo on="float">устанавливает значение слайдера и отправляет его</xinfo>
+            </inlet>
+        </inlets>
+        <outlets>
+            <outlet>output value</outlet>
+        </outlets>
+        <example>
+            <pdascii>
+<![CDATA[
+[5( [50( [set 100( [bang(
+|   |    |         |
+|   |    |         |  [- 5( [+ 10( [* 2( [/ 3(
+|   |    |         |  |     |      |     |
+|   |    |         |  |     |      |     | [++, bang( [--, bang(
+|   |    |         |  |     |      |     | |          |
+[ui.slider @max 127                                   ]
+|
+|
+|
+|
+|
+|
+|
+|
+[F]
+]]>
+            </pdascii>
+        </example>
+    </object>
+</pddoc>

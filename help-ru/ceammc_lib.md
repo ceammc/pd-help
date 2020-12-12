@@ -18,6 +18,7 @@
 [**ui.bang**](ui.bang.md)	"A bang... that's all". Виджет - кнопка<br>
 [**ui.display**](ui.display.md)	Виджет - "дисплей"<br>
 [**ui.dsp~**](ui.dsp~.md)	Виджет для включения/выключения DSP<br>
+[**ui.slider**](ui.slider.md)	Альтернатива стандартному слайдеру<br>
 [**ui.sliders**](ui.sliders.md)	Виджет - мультислайдер<br>
 [**ui.spectroscope~**](ui.spectroscope~.md)	Анализатор спектра<br>
 [**ui.toggle**](ui.toggle.md)	Обновленный виджет-переключатель<br>

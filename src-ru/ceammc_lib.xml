@@ -55,6 +55,9 @@
     <entry descr="Виджет для включения/выключения DSP" name="ui.dsp~" ref_view="link">
       <xi:include href="ui.dsp~.pddoc" parse="xml"/>
     </entry>
+    <entry descr="Альтернатива стандартному слайдеру" name="ui.slider" ref_view="link">
+      <xi:include href="ui.slider.pddoc" parse="xml"/>
+    </entry>
     <entry descr="Виджет - мультислайдер" name="ui.sliders" ref_view="link">
       <xi:include href="ui.sliders.pddoc" parse="xml"/>
     </entry>

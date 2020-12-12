@@ -4,7 +4,7 @@
 # print
 
 
-вывод сообщений в консоль
+print out messages
 
 ---
 

@@ -4,7 +4,7 @@
 # symbol
 
 
-сохраняет и загружает символ
+store and recall a symbol
 
 ---
 

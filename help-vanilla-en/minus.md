@@ -4,7 +4,7 @@
 # minus
 
 
-арифметика
+arithmetic
 
 ---
 

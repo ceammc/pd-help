@@ -4,7 +4,7 @@
 # select
 
 
-проверяет на совпадение чисел или символов
+test for matching numbers or symbols
 
 ---
 

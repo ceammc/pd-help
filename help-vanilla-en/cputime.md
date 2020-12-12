@@ -4,7 +4,7 @@
 # cputime
 
 
-измерение загрузки процессора
+measure CPU time
 
 ---
 

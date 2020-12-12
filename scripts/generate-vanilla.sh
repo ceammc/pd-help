@@ -21,8 +21,9 @@ done
 rm -rf ../help-vanilla-ru/img
 mv img ../help-vanilla-ru/img
 
-###
+cd ..
 
+###
 cd src-vanilla-en
 
 # lib:

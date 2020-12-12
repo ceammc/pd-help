@@ -4,7 +4,7 @@
 # int
 
 
-сохраняет и загружает число
+store and recall a number
 
 ---
 

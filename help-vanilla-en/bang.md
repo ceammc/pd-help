@@ -4,7 +4,7 @@
 # bang
 
 
-отправляет сообщение bang
+output a bang message
 
 ---
 

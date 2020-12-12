@@ -4,7 +4,7 @@
 # shiftright
 
 
-логические операции (побитовые)
+bit twiddling
 
 ---
 

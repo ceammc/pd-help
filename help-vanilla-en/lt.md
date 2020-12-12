@@ -4,7 +4,7 @@
 # lt
 
 
-сравнения
+relational tests
 
 ---
 

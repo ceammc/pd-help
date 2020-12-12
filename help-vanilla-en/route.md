@@ -4,7 +4,7 @@
 # route
 
 
-маршрутизирует сообщения в соответствии с их первым элементом
+route messages according to first element
 
 ---
 

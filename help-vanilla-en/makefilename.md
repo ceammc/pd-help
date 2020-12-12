@@ -4,7 +4,7 @@
 # makefilename
 
 
-форматирование символа при помощи переменной
+format a symbol with a variable field
 
 ---
 

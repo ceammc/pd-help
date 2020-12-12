@@ -4,7 +4,7 @@
 # gteq
 
 
-сравнения
+relational tests
 
 ---
 

@@ -4,7 +4,7 @@
 # mult
 
 
-арифметика
+arithmetic
 
 ---
 

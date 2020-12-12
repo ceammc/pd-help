@@ -4,7 +4,7 @@
 # gt
 
 
-сравнения
+relational tests
 
 ---
 

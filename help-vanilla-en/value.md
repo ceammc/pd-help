@@ -4,7 +4,7 @@
 # value
 
 
-глобальная переменная
+shared numeric value
 
 ---
 

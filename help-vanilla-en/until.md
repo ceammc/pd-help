@@ -4,7 +4,7 @@
 # until
 
 
-инструмент для создания циклов
+looping mechanism
 
 ---
 

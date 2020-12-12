@@ -4,7 +4,7 @@
 # delay
 
 
-отправляет сообщение через указанное время
+send a message after a time delay
 
 ---
 

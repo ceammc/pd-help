@@ -4,7 +4,7 @@
 # moses
 
 
-разделяет поток чисел
+part a numeric stream
 
 ---
 

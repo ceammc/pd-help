@@ -4,7 +4,7 @@
 # metro
 
 
-отправляет сообщения периодически
+send a message periodically
 
 ---
 

@@ -1,68 +1,68 @@
-#### время<br>
-[**cputime**](cputime.md)	измерение загрузки процессора<br>
-[**delay**](delay.md)	отправляет сообщение через указанное время<br>
-[**line**](line.md)	отправляет последовательность чисел с линейным переходом<br>
-[**metro**](metro.md)	отправляет сообщения периодически<br>
-[**realtime**](realtime.md)	измерение реального времени<br>
-[**timer**](timer.md)	измерение временных интервалов<br>
-#### математика<br>
-[**abs**](abs.md)	математические операции<br>
-[**and**](and.md)	логические операции (побитовые)<br>
-[**atan**](atan.md)	математические операции<br>
-[**atan2**](atan2.md)	математические операции<br>
-[**bitwiseand**](bitwiseand.md)	логические операции (побитовые)<br>
-[**bitwiseor**](bitwiseor.md)	логические операции (побитовые)<br>
-[**clip**](clip.md)	математические операции<br>
-[**cos**](cos.md)	математические операции<br>
-[**dbtopow**](dbtopow.md)	конвертация акустических единиц измерения<br>
-[**dbtorms**](dbtorms.md)	конвертация акустических единиц измерения<br>
-[**div**](div.md)	математические операции<br>
-[**eq**](eq.md)	сравнения<br>
-[**exp**](exp.md)	математические операции<br>
-[**expr**](expr.md)	выражения с С-подобным синтаксисом<br>
-[**ftom**](ftom.md)	конвертация акустических единиц измерения<br>
-[**gt**](gt.md)	сравнения<br>
-[**gteq**](gteq.md)	сравнения<br>
-[**log**](log.md)	математические операции<br>
-[**lt**](lt.md)	сравнения<br>
-[**lteq**](lteq.md)	сравнения<br>
-[**max**](max.md)	математические операции<br>
-[**min**](min.md)	математические операции<br>
-[**minus**](minus.md)	арифметика<br>
-[**mod**](mod.md)	математические операции<br>
-[**mtof**](mtof.md)	конвертация акустических единиц измерения<br>
-[**mult**](mult.md)	арифметика<br>
-[**neq**](neq.md)	сравнения<br>
-[**or**](or.md)	логические операции (побитовые)<br>
-[**plus**](plus.md)	арифметика<br>
-[**pow**](pow.md)	арифметика<br>
-[**powtodb**](powtodb.md)	конвертация акустических единиц измерения<br>
-[**random**](random.md)	математические операции<br>
-[**rmstodb**](rmstodb.md)	конвертация акустических единиц измерения<br>
-[**shiftleft**](shiftleft.md)	логические операции (побитовые)<br>
-[**shiftright**](shiftright.md)	логические операции (побитовые)<br>
-[**sin**](sin.md)	математические операции<br>
-[**sqrt**](sqrt.md)	математические операции<br>
-[**tan**](tan.md)	математические операции<br>
-[**wrap**](wrap.md)	математические операции<br>
-[**xor**](xor.md)	логические операции (побитовые)<br>
-#### основное<br>
-[**bang**](bang.md)	отправляет сообщение bang<br>
-[**change**](change.md)	удаляет одинаковые значения из потока сообщений<br>
-[**float**](float.md)	сохраняет и загружает число<br>
-[**int**](int.md)	сохраняет и загружает число<br>
-[**list**](list.md)	работа со списками<br>
-[**makefilename**](makefilename.md)	форматирование символа при помощи переменной<br>
-[**moses**](moses.md)	разделяет поток чисел<br>
-[**pack**](pack.md)	создает составные сообщения<br>
-[**print**](print.md)	вывод сообщений в консоль<br>
-[**receive**](receive.md)	принимает отправленные сообщения<br>
-[**route**](route.md)	маршрутизирует сообщения в соответствии с их первым элементом<br>
-[**select**](select.md)	проверяет на совпадение чисел или символов<br>
-[**send**](send.md)	отправляет сообщение объекту с указанным именем<br>
-[**spigot**](spigot.md)	соединение сообщений с возможностью отключения<br>
-[**swap**](swap.md)	переставляет местами два числа<br>
-[**symbol**](symbol.md)	сохраняет и загружает символ<br>
-[**trigger**](trigger.md)	выстраивает сообщения в последовательность и конвертирует их<br>
-[**until**](until.md)	инструмент для создания циклов<br>
-[**value**](value.md)	глобальная переменная<br>
+#### general<br>
+[**bang**](bang.md)	output a bang message<br>
+[**change**](change.md)	remove repeated numbers from a stream<br>
+[**float**](float.md)	store and recall a number<br>
+[**int**](int.md)	store and recall a number<br>
+[**list**](list.md)	manipulate lists<br>
+[**makefilename**](makefilename.md)	format a symbol with a variable field<br>
+[**moses**](moses.md)	part a numeric stream<br>
+[**pack**](pack.md)	make compound messages<br>
+[**print**](print.md)	print out messages<br>
+[**receive**](receive.md)	catch "sent" messages<br>
+[**route**](route.md)	route messages according to first element<br>
+[**select**](select.md)	test for matching numbers or symbols<br>
+[**send**](send.md)	send a message to a named object<br>
+[**spigot**](spigot.md)	interruptible message connection<br>
+[**swap**](swap.md)	swap two numbers<br>
+[**symbol**](symbol.md)	store and recall a symbol<br>
+[**trigger**](trigger.md)	sequence and convert messages<br>
+[**until**](until.md)	looping mechanism<br>
+[**value**](value.md)	shared numeric value<br>
+#### math<br>
+[**abs**](abs.md)	higher math<br>
+[**and**](and.md)	bit twiddling<br>
+[**atan**](atan.md)	higher math<br>
+[**atan2**](atan2.md)	higher math<br>
+[**bitwiseand**](bitwiseand.md)	bit twiddling<br>
+[**bitwiseor**](bitwiseor.md)	bit twiddling<br>
+[**clip**](clip.md)	higher math<br>
+[**cos**](cos.md)	higher math<br>
+[**dbtopow**](dbtopow.md)	convert acoustical units<br>
+[**dbtorms**](dbtorms.md)	convert acoustical units<br>
+[**div**](div.md)	higher math<br>
+[**eq**](eq.md)	relational tests<br>
+[**exp**](exp.md)	higher math<br>
+[**expr**](expr.md)	С-style expressions<br>
+[**ftom**](ftom.md)	convert acoustical units<br>
+[**gt**](gt.md)	relational tests<br>
+[**gteq**](gteq.md)	relational tests<br>
+[**log**](log.md)	higher math<br>
+[**lt**](lt.md)	relational tests<br>
+[**lteq**](lteq.md)	relational tests<br>
+[**max**](max.md)	higher math<br>
+[**min**](min.md)	higher math<br>
+[**minus**](minus.md)	arithmetic<br>
+[**mod**](mod.md)	higher math<br>
+[**mtof**](mtof.md)	convert acoustical units<br>
+[**mult**](mult.md)	arithmetic<br>
+[**neq**](neq.md)	relational tests<br>
+[**or**](or.md)	bit twiddling<br>
+[**plus**](plus.md)	arithmetic<br>
+[**pow**](pow.md)	arithmetic<br>
+[**powtodb**](powtodb.md)	convert acoustical units<br>
+[**random**](random.md)	higher math<br>
+[**rmstodb**](rmstodb.md)	convert acoustical units<br>
+[**shiftleft**](shiftleft.md)	bit twiddling<br>
+[**shiftright**](shiftright.md)	bit twiddling<br>
+[**sin**](sin.md)	higher math<br>
+[**sqrt**](sqrt.md)	higher math<br>
+[**tan**](tan.md)	higher math<br>
+[**wrap**](wrap.md)	higher math<br>
+[**xor**](xor.md)	bit twiddling<br>
+#### time<br>
+[**cputime**](cputime.md)	measure CPU time<br>
+[**delay**](delay.md)	send a message after a time delay<br>
+[**line**](line.md)	send a series of lineary stepped numbered<br>
+[**metro**](metro.md)	send a message periodically<br>
+[**realtime**](realtime.md)	measure real time<br>
+[**timer**](timer.md)	measure time intervals<br>

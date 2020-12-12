@@ -4,7 +4,7 @@
 # line
 
 
-отправляет последовательность чисел с линейным переходом
+send a series of lineary stepped numbered
 
 ---
 

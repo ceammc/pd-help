@@ -4,7 +4,7 @@
 # pack
 
 
-создает составные сообщения
+make compound messages
 
 ---
 

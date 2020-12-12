@@ -4,7 +4,7 @@
 # eq
 
 
-сравнения
+relational tests
 
 ---
 

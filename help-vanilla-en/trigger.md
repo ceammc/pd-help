@@ -4,7 +4,7 @@
 # trigger
 
 
-выстраивает сообщения в последовательность и конвертирует их
+sequence and convert messages
 
 ---
 

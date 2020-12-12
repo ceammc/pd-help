@@ -4,7 +4,7 @@
 # realtime
 
 
-измерение реального времени
+measure real time
 
 ---
 

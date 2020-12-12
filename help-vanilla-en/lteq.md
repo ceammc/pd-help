@@ -4,7 +4,7 @@
 # lteq
 
 
-сравнения
+relational tests
 
 ---
 

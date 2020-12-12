@@ -4,7 +4,7 @@
 # change
 
 
-удаляет одинаковые значения из потока сообщений
+remove repeated numbers from a stream
 
 ---
 

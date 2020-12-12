@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library xmlns:xi="http://www.w3.org/2001/XInclude" name="puredata" version="1.0">
+  <category name="general">
+    <entry descr="output a bang message" name="bang" ref_view="object">
+      <xi:include href="bang.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="remove repeated numbers from a stream" name="change" ref_view="object">
+      <xi:include href="change.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="store and recall a number" name="float" ref_view="object">
+      <xi:include href="float.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="store and recall a number" name="int" ref_view="object">
+      <xi:include href="int.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="manipulate lists" name="list" ref_view="object">
+      <xi:include href="list.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="format a symbol with a variable field" name="makefilename" ref_view="object">
+      <xi:include href="makefilename.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="part a numeric stream" name="moses" ref_view="object">
+      <xi:include href="moses.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="make compound messages" name="pack" ref_view="object">
+      <xi:include href="pack.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="print out messages" name="print" ref_view="object">
+      <xi:include href="print.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="catch &quot;sent&quot; messages" name="receive" ref_view="object">
+      <xi:include href="receive.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="route messages according to first element" name="route" ref_view="object">
+      <xi:include href="route.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="test for matching numbers or symbols" name="select" ref_view="object">
+      <xi:include href="select.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="send a message to a named object" name="send" ref_view="object">
+      <xi:include href="send.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="interruptible message connection" name="spigot" ref_view="object">
+      <xi:include href="spigot.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="swap two numbers" name="swap" ref_view="object">
+      <xi:include href="swap.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="store and recall a symbol" name="symbol" ref_view="object">
+      <xi:include href="symbol.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="sequence and convert messages" name="trigger" ref_view="object">
+      <xi:include href="trigger.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="looping mechanism" name="until" ref_view="object">
+      <xi:include href="until.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="shared numeric value" name="value" ref_view="object">
+      <xi:include href="value.pddoc" parse="xml"/>
+    </entry>
+  </category>
+  <category name="math">
+    <entry descr="higher math" name="abs" ref_view="object">
+      <xi:include href="abs.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="bit twiddling" name="and" ref_view="object">
+      <xi:include href="and.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="higher math" name="atan" ref_view="object">
+      <xi:include href="atan.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="higher math" name="atan2" ref_view="object">
+      <xi:include href="atan2.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="bit twiddling" name="bitwiseand" ref_view="object">
+      <xi:include href="bitwiseand.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="bit twiddling" name="bitwiseor" ref_view="object">
+      <xi:include href="bitwiseor.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="higher math" name="clip" ref_view="object">
+      <xi:include href="clip.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="higher math" name="cos" ref_view="object">
+      <xi:include href="cos.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="convert acoustical units" name="dbtopow" ref_view="object">
+      <xi:include href="dbtopow.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="convert acoustical units" name="dbtorms" ref_view="object">
+      <xi:include href="dbtorms.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="higher math" name="div" ref_view="object">
+      <xi:include href="div.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="relational tests" name="eq" ref_view="object">
+      <xi:include href="eq.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="higher math" name="exp" ref_view="object">
+      <xi:include href="exp.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="С-style expressions" name="expr" ref_view="object">
+      <xi:include href="expr.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="convert acoustical units" name="ftom" ref_view="object">
+      <xi:include href="ftom.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="relational tests" name="gt" ref_view="object">
+      <xi:include href="gt.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="relational tests" name="gteq" ref_view="object">
+      <xi:include href="gteq.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="higher math" name="log" ref_view="object">
+      <xi:include href="log.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="relational tests" name="lt" ref_view="object">
+      <xi:include href="lt.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="relational tests" name="lteq" ref_view="object">
+      <xi:include href="lteq.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="higher math" name="max" ref_view="object">
+      <xi:include href="max.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="higher math" name="min" ref_view="object">
+      <xi:include href="min.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="arithmetic" name="minus" ref_view="object">
+      <xi:include href="minus.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="higher math" name="mod" ref_view="object">
+      <xi:include href="mod.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="convert acoustical units" name="mtof" ref_view="object">
+      <xi:include href="mtof.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="arithmetic" name="mult" ref_view="object">
+      <xi:include href="mult.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="relational tests" name="neq" ref_view="object">
+      <xi:include href="neq.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="bit twiddling" name="or" ref_view="object">
+      <xi:include href="or.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="arithmetic" name="plus" ref_view="object">
+      <xi:include href="plus.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="arithmetic" name="pow" ref_view="object">
+      <xi:include href="pow.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="convert acoustical units" name="powtodb" ref_view="object">
+      <xi:include href="powtodb.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="higher math" name="random" ref_view="object">
+      <xi:include href="random.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="convert acoustical units" name="rmstodb" ref_view="object">
+      <xi:include href="rmstodb.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="bit twiddling" name="shiftleft" ref_view="object">
+      <xi:include href="shiftleft.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="bit twiddling" name="shiftright" ref_view="object">
+      <xi:include href="shiftright.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="higher math" name="sin" ref_view="object">
+      <xi:include href="sin.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="higher math" name="sqrt" ref_view="object">
+      <xi:include href="sqrt.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="higher math" name="tan" ref_view="object">
+      <xi:include href="tan.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="higher math" name="wrap" ref_view="object">
+      <xi:include href="wrap.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="bit twiddling" name="xor" ref_view="object">
+      <xi:include href="xor.pddoc" parse="xml"/>
+    </entry>
+  </category>
+  <category name="time">
+    <entry descr="measure CPU time" name="cputime" ref_view="object">
+      <xi:include href="cputime.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="send a message after a time delay" name="delay" ref_view="object">
+      <xi:include href="delay.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="send a series of lineary stepped numbered" name="line" ref_view="object">
+      <xi:include href="line.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="send a message periodically" name="metro" ref_view="object">
+      <xi:include href="metro.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="measure real time" name="realtime" ref_view="object">
+      <xi:include href="realtime.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="measure time intervals" name="timer" ref_view="object">
+      <xi:include href="timer.pddoc" parse="xml"/>
+    </entry>
+  </category>
+  <meta>
+    <version>0.0</version>
+    <authors>
+      <author>Miller Smith Puckette</author>
+    </authors>
+  </meta>
+</library>
+

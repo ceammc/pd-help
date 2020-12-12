@@ -4,7 +4,7 @@
 # neq
 
 
-сравнения
+relational tests
 
 ---
 

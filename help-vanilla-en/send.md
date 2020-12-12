@@ -4,7 +4,7 @@
 # send
 
 
-отправляет сообщение объекту с указанным именем
+send a message to a named object
 
 ---
 

@@ -4,7 +4,7 @@
 # spigot
 
 
-соединение сообщений с  возможностью отключения
+interruptible message connection
 
 ---
 

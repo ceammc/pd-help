@@ -4,7 +4,7 @@
 # list
 
 
-работа со списками
+manipulate lists
 
 ---
 

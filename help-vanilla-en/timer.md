@@ -4,7 +4,7 @@
 # timer
 
 
-измерение временных интервалов
+measure time intervals
 
 ---
 

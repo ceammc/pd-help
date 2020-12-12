@@ -4,7 +4,7 @@
 # bitwiseand
 
 
-логические операции (побитовые)
+bit twiddling
 
 ---
 

@@ -6,7 +6,7 @@
             <authors>
                 <author>Serge Poltavsky</author>
             </authors>
-            <description>resample list with specified ratio</description>
+            <description>Передискретизация списка с указанным количеством элементов</description>
             <license>GPL3 or later</license>
             <library>ceammc</library>
             <category>list</category>
@@ -20,24 +20,23 @@
             </also>
         </meta>
         <properties>
-            <property name="@ratio" type="float" minvalue="0" maxvalue="100" default="1">resample
-            ratio (src/dest)</property>
+            <property name="@ratio" type="float" minvalue="0" maxvalue="100" default="1">соотношение (ratio) размеров списков (входной/выходной) для дискретизации</property>
         </properties>
         <arguments>
-            <argument name="RATIO" type="float" minvalue="0" maxvalue="100">resample
-            ratio</argument>
+            <argument name="RATIO" type="float" minvalue="0" maxvalue="100">соотношение
+            (ratio)</argument>
         </arguments>
         <inlets>
             <inlet>
-                <xinfo on="list">input list.</xinfo>
-                <xinfo on="data:mlist">input mlist</xinfo>
+                <xinfo on="list">входящий список</xinfo>
+                <xinfo on="data:mlist">входящий многоуровневый список (mlist)</xinfo>
             </inlet>
             <inlet>
-                <xinfo>set ratio</xinfo>
+                <xinfo>устанавливает соотношение (ratio)</xinfo>
             </inlet>
         </inlets>
         <outlets>
-            <outlet>new modified list</outlet>
+            <outlet>новый модифицированный список</outlet>
         </outlets>
         <example>
             <pdascii>

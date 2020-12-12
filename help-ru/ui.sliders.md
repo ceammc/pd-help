@@ -1,14 +1,13 @@
 [< справка — содержание](ceammc_lib.html)
 ---
 
-# ui.bang
+# ui.sliders
 
 
-&#34;A bang... that&#39;s all&#34;. Виджет - кнопка
+Виджет - мультислайдер
 
 ---
 
-полностью аналогичен стандартному объекту bng
 <br>
 
 
@@ -18,13 +17,25 @@
 ```
 
 
-[dump(
+[1 2 3 4 5( [0 30(              [F]         [T]
+|           |                   |           |
+|  [B]      [list.seq]          [@count $1( [@auto_range $1(
+|  |        |                   |           |
+|  |        | [F]               |           |
+|  |        | |                 |           |   [select 4(
+|  |        | [set slider 4 $1( |           |   |
+|  |        | |                 |           |   |
+|  |        | |                 |           |   |  /*vertical slider*/
+|  |        | |                 |           |   |
+[ui.sliders       @max 10  @presetname sl-help  ]  [ui.sliders @size 100 150]
 |
-[ui.bang @size=40x40 @send=b_out @receive=b_in]
 |
-|      [B]
-|      |
-[B]    [s b_in]
+|
+|
+|
+|
+|
+[ui.display @display_type=1]
 
             
 ```
@@ -32,10 +43,19 @@
 ---
 аргументы:
 
+N: количество слайдеров<br>
 
 ---
 свойства:
 
+@count: количество слайдеров<br>
+@min: минимальное значение<br>
+@max: максимальное значение<br>
+@range: диапазон значений<br>
+@value: значения слайдеров<br>
+@auto_range: если равно 1, устанавливает количество слайдеров равным количеству элементов во входящем списке<br>
+@show_range: если равно 1, показывает диапазон значений слайдеров<br>
+@presetname: имя пресета для использования с объектом [ui.preset]<br>
 @send: адрес для отправки сообщения (send)<br>
 @receive: имя источника сообщений (receive)<br>
 @size: размер виджета (пара значений: ширина, высота)<br>
@@ -63,4 +83,5 @@
 
 ---
 смотрите также:<br>
-[![ui.toggle](img/object_ui.toggle.png)](ui.toggle.html)
+[![ui.slider](img/object_ui.slider.png)](ui.slider.html)
+[![ui.preset](img/object_ui.preset.png)](ui.preset.html)

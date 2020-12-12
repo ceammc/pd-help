@@ -21,6 +21,12 @@
     <entry descr="Создает список указанной длины при помощи внешнего генератора" name="list.gen" ref_view="object">
       <xi:include href="list.gen.pddoc" parse="xml"/>
     </entry>
+    <entry descr="Свертка списка - последовательно применяет функцию, принимающую два аргумента, к элементам списка." name="list.reduce" ref_view="object">
+      <xi:include href="list.reduce.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="Передискретизация списка с указанным количеством элементов" name="list.resample" ref_view="object">
+      <xi:include href="list.resample.pddoc" parse="xml"/>
+    </entry>
     <entry descr="Генератор последовательностей чисел" name="list.seq" ref_view="object">
       <xi:include href="list.seq.pddoc" parse="xml"/>
     </entry>
@@ -48,6 +54,9 @@
     </entry>
     <entry descr="Виджет для включения/выключения DSP" name="ui.dsp~" ref_view="link">
       <xi:include href="ui.dsp~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="Виджет - мультислайдер" name="ui.sliders" ref_view="link">
+      <xi:include href="ui.sliders.pddoc" parse="xml"/>
     </entry>
     <entry descr="Анализатор спектра" name="ui.spectroscope~" ref_view="link">
       <xi:include href="ui.spectroscope~.pddoc" parse="xml"/>

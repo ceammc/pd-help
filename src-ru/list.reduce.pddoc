@@ -6,7 +6,7 @@
             <authors>
                 <author>Serge Poltavsky</author>
             </authors>
-            <description>apply function of two arguments cumulatively to the list</description>
+            <description>Свертка списка - последовательно применяет функцию, принимающую два аргумента, к элементам списка.</description>
             <license>GPL3 or later</license>
             <library>ceammc</library>
             <category>list</category>
@@ -20,24 +20,22 @@
             </also>
         </meta>
         <info>
-            <par>Apply function of two arguments cumulatively to the list, from left to right, so
-            as to reduce the list to a single value.</par>
-            <par>You can imagine this process as a space replacement between elements with binary
-            function, for example: 1 2 3 4 5 becames ((((1+2)+3)+4)+5) after reducing with
+            <par>Последовательно применяет функцию, принимающую два аргумента, к элементам списка, слева направо. В результате получается одно значение.</par>
+            <par>Вы можете представить этот процесс как замену "пробела" между элементами списка бинарнам оператором. Например, список 1 2 3 4 5 становится ((((1+2)+3)+4)+5) в результате использования оператора
             "+".</par>
         </info>
         <inlets>
             <inlet>
-                <xinfo on="list">input list</xinfo>
-                <xinfo on="data:mlist">input mlist</xinfo>
+                <xinfo on="list">входящий список</xinfo>
+                <xinfo on="data:mlist">входящий многоуровневый список (mlist)</xinfo>
             </inlet>
             <inlet>
-                <xinfo on="any">value from binary function</xinfo>
+                <xinfo on="any">значение - результат вычисления функции с двумя аргументами</xinfo>
             </inlet>
         </inlets>
         <outlets>
-            <outlet>output value</outlet>
-            <outlet>pair value to binary function</outlet>
+            <outlet>выходящее значение</outlet>
+            <outlet>пара значений для отправки функции с двумя аргументами</outlet>
         </outlets>
         <example>
             <pdascii>

@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <library xmlns:xi="http://www.w3.org/2001/XInclude" name="puredata" version="1.0">
+  <category name="аудио линии задержки">
+    <entry descr="чтение из линии задержки с изменяемым значением времени" name="delread4~" ref_view="object">
+      <xi:include href="delread4~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="чтение из линии задержки" name="delread~" ref_view="object">
+      <xi:include href="delread~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="запись в линию задержки" name="delwrite~" ref_view="object">
+      <xi:include href="delwrite~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="чтение из линии задержки с изменяемым значением времени" name="vd~" ref_view="object">
+      <xi:include href="vd~.pddoc" parse="xml"/>
+    </entry>
+  </category>
   <category name="аудио математика">
     <entry descr="абсолютное значение сигнала" name="abs~" ref_view="object">
       <xi:include href="abs~.pddoc" parse="xml"/>
@@ -128,6 +142,85 @@
     </entry>
     <entry descr="запись аудиофайла на диск" name="writesf~" ref_view="object">
       <xi:include href="writesf~.pddoc" parse="xml"/>
+    </entry>
+  </category>
+  <category name="аудио осцилляторы и таблицы">
+    <entry descr="вейвшейпер с синусоидальной передаточной функцией (cosine waveshaper)" name="cos~" ref_view="object">
+      <xi:include href="cos~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="осцилятор с синусоидальной (cosine) формой волны" name="osc~" ref_view="object">
+      <xi:include href="osc~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="пилообразный осцилятор" name="phasor~" ref_view="object">
+      <xi:include href="phasor~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="осцилятор с таблицей для формы волны" name="tabosc4~" ref_view="object">
+      <xi:include href="tabosc4~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="чтение из таблицы без транспозиции" name="tabplay~" ref_view="object">
+      <xi:include href="tabplay~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="чтение из таблицы с 4-точечной интерполяцией" name="tabread4~" ref_view="object">
+      <xi:include href="tabread4~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="чтение из таблицы без интерполяции" name="tabread~" ref_view="object">
+      <xi:include href="tabread~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="непрерывное чтение одного блока из таблицы" name="tabreceive~" ref_view="object">
+      <xi:include href="tabreceive~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="непрерывная запись одного блока в таблицу" name="tabsend~" ref_view="object">
+      <xi:include href="tabsend~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="запись в таблицу" name="tabwrite~" ref_view="object">
+      <xi:include href="tabwrite~.pddoc" parse="xml"/>
+    </entry>
+  </category>
+  <category name="аудио фильтры">
+    <entry descr="биквадратный фильтр" name="biquad~" ref_view="object">
+      <xi:include href="biquad~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="полосовой фильтр (band pass)" name="bp~" ref_view="object">
+      <xi:include href="bp~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="&quot;полюс&quot; фильтра для работы с комплексными числами" name="cpole~" ref_view="object">
+      <xi:include href="cpole~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="&quot;ноль&quot; фильтра для работы с комплексными числами" name="czero_rev~" ref_view="object">
+      <xi:include href="czero_rev~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="отслеживание огибающей сигнала" name="env~" ref_view="object">
+      <xi:include href="env~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="высокочастотный фильтр (high pass)" name="hip~" ref_view="object">
+      <xi:include href="hip~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="низкочастотный фильтр (low pass)" name="lop~" ref_view="object">
+      <xi:include href="lop~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="генератор белого шума" name="noise~" ref_view="object">
+      <xi:include href="noise~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="печатает содержимое аудио блоков" name="print~" ref_view="object">
+      <xi:include href="print~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="&quot;полюс&quot; фильтра для работы с действительными числами" name="rpole~" ref_view="object">
+      <xi:include href="rpole~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="&quot;ноль&quot; фильтра для работы с действительными числами" name="rzero_rev~" ref_view="object">
+      <xi:include href="rzero_rev~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="&quot;ноль&quot; фильтра для работы с действительными числами" name="rzero~" ref_view="object">
+      <xi:include href="rzero~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="семплирование (sample-and-hold)" name="samphold~" ref_view="object">
+      <xi:include href="samphold~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="нелинейный низкочастотный фильтр с ограничением скорости изменения значения" name="slop~" ref_view="object">
+      <xi:include href="slop~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="фильтр с управляемыми параметрами (VCF)" name="vcf~" ref_view="object">
+      <xi:include href="vcf~.pddoc" parse="xml"/>
     </entry>
   </category>
   <category name="время">
@@ -461,6 +554,32 @@
     </entry>
     <entry descr="конвертер текстового файла в сообщения" name="textfile" ref_view="object">
       <xi:include href="textfile.pddoc" parse="xml"/>
+    </entry>
+  </category>
+  <category name="субпатчи">
+    <entry descr="установить размер блока и наложения (overlap)" name="block~" ref_view="object">
+      <xi:include href="block~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="множественные копии субпатча" name="clone" ref_view="object">
+      <xi:include href="clone.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="добавить вход в субпатч" name="inlet" ref_view="object">
+      <xi:include href="inlet.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="добавить аудио вход в субпатч" name="inlet~" ref_view="object">
+      <xi:include href="inlet~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="добавить выход в субпатч" name="outlet" ref_view="object">
+      <xi:include href="outlet.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="добавить аудио выход в субпатч" name="outlet~" ref_view="object">
+      <xi:include href="outlet~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="создать субпатч" name="pd" ref_view="object">
+      <xi:include href="pd.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="включает и выключает субпатчи" name="switch" ref_view="object">
+      <xi:include href="switch.pddoc" parse="xml"/>
     </entry>
   </category>
   <meta>

@@ -5,6 +5,27 @@
 [**tabread**](tabread.md)	read a number from a table<br>
 [**tabread4**](tabread4.md)	read a number from a table with interpolation<br>
 [**tabwrite**](tabwrite.md)	write a number to a table<br>
+#### audio delay<br>
+[**delread4~**](delread4~.md)	read with a time-varying delay time<br>
+[**delread~**](delread~.md)	read from a delay line<br>
+[**delwrite~**](delwrite~.md)	write to a delay line<br>
+[**vd~**](vd~.md)	read with a time-varying delay time<br>
+#### audio filters<br>
+[**biquad~**](biquad~.md)	raw filter<br>
+[**bp~**](bp~.md)	band pass filter<br>
+[**cpole~**](cpole~.md)	raw complex-valued one-pole filter<br>
+[**czero_rev~**](czero_rev~.md)	time-reversed raw complex-valued one-zero filter<br>
+[**env~**](env~.md)	envelope follower<br>
+[**hip~**](hip~.md)	high pass filter<br>
+[**lop~**](lop~.md)	low pass filter<br>
+[**noise~**](noise~.md)	white noise generator<br>
+[**print~**](print~.md)	print out one or more "blocks"<br>
+[**rpole~**](rpole~.md)	raw real-valued one-pole filter<br>
+[**rzero_rev~**](rzero_rev~.md)	time-reversed raw real-valued one-zero filter<br>
+[**rzero~**](rzero~.md)	raw real-valued one-zero filter<br>
+[**samphold~**](samphold~.md)	sample and hold unit<br>
+[**slop~**](slop~.md)	slew-limiting (nonlinear) low pass filter<br>
+[**vcf~**](vcf~.md)	voltage controlled filter<br>
 #### audio math<br>
 [**abs~**](abs~.md)	absolute value<br>
 [**clip~**](clip~.md)	constrict signal to lie between two bounds<br>
@@ -33,6 +54,17 @@
 [**rsqrt~**](rsqrt~.md)	approximate(16-bit) reciprocal square root<br>
 [**sqrt~**](sqrt~.md)	approximate(16-bit) square root<br>
 [**wrap~**](wrap~.md)	wraparound (fractional part)<br>
+#### audio oscillators and tables<br>
+[**cos~**](cos~.md)	cosine waveshaper<br>
+[**osc~**](osc~.md)	cosine oscillator<br>
+[**phasor~**](phasor~.md)	sawtooth oscillator<br>
+[**tabosc4~**](tabosc4~.md)	wavetable oscillator<br>
+[**tabplay~**](tabplay~.md)	play back from a table (non-transposing)<br>
+[**tabread4~**](tabread4~.md)	four-point interpolating table read<br>
+[**tabread~**](tabread~.md)	non-interpolating table read<br>
+[**tabreceive~**](tabreceive~.md)	read one block continuously from a table<br>
+[**tabsend~**](tabsend~.md)	write one block continuously to a table<br>
+[**tabwrite~**](tabwrite~.md)	write to a table<br>
 #### general<br>
 [**bang**](bang.md)	output a bang message<br>
 [**change**](change.md)	remove repeated numbers from a stream<br>
@@ -148,6 +180,15 @@
 [**savestate**](savestate.md)	mechanism for saving state of an abstraction<br>
 [**text**](text.md)	general text handling<br>
 [**textfile**](textfile.md)	file to message converter<br>
+#### subwindows<br>
+[**block~**](block~.md)	specify block size and overlap<br>
+[**clone**](clone.md)	multiple copies of a patch<br>
+[**inlet**](inlet.md)	add an inlet to a pd<br>
+[**inlet~**](inlet~.md)	add a signal inlet to a pd<br>
+[**outlet**](outlet.md)	add an outlet to a pd<br>
+[**outlet~**](outlet~.md)	add a signal outlet to a pd<br>
+[**pd**](pd.md)	define a subwindow<br>
+[**switch**](switch.md)	switch subpatches on and off<br>
 #### time<br>
 [**cputime**](cputime.md)	measure CPU time<br>
 [**delay**](delay.md)	send a message after a time delay<br>

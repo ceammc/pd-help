@@ -20,6 +20,67 @@
       <xi:include href="tabwrite.pddoc" parse="xml"/>
     </entry>
   </category>
+  <category name="audio delay">
+    <entry descr="read with a time-varying delay time" name="delread4~" ref_view="object">
+      <xi:include href="delread4~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="read from a delay line" name="delread~" ref_view="object">
+      <xi:include href="delread~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="write to a delay line" name="delwrite~" ref_view="object">
+      <xi:include href="delwrite~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="read with a time-varying delay time" name="vd~" ref_view="object">
+      <xi:include href="vd~.pddoc" parse="xml"/>
+    </entry>
+  </category>
+  <category name="audio filters">
+    <entry descr="raw filter" name="biquad~" ref_view="object">
+      <xi:include href="biquad~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="band pass filter" name="bp~" ref_view="object">
+      <xi:include href="bp~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="raw complex-valued one-pole filter" name="cpole~" ref_view="object">
+      <xi:include href="cpole~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="time-reversed raw complex-valued one-zero filter" name="czero_rev~" ref_view="object">
+      <xi:include href="czero_rev~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="envelope follower" name="env~" ref_view="object">
+      <xi:include href="env~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="high pass filter" name="hip~" ref_view="object">
+      <xi:include href="hip~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="low pass filter" name="lop~" ref_view="object">
+      <xi:include href="lop~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="white noise generator" name="noise~" ref_view="object">
+      <xi:include href="noise~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="print out one or more &quot;blocks&quot;" name="print~" ref_view="object">
+      <xi:include href="print~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="raw real-valued one-pole filter" name="rpole~" ref_view="object">
+      <xi:include href="rpole~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="time-reversed raw real-valued one-zero filter" name="rzero_rev~" ref_view="object">
+      <xi:include href="rzero_rev~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="raw real-valued one-zero filter" name="rzero~" ref_view="object">
+      <xi:include href="rzero~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="sample and hold unit" name="samphold~" ref_view="object">
+      <xi:include href="samphold~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="slew-limiting (nonlinear) low pass filter" name="slop~" ref_view="object">
+      <xi:include href="slop~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="voltage controlled filter" name="vcf~" ref_view="object">
+      <xi:include href="vcf~.pddoc" parse="xml"/>
+    </entry>
+  </category>
   <category name="audio math">
     <entry descr="absolute value" name="abs~" ref_view="object">
       <xi:include href="abs~.pddoc" parse="xml"/>
@@ -101,6 +162,38 @@
     </entry>
     <entry descr="wraparound (fractional part)" name="wrap~" ref_view="object">
       <xi:include href="wrap~.pddoc" parse="xml"/>
+    </entry>
+  </category>
+  <category name="audio oscillators and tables">
+    <entry descr="cosine waveshaper" name="cos~" ref_view="object">
+      <xi:include href="cos~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="cosine oscillator" name="osc~" ref_view="object">
+      <xi:include href="osc~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="sawtooth oscillator" name="phasor~" ref_view="object">
+      <xi:include href="phasor~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="wavetable oscillator" name="tabosc4~" ref_view="object">
+      <xi:include href="tabosc4~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="play back from a table (non-transposing)" name="tabplay~" ref_view="object">
+      <xi:include href="tabplay~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="four-point interpolating table read" name="tabread4~" ref_view="object">
+      <xi:include href="tabread4~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="non-interpolating table read" name="tabread~" ref_view="object">
+      <xi:include href="tabread~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="read one block continuously from a table" name="tabreceive~" ref_view="object">
+      <xi:include href="tabreceive~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="write one block continuously to a table" name="tabsend~" ref_view="object">
+      <xi:include href="tabsend~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="write to a table" name="tabwrite~" ref_view="object">
+      <xi:include href="tabwrite~.pddoc" parse="xml"/>
     </entry>
   </category>
   <category name="general">
@@ -441,6 +534,32 @@
     </entry>
     <entry descr="file to message converter" name="textfile" ref_view="object">
       <xi:include href="textfile.pddoc" parse="xml"/>
+    </entry>
+  </category>
+  <category name="subwindows">
+    <entry descr="specify block size and overlap" name="block~" ref_view="object">
+      <xi:include href="block~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="multiple copies of a patch" name="clone" ref_view="object">
+      <xi:include href="clone.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="add an inlet to a pd" name="inlet" ref_view="object">
+      <xi:include href="inlet.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="add a signal inlet to a pd" name="inlet~" ref_view="object">
+      <xi:include href="inlet~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="add an outlet to a pd" name="outlet" ref_view="object">
+      <xi:include href="outlet.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="add a signal outlet to a pd" name="outlet~" ref_view="object">
+      <xi:include href="outlet~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="define a subwindow" name="pd" ref_view="object">
+      <xi:include href="pd.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="switch subpatches on and off" name="switch" ref_view="object">
+      <xi:include href="switch.pddoc" parse="xml"/>
     </entry>
   </category>
   <category name="time">

@@ -163,8 +163,6 @@ ftom~,0.33,convert acoustical units,конвертация акустическ�
 rmstodb~,0.33,convert acoustical units,конвертация акустических единиц измерения
 dbtorms~,0.33,convert acoustical units,конвертация акустических единиц измерения
 
-%%% START
-
 % general_audio аудио_основное
 dac~,0.47,audio output,выход аудио
 adc~,0.47,audio input,вход аудио
@@ -183,53 +181,55 @@ catch~,0.33 define and read a summing bus,создает суммирующую 
 readsf~,0.37,soundfile playback from disk,воспроизведение аудиофайла с диска
 writesf~,0.37,record sound to disk,запись аудиофайла на диск
 
-%%% STOP
+%%% START
 
 % audio_oscillators_and_tables аудио_осцилляторы_и_таблицы
-phasor~
-cos~
-osc~
-yabwrite~
-tabplay~
-tabread~
-tabread4~
-tabosc4~
-tabsend~
-tabreceive~
+phasor~,0.33,sawtooth oscillator,пилообразный осцилятор
+cos~,0.41,cosine waveshaper,вейвшейпер с синусоидальной передаточной функцией (cosine waveshaper)
+osc~,0.33,cosine oscillator,осцилятор с синусоидальной (cosine) формой волны
+tabwrite~,0.40,write to a table,запись в таблицу
+tabplay~,0.43,play back from a table (non-transposing),чтение из таблицы без транспозиции
+tabread~,0.43,non-interpolating table read,чтение из таблицы без интерполяции
+tabread4~,0.43,four-point interpolating table read,чтение из таблицы с 4-точечной интерполяцией
+tabosc4~,0.33,wavetable oscillator,осцилятор с таблицей для формы волны
+tabsend~,0.43,write one block continuously to a table,непрерывная запись одного блока в таблицу
+tabreceive~,0.43,read one block continuously from a table,непрерывное чтение одного блока из таблицы
 
 % audio_filters аудио_фильтры
-vcf~
-noise~
-env~
-hip~
-lop~
-slop~
-bp~
-biquad~
-samphold~
-print~
-rpole~
-rzero~
-rzero_rev~
-cpole~
-czero~
-czero_rev~
+vcf~,0.46,voltage controlled filter,фильтр с управляемыми параметрами (VCF)
+noise~,0.48-2,white noise generator,генератор белого шума
+env~,0.40,envelope follower,отслеживание огибающей сигнала
+hip~,0.44,high pass filter,высокочастотный фильтр (high pass)
+lop~,0.38,low pass filter,низкочастотный фильтр (low pass)
+slop~,0.50,slew-limiting (nonlinear) low pass filter,нелинейный низкочастотный фильтр с ограничением скорости изменения значения
+bp~,0.46,band pass filter,полосовой фильтр (band pass)
+biquad~,0.30,raw filter,биквадратный фильтр 
+samphold~,0.39,sample and hold unit,семплирование (sample-and-hold)
+print~,0.33,print out one or more "blocks",печатает содержимое аудио блоков
+rpole~,0.42,raw real-valued one-pole filter,"полюс" фильтра для работы с действительными числами
+rzero~,0.38,raw real-valued one-zero filter,"ноль" фильтра для работы с действительными числами
+rzero_rev~,0.38,time-reversed raw real-valued one-zero filter,"ноль" фильтра для работы с действительными числами, реверсированный во времени
+cpole~,0.43,raw complex-valued one-pole filter,"полюс" фильтра для работы с комплексными числами
+czero~,0.38raw complex-valued one-zero filter,"ноль" фильтра для работы с комплексными числами
+czero_rev~,0.38,time-reversed raw complex-valued one-zero filter,"ноль" фильтра для работы с комплексными числами, реверсированный во времени
 
 % audio_delay аудио_линии_задержки
-delwrite~
-delread~
-delread4~
-vd~
+delwrite~,0.33,write to a delay line,запись в линию задержки
+delread~,0.33,read from a delay line,чтение из линии задержки
+delread4~,0.47,read with a time-varying delay time,чтение из линии задержки с изменяемым значением времени
+vd~,0.47,read with a time-varying delay time,чтение из линии задержки с изменяемым значением времени
 
-% subwindows субокна
-pd
-inlet
-outlet
-inlet~
-outlet~
-clone
-block~
-switch
+% subwindows субпатчи
+pd,0.46,define a subwindow,создать субпатч
+inlet,0.44,add an inlet to a pd,добавить вход в субпатч
+outlet,0.44,add an outlet to a pd,добавить выход в субпатч
+inlet~,0.44,add a signal inlet to a pd,добавить аудио вход в субпатч
+outlet~,0.44,add a signal outlet to a pd,добавить аудио выход в субпатч
+clone,0.47,multiple copies of a patch,множественные копии субпатча
+block~,0.43,specify block size and overlap,установить размер блока и наложения (overlap)
+switch,0.43,switch subpatches on and off,включает и выключает субпатчи
+
+%%% STOP
 
 % data_templates шаблоны_данных
 struct

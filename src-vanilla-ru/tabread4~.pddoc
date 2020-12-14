@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pddoc version="1.0">
+    <object name="tabread4~">
+        <title>tabread4~</title>
+        <meta>
+            <authors>
+                <author>Miller Smith Puckette</author>
+            </authors>
+            <description>чтение из таблицы с 4-точечной интерполяцией</description>
+            <license>BSD</license>
+            <library>puredata</library>
+            <category>аудио осцилляторы и таблицы</category>
+            <keywords>аудио осцилляторы и таблицы tabread4~</keywords>
+            <since>0.43</since>
+        </meta>
+        <info>
+            <par>detailed description</par>
+        </info>
+        <arguments>
+            <argument name="ARG_NAME" type="symbol">argument name</argument>
+        </arguments>
+        <methods>
+            <method name="NAME">
+            <param type="float" name="V" required="true">value</param></method>
+        </methods>
+        <properties>
+            <property name="@property_name" type="symbol">property name</property>
+        </properties>
+        <inlets>
+            <inlet>
+                <xinfo on="bang">detailed description</xinfo>
+            </inlet>
+        </inlets>
+        <outlets>
+            <outlet>description</outlet>
+        </outlets>
+        <mouse>
+            <event type="left-click" editmode="0" keys="Shift+Ctrl">Some info</event>
+        </mouse>
+        <example>
+            <pdascii>
+<![CDATA[
+
+[message_box(                                 
+|
+[tabread4~]
+
+]]>
+            </pdascii>
+        </example>
+    </object>
+</pddoc>

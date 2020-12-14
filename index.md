@@ -1,7 +1,7 @@
 # CEAMMC Puredata distribution
 
 
-CEAMMC Puredata is a general purpose Pd distribution and library that is used for performance, sound-design and education purposes in Centre of electoacoustic music of Moscow Conservatory (CEAMMC).
+![alt text](img/pd-icon-64.png =64x64)CEAMMC Puredata is a general purpose Pd distribution and library that is used for performance, sound-design and education purposes in Centre of electoacoustic music of Moscow Conservatory (CEAMMC).
 
 [download current version](https://github.com/uliss/pure-data/releases/latest)<br><br>
 [repository link: https://github.com/uliss/pure-data](https://github.com/uliss/pure-data)<br>

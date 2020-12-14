@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library xmlns:xi="http://www.w3.org/2001/XInclude" name="puredata" version="1.0">
+  <category name="{category}">
+    <entry descr="{description}" name="{object_name}" ref_view="object">
+      <xi:include href="_vanilla_template.pddoc" parse="xml"/>
+    </entry>
+  </category>
+  <meta>
+    <version>0.0</version>
+    <authors>
+      <author>Miller Smith Puckette</author>
+    </authors>
+  </meta>
+</library>
+

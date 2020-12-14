@@ -8,7 +8,7 @@ best match of list (up to 10 elements) to templates
 
 ---
 
-detailed description
+-
 <br>
 
 
@@ -19,8 +19,6 @@ detailed description
 
 
 
-[message_box(                                 
-|
 [choice]
 
 
@@ -30,10 +28,9 @@ detailed description
 ---
 arguments:
 
-ARG_NAME: argument name<br>
+ARG_NAME: -<br>
 
 ---
 properties:
 
-@property_name: property name<br>
 

@@ -11,7 +11,7 @@ files=(*.pddoc)
 pd_makelibrary --library puredata ${files[@]} > ceammc_lib.xml
 
 for filename in *.pddoc; do
-    pd_doc2md --locale=RU "$filename"
+    pd_doc2md --locale=RU "$filename" 
 done
 pd_lib2md ceammc_lib.xml --output ceammc_lib.md -f
 

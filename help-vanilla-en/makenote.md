@@ -8,7 +8,7 @@ schedule delayed &#34;note off&#34; message for a note-on
 
 ---
 
-detailed description
+-
 <br>
 
 
@@ -19,8 +19,6 @@ detailed description
 
 
 
-[message_box(                                 
-|
 [makenote]
 
 
@@ -30,10 +28,9 @@ detailed description
 ---
 arguments:
 
-ARG_NAME: argument name<br>
+ARG_NAME: -<br>
 
 ---
 properties:
 
-@property_name: property name<br>
 

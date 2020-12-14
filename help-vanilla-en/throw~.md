@@ -8,7 +8,7 @@ add to a summing bus
 
 ---
 
-detailed description
+-
 <br>
 
 
@@ -19,8 +19,6 @@ detailed description
 
 
 
-[message_box(                                 
-|
 [throw~]
 
 
@@ -30,10 +28,9 @@ detailed description
 ---
 arguments:
 
-ARG_NAME: argument name<br>
+ARG_NAME: -<br>
 
 ---
 properties:
 
-@property_name: property name<br>
 

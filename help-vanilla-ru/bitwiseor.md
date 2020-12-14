@@ -8,7 +8,7 @@
 
 ---
 
-detailed description
+-
 <br>
 
 
@@ -19,8 +19,6 @@ detailed description
 
 
 
-[message_box(                                 
-|
 [bitwiseor]
 
 
@@ -30,10 +28,9 @@ detailed description
 ---
 аргументы:
 
-ARG_NAME: argument name<br>
+ARG_NAME: -<br>
 
 ---
 свойства:
 
-@property_name: property name<br>
 

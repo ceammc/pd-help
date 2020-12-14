@@ -1,4 +1,6 @@
 
+%%% START
+
 % general основное
 bang,0.27,output a bang message,отправляет сообщение bang
 float,0.48,store and recall a number,сохраняет и загружает число
@@ -227,7 +229,7 @@ clone,0.47,multiple copies of a patch,множественные копии су
 block~,0.43,specify block size and overlap,установить размер блока и наложения (overlap)
 switch,0.43,switch subpatches on and off,включает и выключает субпатчи
 
-%%% START
+
 
 % data_templates шаблоны_данных
 struct,0.35,define a data structure,определяет структуру данных

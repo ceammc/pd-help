@@ -14,35 +14,29 @@
             <since>0.48-2</since>
         </meta>
         <info>
-            <par>detailed description</par>
+            <par>-</par>
         </info>
         <arguments>
-            <argument name="ARG_NAME" type="symbol">argument name</argument>
+            <argument name="ARG_NAME" type="symbol">-</argument>
         </arguments>
         <methods>
             <method name="NAME">
-            <param type="float" name="V" required="true">value</param></method>
+            <param type="float" name="V" required="true">-</param></method>
         </methods>
-        <properties>
-            <property name="@property_name" type="symbol">property name</property>
-        </properties>
         <inlets>
             <inlet>
-                <xinfo on="bang">detailed description</xinfo>
+                <xinfo on="bang">output value</xinfo>
+                <xinfo on="float">-</xinfo>
+                <xinfo on="symbol">-</xinfo>
             </inlet>
         </inlets>
         <outlets>
-            <outlet>description</outlet>
+            <outlet>output</outlet>
         </outlets>
-        <mouse>
-            <event type="left-click" editmode="0" keys="Shift+Ctrl">Some info</event>
-        </mouse>
         <example>
             <pdascii>
 <![CDATA[
 
-[message_box(                                 
-|
 [bendout]
 
 ]]>

@@ -1,4 +1,4 @@
-%%% START
+
 % general основное
 bang,0.27,output a bang message,отправляет сообщение bang
 float,0.48,store and recall a number,сохраняет и загружает число
@@ -79,61 +79,62 @@ max,0.40,higher math,математические операции
 min,0.40,higher math,математические операции
 clip,0.40,higher math,математические операции
 wrap,0.40,higher math,математические операции
-%%% STOP
+
+%%% START
+% io операции_ввода/вывода
+notein,0.48-2,MIDI input: note,MIDI-вход: нота
+ctlin,0.48-2,MIDI input: control change,MIDI-вход: контроллер (control change)
+pgmin,0.48-2,MIDI input: program change,MIDI-вход: номер программы (program change)
+bendin,0.48-2,MIDI input: pitch bend,MIDI-вход: колесо высоты тона (pitch bend)
+touchin,0.48-2,MIDI input: channel aftertouch,MIDI-вход: послекасание (channel aftertouch)
+midiin,0.48-2,MIDI input: raw midi data,MIDI-вход: необработанные MIDI-данные
+polytouchin,0.48-2,MIDI input: polyphonic aftertouch,MIDI-вход: полифоническое послекасание (polyphonic aftertouch)
+sysexin,0.48-2MIDI input: system exclusive messages,MIDI-вход: сообщения system exclusive
+midirealtimein,MIDI input: realtime messages,MIDI-вход: сообщения реального времени (realtime)
+noteout,0.48-2,MIDI input: note,MIDI-вход: нота
+ctlout,0.48-2,MIDI input: control change,MIDI-вход: контроллер (control change)
+pgmout,0.48-2,MIDI input: program change,MIDI-вход: номер программы (program change)
+bendout,0.48-2,MIDI input: pitch bend,MIDI-вход: колесо высоты тона (pitch bend)
+touchout,0.48-2,MIDI input: channel aftertouch,MIDI-вход: послекасание (channel aftertouch)
+polytouchout,0.48-2,MIDI input: polyphonic aftertouch,MIDI-вход: полифоническое послекасание (polyphonic aftertouch)
+midiout,0.48-2,MIDI input: raw midi data,MIDI-вход: необработанные MIDI-данные
+makenote,0.33,schedule delayed "note off" message for a note-on,создает сообщения "note off" для сообщений note on и отправляет их через определенное время
+stripnote,0.28,strip "note off" messages,удаляет сообщения "note off"
 
 % io операции_ввода/вывода
-notein
-ctlin
-pgmin
-bendin
-touchin
-midiin
-polytouchin
-sysexin
-midirealtimein
-noteout
-ctlout
-pgmout
-bendout
-touchout
-polytouchout
-midiout
-makenote
-stripnote
+oscparse,0.46,OSC messages to Pd lists,конвертирует сообщения OSC в списки
+oscformat,0.46,OSC messages from Pd lists,конвертирует списки в сообщения OSC
 
 % io операции_ввода/вывода
-oscparse
-oscformat
-
-% io операции_ввода/вывода
-fudiparse
-fudiformat
+fudiparse,0.48,FUDI messages to Pd lists,конвертирует сообщения FUDI в списки
+fudiformat,0.48, FUDI messages from Pd lists,конвертирует списки в сообщения FUDI
 
 % arrays массивы
-tabread
-tabread4
-tabwrite
-soundfiler
-table
-array
+tabread,0.43,read a number from a table,читает число из таблицы
+tabread4,0.43,read a number from a table with interpolation,читает число из таблицы с интерполяцией
+tabwrite,0.43,write a number to a table,записиывает число в таблицу
+soundfiler,0.49,read and write tables to soundfiles,загружает и сохраняет таблицы в аудиофайлы
+table,0.46,create a named table,создает таблицу с названием
+array,0.49,general array creation and manipulation,работа с массивами (array)
 
 % misc разное
-loadbang
-declare
-savestate
-pdcontrol
-netsend
-netreceive
-qlist
-textfile
-text
-openpanel
-savepanel
-bag
-poly
-key
-keyup
-keyname
+loadbang,0.47,bang on load,отправляет bang при загрузке патча
+declare,0.49,set search path and/or load libraries,устанавливает путь для поиска и/или загружает библиотеку
+savestate,0.49,mechanism for saving state of an abstraction,механизм сохранения состояния патча
+pdcontrol,0.50,communicate with canvas (to get directory),взаимодействие с патчем (получение пути к файлу патча)
+netsend,0.47,send messages over the network,отправка сообщений по сети
+netreceive,0.47,receive messages from the network,получение сообщений из сети
+qlist,0.35,message sequencer,секвенсор сообщений
+textfile,0.33,file to message converter,конвертер текстового файла в сообщения
+text,0.49,general text handling,работа с текстом
+openpanel,0.40,"Open" dialog,диалоговое окно "Открыть файл"
+savepanel,0.40,"Save as" dialog,диалоговое окно "Сохранить файл"
+bag,0.33,set of numbers,набор чисел
+poly,0.25,polyphonic voice allocation,полифоническое распределение голосов
+key,0.32,numeric key values from keyboard,числовые значения при нажатии клавиш на клавиатуре
+keyup,0.32,numeric key values from keyboard (when key is up),числовые значения при отпускании клавиш на клавиатуре
+keyname,0.32,symbolic key name,имя нажатой клавиши в виде символа
+%%% STOP
 
 % audio_math аудио_математика
 expr~

@@ -39,6 +39,8 @@ def basic_string(s):
     fe.write(contents)
     fe.close()
 
+    print("added: "+object_name+".pddoc")
+
 
 for e in ds:
     if e.startswith("%%% START"):

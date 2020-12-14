@@ -1,5 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <library xmlns:xi="http://www.w3.org/2001/XInclude" name="puredata" version="1.0">
+  <category name="arrays">
+    <entry descr="general array creation and manipulation" name="array" ref_view="object">
+      <xi:include href="array.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="read and write tables to soundfiles" name="soundfiler" ref_view="object">
+      <xi:include href="soundfiler.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="create a named table" name="table" ref_view="object">
+      <xi:include href="table.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="read a number from a table" name="tabread" ref_view="object">
+      <xi:include href="tabread.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="read a number from a table with interpolation" name="tabread4" ref_view="object">
+      <xi:include href="tabread4.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="write a number to a table" name="tabwrite" ref_view="object">
+      <xi:include href="tabwrite.pddoc" parse="xml"/>
+    </entry>
+  </category>
   <category name="general">
     <entry descr="output a bang message" name="bang" ref_view="object">
       <xi:include href="bang.pddoc" parse="xml"/>
@@ -57,6 +77,68 @@
     </entry>
     <entry descr="shared numeric value" name="value" ref_view="object">
       <xi:include href="value.pddoc" parse="xml"/>
+    </entry>
+  </category>
+  <category name="io">
+    <entry descr="MIDI input: pitch bend" name="bendin" ref_view="object">
+      <xi:include href="bendin.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="MIDI input: pitch bend" name="bendout" ref_view="object">
+      <xi:include href="bendout.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="MIDI input: control change" name="ctlin" ref_view="object">
+      <xi:include href="ctlin.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="MIDI input: control change" name="ctlout" ref_view="object">
+      <xi:include href="ctlout.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="FUDI messages from Pd lists" name="fudiformat" ref_view="object">
+      <xi:include href="fudiformat.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="FUDI messages to Pd lists" name="fudiparse" ref_view="object">
+      <xi:include href="fudiparse.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="schedule delayed &quot;note off&quot; message for a note-on" name="makenote" ref_view="object">
+      <xi:include href="makenote.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="MIDI input: raw midi data" name="midiin" ref_view="object">
+      <xi:include href="midiin.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="MIDI input: raw midi data" name="midiout" ref_view="object">
+      <xi:include href="midiout.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="MIDI input: note" name="notein" ref_view="object">
+      <xi:include href="notein.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="MIDI input: note" name="noteout" ref_view="object">
+      <xi:include href="noteout.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="OSC messages from Pd lists" name="oscformat" ref_view="object">
+      <xi:include href="oscformat.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="OSC messages to Pd lists" name="oscparse" ref_view="object">
+      <xi:include href="oscparse.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="MIDI input: program change" name="pgmin" ref_view="object">
+      <xi:include href="pgmin.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="MIDI input: program change" name="pgmout" ref_view="object">
+      <xi:include href="pgmout.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="MIDI input: polyphonic aftertouch" name="polytouchin" ref_view="object">
+      <xi:include href="polytouchin.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="MIDI input: polyphonic aftertouch" name="polytouchout" ref_view="object">
+      <xi:include href="polytouchout.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="strip &quot;note off&quot; messages" name="stripnote" ref_view="object">
+      <xi:include href="stripnote.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="MIDI input: channel aftertouch" name="touchin" ref_view="object">
+      <xi:include href="touchin.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="MIDI input: channel aftertouch" name="touchout" ref_view="object">
+      <xi:include href="touchout.pddoc" parse="xml"/>
     </entry>
   </category>
   <category name="math">
@@ -179,6 +261,56 @@
     </entry>
     <entry descr="bit twiddling" name="xor" ref_view="object">
       <xi:include href="xor.pddoc" parse="xml"/>
+    </entry>
+  </category>
+  <category name="misc">
+    <entry descr="set of numbers" name="bag" ref_view="object">
+      <xi:include href="bag.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="set search path and/or load libraries" name="declare" ref_view="object">
+      <xi:include href="declare.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="numeric key values from keyboard" name="key" ref_view="object">
+      <xi:include href="key.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="symbolic key name" name="keyname" ref_view="object">
+      <xi:include href="keyname.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="numeric key values from keyboard (when key is up)" name="keyup" ref_view="object">
+      <xi:include href="keyup.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="bang on load" name="loadbang" ref_view="object">
+      <xi:include href="loadbang.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="receive messages from the network" name="netreceive" ref_view="object">
+      <xi:include href="netreceive.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="send messages over the network" name="netsend" ref_view="object">
+      <xi:include href="netsend.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="&quot;Open&quot; dialog" name="openpanel" ref_view="object">
+      <xi:include href="openpanel.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="communicate with canvas (to get directory)" name="pdcontrol" ref_view="object">
+      <xi:include href="pdcontrol.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="polyphonic voice allocation" name="poly" ref_view="object">
+      <xi:include href="poly.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="message sequencer" name="qlist" ref_view="object">
+      <xi:include href="qlist.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="&quot;Save as&quot; dialog" name="savepanel" ref_view="object">
+      <xi:include href="savepanel.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="mechanism for saving state of an abstraction" name="savestate" ref_view="object">
+      <xi:include href="savestate.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="general text handling" name="text" ref_view="object">
+      <xi:include href="text.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="file to message converter" name="textfile" ref_view="object">
+      <xi:include href="textfile.pddoc" parse="xml"/>
     </entry>
   </category>
   <category name="time">

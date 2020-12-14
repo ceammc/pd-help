@@ -20,6 +20,26 @@
       <xi:include href="timer.pddoc" parse="xml"/>
     </entry>
   </category>
+  <category name="массивы">
+    <entry descr="работа с массивами (array)" name="array" ref_view="object">
+      <xi:include href="array.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="загружает и сохраняет таблицы в аудиофайлы" name="soundfiler" ref_view="object">
+      <xi:include href="soundfiler.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="создает таблицу с названием" name="table" ref_view="object">
+      <xi:include href="table.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="читает число из таблицы" name="tabread" ref_view="object">
+      <xi:include href="tabread.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="читает число из таблицы с интерполяцией" name="tabread4" ref_view="object">
+      <xi:include href="tabread4.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="записиывает число в таблицу" name="tabwrite" ref_view="object">
+      <xi:include href="tabwrite.pddoc" parse="xml"/>
+    </entry>
+  </category>
   <category name="математика">
     <entry descr="математические операции" name="abs" ref_view="object">
       <xi:include href="abs.pddoc" parse="xml"/>
@@ -142,6 +162,68 @@
       <xi:include href="xor.pddoc" parse="xml"/>
     </entry>
   </category>
+  <category name="операции ввода/вывода">
+    <entry descr="MIDI-вход: колесо высоты тона (pitch bend)" name="bendin" ref_view="object">
+      <xi:include href="bendin.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="MIDI-вход: колесо высоты тона (pitch bend)" name="bendout" ref_view="object">
+      <xi:include href="bendout.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="MIDI-вход: контроллер (control change)" name="ctlin" ref_view="object">
+      <xi:include href="ctlin.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="MIDI-вход: контроллер (control change)" name="ctlout" ref_view="object">
+      <xi:include href="ctlout.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="конвертирует списки в сообщения FUDI" name="fudiformat" ref_view="object">
+      <xi:include href="fudiformat.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="конвертирует сообщения FUDI в списки" name="fudiparse" ref_view="object">
+      <xi:include href="fudiparse.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="создает сообщения &quot;note off&quot; для сообщений note on и отправляет их через определенное время" name="makenote" ref_view="object">
+      <xi:include href="makenote.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="MIDI-вход: необработанные MIDI-данные" name="midiin" ref_view="object">
+      <xi:include href="midiin.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="MIDI-вход: необработанные MIDI-данные" name="midiout" ref_view="object">
+      <xi:include href="midiout.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="MIDI-вход: нота" name="notein" ref_view="object">
+      <xi:include href="notein.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="MIDI-вход: нота" name="noteout" ref_view="object">
+      <xi:include href="noteout.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="конвертирует списки в сообщения OSC" name="oscformat" ref_view="object">
+      <xi:include href="oscformat.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="конвертирует сообщения OSC в списки" name="oscparse" ref_view="object">
+      <xi:include href="oscparse.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="MIDI-вход: номер программы (program change)" name="pgmin" ref_view="object">
+      <xi:include href="pgmin.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="MIDI-вход: номер программы (program change)" name="pgmout" ref_view="object">
+      <xi:include href="pgmout.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="MIDI-вход: полифоническое послекасание (polyphonic aftertouch)" name="polytouchin" ref_view="object">
+      <xi:include href="polytouchin.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="MIDI-вход: полифоническое послекасание (polyphonic aftertouch)" name="polytouchout" ref_view="object">
+      <xi:include href="polytouchout.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="удаляет сообщения &quot;note off&quot;" name="stripnote" ref_view="object">
+      <xi:include href="stripnote.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="MIDI-вход: послекасание (channel aftertouch)" name="touchin" ref_view="object">
+      <xi:include href="touchin.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="MIDI-вход: послекасание (channel aftertouch)" name="touchout" ref_view="object">
+      <xi:include href="touchout.pddoc" parse="xml"/>
+    </entry>
+  </category>
   <category name="основное">
     <entry descr="отправляет сообщение bang" name="bang" ref_view="object">
       <xi:include href="bang.pddoc" parse="xml"/>
@@ -199,6 +281,56 @@
     </entry>
     <entry descr="глобальная переменная" name="value" ref_view="object">
       <xi:include href="value.pddoc" parse="xml"/>
+    </entry>
+  </category>
+  <category name="разное">
+    <entry descr="набор чисел" name="bag" ref_view="object">
+      <xi:include href="bag.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="устанавливает путь для поиска и/или загружает библиотеку" name="declare" ref_view="object">
+      <xi:include href="declare.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="числовые значения при нажатии клавиш на клавиатуре" name="key" ref_view="object">
+      <xi:include href="key.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="имя нажатой клавиши в виде символа" name="keyname" ref_view="object">
+      <xi:include href="keyname.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="числовые значения при отпускании клавиш на клавиатуре" name="keyup" ref_view="object">
+      <xi:include href="keyup.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="отправляет bang при загрузке патча" name="loadbang" ref_view="object">
+      <xi:include href="loadbang.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="получение сообщений из сети" name="netreceive" ref_view="object">
+      <xi:include href="netreceive.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="отправка сообщений по сети" name="netsend" ref_view="object">
+      <xi:include href="netsend.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="диалоговое окно &quot;Открыть файл&quot;" name="openpanel" ref_view="object">
+      <xi:include href="openpanel.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="взаимодействие с патчем (получение пути к файлу патча)" name="pdcontrol" ref_view="object">
+      <xi:include href="pdcontrol.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="полифоническое распределение голосов" name="poly" ref_view="object">
+      <xi:include href="poly.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="секвенсор сообщений" name="qlist" ref_view="object">
+      <xi:include href="qlist.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="диалоговое окно &quot;Сохранить файл&quot;" name="savepanel" ref_view="object">
+      <xi:include href="savepanel.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="механизм сохранения состояния патча" name="savestate" ref_view="object">
+      <xi:include href="savestate.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="работа с текстом" name="text" ref_view="object">
+      <xi:include href="text.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="конвертер текстового файла в сообщения" name="textfile" ref_view="object">
+      <xi:include href="textfile.pddoc" parse="xml"/>
     </entry>
   </category>
   <meta>

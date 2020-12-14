@@ -20,6 +20,89 @@
       <xi:include href="tabwrite.pddoc" parse="xml"/>
     </entry>
   </category>
+  <category name="audio math">
+    <entry descr="absolute value" name="abs~" ref_view="object">
+      <xi:include href="abs~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="constrict signal to lie between two bounds" name="clip~" ref_view="object">
+      <xi:include href="clip~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="convert acoustical units" name="dbtorms~" ref_view="object">
+      <xi:include href="dbtorms~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="arithmetic on audio signals" name="div~" ref_view="object">
+      <xi:include href="div~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="C-style expression - audio vector" name="expr~" ref_view="object">
+      <xi:include href="expr~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="exponential function" name="exp~" ref_view="object">
+      <xi:include href="exp~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="C-style expression - audio sample" name="fexpr~" ref_view="object">
+      <xi:include href="fexpr~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="complex forward discrete Fourier transform" name="fft~" ref_view="object">
+      <xi:include href="fft~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="output a ramp for each block" name="framp~" ref_view="object">
+      <xi:include href="framp~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="convert acoustical units" name="ftom~" ref_view="object">
+      <xi:include href="ftom~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="complex inverse discrete Fourier transform" name="ifft~" ref_view="object">
+      <xi:include href="ifft~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="computes the logarithm (base 'e')" name="log~" ref_view="object">
+      <xi:include href="log~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="maximum of 2 inputs" name="max~" ref_view="object">
+      <xi:include href="max~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="arithmetic on audio signals" name="minus~" ref_view="object">
+      <xi:include href="minus~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="minimum of 2 inputs" name="min~" ref_view="object">
+      <xi:include href="min~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="convert acoustical units" name="mtof~" ref_view="object">
+      <xi:include href="mtof~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="arithmetic on audio signals" name="mult~" ref_view="object">
+      <xi:include href="mult~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="arithmetic on audio signals" name="plus~" ref_view="object">
+      <xi:include href="plus~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="raise signal to a numeric power (signal)" name="pow~" ref_view="object">
+      <xi:include href="pow~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="approximate(8-bit) reciprocal square root" name="q8_rsqrt~" ref_view="object">
+      <xi:include href="q8_rsqrt~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="approximate(8-bit) square root" name="q8_sqrt~" ref_view="object">
+      <xi:include href="q8_sqrt~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="real forward discrete Fourier transform" name="rfft~" ref_view="object">
+      <xi:include href="rfft~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="real inverse discrete Fourier transform" name="rifft~" ref_view="object">
+      <xi:include href="rifft~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="convert acoustical units" name="rmstodb~" ref_view="object">
+      <xi:include href="rmstodb~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="approximate(16-bit) reciprocal square root" name="rsqrt~" ref_view="object">
+      <xi:include href="rsqrt~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="approximate(16-bit) square root" name="sqrt~" ref_view="object">
+      <xi:include href="sqrt~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="wraparound (fractional part)" name="wrap~" ref_view="object">
+      <xi:include href="wrap~.pddoc" parse="xml"/>
+    </entry>
+  </category>
   <category name="general">
     <entry descr="output a bang message" name="bang" ref_view="object">
       <xi:include href="bang.pddoc" parse="xml"/>
@@ -77,6 +160,53 @@
     </entry>
     <entry descr="shared numeric value" name="value" ref_view="object">
       <xi:include href="value.pddoc" parse="xml"/>
+    </entry>
+  </category>
+  <category name="general audio">
+    <entry descr="audio input" name="adc~" ref_view="object">
+      <xi:include href="adc~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="send a bang message after each DSP block" name="bang~" ref_view="object">
+      <xi:include href="bang~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="audio output" name="dac~" ref_view="object">
+      <xi:include href="dac~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="generate audio ramps" name="line~" ref_view="object">
+      <xi:include href="line~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="soundfile playback from disk" name="readsf~" ref_view="object">
+      <xi:include href="readsf~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="get signal from send~" name="receive~" ref_view="object">
+      <xi:include href="receive~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="get the sample rate" name="samplerate~" ref_view="object">
+      <xi:include href="samplerate~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="nonlocal signal connection with fanout" name="send~" ref_view="object">
+      <xi:include href="send~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="converts numbers to audio signals" name="sig~" ref_view="object">
+      <xi:include href="sig~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="sample a signal (convert it back to a number)" name="snapshot~" ref_view="object">
+      <xi:include href="snapshot~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="detect signal thresholds" name="threshold~" ref_view="object">
+      <xi:include href="threshold~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="add to a summing bus" name="throw~" ref_view="object">
+      <xi:include href="throw~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="deluxe line~" name="vline~" ref_view="object">
+      <xi:include href="vline~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="deluxe snapshot~ (DEPRECATED)" name="vsnapshot~" ref_view="object">
+      <xi:include href="vsnapshot~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="record sound to disk" name="writesf~" ref_view="object">
+      <xi:include href="writesf~.pddoc" parse="xml"/>
     </entry>
   </category>
   <category name="io">

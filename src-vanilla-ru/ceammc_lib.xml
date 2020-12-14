@@ -1,5 +1,135 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <library xmlns:xi="http://www.w3.org/2001/XInclude" name="puredata" version="1.0">
+  <category name="аудио математика">
+    <entry descr="абсолютное значение сигнала" name="abs~" ref_view="object">
+      <xi:include href="abs~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="ограничение диапазона значений сигнала" name="clip~" ref_view="object">
+      <xi:include href="clip~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="конвертация акустических единиц измерения" name="dbtorms~" ref_view="object">
+      <xi:include href="dbtorms~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="сложение аудиосигналов" name="div~" ref_view="object">
+      <xi:include href="div~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="выражения с С-подобным синтаксисом - аудио вектор" name="expr~" ref_view="object">
+      <xi:include href="expr~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="экспоненциальная функция" name="exp~" ref_view="object">
+      <xi:include href="exp~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="выражения с С-подобным синтаксисом - аудио семплы" name="fexpr~" ref_view="object">
+      <xi:include href="fexpr~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="прямое дискретное преобразование Фурье для комплексных чисел" name="fft~" ref_view="object">
+      <xi:include href="fft~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="генерирует линейно возрастающие значения в диапазоне [0..1] для каждого блока аудио" name="framp~" ref_view="object">
+      <xi:include href="framp~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="конвертация акустических единиц измерения" name="ftom~" ref_view="object">
+      <xi:include href="ftom~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="обратное дискретное преобразование Фурье для комплексных чисел" name="ifft~" ref_view="object">
+      <xi:include href="ifft~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="вычисление логарифма (с основанием 'e')" name="log~" ref_view="object">
+      <xi:include href="log~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="максимум из значений входов" name="max~" ref_view="object">
+      <xi:include href="max~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="сложение аудиосигналов" name="minus~" ref_view="object">
+      <xi:include href="minus~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="минимум из значений входов" name="min~" ref_view="object">
+      <xi:include href="min~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="конвертация акустических единиц измерения" name="mtof~" ref_view="object">
+      <xi:include href="mtof~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="сложение аудиосигналов" name="mult~" ref_view="object">
+      <xi:include href="mult~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="сложение аудиосигналов" name="plus~" ref_view="object">
+      <xi:include href="plus~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="возведение в степень (два аудио сигнала)" name="pow~" ref_view="object">
+      <xi:include href="pow~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="обратная величина [ 1 / sqrt(x) ] квадратного корня (8 бит)" name="q8_rsqrt~" ref_view="object">
+      <xi:include href="q8_rsqrt~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="приблизительное значение квадратного корня (8 бит)" name="q8_sqrt~" ref_view="object">
+      <xi:include href="q8_sqrt~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="прямое дискретное преобразование Фурье для действительных чисел" name="rfft~" ref_view="object">
+      <xi:include href="rfft~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="обратное дискретное преобразование Фурье для действительных чисел" name="rifft~" ref_view="object">
+      <xi:include href="rifft~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="конвертация акустических единиц измерения" name="rmstodb~" ref_view="object">
+      <xi:include href="rmstodb~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="обратная величина [ 1 / sqrt(x) ] квадратного корня (16 бит)" name="rsqrt~" ref_view="object">
+      <xi:include href="rsqrt~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="приблизительное значение квадратного корня (16 бит)" name="sqrt~" ref_view="object">
+      <xi:include href="sqrt~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="заворачивание" name="wrap~" ref_view="object">
+      <xi:include href="wrap~.pddoc" parse="xml"/>
+    </entry>
+  </category>
+  <category name="аудио основное">
+    <entry descr="вход аудио" name="adc~" ref_view="object">
+      <xi:include href="adc~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="отправляет сообщение bang после каждого блока DSP" name="bang~" ref_view="object">
+      <xi:include href="bang~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="выход аудио" name="dac~" ref_view="object">
+      <xi:include href="dac~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="создает линейные переходы в аудио сигнале" name="line~" ref_view="object">
+      <xi:include href="line~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="воспроизведение аудиофайла с диска" name="readsf~" ref_view="object">
+      <xi:include href="readsf~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="получиение сигнала от объекта send~" name="receive~" ref_view="object">
+      <xi:include href="receive~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="получить значение частоты дискретизации" name="samplerate~" ref_view="object">
+      <xi:include href="samplerate~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="нелокальное соединение для аудио сигнала" name="send~" ref_view="object">
+      <xi:include href="send~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="конвертирует числа в аудио сигналы" name="sig~" ref_view="object">
+      <xi:include href="sig~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="семплирует аудио сигнал (конвертирует обратно в число)" name="snapshot~" ref_view="object">
+      <xi:include href="snapshot~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="определяет пересечение сигналом порогового значения" name="threshold~" ref_view="object">
+      <xi:include href="threshold~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="добавляет аудио сигнал в суммирующую шину" name="throw~" ref_view="object">
+      <xi:include href="throw~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="улучшенный вариант объекта line~" name="vline~" ref_view="object">
+      <xi:include href="vline~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="&quot;улучшенная&quot; версия snapshot~ (НЕ РЕКОМЕНДУЕТСЯ)" name="vsnapshot~" ref_view="object">
+      <xi:include href="vsnapshot~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="запись аудиофайла на диск" name="writesf~" ref_view="object">
+      <xi:include href="writesf~.pddoc" parse="xml"/>
+    </entry>
+  </category>
   <category name="время">
     <entry descr="измерение загрузки процессора" name="cputime" ref_view="object">
       <xi:include href="cputime.pddoc" parse="xml"/>

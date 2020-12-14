@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pddoc version="1.0">
+    <object name="max~">
+        <title>max~</title>
+        <meta>
+            <authors>
+                <author>Miller Smith Puckette</author>
+            </authors>
+            <description>максимум из значений входов</description>
+            <license>BSD</license>
+            <library>puredata</library>
+            <category>аудио математика</category>
+            <keywords>аудио математика max~</keywords>
+            <since>0.27</since>
+        </meta>
+        <info>
+            <par>detailed description</par>
+        </info>
+        <arguments>
+            <argument name="ARG_NAME" type="symbol">argument name</argument>
+        </arguments>
+        <methods>
+            <method name="NAME">
+            <param type="float" name="V" required="true">value</param></method>
+        </methods>
+        <properties>
+            <property name="@property_name" type="symbol">property name</property>
+        </properties>
+        <inlets>
+            <inlet>
+                <xinfo on="bang">detailed description</xinfo>
+            </inlet>
+        </inlets>
+        <outlets>
+            <outlet>description</outlet>
+        </outlets>
+        <mouse>
+            <event type="left-click" editmode="0" keys="Shift+Ctrl">Some info</event>
+        </mouse>
+        <example>
+            <pdascii>
+<![CDATA[
+
+[message_box(                                 
+|
+[max~]
+
+]]>
+            </pdascii>
+        </example>
+    </object>
+</pddoc>

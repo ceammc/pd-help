@@ -5,6 +5,34 @@
 [**tabread**](tabread.md)	read a number from a table<br>
 [**tabread4**](tabread4.md)	read a number from a table with interpolation<br>
 [**tabwrite**](tabwrite.md)	write a number to a table<br>
+#### audio math<br>
+[**abs~**](abs~.md)	absolute value<br>
+[**clip~**](clip~.md)	constrict signal to lie between two bounds<br>
+[**dbtorms~**](dbtorms~.md)	convert acoustical units<br>
+[**div~**](div~.md)	arithmetic on audio signals<br>
+[**expr~**](expr~.md)	C-style expression - audio vector<br>
+[**exp~**](exp~.md)	exponential function<br>
+[**fexpr~**](fexpr~.md)	C-style expression - audio sample<br>
+[**fft~**](fft~.md)	complex forward discrete Fourier transform<br>
+[**framp~**](framp~.md)	output a ramp for each block<br>
+[**ftom~**](ftom~.md)	convert acoustical units<br>
+[**ifft~**](ifft~.md)	complex inverse discrete Fourier transform<br>
+[**log~**](log~.md)	computes the logarithm (base 'e')<br>
+[**max~**](max~.md)	maximum of 2 inputs<br>
+[**minus~**](minus~.md)	arithmetic on audio signals<br>
+[**min~**](min~.md)	minimum of 2 inputs<br>
+[**mtof~**](mtof~.md)	convert acoustical units<br>
+[**mult~**](mult~.md)	arithmetic on audio signals<br>
+[**plus~**](plus~.md)	arithmetic on audio signals<br>
+[**pow~**](pow~.md)	raise signal to a numeric power (signal)<br>
+[**q8_rsqrt~**](q8_rsqrt~.md)	approximate(8-bit) reciprocal square root<br>
+[**q8_sqrt~**](q8_sqrt~.md)	approximate(8-bit) square root<br>
+[**rfft~**](rfft~.md)	real forward discrete Fourier transform<br>
+[**rifft~**](rifft~.md)	real inverse discrete Fourier transform<br>
+[**rmstodb~**](rmstodb~.md)	convert acoustical units<br>
+[**rsqrt~**](rsqrt~.md)	approximate(16-bit) reciprocal square root<br>
+[**sqrt~**](sqrt~.md)	approximate(16-bit) square root<br>
+[**wrap~**](wrap~.md)	wraparound (fractional part)<br>
 #### general<br>
 [**bang**](bang.md)	output a bang message<br>
 [**change**](change.md)	remove repeated numbers from a stream<br>
@@ -25,6 +53,22 @@
 [**trigger**](trigger.md)	sequence and convert messages<br>
 [**until**](until.md)	looping mechanism<br>
 [**value**](value.md)	shared numeric value<br>
+#### general audio<br>
+[**adc~**](adc~.md)	audio input<br>
+[**bang~**](bang~.md)	send a bang message after each DSP block<br>
+[**dac~**](dac~.md)	audio output<br>
+[**line~**](line~.md)	generate audio ramps<br>
+[**readsf~**](readsf~.md)	soundfile playback from disk<br>
+[**receive~**](receive~.md)	get signal from send~<br>
+[**samplerate~**](samplerate~.md)	get the sample rate<br>
+[**send~**](send~.md)	nonlocal signal connection with fanout<br>
+[**sig~**](sig~.md)	converts numbers to audio signals<br>
+[**snapshot~**](snapshot~.md)	sample a signal (convert it back to a number)<br>
+[**threshold~**](threshold~.md)	detect signal thresholds<br>
+[**throw~**](throw~.md)	add to a summing bus<br>
+[**vline~**](vline~.md)	deluxe line~<br>
+[**vsnapshot~**](vsnapshot~.md)	deluxe snapshot~ (DEPRECATED)<br>
+[**writesf~**](writesf~.md)	record sound to disk<br>
 #### io<br>
 [**bendin**](bendin.md)	MIDI input: pitch bend<br>
 [**bendout**](bendout.md)	MIDI input: pitch bend<br>

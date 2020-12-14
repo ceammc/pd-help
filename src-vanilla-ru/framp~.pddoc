@@ -6,7 +6,7 @@
             <authors>
                 <author>Miller Smith Puckette</author>
             </authors>
-            <description>генерирует линейно возрастающие значения в диапазоне [0..1] для каждого блока аудио</description>
+            <description>внутри каждого блока FFT генерирует пары частота-амплитуда</description>
             <license>BSD</license>
             <library>puredata</library>
             <category>аудио математика</category>

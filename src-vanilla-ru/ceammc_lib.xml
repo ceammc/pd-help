@@ -243,6 +243,73 @@
       <xi:include href="timer.pddoc" parse="xml"/>
     </entry>
   </category>
+  <category name="дополнительно">
+    <entry descr="модель фильтра Муга" name="bob~" ref_view="object">
+      <xi:include href="bob~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="отслеживает фазы атак" name="bonk~" ref_view="object">
+      <xi:include href="bonk~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="находит наиболее похожий список" name="choice" ref_view="object">
+      <xi:include href="choice.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="сдвиг частоты" name="complex-mod~" ref_view="object">
+      <xi:include href="complex-mod~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="Гильбертово преобразование / фильтр" name="hilbert~" ref_view="object">
+      <xi:include href="hilbert~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="вариант объекта phasor~ с семплированием (sample and hold) на входе значения частоты" name="loop~" ref_view="object">
+      <xi:include href="loop~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="сдвиг влево и вправо (для использования с объектами FFT)" name="lrshift~" ref_view="object">
+      <xi:include href="lrshift~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="запуск отдельного процесса Pd" name="pd~" ref_view="object">
+      <xi:include href="pd~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="ревербератор 1" name="rev1~" ref_view="object">
+      <xi:include href="rev1~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="ревербератор 2" name="rev2~" ref_view="object">
+      <xi:include href="rev2~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="ревербератор 3" name="rev3~" ref_view="object">
+      <xi:include href="rev3~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="отслеживает высоту тона" name="sigmund~" ref_view="object">
+      <xi:include href="sigmund~.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="отправляет сообщения на стандартный вывод (stdout)" name="stdout" ref_view="object">
+      <xi:include href="stdout.pddoc" parse="xml"/>
+    </entry>
+  </category>
+  <category name="доступ к данным">
+    <entry descr="добавить элемент в список" name="append" ref_view="object">
+      <xi:include href="append.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="получить элемент массива" name="element" ref_view="object">
+      <xi:include href="element.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="получить числовые записи" name="get" ref_view="object">
+      <xi:include href="get.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="получить размер массива" name="getsize" ref_view="object">
+      <xi:include href="getsize.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="указывает на объект" name="pointer" ref_view="object">
+      <xi:include href="pointer.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="создать одиночное скалярное значений" name="scalar" ref_view="object">
+      <xi:include href="scalar.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="изменить числовые записи" name="set" ref_view="object">
+      <xi:include href="set.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="изменить размер массива" name="setsize" ref_view="object">
+      <xi:include href="setsize.pddoc" parse="xml"/>
+    </entry>
+  </category>
   <category name="массивы">
     <entry descr="работа с массивами (array)" name="array" ref_view="object">
       <xi:include href="array.pddoc" parse="xml"/>
@@ -580,6 +647,35 @@
     </entry>
     <entry descr="включает и выключает субпатчи" name="switch" ref_view="object">
       <xi:include href="switch.pddoc" parse="xml"/>
+    </entry>
+  </category>
+  <category name="шаблоны данных">
+    <entry descr="рисует кривую" name="drawcurve" ref_view="object">
+      <xi:include href="drawcurve.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="рисует числовое значение" name="drawnumber" ref_view="object">
+      <xi:include href="drawnumber.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="рисует многоугольник" name="drawpolygon" ref_view="object">
+      <xi:include href="drawpolygon.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="рисует символ" name="drawsymbol" ref_view="object">
+      <xi:include href="drawsymbol.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="рисует текст" name="drawtext" ref_view="object">
+      <xi:include href="drawtext.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="рисует закрашенную кривую" name="filledcurve" ref_view="object">
+      <xi:include href="filledcurve.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="рисует закрашенный многоугольник" name="filledpolygon" ref_view="object">
+      <xi:include href="filledpolygon.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="рисует содержимое массива" name="plot" ref_view="object">
+      <xi:include href="plot.pddoc" parse="xml"/>
+    </entry>
+    <entry descr="определяет структуру данных" name="struct" ref_view="object">
+      <xi:include href="struct.pddoc" parse="xml"/>
     </entry>
   </category>
   <meta>

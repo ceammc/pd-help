@@ -81,6 +81,29 @@
 [**metro**](metro.md)	отправляет сообщения периодически<br>
 [**realtime**](realtime.md)	измерение реального времени<br>
 [**timer**](timer.md)	измерение временных интервалов<br>
+#### дополнительно<br>
+[**bob~**](bob~.md)	модель фильтра Муга<br>
+[**bonk~**](bonk~.md)	отслеживает фазы атак<br>
+[**choice**](choice.md)	находит наиболее похожий список<br>
+[**complex-mod~**](complex-mod~.md)	сдвиг частоты<br>
+[**hilbert~**](hilbert~.md)	Гильбертово преобразование / фильтр<br>
+[**loop~**](loop~.md)	вариант объекта phasor~ с семплированием (sample and hold) на входе значения частоты<br>
+[**lrshift~**](lrshift~.md)	сдвиг влево и вправо (для использования с объектами FFT)<br>
+[**pd~**](pd~.md)	запуск отдельного процесса Pd<br>
+[**rev1~**](rev1~.md)	ревербератор 1<br>
+[**rev2~**](rev2~.md)	ревербератор 2<br>
+[**rev3~**](rev3~.md)	ревербератор 3<br>
+[**sigmund~**](sigmund~.md)	отслеживает высоту тона<br>
+[**stdout**](stdout.md)	отправляет сообщения на стандартный вывод (stdout)<br>
+#### доступ к данным<br>
+[**append**](append.md)	добавить элемент в список<br>
+[**element**](element.md)	получить элемент массива<br>
+[**get**](get.md)	получить числовые записи<br>
+[**getsize**](getsize.md)	получить размер массива<br>
+[**pointer**](pointer.md)	указывает на объект<br>
+[**scalar**](scalar.md)	создать одиночное скалярное значений<br>
+[**set**](set.md)	изменить числовые записи<br>
+[**setsize**](setsize.md)	изменить размер массива<br>
 #### массивы<br>
 [**array**](array.md)	работа с массивами (array)<br>
 [**soundfiler**](soundfiler.md)	загружает и сохраняет таблицы в аудиофайлы<br>
@@ -196,3 +219,13 @@
 [**outlet~**](outlet~.md)	добавить аудио выход в субпатч<br>
 [**pd**](pd.md)	создать субпатч<br>
 [**switch**](switch.md)	включает и выключает субпатчи<br>
+#### шаблоны данных<br>
+[**drawcurve**](drawcurve.md)	рисует кривую<br>
+[**drawnumber**](drawnumber.md)	рисует числовое значение<br>
+[**drawpolygon**](drawpolygon.md)	рисует многоугольник<br>
+[**drawsymbol**](drawsymbol.md)	рисует символ<br>
+[**drawtext**](drawtext.md)	рисует текст<br>
+[**filledcurve**](filledcurve.md)	рисует закрашенную кривую<br>
+[**filledpolygon**](filledpolygon.md)	рисует закрашенный многоугольник<br>
+[**plot**](plot.md)	рисует содержимое массива<br>
+[**struct**](struct.md)	определяет структуру данных<br>

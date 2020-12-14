@@ -1,3 +1,12 @@
+#### accessing data<br>
+[**append**](append.md)	add an element to a list<br>
+[**element**](element.md)	get an array element<br>
+[**get**](get.md)	get numeric fields<br>
+[**getsize**](getsize.md)	get the size of an array<br>
+[**pointer**](pointer.md)	point to an object belonging to a template<br>
+[**scalar**](scalar.md)	create a single scalar<br>
+[**set**](set.md)	change numeric fields<br>
+[**setsize**](setsize.md)	change the size of an array<br>
 #### arrays<br>
 [**array**](array.md)	general array creation and manipulation<br>
 [**soundfiler**](soundfiler.md)	read and write tables to soundfiles<br>
@@ -65,6 +74,30 @@
 [**tabreceive~**](tabreceive~.md)	read one block continuously from a table<br>
 [**tabsend~**](tabsend~.md)	write one block continuously to a table<br>
 [**tabwrite~**](tabwrite~.md)	write to a table<br>
+#### data templates<br>
+[**drawcurve**](drawcurve.md)	draw a curve<br>
+[**drawnumber**](drawnumber.md)	draw a numeric value<br>
+[**drawpolygon**](drawpolygon.md)	draw a polygon<br>
+[**drawsymbol**](drawsymbol.md)	draw symbol<br>
+[**drawtext**](drawtext.md)	draw text<br>
+[**filledcurve**](filledcurve.md)	draw a filled curve<br>
+[**filledpolygon**](filledpolygon.md)	draw a filled polygon<br>
+[**plot**](plot.md)	plot an array field<br>
+[**struct**](struct.md)	define a data structure<br>
+#### extra<br>
+[**bob~**](bob~.md)	Moog resonant filter model<br>
+[**bonk~**](bonk~.md)	attack detector<br>
+[**choice**](choice.md)	best match of list (up to 10 elements) to templates<br>
+[**complex-mod~**](complex-mod~.md)	frequency shifting<br>
+[**hilbert~**](hilbert~.md)	phase quadrature filter<br>
+[**loop~**](loop~.md)	phasor~ with S/H on its frequency input<br>
+[**lrshift~**](lrshift~.md)	left and right shift (useful with FFT objects)<br>
+[**pd~**](pd~.md)	run another copy (process) of Pd<br>
+[**rev1~**](rev1~.md)	reverberator 1<br>
+[**rev2~**](rev2~.md)	reverberator 2<br>
+[**rev3~**](rev3~.md)	reverberator 3<br>
+[**sigmund~**](sigmund~.md)	pitch tracker<br>
+[**stdout**](stdout.md)	write messages to standard output<br>
 #### general<br>
 [**bang**](bang.md)	output a bang message<br>
 [**change**](change.md)	remove repeated numbers from a stream<br>

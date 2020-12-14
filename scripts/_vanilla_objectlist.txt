@@ -181,8 +181,6 @@ catch~,0.33 define and read a summing bus,создает суммирующую 
 readsf~,0.37,soundfile playback from disk,воспроизведение аудиофайла с диска
 writesf~,0.37,record sound to disk,запись аудиофайла на диск
 
-%%% START
-
 % audio_oscillators_and_tables аудио_осцилляторы_и_таблицы
 phasor~,0.33,sawtooth oscillator,пилообразный осцилятор
 cos~,0.41,cosine waveshaper,вейвшейпер с синусоидальной передаточной функцией (cosine waveshaper)
@@ -229,48 +227,48 @@ clone,0.47,multiple copies of a patch,множественные копии су
 block~,0.43,specify block size and overlap,установить размер блока и наложения (overlap)
 switch,0.43,switch subpatches on and off,включает и выключает субпатчи
 
-%%% STOP
+%%% START
 
 % data_templates шаблоны_данных
-struct
-drawcurve
-filledcurve
-drawpolygon
-filledpolygon
-drawtext
-drawsymbol
-plot
-drawnumber
+struct,0.35,define a data structure,определяет структуру данных
+drawcurve,0.40,draw a curve,рисует кривую
+filledcurve,0.40,draw a filled curve,рисует закрашенную кривую
+drawpolygon,0.40,draw a polygon,рисует многоугольник
+filledpolygon,0.40,draw a filled polygon,рисует закрашенный многоугольник
+drawtext,0.39,draw text,рисует текст
+drawsymbol,0.39,draw symbol,рисует символ
+plot,0.35,plot an array field,рисует содержимое массива
+drawnumber,0.35,draw a numeric value,рисует числовое значение
 
 % accessing_data доступ_к_данным
-pointer
-get
-set
-element
-getsize
-setsize
-append
-scalar
+pointer,0.48,point to an object belonging to a template,указывает на объект, который относится к шаблону
+get,0.47,get numeric fields,получить числовые записи
+set,0.47,change numeric fields,изменить числовые записи
+element,0.47,get an array element,получить элемент массива
+getsize,0.47,get the size of an array,получить размер массива
+setsize,0.47,change the size of an array,изменить размер массива
+append,0.47,add an element to a list,добавить элемент в список
+scalar,0.49,create a single scalar,создать одиночное скалярное значений
 
 % extra дополнительно
-sigmund~
-bonk~
-choice
-hilbert~
-complex-mod~
-loop~
-lrshift~
-pd~
-stdout
-rev1~
-rev2~
-rev3~
-bob~
+sigmund~,0.46,pitch tracker,отслеживает высоту тона
+bonk~,0.42,attack detector,отслеживает фазы атак 
+choice,0.30,best match of list (up to 10 elements) to templates,находит наиболее похожий список
+hilbert~,0.48,phase quadrature filter,Гильбертово преобразование / фильтр
+complex-mod~,0.48,frequency shifting,сдвиг частоты
+loop~,0.48,phasor~ with S/H on its frequency input,вариант объекта phasor~ с семплированием (sample and hold) на входе значения частоты
+lrshift~,0.31,left and right shift (useful with FFT objects),сдвиг влево и вправо (для использования с объектами FFT)
+pd~,0.42,run another copy (process) of Pd,запуск отдельного процесса Pd
+stdout,0.48,write messages to standard output,отправляет сообщения на стандартный вывод (stdout)
+rev1~,0.30,reverberator 1,ревербератор 1
+rev2~,0.37,reverberator 2,ревербератор 2
+rev3~,0.37-1,reverberator 3,ревербератор 3
+bob~,0.47,Moog resonant filter model,модель фильтра Муга
+
+%%% STOP
 
 % obsolete устаревшие
-scope~
 namecanvas
-template
 
 
 

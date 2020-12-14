@@ -8,8 +8,8 @@ CEAMMC Puredata is a general purpose Pd distribution and library that is used fo
 
 ---
 [ceammc library reference pages - english](help-en/)<br>
-
-in development:
+<br>
+in development:<br>
 [справка по библиотеке ceammc  - russian](help-ru/)<br>
 <br>
 [vanilla reference pages - english](help-vanilla-en/)<br>

@@ -14,23 +14,7 @@
 ---
 
 
-```
-
-
-[ui.dsp~]
-         [F]             [F]
-         |               |
-[noise~] [osc.saw~ 1000] [osc~ 5000]
-|        |               |
-| [T]    | [T]           | [T]  [T]
-| |.     | |.            | |.   |
-[*~]     [*~]            [*~]   [@log_scale $1(
-|        |               |      |
-|        |               |      |
-[ui.spectroscope~   @size=500x150]
-
-            
-```
+![example](examples/ui.spectroscope~-example.jpg)
 
 ---
 аргументы:

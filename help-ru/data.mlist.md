@@ -17,19 +17,7 @@
 ---
 
 
-```
-
-
-[bang(
-|
-|  [\(A B C), bang(
-|  |
-[data.mlist (1 2 3 (1 3 3))]
-|
-[ui.display @display_type=1]
-
-            
-```
+![example](examples/data.mlist-example.jpg)
 
 ---
 аргументы:

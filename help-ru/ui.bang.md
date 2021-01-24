@@ -15,19 +15,7 @@
 ---
 
 
-```
-
-
-[dump(
-|
-[ui.bang @size=40x40 @send=b_out @receive=b_in]
-|
-|      [B]
-|      |
-[B]    [s b_in]
-
-            
-```
+![example](examples/ui.bang-example.jpg)
 
 ---
 аргументы:

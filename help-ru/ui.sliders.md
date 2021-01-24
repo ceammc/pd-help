@@ -14,31 +14,7 @@
 ---
 
 
-```
-
-
-[1 2 3 4 5( [0 30(              [F]         [T]
-|           |                   |           |
-|  [B]      [list.seq]          [@count $1( [@auto_range $1(
-|  |        |                   |           |
-|  |        | [F]               |           |
-|  |        | |                 |           |   [select 4(
-|  |        | [set slider 4 $1( |           |   |
-|  |        | |                 |           |   |
-|  |        | |                 |           |   |  /*vertical slider*/
-|  |        | |                 |           |   |
-[ui.sliders       @max 10  @presetname sl-help  ]  [ui.sliders @size 100 150]
-|
-|
-|
-|
-|
-|
-|
-[ui.display @display_type=1]
-
-            
-```
+![example](examples/ui.sliders-example.jpg)
 
 ---
 аргументы:

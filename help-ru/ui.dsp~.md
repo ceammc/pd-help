@@ -14,19 +14,7 @@
 ---
 
 
-```
-
-
-[start( [stop( [settings(
-|       |      |
-|       |      |
-[ui.dsp~       ]
-
-
-
-
-            
-```
+![example](examples/ui.dsp~-example.jpg)
 
 ---
 аргументы:

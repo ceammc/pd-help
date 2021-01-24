@@ -19,6 +19,7 @@
 [**ui.display**](ui.display.md)	Виджет - "дисплей"<br>
 [**ui.dsp~**](ui.dsp~.md)	Виджет для включения/выключения DSP<br>
 [**ui.slider**](ui.slider.md)	Альтернатива стандартному слайдеру<br>
+[**ui.slider2d**](ui.slider2d.md)	виджет - слайдер 2D<br>
 [**ui.sliders**](ui.sliders.md)	Виджет - мультислайдер<br>
 [**ui.spectroscope~**](ui.spectroscope~.md)	Анализатор спектра<br>
 [**ui.toggle**](ui.toggle.md)	Обновленный виджет-переключатель<br>

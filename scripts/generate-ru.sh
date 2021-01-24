@@ -19,4 +19,5 @@ for filename in *.md; do
 done
 rm -rf ../help-ru/img
 mv img ../help-ru/img
+cp examples ../help-en/examples
 

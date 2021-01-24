@@ -15,9 +15,7 @@
 ---
 
 
-```
-
-```
+![example](examples/list.gen-example.jpg)
 
 ---
 аргументы:

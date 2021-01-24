@@ -14,29 +14,7 @@ Display GUI object
 ---
 
 
-```
-
-
-
-[list a b c( [1( [symbol X( [any msg( [bang(
-|            |   |          |         |
-|            |   |          |         |
-|            |   |          |         |
-[ui.display                           ]
-
-
-/* display message type */
-
-[list a b c( [1( [symbol X( [any msg( [bang(
-|            |   |          |         |
-|            |   |          |         |
-|            |   |          |         |
-[ui.display            @display_type=1]
-
-
-
-            
-```
+![example](examples/ui.display-example.jpg)
 
 ---
 arguments:

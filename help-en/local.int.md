@@ -16,22 +16,7 @@ Defines named local integer variable, accessed by name and available only within
 ---
 
 
-```
-
-
-[F]   [+ 2, bang(    [* 3, bang(    [bang(
-|     |              |              |
-|     |              |              |
-|     |  [- 3, bang( | [/ 2, bang(  |
-|     |  |           | |            |
-|     |  | [set 2(   | |            |
-|     |  | |         | |            |
-[local.int           f1]            [local.int f1]
-|                                   |
-[F]                                 [F]
-
-            
-```
+![example](examples/local.int-example.jpg)
 
 ---
 arguments:

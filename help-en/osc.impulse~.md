@@ -14,21 +14,7 @@ Bandlimited impulse train generator
 ---
 
 
-```
-
-
-[F]
-|
-[osc.impulse~ 20]
-|
-[ui.gain~ @size 120 16]
-|\
-[dac~]
-
-[ui.dsp~]
-
-            
-```
+![example](examples/osc.impulse~-example.jpg)
 
 ---
 arguments:

@@ -14,33 +14,7 @@ stretches list - changes its size with linear interpolation
 ---
 
 
-```
-
-
-[ui.sliders]
-|
-|
-|
-|
-|
-|
-|
-|            [F]
-|            |.
-[list.stretch 32]
-|
-[ui.sliders @count 32]
-|
-|
-|
-|
-|
-|
-|
-[print]
-
-            
-```
+![example](examples/list.stretch-example.jpg)
 
 ---
 arguments:

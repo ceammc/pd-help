@@ -16,19 +16,7 @@ generates a random floating-point value uniformly distributed in the range
 ---
 
 
-```
-
-
-[B]
-|
-|
-|
-[random.float 1 3]
-|
-[F]
-
-            
-```
+![example](examples/random.float-example.jpg)
 
 ---
 arguments:

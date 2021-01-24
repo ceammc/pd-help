@@ -17,23 +17,7 @@ If window size is even: mean between center elements outputed
 ---
 
 
-```
-
-
-[T]
-|
-[metro 50]
-|
-[random.float 0 1]  [F]
-|                   |
-[ui.hsl]            [@size $1(
-|                   |
-[flt.median         ]
-|
-[ui.hsl]
-
-            
-```
+![example](examples/flt.median~-example.jpg)
 
 ---
 arguments:

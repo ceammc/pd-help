@@ -14,28 +14,7 @@ outputs filename portion of pathname
 ---
 
 
-```
-
-
-[symbol HOME(
-|
-[system.getenv] [/dir/path( [./test( [/root(   [/(
-|               |           |        |         |
-|               |           |        |         |
-|               [symbol                        ]
-|               |
-|               |     [.(  [..( [C://file.txt(
-|               |     |    |    |
-|               |     [symbol   ]
-|               |     |
-[path.basename        ]
-|
-[msg set]
-|
-[ (
-
-            
-```
+![example](examples/path.basename-example.jpg)
 
 ---
 arguments:

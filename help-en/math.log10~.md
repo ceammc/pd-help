@@ -18,34 +18,7 @@ log10(+infinity) return +infinity.
 ---
 
 
-```
-
-
-[B]
-|
-[plot.linspace~ -1 100]
-|                 ^|
-[math.log10~]      |
-|                  |.
-[ui.plot~ @xlabels 1 @ylabels 1 @ymin -2 @ymax 2 @size 400 200]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-[ui.dsp~]
-
-            
-```
+![example](examples/math.log10~-example.jpg)
 
 ---
 arguments:

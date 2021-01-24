@@ -16,23 +16,7 @@ The output range must not include zero. If the input exceeds the input range, by
 ---
 
 
-```
-
-
-[0 1001(                            [array array1 size=1000 yr=0..1]
-|
-[list.seq]
-|
-[list.separate            ]
-|                         |
-[lin->exp 0 1001 0.01 1]  |
-|                         |.
-[tabwrite            array1]
-
-
-
-            
-```
+![example](examples/conv.lin2exp-example.jpg)
 
 ---
 arguments:

@@ -14,30 +14,7 @@ Bandlimited triangle wave oscillator
 ---
 
 
-```
-
-
-[F]       [ui.dsp~]
-|
-[$1 50(
-|
-[line~]     [bang(
-|           |.
-[osc.tri~    ]
-|
-[ui.gain~ @size 120 14]
-|\      |
-[dac~]  [ui.scope~]
-
-
-
-
-
-
-
-
-            
-```
+![example](examples/osc.tri~-example.jpg)
 
 ---
 arguments:

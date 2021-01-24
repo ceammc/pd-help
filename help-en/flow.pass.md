@@ -14,23 +14,7 @@ pass specified values
 ---
 
 
-```
-
-
-[F]    [S]    [list 1 2 9 10(
-|      |      |
-|  [B] |      |
-|  |   |      |
-|  |   |      |
-[flow.pass 1 10 100 a z]
-|
-[msg set]
-|
-[ (
-
-
-            
-```
+![example](examples/flow.pass-example.jpg)
 
 ---
 arguments:

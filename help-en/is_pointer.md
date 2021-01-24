@@ -14,19 +14,7 @@ checks if input data has *pointer* type
 ---
 
 
-```
-
-
-[traverse pd-pointer, bang(     [pd pointer]
-|
-[pointer] [bang( [1( [1 2(
-|         |      |   |
-[is_pointer          ]
-|       ^|
-[_]     [print passed]
-
-            
-```
+![example](examples/is_pointer-example.jpg)
 
 ---
 arguments:

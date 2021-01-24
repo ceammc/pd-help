@@ -15,23 +15,7 @@ pass only specified mouse events from ui.* objects
 ---
 
 
-```
-
-
-[ui.rslider @mouse_events 1] [ui.rslider @mouse_events 1]
-|                            |
-[ui.mouse_filter @up]        [ui.mouse_filter @drag]
-|                            |
-[ui.display @display_type=1] [ui.display @display_type=1]
-
-[ui.rslider @mouse_events 1]
-|
-[ui.mouse_filter @down]
-|
-[ui.display @display_type=1]
-
-            
-```
+![example](examples/ui.mouse_filter-example.jpg)
 
 ---
 arguments:

@@ -14,23 +14,7 @@ Simple resonant bandpass filter
 ---
 
 
-```
-
-
-[lfo.impulse~ 2]
-|
-|  [F]        [F]
-|  |          |
-|  [@freq $1( [@q $1(
-|  |          |
-[flt.resonbp~ 1000 100]
-|
-[ui.gain~ @size 120 14] [ui.dsp~]
-|\
-[dac~]
-
-            
-```
+![example](examples/flt.resonbp~-example.jpg)
 
 ---
 arguments:

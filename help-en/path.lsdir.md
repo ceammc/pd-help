@@ -14,27 +14,7 @@ list directory contents
 ---
 
 
-```
-
-
-[symbol .( [symbol /(     [B]
-|          |              |
-|  [B]     |              [path.lsdir ~ @match *.aiff]
-|  |       |              |
-[path.lsdir ~]            [str.join ' ']
-|                         |
-[str.join ' ']            [str->sym]
-|                         |
-[str->sym]                [msg set]
-|                         |
-|  [ (                    [ (
-|  |
-[msg set]
-|
-[ (
-
-            
-```
+![example](examples/path.lsdir-example.jpg)
 
 ---
 arguments:

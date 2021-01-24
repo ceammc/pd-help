@@ -14,23 +14,7 @@ value increment/decrement
 ---
 
 
-```
-
-
-[B] [inc( [dec(                [F]
-|   |     |                    |
-|   |     | [@value?( [set 10( [@step $1(
-|   |     | |         |        |
-|   |     | |  [F]    |        |
-|   |     | |  |      |        |
-[ui.incdec            @step 0.1]
-|
-[prop-> @value]
-|         ^|
-[F]       [F]
-
-            
-```
+![example](examples/ui.incdec-example.jpg)
 
 ---
 arguments:

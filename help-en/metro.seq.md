@@ -15,25 +15,7 @@ Easy way to build beat machines
 ---
 
 
-```
-
-
-[1 0 1 1 0 1 0 1(
-|
-[ui.radio @mode 1]
-|
-[msg @pattern]
-|
-|  [T]
-|  |
-[metro.seq 100 1 0 0 1]
-|
-[click~]
-|
-[dac~]
-
-            
-```
+![example](examples/metro.seq-example.jpg)
 
 ---
 arguments:

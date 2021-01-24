@@ -17,29 +17,7 @@ Values &gt; -3db are red, range [-12, -3) db is hot, [-21, -12) db is warm, [-30
 ---
 
 
-```
-
-
-[lfo.tri~ 0.2] [phasor~ 0.2]
-|              |
-|              [env~]
-|              |
-|              [dbtorms]
-|              |
-[ui.meter~]    [ui.meter~]
-|
-|
-|
-|
-|
-|
-|
-|
-[ui.display]
-
-
-            
-```
+![example](examples/ui.meter~-example.jpg)
 
 ---
 arguments:

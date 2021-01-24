@@ -16,23 +16,7 @@ counterpart of the vanilla radio toggle
 ---
 
 
-```
-
-
-[F]  [set 2(         [flip( [reset( [1 1 0 1 0 0 1(
-|    |               |      |       |
-|    |               |      |       |
-[ui.radio ]          [ui.radio @mode 1]
-|                    |
-[F]                  [ui.display @display_type=1]
-
-[+ 3( [- 1( [prev( [next(
-|     |     |      |
-|     |     |      |
-[ui.radio          ]
-
-            
-```
+![example](examples/ui.radio-example.jpg)
 
 ---
 arguments:

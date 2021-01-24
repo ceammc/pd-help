@@ -15,19 +15,7 @@ At this moment supports only MacOSX
 ---
 
 
-```
-
-
-[ui.slider @size 120 12]
-|
-[@brightness $1( [@brightness?(
-|                |
-[hw.display      ]
-|
-[ui.d]
-
-            
-```
+![example](examples/hw.display-example.jpg)
 
 ---
 arguments:

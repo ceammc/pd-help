@@ -14,21 +14,7 @@ calculates sum of squares of array elements
 ---
 
 
-```
-
-
-[B]                            [array asum2 size=100 w=180 h=130]
-|
-[array.sum2 asum2]
-|
-[F digits=16]
-
-[sinesum 100 0.2 0.3(
-|
-[s asum2]
-
-            
-```
+![example](examples/array.sum2-example.jpg)
 
 ---
 arguments:

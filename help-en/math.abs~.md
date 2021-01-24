@@ -15,19 +15,7 @@ The abs() function computes the absolute value of the float input.
 ---
 
 
-```
-
-
-[bang(                        [array mabs {w=200,h=200}]
-|
-[plot.linspace~ -1 1]
-|             ^|
-[math.abs~]    |
-|              |.
-[array.plot~ mabs @yauto 1]
-
-            
-```
+![example](examples/math.abs~-example.jpg)
 
 ---
 arguments:

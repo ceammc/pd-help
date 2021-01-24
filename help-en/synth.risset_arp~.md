@@ -14,27 +14,7 @@ Jean Claude Risset&#39;s harmonic arpeggio effect
 ---
 
 
-```
-
-
-[r $0s]  [F]        [F]              [ui.sliders]
-|        |          |                |
-|        [@freq $1( [@detune $1(     |
-|        |          |                |
-[synth.risset_arp~  ]                |
-|  ^|                                |
-|  [ui.gain~ @size 120 16 #a]        |
-|                                    |
-[ui.gain~ @size 120 16]              [list.enumerate @from 1]
-|                                    |
-[dac~ #b]                            [list.repack 2]
-                                     |
-[ui.dsp~]                            [harmonic$1 $2(
-                                     |
-[X a->b:1]                           [s $0s]
-
-            
-```
+![example](examples/synth.risset_arp~-example.jpg)
 
 ---
 arguments:

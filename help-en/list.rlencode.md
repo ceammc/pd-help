@@ -14,19 +14,7 @@ RLE (run-length encoding) for lists
 ---
 
 
-```
-
-
-[1 1 2 2 2 1 3(
-|
-[list.rlencode  ]
-|              ^|
-[msg set]      [msg set]
-|              |
-[ (            [ (
-
-            
-```
+![example](examples/list.rlencode-example.jpg)
 
 ---
 arguments:

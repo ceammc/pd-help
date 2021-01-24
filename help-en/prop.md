@@ -16,27 +16,7 @@ Property should be declared with [prop.declare]. Min/max limits can be set to
 ---
 
 
-```
-
-
-[prop.declare freq @min 20 @max 20000 @default 1000]
-
-[prop.declare gain @min -60 @max 12 @default -3]
-
-[F]
-|
-[prop @freq] [prop @gain]
-|            |
-[F]          [F]
-
-[default(
-|
-[prop @freq]
-|
-[F]
-
-            
-```
+![example](examples/prop-example.jpg)
 
 ---
 arguments:

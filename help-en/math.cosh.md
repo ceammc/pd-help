@@ -18,17 +18,7 @@ cosh(+-infinity) returns +infinity.
 ---
 
 
-```
-
-
-[F]
-|
-[math.cosh]
-|
-[F]
-
-            
-```
+![example](examples/math.cosh-example.jpg)
 
 ---
 arguments:

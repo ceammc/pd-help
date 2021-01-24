@@ -15,22 +15,7 @@ returns the size of physical memory (RAM) in bytes round to float data
 ---
 
 
-```
-
-
-[bng]
-|
-[system.memsize]
-|
-[/ 1024]
-|
-[/ 1024] /* in Mbytes */
-|
-[floatatom digits=12]
-
-                
-            
-```
+![example](examples/system.memsize-example.jpg)
 
 ---
 arguments:

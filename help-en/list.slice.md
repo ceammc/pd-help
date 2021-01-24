@@ -14,27 +14,7 @@ extract sublist
 ---
 
 
-```
-
-
-[list A B C D E(    [list A B C D E(   [list A B C D E(
-|                   |                  |
-[list.slice 2]      [list.slice 2 4]   [list.slice 0 5 2]
-|                   |                  |
-[msg set]           [msg set]          [msg set]
-|                   |                  |
-[ (                 [ (                [ (
-
-[list A B C D E(    [list A B C D E(
-|                   |
-[list.slice -2]     [list.slice -4 -1]
-|                   |
-[msg set]           [msg set]
-|                   |
-[ (                 [ (
-
-            
-```
+![example](examples/list.slice-example.jpg)
 
 ---
 arguments:

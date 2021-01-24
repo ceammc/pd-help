@@ -18,40 +18,7 @@ Butterworth filter is a type of filter designed to have a frequency response as
 ---
 
 
-```
-
-
-[100( [500( [1000( [5000( [10000( [15000( [20000(
-|     |     |      |      |       |       |
-[F digits=5                               ]
-|           [F]                   [bang #a( /*plot response*/
-|           |                     |
-[@freq $1(  [@q $1(               [click~]
-|           |                     |
-[flt.bpf12~ 1000 2.5              ]
-|
-[plot.response~ @sr 1 @db 1 #b]
-|                          ^^|.
-[ui.plot~ @xlabels 1 @ylabels 1 @ymin -60 @ymax 0 @ymin_ticks 0 @ymaj_ticks 0 @size 400 200]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-[ui.dsp~]
-[X a->b:1]
-
-            
-```
+![example](examples/flt.bpf12~-example.jpg)
 
 ---
 arguments:

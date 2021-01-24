@@ -14,17 +14,7 @@ calculates sum of floats in list
 ---
 
 
-```
-
-
-[1 2 3 a b -1.1( [list a b c(
-|                |
-[list.sum        ]
-|
-[F]
-
-            
-```
+![example](examples/list.sum-example.jpg)
 
 ---
 arguments:

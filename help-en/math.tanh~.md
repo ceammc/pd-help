@@ -15,34 +15,7 @@ Outputs hyperbolic tangent of input signal
 ---
 
 
-```
-
-
-[B]
-|
-[plot.linspace~ -5 5]
-|                 ^|
-[math.tanh~]       |
-|                  |.
-[ui.plot~ @xlabels 1 @ylabels 1 @ymin -1 @ymax 1 @ymin_ticks 0 @ymaj_ticks 0 @xmin_grid 1 @size 400 200]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-[ui.dsp~]
-
-            
-```
+![example](examples/math.tanh~-example.jpg)
 
 ---
 arguments:

@@ -14,21 +14,7 @@ measure time between flow events
 ---
 
 
-```
-
-
-[T]      [F]
-|        |.
-[metro 100]
-|
-|  [F]
-|  |
-[flow.interval]
-|
-[F]
-
-            
-```
+![example](examples/flow.interval-example.jpg)
 
 ---
 arguments:

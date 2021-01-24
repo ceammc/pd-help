@@ -26,48 +26,7 @@ a = 1.0, b = 0.9, k = 0.4, p = 6.0
 ---
 
 
-```
-
-
-
-[T]
-|
-[metro 50 #metro]
-
-
-  [T]         [F]
-  |           |
-  [om $1 #om( [set $1 #set( [reset #reset(
-
- [F]           [F]
- |             |
- [x $1 #x(     [y $1 #y(  
-
-    [F]       [F]       [F]       [F]
-    |         |         |         |
-    [a $1 #a( [b $1 #b( [c $1 #c( [p $1 #p(  
-
-[noise.ikeda #noise-obj]
-|
-[ui.display {i=1,o=0}]
-
-[X x:0->noise-obj:0]  
-[X y:0->noise-obj:0] 
-
-[X a:0->noise-obj:0]
-[X b:0->noise-obj:0]
-[X c:0->noise-obj:0]
-[X p:0->noise-obj:0] 
-
-[X om:0->noise-obj:0]
-[X set:0->noise-obj:0]
-[X reset:0->noise-obj:0]
-
-[X metro->noise-obj]
-
-
-            
-```
+![example](examples/noise.ikeda-example.jpg)
 
 ---
 arguments:

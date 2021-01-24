@@ -14,19 +14,7 @@ checks if given path exists
 ---
 
 
-```
-
-
-[symbol .( [symbol ABC( [B]
-|          |            |
-|          |            [string test]
-|          |            |
-[path.exists            ]
-|
-[T]
-
-            
-```
+![example](examples/path.exists-example.jpg)
 
 ---
 arguments:

@@ -14,22 +14,7 @@ reject specified values
 ---
 
 
-```
-
-
-[F]
-|
-[flow.reject 0]
-|
-[swap 1]
-|   ^|.
-[/    ]
-|
-[F digits=12]
-
-
-            
-```
+![example](examples/flow.reject-example.jpg)
 
 ---
 arguments:

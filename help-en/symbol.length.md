@@ -14,19 +14,7 @@ number of characters in symbol (unicode supported)
 ---
 
 
-```
-
-
-[symbol example(
-|
-|      [S digits=20]
-|      |
-[symbol.length]
-|
-[F]
-
-            
-```
+![example](examples/symbol.length-example.jpg)
 
 ---
 arguments:

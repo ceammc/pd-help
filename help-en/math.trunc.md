@@ -15,19 +15,7 @@ Outputs the integral value nearest to but no larger in magnitude than x
 ---
 
 
-```
-
-
-[bang(                 [array TRUNC yr=-4..4 w=320]
-|
-[list.seq -4 4 0.025]
-|
-[math.trunc]
-|
-[list->array TRUNC]
-
-            
-```
+![example](examples/math.trunc-example.jpg)
 
 ---
 arguments:

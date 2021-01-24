@@ -14,21 +14,7 @@ checks if given string ends with specified suffix
 ---
 
 
-```
-
-
-[B]
-|
-[string data.mp3] [symbol data.wav(
-|                 |
-|                 |
-|                 |
-[str.ends_with .mp3]
-|
-[T]
-
-            
-```
+![example](examples/string.ends_with-example.jpg)
 
 ---
 arguments:

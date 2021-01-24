@@ -16,21 +16,7 @@ Defines local scope list variable, accessed by ID name and available only within
 ---
 
 
-```
-
-
-[list a b c(  [set 3 2 1(
-|             |
-|  [1 2 3(    |            [bng]
-|  |          |            |
-[local.list id]            [local.list id]
-|                          |
-[msg set]                  [msg set]
-|                          |
-[ (                        [ (
-
-            
-```
+![example](examples/local.list-example.jpg)
 
 ---
 arguments:

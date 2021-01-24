@@ -14,19 +14,7 @@ convert radians value to phase
 ---
 
 
-```
-
-
-[lfo.saw~ 0.1]  [ui.dsp~]
-|
-[phase->rad~]
-|
-[rad->phase~]
-|
-[ui.scope~]
-
-            
-```
+![example](examples/conv.rad2phase~-example.jpg)
 
 ---
 arguments:

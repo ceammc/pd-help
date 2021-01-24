@@ -18,31 +18,7 @@ A simple Schroeder reverberator primarily developed by &#34;Jezar at Dreampoint&
 ---
 
 
-```
-
-
-[open %CEAMMC%/guitar1.wav, 1(
-|
-[expand_env #a]
-|
-|            [ui.knob]  [ui.knob]  [ui.knob]
-|            |          |          |
-[readsf~ #b] |          |          |
-|            |          |          |
-|            [@room $1( [@damp $1( [@drywet $1(
-|            |          |          |
-|            |          |          |
-|            |          |          |
-[fx.freeverb2~  0.95    0.125      ]
-|
-[ui.gain~ @size 120 16] [ui.dsp~]
-| \
-[dac~]
-
-[X a->b]
-
-            
-```
+![example](examples/fx.freeverb2~-example.jpg)
 
 ---
 arguments:

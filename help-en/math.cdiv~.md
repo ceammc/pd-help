@@ -17,21 +17,7 @@ If c + di = 0, outputs 0, as [/~] does
 ---
 
 
-```
-
-
-[F]    [F]    [F]    [F]
-|      |      |      |
-[sig~] [sig~] [sig~] [sig~]
-|      |      |      |
-|      |      |      |
-|      |.     |..    |...
-[math.cdiv~             ]  [ui.dsp~]
-|           ^|
-[ui.n~]     [ui.n~]
-
-            
-```
+![example](examples/math.cdiv~-example.jpg)
 
 ---
 arguments:

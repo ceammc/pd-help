@@ -15,21 +15,7 @@ converts float time in seconds to formated symbol (or
 ---
 
 
-```
-
-
-[T]                   [F]
-|                     |
-[metro 1000]          [sec->str @symbol @ms]
-|                     |
-[f] X [+ 1]           [S digits=14]
-|                     |
-[sec->str @symbol]    [str->sec]
-|                     |
-[S digits=12]         [F]
-
-            
-```
+![example](examples/conv.sec2str-example.jpg)
 
 ---
 arguments:

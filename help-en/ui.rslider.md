@@ -17,21 +17,7 @@ To output messages only on specified event use: @mouse_events=1 and
 ---
 
 
-```
-
-
-[20 80(      [60 90(
-|            |
-| [@range?(  | [@low?( [@high?(
-| |          | |       |
-| |          | |       |
-| |          | |       |
-[ui.rslider  @min 0 @max 100]
-|
-[ui.display @display_type=1]
-
-            
-```
+![example](examples/ui.rslider-example.jpg)
 
 ---
 arguments:

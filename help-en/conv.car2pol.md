@@ -14,23 +14,7 @@ convert cartesian coords to polar
 ---
 
 
-```
-
-
-[ui.slider2d]
-|
-|
-|
-|
-|
-|
-|
-[car->pol]
-|
-[ui.display @display_type=1]
-
-            
-```
+![example](examples/conv.car2pol-example.jpg)
 
 ---
 arguments:

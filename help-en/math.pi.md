@@ -16,17 +16,7 @@ The number PI is a mathematical constant, the ratio of a circle&#39;s circumfere
 ---
 
 
-```
-
-
-[B]             [B]
-|               |
-[math.pi]       [math.pi 2]
-|               |
-[F digits=10]   [F digits=10]
-
-            
-```
+![example](examples/math.pi-example.jpg)
 
 ---
 arguments:

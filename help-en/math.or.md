@@ -14,25 +14,7 @@ operation OR for multiple arguments
 ---
 
 
-```
-
-
-[HS]
-|
-[> 50]  [HS]
-|       |
-|       [> 50] [HS]
-|       |      |
-|       |      [< 50]
-|       |.     |..
-[math.or       3 @sync]
-|
-[F]
-|
-[B]
-
-            
-```
+![example](examples/math.or-example.jpg)
 
 ---
 arguments:

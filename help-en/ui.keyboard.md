@@ -15,30 +15,7 @@ Piano keyboard widget
 ---
 
 
-```
-
-
-[dump(
-|
-[ui.keyboard]
-|
-|
-|
-|
-[unpack f       f]
-|              ^|
-[mtof]         [clip 0 100]
-|              |
-[osc.pulse~]   [/ 1000]
-|       .______/
-[*~     ]
-|
-[ui.gain~ @size 120 16]  [ui.dsp~]
-| \
-[dac~]
-
-            
-```
+![example](examples/ui.keyboard-example.jpg)
 
 ---
 arguments:

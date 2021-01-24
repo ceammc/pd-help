@@ -19,23 +19,7 @@ A problem inherent to linear panning is that the perceived volume of the signal
 ---
 
 
-```
-
-
-          [hsl]
-          |
-          [lin->lin 0 127 -1 1]
-          |
-[sig~ 1]  [F]
-|         |.
-[pan.sqrt~  ]
-|       ^|
-[env~]   [env~]
-|        |
-[F]      [F]
-
-            
-```
+![example](examples/pan.sqrt~-example.jpg)
 
 ---
 arguments:

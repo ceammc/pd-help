@@ -14,22 +14,7 @@ signal routing matrix
 ---
 
 
-```
-
-
-[sig~ 0.25] [sig~ 0.5]   [ui.matrix @cols=2 @rows=4]
-|           |            |
-|           |            |
-|           |.           |
-[matrix~ 2 4              ] [ui.dsp~]
-|      ^|      ^^|     ^^^|
-|       |        |        |
-[env~] [env~]  [env~]  [env~]
-|      |       |       |
-[F]    [F]     [F]     [F]
-
-            
-```
+![example](examples/matrix~-example.jpg)
 
 ---
 arguments:

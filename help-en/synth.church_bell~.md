@@ -19,32 +19,7 @@ This model contains 7 excitation positions going linearly from the bottom to the
 ---
 
 
-```
-
-
-[T]
-|
-[metro 200]
-|
-[t b                       b]
-|                          ^|
-[1(                        [random.int 0 7]
-|                          |
-[flow.append 0 @delay 10]  [ui.radio]
-|                          |
-[@gate $1(                 [@pos $1 #b(
-|                          |
-[synth.church_bell~ #a     ]
-|
-[ui.gain~ @size 120 16]
-|\
-[dac~]
-
-[ui.dsp~]
-[X b->a]
-
-            
-```
+![example](examples/synth.church_bell~-example.jpg)
 
 ---
 arguments:

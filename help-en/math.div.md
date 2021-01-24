@@ -14,20 +14,7 @@ division (on lists too)
 ---
 
 
-```
-
-
-[1 2 3 A B C( [F]  [F]
-|             |    |
-|             |    |.
-[math.div 2         ]
-|
-[msg set]
-|
-[ (
-
-            
-```
+![example](examples/math.div-example.jpg)
 
 ---
 arguments:

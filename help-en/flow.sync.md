@@ -17,25 +17,7 @@ Sync data flow. All inlets are &#39;hot&#39;. When float, symbol or list arrives
 ---
 
 
-```
-
-
-[HS]
-|
-|   [HS]
-|   |
-|   |   [HS]
-|   |.  |..
-[flow.sync 3]
-|  ^|   ^^|
-|   |   [ui.d @display_type 1]
-|   |
-|   [ui.d @display_type 1]
-|
-[ui.d @display_type 1]
-
-            
-```
+![example](examples/flow.sync-example.jpg)
 
 ---
 arguments:

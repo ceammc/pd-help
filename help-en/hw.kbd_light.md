@@ -15,21 +15,7 @@ Only Apple keyboards are supported at this moment
 ---
 
 
-```
-
-
-[T]
-|
-[metro 250] [ui.knob]
-|           |
-|           |
-|           |
-[hw.kbd_light]
-|
-[F]
-
-            
-```
+![example](examples/hw.kbd_light-example.jpg)
 
 ---
 arguments:

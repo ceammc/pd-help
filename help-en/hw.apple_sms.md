@@ -19,23 +19,7 @@ In raw output mode output values can be in various output range and sign,
 ---
 
 
-```
-
-
-[T]
-|
-[metro 300] [T]
-|           |
-|           [@raw $1(
-|           |
-[hw.apple_sms]
-|
-[unpack    0 0 0]
-|      ^|     ^^|
-[F]    [F]    [F]
-
-            
-```
+![example](examples/hw.apple_sms-example.jpg)
 
 ---
 arguments:

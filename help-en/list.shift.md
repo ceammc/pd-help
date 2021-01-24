@@ -14,33 +14,7 @@ shifts the contents of the list with linear interpolation
 ---
 
 
-```
-
-
-[F]  [0, 30 2000(
-|    |
-|    [line]
-|    |
-[t b f #a]   /*change list values*/
-|
-[ui.sliders @count 30 @size 200 60]
-|
-|
-|
-|
-[list.shift 10 #b]
-|
-[ui.sliders @count 30 @size 200 60]
-|
-|
-|
-|
-[print]
-
-[X a:1->b:1]
-
-            
-```
+![example](examples/list.shift-example.jpg)
 
 ---
 arguments:

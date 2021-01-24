@@ -14,19 +14,7 @@ convert from one linear range to another for signals
 ---
 
 
-```
-
-
-[osc.tri~ 0.05]   [T]
-|                 |
-|                 [@clip $1(
-|                 |
-[lin->lin~ -1 1 20 10000]
-|
-[ui.n~]
-
-            
-```
+![example](examples/conv.lin2lin~-example.jpg)
 
 ---
 arguments:

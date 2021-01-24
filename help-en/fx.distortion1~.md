@@ -14,30 +14,7 @@ distortion #1 from Guitarix effects set
 ---
 
 
-```
-
-
-[open %CEAMMC%/guitar1.wav, 1(
-|
-[expand_env]
-|
-[readsf~]
-|
-| [ui.knob]   [ui.knob]     [T]
-| |           |             |
-| |           |             |
-| |           |             |
-| [@drive $1( [@vibrato $1( [@res_on_off $1(
-| |           |             |
-| |           |             |
-[fx.distortion1~            ]
-|
-[ui.gain~ @size 120 16]           [ui.dsp~]
-|\
-[dac~]
-
-            
-```
+![example](examples/fx.distortion1~-example.jpg)
 
 ---
 arguments:

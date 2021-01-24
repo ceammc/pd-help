@@ -14,24 +14,7 @@ Unit-amplitude nonnegative low frequency pulse train
 ---
 
 
-```
-
-
-[osc.saw~ 1200] [F]    [ui.knob] [ui.dsp~]
-|               |      |
-|               |      |
-|               |      [@duty $1(
-|               |      |
-|               [lfo.+pulse~ 3 0.1]
-|   .___________/
-[*~]
-|
-[ui.gain~ @size 120 14]
-|\
-[dac~]
-
-            
-```
+![example](examples/lfo.+pulse~-example.jpg)
 
 ---
 arguments:

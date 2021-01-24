@@ -14,25 +14,7 @@ metro with rhythmic patterns
 ---
 
 
-```
-
-
-[@pattern 100 290 110 70(
-|
-| [T]   [@pattern 500 150(
-| |     |
-[metro.pattern 268 200]
-|                   ^|
-[click~]            [is_bang]
-|                         ^|
-[flt.resonbp~ 1600]       [B]
-|
-[ui.gain~ @size 120 16] [ui.dsp~]
-| \
-[dac~]
-
-            
-```
+![example](examples/metro.pattern-example.jpg)
 
 ---
 arguments:

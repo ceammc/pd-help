@@ -16,19 +16,7 @@ Defines local scope dict variable, accessed by ID name and available only within
 ---
 
 
-```
-
-
-[\[a: abc\] \[bpm: 100\], bang( [bang(
-|                               |
-|                               [local.dict d1]
-|                               |
-[local.dict d1]                 [ui.display @display_type=1]
-|
-[ui.display @display_type=1]
-
-            
-```
+![example](examples/local.dict-example.jpg)
 
 ---
 arguments:

@@ -14,17 +14,7 @@ current canvas directory
 ---
 
 
-```
-
-
-[B]
-|
-[canvas.dir] [B]
-|             |
-[ui.display   ]
-
-            
-```
+![example](examples/canvas.dir-example.jpg)
 
 ---
 arguments:

@@ -16,32 +16,7 @@ Differentiated Polynomial Waves (DPW) used for aliasing suppression. 4nd order
 ---
 
 
-```
-
-
-[F]      [ui.dsp~]
-|
-[$1 50(
-|
-[line~]      [bang(
-|            |.
-[osc.saw4~    ]
-|
-[ui.gain~ @size 120 14]
-|\      |
-[dac~]  [ui.spectroscope~]
-
-
-
-
-
-
-
-
-
-
-            
-```
+![example](examples/osc.saw4~-example.jpg)
 
 ---
 arguments:

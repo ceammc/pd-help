@@ -14,30 +14,7 @@ FluidSynth SoundFont 2 player
 ---
 
 
-```
-
-
-[ui.keyboard]
-|
-|
-|
-|
-|            [hradio]
-|            |
-[msg note 1] [prog 1 $1(
-|            |
-| [dump(     | [loadbang]
-| |          | |
-| |          | [@sf sf2/VintageDreamsWaves-v2.sf2(
-| |          | |
-[fluid~        ]
-| ^|
-[ui.gain~ @size 120 16]  [ui.dsp~]
-| \
-[dac~]
-
-            
-```
+![example](examples/fluid~-example.jpg)
 
 ---
 arguments:

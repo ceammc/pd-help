@@ -14,28 +14,7 @@ iterate and modify array content via side-chain
 ---
 
 
-```
-
-
-[array A1 size=100 w=130 h=100 yr=0..1]
-
-
-
-
-
-
-
-[B]
-|
-[array.do A1 #a] [unpack f f f #b]
-|                   ^| ^^|.
-[B]                 [/  #c]
-
-[X a:1->b]
-[X c->a:1]
-
-            
-```
+![example](examples/array.do-example.jpg)
 
 ---
 arguments:

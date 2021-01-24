@@ -14,25 +14,7 @@ simple input stream granulator
 ---
 
 
-```
-
-
-[open %CEAMMC%/guitar1.wav, 1(
-|
-[expand_env] [F]         [F]          [F]
-|            |           |            |
-[readsf~]    [@delay $1( [@length $1( [@density $1(
-|            |           |            |
-|            |           |            |
-|            |           |            |
-[fx.granulator~                       ]
-|
-[ui.gain~ @size 120 14] [ui.dsp~]
-|\
-[dac~]
-
-            
-```
+![example](examples/fx.granulator~-example.jpg)
 
 ---
 arguments:

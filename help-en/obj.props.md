@@ -15,22 +15,7 @@ extract properties from object, connected to second outlet
 ---
 
 
-```
-
-
-[B]
-|
-[obj.props                     ]
-|                             ^|
-[ui.d]                        [flt.moog_vcf~]
-
-
-
-
-/* ... */
-
-            
-```
+![example](examples/obj.props-example.jpg)
 
 ---
 arguments:

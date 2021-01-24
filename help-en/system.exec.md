@@ -14,23 +14,7 @@ run external command in separate process
 ---
 
 
-```
-
-
-[ls( [ls -l( [open #a(
-|    |
-|    | [top(      [winver.exe #c(
-|    | |
-[list  #b]  [terminate(
-|           |
-[system.exec ]
-|           ^|
-[F]         [print EXEC]
-[X a->b] [X c->b]
-#a /Applications/TextEdit.app
-
-            
-```
+![example](examples/system.exec-example.jpg)
 
 ---
 arguments:

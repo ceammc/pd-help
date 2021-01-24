@@ -14,25 +14,7 @@ bit downer and downsampler effect
 ---
 
 
-```
-
-
-[open %CEAMMC%/guitar1.wav, 1(
-|
-[expand_env] [F]        [F]
-|            |          |
-[readsf~]    [@bits $1( [@downsamp $1(
-|            |          |
-|            |          |
-|            |          |
-[fx.bitdown~  8 12      ]
-|
-[ui.gain~ @size 120 14] [ui.dsp~]
-|\
-[dac~]
-
-            
-```
+![example](examples/fx.bitdown~-example.jpg)
 
 ---
 arguments:

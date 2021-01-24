@@ -14,25 +14,7 @@ container that store unique elements
 ---
 
 
-```
-
-
-[F]
-|
-[$1, bang( [clear(
-|        __/
-[data.set]
-|
-[set->list]
-|
-[list.range]
-|
-[msg set]
-|
-[ (
-
-            
-```
+![example](examples/data.set-example.jpg)
 
 ---
 arguments:

@@ -14,19 +14,7 @@ Get patch or subpatch arguments
 ---
 
 
-```
-
-
-[loadbang]
-|
-[patch.args]
-|
-[msg set]
-|
-[ (
-
-            
-```
+![example](examples/patch.args-example.jpg)
 
 ---
 arguments:

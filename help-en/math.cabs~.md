@@ -14,27 +14,7 @@ magnitude of a complex signals
 ---
 
 
-```
-
-
-[ui.slider2d @show_grid=1]
-|
-|
-|
-|
-|
-|
-|
-[unpack f f]
-|       ^|
-[sig~] [sig~]
-|      |.
-[math.cabs~]  [ui.dsp~]
-|
-[ui.n~]
-
-            
-```
+![example](examples/math.cabs~-example.jpg)
 
 ---
 arguments:

@@ -14,20 +14,7 @@ removes duplicates from input list
 ---
 
 
-```
-
-
-[1 2 3 1 3 6 9 -1 3(
-|
-|
-[list.unique]
-|
-[msg set]
-|
-[ (
-
-            
-```
+![example](examples/list.unique-example.jpg)
 
 ---
 arguments:

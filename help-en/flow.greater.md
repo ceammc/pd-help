@@ -16,19 +16,7 @@ Numbers thar are *less* or *equal* then first argument are passed to N-th
 ---
 
 
-```
-
-
-[F]
-|
-|
-|
-[flow.greater 100 10 1     ]
-|     ^|   ^^|   ^^^|  ^^^^|
-[F]   [F]   [F]   [F]    [F]
-
-            
-```
+![example](examples/flow.greater-example.jpg)
 
 ---
 arguments:

@@ -14,23 +14,7 @@ simple echo effect
 ---
 
 
-```
-
-
-[open %CEAMMC%/guitar1.wav, 1(
-|
-[expand_env]
-|
-[readsf~]
-|
-[fx.echo~ 500 0.8]
-|
-[ui.gain~ @size 120 16]  [ui.dsp~]
-|\
-[dac~]
-
-            
-```
+![example](examples/fx.echo~-example.jpg)
 
 ---
 arguments:

@@ -17,33 +17,7 @@ On click outputs message with format [cell ROW COL VALUE(
 ---
 
 
-```
-
-
-          [F]          [F]
-[dump(    |            |
-|         [get row $1( [get col $1(
-| [reset( |            |
-| |       | [bang(     | [flip( [get list(
-| |       | |          | |      |
-| |       | |          | |      |
-[ui.matrix                      ]
-|
-|
-|
-|
-[route cell row col]
-|    ^|  ^^|   ^^^|
-|     |    |      [ui.display @size=60x18]
-|     |    |
-|     |    [ui.display @size=60x18]
-|     |
-|     [ui.display @size=60x18]
-|
-[ui.display @size=60x18]
-
-            
-```
+![example](examples/ui.matrix-example.jpg)
 
 ---
 arguments:

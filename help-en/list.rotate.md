@@ -16,25 +16,7 @@ rotates list
 ---
 
 
-```
-
-
-[B]
-|
-[list 0 1 2 3 4 5 6 7 8 9 * #l]
-|
-|            [F]
-|            |.
-[list.rotate 1 #r]
-|
-[msg set]
-|
-[ (
-
-[X r->l:1]
-
-            
-```
+![example](examples/list.rotate-example.jpg)
 
 ---
 arguments:

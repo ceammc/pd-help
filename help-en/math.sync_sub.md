@@ -14,19 +14,7 @@ sync subtraction
 ---
 
 
-```
-
-
-[F]   [F]   /*same as:*/ [F]  [F]
-|     |                  |    |
-|     |                  |    [t b f]
-|     |.                 |    | ^|.
-[-'    ]                 [-       ]
-|                        |
-[F]                      [F]
-
-            
-```
+![example](examples/math.sync_sub-example.jpg)
 
 ---
 arguments:

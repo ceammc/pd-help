@@ -18,27 +18,7 @@ Passthru all control data not often then specified limit in ms. Can be used for
 ---
 
 
-```
-
-
-[0, 100 1000( [0, 100 200(
-|             |
-[line         ]
-|
-[trigger         f f]
-^|                  |
-[flow.speedlim 100] [sel 100]
-|                   |
-|                   [flush(
-|                   |
-[flow.group  @by 100]
-|
-[msg set]
-|
-[ (
-
-            
-```
+![example](examples/flow.speedlim-example.jpg)
 
 ---
 arguments:

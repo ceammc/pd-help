@@ -20,35 +20,7 @@ Empty timeline always contains &#34;end&#34; event, that can&#39;t be removed. E
 ---
 
 
-```
-
-
-[add 5.4 sec #b( [add middle 10s #c( [add last 5s before end #d(
-
- [T]
- |
- [metro 100]
- |
- [@current?(
- |
- |   [start( [pause( [stop( [T]
- |   |       |       |      |
- |   |       |       |      [@loop $1(
- |   |       |       |      |
-[tl.timeline 20 @loop 1   #a]
-|
-[prop-> @current {w=20}   ]
-|                        ^|
-[sel 0 1 2 begin end   ] [/ 1000]
-|    ^| ^^|  ^^^|  ^^^^| |
-[B] [B] [B]   [B]    [B] [sec->str @symbol @ms]
-                         |
-[X b->a]                 [S digits=15]
-[X c->a]
-[X d->a]
-
-            
-```
+![example](examples/tl.timeline-example.jpg)
 
 ---
 arguments:

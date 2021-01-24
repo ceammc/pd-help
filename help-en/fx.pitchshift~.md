@@ -14,28 +14,7 @@ simple pitch shifter based on 2 delay lines
 ---
 
 
-```
-
-
-[open %CEAMMC%/guitar1.wav, 1(
-|
-[expand_env #a] [ui.knob]    [ui.knob]
-|               |            |
-|               |            |          [ui.knob]
-|               |            |          |
-[readsf~]       [* 2000]     [* 1000]   |
-|               |            |          |
-|               [@window $1( [@fade $1( [@drywet $1( [F]
-|               |            |          |            |
-|               |            |          |            |.
-[fx.pitchshift~                         -12 @drywet 0.5]
-|
-[ui.gain~ @size 120 14] [ui.dsp~]
-|\
-[dac~]
-
-            
-```
+![example](examples/fx.pitchshift~-example.jpg)
 
 ---
 arguments:

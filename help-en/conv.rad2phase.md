@@ -14,23 +14,7 @@ convert radians value to phase
 ---
 
 
-```
-
-
-[ui.hsl @min 0 @max 7]
-|
-[rad->phase]
-|
-[ui.knob]
-|
-|
-|
-[phase->rad]
-|
-[F]
-
-            
-```
+![example](examples/conv.rad2phase-example.jpg)
 
 ---
 arguments:

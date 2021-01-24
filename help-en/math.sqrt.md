@@ -18,17 +18,7 @@ sqrt(x) returns a NaN and generates a domain error for x &lt; 0.
 ---
 
 
-```
-
-
-[F]
-|
-[math.sqrt]
-|
-[F]
-
-            
-```
+![example](examples/math.sqrt-example.jpg)
 
 ---
 arguments:

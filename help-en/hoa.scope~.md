@@ -15,28 +15,7 @@ displays the circular harmonics of an ambisonic sound field
 ---
 
 
-```
-
-
-[osc.square~ 0.15]      [phasor~ 0.15]
-|                       |
-[ui.gain~ @size 120 14] [phase->rad~]
-|                       |.
-[hoa.encoder~ 5 {w=17,i=11,o=11}]
-*|*
-[hoa.scope~ 5 {i=11}]
-
-
-
-
-
-
-
-
-[ui.dsp~]
-
-            
-```
+![example](examples/hoa.scope~-example.jpg)
 
 ---
 arguments:

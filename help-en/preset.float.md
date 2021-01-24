@@ -15,20 +15,7 @@ Named float preset entry. Can store/load up to 16 various float values
 ---
 
 
-```
-
-
-               [store 0(  [store 1(
-               |          |
-      [load 0( | [load 1( |
-      |        | |        |
-      |        | |        |
-      |        | |        |
-[F] X [preset.float     f1]
-
-
-            
-```
+![example](examples/preset.float-example.jpg)
 
 ---
 arguments:

@@ -19,17 +19,7 @@ tan(+-infinity) returns a NaN and raises the &#34;invalid&#34; floating-point
 ---
 
 
-```
-
-
-[F]
-|
-[math.tan]
-|
-[F]
-
-            
-```
+![example](examples/math.tan-example.jpg)
 
 ---
 arguments:

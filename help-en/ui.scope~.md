@@ -14,22 +14,7 @@ Scope GUI object
 ---
 
 
-```
-
-
-[ui.dsp~ @size 40 40]
-
-
-[300( [660( [F]
-|     |     |
-|     |     |
-[osc~ 440   ] [scale 0.5( [scale 1( [scale 2(
-|             |           |         |
-|             |           |         |
-[ui.scope~             @size=450x200]
-
-            
-```
+![example](examples/ui.scope~-example.jpg)
 
 ---
 arguments:

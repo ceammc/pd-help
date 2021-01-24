@@ -14,21 +14,7 @@ Output single impulse on bang
 ---
 
 
-```
-
-
-[T]
-|
-[metro 300]
-|
-[click~]
-|
-[flt.resonbp~ 1000]
-|\    
-[dac~]
-
-            
-```
+![example](examples/click~-example.jpg)
 
 ---
 arguments:

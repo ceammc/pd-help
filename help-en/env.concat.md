@@ -14,26 +14,7 @@ Envelope concatenation
 ---
 
 
-```
-
-
-[bang(
-|
-[envelope adsr 10 40 20 50]
-|
-|      [loadbang]
-|      |
-|      [envelope ear 60 -4 30 2]
-|      |.
-[env.concat]
-|
-[env->array concat_array @resize]
-
-
-[array concat_array w=300 h=100 yr=0..1]
-
-            
-```
+![example](examples/env.concat-example.jpg)
 
 ---
 arguments:

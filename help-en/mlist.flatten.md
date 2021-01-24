@@ -14,19 +14,7 @@ flatten nested mlist
 ---
 
 
-```
-
-
-[\(\(\) 1 2 \(3 \(4 5\)\) \(\(\(\(6\)\)\)\) 7\), bang(
-|
-[mlist]
-|
-[mlist.flatten]
-|
-[ui.display @display_type=1]
-
-            
-```
+![example](examples/mlist.flatten-example.jpg)
 
 ---
 arguments:

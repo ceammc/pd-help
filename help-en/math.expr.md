@@ -20,36 +20,7 @@ Array access: array1[$f]
 ---
 
 
-```
-
-
-[F]          [$f * 2( [$f*$pi/180( /*change expression*/
-|            |        |
-| [@expr?(   [list    ]
-| |          |.
-[math.expr sin($f)]
-|
-[prop-> @expr  ]
-|             ^|
-|             [msg set]
-|             |
-[F digits=10] [ (
-
-
-[14 2 1( [1 3 4( /*lists*/
-|        |
-[math.expr $f0^2 + $f0 * $f1 + $f2]
-|
-[F]
-
-[F]                 [F]                  [F]
-|                   |                    |
-[math.expr abs($f)] [math.expr sign($f)] [math.expr sqrt($f)]
-|                   |                    |
-[F]                 [F]                  [F]
-
-            
-```
+![example](examples/math.expr-example.jpg)
 
 ---
 arguments:

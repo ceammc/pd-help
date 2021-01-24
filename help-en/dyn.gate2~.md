@@ -14,23 +14,7 @@ stereo signal gate
 ---
 
 
-```
-
-
-[osc~ 440] [F]
-|          |
-|    [dbtorms]
-|    |.
-[*~   ]      [F]
-|            |
-|            [threshold $1(
-|            |
-[dyn.gate2~ 90 id]
-|  ^|.
-[dac~]
-
-            
-```
+![example](examples/dyn.gate2~-example.jpg)
 
 ---
 arguments:

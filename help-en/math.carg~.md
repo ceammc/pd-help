@@ -15,27 +15,7 @@ outputs the phase angle in the interval [−π π]
 ---
 
 
-```
-
-
-[ui.slider2d @show_grid=1]
-|
-|
-|
-|
-|
-|
-|
-[unpack f f]
-|       ^|
-[sig~] [sig~]
-|      |.
-[math.carg~]  [ui.dsp~]
-|
-[ui.n~]
-
-            
-```
+![example](examples/math.carg~-example.jpg)
 
 ---
 arguments:

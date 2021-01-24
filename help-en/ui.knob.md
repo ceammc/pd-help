@@ -15,24 +15,7 @@ Simple knob widget with default range 0-1.
 ---
 
 
-```
-
-
-[hsl min=0 max=10]
-|
-|
-[F]   [+ 0.1( [- 0.1( [* 2( [/ 2( [++, bang( [--, bang(
-|     |       |       |     |     |          |
-|     |       |       |     |     |          |
-|     |       |       |     |     |          |
-[ui.knob @size 30 30 @max 10                 ]
-|
-|
-|
-[F]
-
-            
-```
+![example](examples/ui.knob-example.jpg)
 
 ---
 arguments:

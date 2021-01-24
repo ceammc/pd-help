@@ -20,17 +20,7 @@ asin(x) returns a NAN and raises the &#34;invalid&#34; floating-point exception 
 ---
 
 
-```
-
-
-[F]
-|
-[math.asin]
-|
-[F]
-
-            
-```
+![example](examples/math.asin-example.jpg)
 
 ---
 arguments:

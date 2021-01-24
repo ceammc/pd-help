@@ -14,23 +14,7 @@ output dict values
 ---
 
 
-```
-
-
-[\[a: b @prop: val 1: 100\], bang(
-|
-|
-|
-[data.dict]
-|
-[dict.get "@prop" "1" a "?"]
-|     ^|    ^^|   ^^^|
-|      |      |      |
-|      |      |      |
-[S]    [F]    [S]    [ui.display]
-
-            
-```
+![example](examples/dict.get-example.jpg)
 
 ---
 arguments:

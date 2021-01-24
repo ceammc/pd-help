@@ -14,23 +14,7 @@ list container
 ---
 
 
-```
-
-
-[dump( [list a b c(  [F]        [10 11(
-|      |             |          |
-| [B]  |  [pop(      [m append] [m insert 1]
-| |    |  |          |          |
-| |    |  |          |          |
-| |    |  |          |          |
-[data.list                  1 2 3]
-|
-[m set]
-|
-[ (
-
-            
-```
+![example](examples/data.list-example.jpg)
 
 ---
 arguments:

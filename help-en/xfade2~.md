@@ -16,25 +16,7 @@ control float value in range [0-1) controls xfade between first and second
 ---
 
 
-```
-
-                             
-[osc~ 440]    [osc~ 1000]   [ui.knob]
-|             |             |
-| [osc~ 441]  | [osc~ 1002] |
-| |           |   |         |
-| |           |   |         [F]
-| |.          |.. |...      |....
-[xfade2~ 2                        ]
-|  ^|
-|   |   [ui.slider @size 120 16]
-|   |.  |..
-[gain~   2]
-| ^|.
-[dac~]
-
-            
-```
+![example](examples/xfade2~-example.jpg)
 
 ---
 arguments:

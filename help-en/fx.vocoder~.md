@@ -15,25 +15,7 @@ very simple vocoder where the spectrum of the modulation signal is
 ---
 
 
-```
-
-
-[open %DOC%/sound/voice.wav, 1 #a(
-|
-[expand_env @any]
-|
-[readsf~]         [osc.impulse~ 200]
-|                 |
-|                 |
-|                 |.
-[fx.vocoder~       ]
-|
-[ui.gain~ @size 120 16] [ui.dsp~]
-|\
-[dac~]
-
-            
-```
+![example](examples/fx.vocoder~-example.jpg)
 
 ---
 arguments:

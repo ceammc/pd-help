@@ -14,26 +14,7 @@ string constructor
 ---
 
 
-```
-
-
-[B] [F]   [symbol ABC(
-|   |     |
-|   |     |
-[string 1 2 3]  [F]
-|               |
-| [B] [clear(   [append $1 $1(
-| |   |         |
-[string         ]
-|
-[str->sym]
-|
-[msg set]
-|
-[ (
-
-            
-```
+![example](examples/string-example.jpg)
 
 ---
 arguments:

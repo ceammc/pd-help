@@ -16,19 +16,7 @@ Defines local scope mlist variable, accessed by ID name and available only withi
 ---
 
 
-```
-
-
-[\(1 2 3 \(a b c\)\), bang( [bang(
-|                           |
-[ml]                        [local.mlist l1]
-|                           |
-[local.mlist l1]            [ui.display @display_type=1]
-|
-[ui.display @display_type=1]
-
-            
-```
+![example](examples/local.mlist-example.jpg)
 
 ---
 arguments:

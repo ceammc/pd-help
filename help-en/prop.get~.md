@@ -16,23 +16,7 @@ Extracts properties from sound stream with matching. Non property values are
 ---
 
 
-```
-
-
-[osc~ 440] [@db?( [@size?( [@amp?(
-|          |      |        |
-[ui.gain~ @size 160 16     ]   [ui.dsp~]
-|
-[prop~> @db  ]
-|    ^|   ^^|
-|    |      [ui.display @display_type=1]
-|    |
-|   [ui.display @display_type=1]
-|
-[ui.scope~]
-
-            
-```
+![example](examples/prop.get~-example.jpg)
 
 ---
 arguments:

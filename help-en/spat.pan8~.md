@@ -14,33 +14,7 @@ GMEM SPAT: 8-outputs spatializer
 ---
 
 
-```
-
-
-[osc~ 1000] [ui.knob]     [ui.knob]
-|           |             |
-|           |             |
-|           [* 6.2831852] |
-|           |             |
-|           [@angle $1(   [@dist $1(
-|           |             |
-|           |             |
-|           |             |
-[spat.pan8~ 3.141592  1                                        ]
-|       ^|      ^^|     ^^^|    ^^^^|   ^^^^^|  ^^^^^^| ^^^^^^^|
-[ui.m~] [ui.m~] [ui.m~] [ui.m~] [ui.m~] [ui.m~] [ui.m~] [ui.m~ ]
-
-
-
-
-
-
-
-
-[ui.dsp~]
-
-            
-```
+![example](examples/spat.pan8~-example.jpg)
 
 ---
 arguments:

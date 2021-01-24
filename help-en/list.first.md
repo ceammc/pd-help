@@ -14,19 +14,7 @@ returns first list element
 ---
 
 
-```
-
-
-[-11 60 12( [list a b( [F]
-|           |          |
-[list.first            ]
-|
-[msg set]
-|
-[ (
-
-            
-```
+![example](examples/list.first-example.jpg)
 
 ---
 arguments:

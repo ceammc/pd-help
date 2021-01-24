@@ -14,23 +14,7 @@ calculates variance of array values
 ---
 
 
-```
-
-
-[B]                            [array avar size=200 w=200 h=100]
-|
-[array.variance avar]
-|
-[F digits=16]
-
-
-
-[gauss 0 0.4( [sin 25 1( [fill 0(
-|             |          |
-[array.fill       avar   ]
-
-            
-```
+![example](examples/array.variance-example.jpg)
 
 ---
 arguments:

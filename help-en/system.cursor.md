@@ -14,23 +14,7 @@ Output cursor motion, mousewheel and buttonclicks
 ---
 
 
-```
-
-
-[T]             [T]
-|               |
-|  [bang(       [@relative $1(
-|  |            |
-[system.cursor  ]
-|
-[route motion mousewheel button]
-|          ^|   ^^|
-[msg set]  [F]   [route 1 2 3]
-|                |   ^|   ^^|
-[ (              [T] [T]  [T]
-
-            
-```
+![example](examples/system.cursor-example.jpg)
 
 ---
 arguments:

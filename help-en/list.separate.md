@@ -14,21 +14,7 @@ sends list elements one by one separately
 ---
 
 
-```
-
-
-[1 2 3 4 5( [\(a b c d e\), bang(
-|           |
-|           [ml] [_]
-|           |    |
-|           |    [@enumerate $1(
-|           |    |
-[list.separate   ]
-|
-[print SEPARATE]
-
-            
-```
+![example](examples/list.separate-example.jpg)
 
 ---
 arguments:

@@ -14,21 +14,7 @@ check if specified element is in set
 ---
 
 
-```
-
-
-[B]
-|
-[data.set 1 2 3 4]
-|
-|           [F]
-|           |.
-[set.contains 2]
-|
-[T]
-
-            
-```
+![example](examples/set.contains-example.jpg)
 
 ---
 arguments:

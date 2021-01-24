@@ -14,23 +14,7 @@ replace from one substring to another in input string
 ---
 
 
-```
-
-
-[B]
-|
-[string A_B_C_D_E]
-|
-[str.replace _ .]
-|
-[str->sym]
-|
-[msg set]
-|
-[ (
-
-            
-```
+![example](examples/string.replace-example.jpg)
 
 ---
 arguments:

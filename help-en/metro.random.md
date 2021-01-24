@@ -15,23 +15,7 @@ Random distribution: uniform
 ---
 
 
-```
-
-
-[T]  [ui.rsl @min 50 @max 1000]
-|    |.
-[metro.random 100 140]
-|
-[click~]
-|
-[flt.resonbp~ 1000 20] [dsp~]
-|
-[ui.hgain~]
-|\
-[dac~]
-
-            
-```
+![example](examples/metro.random-example.jpg)
 
 ---
 arguments:

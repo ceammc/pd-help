@@ -14,21 +14,7 @@ dictionary values as mlist
 ---
 
 
-```
-
-
-[B]
-|
-[data.dict \[bpm: 120 title: "Unknown masterpiece" freqs: 1 2 3 4\]]
-|
-|
-|
-[dict.values  ]
-|
-[ui.display @display_type=1]
-
-            
-```
+![example](examples/dict.values-example.jpg)
 
 ---
 arguments:

@@ -16,19 +16,7 @@ Convertion depends on property @step, which means a length of key/value pair.
 ---
 
 
-```
-
-
-[list a b c d e f g h j k  (
-|                          |
-|                          |
-|                          |
-[list->dict]               [list->dict 3]
-|                          |
-[ui.d]                     [ui.d]
-
-            
-```
+![example](examples/dict.from_list-example.jpg)
 
 ---
 arguments:

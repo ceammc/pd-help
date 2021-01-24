@@ -19,24 +19,7 @@ If @min method used, output is [1 3 5] and [2 4]. If @pad method used with value
 ---
 
 
-```
-
-
-[1 2 3 4( [1 2 3 4 5(
-|         |
-|         |
-|  [dump( |     [@min( [@pad X(
-|  |      |     |      |
-|  |      |     |      |
-|  |      |     |      |
-[list.unzip           2]
-|              ^|
-[msg set]      [msg set]
-|               |
-[ (             [ (
-
-            
-```
+![example](examples/list.unzip-example.jpg)
 
 ---
 arguments:

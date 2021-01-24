@@ -15,29 +15,7 @@ outputs numbers spaced evenly on a log scale (a geometric
 ---
 
 
-```
-
-
-[B]
-|
-|
-[plot.geomspace~ 2 1024]
-|      ^|.
-[ui.plot~ @size 400 150 @xlabels 1 @ylabels 1 @xmin_grid 1 @ymin_ticks 0 @xmin_ticks 0 @yauto 1]
-
-
-
-
-
-
-
-
-
-
-[ui.dsp~]
-
-            
-```
+![example](examples/plot.geomspace~-example.jpg)
 
 ---
 arguments:

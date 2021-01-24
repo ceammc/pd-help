@@ -14,22 +14,7 @@ checks if given lists are equal
 ---
 
 
-```
-
-
-[1 2 3(  [list a b c(
-|        |
-|        |   [1 2 3( [list a b c(
-|        |   |       |
-|        |   |       |   [dump( [@pattern?(
-|        |   |       |   |      |
-|        |   |.      |.  |      |
-[list.equal                a b c]
-|     |
-[F]   [print]
-
-            
-```
+![example](examples/list.equal-example.jpg)
 
 ---
 arguments:

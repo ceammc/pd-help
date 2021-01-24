@@ -18,27 +18,7 @@ map the receiver from an assumed linear input range to an exponential curve outp
 ---
 
 
-```
-
-
-[loadbang]     [F #a]              [array array1 size=1000 w=150 h=80 yr=0..1]
-|              |
-[0 1001 #d(    [@curve $1 #b(
-|
-[list.seq]
-|
-[list.unpack               ]
-|                          |
-|                          |
-[lin->curve 0 1001 0 1 #c] |
-|                          |.
-[tabwrite             array1]
-
-[X b->c]
-[X a->d]
-
-            
-```
+![example](examples/conv.lin2curve-example.jpg)
 
 ---
 arguments:

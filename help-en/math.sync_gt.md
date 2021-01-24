@@ -14,19 +14,7 @@ sync greater then numbers compare
 ---
 
 
-```
-
-
-[F]   [F]   /*same as:*/ [F]  [F]
-|     |                  |    |
-|     |                  |    [t b f]
-|     |.                 |    | ^|.
-[>'    ]                 [>       ]
-|                        |
-[_]                      [_]
-
-            
-```
+![example](examples/math.sync_gt-example.jpg)
 
 ---
 arguments:

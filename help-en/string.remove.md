@@ -14,25 +14,7 @@ remove substring from input string
 ---
 
 
-```
-
-
-[B]                   [B]                     [B]
-|                     |                       |
-[string 12321 12321]  [string 12321 12321]    [string 12321 12321]
-|                     |                       |
-[str.remove 123 @all] [str.remove 123 @first] [str.remove 123 @last]
-                    | |                       |
-                    | |                       |
-                    | |                       |
-                    [str->sym                 ]
-                    |
-                    [msg set]
-                    |
-                    [ (
-
-            
-```
+![example](examples/string.remove-example.jpg)
 
 ---
 arguments:

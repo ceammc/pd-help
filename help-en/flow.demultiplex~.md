@@ -14,29 +14,7 @@ audio stream demultiplexer
 ---
 
 
-```
-
-
-[osc~ 440]    [ui.radio @nitems 4] [ui.dsp~]
-|             |
-| [@value?(   |
-| |           |.
-[flow.demultiplex~ 4 #a]
-|
-[~->]
-| ^|
-|  [ui.display @display_type=1]
-|
-[env~]   [env~ #b] [env~ #c] [env~ #d]
-|        |         |         |
-[F]      [F]       [F]       [F]
-
-[X a:1->b]
-[X a:2->c]
-[X a:3->d]
-
-            
-```
+![example](examples/flow.demultiplex~-example.jpg)
 
 ---
 arguments:

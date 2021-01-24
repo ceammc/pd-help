@@ -14,18 +14,7 @@ repack input list to specified size
 ---
 
 
-```
-
-
-[1 2 3 4 5 6 7 8 9(
-|
-|
-[list.repack 4]
-|
-[print]
-
-            
-```
+![example](examples/list.repack-example.jpg)
 
 ---
 arguments:

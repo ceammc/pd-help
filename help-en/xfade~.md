@@ -16,25 +16,7 @@ control float value in range [0-1) controls xfade between first and second
 ---
 
 
-```
-
-
-/*simple 2-channel crossfade*/                [ui.radio 3]
-                                              |
-[osc~ 440]     [ui.knob]      [osc~ 440]      [ui.knob @max 2]
-|              |              |               |
-|  [osc~ 1000] |              | [osc~ 1000]   |
-|  |           |              | |             |
-|  |           [F]            | | [osc~ 1500] [F]
-|  |.          |..            | |.  |..       |...
-[xfade~           ]           [xfade~ 3 @pow     ]
-|                             |
-[ui.gain~ @size 120 16]       [ui.gain~ @size 120 16]
-|\                            |\
-[dac~]                        [dac~]
-
-            
-```
+![example](examples/xfade~-example.jpg)
 
 ---
 arguments:

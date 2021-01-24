@@ -15,28 +15,7 @@ second order &#34;peaking equalizer&#34; section (gain boost or cut near some
 ---
 
 
-```
-
-
-[noise~] [F]        [F]        [F]
-|        |          |          |
-|        [@freq $1( [@gain $1( [@bandwidth $1(
-|        |          |          |
-[flt.eq_peak~ 3000 20 400      ]
-|
-[ui.ssc~ @size 500 120]
-
-
-
-
-
-
-
-
-[ui.dsp~]
-
-            
-```
+![example](examples/flt.eq_peak~-example.jpg)
 
 ---
 arguments:

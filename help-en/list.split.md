@@ -15,21 +15,7 @@ splits list into two parts, the length of first list is specified by the
 ---
 
 
-```
-
-
-[1 2 3 4 5(  [@at 3(
-|            |
-|            |
-|            |
-[list.split      2]
-|              ^|
-[msg set]       [msg set]
-|               |
-[ (             [ (
-                
-            
-```
+![example](examples/list.split-example.jpg)
 
 ---
 arguments:

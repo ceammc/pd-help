@@ -14,25 +14,7 @@ mono signal gate
 ---
 
 
-```
-
-
-[osc~ 440] [F]
-|          |
-|     [dbtorms]
-|     |.
-[*~    ]      [F]
-|             |
-|             [@threshold $1(
-|             |
-[dyn.gate~ 90 id ]
-|
-[ui.gain~ @size 120 16] [ui.dsp~]
-|\
-[dac~]
-
-            
-```
+![example](examples/dyn.gate~-example.jpg)
 
 ---
 arguments:

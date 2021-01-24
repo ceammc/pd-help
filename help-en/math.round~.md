@@ -14,23 +14,7 @@ signal round
 ---
 
 
-```
-
-
-[osc~ 440]
-|
-[*~ 8]
-|
-[math.round~]
-|
-[/~ 32] [T]
-|  .____/
-[*~]
-| \
-[dac~]
-
-            
-```
+![example](examples/math.round~-example.jpg)
 
 ---
 arguments:

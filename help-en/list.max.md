@@ -17,27 +17,7 @@ Also you can choose largest symbol from list, using @symbol property.
 ---
 
 
-```
-
-
-[1 2 3 a b(  [list a b c(  [1 2 3 a b(  [list a aa ab ac(
-|            |             |            |
-|            |             |            |
-[list.max @float]          [list.max @symbol]
-|                          |
-[F]                        [S digits=10]
-
-[1 a 2 b 3 c( [F]    [S digits=8]
-|             |      |
-|             |      |
-[list.max @any       ]
-|
-[msg set]
-|
-[ (
-
-            
-```
+![example](examples/list.max-example.jpg)
 
 ---
 arguments:

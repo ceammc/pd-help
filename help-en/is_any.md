@@ -14,18 +14,7 @@ checks if input data has *any* type
 ---
 
 
-```
-
-
-[message( [1( [symbol a( [list a b c(
-|         |   |        ___/
-[is_any                ]
-|     ^|
-[tgl]  [print passed]
-
-                
-            
-```
+![example](examples/is_any-example.jpg)
 
 ---
 arguments:

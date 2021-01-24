@@ -14,21 +14,7 @@ joins (concatenates) strings with separator
 ---
 
 
-```
-
-
-[bang(
-|
-[string TEST]
-|
-[string.split]
-|
-[string.join ' ']
-|
-[ui.d @display_type=1]
-
-            
-```
+![example](examples/string.join-example.jpg)
 
 ---
 arguments:

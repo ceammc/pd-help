@@ -14,25 +14,7 @@ query the system management control in Apples
 ---
 
 
-```
-
-
-[TC0P(/*cpu temp*/
-|
-[symbol]
-|
-[S digits=10] [@keys?(
-|             |
-[read $1(     |
-|             |
-[hw.apple_smc ]
-|
-[@->    ]
-|      ^|
-[F]    [print]
-
-            
-```
+![example](examples/hw.apple_smc-example.jpg)
 
 ---
 arguments:

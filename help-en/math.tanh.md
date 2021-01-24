@@ -18,19 +18,7 @@ tanh(+-infinity) returns +-1.
 ---
 
 
-```
-
-
-[bang(                  [array TANH w=320]
-|
-[list.seq -5 5 0.1]
-|
-[math.tanh]
-|
-[list->array TANH]
-
-            
-```
+![example](examples/math.tanh-example.jpg)
 
 ---
 arguments:

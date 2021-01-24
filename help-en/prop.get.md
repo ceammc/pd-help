@@ -16,27 +16,7 @@ Extracts properties from data stream with matching. Non property values are pass
 ---
 
 
-```
-
-
-          [any value(
-          |
-[F]       |   [@prop1 a b c(   [@oth 1 2 3 4(
-|         |   |                |
-|  [B]    |   | [@prop1 2(     |
-|  |      |   | |              |
-|  |      |   | |              |
-|  |      |   | |              |
-[prop-> @prop1                  ]
-|     ^|   ^^|
-|     |      [ui.display @display_type=1]
-|     |
-|    [ui.display @display_type=1]
-|
-[ui.display @display_type=1]
-
-            
-```
+![example](examples/prop.get-example.jpg)
 
 ---
 arguments:

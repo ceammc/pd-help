@@ -14,18 +14,7 @@ checks if input data has *symbol* type
 ---
 
 
-```
-
-
-[100(  [any( [symbol a(  [list a b c( [bang(
-|      |     |           |____________/
-[is_symbol                ]
-|     ^|
-[tgl]  [print passed]
-
-                
-            
-```
+![example](examples/is_symbol-example.jpg)
 
 ---
 arguments:

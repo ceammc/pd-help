@@ -14,19 +14,7 @@ check symbols for equality
 ---
 
 
-```
-
-
-[symbol a( [symbol b( [symbol c(
-|          |          |
-|          |          |  [symbol c(
-|          |          |  |.
-[symbol.equal             b]
-|
-[F]
-
-            
-```
+![example](examples/symbol.equal-example.jpg)
 
 ---
 arguments:

@@ -14,17 +14,7 @@ on input index(es) outputs list element(s)
 ---
 
 
-```
-
-
-[F]  [1 3 5 -1(
-|    |
-[list.^at A B C D E F G H]
-|
-[ui.display @display_type=1]
-
-            
-```
+![example](examples/list.^at-example.jpg)
 
 ---
 arguments:

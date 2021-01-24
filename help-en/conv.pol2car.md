@@ -14,28 +14,7 @@ convert from polar coordinates to cartesian
 ---
 
 
-```
-
-
-[ui.knob]
-|
-|
-|
-[F]
-|
-[phase->rad]
-|
-[1 $1(
-|
-[pol->car]
-|
-[ui.slider2d]
-
-
-
-
-            
-```
+![example](examples/conv.pol2car-example.jpg)
 
 ---
 arguments:

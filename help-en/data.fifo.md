@@ -16,23 +16,7 @@ If size argument specified - creates queue with fixed size. When count of values
 ---
 
 
-```
-
-
-                 [F]
-                 |
-    [pop(  [1 2( [resize $1(
-    |      |         |        [@size?( [@free?( [@filled?(
-[F] |  [B] | [clear( | [flush( |       |        |
-|   |  |   | |       | |       |       |        |
-[data.fifo                                     5]
-|                |
-[msg set]        [print]
-|
-[ (
-
-            
-```
+![example](examples/data.fifo-example.jpg)
 
 ---
 arguments:

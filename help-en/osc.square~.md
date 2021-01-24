@@ -14,30 +14,7 @@ Bandlimited square wave oscillator
 ---
 
 
-```
-
-
-[F]        [ui.dsp~]
-|
-[$1 50(
-|
-[line~]     [bang(
-|           |.
-[osc.square~]
-|
-[ui.gain~ @size 120 14]
-|\       |
-[dac~]   [ui.scope~]
-
-
-
-
-
-
-
-
-            
-```
+![example](examples/osc.square~-example.jpg)
 
 ---
 arguments:

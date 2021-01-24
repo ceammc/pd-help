@@ -17,31 +17,7 @@ Universal list walker. If you want to output current element and when move to ne
 ---
 
 
-```
-
-
-[_]                     [_]
-|                       |
-[metro 100] [1 6 9 11( [@direction $1(
-|           |          |
-|           | [@clip(  | [@single( [@loop( [@fold(
-|           | |        | |         |       |
-|   [-1(    | |  [1(   | |         |       | [prev( [next(
-|   |       | |  |     | |         |       | |      |
-[list.walk 1 3 6 8                             @fold]
-|
-[+ 60]
-|
-[mtof]
-|
-[osc~]
-|
-[*~ 0.1]
-| \
-[dac~]
-
-            
-```
+![example](examples/list.walk-example.jpg)
 
 ---
 arguments:

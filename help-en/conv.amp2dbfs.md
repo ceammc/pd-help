@@ -15,27 +15,7 @@ Note: amplitude value 0 is converted to -144 db (24-bit range)
 ---
 
 
-```
-
-
-[ui.hsl]
-|
-[F]
-|
-[amp->dbfs]
-|
-[F]
-
-[0 0.5 1 2(
-|
-[amp->dbfs]
-|
-[msg set]
-|
-[ (
-
-            
-```
+![example](examples/conv.amp2dbfs-example.jpg)
 
 ---
 arguments:

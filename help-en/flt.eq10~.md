@@ -15,34 +15,7 @@ One band per octave. 5th-order Butterworth filters
 ---
 
 
-```
-
-
-[fill 0.5, bang(        [r~ ssc #a]
-|                       |
-[ui.sliders @count 10]  [ui.spectroscope~ @size=300x100 @log_scale=1]
-|
-|
-|
-|
-|
-|
-|
-[lin->lin 0 1 -10 10]
-|
-|
-|                 [F]
-|                 |
-|  [noise.white~] [@f8000 $1(
-|  |              |
-[flt.eq10~        ]
-|
-[ui.gain~ @size 120 14]  [ui.dsp~]
-|\     |
-[dac~] [s~ ssc]
-
-            
-```
+![example](examples/flt.eq10~-example.jpg)
 
 ---
 arguments:

@@ -15,17 +15,7 @@ Generates pseudo-random number in specified closed interval.
 ---
 
 
-```
-
-
-[B]
-|
-[random.int -10 10]
-|
-[F]
-
-            
-```
+![example](examples/random.int-example.jpg)
 
 ---
 arguments:

@@ -17,24 +17,7 @@ Injects properties into data stream. Values from first inlet are passed unchange
 ---
 
 
-```
-
-
-[F]      [F]
-|        |
-|  [B]   [$1 $1(
-|  |     |
-|  |     |      [F]
-|  |     |.     |..
-[prop<-  @size  @a]
-|
-[prop->     @size                    ]
-|      ^|                          ^^|
-[F]   [ui.display @display_type=1] [ui.display @display_type=1]
-
-
-            
-```
+![example](examples/prop.set-example.jpg)
 
 ---
 arguments:

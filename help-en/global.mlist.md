@@ -15,19 +15,7 @@ Defines global scope mlist variable, accessed by ID name
 ---
 
 
-```
-
-
-[\(1 2 3 \(a b c\)\), bang( [bang(
-|                           |
-[ml]                        [global.mlist l1]
-|                           |
-[global.mlist l1]           [ui.display @display_type=1]
-|
-[ui.display @display_type=1]
-
-            
-```
+![example](examples/global.mlist-example.jpg)
 
 ---
 arguments:

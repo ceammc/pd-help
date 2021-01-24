@@ -14,19 +14,7 @@ sync less equal numbers compare
 ---
 
 
-```
-
-
-[F]   [F]   /*same as:*/ [F]  [F]
-|     |                  |    |
-|     |                  |    [t b f]
-|     |.                 |    | ^|.
-[<='    ]                [<=       ]
-|                        |
-[_]                      [_]
-
-            
-```
+![example](examples/math.sync_le-example.jpg)
 
 ---
 arguments:

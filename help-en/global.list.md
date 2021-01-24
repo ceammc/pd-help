@@ -15,21 +15,7 @@ Defines global scope list variable, accessed by ID name.
 ---
 
 
-```
-
-
-[list a b c(  [set 3 2 1(
-|             |
-|  [1 2 3(    |            [bng]
-|  |          |            |
-[global.list id]           [global.list id]
-|                          |
-[msg set]                  [msg set]
-|                          |
-[ (                        [ (
-
-            
-```
+![example](examples/global.list-example.jpg)
 
 ---
 arguments:

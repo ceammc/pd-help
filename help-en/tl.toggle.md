@@ -15,19 +15,7 @@ Output 1 when cue section activated, 0 when switched to other cue section
 ---
 
 
-```
-
-
-              [tl.cue]           [tl.cue]
-
-[HR number=3]    [tl.toggle]              [tl.toggle]
-|                |                        |
-[cue $1(         [T]                      [T]
-|
-[tl.transport]
-
-            
-```
+![example](examples/tl.toggle-example.jpg)
 
 ---
 arguments:

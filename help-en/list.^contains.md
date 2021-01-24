@@ -16,31 +16,7 @@ Different arguments order then in [list.^contains]
 ---
 
 
-```
-
-
-[F]  [2 3 4( [4 5 6( [symbol A( [list A B(
-|    |       |       |          |
-|    |       |       |          | [list A B C D(
-|    |       |       |          | |.
-[list.^contains              1 2 3 4 5]
-|
-[T]
-
-/*works with data*/ [loadbang ]
-                    |         |
-[B]       [B]       [str ABC] [str DEF]
-|         |         |         |.
-[str ABC] [str ??]  [list append]
-|         |         |.
-[list.^contains       ]
-|
-[T]
-|
-[B]
-
-            
-```
+![example](examples/list.^contains-example.jpg)
 
 ---
 arguments:

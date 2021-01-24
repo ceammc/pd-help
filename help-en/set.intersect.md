@@ -14,25 +14,7 @@ output intersection of given sets
 ---
 
 
-```
-
-
-[B]
-|
-[trigger           b b]
-|                  ^|
-[data.set 1 2 3 4]  [data.set 3 4 5 6]
-|                   |.
-[set.intersect       ]
-|
-[set->list @sort]
-|
-[msg set]
-|
-[ (
-
-            
-```
+![example](examples/set.intersect-example.jpg)
 
 ---
 arguments:

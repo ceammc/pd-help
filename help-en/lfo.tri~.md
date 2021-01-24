@@ -14,23 +14,7 @@ Zero-mean unit-amplitude low frequency triangle wave
 ---
 
 
-```
-
-
-[osc.saw~ 40]             [ui.dsp~]
-|
-[ui.gain~ @size 120 14]
-|
-|        [F]
-|        |
-|        [lfo.tri~ 0.5]
-|        |.
-[pan.linsig~]
-|  ^|.
-[dac~ ]
-
-            
-```
+![example](examples/lfo.tri~-example.jpg)
 
 ---
 arguments:

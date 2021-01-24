@@ -19,19 +19,7 @@ round(+-infinity) returns +-infinity.
 ---
 
 
-```
-
-
-[F]  [2.3 3.8 5.5 -2.3 -3.8 -5.5(
-|    |
-[math.round]
-|
-[msg set]
-|
-[  (
-
-            
-```
+![example](examples/math.round-example.jpg)
 
 ---
 arguments:

@@ -19,25 +19,7 @@ The properties of chaos of the standard map were established by Boris Chirikov i
 ---
 
 
-```
-
-
-[440( [15000( [F]       [ui.dsp~]
-|     |       |
-[sig~    400] [sig~ 1]
-|             |.
-[chaos.std0~   ]
-|
-[fx.pitchshift~ @drywet 0.5 @fade 50 @pitch 15.1 @window 93]
-|
-[flt.dcblock~]
-|
-[ui.hgain~]
-|\
-[dac~]
-
-            
-```
+![example](examples/chaos.std0~-example.jpg)
 
 ---
 arguments:

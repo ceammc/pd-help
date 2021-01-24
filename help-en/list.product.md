@@ -16,20 +16,7 @@ Note: symbol values are treated as 0. So if list contains at least one symbol,
 ---
 
 
-```
-
-
-[1 2 3 4 5 -6(   [1 2 a b c(
-|                |
-|  [1 2 3(       |
-|  |             |
-|  |             |
-[list.product    ]
-|
-[F]
-
-            
-```
+![example](examples/list.product-example.jpg)
 
 ---
 arguments:

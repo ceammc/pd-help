@@ -16,41 +16,7 @@ Based on SoundTouch library for changing the Tempo, Pitch and Playback Rates of
 ---
 
 
-```
-
- 
-[loadbang]
-|
-[symbol voice.wav( [symbol bell.aiff( [array A1 w=100] [array A2 w=100]
-|                  |
-[load %DOC%/sound/$1 @to A1 @resize(
-|
-[expand_env]
-|
-[snd.file]
-
-[bng] /*lower pitch*/
-|                                    
-[array.stretch A1 A2 @pitch -5]     
-
-[bng] /*speed up and high*/     [bng]/*timestretch*/
-|                               |
-[array.stretch A1 A2 @rate 1.5] [array.stretch A1 A2 @tempo -30 @speech]
-
-/* Play */
-
-[ui.tab @items A1 A2]
-|
-[set $2, bang( [stop(
-|              |
-[tabplay~    A2]
-|
-[ui.gain~ @size 120 16]    [ui.dsp~]
-| \
-[dac~]
-
-            
-```
+![example](examples/array.stretch-example.jpg)
 
 ---
 arguments:

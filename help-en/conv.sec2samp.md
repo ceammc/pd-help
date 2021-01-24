@@ -15,19 +15,7 @@ convert time in seconds to number of samples according to current
 ---
 
 
-```
-
-
-[1(  [1 1.5 2.9(
-|    |
-[sec->samp]
-|
-[msg set]
-|
-[ (
-
-            
-```
+![example](examples/conv.sec2samp-example.jpg)
 
 ---
 arguments:

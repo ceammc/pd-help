@@ -14,23 +14,7 @@ Zero-mean unit-amplitude low frequency square wave
 ---
 
 
-```
-
-
-[osc.saw~ 100]
-|
-[ui.gain~ @size 120 14]
-|
-|              [F]          [bang(
-|              |            |.
-|              [lfo.square~ 6]
-|          .___/
-[pan.linsig~]    [ui.dsp~]
-|  ^|.
-[dac~]
-
-            
-```
+![example](examples/lfo.square~-example.jpg)
 
 ---
 arguments:

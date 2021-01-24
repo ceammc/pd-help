@@ -16,25 +16,7 @@ Note: output list is not sorted by default. You can use @sort flag to get sorted
 ---
 
 
-```
-
-
-[dump(
-|
-| [B] [add a(   [remove a(
-| |   |         |
-| |   |         |
-| |   |         |
-[data.set a b c  d]
-|           |
-[set->list] [set->list @sort]
-|           |
-[msg set]   [msg set]
-|           |
-[ (         [ (
-
-            
-```
+![example](examples/data.set2list-example.jpg)
 
 ---
 arguments:

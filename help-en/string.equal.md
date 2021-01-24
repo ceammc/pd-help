@@ -14,19 +14,7 @@ check strings for equality
 ---
 
 
-```
-
-
-[B]
-|
-[string Chuck] [symbol Chuck?(
-|              |
-[string.equal Chuck]
-|
-[T]
-
-            
-```
+![example](examples/string.equal-example.jpg)
 
 ---
 arguments:

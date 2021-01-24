@@ -14,22 +14,7 @@ soft signal clip
 ---
 
 
-```
-
-
-[osc~ 220] [F]      [osc~ 220] [F]
-|  ._______/        |  ._______/
-[*~]                [*~]
-|                   |
-[dyn.softclip~]     [clip~ -1 1]
-|     [_]           |      [_]
-|     |.            |      |.
-[*~   ]             [*~    ]
-|\                  |\
-[dac~]              [dac~]
-
-            
-```
+![example](examples/dyn.softclip~-example.jpg)
 
 ---
 arguments:

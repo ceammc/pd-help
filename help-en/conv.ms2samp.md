@@ -15,17 +15,7 @@ convert time in milliseconds to number of samples according to current
 ---
 
 
-```
-
-
-[F digits=10]
-|
-[ms->samp]
-|
-[F digits=10]
-
-            
-```
+![example](examples/conv.ms2samp-example.jpg)
 
 ---
 arguments:

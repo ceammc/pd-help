@@ -14,20 +14,7 @@ multiplication (on lists too)
 ---
 
 
-```
-
-
-[1 2 3 A B C( [F]  [F]
-|             |    |
-|             |    |.
-[math.* 2           ]
-|
-[msg set]
-|
-[ (
-
-            
-```
+![example](examples/math.mul-example.jpg)
 
 ---
 arguments:

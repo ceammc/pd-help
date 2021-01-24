@@ -14,21 +14,7 @@ returns last list element
 ---
 
 
-```
-
-
-[1 60 120 b 11( [list a b( [\(a b c\), bang(
-|               |          |
-|               |          [ml]
-|               |          |
-[list.last                 ]
-|
-[msg set]
-|
-[ (
-
-            
-```
+![example](examples/list.last-example.jpg)
 
 ---
 arguments:

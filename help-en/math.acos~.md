@@ -16,34 +16,7 @@ Outputs the principle value of the arc cosine of input signal. The result is in
 ---
 
 
-```
-
-
-[B]
-|
-[plot.linspace~ -1 1]
-|                 ^|
-[math.acos~]       |
-|                  |.
-[ui.plot~ @xlabels 1 @ylabels 1 @yauto 1 @size 200 200]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-[ui.dsp~]
-
-            
-```
+![example](examples/math.acos~-example.jpg)
 
 ---
 arguments:

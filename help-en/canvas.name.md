@@ -14,17 +14,7 @@ current canvas name
 ---
 
 
-```
-
-
-[B]
-|
-[canvas.name]
-|
-[S digits=20]
-
-            
-```
+![example](examples/canvas.name-example.jpg)
 
 ---
 arguments:

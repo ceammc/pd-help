@@ -21,19 +21,7 @@ log10(+infinity) return +infinity.
 ---
 
 
-```
-
-
-[bang(                  [array LOG10 yr=-2..2 w=320]
-|
-[list.seq -1 100 0.5]
-|
-[math.log10]
-|
-[list->array LOG10]
-
-            
-```
+![example](examples/math.log10-example.jpg)
 
 ---
 arguments:

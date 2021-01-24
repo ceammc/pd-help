@@ -15,25 +15,7 @@ Outputs index or -1 if not found
 ---
 
 
-```
-
-
-[F]  [S]    [20 30(
-|    |      |
-|    |      | [F]
-|    |      | |
-|    |      | [@start $1(
-|    |      | |
-|    |      | | [F]
-|    |      | | |
-|    |      | | [@end $1( [1 2 3 4(  [list a b c d(
-|    |      | | |         |.         |.
-[list.^search        10 20 30 40 50 A B C]
-|
-[F]
-
-            
-```
+![example](examples/list.^search-example.jpg)
 
 ---
 arguments:

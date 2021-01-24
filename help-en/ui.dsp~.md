@@ -14,19 +14,7 @@ GUI for turning DSP on/off
 ---
 
 
-```
-
-
-[start( [stop( [settings(
-|       |      |
-|       |      |
-[ui.dsp~       ]
-
-
-
-
-            
-```
+![example](examples/ui.dsp~-example.jpg)
 
 ---
 arguments:

@@ -14,29 +14,7 @@ Bandlimited pulse train oscillator
 ---
 
 
-```
-
-
-[F]      [ui.knob]   [ui.dsp~]
-|        |
-|        |
-|        |
-|        [@duty $1(
-|        |
-[osc.pulse~ 220 0.5]
-|
-[ui.gain~ @size 120 14]
-|\     |
-[dac~] [ui.scope~]
-
-
-
-
-
-
-
-            
-```
+![example](examples/osc.pulse~-example.jpg)
 
 ---
 arguments:

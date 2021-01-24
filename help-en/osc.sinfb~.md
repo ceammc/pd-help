@@ -14,29 +14,7 @@ Sine oscilator with feedback
 ---
 
 
-```
-
-
-[F]     [ui.knob @min 0 @max 6.28]
-|       |
-|       |
-|       |
-|       [@feedback $1(
-|       |
-[osc.sinfb~ 440 2]
-|
-[ui.gain~ @size 120 14]  [ui.dsp~]
-|\      |
-[dac~]  [ui.scope~]
-
-
-
-
-
-
-
-            
-```
+![example](examples/osc.sinfb~-example.jpg)
 
 ---
 arguments:

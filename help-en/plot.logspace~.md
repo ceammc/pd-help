@@ -16,29 +16,7 @@ In linear space, the sequence starts at base^start (base to the power of start)
 ---
 
 
-```
-
-
-[B]
-|
-|
-[plot.logspace~ 1 4 @10]
-|      ^|.
-[ui.plot~ @size 400 150 @xlabels 1 @ylabels 1 @xmin_grid 1 @ymin_ticks 0 @xmin_ticks 0 @yauto 1]
-
-
-
-
-
-
-
-
-
-
-[ui.dsp~]
-
-            
-```
+![example](examples/plot.logspace~-example.jpg)
 
 ---
 arguments:

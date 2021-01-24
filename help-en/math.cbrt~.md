@@ -18,34 +18,7 @@ cbrt(+-infinity) returns +-infinity.
 ---
 
 
-```
-
-
-[B]
-|
-[plot.linspace~ -8 8]
-|                 ^|
-[math.cbrt~]       |
-|                  |.
-[ui.plot~ @xlabels 1 @ylabels 1 @yauto 1 @size 400 200]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-[ui.dsp~]
-
-            
-```
+![example](examples/math.cbrt~-example.jpg)
 
 ---
 arguments:

@@ -14,19 +14,7 @@ returns the number of items that equal to specified value
 ---
 
 
-```
-
-
-          [@pattern c(  [list a b c c(
-          |             |
-[1 2 3 1( | [F]         |
-|         | |.          |
-[list.count             a]
-|        |
-[F]      [print]
-
-            
-```
+![example](examples/list.count-example.jpg)
 
 ---
 arguments:

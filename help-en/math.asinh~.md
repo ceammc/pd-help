@@ -15,34 +15,7 @@ Outputs the principle value of the hyperbolic arc sine of input signal
 ---
 
 
-```
-
-
-[B]
-|
-[plot.linspace~ -4 4]
-|                 ^|
-[math.asinh~]      |
-|                  |.
-[ui.plot~ @xlabels 1 @ylabels 1 @ymin -2.5 @ymax 2.5 @ymin_ticks 0 @ymaj_ticks 0 @size 400 200]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-[ui.dsp~]
-
-            
-```
+![example](examples/math.asinh~-example.jpg)
 
 ---
 arguments:

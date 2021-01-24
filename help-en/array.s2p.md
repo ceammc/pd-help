@@ -16,23 +16,7 @@ with this object you can get relative position in array
 ---
 
 
-```
-
-
-[HS min=0 max=100]       [array array1 size=100 w=100 h=70]
-|
-[F]
-|
-[array.s->p array1]
-|
-[F]
-|
-[array.p->s array1]
-|
-[F]
-
-            
-```
+![example](examples/array.s2p-example.jpg)
 
 ---
 arguments:

@@ -14,13 +14,7 @@ dac~ with channel ranges
 ---
 
 
-```
-
-
-[xdac~] [xdac~ 1:6] [xdac~ 1:3 5 7:12]
-
-            
-```
+![example](examples/xdac~-example.jpg)
 
 ---
 arguments:

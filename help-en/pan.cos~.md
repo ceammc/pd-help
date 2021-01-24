@@ -16,23 +16,7 @@ Two channel equal power panner. The center pan position is boosted by 3 dB
 ---
 
 
-```
-
-
-          [hsl]
-          |
-          [lin->lin 0 127 -1 1]
-          |
-[sig~ 1]  [F]
-|         |.
-[pan.cos~  ]
-|       ^|
-[env~]   [env~]
-|        |
-[F]      [F]
-
-            
-```
+![example](examples/pan.cos~-example.jpg)
 
 ---
 arguments:

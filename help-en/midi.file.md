@@ -14,35 +14,7 @@ standard midi file SMF reader and writer
 ---
 
 
-```
-
-
-[B]
-|
-[openpanel]
-|
-[read $1, bang(
-|
-[midi.file]
-|
-|  [play( [stop(
-|  |      |
-[midi.track @join]
-|
-[midi.ev->note]
-|
-[unpack f f]
-|      ^|
-[mtof] [/ 100]
-|      |
-[osc~] |
-|      |.
-[*~     ]
-| \
-[dac~]
-
-            
-```
+![example](examples/midi.file-example.jpg)
 
 ---
 arguments:

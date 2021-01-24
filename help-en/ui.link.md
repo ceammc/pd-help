@@ -17,22 +17,7 @@ Link allows to open external URLs, not only Pd patches but all kind of URL
 ---
 
 
-```
-
-
-
-/* [ui.link @url vu-help.pd @title VU-help] */
-
-[ui.link @url=vu-help.pd @title=VU-help]
-
-/* [ui.link @url http://puredata.info @title puredata.info] */
-
-[ui.link @url=http://puredata.info @title=puredata.info]
-
-
-
-            
-```
+![example](examples/ui.link-example.jpg)
 
 ---
 arguments:

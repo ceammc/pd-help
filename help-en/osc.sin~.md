@@ -15,19 +15,7 @@ included for library comprehension
 ---
 
 
-```
-
-
-[F]
-|
-[osc.sin~ 440]
-|
-[ui.gain~ @size 120 16] [ui.dsp~]
-|\
-[dac~]
-
-            
-```
+![example](examples/osc.sin~-example.jpg)
 
 ---
 arguments:

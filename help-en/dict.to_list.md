@@ -14,19 +14,7 @@ converts dictionary to plain list
 ---
 
 
-```
-
-
-[\[a: b c: d e f\], bang(
-|
-[data.dict]
-|
-[dict->list]
-|
-[ui.d]
-
-            
-```
+![example](examples/dict.to_list-example.jpg)
 
 ---
 arguments:

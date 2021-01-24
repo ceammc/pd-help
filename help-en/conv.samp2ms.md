@@ -14,17 +14,7 @@ convert samples to time according to samplerate
 ---
 
 
-```
-
-
-[44100(  [20 1000 5000 20000(
-|        |
-[samp->ms]
-|
-[F digits=10]
-
-            
-```
+![example](examples/conv.samp2ms-example.jpg)
 
 ---
 arguments:

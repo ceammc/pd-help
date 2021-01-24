@@ -15,21 +15,7 @@ Calculates for signals (a + bi) * (c + di) = (ac - bd) + (ad + bc)i
 ---
 
 
-```
-
-
-[F]    [F]    [F]    [F]
-|      |      |      |
-[sig~] [sig~] [sig~] [sig~]
-|      |      |      |
-|      |      |      |
-|      |.     |..    |...
-[math.cmul~             ]  [ui.dsp~]
-|           ^|
-[ui.n~]     [ui.n~]
-
-            
-```
+![example](examples/math.cmul~-example.jpg)
 
 ---
 arguments:

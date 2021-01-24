@@ -14,28 +14,7 @@ audio stream stereo multiplexer
 ---
 
 
-```
-
-
-[osc~ 440]             [ui.radio @nitems 2] [ui.dsp~]
-|                      |
-| [osc~ 442]           |
-| |                    |
-| |  [osc~ 660]        |
-| |  |                 |
-| |  |   [osc~ 662]    |
-| |  |   |             |
-| |. |.. |...          |....
-[flow.multiplex2~ 2         ]
-|  ^|
-|   |  [ui.slider @size 120 16]
-|   |. |..
-[gain~  2]
-|  ^|.
-[dac~]
-
-            
-```
+![example](examples/flow.multiplex2~-example.jpg)
 
 ---
 arguments:

@@ -14,19 +14,7 @@ convert from one linear range to another
 ---
 
 
-```
-
-
-[F]   [T]
-|     |
-|     [@clip $1(
-|     |
-[lin->lin 0 127 -1 1]
-|
-[F]
-
-            
-```
+![example](examples/conv.lin2lin-example.jpg)
 
 ---
 arguments:

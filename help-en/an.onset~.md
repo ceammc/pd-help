@@ -15,21 +15,7 @@ Onset detector based on aubio library
 ---
 
 
-```
-
-
-[adc~ 1]     [ui.dsp~]
-|
-|   [T]   [ui.menu hfc energy complex phase wphase specdiff specflux kl mkl]
-|   |.    |
-[gain~]   [@method $1, dump(
-|         |
-[an.onset~ 2048]
-|      ^|
-[B]    [F digits=10]
-
-            
-```
+![example](examples/an.onset~-example.jpg)
 
 ---
 arguments:

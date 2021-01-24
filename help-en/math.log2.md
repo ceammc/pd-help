@@ -19,19 +19,7 @@ log2(+infinity) return +infinity.
 ---
 
 
-```
-
-
-[bang(                  [array LOG2 yr=-4..4 w=320]
-|
-[list.seq -1 16 0.125]
-|
-[math.log2]
-|
-[list->array LOG2]
-
-            
-```
+![example](examples/math.log2-example.jpg)
 
 ---
 arguments:

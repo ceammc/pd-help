@@ -13,4 +13,5 @@ for filename in *.md; do
     mv "$filename" "../help-en/$filename"
 done
 mv img ../help-en/img
+cp examples ../help-en/examples
 

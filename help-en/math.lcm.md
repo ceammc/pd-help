@@ -14,19 +14,7 @@ calculate least common multiple
 ---
 
 
-```
-
-
-[F]  [F]
-|    |.
-[flow.sync 2] [3 5(
-|    ^|.      |
-[math.lcm   12]
-|
-[F]
-
-            
-```
+![example](examples/math.lcm-example.jpg)
 
 ---
 arguments:

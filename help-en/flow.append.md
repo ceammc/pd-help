@@ -14,29 +14,7 @@ inject message into flow
 ---
 
 
-```
-
-
-[1, 2, 3(
-|
-[flow.append DONE @delay 0]
-|
-[print NEXT]
-
-[1, 2, 3(
-|
-[flow.append DONE @delay -1]
-|
-[print NO_DELAY]
-
-[1, 2, 3(
-|
-[flow.append DONE @delay 1000]
-|
-[print DELAY]
-
-            
-```
+![example](examples/flow.append-example.jpg)
 
 ---
 arguments:

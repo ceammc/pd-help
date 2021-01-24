@@ -14,19 +14,7 @@ Run-length list decoder (RLE)
 ---
 
 
-```
-
-
-[1 2 1 3(    [1 3 2 2(
-|            |.
-[list.unwrap  ]
-|
-[msg set]
-|
-[ (
-
-            
-```
+![example](examples/list.rldecode-example.jpg)
 
 ---
 arguments:

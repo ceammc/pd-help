@@ -14,18 +14,7 @@ checks if input data has *bang* type
 ---
 
 
-```
-
-
-[bang( [1( [symbol a( [list a b c(
-|      |   |        ___/
-[is_bang            ]
-|     ^|
-[tgl]  [print passed]
-
-                
-            
-```
+![example](examples/is_bang-example.jpg)
 
 ---
 arguments:

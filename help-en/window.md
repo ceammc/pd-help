@@ -14,32 +14,7 @@ returns window value by given window position
 ---
 
 
-```
-
-
-
-[blackman(  [blackman-harris(    [flattop, bang(
-|           |                    |
-| [hamming( | [hann(  [nuttall(  | [rect, bang(
-| |         | |       |          | |
-| | [sine(  | | [tri( |  [welch( | | [gauss, bang(
-| | |       | | |     |  |       | | |
-| | | [B]   | | |     |  |       | | |
-| | | |     | | |     |  |       | | |
-[window                       gauss 512]
-|
-[array.set array-window]
-
-
-[array array-window size=512 w=100 h=100 yr=0..1]
-
-
-
-
-
-
-            
-```
+![example](examples/window-example.jpg)
 
 ---
 arguments:

@@ -18,26 +18,7 @@ Input mode: Double click to enter new value. Accepted keys: -.0123456789. Press
 ---
 
 
-```
-
-
-[hsl]
-|
-| [+ 50( [- 75( [* 2( [/ 3, bang(
-| |      |      |     |
-| | [++( | [--( |     |
-| | |    | |    |     |
-| | |    | |    |     | [set -1( [B]
-| | |    | |    |     | |        |
-[ui.number  @size 200 40          ]
-|
-|
-|
-|
-[F]
-
-            
-```
+![example](examples/ui.number-example.jpg)
 
 ---
 arguments:

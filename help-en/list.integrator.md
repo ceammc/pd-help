@@ -15,23 +15,7 @@ returns the sum of the previously stored list and the current one then
 ---
 
 
-```
-
-
-[1 2 3(   [-1 -2 -3(
-|         |
-|  [dump( | [clear(
-|  |      | |
-|  |      | |
-|  |      | |
-[list.integrator]
-|
-[msg set]
-|
-[ (
-
-            
-```
+![example](examples/list.integrator-example.jpg)
 
 ---
 arguments:

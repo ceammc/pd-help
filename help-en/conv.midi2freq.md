@@ -15,32 +15,7 @@ convert from midi pitch to frequency in hz (with various base A and
 ---
 
 
-```
-
-
-[ui.keyboard]
-|
-|
-|
-|
-[f]  [@a 415( [@a 440(   [ui.menu eq just ganassi meantone kirnberger3 pythagorean rameau valotti zarlino]
-|    |        |          |
-|    |        |          [@t $2(
-|    |        |          |
-[m->f 442                ]
-|
-[F]
-|
-[osc~]
-|
-[ui.gain~ @size 120 16]
-|\
-[dac~]
-
-[ui.dsp~]
-
-            
-```
+![example](examples/conv.midi2freq-example.jpg)
 
 ---
 arguments:

@@ -14,20 +14,7 @@ Unit-amplitude low-frequency impulse train
 ---
 
 
-```
-
-
-[floatatom]
-|
-[lfo.impulse~ 8]
-|              [tgl]
-|  .___________/
-[*~]
-|\
-[dac~]
-
-            
-```
+![example](examples/lfo.impulse~-example.jpg)
 
 ---
 arguments:

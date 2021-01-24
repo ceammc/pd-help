@@ -14,24 +14,7 @@ One track looper
 ---
 
 
-```
-
-
-[adc~ 1]
-|
-| [record( [play( [overdub( [stop( [clear(
-| |        |      |         |      |
-| |        |      |         |      |
-| |        |      |         |      |
-[fx.looper~ @loop_bang 1           ]
-|                        ^|
-[ui.gain~ @size 120 14]  [B]  [ui.dsp~]
-|\
-[dac~]
-
-
-            
-```
+![example](examples/fx.looper~-example.jpg)
 
 ---
 arguments:

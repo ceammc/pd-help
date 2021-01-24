@@ -19,19 +19,7 @@ acos(x) returns a NAN.
 ---
 
 
-```
-
-
-[F]    [1 2 d b(
-|      |
-[math.acos]
-|
-[msg set]
-|
-[  (
-
-            
-```
+![example](examples/math.acos-example.jpg)
 
 ---
 arguments:

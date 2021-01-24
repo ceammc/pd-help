@@ -22,32 +22,7 @@ Returns the element at the given index position in the list.
 ---
 
 
-```
-
-
-[1 2 3 4 5( [F]  [1 2 3 4 5( [F]
-|           |.   |           |.
-[list.at -1  ]   [list.at @clip]
-|                |
-[F]              [F]
-
-
-[1 2 3 4 5( [F]  [1 2 3 4 5( [F]
-|           |.   |           |.
-[list.at @wrap]  [list.at @fold]
-|                |
-[F]              [F]
-
-[list A B C D E(
-|
-[list.at -1 1 3]
-|
-[msg set]
-|
-[ (
-
-            
-```
+![example](examples/list.at-example.jpg)
 
 ---
 arguments:

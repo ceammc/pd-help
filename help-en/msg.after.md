@@ -16,23 +16,7 @@ if new input message received, while delayed message is not send, the delayed
 ---
 
 
-```
-
-
-            [1(
-            |
-[osc~ 500]  [msg.after 500 0]
-|           |
-|           [@gate $1(
-|           |
-[env.adsr~ 20 100 30 500]
-|
-[ui.gain~ @size 120 14] [ui.dsp~]
-|\
-[dac~]
-
-            
-```
+![example](examples/msg.after-example.jpg)
 
 ---
 arguments:

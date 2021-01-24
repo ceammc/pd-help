@@ -16,23 +16,7 @@ Period-length detector using Philip McLeod&#39;s Specially Normalized AutoCorrel
 ---
 
 
-```
-
-
-[adc~ 1]     [ui.dsp~]
-|
-|   [T] [F]
-|   |.  |
-[gain~] [osc~ 440]  [hradio]
-|       |.          |..
-[flow.mux~           2]
-|
-[an.pitchtrack~]
-^|     ^^|
-[F]    [F]
-
-            
-```
+![example](examples/an.pitchtrack~-example.jpg)
 
 ---
 arguments:

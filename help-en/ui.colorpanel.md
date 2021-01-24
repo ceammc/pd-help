@@ -14,26 +14,7 @@ colorchooser widget
 ---
 
 
-```
-
-
-[ui.colorpanel]          [ui.colorpanel @size 193 14]
-|                        |
-|                        |
-|                        [route @rgb]
-|                        |
-|                        [msg @background_color]
-|                        |
-|                        [ui.radio]
-|
-[route @pd]
-|
-[color $1(
-|
-[tgl]
-
-            
-```
+![example](examples/ui.colorpanel-example.jpg)
 
 ---
 arguments:

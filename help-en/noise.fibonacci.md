@@ -15,28 +15,7 @@ Generates Fibonacci number according to index
 ---
 
 
-```
-
-
-
-
-  [F]             [F]
-  |               |
-  [fill $1 #fill( [tavle $1 #table( 
-
-[F]
-|
-[noise.fibonacci #noise-obj]
-|
-[ui.display {i=1,o=0}]
-
-[X fill:0->noise-obj:0]
-[X table:0->noise-obj:0]
-
-
-
-            
-```
+![example](examples/noise.fibonacci-example.jpg)
 
 ---
 arguments:

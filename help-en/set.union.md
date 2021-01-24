@@ -14,25 +14,7 @@ output union of given sets
 ---
 
 
-```
-
-
-[B]
-|
-[trigger           b b]
-|                  ^|
-[data.set 1 2 3 4]  [data.set 3 4 5 6]
-|                   |.
-[set.union           ]
-|
-[set->list @sort]
-|
-[msg set]
-|
-[ (
-
-            
-```
+![example](examples/set.union-example.jpg)
 
 ---
 arguments:

@@ -14,23 +14,7 @@ Full-range unit-amplitude low frequency pulse train
 ---
 
 
-```
-
-
-[osc.saw~ 100]          [ui.knob]
-|                       |
-[ui.gain~ @size 120 14] |
-|                       |
-|              [F]      [@duty $1(
-|              |        |
-|              [lfo.pulse~ 6]
-|          .___/
-[pan.linsig~]    [ui.dsp~]
-|  ^|.
-[dac~]
-
-            
-```
+![example](examples/lfo.pulse~-example.jpg)
 
 ---
 arguments:

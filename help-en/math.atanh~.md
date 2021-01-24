@@ -15,34 +15,7 @@ Outputs the principle value of the hyperbolic arc tangent of input signal
 ---
 
 
-```
-
-
-[B]
-|
-[plot.linspace~ -1 1 512]
-|                 ^|
-[math.atanh~]      |
-|                  |.
-[ui.plot~ @xlabels 1 @ylabels 1 @ymin -4 @ymax 4 @ymin_ticks 0 @ymaj_ticks 0 @size 400 200]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-[ui.dsp~]
-
-            
-```
+![example](examples/math.atanh~-example.jpg)
 
 ---
 arguments:

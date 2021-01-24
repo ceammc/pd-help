@@ -18,34 +18,7 @@ Some special variables defined: %DOC% - path to PureData doc directory, %CEAMMC%
 ---
 
 
-```
-
-
-[B] [F]  [symbol user:%USER%( [list current shell: %SHELL%(
-|   |    |                    |
-|   |    |  [doc: %DOC%(      |  [doc: %CEAMMC%(
-|   |    |  |                 |  |
-|   |    |  |  [%DOC%(        |  | [home: %HOME%(
-|   |    |  |  |              |  | |
-[expand_env                        ]
-|
-[ui.display @display_type=1]
-
-
-
-
-[%CEAMMC%(
-|
-[expand_env @any]
-|
-[symbol]
-|
-[S digits=70]
-|
-[print]
-
-            
-```
+![example](examples/expand_env-example.jpg)
 
 ---
 arguments:

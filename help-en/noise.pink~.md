@@ -21,20 +21,7 @@ The name arises from the pink appearance of visible light with this power
 ---
 
 
-```
-
-
-[ui.dsp~]
-
-
-[noise.pink~]
-|
-|
-|
-[ui.scope~]
-
-            
-```
+![example](examples/noise.pink~-example.jpg)
 
 ---
 arguments:

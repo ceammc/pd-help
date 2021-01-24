@@ -14,21 +14,7 @@ convert Standard MIDI Controllers number to name
 ---
 
 
-```
-
-
-[0( [4( [7( [64( [120(
-|   |   |   |    |
-[F               ]
-|
-[midi.ctl->str @symbol]
-|
-[msg set]
-|
-[ (
-
-            
-```
+![example](examples/midi.ctl2str-example.jpg)
 
 ---
 arguments:

@@ -16,30 +16,7 @@ This class implements two simple FM Pairs summed together, also referred to as
 ---
 
 
-```
-
-
-[ui.keyboard]
-|
-|
-|
-|
-[unpack f f ]
-|          ^|
-[mtof]     [> 0]
-|          |
-|          [pipe]
-|          |
-[@freq $1( [@gate $1( [dump(
-|          |          |
-[synth.rhodey~        ]
-|
-[ui.gain~ @size 120 16]  [ui.dsp~]
-| \
-[dac~]
-
-            
-```
+![example](examples/synth.rhodey~-example.jpg)
 
 ---
 arguments:

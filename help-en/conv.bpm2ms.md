@@ -16,33 +16,7 @@ Converts frequency from BPM (beats per minute) to period in ms. It is simple as
 ---
 
 
-```
-
-
-        [F]   /* tempo */
-        |
-        [* 8] /* 32nds */
-        |
-[T]     [bpm->ms]
-|       |.
-[metro 80]
-|
-[next(
-|
-[list.walk 60 72 48 77 84 62 67 @fold]
-|
-[mtof]
-|
-[osc.pulse~]
-|
-| [T]
-| |.
-[*~]
-|
-[dac~]
-
-            
-```
+![example](examples/conv.bpm2ms-example.jpg)
 
 ---
 arguments:

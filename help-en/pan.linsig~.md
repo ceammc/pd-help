@@ -14,21 +14,7 @@ two channel linear panner with signal control
 ---
 
 
-```
-
-
-[osc.pulse~ 100]
-|
-[ui.gain~ @size 120 14]  [ui.dsp~]
-|
-|         [osc~ 1]
-|         |.
-[pan.linsig~]
-|  ^|.
-[dac~ ]
-
-            
-```
+![example](examples/pan.linsig~-example.jpg)
 
 ---
 arguments:

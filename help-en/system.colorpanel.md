@@ -14,19 +14,7 @@ System color panel dialog popup
 ---
 
 
-```
-
-
-[bang(                [ui.menu float int hex]
-|                     |
-|  [symbol #FFAA77(   [@mode $2(
-|  |                  |
-[system.colorpanel  @f]
-|
-[ui.display]
-
-            
-```
+![example](examples/system.colorpanel-example.jpg)
 
 ---
 arguments:

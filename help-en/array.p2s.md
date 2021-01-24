@@ -15,29 +15,7 @@ this object allows to get relative access to array
 ---
 
 
-```
-
-
-[HS min=0 max=1]       [array array1 size=100 w=200 h=150]
-|
-[F]
-|
-[array.p->s array1]
-|
-[F]
-|
-[tabread array1]
-|
-[F]
-
-[loadbang]
-|
-[sinesum 100 0.5 0.2 0.1 0.3(
-|
-[s array1]
-
-            
-```
+![example](examples/array.p2s-example.jpg)
 
 ---
 arguments:

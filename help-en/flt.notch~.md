@@ -16,28 +16,7 @@ filter that passes most frequencies unaltered, but attenuates those in a specifi
 ---
 
 
-```
-
-
-[osc~ 1000] [T]
-|  .________/
-[*~]
-|
-|     [F]
-|     |
-|     [@freq $1(
-|     |
-[flt.notch~ 1000 10]
-|
-[ui.gain~ @size 120 16]
-|\
-[dac~]
-
-[ui.dsp~]
-
-
-            
-```
+![example](examples/flt.notch~-example.jpg)
 
 ---
 arguments:

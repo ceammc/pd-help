@@ -14,23 +14,7 @@ Jean Claude Risset&#39;s endless glissando
 ---
 
 
-```
-
-
-[@rate 0.005( [@centroid 80(   [@range 70(
-|             |                |
-| [@rate -1(  | [@centroid 55( | [@range 110(
-| |           | |              | |
-| |           | |              | |
-| |           | |              | |
-[synth.risset_tone~              ]
-|
-[ui.gain~ @size 120 16]                     [ui.dsp~]
-| \
-[dac~]
-
-            
-```
+![example](examples/synth.risset_tone~-example.jpg)
 
 ---
 arguments:

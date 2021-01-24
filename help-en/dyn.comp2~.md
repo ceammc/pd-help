@@ -14,23 +14,7 @@ stereo dynamic range compressor
 ---
 
 
-```
-
-
-[phasor~ 10]
-|
-[*~ 100]
-|             [floatatom]
-[clip~ 0 1]   |
-|             [ratio $1(
-[*~ 20] [bng] |
-|       |     |
-[dyn.comp2~ 3 90 10 100 id]
-|    ^|.       ^^|
-[dac~  ]       [print]
-
-            
-```
+![example](examples/dyn.comp2~-example.jpg)
 
 ---
 arguments:

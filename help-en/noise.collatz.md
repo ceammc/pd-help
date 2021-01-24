@@ -15,38 +15,7 @@ Collatz conjecture output
 ---
 
 
-```
-
-
-
-[T]
-|
-[metro 50 #metro]
-
-  [T]         
-  |           
-  [om $1 #om( 
-
- [F]                 [T]
- |                   |
- [offset $1 #offset( [mode $1 #mode(  
-
-
-[noise.collatz #noise-obj]
-|
-[ui.display {i=1,o=0}]
-
-
-[X om:0->noise-obj:0]
-
-[X offset:0->noise-obj:0]
-[X mode:0->noise-obj:0]
-
-[X metro->noise-obj]
-
-
-            
-```
+![example](examples/noise.collatz-example.jpg)
 
 ---
 arguments:

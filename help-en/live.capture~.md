@@ -15,23 +15,7 @@ record up to 32s of sound and playback the recorded sound in
 ---
 
 
-```
-
-
-[adc~]     [reset(
-|          |
-| [record( | [T]
-| |        | |
-| | [stop( | [@gate $1( [T]
-| | |      | |          |.
-[live.capture~             ]
-|
-[ui.gain~ @size 120 14] [ui.dsp~]
-|\
-[dac~]
-
-            
-```
+![example](examples/live.capture~-example.jpg)
 
 ---
 arguments:

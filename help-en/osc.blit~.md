@@ -14,22 +14,7 @@ Bandlimited impulse train oscillator
 ---
 
 
-```
-
-
-[F digits=10]    [F]    [3(  [6( [0(
-|                |      |    |   |
-[sig~]           [@harmonics     $1(
-|                |
-|                |
-[osc.blit~ 2000 4]
-|
-|
-|
-[ui.spectroscope~]  [ui.dsp~]
-
-            
-```
+![example](examples/osc.blit~-example.jpg)
 
 ---
 arguments:

@@ -14,23 +14,7 @@ Full-range unit-amplitude low frequency saw
 ---
 
 
-```
-
-
-[osc.saw~ 100]
-|
-[ui.gain~ @size 120 14] [T]
-|                       |
-|              [F]      [@invert $1(
-|              |        |
-|              [lfo.saw~ 1]
-|          .___/
-[pan.linsig~]    [ui.dsp~]
-|  ^|.
-[dac~]
-
-            
-```
+![example](examples/lfo.saw~-example.jpg)
 
 ---
 arguments:

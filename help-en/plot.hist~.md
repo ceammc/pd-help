@@ -14,34 +14,7 @@ calculate and output signal histogram
 ---
 
 
-```
-
-
-[noise.white~] [osc~ 40 #a]
-|
-|              [ui.hrd @nitems 2 #c]
-|
-[flow.multiplex~ 2 #b] [bang(
-|                      |
-[plot.hist~ 2048 @nbins 32]
-|            ^|.
-[ui.plot~ @size 300 150 @xlabels 1 @ylabels 1 @xmin_grid 1 @ymin_ticks 0 @ymaj_ticks 0 @xmin_ticks 0 @ymin 0 @ymax 100 @mode bars @plot_color0 0.2 0.2 0.2]
-
-
-
-
-
-
-
-
-
-
-[ui.dsp~]
-[X a->b:1]
-[X c->b:2]
-
-            
-```
+![example](examples/plot.hist~-example.jpg)
 
 ---
 arguments:

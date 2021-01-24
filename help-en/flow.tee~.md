@@ -14,21 +14,7 @@ separate audio and control streams
 ---
 
 
-```
-
-
-[osc~ 440]
-|
-| [B] [symbol A( [list 1 2 3( [@p 1(
-| |   |          |            |
-[flow.tee~                    ]
-|        ^|
-[*~ 0.1]  [msg set]
-|         |
-[dac~ 1]  [ (
-
-            
-```
+![example](examples/flow.tee~-example.jpg)
 
 ---
 arguments:

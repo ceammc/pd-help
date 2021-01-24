@@ -14,18 +14,7 @@ checks if input data has *list* type
 ---
 
 
-```
-
-
-[100(  [any( [symbol a(  [list a b c( [bang(
-|      |     |           |____________/
-[is_list                  ]
-|     ^|
-[tgl]  [print passed]
-
-                
-            
-```
+![example](examples/is_list-example.jpg)
 
 ---
 arguments:

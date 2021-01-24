@@ -14,19 +14,7 @@ passes specified keys in dict
 ---
 
 
-```
-
-
-[\[a: b c: d e: f\], bang(
-|
-[dict]
-|
-[dict.pass a e]
-|
-[ui.d]
-
-            
-```
+![example](examples/dict.pass-example.jpg)
 
 ---
 arguments:

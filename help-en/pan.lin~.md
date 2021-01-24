@@ -23,23 +23,7 @@ This is equal power panning. [pan.lin~] sounds more like the Rhodes tremolo than
 ---
 
 
-```
-
-
-          [hsl]
-          |
-          [lin->lin 0 127 -1 1]
-          |
-[sig~ 1]  [F]
-|         |.
-[pan.lin~  ]
-|       ^|
-[env~]   [env~]
-|        |
-[F]      [F]
-
-            
-```
+![example](examples/pan.lin~-example.jpg)
 
 ---
 arguments:

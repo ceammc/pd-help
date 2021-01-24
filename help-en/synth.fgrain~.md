@@ -14,33 +14,7 @@ file granulator from STK
 ---
 
 
-```
-
-
-[loadbang]
-|
-[open %CEAMMC%/guitar1.wav(
-|
-[expand_env]                  [ui.knob]
-|                             |
-| [F]          [F]            |
-| |            |              |
-| [@voices $1( [@stretch $1(  [@random $1(
-| |            |              |
-| | [F]        | [F]          | [F]
-| | |          | |            | |
-| | [@gdur $1( | [@gdelay $1( | [@goffset $1(
-| | |          | |            | |
-| | |          | | [reset(    | |
-| | |          | | |          | |
-[synth.fgrain~                  ]
-|
-[ui.gain~ @size 120 16] [ui.dsp~]
-|\
-[dac~]
-
-            
-```
+![example](examples/synth.fgrain~-example.jpg)
 
 ---
 arguments:

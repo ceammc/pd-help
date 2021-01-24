@@ -14,29 +14,7 @@ convert MidiEvent message to midi note/velocity pair
 ---
 
 
-```
-
-
-[B]
-|
-[openpanel]
-|
-[read $1, bang(
-|
-[midi.file]
-|
-|  [play( [stop(
-|  |      |
-[midi.track @join @speed 0.7]
-|
-[midi.ev->note]
-|
-[msg set]
-|
-[ (
-
-            
-```
+![example](examples/midi.event2note-example.jpg)
 
 ---
 arguments:

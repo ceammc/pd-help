@@ -15,20 +15,7 @@ outputs random numbers between -1 and 1 at signal rate.
 ---
 
 
-```
-
-
-[ui.dsp~]
-
-
-[noise.white~]
-|
-|
-|
-[ui.scope~]
-
-            
-```
+![example](examples/noise.white~-example.jpg)
 
 ---
 arguments:

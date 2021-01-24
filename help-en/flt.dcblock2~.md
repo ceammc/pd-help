@@ -16,23 +16,7 @@ Stereo DC blocker. It has -3dB point near 35 Hz (at 44.1 kHz) and high-frequency
 ---
 
 
-```
-
-
-[sig~ 2]
-|    | |
-|    | [env~]
-|    | |
-|    | [F]
-|    |
-[flt.dcblock2~]
-|         ^|
-[env~]    [env~]
-|         |
-[F]       [F]
-
-            
-```
+![example](examples/flt.dcblock2~-example.jpg)
 
 ---
 arguments:

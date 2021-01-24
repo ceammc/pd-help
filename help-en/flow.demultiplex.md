@@ -14,20 +14,7 @@ control flow demultiplexer
 ---
 
 
-```
-
-
-[F]
-|
-|                 [ui.radio @nitems 4]
-|                 |
-|                 |.
-[flow.demultiplex 4]
-|   ^|   ^^|   ^^^|
-[F]  [F]   [F]   [F]
-
-            
-```
+![example](examples/flow.demultiplex-example.jpg)
 
 ---
 arguments:

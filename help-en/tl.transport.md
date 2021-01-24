@@ -14,19 +14,7 @@ Timeline transport control
 ---
 
 
-```
-
-
-              [tl.cue]           [tl.cue]
-
-[HR number=3]    [tl.bang]
-|                |
-[cue $1(         [B]                      [tl.bang]
-|                                         |
-[tl.transport]                            [B]
-
-            
-```
+![example](examples/tl.transport-example.jpg)
 
 ---
 arguments:

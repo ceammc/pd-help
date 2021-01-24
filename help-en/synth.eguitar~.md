@@ -14,36 +14,7 @@ simple electric guitar model with steel strings
 ---
 
 
-```
-
-
-[T]
-|
-[metro 130]
-|
-[0 12 0 36 7 12(
-|
-[list.choice]        [ui.knob]    [ui.knob]
-|                    |            |
-[+ 36]               |            |
-|                    |            |
-[@pitch $1, @gate 1( [@pos $1 #b( [@gain $1 #c(
-|
-[flow.append @gate 0 @msg @delay 10]
-|
-|
-|
-[synth.eguitar~ #a]
-|
-[ui.gain~ @size 120 16]
-|\
-[dac~]
-
-[ui.dsp~]
-[X b->a] [X c->a]
-
-            
-```
+![example](examples/synth.eguitar~-example.jpg)
 
 ---
 arguments:

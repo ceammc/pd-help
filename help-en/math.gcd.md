@@ -14,19 +14,7 @@ calculate greatest common divisor
 ---
 
 
-```
-
-
-[F]   [14 28(
-|     |
-|     |
-|     |
-[math.gcd 12]
-|
-[F]
-
-            
-```
+![example](examples/math.gcd-example.jpg)
 
 ---
 arguments:

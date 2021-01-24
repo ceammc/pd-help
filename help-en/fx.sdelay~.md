@@ -16,28 +16,7 @@ delay that doesn&#39;t click and doesn&#39;t transpose when the delay time is
 ---
 
 
-```
-
-
-[open %CEAMMC%/guitar1.wav, 1 #b(
-|
-[expand_env] [ui.hsl]
-|            |
-|            |
-[readsf~ #a] [lin->lin 0 1 0 1000]
-|            |
-|            [@delay $1(
-|            |
-[fx.sdelay~ @drywet 0.5 @interpolation 100]
-|
-[ui.gain~ @size 120 16]  [ui.dsp~]
-|\
-[dac~]
-
-[X a:1->b]
-
-            
-```
+![example](examples/fx.sdelay~-example.jpg)
 
 ---
 arguments:

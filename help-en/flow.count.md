@@ -14,21 +14,7 @@ control flow event counter
 ---
 
 
-```
-
-
-[T]
-|
-[metro 300]
-|
-|  [reset(
-|  |
-[flow.count]
-|
-[F]
-
-            
-```
+![example](examples/flow.count-example.jpg)
 
 ---
 arguments:

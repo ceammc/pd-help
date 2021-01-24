@@ -15,26 +15,7 @@ on division by zero outputs nothing: just put error message into console
 ---
 
 
-```
-
-
-[F]   [F]   /*same as:*/ [F]  [F]
-|     |                  |    |
-|     |                  |    [t b f]
-|     |.                 |    | ^|.
-[%'    ]                 [mod       ]
-|                        |
-[F]                      [F]
-
-[F]    [F]
-|      |
-|      |.
-[math.%' @int]
-|
-[F]
-
-            
-```
+![example](examples/math.sync_mod-example.jpg)
 
 ---
 arguments:

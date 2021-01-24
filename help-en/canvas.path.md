@@ -14,17 +14,7 @@ current canvas fullpath
 ---
 
 
-```
-
-
-[B]
-|
-[canvas.path] [B]
-|             |
-[ui.display   ]
-
-            
-```
+![example](examples/canvas.path-example.jpg)
 
 ---
 arguments:

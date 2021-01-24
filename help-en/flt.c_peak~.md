@@ -16,28 +16,7 @@ Calculates coefficients for transfer function: H(z)=(b0 + b1*z⁻¹ + b2*z⁻²)
 ---
 
 
-```
-
-
-[noise.pink~]
-|
-|        [F]        [F]
-|        |          |
-|        [@freq $1( [@gain $1(
-|        |          |
-|        [flt.c_peak~      200 15 10]
-|        |  ^|   ^^|    ^^^|     ^^^^|
-|        |.  |..   |...    |....     |.....
-[flt.biquad~                               ]
-|
-[ui.gain~ @size 120 16]
-|\
-[dac~]
-
-[ui.dsp~]
-
-            
-```
+![example](examples/flt.c_peak~-example.jpg)
 
 ---
 arguments:

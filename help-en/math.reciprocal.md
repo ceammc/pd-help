@@ -15,19 +15,7 @@ Symbols are ignored, 0 gives NAN value
 ---
 
 
-```
-
-
-[F]  [1 2 3 4 5(      [F]
-|    |                |
-[math.reciprocal]     [1 $1(
-|                     |
-[msg set]             [/]
-|                     |
-[ (                   [F]
-
-            
-```
+![example](examples/math.reciprocal-example.jpg)
 
 ---
 arguments:

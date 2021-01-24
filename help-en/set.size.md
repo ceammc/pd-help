@@ -14,21 +14,7 @@ get number of elements in set
 ---
 
 
-```
-
-
-[F]   [1 2 3 4(
-|     |
-| [B] |
-| |   |
-[data.set a b c]
-|
-[set.size]
-|
-[F]
-
-            
-```
+![example](examples/set.size-example.jpg)
 
 ---
 arguments:

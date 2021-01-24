@@ -19,30 +19,7 @@ Active slot is highlighted, available slots are dark gray
 ---
 
 
-```
-
-
-[ui.radio @presetname P-radio]   [ui.sliders @presetname P-sliders]
-
-
-[ui.toggle @presetname=P-toggle]
-
-
-[ui.rslider @presetname P-rslider]
-
-[F]
-|
-[load $1(
-|
-| [clear 1(   [clearall(         [loadbang]
-| |           |                  |
-| | [store 1( | [write prs.txt(  [read prs.txt(
-| | |         | |                |
-| | |         | |                |
-[ui.preset                       ]
-
-            
-```
+![example](examples/ui.preset-example.jpg)
 
 ---
 arguments:

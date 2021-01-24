@@ -16,31 +16,7 @@ Note: amplitude value &lt;=0 is converted to -144 db (24-bit range)
 ---
 
 
-```
-
-
-[bang(
-|
-[plot.linspace~ 1 -0.1]
-|                    ^|
-[amp->dbfs~]          |
-|                     |.
-[ui.plot~ @ymin -144 @ymax 0 @ylabels 1 @xlabels 1 @size 600 160]
-
-
-
-
-
-
-
-
-
-
-
-[ui.dsp~]
-
-            
-```
+![example](examples/conv.amp2dbfs~-example.jpg)
 
 ---
 arguments:

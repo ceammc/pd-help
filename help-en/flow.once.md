@@ -14,17 +14,7 @@ one message pass thru
 ---
 
 
-```
-
-
-[F]       [reset(
-|         |
-[flow.once]
-|
-[F]
-
-            
-```
+![example](examples/flow.once-example.jpg)
 
 ---
 arguments:

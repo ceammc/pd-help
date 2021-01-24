@@ -15,25 +15,7 @@ Named list preset entry. Can store/load up to 16 various lists
 ---
 
 
-```
-
-
-           [store 0(     [store 1(
-           |             |
-[load 0(   | [load 1(    |
-|          | |           |
-| [1 2 3(  | | [4 5 6(   |
-| |        | | |         |
-| |        | | |         |
-| |        | | |         |
-[preset.list l1 1 2 3 4 5 6 7 8 9]
-|
-[msg set]
-|
-[ (
-
-            
-```
+![example](examples/preset.list-example.jpg)
 
 ---
 arguments:

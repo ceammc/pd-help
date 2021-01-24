@@ -14,21 +14,7 @@ checks if given string contains specified substring
 ---
 
 
-```
-
-
-[B]
-|
-[string test] [symbol message(  [symbol simple(
-|             |                 |
-|             |                 |
-|             |                 |
-[str.contains                 es]
-|
-[T]
-
-            
-```
+![example](examples/string.contains-example.jpg)
 
 ---
 arguments:

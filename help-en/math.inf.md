@@ -17,17 +17,7 @@ IEEE 754 floating point numbers can represent positive or negative infinity, and
 ---
 
 
-```
-
-
-[B]
-|
-[math.inf]
-|
-[F]
-
-            
-```
+![example](examples/math.inf-example.jpg)
 
 ---
 arguments:

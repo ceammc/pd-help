@@ -16,25 +16,7 @@ Preset storage allows to load and store presets, read and write them to
 ---
 
 
-```
-
-
-[F] X [preset.float id1] [F] X [preset.float id2]
-
-[ui.radio]        [ui.radio]
-|                 |
-[load $1(         [store $1( [@keys?(
-|                 |          |
-|                 |          |
-|                 |          |
-[preset.storage              ]
-|
-[msg set]
-|
-[ (
-
-            
-```
+![example](examples/preset.storage-example.jpg)
 
 ---
 arguments:

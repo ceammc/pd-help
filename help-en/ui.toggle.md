@@ -15,23 +15,7 @@ This is the ceammc counterpart of the vanilla toggle
 ---
 
 
-```
-
-
-                  [T]
-                  |
-[B] [0( [1( [-1(  [set $1(
-|   |   |   |     |
-|   |   |   |     |
-[ui.toggle @size=40x40]
-|
-|
-[m set]
-|
-[ (
-
-            
-```
+![example](examples/ui.toggle-example.jpg)
 
 ---
 arguments:

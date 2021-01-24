@@ -17,23 +17,7 @@ y(n+1) = x(n)
 ---
 
 
-```
-
-
-[10( [100( [20000( [ui.dsp~] [sig~ 35]
-|    |     |                 |
-[sig~    10]                 [chaos.gbman0~]
-|                            |
-[chaos.gbman0~]              [l->l~ -3 6 50 10000 @clip minmax]
-|                            |
-[dyn.limit~]                 [osc.sin~]
-|                            |
-[ui.hgain~]                  [ui.hgain~]
-|\                           |\
-[dac~]                       [dac~]
-
-            
-```
+![example](examples/chaos.gbman0~-example.jpg)
 
 ---
 arguments:

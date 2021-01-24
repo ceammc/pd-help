@@ -14,24 +14,7 @@ checks if input data has *data* type
 ---
 
 
-```
-
-
-[bang(
-|
-[str string data]
-|
-| [B] [1( [symbol A( [1 2 3( [any message(
-| |   |   |          |       |
-| |   |   |          |       |
-[is_data                     ]
-|    ^|
-[F]  [ui.d]
-|
-[B]
-
-            
-```
+![example](examples/is_data-example.jpg)
 
 ---
 arguments:

@@ -14,24 +14,7 @@ set array content from list
 ---
 
 
-```
-
-
-[array A1 size=100 w=130 h=100 yr=0..1]
-
-
-
-
-
-
-
-
-[0 0.2 0.5( [0 0.9(  [1 2 0 4 -5( [1 2 1 4 5 6 7 8 9(
-|           |        |            |
-[array.set A1]       [array.set A1 @normalize]
-
-            
-```
+![example](examples/array.set-example.jpg)
 
 ---
 arguments:

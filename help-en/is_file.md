@@ -15,19 +15,7 @@ If relative path is given file searched under patch directory
 ---
 
 
-```
-
-
-[symbol is_file-help.pd(
-|
-|   [symbol not-exists(
-|   |
-[is_file]
-|
-[_]
-
-            
-```
+![example](examples/is_file-example.jpg)
 
 ---
 arguments:

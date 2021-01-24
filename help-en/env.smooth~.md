@@ -14,24 +14,7 @@ An envelope with an exponential attack and release
 ---
 
 
-```
-
-
-[osc~ 440]
-|
-|         [T]
-|         |
-|         [@gate $1(
-|         |
-|         |
-[env.smooth~ 100          ]
-|                       ^|
-[ui.gain~ @size 120 16] [B]
-|\
-[dac~]
-
-            
-```
+![example](examples/env.smooth~-example.jpg)
 
 ---
 arguments:

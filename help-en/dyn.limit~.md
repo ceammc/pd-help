@@ -14,25 +14,7 @@ mono 1176LN Peak Limiter
 ---
 
 
-```
-
-
-[osc~ 440]  [floatatom]
-|           |.
-[*~          ]
-| |
-| [env~]
-| |
-| [floatatom]
-|
-[dyn.limit~]
-|
-[env~]
-|
-[floatatom]
-
-            
-```
+![example](examples/dyn.limit~-example.jpg)
 
 ---
 arguments:

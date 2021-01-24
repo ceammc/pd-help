@@ -14,21 +14,7 @@ float index to outlet values as radio switch
 ---
 
 
-```
-
-
-[ui.radio @nitems 4]
-|
-|
-|
-|  [reset(
-|  |
-[radio           4]
-|   ^|   ^^|   ^^^|
-[T]  [T]   [T]    [T]
-
-            
-```
+![example](examples/radio-example.jpg)
 
 ---
 arguments:

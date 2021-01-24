@@ -23,23 +23,7 @@ The default mode is regular for an array of 2 * order + 2 loudspeakers. The
 ---
 
 
-```
-
-
-[hoa/hoa.soundgrain]               [lfo.saw~ 0.15]
-|                                  |
-[ui.gain~ @size 120 14]            [phase->rad~]
-|                              .___/ |
-[hoa.encoder~ 5 {w=36,i=11,o=11}]  [ui.n~]
-*|*
-[hoa.decoder~ 5 binaural @crop 64 {w=36,i=11,o=2}]
-*|*
-[xdac~ 1:2 {w=36,i=2}]
-
-[ui.dsp~]
-
-            
-```
+![example](examples/hoa.2d.decoder~-example.jpg)
 
 ---
 arguments:

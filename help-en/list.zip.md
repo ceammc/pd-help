@@ -15,22 +15,7 @@ takes n lists from n inlets (specified by argument) and output their
 ---
 
 
-```
-
-
-[10 20 30(  [list a b( [1 2 3 4 5(
-|           |          |
-|  [@pad(   |  [@clip( |    [@wrap( [@fold(
-|  |        |  |       |    |       |
-|  |        |. |       |..  |       |
-[list.zip                     3 @min]
-|
-[msg set]
-|
-[ (
-
-            
-```
+![example](examples/list.zip-example.jpg)
 
 ---
 arguments:

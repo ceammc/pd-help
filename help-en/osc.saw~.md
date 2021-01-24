@@ -16,32 +16,7 @@ Polynomial Transition Regions (PTR) used for aliasing suppression. 2nd order
 ---
 
 
-```
-
-
-[F]      [ui.dsp~]
-|
-[$1 50(
-|
-[line~]  [bang(
-|        |.
-[osc.saw~ ]
-|
-[ui.gain~ @size 120 14]
-|\      |
-[dac~]  [ui.spectroscope~]
-
-
-
-
-
-
-
-
-
-
-            
-```
+![example](examples/osc.saw~-example.jpg)
 
 ---
 arguments:

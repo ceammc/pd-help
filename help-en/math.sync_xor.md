@@ -16,19 +16,7 @@ Only 1 and 0 values are accepted. Any other number treat as 1, but print error t
 ---
 
 
-```
-
-
-[_]   [_]   /*0 0 | 0*/
-|     |
-|     |     /*0 1 | 1*/
-|     |.
-[^'    ]    /*1 0 | 1*/
-|
-[_]         /*1 1 | 0*/
-
-            
-```
+![example](examples/math.sync_xor-example.jpg)
 
 ---
 arguments:

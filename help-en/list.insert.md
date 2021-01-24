@@ -15,20 +15,7 @@ Works with data atoms
 ---
 
 
-```
-
-
-[1 2 3 4(
-|
-|  [list D E F(  [F]
-|  |             |
-|  |.            |..
-[list.insert A B C @index 1]
-|
-[ui.display @display_type=1]
-
-            
-```
+![example](examples/list.insert-example.jpg)
 
 ---
 arguments:

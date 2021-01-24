@@ -14,26 +14,7 @@ sync numbers for not equality
 ---
 
 
-```
-
-
-[F]   [F]   /*same as:*/ [F]  [F]
-|     |                  |    |
-|     |                  |    [t b f]
-|     |.                 |    | ^|.
-[!='    ]                [!=      ]
-|                        |
-[_]                      [_]
-
-[100 101(    [100 100.1( [100 99(
-|            |           |
-|            |           |
-[!=' @epsilon 0.1        ]
-|
-[_]
-
-            
-```
+![example](examples/math.sync_ne-example.jpg)
 
 ---
 arguments:

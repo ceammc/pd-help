@@ -19,28 +19,7 @@ Developed as part of the DEIND project.
 ---
 
 
-```
-
-
-[1000 1000 0, 300 300 1000, 3000 500 1300, 0 100 1400(
-|
-[vline~]
-|
-[osc.saw~]
-| \
-[fx.greyhole~]   [ui.hsl #c]
-|       ^|
-|        |
-[*~ #a] [*~ #b]
-|       |
-|       |.
-[dac~    ]
-
-[X c->a:1]
-[X c->b:1]
-
-            
-```
+![example](examples/fx.greyhole~-example.jpg)
 
 ---
 arguments:

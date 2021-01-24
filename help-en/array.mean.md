@@ -14,21 +14,7 @@ calculates array arithmetic mean value
 ---
 
 
-```
-
-
-[B]                            [array amean size=10 w=180 h=130]
-|
-[array.mean amean]
-|
-[F digits=16]
-
-[uniform( [fill 0(
-|         |
-[array.fill amean]
-
-            
-```
+![example](examples/array.mean-example.jpg)
 
 ---
 arguments:

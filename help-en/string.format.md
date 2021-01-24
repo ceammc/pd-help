@@ -15,22 +15,7 @@ This format modifiers are supported: %d, %u, %i, %o, %x, %X, %s, %e, %E.
 ---
 
 
-```
-
-
-[F]  [@format %+02d(
-|    |
-|    |
-[string.format %08.2f]
-|
-[str->sym]
-|
-[msg set]
-|
-[ (
-
-            
-```
+![example](examples/string.format-example.jpg)
 
 ---
 arguments:

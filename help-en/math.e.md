@@ -16,17 +16,7 @@ It is approximately equal to 2.71828, and is the limit of (1 + 1/n)^n as n
 ---
 
 
-```
-
-
-[B]
-|
-[math.e]
-|
-[floatatom digits=10]
-
-            
-```
+![example](examples/math.e-example.jpg)
 
 ---
 arguments:

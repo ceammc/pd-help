@@ -14,19 +14,7 @@ get list of dict keys
 ---
 
 
-```
-
-
-[B]
-|
-[data.dict \[a: b c: 200 12: 15151\]]
-|
-[dict.keys]
-|
-[ui.display @display_type=1]
-
-            
-```
+![example](examples/dict.keys-example.jpg)
 
 ---
 arguments:

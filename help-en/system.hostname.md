@@ -14,17 +14,7 @@ outputs system hostname
 ---
 
 
-```
-
-
-[B]
-|
-[system.hostname]
-|
-[S digits=20]
-
-            
-```
+![example](examples/system.hostname-example.jpg)
 
 ---
 arguments:

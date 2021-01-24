@@ -14,17 +14,7 @@ control flow gate. [spigot] analog
 ---
 
 
-```
-
-
-[F]       [T]
-|         |.
-[flow.gate 1]
-|
-[F]
-
-            
-```
+![example](examples/flow.gate-example.jpg)
 
 ---
 arguments:

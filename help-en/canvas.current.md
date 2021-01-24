@@ -14,23 +14,7 @@ verbose information about current canvas
 ---
 
 
-```
-
-
-[@name?(   [@dir?(    [@width?(
-|          |          |
-| [@root?( | [@args?( | [@abstraction?(
-| |        | |        | |
-| |  [@x?( | | [@y?(  | | [@height?(
-| |  |     | | |      | | |
-| |  | [B] | | |      | | |
-| |  | |   | | |      | | |
-[canvas.current           ]
-|
-[ui.display @display_type=1]
-
-            
-```
+![example](examples/canvas.current-example.jpg)
 
 ---
 arguments:

@@ -16,37 +16,7 @@ cosh x = (ℯˣ + ℯ⁻ˣ)/2
 ---
 
 
-```
-
-
-[B]
-|
-[plot.linspace~ -3 3  {w=50} #a]
-|            |           |
-|            |           [*~ -1]
-|            |           |
-[math.cosh~] [math.exp~] [math.exp~]
-|            |.          |..
-[ui.plot~ @xlabels 1 @ylabels 1 @ymin 0 @ymax 20 @size 400 200 @n 3 #b]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-[ui.dsp~]
-[X a:1->b:3]
-
-            
-```
+![example](examples/math.cosh~-example.jpg)
 
 ---
 arguments:

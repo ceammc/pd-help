@@ -16,23 +16,7 @@ Mono DC blocker. It has -3dB point near 35 Hz (at 44.1 kHz) and high-frequency
 ---
 
 
-```
-
-
-[sig~ 2]
-| |
-| [env~]
-| |
-| [floatatom]
-|
-[flt.dcblock~]
-|
-[env~]
-|
-[floatatom]
-
-            
-```
+![example](examples/flt.dcblock~-example.jpg)
 
 ---
 arguments:

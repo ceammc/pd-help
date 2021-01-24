@@ -15,21 +15,7 @@ checks is |x - pattern| &lt;= |epsilon|
 ---
 
 
-```
-
-
-[HS]
-|
-|   [1.99 2 0.01(
-|   |
-[F] |
-|   |
-[math.approx 50 10] /* 40 <= x <= 60 */
-|
-[F]
-
-            
-```
+![example](examples/math.approx-example.jpg)
 
 ---
 arguments:

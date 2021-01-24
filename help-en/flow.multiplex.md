@@ -14,22 +14,7 @@ control flow multiplexer
 ---
 
 
-```
-
-
-[hradio]
-|
-[@index $1(
-|
-|
-| [F]  [F]  [F]
-| |    |.   |..
-[flow.multiplex 3]
-|
-[F]
-
-            
-```
+![example](examples/flow.multiplex-example.jpg)
 
 ---
 arguments:

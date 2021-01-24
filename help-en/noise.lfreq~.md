@@ -14,30 +14,7 @@ noise.lfreq0~ smoothed with no overshoot
 ---
 
 
-```
-
-
-[@freq 5000( [@freq 2000(
-|            |
-[noise.lfreq~ 1000]
-|  |
-|  [ui.gain~ @size 120 16]
-|  |
-|  [dac~]
-|
-|
-[ui.scope~ @size=300x100]
-
-
-
-
-
-
-
-[ui.dsp~]
-
-            
-```
+![example](examples/noise.lfreq~-example.jpg)
 
 ---
 arguments:

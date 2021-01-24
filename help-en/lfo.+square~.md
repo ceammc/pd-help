@@ -14,21 +14,7 @@ Positive low frequency square wave
 ---
 
 
-```
-
-
-[osc.saw~ 100] [F]
-|              |
-|              [lfo.+square~ 10]
-|  .___________/
-[*~]
-|
-[ui.gain~ @size 120 14]  [ui.dsp~]
-|\
-[dac~]
-
-            
-```
+![example](examples/lfo.+square~-example.jpg)
 
 ---
 arguments:

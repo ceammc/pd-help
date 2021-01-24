@@ -14,18 +14,7 @@ calculates average of list of floats
 ---
 
 
-```
-
-
-[1 2 3 4 5( [1 2 a b c(
-|           |
-|           |
-[list.mean  ]
-|
-[F]
-
-            
-```
+![example](examples/list.mean-example.jpg)
 
 ---
 arguments:

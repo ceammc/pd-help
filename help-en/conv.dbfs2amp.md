@@ -15,23 +15,7 @@ Note: db values &lt;= -144 are converted to 0
 ---
 
 
-```
-
-
-[ui.hsl @min -144 @max 6]
-|
-[F digits=8]
-|
-[dbfs->amp]
-|
-[F digits=8]
-|
-[amp->dbfs]
-|
-[F digits=8]
-
-            
-```
+![example](examples/conv.dbfs2amp-example.jpg)
 
 ---
 arguments:

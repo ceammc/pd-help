@@ -15,36 +15,7 @@ Editor of sound envelope function
 ---
 
 
-```
-
-
-[ar 10 450, bang(
-|
-[envelope] [adsr 10 20 15 80( [eadsr 180 -2 20 4 30 100 -8(
-|          |                  |
-|          | [asr 300 400(    | [easr 200 2 30 7(
-|          | |                | |
-|          | | [ar 10 80(     | | [ear 10 -4 70 -6(
-|          | | |              | | |
-|          | | |              | | |
-|          | | |              | | |
-[ui.env               @size 240 60]  /*Cmd+Click to play envelope*/
-|
-|
-|
-|
-[env->vline @sync 1]
-|
-[vline~]  [osc~ 1000]
-|  .______/
-[*~]
-|
-[ui.gain~ @size 120 16] [ui.dsp~]
-|\
-[dac~]
-
-            
-```
+![example](examples/ui.env-example.jpg)
 
 ---
 arguments:

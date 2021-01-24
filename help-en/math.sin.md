@@ -18,19 +18,7 @@ sin(+-infinity) returns a NaN.
 ---
 
 
-```
-
-
-[F]  [1 2 3(
-|    |
-[math.sin]
-|
-[msg set]
-|
-[  (
-
-            
-```
+![example](examples/math.sin-example.jpg)
 
 ---
 arguments:

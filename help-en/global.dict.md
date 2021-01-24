@@ -16,19 +16,7 @@ Defines global scope dict variable, accessed by ID name and available fro
 ---
 
 
-```
-
-
-[\[a: abc\] \[bpm: 100\], bang( [bang(
-|                               |
-|                               [global.dict d1]
-|                               |
-[global.dict d1]                [ui.display @display_type=1]
-|
-[ui.display @display_type=1]
-
-            
-```
+![example](examples/global.dict-example.jpg)
 
 ---
 arguments:

@@ -14,32 +14,7 @@ bird singing generator
 ---
 
 
-```
-
-
-[ui.knob]              [ui.knob]
-|                      |
-|                      |
-|                      |
-[lin->lin 0 1 120 480] [lin->lin 0 1 25 100]
-|                      |
-[@speed $1(            [@probability $1(
-|                      |
-|                      |
-[synth.birds~          ]
-|           ^|.
-[fx.zita_rev1~]
-|  ^|
-|  [ui.gain~ @size 120 16 #a]    [ui.dsp~]
-|
-[ui.gain~ @size 120 16]
-|
-[dac~ #b]
-
-[X a->b:1]
-
-            
-```
+![example](examples/synth.birds~-example.jpg)
 
 ---
 arguments:

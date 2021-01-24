@@ -21,17 +21,7 @@ For all these functions, a range error occurs if the magnitude of x is too
 ---
 
 
-```
-
-
-[F]
-|
-[math.exp2]
-|
-[F]
-
-            
-```
+![example](examples/math.exp2-example.jpg)
 
 ---
 arguments:

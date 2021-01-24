@@ -18,34 +18,7 @@ log2(+infinity) return +infinity.
 ---
 
 
-```
-
-
-[B]
-|
-[plot.linspace~ -5 32]
-|                 ^|
-[math.log2~]       |
-|                  |.
-[ui.plot~ @xlabels 1 @ylabels 1 @ymin -5 @ymax 5 @size 400 200]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-[ui.dsp~]
-
-            
-```
+![example](examples/math.log2~-example.jpg)
 
 ---
 arguments:

@@ -15,33 +15,7 @@ convert time in milliseconds to number of samples according to current
 ---
 
 
-```
-
-
-[bang(
-|
-[plot.linspace~ 0 1000]
-|                    ^|
-[ms->samp~]           |
-|                     |.
-[ui.plot~ @size 400 170 @xlabels 1 @ylabels 1 @ymin 0 @ymax 1000 @yauto 1 @ymin_ticks 0]
-
-
-
-
-
-
-
-
-
-
-
-
-
-[ui.dsp~]
-
-            
-```
+![example](examples/conv.ms2samp~-example.jpg)
 
 ---
 arguments:

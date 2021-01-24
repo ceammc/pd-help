@@ -15,22 +15,7 @@ defines a signal outlet for a patcher loaded by a hoa.process~ object
 ---
 
 
-```
-
-
-    [open 0 #a( [open 1 #b(
-
-[sig~ 0.5]                       [sig~ 1]
-|                                |.
-[hoa.process~ 2 hoa/hoa_out_example3 planewaves #z]
-|               ^|               ^^|
-[ui.n~]         [ui.n~]          [ui.n~]
-
-[X a->z]
-[X b->z]
-
-            
-```
+![example](examples/hoa.out~-example.jpg)
 
 ---
 arguments:

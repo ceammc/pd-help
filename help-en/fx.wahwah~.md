@@ -14,25 +14,7 @@ digitized CryBaby wah pedal
 ---
 
 
-```
-
-
-[noise.lfreq0~ 10]
-|
-[fx.drone_box~] [ui.hsl]
-|               |
-|               [@angle $1(
-|               |
-[fx.wahwah~     ]
-|
-[ui.gain~ @size 120 16]
-|\
-[dac~]
-
-[ui.dsp~]
-
-            
-```
+![example](examples/fx.wahwah~-example.jpg)
 
 ---
 arguments:

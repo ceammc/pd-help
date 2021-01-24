@@ -14,25 +14,7 @@ operation AND for multiple arguments
 ---
 
 
-```
-
-
-[HS]
-|
-[> 50]  [HS]
-|       |
-|       [> 50] [HS]
-|       |      |
-|       |      [< 50] [reset(
-|       |.     |..    |
-[math.and       3 @sync]
-|
-[F]
-|
-[B]
-
-            
-```
+![example](examples/math.and-example.jpg)
 
 ---
 arguments:

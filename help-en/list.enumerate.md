@@ -14,21 +14,7 @@ enumerates input list
 ---
 
 
-```
-
-
-[list A B C D E(
-|
-|    [T]          [\(a b c d \(e\)\), bang(
-|    |            |
-|    [@from $1(   [mlist]
-|    |            |
-[list.enumerate   ]
-|
-[ui.display @display_type=1]
-
-            
-```
+![example](examples/list.enumerate-example.jpg)
 
 ---
 arguments:

@@ -15,30 +15,7 @@
 ---
 
 
-```
-
-
-                           [T]
-                           |
-[set 0 0(  [move 0.1 -0.1( [@show_grid $1(
-|          |               |
-[ui.slider2d @presetname=s2d-help  ]
-|
-|
-|
-|
-|
-|
-|
-[ui.display @display_type=1]
-
-/*[Shift+click] to save, [Alt+click] to remove, [click] to activate*/
-
-
-[ui.preset]
-
-            
-```
+![example](examples/ui.slider2d-example.jpg)
 
 ---
 arguments:

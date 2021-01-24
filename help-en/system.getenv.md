@@ -14,20 +14,7 @@ Get system environment variables
 ---
 
 
-```
-
-
-[symbol HOME( [symbol APPDATA( [symbol PATH( [symbol USER( [symbol SHELL(
-|             |                |             |             |
-|             |                |             |             |
-|  [B]        |                |             |             |
-|  |          |                |             |             |
-[system.getenv    USER                                     ]
-|
-[ui.display]
-
-            
-```
+![example](examples/system.getenv-example.jpg)
 
 ---
 arguments:

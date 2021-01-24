@@ -14,31 +14,7 @@ returns random element from list
 ---
 
 
-```
-
-
-[_]      [F]
-|        |.
-[metro 100]
-|
-[2 2 -10 4 7 9 36(
-|
-[list.choice]
-|
-[+ 60]
-|
-[mtof]
-|
-[osc.pulse~]
-|
-[*~ 0.2]  [_]
-|         |.
-[*~        ]
-|\
-[dac~]
-
-            
-```
+![example](examples/list.choice-example.jpg)
 
 ---
 arguments:

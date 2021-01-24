@@ -14,19 +14,7 @@ sync addition
 ---
 
 
-```
-
-
-[F]   [F]   /*same as:*/ [F]  [F]
-|     |                  |    |
-|     |                  |    [t b f]
-|     |.                 |    | ^|.
-[+'    ]                 [+       ]
-|                        |
-[F]                      [F]
-
-            
-```
+![example](examples/math.sync_add-example.jpg)
 
 ---
 arguments:

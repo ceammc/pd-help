@@ -15,38 +15,7 @@ simple marimba physical model implementing a single tone bar connected to
 ---
 
 
-```
-
-
-[T]
-|
-[metro 130]
-|
-[0 12 0 36 7 12(
-|
-[list.choice]        [ui.knob @min 0 @max 4] [ui.knob]
-|                    |                       |
-[+ 36]               |                       |
-|                    |                       |
-[@pitch $1, @gate 1( [@pos $1 #b(            [@sharp $1 #c(
-|
-[flow.append @gate 0 @msg @delay 10]
-|
-|
-|
-[synth.marimba~ #a]
-|
-[fx.freeverb~ @room 0.95 @drywet 0.001]
-|
-[ui.gain~ @size 120 16]
-|\
-[dac~]
-
-[ui.dsp~]
-[X b->a] [X c->a]
-
-            
-```
+![example](examples/synth.marimba~-example.jpg)
 
 ---
 arguments:

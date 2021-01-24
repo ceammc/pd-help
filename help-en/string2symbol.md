@@ -14,21 +14,7 @@ converts string to symbol
 ---
 
 
-```
-
-
-[B] [F]    [symbol test(
-|   |      |
-[string A B C]
-|
-[str->sym]
-|
-[msg set]
-|
-[ (
-
-            
-```
+![example](examples/string2symbol-example.jpg)
 
 ---
 arguments:

@@ -15,34 +15,7 @@ Computes the cosine of input signal (in radians)
 ---
 
 
-```
-
-
-[bang(
-|
-[plot.linspace~ -7 7 @pi #a]
-|            |
-[math.cos~]  [math.sin~]
-|            |
-|            |.
-[ui.plot~ @xlabels 1 @ylabels 1 @size 400 170 @n 2 #b]
-
-
-
-
-
-
-
-
-
-
-
-
-[ui.dsp~]
-[X a:1->b:2]
-
-            
-```
+![example](examples/math.cos~-example.jpg)
 
 ---
 arguments:

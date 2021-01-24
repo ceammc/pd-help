@@ -14,23 +14,7 @@ converts formatted time to float value in seconds
 ---
 
 
-```
-
-
-[0:59(  [2:01( [0:01.5( [1:03:45(
-|       |      |        |
-|       |      |        |
-|       |      |        |
-[str->sec   @on_err -100]
-|
-[F]
-|
-[sec->str]
-|
-[S digits=12]
-
-            
-```
+![example](examples/conv.str2sec-example.jpg)
 
 ---
 arguments:

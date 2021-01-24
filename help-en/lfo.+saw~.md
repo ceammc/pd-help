@@ -14,27 +14,7 @@ Positive unit-amplitude low frequency saw wave
 ---
 
 
-```
-
-
-[F]    [T]
-|      |
-|      [@invert $1(
-|      |
-[lfo.+saw~ 1]
-|
-[*~ 3000]
-|
-[+~ 100]
-|
-[osc~]
-|
-[ui.gain~ @size 120 14]  [ui.dsp~]
-|\
-[dac~]
-
-            
-```
+![example](examples/lfo.+saw~-example.jpg)
 
 ---
 arguments:

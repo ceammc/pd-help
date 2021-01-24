@@ -18,17 +18,7 @@ cbrt(+-infinity) returns +-infinity.
 ---
 
 
-```
-
-
-[F]
-|
-[math.cbrt]
-|
-[F]
-
-            
-```
+![example](examples/math.cbrt-example.jpg)
 
 ---
 arguments:

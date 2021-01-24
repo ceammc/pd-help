@@ -14,19 +14,7 @@ returns the number of atoms in the list
 ---
 
 
-```
-
-
-      [a b c d e(        [\("a list" "of two elements"\), bang(
-      |                  |
-[1 2( | [list a b c( [F] [ml]
-|     | |            |   |
-[list.length             ]
-|
-[F]
-
-            
-```
+![example](examples/list.length-example.jpg)
 
 ---
 arguments:

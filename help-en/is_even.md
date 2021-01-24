@@ -14,17 +14,7 @@ checks if input number is even
 ---
 
 
-```
-
-
-[F]
-|
-[is_even     ]
-|    ^|
-[_]  [F]
-
-            
-```
+![example](examples/is_even-example.jpg)
 
 ---
 arguments:

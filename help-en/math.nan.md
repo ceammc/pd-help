@@ -19,17 +19,7 @@ In computing, NaN, standing for not a number, is a numeric data type value
 ---
 
 
-```
-
-
-[B]
-|
-[math.nan]
-|
-[floatatom]
-
-            
-```
+![example](examples/math.nan-example.jpg)
 
 ---
 arguments:

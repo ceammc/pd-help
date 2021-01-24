@@ -14,23 +14,7 @@ UI stereo gain control
 ---
 
 
-```
-
-
-[open %CEAMMC%/guitar1.wav, 1(
-|
-[expand_env]
-|
-[readsf~]
-|
-[fx.zita_rev1~]
-| ^|.
-[ui.gain2~ @size 120 14] [ui.dsp~]
-| ^|.
-[dac~]
-
-            
-```
+![example](examples/ui.gain2~-example.jpg)
 
 ---
 arguments:

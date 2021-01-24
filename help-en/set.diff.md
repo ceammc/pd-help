@@ -14,23 +14,7 @@ difference between two sets
 ---
 
 
-```
-
-
-[B]
-|
-[data.set 1 2 3 4 5 6]
-|
-[set.diff 2 4 6]
-|
-[set->list @sort]
-|
-[msg set]
-|
-[ (
-
-            
-```
+![example](examples/set.diff-example.jpg)
 
 ---
 arguments:

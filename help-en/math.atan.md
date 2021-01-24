@@ -19,19 +19,7 @@ atan(+-infinity) returns +-π/2
 ---
 
 
-```
-
-
-[bang(                 [array ATAN yr=-2..2 w=320]
-|
-[list.seq -4 4 0.025]
-|
-[math.atan]
-|
-[list->array ATAN]
-
-            
-```
+![example](examples/math.atan-example.jpg)
 
 ---
 arguments:

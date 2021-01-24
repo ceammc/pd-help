@@ -15,25 +15,7 @@ Calculates BPM (Beats Per Minute) rate using SoundTouch library
 ---
 
 
-```
-
-
-[B]                                 [array A1]
-|
-[openpanel]
-|
-[load $1 @to A1 @resize(
-|
-[snd.file]
-|
-[bng]
-|
-[array.bpm A1]
-|
-[F]
-
-            
-```
+![example](examples/array.bpm-example.jpg)
 
 ---
 arguments:

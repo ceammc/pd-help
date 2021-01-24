@@ -19,17 +19,7 @@ asinh(+-infinity) returns +-infinity.
 ---
 
 
-```
-
-
-[F]
-|
-[math.asinh]
-|
-[F]
-
-            
-```
+![example](examples/math.asinh-example.jpg)
 
 ---
 arguments:

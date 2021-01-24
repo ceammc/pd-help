@@ -14,27 +14,7 @@ Chorus effect
 ---
 
 
-```
-
-
-[open %CEAMMC%/guitar1.wav, 1(
-|
-[expand_env] [ui.knob]   [F]         [F]
-|            |           |           |
-|            |           |           |
-|            |           |           |
-[readsf~]    [@depth $1( [@delay $1( [@freq $1(
-|            |           |           |
-|            |           |           |
-|            |           |           |
-[fx.chorus~                          ]
-|
-[ui.gain~ @size 120 14] [ui.dsp~]
-|\
-[dac~]
-
-            
-```
+![example](examples/fx.chorus~-example.jpg)
 
 ---
 arguments:

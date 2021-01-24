@@ -18,19 +18,7 @@ for a random variable Y that is normally distributed with mean 0 and variance 1/
 ---
 
 
-```
-
-
-[bang(                 [array ERF y=0..1 w=320]
-|
-[list.seq -4 4 0.025]
-|
-[math.erf]
-|
-[list->array ERF]
-
-            
-```
+![example](examples/math.erf-example.jpg)
 
 ---
 arguments:

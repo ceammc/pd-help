@@ -14,18 +14,7 @@ checks if input data has *float* type
 ---
 
 
-```
-
-
-[100(  [any( [symbol a(  [list a b c(
-|      |     |        ___/
-[is_float             ]
-|     ^|
-[tgl]  [print passed]
-
-                
-            
-```
+![example](examples/is_float-example.jpg)
 
 ---
 arguments:

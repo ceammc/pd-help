@@ -14,25 +14,7 @@ verbose information about top-level canvas
 ---
 
 
-```
-
-
-[@name?(    [@dir?( [@width?(
-|           |       |
-|           |       | [@height?(
-|           |       | |
-| [@x?( [B] | [@y?( | |
-| |     |   | |     | |
-[canvas.top           ]
-|
-[ui.display @display_type=1]
-
-
-
-
-
-            
-```
+![example](examples/canvas.top-example.jpg)
 
 ---
 arguments:

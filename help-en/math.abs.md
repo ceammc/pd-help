@@ -15,19 +15,7 @@ The abs() function computes the absolute value of the float input.
 ---
 
 
-```
-
-
-[F]    [1 2 -5 7 d b(
-|      |
-[math.abs]
-|
-[msg set]
-|
-[  (
-
-            
-```
+![example](examples/math.abs-example.jpg)
 
 ---
 arguments:

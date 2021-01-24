@@ -15,22 +15,7 @@ Defines global scope integer variable, accessed by ID name.
 ---
 
 
-```
-
-
-[F]   [+ 2, bang(    [* 3, bang(    [bang(
-|     |              |              |
-|     |              |              |
-|     |  [- 3, bang( | [/ 2, bang(  |
-|     |  |           | |            |
-|     |  | [set 2(   | |            |
-|     |  | |         | |            |
-[global.int          f1]            [global.int f1]
-|                                   |
-[F]                                 [F]
-
-            
-```
+![example](examples/global.int-example.jpg)
 
 ---
 arguments:

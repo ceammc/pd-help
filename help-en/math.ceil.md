@@ -19,17 +19,7 @@ ceil(+-infinity) returns +-infinity.
 ---
 
 
-```
-
-
-[F]    [2.3 3.8 5.5 -2.3 -3.8 -5.5(
-|      |
-[math.ceil]
-|
-[F]
-
-            
-```
+![example](examples/math.ceil-example.jpg)
 
 ---
 arguments:

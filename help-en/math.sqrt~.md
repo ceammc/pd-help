@@ -15,34 +15,7 @@ outputs NAN if input signal &lt;0
 ---
 
 
-```
-
-
-[B]
-|
-[plot.linspace~ -9 9]
-|                 ^|
-[math.sqrt~]       |
-|                  |.
-[ui.plot~ @xlabels 1 @ylabels 1 @yauto 1 @size 400 200]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-[ui.dsp~]
-
-            
-```
+![example](examples/math.sqrt~-example.jpg)
 
 ---
 arguments:

@@ -15,22 +15,7 @@ defines a signal inlet for a patcher loaded by a hoa.process~ object
 ---
 
 
-```
-
-
-   [open 0 #a( [open 1 #b(        [F]
-                                  |
-[sig~ 0.5]       [sig~ 1]         [sig~ 3]
-|                |.               |..
-[hoa.process~ 2 hoa/hoa_in_example3 planewaves #z]
-|                                 ^|
-[ui.n~]                           [ui.n~]
-
-[X a->z]
-[X b->z]
-
-            
-```
+![example](examples/hoa.in~-example.jpg)
 
 ---
 arguments:

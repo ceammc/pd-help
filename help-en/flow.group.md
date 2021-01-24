@@ -14,20 +14,7 @@ group data atoms in list of specified size
 ---
 
 
-```
-
-
-[F]  [1 2 3(
-|    |
-|    |
-[flow.group @by 5]
-|
-[m set]
-|
-[ (
-
-            
-```
+![example](examples/flow.group-example.jpg)
 
 ---
 arguments:

@@ -14,25 +14,7 @@ convert phase value [0-1] to radians [0-2π]
 ---
 
 
-```
-
-
-[ui.knob]
-|
-|
-|
-[F]
-|
-[phase->rad]
-|
-[F]
-|
-[rad->phase]
-|
-[ui.knob]
-
-            
-```
+![example](examples/conv.phase2rad-example.jpg)
 
 ---
 arguments:

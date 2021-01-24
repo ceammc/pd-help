@@ -14,23 +14,7 @@ robust float object
 ---
 
 
-```
-
-
-[F]
-|
-| [+ 1.1, bang( [10, bang(
-| |             |
-| | [* 2, bang( | [/ 3.1, bang(
-| | |           | |
-| | | [bang(    | |  [F]
-| | | |         | |  |.
-[.float              100]
-|
-[F digits=10]
-
-            
-```
+![example](examples/data.float-example.jpg)
 
 ---
 arguments:

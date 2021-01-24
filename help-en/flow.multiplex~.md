@@ -14,24 +14,7 @@ audio stream multiplexer
 ---
 
 
-```
-
-
-[osc~ 400] [osc~ 800] [osc~ 1600]     [ui.dsp~]
-|          |          |
-|          |          |
-|          |          |    [ui.radio @nitems 3]
-|          |          |    |
-|          |          |    |
-|          |.         |..  |...
-[flow.multiplex~ 3             ]
-|
-[ui.gain~ @size 120 16]
-|\
-[dac~]
-
-            
-```
+![example](examples/flow.multiplex~-example.jpg)
 
 ---
 arguments:

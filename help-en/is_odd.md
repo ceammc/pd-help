@@ -14,17 +14,7 @@ checks if input number is odd
 ---
 
 
-```
-
-
-[F]
-|
-[is_odd  ]
-|    ^|
-[_]  [F]
-
-            
-```
+![example](examples/is_odd-example.jpg)
 
 ---
 arguments:

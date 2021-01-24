@@ -16,31 +16,7 @@ Generates random number in interval [@v0, @v1) with linear distribution [@p0,
 ---
 
 
-```
-
-
-[B]
-|
-[list.gen 100]          [array array1 size=100 yr=0..1]
-^|
-[random.linear]
-|
-[* 100]
-|
-[math.floor]
-|
-[t f f]
-|    ^|
-|    [tabread array1]
-|    |
-|    [+ 0.01]
-|    |.
-[swap ]                 [const 0( [normalize(
-|    ^|.                |         |
-[tabwrite array1]       [s array1 ]
-
-            
-```
+![example](examples/random.linear-example.jpg)
 
 ---
 arguments:

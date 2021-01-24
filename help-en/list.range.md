@@ -15,21 +15,7 @@ Note: numbers are smaller then symbols
 ---
 
 
-```
-
-
-[list a b z( [1 2 b c(
-|            |
-| [F]        |  [2 -1 6 -2(    [-3 0 10 2 -5 11(
-| |          |  |              |
-[list.range     ]              [list.range     ]
-|                              |
-[msg set]                      [!-]
-|                              |
-[ (                            [F]
-
-            
-```
+![example](examples/list.range-example.jpg)
 
 ---
 arguments:

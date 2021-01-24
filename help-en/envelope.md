@@ -21,28 +21,7 @@ Exponential segment also has curve property: if 0 - (linear) &lt;0 (concave,
 ---
 
 
-```
-
-
-[ar 100 200, bang( [exp 0 30 -2 1 100 -4 0 40 4 0.5 30 2 0, bang #a(
-|
-| [adsr 10 30 60 150, bang( [line 0.1 40 0.9 20 0.3 60 0, bang #b(
-| |
-| | [ear 10 -2 60 -2, bang( [sigmoid 0 40 14 1 100 8 0, bang #c(
-| | |
-| | | [eadsr 20 -5 70 -12 30 100 -7, bang( [sin2 0 80 1 80 0, bang #d(
-| | | |
-[envelope #env]
-|
-[env->array env_arr]
-
-
-[array env_arr size=100 w=400 h=100 yr=0..1]
-
-[X a->env] [X b->env] [X c->env] [X d->env]
-
-            
-```
+![example](examples/envelope-example.jpg)
 
 ---
 arguments:

@@ -14,25 +14,7 @@ resample list with specified ratio
 ---
 
 
-```
-
-
-[ui.sliders]    [ui.sliders @auto_range 1 #b]
-|
-|
-|
-|
-|
-|
-|
-|            [ui.hrd]
-|            |.
-[list.resample 4 #a]
-
-[X a->b]
-
-            
-```
+![example](examples/list.resample-example.jpg)
 
 ---
 arguments:

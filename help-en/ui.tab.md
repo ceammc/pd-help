@@ -14,23 +14,7 @@ displays a list of text buttons or text toggles
 ---
 
 
-```
-
-
-[append sqrt(    [set_item 0 white_noise(
-|                |
-| [insert 0 saw( |  [delete 1(
-| |              |  |
-| | [clear( [F]  |  | [B]  [tri (   [T]
-| | |       |    |  | |    |        |
-| | |       |    |  | |    |        [@toggle $1(
-| | |       |    |  | |    |        |
-[ui.tab      @items sin tri @size 350 15]
-|
-[ui.d]
-
-            
-```
+![example](examples/ui.tab-example.jpg)
 
 ---
 arguments:

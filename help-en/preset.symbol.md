@@ -15,20 +15,7 @@ Named symbol preset entry. Can store/load up to 16 various symbol values
 ---
 
 
-```
-
-
-                    [store 0(  [store 1(
-                    |          |
-           [load 0( | [load 1( |
-           |        | |        |
-           |        | |        |
-           |        | |        |
-[S]    X   [preset.symbol     f1]
-
-
-            
-```
+![example](examples/preset.symbol-example.jpg)
 
 ---
 arguments:

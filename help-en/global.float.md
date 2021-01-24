@@ -15,22 +15,7 @@ Defines global scope float variable, accessed by ID name.
 ---
 
 
-```
-
-
-[F]   [+ 2, bang(    [* 3, bang(    [bang(
-|     |              |              |
-|     |              |              |
-|     |  [- 3, bang( | [/ 2, bang(  |
-|     |  |           | |            |
-|     |  | [set 2(   | |            |
-|     |  | |         | |            |
-[global.float        f1]            [global.float f1]
-|                                   |
-[F]                                 [F]
-
-            
-```
+![example](examples/global.float-example.jpg)
 
 ---
 arguments:

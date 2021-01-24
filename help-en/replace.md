@@ -16,23 +16,7 @@ From/to values can be specified both as @from/@to properties or first and second
 ---
 
 
-```
-
-
-[F]  [1 2 3(  [list a b c(
-|    |        |
-|    |        |
-|    |        |
-|    | [dump( | [symbol a( [symbol A(
-|    | |      | |          |
-|    | |      | |.         |..
-[replace 3 33333              ]
-|
-|
-[ui.display @auto_size 0 @size 120 17]
-
-            
-```
+![example](examples/replace-example.jpg)
 
 ---
 arguments:

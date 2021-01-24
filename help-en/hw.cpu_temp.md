@@ -15,20 +15,7 @@ At this moment supports only MacOSX
 ---
 
 
-```
-
-
-[T]
-|
-[metro 1000]
-|
-|
-[hw.cpu_temp]
-|
-[F digits=6]
-
-            
-```
+![example](examples/hw.cpu_temp-example.jpg)
 
 ---
 arguments:

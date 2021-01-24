@@ -14,17 +14,7 @@ check if path is directory
 ---
 
 
-```
-
-
-[symbol ~( [symbol abc(
-|          |
-[path.is_dir]
-|
-[T]
-
-            
-```
+![example](examples/path.is_dir-example.jpg)
 
 ---
 arguments:

@@ -14,30 +14,7 @@ cubic nonlinearity distortion
 ---
 
 
-```
-
-
-[open %CEAMMC%/guitar1.wav, 1(
-|
-[expand_env]
-|
-[readsf~]
-|
-| [ui.knob]   [ui.knob]    [ui.knob]    [T]
-| |           |            |            |
-| |           |            |            |
-| |           |            |            |
-| [@drive $1( [@offset $1( [@drywet $1( [@bypass $1(
-| |           |            |            |
-| |           |            |            |
-[fx.distortion~                         ]
-|
-[ui.gain~ @size 120 16]           [ui.dsp~]
-|\
-[dac~]
-
-            
-```
+![example](examples/fx.distortion~-example.jpg)
 
 ---
 arguments:

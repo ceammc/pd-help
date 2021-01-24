@@ -14,19 +14,7 @@ number of characters in string (unicode supported)
 ---
 
 
-```
-
-
-[list May 2017(  [list Июнь 2017(
-|                |
-[string          ]
-|
-[string.length]
-|
-[F]
-
-            
-```
+![example](examples/string.length-example.jpg)
 
 ---
 arguments:

@@ -15,35 +15,7 @@ Values outside of range @min...@max are ignored
 ---
 
 
-```
-
-
-[array ahist size=512 w=330 h=100] [ui.sliders @size 40 100 @receive ahist-r @auto_range 1]
-
-
-
-
-
-
-
-[loadbang]
-|
-[uniform -1 -0.2( [gauss 0.5 0.2( [sin 50 0.6( [fill 0(
-|                 |               |            |
-|                 |               |            |
-|                 |               |            |
-[array.fill ahist                              ]
-
-[B]
-|
-[array.hist ahist 100]
-|
-[list.reverse]
-|
-[s ahist-r]
-
-            
-```
+![example](examples/array.hist-example.jpg)
 
 ---
 arguments:

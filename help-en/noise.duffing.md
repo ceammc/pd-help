@@ -26,40 +26,7 @@ The following shows a &#34;typical&#34; segment of (x,y) values.
 ---
 
 
-```
-
-
-
-[T]
-|
-[metro 50 #metro]
-
-  [T]         [F]
-  |           |
-  [om $1 #om( [set $1 #set( [reset #reset(
-
-    [F]       [F]       [F]       [F]
-    |         |         |         |
-    [a $1 #a( [b $1 #b( [w $1 #w( [dt $1 #dt(
-
-[noise.duffing #noise-obj]
-|
-[ui.display {i=1,o=0}]
-
-[X a:0->noise-obj:0]
-[X b:0->noise-obj:0]
-[X w:0->noise-obj:0]
-[X dt:0->noise-obj:0] 
-
-[X om:0->noise-obj:0]
-[X set:0->noise-obj:0]
-[X reset:0->noise-obj:0]
-
-[X metro->noise-obj]
-
-
-            
-```
+![example](examples/noise.duffing-example.jpg)
 
 ---
 arguments:

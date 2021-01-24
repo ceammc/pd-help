@@ -14,19 +14,7 @@ sorts list values by ascending order
 ---
 
 
-```
-
-
-[2 -2 4 1 2.0( [1 a -2 b 4 1 2.0(
-|              |
-[list.sort     ]
-|
-[msg set]
-|
-[ (
-                
-            
-```
+![example](examples/list.sort-example.jpg)
 
 ---
 arguments:

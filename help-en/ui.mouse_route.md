@@ -15,17 +15,7 @@ routes only specified mouse events from ui.* objects
 ---
 
 
-```
-
-
-[ui.hsl @mouse_events 1]
-|
-[ui.mouse_route @down @up @drag]
-|         ^|         ^^|
-[F]       [F]        [F]
-
-            
-```
+![example](examples/ui.mouse_route-example.jpg)
 
 ---
 arguments:

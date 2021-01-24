@@ -14,21 +14,7 @@ returns the process physical memory use - current and peak
 ---
 
 
-```
-
-
-[bng]
-|
-[system.memused]
-|
-|            /* in Kbytes */
-[/ 1024               ]
-|                     |
-[floatatom digits=12] [floatatom digits=12]
-
-                
-            
-```
+![example](examples/system.memused-example.jpg)
 
 ---
 arguments:

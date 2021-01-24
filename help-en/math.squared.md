@@ -14,19 +14,7 @@ value square
 ---
 
 
-```
-
-
-[F]  [-2 -1 0 1 2(
-|    |
-[math.squared]
-|
-[msg set]
-|
-[ (
-
-            
-```
+![example](examples/math.squared-example.jpg)
 
 ---
 arguments:

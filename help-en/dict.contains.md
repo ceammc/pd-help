@@ -14,19 +14,7 @@ predicate to check if dict contains a keys
 ---
 
 
-```
-
-
-[B]
-|
-[data.dict \[a: 1 b: 2 c: 3 d: 4\]]
-|
-[dict.contains c d e]
-|
-[ui.display]
-
-            
-```
+![example](examples/dict.contains-example.jpg)
 
 ---
 arguments:

@@ -16,27 +16,7 @@ Converts frequency from BPM (beats per minute) to herz. It is simple as /60, but
 ---
 
 
-```
-
-
-[120(
-|
-[F]  /*simple metronome*/
-|
-[bpm->hz]
-|
-[lfo.impulse~]
-|
-[flt.resonbp~ 1000 20]
-|
-| [T]
-| |.
-[*~]
-|
-[dac~]
-
-            
-```
+![example](examples/conv.bpm2hz-example.jpg)
 
 ---
 arguments:

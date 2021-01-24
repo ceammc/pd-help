@@ -17,44 +17,7 @@ Given the M-order numerator b and N-order denominator a of a digital filter,
 ---
 
 
-```
-
-
-[bang(
-|
-[plot.linspace~ 0 3.14159 @pi #a]
-|
-|  [@b 0.5 -0.5( [@b 0.5 0 0.5( [@b 0.5 0 -0.5( [T]
-|  |             |              |               |
-|  |             |              |               [@db $1(
-|  |             |              |               |
-[flt.freqz~ @b 0.5 0.5                          ]
-|        ^|
-|         |.
-[ui.plot~ @ymin -2 @ymax 2 @yauto 1 @xlabels 1 @ylabels 1 @size 450 260 @xmaj_ticks 0 @xmin_ticks 0 @xmin_grid 1 @ymaj_ticks 0 @ymin_ticks 0 @n 2 #b]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-[ui.dsp~]
-[X a:1->b:2]
-
-            
-```
+![example](examples/flt.freqz~-example.jpg)
 
 ---
 arguments:

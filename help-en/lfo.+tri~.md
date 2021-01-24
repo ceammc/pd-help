@@ -14,21 +14,7 @@ Positive unit-amplitude low frequency triangle wave
 ---
 
 
-```
-
-
-[osc~ 200] [F]
-|          |
-|          [lfo.+tri~ 10]
-|  ._______/
-[*~]
-|
-[ui.gain~ @size 120 14]  [ui.dsp~]
-|\
-[dac~]
-
-            
-```
+![example](examples/lfo.+tri~-example.jpg)
 
 ---
 arguments:

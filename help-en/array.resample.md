@@ -14,28 +14,7 @@ array resampler
 ---
 
 
-```
-
-
-[msg.onload]            [array ARS1 #a]     [array ARS2 #b]
-|
-[-1 0.2 0.7 0.1 -0.5 0.6 0.7(
-|
-[array set ARS1]
-
-[bang(  [ui.hsl @min 1 @max 20]
-|       |
-|       [@ratio $1, bang(
-|       |
-[array.resample ARS1 ARS2 @ratio 4]
-|
-[F]
-
-#a w=160 h=100 style=point size=7
-#b w=160 h=100 style=point
-
-            
-```
+![example](examples/array.resample-example.jpg)
 
 ---
 arguments:

@@ -15,16 +15,7 @@ Shows one sample from input block via specified interval
 ---
 
 
-```
-
-
-[phasor~ 0.1]  [ui.dsp~]
-|
-|
-[ui.number~]
-
-            
-```
+![example](examples/ui.number~-example.jpg)
 
 ---
 arguments:

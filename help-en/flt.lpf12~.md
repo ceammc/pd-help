@@ -19,33 +19,7 @@ Butterworth filter is a type of filter designed to have a frequency response as
 ---
 
 
-```
-
-
-[T]
-|
-[metro 10] [ui.hsl]
-|          |
-[click~]   [lin->lin 0 1 500 15000]
-|          |
-[*~ 100]   [@freq $1(
-|          |
-[flt.lpf12~ 5000]
-|
-[ui.spectroscope~ @size=400x120]
-
-
-
-
-
-
-
-
-
-[ui.dsp~]
-
-            
-```
+![example](examples/flt.lpf12~-example.jpg)
 
 ---
 arguments:

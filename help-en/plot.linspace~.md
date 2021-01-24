@@ -15,29 +15,7 @@ outputs numbers spaced evenly spaced over a specified
 ---
 
 
-```
-
-
-[B]          [ui.dsp~]
-|
-|
-[plot.linspace~ -5 5]
-|      ^|.
-[ui.plot~ @size 400 150 @xlabels 1 @ylabels 1 @xmin_grid 0 @ymin_ticks 0 @xmin_ticks 0 @yauto 1]
-
-
-
-
-
-
-
-
-
-
-[ui.dsp~]
-
-            
-```
+![example](examples/plot.linspace~-example.jpg)
 
 ---
 arguments:

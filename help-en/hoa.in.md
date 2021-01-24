@@ -16,26 +16,7 @@ hoa.in defines a message inlet for a patcher loaded by a hoa.process~
 ---
 
 
-```
-
-
-[open 0( [open 1(  [42( [\#0 43( [\#1 44(
-|        |         |    |        |
-|        |         |.   |.       |.
-[hoa.process~ 2 hoa/hoa_in_example1 planewaves]
-|
-[print A]
-
-[open 0(     [42( [\#0 43( [\#1 44( [45( [\#0 46( [\#1 47(
-|            |    |        |        |    |        |
-| [open 1(   |    |        |        |    |        |
-| |          |.   |.       |.       |... |...     |...
-[hoa.process~ 2 hoa/hoa_in_example2 planewaves       ]
-|                                ^|
-[print B]                        [print C]
-
-            
-```
+![example](examples/hoa.in-example.jpg)
 
 ---
 arguments:

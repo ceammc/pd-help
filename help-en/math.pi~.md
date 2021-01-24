@@ -16,18 +16,7 @@ The number PI is a mathematical constant, the ratio of a circle&#39;s circumfere
 ---
 
 
-```
-
-
-[ui.dsp~]
-
-
-[math.pi~]      [math.pi~ 2]
-|               |
-[ui.n~]         [ui.n~]
-
-            
-```
+![example](examples/math.pi~-example.jpg)
 
 ---
 arguments:

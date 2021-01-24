@@ -20,19 +20,7 @@ acosh(+infinity) returns +infinity.
 ---
 
 
-```
-
-
-[F]    [1 2 d b(
-|      |
-[math.acosh]
-|
-[msg set]
-|
-[  (
-
-            
-```
+![example](examples/math.acosh-example.jpg)
 
 ---
 arguments:

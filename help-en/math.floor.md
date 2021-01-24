@@ -19,19 +19,7 @@ floor(+-infinity) returns +-infinity.
 ---
 
 
-```
-
-
-[F]    [2.3 3.8 5.5 -2.3 -3.8 -5.5(
-|      |
-[math.floor]
-|
-[msg set]
-|
-[  (
-
-            
-```
+![example](examples/math.floor-example.jpg)
 
 ---
 arguments:

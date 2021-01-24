@@ -14,21 +14,7 @@ numeric sequence list generator
 ---
 
 
-```
-
-
-[B]            [1 -1 0.1(
-|       [2 10( |
-|  [F]  |      |
-|  |    |      |
-[list.seq 3 10 2]
-|
-[m set]
-|
-[ (
-
-            
-```
+![example](examples/list.seq-example.jpg)
 
 ---
 arguments:

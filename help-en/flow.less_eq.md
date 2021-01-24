@@ -15,19 +15,7 @@ Numbers thar are *less equal* then N-th argument are passed to N-th inlet
 ---
 
 
-```
-
-
-[F]
-|
-|
-|
-[flow.less_eq 0 10 20 30   ]
-|     ^|   ^^|   ^^^|  ^^^^|
-[F]   [F]   [F]   [F]    [F]
-
-            
-```
+![example](examples/flow.less_eq-example.jpg)
 
 ---
 arguments:

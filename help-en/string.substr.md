@@ -14,21 +14,7 @@ extract substring from input string
 ---
 
 
-```
-
-
-[symbol PureData(
-|
-[str.substr 4]
-|
-[str->sym]
-|
-[msg set]
-|
-[ (
-
-            
-```
+![example](examples/string.substr-example.jpg)
 
 ---
 arguments:

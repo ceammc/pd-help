@@ -14,40 +14,7 @@ Zita stereo reverb
 ---
 
 
-```
-
-
-[bell.aiff( [voice.wav(                  [array array1 w=150 h=100]
-|           |
-[symbol     ]
-|
-[load %DOC%/sound/$1 @to array1 @resize(
-|
-[expand_env]
-|
-[snd.file]
-
-
-[bang(
-|
-[tabplay~ array1]          [ui.dsp~]
-|
-|              [F]
-|              |
-| [T]          [@delay $1( [F]             [F]
-| |            |           |               |
-| [@bypass $1( | [dump(    [@decay_mid $1( [@decay_low $1(
-| |            | |         |               |
-| |            | |         |               |
-| |            | |         |               |
-| |            | |         |               |
-[fx.zita_rev1~  3 4                        ]
-|  ^|.
-[dac~]
-
-
-            
-```
+![example](examples/fx.zita_rev1~-example.jpg)
 
 ---
 arguments:

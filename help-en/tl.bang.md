@@ -16,19 +16,7 @@ Bang only when nearest left tl.cue was activated. If other cue is activated and
 ---
 
 
-```
-
-
-              [tl.cue]           [tl.cue]
-
-[HR number=3]    [tl.bang]                [tl.bang @delay 500]
-|                |                        |
-[cue $1(         [B]                      [B]
-|
-[tl.transport]
-
-            
-```
+![example](examples/tl.bang-example.jpg)
 
 ---
 arguments:

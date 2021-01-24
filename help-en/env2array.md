@@ -14,28 +14,7 @@ Renders envelope to specified array
 ---
 
 
-```
-
-
-[ar 50 400, bang(                         [bang(
-|                                         |
-| [adsr 10 40 20 500, bang(   [osc~ 1000] [tabplay~ env_arr]
-| |                           |           |.
-| | [ear 20 -3 500 -8, bang(  [*~          ]
-| | |                         |\
-[envelope]                    [dac~]
-|
-| [@fit( [@raw( [@resize(
-| |      |      |
-[env->array env_arr]
-|
-[F]
-
-
-[array env_arr size=1000 w=400 h=100 yr=0..1]
-
-            
-```
+![example](examples/env2array-example.jpg)
 
 ---
 arguments:

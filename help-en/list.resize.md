@@ -14,25 +14,7 @@ changes list size
 ---
 
 
-```
-
-
-[1 2 3 4 5 6 7 8 9 10 11(
-|
-| [1 2 3(
-| |
-| | [@wrap( [@fold( [@clip( [@pad -1( [dump(
-| | |       |       |       |         |
-| | |       |       |       |         |
-| | |       |       |       |         |
-[list.resize                          8]
-|
-[msg set]
-|
-[ (
-
-            
-```
+![example](examples/list.resize-example.jpg)
 
 ---
 arguments:

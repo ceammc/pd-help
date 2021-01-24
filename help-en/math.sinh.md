@@ -18,17 +18,7 @@ sinh(+-infinity) returns +-infinity.
 ---
 
 
-```
-
-
-[F]
-|
-[math.sinh]
-|
-[F]
-
-            
-```
+![example](examples/math.sinh-example.jpg)
 
 ---
 arguments:

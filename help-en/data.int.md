@@ -14,23 +14,7 @@ robust int object
 ---
 
 
-```
-
-
-[F]
-|
-| [+ 1, bang(   [- 10, bang(
-| |             |
-| | [* 2, bang( | [/ 3(
-| | |           | |
-| | | [bang(    | |  [F]
-| | | |         | |  |.
-[.int              100]
-|
-[F]
-
-            
-```
+![example](examples/data.int-example.jpg)
 
 ---
 arguments:

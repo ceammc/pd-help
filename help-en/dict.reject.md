@@ -14,19 +14,7 @@ rejects specified keys from dict
 ---
 
 
-```
-
-
-[\[a: b c: d e: f\], bang(
-|
-[dict]     [list a e(
-|          |.
-[dict.reject c]
-|
-[ui.d]
-
-            
-```
+![example](examples/dict.reject-example.jpg)
 
 ---
 arguments:

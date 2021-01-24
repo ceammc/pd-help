@@ -15,19 +15,7 @@ Returns value with opposite sign
 ---
 
 
-```
-
-
-[F]  [-2 -1 0 1 2(
-|    |
-[math.neg]
-|
-[msg set]
-|
-[ (
-
-            
-```
+![example](examples/math.neg-example.jpg)
 
 ---
 arguments:

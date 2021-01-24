@@ -14,20 +14,7 @@ returns IP address by DNS name
 ---
 
 
-```
-
-
-[localhost(
-|
-| [symbol bbc.com(
-| |
-| |
-[net.host->ip]
-|
-[ui.d]
-
-            
-```
+![example](examples/net.host2ip-example.jpg)
 
 ---
 arguments:

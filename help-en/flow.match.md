@@ -14,24 +14,7 @@ route data flow by regexp match
 ---
 
 
-```
-
-
-[amp2( [amp3( [freq0( [freq1( [unmatched(
-|      |      |       |       |
-|      |      |       |       |
-|      |      |       |       |
-[symbol                       ]
-|
-[S digits=16]
-|
-[flow.match freq`d amp`d]
-|              ^|     ^^|
-|               |       |
-[S]           [S]       [ui.display @display_type=1]
-
-            
-```
+![example](examples/flow.match-example.jpg)
 
 ---
 arguments:

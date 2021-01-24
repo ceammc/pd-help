@@ -15,19 +15,7 @@ Numbers thar are *less* then N-th argument are passed to N-th inlet
 ---
 
 
-```
-
-
-[F]
-|
-|
-|
-[flow.less 0 10 20 30      ]
-|     ^|   ^^|   ^^^|  ^^^^|
-[F]   [F]   [F]   [F]    [F]
-
-            
-```
+![example](examples/flow.less-example.jpg)
 
 ---
 arguments:

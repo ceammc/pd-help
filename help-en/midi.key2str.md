@@ -14,21 +14,7 @@ convert key number to SPN name according to tonality
 ---
 
 
-```
-
-
-[F]  [@tonality F minor( [@tonality E( [@tonality C(
-|    |                   |             |
-|    |                   |             |
-|    |                   |             |
-[midi.key->str @symbol                ]
-|
-[msg set]
-|
-[ (
-
-            
-```
+![example](examples/midi.key2str-example.jpg)
 
 ---
 arguments:

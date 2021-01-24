@@ -14,19 +14,7 @@ dictionary size
 ---
 
 
-```
-
-
-[B]         [B]
-|           |
-[data.dict] [data.dict \[a: b c: 200 12: 15151\]]
-|           |
-[dict.size  ]
-|
-[ui.display @display_type=1]
-
-            
-```
+![example](examples/dict.size-example.jpg)
 
 ---
 arguments:

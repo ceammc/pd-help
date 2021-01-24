@@ -18,34 +18,7 @@ log(+infinity) return +infinity.
 ---
 
 
-```
-
-
-[B]
-|
-[plot.linspace~ -4 30]
-|                 ^|
-[math.log~]        |
-|                  |.
-[ui.plot~ @xlabels 1 @ylabels 1 @ymin -5 @ymax 5 @size 400 200]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-[ui.dsp~]
-
-            
-```
+![example](examples/math.log~-example.jpg)
 
 ---
 arguments:

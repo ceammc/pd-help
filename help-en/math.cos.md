@@ -19,17 +19,7 @@ cos(+-infinity) returns a NaN and raises the &#34;invalid&#34; floating-point
 ---
 
 
-```
-
-
-[F]
-|
-[math.cos]
-|
-[F]
-
-            
-```
+![example](examples/math.cos-example.jpg)
 
 ---
 arguments:

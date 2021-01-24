@@ -14,23 +14,7 @@ gain boost|cut above some frequency
 ---
 
 
-```
-
-
-[noise~]   [F]         [F]
-|          |           |
-|          [@freq $1(  [@gain $1(
-|          |           |
-|          |           |
-|          |           |
-[flt.highshelf~ 3000 -15]
-|
-[ui.gain~ @size 120 14] [ui.dsp~]
-|\
-[dac~]
-
-            
-```
+![example](examples/flt.highshelf~-example.jpg)
 
 ---
 arguments:

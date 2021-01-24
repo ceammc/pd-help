@@ -17,29 +17,7 @@ There are two modes of normalization:
 ---
 
 
-```
-
-
-[1 2 3 4(
-|
-|  [1 2 a b c d( [@range( [@sum(
-|  |             |        |
-|  |             |        |
-|  |             |        |
-[list.normalize       @sum]
-|
-[t b a]
-|    ^|
-|    [msg set]
-|    |
-[      (
-|
-[list.sum]
-|
-[F]
-
-            
-```
+![example](examples/list.normalize-example.jpg)
 
 ---
 arguments:

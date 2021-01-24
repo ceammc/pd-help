@@ -17,27 +17,7 @@ Also you can choose smallest symbol from list by using @symbol property.
 ---
 
 
-```
-
-
-[1 2 3 a b(  [list a b c(  [1 2 3 a b(  [list aa ab ac(
-|            |             |            |
-|            |             |            |
-[list.min @float]          [list.min @symbol]
-|                          |
-[F]                        [S digits=10]
-
-[1 a 2 b 3 c( [F]    [S digits=8]
-|             |      |
-|             |      |
-[list.min @any       ]
-|
-[msg set]
-|
-[ (
-
-            
-```
+![example](examples/list.min-example.jpg)
 
 ---
 arguments:

@@ -15,19 +15,7 @@ Defines local scope set variable, accessed by ID name
 ---
 
 
-```
-
-                     
-[B]   [1 2 3( [F] [clear(    [bang(
-|     |       |   |          |
-|     |       |   |          |
-|     |       |   |          |
-[local.set      s1]          [local.set s1]
-|                            |
-[ui.display @display_type=1] [ui.display @display_type=1]
-
-            
-```
+![example](examples/local.set-example.jpg)
 
 ---
 arguments:

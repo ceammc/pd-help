@@ -16,29 +16,7 @@ Convert Scientific Pitch Notation to MIDI note numbers. SPN consist of pitch cla
 ---
 
 
-```
-
-
-[T]
-|
-[metro 100]
-|
-[list C4 F4 G4 C6 Gb7 B##9(
-|
-[list.choice]
-|
-[pitch->midi]
-|
-[mtof]
-|
-[osc~] [T]
-|  .___/
-[*~]
-|
-[dac~]
-
-            
-```
+![example](examples/conv.pitch2midi-example.jpg)
 
 ---
 arguments:

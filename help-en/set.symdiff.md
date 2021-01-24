@@ -16,23 +16,7 @@ Symmetric difference, of two sets is the set of elements which are in either of
 ---
 
 
-```
-
-
-[B]
-|
-[data.set A B C D]
-|
-[set.symdiff C D E F]
-|
-[set->list @sort]
-|
-[msg set]
-|
-[ (
-
-            
-```
+![example](examples/set.symdiff-example.jpg)
 
 ---
 arguments:

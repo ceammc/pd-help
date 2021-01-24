@@ -14,21 +14,7 @@ on input list remove element(s) at specified positions
 ---
 
 
-```
-
-
-[1 2 3 4 5 6(      [\(a b c d e\), bang(
-|                  |
-|  [list A B C D(  [ml]
-|  |               |
-|  |           [F] |
-|  |           |.  |
-[list.remove 0 -1  ]
-|
-[ui.display @display_type=1]
-
-            
-```
+![example](examples/list.remove-example.jpg)
 
 ---
 arguments:

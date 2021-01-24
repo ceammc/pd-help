@@ -15,19 +15,7 @@ Defines global scope set variable, accessed by ID name
 ---
 
 
-```
-
-                     
-[B]   [1 2 3( [F] [clear(    [bang(
-|     |       |   |          |
-|     |       |   |          |
-|     |       |   |          |
-[global.set     s1]          [global.set s1]
-|                            |
-[ui.display @display_type=1] [ui.display @display_type=1]
-
-            
-```
+![example](examples/global.set-example.jpg)
 
 ---
 arguments:

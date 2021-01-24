@@ -14,21 +14,7 @@ Converts vline messages to env
 ---
 
 
-```
-
-
-[0, 1 200(  [1 100 50( [0, 1 300, 0 500 300(
-|           |          |
-|           |          | [0, 1 300, 0 500 500(
-|           |          | |
-|           |          | |
-|           |          | |
-[vline2env               ]
-|
-[ui.env]
-
-            
-```
+![example](examples/vline2env-example.jpg)
 
 ---
 arguments:

@@ -14,23 +14,7 @@
 ---
 
 
-```
-
-
-[1 45( [rotate 45(
-|      |
-[ui.polar]
-|
-|
-|
-|
-|
-|
-|
-[ui.display @display_type=1]
-
-            
-```
+![example](examples/ui.polar-example.jpg)
 
 ---
 arguments:

@@ -14,26 +14,7 @@ sync equal numbers check
 ---
 
 
-```
-
-
-[F]   [F]   /*same as:*/ [F]  [F]
-|     |                  |    |
-|     |                  |    [t b f]
-|     |.                 |    | ^|.
-[=='    ]                [==      ]
-|                        |
-[_]                      [_]
-
-[100 100.01( [100 101( [100 99.99(
-|            |         |
-|            |         |
-[==' @epsilon 0.1      ]
-|
-[_]
-
-            
-```
+![example](examples/math.sync_eq-example.jpg)
 
 ---
 arguments:

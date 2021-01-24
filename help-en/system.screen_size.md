@@ -14,20 +14,7 @@ returns current screen size in pixels
 ---
 
 
-```
-
-
-
-[bng]
-|
-[system.screen_size]
-|
-|
-[ui.display]
-
-
-            
-```
+![example](examples/system.screen_size-example.jpg)
 
 ---
 arguments:

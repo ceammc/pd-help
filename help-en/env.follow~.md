@@ -14,21 +14,7 @@ Envelope follower with independent attack and release times
 ---
 
 
-```
-
-
-[osc~ 440] [F]
-|          |    [F]
-| [dbtorms ]    |
-| |.            [@attack $1(
-[*~]            |
-|               |
-[env.follow~ 50 200]
-|
-[ui.n~]
-
-            
-```
+![example](examples/env.follow~-example.jpg)
 
 ---
 arguments:

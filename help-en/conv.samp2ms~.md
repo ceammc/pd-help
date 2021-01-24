@@ -14,33 +14,7 @@ convert samples to milliseconds according to samplerate
 ---
 
 
-```
-
-
-[bang(
-|
-[plot.linspace~ 0 sr()]
-|                    ^|
-[samp->ms~]           |
-|                     |.
-[ui.plot~ @size 400 170 @xlabels 1 @ylabels 1 @ymin 0 @ymax 1000 @ymin_ticks 0]
-
-
-
-
-
-
-
-
-
-
-
-
-
-[ui.dsp~]
-
-            
-```
+![example](examples/conv.samp2ms~-example.jpg)
 
 ---
 arguments:

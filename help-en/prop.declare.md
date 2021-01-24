@@ -14,19 +14,7 @@ declare named property for subpatch or abstraction
 ---
 
 
-```
-
-
-[prop.declare freq @min 20 @max 20000 @default 1000]
-
-[prop.declare gain @min -60 @max 12 @default 3]
-
-[prop @freq] [prop @gain]
-|            |
-[F]          [F]
-
-            
-```
+![example](examples/prop.declare-example.jpg)
 
 ---
 arguments:

@@ -16,21 +16,7 @@ If several items are specified returns list of positions.
 ---
 
 
-```
-
-
-[1 2 3 4( [list ABC BC A(
-|         |
-|         |     [F]    [3 2(
-|         |     |.     |.
-[list.search           A]
-|
-[msg set]
-|
-[ (
-
-            
-```
+![example](examples/list.search-example.jpg)
 
 ---
 arguments:

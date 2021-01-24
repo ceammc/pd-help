@@ -22,17 +22,7 @@ atanh(x) returns a NaN and raises the &#34;invalid&#34; floating-point exception
 ---
 
 
-```
-
-
-[F]
-|
-[math.atanh]
-|
-[F]
-
-            
-```
+![example](examples/math.atanh-example.jpg)
 
 ---
 arguments:

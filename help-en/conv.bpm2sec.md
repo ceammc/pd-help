@@ -16,9 +16,7 @@ Convert frequency from BPM (beats per minute) to period in seconds. It&#39;s sim
 ---
 
 
-```
-
-```
+![example](examples/conv.bpm2sec-example.jpg)
 
 ---
 arguments:

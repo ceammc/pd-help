@@ -16,22 +16,7 @@ Defines named local float variable, accessed by name and available only within i
 ---
 
 
-```
-
-
-[F]   [+ 2, bang(    [* 3, bang(    [bang(
-|     |              |              |
-|     |              |              |
-|     |  [- 3, bang( | [/ 2, bang(  |
-|     |  |           | |            |
-|     |  |           | |            |
-|     |  |           | |            |
-[local.float         f1]            [local.float f1]
-|                                   |
-[F]                                 [F]
-
-            
-```
+![example](examples/local.float-example.jpg)
 
 ---
 arguments:

@@ -14,21 +14,7 @@ checks if given string starts with specified prefix
 ---
 
 
-```
-
-
-[B]
-|
-[string CSound] [symbol SuperCollider(
-|               |
-|               |
-|               |
-[str.starts_with CSound]
-|
-[T]
-
-            
-```
+![example](examples/string.starts_with-example.jpg)
 
 ---
 arguments:

@@ -18,20 +18,7 @@ For example, all digits: `d+, two or three chars: [a-z]((2..3)) etc.
 ---
 
 
-```
-
-
-[test.mp3( [test.mp4( [FILE.mp2( [ABC( [abc.mp5( [symbol [a-z]\(\(2..4))`..+(
-|          |          |          |     |         |
-|          |          |          |     |         |
-[symbol                                ]         |
-|                                                |.
-[str.match \[a-z\]+`.mp\[34\]                     ]
-|
-[ui.display @display_type=1]
-
-            
-```
+![example](examples/string.match-example.jpg)
 
 ---
 arguments:

@@ -14,19 +14,7 @@ checks if input data has *dict* type
 ---
 
 
-```
-
-
-[\[a: b\] \[@prop: val\] \[1: 100\], bang(
-|
-[data.dict] [list 1 2 3( [F]
-|           |            |
-[is_dict                 ]
-|     ^|
-[T]   [ui.d]
-
-            
-```
+![example](examples/is_dict-example.jpg)
 
 ---
 arguments:

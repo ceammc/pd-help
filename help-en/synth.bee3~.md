@@ -16,30 +16,7 @@ This class implements a simple 4 operator topology, also referred to as algorith
 ---
 
 
-```
-
-
-[ui.keyboard]
-|
-|
-|
-|
-[unpack f f ]
-|          ^|
-[mtof]     [> 0]
-|          |
-|          [pipe]
-|          |
-[@freq $1( [@gate $1( [dump(
-|          |          |
-[synth.bee3~          ]
-|
-[ui.gain~ @size 120 16]  [ui.dsp~]
-| \
-[dac~]
-
-            
-```
+![example](examples/synth.bee3~-example.jpg)
 
 ---
 arguments:

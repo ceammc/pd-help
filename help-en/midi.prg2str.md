@@ -14,21 +14,7 @@ convert GM Instrument number to name (string or symbol)
 ---
 
 
-```
-
-
-[1(  [9(
-|    |
-[F                      ]
-|                       |
-[midi.prg->str @symbol] [midi.prg->str @symbol @family]
-|                       |
-[msg set]               [msg set]
-|                       |
-[ (                     [ (
-
-            
-```
+![example](examples/midi.prg2str-example.jpg)
 
 ---
 arguments:

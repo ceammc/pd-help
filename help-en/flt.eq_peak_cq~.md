@@ -14,28 +14,7 @@ constant-Q second order peaking equalizer section
 ---
 
 
-```
-
-
-[noise~] [F]        [F]        [F]
-|        |          |          |
-|        [@freq $1( [@gain $1( [@q $1(
-|        |          |          |
-[flt.eq_peak_cq~ 3000 15 3     ]
-|
-[ui.ssc~ @size 500 120 @log_scale 1]
-
-
-
-
-
-
-
-
-[ui.dsp~]
-
-            
-```
+![example](examples/flt.eq_peak_cq~-example.jpg)
 
 ---
 arguments:

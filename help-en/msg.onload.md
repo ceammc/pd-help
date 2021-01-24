@@ -16,18 +16,7 @@ Click on object sends message again.
 ---
 
 
-```
-
-
-/*click me!*/
-
-[loadmsg load message]
-|   |       |
-|   |       |
-[B] [print] [ui.display @display_type=1]
-
-            
-```
+![example](examples/msg.onload-example.jpg)
 
 ---
 arguments:

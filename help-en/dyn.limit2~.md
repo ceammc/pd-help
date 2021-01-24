@@ -14,25 +14,7 @@ stereo 1176LN Peak Limiter
 ---
 
 
-```
-
-
-[osc~ 440]  [floatatom]
-|           |.
-[*~           ]
-| |         |
-| |         [env~]
-| |         |
-| |         [floatatom]
-| |.
-[dyn.limit2~   ]
-|             ^|
-[env~]        [env~]
-|             |
-[floatatom]   [floatatom]
-
-            
-```
+![example](examples/dyn.limit2~-example.jpg)
 
 ---
 arguments:

@@ -14,23 +14,7 @@ mono dynamic range compressors
 ---
 
 
-```
-
-
-[lfo.impulse~ 10] [tgl]
-|  .______________/
-[*~]
-|         [floatatom] [floatatom]
-[*~ 4]    |           |
-|         |           |
-|   [B]   [@ratio $1( [@threshold $1(
-|   |     |           |
-[dyn.comp~ 3 40 10 100 id]
-|\               ^|
-[dac~]           [print]
-
-            
-```
+![example](examples/dyn.comp~-example.jpg)
 
 ---
 arguments:

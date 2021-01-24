@@ -15,19 +15,7 @@ By default converts from [0..127] to [0..1]
 ---
 
 
-```
-
-
-[F min=0 max=127]
-|
-|   [ctlin 0]   [F min=0 max=127]
-|   |           |
-[cc->amp]       [cc->amp @from 1 @to -1]
-|               |
-[F]             [F]
-
-            
-```
+![example](examples/conv.cc2amp-example.jpg)
 
 ---
 arguments:

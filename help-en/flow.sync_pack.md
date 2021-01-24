@@ -14,18 +14,7 @@ flow pack with all hot inlets
 ---
 
 
-```
-
-
-[B]  [F]   [F]  [1 2(   [1 2 3( [F]
-|    |     |    |       |       |
-|    |     |.   |       |       |..
-[flow.pack' 3 0 0 ABC {w=20}       ]
-|
-[ui.display @display_type=1]
-
-            
-```
+![example](examples/flow.sync_pack-example.jpg)
 
 ---
 arguments:

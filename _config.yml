@@ -1,2 +1,5 @@
 #theme: jekyll-theme-minimal
 exclude: src-en, src-ru
+show_downloads: true
+title: "PureData CEAMMC web documentation"
+description: "PureData CEAMMC library web documentation"

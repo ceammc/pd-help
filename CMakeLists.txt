@@ -3,14 +3,25 @@ project(pd-help NONE)
 cmake_minimum_required(VERSION 3.6)
 
 set(PDDOC_SRC_DIR ${PROJECT_BINARY_DIR}/ceammc_src/src/ceammc/ceammc/ext/doc)
+set(CEAMMC_VERSION "2021.11")
 
 find_program(PD_ASCII2PD NAMES pd_ascii2pd REQUIRED)
+find_program(CEAMMC_APP_BUNDLE NAMES "Pd-ceammc_${CEAMMC_VERSION}" REQUIRED)
+if(CEAMMC_APP_BUNDLE)
+    message(STATUS "Pd found: ${CEAMMC_APP_BUNDLE}")
+endif()
 
 configure_file(scripts/examples_ascii.sh
     ${PROJECT_BINARY_DIR}/examples_ascii.sh @ONLY)
 
 configure_file(scripts/examples_pd.sh
     ${PROJECT_BINARY_DIR}/examples_pd.sh @ONLY)
+
+configure_file(scripts/examples_img.sh
+    ${PROJECT_BINARY_DIR}/examples_img.sh @ONLY)
+
+configure_file(scripts/pd_to_postscript.sh
+    ${PROJECT_BINARY_DIR}/pd_to_postscript.sh @ONLY)
 
 include(ExternalProject)
 ExternalProject_Add(
@@ -29,5 +40,10 @@ add_custom_target(examples_ascii
 
 add_custom_target(examples_pd
   COMMAND ${PROJECT_BINARY_DIR}/examples_pd.sh
+  DEPENDS ceammc
+  USES_TERMINAL)
+
+add_custom_target(examples_img
+  COMMAND ${PROJECT_BINARY_DIR}/examples_img.sh
   DEPENDS ceammc
   USES_TERMINAL)

@@ -1,0 +1,9 @@
+
+
+[symbol PureData(
+|
+[str.substr 4]
+|
+[ui.dt]
+
+            

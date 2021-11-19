@@ -1,0 +1,15 @@
+
+
+[@freq 100, @gate 1, 400 @freq 800, 600 @freq 200, 750 @gate 0(
+|
+|
+|
+[msg.sched]
+|
+[synth.dubdub~]
+|
+[ui.hgain~]     [ui.dsp~]
+|\
+[dac~]
+
+            

@@ -1,0 +1,17 @@
+
+
+[B]
+|
+[list.gen 10] X [random 25]
+|
+[t b a]
+|   ^|
+|   [msg set]
+|   |
+[   (
+|
+[list.count_if] X [> 10]
+|
+[F]
+
+            

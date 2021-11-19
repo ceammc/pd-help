@@ -1,0 +1,10 @@
+
+
+[100(  [any( [symbol a(  [list a b c(
+|      |     |        ___/
+[is_float             ]
+|     ^|
+[tgl]  [print passed]
+
+                
+            

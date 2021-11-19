@@ -1,0 +1,23 @@
+
+
+[T]          [ui.dsp~]
+|
+[metro 200]
+|
+[random.i 48 72]
+|
+[makenote 127 180]
+*|*
+[pack f f]
+|  |
+|  [flow.queue 8 @auto_pop 1]
+|            |
+[msg note]   [msg note]
+|            |
+[synth.ks~]  [synth.ks~]
+|            |.
+[ui.hgain2~   ]
+*|*
+[dac~]
+
+            

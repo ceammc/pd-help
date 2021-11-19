@@ -1,0 +1,25 @@
+
+
+[clear, file_glob * %DOC%/sound, 0(
+|
+[expand_env]
+|
+[ui.menu @max_length 32 @size 200 16]
+|
+[list.at 1]
+|
+[S digits=60]
+|
+[t       b s]
+|         ^|
+[del 100] [open $1(
+|         |
+[1( [0(   |
+|   |     |
+[readsf~  ]
+|
+[ui.gain~ @size 120 16]   [ui.dsp~]
+| \
+[dac~]
+
+            

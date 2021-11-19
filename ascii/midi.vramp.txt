@@ -1,0 +1,20 @@
+
+
+[ui.keyboard]
+|
+|
+|
+|
+|                            [reset(
+|                            |
+[midi.vramp 30 127 12 @auto 1]
+|
+[msg note]
+|
+[fluid~ sf2/VintageDreamsWaves-v2.sf2]
+*|*
+[ui.hgain2~]     [ui.dsp~]
+*|*
+[dac~]
+
+            

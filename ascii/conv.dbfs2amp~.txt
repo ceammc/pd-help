@@ -1,0 +1,11 @@
+
+
+[ui.hsl @min -144 @max 6]
+|
+[F digits=8]
+|
+[dbfs->amp~]   [ui.dsp~]
+|
+[ui.n~]
+
+            

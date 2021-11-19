@@ -1,0 +1,33 @@
+
+
+[T]          [glider 2 3, bang #b( [rpent 5 7, bang #e(
+|
+[metro 500]  [oct2 2 2, bang #c(
+|
+[next, bang( [random, bang #a(
+|
+| [r $0-mtx] [clear, bang #d(
+| |
+| [flow.route *cell] [T]
+| |                  |
+[seq.life #z]        [seq.matrix 16 120]
+|                    |
+[ui.matrix 16 16     ]               [r $0-mtx]
+|                                    |
+|                                    [route col]
+|                                    |
+|                                    [ui.dt @display_events 0]
+|
+|
+|
+|
+|
+|
+[s $0-mtx]
+[X a->z]
+[X b->z]
+[X c->z]
+[X d->z]
+[X e->z]
+
+            

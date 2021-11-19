@@ -1,0 +1,19 @@
+
+
+/* common sort */
+
+[list 10.txt 1.txt 14.txt 2.txt 6.txt 7.txt 9.txt(
+|
+[list.sort]
+|
+[ui.dt]
+
+/* numeric sort */
+
+[list 10.txt 1.txt 14.txt 2.txt 6.txt 7.txt 9.txt(
+|
+[list.sort_with] X [symbol.num_compare]
+|
+[ui.dt]
+
+            

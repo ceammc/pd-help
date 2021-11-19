@@ -1,0 +1,10 @@
+
+
+[F]  [@format %+02d(
+|    |
+|    |
+[string.format "%08.2f"]
+|
+[ui.dt]
+
+            

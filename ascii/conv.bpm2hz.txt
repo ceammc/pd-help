@@ -1,0 +1,19 @@
+
+
+[120(
+|
+[F]  /*simple metronome*/
+|
+[bpm->hz]       [ui.dsp~]
+|
+[F]
+|
+[lfo.impulse~]
+|
+[flt.resonbp~ 1000 20]
+|
+[ui.hgain~]
+|\
+[dac~]
+
+            

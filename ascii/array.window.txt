@@ -1,0 +1,21 @@
+
+
+[array AW1 size=100 w=100 h=100 yr=0..1]
+
+
+
+
+
+
+
+[tri(    [welch(  [rect(      [blackman(
+|        |        |           |
+| [hann( | [sine( | [flattop( |
+| |      | |      | |         |
+| |      | |      | |         |
+| |      | |      | |         |
+[array.window    AW1 @type tri  ]
+|
+[B]
+
+            

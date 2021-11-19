@@ -1,0 +1,16 @@
+
+
+[open guitar1.wav, 1(    [table AC1 44100]
+|
+|
+[readsf~ ]   [lfo.+tri~ 5]
+| |          |
+| |          [*~ 100]
+| |          |.
+| [array.circular~ AC1]  [ui.dsp~]
+| |.
+[ui.hgain2~]
+*|*
+[dac~]
+
+            

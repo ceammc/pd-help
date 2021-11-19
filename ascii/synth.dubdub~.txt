@@ -1,0 +1,33 @@
+
+
+[ui.keyboard]
+|
+|
+|
+|
+[msg note]
+|
+| [T]                        [ui.knob]  [ui.knob]
+| |                          |          |
+| [metro.pattern 200 150 50] |          |
+| |                          [@q $1 #b( [lin->lin 0 1 100 8000]
+| [next(                                |
+| |                                     |
+| [list.walk C2 D3 G3 C4 Bb2 C2 @loop]  [@cutoff $1 #c(
+| |
+| [pitch->midi]
+| |
+| [@pitch $1, @gate 0(
+| |
+| [msg.after 10 @gate 1]
+| |
+[synth.dubdub~ #a]
+|
+[ui.gain~ @size 120 16]
+|\
+[dac~]
+
+[ui.dsp~]
+[X b->a] [X c->a]
+
+            

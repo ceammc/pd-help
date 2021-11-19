@@ -1,0 +1,21 @@
+
+
+             [B]   [F]
+             |     |
+             [list.gen 4]X[random 10]
+             |
+             [t l l l       ]
+             |  ^|        ^^|
+ [1 60 120(  |  [ui.d]    [data.fifo 1]
+          |  |            |
+[2 -2(    |  |            [ui.d]
+|         |  |
+|         |  | [dump( [@padz( [@clip( [@fold( [@wrap(
+| [clear( |  | |      |       |       |       |
+| |       |  | |      |       |       |       |
+| |       |  | |      |       |       |       |
+[list.delta                              @clip]
+|
+[ui.dt]
+
+            

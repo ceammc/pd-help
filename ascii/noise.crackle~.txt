@@ -1,0 +1,13 @@
+
+
+[@freq 3( [@freq 50(
+|         |
+[noise.crackle~ ]
+|
+[ui.gain~ @size 120 16]
+|\
+[dac~]
+
+[ui.dsp~]
+
+            

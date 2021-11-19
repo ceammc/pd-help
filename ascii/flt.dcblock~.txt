@@ -1,0 +1,15 @@
+
+
+[sig~ 2]
+| |
+| [env~]
+| |
+| [floatatom]
+|
+[flt.dcblock~]
+|
+[env~]
+|
+[floatatom]
+
+            

@@ -1,0 +1,20 @@
+
+
+[ui.hsl #a]                 [array AMPFZ w=360 h=90]
+|
+[lpf->biquad {i=1,o=1}]
+|  |
+|  [print]
+|
+[t b l]          [T]
+| ^|             |
+| [msg biquad]   [@db $1(   [array PHFZ w=360 h=90]
+| |              |
+[flt.freqz    128]
+|    ^|
+|    [array.plot PHFZ]
+|
+[array.plot AMPFZ]
+#a @min 0 @max 20000 @show_value 1
+
+            

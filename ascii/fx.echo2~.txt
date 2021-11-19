@@ -1,0 +1,17 @@
+
+
+[open %CEAMMC%/guitar1.wav, 1(
+|
+[expand_env]
+|
+[readsf~]  [ui.hsl @show_value 1]
+|          |
+|          [@stereo $1(
+|          |
+[fx.echo2~ 500 0.3]
+*|*
+[ui.gain2~ @size 120 16]  [ui.dsp~]
+*|*
+[dac~]
+
+            

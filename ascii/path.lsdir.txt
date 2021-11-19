@@ -1,0 +1,11 @@
+
+
+[bang(     [symbol /(     [B]              [S digits=10]
+|          |              |                |.
+|          |              [path.lsdir ~ @match *.aiff]
+|          |              |
+[path.lsdir ~]            [ui.dt]
+|
+[ui.dt]
+
+            

@@ -1,0 +1,11 @@
+
+
+[F min=0 max=127]
+|
+|   [ctlin 0]   [F min=0 max=127]
+|   |           |
+[cc->amp]       [cc->amp @from 1 @to -1]
+|               |
+[F]             [F]
+
+            

@@ -1,0 +1,25 @@
+
+
+[osc~ 1000] [ui.knob]     [ui.knob]
+|           |             |
+|           |             |
+|           [phase->rad]  |
+|           |             |
+|           [@angle $1(   [@radius $1(
+|           |             |
+|           |             |
+|           |             |
+[spat.pan4~ 0.8 pi()       ]
+|       ^|      ^^|     ^^^|
+[ui.m~] [ui.m~] [ui.m~] [ui.m~]
+
+
+
+
+
+
+
+
+[ui.dsp~]
+
+            

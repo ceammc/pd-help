@@ -1,0 +1,13 @@
+
+
+[B]
+|
+[string test] [symbol message(  [symbol simple(
+|             |                 |
+|             |                 |
+|             |                 |
+[str.contains                 es]
+|
+[T]
+
+            

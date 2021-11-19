@@ -1,0 +1,15 @@
+
+
+[sig~ 1]  [osc~ 440]
+|         |
+|         |   [ui.hrd @nitems 2]
+|         |.  |..
+[mux~          2 {i=3,o=1}]
+|
+[an.rms~]
+|
+[ui.n~]
+
+[ui.dsp~]
+
+            

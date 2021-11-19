@@ -1,0 +1,22 @@
+
+
+[F]          [bang #c(     [ui.menu #b]
+|                          |
+|            [ui.hrd #d]   [@wave $2(
+|                          |
+[lfo.mosc~ 30 @duty 0.1  #z]
+|
+[ui.scope~]
+
+
+
+
+
+
+
+[ui.dsp~]
+#b sin saw tri sqr pulse +sin +saw +tri +sqr +pulse
+[X c->z:1]
+[X d->z:1]
+
+            

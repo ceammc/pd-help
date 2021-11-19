@@ -1,0 +1,19 @@
+
+
+[midiin]  [S digits=20]
+|         |
+|         [sym->any]
+|         |
+[proto.midi]
+|
+[route.float]
+|  |       ^|
+|  [print] [ui.dt]
+|
+|     [T]
+|     |.
+[gate 0]
+|
+[midiout]
+
+            

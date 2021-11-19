@@ -1,0 +1,27 @@
+
+
+[1 2 3 #q(     [list c 17 #s(
+
+[10(   [40 #p( [b #o(
+|
+[F]    [30(    [symbol c(   [unmatched(
+|      |       |            |
+[flow.sel 1..10 >20 a|b|c @v #a {w=32}]
+|
+[ui.dt #b]
+
+       [ui.dt #c]
+
+               [ui.dt #d]
+
+                       [ui.dt #e]
+[X a->b]
+[X a:1->c]
+[X a:2->d]
+[X a:3->e]
+[X p->a]
+[X o->a]
+[X q->a]
+[X s->a]
+
+            

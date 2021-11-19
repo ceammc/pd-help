@@ -1,0 +1,28 @@
+
+
+/*without copy*/
+
+[B]
+|
+[list.gen 3 #a] [list.gen 3 #c]X[random 10]
+|               |
+|               [mlist #b]
+|               |
+[ui.dt]         [ui.dt]
+[X b->a:1]
+[X a:1->c]
+/*with copy */
+
+[B]
+|
+[list.gen 3 #d] [list.gen 3 #e]X[random 10]
+|               |
+|               [mlist]
+|               |
+|               [data.copy #f]
+|               |
+[ui.dt]         [ui.dt]
+[X f->d:1]
+[X d:1->e]
+
+            

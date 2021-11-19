@@ -1,0 +1,8 @@
+
+
+[exit 0( /*WARNING: this will close PureData in 1000ms!*/
+|
+|
+[system.exit @delay 1000]
+
+            

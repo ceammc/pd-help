@@ -1,0 +1,9 @@
+
+
+[phasor~ 0.5] [bang(
+|             |
+[sig->float~ 500]
+|
+[F]           [ui.dsp~]
+
+            

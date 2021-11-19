@@ -1,0 +1,11 @@
+
+
+[F]                    [1 2( [2 1(        [flow.split.more]
+|                      |     |
+[flow.split]X[> 0]     [flow.split]X[<]   [flow.split.sound]
+|    ^|                |     ^|
+[F]  [F]               |     [ui.d @display_type 1]
+                       |
+                       [ui.d @display_type 1]
+
+            

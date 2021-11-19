@@ -1,0 +1,24 @@
+
+
+[F]      [ui.dsp~]
+|
+[$1 50(
+|
+[line~]      [bang(
+|            |.
+[osc.saw4~    ]
+|
+[ui.gain~ @size 120 14]
+|\      |
+[dac~]  [ui.spectroscope~]
+
+
+
+
+
+
+
+
+
+
+            

@@ -1,0 +1,17 @@
+
+
+[ui.sliders 3 @size 100 60]     /*vanilla analogue*/
+|
+|                               [1 2 3(
+|                               |
+|                               [unpack f f f     ]
+|                               |       ^|      ^^|
+[list->many @a @b @c]           [@a $1( [@b $1( [@c $1(
+|     ^|      ^^|               |       |       |
+|      |      [ui.dt]           [ui.dt] [ui.dt] [ui.dt]
+|      |
+|      [ui.dt]
+|
+[ui.dt]
+
+            

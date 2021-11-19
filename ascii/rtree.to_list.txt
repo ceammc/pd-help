@@ -1,0 +1,27 @@
+
+
+[bang( [F]  [\(1 2 2 1\), bang( [\(2 1 1\), bang( [\(3 1\), bang(
+|      |    |                   |                 |
+|      |    |                   |                 |
+[rtree->list 1 (1 1 1 1(2 1 1))                   ]
+|
+[ui.dt]
+
+
+/*built-in funciton rtree(), that can be used in any ceammc object instead of list arguments*/
+
+                         [F]
+                         |
+[bang(  [stop(           [@t $1(
+|       |                |
+[seq.bangs rtree(2 \(1 1 1\(1 1\) 1\(1 1 1\) 1\(1 1 1 1 1\)\)\) @inf @t 90bpm {w=70}]
+|
+[click~]
+|
+[flt.resonbp~ 1000 60] [ui.dsp~]
+|
+[ui.hgain~]
+|\
+[dac~]
+
+            

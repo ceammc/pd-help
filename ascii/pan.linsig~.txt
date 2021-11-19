@@ -1,0 +1,13 @@
+
+
+[osc.pulse~ 100]
+|
+[ui.gain~ @size 120 14]  [ui.dsp~]
+|
+|         [osc~ 1]
+|         |.
+[pan.linsig~]
+|  ^|.
+[dac~ ]
+
+            

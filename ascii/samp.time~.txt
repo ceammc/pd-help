@@ -1,0 +1,15 @@
+
+
+[T]    [bang(    [lfo.+square~ 100]
+|      |.        |
+[samp.t~]        [samp.t~]
+|                |
+[ui.n~]          [ui.n~]
+
+[T]
+|
+[samp.t~ 0]      [ui.dsp~]
+|
+[ui.n~]
+
+            

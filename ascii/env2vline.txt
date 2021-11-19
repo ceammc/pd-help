@@ -1,0 +1,38 @@
+
+
+[loadbang]                            [r a1]
+|                                     |
+[envelope easr 20 -4 1000 -8]         [env->array env_a1]
+| |
+| [s a1] [bang( [T]
+|        |      |
+[env->vline     ]                     [array env_a1 w=110 h=80 yr=0..1]
+|
+[vline~] [osc~ 1000]
+|        |.
+[*~       ]
+|
+[ui.hgain~]
+|\
+[dac~]
+
+[loadbang]
+|
+[line 0 100 1 400 0.2 1000 0.7 2000 0, set_stop_point 2 1, set_stop_point 3 1, bang(
+|
+|
+[envelope] [next( [reset(             [r a2]
+| |        |      |                   |
+| [s a2]   |      |                   [env->array env_b1]
+|          |      |
+[env->vline       ]
+|
+[vline~] [osc~ 1200]                  [array env_b1 w=110 h=80 yr=0..1]
+|        |.
+[*~       ]
+|
+[ui.hgain~]
+|\
+[dac~]
+
+            

@@ -1,0 +1,17 @@
+
+
+[B]                                         [array array1 size=100 yr=0..1]
+|
+[list.gen 1000]X[random.pw_const 0 1 1 0 2 2 3]
+|
+[list.histogram @bins 100]
+|
+[list.normalize @range]
+|
+[list.enumerate @append]
+|
+[list.repack 2]
+|
+[tabwrite array1]
+
+            

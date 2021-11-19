@@ -1,0 +1,17 @@
+
+
+[osc~ 440] [F]
+|          |
+|     [dbtorms]
+|     |.
+[*~    ]      [F]
+|             |
+|             [@threshold $1(
+|             |
+[dyn.gate~ 90 ]
+|
+[ui.hgain~    ] [ui.dsp~]
+|\
+[dac~]
+
+            

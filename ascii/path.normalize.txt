@@ -1,0 +1,9 @@
+
+
+[symbol /path///./to/normalize/../file.txt(
+|
+[path.normalize]
+|
+[ui.dt]
+
+            

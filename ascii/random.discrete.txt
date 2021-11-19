@@ -1,0 +1,17 @@
+
+
+[B]                                          [array array1 size=9 yr=0..1]
+|
+[list.gen 1000]X[random.discrete 1 2 3 4 0 1 2 4 5]
+|
+[list.histogram @bins 9]
+|
+[list.normalize @range]
+|
+[list.enumerate @append]
+|
+[list.repack 2]
+|
+[tabwrite array1]
+
+            

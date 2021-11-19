@@ -1,0 +1,29 @@
+
+
+[bang #a(          [msg.onload fill 0]
+|                  |
+[click~]           [ui.sliders 5 #c @min -6 @max 6]
+|
+|
+|
+|
+|
+|
+[flt.fbank5x1~ #d]
+*|
+*|
+[plot.response~ @sr 1 @db 1 #b]
+|                          ^^|.
+[ui.plot~ @xlabels 1 @ylabels 1 @ymin -6 @ymax 6 @ymin_ticks 0 @ymaj_ticks 0 @size 300 100]
+
+
+
+
+
+
+
+[ui.dsp~]
+[X a->b:1]
+[X c->d]
+
+            

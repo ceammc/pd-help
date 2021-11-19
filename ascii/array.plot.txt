@@ -1,0 +1,18 @@
+
+
+[1 100 3(                         [array APLT size=10 w=300 h=160]
+|
+[list.seq @closed 1]
+| |
+| [ui.dt]
+|
+|
+|
+|
+[math.sqrt]
+|
+[array.plot APLT]
+|
+[B]
+
+            

@@ -1,0 +1,21 @@
+
+
+[T]
+|
+[metro 110]
+|
+[random.atom C5 D5 C6 Eb4 @w 2 1 6 3]
+|
+[pitch->midi]
+|      |
+[mtof] |
+|      |
+[osc~] [b]
+|      |
+[env.ar~ 10 70]
+|
+[ui.hgain~]     [ui.dsp~]
+|\
+[dac~]
+
+            

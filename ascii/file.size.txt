@@ -1,0 +1,11 @@
+
+
+[bang(      [symbol %CEAMMC%/guitar1.wav(
+|           |
+[openpanel] [expand_env]
+|           |
+[file.size  ]
+|
+[ui.dt]
+
+            

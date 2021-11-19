@@ -1,0 +1,25 @@
+
+
+[open %CEAMMC%/guitar1.wav(  [array APLAY]
+|
+[expand_env]
+|
+[load $1 @to APLAY @resize(
+|
+[snd.file]
+
+[bng]
+|
+[array.play~ APLAY] [ui.dsp~]
+|
+[ui.hgain~]
+|\
+[dac~]
+
+[array.play~.speed]   [array.play~.range]
+
+[array.play~.speed2]  [array.play~.clock]
+
+[array.play~.amp]
+
+            

@@ -1,0 +1,18 @@
+
+
+[open( [symbol ex1.dsp(    [osc~ 500]
+|      |                   |
+|      [@fname faust/$1(   |
+|      |                   |.
+[ui.faust~ faust/ex0.dsp    ]
+|
+|
+|
+|
+|
+|
+[ui.hgain~]       [ui.dsp~]
+|\
+[dac~]
+
+            

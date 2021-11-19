@@ -1,0 +1,11 @@
+
+
+[B] [F]    [symbol test(
+|   |      |
+[string A B C]
+|
+[str->sym]
+|
+[ui.dt]
+
+            

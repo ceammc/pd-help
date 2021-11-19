@@ -1,0 +1,20 @@
+
+
+[loadbang]     [F]              [array l2c size=255 w=250 h=180 yr=0..1]
+|              |
+[0 256 #d(     [t b f #a]
+|              ^|
+[list.seq]     [@curve $1 #b(
+|
+[list.separate             ]
+|
+[t f f               {w=12}]
+|                         ^|
+[lin->curve 0 256  0 1 #c] |
+|                          |.
+[tabwrite                l2c]
+
+[X b->c]
+[X a->d]
+
+            

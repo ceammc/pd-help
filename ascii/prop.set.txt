@@ -1,0 +1,26 @@
+
+
+[@delay 400(/*passed thru*/  [400( [0(/*change delay time*/
+|                            |     |
+|                            [prop.set @delay]
+|                            |.
+[flow.delay 1000              ]
+|
+[ui.dt]
+
+[F] /*the only way to resize*/
+|
+[$1 20(
+|
+[prop.set @size]
+|
+[ui.d]
+
+
+[F] /*abstraction property*/
+|
+[prop.set @p1]
+|
+[prop.set.patch {i=1}]
+
+            

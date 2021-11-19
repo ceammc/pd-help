@@ -1,0 +1,18 @@
+
+
+[B] [start([stop( [reset( [F]           [F]
+|   |       |      |      |             |
+|   |       |      |      [@length $1%( [@length $1ms(
+|   |       |      |      |             |
+|   |       |      |      |             |
+[seq.toggles 3 1 2 1 1 @t 120ms @inf    ]
+|                          ^|
+[lop~ 50] [osc~ 1000]      [route done i ri ed el ]
+|         |.               |   ^|   ^^|  ^^^| ^^^^|
+[*~        ]               [B]  [F]  [F]  [F]   [F]
+|
+[ui.hgain~]                [ui.dsp~]
+|\
+[dac~]
+
+            

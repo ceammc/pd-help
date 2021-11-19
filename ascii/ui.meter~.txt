@@ -1,0 +1,20 @@
+
+
+[lfo.tri~ 0.2] [phasor~ 0.2]
+|              |
+|              [env~]
+|              |
+|              [dbtorms]
+|              |
+[ui.meter~]    [ui.hm~]
+|
+|
+|
+|
+|
+|
+|
+|
+[ui.display]
+
+            

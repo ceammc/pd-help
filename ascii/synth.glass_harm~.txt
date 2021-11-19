@@ -1,0 +1,24 @@
+
+
+[T]
+|.
+[midi.kbd qwerty 0]
+|
+[ui.hk]
+|
+|
+|
+|
+|                      [T]
+|                      |
+[poly 6 {i=1,o=3}]     [@strike $1(
+*|*                    |
+[pack f f f {i=3,o=1}] [msg all]
+|                      |
+[clone 7 poly.obj synth.glass_harm~ {i=1,o=1}]
+|
+[ui.hgain~]   [ui.dsp~]
+|\
+[dac~]
+
+            

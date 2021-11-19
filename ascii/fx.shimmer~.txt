@@ -1,0 +1,21 @@
+
+
+[T]
+|
+[metro 250]
+|
+[60(
+|
+[makenote 127 100]
+*|*
+[pack f f]        [ui.hsl -12 12 @show_value 1]
+|                 |
+[synth.eguitar~]  [@shift $1(
+|                 |
+[fx.shimmer~ @shift 12]
+*|*
+[ui.hgain2~]     [ui.dsp~]
+*|*
+[dac~]
+
+            

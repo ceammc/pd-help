@@ -1,0 +1,17 @@
+
+
+[lfo.impulse~ 10] [tgl]
+|  .______________/
+[*~]
+|         [floatatom] [floatatom]
+[*~ 4]    |           |
+|         |           |
+|         [@ratio $1( [@threshold $1(
+|         |           |
+[dyn.comp~ 3 40 10 100 id]  [ui.dsp~]
+*|*
+[ui.hgain~]
+|\
+[dac~]
+
+            

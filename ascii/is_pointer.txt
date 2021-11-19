@@ -1,0 +1,11 @@
+
+
+[traverse pd-pointer, bang(     [pd pointer]
+|
+[pointer] [bang( [1( [1 2(
+|         |      |   |
+[is_pointer          ]
+|       ^|
+[_]     [print passed]
+
+            

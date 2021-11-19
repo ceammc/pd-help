@@ -1,0 +1,22 @@
+
+
+[ui.radio @presetname P-radio]   [ui.sliders @presetname P-sliders]
+
+
+[ui.toggle @presetname=P-toggle]
+
+
+[ui.rslider @presetname P-rslider]
+
+[F]
+|
+[load $1(                 [ui.hsl @min 0 @max 2]
+|                         |
+| [clear 1(   [clearall(  [interp $1 #a(
+| |           |
+| | [store 1( | [loadmsg read prs.txt]
+| | |         | |
+[ui.preset    #z]
+[X a->z]
+
+            

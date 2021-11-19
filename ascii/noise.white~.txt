@@ -1,0 +1,12 @@
+
+
+[ui.dsp~]
+
+
+[noise.white~]
+|
+|
+|
+[ui.scope~]
+
+            

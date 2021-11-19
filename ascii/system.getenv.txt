@@ -1,0 +1,12 @@
+
+
+[symbol HOME( [symbol APPDATA( [symbol PATH( [symbol USER( [symbol SHELL(
+|             |                |             |             |
+|             |                |             |             |
+|  [B]        |                |             |             |
+|  |          |                |             |             |
+[system.getenv    USER                                     ]
+|
+[ui.display]
+
+            

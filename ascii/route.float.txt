@@ -1,0 +1,17 @@
+
+
+[F]  [bang( [S digits=10 #a]
+|    |
+|    |   [list 1 2 3(   [T]
+|    |   |              |
+|    |   |  [list 123(  [prop.set @strict]
+|    |   |  |           |
+|    |   |  | [@any(    |
+|    |   |  | |         |
+[route.float          #z]
+|       ^|
+[F]     [ui.dt]
+
+[X a->z]
+
+            

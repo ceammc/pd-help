@@ -1,0 +1,31 @@
+
+
+[T]             [ui.dsp~]  [r~ std0]
+|                          |
+[metro.random 100 200]     [ui.scope~ @size=420x100]
+|
+[3(
+|
+[list.gen] X [chaos.std0]
+|
+[l->l -2 1 20 55 @clip minmax]
+|
+[list.unpack 3           ]
+|             ^|       ^^|
+[sig~]        [* 8000] [/ 200]
+|             |        |
+|             [sig~]   [@res $1(
+|             |        |
+[osc.square~] [lop~ 2] |
+|             |.       |
+[flt.moog_vcf~         ]
+|
+[clip~ -1 1    ]
+|              |
+[flt.dcblock~] [s~ std0]
+|
+[ui.hgain~]
+| \
+[dac~]
+
+            

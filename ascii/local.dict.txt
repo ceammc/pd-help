@@ -1,0 +1,13 @@
+
+
+[\[a: abc bpm: 100\], bang( [bang(
+|                           |
+|                           [local.dict d1]
+|                           |
+[local.dict d1]             [ui.dt]
+|
+[ui.dt]
+
+[local.dict.subpatch]
+
+            

@@ -1,0 +1,7 @@
+
+
+[proto.midi.cc.pan]
+
+[proto.midi.cc.vol]
+
+            

@@ -1,0 +1,20 @@
+
+
+[open(  [ui.knob #x] [ui.knob #y]
+|       |            |
+|       |            |
+|       [@amp $1 #a( [@freq $1 #f(
+|
+|                 [osc.square~ 300]
+|                 |.
+[lang.faust~ faust/ex0.dsp #z]
+|
+[ui.hgain~]       [ui.dsp~]
+|\
+[dac~]
+[X a->z]
+[X f->z]
+#x @min 0 @max 0.5
+#y @min 0 @max 10
+
+            

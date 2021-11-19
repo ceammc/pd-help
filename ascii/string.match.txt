@@ -1,0 +1,12 @@
+
+
+[test.mp3( [test.mp4( [FILE.mp2( [ABC( [abc.mp5( [symbol .*`.mp2(
+|          |          |          |     |               |
+|          |          |          |     |               |
+[symbol                                ] [S digits=10] |
+|                                        |.            |.
+[str.match t.+`.mp\[34\]                                ]
+|
+[ui.dt]
+
+            

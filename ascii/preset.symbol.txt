@@ -1,0 +1,12 @@
+
+
+                    [store 0(  [store 1(
+                    |          |
+           [load 0( | [load 1( |
+           |        | |        |
+           |        | |        |
+           |        | |        |
+[S]    X   [preset.symbol     f1]
+
+
+            

@@ -1,0 +1,13 @@
+
+
+[1 2 3 4 5( [\(a b c d e\), bang(
+|           |
+|           [ml] [_]
+|           |    |
+|           |    [@enumerate $1(
+|           |    |
+[list.separate   ]
+|
+[print SEPARATE]
+
+            

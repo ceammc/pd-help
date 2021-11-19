@@ -1,0 +1,24 @@
+
+
+[symbol A/B/C(      [symbol Sample(     [bang(
+|                   |                   |
+[string]            [string]            [string AB CD]
+|                   |                   |
+[string.split /]    [string.split]      [string.split " "]
+|                   |                   |
+[string.join " "]   [string.join "*"]   [string.join "-"]
+|                   |                   |
+[ui.dt]             [ui.dt]             [ui.dt]
+
+
+/*Pd symbol split*/
+
+[symbol A/B/C(
+|
+[string.split / @sym]
+|
+[unpack s s s ]
+|     ^|    ^^|
+[S]   [S]   [S]
+
+            

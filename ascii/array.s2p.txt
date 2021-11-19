@@ -1,0 +1,15 @@
+
+
+[HS min=0 max=100]       [array s2p size=100 w=200 h=130]
+|
+[F]
+|
+[array.s->p s2p]
+|
+[F]
+|
+[array.p->s s2p]
+|
+[F]
+
+            

@@ -1,0 +1,12 @@
+
+
+[F]    [S]    [list 1 2 9 10(
+|      |      |
+|  [B] |      | [a b c d(
+|  |   |      | |
+|  |   |      | |
+[flow.pass 1 10 100 a z]
+|
+[ui.display @display_type 1]
+
+            

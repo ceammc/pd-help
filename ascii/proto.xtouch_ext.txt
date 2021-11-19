@@ -1,0 +1,17 @@
+
+
+[midiin]   [S digits=25]         [r oxt]
+|          |                     |
+|          |                     [route fader0]
+|          |                     |
+| [r ixt]  [sym->any {i=1,o=1}]  [sync #a] [ui.knob #b]
+| |        |                     |
+[proto.xtouch_ext #z]            |
+|         ^| ^|                  |
+|          | [ui.dt]             [fader0 $1(
+|          |                     |
+[midiout]  [s oxt]               [s ixt]
+[X a:1->b]
+[X b->a:1]
+
+            

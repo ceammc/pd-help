@@ -1,0 +1,11 @@
+
+
+[bang(                [ui.menu float int hex]
+|                     |
+|  [symbol #FFAA77(   [@mode $2(
+|  |                  |
+[system.colorpanel  @f]
+|
+[ui.display]
+
+            

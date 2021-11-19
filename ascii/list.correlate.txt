@@ -1,0 +1,20 @@
+
+
+[1 2 3 1 2 3 1 2 3(
+|
+|        [ui.hrd 4]
+|        |.
+[list.>> 0]
+|
+[list.correlate 2 4 6]
+|
+[list.normalize @range]
+|
+[ui.sliders @auto_count 1 #x]
+
+
+
+
+/* ... */
+
+            

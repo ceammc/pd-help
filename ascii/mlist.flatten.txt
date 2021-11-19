@@ -1,0 +1,11 @@
+
+
+[\(\(\) 1 2 \(3 \(4 5\)\) \(\(\(\(6\)\)\)\) 7\), bang(
+|
+[mlist]
+|
+[mlist.flatten]
+|
+[ui.display @display_type 1]
+
+            

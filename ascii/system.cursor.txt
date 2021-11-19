@@ -1,0 +1,19 @@
+
+
+[T]          [T]            [T]
+|            |              |
+|  [bang(    [@relative $1( [@norm $1(
+|  |         |              |
+|  |         |              |
+|  |         |              |
+[system.cursor              ]
+|
+[route motion mousewheel button]
+|        ^|   ^^|
+|        [F]   [route 1 2 3]
+|              |   ^|   ^^|
+|              [T] [T]  [T]
+|
+[ui.dt]
+
+            

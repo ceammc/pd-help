@@ -1,0 +1,19 @@
+
+
+[T]
+|
+[metro.random 500 1000]
+|
+[random.f 0.1 1]
+|
+| [F]        [ui.hsl @max 10 @show_value 1]
+| |          |
+| [@freq $1( [@pfreq $1(
+| |          |
+[synth.risset_bell~]
+|
+[ui.hgain~]    [ui.dsp~]
+|\
+[dac~]
+
+            

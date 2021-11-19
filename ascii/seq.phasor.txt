@@ -1,0 +1,19 @@
+
+
+[T]       [ui.dsp~]    [ui.knob @min 0.2 @max 2]
+|                      |
+|                      |
+[metro 250]            [@freq $1( [@invert !( [T]
+|                      |          |           |
+[click~]               [seq.phasor 0.2 @on 1  ]
+|                      |
+[flt.resonbp~ 1000 40] [l->l 0 1 -1 1 #a]
+|                      |
+[pan.cos~ {w=20} #b]   [ui.knob @min -1 @max 1]
+*|*
+[ui.hgain2~ @size 16 143]
+*|*
+[dac~]
+[X a->b:1]
+
+            

@@ -1,0 +1,14 @@
+
+
+/*Note: @mouse_events property is *on**/
+
+[loadmsg 0.5]
+|
+[ui.k #a] X [spring 0.5 1000 @accel 2 #b]
+            |                 ^|
+            [F]               [B]
+
+[X b->a]
+# a @mouse_events 1 @show_value 1
+
+            

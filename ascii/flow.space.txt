@@ -1,0 +1,25 @@
+
+
+[7, 2, 1, 2, 0, 2, 1, 2 #a( [reset(
+|                           |.
+[flow.space 110            #b]
+|
+[degree->key minor {i=1,o=1}]
+|
+[+ 60]
+|
+[mtof  ]
+|      |
+[osc~] [b]
+|      |
+[env.ar~ 10 90]
+|
+[ui.hgain~]    [ui.dsp~]
+|\
+[dac~]
+
+[flow.space.done]
+
+[X b:1->a]
+
+            

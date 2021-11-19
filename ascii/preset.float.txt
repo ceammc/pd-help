@@ -1,0 +1,14 @@
+
+
+/* change value */
+
+[F] X [preset.float f1]
+
+
+[ui.hsl]
+|
+[interp $1( /*interpolate between first and second preset*/
+|
+[ui.preset] /*Shift+click to store preset*/
+
+            

@@ -1,0 +1,25 @@
+
+
+[T]           [ui.dsp~]
+|
+[metro 100]
+|
+[list Bb3 C4 F4 G4 C6 E##7 R R R R(
+|
+[list.choice]
+|
+[pitch->midi]
+|
+[t f f  ]
+|      ^|
+[mtof] [!= -1]
+|      |
+[osc~] [lop~ 30]
+|      |.
+[*~     ]
+|
+[ui.hgain~]
+|\
+[dac~]
+
+            

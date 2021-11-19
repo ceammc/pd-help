@@ -1,0 +1,13 @@
+
+
+[20 80(      [60 90(
+|            |
+| [@range?(  | [@low?( [@high?(
+| |          | |       |
+| |          | |       |
+| |          | |       |
+[ui.rslider  @min 0 @max 100]
+|
+[ui.display @display_type 1]
+
+            

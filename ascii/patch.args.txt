@@ -1,0 +1,15 @@
+
+
+[B]
+|
+[patch.args.ex1 1 2 3 4 5]
+|
+[ui.dt]
+
+[B] /*@from 2*/
+|
+[patch.args.ex2 1 2 3 4 5]
+|
+[ui.dt]
+
+            

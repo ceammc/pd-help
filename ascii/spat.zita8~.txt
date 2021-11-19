@@ -1,0 +1,25 @@
+
+
+[open #msg(                    [ui.polar @positive 1 @clockwise 1]
+|                                     |
+[expand_env #a]                       |
+|                                     |
+[readsf~ #b]                          |
+|                                     |
+|                                     |
+|                                     |
+| [osc~ 1000]                  [list.apply_to 1 #d]X[/ 360]
+| |                                   |
+| [env.ar~ 20 100] [ui.dt #e]  [@radius $1, @angle $2(
+| |                                   |
+| |                                   |
+| |                                   |
+[spat.zita8~                 {w=25} #z ]
+*|*
+[dac~ 1 2 3 4 5 6 7 8 {w=25}]  [ui.dsp~]
+
+[X d->e]
+#msg %CEAMMC%/sound/vln-pizz-a4.aiff, 1
+#z @radius 0
+
+            

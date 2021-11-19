@@ -1,0 +1,18 @@
+
+
+[symbol HOME(
+|
+[system.getenv] [/dir/path( [./test( [/root(   [/(
+|               |           |        |         |
+|               |           |        |         |
+|               [symbol                        ]
+|               |
+|               |     [.(  [..( [C://file.txt(
+|               |     |    |    |
+|               |     [symbol   ]
+|               |     |
+[path.dirname         ]
+|
+[ui.dt]
+
+            

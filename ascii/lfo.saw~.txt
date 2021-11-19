@@ -1,0 +1,15 @@
+
+
+[osc.saw~ 100]
+|
+[ui.gain~ @size 120 14] [T]          [T]
+|                       |            |
+|              [F]      [@invert $1( [@pause $1(
+|              |        |            |
+|              [lfo.saw~ 1           ]
+|          .___/
+[pan.linsig~]    [ui.dsp~]
+|  ^|.
+[dac~]
+
+            

@@ -1,0 +1,12 @@
+
+
+[F]
+|
+|                 [ui.radio @nitems 4]
+|                 |
+|                 |.
+[flow.demultiplex 4]
+|   ^|   ^^|   ^^^|
+[F]  [F]   [F]   [F]
+
+            

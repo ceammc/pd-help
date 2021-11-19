@@ -1,0 +1,9 @@
+
+
+[B]
+|
+[system.hostname]
+|
+[S digits=20]
+
+            

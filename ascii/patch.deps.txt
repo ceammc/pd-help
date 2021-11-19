@@ -1,0 +1,9 @@
+
+
+[bang(
+|
+[patch.deps]
+|
+[print DEPS]
+
+            

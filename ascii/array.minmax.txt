@@ -1,0 +1,15 @@
+
+
+[B]                            [array amm size=100 w=180 h=130]
+|
+[array.minmax amm]
+|              ^|
+[ui.d #a]      [ui.d #b]
+
+[loadmsg sinesum 100 0.2 0.3]
+|
+[s amm]
+#a @float_width 3 @auto_size 0 @size 100 20
+#b @auto_size 0 @size 100 20
+
+            

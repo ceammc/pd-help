@@ -1,0 +1,8 @@
+
+
+[phasor~ 0.1]  [ui.dsp~]
+|
+|
+[ui.number~]
+
+            

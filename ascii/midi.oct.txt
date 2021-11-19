@@ -1,0 +1,19 @@
+
+
+[T]
+|
+[metro 350] [ui.tab transpose set] [-2 2( [3 8( [0 0(
+|           |                      |      |     |
+[60 80 300( [@mode $2(             [@random $1 $2(
+|           |                      |
+|           |                      | [F]
+|           |                      | |.
+[midi.oct    3   {w=40}               ]
+|  |
+|  [ui.dt]
+|
+[makenote]
+*|*
+[midiout]
+
+            

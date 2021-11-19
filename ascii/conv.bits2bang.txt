@@ -1,0 +1,40 @@
+
+
+[random(
+|
+[ui.hrd* @nitems 4]
+|
+[bits->bang 4 #x]
+
+[osc~ 400]   [osc~ 800]   [osc~ 1200]  [osc~ 1600]
+|            |            |            |
+[env.ar~ #a] [env.ar~ #b] [env.ar~ #c] [env.ar~ #d]
+|            |.           |..          |...
+[pan.spread~ 4 {w=54}                      ]
+*|*
+[ui.hgain2~]
+*|*
+[dac~]
+
+/*Poly version*/
+
+[ui.hrd* 4]
+|
+[bits->bang @poly]
+|
+[clone conv.bits2bang.osc~ 4 400 800 1200 1600 {i=1,o=1}]
+|
+[ui.hgain~]
+|\
+[dac~]
+
+[X x:0->a]
+[X x:1->b]
+[X x:2->c]
+[X x:3->d]
+#a 50 500
+#b 50 500
+#c 50 500
+#d 50 500
+
+            

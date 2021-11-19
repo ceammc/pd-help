@@ -1,0 +1,15 @@
+
+
+[list C|4 D R Eb F# G\(-25c) A|8(
+|
+|
+|
+[music.v->m]
+|
+[ui.dt]
+
+[music.voice2midi.notes] [music.voice2midi.oct]   [music.voice2midi.dur]
+
+[music.voice2midi.alt]   [music.voice2midi.micro]
+
+            

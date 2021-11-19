@@ -1,0 +1,15 @@
+
+
+[phasor~ 0.5]      [phasor~ 0.5]     [lfo.tri~ 0.5]
+|                  |                 |
+[s->f~]            [*~ -1]           [s->f~]
+|                  |                 |
+[F]                [s->f~]           [F]
+|                  |                 |
+[edge->bang @down] [F]               [edge->bang @both]
+|                  |                 |
+[B]                [edge->bang @up]  [B]
+                   |
+[ui.dsp~]          [B]
+
+            

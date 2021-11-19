@@ -1,0 +1,21 @@
+
+
+[B]                             [A distrib yr=0..1 size=20]
+|
+[t b b]
+^|  |
+ |  [normalize(
+ |  |
+ |  [s distrib]
+ |
+[list.gen 1000] X [random.int 0 20]
+|
+[list.distribution @normalize 1]
+|
+[list.repack 2]
+|
+[swap  ]
+|   ^|.
+[tabwrite distrib]
+
+            

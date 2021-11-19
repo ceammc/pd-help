@@ -1,0 +1,21 @@
+
+
+[F]              [bang #a(
+|
+[* 0.001]
+|
+[@rate $1 #b(
+
+[synth.risset_tone~ 60 -0.005 #x ]
+|
+| [synth.risset_tone~ 56 -0.005 #y]
+| |
+| | [synth.risset_tone~ 53 -0.005 #z]
+| | |
+[ui.hgain~]      [ui.dsp~]
+| \
+[dac~]
+[X a->x] [X a->y] [X a->z]
+[X b->x] [X b->y] [X b->z]
+
+            

@@ -1,0 +1,11 @@
+
+
+[B]                            [array array1 size=100 w=130 h=100]
+|
+[array.each array1]X[sin]
+|
+[normalize(
+|
+[s array1]
+
+            

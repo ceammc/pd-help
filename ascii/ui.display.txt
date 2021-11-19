@@ -1,0 +1,21 @@
+
+
+
+[list a b c( [1( [symbol X( [any msg( [bang(
+|            |   |          |         |
+|            |   |          |         |
+|            |   |          |         |
+[ui.display                           ]
+
+
+/* display message type */
+
+[list a b c( [1( [symbol X( [any msg( [bang(
+|            |   |          |         |
+|            |   |          |         |
+|            |   |          |         |
+[ui.dt                                ]
+
+
+
+            

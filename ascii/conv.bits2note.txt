@@ -1,0 +1,26 @@
+
+
+[bang(
+|
+[ui.hrd* 4]  [ui.tab tie off raw]
+|            |
+|            [@mode $2(
+|            |
+[bits->note 60 70 80 90 @vel 100]
+|         ^|        ^^|       ^^^|
+[ui.d #a] [ui.d #a] [ui.d #a] [ui.d #a]
+
+
+[bang(
+|
+[ui.hrd* 4]  [ui.tab tie off raw]
+|            |
+|            [@mode $2(
+|            |
+[bits->note 60 70 80 90 @vel 100 @poly]
+|
+[ui.dt]
+
+#a @auto_size 0 @size 50 18
+
+            

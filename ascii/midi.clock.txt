@@ -1,0 +1,13 @@
+
+
+[midi.clock 8] /*bang every eight note*/
+|        ^|
+[click~]  [F]              [T]    [F] /*24 pulses per quoter note*/
+|                          |      |.
+[flt.resonbp~ 1440 40]     [metro 10]
+|                          |
+[ui.hgain~]                [\\\; \#midirealtimein 1 248(  [ui.dsp~]
+|\
+[dac~]
+
+            

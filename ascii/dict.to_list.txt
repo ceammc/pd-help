@@ -1,0 +1,11 @@
+
+
+[\[a: b c: d e f\], bang(
+|
+[data.dict]
+|
+[dict->list]
+|
+[ui.d]
+
+            

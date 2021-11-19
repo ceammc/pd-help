@@ -1,0 +1,15 @@
+
+
+            [1(
+            |
+[osc~ 500]  [msg.after 500 0]
+|           |
+|           [@gate $1(
+|           |
+[env.adsr~ 20 100 30 500]
+|
+[ui.gain~ @size 120 14] [ui.dsp~]
+|\
+[dac~]
+
+            

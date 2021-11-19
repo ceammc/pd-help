@@ -1,0 +1,11 @@
+
+
+[lfo.saw~ 0.1]  [ui.dsp~]
+|
+[phase->rad~]
+|
+[rad->phase~]
+|
+[ui.scope~]
+
+            

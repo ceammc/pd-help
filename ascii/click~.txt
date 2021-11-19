@@ -1,0 +1,17 @@
+
+
+[T]           [ui.dsp~]
+|
+[metro 300]
+|
+[ui.b]
+|
+[click~     ]
+|
+[flt.resonbp~ 1000]
+|
+[ui.hgain~]
+|\    
+[dac~]
+
+            

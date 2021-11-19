@@ -1,0 +1,13 @@
+
+
+[list a b c(  [set 3 2 1(
+|             |
+|  [1 2 3(    |            [bng]
+|  |          |            |
+[local.list id]            [local.list id]
+|                          |
+[ui.dt]                    [ui.dt]
+
+[local.list.nonlocal]
+
+            

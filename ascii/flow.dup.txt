@@ -1,0 +1,17 @@
+
+
+[B] [F #a] [symbol ABC #b( [1 2 3 #c( [@prop 4 5 6 #d(
+|
+|
+|
+|      [F]
+|      |.
+[flow.dup 2 #z]
+|
+[print DUP]
+[X a->z]
+[X b->z]
+[X c->z]
+[X d->z]
+
+            

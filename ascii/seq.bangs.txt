@@ -1,0 +1,18 @@
+
+
+[B]     [stop(  [reset(
+|       |       |
+|       |       |
+[seq.bangs 3 1 2 1 1 @t 480bpm @r 4]
+|                          ^|
+|                          [route done i ed ri {w=21}]
+|                          |    ^|  ^^|  ^^^|
+[click~]                   [B]  [F]  [F]  [F]
+|
+[flt.resonbp~ 1000 40]     [ui.dsp~]
+|
+[ui.hgain~]
+|\
+[dac~]
+
+            

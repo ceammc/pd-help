@@ -1,0 +1,19 @@
+
+
+[B]
+|
+[prop.random @feedback]
+|              ^|
+| [sig~ 50]    [F]
+| |
+[osc.sinfb~]   [ui.dsp~]
+|
+[ui.hgain~]
+|\
+[dac~]
+
+[prop.random.1]   [prop.random.2]
+
+[prop.random.3]
+
+            

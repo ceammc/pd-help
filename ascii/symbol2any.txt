@@ -1,0 +1,11 @@
+
+
+/* enter some words separated by spaces */
+
+[S digits=40]
+|
+[sym->any]
+|
+[ui.dt]
+
+            

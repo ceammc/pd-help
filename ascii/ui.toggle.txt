@@ -1,0 +1,14 @@
+
+
+                  [T]
+                  |
+[B] [0( [1( [-1(  [set $1(
+|   |   |   |     |
+|   |   |   |     |
+[ui.toggle @size=40x40]  [ui.t @on_value 90 @off_value -90]
+|                        |
+|                        [F] /*other on/off values*/
+|
+[ui.display]
+
+            

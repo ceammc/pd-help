@@ -1,0 +1,13 @@
+
+
+[1(  [9(
+|    |
+[F                      ]
+|                       |
+[midi.prg->str @symbol] [midi.prg->str @symbol @family]
+|                       |
+[msg set]               [msg set]
+|                       |
+[ (                     [ (
+
+            

@@ -1,0 +1,11 @@
+
+
+              [tl.cue]           [tl.cue]
+
+[HR number=3]    [tl.toggle]              [tl.toggle]
+|                |                        |
+[cue $1(         [T]                      [T]
+|
+[tl.transport]
+
+            

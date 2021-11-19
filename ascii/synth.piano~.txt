@@ -1,0 +1,23 @@
+
+
+[T]
+|.
+[midi.kbd qwerty 0]
+|
+[ui.hk]
+|
+|
+|
+|
+|
+[poly 6 {i=1,o=3}]
+*|*
+[pack f f f {i=3,o=1}]
+|
+[clone 7 poly.obj synth.piano~ {i=1,o=1}]
+|
+[ui.hgain~]
+|\
+[dac~]
+
+            

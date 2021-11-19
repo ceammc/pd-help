@@ -1,0 +1,11 @@
+
+
+[F]
+|
+[$1, bang( [clear( [@size?(
+|          |       |
+[data.set          ]
+|
+[ui.dt]
+
+            

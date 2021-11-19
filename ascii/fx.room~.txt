@@ -1,0 +1,21 @@
+
+
+[T]
+|
+[metro 250]
+|
+[60(
+|
+[makenote 127 100]
+*|*
+[pack f f]        [ui.hsl 0 3 @show_value 1]
+|                 |
+[synth.eguitar~]  [@size $1(
+|                 |
+[fx.room~         ]
+|
+[ui.hgain~]     [ui.dsp~]
+|\
+[dac~]
+
+            

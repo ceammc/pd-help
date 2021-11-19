@@ -1,0 +1,30 @@
+
+
+/*start mpv player*/
+
+[list mpv --player-operation-mode=pseudo-gui --input-ipc-server=/tmp/mpvsocket --pause --no-audio --idle --no-osc(
+|
+|
+|
+[system.exec]
+
+/*choose video file or image*/
+
+[bng]
+|
+[openpanel] [T]        [quit #a( [text 3000 A simple OSD title #c(
+|           |
+[load $1(   [pause $1( [stop(    [play #b(             [T]
+|           |          |                               |
+|           |          |  [seek 10 rel( [seek -10 rel( [fullscreen $1 #d(
+|           |          |  |             |
+[proto.mpv /tmp/mpvsocket             #x]
+|
+[print]
+
+[X a->x]
+[X b->x]
+[X c->x]
+[X d->x]
+
+            

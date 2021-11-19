@@ -1,0 +1,15 @@
+
+
+[@name?(   [@dir?(    [@width?(
+|          |          |
+| [@root?( | [@args?( | [@abstraction?(
+| |        | |        | |
+| |  [@x?( | | [@y?(  | | [@height?(
+| |  |     | | |      | | |
+| |  | [B] | | |      | | |
+| |  | |   | | |      | | |
+[canvas.current           ]
+|
+[ui.display @display_type 1]
+
+            

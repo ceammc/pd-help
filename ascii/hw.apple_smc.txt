@@ -1,0 +1,17 @@
+
+
+[TC0P(/*cpu temp*/
+|
+[symbol]
+|
+[S digits=10] [@keys?(
+|             |
+[read $1(     |
+|             |
+[hw.apple_smc ]
+|
+[@->    ]
+|      ^|
+[F]    [print]
+
+            

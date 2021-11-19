@@ -1,0 +1,13 @@
+
+
+[bang( [1024( [symbol ABC( [1 2 3( [@any message(
+|      |      |            |       |
+|      |      |            |       |   [bang( [clear(
+|      |      |            |       |   |.     |.
+[flow.stack                              {w=53}]
+|
+[print STACK]
+
+[flow.stack.1]
+
+            

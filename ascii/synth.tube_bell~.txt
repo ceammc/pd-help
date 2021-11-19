@@ -1,0 +1,23 @@
+
+
+[ui.keyboard]
+|
+|
+|
+|
+|
+[list.apply_to 1]X[> 0]
+|
+[@pitch $1, @gate $2(
+|
+|  [F]        [F]
+|  |          |
+|  [@mod $1(  [@xfade $1(
+|  |          |
+[synth.tube_bell~ #x]
+|
+[ui.hgain~]   [ui.dsp~]
+|\
+[dac~]
+
+            

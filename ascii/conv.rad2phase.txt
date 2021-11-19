@@ -1,0 +1,15 @@
+
+
+[ui.hsl @min 0 @max 7]
+|
+[rad->phase]
+|
+[ui.knob]
+|
+|
+|
+[phase->rad]
+|
+[F]
+
+            

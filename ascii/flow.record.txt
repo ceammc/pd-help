@@ -1,0 +1,26 @@
+
+
+[ui.keyboard]
+|
+|
+|
+|
+|     [stop( [play( [clear(
+|     |.     |.     |.
+[flow.record @auto 1 ]
+|
+[msg note]
+|
+| [notesoff(
+| |
+[fluid~]          [ui.dsp~]
+*|*
+[ui.hgain2~]
+*|*
+[dac~]
+
+[flow.record.speed]    [flow.record.qlist]
+
+[flow.record.sync]
+
+            

@@ -1,0 +1,31 @@
+
+
+[open 0( [open 1( [open 2(     [@*?, @index? @order? @total? @hdegree? @horder? #a(
+|        |        |
+|        |        |              [@freq?, \#1 @freq 1000, @freq? #b(
+|        |        |
+|        |        |                [\#0 @freq 740, \#2 @freq 300 #c(
+|        |        |
+|        |        |                  [\#0 @freq 200, \#1 @freq 600, \#2 @freq 500 #d(
+|        |        |
+|        |        |                          [3(
+|        |        |                          |
+|        |        |                          [list.gen] X [random.int 100 1000]
+|        |        |                          |
+|        |        |   /*click me*/           [list.do #e] [\#$2 @freq $1 #x(
+|        |        |                                       |.
+[hoa.process~ 3 hoa/hoa_prop_example1 planewaves "@freq" 250 {w=60,i=2,o=4} #z]
+| ^| ^^|                                   ^^^|
+|  |   |                                      |
+|  |   |                                      |
+[ui.hgain~]   [ui.dsp~]                     [print]
+|\
+[dac~]
+
+[X a->z:1]
+[X b->z:1]
+[X c->z:1]
+[X d->z:1]
+[X e:1->x]
+
+            

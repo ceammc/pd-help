@@ -1,0 +1,19 @@
+
+
+[open %CEAMMC%/guitar1.wav, 1(
+|
+[expand_env] [ui.knob @min 1 @max 10]
+|            |
+|            |
+|            |
+[readsf~]    [@drive $1(
+|            |
+|            |
+|            |
+[fx.drive~   ]
+|
+[ui.gain~ @size 120 14] [ui.dsp~]
+|\
+[dac~]
+
+            

@@ -1,0 +1,26 @@
+
+
+/*use [ui.hgain~] to create horizontal control]*/
+
+[ui.hgain~]
+
+[osc~ 440]
+|
+|  [@db -30( [@amp 0.25( [- 3( [+ 3( [++( [--(
+|  |         |           |     |     |    |
+|  | [bang(  |           |     |     |    |
+|  | |       |           |     |     |    |
+[ui.gain~                  @output_value 1]
+|
+|    [ui.dsp~]
+|
+|
+|
+|
+|
+|
+[~->     ]
+|       ^|
+[dac~]  [ui.display @display_type 1]
+
+            

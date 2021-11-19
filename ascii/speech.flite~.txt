@@ -1,0 +1,19 @@
+
+
+[T]
+|
+[metro 1000]  [ui.menu kal16 slt rms awb] [ui.knob @min 1 @max 4]
+|             |                           |
+[flow.count]  [@voice $2( [F]             |
+|             |           |               |
+|             |           [@pitch $1(     [@speed $1(
+|             |           |               |
+[speech.flite~                            ]
+|        ^|
+|        [ui.dt]
+|
+[ui.gain~ @size 120 16]   [ui.dsp~]
+|\
+[dac~]
+
+            

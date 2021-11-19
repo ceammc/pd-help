@@ -1,0 +1,30 @@
+
+
+[symbol #s(           [B] [array AONSET w=380 h=100]
+|                     |
+[expand_env]  [openpanel]
+|             |
+[load $1 to AONSET @resize(
+|
+[snd.file]
+|
+[b] [shuffle, bang #r(    [$1 #m(
+|                         |
+[an.onset #a]  [T] [F #f] [array.s->p AONSET]
+|              |   |.     |
+[data.list #l] [metro 70] [ui.hsl @size 16 380]
+|              |
+[list.walk @fold]         [r off            #r1][F]
+|                         |                 |     |
+[pack f f  #p]            [tabplay~ AONSET] [b] [@release $1 #ar(
+|                         |                 |   |
+[ms->samp]                [env.ar~ 10 500       ]
+|                         |
+[s off]                   [ui.hgain~]
+                          |\
+[ui.dsp~]                 [dac~]
+[X f->p:1] [X r->l] [X f->ar] [X r1->m]
+#a AONSET
+#s %DOC%/sound/voice.wav
+
+            

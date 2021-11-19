@@ -1,0 +1,29 @@
+
+
+[array ahist size=512 w=330 h=100] [ui.sliders #sl]
+
+
+
+
+
+
+
+[loadbang]
+|
+[uniform -1 -0.2( [gauss 0.5 0.2( [sin 50 0.6( [fill 0(
+|                 |               |            |
+|                 |               |            |
+|                 |               |            |
+[array.fill ahist                              ]
+
+[B]
+|
+[array.hist ahist 100]
+|
+[list.reverse]
+|
+[s ahist-r]
+
+#sl @size 40 100 @receive ahist-r @auto_count 1 @auto_range_mode max
+
+            

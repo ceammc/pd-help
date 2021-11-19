@@ -1,0 +1,22 @@
+
+
+[fill 80 @l 300ms @at rand\()*1s @at ondone +=100ms @pan ondone rand\() @s ondone choice\(1\,-0.5) @tb rand\()*400ms @w hann(
+|
+|
+|
+|
+| [clear(
+| |
+[array.grainer~ agr0]  [ui.dsp~]
+*|*
+[ui.hgain2~]
+*|*
+[dac~]
+
+[table agr0]
+
+[msg.onload load guitar1.wav to agr0 @resize]
+|
+[snd.file]
+
+            

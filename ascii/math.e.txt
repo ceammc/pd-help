@@ -1,0 +1,9 @@
+
+
+[B]
+|
+[math.e]
+|
+[floatatom digits=10]
+
+            

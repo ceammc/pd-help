@@ -1,0 +1,17 @@
+
+
+[osc~ 440]  [floatatom]
+|           |.
+[*~           ]
+| |         |
+| |         [env~]
+| |         |
+| |         [floatatom]
+| |.
+[dyn.limit2~   ]
+|             ^|
+[env~]        [env~]
+|             |
+[floatatom]   [floatatom]
+
+            

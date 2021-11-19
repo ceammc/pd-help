@@ -1,0 +1,24 @@
+
+
+[4 2( [14 9(  [S digits=16]
+|     |       |
+|     |       [sym->any]
+|     |       |
+[math.binomial]
+|
+[ui.dt]
+
+
+/*Pascal triangle. See Pd console output*/
+
+[10(
+|
+[list.seq]
+|
+[list.sep]
+|
+[math.binomial]
+|
+[print]
+
+            

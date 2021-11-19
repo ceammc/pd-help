@@ -1,0 +1,27 @@
+
+
+[ui.keyboard]
+|
+|
+|
+|
+|            [hradio]
+|            |
+[msg note 1] [prog 1 $1(
+|            |
+| [dump(     |
+| |          | [@sf sf2/VintageDreamsWaves-v2.sf2(
+| |          | |
+[fluid~        ]
+| ^|
+[ui.hgain~]    [ui.dsp~]
+| \
+[dac~]
+
+[fluid~.bend]   [fluid~.tune]    [fluid~.pan]  [fluid~.bank]
+
+[fluid~.midi]   [fluid~.tune-12] [fluid~.prog] [fluid~.notesoff]
+
+[fluid~.pedals] [fluid~.soundsoff]
+
+            

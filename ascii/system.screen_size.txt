@@ -1,0 +1,12 @@
+
+
+
+[bng]
+|
+[system.screen_size]
+|
+|
+[ui.display]
+
+
+            

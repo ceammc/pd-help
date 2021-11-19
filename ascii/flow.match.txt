@@ -1,0 +1,19 @@
+
+
+[amp2( [amp3( [freq0( [freq1( [unmatched(     [F]
+|      |      |       |       |               |
+|      |      |       |       |               [@prop $1(
+|      |      |       |       |               |
+[symbol                       ]               [flow.match "@p.+"]
+|                                             |
+[S digits=16] [freq3 X( [amp4 Y(              [ui.dt]
+|             |         |
+|             |         |
+[flow.match freq`d amp`d]
+|          ^|        ^^|
+|           |          |
+[ui.dt]     [ui.dt]    [ui.dt]
+
+[flow.match.syntax]
+
+            

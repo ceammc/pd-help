@@ -1,0 +1,13 @@
+
+
+[bng]
+|
+[system.memused]
+|
+|            /* in Kbytes */
+[/ 1024               ]
+|                     |
+[floatatom digits=12] [floatatom digits=12]
+
+                
+            

@@ -1,0 +1,23 @@
+
+
+/*[ui.label test label]*/
+
+[ui.label test label @receive lbl1]
+
+
+
+[ui.label test label @align center @background_color 0.8 0.9 0.4 1 @receive lbl1]
+
+
+
+[ui.label test label @align right @receive lbl1 @background_color 0.4 0.9 0.8 1]
+
+
+
+
+[1( [F]   [a b c( [S]     [append A(  [prepend C(
+|   |     |       |       |           |
+|   |     |       |       |           |
+[s lbl1                               ]
+
+            

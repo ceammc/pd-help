@@ -1,0 +1,11 @@
+
+
+[symbol is_file-help.pd(
+|
+|   [symbol not-exists(
+|   |
+[is_file]
+|
+[_]
+
+            

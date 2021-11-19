@@ -1,0 +1,11 @@
+
+
+[symbol /path/to/the/file.txt(
+|
+[path.split]
+|        ^|
+|        [ui.dt]
+|
+[ui.dt]
+
+            

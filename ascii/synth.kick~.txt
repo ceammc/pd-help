@@ -1,0 +1,18 @@
+
+
+[T]                 [ui.k #a]  [ui.k #b]
+|                   |          |
+[metro 100]         |          |
+|                   |          |
+[random.f 0.3 0.95] [@freq $1( [@attack $1(
+|                   |          |
+[synth.kick~                   ]
+|
+[ui.hgain~]     [ui.dsp~]
+| \
+[dac~]
+
+#a 20 2000 @show_value 1
+#b 1 50 @show_value 1
+
+            

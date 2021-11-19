@@ -1,0 +1,24 @@
+
+
+[ui.keyboard]
+|
+|
+|
+|
+|            [T]        [F]
+|            |          |
+[stripnote]  [metro 65] [prop.set @ttl]
+|            |.         |.
+[flow.mem          @ttl 4]
+|
+[flow.mem.osc~]
+|
+[pan~ {i=1,o=2}]
+*|*
+[ui.hgain2~]        [ui.dsp~]
+*|*
+[dac~]
+
+[flow.mem.more]
+
+            

@@ -1,0 +1,14 @@
+
+
+[bng]
+|
+[system.memsize]
+|
+[/ 1024]
+|
+[/ 1024] /* in Mbytes */
+|
+[floatatom digits=12]
+
+                
+            

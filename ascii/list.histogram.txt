@@ -1,0 +1,17 @@
+
+
+[B]                                [A array1 yr=0..1]
+|
+[list.gen 512]X[random.gauss 50 10]
+|
+[list.histogram]
+|
+[list.normalize @range]
+|
+[list.enumerate @append]
+|
+[list.repack 2]
+|
+[tabwrite array1]
+
+            

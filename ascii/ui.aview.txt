@@ -1,0 +1,43 @@
+
+
+[loadbang] [table array_view]
+|
+[load %DOC%/sound/voice.wav @to array_view @resize(
+|
+[expand_env]
+|
+[snd.file]
+|
+[update(  /*Ctrl+drag - select region to play*/
+|
+[ui.aview @array=array_view @show_labels=1 @size=300x80]
+|
+|
+|
+|
+|
+[ui.mf @up]
+|
+[route @select_samp]
+|
+[flow.change #a]        [loadbang]
+|                       |
+[expr $f1\; $f2 - $f1]  [1(
+|           ^|          |
+|    [b #b]  |          [F]    /*speed*/
+|    |       |.         |
+|    [loop~             ]
+|    |  ^|.
+|    [*~  ]
+|    |.
+[+~   ]
+|
+[tabread4~ array_view]
+|
+[ui.gain~ @size 120 16]  [ui.dsp~]
+|\
+[dac~]
+
+[X a->b]
+
+            

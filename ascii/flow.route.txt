@@ -1,0 +1,35 @@
+
+
+[list a b c #k(
+
+[a b c #l(
+
+[list d e f #m(
+
+[d e f #n(
+
+[100 200 300 #o(
+
+[400 500 600 #p(  [unmatched(
+                  |
+[flow.route a *d 100 *400 #a {w=40}]
+|
+[ui.d @display_type 1] [ui.d @display_type 1 #d]
+
+       [ui.d @display_type 1 #b]  [ui.d @display_type 1 #e]
+
+              [ui.d @display_type 1 #c]
+
+[flow.route.data]
+[X a:1->b]
+[X a:2->c]
+[X a:3->d]
+[X a:4->e]
+[X k->a]
+[X l->a]
+[X m->a]
+[X n->a]
+[X o->a]
+[X p->a]
+
+            

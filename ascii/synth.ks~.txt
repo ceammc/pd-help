@@ -1,0 +1,26 @@
+
+
+[T]                  [ui.dsp~]
+|
+[metro 130]
+|
+[0 12 0 36 7 12(
+|
+[list.choice]        [ui.knob]    [ui.knob]     [ui.knob]
+|                    |            |             |
+[+ 36]               |            |             |
+|                    |            |             |
+[makenote 127 100]   [@pos $1 #b( [@mute $1 #c( [@sharp $1 #e(
+*|*
+[pack f f]           [T]          [F]
+|                    |             |
+[msg note]           [@mode $1 #d([@freq $1 #f(
+|
+[synth.ks~ #a]
+|
+[ui.gain~ @size 120 16]
+|\
+[dac~]
+[X b->a] [X c->a] [X d->a] [X e->a] [X f->a]
+
+            

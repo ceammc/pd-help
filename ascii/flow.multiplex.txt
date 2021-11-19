@@ -1,0 +1,15 @@
+
+
+[hradio]             [flow.multiplex.bang]
+|
+[prop.set @index]    [flow.multiplex.list]
+|
+|                    [flow.multiplex.any]
+|
+| [F]  [F]  [F]  [F]  /*select*/
+| |    |.   |..  |...
+[flow.multiplex 3   ]
+|
+[F]
+
+            

@@ -1,0 +1,17 @@
+
+
+[osc~ 440]  [ui.dsp~]
+|
+|
+| [B] [symbol A( [list 1 2 3( [@p 1(
+| |   |          |            |
+| |   |          |            |
+[flow.tee~                    ]
+|      ^|
+|      [ui.dt]
+|
+[ui.hgain~]
+|\
+[dac~]
+
+            

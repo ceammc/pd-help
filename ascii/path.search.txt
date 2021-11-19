@@ -1,0 +1,19 @@
+
+
+[symbol loop_breakbeat.flac #a(             [path.search.std]
+
+[symbol guitar1.wav(                        [path.search.home]
+|
+|  [S digits=30]
+|  |
+|  |  [@paths sound(/*change search path*/
+|  |  |
+[path.search #z]
+|          ^|
+|          [not found(
+|          |
+[ui.dt @size 500 35 @auto_size 0]
+
+[X a->z]
+
+            

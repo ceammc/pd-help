@@ -1,0 +1,23 @@
+
+
+[1 2( [3 4(   [F]
+|     |       |.
+[list.contains 1]
+|
+[T]
+
+[\(A B C ABC\), bang(
+|
+[ml]
+|
+[list.contains A]
+|
+[T]
+
+[1 2 3 4 5( [0 1 2 3 4(
+|           |
+[flow.pass_if] X [list.contains 0]
+|
+[ui.display @display_type 1]
+
+            

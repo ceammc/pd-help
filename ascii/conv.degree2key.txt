@@ -1,0 +1,26 @@
+
+
+[bang(
+|
+[list.gen 11]X[random.i 0 7]
+|
+[degree->key @scale major]
+| |
+| [ui.dt]
+|
+|
+[msg @v]  [T]
+|         |
+[seq @t 120|4_bpm @inf]
+|
+[+ 72]
+|
+[mtof]
+|
+[osc~]          [ui.dsp~]
+|
+[ui.hgain~]
+|\
+[dac~]
+
+            

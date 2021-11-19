@@ -1,0 +1,14 @@
+
+
+[sig~ 0.25] [sig~ 0.5]   [ui.matrix @size 37 69 @cols 2 @rows 4]
+|           |            |
+|           |            |
+|           |.           |
+[matrix~ 2 4              ]
+|      ^|      ^^|     ^^^|
+|       |        |        |
+[env~] [env~]  [env~]  [env~] [ui.dsp~]
+|      |       |       |
+[F]    [F]     [F]     [F]
+
+            

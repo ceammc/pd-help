@@ -1,0 +1,15 @@
+
+
+[open %CEAMMC%/guitar1.wav, 1(
+|
+[expand_env]
+|
+[readsf~]
+|
+[fx.recho~ 1000 @drywet 0.3]
+|
+[ui.hgain~]     [ui.dsp~]
+|\
+[dac~]
+
+            

@@ -1,0 +1,9 @@
+
+
+[symbol ~( [symbol abc(
+|          |
+[path.is_dir]
+|
+[T]
+
+            

@@ -1,0 +1,11 @@
+
+
+[3 4 1 0 6(  [\(1 2 3 4 5\), bang(
+|            |
+|            [ml]
+|            |
+[list.sort_with] X [>]
+|
+[ui.display @display_type 1]
+
+            

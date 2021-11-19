@@ -1,0 +1,19 @@
+
+
+[noise~] [ui.tab lin log rad] [ui.tab lpf hpf bpf bpfq @size 160 15]
+|        |                    |
+|        [@scale $2(          [@type $2(
+|        |                    |
+[ui.filter~                   ]
+|
+|
+|
+|
+|
+|
+|
+[ui.hgain~]       [ui.dsp~]
+|\
+[dac~]
+
+            

@@ -1,0 +1,11 @@
+
+
+          [@pattern c(  [list a b c c(
+          |             |
+[1 2 3 1( | [F]         |
+|         | |.          |
+[list.count             a]
+|        |
+[F]      [print]
+
+            

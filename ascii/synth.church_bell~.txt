@@ -1,0 +1,36 @@
+
+
+[T]            [ui.dsp~]
+|
+[metro 250]
+|
+[@gate 1(
+|
+[msg.after 200 @gate 0]
+|
+[msg synth.church_bell]
+|
+[gsynth.church_bell~ {i=1,o=1}]
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+[ui.gain~ @size 120 16]
+|\
+[dac~]
+
+            

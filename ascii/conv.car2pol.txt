@@ -1,0 +1,15 @@
+
+
+[ui.slider2d]
+|
+|
+|
+|               [T]
+|               |
+|               [@positive $1(
+|               |
+[car->pol       ]
+|
+[ui.display @display_type 1]
+
+            

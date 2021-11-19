@@ -1,0 +1,53 @@
+
+
+[hoa/hoa.soundrone]     [phasor~ 0.15]   [ui.sliders #a]
+|                       |                |
+[ui.gain~ @size 120 14] [phase->rad~]    |
+|                       |.               |
+[hoa.encoder~ 5 {w=33,i=11,o=11}]        [msg \#: @db #b]/*spread*/
+*|*
+[hoa.process~ 11 hoa/hoa.fx.gain~ planewaves {w=35,i=12,o=11} #z]
+*|* *|*
+*|* *|*
+*|* *|*
+*|* [hoa.scope~ 5 @gain 4 {i=11} @size 164 164]
+*|*
+*|*
+*|*
+*|*
+*|*
+*|*
+*|*
+*|*
+*|*
+*|*
+*|*
+[hoa.recomposer~ 5 11 {w=35,i=11,o=11}]
+*|*
+[hoa.decoder~ 5 binaural @crop 32 {w=35,i=11,o=11}]
+*|*
+[dac~ {w=35}]
+
+/* multiple [osc~] */                 [hoa.process~.dsp]
+
+[60 90 2.1( [50 120 4.1(
+|           |
+[list.seq   ]
+|
+[list.each] X [mtof]
+|
+[msg \#:]
+|.
+[hoa.process~ 11 hoa/hoa.syn.osc~ planewaves {w=45,i=12,o=11}]
+*|*
+[pan.spread~ 11 {w=45,i=12,o=2}]
+*|*
+[ui.hgain2~ @size 15 318]
+*|*
+[dac~ {w=45}]
+
+[ui.dsp~]
+[X b->z:11]
+#a @count 11 @min -60 @max 0 @size 200 55
+
+            

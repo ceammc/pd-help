@@ -1,0 +1,16 @@
+
+
+[ui.keyboard]
+|
+|
+|
+|
+[note $1 $2( [dump(
+|            |
+[synth.rhodey~]
+|
+[ui.gain~ @size 120 16]  [ui.dsp~]
+| \
+[dac~]
+
+            

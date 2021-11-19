@@ -1,0 +1,29 @@
+
+
+[T]                                 [r~ logistic]
+|                                   |
+[metro.random 60 100]   [F]         [ui.scope~ @size=360x100]
+|                       |
+[3(          [reset(    [lambda $1(
+|            |          |
+[list.gen] X [chaos.logistic 0.777 3.97]
+|
+[l->l -1 1 20 600 @clip minmax]
+|
+[list.unpack 3           ]
+|             ^|       ^^|
+[sig~]        [* 400]  [/ 250]
+|             |        |
+|             [sig~]   [@res $1(
+|             |        |
+[osc~]        [lop~ 2] |
+|             |.       |
+[flt.moog_vcf~         ]
+|
+[clip~ -1 1    ]
+|              |
+[ui.hgain~]    [s~ logistic]         [ui.dsp~]
+| \
+[dac~]
+
+            

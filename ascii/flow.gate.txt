@@ -1,0 +1,11 @@
+
+
+[F]       [T] [T]
+|         |   |
+|         |   [prop.set @state]
+|         |.  |.
+[flow.gate 1   ]
+|
+[F]
+
+            

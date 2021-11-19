@@ -1,0 +1,11 @@
+
+
+[function f1-$0 #f1]X[expr sqrt($f1 * $f1 - 1) #e1]
+
+[F]
+|
+[func.call f1-$0]
+|
+[F]
+
+            

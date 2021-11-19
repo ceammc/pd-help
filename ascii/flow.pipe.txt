@@ -1,0 +1,22 @@
+
+
+[ui.keyboard]
+| |
+| |
+| |
+| |
+| [flow.pipe 1000]
+| |
+[poly 3    ]
+| ^|. ^^|..
+[pack f f f]
+|
+[clone -s 1 flow.pipe.osc~ 3 {i=1,o=1}]
+|
+[ui.hgain~]    [ui.dsp~]
+|\
+[dac~]
+
+[flow.pipe.superdirt]
+
+            

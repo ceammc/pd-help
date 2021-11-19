@@ -1,0 +1,15 @@
+
+
+[F] X [preset.float id1] [F] X [preset.float id2]
+
+[ui.radio]        [ui.radio]
+|                 |
+[load $1(         [store $1( [@keys?(
+|                 |          |
+|                 |          |
+|                 |          |
+[preset.storage              ]
+|
+[ui.dt]
+
+            

@@ -1,0 +1,13 @@
+
+
+                 [F]
+                 |
+    [pop(  [1 2( [resize $1(
+    |      |         |        [@size?( [@free?( [@filled?(
+[F] |  [B] | [clear( | [flush( |       |        |
+|   |  |   | |       | |       |       |        |
+[data.fifo                                     5]
+|                |
+[ui.dt]          [print]
+
+            

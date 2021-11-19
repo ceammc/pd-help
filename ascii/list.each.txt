@@ -1,0 +1,21 @@
+
+
+[1 2 3 4 5 6 7 8 9(   [1 2 3 4 5 6 7 8 9(
+|                     |
+[list.each] X [pow 2] [list.each 2] X [*]
+|                     |
+[ui.dt]               [ui.dt]
+
+/* more complex example: multiply by three element in list */
+
+[1 2 3 4 5 6 7 8 9(
+|
+|  [hradio]
+|  |
+|  [@step $1(
+|  |
+[list.each 3] X [list.reduce] X [*]
+|
+[ui.dt]
+
+            

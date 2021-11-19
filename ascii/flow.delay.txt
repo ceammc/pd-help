@@ -1,0 +1,35 @@
+
+
+[@freq 1000( [@freq 2000(
+|            |
+[t a         ]
+| |
+| [flow.del 100]
+| |
+[t b a     ]
+|         ^|
+[click~]   |
+|          |
+[flt.resonbp~]
+|
+[ui.hgain~]
+|\
+[dac~]
+
+[@msg 400( [300(  [0(/*change delay time*/
+|          |      |
+|          [prop.set @delay] [F] /* the same*/
+|          |                 |.
+[flow.delay 1000              ]
+|
+[ui.display @display_type 1]
+
+[1 2(/*zero time*/
+|
+[unpack f f]
+|   ^|  ^|
+|    |  [flow.del 0]
+|    |  |
+[print Z]
+
+            

@@ -1,0 +1,10 @@
+
+
+[message( [1( [symbol a( [list a b c(
+|         |   |        ___/
+[is_any                ]
+|     ^|
+[tgl]  [print passed]
+
+                
+            

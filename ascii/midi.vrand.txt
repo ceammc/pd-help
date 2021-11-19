@@ -1,0 +1,19 @@
+
+
+[T]
+|
+[metro 350]  [ui.tab uniform gauss linup lindown cmin cmax cmean @size 400 15]
+|            |
+[60 20 300(  [@dist $2(  [ui.tab assign add sub]
+|            |           |
+|            |           [@mode $2(
+|            |           |
+[midi.vrand 60 90        ]
+|  |
+|  [ui.dt]
+|
+[makenote]
+*|*
+[midiout]
+
+            

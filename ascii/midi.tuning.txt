@@ -1,0 +1,25 @@
+
+
+[ui.keyboard]
+|
+|
+|
+|
+|
+[midi.tuning just @base 0]
+|
+[unpack f f]
+|         ^|
+[mtof]   [sel 0   ]
+|        |       ^|
+[osc~]   [0 100( [1 20(
+|        |       |
+|        [line~  ]
+|        |.
+[*~       ]
+|
+[ui.hgain~]          [ui.dsp~]
+|\
+[dac~]
+
+            

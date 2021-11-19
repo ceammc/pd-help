@@ -1,0 +1,17 @@
+
+
+[0, 100 1000( [0, 100 200(
+|             |
+[line         ]
+|
+[t f f              ]
+^|                  |
+[flow.speedlim 100] [sel 100]
+|                   |
+|                   [flush(
+|                   |
+[flow.group  @by 100]
+|
+[ui.dt]
+
+            

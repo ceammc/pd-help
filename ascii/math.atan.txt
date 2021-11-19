@@ -1,0 +1,11 @@
+
+
+[bang(                 [array ATAN yr=-2..2 w=320]
+|
+[list.seq -4 4 0.025]
+|
+[math.atan]
+|
+[list->array ATAN]
+
+            

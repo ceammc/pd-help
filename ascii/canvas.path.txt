@@ -1,0 +1,9 @@
+
+
+[B]
+|
+[canvas.path] [B]
+|             |
+[ui.display   ]
+
+            

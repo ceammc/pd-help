@@ -1,0 +1,22 @@
+
+
+[ui.keyboard]
+|
+|
+|
+|
+[msg note]
+|
+[sfizz~ \#sine]
+*|*
+[ui.hgain2~]       [ui.dsp~]
+*|*
+[dac~]
+
+[sfizz~.freq]     [sfizz~.pan]     [sfizz~.pedals]
+
+[sfizz~.bend]     [sfizz~.tune-12] [sfizz~.soundsoff]
+
+[sfizz~.notesoff] [sfizz~.sfz]
+
+            

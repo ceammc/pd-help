@@ -1,0 +1,17 @@
+
+
+[open %CEAMMC%/guitar1.wav, 1(
+|
+[expand_env #a]
+|
+|         [T]          [phasor~ 3]
+|         |            |
+[readsf~] [@bypass $1( [l->l~ 0 1 -12 12]
+|         |            |.
+[fx.pitchshift_s~ @drywet 0.5]
+|
+[ui.gain~ @size 120 14] [ui.dsp~]
+|\
+[dac~]
+
+            

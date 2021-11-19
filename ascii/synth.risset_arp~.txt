@@ -1,0 +1,17 @@
+
+
+[r $0s]  [F]        [F]              [ui.sliders @size 150 80]
+|        |          |                |
+|        [@freq $1( [@detune $1(     |
+|        |          |                |
+[synth.risset_arp~  ]                |
+*|*                                  |
+[ui.hgain2~ @size]                   [list.enumerate @from 1]
+|                                    |
+[dac~ #b]                            [list.repack 2]
+                                     |
+[ui.dsp~]                            [@harmonic$1 $2(
+                                     |
+                                     [s $0s]
+
+            

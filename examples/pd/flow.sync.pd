@@ -1,0 +1,17 @@
+#N canvas 0 0 274 225 12;
+#X obj 20 44 hslider 128 15 0.0 127.0 0 0 empty empty empty 17 7 0 10
+-262144 -1 -1 0 0;
+#X obj 52 68 hslider 128 15 0.0 127.0 0 0 empty empty empty 17 7 0 10
+-262144 -1 -1 0 0;
+#X obj 84 92 hslider 128 15 0.0 127.0 0 0 empty empty empty 17 7 0 10
+-262144 -1 -1 0 0;
+#X obj 20 116 flow.sync 3;
+#X obj 84 140 ui.d @display_type 1;
+#X obj 52 164 ui.d @display_type 1;
+#X obj 20 188 ui.d @display_type 1;
+#X connect 0 0 3 0;
+#X connect 1 0 3 1;
+#X connect 2 0 3 2;
+#X connect 3 2 4 0;
+#X connect 3 1 5 0;
+#X connect 3 0 6 0;

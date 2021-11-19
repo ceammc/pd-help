@@ -1,0 +1,12 @@
+#N canvas 0 0 316 213 12;
+#X obj 20 44 ui.keyboard;
+#X msg 20 104 note \$1 \$2;
+#X obj 20 128 synth.wurley~;
+#X obj 20 152 ui.gain~ @size 120 16;
+#X obj 220 152 ui.dsp~;
+#X obj 20 176 dac~;
+#X connect 0 0 1 0;
+#X connect 1 0 2 0;
+#X connect 2 0 3 0;
+#X connect 3 0 5 0;
+#X connect 3 0 5 1;

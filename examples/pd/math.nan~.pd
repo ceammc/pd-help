@@ -1,0 +1,8 @@
+#N canvas 0 0 284 153 12;
+#X obj 20 44 math.nan~ @quiet;
+#X obj 188 44 ui.dsp~;
+#X obj 20 68 ui.n~;
+#X obj 20 92 math.nan~ @signal;
+#X obj 20 116 ui.n~;
+#X connect 0 0 2 0;
+#X connect 3 0 4 0;

@@ -1,0 +1,12 @@
+#N canvas 0 0 320 165 12;
+#X obj 20 44 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 20 68 system.memused;
+#X text 124 92 in Kbytes;
+#X obj 20 104 / 1024;
+#X floatatom 20 128 12 0 0 0 - - -;
+#X floatatom 196 128 12 0 0 0 - - -;
+#X connect 0 0 1 0;
+#X connect 1 0 3 0;
+#X connect 3 0 4 0;
+#X connect 3 0 5 0;

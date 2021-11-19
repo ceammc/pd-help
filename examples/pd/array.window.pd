@@ -1,0 +1,26 @@
+#N canvas 0 0 367 271 12;
+#N canvas 0 22 450 300 (subpatch) 0;
+#X array AW1 100 float 1;
+#A 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+#X coords 0 1 100 0 100 100 1;
+#X restore 20 44 graph;
+#X msg 20 140 tri;
+#X msg 92 140 welch;
+#X msg 164 140 rect;
+#X msg 260 140 blackman;
+#X msg 36 164 hann;
+#X msg 108 164 sine;
+#X msg 180 164 flattop;
+#X obj 20 212 array.window AW1 @type tri;
+#X obj 20 236 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X connect 1 0 8 0;
+#X connect 5 0 8 0;
+#X connect 2 0 8 0;
+#X connect 6 0 8 0;
+#X connect 3 0 8 0;
+#X connect 7 0 8 0;
+#X connect 4 0 8 0;
+#X connect 8 0 9 0;

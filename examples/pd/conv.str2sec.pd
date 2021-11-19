@@ -1,0 +1,16 @@
+#N canvas 0 0 311 201 12;
+#X msg 20 44 0:59;
+#X msg 84 44 2:01;
+#X msg 140 44 0:01.5;
+#X msg 212 44 1:03:45;
+#X obj 20 92 str->sec @on_err -100;
+#X floatatom 20 116 5 0 0 0 - - -;
+#X obj 20 140 sec->str;
+#X symbolatom 20 164 12 0 0 0 - - -;
+#X connect 0 0 4 0;
+#X connect 1 0 4 0;
+#X connect 2 0 4 0;
+#X connect 3 0 4 0;
+#X connect 4 0 5 0;
+#X connect 5 0 6 0;
+#X connect 6 0 7 0;

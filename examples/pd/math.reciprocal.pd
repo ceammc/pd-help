@@ -1,0 +1,17 @@
+#N canvas 0 0 274 153 12;
+#X floatatom 20 44 5 0 0 0 - - -;
+#X msg 60 44 1 2 3 4 5;
+#X floatatom 196 44 5 0 0 0 - - -;
+#X obj 20 68 math.reciprocal;
+#X msg 196 68 1 \$1;
+#X obj 20 92 msg set;
+#X obj 196 92 /;
+#X msg 20 116 ;
+#X floatatom 196 116 5 0 0 0 - - -;
+#X connect 0 0 3 0;
+#X connect 1 0 3 0;
+#X connect 2 0 4 0;
+#X connect 3 0 5 0;
+#X connect 4 0 6 0;
+#X connect 5 0 7 0;
+#X connect 6 0 8 0;

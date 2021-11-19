@@ -1,0 +1,12 @@
+#N canvas 0 0 430 153 12;
+#X msg 20 44 1 2 3 4 5;
+#X msg 124 44 list a b c d e;
+#X msg 260 44 (5 4 3 2 1) \, bang;
+#X obj 260 68 ml;
+#X obj 20 92 list.reverse;
+#X obj 20 116 ui.dt;
+#X connect 2 0 3 0;
+#X connect 0 0 4 0;
+#X connect 1 0 4 0;
+#X connect 3 0 4 0;
+#X connect 4 0 5 0;

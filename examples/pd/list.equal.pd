@@ -1,0 +1,18 @@
+#N canvas 0 0 391 189 12;
+#X msg 20 44 1 2 3;
+#X msg 92 44 list a b c;
+#X msg 124 68 1 2 3;
+#X msg 188 68 list a b c;
+#X msg 220 92 dump;
+#X msg 276 92 @pattern?;
+#X obj 20 128 list.equal a b c;
+#X floatatom 20 152 5 0 0 0 - - -;
+#X obj 68 152 print;
+#X connect 0 0 6 0;
+#X connect 1 0 6 0;
+#X connect 2 0 6 1;
+#X connect 3 0 6 1;
+#X connect 4 0 6 0;
+#X connect 5 0 6 0;
+#X connect 6 0 7 0;
+#X connect 6 0 8 0;

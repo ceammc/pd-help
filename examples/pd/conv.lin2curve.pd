@@ -1,0 +1,34 @@
+#N canvas 0 0 566 244 12;
+#X obj 20 44 loadbang;
+#X floatatom 140 44 5 0 0 0 - - -;
+#N canvas 0 22 450 300 (subpatch) 0;
+#X array l2c 255 float 1;
+#A 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0;
+#X coords 0 1 255 0 250 180 1;
+#X restore 276 44 graph;
+#X msg 20 68 0 256;
+#X obj 140 68 t b f;
+#X obj 20 92 list.seq;
+#X msg 140 92 @curve \$1;
+#X obj 20 116 list.separate;
+#X obj 20 140 t f f, f 12;
+#X obj 20 164 lin->curve 0 256 0 1;
+#X obj 20 188 tabwrite l2c;
+#X connect 0 0 3 0;
+#X connect 1 0 4 0;
+#X connect 3 0 5 0;
+#X connect 4 1 6 0;
+#X connect 5 0 7 0;
+#X connect 7 0 8 0;
+#X connect 8 0 9 0;
+#X connect 9 0 10 0;
+#X connect 8 1 10 1;
+#X connect 6 0 9 0;
+#X connect 4 0 3 0;

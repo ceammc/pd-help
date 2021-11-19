@@ -1,0 +1,5 @@
+#N canvas 0 0 210 248 12;
+#X obj 20 44 ui.dsp~;
+#X obj 20 80 noise.pink~;
+#X obj 20 128 ui.scope~ @size 150 100;
+#X connect 1 0 2 0;

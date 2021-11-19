@@ -1,0 +1,7 @@
+#N canvas 0 0 340 153 12;
+#X text 20 44 enter some words separated by spaces;
+#X symbolatom 20 68 40 0 0 0 - - -;
+#X obj 20 92 sym->any;
+#X obj 20 116 ui.dt;
+#X connect 1 0 2 0;
+#X connect 2 0 3 0;

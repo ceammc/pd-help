@@ -1,0 +1,15 @@
+#N canvas 0 0 304 153 12;
+#X msg 20 44 1 2;
+#X msg 68 44 1 2 3 4;
+#X msg 148 44 (1 2 3 5) \, bang;
+#X obj 148 68 ml;
+#X obj 20 92 list.any_of;
+#X obj 180 92 > 3;
+#X floatatom 20 116 5 0 0 0 - - -;
+#X connect 2 0 3 0;
+#X connect 0 0 4 0;
+#X connect 1 0 4 0;
+#X connect 3 0 4 0;
+#X connect 4 0 6 0;
+#X connect 4 1 5 0;
+#X connect 5 0 4 1;

@@ -1,0 +1,18 @@
+#N canvas 0 0 258 153 12;
+#X msg 20 44 traverse pd-pointer \, bang;
+#N canvas 276 44 200 100 pointer 0;
+#X restore 276 44 pd pointer;
+#X obj 20 68 pointer;
+#X msg 100 68 bang;
+#X msg 156 68 1;
+#X msg 188 68 1 2;
+#X obj 20 92 is_pointer;
+#X obj 20 116 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0 1;
+#X obj 84 116 print passed;
+#X connect 0 0 2 0;
+#X connect 2 0 6 0;
+#X connect 3 0 6 0;
+#X connect 4 0 6 0;
+#X connect 5 0 6 0;
+#X connect 6 0 7 0;
+#X connect 6 1 8 0;

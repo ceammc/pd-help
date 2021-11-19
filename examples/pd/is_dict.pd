@@ -1,0 +1,14 @@
+#N canvas 0 0 312 153 12;
+#X msg 20 44 [a: b] [@prop: val] [1: 100] \, bang;
+#X obj 20 68 data.dict;
+#X msg 116 68 list 1 2 3;
+#X floatatom 220 68 5 0 0 0 - - -;
+#X obj 20 92 is_dict;
+#X obj 20 116 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0 1;
+#X obj 68 116 ui.d;
+#X connect 0 0 1 0;
+#X connect 1 0 4 0;
+#X connect 2 0 4 0;
+#X connect 3 0 4 0;
+#X connect 4 0 5 0;
+#X connect 4 1 6 0;

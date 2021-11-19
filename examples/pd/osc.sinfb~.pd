@@ -1,0 +1,16 @@
+#N canvas 0 0 316 284 12;
+#X floatatom 20 44 5 0 0 0 - - -;
+#X obj 84 44 ui.knob @min 0 @max 6.28;
+#X msg 84 92 @feedback \$1;
+#X obj 20 116 osc.sinfb~ 440 2;
+#X obj 20 140 ui.gain~ @size 120 14;
+#X obj 220 140 ui.dsp~;
+#X obj 20 164 dac~;
+#X obj 84 164 ui.scope~ @size 150 100;
+#X connect 1 0 2 0;
+#X connect 0 0 3 0;
+#X connect 2 0 3 0;
+#X connect 3 0 4 0;
+#X connect 4 0 6 0;
+#X connect 4 0 6 1;
+#X connect 4 0 7 0;

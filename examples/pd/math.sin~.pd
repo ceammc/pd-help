@@ -1,0 +1,13 @@
+#N canvas 0 0 419 321 12;
+#X msg 20 44 bang;
+#X obj 20 68 plot.linspace~ -7 7 @pi;
+#X obj 20 92 math.sin~;
+#X obj 124 92 math.cos~;
+#X obj 20 128 ui.plot~ @xlabels 1 @ylabels 1 @size 400 170 @n 2;
+#X obj 20 284 ui.dsp~;
+#X connect 0 0 1 0;
+#X connect 1 0 2 0;
+#X connect 1 0 3 0;
+#X connect 2 0 4 0;
+#X connect 3 0 4 1;
+#X connect 1 1 4 2;

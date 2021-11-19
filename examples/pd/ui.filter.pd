@@ -1,0 +1,12 @@
+#N canvas 0 0 493 225 12;
+#X obj 20 44 ui.tab lin log rad;
+#X obj 188 44 ui.tab lpf hpf bpf bpfq @size 160 15;
+#X msg 20 68 @scale \$2;
+#X msg 188 68 @type \$2;
+#X obj 20 92 ui.filter;
+#X obj 20 188 ui.dt;
+#X connect 0 0 2 0;
+#X connect 1 0 3 0;
+#X connect 2 0 4 0;
+#X connect 3 0 4 0;
+#X connect 4 0 5 0;

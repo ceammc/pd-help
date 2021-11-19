@@ -1,0 +1,55 @@
+#N canvas 0 0 600 417 12;
+#X obj 20 44 loadbang;
+#X msg 20 68 symbol voice.wav;
+#X msg 172 68 symbol bell.aiff;
+#N canvas 0 22 450 300 (subpatch) 0;
+#X array A1 100 float 1;
+#A 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+#X coords 0 1 100 -1 100 140 1;
+#X restore 324 68 graph;
+#N canvas 0 22 450 300 (subpatch) 0;
+#X array A2 100 float 1;
+#A 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+#X coords 0 1 100 -1 100 140 1;
+#X restore 460 68 graph;
+#X msg 20 92 load %DOC%/sound/\$1 @to A1 @resize;
+#X obj 20 116 expand_env;
+#X obj 20 140 snd.file;
+#X obj 20 164 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X text 68 164 lower pitch;
+#X obj 20 188 array.stretch A1 A2 @pitch -5;
+#X obj 20 212 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X text 68 212 speed up and high;
+#X obj 276 212 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X text 316 212 timestretch;
+#X obj 20 236 array.stretch A1 A2 @rate 1.5;
+#X obj 276 236 array.stretch A1 A2 @tempo -30 @speech;
+#X text 20 260 Play;
+#X obj 20 284 ui.tab @items A1 A2;
+#X msg 20 308 set \$2 \, bang;
+#X msg 140 308 stop;
+#X obj 20 332 tabplay~ A2;
+#X obj 20 356 ui.gain~ @size 120 16;
+#X obj 236 356 ui.dsp~;
+#X obj 20 380 dac~;
+#X connect 0 0 1 0;
+#X connect 1 0 5 0;
+#X connect 2 0 5 0;
+#X connect 5 0 6 0;
+#X connect 6 0 7 0;
+#X connect 8 0 10 0;
+#X connect 11 0 15 0;
+#X connect 13 0 16 0;
+#X connect 18 0 19 0;
+#X connect 19 0 21 0;
+#X connect 20 0 21 0;
+#X connect 21 0 22 0;
+#X connect 22 0 24 0;
+#X connect 22 0 24 1;

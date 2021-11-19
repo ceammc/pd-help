@@ -1,0 +1,3 @@
+#N canvas 0 0 188 105 12;
+#X obj 20 44 proto.midi.cc.pan;
+#X obj 20 68 proto.midi.cc.vol;

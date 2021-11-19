@@ -1,0 +1,13 @@
+#N canvas 0 0 264 261 12;
+#X obj 20 44 lfo.tri~ 0.2;
+#X obj 140 44 phasor~ 0.2;
+#X obj 140 68 env~;
+#X obj 140 92 dbtorms;
+#X obj 20 116 ui.meter~ @size 15 120;
+#X obj 140 116 ui.hm~;
+#X obj 20 224 ui.display;
+#X connect 1 0 2 0;
+#X connect 2 0 3 0;
+#X connect 0 0 4 0;
+#X connect 3 0 5 0;
+#X connect 4 0 6 0;

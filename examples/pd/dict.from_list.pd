@@ -1,0 +1,10 @@
+#N canvas 0 0 367 153 12;
+#X msg 20 44 list a b c d e f g h j k;
+#X obj 20 92 list->dict;
+#X obj 236 92 list->dict 3;
+#X obj 20 116 ui.d;
+#X obj 236 116 ui.d;
+#X connect 0 0 1 0;
+#X connect 0 0 2 0;
+#X connect 1 0 3 0;
+#X connect 2 0 4 0;

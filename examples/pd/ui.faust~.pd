@@ -1,0 +1,16 @@
+#N canvas 0 0 339 237 12;
+#X msg 20 44 open;
+#X msg 76 44 symbol ex1.dsp;
+#X obj 236 44 osc~ 500;
+#X msg 76 68 @fname faust/\$1;
+#X obj 20 92 ui.faust~ faust/ex0.dsp;
+#X obj 20 176 ui.hgain~;
+#X obj 164 176 ui.dsp~;
+#X obj 20 200 dac~;
+#X connect 1 0 3 0;
+#X connect 0 0 4 0;
+#X connect 3 0 4 0;
+#X connect 2 0 4 1;
+#X connect 4 0 5 0;
+#X connect 5 0 7 0;
+#X connect 5 0 7 1;

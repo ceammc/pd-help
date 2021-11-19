@@ -1,0 +1,8 @@
+#N canvas 0 0 256 153 12;
+#X msg 20 44 symbol example;
+#X symbolatom 76 68 20 0 0 0 - - -;
+#X obj 20 92 symbol.length;
+#X floatatom 20 116 5 0 0 0 - - -;
+#X connect 0 0 2 0;
+#X connect 1 0 2 0;
+#X connect 2 0 3 0;

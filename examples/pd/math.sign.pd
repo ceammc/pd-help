@@ -1,0 +1,8 @@
+#N canvas 0 0 175 129 12;
+#X floatatom 20 44 5 0 0 0 - - -;
+#X msg 60 44 -10 0 100;
+#X obj 20 68 math.sign;
+#X obj 20 92 ui.dt;
+#X connect 0 0 2 0;
+#X connect 1 0 2 0;
+#X connect 2 0 3 0;

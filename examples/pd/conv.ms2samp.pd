@@ -1,0 +1,6 @@
+#N canvas 0 0 130 129 12;
+#X floatatom 20 44 10 0 0 0 - - -;
+#X obj 20 68 ms->samp;
+#X floatatom 20 92 10 0 0 0 - - -;
+#X connect 0 0 1 0;
+#X connect 1 0 2 0;

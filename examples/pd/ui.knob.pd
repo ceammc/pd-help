@@ -1,0 +1,21 @@
+#N canvas 0 0 487 213 12;
+#X obj 20 44 hslider 128 15 0.0 10.0 0 0 empty empty empty 17 7 0 10
+-262144 -1 -1 0 0;
+#X floatatom 20 80 5 0 0 0 - - -;
+#X msg 68 80 + 0.1;
+#X msg 132 80 - 0.1;
+#X msg 196 80 * 2;
+#X msg 244 80 / 2;
+#X msg 292 80 ++ \, bang;
+#X msg 380 80 -- \, bang;
+#X obj 20 128 ui.knob @size 30 30 @max 10;
+#X floatatom 20 176 5 0 0 0 - - -;
+#X connect 0 0 1 0;
+#X connect 1 0 8 0;
+#X connect 2 0 8 0;
+#X connect 3 0 8 0;
+#X connect 4 0 8 0;
+#X connect 5 0 8 0;
+#X connect 6 0 8 0;
+#X connect 7 0 8 0;
+#X connect 8 0 9 0;

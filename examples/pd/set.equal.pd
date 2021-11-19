@@ -1,0 +1,19 @@
+#N canvas 0 0 425 201 12;
+#X obj 20 44 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 156 44 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 20 68 data.set 1 3 5;
+#X obj 156 68 data.set 1 3;
+#X msg 276 68 1 3 5;
+#X msg 340 68 1 2 3;
+#X obj 20 116 set.equal 1 3 5;
+#X obj 20 140 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0 1;
+#X obj 20 164 set.equal.data;
+#X connect 0 0 2 0;
+#X connect 1 0 3 0;
+#X connect 2 0 6 0;
+#X connect 3 0 6 0;
+#X connect 4 0 6 0;
+#X connect 5 0 6 0;
+#X connect 6 0 7 0;

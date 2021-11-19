@@ -1,0 +1,34 @@
+#N canvas 0 0 632 237 12;
+#X msg 20 44 bang;
+#N canvas 0 22 450 300 (subpatch) 0;
+#X array LGAMMA 241 float 1;
+#A 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+#X coords 0 16 241 -4 300 120 1;
+#X restore 292 44 graph;
+#X obj 20 68 list.seq -4 8 0.05;
+#X obj 20 92 list.each;
+#X obj 140 92 math.lgamma;
+#X obj 140 116 clip -10 20;
+#X obj 20 152 list.sep @enumerate 1;
+#X obj 212 152 loadbang;
+#X obj 20 176 swap;
+#X msg 212 176 ylabel -2 -5 0 10 15 \, yticks 0 1 5;
+#X obj 20 200 tabwrite LGAMMA;
+#X obj 212 200 s LGAMMA;
+#X connect 0 0 2 0;
+#X connect 2 0 3 0;
+#X connect 4 0 5 0;
+#X connect 3 0 6 0;
+#X connect 6 0 8 0;
+#X connect 7 0 9 0;
+#X connect 8 0 10 0;
+#X connect 8 1 10 1;
+#X connect 9 0 11 0;
+#X connect 3 1 4 0;
+#X connect 5 0 3 1;

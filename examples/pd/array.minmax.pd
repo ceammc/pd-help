@@ -1,0 +1,19 @@
+#N canvas 0 0 488 194 12;
+#X obj 20 44 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#N canvas 0 22 450 300 (subpatch) 0;
+#X array amm 100 float 1;
+#A 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+#X coords 0 1 100 -1 180 130 1;
+#X restore 268 44 graph;
+#X obj 20 68 array.minmax amm;
+#X obj 20 92 ui.d @float_width 3 @auto_size 0 @size 100 20;
+#X obj 140 92 ui.d @auto_size 0 @size 100 20;
+#X obj 20 116 loadmsg sinesum 100 0.2 0.3;
+#X obj 20 140 s amm;
+#X connect 0 0 2 0;
+#X connect 2 0 3 0;
+#X connect 2 1 4 0;
+#X connect 5 0 6 0;

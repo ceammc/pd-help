@@ -1,0 +1,14 @@
+#N canvas 0 0 219 175 12;
+#X obj 20 44 ui.radio @nitems 4;
+#X msg 44 92 reset;
+#X obj 20 116 radio 4;
+#X obj 20 140 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0 1;
+#X obj 60 140 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0 1;
+#X obj 108 140 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0 1;
+#X obj 164 140 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0 1;
+#X connect 0 0 2 0;
+#X connect 1 0 2 0;
+#X connect 2 0 3 0;
+#X connect 2 1 4 0;
+#X connect 2 2 5 0;
+#X connect 2 3 6 0;

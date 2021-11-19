@@ -1,0 +1,12 @@
+#N canvas 0 0 423 177 12;
+#X msg 20 44 [a: a b c bpm: 100] \, bang;
+#X msg 276 44 bang;
+#X obj 276 68 global.dict d1;
+#X obj 20 92 global.dict d1;
+#X obj 276 92 ui.dt;
+#X obj 20 116 ui.dt;
+#X obj 20 140 global.dict.subpatch;
+#X connect 1 0 2 0;
+#X connect 0 0 3 0;
+#X connect 2 0 4 0;
+#X connect 3 0 5 0;

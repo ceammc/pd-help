@@ -1,0 +1,25 @@
+#N canvas 0 0 356 201 12;
+#X msg 20 44 @name?;
+#X msg 108 44 @dir?;
+#X msg 196 44 @width?;
+#X msg 36 68 @root?;
+#X msg 124 68 @args?;
+#X msg 212 68 @abstraction?;
+#X msg 60 92 @x?;
+#X msg 140 92 @y?;
+#X msg 228 92 @height?;
+#X obj 76 116 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 20 140 canvas.current;
+#X obj 20 164 ui.display @display_type 1;
+#X connect 0 0 10 0;
+#X connect 3 0 10 0;
+#X connect 6 0 10 0;
+#X connect 9 0 10 0;
+#X connect 1 0 10 0;
+#X connect 4 0 10 0;
+#X connect 7 0 10 0;
+#X connect 2 0 10 0;
+#X connect 5 0 10 0;
+#X connect 8 0 10 0;
+#X connect 10 0 11 0;

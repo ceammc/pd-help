@@ -1,0 +1,16 @@
+#N canvas 0 0 284 284 12;
+#X floatatom 20 44 5 0 0 0 - - -;
+#X obj 92 44 ui.knob;
+#X obj 188 44 ui.dsp~;
+#X msg 92 92 @duty \$1;
+#X obj 20 116 osc.pulse~ 220 0.5;
+#X obj 20 140 ui.gain~ @size 120 14;
+#X obj 20 164 dac~;
+#X obj 76 164 ui.scope~ @size 150 100;
+#X connect 1 0 3 0;
+#X connect 0 0 4 0;
+#X connect 3 0 4 0;
+#X connect 4 0 5 0;
+#X connect 5 0 6 0;
+#X connect 5 0 6 1;
+#X connect 5 0 7 0;

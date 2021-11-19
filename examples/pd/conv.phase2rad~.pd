@@ -1,0 +1,7 @@
+#N canvas 0 0 244 129 12;
+#X obj 20 44 lfo.saw~ 0.1;
+#X obj 148 44 ui.dsp~;
+#X obj 20 68 phase->rad~;
+#X obj 20 92 ui.n~;
+#X connect 0 0 2 0;
+#X connect 2 0 3 0;

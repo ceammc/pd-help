@@ -1,0 +1,13 @@
+#N canvas 0 0 482 214 12;
+#X text 20 44 change value;
+#X floatatom 20 68 5 0 0 0 - - -;
+#X obj 68 68 preset.float f1;
+#X obj 20 104 ui.hsl;
+#X msg 20 128 interp \$1;
+#X text 116 128 interpolate between first and second preset;
+#X obj 20 152 ui.preset @size 102 42;
+#X text 116 152 Shift+click to store preset;
+#X connect 3 0 4 0;
+#X connect 4 0 6 0;
+#X connect 1 0 2 0;
+#X connect 2 0 1 0;

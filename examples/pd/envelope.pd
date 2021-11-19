@@ -1,0 +1,27 @@
+#N canvas 0 0 572 320 12;
+#X msg 20 44 ar 100 200 \, bang;
+#X msg 172 44 exp 0 30 -2 1 100 -4 0 40 4 0.5 30 2 0 \, bang;
+#X msg 36 68 adsr 10 30 60 150 \, bang;
+#X msg 244 68 line 0.1 40 0.9 20 0.3 60 0 \, bang;
+#X msg 52 92 ear 10 -2 60 -2 \, bang;
+#X msg 244 92 sigmoid 0 40 14 1 100 8 0 \, bang;
+#X msg 68 116 eadsr 20 -5 70 -12 30 100 -7 \, bang;
+#X msg 364 116 sin2 0 80 1 80 0 \, bang;
+#X obj 20 140 envelope;
+#X obj 20 164 env->array env_arr;
+#N canvas 0 22 450 300 (subpatch) 0;
+#X array env_arr 100 float 1;
+#A 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+#X coords 0 1 100 0 400 100 1;
+#X restore 20 200 graph;
+#X connect 0 0 8 0;
+#X connect 2 0 8 0;
+#X connect 4 0 8 0;
+#X connect 6 0 8 0;
+#X connect 8 0 9 0;
+#X connect 1 0 8 0;
+#X connect 3 0 8 0;
+#X connect 5 0 8 0;
+#X connect 7 0 8 0;

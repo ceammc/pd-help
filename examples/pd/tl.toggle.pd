@@ -1,0 +1,15 @@
+#N canvas 0 0 467 153 12;
+#X obj 132 44 tl.cue;
+#X obj 284 44 tl.cue;
+#X obj 20 68 hradio 15 1 0 3 empty empty empty 17 7 0 10 -262144 -1 -1
+0;
+#X obj 156 68 tl.toggle;
+#X obj 356 68 tl.toggle;
+#X msg 20 92 cue \$1;
+#X obj 156 92 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0 1;
+#X obj 356 92 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0 1;
+#X obj 20 116 tl.transport;
+#X connect 2 0 5 0;
+#X connect 3 0 6 0;
+#X connect 4 0 7 0;
+#X connect 5 0 8 0;

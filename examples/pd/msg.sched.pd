@@ -1,0 +1,12 @@
+#N canvas 0 0 511 201 12;
+#X msg 20 44 @freq 100 \, @gate 1 \, 400 @freq 800 \, 600 @freq 200 \, 750 @gate 0;
+#X obj 20 92 msg.sched;
+#X obj 20 116 synth.dubdub~;
+#X obj 20 140 ui.hgain~;
+#X obj 148 140 ui.dsp~;
+#X obj 20 164 dac~;
+#X connect 0 0 1 0;
+#X connect 1 0 2 0;
+#X connect 2 0 3 0;
+#X connect 3 0 5 0;
+#X connect 3 0 5 1;

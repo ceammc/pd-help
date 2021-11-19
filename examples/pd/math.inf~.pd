@@ -1,0 +1,9 @@
+#N canvas 0 0 252 129 12;
+#X obj 20 44 math.inf~;
+#X obj 156 44 ui.dsp~;
+#X obj 92 68 *~ -1;
+#X obj 20 92 ui.n~;
+#X obj 92 92 ui.n~;
+#X connect 0 0 2 0;
+#X connect 0 0 3 0;
+#X connect 2 0 4 0;

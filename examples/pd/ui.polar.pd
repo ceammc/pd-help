@@ -1,0 +1,8 @@
+#N canvas 0 0 253 201 12;
+#X msg 20 44 1 45;
+#X msg 76 44 rotate 45;
+#X obj 20 68 ui.polar;
+#X obj 20 164 ui.display @display_type 1;
+#X connect 0 0 2 0;
+#X connect 1 0 2 0;
+#X connect 2 0 3 0;

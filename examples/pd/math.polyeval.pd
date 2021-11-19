@@ -1,0 +1,11 @@
+#N canvas 0 0 487 153 12;
+#X floatatom 20 44 5 0 0 0 - - -;
+#X msg 68 44 14 28;
+#X msg 140 68 @coeffs?;
+#X obj 20 92 math.polyeval 2 4 5 6;
+#X text 212 92 calc: y=2*x^3 + 4*x^2 + 5*x + 6;
+#X obj 20 116 ui.display;
+#X connect 0 0 3 0;
+#X connect 1 0 3 0;
+#X connect 2 0 3 0;
+#X connect 3 0 5 0;

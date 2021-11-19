@@ -1,0 +1,22 @@
+#N canvas 0 0 372 189 12;
+#X obj 20 44 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X floatatom 52 44 5 0 0 0 - - -;
+#X msg 100 44 symbol ABC;
+#X obj 20 80 string 1 2 3 "a string";
+#X floatatom 236 80 5 0 0 0 - - -;
+#X obj 36 104 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X msg 68 104 clear;
+#X msg 236 104 append \$1 \$1;
+#X obj 20 128 string;
+#X obj 20 152 ui.dt;
+#X connect 0 0 3 0;
+#X connect 1 0 3 0;
+#X connect 2 0 3 0;
+#X connect 4 0 7 0;
+#X connect 3 0 8 0;
+#X connect 5 0 8 0;
+#X connect 6 0 8 0;
+#X connect 7 0 8 0;
+#X connect 8 0 9 0;

@@ -1,0 +1,21 @@
+#N canvas 0 0 496 189 12;
+#X obj 164 44 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0 1;
+#X obj 20 68 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X msg 52 68 0;
+#X msg 84 68 1;
+#X msg 116 68 -1;
+#X msg 164 68 set \$1;
+#X obj 20 104 ui.toggle @size 40 40;
+#X obj 220 104 ui.t @on_value 90 @off_value -90;
+#X floatatom 220 128 5 0 0 0 - - -;
+#X text 252 128 other on/off values;
+#X obj 20 152 ui.display;
+#X connect 0 0 5 0;
+#X connect 1 0 6 0;
+#X connect 2 0 6 0;
+#X connect 3 0 6 0;
+#X connect 4 0 6 0;
+#X connect 5 0 6 0;
+#X connect 7 0 8 0;
+#X connect 6 0 10 0;

@@ -1,0 +1,9 @@
+#N canvas 0 0 302 153 12;
+#X obj 20 44 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 20 68 data.dict \[a: b c: 200 12: 15151\];
+#X obj 20 92 dict.keys;
+#X obj 20 116 ui.display @display_type 1;
+#X connect 0 0 1 0;
+#X connect 1 0 2 0;
+#X connect 2 0 3 0;

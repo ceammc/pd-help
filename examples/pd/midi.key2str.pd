@@ -1,0 +1,14 @@
+#N canvas 0 0 461 177 12;
+#X floatatom 20 44 5 0 0 0 - - -;
+#X msg 60 44 @tonality F minor;
+#X msg 220 44 @tonality E;
+#X msg 332 44 @tonality C;
+#X obj 20 92 midi.key->str @symbol;
+#X obj 20 116 msg set;
+#X msg 20 140 ;
+#X connect 0 0 4 0;
+#X connect 1 0 4 0;
+#X connect 2 0 4 0;
+#X connect 3 0 4 0;
+#X connect 4 0 5 0;
+#X connect 5 0 6 0;

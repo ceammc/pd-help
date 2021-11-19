@@ -1,0 +1,20 @@
+#N canvas 0 0 460 201 12;
+#X obj 20 44 hslider 128 15 0.0 100.0 0 0 empty empty empty 17 7 0 10
+-262144 -1 -1 0 0;
+#N canvas 0 22 450 300 (subpatch) 0;
+#X array s2p 100 float 1;
+#A 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+#X coords 0 1 100 -1 200 130 1;
+#X restore 220 44 graph;
+#X floatatom 20 68 5 0 0 0 - - -;
+#X obj 20 92 array.s->p s2p;
+#X floatatom 20 116 5 0 0 0 - - -;
+#X obj 20 140 array.p->s s2p;
+#X floatatom 20 164 5 0 0 0 - - -;
+#X connect 0 0 2 0;
+#X connect 2 0 3 0;
+#X connect 3 0 4 0;
+#X connect 4 0 5 0;
+#X connect 5 0 6 0;

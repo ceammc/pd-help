@@ -1,0 +1,10 @@
+#N canvas 0 0 272 153 12;
+#X obj 20 44 osc.tri~ 0.05;
+#X obj 164 44 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0 1;
+#X msg 164 68 @clip \$1;
+#X obj 20 92 lin->lin~ -1 1 20 10000;
+#X obj 20 116 ui.n~;
+#X connect 1 0 2 0;
+#X connect 0 0 3 0;
+#X connect 2 0 3 0;
+#X connect 3 0 4 0;

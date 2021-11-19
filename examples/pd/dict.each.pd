@@ -1,0 +1,11 @@
+#N canvas 0 0 226 153 12;
+#X msg 20 44 [a: 1 c: 2 e: 3] \, bang;
+#X obj 20 68 dict;
+#X obj 20 92 dict.each;
+#X obj 132 92 * 100;
+#X obj 20 116 ui.d;
+#X connect 0 0 1 0;
+#X connect 1 0 2 0;
+#X connect 2 0 4 0;
+#X connect 2 1 3 0;
+#X connect 3 0 2 1;

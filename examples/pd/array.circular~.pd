@@ -1,0 +1,18 @@
+#N canvas 0 0 374 213 12;
+#X msg 20 44 open guitar1.wav \, 1;
+#X obj 220 44 table AC1 44100;
+#X obj 20 80 readsf~;
+#X obj 124 80 lfo.+tri~ 5;
+#X obj 124 104 *~ 100;
+#X obj 36 128 array.circular~ AC1;
+#X obj 220 128 ui.dsp~;
+#X obj 20 152 ui.hgain2~;
+#X obj 20 176 dac~;
+#X connect 0 0 2 0;
+#X connect 3 0 4 0;
+#X connect 2 0 5 0;
+#X connect 4 0 5 1;
+#X connect 2 0 7 0;
+#X connect 5 0 7 1;
+#X connect 7 0 8 0;
+#X connect 7 1 8 1;

@@ -1,0 +1,14 @@
+#N canvas 0 0 317 129 12;
+#X msg 20 44 bang;
+#X msg 76 44 1;
+#X msg 108 44 symbol a;
+#X msg 196 44 list a b c;
+#X obj 20 68 is_bang;
+#X obj 20 92 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0 1;
+#X obj 76 92 print passed;
+#X connect 0 0 4 0;
+#X connect 1 0 4 0;
+#X connect 2 0 4 0;
+#X connect 3 0 4 0;
+#X connect 4 0 5 0;
+#X connect 4 1 6 0;

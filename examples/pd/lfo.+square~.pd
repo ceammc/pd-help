@@ -1,0 +1,14 @@
+#N canvas 0 0 316 177 12;
+#X obj 20 44 osc.saw~ 100;
+#X floatatom 140 44 5 0 0 0 - - -;
+#X obj 140 68 lfo.+square~ 10;
+#X obj 20 92 *~;
+#X obj 20 116 ui.gain~ @size 120 14;
+#X obj 220 116 ui.dsp~;
+#X obj 20 140 dac~;
+#X connect 1 0 2 0;
+#X connect 0 0 3 0;
+#X connect 2 0 3 1;
+#X connect 3 0 4 0;
+#X connect 4 0 6 0;
+#X connect 4 0 6 1;

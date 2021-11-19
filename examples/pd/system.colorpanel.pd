@@ -1,0 +1,12 @@
+#N canvas 0 0 393 153 12;
+#X msg 20 44 bang;
+#X obj 196 44 ui.menu float int hex;
+#X msg 44 68 symbol;
+#X msg 196 68 @mode \$2;
+#X obj 20 92 system.colorpanel @f;
+#X obj 20 116 ui.display;
+#X connect 1 0 3 0;
+#X connect 0 0 4 0;
+#X connect 2 0 4 0;
+#X connect 3 0 4 0;
+#X connect 4 0 5 0;

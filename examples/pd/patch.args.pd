@@ -1,0 +1,10 @@
+#N canvas 0 0 238 201 12;
+#X obj 20 44 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 20 68 patch.args.ex1 1 2 3 4 5;
+#X obj 20 92 ui.dt;
+#X obj 20 116 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X text 52 116 @from 2;
+#X obj 20 140 patch.args.ex2 1 2 3 4 5;
+#X obj 20 164 ui.dt;

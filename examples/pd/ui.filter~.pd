@@ -1,0 +1,18 @@
+#N canvas 0 0 565 249 12;
+#X obj 20 44 noise~;
+#X obj 92 44 ui.tab lin log rad;
+#X obj 260 44 ui.tab lpf hpf bpf bpfq @size 160 15;
+#X msg 92 68 @scale \$2;
+#X msg 260 68 @type \$2;
+#X obj 20 92 ui.filter~;
+#X obj 20 188 ui.hgain~;
+#X obj 164 188 ui.dsp~;
+#X obj 20 212 dac~;
+#X connect 1 0 3 0;
+#X connect 2 0 4 0;
+#X connect 0 0 5 0;
+#X connect 3 0 5 0;
+#X connect 4 0 5 0;
+#X connect 5 0 6 0;
+#X connect 6 0 8 0;
+#X connect 6 0 8 1;

@@ -1,0 +1,24 @@
+#N canvas 0 0 499 153 12;
+#X obj 20 44 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 164 44 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 276 44 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 20 68 seq.counter 1 4;
+#X obj 164 68 seq.counter 1 4 @r 2;
+#X text 340 68 repeat two times;
+#X floatatom 20 92 5 0 0 0 - - -;
+#X floatatom 164 92 5 0 0 0 - - -;
+#X obj 276 92 route done;
+#X obj 276 116 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X floatatom 340 116 5 0 0 0 - - -;
+#X connect 0 0 3 0;
+#X connect 1 0 4 0;
+#X connect 2 0 4 1;
+#X connect 3 0 6 0;
+#X connect 4 0 7 0;
+#X connect 4 1 8 0;
+#X connect 8 0 9 0;
+#X connect 8 1 10 0;

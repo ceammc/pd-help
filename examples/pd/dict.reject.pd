@@ -1,0 +1,10 @@
+#N canvas 0 0 226 153 12;
+#X msg 20 44 [a: b c: d e: f] \, bang;
+#X obj 20 68 dict;
+#X msg 108 68 list a e;
+#X obj 20 92 dict.reject c;
+#X obj 20 116 ui.d;
+#X connect 0 0 1 0;
+#X connect 1 0 3 0;
+#X connect 2 0 3 1;
+#X connect 3 0 4 0;

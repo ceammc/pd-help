@@ -1,0 +1,17 @@
+#N canvas 0 0 336 153 12;
+#X floatatom 20 44 5 0 0 0 - - -;
+#X msg 68 44 symbol ABC;
+#X obj 36 68 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X msg 84 68 1 2 3;
+#X msg 148 68 @a 1 2 3;
+#X msg 236 68 any msg;
+#X obj 20 92 flow.f;
+#X obj 20 116 ui.dt;
+#X connect 0 0 6 0;
+#X connect 2 0 6 0;
+#X connect 1 0 6 0;
+#X connect 3 0 6 0;
+#X connect 4 0 6 0;
+#X connect 5 0 6 0;
+#X connect 6 0 7 0;

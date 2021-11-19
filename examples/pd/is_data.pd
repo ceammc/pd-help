@@ -1,0 +1,24 @@
+#N canvas 0 0 381 211 12;
+#X msg 20 44 bang;
+#X obj 20 68 str string data;
+#X obj 36 92 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X msg 68 92 1;
+#X msg 100 92 symbol A;
+#X msg 188 92 1 2 3;
+#X msg 252 92 any message;
+#X obj 20 128 is_data;
+#X floatatom 20 152 5 0 0 0 - - -;
+#X obj 60 152 ui.d;
+#X obj 20 176 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X connect 0 0 1 0;
+#X connect 1 0 7 0;
+#X connect 2 0 7 0;
+#X connect 3 0 7 0;
+#X connect 4 0 7 0;
+#X connect 5 0 7 0;
+#X connect 6 0 7 0;
+#X connect 7 0 8 0;
+#X connect 7 1 9 0;
+#X connect 8 0 10 0;

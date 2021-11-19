@@ -1,0 +1,22 @@
+#N canvas 0 0 340 201 12;
+#X obj 20 44 adc~ 1;
+#X obj 124 44 ui.dsp~;
+#X obj 52 68 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0 1;
+#X floatatom 84 68 5 0 0 0 - - -;
+#X obj 20 92 gain~;
+#X obj 84 92 osc~ 440;
+#X obj 180 92 hradio 15 1 0 8 empty empty empty 17 7 0 10 -262144 -1
+-1 0;
+#X obj 20 116 flow.mux~ 2;
+#X obj 20 140 an.pitchtrack~;
+#X floatatom 20 164 5 0 0 0 - - -;
+#X floatatom 76 164 5 0 0 0 - - -;
+#X connect 0 0 4 0;
+#X connect 2 0 4 1;
+#X connect 3 0 5 0;
+#X connect 4 0 7 0;
+#X connect 5 0 7 1;
+#X connect 6 0 7 2;
+#X connect 7 0 8 0;
+#X connect 8 1 9 0;
+#X connect 8 2 10 0;

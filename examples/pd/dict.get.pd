@@ -1,0 +1,14 @@
+#N canvas 0 0 306 201 12;
+#X msg 20 44 [a: b @prop: val 1: 100] \, bang;
+#X obj 20 92 data.dict;
+#X obj 20 116 dict.get "@prop" "1" a "?";
+#X symbolatom 20 164 5 0 0 0 - - -;
+#X floatatom 76 164 5 0 0 0 - - -;
+#X symbolatom 132 164 5 0 0 0 - - -;
+#X obj 188 164 ui.display;
+#X connect 0 0 1 0;
+#X connect 1 0 2 0;
+#X connect 2 0 3 0;
+#X connect 2 1 4 0;
+#X connect 2 2 5 0;
+#X connect 2 3 6 0;

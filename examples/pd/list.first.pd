@@ -1,0 +1,10 @@
+#N canvas 0 0 279 129 12;
+#X msg 20 44 -11 60 12;
+#X msg 116 44 list a b;
+#X floatatom 204 44 5 0 0 0 - - -;
+#X obj 20 68 list.first;
+#X obj 20 92 ui.dt;
+#X connect 0 0 3 0;
+#X connect 1 0 3 0;
+#X connect 2 0 3 0;
+#X connect 3 0 4 0;

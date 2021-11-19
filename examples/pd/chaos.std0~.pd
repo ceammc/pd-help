@@ -1,0 +1,23 @@
+#N canvas 0 0 484 225 12;
+#X msg 20 44 440;
+#X msg 68 44 15000;
+#X floatatom 132 44 5 0 0 0 - - -;
+#X obj 212 44 ui.dsp~;
+#X obj 20 68 sig~ 400;
+#X obj 132 68 sig~ 1;
+#X obj 20 92 chaos.std0~;
+#X obj 20 116 fx.pitchshift~ @drywet 0.5 @fade 50 @pitch 15.1 @window
+93;
+#X obj 20 140 flt.dcblock~;
+#X obj 20 164 ui.hgain~;
+#X obj 20 188 dac~;
+#X connect 0 0 4 0;
+#X connect 1 0 4 0;
+#X connect 2 0 5 0;
+#X connect 4 0 6 0;
+#X connect 5 0 6 1;
+#X connect 6 0 7 0;
+#X connect 7 0 8 0;
+#X connect 8 0 9 0;
+#X connect 9 0 10 0;
+#X connect 9 0 10 1;

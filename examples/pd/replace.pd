@@ -1,0 +1,16 @@
+#N canvas 0 0 343 201 12;
+#X floatatom 20 44 5 0 0 0 - - -;
+#X msg 60 44 1 2 3;
+#X msg 132 44 list a b c;
+#X msg 76 92 dump;
+#X msg 148 92 symbol a;
+#X msg 236 92 symbol A;
+#X obj 20 128 replace 3 33333;
+#X obj 20 164 ui.display @auto_size 0 @size 120 17;
+#X connect 0 0 6 0;
+#X connect 1 0 6 0;
+#X connect 3 0 6 0;
+#X connect 2 0 6 0;
+#X connect 4 0 6 1;
+#X connect 5 0 6 2;
+#X connect 6 0 7 0;

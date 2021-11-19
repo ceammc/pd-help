@@ -1,0 +1,21 @@
+#N canvas 0 0 394 177 12;
+#X msg 20 44 dump;
+#X msg 76 44 list a b c;
+#X floatatom 188 44 5 0 0 0 - - -;
+#X msg 276 44 10 11;
+#X obj 36 68 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X msg 100 68 pop;
+#X obj 188 68 m append;
+#X obj 276 68 m insert 1;
+#X obj 20 116 data.list 1 2 3;
+#X obj 20 140 ui.dt;
+#X connect 2 0 6 0;
+#X connect 3 0 7 0;
+#X connect 0 0 8 0;
+#X connect 4 0 8 0;
+#X connect 1 0 8 0;
+#X connect 5 0 8 0;
+#X connect 6 0 8 0;
+#X connect 7 0 8 0;
+#X connect 8 0 9 0;

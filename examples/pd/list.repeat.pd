@@ -1,0 +1,21 @@
+#N canvas 0 0 435 177 12;
+#X msg 20 44 1 2 3 4 *;
+#X msg 124 44 (1 2 3) \, bang;
+#X obj 268 44 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X msg 36 68 symbol A;
+#X obj 124 68 ml;
+#X obj 268 68 str a test string;
+#X msg 52 92 10;
+#X floatatom 284 92 5 0 0 0 - - -;
+#X obj 20 116 list.repeat 3;
+#X obj 20 140 ui.display @display_type 1;
+#X connect 1 0 4 0;
+#X connect 2 0 5 0;
+#X connect 0 0 8 0;
+#X connect 3 0 8 0;
+#X connect 6 0 8 0;
+#X connect 4 0 8 0;
+#X connect 5 0 8 0;
+#X connect 7 0 8 1;
+#X connect 8 0 9 0;

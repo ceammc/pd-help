@@ -1,0 +1,24 @@
+#N canvas 0 0 308 223 12;
+#X obj 20 44 hslider 128 15 0.0 127.0 0 0 empty empty empty 17 7 0 10
+-262144 -1 -1 0 0;
+#X obj 20 68 > 50;
+#X obj 84 68 hslider 128 15 0.0 127.0 0 0 empty empty empty 17 7 0 10
+-262144 -1 -1 0 0;
+#X obj 84 92 > 50;
+#X obj 140 92 hslider 128 15 0.0 127.0 0 0 empty empty empty 17 7 0 10
+-262144 -1 -1 0 0;
+#X obj 140 116 < 50;
+#X msg 196 116 reset;
+#X obj 20 140 math.and 3 @sync;
+#X floatatom 20 164 5 0 0 0 - - -;
+#X obj 20 188 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X connect 0 0 1 0;
+#X connect 2 0 3 0;
+#X connect 4 0 5 0;
+#X connect 1 0 7 0;
+#X connect 3 0 7 1;
+#X connect 5 0 7 2;
+#X connect 6 0 7 0;
+#X connect 7 0 8 0;
+#X connect 8 0 9 0;

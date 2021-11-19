@@ -1,0 +1,8 @@
+#N canvas 0 0 223 141 12;
+#X floatatom 20 44 5 0 0 0 - - -;
+#X msg 60 44 @format %+02d;
+#X obj 20 80 string.format "%08.2f";
+#X obj 20 104 ui.dt;
+#X connect 0 0 2 0;
+#X connect 1 0 2 0;
+#X connect 2 0 3 0;

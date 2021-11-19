@@ -1,0 +1,10 @@
+#N canvas 0 0 397 153 12;
+#X msg 20 44 bang;
+#X obj 20 68 prop.get @size @value;
+#X obj 164 92 ui.display @display_type 1;
+#X obj 20 116 ui.knob;
+#X obj 108 116 ui.display @display_type 1;
+#X connect 0 0 1 0;
+#X connect 1 2 2 0;
+#X connect 1 0 3 0;
+#X connect 1 1 4 0;

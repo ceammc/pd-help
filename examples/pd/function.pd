@@ -1,0 +1,10 @@
+#N canvas 0 0 405 153 12;
+#X obj 20 44 function f1-$0;
+#X obj 188 44 expr sqrt($f1 * $f1 - 1);
+#X floatatom 20 68 5 0 0 0 - - -;
+#X obj 20 92 func.call f1-$0;
+#X floatatom 20 116 5 0 0 0 - - -;
+#X connect 2 0 3 0;
+#X connect 3 0 4 0;
+#X connect 0 1 1 0;
+#X connect 1 0 0 1;

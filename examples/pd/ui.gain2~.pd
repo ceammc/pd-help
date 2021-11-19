@@ -1,0 +1,15 @@
+#N canvas 0 0 316 201 12;
+#X msg 20 44 open %CEAMMC%/guitar1.wav \, 1;
+#X obj 20 68 expand_env;
+#X obj 20 92 readsf~;
+#X obj 20 116 fx.zita_rev1~;
+#X obj 20 140 ui.gain2~ @size 120 14;
+#X obj 220 140 ui.dsp~;
+#X obj 20 164 dac~;
+#X connect 0 0 1 0;
+#X connect 1 0 2 0;
+#X connect 2 0 3 0;
+#X connect 3 0 4 0;
+#X connect 3 1 4 1;
+#X connect 4 0 6 0;
+#X connect 4 1 6 1;

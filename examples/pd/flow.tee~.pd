@@ -1,0 +1,21 @@
+#N canvas 0 0 339 225 12;
+#X obj 20 44 osc~ 440;
+#X obj 116 44 ui.dsp~;
+#X obj 36 80 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X msg 68 80 symbol A;
+#X msg 156 80 list 1 2 3;
+#X msg 260 80 @p 1;
+#X obj 20 116 flow.tee~;
+#X obj 76 140 ui.dt;
+#X obj 20 164 ui.hgain~;
+#X obj 20 188 dac~;
+#X connect 0 0 6 0;
+#X connect 2 0 6 0;
+#X connect 3 0 6 0;
+#X connect 4 0 6 0;
+#X connect 5 0 6 0;
+#X connect 6 1 7 0;
+#X connect 6 0 8 0;
+#X connect 8 0 9 0;
+#X connect 8 0 9 1;

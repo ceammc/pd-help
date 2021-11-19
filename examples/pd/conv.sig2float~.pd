@@ -1,0 +1,9 @@
+#N canvas 0 0 228 129 12;
+#X obj 20 44 phasor~ 0.5;
+#X msg 132 44 bang;
+#X obj 20 68 sig->float~ 500;
+#X floatatom 20 92 5 0 0 0 - - -;
+#X obj 132 92 ui.dsp~;
+#X connect 0 0 2 0;
+#X connect 1 0 2 0;
+#X connect 2 0 3 0;

@@ -1,0 +1,11 @@
+#N canvas 0 0 250 201 12;
+#X msg 20 44 symbol 0xFF;
+#X obj 20 68 hex->int;
+#X floatatom 20 92 5 0 0 0 - - -;
+#X msg 20 116 list 0xFF 0xFFFF DEADBEEF;
+#X obj 20 140 hex->int;
+#X obj 20 164 ui.d @display_type 1;
+#X connect 0 0 1 0;
+#X connect 1 0 2 0;
+#X connect 3 0 4 0;
+#X connect 4 0 5 0;

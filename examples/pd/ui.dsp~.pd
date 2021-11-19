@@ -1,0 +1,8 @@
+#N canvas 0 0 246 117 12;
+#X msg 20 44 start;
+#X msg 84 44 stop;
+#X msg 140 44 settings;
+#X obj 20 80 ui.dsp~;
+#X connect 0 0 3 0;
+#X connect 1 0 3 0;
+#X connect 2 0 3 0;

@@ -1,0 +1,18 @@
+#N canvas 0 0 303 297 12;
+#X floatatom 20 44 5 0 0 0 - - -;
+#X msg 60 44 0 \, 30 2000;
+#X obj 60 68 line;
+#X obj 20 92 t b f;
+#X text 124 92 change list values;
+#X obj 20 116 ui.sliders @count 30 @size 200 60;
+#X obj 20 176 list.shift 10;
+#X obj 20 200 ui.sliders @count 30 @size 200 60;
+#X obj 20 260 print;
+#X connect 1 0 2 0;
+#X connect 0 0 3 0;
+#X connect 2 0 3 0;
+#X connect 3 0 5 0;
+#X connect 5 0 6 0;
+#X connect 6 0 7 0;
+#X connect 7 0 8 0;
+#X connect 3 1 6 1;

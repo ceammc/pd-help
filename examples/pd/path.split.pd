@@ -1,0 +1,8 @@
+#N canvas 0 0 271 153 12;
+#X msg 20 44 symbol /path/to/the/file.txt;
+#X obj 20 68 path.split;
+#X obj 92 92 ui.dt;
+#X obj 20 116 ui.dt;
+#X connect 0 0 1 0;
+#X connect 1 1 2 0;
+#X connect 1 0 3 0;

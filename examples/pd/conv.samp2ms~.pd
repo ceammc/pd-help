@@ -1,0 +1,11 @@
+#N canvas 0 0 621 321 12;
+#X msg 20 44 bang;
+#X obj 20 68 plot.linspace~ 0 sr();
+#X obj 20 92 samp->ms~;
+#X obj 20 116 ui.plot~ @size 400 170 @xlabels 1 @ylabels 1 @ymin 0
+@ymax 1000 @ymin_ticks 0;
+#X obj 20 284 ui.dsp~;
+#X connect 0 0 1 0;
+#X connect 1 0 2 0;
+#X connect 2 0 3 0;
+#X connect 1 1 3 1;

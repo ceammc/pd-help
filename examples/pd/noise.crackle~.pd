@@ -1,0 +1,12 @@
+#N canvas 0 0 217 177 12;
+#X msg 20 44 @freq 3;
+#X msg 100 44 @freq 50;
+#X obj 20 68 noise.crackle~;
+#X obj 20 92 ui.gain~ @size 120 16;
+#X obj 20 116 dac~;
+#X obj 20 140 ui.dsp~;
+#X connect 0 0 2 0;
+#X connect 1 0 2 0;
+#X connect 2 0 3 0;
+#X connect 3 0 4 0;
+#X connect 3 0 4 1;

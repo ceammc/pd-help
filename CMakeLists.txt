@@ -23,6 +23,9 @@ configure_file(scripts/examples_img.sh
 configure_file(scripts/pd_to_postscript.sh
     ${PROJECT_BINARY_DIR}/pd_to_postscript.sh @ONLY)
 
+configure_file(scripts/examples_img_trim.sh
+    ${PROJECT_BINARY_DIR}/examples_img_trim.sh @ONLY)
+
 include(ExternalProject)
 ExternalProject_Add(
     ceammc
@@ -45,5 +48,10 @@ add_custom_target(examples_pd
 
 add_custom_target(examples_img
   COMMAND ${PROJECT_BINARY_DIR}/examples_img.sh
+  DEPENDS ceammc
+  USES_TERMINAL)
+
+add_custom_target(examples_img_trim
+  COMMAND ${PROJECT_BINARY_DIR}/examples_img_trim.sh
   DEPENDS ceammc
   USES_TERMINAL)

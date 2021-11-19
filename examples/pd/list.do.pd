@@ -1,8 +1,8 @@
-#N canvas 0 0 351 129 12;
-#X msg 20 44 1 1 1 1 1;
-#X obj 20 68 list.do;
-#X obj 148 68 expr $f1 - ($f2 / $f3);
-#X obj 20 92 ui.dt;
+#N canvas 0 0 367 147 12;
+#X msg 20 50 1 1 1 1 1;
+#X obj 20 80 list.do;
+#X obj 164 80 expr $f1 - ($f2 / $f3);
+#X obj 20 110 ui.dt;
 #X connect 0 0 1 0;
 #X connect 1 0 3 0;
 #X connect 1 1 2 0;

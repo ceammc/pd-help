@@ -1,11 +1,11 @@
-#N canvas 0 0 168 177 12;
-#X floatatom 20 44 5 0 0 0 - - -;
-#X msg 68 44 1 2 3 4;
-#X obj 36 68 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#N canvas 0 0 174 207 12;
+#X floatatom 20 50 5 0 0 0 - - -;
+#X msg 74 50 1 2 3 4;
+#X obj 38 80 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X obj 20 92 data.set a b c;
-#X obj 20 116 set.size;
-#X floatatom 20 140 5 0 0 0 - - -;
+#X obj 20 110 data.set a b c;
+#X obj 20 140 set.size;
+#X floatatom 20 170 5 0 0 0 - - -;
 #X connect 0 0 3 0;
 #X connect 2 0 3 0;
 #X connect 1 0 3 0;

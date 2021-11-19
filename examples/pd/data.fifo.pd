@@ -1,19 +1,19 @@
-#N canvas 0 0 512 177 12;
-#X floatatom 156 44 5 0 0 0 - - -;
-#X msg 52 68 pop;
-#X msg 108 68 1 2;
-#X msg 156 68 resize \$1;
-#X msg 260 80 @size?;
-#X msg 332 80 @free?;
-#X msg 404 80 @filled?;
-#X floatatom 20 92 5 0 0 0 - - -;
-#X obj 76 92 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#N canvas 0 0 560 207 12;
+#X floatatom 173 50 5 0 0 0 - - -;
+#X msg 56 80 pop;
+#X msg 119 80 1 2;
+#X msg 173 80 resize \$1;
+#X msg 290 95 @size?;
+#X msg 371 95 @free?;
+#X msg 452 95 @filled?;
+#X floatatom 20 110 5 0 0 0 - - -;
+#X obj 83 110 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X msg 124 92 clear;
-#X msg 204 92 flush;
-#X obj 20 116 data.fifo 5;
-#X obj 20 140 ui.dt;
-#X obj 156 140 print;
+#X msg 137 110 clear;
+#X msg 227 110 flush;
+#X obj 20 140 data.fifo 5;
+#X obj 20 170 ui.dt;
+#X obj 173 170 print;
 #X connect 0 0 3 0;
 #X connect 7 0 11 0;
 #X connect 1 0 11 0;

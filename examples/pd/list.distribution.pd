@@ -1,20 +1,20 @@
-#N canvas 0 0 516 273 12;
-#X obj 20 44 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#N canvas 0 0 548 327 12;
+#X obj 20 50 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #N canvas 0 22 450 300 (subpatch) 0;
 #X array distrib 20 float 1;
 #A 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
 #X coords 0 1 20 0 200 140 1;
-#X restore 276 44 graph;
-#X obj 20 68 t b b;
-#X msg 52 92 normalize;
-#X obj 52 116 s distrib;
-#X obj 20 140 list.gen 1000;
-#X obj 164 140 random.int 0 20;
-#X obj 20 164 list.distribution @normalize 1;
-#X obj 20 188 list.repack 2;
-#X obj 20 212 swap;
-#X obj 20 236 tabwrite distrib;
+#X restore 308 50 graph;
+#X obj 20 80 t b b;
+#X msg 56 110 normalize;
+#X obj 56 140 s distrib;
+#X obj 20 170 list.gen 1000;
+#X obj 182 170 random.int 0 20;
+#X obj 20 200 list.distribution @normalize 1;
+#X obj 20 230 list.repack 2;
+#X obj 20 260 swap;
+#X obj 20 290 tabwrite distrib;
 #X connect 0 0 2 0;
 #X connect 2 0 3 0;
 #X connect 3 0 4 0;

@@ -1,10 +1,10 @@
-#N canvas 0 0 335 153 12;
-#X text 20 44 Note: @mouse_events property is *on*;
-#X obj 20 68 loadmsg 0.5;
-#X obj 20 92 ui.k @mouse_events 1 @show_value 1;
-#X obj 116 92 spring 0.5 1000 @accel 2;
-#X floatatom 116 116 5 0 0 0 - - -;
-#X obj 260 116 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#N canvas 0 0 346 177 12;
+#X text 20 50 Note: @mouse_events property is *on*;
+#X obj 20 80 loadmsg 0.5;
+#X obj 20 110 ui.k @mouse_events 1 @show_value 1;
+#X obj 128 110 spring 0.5 1000 @accel 2;
+#X floatatom 128 140 5 0 0 0 - - -;
+#X obj 290 140 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X connect 1 0 2 0;
 #X connect 3 0 4 0;

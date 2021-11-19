@@ -1,13 +1,13 @@
-#N canvas 0 0 686 249 12;
-#X floatatom 20 44 5 0 0 0 - - -;
-#X msg 124 44 bang;
-#X obj 236 44 ui.menu sin saw tri sqr pulse +sin +saw +tri +sqr
+#N canvas 0 0 713 297 12;
+#X floatatom 20 50 5 0 0 0 - - -;
+#X msg 137 50 bang;
+#X obj 263 50 ui.menu sin saw tri sqr pulse +sin +saw +tri +sqr
 +pulse;
-#X obj 124 68 ui.hrd;
-#X msg 236 68 @wave \$2;
-#X obj 20 92 lfo.mosc~ 30 @duty 0.1;
-#X obj 20 116 ui.scope~ @size 150 100;
-#X obj 20 212 ui.dsp~;
+#X obj 137 80 ui.hrd;
+#X msg 263 80 @wave \$2;
+#X obj 20 110 lfo.mosc~ 30 @duty 0.1;
+#X obj 20 140 ui.scope~ @size 150 100;
+#X obj 20 260 ui.dsp~;
 #X connect 2 0 4 0;
 #X connect 0 0 5 0;
 #X connect 4 0 5 0;

@@ -1,9 +1,9 @@
-#N canvas 0 0 260 249 12;
-#X obj 20 44 gsynth.birds~;
-#X obj 20 164 fx.zita_rev1~;
-#X obj 164 164 ui.dsp~;
-#X obj 20 188 ui.hgain2~;
-#X obj 20 212 dac~;
+#N canvas 0 0 278 297 12;
+#X obj 20 50 gsynth.birds~;
+#X obj 20 200 fx.zita_rev1~;
+#X obj 182 200 ui.dsp~;
+#X obj 20 230 ui.hgain2~;
+#X obj 20 260 dac~;
 #X connect 0 0 1 0;
 #X connect 0 1 1 1;
 #X connect 1 0 3 0;

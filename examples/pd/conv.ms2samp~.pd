@@ -1,10 +1,10 @@
-#N canvas 0 0 686 321 12;
-#X msg 20 44 bang;
-#X obj 20 68 plot.linspace~ 0 1000;
-#X obj 20 92 ms->samp~;
-#X obj 20 116 ui.plot~ @size 400 170 @xlabels 1 @ylabels 1 @ymin 0
+#N canvas 0 0 686 387 12;
+#X msg 20 50 bang;
+#X obj 20 80 plot.linspace~ 0 1000;
+#X obj 20 110 ms->samp~;
+#X obj 20 140 ui.plot~ @size 400 170 @xlabels 1 @ylabels 1 @ymin 0
 @ymax 1000 @yauto 1 @ymin_ticks 0;
-#X obj 20 284 ui.dsp~;
+#X obj 20 350 ui.dsp~;
 #X connect 0 0 1 0;
 #X connect 1 0 2 0;
 #X connect 2 0 3 0;

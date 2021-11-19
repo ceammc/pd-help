@@ -1,17 +1,17 @@
-#N canvas 0 0 339 237 12;
-#X obj 20 44 hslider 128 15 0.0 127.0 0 0 empty empty empty 17 7 0 10
+#N canvas 0 0 372 282 12;
+#X obj 20 50 hslider 128 15 0.0 127.0 0 0 empty empty empty 17 7 0 10
 -262144 -1 -1 0 0;
-#X msg 36 68 + 50;
-#X msg 92 68 - 75;
-#X msg 148 68 * 2;
-#X msg 196 68 / 3 \, bang;
-#X msg 52 92 ++;
-#X msg 108 92 --;
-#X msg 212 116 set -1;
-#X obj 284 116 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#X msg 38 80 + 50;
+#X msg 101 80 - 75;
+#X msg 164 80 * 2;
+#X msg 218 80 / 3 \, bang;
+#X msg 56 110 ++;
+#X msg 119 110 --;
+#X msg 236 140 set -1;
+#X obj 317 140 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X obj 20 140 ui.number @size 200 40;
-#X floatatom 20 200 5 0 0 0 - - -;
+#X obj 20 170 ui.number @size 200 40;
+#X floatatom 20 245 5 0 0 0 - - -;
 #X connect 0 0 9 0;
 #X connect 1 0 9 0;
 #X connect 5 0 9 0;

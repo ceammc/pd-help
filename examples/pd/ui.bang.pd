@@ -1,11 +1,11 @@
-#N canvas 0 0 164 153 12;
-#X msg 20 44 dump;
-#X obj 20 68 ui.bang @size 17 17;
-#X obj 76 92 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#N canvas 0 0 171 177 12;
+#X msg 20 50 dump;
+#X obj 20 80 ui.bang @size 17 17;
+#X obj 83 110 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X obj 20 116 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#X obj 20 140 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X obj 76 116 s b_in;
+#X obj 83 140 s b_in;
 #X connect 0 0 1 0;
 #X connect 1 0 3 0;
 #X connect 2 0 4 0;

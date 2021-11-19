@@ -1,10 +1,10 @@
-#N canvas 0 0 360 153 12;
-#X msg 20 44 bang;
-#X msg 116 44 symbol %CEAMMC%/guitar1.wav;
-#X obj 20 68 openpanel;
-#X obj 116 68 expand_env;
-#X obj 20 92 file.size;
-#X obj 20 116 ui.dt;
+#N canvas 0 0 372 177 12;
+#X msg 20 50 bang;
+#X msg 128 50 symbol %CEAMMC%/guitar1.wav;
+#X obj 20 80 openpanel;
+#X obj 128 80 expand_env;
+#X obj 20 110 file.size;
+#X obj 20 140 ui.dt;
 #X connect 0 0 2 0;
 #X connect 1 0 3 0;
 #X connect 2 0 4 0;

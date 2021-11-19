@@ -1,13 +1,13 @@
-#N canvas 0 0 484 310 12;
-#X obj 236 44 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0 1;
-#X msg 20 68 set 0 0;
-#X msg 108 68 move 0.1 -0.1;
-#X msg 236 68 @show_grid \$1;
-#X obj 20 92 ui.slider2d @presetname s2d-help @size 100 100;
-#X obj 20 188 ui.display @display_type 1;
-#X text 20 212 [Shift+click] to save \, [Alt+click] to remove \, [click]
+#N canvas 0 0 484 367 12;
+#X obj 263 50 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0 1;
+#X msg 20 80 set 0 0;
+#X msg 119 80 move 0.1 -0.1;
+#X msg 263 80 @show_grid \$1;
+#X obj 20 110 ui.slider2d @presetname s2d-help @size 100 100;
+#X obj 20 230 ui.display @display_type 1;
+#X text 20 260 [Shift+click] to save \, [Alt+click] to remove \, [click]
 to activate;
-#X obj 20 248 ui.preset @size 102 42;
+#X obj 20 305 ui.preset @size 102 42;
 #X connect 0 0 3 0;
 #X connect 1 0 4 0;
 #X connect 2 0 4 0;

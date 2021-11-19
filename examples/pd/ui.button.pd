@@ -1,4 +1,4 @@
-#N canvas 0 0 130 129 12;
-#X obj 20 44 ui.button;
-#X floatatom 20 92 5 0 0 0 - - -;
+#N canvas 0 0 130 147 12;
+#X obj 20 50 ui.button;
+#X floatatom 20 110 5 0 0 0 - - -;
 #X connect 0 0 1 0;

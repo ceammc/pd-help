@@ -1,7 +1,7 @@
-#N canvas 0 0 202 153 12;
-#X msg 20 44 1 2 3;
-#X obj 20 68 list.convolve 3 4 5;
-#X obj 20 92 ui.dt;
-#X obj 20 116 list.convolve.1;
+#N canvas 0 0 202 177 12;
+#X msg 20 50 1 2 3;
+#X obj 20 80 list.convolve 3 4 5;
+#X obj 20 110 ui.dt;
+#X obj 20 140 list.convolve.1;
 #X connect 0 0 1 0;
 #X connect 1 0 2 0;

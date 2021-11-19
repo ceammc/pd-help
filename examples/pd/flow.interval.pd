@@ -1,10 +1,10 @@
-#N canvas 0 0 167 177 12;
-#X obj 20 44 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0 1;
-#X floatatom 92 44 5 0 0 0 - - -;
-#X obj 20 68 metro 100;
-#X floatatom 44 92 5 0 0 0 - - -;
-#X obj 20 116 flow.interval;
-#X floatatom 20 140 5 0 0 0 - - -;
+#N canvas 0 0 176 207 12;
+#X obj 20 50 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0 1;
+#X floatatom 101 50 5 0 0 0 - - -;
+#X obj 20 80 metro 100;
+#X floatatom 47 110 5 0 0 0 - - -;
+#X obj 20 140 flow.interval;
+#X floatatom 20 170 5 0 0 0 - - -;
 #X connect 0 0 2 0;
 #X connect 1 0 2 1;
 #X connect 2 0 4 0;

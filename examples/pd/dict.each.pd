@@ -1,9 +1,9 @@
-#N canvas 0 0 226 153 12;
-#X msg 20 44 [a: 1 c: 2 e: 3] \, bang;
-#X obj 20 68 dict;
-#X obj 20 92 dict.each;
-#X obj 132 92 * 100;
-#X obj 20 116 ui.d;
+#N canvas 0 0 228 177 12;
+#X msg 20 50 [a: 1 c: 2 e: 3] \, bang;
+#X obj 20 80 dict;
+#X obj 20 110 dict.each;
+#X obj 146 110 * 100;
+#X obj 20 140 ui.d;
 #X connect 0 0 1 0;
 #X connect 1 0 2 0;
 #X connect 2 0 4 0;

@@ -1,6 +1,6 @@
-#N canvas 0 0 137 129 12;
-#X msg 20 44 bang;
-#X obj 20 68 patch.tree;
-#X obj 20 92 print TREE;
+#N canvas 0 0 137 147 12;
+#X msg 20 50 bang;
+#X obj 20 80 patch.tree;
+#X obj 20 110 print TREE;
 #X connect 0 0 1 0;
 #X connect 1 0 2 0;

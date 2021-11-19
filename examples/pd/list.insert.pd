@@ -1,9 +1,9 @@
-#N canvas 0 0 253 165 12;
-#X msg 20 44 1 2 3 4;
-#X msg 44 68 list D E F;
-#X floatatom 156 68 5 0 0 0 - - -;
-#X obj 20 104 list.insert A B C @index 1;
-#X obj 20 128 ui.display @display_type 1;
+#N canvas 0 0 253 192 12;
+#X msg 20 50 1 2 3 4;
+#X msg 47 80 list D E F;
+#X floatatom 173 80 5 0 0 0 - - -;
+#X obj 20 125 list.insert A B C @index 1;
+#X obj 20 155 ui.display @display_type 1;
 #X connect 0 0 3 0;
 #X connect 1 0 3 1;
 #X connect 2 0 3 2;

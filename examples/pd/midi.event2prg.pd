@@ -1,16 +1,16 @@
-#N canvas 0 0 258 273 12;
-#X obj 20 44 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#N canvas 0 0 278 327 12;
+#X obj 20 50 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X obj 20 68 openpanel;
-#X msg 20 92 read \$1 \, bang;
-#X obj 20 116 midi.file;
-#X msg 124 116 play;
-#X msg 180 116 stop;
-#X obj 20 140 midi.track @join;
-#X obj 20 164 midi.ev->prg;
-#X obj 20 188 midi.prg->str @symbol;
-#X obj 20 212 msg set;
-#X msg 20 236 ;
+#X obj 20 80 openpanel;
+#X msg 20 110 read \$1 \, bang;
+#X obj 20 140 midi.file;
+#X msg 137 140 play;
+#X msg 200 140 stop;
+#X obj 20 170 midi.track @join;
+#X obj 20 200 midi.ev->prg;
+#X obj 20 230 midi.prg->str @symbol;
+#X obj 20 260 msg set;
+#X msg 20 290 ;
 #X connect 0 0 1 0;
 #X connect 1 0 2 0;
 #X connect 2 0 3 0;

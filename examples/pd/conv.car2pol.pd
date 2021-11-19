@@ -1,9 +1,9 @@
-#N canvas 0 0 285 201 12;
-#X obj 20 44 ui.slider2d @size 100 100;
-#X obj 148 92 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0 1;
-#X msg 148 116 @positive \$1;
-#X obj 20 140 car->pol;
-#X obj 20 164 ui.display @display_type 1;
+#N canvas 0 0 301 237 12;
+#X obj 20 50 ui.slider2d @size 100 100;
+#X obj 164 110 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0 1;
+#X msg 164 140 @positive \$1;
+#X obj 20 170 car->pol;
+#X obj 20 200 ui.display @display_type 1;
 #X connect 1 0 2 0;
 #X connect 0 0 3 0;
 #X connect 2 0 3 0;

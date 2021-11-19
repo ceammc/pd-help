@@ -1,9 +1,9 @@
-#N canvas 0 0 195 165 12;
-#X floatatom 20 44 5 0 0 0 - - -;
-#X obj 20 68 lfo.impulse~ 8;
-#X obj 140 80 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0 1;
-#X obj 20 104 *~;
-#X obj 20 128 dac~;
+#N canvas 0 0 210 192 12;
+#X floatatom 20 50 5 0 0 0 - - -;
+#X obj 20 80 lfo.impulse~ 8;
+#X obj 155 95 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0 1;
+#X obj 20 125 *~;
+#X obj 20 155 dac~;
 #X connect 0 0 1 0;
 #X connect 1 0 3 0;
 #X connect 2 0 3 1;

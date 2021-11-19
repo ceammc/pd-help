@@ -1,9 +1,9 @@
-#N canvas 0 0 236 153 12;
-#X obj 20 44 ui.hsl @min -144 @max 6;
-#X floatatom 20 68 8 0 0 0 - - -;
-#X obj 20 92 dbfs->amp~;
-#X obj 140 92 ui.dsp~;
-#X obj 20 116 ui.n~;
+#N canvas 0 0 251 177 12;
+#X obj 20 50 ui.hsl @min -144 @max 6;
+#X floatatom 20 80 8 0 0 0 - - -;
+#X obj 20 110 dbfs->amp~;
+#X obj 155 110 ui.dsp~;
+#X obj 20 140 ui.n~;
 #X connect 0 0 1 0;
 #X connect 1 0 2 0;
 #X connect 2 0 4 0;

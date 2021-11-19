@@ -1,10 +1,10 @@
-#N canvas 0 0 309 165 12;
-#X msg 20 44 1 2 3 4 5;
-#X msg 116 44 1 2;
-#X floatatom 132 80 5 0 0 0 - - -;
-#X msg 188 80 symbol \$\$\$;
-#X obj 20 104 list.set -2 ABC;
-#X obj 20 128 ui.dt;
+#N canvas 0 0 330 192 12;
+#X msg 20 50 1 2 3 4 5;
+#X msg 128 50 1 2;
+#X floatatom 146 95 5 0 0 0 - - -;
+#X msg 209 95 symbol \$\$\$;
+#X obj 20 125 list.set -2 ABC;
+#X obj 20 155 ui.dt;
 #X connect 0 0 4 0;
 #X connect 1 0 4 0;
 #X connect 2 0 4 1;

@@ -1,10 +1,10 @@
-#N canvas 0 0 454 177 12;
-#X floatatom 20 44 5 0 0 0 - - -;
-#X floatatom 68 68 5 0 0 0 - - -;
-#X obj 68 92 prop.set @delay;
-#X msg 260 92 other append message;
-#X obj 20 116 flow.append "@message" 1 2 3 @delay 100;
-#X obj 20 140 print;
+#N canvas 0 0 484 207 12;
+#X floatatom 20 50 5 0 0 0 - - -;
+#X floatatom 74 80 5 0 0 0 - - -;
+#X obj 74 110 prop.set @delay;
+#X msg 290 110 other append message;
+#X obj 20 140 flow.append "@message" 1 2 3 @delay 100;
+#X obj 20 170 print;
 #X connect 1 0 2 0;
 #X connect 0 0 4 0;
 #X connect 2 0 4 0;

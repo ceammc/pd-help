@@ -1,5 +1,5 @@
-#N canvas 0 0 466 117 12;
-#X msg 20 44 exit 0;
-#X text 92 44 WARNING: this will close PureData in 1000ms!;
-#X obj 20 80 system.exit @delay 1000;
+#N canvas 0 0 475 132 12;
+#X msg 20 50 exit 0;
+#X text 101 50 WARNING: this will close PureData in 1000ms!;
+#X obj 20 95 system.exit @delay 1000;
 #X connect 0 0 2 0;

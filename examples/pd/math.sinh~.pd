@@ -1,14 +1,14 @@
-#N canvas 0 0 556 357 12;
-#X obj 20 44 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#N canvas 0 0 556 432 12;
+#X obj 20 50 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X obj 20 68 plot.linspace~ -3 3, f 37;
-#X obj 220 92 *~ -1;
-#X obj 20 116 math.sinh~;
-#X obj 124 116 math.exp~;
-#X obj 220 116 math.exp~;
-#X obj 20 140 ui.plot~ @xlabels 1 @ylabels 1 @ymin -10 @ymax 10 @size
+#X obj 20 80 plot.linspace~ -3 3, f 37;
+#X obj 245 110 *~ -1;
+#X obj 20 140 math.sinh~;
+#X obj 137 140 math.exp~;
+#X obj 245 140 math.exp~;
+#X obj 20 170 ui.plot~ @xlabels 1 @ylabels 1 @ymin -10 @ymax 10 @size
 250 200 @n 3;
-#X obj 20 320 ui.dsp~;
+#X obj 20 395 ui.dsp~;
 #X connect 0 0 1 0;
 #X connect 1 0 2 0;
 #X connect 1 0 3 0;

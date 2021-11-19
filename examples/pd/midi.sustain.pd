@@ -1,10 +1,10 @@
-#N canvas 0 0 165 249 12;
-#X obj 20 44 ui.hk 24;
-#X obj 100 104 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0 1;
-#X obj 20 128 midi.sustain;
-#X obj 20 152 ui.hk 24;
-#X obj 20 212 print;
-#X obj 84 212 ui.dt;
+#N canvas 0 0 173 297 12;
+#X obj 20 50 ui.hk 24;
+#X obj 110 125 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0 1;
+#X obj 20 155 midi.sustain;
+#X obj 20 185 ui.hk 24;
+#X obj 20 260 print;
+#X obj 92 260 ui.dt;
 #X connect 0 0 2 0;
 #X connect 1 0 2 1;
 #X connect 2 0 3 0;

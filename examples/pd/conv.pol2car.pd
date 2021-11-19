@@ -1,10 +1,10 @@
-#N canvas 0 0 160 308 12;
-#X obj 20 44 ui.knob;
-#X floatatom 20 92 5 0 0 0 - - -;
-#X obj 20 116 phase->rad;
-#X msg 20 140 1 \$1;
-#X obj 20 164 pol->car;
-#X obj 20 188 ui.slider2d @size 100 100;
+#N canvas 0 0 160 350 12;
+#X obj 20 50 ui.knob;
+#X floatatom 20 110 5 0 0 0 - - -;
+#X obj 20 140 phase->rad;
+#X msg 20 170 1 \$1;
+#X obj 20 200 pol->car;
+#X obj 20 230 ui.slider2d @size 100 100;
 #X connect 0 0 1 0;
 #X connect 1 0 2 0;
 #X connect 2 0 3 0;

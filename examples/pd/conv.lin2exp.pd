@@ -1,5 +1,5 @@
-#N canvas 0 0 548 204 12;
-#X msg 20 44 0 1001;
+#N canvas 0 0 584 237 12;
+#X msg 20 50 0 1001;
 #N canvas 0 22 450 300 (subpatch) 0;
 #X array l2e 1000 float 1;
 #A 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
@@ -32,12 +32,12 @@
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
 #X coords 0 1 1000 0 200 140 1;
-#X restore 308 44 graph;
-#X obj 20 68 list.seq;
-#X obj 20 92 list.separate;
-#X obj 20 116 t f f, f 12;
-#X obj 20 140 lin->exp 0 1001 0.01 1;
-#X obj 20 164 tabwrite l2e;
+#X restore 344 50 graph;
+#X obj 20 80 list.seq;
+#X obj 20 110 list.separate;
+#X obj 20 140 t f f, f 12;
+#X obj 20 170 lin->exp 0 1001 0.01 1;
+#X obj 20 200 tabwrite l2e;
 #X connect 0 0 2 0;
 #X connect 2 0 3 0;
 #X connect 3 0 4 0;

@@ -1,39 +1,39 @@
-#N canvas 0 0 516 441 12;
-#X obj 20 44 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#N canvas 0 0 558 537 12;
+#X obj 20 50 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X obj 20 68 openpanel;
-#X msg 28 92 symbol %CEAMMC%/sin_ch4_44.1k.wav;
-#X msg 52 116 symbol %CEAMMC%/sound/vla-overtones-3.mp3;
-#X msg 20 140 load \$1 to array[1|2] @resize;
+#X obj 20 80 openpanel;
+#X msg 29 110 symbol %CEAMMC%/sin_ch4_44.1k.wav;
+#X msg 56 140 symbol %CEAMMC%/sound/vla-overtones-3.mp3;
+#X msg 20 170 load \$1 to array[1|2] @resize;
 #N canvas 0 22 450 300 (subpatch) 0;
 #X array array1 100 float 1;
 #A 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
 #X coords 0 1 100 -1 120 80 1;
-#X restore 356 140 graph;
-#X obj 20 164 expand_env;
-#X obj 20 200 snd.file;
-#X floatatom 20 224 8 0 0 0 - - -;
+#X restore 398 170 graph;
+#X obj 20 200 expand_env;
+#X obj 20 245 snd.file;
+#X floatatom 20 275 8 0 0 0 - - -;
 #N canvas 0 22 450 300 (subpatch) 0;
 #X array array2 100 float 1;
 #A 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
 #X coords 0 1 100 -1 120 80 1;
-#X restore 356 224 graph;
-#X text 20 248 play;
-#X msg 20 272 bang;
-#X msg 132 272 stop;
-#X obj 20 308 tabplay~ array1;
-#X obj 180 308 tabplay~ array2;
-#X obj 20 332 ui.hgain2~;
-#X obj 212 332 ui.dsp~;
-#X obj 20 356 dac~;
-#X obj 20 380 snd.file.resample-help;
-#X obj 220 380 snd.file.gain-help;
-#X obj 20 404 snd.file.pattern-help;
-#X obj 220 404 snd.file.position-help;
+#X restore 398 275 graph;
+#X text 20 305 play;
+#X msg 20 335 bang;
+#X msg 146 335 stop;
+#X obj 20 380 tabplay~ array1;
+#X obj 200 380 tabplay~ array2;
+#X obj 20 410 ui.hgain2~;
+#X obj 236 410 ui.dsp~;
+#X obj 20 440 dac~;
+#X obj 20 470 snd.file.resample-help;
+#X obj 245 470 snd.file.gain-help;
+#X obj 20 500 snd.file.pattern-help;
+#X obj 245 500 snd.file.position-help;
 #X connect 0 0 1 0;
 #X connect 2 0 4 0;
 #X connect 3 0 4 0;

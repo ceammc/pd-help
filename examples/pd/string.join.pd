@@ -1,10 +1,10 @@
-#N canvas 0 0 253 177 12;
-#X msg 20 44 bang;
-#X obj 20 68 string TEST;
-#X obj 20 92 string.split;
-#X msg 148 92 symbol .;
-#X obj 20 116 string.join " ";
-#X obj 20 140 ui.dt;
+#N canvas 0 0 269 207 12;
+#X msg 20 50 bang;
+#X obj 20 80 string TEST;
+#X obj 20 110 string.split;
+#X msg 164 110 symbol .;
+#X obj 20 140 string.join " ";
+#X obj 20 170 ui.dt;
 #X connect 0 0 1 0;
 #X connect 1 0 2 0;
 #X connect 2 0 4 0;

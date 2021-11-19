@@ -1,10 +1,10 @@
-#N canvas 0 0 365 153 12;
-#X msg 20 44 list 1 2 3 @prop1 100 @prop2 A B C @prop3;
-#X obj 20 68 list->props, f 20;
-#X obj 20 92 route @prop1;
-#X obj 148 92 print;
-#X obj 212 92 ui.display;
-#X floatatom 20 116 5 0 0 0 - - -;
+#N canvas 0 0 365 177 12;
+#X msg 20 50 list 1 2 3 @prop1 100 @prop2 A B C @prop3;
+#X obj 20 80 list->props, f 20;
+#X obj 20 110 route @prop1;
+#X obj 164 110 print;
+#X obj 236 110 ui.display;
+#X floatatom 20 140 5 0 0 0 - - -;
 #X connect 0 0 1 0;
 #X connect 1 0 2 0;
 #X connect 1 0 3 0;

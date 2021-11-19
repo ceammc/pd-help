@@ -1,16 +1,16 @@
-#N canvas 0 0 1105 441 12;
-#X msg 20 44 bang;
-#X obj 20 68 plot.linspace~ 0 3.14159 @pi;
-#X msg 44 92 @b 0.5 -0.5;
-#X msg 156 92 @b 0.5 0 0.5;
-#X msg 276 92 @b 0.5 0 -0.5;
-#X obj 404 92 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0 1;
-#X msg 404 116 @db \$1;
-#X obj 20 140 flt.freqz~ @b 0.5 0.5;
-#X obj 20 176 ui.plot~ @ymin -2 @ymax 2 @yauto 1 @xlabels 1 @ylabels 1
+#N canvas 0 0 1105 537 12;
+#X msg 20 50 bang;
+#X obj 20 80 plot.linspace~ 0 3.14159 @pi;
+#X msg 47 110 @b 0.5 -0.5;
+#X msg 173 110 @b 0.5 0 0.5;
+#X msg 308 110 @b 0.5 0 -0.5;
+#X obj 452 110 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0 1;
+#X msg 452 140 @db \$1;
+#X obj 20 170 flt.freqz~ @b 0.5 0.5;
+#X obj 20 215 ui.plot~ @ymin -2 @ymax 2 @yauto 1 @xlabels 1 @ylabels 1
 @size 450 260 @xmaj_ticks 0 @xmin_ticks 0 @xmin_grid 1 @ymaj_ticks 0
 @ymin_ticks 0 @n 2;
-#X obj 20 404 ui.dsp~;
+#X obj 20 500 ui.dsp~;
 #X connect 0 0 1 0;
 #X connect 5 0 6 0;
 #X connect 1 0 7 0;

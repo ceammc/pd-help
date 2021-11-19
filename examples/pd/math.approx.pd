@@ -1,11 +1,11 @@
-#N canvas 0 0 318 177 12;
-#X obj 20 44 hslider 128 15 0.0 127.0 0 0 empty empty empty 17 7 0 10
+#N canvas 0 0 338 207 12;
+#X obj 20 50 hslider 128 15 0.0 127.0 0 0 empty empty empty 17 7 0 10
 -262144 -1 -1 0 0;
-#X msg 52 68 1.99 2 0.01;
-#X floatatom 20 92 5 0 0 0 - - -;
-#X obj 20 116 math.approx 50 10;
-#X text 180 116 40 <= x <= 60;
-#X floatatom 20 140 5 0 0 0 - - -;
+#X msg 56 80 1.99 2 0.01;
+#X floatatom 20 110 5 0 0 0 - - -;
+#X obj 20 140 math.approx 50 10;
+#X text 200 140 40 <= x <= 60;
+#X floatatom 20 170 5 0 0 0 - - -;
 #X connect 0 0 2 0;
 #X connect 2 0 3 0;
 #X connect 1 0 3 0;

@@ -1,11 +1,11 @@
-#N canvas 0 0 236 153 12;
-#X obj 20 44 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#N canvas 0 0 247 177 12;
+#X obj 20 50 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X floatatom 52 44 5 0 0 0 - - -;
-#X msg 108 44 symbol test;
-#X obj 20 68 string A B C;
-#X obj 20 92 str->sym;
-#X obj 20 116 ui.dt;
+#X floatatom 56 50 5 0 0 0 - - -;
+#X msg 119 50 symbol test;
+#X obj 20 80 string A B C;
+#X obj 20 110 str->sym;
+#X obj 20 140 ui.dt;
 #X connect 0 0 3 0;
 #X connect 1 0 3 0;
 #X connect 2 0 3 0;

@@ -1,8 +1,8 @@
-#N canvas 0 0 328 153 12;
-#X msg 20 44 (() 1 2 (3 (4 5)) ((((6)))) 7) \, bang;
-#X obj 20 68 mlist;
-#X obj 20 92 mlist.flatten;
-#X obj 20 116 ui.display @display_type 1;
+#N canvas 0 0 328 177 12;
+#X msg 20 50 (() 1 2 (3 (4 5)) ((((6)))) 7) \, bang;
+#X obj 20 80 mlist;
+#X obj 20 110 mlist.flatten;
+#X obj 20 140 ui.display @display_type 1;
 #X connect 0 0 1 0;
 #X connect 1 0 2 0;
 #X connect 2 0 3 0;

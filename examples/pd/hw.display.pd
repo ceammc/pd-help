@@ -1,9 +1,9 @@
-#N canvas 0 0 292 153 12;
-#X obj 20 44 ui.slider @size 120 12;
-#X msg 20 68 @brightness \$1;
-#X msg 156 68 @brightness?;
-#X obj 20 92 hw.display;
-#X obj 20 116 ui.d;
+#N canvas 0 0 309 177 12;
+#X obj 20 50 ui.slider @size 120 12;
+#X msg 20 80 @brightness \$1;
+#X msg 173 80 @brightness?;
+#X obj 20 110 hw.display;
+#X obj 20 140 ui.d;
 #X connect 0 0 1 0;
 #X connect 1 0 3 0;
 #X connect 2 0 3 0;

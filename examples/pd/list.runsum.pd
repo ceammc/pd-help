@@ -1,6 +1,6 @@
-#N canvas 0 0 231 177 12;
-#X obj 20 44 ui.sliders @size 150 80;
-#X obj 20 116 list.runsum;
-#X obj 20 140 ui.dt;
+#N canvas 0 0 231 207 12;
+#X obj 20 50 ui.sliders @size 150 80;
+#X obj 20 140 list.runsum;
+#X obj 20 170 ui.dt;
 #X connect 0 0 1 0;
 #X connect 1 0 2 0;

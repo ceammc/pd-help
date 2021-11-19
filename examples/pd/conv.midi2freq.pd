@@ -1,17 +1,17 @@
-#N canvas 0 0 836 309 12;
-#X obj 20 44 ui.keyboard;
-#X obj 20 104 f;
-#X msg 60 104 @a 415;
-#X msg 132 104 @a 440;
-#X obj 220 104 ui.menu eq just ganassi meantone kirnberger3
+#N canvas 0 0 861 372 12;
+#X obj 20 50 ui.keyboard;
+#X obj 20 125 f;
+#X msg 65 125 @a 415;
+#X msg 146 125 @a 440;
+#X obj 245 125 ui.menu eq just ganassi meantone kirnberger3
 pythagorean rameau valotti zarlino;
-#X msg 220 128 @t \$2;
-#X obj 20 152 m->f 442;
-#X floatatom 20 176 5 0 0 0 - - -;
-#X obj 20 200 osc~;
-#X obj 20 224 ui.gain~ @size 120 16;
-#X obj 20 248 dac~;
-#X obj 20 272 ui.dsp~;
+#X msg 245 155 @t \$2;
+#X obj 20 185 m->f 442;
+#X floatatom 20 215 5 0 0 0 - - -;
+#X obj 20 245 osc~;
+#X obj 20 275 ui.gain~ @size 120 16;
+#X obj 20 305 dac~;
+#X obj 20 335 ui.dsp~;
 #X connect 0 0 1 0;
 #X connect 4 0 5 0;
 #X connect 1 0 6 0;

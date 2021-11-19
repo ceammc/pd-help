@@ -1,9 +1,9 @@
-#N canvas 0 0 171 129 12;
-#X msg 20 44 1;
-#X msg 60 44 2;
-#X msg 100 44 0.5;
-#X obj 20 68 sec->bpm;
-#X floatatom 20 92 5 0 0 0 - - -;
+#N canvas 0 0 181 147 12;
+#X msg 20 50 1;
+#X msg 65 50 2;
+#X msg 110 50 0.5;
+#X obj 20 80 sec->bpm;
+#X floatatom 20 110 5 0 0 0 - - -;
 #X connect 0 0 3 0;
 #X connect 1 0 3 0;
 #X connect 2 0 3 0;

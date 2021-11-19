@@ -1,14 +1,14 @@
-#N canvas 0 0 280 201 12;
-#X floatatom 52 44 5 0 0 0 - - -;
-#X floatatom 132 44 5 0 0 0 - - -;
-#X obj 20 68 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#N canvas 0 0 298 237 12;
+#X floatatom 56 50 5 0 0 0 - - -;
+#X floatatom 146 50 5 0 0 0 - - -;
+#X obj 20 80 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X msg 76 68 dump;
-#X msg 132 68 @count \$1;
-#X obj 20 116 list.gen 3;
-#X obj 164 116 random 100;
-#X obj 20 140 m set;
-#X msg 20 164 ;
+#X msg 83 80 dump;
+#X msg 146 80 @count \$1;
+#X obj 20 140 list.gen 3;
+#X obj 182 140 random 100;
+#X obj 20 170 m set;
+#X msg 20 200 ;
 #X connect 1 0 4 0;
 #X connect 2 0 5 0;
 #X connect 0 0 5 0;

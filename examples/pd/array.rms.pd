@@ -1,5 +1,5 @@
-#N canvas 0 0 568 225 12;
-#X obj 20 44 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#N canvas 0 0 599 267 12;
+#X obj 20 50 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #N canvas 0 22 450 300 (subpatch) 0;
 #X array arms 300 float 1;
@@ -13,16 +13,16 @@
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
 #X coords 0 1 300 -1 300 100 1;
-#X restore 228 44 graph;
-#X obj 20 68 array.rms arms;
-#X floatatom 20 92 16 0 0 0 - - -;
-#X msg 20 140 uniform;
-#X msg 100 140 sin 100;
-#X msg 180 140 gauss 0 0.3;
-#X msg 292 140 fill 0;
-#X msg 364 140 pulse 50;
-#X msg 452 140 tri 60;
-#X obj 20 188 array.fill arms;
+#X restore 254 50 graph;
+#X obj 20 80 array.rms arms;
+#X floatatom 20 110 16 0 0 0 - - -;
+#X msg 20 170 uniform;
+#X msg 110 170 sin 100;
+#X msg 200 170 gauss 0 0.3;
+#X msg 326 170 fill 0;
+#X msg 407 170 pulse 50;
+#X msg 506 170 tri 60;
+#X obj 20 230 array.fill arms;
 #X connect 0 0 2 0;
 #X connect 2 0 3 0;
 #X connect 4 0 10 0;

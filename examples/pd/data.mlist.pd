@@ -1,9 +1,9 @@
-#N canvas 0 0 252 177 12;
-#X msg 20 44 bang;
-#X msg 44 68 (A B C) \, bang;
-#X msg 68 92 1 2 3 \, bang;
-#X obj 20 116 data.mlist (1 2 3 (1 3 3));
-#X obj 20 140 ui.d @display_type 1;
+#N canvas 0 0 252 207 12;
+#X msg 20 50 bang;
+#X msg 47 80 (A B C) \, bang;
+#X msg 74 110 1 2 3 \, bang;
+#X obj 20 140 data.mlist (1 2 3 (1 3 3));
+#X obj 20 170 ui.d @display_type 1;
 #X connect 0 0 3 0;
 #X connect 1 0 3 0;
 #X connect 2 0 3 0;

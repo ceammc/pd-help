@@ -1,26 +1,26 @@
-#N canvas 0 0 492 321 12;
-#X msg 20 44 open %CEAMMC%/guitar1.wav;
+#N canvas 0 0 521 387 12;
+#X msg 20 50 open %CEAMMC%/guitar1.wav;
 #N canvas 0 22 450 300 (subpatch) 0;
 #X array APLAY 100 float 1;
 #A 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
 #X coords 0 1 100 -1 200 140 1;
-#X restore 252 44 graph;
-#X obj 20 68 expand_env;
-#X msg 20 92 load \$1 @to APLAY @resize;
-#X obj 20 116 snd.file;
-#X obj 20 140 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#X restore 281 50 graph;
+#X obj 20 80 expand_env;
+#X msg 20 110 load \$1 @to APLAY @resize;
+#X obj 20 140 snd.file;
+#X obj 20 170 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X obj 20 164 array.play~ APLAY;
-#X obj 180 164 ui.dsp~;
-#X obj 20 188 ui.hgain~;
-#X obj 20 212 dac~;
-#X obj 20 236 array.play~.speed;
-#X obj 196 236 array.play~.range;
-#X obj 20 260 array.play~.speed2;
-#X obj 196 260 array.play~.clock;
-#X obj 20 284 array.play~.amp;
+#X obj 20 200 array.play~ APLAY;
+#X obj 200 200 ui.dsp~;
+#X obj 20 230 ui.hgain~;
+#X obj 20 260 dac~;
+#X obj 20 290 array.play~.speed;
+#X obj 218 290 array.play~.range;
+#X obj 20 320 array.play~.speed2;
+#X obj 218 320 array.play~.clock;
+#X obj 20 350 array.play~.amp;
 #X connect 0 0 2 0;
 #X connect 2 0 3 0;
 #X connect 3 0 4 0;

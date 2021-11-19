@@ -1,14 +1,14 @@
-#N canvas 0 0 374 177 12;
-#X msg 20 44 list a b c;
-#X msg 132 44 set 3 2 1;
-#X msg 44 68 1 2 3;
-#X obj 236 68 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#N canvas 0 0 401 207 12;
+#X msg 20 50 list a b c;
+#X msg 146 50 set 3 2 1;
+#X msg 47 80 1 2 3;
+#X obj 263 80 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X obj 20 92 local.list id;
-#X obj 236 92 local.list id;
-#X obj 20 116 ui.dt;
-#X obj 236 116 ui.dt;
-#X obj 20 140 local.list.nonlocal;
+#X obj 20 110 local.list id;
+#X obj 263 110 local.list id;
+#X obj 20 140 ui.dt;
+#X obj 263 140 ui.dt;
+#X obj 20 170 local.list.nonlocal;
 #X connect 0 0 4 0;
 #X connect 2 0 4 0;
 #X connect 1 0 4 0;

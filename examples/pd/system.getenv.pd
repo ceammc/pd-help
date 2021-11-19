@@ -1,13 +1,13 @@
-#N canvas 0 0 628 165 12;
-#X msg 20 44 symbol HOME;
-#X msg 132 44 symbol APPDATA;
-#X msg 268 44 symbol PATH;
-#X msg 380 44 symbol USER;
-#X msg 492 44 symbol SHELL;
-#X obj 44 80 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#N canvas 0 0 687 192 12;
+#X msg 20 50 symbol HOME;
+#X msg 146 50 symbol APPDATA;
+#X msg 299 50 symbol PATH;
+#X msg 425 50 symbol USER;
+#X msg 551 50 symbol SHELL;
+#X obj 47 95 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X obj 20 104 system.getenv USER;
-#X obj 20 128 ui.display;
+#X obj 20 125 system.getenv USER;
+#X obj 20 155 ui.display;
 #X connect 0 0 6 0;
 #X connect 5 0 6 0;
 #X connect 1 0 6 0;

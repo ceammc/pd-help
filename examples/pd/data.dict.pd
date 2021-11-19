@@ -1,18 +1,18 @@
-#N canvas 0 0 534 225 12;
-#X msg 20 44 bang;
-#X msg 76 44 [a: [K0: 1 2 3 K2: "a symbol"]] \, bang;
-#X msg 420 44 get_key a;
-#X msg 44 68 [a: b c: d] \, bang;
-#X msg 212 68 clear;
-#X msg 276 68 remove a;
-#X msg 68 92 add KEY value;
-#X obj 292 92 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#N canvas 0 0 584 267 12;
+#X msg 20 50 bang;
+#X msg 83 50 [a: [K0: 1 2 3 K2: "a symbol"]] \, bang;
+#X msg 470 50 get_key a;
+#X msg 47 80 [a: b c: d] \, bang;
+#X msg 236 80 clear;
+#X msg 308 80 remove a;
+#X msg 74 110 add KEY value;
+#X obj 326 110 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X obj 292 116 openpanel;
-#X msg 92 128 list a b c d;
-#X msg 292 140 read \$1;
-#X obj 20 164 data.dict \[tempo: 120 title: "New Masterpiece"\];
-#X obj 20 188 ui.display @display_type 1;
+#X obj 326 140 openpanel;
+#X msg 101 155 list a b c d;
+#X msg 326 170 read \$1;
+#X obj 20 200 data.dict \[tempo: 120 title: "New Masterpiece"\];
+#X obj 20 230 ui.display @display_type 1;
 #X connect 7 0 8 0;
 #X connect 8 0 10 0;
 #X connect 0 0 11 0;

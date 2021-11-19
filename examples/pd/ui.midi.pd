@@ -1,4 +1,4 @@
-#N canvas 0 0 116 105 12;
-#X obj 20 44 ui.midi;
-#X obj 20 68 ui.dt;
+#N canvas 0 0 116 117 12;
+#X obj 20 50 ui.midi;
+#X obj 20 80 ui.dt;
 #X connect 0 0 1 0;

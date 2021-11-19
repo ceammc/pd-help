@@ -1,10 +1,10 @@
-#N canvas 0 0 217 153 12;
-#X obj 20 44 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#N canvas 0 0 231 177 12;
+#X obj 20 50 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X msg 52 44 @seed 0;
-#X msg 132 44 gen 5;
-#X obj 20 92 random.int -10 10;
-#X obj 20 116 ui.dt;
+#X msg 56 50 @seed 0;
+#X msg 146 50 gen 5;
+#X obj 20 110 random.int -10 10;
+#X obj 20 140 ui.dt;
 #X connect 0 0 3 0;
 #X connect 1 0 3 0;
 #X connect 2 0 3 0;

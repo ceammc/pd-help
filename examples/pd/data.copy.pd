@@ -1,23 +1,23 @@
-#N canvas 0 0 385 333 12;
-#X text 20 44 without copy;
-#X obj 20 68 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#N canvas 0 0 417 402 12;
+#X text 20 50 without copy;
+#X obj 20 80 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X obj 20 92 list.gen 3;
-#X obj 148 92 list.gen 3;
-#X obj 276 92 random 10;
-#X obj 148 116 mlist;
-#X obj 20 140 ui.dt;
-#X obj 148 140 ui.dt;
-#X text 20 176 with copy;
-#X obj 20 200 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#X obj 20 110 list.gen 3;
+#X obj 164 110 list.gen 3;
+#X obj 308 110 random 10;
+#X obj 164 140 mlist;
+#X obj 20 170 ui.dt;
+#X obj 164 170 ui.dt;
+#X text 20 215 with copy;
+#X obj 20 245 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X obj 20 224 list.gen 3;
-#X obj 148 224 list.gen 3;
-#X obj 276 224 random 10;
-#X obj 148 248 mlist;
-#X obj 148 272 data.copy;
-#X obj 20 296 ui.dt;
-#X obj 148 296 ui.dt;
+#X obj 20 275 list.gen 3;
+#X obj 164 275 list.gen 3;
+#X obj 308 275 random 10;
+#X obj 164 305 mlist;
+#X obj 164 335 data.copy;
+#X obj 20 365 ui.dt;
+#X obj 164 365 ui.dt;
 #X connect 1 0 2 0;
 #X connect 3 0 5 0;
 #X connect 2 0 6 0;

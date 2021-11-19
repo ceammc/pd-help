@@ -1,8 +1,8 @@
-#N canvas 0 0 229 127 12;
-#X msg 20 44 symbol ~;
-#X msg 108 44 symbol abc;
-#X obj 20 68 path.is_dir;
-#X obj 20 92 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0 1;
+#N canvas 0 0 240 145 12;
+#X msg 20 50 symbol ~;
+#X msg 119 50 symbol abc;
+#X obj 20 80 path.is_dir;
+#X obj 20 110 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0 1;
 #X connect 0 0 2 0;
 #X connect 1 0 2 0;
 #X connect 2 0 3 0;

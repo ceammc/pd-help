@@ -1,9 +1,9 @@
-#N canvas 0 0 367 153 12;
-#X msg 20 44 list a b c d e f g h j k;
-#X obj 20 92 list->dict;
-#X obj 236 92 list->dict 3;
-#X obj 20 116 ui.d;
-#X obj 236 116 ui.d;
+#N canvas 0 0 394 177 12;
+#X msg 20 50 list a b c d e f g h j k;
+#X obj 20 110 list->dict;
+#X obj 263 110 list->dict 3;
+#X obj 20 140 ui.d;
+#X obj 263 140 ui.d;
 #X connect 0 0 1 0;
 #X connect 0 0 2 0;
 #X connect 1 0 3 0;

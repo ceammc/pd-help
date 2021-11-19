@@ -1,7 +1,7 @@
-#N canvas 0 0 293 153 12;
-#X msg 20 44 load file to \\\$0-array @resize;
-#X obj 20 68 flow.dollar;
-#X obj 20 92 ui.dt;
-#X obj 20 116 flow.dollar.args A B;
+#N canvas 0 0 293 177 12;
+#X msg 20 50 load file to \\\$0-array @resize;
+#X obj 20 80 flow.dollar;
+#X obj 20 110 ui.dt;
+#X obj 20 140 flow.dollar.args A B;
 #X connect 0 0 1 0;
 #X connect 1 0 2 0;

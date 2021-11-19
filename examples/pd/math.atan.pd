@@ -1,15 +1,15 @@
-#N canvas 0 0 564 204 12;
-#X msg 20 44 bang;
+#N canvas 0 0 587 210 12;
+#X msg 20 50 bang;
 #N canvas 0 22 450 300 (subpatch) 0;
 #X array ATAN 100 float 1;
 #A 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
 #X coords 0 2 100 -2 320 140 1;
-#X restore 204 44 graph;
-#X obj 20 68 list.seq -4 4 0.025;
-#X obj 20 92 math.atan;
-#X obj 20 116 list->array ATAN;
+#X restore 227 50 graph;
+#X obj 20 80 list.seq -4 4 0.025;
+#X obj 20 110 math.atan;
+#X obj 20 140 list->array ATAN;
 #X connect 0 0 2 0;
 #X connect 2 0 3 0;
 #X connect 3 0 4 0;

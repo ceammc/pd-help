@@ -1,12 +1,12 @@
-#N canvas 0 0 258 129 12;
-#X obj 20 44 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#N canvas 0 0 274 147 12;
+#X obj 20 50 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X obj 148 44 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#X obj 164 50 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X obj 20 68 math.pi;
-#X obj 148 68 math.pi 2;
-#X floatatom 20 92 10 0 0 0 - - -;
-#X floatatom 148 92 10 0 0 0 - - -;
+#X obj 20 80 math.pi;
+#X obj 164 80 math.pi 2;
+#X floatatom 20 110 10 0 0 0 - - -;
+#X floatatom 164 110 10 0 0 0 - - -;
 #X connect 0 0 2 0;
 #X connect 1 0 3 0;
 #X connect 2 0 4 0;

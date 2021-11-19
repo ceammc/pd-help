@@ -1,5 +1,5 @@
-#N canvas 0 0 444 249 12;
-#X obj 20 44 hslider 128 15 0.0 1.0 0 0 empty empty empty 17 7 0 10
+#N canvas 0 0 467 297 12;
+#X obj 20 50 hslider 128 15 0.0 1.0 0 0 empty empty empty 17 7 0 10
 -262144 -1 -1 0 0;
 #N canvas 0 22 450 300 (subpatch) 0;
 #X array p2s 100 float 1;
@@ -7,14 +7,14 @@
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
 #X coords 0 1 100 -1 200 150 1;
-#X restore 204 44 graph;
-#X floatatom 20 68 5 0 0 0 - - -;
-#X obj 20 92 array.p->s p2s;
-#X floatatom 20 116 5 0 0 0 - - -;
-#X obj 20 140 tabread p2s;
-#X floatatom 20 164 5 0 0 0 - - -;
-#X obj 20 188 loadmsg sinesum 100 0.5 0.2 0.1 0.3;
-#X obj 20 212 s p2s;
+#X restore 227 50 graph;
+#X floatatom 20 80 5 0 0 0 - - -;
+#X obj 20 110 array.p->s p2s;
+#X floatatom 20 140 5 0 0 0 - - -;
+#X obj 20 170 tabread p2s;
+#X floatatom 20 200 5 0 0 0 - - -;
+#X obj 20 230 loadmsg sinesum 100 0.5 0.2 0.1 0.3;
+#X obj 20 260 s p2s;
 #X connect 0 0 2 0;
 #X connect 2 0 3 0;
 #X connect 3 0 4 0;

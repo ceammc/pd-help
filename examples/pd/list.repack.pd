@@ -1,6 +1,6 @@
-#N canvas 0 0 192 141 12;
-#X msg 20 44 1 2 3 4 5 6 7 8 9;
-#X obj 20 80 list.repack 4;
-#X obj 20 104 print;
+#N canvas 0 0 192 162 12;
+#X msg 20 50 1 2 3 4 5 6 7 8 9;
+#X obj 20 95 list.repack 4;
+#X obj 20 125 print;
 #X connect 0 0 1 0;
 #X connect 1 0 2 0;

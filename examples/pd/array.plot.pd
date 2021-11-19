@@ -1,15 +1,15 @@
-#N canvas 0 0 632 235 12;
-#X msg 20 44 1 100 3;
+#N canvas 0 0 666 280 12;
+#X msg 20 50 1 100 3;
 #N canvas 0 22 450 300 (subpatch) 0;
 #X array APLT 10 float 1;
 #A 0 0 0 0 0 0 0 0 0 0 0;
 #X coords 0 1 10 -1 300 160 1;
-#X restore 292 44 graph;
-#X obj 20 68 list.seq @closed 1;
-#X obj 36 92 ui.dt;
-#X obj 20 152 math.sqrt;
-#X obj 20 176 array.plot APLT;
-#X obj 20 200 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#X restore 326 50 graph;
+#X obj 20 80 list.seq @closed 1;
+#X obj 38 110 ui.dt;
+#X obj 20 185 math.sqrt;
+#X obj 20 215 array.plot APLT;
+#X obj 20 245 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X connect 0 0 2 0;
 #X connect 2 0 3 0;

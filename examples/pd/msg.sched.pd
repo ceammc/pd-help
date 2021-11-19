@@ -1,10 +1,10 @@
-#N canvas 0 0 511 201 12;
-#X msg 20 44 @freq 100 \, @gate 1 \, 400 @freq 800 \, 600 @freq 200 \, 750 @gate 0;
-#X obj 20 92 msg.sched;
-#X obj 20 116 synth.dubdub~;
-#X obj 20 140 ui.hgain~;
-#X obj 148 140 ui.dsp~;
-#X obj 20 164 dac~;
+#N canvas 0 0 511 237 12;
+#X msg 20 50 @freq 100 \, @gate 1 \, 400 @freq 800 \, 600 @freq 200 \, 750 @gate 0;
+#X obj 20 110 msg.sched;
+#X obj 20 140 synth.dubdub~;
+#X obj 20 170 ui.hgain~;
+#X obj 164 170 ui.dsp~;
+#X obj 20 200 dac~;
 #X connect 0 0 1 0;
 #X connect 1 0 2 0;
 #X connect 2 0 3 0;

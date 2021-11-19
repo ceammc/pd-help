@@ -1,26 +1,26 @@
-#N canvas 0 0 463 321 12;
+#N canvas 0 0 496 387 12;
 #N canvas 0 22 450 300 (subpatch) 0;
 #X array A1 100 float 1;
 #A 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
 #X coords 0 1 100 -1 130 100 1;
-#X restore 20 44 graph;
+#X restore 20 50 graph;
 #N canvas 0 22 450 300 (subpatch) 0;
 #X array A2 20 float 1;
 #A 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
 #X coords 0 1 20 -1 130 100 1;
-#X restore 276 44 graph;
-#X msg 132 140 copy A1 10 20 A2;
-#X msg 284 140 copy A1 5 20 A2 15;
-#X msg 20 164 copy A1 A2;
-#X msg 156 164 copy A1 40 A2;
-#X obj 20 188 array.copy;
-#X obj 20 212 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#X restore 308 50 graph;
+#X msg 146 170 copy A1 10 20 A2;
+#X msg 317 170 copy A1 5 20 A2 15;
+#X msg 20 200 copy A1 A2;
+#X msg 173 200 copy A1 40 A2;
+#X obj 20 230 array.copy;
+#X obj 20 260 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X obj 20 236 loadbang;
-#X msg 20 260 sinesum 100 0.5 0.2 0 0.1 0.4;
-#X obj 20 284 s A1;
+#X obj 20 290 loadbang;
+#X msg 20 320 sinesum 100 0.5 0.2 0 0.1 0.4;
+#X obj 20 350 s A1;
 #X connect 4 0 6 0;
 #X connect 2 0 6 0;
 #X connect 5 0 6 0;

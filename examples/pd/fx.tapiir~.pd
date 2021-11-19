@@ -1,21 +1,21 @@
-#N canvas 0 0 673 309 12;
-#X obj 20 44 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#N canvas 0 0 711 372 12;
+#X obj 20 50 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X obj 20 68 click~;
-#X msg 324 68 list 8_ 16 8_ 16 8_ 16;
-#X obj 20 92 flt.resonbp~ 1000 50;
-#X obj 324 92 music.d->t @bpm 60 1;
-#X obj 44 116 flt.resonbp~ 2000 50;
-#X obj 52 140 ui.sliders 6 @size 84 50 @min 0 @max 1;
-#X obj 188 140 ui.sliders 6 @size 84 50 @min 0 @max 1;
-#X obj 324 140 ui.sliders 6 @size 84 50 @min 50 @max 1000;
-#X obj 52 188 m @outs0;
-#X obj 188 188 m @outs1;
-#X obj 324 188 m @delays;
-#X obj 20 224 fx.tapiir~ @out0.in0 1 @out1.in1 1;
-#X obj 20 248 ui.hgain2~;
-#X obj 148 248 ui.dsp~;
-#X obj 20 272 dac~;
+#X obj 20 80 click~;
+#X msg 362 80 list 8_ 16 8_ 16 8_ 16;
+#X obj 20 110 flt.resonbp~ 1000 50;
+#X obj 362 110 music.d->t @bpm 60 1;
+#X obj 47 140 flt.resonbp~ 2000 50;
+#X obj 56 170 ui.sliders 6 @size 84 50 @min 0 @max 1;
+#X obj 209 170 ui.sliders 6 @size 84 50 @min 0 @max 1;
+#X obj 362 170 ui.sliders 6 @size 84 50 @min 50 @max 1000;
+#X obj 56 230 m @outs0;
+#X obj 209 230 m @outs1;
+#X obj 362 230 m @delays;
+#X obj 20 275 fx.tapiir~ @out0.in0 1 @out1.in1 1;
+#X obj 20 305 ui.hgain2~;
+#X obj 164 305 ui.dsp~;
+#X obj 20 335 dac~;
 #X connect 0 0 1 0;
 #X connect 1 0 3 0;
 #X connect 2 0 4 0;

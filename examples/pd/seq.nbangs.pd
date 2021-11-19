@@ -1,17 +1,17 @@
-#N canvas 0 0 292 225 12;
-#X msg 20 44 10;
-#X msg 60 44 15;
-#X msg 100 44 2;
-#X obj 196 44 ui.dsp~;
-#X obj 20 68 seq.nbangs @t 110;
-#X obj 124 92 route done i;
-#X obj 20 116 click~;
-#X obj 124 116 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#N canvas 0 0 314 267 12;
+#X msg 20 50 10;
+#X msg 65 50 15;
+#X msg 110 50 2;
+#X obj 218 50 ui.dsp~;
+#X obj 20 80 seq.nbangs @t 110;
+#X obj 137 110 route done i;
+#X obj 20 140 click~;
+#X obj 137 140 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X floatatom 172 116 5 0 0 0 - - -;
-#X obj 20 140 flt.resonbp~ 1000 40;
-#X obj 20 164 ui.hgain~;
-#X obj 20 188 dac~;
+#X floatatom 191 140 5 0 0 0 - - -;
+#X obj 20 170 flt.resonbp~ 1000 40;
+#X obj 20 200 ui.hgain~;
+#X obj 20 230 dac~;
 #X connect 0 0 4 0;
 #X connect 1 0 4 0;
 #X connect 2 0 4 0;

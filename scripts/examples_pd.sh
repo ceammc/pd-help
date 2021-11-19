@@ -13,7 +13,8 @@ do
     bname=$(basename $ascii)
     ${PD_ASCII2PD} \
       --auto \
-      --yspace 16 \
+      --xspace 9 \
+      --yspace 15 \
       --xlet-db ${XLET_DB} $ascii \
       ${DIR}/${bname%.txt}.pd
 done

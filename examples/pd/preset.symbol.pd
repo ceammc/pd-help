@@ -1,10 +1,10 @@
-#N canvas 0 0 368 153 12;
-#X msg 180 44 store 0;
-#X msg 268 44 store 1;
-#X msg 108 68 load 0;
-#X msg 196 68 load 1;
-#X symbolatom 20 116 5 0 0 0 - - -;
-#X obj 108 116 preset.symbol f1;
+#N canvas 0 0 399 177 12;
+#X msg 200 50 store 0;
+#X msg 299 50 store 1;
+#X msg 119 80 load 0;
+#X msg 218 80 load 1;
+#X symbolatom 20 140 5 0 0 0 - - -;
+#X obj 119 140 preset.symbol f1;
 #X connect 2 0 5 0;
 #X connect 0 0 5 0;
 #X connect 3 0 5 0;

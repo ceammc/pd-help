@@ -1,8 +1,8 @@
-#N canvas 0 0 135 129 12;
-#X floatatom 20 44 5 0 0 0 - - -;
-#X obj 20 68 is_odd;
-#X obj 20 92 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0 1;
-#X floatatom 60 92 5 0 0 0 - - -;
+#N canvas 0 0 140 147 12;
+#X floatatom 20 50 5 0 0 0 - - -;
+#X obj 20 80 is_odd;
+#X obj 20 110 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0 1;
+#X floatatom 65 110 5 0 0 0 - - -;
 #X connect 0 0 1 0;
 #X connect 1 0 2 0;
 #X connect 1 1 3 0;

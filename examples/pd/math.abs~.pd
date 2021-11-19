@@ -1,15 +1,15 @@
-#N canvas 0 0 500 204 12;
-#X msg 20 44 bang;
+#N canvas 0 0 530 210 12;
+#X msg 20 50 bang;
 #N canvas 0 22 450 300 (subpatch) 0;
 #X array mabs 100 float 1;
 #A 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
 #X coords 0 1 100 -1 200 140 1;
-#X restore 260 44 graph;
-#X obj 20 68 plot.linspace~ -1 1;
-#X obj 20 92 math.abs~;
-#X obj 20 116 array.plot~ mabs @yauto 1;
+#X restore 290 50 graph;
+#X obj 20 80 plot.linspace~ -1 1;
+#X obj 20 110 math.abs~;
+#X obj 20 140 array.plot~ mabs @yauto 1;
 #X connect 0 0 2 0;
 #X connect 2 0 3 0;
 #X connect 3 0 4 0;

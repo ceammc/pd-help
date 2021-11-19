@@ -1,8 +1,8 @@
-#N canvas 0 0 313 129 12;
-#X floatatom 20 44 5 0 0 0 - - -;
-#X msg 76 44 2.3 3.8 5.5 -2.3 -3.8 -5.5;
-#X obj 20 68 math.ceil;
-#X floatatom 20 92 5 0 0 0 - - -;
+#N canvas 0 0 320 147 12;
+#X floatatom 20 50 5 0 0 0 - - -;
+#X msg 83 50 2.3 3.8 5.5 -2.3 -3.8 -5.5;
+#X obj 20 80 math.ceil;
+#X floatatom 20 110 5 0 0 0 - - -;
 #X connect 0 0 2 0;
 #X connect 1 0 2 0;
 #X connect 2 0 3 0;

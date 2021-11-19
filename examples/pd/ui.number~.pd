@@ -1,5 +1,5 @@
-#N canvas 0 0 236 117 12;
-#X obj 20 44 phasor~ 0.1;
-#X obj 140 44 ui.dsp~;
-#X obj 20 80 ui.number~;
+#N canvas 0 0 251 132 12;
+#X obj 20 50 phasor~ 0.1;
+#X obj 155 50 ui.dsp~;
+#X obj 20 95 ui.number~;
 #X connect 0 0 2 0;

@@ -1,13 +1,13 @@
-#N canvas 0 0 474 153 12;
-#X msg 20 44 bang;
-#X msg 108 44 symbol /;
-#X obj 228 44 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#N canvas 0 0 517 177 12;
+#X msg 20 50 bang;
+#X msg 119 50 symbol /;
+#X obj 254 50 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X symbolatom 364 44 10 0 0 0 - - -;
-#X obj 228 68 path.lsdir ~ @match *.aiff;
-#X obj 20 92 path.lsdir ~;
-#X obj 228 92 ui.dt;
-#X obj 20 116 ui.dt;
+#X symbolatom 407 50 10 0 0 0 - - -;
+#X obj 254 80 path.lsdir ~ @match *.aiff;
+#X obj 20 110 path.lsdir ~;
+#X obj 254 110 ui.dt;
+#X obj 20 140 ui.dt;
 #X connect 2 0 4 0;
 #X connect 3 0 4 1;
 #X connect 0 0 5 0;

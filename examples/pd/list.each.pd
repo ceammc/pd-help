@@ -1,21 +1,21 @@
-#N canvas 0 0 479 273 12;
-#X msg 20 44 1 2 3 4 5 6 7 8 9;
-#X msg 196 44 1 2 3 4 5 6 7 8 9;
-#X obj 20 68 list.each;
-#X obj 132 68 pow 2;
-#X obj 196 68 list.each 2;
-#X obj 324 68 *;
-#X obj 20 92 ui.dt;
-#X obj 196 92 ui.dt;
-#X text 20 116 more complex example: multiply by three element in list;
-#X msg 20 140 1 2 3 4 5 6 7 8 9;
-#X obj 44 164 hradio 15 1 0 8 empty empty empty 17 7 0 10 -262144 -1
+#N canvas 0 0 479 327 12;
+#X msg 20 50 1 2 3 4 5 6 7 8 9;
+#X msg 218 50 1 2 3 4 5 6 7 8 9;
+#X obj 20 80 list.each;
+#X obj 146 80 pow 2;
+#X obj 218 80 list.each 2;
+#X obj 362 80 *;
+#X obj 20 110 ui.dt;
+#X obj 218 110 ui.dt;
+#X text 20 140 more complex example: multiply by three element in list;
+#X msg 20 170 1 2 3 4 5 6 7 8 9;
+#X obj 47 200 hradio 15 1 0 8 empty empty empty 17 7 0 10 -262144 -1
 -1 0;
-#X msg 44 188 @step \$1;
-#X obj 20 212 list.each 3;
-#X obj 148 212 list.reduce;
-#X obj 276 212 *;
-#X obj 20 236 ui.dt;
+#X msg 47 230 @step \$1;
+#X obj 20 260 list.each 3;
+#X obj 164 260 list.reduce;
+#X obj 308 260 *;
+#X obj 20 290 ui.dt;
 #X connect 0 0 2 0;
 #X connect 1 0 4 0;
 #X connect 2 0 6 0;

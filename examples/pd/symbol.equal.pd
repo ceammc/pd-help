@@ -1,10 +1,10 @@
-#N canvas 0 0 327 153 12;
-#X msg 20 44 symbol a;
-#X msg 108 44 symbol b;
-#X msg 196 44 symbol c;
-#X msg 220 68 symbol c;
-#X obj 20 92 symbol.equal b;
-#X floatatom 20 116 5 0 0 0 - - -;
+#N canvas 0 0 352 177 12;
+#X msg 20 50 symbol a;
+#X msg 119 50 symbol b;
+#X msg 218 50 symbol c;
+#X msg 245 80 symbol c;
+#X obj 20 110 symbol.equal b;
+#X floatatom 20 140 5 0 0 0 - - -;
 #X connect 0 0 4 0;
 #X connect 1 0 4 0;
 #X connect 2 0 4 0;

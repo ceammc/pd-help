@@ -1,10 +1,10 @@
-#N canvas 0 0 294 153 12;
-#X msg 20 44 3 4 1 0 6;
-#X msg 124 44 (1 2 3 4 5) \, bang;
-#X obj 124 68 ml;
-#X obj 20 92 list.sort_with;
-#X obj 172 92 >;
-#X obj 20 116 ui.display @display_type 1;
+#N canvas 0 0 307 177 12;
+#X msg 20 50 3 4 1 0 6;
+#X msg 137 50 (1 2 3 4 5) \, bang;
+#X obj 137 80 ml;
+#X obj 20 110 list.sort_with;
+#X obj 191 110 >;
+#X obj 20 140 ui.display @display_type 1;
 #X connect 1 0 2 0;
 #X connect 0 0 3 0;
 #X connect 2 0 3 0;

@@ -1,15 +1,15 @@
-#N canvas 0 0 381 201 12;
-#X floatatom 20 44 5 0 0 0 - - -;
-#X floatatom 92 44 5 0 0 0 - - -;
-#X obj 44 68 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#N canvas 0 0 416 237 12;
+#X floatatom 20 50 5 0 0 0 - - -;
+#X floatatom 101 50 5 0 0 0 - - -;
+#X obj 47 80 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X msg 92 68 \$1 \$1;
-#X floatatom 148 92 5 0 0 0 - - -;
-#X obj 20 116 prop<- @size @a;
-#X obj 20 140 prop-> @size;
-#X floatatom 20 164 5 0 0 0 - - -;
-#X obj 76 164 ui.dt;
-#X obj 300 164 ui.dt;
+#X msg 101 80 \$1 \$1;
+#X floatatom 164 110 5 0 0 0 - - -;
+#X obj 20 140 prop<- @size @a;
+#X obj 20 170 prop-> @size;
+#X floatatom 20 200 5 0 0 0 - - -;
+#X obj 83 200 ui.dt;
+#X obj 335 200 ui.dt;
 #X connect 1 0 3 0;
 #X connect 0 0 5 0;
 #X connect 2 0 5 0;

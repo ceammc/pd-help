@@ -1,23 +1,23 @@
-#N canvas 0 0 477 201 12;
-#X obj 20 44 phasor~ 0.5;
-#X obj 172 44 phasor~ 0.5;
-#X obj 316 44 lfo.tri~ 0.5;
-#X obj 20 68 s->f~;
-#X obj 172 68 *~ -1;
-#X obj 316 68 s->f~;
-#X floatatom 20 92 5 0 0 0 - - -;
-#X obj 172 92 s->f~;
-#X floatatom 316 92 5 0 0 0 - - -;
-#X obj 20 116 edge->bang @down;
-#X floatatom 172 116 5 0 0 0 - - -;
-#X obj 316 116 edge->bang @both;
-#X obj 20 140 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#N canvas 0 0 514 237 12;
+#X obj 20 50 phasor~ 0.5;
+#X obj 191 50 phasor~ 0.5;
+#X obj 353 50 lfo.tri~ 0.5;
+#X obj 20 80 s->f~;
+#X obj 191 80 *~ -1;
+#X obj 353 80 s->f~;
+#X floatatom 20 110 5 0 0 0 - - -;
+#X obj 191 110 s->f~;
+#X floatatom 353 110 5 0 0 0 - - -;
+#X obj 20 140 edge->bang @down;
+#X floatatom 191 140 5 0 0 0 - - -;
+#X obj 353 140 edge->bang @both;
+#X obj 20 170 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X obj 172 140 edge->bang @up;
-#X obj 316 140 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#X obj 191 170 edge->bang @up;
+#X obj 353 170 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X obj 20 164 ui.dsp~;
-#X obj 172 164 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#X obj 20 200 ui.dsp~;
+#X obj 191 200 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X connect 0 0 3 0;
 #X connect 1 0 4 0;

@@ -1,10 +1,10 @@
-#N canvas 0 0 744 273 12;
-#X obj 20 44 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#N canvas 0 0 744 327 12;
+#X obj 20 50 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X obj 20 80 plot.geomspace~ 2 1024;
-#X obj 20 104 ui.plot~ @size 400 150 @xlabels 1 @ylabels 1 @xmin_grid
+#X obj 20 95 plot.geomspace~ 2 1024;
+#X obj 20 125 ui.plot~ @size 400 150 @xlabels 1 @ylabels 1 @xmin_grid
 1 @ymin_ticks 0 @xmin_ticks 0 @yauto 1;
-#X obj 20 236 ui.dsp~;
+#X obj 20 290 ui.dsp~;
 #X connect 0 0 1 0;
 #X connect 1 0 2 0;
 #X connect 1 1 2 1;

@@ -1,15 +1,15 @@
-#N canvas 0 0 429 153 12;
-#X obj 20 44 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#N canvas 0 0 461 177 12;
+#X obj 20 50 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X obj 276 44 flow.ring.sound;
-#X obj 20 68 f 1;
-#X obj 84 68 + 1;
-#X msg 188 68 fill -1 \, bang;
-#X obj 20 92 flow.ring 4, f 29;
-#X floatatom 20 116 5 0 0 0 - - -;
-#X floatatom 76 116 5 0 0 0 - - -;
-#X floatatom 132 116 5 0 0 0 - - -;
-#X floatatom 188 116 5 0 0 0 - - -;
+#X obj 308 50 flow.ring.sound;
+#X obj 20 80 f 1;
+#X obj 92 80 + 1;
+#X msg 209 80 fill -1 \, bang;
+#X obj 20 110 flow.ring 4, f 29;
+#X floatatom 20 140 5 0 0 0 - - -;
+#X floatatom 83 140 5 0 0 0 - - -;
+#X floatatom 146 140 5 0 0 0 - - -;
+#X floatatom 209 140 5 0 0 0 - - -;
 #X connect 0 0 2 0;
 #X connect 2 0 5 0;
 #X connect 4 0 5 1;

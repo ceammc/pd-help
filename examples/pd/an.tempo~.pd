@@ -1,19 +1,19 @@
-#N canvas 0 0 539 249 12;
-#X obj 20 44 loadmsg load sound/loop_breakbeat.flac to antmp @resize;
-#X obj 20 68 snd.file;
-#X obj 108 68 table antmp;
-#X obj 220 68 ui.hsl @show_value 1 @min 0.1 @max 2.5;
-#X obj 20 92 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#N canvas 0 0 564 297 12;
+#X obj 20 50 loadmsg load sound/loop_breakbeat.flac to antmp @resize;
+#X obj 20 80 snd.file;
+#X obj 119 80 table antmp;
+#X obj 245 80 ui.hsl @show_value 1 @min 0.1 @max 2.5;
+#X obj 20 110 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X msg 84 92 stop;
-#X msg 220 92 @speed \$1;
-#X obj 20 116 array.play~ antmp;
-#X obj 44 140 an.tempo~;
-#X obj 164 140 ui.dsp~;
-#X floatatom 44 164 5 0 0 0 - - -;
-#X floatatom 100 164 5 0 0 0 - - -;
-#X obj 20 188 ui.hgain~;
-#X obj 20 212 dac~;
+#X msg 92 110 stop;
+#X msg 245 110 @speed \$1;
+#X obj 20 140 array.play~ antmp;
+#X obj 47 170 an.tempo~;
+#X obj 182 170 ui.dsp~;
+#X floatatom 47 200 5 0 0 0 - - -;
+#X floatatom 110 200 5 0 0 0 - - -;
+#X obj 20 230 ui.hgain~;
+#X obj 20 260 dac~;
 #X connect 0 0 1 0;
 #X connect 3 0 6 0;
 #X connect 4 0 7 0;

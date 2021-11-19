@@ -1,24 +1,24 @@
-#N canvas 0 0 569 345 12;
-#X msg 20 44 bang;
-#X floatatom 76 44 5 0 0 0 - - -;
-#X msg 116 44 (1 2 2 1) \, bang;
-#X msg 276 44 (2 1 1) \, bang;
-#X msg 420 44 (3 1) \, bang;
-#X obj 20 80 rtree->list 1 (1 1 1 1(2 1 1));
-#X obj 20 104 ui.dt;
-#X text 20 140 built-in funciton rtree() \, that can be used in any
+#N canvas 0 0 597 417 12;
+#X msg 20 50 bang;
+#X floatatom 83 50 5 0 0 0 - - -;
+#X msg 128 50 (1 2 2 1) \, bang;
+#X msg 308 50 (2 1 1) \, bang;
+#X msg 470 50 (3 1) \, bang;
+#X obj 20 95 rtree->list 1 (1 1 1 1(2 1 1));
+#X obj 20 125 ui.dt;
+#X text 20 170 built-in funciton rtree() \, that can be used in any
 ceammc object instead of list arguments;
-#X floatatom 220 164 5 0 0 0 - - -;
-#X msg 20 188 bang;
-#X msg 84 188 stop;
-#X msg 220 188 @t \$1;
-#X obj 20 212 seq.bangs rtree(2 \(1 1 1\(1 1\) 1\(1 1 1\) 1\(1 1 1 1
+#X floatatom 245 200 5 0 0 0 - - -;
+#X msg 20 230 bang;
+#X msg 92 230 stop;
+#X msg 245 230 @t \$1;
+#X obj 20 260 seq.bangs rtree(2 \(1 1 1\(1 1\) 1\(1 1 1\) 1\(1 1 1 1
 1\)\)\) @inf @t 90bpm, f 70;
-#X obj 20 236 click~;
-#X obj 20 260 flt.resonbp~ 1000 60;
-#X obj 204 260 ui.dsp~;
-#X obj 20 284 ui.hgain~;
-#X obj 20 308 dac~;
+#X obj 20 290 click~;
+#X obj 20 320 flt.resonbp~ 1000 60;
+#X obj 227 320 ui.dsp~;
+#X obj 20 350 ui.hgain~;
+#X obj 20 380 dac~;
 #X connect 0 0 5 0;
 #X connect 1 0 5 0;
 #X connect 2 0 5 0;

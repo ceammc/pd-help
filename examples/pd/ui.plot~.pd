@@ -1,19 +1,19 @@
-#N canvas 0 0 570 381 12;
-#X obj 20 44 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#N canvas 0 0 616 462 12;
+#X obj 20 50 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X obj 20 68 plot.linspace~ -5 5 256, f 50;
-#X obj 20 92 1/x~;
-#X obj 76 92 math.exp2~;
-#X obj 180 92 ^2~;
-#X obj 228 92 expr~ sin($v1)*20;
-#X obj 388 92 ui.plot~.lin1-help;
-#X obj 20 128 ui.plot~ @xlabels 1 @ylabels 1 @size 353 250 @n 4 @ymin
+#X obj 20 80 plot.linspace~ -5 5 256, f 50;
+#X obj 20 110 1/x~;
+#X obj 83 110 math.exp2~;
+#X obj 200 110 ^2~;
+#X obj 254 110 expr~ sin($v1)*20;
+#X obj 434 110 ui.plot~.lin1-help;
+#X obj 20 155 ui.plot~ @xlabels 1 @ylabels 1 @size 353 250 @n 4 @ymin
 -40 @ymax 40;
-#X obj 388 164 ui.plot~.lin3-help;
-#X obj 388 200 ui.plot~.log10-help;
-#X obj 388 236 ui.plot~.log2-help;
-#X obj 388 272 ui.plot~.ln-help;
-#X obj 20 344 ui.dsp~;
+#X obj 434 200 ui.plot~.lin3-help;
+#X obj 434 245 ui.plot~.log10-help;
+#X obj 434 290 ui.plot~.log2-help;
+#X obj 434 335 ui.plot~.ln-help;
+#X obj 20 425 ui.dsp~;
 #X connect 0 0 1 0;
 #X connect 1 0 2 0;
 #X connect 1 0 3 0;

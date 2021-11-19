@@ -1,10 +1,10 @@
-#N canvas 0 0 152 201 12;
-#X obj 20 44 sig~ 2;
-#X obj 36 68 env~;
-#X floatatom 36 92 5 0 0 0 - - -;
-#X obj 20 116 flt.dcblock~;
-#X obj 20 140 env~;
-#X floatatom 20 164 5 0 0 0 - - -;
+#N canvas 0 0 152 237 12;
+#X obj 20 50 sig~ 2;
+#X obj 38 80 env~;
+#X floatatom 38 110 5 0 0 0 - - -;
+#X obj 20 140 flt.dcblock~;
+#X obj 20 170 env~;
+#X floatatom 20 200 5 0 0 0 - - -;
 #X connect 0 0 1 0;
 #X connect 1 0 2 0;
 #X connect 0 0 3 0;

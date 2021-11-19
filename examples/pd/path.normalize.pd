@@ -1,6 +1,6 @@
-#N canvas 0 0 365 129 12;
-#X msg 20 44 symbol /path///./to/normalize/../file.txt;
-#X obj 20 68 path.normalize;
-#X obj 20 92 ui.dt;
+#N canvas 0 0 365 147 12;
+#X msg 20 50 symbol /path///./to/normalize/../file.txt;
+#X obj 20 80 path.normalize;
+#X obj 20 110 ui.dt;
 #X connect 0 0 1 0;
 #X connect 1 0 2 0;

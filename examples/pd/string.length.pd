@@ -1,9 +1,9 @@
-#N canvas 0 0 335 153 12;
-#X msg 20 44 list May 2017;
-#X msg 156 44 list ÐÑÐ½Ñ 2017;
-#X obj 20 68 string;
-#X obj 20 92 string.length;
-#X floatatom 20 116 5 0 0 0 - - -;
+#N canvas 0 0 352 177 12;
+#X msg 20 50 list May 2017;
+#X msg 173 50 list ÐÑÐ½Ñ 2017;
+#X obj 20 80 string;
+#X obj 20 110 string.length;
+#X floatatom 20 140 5 0 0 0 - - -;
 #X connect 0 0 2 0;
 #X connect 1 0 2 0;
 #X connect 2 0 3 0;

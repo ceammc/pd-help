@@ -1,9 +1,9 @@
-#N canvas 0 0 305 153 12;
-#X msg 20 44 2 -2 4 1 2.0;
-#X msg 140 44 1 a -2 b 4 1 2.0;
-#X obj 20 68 list.sort;
-#X obj 20 92 msg set;
-#X msg 20 116 ;
+#N canvas 0 0 320 177 12;
+#X msg 20 50 2 -2 4 1 2.0;
+#X msg 155 50 1 a -2 b 4 1 2.0;
+#X obj 20 80 list.sort;
+#X obj 20 110 msg set;
+#X msg 20 140 ;
 #X connect 0 0 2 0;
 #X connect 1 0 2 0;
 #X connect 2 0 3 0;

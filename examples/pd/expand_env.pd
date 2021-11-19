@@ -1,20 +1,20 @@
-#N canvas 0 0 550 333 12;
-#X obj 20 44 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#N canvas 0 0 550 402 12;
+#X obj 20 50 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X floatatom 52 44 5 0 0 0 - - -;
-#X msg 92 44 symbol user:%USER%;
-#X msg 260 44 list current shell: %SHELL%;
-#X msg 116 68 doc: %DOC%;
-#X msg 284 68 doc: %CEAMMC%;
-#X msg 140 92 %DOC%;
-#X msg 300 92 home: %HOME%;
-#X obj 20 116 expand_env;
-#X obj 20 140 ui.display @display_type 1;
-#X msg 20 200 %CEAMMC%;
-#X obj 20 224 expand_env @any;
-#X obj 20 248 symbol;
-#X symbolatom 20 272 70 0 0 0 - - -;
-#X obj 20 296 print;
+#X floatatom 56 50 5 0 0 0 - - -;
+#X msg 101 50 symbol user:%USER%;
+#X msg 290 50 list current shell: %SHELL%;
+#X msg 128 80 doc: %DOC%;
+#X msg 317 80 doc: %CEAMMC%;
+#X msg 155 110 %DOC%;
+#X msg 335 110 home: %HOME%;
+#X obj 20 140 expand_env;
+#X obj 20 170 ui.display @display_type 1;
+#X msg 20 245 %CEAMMC%;
+#X obj 20 275 expand_env @any;
+#X obj 20 305 symbol;
+#X symbolatom 20 335 70 0 0 0 - - -;
+#X obj 20 365 print;
 #X connect 0 0 8 0;
 #X connect 1 0 8 0;
 #X connect 2 0 8 0;

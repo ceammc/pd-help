@@ -1,9 +1,9 @@
-#N canvas 0 0 297 153 12;
-#X floatatom 20 44 5 0 0 0 - - -;
-#X msg 60 44 2.3 3.8 5.5 -2.3 -3.8 -5.5;
-#X obj 20 68 math.round;
-#X obj 20 92 msg set;
-#X msg 20 116 ;
+#N canvas 0 0 302 177 12;
+#X floatatom 20 50 5 0 0 0 - - -;
+#X msg 65 50 2.3 3.8 5.5 -2.3 -3.8 -5.5;
+#X obj 20 80 math.round;
+#X obj 20 110 msg set;
+#X msg 20 140 ;
 #X connect 0 0 2 0;
 #X connect 1 0 2 0;
 #X connect 2 0 3 0;

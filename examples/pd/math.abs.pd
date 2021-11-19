@@ -1,9 +1,9 @@
-#N canvas 0 0 212 153 12;
-#X floatatom 20 44 5 0 0 0 - - -;
-#X msg 76 44 1 2 -5 7 d b;
-#X obj 20 68 math.abs;
-#X obj 20 92 msg set;
-#X msg 20 116 ;
+#N canvas 0 0 219 177 12;
+#X floatatom 20 50 5 0 0 0 - - -;
+#X msg 83 50 1 2 -5 7 d b;
+#X obj 20 80 math.abs;
+#X obj 20 110 msg set;
+#X msg 20 140 ;
 #X connect 0 0 2 0;
 #X connect 1 0 2 0;
 #X connect 2 0 3 0;

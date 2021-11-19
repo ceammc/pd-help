@@ -1,14 +1,14 @@
-#N canvas 0 0 335 177 12;
-#X msg 20 44 1;
-#X msg 84 44 list a b;
-#X msg 220 44 @prop 123;
-#X obj 44 68 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#N canvas 0 0 360 207 12;
+#X msg 20 50 1;
+#X msg 92 50 list a b;
+#X msg 245 50 @prop 123;
+#X obj 47 80 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X msg 84 68 symbol ABC;
-#X msg 220 68 reset;
-#X obj 20 92 flow.change;
-#X obj 20 116 ui.dt;
-#X obj 20 140 flow.change.repeats;
+#X msg 92 80 symbol ABC;
+#X msg 245 80 reset;
+#X obj 20 110 flow.change;
+#X obj 20 140 ui.dt;
+#X obj 20 170 flow.change.repeats;
 #X connect 3 0 6 0;
 #X connect 6 0 7 0;
 #X connect 0 0 6 0;

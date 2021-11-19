@@ -1,20 +1,20 @@
-#N canvas 0 0 737 441 12;
-#X obj 20 44 ui.tab 100 500 1000 5000 10000 15000 20000 @size 300 15;
-#X msg 20 68 \$2;
-#X floatatom 20 92 5 0 0 0 - - -;
-#X floatatom 124 92 5 0 0 0 - - -;
-#X msg 188 92 bang;
-#X text 260 92 plot response;
-#X msg 20 116 @freq \$1;
-#X msg 124 116 @q \$1;
-#X obj 188 116 click~;
-#X obj 20 164 flt.bpf24~;
-#X obj 188 164 flt.bpf12~;
-#X obj 20 188 plot.response~ @sr 1;
-#X obj 188 188 plot.response~ @sr 1;
-#X obj 20 224 ui.plot~ @xlabels 1 @ylabels 1 @ymin 0 @ymax 1
+#N canvas 0 0 737 537 12;
+#X obj 20 50 ui.tab 100 500 1000 5000 10000 15000 20000 @size 300 15;
+#X msg 20 80 \$2;
+#X floatatom 20 110 5 0 0 0 - - -;
+#X floatatom 137 110 5 0 0 0 - - -;
+#X msg 209 110 bang;
+#X text 290 110 plot response;
+#X msg 20 140 @freq \$1;
+#X msg 137 140 @q \$1;
+#X obj 209 140 click~;
+#X obj 20 200 flt.bpf24~;
+#X obj 209 200 flt.bpf12~;
+#X obj 20 230 plot.response~ @sr 1;
+#X obj 209 230 plot.response~ @sr 1;
+#X obj 20 275 ui.plot~ @xlabels 1 @ylabels 1 @ymin 0 @ymax 1
 @ymin_ticks 0 @ymaj_ticks 0 @n 2 @size 400 200;
-#X obj 20 404 ui.dsp~;
+#X obj 20 500 ui.dsp~;
 #X connect 0 0 1 0;
 #X connect 1 0 2 0;
 #X connect 2 0 6 0;

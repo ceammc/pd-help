@@ -1,18 +1,18 @@
-#N canvas 0 0 701 381 12;
-#X obj 20 44 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#N canvas 0 0 701 462 12;
+#X obj 20 50 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X obj 92 44 msg.onload;
-#X obj 212 44 ui.knob @min -1 @max 1;
-#X obj 20 68 click~;
-#X obj 92 68 samplerate~;
-#X obj 92 92 / 8;
-#X msg 212 92 @a \$1;
-#X floatatom 276 92 5 0 0 0 - - -;
-#X obj 20 116 flt.ff_comb~;
-#X obj 20 140 plot.response~;
-#X obj 20 164 ui.plot~ @xlabels 1 @ylabels 1 @ymin 0 @ymax 2
+#X obj 101 50 msg.onload;
+#X obj 236 50 ui.knob @min -1 @max 1;
+#X obj 20 80 click~;
+#X obj 101 80 samplerate~;
+#X obj 101 110 / 8;
+#X msg 236 110 @a \$1;
+#X floatatom 308 110 5 0 0 0 - - -;
+#X obj 20 140 flt.ff_comb~;
+#X obj 20 170 plot.response~;
+#X obj 20 200 ui.plot~ @xlabels 1 @ylabels 1 @ymin 0 @ymax 2
 @ymin_ticks 0 @ymaj_ticks 0 @size 400 200;
-#X obj 20 344 ui.dsp~;
+#X obj 20 425 ui.dsp~;
 #X connect 0 0 3 0;
 #X connect 1 0 4 0;
 #X connect 4 0 5 0;

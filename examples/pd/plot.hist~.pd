@@ -1,14 +1,14 @@
-#N canvas 0 0 1170 309 12;
-#X obj 20 44 noise.white~;
-#X obj 140 44 osc~ 40;
-#X obj 140 68 ui.hrd @nitems 2;
-#X obj 20 92 flow.multiplex~ 2;
-#X msg 204 92 bang;
-#X obj 20 116 plot.hist~ 2048 @nbins 32;
-#X obj 20 140 ui.plot~ @size 300 150 @xlabels 1 @ylabels 1 @xmin_grid
+#N canvas 0 0 1170 372 12;
+#X obj 20 50 noise.white~;
+#X obj 155 50 osc~ 40;
+#X obj 155 80 ui.hrd @nitems 2;
+#X obj 20 110 flow.multiplex~ 2;
+#X msg 227 110 bang;
+#X obj 20 140 plot.hist~ 2048 @nbins 32;
+#X obj 20 170 ui.plot~ @size 300 150 @xlabels 1 @ylabels 1 @xmin_grid
 1 @ymin_ticks 0 @ymaj_ticks 0 @xmin_ticks 0 @ymin 0 @ymax 100 @mode
 bars @plot_color0 0.2 0.2 0.2;
-#X obj 20 272 ui.dsp~;
+#X obj 20 335 ui.dsp~;
 #X connect 0 0 3 0;
 #X connect 3 0 5 0;
 #X connect 4 0 5 0;

@@ -1,17 +1,17 @@
-#N canvas 0 0 636 297 12;
-#X text 20 44 [ui.label test label];
-#X obj 20 68 ui.label test label @receive lbl1;
-#X obj 20 116 ui.label test label @align center @background_color 0.8
+#N canvas 0 0 636 357 12;
+#X text 20 50 [ui.label test label];
+#X obj 20 80 ui.label test label @receive lbl1;
+#X obj 20 140 ui.label test label @align center @background_color 0.8
 0.9 0.4 1 @receive lbl1;
-#X obj 20 164 ui.label test label @align right @receive lbl1
+#X obj 20 200 ui.label test label @align right @receive lbl1
 @background_color 0.4 0.9 0.8 1;
-#X msg 20 224 1;
-#X floatatom 52 224 5 0 0 0 - - -;
-#X msg 100 224 a b c;
-#X symbolatom 164 224 5 0 0 0 - - -;
-#X msg 228 224 append A;
-#X msg 324 224 prepend C;
-#X obj 20 260 s lbl1;
+#X msg 20 275 1;
+#X floatatom 56 275 5 0 0 0 - - -;
+#X msg 110 275 a b c;
+#X symbolatom 182 275 5 0 0 0 - - -;
+#X msg 254 275 append A;
+#X msg 362 275 prepend C;
+#X obj 20 320 s lbl1;
 #X connect 4 0 10 0;
 #X connect 5 0 10 0;
 #X connect 6 0 10 0;

@@ -1,15 +1,15 @@
-#N canvas 0 0 672 345 12;
-#X msg 20 44 bang;
-#X msg 100 44 0.5 0 0.5;
-#X msg 196 44 0.5 0 0 -0.5 0.25;
-#X msg 356 44 0.5 0.5;
-#X obj 20 68 click~;
-#X obj 100 68 nsig~ 5 0.5 0.5;
-#X obj 20 116 flt.biquad~;
-#X obj 20 140 plot.response~;
-#X obj 20 164 ui.plot~ @size 400 165 @n 2 @ymin -1.6 @ymax 1.6
+#N canvas 0 0 672 417 12;
+#X msg 20 50 bang;
+#X msg 110 50 0.5 0 0.5;
+#X msg 218 50 0.5 0 0 -0.5 0.25;
+#X msg 398 50 0.5 0.5;
+#X obj 20 80 click~;
+#X obj 110 80 nsig~ 5 0.5 0.5;
+#X obj 20 140 flt.biquad~;
+#X obj 20 170 plot.response~;
+#X obj 20 200 ui.plot~ @size 400 165 @n 2 @ymin -1.6 @ymax 1.6
 @ylabels 1 @xlabels 1 @ymin_ticks 0;
-#X obj 20 308 ui.dsp~;
+#X obj 20 380 ui.dsp~;
 #X connect 0 0 4 0;
 #X connect 1 0 5 0;
 #X connect 2 0 5 0;

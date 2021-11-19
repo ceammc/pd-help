@@ -1,14 +1,14 @@
-#N canvas 0 0 485 153 12;
-#X obj 20 44 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#N canvas 0 0 514 177 12;
+#X obj 20 50 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X msg 68 44 1 2 3;
-#X floatatom 132 44 5 0 0 0 - - -;
-#X msg 164 44 clear;
-#X msg 252 44 bang;
-#X obj 20 92 local.set s1;
-#X obj 252 92 local.set s1;
-#X obj 20 116 ui.display @display_type 1;
-#X obj 252 116 ui.display @display_type 1;
+#X msg 74 50 1 2 3;
+#X floatatom 146 50 5 0 0 0 - - -;
+#X msg 182 50 clear;
+#X msg 281 50 bang;
+#X obj 20 110 local.set s1;
+#X obj 281 110 local.set s1;
+#X obj 20 140 ui.display @display_type 1;
+#X obj 281 140 ui.display @display_type 1;
 #X connect 0 0 5 0;
 #X connect 1 0 5 0;
 #X connect 2 0 5 0;

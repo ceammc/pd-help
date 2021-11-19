@@ -1,11 +1,11 @@
-#N canvas 0 0 291 165 12;
-#X text 20 44 click me!;
-#X obj 20 68 loadmsg load message;
-#X obj 20 104 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#N canvas 0 0 303 192 12;
+#X text 20 50 click me!;
+#X obj 20 80 loadmsg load message;
+#X obj 20 125 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X obj 52 104 print;
-#X obj 116 104 ui.dt @auto_size 0;
-#X obj 20 128 msg.onload.type;
+#X obj 56 125 print;
+#X obj 128 125 ui.dt @auto_size 0;
+#X obj 20 155 msg.onload.type;
 #X connect 1 0 2 0;
 #X connect 1 0 3 0;
 #X connect 1 0 4 0;

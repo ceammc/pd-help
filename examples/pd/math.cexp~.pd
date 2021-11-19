@@ -1,17 +1,17 @@
-#N canvas 0 0 997 405 12;
-#X text 20 44 Plot FIR frequency response: |H(w)| = 0.5 + 0.5e^-jw;
-#X msg 20 68 bang;
-#X obj 20 92 plot.linspace~ 0 3.141592 @pi;
-#X obj 20 116 *~ -1;
-#X obj 20 140 math.cexp~;
-#X obj 124 140 sig~ 0.5;
-#X obj 20 164 math.cmul~;
-#X obj 20 188 +~ 0.5;
-#X obj 20 212 math.cabs~;
-#X obj 20 236 ui.plot~ @size 475 150 @xlabels 1 @ylabels 1 @ymin 0
+#N canvas 0 0 997 492 12;
+#X text 20 50 Plot FIR frequency response: |H(w)| = 0.5 + 0.5e^-jw;
+#X msg 20 80 bang;
+#X obj 20 110 plot.linspace~ 0 3.141592 @pi;
+#X obj 20 140 *~ -1;
+#X obj 20 170 math.cexp~;
+#X obj 137 170 sig~ 0.5;
+#X obj 20 200 math.cmul~;
+#X obj 20 230 +~ 0.5;
+#X obj 20 260 math.cabs~;
+#X obj 20 290 ui.plot~ @size 475 150 @xlabels 1 @ylabels 1 @ymin 0
 @ymax 1 @ymin_ticks 0 @ymax_ticks 0 @xmin_ticks 0 @xmaj_ticks 0
 @xmin_grid 1;
-#X obj 20 368 ui.dsp~;
+#X obj 20 455 ui.dsp~;
 #X connect 1 0 2 0;
 #X connect 2 0 3 0;
 #X connect 3 0 4 1;

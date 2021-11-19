@@ -1,15 +1,15 @@
-#N canvas 0 0 572 204 12;
-#X msg 20 44 bang;
+#N canvas 0 0 596 210 12;
+#X msg 20 50 bang;
 #N canvas 0 22 450 300 (subpatch) 0;
 #X array LOG 100 float 1;
 #A 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
 #X coords 0 4 100 -4 320 140 1;
-#X restore 212 44 graph;
-#X obj 20 68 list.seq -1 16 0.125;
-#X obj 20 92 math.log;
-#X obj 20 116 list->array LOG;
+#X restore 236 50 graph;
+#X obj 20 80 list.seq -1 16 0.125;
+#X obj 20 110 math.log;
+#X obj 20 140 list->array LOG;
 #X connect 0 0 2 0;
 #X connect 2 0 3 0;
 #X connect 3 0 4 0;

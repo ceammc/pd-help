@@ -1,18 +1,18 @@
-#N canvas 0 0 288 225 12;
+#N canvas 0 0 305 267 12;
 #N canvas 0 22 450 300 (subpatch) 0;
 #X array A1 100 float 1;
 #A 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
 #X coords 0 1 100 0 130 100 1;
-#X restore 20 44 graph;
-#X obj 20 140 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#X restore 20 50 graph;
+#X obj 20 170 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X obj 20 164 array.do A1;
-#X obj 156 164 unpack f f f;
-#X obj 20 188 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#X obj 20 200 array.do A1;
+#X obj 173 200 unpack f f f;
+#X obj 20 230 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X obj 180 188 /;
+#X obj 200 230 /;
 #X connect 1 0 2 0;
 #X connect 2 0 4 0;
 #X connect 3 1 5 0;

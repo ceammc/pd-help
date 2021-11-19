@@ -1,10 +1,10 @@
-#N canvas 0 0 137 225 12;
-#X obj 20 44 ui.knob;
-#X floatatom 20 92 5 0 0 0 - - -;
-#X obj 20 116 phase->rad;
-#X floatatom 20 140 5 0 0 0 - - -;
-#X obj 20 164 rad->phase;
-#X obj 20 188 ui.knob;
+#N canvas 0 0 137 267 12;
+#X obj 20 50 ui.knob;
+#X floatatom 20 110 5 0 0 0 - - -;
+#X obj 20 140 phase->rad;
+#X floatatom 20 170 5 0 0 0 - - -;
+#X obj 20 200 rad->phase;
+#X obj 20 230 ui.knob;
 #X connect 0 0 1 0;
 #X connect 1 0 2 0;
 #X connect 2 0 3 0;

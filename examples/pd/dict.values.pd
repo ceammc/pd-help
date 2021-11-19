@@ -1,10 +1,10 @@
-#N canvas 0 0 526 177 12;
-#X obj 20 44 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#N canvas 0 0 526 207 12;
+#X obj 20 50 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X obj 20 68 data.dict \[bpm: 120 title: "Unknown masterpiece" freqs:
+#X obj 20 80 data.dict \[bpm: 120 title: "Unknown masterpiece" freqs:
 1 2 3 4\];
-#X obj 20 116 dict.values;
-#X obj 20 140 ui.display @display_type 1;
+#X obj 20 140 dict.values;
+#X obj 20 170 ui.display @display_type 1;
 #X connect 0 0 1 0;
 #X connect 1 0 2 0;
 #X connect 2 0 3 0;

@@ -1,16 +1,16 @@
-#N canvas 0 0 386 201 12;
-#X obj 20 44 adc~ 1;
-#X msg 36 68 record;
-#X msg 108 68 play;
-#X msg 164 68 overdub;
-#X msg 244 68 stop;
-#X msg 300 68 clear;
-#X obj 20 116 fx.looper~ @loop_bang 1;
-#X obj 20 140 ui.gain~ @size 120 14;
-#X obj 220 140 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#N canvas 0 0 421 237 12;
+#X obj 20 50 adc~ 1;
+#X msg 38 80 record;
+#X msg 119 80 play;
+#X msg 182 80 overdub;
+#X msg 272 80 stop;
+#X msg 335 80 clear;
+#X obj 20 140 fx.looper~ @loop_bang 1;
+#X obj 20 170 ui.gain~ @size 120 14;
+#X obj 245 170 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X obj 260 140 ui.dsp~;
-#X obj 20 164 dac~;
+#X obj 290 170 ui.dsp~;
+#X obj 20 200 dac~;
 #X connect 0 0 6 0;
 #X connect 1 0 6 0;
 #X connect 2 0 6 0;

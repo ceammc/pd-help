@@ -1,8 +1,8 @@
-#N canvas 0 0 271 129 12;
-#X msg 20 44 44100;
-#X msg 92 44 20 1000 5000 20000;
-#X obj 20 68 samp->sec;
-#X obj 20 92 ui.dt;
+#N canvas 0 0 280 147 12;
+#X msg 20 50 44100;
+#X msg 101 50 20 1000 5000 20000;
+#X obj 20 80 samp->sec;
+#X obj 20 110 ui.dt;
 #X connect 0 0 2 0;
 #X connect 1 0 2 0;
 #X connect 2 0 3 0;

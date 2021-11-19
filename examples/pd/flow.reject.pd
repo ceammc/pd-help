@@ -1,8 +1,8 @@
-#N canvas 0 0 159 153 12;
-#X floatatom 20 44 5 0 0 0 - - -;
-#X obj 20 68 flow.reject 0;
-#X obj 20 92 1/x;
-#X floatatom 20 116 12 0 0 0 - - -;
+#N canvas 0 0 159 177 12;
+#X floatatom 20 50 5 0 0 0 - - -;
+#X obj 20 80 flow.reject 0;
+#X obj 20 110 1/x;
+#X floatatom 20 140 12 0 0 0 - - -;
 #X connect 0 0 1 0;
 #X connect 1 0 2 0;
 #X connect 2 0 3 0;

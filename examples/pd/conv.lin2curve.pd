@@ -1,6 +1,6 @@
-#N canvas 0 0 566 244 12;
-#X obj 20 44 loadbang;
-#X floatatom 140 44 5 0 0 0 - - -;
+#N canvas 0 0 598 267 12;
+#X obj 20 50 loadbang;
+#X floatatom 155 50 5 0 0 0 - - -;
 #N canvas 0 22 450 300 (subpatch) 0;
 #X array l2c 255 float 1;
 #A 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
@@ -12,15 +12,15 @@
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0 0 0 0 0 0 0 0 0;
 #X coords 0 1 255 0 250 180 1;
-#X restore 276 44 graph;
-#X msg 20 68 0 256;
-#X obj 140 68 t b f;
-#X obj 20 92 list.seq;
-#X msg 140 92 @curve \$1;
-#X obj 20 116 list.separate;
-#X obj 20 140 t f f, f 12;
-#X obj 20 164 lin->curve 0 256 0 1;
-#X obj 20 188 tabwrite l2c;
+#X restore 308 50 graph;
+#X msg 20 80 0 256;
+#X obj 155 80 t b f;
+#X obj 20 110 list.seq;
+#X msg 155 110 @curve \$1;
+#X obj 20 140 list.separate;
+#X obj 20 170 t f f, f 12;
+#X obj 20 200 lin->curve 0 256 0 1;
+#X obj 20 230 tabwrite l2c;
 #X connect 0 0 3 0;
 #X connect 1 0 4 0;
 #X connect 3 0 5 0;

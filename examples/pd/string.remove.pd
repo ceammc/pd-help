@@ -1,17 +1,17 @@
-#N canvas 0 0 624 177 12;
-#X obj 20 44 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#N canvas 0 0 674 207 12;
+#X obj 20 50 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X obj 212 44 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#X obj 236 50 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X obj 420 44 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#X obj 470 50 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X obj 20 68 string 12321 12321;
-#X obj 212 68 string 12321 12321;
-#X obj 420 68 string 12321 12321;
-#X obj 20 92 str.remove "123" @all;
-#X obj 212 92 str.remove "123" @first;
-#X obj 420 92 str.remove "123" @last;
-#X obj 196 140 ui.dt;
+#X obj 20 80 string 12321 12321;
+#X obj 236 80 string 12321 12321;
+#X obj 470 80 string 12321 12321;
+#X obj 20 110 str.remove "123" @all;
+#X obj 236 110 str.remove "123" @first;
+#X obj 470 110 str.remove "123" @last;
+#X obj 218 170 ui.dt;
 #X connect 0 0 3 0;
 #X connect 1 0 4 0;
 #X connect 2 0 5 0;

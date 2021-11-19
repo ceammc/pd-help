@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-DIR="@PROJECT_SOURCE_DIR@/ascii"
+DIR="@PROJECT_SOURCE_DIR@/examples/ascii"
 
 ascii_example() {
     xmllint --nocdata \

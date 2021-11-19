@@ -12,14 +12,14 @@ ps_fix_fonts() {
 }
 
 cd "@PROJECT_BINARY_DIR@"
-rm -rf ps img
-mkdir -p ps img
+rm -rf ps
+mkdir -p ps
 
 for pd in "@PROJECT_SOURCE_DIR@/examples/pd/"*.pd
 do
     ps="ps/$(basename ${pd%.pd}).ps"
     pdf="${ps%.ps}.pdf"
-    jpeg="img/$(basename ${pd%.pd}.jpg)"
+    jpeg="${DIR}/$(basename ${pd%.pd}.jpg)"
     # save to postscript
     ${PD2PS} $pd $ps
     ps_fix_fonts $ps
@@ -27,38 +27,6 @@ do
     pstopdf $ps ${pdf}
     # save to jpg
     sips -s format jpeg ${pdf} --out ${jpeg}
-    break
 done
 
 rm -rf ps
-
-exit 0
-
-case $1 in
--jpg) FMT=jpg;;
--png) FMT=png;;
--pdf) FMT=pdf;;
-*)    echo "invalid format option: \"$1\", expected: -jpg, -png or -pdf"
-      usage
-      exit 1;;
-esac
-
-IN="$2"
-PDF_OUT="${IN%.ps}.pdf"
-PNG_OUT="${IN%.ps}.png"
-JPEG_OUT="${IN%.ps}.jpg"
-
-
-
-pstopdf $IN $PDF_OUT
-
-case $FMT in
-jpg)
-    sips -s format jpeg $PDF_OUT --out $JPEG_OUT
-    rm -f $PDF_OUT
-    ;;
-png)
-    sips -s format png $PDF_OUT --out $PNG_OUT
-    rm -f $PDF_OUT
-    ;;
-esac

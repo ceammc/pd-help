@@ -14,7 +14,6 @@
 Values outside of range @min...@max are ignored
 
 
-
 [![example](../examples/img/array.hist.jpg)](../examples/pd/array.hist.pd)
 
 

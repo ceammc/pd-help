@@ -11,12 +11,7 @@
 
 
 ## information
-The acos() function computes the principle value of the arc cosine of input value.
-            The result is in the range [0, pi].
-Special values:
-acos(1) returns +0.
-acos(x) returns a NAN.
-
+The acos() function computes the principle value of the arc cosine of input value. The result is in the range [0, pi]. Special values: acos(1) returns +0. acos(x) returns a NAN.
 
 
 [![example](../examples/img/math.acos.jpg)](../examples/pd/math.acos.pd)

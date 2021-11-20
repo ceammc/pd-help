@@ -11,10 +11,7 @@
 
 
 ## information
-In default mode: output NOTE VEL pair to corresponding bit index outlet. If bit is
-            on: velocity is @vel, otherwise 0
-In @poly mode: output VOICE NOTE VEL triplet to first outlet
-
+In default mode: output NOTE VEL pair to corresponding bit index outlet. If bit is on: velocity is @vel, otherwise 0 In @poly mode: output VOICE NOTE VEL triplet to first outlet
 
 
 [![example](../examples/img/conv.bits2note.jpg)](../examples/pd/conv.bits2note.pd)

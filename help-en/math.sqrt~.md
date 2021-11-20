@@ -14,7 +14,6 @@
 outputs NAN if input signal &lt;0
 
 
-
 [![example](../examples/img/math.sqrt~.jpg)](../examples/pd/math.sqrt~.pd)
 
 

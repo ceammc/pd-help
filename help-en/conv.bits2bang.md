@@ -11,9 +11,7 @@
 
 
 ## information
-in default mode if bit is on - sends bang to corresponding outlet
-in @poly mode if bit is on - send list (BIT_IDX bang) to single outlet
-
+in default mode if bit is on - sends bang to corresponding outlet in @poly mode if bit is on - send list (BIT_IDX bang) to single outlet
 
 
 [![example](../examples/img/conv.bits2bang.jpg)](../examples/pd/conv.bits2bang.pd)

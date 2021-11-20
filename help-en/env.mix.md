@@ -3,8 +3,7 @@
 
 # env.mix
 
-###### Mix between two envelopes. Envelopes should contain equal number of
-            segments
+###### Mix between two envelopes. Envelopes should contain equal number of segments
 
 *available since version:* 0.5
 

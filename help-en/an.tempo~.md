@@ -14,7 +14,6 @@
 Tempo detector based on aubio library
 
 
-
 [![example](../examples/img/an.tempo~.jpg)](../examples/pd/an.tempo~.pd)
 
 

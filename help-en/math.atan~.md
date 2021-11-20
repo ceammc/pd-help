@@ -14,7 +14,6 @@
 Outputs arc tangent of input signal. The result is in the range [-π/2, +π/2]
 
 
-
 [![example](../examples/img/math.atan~.jpg)](../examples/pd/math.atan~.pd)
 
 

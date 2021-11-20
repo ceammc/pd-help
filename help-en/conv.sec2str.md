@@ -3,8 +3,7 @@
 
 # conv.sec2str
 
-###### converts float time in seconds to formated symbol (or
-            string)
+###### converts float time in seconds to formated symbol (or string)
 
 *available since version:* 0.1
 

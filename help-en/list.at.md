@@ -11,15 +11,7 @@
 
 
 ## information
-Returns the element at the given index position in the list.
-@rel property allows to acess elements in range (-LIST_SIZE, LIST_SIZE). Negative
-            index means position from the end of the list. For example: -1 returns last
-            element.
-@clip property: if element index &lt; 0 - first element returned. If element index
-            &gt;= LIST_SIZE last element returned.
-@wrap property: in range [0, LIST_SIZE) ordinal elements are returned. Other
-            indexes are wrapped by modulo division.
-
+Returns the element at the given index position in the list. @rel property allows to acess elements in range (-LIST_SIZE, LIST_SIZE). Negative index means position from the end of the list. For example: -1 returns last element. @clip property: if element index = LIST_SIZE last element returned. @wrap property: in range [0, LIST_SIZE) ordinal elements are returned. Other indexes are wrapped by modulo division.
 
 
 [![example](../examples/img/list.at.jpg)](../examples/pd/list.at.pd)

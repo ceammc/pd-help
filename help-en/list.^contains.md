@@ -11,9 +11,7 @@
 
 
 ## information
-Outputs 1 if contains, otherwise 0
-Different arguments order then in [list.^contains]
-
+Outputs 1 if contains, otherwise 0 Different arguments order then in [list.^contains]
 
 
 [![example](../examples/img/list.%5Econtains.jpg)](../examples/pd/list.%5Econtains.pd)

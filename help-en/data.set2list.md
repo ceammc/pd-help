@@ -11,9 +11,7 @@
 
 
 ## information
-Note: output list is not sorted by default. You can use @sort flag to get sorted
-            output
-
+Note: output list is not sorted by default. You can use @sort flag to get sorted output
 
 
 [![example](../examples/img/data.set2list.jpg)](../examples/pd/data.set2list.pd)

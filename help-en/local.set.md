@@ -14,7 +14,6 @@
 Defines local scope set variable, accessed by ID name
 
 
-
 [![example](../examples/img/local.set.jpg)](../examples/pd/local.set.pd)
 
 

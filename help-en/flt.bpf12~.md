@@ -11,11 +11,7 @@
 
 
 ## information
-Band-pass filter passes frequencies within a certain range and rejects frequencies
-            outside that range.
-Butterworth filter is a type of filter designed to have a frequency response as
-            flat as possible in the passband.
-
+Band-pass filter passes frequencies within a certain range and rejects frequencies outside that range. Butterworth filter is a type of filter designed to have a frequency response as flat as possible in the passband.
 
 
 [![example](../examples/img/flt.bpf12~.jpg)](../examples/pd/flt.bpf12~.pd)

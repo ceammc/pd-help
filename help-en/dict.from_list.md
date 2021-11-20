@@ -11,9 +11,7 @@
 
 
 ## information
-Convertion depends on property @step, which means a length of key/value pair.
-            First element of the pair becames a key, and other elements becames value.
-
+Convertion depends on property @step, which means a length of key/value pair. First element of the pair becames a key, and other elements becames value.
 
 
 [![example](../examples/img/dict.from_list.jpg)](../examples/pd/dict.from_list.pd)

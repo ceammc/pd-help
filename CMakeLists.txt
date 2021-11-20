@@ -29,6 +29,9 @@ configure_file(scripts/examples_img_trim.sh
 configure_file(scripts/generate_md_en.sh
     ${PROJECT_BINARY_DIR}/generate_md_en.sh @ONLY)
 
+configure_file(scripts/generate_md_ru.sh
+    ${PROJECT_BINARY_DIR}/generate_md_ru.sh @ONLY)
+
 include(ExternalProject)
 ExternalProject_Add(
     ceammc
@@ -61,5 +64,10 @@ add_custom_target(examples_img_trim
 
 add_custom_target(en
   COMMAND ${PROJECT_BINARY_DIR}/generate_md_en.sh
+  DEPENDS ceammc
+  USES_TERMINAL)
+
+add_custom_target(ru
+  COMMAND ${PROJECT_BINARY_DIR}/generate_md_ru.sh
   DEPENDS ceammc
   USES_TERMINAL)

@@ -11,9 +11,7 @@
 
 
 ## information
-Convert frequency from BPM (beats per minute) to period in seconds. It&#39;s simple as
-            60/f, but more readable.
-
+Convert frequency from BPM (beats per minute) to period in seconds. It&#39;s simple as 60/f, but more readable.
 
 
 [![example](../examples/img/conv.bpm2sec.jpg)](../examples/pd/conv.bpm2sec.pd)

@@ -11,14 +11,7 @@
 
 
 ## information
-Data type for sound envelope. Contains points specified by time and value. Points
-            could have stop property - to execute oly part of envelope and stop on this point. So
-            multisegment envelopes could be created
-Point also has segment type property, that defines following segment curve - it
-            could be *step*, *line* (default) or *exp* (exponential)
-Exponential segment also has curve property: if 0 - (linear) &lt;0 (concave,
-            negatively curved) &gt;0 (convex, positively curved)
-
+Data type for sound envelope. Contains points specified by time and value. Points could have stop property - to execute oly part of envelope and stop on this point. So multisegment envelopes could be created Point also has segment type property, that defines following segment curve - it could be *step*, *line* (default) or *exp* (exponential) Exponential segment also has curve property: if 0 - (linear) 0 (convex, positively curved)
 
 
 [![example](../examples/img/envelope.jpg)](../examples/pd/envelope.pd)

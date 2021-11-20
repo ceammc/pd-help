@@ -11,9 +11,7 @@
 
 
 ## information
-Defines local scope dict variable, accessed by ID name and available only within
-            its patch (canvas)
-
+Defines local scope dict variable, accessed by ID name and available only within its patch (canvas)
 
 
 [![example](../examples/img/local.dict.jpg)](../examples/pd/local.dict.pd)

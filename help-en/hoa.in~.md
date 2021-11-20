@@ -14,7 +14,6 @@
 defines a signal inlet for a patcher loaded by a hoa.process~ object
 
 
-
 [![example](../examples/img/hoa.in~.jpg)](../examples/pd/hoa.in~.pd)
 
 

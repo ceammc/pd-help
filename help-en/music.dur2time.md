@@ -11,12 +11,7 @@
 
 
 ## information
-duration can be specified
-- by denominator: 1 (whole), 2_. (dotted half), 8 (eight) etc.
-or
-- by ratio: 3/4 (three quaters), 1/8.(one dotted eight), 3/8 (three eights)
-            etc.
-
+duration can be specified - by denominator: 1 (whole), 2_. (dotted half), 8 (eight) etc. or - by ratio: 3/4 (three quaters), 1/8.(one dotted eight), 3/8 (three eights) etc.
 
 
 [![example](../examples/img/music.dur2time.jpg)](../examples/pd/music.dur2time.pd)

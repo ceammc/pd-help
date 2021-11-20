@@ -11,9 +11,7 @@
 
 
 ## information
-Period-length detector using Philip McLeod&#39;s Specially Normalized AutoCorrelation
-            function (SNAC)
-
+Period-length detector using Philip McLeod&#39;s Specially Normalized AutoCorrelation function (SNAC)
 
 
 [![example](../examples/img/an.pitchtrack~.jpg)](../examples/pd/an.pitchtrack~.pd)
@@ -84,9 +82,7 @@ _type:_ audio
 _type:_ audio
 * output frequency in Hz<br>
 _type:_ control
-* track fidelity: a value between 0 and 1, indicating to which extent the input
-            signal is periodic. A fidelity of ~0.95 can be considered to indicate a periodic
-            signal.<br>
+* track fidelity: a value between 0 and 1, indicating to which extent the input signal is periodic. A fidelity of ~0.95 can be considered to indicate a periodic signal.<br>
 _type:_ control
 
 

@@ -11,9 +11,7 @@
 
 
 ## information
-Returns item position in list or -1 if not found.
-If several items are specified returns list of positions.
-
+Returns item position in list or -1 if not found. If several items are specified returns list of positions.
 
 
 [![example](../examples/img/list.search.jpg)](../examples/pd/list.search.pd)

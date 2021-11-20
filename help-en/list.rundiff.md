@@ -11,13 +11,7 @@
 
 
 ## information
-Computes the adjacent difference of the elements of the input list
-• y0 = x0
-• y1 = x1 - x0
-• y2 = x2 - x1
-• y3 = x3 - x2
-etc...
-
+Computes the adjacent difference of the elements of the input list • y0 = x0 • y1 = x1 - x0 • y2 = x2 - x1 • y3 = x3 - x2 etc...
 
 
 [![example](../examples/img/list.rundiff.jpg)](../examples/pd/list.rundiff.pd)

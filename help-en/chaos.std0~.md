@@ -11,12 +11,7 @@
 
 
 ## information
-A non-interpolating generator based on the difference equations:
-y(n+1) = (y(n) + k * sin(x(n))) % 2pi
-x(n+1) = (x(n) + y(n+1)) % 2pi
-The properties of chaos of the standard map were established by Boris Chirikov in
-            1969
-
+A non-interpolating generator based on the difference equations: y(n+1) = (y(n) + k * sin(x(n))) % 2pi x(n+1) = (x(n) + y(n+1)) % 2pi The properties of chaos of the standard map were established by Boris Chirikov in 1969
 
 
 [![example](../examples/img/chaos.std0~.jpg)](../examples/pd/chaos.std0~.pd)

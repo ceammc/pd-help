@@ -11,12 +11,7 @@
 
 
 ## information
-Frequency response of a comb filter consists of a series of regularly spaced
-            notches, giving the appearance of a comb
-Structure of a feedforward comb filter may be described by the following
-            difference equation: y[n] = x[n] + α[n−K] where K is the delay length (measured in
-            samples), and α is a scaling factor applied to the delayed signal
-
+Frequency response of a comb filter consists of a series of regularly spaced notches, giving the appearance of a comb Structure of a feedforward comb filter may be described by the following difference equation: y[n] = x[n] + α[n−K] where K is the delay length (measured in samples), and α is a scaling factor applied to the delayed signal
 
 
 [![example](../examples/img/flt.ff_comb~.jpg)](../examples/pd/flt.ff_comb~.pd)

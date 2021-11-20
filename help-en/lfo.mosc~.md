@@ -14,7 +14,6 @@
 switching between waveforms is interpolated and takes 50ms.
 
 
-
 [![example](../examples/img/lfo.mosc~.jpg)](../examples/pd/lfo.mosc~.pd)
 
 

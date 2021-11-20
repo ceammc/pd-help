@@ -11,9 +11,7 @@
 
 
 ## information
-Extension of factorial function to real numbers
-For any positive integer n, Γ(n) = (n−1)!
-
+Extension of factorial function to real numbers For any positive integer n, Γ(n) = (n−1)!
 
 
 [![example](../examples/img/math.gamma~.jpg)](../examples/pd/math.gamma~.pd)

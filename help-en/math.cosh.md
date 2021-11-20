@@ -11,11 +11,7 @@
 
 
 ## information
-The coshf() function computes the hyperbolic cosine of input value.
-Special values:
-cosh(+-0) returns 1.
-cosh(+-infinity) returns +infinity.
-
+The coshf() function computes the hyperbolic cosine of input value. Special values: cosh(+-0) returns 1. cosh(+-infinity) returns +infinity.
 
 
 [![example](../examples/img/math.cosh.jpg)](../examples/pd/math.cosh.pd)

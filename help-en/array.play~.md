@@ -170,8 +170,7 @@ _type:_ control
 
 * played signal<br>
 _type:_ audio
-* output current playing position according to @cfmt property. By default output
-            seconds<br>
+* output current playing position according to @cfmt property. By default output seconds<br>
 _type:_ control
 * output bang when finished<br>
 _type:_ control

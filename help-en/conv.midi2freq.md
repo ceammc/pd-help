@@ -3,8 +3,7 @@
 
 # conv.midi2freq
 
-###### convert from midi pitch to frequency in hz (with various base A and
-            temperament)
+###### convert from midi pitch to frequency in hz (with various base A and temperament)
 
 *available since version:* 0.6
 

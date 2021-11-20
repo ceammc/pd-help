@@ -11,13 +11,7 @@
 
 
 ## information
-Computes the partial sums of the elements in the subranges of the input list
-• y0 = x0
-• y1 = x0 + x1
-• y2 = x0 + x1 + x2
-• y3 = x0 + x1 + x2 + x3
-etc...
-
+Computes the partial sums of the elements in the subranges of the input list • y0 = x0 • y1 = x0 + x1 • y2 = x0 + x1 + x2 • y3 = x0 + x1 + x2 + x3 etc...
 
 
 [![example](../examples/img/list.runsum.jpg)](../examples/pd/list.runsum.pd)

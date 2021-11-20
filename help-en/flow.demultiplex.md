@@ -14,7 +14,6 @@
 Note: you can get/set object properties only via prop.set/prop.get objects
 
 
-
 [![example](../examples/img/flow.demultiplex.jpg)](../examples/pd/flow.demultiplex.pd)
 
 

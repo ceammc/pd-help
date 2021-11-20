@@ -11,9 +11,7 @@
 
 
 ## information
-Only 1 and 0 values are accepted. Any other number treat as 1, but print error to
-            console.
-
+Only 1 and 0 values are accepted. Any other number treat as 1, but print error to console.
 
 
 [![example](../examples/img/math.sync_and.jpg)](../examples/pd/math.sync_and.pd)

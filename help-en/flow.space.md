@@ -14,7 +14,6 @@
 first message is delayed to next scheduler time
 
 
-
 [![example](../examples/img/flow.space.jpg)](../examples/pd/flow.space.pd)
 
 

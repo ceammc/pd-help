@@ -11,9 +11,7 @@
 
 
 ## information
-Acts like vanilla [pipe] but for any messages: bangs, floats, symbols etc.
-Note: @delay property can be set only via right inlet or [prop.set] object
-
+Acts like vanilla [pipe] but for any messages: bangs, floats, symbols etc. Note: @delay property can be set only via right inlet or [prop.set] object
 
 
 [![example](../examples/img/flow.pipe.jpg)](../examples/pd/flow.pipe.pd)

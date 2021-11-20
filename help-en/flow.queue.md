@@ -54,9 +54,7 @@ _type:_ control
 _type:_ control
 * n-th queue input messages<br>
 _type:_ control
-* clear: remove all elements from all queues, output: output all
-                element from all queues, flush: output and clear all element from all queues, bang
-                or pop: output and remove first message in all queues<br>
+* clear: remove all elements from all queues, output: output all element from all queues, flush: output and clear all element from all queues, bang or pop: output and remove first message in all queues<br>
 _type:_ control
 
 

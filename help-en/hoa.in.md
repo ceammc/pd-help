@@ -11,9 +11,7 @@
 
 
 ## information
-hoa.in defines a message inlet for a patcher loaded by a hoa.process~
-            object.
-
+hoa.in defines a message inlet for a patcher loaded by a hoa.process~ object.
 
 
 [![example](../examples/img/hoa.in.jpg)](../examples/pd/hoa.in.pd)

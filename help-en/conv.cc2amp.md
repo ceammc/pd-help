@@ -14,7 +14,6 @@
 By default converts from [0..127] to [0..1]
 
 
-
 [![example](../examples/img/conv.cc2amp.jpg)](../examples/pd/conv.cc2amp.pd)
 
 

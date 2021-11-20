@@ -14,7 +14,6 @@
 Defines global scope integer variable, accessed by ID name.
 
 
-
 [![example](../examples/img/global.int.jpg)](../examples/pd/global.int.pd)
 
 

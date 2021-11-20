@@ -14,7 +14,6 @@
 Outputs the principle value of the hyperbolic arc tangent of input signal
 
 
-
 [![example](../examples/img/math.atanh~.jpg)](../examples/pd/math.atanh~.pd)
 
 

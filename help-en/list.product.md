@@ -11,9 +11,7 @@
 
 
 ## information
-Note: symbol values are treated as 0. So if list contains at least one symbol,
-            product will be always equal to zero
-
+Note: symbol values are treated as 0. So if list contains at least one symbol, product will be always equal to zero
 
 
 [![example](../examples/img/list.product.jpg)](../examples/pd/list.product.pd)

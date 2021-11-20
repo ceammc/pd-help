@@ -11,13 +11,7 @@
 
 
 ## information
-Delay any incoming message by specified time. If @block=0 acts like vanilla
-            [delay] if new message has arrived while delay time is not expired, old message is
-            discarded and new delay time is set from current moment.
-Zero delay time means output message on next Pd runloop iteration (as soon as
-            possible)
-Note: @delay property can be set only via right inlet or [prop.set] object
-
+Delay any incoming message by specified time. If @block=0 acts like vanilla [delay] if new message has arrived while delay time is not expired, old message is discarded and new delay time is set from current moment. Zero delay time means output message on next Pd runloop iteration (as soon as possible) Note: @delay property can be set only via right inlet or [prop.set] object
 
 
 [![example](../examples/img/flow.delay.jpg)](../examples/pd/flow.delay.pd)

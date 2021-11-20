@@ -11,10 +11,7 @@
 
 
 ## information
-By default returns smallest float in list, this equal to using @float
-            property.
-Also you can choose smallest symbol from list by using @symbol property.
-
+By default returns smallest float in list, this equal to using @float property. Also you can choose smallest symbol from list by using @symbol property.
 
 
 [![example](../examples/img/list.min.jpg)](../examples/pd/list.min.pd)

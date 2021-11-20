@@ -11,13 +11,7 @@
 
 
 ## information
-The asin() function computes the principal value of the arc sine of input value.
-            The result is in the range [-pi/2, +pi/2].
-Special values:
-asin(+-0) returns +-0.
-asin(x) returns a NAN and raises the &#34;invalid&#34; floating-point exception for |x|
-            &gt; 1.
-
+The asin() function computes the principal value of the arc sine of input value. The result is in the range [-pi/2, +pi/2]. Special values: asin(+-0) returns +-0. asin(x) returns a NAN and raises the &#34;invalid&#34; floating-point exception for |x| &gt; 1.
 
 
 [![example](../examples/img/math.asin.jpg)](../examples/pd/math.asin.pd)

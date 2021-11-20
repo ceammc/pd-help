@@ -11,18 +11,7 @@
 
 
 ## information
-Grain properties:
-@at - grain position in source array (in samples)
-@l - grain length (in samples)
-@amp - grain amplitude in 0..256 range
-@s - grain speed in -10..10 range
-@p - grain pan in 0..1 range
-@w - grain window: rect, tri or hann
-@tb - time before grain start (in samples)
-@ta - time after grain done (in samples)
-@r - grain number of repeats (-1: infinite)
-@tag - grain tag
-
+Grain properties: @at - grain position in source array (in samples) @l - grain length (in samples) @amp - grain amplitude in 0..256 range @s - grain speed in -10..10 range @p - grain pan in 0..1 range @w - grain window: rect, tri or hann @tb - time before grain start (in samples) @ta - time after grain done (in samples) @r - grain number of repeats (-1: infinite) @tag - grain tag
 
 
 [![example](../examples/img/array.grainer~.jpg)](../examples/pd/array.grainer~.pd)

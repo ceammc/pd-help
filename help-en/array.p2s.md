@@ -14,7 +14,6 @@
 this object allows to get relative access to array
 
 
-
 [![example](../examples/img/array.p2s.jpg)](../examples/pd/array.p2s.pd)
 
 
@@ -39,8 +38,7 @@ _type:_ symbol<br>
 
 ## inlets:
 
-* value between 0 and 1, where 0 maps to begin of array, 1 - to
-                end<br>
+* value between 0 and 1, where 0 maps to begin of array, 1 - to end<br>
 _type:_ control
 
 

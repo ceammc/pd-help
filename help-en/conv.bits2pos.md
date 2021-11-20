@@ -11,9 +11,7 @@
 
 
 ## information
-Note: byte default the least significant bit is the rightmost, this can be changed
-            with @rev property
-
+Note: byte default the least significant bit is the rightmost, this can be changed with @rev property
 
 
 [![example](../examples/img/conv.bits2pos.jpg)](../examples/pd/conv.bits2pos.pd)

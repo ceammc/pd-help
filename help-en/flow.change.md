@@ -11,10 +11,7 @@
 
 
 ## information
-The object passes input values only when it&#39;s changed. You can &#34;set&#34; the current
-            value, or bang to force output.
-Note: [list a b c( and [a b c( are different values!
-
+The object passes input values only when it&#39;s changed. You can &#34;set&#34; the current value, or bang to force output. Note: [list a b c( and [a b c( are different values!
 
 
 [![example](../examples/img/flow.change.jpg)](../examples/pd/flow.change.pd)

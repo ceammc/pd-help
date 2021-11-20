@@ -11,13 +11,7 @@
 
 
 ## information
-Computes the value of the natural logarithm of argument x.
-Special values:
-log(+-0) return -infinity
-log(1) return +0.
-log(x) return a NaN
-log(+infinity) return +infinity.
-
+Computes the value of the natural logarithm of argument x. Special values: log(+-0) return -infinity log(1) return +0. log(x) return a NaN log(+infinity) return +infinity.
 
 
 [![example](../examples/img/math.log.jpg)](../examples/pd/math.log.pd)

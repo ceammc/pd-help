@@ -14,7 +14,6 @@
 Discretizes the ambisonic sound field into the plane waves domain.
 
 
-
 [![example](../examples/img/hoa.2d.projector~.jpg)](../examples/pd/hoa.2d.projector~.pd)
 
 

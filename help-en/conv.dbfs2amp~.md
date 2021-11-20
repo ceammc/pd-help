@@ -14,7 +14,6 @@
 Note: db values &lt;= -144 are converted to 0
 
 
-
 [![example](../examples/img/conv.dbfs2amp~.jpg)](../examples/pd/conv.dbfs2amp~.pd)
 
 

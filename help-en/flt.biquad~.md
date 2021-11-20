@@ -11,10 +11,7 @@
 
 
 ## information
-Digital biquad filter is a second-order recursive linear filter, containing two
-            poles and two zeros.
-transfer function: H(z)=(b0 + b1*z⁻¹ + b2*z⁻²)/(1 + a1*z⁻¹ + a2*z⁻²)
-
+Digital biquad filter is a second-order recursive linear filter, containing two poles and two zeros. transfer function: H(z)=(b0 + b1*z⁻¹ + b2*z⁻²)/(1 + a1*z⁻¹ + a2*z⁻²)
 
 
 [![example](../examples/img/flt.biquad~.jpg)](../examples/pd/flt.biquad~.pd)

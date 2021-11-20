@@ -3,8 +3,7 @@
 
 # fx.vocoder~
 
-###### very simple vocoder where the spectrum of the modulation signal is
-            analyzed using a 32-band filter bank
+###### very simple vocoder where the spectrum of the modulation signal is analyzed using a 32-band filter bank
 
 *available since version:* 0.7
 

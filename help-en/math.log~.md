@@ -11,11 +11,7 @@
 
 
 ## information
-Outputs the value of the natural logarithm
-Special values:
-log(1) return +0.
-log(+infinity) return +infinity.
-
+Outputs the value of the natural logarithm Special values: log(1) return +0. log(+infinity) return +infinity.
 
 
 [![example](../examples/img/math.log~.jpg)](../examples/pd/math.log~.pd)

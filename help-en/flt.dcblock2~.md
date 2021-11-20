@@ -11,9 +11,7 @@
 
 
 ## information
-Stereo DC blocker. It has -3dB point near 35 Hz (at 44.1 kHz) and high-frequency
-            gain near 1.0025 (due to no scaling).
-
+Stereo DC blocker. It has -3dB point near 35 Hz (at 44.1 kHz) and high-frequency gain near 1.0025 (due to no scaling).
 
 
 [![example](../examples/img/flt.dcblock2~.jpg)](../examples/pd/flt.dcblock2~.pd)

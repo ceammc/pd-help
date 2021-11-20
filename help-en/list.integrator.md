@@ -3,8 +3,7 @@
 
 # list.integrator
 
-###### returns the sum of the previously stored list and the current one then
-            stores this sum
+###### returns the sum of the previously stored list and the current one then stores this sum
 
 *available since version:* 0.1
 

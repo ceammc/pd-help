@@ -11,14 +11,7 @@
 
 
 ## information
-Weights the circular harmonics signals depending on the ambisonic optimization. It
-            can be &#34;basic&#34; for no optimization, &#34;maxre&#34; or &#34;inphase&#34;.
-If no optimization mode is specified, the default mode will be inphase.
-Maxre optimization is used when audience is confined to the center of the
-            circle.
-Inphase optimization is used when the audience covers all the circle.
-NB: This is theoretical, the best choice is to trust your ears.
-
+Weights the circular harmonics signals depending on the ambisonic optimization. It can be &#34;basic&#34; for no optimization, &#34;maxre&#34; or &#34;inphase&#34;. If no optimization mode is specified, the default mode will be inphase. Maxre optimization is used when audience is confined to the center of the circle. Inphase optimization is used when the audience covers all the circle. NB: This is theoretical, the best choice is to trust your ears.
 
 
 [![example](../examples/img/hoa.2d.optim~.jpg)](../examples/pd/hoa.2d.optim~.pd)

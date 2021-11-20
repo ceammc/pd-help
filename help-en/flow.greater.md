@@ -11,9 +11,7 @@
 
 
 ## information
-Numbers thar are *less* or *equal* then last argument are passed to N-th
-            inlet
-
+Numbers thar are *less* or *equal* then last argument are passed to N-th inlet
 
 
 [![example](../examples/img/flow.greater.jpg)](../examples/pd/flow.greater.pd)

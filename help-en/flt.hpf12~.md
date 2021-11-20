@@ -11,12 +11,7 @@
 
 
 ## information
-A high-pass filter is an electronic filter that passes signals with a frequency
-            higher than a certain cutoff frequency and attenuates signals with frequencies lower
-            than the cutoff frequency.
-Butterworth filter is a type of filter designed to have a frequency response as
-            flat as possible in the passband.
-
+A high-pass filter is an electronic filter that passes signals with a frequency higher than a certain cutoff frequency and attenuates signals with frequencies lower than the cutoff frequency. Butterworth filter is a type of filter designed to have a frequency response as flat as possible in the passband.
 
 
 [![example](../examples/img/flt.hpf12~.jpg)](../examples/pd/flt.hpf12~.pd)

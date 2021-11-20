@@ -11,9 +11,7 @@
 
 
 ## information
-Creates the circular harmonics of a signal depending of a given order and a
-            position on a circle given in radians (θ).
-
+Creates the circular harmonics of a signal depending of a given order and a position on a circle given in radians (θ).
 
 
 [![example](../examples/img/hoa.2d.encoder~.jpg)](../examples/pd/hoa.2d.encoder~.pd)

@@ -14,7 +14,6 @@
 displays the circular harmonics of an ambisonic sound field
 
 
-
 [![example](../examples/img/hoa.scope~.jpg)](../examples/pd/hoa.scope~.pd)
 
 

@@ -11,9 +11,7 @@
 
 
 ## information
-Outputs hyperbolic cosine of input signal
-cosh x = (ℯˣ + ℯ⁻ˣ)/2
-
+Outputs hyperbolic cosine of input signal cosh x = (ℯˣ + ℯ⁻ˣ)/2
 
 
 [![example](../examples/img/math.cosh~.jpg)](../examples/pd/math.cosh~.pd)

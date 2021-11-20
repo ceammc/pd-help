@@ -14,7 +14,6 @@
 One band per octave. 5th-order Butterworth filters
 
 
-
 [![example](../examples/img/flt.eq10~.jpg)](../examples/pd/flt.eq10~.pd)
 
 

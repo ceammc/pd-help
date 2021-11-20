@@ -11,14 +11,7 @@
 
 
 ## information
-The log10() function computes the value of the logarithm of argument x to base
-            10.
-Special values:
-log10(+-0) return -infinity
-log10(1) return +0.
-log10(x) return a NaN
-log10(+infinity) return +infinity.
-
+The log10() function computes the value of the logarithm of argument x to base 10. Special values: log10(+-0) return -infinity log10(1) return +0. log10(x) return a NaN log10(+infinity) return +infinity.
 
 
 [![example](../examples/img/math.log10.jpg)](../examples/pd/math.log10.pd)

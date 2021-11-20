@@ -11,9 +11,7 @@
 
 
 ## information
-The output range must not include zero. If the input exceeds the input range, by
-            default clip is applied.
-
+The output range must not include zero. If the input exceeds the input range, by default clip is applied.
 
 
 [![example](../examples/img/conv.lin2exp.jpg)](../examples/pd/conv.lin2exp.pd)

@@ -11,12 +11,7 @@
 
 
 ## information
-The asinh() function computes the inverse hyperbolic sine of the real
-            argument
-Special values:
-asinh(+-0) returns +-0.
-asinh(+-infinity) returns +-infinity.
-
+The asinh() function computes the inverse hyperbolic sine of the real argument Special values: asinh(+-0) returns +-0. asinh(+-infinity) returns +-infinity.
 
 
 [![example](../examples/img/math.asinh.jpg)](../examples/pd/math.asinh.pd)

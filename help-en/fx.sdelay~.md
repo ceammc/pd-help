@@ -11,9 +11,7 @@
 
 
 ## information
-delay that doesn&#39;t click and doesn&#39;t transpose when the delay time is
-            changed
-
+delay that doesn&#39;t click and doesn&#39;t transpose when the delay time is changed
 
 
 [![example](../examples/img/fx.sdelay~.jpg)](../examples/pd/fx.sdelay~.pd)

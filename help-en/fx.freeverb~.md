@@ -11,11 +11,7 @@
 
 
 ## information
-A simple Schroeder reverberator primarily developed by &#34;Jezar at Dreampoint&#34; that
-            is extensively used in the free-software world. It uses four Schroeder allpasses in
-            series and eight parallel Schroeder-Moorer filtered-feedback comb-filters for each
-            audio channel, and is said to be especially well tuned.
-
+A simple Schroeder reverberator primarily developed by &#34;Jezar at Dreampoint&#34; that is extensively used in the free-software world. It uses four Schroeder allpasses in series and eight parallel Schroeder-Moorer filtered-feedback comb-filters for each audio channel, and is said to be especially well tuned.
 
 
 [![example](../examples/img/fx.freeverb~.jpg)](../examples/pd/fx.freeverb~.pd)

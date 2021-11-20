@@ -11,9 +11,7 @@
 
 
 ## information
-Warning: in v0.9 extra inlet added to select input
-Set @index property only via [prop.set]
-
+Warning: in v0.9 extra inlet added to select input Set @index property only via [prop.set]
 
 
 [![example](../examples/img/flow.multiplex.jpg)](../examples/pd/flow.multiplex.pd)

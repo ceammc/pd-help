@@ -11,11 +11,7 @@
 
 
 ## information
-The sqrt() function compute the non-negative square root of x.
-Special values:
-sqrt(-0) returns -0.
-sqrt(x) returns a NaN and generates a domain error for x &lt; 0.
-
+The sqrt() function compute the non-negative square root of x. Special values: sqrt(-0) returns -0. sqrt(x) returns a NaN and generates a domain error for x &lt; 0.
 
 
 [![example](../examples/img/math.sqrt.jpg)](../examples/pd/math.sqrt.pd)

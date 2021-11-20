@@ -47,8 +47,7 @@ _type:_ control
 
 * bang on finish<br>
 _type:_ control
-* for each array sample outputs list: SAMPLE_VALUE, SAMPLE_POS,
-            TOTAL_SAMPLES<br>
+* for each array sample outputs list: SAMPLE_VALUE, SAMPLE_POS, TOTAL_SAMPLES<br>
 _type:_ control
 
 

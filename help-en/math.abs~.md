@@ -14,7 +14,6 @@
 The abs() function computes the absolute value of the float input.
 
 
-
 [![example](../examples/img/math.abs~.jpg)](../examples/pd/math.abs~.pd)
 
 

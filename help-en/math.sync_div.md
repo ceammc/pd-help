@@ -14,7 +14,6 @@
 on division by zero outputs nothing: just put error message into console
 
 
-
 [![example](../examples/img/math.sync_div.jpg)](../examples/pd/math.sync_div.pd)
 
 

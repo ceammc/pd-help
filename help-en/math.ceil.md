@@ -11,12 +11,7 @@
 
 
 ## information
-The ceil() function return the smallest integral value greater than or equal to
-            input value.
-Special values:
-ceil(+-0) returns +-0.
-ceil(+-infinity) returns +-infinity.
-
+The ceil() function return the smallest integral value greater than or equal to input value. Special values: ceil(+-0) returns +-0. ceil(+-infinity) returns +-infinity.
 
 
 [![example](../examples/img/math.ceil.jpg)](../examples/pd/math.ceil.pd)

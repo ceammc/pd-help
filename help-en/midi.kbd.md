@@ -14,7 +14,6 @@
 Default keyboard layout is QWERTY, but you can specify custom one
 
 
-
 [![example](../examples/img/midi.kdb.jpg)](../examples/pd/midi.kdb.pd)
 
 

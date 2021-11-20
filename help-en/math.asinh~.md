@@ -14,7 +14,6 @@
 Outputs the principle value of the hyperbolic arc sine of input signal
 
 
-
 [![example](../examples/img/math.asinh~.jpg)](../examples/pd/math.asinh~.pd)
 
 

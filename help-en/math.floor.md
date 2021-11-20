@@ -11,12 +11,7 @@
 
 
 ## information
-The floor() functions return the largest integral value less than or equal to
-            x.
-Special values:
-floor(+-0) returns +-0.
-floor(+-infinity) returns +-infinity.
-
+The floor() functions return the largest integral value less than or equal to x. Special values: floor(+-0) returns +-0. floor(+-infinity) returns +-infinity.
 
 
 [![example](../examples/img/math.floor.jpg)](../examples/pd/math.floor.pd)

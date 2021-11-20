@@ -14,7 +14,6 @@
 At this moment supports only MacOSX
 
 
-
 [![example](../examples/img/hw.display.jpg)](../examples/pd/hw.display.pd)
 
 

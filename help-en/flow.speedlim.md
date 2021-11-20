@@ -11,11 +11,7 @@
 
 
 ## information
-Passthru all control data not often then specified limit in ms. Can be used for
-            button debouncing. In initial state is opened, on first message pass it and then became
-            closed within specified time interval. All incoming messages in that time are dropped.
-            After this interval expiried goes to opened state
-
+Passthru all control data not often then specified limit in ms. Can be used for button debouncing. In initial state is opened, on first message pass it and then became closed within specified time interval. All incoming messages in that time are dropped. After this interval expiried goes to opened state
 
 
 [![example](../examples/img/flow.speedlim.jpg)](../examples/pd/flow.speedlim.pd)

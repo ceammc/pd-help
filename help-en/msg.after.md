@@ -11,9 +11,7 @@
 
 
 ## information
-if new input message received, while delayed message is not send, the delayed
-            message is resetted
-
+if new input message received, while delayed message is not send, the delayed message is resetted
 
 
 [![example](../examples/img/msg.after.jpg)](../examples/pd/msg.after.pd)

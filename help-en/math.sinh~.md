@@ -11,9 +11,7 @@
 
 
 ## information
-Outputs hyperbolic sine of input signal
-sinh x = (ℯˣ - ℯ⁻ˣ)/2
-
+Outputs hyperbolic sine of input signal sinh x = (ℯˣ - ℯ⁻ˣ)/2
 
 
 [![example](../examples/img/math.sinh~.jpg)](../examples/pd/math.sinh~.pd)

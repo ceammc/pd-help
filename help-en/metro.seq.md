@@ -14,7 +14,6 @@
 Easy way to build beat machines
 
 
-
 [![example](../examples/img/metro.seq.jpg)](../examples/pd/metro.seq.pd)
 
 

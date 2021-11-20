@@ -14,7 +14,6 @@
 Outputs hyperbolic tangent of input signal
 
 
-
 [![example](../examples/img/math.tanh~.jpg)](../examples/pd/math.tanh~.pd)
 
 

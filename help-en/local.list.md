@@ -11,9 +11,7 @@
 
 
 ## information
-Defines local scope list variable, accessed by ID name and available only within
-            its patch (canvas).
-
+Defines local scope list variable, accessed by ID name and available only within its patch (canvas).
 
 
 [![example](../examples/img/local.list.jpg)](../examples/pd/local.list.pd)

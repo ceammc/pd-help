@@ -11,9 +11,7 @@
 
 
 ## information
-Note: negative numbers converted using machine architecture, commonly two&#39;s
-            complement
-
+Note: negative numbers converted using machine architecture, commonly two&#39;s complement
 
 
 [![example](../examples/img/conv.int2bits.jpg)](../examples/pd/conv.int2bits.pd)

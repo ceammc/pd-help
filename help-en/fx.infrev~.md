@@ -11,9 +11,7 @@
 
 
 ## information
-Infinity is a MatrixVerb specifically designed to sustain and layer sounds
-            forever.
-
+Infinity is a MatrixVerb specifically designed to sustain and layer sounds forever.
 
 
 [![example](../examples/img/fx.infrev~.jpg)](../examples/pd/fx.infrev~.pd)

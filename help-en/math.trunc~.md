@@ -14,7 +14,6 @@
 Outputs the integral value nearest to but no larger in magnitude than x
 
 
-
 [![example](../examples/img/math.trunc~.jpg)](../examples/pd/math.trunc~.pd)
 
 

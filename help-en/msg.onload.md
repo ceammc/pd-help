@@ -11,9 +11,7 @@
 
 
 ## information
-like [loadbang], but with message and click support.
-Click on object sends message again.
-
+like [loadbang], but with message and click support. Click on object sends message again.
 
 
 [![example](../examples/img/msg.onload.jpg)](../examples/pd/msg.onload.pd)

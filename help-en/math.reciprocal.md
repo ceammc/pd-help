@@ -14,7 +14,6 @@
 Symbols are ignored, 0 gives NAN value
 
 
-
 [![example](../examples/img/math.reciprocal.jpg)](../examples/pd/math.reciprocal.pd)
 
 

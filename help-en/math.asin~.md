@@ -11,9 +11,7 @@
 
 
 ## information
-Outputs the principle value of the arc sine of input signal. The result is in the
-            range [-pi/2, +pi/2]
-
+Outputs the principle value of the arc sine of input signal. The result is in the range [-pi/2, +pi/2]
 
 
 [![example](../examples/img/math.asin~.jpg)](../examples/pd/math.asin~.pd)

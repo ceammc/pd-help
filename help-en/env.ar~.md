@@ -14,7 +14,6 @@
 click on object to activate envelope
 
 
-
 [![example](../examples/img/env.ar~.jpg)](../examples/pd/env.ar~.pd)
 
 

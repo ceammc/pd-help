@@ -11,9 +11,7 @@
 
 
 ## information
-Use backtick ` instead of backslash in regexp syntax
-if you want to match property - use double quotes in arg list: &#34;@prop+&#34;
-
+Use backtick ` instead of backslash in regexp syntax if you want to match property - use double quotes in arg list: &#34;@prop+&#34;
 
 
 [![example](../examples/img/flow.match.jpg)](../examples/pd/flow.match.pd)

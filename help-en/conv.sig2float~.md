@@ -14,7 +14,6 @@
 convert signal to float via specified time invervals
 
 
-
 [![example](../examples/img/conv.sig2float~.jpg)](../examples/pd/conv.sig2float~.pd)
 
 

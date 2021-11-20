@@ -113,8 +113,7 @@ _type:_ audio
 
 * output signal with applied envelope<br>
 _type:_ audio
-* outputs 1 when attack/decay phase finished, 0 - when release phase
-            finished<br>
+* outputs 1 when attack/decay phase finished, 0 - when release phase finished<br>
 _type:_ control
 
 

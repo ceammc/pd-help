@@ -14,7 +14,6 @@
 Calculates for signals (a + bi) * (c + di) = (ac - bd) + (ad + bc)i
 
 
-
 [![example](../examples/img/math.cmul~.jpg)](../examples/pd/math.cmul~.pd)
 
 

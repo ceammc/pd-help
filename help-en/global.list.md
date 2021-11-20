@@ -14,7 +14,6 @@
 Defines global scope list variable, accessed by ID name.
 
 
-
 [![example](../examples/img/global.list.jpg)](../examples/pd/global.list.pd)
 
 

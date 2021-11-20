@@ -14,7 +14,6 @@
 Onset detector based on aubio library
 
 
-
 [![example](../examples/img/an.onset~.jpg)](../examples/pd/an.onset~.pd)
 
 

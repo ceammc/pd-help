@@ -14,7 +14,6 @@
 Numbers thar are *less equal* then N-th argument are passed to N-th inlet
 
 
-
 [![example](../examples/img/flow.less_eq.jpg)](../examples/pd/flow.less_eq.pd)
 
 

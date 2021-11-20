@@ -14,7 +14,6 @@
 checks is |x - pattern| &lt;= |epsilon|
 
 
-
 [![example](../examples/img/math.approx.jpg)](../examples/pd/math.approx.pd)
 
 

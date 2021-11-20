@@ -14,7 +14,6 @@
 Computes the cosine of input signal (in radians)
 
 
-
 [![example](../examples/img/math.cos~.jpg)](../examples/pd/math.cos~.pd)
 
 

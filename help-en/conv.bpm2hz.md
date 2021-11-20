@@ -11,9 +11,7 @@
 
 
 ## information
-Converts frequency from BPM (beats per minute) to herz. It&#39;s simple as /60, but
-            more readable
-
+Converts frequency from BPM (beats per minute) to herz. It&#39;s simple as /60, but more readable
 
 
 [![example](../examples/img/conv.bpm2hz.jpg)](../examples/pd/conv.bpm2hz.pd)

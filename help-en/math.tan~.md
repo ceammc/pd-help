@@ -14,7 +14,6 @@
 Outputs the tangent of x (measured in radians).
 
 
-
 [![example](../examples/img/math.tan~.jpg)](../examples/pd/math.tan~.pd)
 
 

@@ -11,9 +11,7 @@
 
 
 ## information
-Defines local scope mlist variable, accessed by ID name and available only within
-            its patch (canvas).
-
+Defines local scope mlist variable, accessed by ID name and available only within its patch (canvas).
 
 
 [![example](../examples/img/local.mlist.jpg)](../examples/pd/local.mlist.pd)

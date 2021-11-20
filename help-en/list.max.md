@@ -11,10 +11,7 @@
 
 
 ## information
-By default returns largest float in list, this equal to using @float
-            property.
-Also you can choose largest symbol from list, using @symbol property.
-
+By default returns largest float in list, this equal to using @float property. Also you can choose largest symbol from list, using @symbol property.
 
 
 [![example](../examples/img/list.max.jpg)](../examples/pd/list.max.pd)

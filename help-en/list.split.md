@@ -3,8 +3,7 @@
 
 # list.split
 
-###### splits list into two parts, the length of first list is specified by the
-            argument
+###### splits list into two parts, the length of first list is specified by the argument
 
 *available since version:* 0.1
 

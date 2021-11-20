@@ -14,7 +14,6 @@
 Note: numbers are smaller then symbols
 
 
-
 [![example](../examples/img/list.range.jpg)](../examples/pd/list.range.pd)
 
 

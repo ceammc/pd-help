@@ -11,11 +11,7 @@
 
 
 ## information
-Outputs the value of the base-10 logarithm
-Special values:
-log10(1) return +0.
-log10(+infinity) return +infinity.
-
+Outputs the value of the base-10 logarithm Special values: log10(1) return +0. log10(+infinity) return +infinity.
 
 
 [![example](../examples/img/math.log10~.jpg)](../examples/pd/math.log10~.pd)

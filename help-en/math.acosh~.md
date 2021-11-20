@@ -11,9 +11,7 @@
 
 
 ## information
-Outputs the principle value of the hyperbolic arc cosine of input signal. Input
-            signal expected to be &gt;= 1, otherwise output will be NAN
-
+Outputs the principle value of the hyperbolic arc cosine of input signal. Input signal expected to be &gt;= 1, otherwise output will be NAN
 
 
 [![example](../examples/img/math.acosh~.jpg)](../examples/pd/math.acosh~.pd)

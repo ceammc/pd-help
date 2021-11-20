@@ -11,9 +11,7 @@
 
 
 ## information
-Note: by default filesize request performed asynchronously, so there&#39;s a (usually)
-            short delay between input and output
-
+Note: by default filesize request performed asynchronously, so there&#39;s a (usually) short delay between input and output
 
 
 [![example](../examples/img/file.size.jpg)](../examples/pd/file.size.pd)

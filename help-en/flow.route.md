@@ -11,9 +11,7 @@
 
 
 ## information
-if no match occured - output original message to last outlet
-if route starts with &#39;*&#39; - output with message selector
-
+if no match occured - output original message to last outlet if route starts with &#39;*&#39; - output with message selector
 
 
 [![example](../examples/img/flow.route.jpg)](../examples/pd/flow.route.pd)
@@ -34,9 +32,7 @@ _type:_ list<br>
 
 ## inlets:
 
-* match to first list element, output to corresponding outlet. If
-                route starts with * output list &#39;as is&#39;, otherwise output without first
-                element<br>
+* match to first list element, output to corresponding outlet. If route starts with * output list &#39;as is&#39;, otherwise output without first element<br>
 _type:_ control
 
 

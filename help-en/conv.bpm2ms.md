@@ -11,9 +11,7 @@
 
 
 ## information
-Converts frequency from BPM (beats per minute) to period in ms. It is simple as
-            (60 / f) * 1000, but more readable.
-
+Converts frequency from BPM (beats per minute) to period in ms. It is simple as (60 / f) * 1000, but more readable.
 
 
 [![example](../examples/img/conv.bpm2ms.jpg)](../examples/pd/conv.bpm2ms.pd)

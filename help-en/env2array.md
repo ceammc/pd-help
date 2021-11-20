@@ -68,8 +68,7 @@ _type:_ control
 
 ## outlets:
 
-* output number of samples in destination array. If array was resized - output
-            this new size<br>
+* output number of samples in destination array. If array was resized - output this new size<br>
 _type:_ control
 
 

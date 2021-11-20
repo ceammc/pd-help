@@ -63,8 +63,7 @@ _type:_ audio
 
 ## outlets:
 
-* amplitude envelope that follows the absolute value going
-            up/down<br>
+* amplitude envelope that follows the absolute value going up/down<br>
 _type:_ audio
 
 

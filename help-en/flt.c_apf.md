@@ -11,14 +11,7 @@
 
 
 ## information
-Allpass filter is a signal processing filter that passes all frequencies equally
-            in gain, but changes the phase relationship among various frequencies.
-Most types of filter reduce the amplitude (i.e. the magnitude) of the signal
-            applied to it for some values of frequency, whereas the all-pass filter allows all
-            frequencies through without changes in level.
-Calculates coefficients for transfer function: H(z)=(b0 + b1*z⁻¹ + b2*z⁻²)/(1 +
-            a1*z⁻¹ + a2*z⁻²)
-
+Allpass filter is a signal processing filter that passes all frequencies equally in gain, but changes the phase relationship among various frequencies. Most types of filter reduce the amplitude (i.e. the magnitude) of the signal applied to it for some values of frequency, whereas the all-pass filter allows all frequencies through without changes in level. Calculates coefficients for transfer function: H(z)=(b0 + b1*z⁻¹ + b2*z⁻²)/(1 + a1*z⁻¹ + a2*z⁻²)
 
 
 [![example](../examples/img/flt.c_apf.jpg)](../examples/pd/flt.c_apf.pd)

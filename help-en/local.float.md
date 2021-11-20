@@ -11,9 +11,7 @@
 
 
 ## information
-Defines named local float variable, accessed by name and available only within its
-            patch (canvas). Note: it is not accessible even from subpatch.
-
+Defines named local float variable, accessed by name and available only within its patch (canvas). Note: it is not accessible even from subpatch.
 
 
 [![example](../examples/img/local.float.jpg)](../examples/pd/local.float.pd)

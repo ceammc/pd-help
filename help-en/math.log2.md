@@ -11,12 +11,7 @@
 
 
 ## information
-The log2() function computes the value of the logarithm of argument x to base
-            2.
-Special values:
-log2(1) return +0.
-log2(+infinity) return +infinity.
-
+The log2() function computes the value of the logarithm of argument x to base 2. Special values: log2(1) return +0. log2(+infinity) return +infinity.
 
 
 [![example](../examples/img/math.log2.jpg)](../examples/pd/math.log2.pd)

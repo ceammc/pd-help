@@ -11,11 +11,7 @@
 
 
 ## information
-The cbrt() function computes the cube root of input value.
-Special values:
-cbrt(+-0) returns +-0.
-cbrt(+-infinity) returns +-infinity.
-
+The cbrt() function computes the cube root of input value. Special values: cbrt(+-0) returns +-0. cbrt(+-infinity) returns +-infinity.
 
 
 [![example](../examples/img/math.cbrt.jpg)](../examples/pd/math.cbrt.pd)

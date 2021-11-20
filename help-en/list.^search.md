@@ -14,7 +14,6 @@
 Outputs index or -1 if not found
 
 
-
 [![example](../examples/img/list.%5Esearch.jpg)](../examples/pd/list.%5Esearch.pd)
 
 

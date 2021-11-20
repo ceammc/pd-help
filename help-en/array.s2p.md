@@ -14,7 +14,6 @@
 with this object you can get relative position in array
 
 
-
 [![example](../examples/img/array.s2p.jpg)](../examples/pd/array.s2p.pd)
 
 

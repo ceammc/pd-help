@@ -11,9 +11,7 @@
 
 
 ## information
-Defines global scope dict variable, accessed by ID name and available from
-            everywhere
-
+Defines global scope dict variable, accessed by ID name and available from everywhere
 
 
 [![example](../examples/img/global.dict.jpg)](../examples/pd/global.dict.pd)

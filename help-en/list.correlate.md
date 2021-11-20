@@ -11,9 +11,7 @@
 
 
 ## information
-Note: may perform slowly in large lists because it does not use the FFT to compute
-            the convolution
-
+Note: may perform slowly in large lists because it does not use the FFT to compute the convolution
 
 
 [![example](../examples/img/list.correlate.jpg)](../examples/pd/list.correlate.pd)

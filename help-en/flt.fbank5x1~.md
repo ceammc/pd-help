@@ -11,13 +11,7 @@
 
 
 ## information
-Split the input signal into a bank of parallel signals, one for each spectral
-            band
-Contains: lowpass, 3 bandbass and highpass filter
-A Filter-Bank is a signal bandsplitter having the property that summing its output
-            signals gives an allpass-filtered version of the filter-bank input signal. A more
-            conventional term for this is an &#34;allpass-complementary filter bank&#34;
-
+Split the input signal into a bank of parallel signals, one for each spectral band Contains: lowpass, 3 bandbass and highpass filter A Filter-Bank is a signal bandsplitter having the property that summing its output signals gives an allpass-filtered version of the filter-bank input signal. A more conventional term for this is an &#34;allpass-complementary filter bank&#34;
 
 
 [![example](../examples/img/flt.fbank5x1~.jpg)](../examples/pd/flt.fbank5x1~.pd)

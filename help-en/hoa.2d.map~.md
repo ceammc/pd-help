@@ -11,10 +11,7 @@
 
 
 ## information
-Encodes several sources in the circular harmonics domain with distance
-            compensation and muting system
-If nsrc==1 radius and angle controlled with signal values
-
+Encodes several sources in the circular harmonics domain with distance compensation and muting system If nsrc==1 radius and angle controlled with signal values
 
 
 [![example](../examples/img/hoa.2d.map~.jpg)](../examples/pd/hoa.2d.map~.pd)

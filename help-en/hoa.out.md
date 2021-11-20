@@ -11,9 +11,7 @@
 
 
 ## information
-hoa.out defines a message outlet for a patcher loaded by a hoa.process~
-            object.
-
+hoa.out defines a message outlet for a patcher loaded by a hoa.process~ object.
 
 
 [![example](../examples/img/hoa.out.jpg)](../examples/pd/hoa.out.pd)

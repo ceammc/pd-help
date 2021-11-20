@@ -14,7 +14,6 @@
 Random distribution: uniform
 
 
-
 [![example](../examples/img/metro.random.jpg)](../examples/pd/metro.random.pd)
 
 

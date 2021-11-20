@@ -11,9 +11,7 @@
 
 
 ## information
-filter that passes most frequencies unaltered, but attenuates those in a specific
-            range to very low levels. It is the opposite of a band-pass filter.
-
+filter that passes most frequencies unaltered, but attenuates those in a specific range to very low levels. It is the opposite of a band-pass filter.
 
 
 [![example](../examples/img/flt.notch~.jpg)](../examples/pd/flt.notch~.pd)

@@ -11,9 +11,7 @@
 
 
 ## information
-First element of input list considered as delay time in milliseconds.
-Other messages passed &#39;as is&#39; immidiately.
-
+First element of input list considered as delay time in milliseconds. Other messages passed &#39;as is&#39; immidiately.
 
 
 [![example](../examples/img/msg.sched.jpg)](../examples/pd/msg.sched.pd)

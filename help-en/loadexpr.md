@@ -11,9 +11,7 @@
 
 
 ## information
-like [loadmsg], but support expression calls and datatype
-Click on object sends message again
-
+like [loadmsg], but support expression calls and datatype Click on object sends message again
 
 
 [![example](../examples/img/loadexpr.jpg)](../examples/pd/loadexpr.pd)

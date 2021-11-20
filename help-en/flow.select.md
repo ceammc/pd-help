@@ -11,14 +11,7 @@
 
 
 ## information
-Match syntax:
-common: symbols or floats
-compare: &gt;NUM, &gt;=NUM, &lt;NUM, &lt;=NUM
-intervals: FROM..TO, or [FROM..TO] - closed interval, [FROM..TO) or (FROM..TO]
-            semi-open interval, (FROM..TO) open interval, NUM~EPSILON - value in NUM+-EPSILON
-            range
-set: A|B|C - match to A or B or C
-
+Match syntax: common: symbols or floats compare: &gt;NUM, &gt;=NUM, &lt;NUM, &lt;=NUM intervals: FROM..TO, or [FROM..TO] - closed interval, [FROM..TO) or (FROM..TO] semi-open interval, (FROM..TO) open interval, NUM~EPSILON - value in NUM+-EPSILON range set: A|B|C - match to A or B or C
 
 
 [![example](../examples/img/flow.select.jpg)](../examples/pd/flow.select.pd)

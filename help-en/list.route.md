@@ -11,9 +11,7 @@
 
 
 ## information
-Outputs float, symbol or list to matched outlet or to last outlet if no
-            match
-
+Outputs float, symbol or list to matched outlet or to last outlet if no match
 
 
 [![example](../examples/img/list.route.jpg)](../examples/pd/list.route.pd)

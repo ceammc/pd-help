@@ -11,9 +11,7 @@
 
 
 ## information
-Based on SoundTouch library for changing the Tempo, Pitch and Playback Rates of
-            arrays. Copies time-stretched data from source to destination array
-
+Based on SoundTouch library for changing the Tempo, Pitch and Playback Rates of arrays. Copies time-stretched data from source to destination array
 
 
 [![example](../examples/img/array.stretch.jpg)](../examples/pd/array.stretch.pd)

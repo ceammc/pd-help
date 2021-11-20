@@ -11,12 +11,7 @@
 
 
 ## information
-The exp2() function computes 2**x, the base-2 exponential of x.
-Special values:
-exp2(+-0) return 1.
-exp2(-infinity) return +0.
-exp2(+infinity) return +infinity.
-
+The exp2() function computes 2**x, the base-2 exponential of x. Special values: exp2(+-0) return 1. exp2(-infinity) return +0. exp2(+infinity) return +infinity.
 
 
 [![example](../examples/img/math.exp2~.jpg)](../examples/pd/math.exp2~.pd)

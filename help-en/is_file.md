@@ -14,7 +14,6 @@
 If relative path is given file searched under patch directory
 
 
-
 [![example](../examples/img/is_file.jpg)](../examples/pd/is_file.pd)
 
 

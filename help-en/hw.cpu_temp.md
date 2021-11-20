@@ -14,7 +14,6 @@
 At this moment supports only MacOSX
 
 
-
 [![example](../examples/img/hw.cpu_temp.jpg)](../examples/pd/hw.cpu_temp.pd)
 
 

@@ -11,11 +11,7 @@
 
 
 ## information
-Environment variable %HOME% will be replaced by home user directory under
-            UNIX
-Some special variables defined: %DOC% - path to PureData doc directory, %CEAMMC% -
-            path to ceammc library directory
-
+Environment variable %HOME% will be replaced by home user directory under UNIX Some special variables defined: %DOC% - path to PureData doc directory, %CEAMMC% - path to ceammc library directory
 
 
 [![example](../examples/img/expand_env.jpg)](../examples/pd/expand_env.pd)

@@ -3,8 +3,7 @@
 
 # flt.eq_peak~
 
-###### second order &#34;peaking equalizer&#34; section (gain boost or cut near some
-            frequency). Also called a &#34;parametric equalizer&#34; section.
+###### second order &#34;peaking equalizer&#34; section (gain boost or cut near some frequency). Also called a &#34;parametric equalizer&#34; section.
 
 *available since version:* 0.1
 

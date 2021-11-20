@@ -14,7 +14,6 @@
 Numbers thar are *less* then last argument are passed to N+1 inlet
 
 
-
 [![example](../examples/img/flow.greater_eq.jpg)](../examples/pd/flow.greater_eq.pd)
 
 

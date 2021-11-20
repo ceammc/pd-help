@@ -11,9 +11,7 @@
 
 
 ## information
-Note: cause in Pd messages are processed between DSP blocks - measured bpm is not
-            exact
-
+Note: cause in Pd messages are processed between DSP blocks - measured bpm is not exact
 
 
 [![example](../examples/img/midi.clock.jpg)](../examples/pd/midi.clock.pd)

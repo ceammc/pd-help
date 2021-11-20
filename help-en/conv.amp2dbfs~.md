@@ -11,9 +11,7 @@
 
 
 ## information
-formulae: 20 * log10(amp)
-Note: amplitude value &lt;=0 is converted to -144 db (24-bit range)
-
+formulae: 20 * log10(amp) Note: amplitude value &lt;=0 is converted to -144 db (24-bit range)
 
 
 [![example](../examples/img/conv.amp2dbfs~.jpg)](../examples/pd/conv.amp2dbfs~.pd)

@@ -11,9 +11,7 @@
 
 
 ## information
-Note: property setting can be done only via [prop.set] object, since object
-            accepts all incoming messages
-
+Note: property setting can be done only via [prop.set] object, since object accepts all incoming messages
 
 
 [![example](../examples/img/flow.gate.jpg)](../examples/pd/flow.gate.pd)

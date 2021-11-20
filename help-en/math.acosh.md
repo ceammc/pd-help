@@ -11,13 +11,7 @@
 
 
 ## information
-The acosh() function computes the principle value of the inverse hyperbolic cosine
-            of input value. The result is in the range [0, +infinity].
-Special values:
-acosh(1) returns +0.
-acosh(x) returns a NAN.
-acosh(+infinity) returns +infinity.
-
+The acosh() function computes the principle value of the inverse hyperbolic cosine of input value. The result is in the range [0, +infinity]. Special values: acosh(1) returns +0. acosh(x) returns a NAN. acosh(+infinity) returns +infinity.
 
 
 [![example](../examples/img/math.acosh.jpg)](../examples/pd/math.acosh.pd)

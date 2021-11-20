@@ -11,9 +11,7 @@
 
 
 ## information
-Supports stop-points for multisegment envelopes. Note: non-linear envelopes are
-            outputted using linear approximation
-
+Supports stop-points for multisegment envelopes. Note: non-linear envelopes are outputted using linear approximation
 
 
 [![example](../examples/img/env2vline.jpg)](../examples/pd/env2vline.pd)
@@ -46,8 +44,7 @@ _default:_ 0<br>
 
 ## inlets:
 
-* output as envelope of fixed length (no stop-points are
-                encountered)<br>
+* output as envelope of fixed length (no stop-points are encountered)<br>
 _type:_ control
 
 

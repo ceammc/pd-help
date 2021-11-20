@@ -11,9 +11,7 @@
 
 
 ## information
-Outputs the principle value of the arc cosine of input signal. The result is in
-            the range [0, pi]
-
+Outputs the principle value of the arc cosine of input signal. The result is in the range [0, pi]
 
 
 [![example](../examples/img/math.acos~.jpg)](../examples/pd/math.acos~.pd)

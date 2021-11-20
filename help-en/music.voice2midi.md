@@ -11,13 +11,7 @@
 
 
 ## information
-Basic syntax:
-- pitch: C, D, E, F, G, A, B
-- alteration: #, ##, b or bb
-- octave: -1..9 or ^, _
-- deviation in cents: (+-NUMc)
-- duration: |8, |4. or |3/8
-
+Basic syntax: - pitch: C, D, E, F, G, A, B - alteration: #, ##, b or bb - octave: -1..9 or ^, _ - deviation in cents: (+-NUMc) - duration: |8, |4. or |3/8
 
 
 [![example](../examples/img/music.voice2midi.jpg)](../examples/pd/music.voice2midi.pd)

@@ -3,8 +3,7 @@
 
 # conv.ms2samp~
 
-###### convert time in milliseconds to number of samples according to current
-            samplerate
+###### convert time in milliseconds to number of samples according to current samplerate
 
 *available since version:* 0.9
 

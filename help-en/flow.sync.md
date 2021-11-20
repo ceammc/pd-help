@@ -11,10 +11,7 @@
 
 
 ## information
-Sync data flow. All inlets are &#39;hot&#39;. When float, symbol or list arrives to inlet,
-            it&#39;s value stored. Then output all stored values from all inlets from rightmost to
-            leftmost
-
+Sync data flow. All inlets are &#39;hot&#39;. When float, symbol or list arrives to inlet, it&#39;s value stored. Then output all stored values from all inlets from rightmost to leftmost
 
 
 [![example](../examples/img/flow.sync.jpg)](../examples/pd/flow.sync.pd)

@@ -11,11 +11,7 @@
 
 
 ## information
-The sinh() function computes the hyperbolic sine of x.
-Special values:
-sinh(+-0) returns +-0.
-sinh(+-infinity) returns +-infinity.
-
+The sinh() function computes the hyperbolic sine of x. Special values: sinh(+-0) returns +-0. sinh(+-infinity) returns +-infinity.
 
 
 [![example](../examples/img/math.sinh.jpg)](../examples/pd/math.sinh.pd)

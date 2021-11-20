@@ -3,8 +3,7 @@
 
 # conv.sec2samp
 
-###### convert time in seconds to number of samples according to current
-            samplerate
+###### convert time in seconds to number of samples according to current samplerate
 
 *available since version:* 0.2
 

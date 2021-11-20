@@ -11,9 +11,7 @@
 
 
 ## information
-If size argument specified - creates queue with fixed size. When count of values
-            exceed this limit, outputs and removes first value in queue.
-
+If size argument specified - creates queue with fixed size. When count of values exceed this limit, outputs and removes first value in queue.
 
 
 [![example](../examples/img/data.fifo.jpg)](../examples/pd/data.fifo.pd)

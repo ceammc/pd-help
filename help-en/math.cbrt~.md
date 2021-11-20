@@ -11,11 +11,7 @@
 
 
 ## information
-Outputs the cube root of input signal
-Special values:
-cbrt(+-0) returns +-0.
-cbrt(+-infinity) returns +-infinity.
-
+Outputs the cube root of input signal Special values: cbrt(+-0) returns +-0. cbrt(+-infinity) returns +-infinity.
 
 
 [![example](../examples/img/math.cbrt~.jpg)](../examples/pd/math.cbrt~.pd)

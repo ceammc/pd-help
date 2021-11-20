@@ -11,9 +11,7 @@
 
 
 ## information
-when pedal is on: ignore all note offs
-when pedal is off: output all sustained notes off
-
+when pedal is on: ignore all note offs when pedal is off: output all sustained notes off
 
 
 [![example](../examples/img/midi.sustain.jpg)](../examples/pd/midi.sustain.pd)

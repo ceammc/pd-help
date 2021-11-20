@@ -11,16 +11,7 @@
 
 
 ## information
-Decodes an ambisonics soundfield for several loudspeakers configuration or for
-            headphones.
-Mode:
-• regular for a regular loudspeakers repartition over a circle.
-• irregular if the loudspeakers are not equally spaced on a
-            circle.
-• binaural for headphones
-The default mode is regular for an array of 2 * order + 2 loudspeakers. The
-            default irregular configuration is 5.1 standard multichannel configuration.
-
+Decodes an ambisonics soundfield for several loudspeakers configuration or for headphones. Mode: • regular for a regular loudspeakers repartition over a circle. • irregular if the loudspeakers are not equally spaced on a circle. • binaural for headphones The default mode is regular for an array of 2 * order + 2 loudspeakers. The default irregular configuration is 5.1 standard multichannel configuration.
 
 
 [![example](../examples/img/hoa.2d.decoder~.jpg)](../examples/pd/hoa.2d.decoder~.pd)

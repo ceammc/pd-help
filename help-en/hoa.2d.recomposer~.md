@@ -3,8 +3,7 @@
 
 # hoa.2d.recomposer~
 
-###### recomposes a 2d plane wave decomposition into circular
-            harmonics
+###### recomposes a 2d plane wave decomposition into circular harmonics
 
 *available since version:* 0.8
 
@@ -12,11 +11,7 @@
 
 
 ## information
-Recomposes a plane wave decomposition into circular harmonics. There&#39;s three
-            modes, fixe (default), fisheye and free.
-The hoa.2d.recomposer~ can be controlled either by message or with the help of its
-            dedicated graphical user interface hoa.2d.recomposer.
-
+Recomposes a plane wave decomposition into circular harmonics. There&#39;s three modes, fixe (default), fisheye and free. The hoa.2d.recomposer~ can be controlled either by message or with the help of its dedicated graphical user interface hoa.2d.recomposer.
 
 
 [![example](../examples/img/hoa.2d.recomposer~.jpg)](../examples/pd/hoa.2d.recomposer~.pd)

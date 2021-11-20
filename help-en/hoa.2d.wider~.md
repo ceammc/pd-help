@@ -11,10 +11,7 @@
 
 
 ## information
-hoa.2d.wider~ can be used to wide the diffusion of a localised sound. The order
-            depending signals are weighted and appear in a logarithmic way to have linear
-            changes.
-
+hoa.2d.wider~ can be used to wide the diffusion of a localised sound. The order depending signals are weighted and appear in a logarithmic way to have linear changes.
 
 
 [![example](../examples/img/hoa.2d.wider~.jpg)](../examples/pd/hoa.2d.wider~.pd)

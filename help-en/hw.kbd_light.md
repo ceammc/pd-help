@@ -14,7 +14,6 @@
 Only Apple keyboards are supported at this moment
 
 
-
 [![example](../examples/img/hw.kbd_light.jpg)](../examples/pd/hw.kbd_light.pd)
 
 

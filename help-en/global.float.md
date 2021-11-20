@@ -14,7 +14,6 @@
 Defines global scope float variable, accessed by ID name.
 
 
-
 [![example](../examples/img/global.float.jpg)](../examples/pd/global.float.pd)
 
 

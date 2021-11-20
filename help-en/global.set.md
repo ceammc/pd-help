@@ -14,7 +14,6 @@
 Defines global scope set variable, accessed by ID name
 
 
-
 [![example](../examples/img/global.set.jpg)](../examples/pd/global.set.pd)
 
 

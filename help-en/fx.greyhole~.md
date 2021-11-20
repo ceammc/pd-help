@@ -11,12 +11,7 @@
 
 
 ## information
-A complex echo-like effect, inspired by the classic Eventide effect of a similar
-            name. The effect consists of a diffuser (like a mini-reverb, structurally similar to
-            the one used in JPverb) connected in a feedback system with a long, modulated
-            delay-line. Excels at producing spacey washes of sound.
-Developed as part of the DEIND project.
-
+A complex echo-like effect, inspired by the classic Eventide effect of a similar name. The effect consists of a diffuser (like a mini-reverb, structurally similar to the one used in JPverb) connected in a feedback system with a long, modulated delay-line. Excels at producing spacey washes of sound. Developed as part of the DEIND project.
 
 
 [![example](../examples/img/fx.greyhole~.jpg)](../examples/pd/fx.greyhole~.pd)

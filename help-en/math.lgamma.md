@@ -3,8 +3,7 @@
 
 # math.lgamma
 
-###### natural logarithm of the absolute value of the gamma
-            function
+###### natural logarithm of the absolute value of the gamma function
 
 *available since version:* 0.9
 

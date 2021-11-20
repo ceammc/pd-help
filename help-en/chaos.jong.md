@@ -11,10 +11,7 @@
 
 
 ## information
-A non-interpolating generator based on the difference equations:
-x[n+1] = sin(a * y[n]) - cos(b * x[n])
-y[n+1] = sin(c * x[n]) - cos(d * y[n])
-
+A non-interpolating generator based on the difference equations: x[n+1] = sin(a * y[n]) - cos(b * x[n]) y[n+1] = sin(c * x[n]) - cos(d * y[n])
 
 
 [![example](../examples/img/chaos.jong.jpg)](../examples/pd/chaos.jong.pd)

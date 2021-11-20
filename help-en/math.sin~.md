@@ -14,7 +14,6 @@
 Computes the sine of input signal (in radians)
 
 
-
 [![example](../examples/img/math.sin~.jpg)](../examples/pd/math.sin~.pd)
 
 

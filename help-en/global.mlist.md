@@ -14,7 +14,6 @@
 Defines global scope mlist variable, accessed by ID name
 
 
-
 [![example](../examples/img/global.mlist.jpg)](../examples/pd/global.mlist.pd)
 
 

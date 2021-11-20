@@ -11,9 +11,7 @@
 
 
 ## information
-On incoming list (l⁰ l¹ ...) outputs to corresponding outlet message: [s⁰ l⁰(, [s¹
-            l¹( etc...
-
+On incoming list (l⁰ l¹ ...) outputs to corresponding outlet message: [s⁰ l⁰(, [s¹ l¹( etc...
 
 
 [![example](../examples/img/flow.list2many.jpg)](../examples/pd/flow.list2many.pd)

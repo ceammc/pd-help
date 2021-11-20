@@ -11,10 +11,7 @@
 
 
 ## information
-gain boost|cut below some frequency
-Calculates coefficients for transfer function: H(z)=(b0 + b1*z⁻¹ + b2*z⁻²)/(1 +
-            a1*z⁻¹ + a2*z⁻²)
-
+gain boost|cut below some frequency Calculates coefficients for transfer function: H(z)=(b0 + b1*z⁻¹ + b2*z⁻²)/(1 + a1*z⁻¹ + a2*z⁻²)
 
 
 [![example](../examples/img/flt.c_lowshelf~.jpg)](../examples/pd/flt.c_lowshelf~.pd)

@@ -14,7 +14,6 @@
 Returns value with opposite sign
 
 
-
 [![example](../examples/img/math.neg.jpg)](../examples/pd/math.neg.pd)
 
 

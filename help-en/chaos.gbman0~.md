@@ -11,10 +11,7 @@
 
 
 ## information
-A non-interpolating sound generator based on the difference equations:
-x(n+1) = 1 - y(n) + |x(n)|
-y(n+1) = x(n)
-
+A non-interpolating sound generator based on the difference equations: x(n+1) = 1 - y(n) + |x(n)| y(n+1) = x(n)
 
 
 [![example](../examples/img/chaos.gbman0~.jpg)](../examples/pd/chaos.gbman0~.pd)

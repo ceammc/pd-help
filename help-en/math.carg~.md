@@ -14,7 +14,6 @@
 outputs the phase angle in the interval [−π π]
 
 
-
 [![example](../examples/img/math.carg~.jpg)](../examples/pd/math.carg~.pd)
 
 

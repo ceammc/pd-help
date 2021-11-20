@@ -25,11 +25,11 @@ y(n+1) = x(n)
 
 * **X**
 initial x value, default 1.2<br>
-__type:__ float<br>
+_type:_ float<br>
 
 * **Y**
 initial y value, default 2.1<br>
-__type:__ float<br>
+_type:_ float<br>
 
 
 
@@ -39,17 +39,17 @@ __type:__ float<br>
 
 ## inlets:
 
-* generation frequency, minimal value 0.001Hz 
-__type:__ audio<br>
+* generation frequency, minimal value 0.001Hz<br>
+_type:_ audio
 
 
 
 ## outlets:
 
-* outputs x value
-__type:__ audio<br>
-* outputs y value
-__type:__ audio<br>
+* outputs x value<br>
+_type:_ audio
+* outputs y value<br>
+_type:_ audio
 
 
 

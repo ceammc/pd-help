@@ -20,7 +20,7 @@
 
 * **values**
 list of atoms to reject<br>
-__type:__ list<br>
+_type:_ list<br>
 
 
 
@@ -30,23 +30,23 @@ __type:__ list<br>
 
 * **@values** 
 Get/set atoms to reject<br>
-__type:__ list<br>
+_type:_ list<br>
 
 
 
 ## inlets:
 
-* pass 
-__type:__ control<br>
-* set reject list 
-__type:__ control<br>
+* pass<br>
+_type:_ control
+* set reject list<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* passed values
-__type:__ control<br>
+* passed values<br>
+_type:_ control
 
 
 

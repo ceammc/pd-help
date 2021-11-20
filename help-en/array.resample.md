@@ -20,11 +20,11 @@
 
 * **SRC**
 source array<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 * **DEST**
 destination array<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 
 
@@ -34,57 +34,57 @@ __type:__ symbol<br>
 
 * **@src** 
 Get/set source array<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 * **@dest** 
 Get/set destination array<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 * **@ratio** 
 Get/set resample ratio (src/dest)<br>
-__type:__ float<br>
-__min value:__ 0<br>
-__default:__ 0<br>
+_type:_ float<br>
+_min value:_ 0<br>
+_default:_ 0<br>
 
 * **@quality** 
 Get/set resample quality<br>
-__type:__ symbol<br>
-__enum:__ high, fast, low, medium, best<br>
-__default:__ high<br>
+_type:_ symbol<br>
+_enum:_ high, fast, low, medium, best<br>
+_default:_ high<br>
 
 * **@high** 
 Get/set alias to @quality high<br>
-__type:__ alias<br>
+_type:_ alias<br>
 
 * **@fast** 
 Get/set alias to @quality fast<br>
-__type:__ alias<br>
+_type:_ alias<br>
 
 * **@low** 
 Get/set alias to @quality low<br>
-__type:__ alias<br>
+_type:_ alias<br>
 
 * **@medium** 
 Get/set alias to @quality medium<br>
-__type:__ alias<br>
+_type:_ alias<br>
 
 * **@best** 
 Get/set alias to @quality best<br>
-__type:__ alias<br>
+_type:_ alias<br>
 
 
 
 ## inlets:
 
-* starts resampling 
-__type:__ control<br>
+* starts resampling<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* number of samples written
-__type:__ control<br>
+* number of samples written<br>
+_type:_ control
 
 
 

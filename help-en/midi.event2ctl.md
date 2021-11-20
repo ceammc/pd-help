@@ -24,17 +24,17 @@
 
 ## inlets:
 
-* MidiEvent message 
-__type:__ control<br>
+* MidiEvent message<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* output pair: controller number, value
-__type:__ control<br>
-* track number
-__type:__ control<br>
+* output pair: controller number, value<br>
+_type:_ control
+* track number<br>
+_type:_ control
 
 
 

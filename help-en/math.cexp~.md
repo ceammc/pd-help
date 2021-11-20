@@ -32,19 +32,19 @@ The exponential function is an entire function in the complex plane and has no
 
 ## inlets:
 
-* real part of input signal 
-__type:__ audio<br>
-* imag part of input signal 
-__type:__ audio<br>
+* real part of input signal<br>
+_type:_ audio
+* imag part of input signal<br>
+_type:_ audio
 
 
 
 ## outlets:
 
-* real part of result
-__type:__ audio<br>
-* imag part of result
-__type:__ audio<br>
+* real part of result<br>
+_type:_ audio
+* imag part of result<br>
+_type:_ audio
 
 
 

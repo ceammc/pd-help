@@ -20,7 +20,7 @@
 
 * **F**
 second number<br>
-__type:__ float<br>
+_type:_ float<br>
 
 
 
@@ -31,25 +31,25 @@ __type:__ float<br>
 * **@epsilon** 
 Get/set compare epsilon. If not zero calculates expession: !(-epsilon &lt; abs(A-B) &lt;
 +epsilon)<br>
-__type:__ float<br>
-__min value:__ 0<br>
-__default:__ 0<br>
+_type:_ float<br>
+_min value:_ 0<br>
+_default:_ 0<br>
 
 
 
 ## inlets:
 
-* set first number, calculate and output result 
-__type:__ control<br>
-* change second number, calculate and output result 
-__type:__ control<br>
+* set first number, calculate and output result<br>
+_type:_ control
+* change second number, calculate and output result<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* result output: 1 if numbers are not equal otherwise 0
-__type:__ control<br>
+* result output: 1 if numbers are not equal otherwise 0<br>
+_type:_ control
 
 
 

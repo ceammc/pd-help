@@ -27,17 +27,17 @@ Split filename to dirname and basename.
 
 ## inlets:
 
-* filename 
-__type:__ control<br>
+* filename<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* symbol: dirname
-__type:__ control<br>
-* symbol: basename
-__type:__ control<br>
+* symbol: dirname<br>
+_type:_ control
+* symbol: basename<br>
+_type:_ control
 
 
 

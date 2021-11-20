@@ -20,8 +20,8 @@
 
 * **freq**
 default frequency (440hz if not specified)<br>
-__type:__ float<br>
-__units:__ Hz<br>
+_type:_ float<br>
+_units:_ Hz<br>
 
 
 
@@ -31,25 +31,25 @@ __units:__ Hz<br>
 
 * **@harmonics** 
 Get/set number of harmonics. 0 means all available harmonics until SR/2<br>
-__type:__ int<br>
-__min value:__ 0<br>
-__default:__ 0<br>
+_type:_ int<br>
+_min value:_ 0<br>
+_default:_ 0<br>
 
 
 
 ## inlets:
 
-* frequency in Hz 
-__type:__ audio<br>
-* reset phase 
-__type:__ control<br>
+* frequency in Hz<br>
+_type:_ audio
+* reset phase<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* output signal
-__type:__ audio<br>
+* output signal<br>
+_type:_ audio
 
 
 

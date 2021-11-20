@@ -31,28 +31,28 @@ or
 
 * **@bpm** 
 Get/set tempo<br>
-__type:__ list<br>
-__default:__ 60 0.25<br>
+_type:_ list<br>
+_default:_ 60 0.25<br>
 
 * **@seq** 
 Get/set sequencial durations<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 1<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 1<br>
 
 
 
 ## inlets:
 
-* duration list 
-__type:__ control<br>
+* duration list<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* converted value
-__type:__ control<br>
+* converted value<br>
+_type:_ control
 
 
 

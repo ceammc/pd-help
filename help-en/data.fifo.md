@@ -24,7 +24,7 @@ If size argument specified - creates queue with fixed size. When count of values
 
 * **size**
 if specified, creates fixed-size queue. Value &#39;0&#39; means default size (1024)<br>
-__type:__ int<br>
+_type:_ int<br>
 
 
 
@@ -52,41 +52,41 @@ outputs and removes first values in queue<br>
 
 * **@empty** (readonly)
 Get if queue is empty<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 1<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 1<br>
 
 * **@filled** (readonly)
 Get current number of elements in queue<br>
-__type:__ int<br>
-__min value:__ 0<br>
-__default:__ 0<br>
+_type:_ int<br>
+_min value:_ 0<br>
+_default:_ 0<br>
 
 * **@size** 
 Get/set size of queue<br>
-__type:__ int<br>
-__range:__ 1..1024<br>
-__default:__ 32<br>
+_type:_ int<br>
+_range:_ 1..1024<br>
+_default:_ 32<br>
 
 * **@free** (readonly)
 Get number of elements you can add to queue until it full<br>
-__type:__ int<br>
-__min value:__ 0<br>
-__default:__ 32<br>
+_type:_ int<br>
+_min value:_ 0<br>
+_default:_ 32<br>
 
 
 
 ## inlets:
 
-* same as *flush* message 
-__type:__ control<br>
+* same as *flush* message<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* output value
-__type:__ control<br>
+* output value<br>
+_type:_ control
 
 
 

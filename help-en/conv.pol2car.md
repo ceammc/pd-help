@@ -24,15 +24,15 @@
 
 ## inlets:
 
-* radius and angle (in radians) pair 
-__type:__ control<br>
+* radius and angle (in radians) pair<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* x, y coordinates pair
-__type:__ control<br>
+* x, y coordinates pair<br>
+_type:_ control
 
 
 

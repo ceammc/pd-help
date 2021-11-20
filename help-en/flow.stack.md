@@ -20,7 +20,7 @@
 
 * **N**
 max stack size<br>
-__type:__ int<br>
+_type:_ int<br>
 
 
 
@@ -30,48 +30,48 @@ __type:__ int<br>
 
 * **@max_size** 
 Get/set maximum stack grow size<br>
-__type:__ int<br>
-__min value:__ 1<br>
-__default:__ 100<br>
+_type:_ int<br>
+_min value:_ 1<br>
+_default:_ 100<br>
 
 * **@size** (readonly)
 Get current number of elements in stack<br>
-__type:__ int<br>
-__default:__ 0<br>
+_type:_ int<br>
+_default:_ 0<br>
 
 * **@empty** (readonly)
 Get if stack is empty<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 1<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 1<br>
 
 * **@on_empty** 
 Get/set message send to destination address when stack becomes empty. First list
 element is address to send, other additional elements treated as message or
 bang if not specified.<br>
-__type:__ list<br>
+_type:_ list<br>
 
 * **@on_full** 
 Get/set message send to destination address when stack becomes full. First list element
 is address to send, other additional elements treated as message or bang if not
 specified.<br>
-__type:__ list<br>
+_type:_ list<br>
 
 
 
 ## inlets:
 
-* input: push to stack 
-__type:__ control<br>
-* output and remove top element 
-__type:__ control<br>
+* input: push to stack<br>
+_type:_ control
+* output and remove top element<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* output
-__type:__ control<br>
+* output<br>
+_type:_ control
 
 
 

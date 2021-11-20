@@ -20,7 +20,7 @@
 
 * **SUBSTR**
 searched substring<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 
 
@@ -30,23 +30,23 @@ __type:__ symbol<br>
 
 * **@subj** 
 Get/set searched substring<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 
 
 ## inlets:
 
-* input string or symbol 
-__type:__ control<br>
-* search substring (string or symbol) 
-__type:__ control<br>
+* input string or symbol<br>
+_type:_ control
+* search substring (string or symbol)<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* output 1 if input string contains specified substring, otherwise 0
-__type:__ control<br>
+* output 1 if input string contains specified substring, otherwise 0<br>
+_type:_ control
 
 
 

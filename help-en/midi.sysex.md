@@ -30,15 +30,15 @@ reset internal parser state<br>
 
 ## inlets:
 
-* control input 
-__type:__ control<br>
+* control input<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* list of sysex bytes
-__type:__ control<br>
+* list of sysex bytes<br>
+_type:_ control
 
 
 

@@ -28,27 +28,27 @@ Stereo DC blocker. It has -3dB point near 35 Hz (at 44.1 kHz) and high-frequency
 
 * **@active** 
 Get/set on/off dsp processing<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 1<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 1<br>
 
 
 
 ## inlets:
 
-* right input signal 
-__type:__ audio<br>
-* left input signal 
-__type:__ audio<br>
+* right input signal<br>
+_type:_ audio
+* left input signal<br>
+_type:_ audio
 
 
 
 ## outlets:
 
-* left filtered signal
-__type:__ audio<br>
-* right filtered signal
-__type:__ audio<br>
+* left filtered signal<br>
+_type:_ audio
+* right filtered signal<br>
+_type:_ audio
 
 
 

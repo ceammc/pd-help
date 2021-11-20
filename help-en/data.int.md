@@ -20,7 +20,7 @@
 
 * **INT**
 set initial value<br>
-__type:__ int<br>
+_type:_ int<br>
 
 
 
@@ -48,24 +48,24 @@ divide by, no output<br>
 
 * **@value** (readonly)
 Get current value<br>
-__type:__ int<br>
-__default:__ 0<br>
+_type:_ int<br>
+_default:_ 0<br>
 
 
 
 ## inlets:
 
-* output value 
-__type:__ control<br>
-* set new value without output 
-__type:__ control<br>
+* output value<br>
+_type:_ control
+* set new value without output<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* set output
-__type:__ control<br>
+* set output<br>
+_type:_ control
 
 
 

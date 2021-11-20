@@ -20,7 +20,7 @@
 
 * **NAME**
 array name<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 
 
@@ -30,21 +30,21 @@ __type:__ symbol<br>
 
 * **@array** 
 Get/set array name<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 
 
 ## inlets:
 
-* calculates and outputs the sum of squares 
-__type:__ control<br>
+* calculates and outputs the sum of squares<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* sum value
-__type:__ control<br>
+* sum value<br>
+_type:_ control
 
 
 

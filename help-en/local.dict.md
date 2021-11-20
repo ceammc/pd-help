@@ -24,7 +24,7 @@ Defines local scope dict variable, accessed by ID name and available only within
 
 * **ID**
 object ID<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 
 
@@ -96,33 +96,33 @@ write dict as JSON file<br>
 
 * **@keys** (readonly)
 Get keys of dictionary<br>
-__type:__ list<br>
+_type:_ list<br>
 
 * **@empty** (readonly)
 Get 1 if dict is empty, otherwise 0<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 1<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 1<br>
 
 * **@size** (readonly)
 Get number of entries in dictionary<br>
-__type:__ int<br>
-__min value:__ 0<br>
-__default:__ 0<br>
+_type:_ int<br>
+_min value:_ 0<br>
+_default:_ 0<br>
 
 
 
 ## inlets:
 
-* output current dictionary value 
-__type:__ control<br>
+* output current dictionary value<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* dict output
-__type:__ control<br>
+* dict output<br>
+_type:_ control
 
 
 

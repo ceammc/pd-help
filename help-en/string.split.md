@@ -25,7 +25,7 @@ Note: by default string or symbol splitted to list of data:String, to get list o
 * **SEP**
 separator. If nonspecified - separate by every char. To separate by space - use
 &#34; &#34; argument<br>
-__type:__ atom<br>
+_type:_ atom<br>
 
 
 
@@ -35,25 +35,25 @@ __type:__ atom<br>
 
 * **@sep** 
 Get/set separator<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 * **@sym** 
 Get/set flag to output as list of Pd symbols<br>
-__type:__ flag<br>
+_type:_ flag<br>
 
 
 
 ## inlets:
 
-* input symbol 
-__type:__ control<br>
+* input symbol<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* list of data:Strings or symbols
-__type:__ control<br>
+* list of data:Strings or symbols<br>
+_type:_ control
 
 
 

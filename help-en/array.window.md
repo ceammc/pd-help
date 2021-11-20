@@ -69,33 +69,33 @@ generate welch window<br>
 
 * **@array** 
 Get/set array name<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 * **@redraw** 
 Get/set redraw after array change<br>
-__type:__ int<br>
-__enum:__ 1, 0<br>
-__default:__ 1<br>
+_type:_ int<br>
+_enum:_ 1, 0<br>
+_default:_ 1<br>
 
 * **@type** 
 Get/set window type<br>
-__type:__ symbol<br>
-__enum:__ tri, welch, hann, sine, rect, hamming, blackman, nuttall, blackman-harris, flattop, gauss<br>
-__default:__ hann<br>
+_type:_ symbol<br>
+_enum:_ tri, welch, hann, sine, rect, hamming, blackman, nuttall, blackman-harris, flattop, gauss<br>
+_default:_ hann<br>
 
 
 
 ## inlets:
 
-* fill array with window 
-__type:__ control<br>
+* fill array with window<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* bang on finish
-__type:__ control<br>
+* bang on finish<br>
+_type:_ control
 
 
 

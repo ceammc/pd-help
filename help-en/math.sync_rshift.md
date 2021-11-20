@@ -20,7 +20,7 @@
 
 * **SHIFT**
 shift amount<br>
-__type:__ int<br>
+_type:_ int<br>
 
 
 
@@ -30,17 +30,17 @@ __type:__ int<br>
 
 ## inlets:
 
-* set value, calculate and output result 
-__type:__ control<br>
-* change shift, calculate and output result 
-__type:__ control<br>
+* set value, calculate and output result<br>
+_type:_ control
+* change shift, calculate and output result<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* result output
-__type:__ control<br>
+* result output<br>
+_type:_ control
 
 
 

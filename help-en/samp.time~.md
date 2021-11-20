@@ -20,7 +20,7 @@
 
 * **STATE**
 initial counter state: on or off<br>
-__type:__ int<br>
+_type:_ int<br>
 
 
 
@@ -42,17 +42,17 @@ set current value<br>
 
 ## inlets:
 
-* on 0-&gt;1 change: start counter, on 1-&gt;0 stops. 
-__type:__ audio<br>
-* reset sample counter 
-__type:__ control<br>
+* on 0-&gt;1 change: start counter, on 1-&gt;0 stops.<br>
+_type:_ audio
+* reset sample counter<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* current sample number
-__type:__ control<br>
+* current sample number<br>
+_type:_ control
 
 
 

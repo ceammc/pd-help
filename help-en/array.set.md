@@ -20,7 +20,7 @@
 
 * **NAME**
 array name<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 
 
@@ -30,25 +30,25 @@ __type:__ symbol<br>
 
 * **@array** 
 Get/set array name<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 * **@normalize** 
 Get/set scale input values to fit them in [0, 1] range<br>
-__type:__ flag<br>
-__default:__ 0<br>
+_type:_ flag<br>
+_default:_ 0<br>
 
 * **@redraw** 
 Get/set redraw array view<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 1<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 1<br>
 
 
 
 ## inlets:
 
-* resizes array and sets its content 
-__type:__ control<br>
+* resizes array and sets its content<br>
+_type:_ control
 
 
 

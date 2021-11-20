@@ -30,22 +30,22 @@ Some special variables defined: %DOC% - path to PureData doc directory, %CEAMMC%
 
 * **@any** 
 Get/set if specified - also do substitution in message selector<br>
-__type:__ flag<br>
-__default:__ 0<br>
+_type:_ flag<br>
+_default:_ 0<br>
 
 
 
 ## inlets:
 
-* passed 
-__type:__ control<br>
+* passed<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* output data stream
-__type:__ control<br>
+* output data stream<br>
+_type:_ control
 
 
 

@@ -28,22 +28,22 @@ Note: output list is not sorted by default. You can use @sort flag to get sorted
 
 * **@sort** 
 Get/set if specified - sort output list<br>
-__type:__ flag<br>
-__default:__ 0<br>
+_type:_ flag<br>
+_default:_ 0<br>
 
 
 
 ## inlets:
 
-* input set 
-__type:__ control<br>
+* input set<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* output list
-__type:__ control<br>
+* output list<br>
+_type:_ control
 
 
 

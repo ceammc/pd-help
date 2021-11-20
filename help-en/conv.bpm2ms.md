@@ -28,15 +28,15 @@ Converts frequency from BPM (beats per minute) to period in ms. It is simple as
 
 ## inlets:
 
-* frequency in BPM 
-__type:__ control<br>
+* frequency in BPM<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* period in milliseconds
-__type:__ control<br>
+* period in milliseconds<br>
+_type:_ control
 
 
 

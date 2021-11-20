@@ -28,7 +28,7 @@ For example, all digits: `d+, two or three chars: [a-z]((2..3)) etc.
 
 * **RE**
 regular expression<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 
 
@@ -38,23 +38,23 @@ __type:__ symbol<br>
 
 * **@re** 
 Get/set regular expression<br>
-__type:__ list<br>
+_type:_ list<br>
 
 
 
 ## inlets:
 
-* input string or symbol 
-__type:__ control<br>
-* change regular expression 
-__type:__ control<br>
+* input string or symbol<br>
+_type:_ control
+* change regular expression<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* output 1 on successfull match, otherwise 0
-__type:__ control<br>
+* output 1 on successfull match, otherwise 0<br>
+_type:_ control
 
 
 

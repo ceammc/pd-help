@@ -20,12 +20,12 @@
 
 * **RADIUS**
 panning radius<br>
-__type:__ float<br>
+_type:_ float<br>
 
 * **ANGLE**
 circle panning position in radians<br>
-__type:__ float<br>
-__units:__ rad<br>
+_type:_ float<br>
+_units:_ rad<br>
 
 
 
@@ -35,41 +35,41 @@ __units:__ rad<br>
 
 * **@angle** 
 Get/set panning position in radians<br>
-__type:__ float<br>
-__range:__ 0..2π<br>
-__default:__ 0<br>
+_type:_ float<br>
+_range:_ 0..2π<br>
+_default:_ 0<br>
 
 * **@radius** 
 Get/set distance from circle center<br>
-__type:__ float<br>
-__range:__ 0..1<br>
-__default:__ 1<br>
+_type:_ float<br>
+_range:_ 0..1<br>
+_default:_ 1<br>
 
 * **@active** 
 Get/set on/off dsp processing<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 1<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 1<br>
 
 
 
 ## inlets:
 
-* input signal 
-__type:__ audio<br>
+* input signal<br>
+_type:_ audio
 
 
 
 ## outlets:
 
-* 1st output channel
-__type:__ audio<br>
-* 2nd output channel
-__type:__ audio<br>
-* 3rd output channel
-__type:__ audio<br>
-* 4th output channel
-__type:__ audio<br>
+* 1st output channel<br>
+_type:_ audio
+* 2nd output channel<br>
+_type:_ audio
+* 3rd output channel<br>
+_type:_ audio
+* 4th output channel<br>
+_type:_ audio
 
 
 

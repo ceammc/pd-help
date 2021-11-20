@@ -20,7 +20,7 @@
 
 * **PATH**
 init directory value<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 
 
@@ -30,27 +30,27 @@ __type:__ symbol<br>
 
 * **@match** 
 Get/set match mask: for example *.wav for all wav files<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 * **@path** 
 Get/set current path<br>
-__type:__ list<br>
+_type:_ list<br>
 
 
 
 ## inlets:
 
-* output directory content 
-__type:__ control<br>
-* set @match property 
-__type:__ control<br>
+* output directory content<br>
+_type:_ control
+* set @match property<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* list of strings
-__type:__ control<br>
+* list of strings<br>
+_type:_ control
 
 
 

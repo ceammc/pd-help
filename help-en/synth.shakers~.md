@@ -48,34 +48,34 @@ Control change<br>
 
 * **@gate** 
 Get/set synth gate (&gt;0 - play)<br>
-__type:__ float<br>
-__range:__ 0..1<br>
-__default:__ 0<br>
+_type:_ float<br>
+_range:_ 0..1<br>
+_default:_ 0<br>
 
 * **@type** 
 Get/set instrument type<br>
-__type:__ atom<br>
-__enum:__ maraca, cabasa, sekere, tambourine, sleigh_bells, bamboo_chimes, sand_paper, coke_can, sticks, crunch, big_rocks, little_rocks, next_mug, penny_mug, nickle_mug, dime_mug, quarter_mug, franc_mug, peso_mug, guiro, wrench, water_drops, tuned_bamboo_chimes<br>
-__default:__ maraca<br>
+_type:_ atom<br>
+_enum:_ maraca, cabasa, sekere, tambourine, sleigh_bells, bamboo_chimes, sand_paper, coke_can, sticks, crunch, big_rocks, little_rocks, next_mug, penny_mug, nickle_mug, dime_mug, quarter_mug, franc_mug, peso_mug, guiro, wrench, water_drops, tuned_bamboo_chimes<br>
+_default:_ maraca<br>
 
 * **@types** (readonly)
 Get all instrument types<br>
-__type:__ list<br>
-__default:__ maraca cabasa sekere tambourine sleigh_bells bamboo_chimes sand_paper coke_can sticks crunch big_rocks little_rocks next_mug penny_mug nickle_mug dime_mug quarter_mug franc_mug peso_mug guiro wrench water_drops tuned_bamboo_chimes<br>
+_type:_ list<br>
+_default:_ maraca cabasa sekere tambourine sleigh_bells bamboo_chimes sand_paper coke_can sticks crunch big_rocks little_rocks next_mug penny_mug nickle_mug dime_mug quarter_mug franc_mug peso_mug guiro wrench water_drops tuned_bamboo_chimes<br>
 
 
 
 ## inlets:
 
-* control inlet 
-__type:__ control<br>
+* control inlet<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* None
-__type:__ audio<br>
+* None<br>
+_type:_ audio
 
 
 

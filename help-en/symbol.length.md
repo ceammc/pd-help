@@ -24,15 +24,15 @@
 
 ## inlets:
 
-* input symbol. Unicode strings also supported. 
-__type:__ control<br>
+* input symbol. Unicode strings also supported.<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* length of symbol: number of character
-__type:__ control<br>
+* length of symbol: number of character<br>
+_type:_ control
 
 
 

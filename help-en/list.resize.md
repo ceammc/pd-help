@@ -20,7 +20,7 @@
 
 * **SIZE**
 desired list size<br>
-__type:__ int<br>
+_type:_ int<br>
 
 
 
@@ -30,46 +30,46 @@ __type:__ int<br>
 
 * **@size** 
 Get/set output list size<br>
-__type:__ int<br>
-__min value:__ 0<br>
-__default:__ 0<br>
+_type:_ int<br>
+_min value:_ 0<br>
+_default:_ 0<br>
 
 * **@method** 
 Get/set method of resizing, if new size is longer then current<br>
-__type:__ symbol<br>
-__enum:__ pad, clip, wrap, fold<br>
-__default:__ pad<br>
+_type:_ symbol<br>
+_enum:_ pad, clip, wrap, fold<br>
+_default:_ pad<br>
 
 * **@pad** 
 Get/set pad value for pad method of resizing<br>
-__type:__ atom<br>
-__default:__ 0<br>
+_type:_ atom<br>
+_default:_ 0<br>
 
 * **@clip** 
 Get/set alias for @method clip<br>
-__type:__ alias<br>
+_type:_ alias<br>
 
 * **@wrap** 
 Get/set alias for @method wrap<br>
-__type:__ alias<br>
+_type:_ alias<br>
 
 * **@fold** 
 Get/set alias for @method fold<br>
-__type:__ alias<br>
+_type:_ alias<br>
 
 
 
 ## inlets:
 
-* input list 
-__type:__ control<br>
+* input list<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* resized list
-__type:__ control<br>
+* resized list<br>
+_type:_ control
 
 
 

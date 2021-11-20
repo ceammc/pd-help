@@ -20,7 +20,7 @@
 
 * **KEYS**
 keys<br>
-__type:__ list<br>
+_type:_ list<br>
 
 
 
@@ -30,30 +30,30 @@ __type:__ list<br>
 
 * **@keys** 
 Get/set extracted keys<br>
-__type:__ list<br>
+_type:_ list<br>
 
 * **@default** 
 Get/set default value when key is not found in dictionary. If not specified no output
 is performed.<br>
-__type:__ atom<br>
+_type:_ atom<br>
 
 
 
 ## inlets:
 
-* input dictionary 
-__type:__ control<br>
+* input dictionary<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* first key output
-__type:__ control<br>
-* ... key output
-__type:__ control<br>
-* nth key output
-__type:__ control<br>
+* first key output<br>
+_type:_ control
+* ... key output<br>
+_type:_ control
+* nth key output<br>
+_type:_ control
 
 
 

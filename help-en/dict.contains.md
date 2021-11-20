@@ -20,7 +20,7 @@
 
 * **KEY**
 checked keys<br>
-__type:__ list<br>
+_type:_ list<br>
 
 
 
@@ -30,23 +30,23 @@ __type:__ list<br>
 
 * **@keys** 
 Get/set checked keys<br>
-__type:__ list<br>
+_type:_ list<br>
 
 
 
 ## inlets:
 
-* Data.dict expected 
-__type:__ control<br>
-* set searched keys 
-__type:__ control<br>
+* Data.dict expected<br>
+_type:_ control
+* set searched keys<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* output list of 1 and 0. One means dict contains key, zero - not
-__type:__ control<br>
+* output list of 1 and 0. One means dict contains key, zero - not<br>
+_type:_ control
 
 
 

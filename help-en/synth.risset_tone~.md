@@ -20,11 +20,11 @@
 
 * **CENTROID**
 main frequency (MIDI pitch)<br>
-__type:__ float<br>
+_type:_ float<br>
 
 * **RATE**
 glissanso speed<br>
-__type:__ float<br>
+_type:_ float<br>
 
 
 
@@ -40,41 +40,41 @@ reset to start position<br>
 
 * **@rate** 
 Get/set glissanso speed<br>
-__type:__ float<br>
-__range:__ -2..2<br>
-__default:__ 0.01<br>
+_type:_ float<br>
+_range:_ -2..2<br>
+_default:_ 0.01<br>
 
 * **@centroid** 
 Get/set main frequency. Units: MIDI note<br>
-__type:__ float<br>
-__range:__ 20..120<br>
-__default:__ 60<br>
+_type:_ float<br>
+_range:_ 20..120<br>
+_default:_ 60<br>
 
 * **@range** 
 Get/set glissando range in MIDI note units<br>
-__type:__ float<br>
-__range:__ 1..120<br>
-__default:__ 120<br>
+_type:_ float<br>
+_range:_ 1..120<br>
+_default:_ 120<br>
 
 * **@active** 
 Get/set on/off dsp processing<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 1<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 1<br>
 
 
 
 ## inlets:
 
-* reset to start position 
-__type:__ control<br>
+* reset to start position<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* output signal
-__type:__ audio<br>
+* output signal<br>
+_type:_ audio
 
 
 

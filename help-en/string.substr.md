@@ -21,11 +21,11 @@
 * **FROM**
 substring position. May be relative: -1 means one character from the end of
 stirng<br>
-__type:__ int<br>
+_type:_ int<br>
 
 * **LENGTH**
 substring length. If -1 given (by default), means &#39;till string end&#39;.<br>
-__type:__ int<br>
+_type:_ int<br>
 
 
 
@@ -35,32 +35,32 @@ __type:__ int<br>
 
 * **@from** 
 Get/set substring position. Can be negative - to address string from the end<br>
-__type:__ int<br>
-__default:__ 0<br>
+_type:_ int<br>
+_default:_ 0<br>
 
 * **@len** 
 Get/set substring length. If equal to -1, substring to the end of string<br>
-__type:__ int<br>
-__min value:__ 0<br>
-__default:__ -1<br>
+_type:_ int<br>
+_min value:_ 0<br>
+_default:_ -1<br>
 
 
 
 ## inlets:
 
-* input string 
-__type:__ control<br>
-* from 
-__type:__ control<br>
-* to 
-__type:__ control<br>
+* input string<br>
+_type:_ control
+* from<br>
+_type:_ control
+* to<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* output substring
-__type:__ control<br>
+* output substring<br>
+_type:_ control
 
 
 

@@ -29,23 +29,23 @@ Note: [list a b c( and [a b c( are different values!
 
 * **@onrepeat** 
 Get/set function called when repeat occurs<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 
 
 ## inlets:
 
-* force output current value 
-__type:__ control<br>
-* reset: reset state 
-__type:__ control<br>
+* force output current value<br>
+_type:_ control
+* reset: reset state<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* output only if input changed
-__type:__ control<br>
+* output only if input changed<br>
+_type:_ control
 
 
 

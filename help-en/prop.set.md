@@ -27,7 +27,7 @@ Note: you can connect to *any* destination inlet
 
 * **PROPS**
 property names<br>
-__type:__ list<br>
+_type:_ list<br>
 
 
 
@@ -37,19 +37,19 @@ __type:__ list<br>
 
 ## inlets:
 
-* first property value 
-__type:__ control<br>
-* ... property value 
-__type:__ control<br>
-* n-th property value 
-__type:__ control<br>
+* first property value<br>
+_type:_ control
+* ... property value<br>
+_type:_ control
+* n-th property value<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* outputs nothing. connect to destination object(s)
-__type:__ control<br>
+* outputs nothing. connect to destination object(s)<br>
+_type:_ control
 
 
 

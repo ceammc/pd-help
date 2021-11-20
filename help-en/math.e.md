@@ -28,15 +28,15 @@ It is approximately equal to 2.71828, and is the limit of (1 + 1/n)^n as n
 
 ## inlets:
 
-* outputs value 
-__type:__ control<br>
+* outputs value<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* output value
-__type:__ control<br>
+* output value<br>
+_type:_ control
 
 
 

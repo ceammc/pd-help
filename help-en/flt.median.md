@@ -29,24 +29,24 @@ If window size is even: mean between center elements outputed
 
 * **@size** 
 Get/set filter windows size<br>
-__type:__ int<br>
-__units:__ samp<br>
-__range:__ 1..128<br>
-__default:__ 9<br>
+_type:_ int<br>
+_units:_ samp<br>
+_range:_ 1..128<br>
+_default:_ 9<br>
 
 
 
 ## inlets:
 
-* input control signal 
-__type:__ control<br>
+* input control signal<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* filtered control stream
-__type:__ control<br>
+* filtered control stream<br>
+_type:_ control
 
 
 

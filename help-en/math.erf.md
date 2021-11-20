@@ -30,15 +30,15 @@ for a random variable Y that is normally distributed with mean 0 and variance 1/
 
 ## inlets:
 
-* input value 
-__type:__ control<br>
+* input value<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* result value
-__type:__ control<br>
+* result value<br>
+_type:_ control
 
 
 

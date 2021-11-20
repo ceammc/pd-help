@@ -20,7 +20,7 @@
 
 * **N**
 number of outlets<br>
-__type:__ int<br>
+_type:_ int<br>
 
 
 
@@ -30,19 +30,19 @@ __type:__ int<br>
 
 ## inlets:
 
-* input list 
-__type:__ control<br>
+* input list<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* outlet for first atom in list
-__type:__ control<br>
-* None
-__type:__ control<br>
-* outlet for Nth atom in list
-__type:__ control<br>
+* outlet for first atom in list<br>
+_type:_ control
+* None<br>
+_type:_ control
+* outlet for Nth atom in list<br>
+_type:_ control
 
 
 

@@ -27,15 +27,15 @@ The abs() function computes the absolute value of the float input.
 
 ## inlets:
 
-* input signal 
-__type:__ audio<br>
+* input signal<br>
+_type:_ audio
 
 
 
 ## outlets:
 
-* output signal
-__type:__ audio<br>
+* output signal<br>
+_type:_ audio
 
 
 

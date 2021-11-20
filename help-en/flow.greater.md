@@ -24,7 +24,7 @@ Numbers thar are *less* or *equal* then last argument are passed to N-th
 
 * **LIST**
 compare values: list of floats in descending order<br>
-__type:__ list<br>
+_type:_ list<br>
 
 
 
@@ -34,27 +34,27 @@ __type:__ list<br>
 
 * **@values** 
 Get/set compare values: list of floats in descending order<br>
-__type:__ list<br>
+_type:_ list<br>
 
 
 
 ## inlets:
 
-* input flow 
-__type:__ control<br>
+* input flow<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* numbers that are greater then 1st argument
-__type:__ control<br>
-* numbers that are greater than ... argument
-__type:__ control<br>
-* numbers that are greater than last argument
-__type:__ control<br>
-* numbers that are less or equal than last argument
-__type:__ control<br>
+* numbers that are greater then 1st argument<br>
+_type:_ control
+* numbers that are greater than ... argument<br>
+_type:_ control
+* numbers that are greater than last argument<br>
+_type:_ control
+* numbers that are less or equal than last argument<br>
+_type:_ control
 
 
 

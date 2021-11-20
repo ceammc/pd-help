@@ -20,7 +20,7 @@
 
 * **N**
 number of input channels<br>
-__type:__ int<br>
+_type:_ int<br>
 
 
 
@@ -30,52 +30,52 @@ __type:__ int<br>
 
 * **@ch** 
 Get/set number of input channels<br>
-__type:__ int<br>
-__range:__ 2..16<br>
-__default:__ 2<br>
+_type:_ int<br>
+_range:_ 2..16<br>
+_default:_ 2<br>
 
 * **@spread** 
 Get/set for @spread = 0, all channels are in the centre, for 1, they have maximum
 distribution<br>
-__type:__ float<br>
-__range:__ 0..1<br>
-__default:__ 1<br>
+_type:_ float<br>
+_range:_ 0..1<br>
+_default:_ 1<br>
 
 * **@center** 
 Get/set shift the centre of the distribution<br>
-__type:__ float<br>
-__range:__ -0.5..0.5<br>
-__default:__ 0<br>
+_type:_ float<br>
+_range:_ -0.5..0.5<br>
+_default:_ 0<br>
 
 * **@compensate** 
 Get/set compensate output level: divide amplitude to number of input channels<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 0<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 0<br>
 
 * **@coeffs** (readonly)
 Get list of gain pairs<br>
-__type:__ list<br>
+_type:_ list<br>
 
 
 
 ## inlets:
 
-* input signal 
-__type:__ audio<br>
-* input signal 
-__type:__ audio<br>
-* input signal 
-__type:__ audio<br>
+* input signal<br>
+_type:_ audio
+* input signal<br>
+_type:_ audio
+* input signal<br>
+_type:_ audio
 
 
 
 ## outlets:
 
-* left output channel
-__type:__ audio<br>
-* right output channel
-__type:__ audio<br>
+* left output channel<br>
+_type:_ audio
+* right output channel<br>
+_type:_ audio
 
 
 

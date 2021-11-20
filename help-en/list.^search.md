@@ -23,7 +23,7 @@ Outputs index or -1 if not found
 
 * **LIST**
 list contents<br>
-__type:__ list<br>
+_type:_ list<br>
 
 
 
@@ -33,35 +33,35 @@ __type:__ list<br>
 
 * **@value** 
 Get/set list contents<br>
-__type:__ list<br>
+_type:_ list<br>
 
 * **@start** 
 Get/set search start index position<br>
-__type:__ int<br>
-__min value:__ 0<br>
-__default:__ 0<br>
+_type:_ int<br>
+_min value:_ 0<br>
+_default:_ 0<br>
 
 * **@end** 
 Get/set search end index position (-1 means end of list)<br>
-__type:__ int<br>
-__min value:__ -1<br>
-__default:__ -1<br>
+_type:_ int<br>
+_min value:_ -1<br>
+_default:_ -1<br>
 
 
 
 ## inlets:
 
-* output float index in searched list 
-__type:__ control<br>
-* set searched list 
-__type:__ control<br>
+* output float index in searched list<br>
+_type:_ control
+* set searched list<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* 1 on success, otherwise 0
-__type:__ control<br>
+* 1 on success, otherwise 0<br>
+_type:_ control
 
 
 

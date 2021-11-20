@@ -24,8 +24,8 @@ Note: @delay property can be set only via right inlet or [prop.set] object
 
 * **MS**
 init @delay property<br>
-__type:__ float<br>
-__units:__ ms<br>
+_type:_ float<br>
+_units:_ ms<br>
 
 
 
@@ -35,37 +35,37 @@ __units:__ ms<br>
 
 * **@delay** 
 Get/set delay time<br>
-__type:__ float<br>
-__units:__ ms<br>
-__min value:__ 0<br>
-__default:__ 0<br>
+_type:_ float<br>
+_units:_ ms<br>
+_min value:_ 0<br>
+_default:_ 0<br>
 
 * **@empty** (readonly)
 Get 1 if pipe is empty, otherwise 0.<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 1<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 1<br>
 
 * **@size** (readonly)
 Get pipe size<br>
-__type:__ int<br>
-__default:__ 0<br>
+_type:_ int<br>
+_default:_ 0<br>
 
 
 
 ## inlets:
 
-* incoming message 
-__type:__ control<br>
-* clear pipe 
-__type:__ control<br>
+* incoming message<br>
+_type:_ control
+* clear pipe<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* pipe output
-__type:__ control<br>
+* pipe output<br>
+_type:_ control
 
 
 

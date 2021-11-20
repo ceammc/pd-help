@@ -23,7 +23,7 @@ defines a signal outlet for a patcher loaded by a hoa.process~ object
 
 * **EXTRA**
 shortcut for @extra property<br>
-__type:__ int<br>
+_type:_ int<br>
 
 
 
@@ -34,9 +34,9 @@ __type:__ int<br>
 * **@extra** 
 Get/set extra inlet. Extra inlet are added to the &#34;normal&#34; instance inlet and can be
 used to send signal to all instances<br>
-__type:__ int<br>
-__min value:__ 0<br>
-__default:__ 0<br>
+_type:_ int<br>
+_min value:_ 0<br>
+_default:_ 0<br>
 
 
 
@@ -44,9 +44,8 @@ __default:__ 0<br>
 
 ## outlets:
 
-* output signal in the corresponding hoa.process~ object&#39;s signal
-            outlet
-__type:__ audio<br>
+* output signal in the corresponding hoa.process~ object&#39;s signal outlet<br>
+_type:_ audio
 
 
 

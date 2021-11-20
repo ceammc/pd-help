@@ -24,11 +24,11 @@ Based on SoundTouch library for changing the Tempo, Pitch and Playback Rates of
 
 * **SRC**
 source array<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 * **DEST**
 destination array<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 
 
@@ -38,48 +38,48 @@ __type:__ symbol<br>
 
 * **@src** 
 Get/set source array<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 * **@dest** 
 Get/set destination array<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 * **@tempo** 
 Get/set relative tempo change without affecting the sound pitch<br>
-__type:__ float<br>
-__units:__ %<br>
-__range:__ -50..100<br>
-__default:__ 0<br>
+_type:_ float<br>
+_units:_ %<br>
+_range:_ -50..100<br>
+_default:_ 0<br>
 
 * **@pitch** 
 Get/set relative pitch change while keeping the original tempo<br>
-__type:__ float<br>
-__units:__ semitone<br>
-__default:__ 0<br>
+_type:_ float<br>
+_units:_ semitone<br>
+_default:_ 0<br>
 
 * **@rate** 
 Get/set playback rate - changes both tempo and pitch together as if a vinyl disc was
 played at different RPM rate<br>
-__type:__ float<br>
-__range:__ 0.1..2<br>
-__default:__ 1<br>
+_type:_ float<br>
+_range:_ 0.1..2<br>
+_default:_ 1<br>
 
 * **@speech** 
 Get/set optimize for speech sound source<br>
-__type:__ flag<br>
+_type:_ flag<br>
 
 * **@antialias** 
 Get/set use of anti-alias filter. Anti-alias filter is used to prevent folding of high
 frequencies when transposing the sample rate with interpolation.<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 0<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 0<br>
 
 * **@aalength** 
 Get/set pitch transposer anti-alias filter length<br>
-__type:__ int<br>
-__range:__ 8..128<br>
-__default:__ 64<br>
+_type:_ int<br>
+_range:_ 8..128<br>
+_default:_ 64<br>
 
 * **@sequence** 
 Get/set Default length of a single processing sequence, in milliseconds. This
@@ -89,10 +89,10 @@ processing. In principle a bigger value sounds better when slowing down tempo,
 but worse when increasing tempo and vice versa. Increasing this value reduces
 computational burden &amp; vice versa. Giving *0* value for the sequence length
 sets automatic parameter value according to tempo setting (recommended).<br>
-__type:__ int<br>
-__units:__ ms<br>
-__range:__ 0..100<br>
-__default:__ 0<br>
+_type:_ int<br>
+_units:_ ms<br>
+_range:_ 0..100<br>
+_default:_ 0<br>
 
 * **@seekwindow** 
 Get/set Seeking window default length in milliseconds for algorithm that finds the best
@@ -106,34 +106,34 @@ as if a constant frequency was drifting around, try reducing this setting.
 Increasing this value increases computational burden &amp; vice versa. Giving *0*
 value for the seek window length sets automatic parameter value according to
 tempo setting (recommended)<br>
-__type:__ int<br>
-__units:__ ms<br>
-__range:__ 0..100<br>
-__default:__ 0<br>
+_type:_ int<br>
+_units:_ ms<br>
+_range:_ 0..100<br>
+_default:_ 0<br>
 
 * **@overlap** 
 Get/set Overlap length in milliseconds. When the chopped sound sequences are mixed back
 together, to form a continuous sound stream, this parameter defines over how
 long period the two consecutive sequences are let to overlap each other.
 Increasing this value increases computational burden &amp; vice versa.<br>
-__type:__ int<br>
-__units:__ ms<br>
-__range:__ 0..100<br>
-__default:__ 8<br>
+_type:_ int<br>
+_units:_ ms<br>
+_range:_ 0..100<br>
+_default:_ 8<br>
 
 
 
 ## inlets:
 
-* starts processing 
-__type:__ control<br>
+* starts processing<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* float value - number of result samples
-__type:__ control<br>
+* float value - number of result samples<br>
+_type:_ control
 
 
 

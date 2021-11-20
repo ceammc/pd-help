@@ -63,21 +63,21 @@ fill empty presets by coping exiting values<br>
 
 * **@keys** (readonly)
 Get list of all existing preset keys<br>
-__type:__ list<br>
+_type:_ list<br>
 
 
 
 ## inlets:
 
-* output list content 
-__type:__ control<br>
+* output list content<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* list output
-__type:__ control<br>
+* list output<br>
+_type:_ control
 
 
 

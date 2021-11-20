@@ -24,15 +24,15 @@
 
 ## inlets:
 
-* output current canvas fullpath 
-__type:__ control<br>
+* output current canvas fullpath<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* current canvas fullpath as symbol
-__type:__ control<br>
+* current canvas fullpath as symbol<br>
+_type:_ control
 
 
 

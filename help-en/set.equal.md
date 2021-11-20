@@ -20,7 +20,7 @@
 
 * **ARGS**
 right set elements<br>
-__type:__ any<br>
+_type:_ any<br>
 
 
 
@@ -30,24 +30,24 @@ __type:__ any<br>
 
 * **@subj** 
 Get/set right set elements of data:Set<br>
-__type:__ list<br>
-__default:__ Set()<br>
+_type:_ list<br>
+_default:_ Set()<br>
 
 
 
 ## inlets:
 
-* set or list, other values are ignored. 
-__type:__ control<br>
-* set right set elements 
-__type:__ control<br>
+* set or list, other values are ignored.<br>
+_type:_ control
+* set right set elements<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* output 1 if sets are equal, 0 otherwise
-__type:__ control<br>
+* output 1 if sets are equal, 0 otherwise<br>
+_type:_ control
 
 
 

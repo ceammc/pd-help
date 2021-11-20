@@ -53,36 +53,36 @@ control change message<br>
 
 * **@pitch** 
 Get/set midi pitch<br>
-__type:__ float<br>
-__range:__ 36..84<br>
-__default:__ 57<br>
+_type:_ float<br>
+_range:_ 36..84<br>
+_default:_ 57<br>
 
 * **@freq** 
 Get/set maximum speed of whistles<br>
-__type:__ float<br>
-__units:__ Hz<br>
-__range:__ 0..480<br>
-__default:__ 220<br>
+_type:_ float<br>
+_units:_ Hz<br>
+_range:_ 0..480<br>
+_default:_ 220<br>
 
 * **@gate** 
 Get/set synth gate (&gt;0 - play)<br>
-__type:__ float<br>
-__range:__ 0..1<br>
-__default:__ 0<br>
+_type:_ float<br>
+_range:_ 0..1<br>
+_default:_ 0<br>
 
 
 
 ## inlets:
 
-* NOTE VEL 
-__type:__ control<br>
+* NOTE VEL<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* synth output
-__type:__ audio<br>
+* synth output<br>
+_type:_ audio
 
 
 

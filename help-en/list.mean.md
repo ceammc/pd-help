@@ -24,16 +24,15 @@
 
 ## inlets:
 
-* input list of floats. Non float values are just ignored. No output
-                if no floats in list 
-__type:__ control<br>
+* input list of floats. Non float values are just ignored. No output if no floats in list<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* average (float)
-__type:__ control<br>
+* average (float)<br>
+_type:_ control
 
 
 

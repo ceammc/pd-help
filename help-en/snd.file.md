@@ -70,50 +70,50 @@ load.<br>
 
 * **@formats** (readonly)
 Get list of supported formats<br>
-__type:__ list<br>
-__default:__ AAC AIFF ALAC AU AVR CAF FLAC HTK IFF MACE3:1 MACE6:1 MAT4 MAT5 MP3 MP4 MPC OGG PAF PVF RAW RF64 SD2 SDS SF VOC W64 WAV WAVEX WVE XI<br>
+_type:_ list<br>
+_default:_ AAC AIFF ALAC AU AVR CAF FLAC HTK IFF MACE3:1 MACE6:1 MAT4 MAT5 MP3 MP4 MPC OGG PAF PVF RAW RF64 SD2 SDS SF VOC W64 WAV WAVEX WVE XI<br>
 
 * **@sr** (readonly)
 Get source file samplerate<br>
-__type:__ list<br>
+_type:_ list<br>
 
 * **@filename** (readonly)
 Get filename<br>
-__type:__ list<br>
+_type:_ list<br>
 
 * **@samples** (readonly)
 Get list of number of loaded samples into each array<br>
-__type:__ list<br>
+_type:_ list<br>
 
 * **@channels** (readonly)
 Get list of loaded channels into each array<br>
-__type:__ list<br>
+_type:_ list<br>
 
 * **@smpte_fr** 
 Get/set SMPTE framerate for SMPTE offset calculations<br>
-__type:__ float<br>
-__range:__ 1..99<br>
-__default:__ 30<br>
+_type:_ float<br>
+_range:_ 1..99<br>
+_default:_ 30<br>
 
 * **@verbose** 
 Get/set verbose output to Pd window<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 0<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 0<br>
 
 
 
 ## inlets:
 
-* input inlet 
-__type:__ control<br>
+* input inlet<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* number of loaded samples
-__type:__ control<br>
+* number of loaded samples<br>
+_type:_ control
 
 
 

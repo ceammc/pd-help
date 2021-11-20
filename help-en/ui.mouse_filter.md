@@ -27,83 +27,83 @@ pass only specified mouse events from ui.* objects
 
 * **@mouse_up** 
 Get/set passing a @mouse_up events<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 0<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 0<br>
 
 * **@mouse_down** 
 Get/set passing a @mouse_down events<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 0<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 0<br>
 
 * **@mouse_leave** 
 Get/set passing a @mouse_leave events<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 0<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 0<br>
 
 * **@mouse_enter** 
 Get/set passing a @mouse_enter events<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 0<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 0<br>
 
 * **@mouse_move** 
 Get/set passing a @mouse_move events<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 0<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 0<br>
 
 * **@mouse_drag** 
 Get/set passing a @mouse_drag events<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 0<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 0<br>
 
 * **@up** 
 Get/set alias to @mouse_up 1 property<br>
-__type:__ alias<br>
-__default:__ 0<br>
+_type:_ alias<br>
+_default:_ 0<br>
 
 * **@down** 
 Get/set alias to @mouse_down 1 property<br>
-__type:__ alias<br>
-__default:__ 0<br>
+_type:_ alias<br>
+_default:_ 0<br>
 
 * **@leave** 
 Get/set alias to @mouse_leave 1 property<br>
-__type:__ alias<br>
-__default:__ 0<br>
+_type:_ alias<br>
+_default:_ 0<br>
 
 * **@enter** 
 Get/set alias to @mouse_enter 1 property<br>
-__type:__ alias<br>
-__default:__ 0<br>
+_type:_ alias<br>
+_default:_ 0<br>
 
 * **@move** 
 Get/set alias to @mouse_move 1 property<br>
-__type:__ alias<br>
-__default:__ 0<br>
+_type:_ alias<br>
+_default:_ 0<br>
 
 * **@drag** 
 Get/set alias to @mouse_drag 1 property<br>
-__type:__ alias<br>
-__default:__ 0<br>
+_type:_ alias<br>
+_default:_ 0<br>
 
 
 
 ## inlets:
 
-* input messages from ui object 
-__type:__ control<br>
+* input messages from ui object<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* passed messages from ui object
-__type:__ control<br>
+* passed messages from ui object<br>
+_type:_ control
 
 
 

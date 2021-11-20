@@ -21,7 +21,7 @@
 * **stretch**
 New size of output list. Input list will be stretched to the new size with
 linear interpolation<br>
-__type:__ int<br>
+_type:_ int<br>
 
 
 
@@ -31,25 +31,25 @@ __type:__ int<br>
 
 * **@size** 
 Get/set new size<br>
-__type:__ int<br>
-__min value:__ 0<br>
-__default:__ 1<br>
+_type:_ int<br>
+_min value:_ 0<br>
+_default:_ 1<br>
 
 
 
 ## inlets:
 
-* input list. 
-__type:__ control<br>
-* new length of output list 
-__type:__ control<br>
+* input list.<br>
+_type:_ control
+* new length of output list<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* new modified list
-__type:__ control<br>
+* new modified list<br>
+_type:_ control
 
 
 

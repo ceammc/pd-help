@@ -23,12 +23,12 @@ Easy way to build beat machines
 
 * **INTERVAL**
 metro tempo in ms<br>
-__type:__ float<br>
-__units:__ ms<br>
+_type:_ float<br>
+_units:_ ms<br>
 
 * **PATTERN**
 list of 1 and 0. Where 1 means output bang on this beat<br>
-__type:__ list<br>
+_type:_ list<br>
 
 
 
@@ -38,34 +38,34 @@ __type:__ list<br>
 
 * **@pattern** 
 Get/set list of 1 and 0. Where 1 means output bang on this beat<br>
-__type:__ list<br>
+_type:_ list<br>
 
 * **@interval** 
 Get/set interval between beats<br>
-__type:__ float<br>
-__units:__ ms<br>
-__min value:__ 1<br>
-__default:__ 0<br>
+_type:_ float<br>
+_units:_ ms<br>
+_min value:_ 1<br>
+_default:_ 0<br>
 
 * **@current** 
 Get/set current pattern index<br>
-__type:__ int<br>
-__min value:__ 0<br>
-__default:__ 0<br>
+_type:_ int<br>
+_min value:_ 0<br>
+_default:_ 0<br>
 
 
 
 ## inlets:
 
-* starts (on 1) or stops (on 0) metro 
-__type:__ control<br>
+* starts (on 1) or stops (on 0) metro<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* outputs *bang*
-__type:__ control<br>
+* outputs *bang*<br>
+_type:_ control
 
 
 

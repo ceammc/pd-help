@@ -33,8 +33,8 @@ sets cue index<br>
 
 ## inlets:
 
-* control input 
-__type:__ control<br>
+* control input<br>
+_type:_ control
 
 
 

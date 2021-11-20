@@ -23,7 +23,7 @@ Defines global scope integer variable, accessed by ID name.
 
 * **ID**
 object ID<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 
 
@@ -51,22 +51,22 @@ divide by, no output<br>
 
 * **@value** (readonly)
 Get current value<br>
-__type:__ int<br>
-__default:__ 0<br>
+_type:_ int<br>
+_default:_ 0<br>
 
 
 
 ## inlets:
 
-* outputs variable 
-__type:__ control<br>
+* outputs variable<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* int output
-__type:__ control<br>
+* int output<br>
+_type:_ control
 
 
 

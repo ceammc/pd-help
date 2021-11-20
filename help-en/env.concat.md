@@ -24,17 +24,17 @@
 
 ## inlets:
 
-* output concatenated result (previous) 
-__type:__ control<br>
-* set second envelope (no output) 
-__type:__ control<br>
+* output concatenated result (previous)<br>
+_type:_ control
+* set second envelope (no output)<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* new combined envelope
-__type:__ control<br>
+* new combined envelope<br>
+_type:_ control
 
 
 

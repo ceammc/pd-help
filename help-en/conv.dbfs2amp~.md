@@ -27,15 +27,15 @@ Note: db values &lt;= -144 are converted to 0
 
 ## inlets:
 
-* input signal 
-__type:__ audio<br>
+* input signal<br>
+_type:_ audio
 
 
 
 ## outlets:
 
-* converted signal
-__type:__ audio<br>
+* converted signal<br>
+_type:_ audio
 
 
 

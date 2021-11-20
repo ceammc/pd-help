@@ -25,26 +25,26 @@
 * **@delay** 
 Get/set append delay. If &lt;0 append immidiately at the same logical time, if equal zero
 - output after next DSP block.<br>
-__type:__ float<br>
-__units:__ ms<br>
-__min value:__ -1<br>
-__default:__ -1<br>
+_type:_ float<br>
+_units:_ ms<br>
+_min value:_ -1<br>
+_default:_ -1<br>
 
 
 
 ## inlets:
 
-* input message 
-__type:__ control<br>
-* set append value 
-__type:__ control<br>
+* input message<br>
+_type:_ control
+* set append value<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* output message
-__type:__ control<br>
+* output message<br>
+_type:_ control
 
 
 

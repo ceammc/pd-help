@@ -20,7 +20,7 @@
 
 * **ARRAY**
 array name<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 
 
@@ -41,37 +41,37 @@ resize target array<br>
 
 * **@array** 
 Get/set array name<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 * **@on** 
 Get/set write mode<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 1<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 1<br>
 
 * **@interp** 
 Get/set interpolation mode<br>
-__type:__ int<br>
-__enum:__ 0, 1, 3<br>
-__default:__ 0<br>
+_type:_ int<br>
+_enum:_ 0, 1, 3<br>
+_default:_ 0<br>
 
 
 
 ## inlets:
 
-* write delay 
-__type:__ audio<br>
-* read delay 
-__type:__ audio<br>
-* reset write position to zero 
-__type:__ audio<br>
+* write delay<br>
+_type:_ audio
+* read delay<br>
+_type:_ audio
+* reset write position to zero<br>
+_type:_ audio
 
 
 
 ## outlets:
 
-* read signal
-__type:__ audio<br>
+* read signal<br>
+_type:_ audio
 
 
 

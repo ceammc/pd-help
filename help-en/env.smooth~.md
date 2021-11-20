@@ -20,8 +20,8 @@
 
 * **duration**
 attack time<br>
-__type:__ float<br>
-__units:__ ms<br>
+_type:_ float<br>
+_units:_ ms<br>
 
 
 
@@ -44,38 +44,38 @@ reset envelope to initial state<br>
 
 * **@duration** 
 Get/set attack/release time (time to get -60db level)<br>
-__type:__ float<br>
-__units:__ ms<br>
-__range:__ 0..100000<br>
-__default:__ 100<br>
+_type:_ float<br>
+_units:_ ms<br>
+_range:_ 0..100000<br>
+_default:_ 100<br>
 
 * **@gate** 
 Get/set trigger signal<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 0<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 0<br>
 
 * **@active** 
 Get/set on/off dsp processing<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 1<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 1<br>
 
 
 
 ## inlets:
 
-* input signal 
-__type:__ audio<br>
+* input signal<br>
+_type:_ audio
 
 
 
 ## outlets:
 
-* output signal with applied envelope
-__type:__ audio<br>
-* bang on done
-__type:__ control<br>
+* output signal with applied envelope<br>
+_type:_ audio
+* bang on done<br>
+_type:_ control
 
 
 

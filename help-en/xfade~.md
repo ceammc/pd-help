@@ -24,7 +24,7 @@ control float value in range [0-1) controls xfade between first and second
 
 * **N**
 number of inputs<br>
-__type:__ int<br>
+_type:_ int<br>
 
 
 
@@ -34,44 +34,44 @@ __type:__ int<br>
 
 * **@smooth** 
 Get/set signal change smooth time<br>
-__type:__ float<br>
-__units:__ ms<br>
-__min value:__ 1<br>
-__default:__ 20<br>
+_type:_ float<br>
+_units:_ ms<br>
+_min value:_ 1<br>
+_default:_ 20<br>
 
 * **@type** 
 Get/set fade curve type: linear or power<br>
-__type:__ symbol<br>
-__enum:__ lin, pow<br>
-__default:__ pow<br>
+_type:_ symbol<br>
+_enum:_ lin, pow<br>
+_default:_ pow<br>
 
 * **@lin** 
 Get/set alias to @type lin<br>
-__type:__ alias<br>
+_type:_ alias<br>
 
 * **@pow** 
 Get/set alias to @type pow<br>
-__type:__ alias<br>
+_type:_ alias<br>
 
 
 
 ## inlets:
 
-* input signal 
-__type:__ audio<br>
-* input signal 
-__type:__ audio<br>
-* input signal 
-__type:__ audio<br>
-* set crossfade value 
-__type:__ control<br>
+* input signal<br>
+_type:_ audio
+* input signal<br>
+_type:_ audio
+* input signal<br>
+_type:_ audio
+* set crossfade value<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* output signal
-__type:__ audio<br>
+* output signal<br>
+_type:_ audio
 
 
 

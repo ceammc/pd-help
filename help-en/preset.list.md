@@ -23,11 +23,11 @@ Named list preset entry. Can store/load up to 256 various lists
 
 * **ID**
 preset id (should be unique in most use cases)<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 * **VALUES**
 preset initial value<br>
-__type:__ list<br>
+_type:_ list<br>
 
 
 
@@ -50,39 +50,39 @@ clear preset at specified index<br>
 * **@path** (readonly)
 Get property OSC-like path that includes id, abstraction name and may be subpatch
 name separated by slashes.<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 * **@id** (readonly)
 Get preset id<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 * **@init** 
 Get/set init list value<br>
-__type:__ list<br>
+_type:_ list<br>
 
 * **@global** 
 Get/set use global path like /ID<br>
-__type:__ flag<br>
-__default:__ 0<br>
+_type:_ flag<br>
+_default:_ 0<br>
 
 * **@subpatch** 
 Get/set include subpatch name to path<br>
-__type:__ flag<br>
-__default:__ 0<br>
+_type:_ flag<br>
+_default:_ 0<br>
 
 
 
 ## inlets:
 
-* set preset value without output 
-__type:__ control<br>
+* set preset value without output<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* preset list value
-__type:__ control<br>
+* preset list value<br>
+_type:_ control
 
 
 

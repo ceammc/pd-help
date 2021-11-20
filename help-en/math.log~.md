@@ -30,15 +30,15 @@ log(+infinity) return +infinity.
 
 ## inlets:
 
-* input signal 
-__type:__ audio<br>
+* input signal<br>
+_type:_ audio
 
 
 
 ## outlets:
 
-* result signal
-__type:__ audio<br>
+* result signal<br>
+_type:_ audio
 
 
 

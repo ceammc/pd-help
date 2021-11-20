@@ -25,11 +25,11 @@ On click outputs message with format [cell ROW COL VALUE(
 
 * **ROW**
 matrix rows<br>
-__type:__ int<br>
+_type:_ int<br>
 
 * **COL**
 matrix columns<br>
-__type:__ int<br>
+_type:_ int<br>
 
 
 
@@ -192,110 +192,110 @@ set UI element position<br>
 
 * **@rows** 
 Get/set number of matrix rows<br>
-__type:__ int<br>
-__range:__ 1..64<br>
-__default:__ 4<br>
+_type:_ int<br>
+_range:_ 1..64<br>
+_default:_ 4<br>
 
 * **@cols** 
 Get/set number of matrix columns<br>
-__type:__ int<br>
-__range:__ 1..64<br>
-__default:__ 8<br>
+_type:_ int<br>
+_range:_ 1..64<br>
+_default:_ 8<br>
 
 * **@current_row** 
 Get/set current row index. -1 if not specified. This property is not saved in patch<br>
-__type:__ int<br>
-__min value:__ 0<br>
-__default:__ -1<br>
+_type:_ int<br>
+_min value:_ 0<br>
+_default:_ -1<br>
 
 * **@current_col** 
 Get/set current column index. -1 if not specified. This property is not saved in patch<br>
-__type:__ int<br>
-__min value:__ 0<br>
-__default:__ -1<br>
+_type:_ int<br>
+_min value:_ 0<br>
+_default:_ -1<br>
 
 * **@presetname** 
 Get/set preset name for using with [ui.preset]<br>
-__type:__ symbol<br>
-__default:__ (null)<br>
+_type:_ symbol<br>
+_default:_ (null)<br>
 
 * **@send** 
 Get/set send destination<br>
-__type:__ symbol<br>
-__default:__ (null)<br>
+_type:_ symbol<br>
+_default:_ (null)<br>
 
 * **@receive** 
 Get/set receive source<br>
-__type:__ symbol<br>
-__default:__ (null)<br>
+_type:_ symbol<br>
+_default:_ (null)<br>
 
 * **@size** 
 Get/set element size (width, height pair)<br>
-__type:__ list<br>
-__default:__ 105 53<br>
+_type:_ list<br>
+_default:_ 105 53<br>
 
 * **@pinned** 
 Get/set pin mode. if 1 - put element to the lowest level<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 0<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 0<br>
 
 * **@active_color** 
 Get/set active color (list of red, green, blue values in 0-1 range)<br>
-__type:__ list<br>
-__default:__ 0 0.75 1 1<br>
+_type:_ list<br>
+_default:_ 0 0.75 1 1<br>
 
 * **@current_color** 
 Get/set current col/row color (list of red, green, blue values in 0-1 range)<br>
-__type:__ list<br>
-__default:__ 1 0.75 0 1<br>
+_type:_ list<br>
+_default:_ 1 0.75 0 1<br>
 
 * **@background_color** 
 Get/set element background color (list of red, green, blue values in 0-1 range)<br>
-__type:__ list<br>
-__default:__ 0.93 0.93 0.93 1<br>
+_type:_ list<br>
+_default:_ 0.93 0.93 0.93 1<br>
 
 * **@border_color** 
 Get/set border color (list of red, green, blue values in 0-1 range)<br>
-__type:__ list<br>
-__default:__ 0.6 0.6 0.6 1<br>
+_type:_ list<br>
+_default:_ 0.6 0.6 0.6 1<br>
 
 * **@fontsize** 
 Get/set fontsize<br>
-__type:__ int<br>
-__range:__ 4..11<br>
-__default:__ 11<br>
+_type:_ int<br>
+_range:_ 4..11<br>
+_default:_ 11<br>
 
 * **@fontname** 
 Get/set fontname<br>
-__type:__ symbol<br>
-__default:__ Helvetica<br>
+_type:_ symbol<br>
+_default:_ Helvetica<br>
 
 * **@fontweight** 
 Get/set font weight<br>
-__type:__ symbol<br>
-__enum:__ normal, bold<br>
-__default:__ normal<br>
+_type:_ symbol<br>
+_enum:_ normal, bold<br>
+_default:_ normal<br>
 
 * **@fontslant** 
 Get/set font slant<br>
-__type:__ symbol<br>
-__enum:__ roman, italic<br>
-__default:__ roman<br>
+_type:_ symbol<br>
+_enum:_ roman, italic<br>
+_default:_ roman<br>
 
 
 
 ## inlets:
 
-* output all cells. Same as [get cells( 
-__type:__ control<br>
+* output all cells. Same as [get cells(<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* output
-__type:__ control<br>
+* output<br>
+_type:_ control
 
 
 

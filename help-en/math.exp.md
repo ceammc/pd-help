@@ -35,15 +35,15 @@ For all these functions, a range error occurs if the magnitude of x is too
 
 ## inlets:
 
-* input value 
-__type:__ control<br>
+* input value<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* result value
-__type:__ control<br>
+* result value<br>
+_type:_ control
 
 
 

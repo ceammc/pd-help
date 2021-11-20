@@ -20,7 +20,7 @@
 
 * **STR**
 substring to remove<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 
 
@@ -30,41 +30,41 @@ __type:__ symbol<br>
 
 * **@mode** 
 Get/set remove mode<br>
-__type:__ symbol<br>
-__enum:__ all, first, last<br>
-__default:__ all<br>
+_type:_ symbol<br>
+_enum:_ all, first, last<br>
+_default:_ all<br>
 
 * **@all** 
 Get/set alias to @mode all - remove all occurences in input string<br>
-__type:__ alias<br>
+_type:_ alias<br>
 
 * **@first** 
 Get/set alias to @mode first - remove first occurence in input string<br>
-__type:__ alias<br>
+_type:_ alias<br>
 
 * **@last** 
 Get/set alias to @mode last - remove last occurence in input string<br>
-__type:__ alias<br>
+_type:_ alias<br>
 
 * **@str** 
 Get/set removed string<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 
 
 ## inlets:
 
-* input string or symbol 
-__type:__ control<br>
-* set removed string or symbol 
-__type:__ control<br>
+* input string or symbol<br>
+_type:_ control
+* set removed string or symbol<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* output string
-__type:__ control<br>
+* output string<br>
+_type:_ control
 
 
 

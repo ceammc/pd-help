@@ -23,11 +23,11 @@ checks is |x - pattern| &lt;= |epsilon|
 
 * **P**
 compare pattern<br>
-__type:__ float<br>
+_type:_ float<br>
 
 * **E**
 compare epsilon<br>
-__type:__ float<br>
+_type:_ float<br>
 
 
 
@@ -37,32 +37,31 @@ __type:__ float<br>
 
 * **@value** 
 Get/set compare pattern<br>
-__type:__ float<br>
-__default:__ 0<br>
+_type:_ float<br>
+_default:_ 0<br>
 
 * **@epsilon** 
 Get/set compare epsilon<br>
-__type:__ float<br>
-__default:__ 0.01<br>
+_type:_ float<br>
+_default:_ 0.01<br>
 
 
 
 ## inlets:
 
-* input value 
-__type:__ control<br>
-* pattern value 
-__type:__ control<br>
-* epsilon 
-__type:__ control<br>
+* input value<br>
+_type:_ control
+* pattern value<br>
+_type:_ control
+* epsilon<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* output 1 if input value is approximately equal to pattern, 0 0
-            otherwise
-__type:__ control<br>
+* output 1 if input value is approximately equal to pattern, 0 0 otherwise<br>
+_type:_ control
 
 
 

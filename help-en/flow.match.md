@@ -24,7 +24,7 @@ if you want to match property - use double quotes in arg list: &#34;@prop+&#34;
 
 * **RE_LST**
 list of regular expressions<br>
-__type:__ list<br>
+_type:_ list<br>
 
 
 
@@ -34,39 +34,39 @@ __type:__ list<br>
 
 * **@patterns** 
 Get/set list of regular expressions<br>
-__type:__ list<br>
+_type:_ list<br>
 
 * **@cut** 
 Get/set cut or pass message selector<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 0<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 0<br>
 
 
 
 ## inlets:
 
-* input message 
-__type:__ control<br>
-* set first regexp 
-__type:__ control<br>
-* set ... regexp 
-__type:__ control<br>
-* set n-th regexp 
-__type:__ control<br>
+* input message<br>
+_type:_ control
+* set first regexp<br>
+_type:_ control
+* set ... regexp<br>
+_type:_ control
+* set n-th regexp<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* output match to first regexp
-__type:__ control<br>
-* output match to ... regexp
-__type:__ control<br>
-* output match to n-th regexp
-__type:__ control<br>
-* unmatched output
-__type:__ control<br>
+* output match to first regexp<br>
+_type:_ control
+* output match to ... regexp<br>
+_type:_ control
+* output match to n-th regexp<br>
+_type:_ control
+* unmatched output<br>
+_type:_ control
 
 
 

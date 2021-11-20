@@ -24,15 +24,15 @@
 
 ## inlets:
 
-* period in seconds 
-__type:__ control<br>
+* period in seconds<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* bpm frequency
-__type:__ control<br>
+* bpm frequency<br>
+_type:_ control
 
 
 

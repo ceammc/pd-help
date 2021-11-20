@@ -20,7 +20,7 @@
 
 * **N**
 number of input stereo-pairs<br>
-__type:__ int<br>
+_type:_ int<br>
 
 
 
@@ -30,36 +30,36 @@ __type:__ int<br>
 
 * **@value** 
 Get/set gain coefficients per each input<br>
-__type:__ list<br>
-__default:__ 1 0<br>
+_type:_ list<br>
+_default:_ 1 0<br>
 
 
 
 ## inlets:
 
-* first left input signal 
-__type:__ audio<br>
-* first right input signal 
-__type:__ audio<br>
-* ... left input signal 
-__type:__ audio<br>
-* ... right input signal 
-__type:__ audio<br>
-* last left input signal 
-__type:__ audio<br>
-* last right input signal 
-__type:__ audio<br>
-* multiplexer control 
-__type:__ control<br>
+* first left input signal<br>
+_type:_ audio
+* first right input signal<br>
+_type:_ audio
+* ... left input signal<br>
+_type:_ audio
+* ... right input signal<br>
+_type:_ audio
+* last left input signal<br>
+_type:_ audio
+* last right input signal<br>
+_type:_ audio
+* multiplexer control<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* left output
-__type:__ audio<br>
-* right output
-__type:__ audio<br>
+* left output<br>
+_type:_ audio
+* right output<br>
+_type:_ audio
 
 
 

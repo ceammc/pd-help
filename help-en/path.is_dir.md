@@ -24,18 +24,17 @@
 
 ## inlets:
 
-* output 1 if given path is found and is directory, otherwise
-                false 
-__type:__ control<br>
+* output 1 if given path is found and is directory, otherwise false<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* 1 or 0
-__type:__ control<br>
-* output path if it&#39;s directory
-__type:__ control<br>
+* 1 or 0<br>
+_type:_ control
+* output path if it&#39;s directory<br>
+_type:_ control
 
 
 

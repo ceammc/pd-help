@@ -24,11 +24,11 @@ From/to values can be specified both as @from/@to properties or first and second
 
 * **FROM**
 replace subject<br>
-__type:__ atom<br>
+_type:_ atom<br>
 
 * **TO**
 replace value<br>
-__type:__ atom<br>
+_type:_ atom<br>
 
 
 
@@ -38,29 +38,29 @@ __type:__ atom<br>
 
 * **@from** 
 Get/set replace subject<br>
-__type:__ atom<br>
+_type:_ atom<br>
 
 * **@to** 
 Get/set replace value<br>
-__type:__ atom<br>
+_type:_ atom<br>
 
 
 
 ## inlets:
 
-* input data stream 
-__type:__ control<br>
-* @from property inlet 
-__type:__ control<br>
-* @to property inlet 
-__type:__ control<br>
+* input data stream<br>
+_type:_ control
+* @from property inlet<br>
+_type:_ control
+* @to property inlet<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* output data stream
-__type:__ control<br>
+* output data stream<br>
+_type:_ control
 
 
 

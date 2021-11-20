@@ -29,15 +29,15 @@ IEEE 754 floating point numbers can represent positive or negative infinity, and
 
 ## inlets:
 
-* outputs *inf* value 
-__type:__ control<br>
+* outputs *inf* value<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* output value
-__type:__ control<br>
+* output value<br>
+_type:_ control
 
 
 

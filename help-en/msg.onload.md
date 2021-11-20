@@ -24,7 +24,7 @@ Click on object sends message again.
 
 * **ARGS**
 message. Comma separated messages are supported<br>
-__type:__ list<br>
+_type:_ list<br>
 
 
 
@@ -36,8 +36,8 @@ __type:__ list<br>
 
 ## outlets:
 
-* message output
-__type:__ control<br>
+* message output<br>
+_type:_ control
 
 
 

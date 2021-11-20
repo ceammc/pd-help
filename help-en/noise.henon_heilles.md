@@ -23,23 +23,23 @@ a port of Richard&#39;s chaos-henon-heilles from chaos collection
 
 * **ARG0**
 x value (optional)<br>
-__type:__ float<br>
+_type:_ float<br>
 
 * **ARG1**
 y value (optional)<br>
-__type:__ float<br>
+_type:_ float<br>
 
 * **ARG2**
 y&#39; value (optional)<br>
-__type:__ float<br>
+_type:_ float<br>
 
 * **ARG3**
 e value (optional)<br>
-__type:__ float<br>
+_type:_ float<br>
 
 * **ARG4**
 dt value (optional)<br>
-__type:__ float<br>
+_type:_ float<br>
 
 
 
@@ -97,17 +97,17 @@ reset state<br>
 
 ## inlets:
 
-* output value 
-__type:__ control<br>
+* output value<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* x outlet
-__type:__ control<br>
-* y outlet
-__type:__ control<br>
+* x outlet<br>
+_type:_ control
+* y outlet<br>
+_type:_ control
 
 
 

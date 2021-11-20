@@ -24,7 +24,7 @@ On incoming list (l⁰ l¹ ...) outputs to corresponding outlet message: [s⁰ l
 
 * **SEL**
 list of selectors<br>
-__type:__ list<br>
+_type:_ list<br>
 
 
 
@@ -34,19 +34,19 @@ __type:__ list<br>
 
 ## inlets:
 
-* input list 
-__type:__ control<br>
+* input list<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* first element with first selector
-__type:__ control<br>
-* ... element with ... selector
-__type:__ control<br>
-* nth element with nth selector
-__type:__ control<br>
+* first element with first selector<br>
+_type:_ control
+* ... element with ... selector<br>
+_type:_ control
+* nth element with nth selector<br>
+_type:_ control
 
 
 

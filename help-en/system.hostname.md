@@ -24,15 +24,15 @@
 
 ## inlets:
 
-* outputs hostname 
-__type:__ control<br>
+* outputs hostname<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* symbol: hostname
-__type:__ control<br>
+* symbol: hostname<br>
+_type:_ control
 
 
 

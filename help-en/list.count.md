@@ -20,7 +20,7 @@
 
 * **pattern**
 count pattern value<br>
-__type:__ any<br>
+_type:_ any<br>
 
 
 
@@ -30,23 +30,23 @@ __type:__ any<br>
 
 * **@pattern** 
 Get/set new pattern value<br>
-__type:__ atom<br>
+_type:_ atom<br>
 
 
 
 ## inlets:
 
-* Input list 
-__type:__ control<br>
-* change pattern value 
-__type:__ control<br>
+* Input list<br>
+_type:_ control
+* change pattern value<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* count of found elements
-__type:__ control<br>
+* count of found elements<br>
+_type:_ control
 
 
 

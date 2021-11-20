@@ -25,7 +25,7 @@ Sync data flow. All inlets are &#39;hot&#39;. When float, symbol or list arrives
 
 * **N**
 Number of input/outputs<br>
-__type:__ int<br>
+_type:_ int<br>
 
 
 
@@ -35,23 +35,23 @@ __type:__ int<br>
 
 ## inlets:
 
-* first inlet 
-__type:__ control<br>
-* ... 
-__type:__ control<br>
-* Nth inlet 
-__type:__ control<br>
+* first inlet<br>
+_type:_ control
+* ...<br>
+_type:_ control
+* Nth inlet<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* first outlet
-__type:__ control<br>
-* ... outlet
-__type:__ control<br>
-* Nth outlet
-__type:__ control<br>
+* first outlet<br>
+_type:_ control
+* ... outlet<br>
+_type:_ control
+* Nth outlet<br>
+_type:_ control
 
 
 

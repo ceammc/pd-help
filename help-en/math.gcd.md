@@ -20,7 +20,7 @@
 
 * **ARG2**
 second argument<br>
-__type:__ int<br>
+_type:_ int<br>
 
 
 
@@ -30,17 +30,17 @@ __type:__ int<br>
 
 ## inlets:
 
-* sets first argument and outputs calculated GCD value 
-__type:__ control<br>
-* sets second value 
-__type:__ control<br>
+* sets first argument and outputs calculated GCD value<br>
+_type:_ control
+* sets second value<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* GCD value
-__type:__ control<br>
+* GCD value<br>
+_type:_ control
 
 
 

@@ -182,16 +182,15 @@ send System Reset realtime message (0xFF)<br>
 
 ## inlets:
 
-* raw midi input bytes 
-__type:__ control<br>
+* raw midi input bytes<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* float: raw midi output or parsed messages with selector (output format same as
-            for corresponding methods)
-__type:__ control<br>
+* float: raw midi output or parsed messages with selector (output format same as for corresponding methods)<br>
+_type:_ control
 
 
 

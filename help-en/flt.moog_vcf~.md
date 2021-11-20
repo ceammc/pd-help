@@ -20,7 +20,7 @@
 
 * **res**
 normalized amount of corner-resonance<br>
-__type:__ float<br>
+_type:_ float<br>
 
 
 
@@ -36,31 +36,31 @@ reset object state<br>
 
 * **@res** 
 Get/set normalized amount of corner-resonance<br>
-__type:__ float<br>
-__range:__ 0..1<br>
-__default:__ 0.4<br>
+_type:_ float<br>
+_range:_ 0..1<br>
+_default:_ 0.4<br>
 
 * **@active** 
 Get/set on/off dsp processing<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 1<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 1<br>
 
 
 
 ## inlets:
 
-* input signal 
-__type:__ audio<br>
-* filter center frequency in Hz 
-__type:__ audio<br>
+* input signal<br>
+_type:_ audio
+* filter center frequency in Hz<br>
+_type:_ audio
 
 
 
 ## outlets:
 
-* filtered signal
-__type:__ audio<br>
+* filtered signal<br>
+_type:_ audio
 
 
 

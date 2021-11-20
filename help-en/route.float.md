@@ -29,25 +29,25 @@ to get properties use *prop.get* object, cause all messages (including property
 * **@strict** 
 Get/set strict mode. By default list with single float treated as float. Set to true to
 disable this behavior<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 0<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 0<br>
 
 
 
 ## inlets:
 
-* float to first outlet 
-__type:__ control<br>
+* float to first outlet<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* float output
-__type:__ control<br>
-* other messages
-__type:__ control<br>
+* float output<br>
+_type:_ control
+* other messages<br>
+_type:_ control
 
 
 

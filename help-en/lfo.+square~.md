@@ -20,8 +20,8 @@
 
 * **freq**
 frequency<br>
-__type:__ float<br>
-__units:__ Hz<br>
+_type:_ float<br>
+_units:_ Hz<br>
 
 
 
@@ -37,37 +37,37 @@ reset to initial state<br>
 
 * **@active** 
 Get/set on/off dsp processing<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 1<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 1<br>
 
 * **@pause** 
 Get/set pause oscillator at current value<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 0<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 0<br>
 
 * **@phase** 
 Get/set initial phase<br>
-__type:__ float<br>
-__range:__ 0..1<br>
-__default:__ 0<br>
+_type:_ float<br>
+_range:_ 0..1<br>
+_default:_ 0<br>
 
 
 
 ## inlets:
 
-* frequency in Hz 
-__type:__ audio<br>
-* reset phase 
-__type:__ control<br>
+* frequency in Hz<br>
+_type:_ audio
+* reset phase<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* output signal in [0, 1] range
-__type:__ audio<br>
+* output signal in [0, 1] range<br>
+_type:_ audio
 
 
 

@@ -20,7 +20,7 @@
 
 * **F**
 subtrahend<br>
-__type:__ float<br>
+_type:_ float<br>
 
 
 
@@ -30,24 +30,24 @@ __type:__ float<br>
 
 * **@int** 
 Get/set operate on integers only<br>
-__type:__ flag<br>
-__default:__ 0<br>
+_type:_ flag<br>
+_default:_ 0<br>
 
 
 
 ## inlets:
 
-* set minuend, calculate and output result 
-__type:__ control<br>
-* change subtrahend, calculate and output result 
-__type:__ control<br>
+* set minuend, calculate and output result<br>
+_type:_ control
+* change subtrahend, calculate and output result<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* difference output
-__type:__ control<br>
+* difference output<br>
+_type:_ control
 
 
 

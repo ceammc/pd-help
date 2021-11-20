@@ -24,15 +24,15 @@
 
 ## inlets:
 
-* list of mlists 
-__type:__ control<br>
+* list of mlists<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* mlist output
-__type:__ control<br>
+* mlist output<br>
+_type:_ control
 
 
 

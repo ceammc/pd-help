@@ -22,7 +22,7 @@
 * **AT**
 size of first list. The size of the list on the second output is the size of
 input list - this value<br>
-__type:__ int<br>
+_type:_ int<br>
 
 
 
@@ -32,25 +32,25 @@ __type:__ int<br>
 
 * **@at** 
 Get/set split point<br>
-__type:__ int<br>
-__min value:__ 0<br>
-__default:__ 0<br>
+_type:_ int<br>
+_min value:_ 0<br>
+_default:_ 0<br>
 
 
 
 ## inlets:
 
-* input list 
-__type:__ control<br>
+* input list<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* first sub-list of given size
-__type:__ control<br>
-* second sub-list
-__type:__ control<br>
+* first sub-list of given size<br>
+_type:_ control
+* second sub-list<br>
+_type:_ control
 
 
 

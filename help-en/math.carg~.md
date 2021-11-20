@@ -27,17 +27,17 @@ outputs the phase angle in the interval [−π π]
 
 ## inlets:
 
-* real part of input signal 
-__type:__ audio<br>
-* imag part of input signal 
-__type:__ audio<br>
+* real part of input signal<br>
+_type:_ audio
+* imag part of input signal<br>
+_type:_ audio
 
 
 
 ## outlets:
 
-* signal phase angle in radians
-__type:__ audio<br>
+* signal phase angle in radians<br>
+_type:_ audio
 
 
 

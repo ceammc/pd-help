@@ -27,7 +27,7 @@ Algorithm: 32-bit Mersenne Twister by Matsumoto and Nishimura, 1998
 
 * **ARG**
 @min=ARG[0], @max=ARG[1], in case of signle arg: @min=0, @max=ARG[0]<br>
-__type:__ list<br>
+_type:_ list<br>
 
 
 
@@ -47,37 +47,37 @@ generate list of random floats with specified length<br>
 
 * **@min** 
 Get/set random range lower bound<br>
-__type:__ float<br>
-__default:__ 0<br>
+_type:_ float<br>
+_default:_ 0<br>
 
 * **@max** 
 Get/set random range upper bound<br>
-__type:__ float<br>
-__default:__ 1<br>
+_type:_ float<br>
+_default:_ 1<br>
 
 * **@seed** 
 Get/set generator seed<br>
-__type:__ int<br>
-__min value:__ 0<br>
-__default:__ 0<br>
+_type:_ int<br>
+_min value:_ 0<br>
+_default:_ 0<br>
 
 
 
 ## inlets:
 
-* generate new number 
-__type:__ control<br>
-* set @min property 
-__type:__ control<br>
-* set @max property 
-__type:__ control<br>
+* generate new number<br>
+_type:_ control
+* set @min property<br>
+_type:_ control
+* set @max property<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* float ot list: result value
-__type:__ control<br>
+* float ot list: result value<br>
+_type:_ control
 
 
 

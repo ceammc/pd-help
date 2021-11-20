@@ -27,17 +27,17 @@ Works with data atoms
 
 ## inlets:
 
-* treated as empty input list 
-__type:__ control<br>
-* set prepended atom or list 
-__type:__ control<br>
+* treated as empty input list<br>
+_type:_ control
+* set prepended atom or list<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* output concatenated list
-__type:__ control<br>
+* output concatenated list<br>
+_type:_ control
 
 
 

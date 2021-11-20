@@ -20,11 +20,11 @@
 
 * **SEED**
 init random seed<br>
-__type:__ int<br>
+_type:_ int<br>
 
 * **PROPS**
 properties names<br>
-__type:__ list<br>
+_type:_ list<br>
 
 
 
@@ -34,28 +34,28 @@ __type:__ list<br>
 
 * **@seed** 
 Get/set random seed<br>
-__type:__ int<br>
-__default:__ float<br>
+_type:_ int<br>
+_default:_ float<br>
 
 
 
 ## inlets:
 
-* first specified property 
-__type:__ control<br>
-* ... specified property 
-__type:__ control<br>
-* n-th specified property 
-__type:__ control<br>
+* first specified property<br>
+_type:_ control
+* ... specified property<br>
+_type:_ control
+* n-th specified property<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* connect to target object
-__type:__ control<br>
-* atom: new random value
-__type:__ control<br>
+* connect to target object<br>
+_type:_ control
+* atom: new random value<br>
+_type:_ control
 
 
 

@@ -20,7 +20,7 @@
 
 * **CHORD**
 list of pitches to arpeggiate<br>
-__type:__ list<br>
+_type:_ list<br>
 
 
 
@@ -77,23 +77,23 @@ set arpeggiate mode and run<br>
 
 * **@chord** 
 Get/set list of pitches to arpeggiate<br>
-__type:__ list<br>
+_type:_ list<br>
 
 
 
 ## inlets:
 
-* starts sequencer 
-__type:__ control<br>
+* starts sequencer<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* list: pitch vel
-__type:__ control<br>
-* float: number of active notes
-__type:__ control<br>
+* list: pitch vel<br>
+_type:_ control
+* float: number of active notes<br>
+_type:_ control
 
 
 

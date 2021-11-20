@@ -35,19 +35,19 @@ The following shows a &#34;typical&#34; segment of (x,y) values.
 
 * **ARG0**
 a value (default 0.25), optional<br>
-__type:__ float<br>
+_type:_ float<br>
 
 * **ARG1**
 b value (default 0.3), optional<br>
-__type:__ float<br>
+_type:_ float<br>
 
 * **ARG2**
 w value (default 1.0), optional<br>
-__type:__ float<br>
+_type:_ float<br>
 
 * **ARG3**
 dt value (default 0.01), optional<br>
-__type:__ float<br>
+_type:_ float<br>
 
 
 
@@ -105,15 +105,15 @@ reset state<br>
 
 ## inlets:
 
-* output value 
-__type:__ control<br>
+* output value<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* main outlet
-__type:__ control<br>
+* main outlet<br>
+_type:_ control
 
 
 

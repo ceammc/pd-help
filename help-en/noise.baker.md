@@ -23,7 +23,7 @@ Port of Richard&#39;s chaos-baker from chaos collection
 
 * **ARG0**
 initial value<br>
-__type:__ float<br>
+_type:_ float<br>
 
 
 
@@ -81,15 +81,15 @@ reset state<br>
 
 ## inlets:
 
-* output value 
-__type:__ control<br>
+* output value<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* main outlet
-__type:__ control<br>
+* main outlet<br>
+_type:_ control
 
 
 

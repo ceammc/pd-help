@@ -24,15 +24,15 @@
 
 ## inlets:
 
-* outputs screen size in pixels 
-__type:__ control<br>
+* outputs screen size in pixels<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* list of two values: width and height
-__type:__ control<br>
+* list of two values: width and height<br>
+_type:_ control
 
 
 

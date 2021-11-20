@@ -20,7 +20,7 @@
 
 * **FNAME**
 path to faust dsp file<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 
 
@@ -42,41 +42,41 @@ update faust object, recompile if needed<br>
 
 * **@fname** 
 Get/set path to faust dsp file<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 * **@include** 
 Get/set list of faust include directories<br>
-__type:__ list<br>
+_type:_ list<br>
 
 * **@auto** 
 Get/set auto update mode. If on - recompiles faust dsp file on change<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 1<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 1<br>
 
 
 
 ## inlets:
 
-* control input 
-__type:__ control<br>
-* first faust input 
-__type:__ audio<br>
-* ... faust input 
-__type:__ audio<br>
-* n-th faust input 
-__type:__ audio<br>
+* control input<br>
+_type:_ control
+* first faust input<br>
+_type:_ audio
+* ... faust input<br>
+_type:_ audio
+* n-th faust input<br>
+_type:_ audio
 
 
 
 ## outlets:
 
-* first faust output
-__type:__ audio<br>
-* ... faust output
-__type:__ audio<br>
-* n-th faust output
-__type:__ audio<br>
+* first faust output<br>
+_type:_ audio
+* ... faust output<br>
+_type:_ audio
+* n-th faust output<br>
+_type:_ audio
 
 
 

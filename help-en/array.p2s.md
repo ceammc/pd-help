@@ -23,7 +23,7 @@ this object allows to get relative access to array
 
 * **NAME**
 array name<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 
 
@@ -33,22 +33,22 @@ __type:__ symbol<br>
 
 * **@array** 
 Get/set array name<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 
 
 ## inlets:
 
 * value between 0 and 1, where 0 maps to begin of array, 1 - to
-                end 
-__type:__ control<br>
+                end<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* sample number
-__type:__ control<br>
+* sample number<br>
+_type:_ control
 
 
 

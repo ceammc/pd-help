@@ -20,7 +20,7 @@
 
 * **KEYS**
 keys<br>
-__type:__ list<br>
+_type:_ list<br>
 
 
 
@@ -30,23 +30,23 @@ __type:__ list<br>
 
 * **@keys** 
 Get/set rejected keys<br>
-__type:__ list<br>
+_type:_ list<br>
 
 
 
 ## inlets:
 
-* input dictionary 
-__type:__ control<br>
-* set rejected keys 
-__type:__ control<br>
+* input dictionary<br>
+_type:_ control
+* set rejected keys<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* new dict with filtered keys
-__type:__ control<br>
+* new dict with filtered keys<br>
+_type:_ control
 
 
 

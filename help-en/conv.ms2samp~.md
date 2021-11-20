@@ -25,15 +25,15 @@
 
 ## inlets:
 
-* input signal 
-__type:__ audio<br>
+* input signal<br>
+_type:_ audio
 
 
 
 ## outlets:
 
-* output signal
-__type:__ audio<br>
+* output signal<br>
+_type:_ audio
 
 
 

@@ -24,19 +24,19 @@
 
 ## inlets:
 
-* input signal 
-__type:__ audio<br>
-* pan position 
-__type:__ audio<br>
+* input signal<br>
+_type:_ audio
+* pan position<br>
+_type:_ audio
 
 
 
 ## outlets:
 
-* left output channel
-__type:__ audio<br>
-* right output channel
-__type:__ audio<br>
+* left output channel<br>
+_type:_ audio
+* right output channel<br>
+_type:_ audio
 
 
 

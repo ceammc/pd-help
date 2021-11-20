@@ -36,51 +36,51 @@ stop playing and move play position to the end of file<br>
 
 * **@done** 
 Get/set function called with bang when playing is finished<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 * **@len** (readonly)
 Get length of mod file<br>
-__type:__ float<br>
-__units:__ ms<br>
-__default:__ 0<br>
+_type:_ float<br>
+_units:_ ms<br>
+_default:_ 0<br>
 
 * **@name** (readonly)
 Get mod name<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 * **@pos** 
 Get/set position in mod file<br>
-__type:__ float<br>
-__units:__ ms<br>
-__default:__ -1<br>
+_type:_ float<br>
+_units:_ ms<br>
+_default:_ -1<br>
 
 * **@rpos** 
 Get/set relative position in mod file<br>
-__type:__ float<br>
-__range:__ 0..1<br>
-__default:__ 0<br>
+_type:_ float<br>
+_range:_ 0..1<br>
+_default:_ 0<br>
 
 * **@play** 
 Get/set play state<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 0<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 0<br>
 
 
 
 ## inlets:
 
-* load mod file 
-__type:__ control<br>
+* load mod file<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* left channel and property output
-__type:__ audio<br>
-* right channel
-__type:__ audio<br>
+* left channel and property output<br>
+_type:_ audio
+* right channel<br>
+_type:_ audio
 
 
 

@@ -23,7 +23,7 @@ This format modifiers are supported: %d, %u, %i, %o, %x, %X, %s, %e, %E.
 
 * **FMT**
 format string<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 
 
@@ -33,27 +33,27 @@ __type:__ symbol<br>
 
 * **@format** 
 Get/set format string<br>
-__type:__ list<br>
+_type:_ list<br>
 
 * **@int** 
 Get/set flag for integer mode. If specified all floats are converted to integers. This
 usefull for hex and octal formatting<br>
-__type:__ flag<br>
-__default:__ 0<br>
+_type:_ flag<br>
+_default:_ 0<br>
 
 
 
 ## inlets:
 
-* float format argument 
-__type:__ control<br>
+* float format argument<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* output string
-__type:__ control<br>
+* output string<br>
+_type:_ control
 
 
 

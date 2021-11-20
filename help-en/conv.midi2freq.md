@@ -21,7 +21,7 @@
 
 * **APITCH**
 pitch standard<br>
-__type:__ float<br>
+_type:_ float<br>
 
 
 
@@ -31,30 +31,30 @@ __type:__ float<br>
 
 * **@a** 
 Get/set A pitch frequency<br>
-__type:__ float<br>
-__units:__ Hz<br>
-__range:__ 200..600<br>
-__default:__ 440<br>
+_type:_ float<br>
+_units:_ Hz<br>
+_range:_ 200..600<br>
+_default:_ 440<br>
 
 * **@t** 
 Get/set temperament<br>
-__type:__ symbol<br>
-__enum:__ eq, just, ganassi, meantone, kirnberger3, pythagorean, rameau, valotti, zarlino<br>
-__default:__ eq<br>
+_type:_ symbol<br>
+_enum:_ eq, just, ganassi, meantone, kirnberger3, pythagorean, rameau, valotti, zarlino<br>
+_default:_ eq<br>
 
 
 
 ## inlets:
 
-* input MIDI pitch 
-__type:__ control<br>
+* input MIDI pitch<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* converted value
-__type:__ control<br>
+* converted value<br>
+_type:_ control
 
 
 

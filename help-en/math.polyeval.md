@@ -20,7 +20,7 @@
 
 * **ARGS**
 coefficient list<br>
-__type:__ float<br>
+_type:_ float<br>
 
 
 
@@ -30,23 +30,23 @@ __type:__ float<br>
 
 * **@coeffs** 
 Get/set coefficient list<br>
-__type:__ list<br>
+_type:_ list<br>
 
 
 
 ## inlets:
 
-* evalute polynomial 
-__type:__ control<br>
-* sets polynomial coefficients 
-__type:__ control<br>
+* evalute polynomial<br>
+_type:_ control
+* sets polynomial coefficients<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* calculated value
-__type:__ control<br>
+* calculated value<br>
+_type:_ control
 
 
 

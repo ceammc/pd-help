@@ -20,7 +20,7 @@
 
 * **STR**
 second string initial value<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 
 
@@ -30,23 +30,23 @@ __type:__ symbol<br>
 
 * **@subj** 
 Get/set string to compare<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 
 
 ## inlets:
 
-* do compare 
-__type:__ control<br>
-* set compare subject 
-__type:__ control<br>
+* do compare<br>
+_type:_ control
+* set compare subject<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* outputs 1 if strings are equal, otherwise 0
-__type:__ control<br>
+* outputs 1 if strings are equal, otherwise 0<br>
+_type:_ control
 
 
 

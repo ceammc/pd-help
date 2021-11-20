@@ -24,7 +24,7 @@ Defines named local integer variable, accessed by name and available only within
 
 * **ID**
 object ID<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 
 
@@ -52,22 +52,22 @@ divide by, no output<br>
 
 * **@value** (readonly)
 Get current value<br>
-__type:__ int<br>
-__default:__ 0<br>
+_type:_ int<br>
+_default:_ 0<br>
 
 
 
 ## inlets:
 
-* output value 
-__type:__ control<br>
+* output value<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* integer output
-__type:__ control<br>
+* integer output<br>
+_type:_ control
 
 
 

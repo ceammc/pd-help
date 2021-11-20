@@ -27,15 +27,15 @@ Note: amplitude value 0 is converted to -144 db (24-bit range)
 
 ## inlets:
 
-* input value 
-__type:__ control<br>
+* input value<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* converted value
-__type:__ control<br>
+* converted value<br>
+_type:_ control
 
 
 

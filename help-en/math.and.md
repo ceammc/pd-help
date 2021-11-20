@@ -20,7 +20,7 @@
 
 * **NUM**
 number of arguments<br>
-__type:__ int<br>
+_type:_ int<br>
 
 
 
@@ -36,32 +36,32 @@ resets all input states to false<br>
 
 * **@sync** 
 Get/set if specified - all inlets are &#39;hot&#39;<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 0<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 0<br>
 
 * **@state** (readonly)
 Get internal logic state as list of 1 and 0<br>
-__type:__ list<br>
-__default:__ 0 0 0<br>
+_type:_ list<br>
+_default:_ 0 0 0<br>
 
 
 
 ## inlets:
 
-* 1 or 0 
-__type:__ control<br>
-* 1 or 0 
-__type:__ control<br>
-* 1 or 0 
-__type:__ control<br>
+* 1 or 0<br>
+_type:_ control
+* 1 or 0<br>
+_type:_ control
+* 1 or 0<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* 1 - if all input values are true (1), 0 - otherwise
-__type:__ control<br>
+* 1 - if all input values are true (1), 0 - otherwise<br>
+_type:_ control
 
 
 

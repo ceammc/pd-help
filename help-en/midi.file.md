@@ -42,47 +42,47 @@ removes all midi file content<br>
 
 * **@filename** 
 Get/set current filename<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 * **@tracks** (readonly)
 Get number of tracks<br>
-__type:__ int<br>
-__default:__ 1<br>
+_type:_ int<br>
+_default:_ 1<br>
 
 * **@tempo** (readonly)
 Get midi tempo in ticks per quarter<br>
-__type:__ int<br>
-__default:__ 120<br>
+_type:_ int<br>
+_default:_ 120<br>
 
 * **@length_sec** (readonly)
 Get file length<br>
-__type:__ float<br>
-__units:__ sec<br>
-__default:__ 0<br>
+_type:_ float<br>
+_units:_ sec<br>
+_default:_ 0<br>
 
 * **@length_tick** (readonly)
 Get file length in ticks<br>
-__type:__ int<br>
-__default:__ 0<br>
+_type:_ int<br>
+_default:_ 0<br>
 
 * **@length_beat** (readonly)
 Get file length in quarters<br>
-__type:__ float<br>
-__default:__ 0<br>
+_type:_ float<br>
+_default:_ 0<br>
 
 
 
 ## inlets:
 
-* output MidiFile data type 
-__type:__ control<br>
+* output MidiFile data type<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* MidiFile data type
-__type:__ control<br>
+* MidiFile data type<br>
+_type:_ control
 
 
 

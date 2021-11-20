@@ -20,11 +20,11 @@
 
 * **MAX**
 max queue size<br>
-__type:__ int<br>
+_type:_ int<br>
 
 * **N**
 number of lines<br>
-__type:__ int<br>
+_type:_ int<br>
 
 
 
@@ -34,41 +34,41 @@ __type:__ int<br>
 
 * **@max_size** 
 Get/set max queue size<br>
-__type:__ int<br>
-__range:__ 1..1024<br>
-__default:__ 32<br>
+_type:_ int<br>
+_range:_ 1..1024<br>
+_default:_ 32<br>
 
 * **@auto_pop** 
 Get/set auto pop mode. If true automatically pops oldest elements when queue is full<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 0<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 0<br>
 
 
 
 ## inlets:
 
-* 1st queue input messages 
-__type:__ control<br>
-* ... queue input messages 
-__type:__ control<br>
-* n-th queue input messages 
-__type:__ control<br>
+* 1st queue input messages<br>
+_type:_ control
+* ... queue input messages<br>
+_type:_ control
+* n-th queue input messages<br>
+_type:_ control
 * clear: remove all elements from all queues, output: output all
                 element from all queues, flush: output and clear all element from all queues, bang
-                or pop: output and remove first message in all queues 
-__type:__ control<br>
+                or pop: output and remove first message in all queues<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* 1st queue output
-__type:__ control<br>
-* ... queue output
-__type:__ control<br>
-* n-th queue output
-__type:__ control<br>
+* 1st queue output<br>
+_type:_ control
+* ... queue output<br>
+_type:_ control
+* n-th queue output<br>
+_type:_ control
 
 
 

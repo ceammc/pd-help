@@ -20,7 +20,7 @@
 
 * **F**
 second number<br>
-__type:__ float<br>
+_type:_ float<br>
 
 
 
@@ -30,17 +30,17 @@ __type:__ float<br>
 
 ## inlets:
 
-* set first number, calculate and output result 
-__type:__ control<br>
-* change second number, calculate and output result 
-__type:__ control<br>
+* set first number, calculate and output result<br>
+_type:_ control
+* change second number, calculate and output result<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* result output: 1 if first number is less then second, otherwise 0
-__type:__ control<br>
+* result output: 1 if first number is less then second, otherwise 0<br>
+_type:_ control
 
 
 

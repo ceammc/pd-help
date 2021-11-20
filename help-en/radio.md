@@ -20,7 +20,7 @@
 
 * **N**
 number of outlets<br>
-__type:__ int<br>
+_type:_ int<br>
 
 
 
@@ -36,25 +36,25 @@ output zeroes to all outlets<br>
 
 * **@n** 
 Get/set number of outlets<br>
-__type:__ int<br>
-__range:__ 2..24<br>
-__default:__ 2<br>
+_type:_ int<br>
+_range:_ 2..24<br>
+_default:_ 2<br>
 
 
 
 ## inlets:
 
-* index 
-__type:__ control<br>
+* index<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* first output
-__type:__ control<br>
-* first output
-__type:__ control<br>
+* first output<br>
+_type:_ control
+* first output<br>
+_type:_ control
 
 
 

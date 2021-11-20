@@ -28,27 +28,27 @@ Note: by default filesize request performed asynchronously, so there&#39;s a (us
 
 * **@async** 
 Get/set async mode<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 1<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 1<br>
 
 * **@sync** 
 Get/set alias for @async 0<br>
-__type:__ alias<br>
+_type:_ alias<br>
 
 
 
 ## inlets:
 
-* file path 
-__type:__ control<br>
+* file path<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* float: size in bytes
-__type:__ control<br>
+* float: size in bytes<br>
+_type:_ control
 
 
 

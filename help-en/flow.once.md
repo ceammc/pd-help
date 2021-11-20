@@ -20,7 +20,7 @@
 
 * **OPENED**
 set init state<br>
-__type:__ int<br>
+_type:_ int<br>
 
 
 
@@ -30,17 +30,17 @@ __type:__ int<br>
 
 ## inlets:
 
-* input flow 
-__type:__ control<br>
-* reset to opened state 
-__type:__ control<br>
+* input flow<br>
+_type:_ control
+* reset to opened state<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* output flow
-__type:__ control<br>
+* output flow<br>
+_type:_ control
 
 
 

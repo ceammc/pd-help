@@ -33,28 +33,28 @@ exit PureData<br>
 
 * **@delay** 
 Get/set exit PureData after specified delay time<br>
-__type:__ float<br>
-__units:__ ms<br>
-__min value:__ 0<br>
-__default:__ 0<br>
+_type:_ float<br>
+_units:_ ms<br>
+_min value:_ 0<br>
+_default:_ 0<br>
 
 * **@rc** 
 Get/set exit code<br>
-__type:__ int<br>
-__default:__ 0<br>
+_type:_ int<br>
+_default:_ 0<br>
 
 * **@auto** 
 Get/set close automatically, without incoming call<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 0<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 0<br>
 
 
 
 ## inlets:
 
-* control input 
-__type:__ control<br>
+* control input<br>
+_type:_ control
 
 
 

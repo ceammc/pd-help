@@ -25,15 +25,15 @@ y(n+1) = x(n)
 
 * **SEED**
 seed value, default 0.82<br>
-__type:__ float<br>
+_type:_ float<br>
 
 * **X**
 initial x value, default 0.7<br>
-__type:__ float<br>
+_type:_ float<br>
 
 * **Y**
 initial y value, default 1.2<br>
-__type:__ float<br>
+_type:_ float<br>
 
 
 
@@ -61,17 +61,17 @@ reset seed, x and y values to defaults<br>
 
 ## inlets:
 
-* outputs current x/y values and generates new one 
-__type:__ control<br>
+* outputs current x/y values and generates new one<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* outputs x-value
-__type:__ control<br>
-* outputs y-value
-__type:__ control<br>
+* outputs x-value<br>
+_type:_ control
+* outputs y-value<br>
+_type:_ control
 
 
 

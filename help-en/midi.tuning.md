@@ -22,7 +22,7 @@
 if symbol - set named temperament deviations, valid names are: &#34;eq&#34;, &#34;just&#34;,
 &#34;ganassi&#34;, &#34;meantone&#34;, &#34;kirnberger3&#34;, &#34;pythagorean&#34;, &#34;rameau&#34;, &#34;valotti&#34; or
 &#34;zarlino&#34;. If list: set deviation in cents per pitch<br>
-__type:__ list<br>
+_type:_ list<br>
 
 
 
@@ -32,28 +32,28 @@ __type:__ list<br>
 
 * **@base** 
 Get/set base pitch (C: 0, A: 9, etc..)<br>
-__type:__ int<br>
-__range:__ 0..11<br>
-__default:__ 9<br>
+_type:_ int<br>
+_range:_ 0..11<br>
+_default:_ 9<br>
 
 * **@dev** 
 Get/set list of deviations in cents<br>
-__type:__ list<br>
-__default:__ 0 0 0 0 0 0 0 0 0 0 0 0<br>
+_type:_ list<br>
+_default:_ 0 0 0 0 0 0 0 0 0 0 0 0<br>
 
 
 
 ## inlets:
 
-* NOTE VELOCITY pair expected 
-__type:__ control<br>
+* NOTE VELOCITY pair expected<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* note velocity pair
-__type:__ control<br>
+* note velocity pair<br>
+_type:_ control
 
 
 

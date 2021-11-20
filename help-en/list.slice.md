@@ -20,15 +20,15 @@
 
 * **FROM**
 @from property<br>
-__type:__ int<br>
+_type:_ int<br>
 
 * **TO**
 @to property<br>
-__type:__ int<br>
+_type:_ int<br>
 
 * **STEP**
 @step property<br>
-__type:__ int<br>
+_type:_ int<br>
 
 
 
@@ -39,33 +39,33 @@ __type:__ int<br>
 * **@from** 
 Get/set start slice position. You can use negative index to address elements from the
 end<br>
-__type:__ int<br>
-__default:__ 0<br>
+_type:_ int<br>
+_default:_ 0<br>
 
 * **@to** 
 Get/set end slice position. You can use negative index to address elements from the end<br>
-__type:__ int<br>
-__default:__ -1<br>
+_type:_ int<br>
+_default:_ -1<br>
 
 * **@step** 
 Get/set slice step<br>
-__type:__ int<br>
-__min value:__ 0<br>
-__default:__ 1<br>
+_type:_ int<br>
+_min value:_ 0<br>
+_default:_ 1<br>
 
 
 
 ## inlets:
 
-* input list 
-__type:__ control<br>
+* input list<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* output sublist
-__type:__ control<br>
+* output sublist<br>
+_type:_ control
 
 
 

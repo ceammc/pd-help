@@ -24,27 +24,27 @@
 
 * **@active** 
 Get/set on/off dsp processing<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 1<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 1<br>
 
 
 
 ## inlets:
 
-* input signal 
-__type:__ audio<br>
-* frequency shift in Hertz 
-__type:__ audio<br>
+* input signal<br>
+_type:_ audio
+* frequency shift in Hertz<br>
+_type:_ audio
 
 
 
 ## outlets:
 
-* output signal (freq + shift)
-__type:__ audio<br>
-* output signal (freq - shift)
-__type:__ audio<br>
+* output signal (freq + shift)<br>
+_type:_ audio
+* output signal (freq - shift)<br>
+_type:_ audio
 
 
 

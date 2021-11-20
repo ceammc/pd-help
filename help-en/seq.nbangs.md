@@ -20,12 +20,12 @@
 
 * **N**
 number of bangs<br>
-__type:__ int<br>
+_type:_ int<br>
 
 * **T**
 time interval between bangs<br>
-__type:__ float<br>
-__units:__ ms<br>
+_type:_ float<br>
+_units:_ ms<br>
 
 
 
@@ -57,41 +57,41 @@ manually output current sequence element and move to next<br>
 * **@dur** 
 Get/set sequence duration. Changing this property also changes @t interval between
 bangs.<br>
-__type:__ float<br>
-__min value:__ 0<br>
-__default:__ 0<br>
+_type:_ float<br>
+_min value:_ 0<br>
+_default:_ 0<br>
 
 * **@n** 
 Get/set number of bangs<br>
-__type:__ int<br>
-__min value:__ 0<br>
-__default:__ 0<br>
+_type:_ int<br>
+_min value:_ 0<br>
+_default:_ 0<br>
 
 * **@t** 
 Get/set time interval between bangs. You could also use units values like 100ms or
 120bpm.<br>
-__type:__ float<br>
-__units:__ ms<br>
-__range:__ 1..20000<br>
-__default:__ 0<br>
+_type:_ float<br>
+_units:_ ms<br>
+_range:_ 1..20000<br>
+_default:_ 0<br>
 
 
 
 ## inlets:
 
-* reset counter and starts output 
-__type:__ control<br>
-* set number of bangs 
-__type:__ control<br>
+* reset counter and starts output<br>
+_type:_ control
+* set number of bangs<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* bang output
-__type:__ control<br>
-* [i IDX N( - bang index or [done( when done
-__type:__ control<br>
+* bang output<br>
+_type:_ control
+* [i IDX N( - bang index or [done( when done<br>
+_type:_ control
 
 
 

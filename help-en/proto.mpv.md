@@ -23,7 +23,7 @@ MPV video player control
 
 * **IPC**
 path to IPC local socket<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 
 
@@ -108,21 +108,21 @@ change the playback position. By default, seeks by a relative amount of seconds<
 
 * **@ipc** 
 Get/set path to IPC local socket<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 
 
 ## inlets:
 
-* commands 
-__type:__ control<br>
+* commands<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* mpv output
-__type:__ control<br>
+* mpv output<br>
+_type:_ control
 
 
 

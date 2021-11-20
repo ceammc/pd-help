@@ -28,15 +28,15 @@ These conversions are purely lexical. They do not check that the paths exist, do
 
 ## inlets:
 
-* file path 
-__type:__ control<br>
+* file path<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* symbol or data:string: normalized path
-__type:__ control<br>
+* symbol or data:string: normalized path<br>
+_type:_ control
 
 
 

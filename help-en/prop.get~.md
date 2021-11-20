@@ -28,21 +28,21 @@ Extracts properties from sound stream with matching. Non property values are
 
 ## inlets:
 
-* input values and sound 
-__type:__ audio<br>
+* input values and sound<br>
+_type:_ audio
 
 
 
 ## outlets:
 
-* passed values and sound
-__type:__ audio<br>
-* first matched property output
-__type:__ control<br>
-* others matched property output
-__type:__ control<br>
-* unmatched property output
-__type:__ control<br>
+* passed values and sound<br>
+_type:_ audio
+* first matched property output<br>
+_type:_ control
+* others matched property output<br>
+_type:_ control
+* unmatched property output<br>
+_type:_ control
 
 
 

@@ -24,19 +24,17 @@
 
 ## inlets:
 
-* outputs memory use 
-__type:__ control<br>
+* outputs memory use<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* current physical memory use measured in bytes, or zero if the value cannot be
-            determined on this OS.
-__type:__ control<br>
-* peak (maximum so far) physical memory use measured in bytes, or zero if the
-            value cannot be determined on this OS.
-__type:__ control<br>
+* current physical memory use measured in bytes, or zero if the value cannot be determined on this OS.<br>
+_type:_ control
+* peak (maximum so far) physical memory use measured in bytes, or zero if the value cannot be determined on this OS.<br>
+_type:_ control
 
 
 

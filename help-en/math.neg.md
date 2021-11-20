@@ -27,15 +27,15 @@ Returns value with opposite sign
 
 ## inlets:
 
-* input value 
-__type:__ control<br>
+* input value<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* result
-__type:__ control<br>
+* result<br>
+_type:_ control
 
 
 

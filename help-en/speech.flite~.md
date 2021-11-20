@@ -33,36 +33,36 @@ stops speech and clear speech queue<br>
 
 * **@voice** 
 Get/set default voice<br>
-__type:__ symbol<br>
-__enum:__ kal16, slt, rms, awb<br>
-__default:__ kal16<br>
+_type:_ symbol<br>
+_enum:_ kal16, slt, rms, awb<br>
+_default:_ kal16<br>
 
 * **@speed** 
 Get/set speaking speed<br>
-__type:__ float<br>
-__range:__ 0.5..4<br>
-__default:__ 1<br>
+_type:_ float<br>
+_range:_ 0.5..4<br>
+_default:_ 1<br>
 
 * **@pitch** 
 Get/set voice pitch (-1 - default value)<br>
-__type:__ float<br>
-__default:__ -1<br>
+_type:_ float<br>
+_default:_ -1<br>
 
 
 
 ## inlets:
 
-* speak number 
-__type:__ control<br>
+* speak number<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* output signal
-__type:__ audio<br>
-* float: number of sentences left to speak
-__type:__ control<br>
+* output signal<br>
+_type:_ audio
+* float: number of sentences left to speak<br>
+_type:_ control
 
 
 

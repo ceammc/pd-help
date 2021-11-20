@@ -32,15 +32,15 @@ Basic syntax:
 
 ## inlets:
 
-* note list 
-__type:__ control<br>
+* note list<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* MIDI values
-__type:__ control<br>
+* MIDI values<br>
+_type:_ control
 
 
 

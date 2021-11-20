@@ -24,7 +24,7 @@ hoa.in defines a message inlet for a patcher loaded by a hoa.process~
 
 * **INDEX**
 shortcut for @index property<br>
-__type:__ int<br>
+_type:_ int<br>
 
 
 
@@ -34,9 +34,9 @@ __type:__ int<br>
 
 * **@index** 
 Get/set Defines an inlet index<br>
-__type:__ int<br>
-__min value:__ 1<br>
-__default:__ 1<br>
+_type:_ int<br>
+_min value:_ 1<br>
+_default:_ 1<br>
 
 
 
@@ -44,8 +44,8 @@ __default:__ 1<br>
 
 ## outlets:
 
-* output messages received from a hoa.process~ input.
-__type:__ control<br>
+* output messages received from a hoa.process~ input.<br>
+_type:_ control
 
 
 

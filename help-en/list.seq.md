@@ -20,15 +20,15 @@
 
 * **FROM**
 start value<br>
-__type:__ float<br>
+_type:_ float<br>
 
 * **TO**
 end value<br>
-__type:__ float<br>
+_type:_ float<br>
 
 * **STEP**
 sequence step<br>
-__type:__ float<br>
+_type:_ float<br>
 
 
 
@@ -38,37 +38,37 @@ __type:__ float<br>
 
 * **@from** 
 Get/set start value<br>
-__type:__ float<br>
-__default:__ 0<br>
+_type:_ float<br>
+_default:_ 0<br>
 
 * **@to** 
 Get/set end value<br>
-__type:__ float<br>
-__default:__ 1<br>
+_type:_ float<br>
+_default:_ 1<br>
 
 * **@step** 
 Get/set sequence step (always positive)<br>
-__type:__ float<br>
-__default:__ 1<br>
+_type:_ float<br>
+_default:_ 1<br>
 
 * **@closed** 
 Get/set generate closed range sequence<br>
-__type:__ flag<br>
-__default:__ 0<br>
+_type:_ flag<br>
+_default:_ 0<br>
 
 
 
 ## inlets:
 
-* outputs generated list 
-__type:__ control<br>
+* outputs generated list<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* generated sequence
-__type:__ control<br>
+* generated sequence<br>
+_type:_ control
 
 
 

@@ -326,31 +326,31 @@ display texts<br>
 
 * **@n** (readonly)
 Get number of scenes<br>
-__type:__ int<br>
-__range:__ 1..32<br>
-__default:__ 2<br>
+_type:_ int<br>
+_range:_ 1..32<br>
+_default:_ 2<br>
 
 * **@scene** (readonly)
 Get current scene<br>
-__type:__ int<br>
-__min value:__ 0<br>
-__default:__ 0<br>
+_type:_ int<br>
+_min value:_ 0<br>
+_default:_ 0<br>
 
 
 
 ## inlets:
 
-* raw midi input 
-__type:__ control<br>
+* raw midi input<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* raw midi output to behringer device
-__type:__ control<br>
-* control messages from device
-__type:__ control<br>
+* raw midi output to behringer device<br>
+_type:_ control
+* control messages from device<br>
+_type:_ control
 
 
 

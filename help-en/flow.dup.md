@@ -23,7 +23,7 @@ Output incoming message specified number of times
 
 * **N**
 number of repeats<br>
-__type:__ int<br>
+_type:_ int<br>
 
 
 
@@ -33,25 +33,25 @@ __type:__ int<br>
 
 * **@n** 
 Get/set number of repeats<br>
-__type:__ int<br>
-__min value:__ 0<br>
-__default:__ 2<br>
+_type:_ int<br>
+_min value:_ 0<br>
+_default:_ 2<br>
 
 
 
 ## inlets:
 
-* incoming message 
-__type:__ control<br>
-* set number of repeats 
-__type:__ control<br>
+* incoming message<br>
+_type:_ control
+* set number of repeats<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* output
-__type:__ control<br>
+* output<br>
+_type:_ control
 
 
 

@@ -24,7 +24,7 @@ Defines named local float variable, accessed by name and available only within i
 
 * **ID**
 object ID<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 
 
@@ -52,22 +52,22 @@ divide by, no output<br>
 
 * **@value** (readonly)
 Get current value<br>
-__type:__ float<br>
-__default:__ 0<br>
+_type:_ float<br>
+_default:_ 0<br>
 
 
 
 ## inlets:
 
-* output value 
-__type:__ control<br>
+* output value<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* float output
-__type:__ control<br>
+* float output<br>
+_type:_ control
 
 
 

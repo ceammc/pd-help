@@ -20,7 +20,7 @@
 
 * **INDEXES**
 list of indexes to remove. Negative indexes are also supported<br>
-__type:__ list<br>
+_type:_ list<br>
 
 
 
@@ -30,23 +30,23 @@ __type:__ list<br>
 
 * **@indexes** 
 Get/set indexes to remove<br>
-__type:__ list<br>
+_type:_ list<br>
 
 
 
 ## inlets:
 
-* input list 
-__type:__ control<br>
-* set remove indexes 
-__type:__ control<br>
+* input list<br>
+_type:_ control
+* set remove indexes<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* output list
-__type:__ control<br>
+* output list<br>
+_type:_ control
 
 
 

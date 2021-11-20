@@ -24,31 +24,31 @@
 
 * **@type** 
 Get/set result IP type<br>
-__type:__ symbol<br>
-__enum:__ ipv4, ipv6<br>
-__default:__ ipv4<br>
+_type:_ symbol<br>
+_enum:_ ipv4, ipv6<br>
+_default:_ ipv4<br>
 
 * **@ipv4** 
 Get/set shortcut for @type ipv4<br>
-__type:__ alias<br>
+_type:_ alias<br>
 
 * **@ipv6** 
 Get/set shortcut for @type ipv6<br>
-__type:__ alias<br>
+_type:_ alias<br>
 
 
 
 ## inlets:
 
-* DNS name 
-__type:__ control<br>
+* DNS name<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* list of resolved IP&#39;s
-__type:__ control<br>
+* list of resolved IP&#39;s<br>
+_type:_ control
 
 
 

@@ -27,7 +27,7 @@ Structure of a feedforward comb filter may be described by the following
 
 * **a**
 scaling factor of delayed signal<br>
-__type:__ float<br>
+_type:_ float<br>
 
 
 
@@ -43,31 +43,31 @@ reset filter state<br>
 
 * **@a** 
 Get/set scaling factor of delayed signal<br>
-__type:__ float<br>
-__range:__ -1..1<br>
-__default:__ 1<br>
+_type:_ float<br>
+_range:_ -1..1<br>
+_default:_ 1<br>
 
 * **@active** 
 Get/set on/off dsp processing<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 1<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 1<br>
 
 
 
 ## inlets:
 
-* input signal 
-__type:__ audio<br>
-* filter notch frequency 
-__type:__ audio<br>
+* input signal<br>
+_type:_ audio
+* filter notch frequency<br>
+_type:_ audio
 
 
 
 ## outlets:
 
-* filtered signal
-__type:__ audio<br>
+* filtered signal<br>
+_type:_ audio
 
 
 

@@ -29,11 +29,11 @@ NB: This is theoretical, the best choice is to trust your ears.
 
 * **ORDER**
 the order of decomposition<br>
-__type:__ int<br>
+_type:_ int<br>
 
 * **MODE**
 optimization mode<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 
 
@@ -43,49 +43,49 @@ __type:__ symbol<br>
 
 * **@order** (readonly)
 Get the order of decomposition<br>
-__type:__ int<br>
-__range:__ 1..63<br>
-__default:__ 1<br>
+_type:_ int<br>
+_range:_ 1..63<br>
+_default:_ 1<br>
 
 * **@mode** 
 Get/set optimization mode<br>
-__type:__ symbol<br>
-__enum:__ basic, maxre, inphase<br>
-__default:__ basic<br>
+_type:_ symbol<br>
+_enum:_ basic, maxre, inphase<br>
+_default:_ basic<br>
 
 * **@basic** 
 Get/set alias for @mode basic (no optimization)<br>
-__type:__ alias<br>
+_type:_ alias<br>
 
 * **@maxre** 
 Get/set alias for @mode maxre.<br>
-__type:__ alias<br>
+_type:_ alias<br>
 
 * **@inphase** 
 Get/set alias for @mode inphase.<br>
-__type:__ alias<br>
+_type:_ alias<br>
 
 
 
 ## inlets:
 
-* first input harmonic 
-__type:__ audio<br>
-* ... input harmonic 
-__type:__ audio<br>
-* n-th input harmonic 
-__type:__ audio<br>
+* first input harmonic<br>
+_type:_ audio
+* ... input harmonic<br>
+_type:_ audio
+* n-th input harmonic<br>
+_type:_ audio
 
 
 
 ## outlets:
 
-* first harmonic output
-__type:__ audio<br>
-* ... harmonic output
-__type:__ audio<br>
-* n-th harmonic output
-__type:__ audio<br>
+* first harmonic output<br>
+_type:_ audio
+* ... harmonic output<br>
+_type:_ audio
+* n-th harmonic output<br>
+_type:_ audio
 
 
 

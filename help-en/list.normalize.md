@@ -29,31 +29,31 @@ There are two modes of normalization:
 
 * **@by** 
 Get/set normalization mode<br>
-__type:__ symbol<br>
-__enum:__ sum, range<br>
-__default:__ sum<br>
+_type:_ symbol<br>
+_enum:_ sum, range<br>
+_default:_ sum<br>
 
 * **@sum** 
 Get/set alias to @by sum<br>
-__type:__ alias<br>
+_type:_ alias<br>
 
 * **@range** 
 Get/set alias to @by range<br>
-__type:__ alias<br>
+_type:_ alias<br>
 
 
 
 ## inlets:
 
-* input list of floats. Non float values are rejected 
-__type:__ control<br>
+* input list of floats. Non float values are rejected<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* output list
-__type:__ control<br>
+* output list<br>
+_type:_ control
 
 
 

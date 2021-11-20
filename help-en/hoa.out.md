@@ -24,7 +24,7 @@ hoa.out defines a message outlet for a patcher loaded by a hoa.process~
 
 * **INDEX**
 outlet index<br>
-__type:__ int<br>
+_type:_ int<br>
 
 
 
@@ -34,17 +34,16 @@ __type:__ int<br>
 
 * **@index** 
 Get/set outlet index<br>
-__type:__ int<br>
-__min value:__ 1<br>
-__default:__ 1<br>
+_type:_ int<br>
+_min value:_ 1<br>
+_default:_ 1<br>
 
 
 
 ## inlets:
 
-* output bang message in the corresponding hoa.process~ object&#39;s
-                message outlet 
-__type:__ control<br>
+* output bang message in the corresponding hoa.process~ object&#39;s message outlet<br>
+_type:_ control
 
 
 

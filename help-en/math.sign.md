@@ -27,15 +27,15 @@ Returns *-1* if x &lt; 0, *0* if x == 0 and *1* if x &gt; 0.
 
 ## inlets:
 
-* input value 
-__type:__ control<br>
+* input value<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* result value
-__type:__ control<br>
+* result value<br>
+_type:_ control
 
 
 

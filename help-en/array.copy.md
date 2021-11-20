@@ -95,23 +95,23 @@ copy array content from specified range and to specified destination position<br
 
 * **@resize** 
 Get/set resize of destination array on overflow<br>
-__type:__ int<br>
-__enum:__ 1, 0<br>
-__default:__ 0<br>
+_type:_ int<br>
+_enum:_ 1, 0<br>
+_default:_ 0<br>
 
 
 
 ## inlets:
 
-* FROM, TO - copy data from one array to another 
-__type:__ control<br>
+* FROM, TO - copy data from one array to another<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* bang on finish
-__type:__ control<br>
+* bang on finish<br>
+_type:_ control
 
 
 

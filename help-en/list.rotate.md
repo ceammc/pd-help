@@ -24,7 +24,7 @@
 
 * **STEP**
 rotate step. Negative step changes rotation direction<br>
-__type:__ int<br>
+_type:_ int<br>
 
 
 
@@ -34,24 +34,24 @@ __type:__ int<br>
 
 * **@step** 
 Get/set rotate step. Negative value change rotation direction to opposite<br>
-__type:__ int<br>
-__default:__ 1<br>
+_type:_ int<br>
+_default:_ 1<br>
 
 
 
 ## inlets:
 
-* input list 
-__type:__ control<br>
-* rotation step 
-__type:__ control<br>
+* input list<br>
+_type:_ control
+* rotation step<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* rotated list
-__type:__ control<br>
+* rotated list<br>
+_type:_ control
 
 
 

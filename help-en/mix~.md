@@ -20,7 +20,7 @@
 
 * **N**
 number of inputs<br>
-__type:__ int<br>
+_type:_ int<br>
 
 
 
@@ -54,51 +54,51 @@ solo (mute all others that not solo) specified channel<br>
 
 * **@xfade_time** 
 Get/set smooth time<br>
-__type:__ float<br>
-__units:__ ms<br>
-__min value:__ 1<br>
-__default:__ 20<br>
+_type:_ float<br>
+_units:_ ms<br>
+_min value:_ 1<br>
+_default:_ 20<br>
 
 * **@value** 
 Get/set linear amplitude values<br>
-__type:__ list<br>
-__min value:__ 0<br>
-__default:__ 0 0<br>
+_type:_ list<br>
+_min value:_ 0<br>
+_default:_ 0 0<br>
 
 * **@db** 
 Get/set amplitude values in decibels<br>
-__type:__ list<br>
-__units:__ db<br>
-__min value:__ -144<br>
-__default:__ -144 -144<br>
+_type:_ list<br>
+_units:_ db<br>
+_min value:_ -144<br>
+_default:_ -144 -144<br>
 
 * **@mute** 
 Get/set mute channel list, allowed values: 0, 1<br>
-__type:__ list<br>
-__default:__ 0 0<br>
+_type:_ list<br>
+_default:_ 0 0<br>
 
 * **@solo** 
 Get/set solo channel list, allowed values: 0, 1<br>
-__type:__ list<br>
-__default:__ 0 0<br>
+_type:_ list<br>
+_default:_ 0 0<br>
 
 
 
 ## inlets:
 
-* input signal 
-__type:__ audio<br>
-* input signal 
-__type:__ audio<br>
-* input signal 
-__type:__ audio<br>
+* input signal<br>
+_type:_ audio
+* input signal<br>
+_type:_ audio
+* input signal<br>
+_type:_ audio
 
 
 
 ## outlets:
 
-* output mixed signal
-__type:__ audio<br>
+* output mixed signal<br>
+_type:_ audio
 
 
 

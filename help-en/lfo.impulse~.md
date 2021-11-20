@@ -20,8 +20,8 @@
 
 * **freq**
 frequency<br>
-__type:__ float<br>
-__units:__ Hz<br>
+_type:_ float<br>
+_units:_ Hz<br>
 
 
 
@@ -31,23 +31,23 @@ __units:__ Hz<br>
 
 * **@active** 
 Get/set on/off dsp processing<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 1<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 1<br>
 
 
 
 ## inlets:
 
-* frequency in Hz 
-__type:__ audio<br>
+* frequency in Hz<br>
+_type:_ audio
 
 
 
 ## outlets:
 
-* output signal
-__type:__ audio<br>
+* output signal<br>
+_type:_ audio
 
 
 

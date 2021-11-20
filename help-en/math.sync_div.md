@@ -23,7 +23,7 @@ on division by zero outputs nothing: just put error message into console
 
 * **DIV**
 divisor<br>
-__type:__ float<br>
+_type:_ float<br>
 
 
 
@@ -33,24 +33,24 @@ __type:__ float<br>
 
 * **@int** 
 Get/set operate on integers only<br>
-__type:__ flag<br>
-__default:__ 0<br>
+_type:_ flag<br>
+_default:_ 0<br>
 
 
 
 ## inlets:
 
-* set divident, calculate and output result 
-__type:__ control<br>
-* change divisor, calculate and output result 
-__type:__ control<br>
+* set divident, calculate and output result<br>
+_type:_ control
+* change divisor, calculate and output result<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* division result
-__type:__ control<br>
+* division result<br>
+_type:_ control
 
 
 

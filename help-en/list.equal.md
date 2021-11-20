@@ -20,7 +20,7 @@
 
 * **LIST**
 initial value<br>
-__type:__ list<br>
+_type:_ list<br>
 
 
 
@@ -36,23 +36,23 @@ dumps object state to PD console window<br>
 
 * **@pattern** 
 Get/set current pattern<br>
-__type:__ list<br>
+_type:_ list<br>
 
 
 
 ## inlets:
 
-* First list 
-__type:__ control<br>
-* Second list 
-__type:__ control<br>
+* First list<br>
+_type:_ control
+* Second list<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* &#34;1&#34; if lists are equal, &#34;0&#34; otherwise
-__type:__ control<br>
+* &#34;1&#34; if lists are equal, &#34;0&#34; otherwise<br>
+_type:_ control
 
 
 

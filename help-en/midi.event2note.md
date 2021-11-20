@@ -24,19 +24,19 @@
 
 ## inlets:
 
-* MidiEvent message 
-__type:__ control<br>
+* MidiEvent message<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* output pair: note, velocity
-__type:__ control<br>
-* note duration in milliseconds
-__type:__ control<br>
-* note track
-__type:__ control<br>
+* output pair: note, velocity<br>
+_type:_ control
+* note duration in milliseconds<br>
+_type:_ control
+* note track<br>
+_type:_ control
 
 
 

@@ -28,17 +28,17 @@ If several items are specified returns list of positions.
 
 ## inlets:
 
-* input list 
-__type:__ control<br>
-* set searched items 
-__type:__ control<br>
+* input list<br>
+_type:_ control
+* set searched items<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* position of search item or list of such positions
-__type:__ control<br>
+* position of search item or list of such positions<br>
+_type:_ control
 
 
 

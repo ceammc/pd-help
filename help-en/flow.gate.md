@@ -24,7 +24,7 @@ Note: property setting can be done only via [prop.set] object, since object
 
 * **PASS**
 init gate state. 1 means open, 0 - closed. By default gate is closed<br>
-__type:__ int<br>
+_type:_ int<br>
 
 
 
@@ -34,25 +34,25 @@ __type:__ int<br>
 
 * **@state** 
 Get/set gate state. 1 means open, 0 - closed<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 0<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 0<br>
 
 
 
 ## inlets:
 
-* input flow 
-__type:__ control<br>
-* gate control inlet. Sending *1* opens gate, *0* - closes 
-__type:__ control<br>
+* input flow<br>
+_type:_ control
+* gate control inlet. Sending *1* opens gate, *0* - closes<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* output flow
-__type:__ control<br>
+* output flow<br>
+_type:_ control
 
 
 

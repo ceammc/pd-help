@@ -114,107 +114,107 @@ set UI element position<br>
 
 * **@min** 
 Get/set minimum value<br>
-__type:__ float<br>
-__default:__ -inf<br>
+_type:_ float<br>
+_default:_ -inf<br>
 
 * **@max** 
 Get/set maximum value<br>
-__type:__ float<br>
-__default:__ +inf<br>
+_type:_ float<br>
+_default:_ +inf<br>
 
 * **@value** 
 Get/set widget value<br>
-__type:__ float<br>
-__default:__ 0<br>
+_type:_ float<br>
+_default:_ 0<br>
 
 * **@digits** 
 Get/set number of digits. If -1 - no fixed digits used<br>
-__type:__ int<br>
-__range:__ -1..9<br>
-__default:__ -1<br>
+_type:_ int<br>
+_range:_ -1..9<br>
+_default:_ -1<br>
 
 * **@presetname** 
 Get/set preset name for using with [ui.preset]<br>
-__type:__ symbol<br>
-__default:__ (null)<br>
+_type:_ symbol<br>
+_default:_ (null)<br>
 
 * **@send** 
 Get/set send destination<br>
-__type:__ symbol<br>
-__default:__ (null)<br>
+_type:_ symbol<br>
+_default:_ (null)<br>
 
 * **@receive** 
 Get/set receive source<br>
-__type:__ symbol<br>
-__default:__ (null)<br>
+_type:_ symbol<br>
+_default:_ (null)<br>
 
 * **@size** 
 Get/set element size (width, height pair)<br>
-__type:__ list<br>
-__default:__ 53 15<br>
+_type:_ list<br>
+_default:_ 53 15<br>
 
 * **@pinned** 
 Get/set pin mode. if 1 - put element to the lowest level<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 0<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 0<br>
 
 * **@active_color** 
 Get/set active color (list of red, green, blue values in 0-1 range)<br>
-__type:__ list<br>
-__default:__ 0 0.75 1 1<br>
+_type:_ list<br>
+_default:_ 0 0.75 1 1<br>
 
 * **@text_color** 
 Get/set text color (list of red, green, blue values in 0-1 range)<br>
-__type:__ list<br>
-__default:__ 0 0 0 1<br>
+_type:_ list<br>
+_default:_ 0 0 0 1<br>
 
 * **@background_color** 
 Get/set element background color (list of red, green, blue values in 0-1 range)<br>
-__type:__ list<br>
-__default:__ 0.93 0.93 0.93 1<br>
+_type:_ list<br>
+_default:_ 0.93 0.93 0.93 1<br>
 
 * **@border_color** 
 Get/set border color (list of red, green, blue values in 0-1 range)<br>
-__type:__ list<br>
-__default:__ 0.6 0.6 0.6 1<br>
+_type:_ list<br>
+_default:_ 0.6 0.6 0.6 1<br>
 
 * **@fontsize** 
 Get/set fontsize<br>
-__type:__ int<br>
-__range:__ 4..11<br>
-__default:__ 11<br>
+_type:_ int<br>
+_range:_ 4..11<br>
+_default:_ 11<br>
 
 * **@fontname** 
 Get/set fontname<br>
-__type:__ symbol<br>
-__default:__ Helvetica<br>
+_type:_ symbol<br>
+_default:_ Helvetica<br>
 
 * **@fontweight** 
 Get/set font weight<br>
-__type:__ symbol<br>
-__enum:__ normal, bold<br>
-__default:__ normal<br>
+_type:_ symbol<br>
+_enum:_ normal, bold<br>
+_default:_ normal<br>
 
 * **@fontslant** 
 Get/set font slant<br>
-__type:__ symbol<br>
-__enum:__ roman, italic<br>
-__default:__ roman<br>
+_type:_ symbol<br>
+_enum:_ roman, italic<br>
+_default:_ roman<br>
 
 
 
 ## inlets:
 
-* outputs current value 
-__type:__ control<br>
+* outputs current value<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* number value
-__type:__ control<br>
+* number value<br>
+_type:_ control
 
 
 

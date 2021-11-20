@@ -20,7 +20,7 @@
 
 * **N**
 number of signals inputs<br>
-__type:__ int<br>
+_type:_ int<br>
 
 
 
@@ -30,26 +30,26 @@ __type:__ int<br>
 
 * **@value** 
 Get/set gain coefficients per each output<br>
-__type:__ list<br>
-__default:__ 1 0<br>
+_type:_ list<br>
+_default:_ 1 0<br>
 
 
 
 ## inlets:
 
-* first input signal 
-__type:__ audio<br>
-* last input signal 
-__type:__ audio<br>
-* multiplexer control 
-__type:__ control<br>
+* first input signal<br>
+_type:_ audio
+* last input signal<br>
+_type:_ audio
+* multiplexer control<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* output
-__type:__ audio<br>
+* output<br>
+_type:_ audio
 
 
 

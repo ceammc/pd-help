@@ -32,15 +32,15 @@ etc...
 
 ## inlets:
 
-* input list 
-__type:__ control<br>
+* input list<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* result list
-__type:__ control<br>
+* result list<br>
+_type:_ control
 
 
 

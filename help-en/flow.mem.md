@@ -20,7 +20,7 @@
 
 * **N**
 number of memory cells<br>
-__type:__ int<br>
+_type:_ int<br>
 
 
 
@@ -30,15 +30,15 @@ __type:__ int<br>
 
 * **@n** 
 Get/set number of memory cells<br>
-__type:__ int<br>
-__range:__ 1..32<br>
-__default:__ 1<br>
+_type:_ int<br>
+_range:_ 1..32<br>
+_default:_ 1<br>
 
 * **@free** 
 Get/set clear cell mode. If on - clear cell counter after zero was reached.<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 1<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 1<br>
 
 * **@ttl** 
 Get/set time to live counter. Each time you set new value its memory cell counter is
@@ -46,33 +46,33 @@ set to this. Each time memory cell is outputted individual memory cell ttl
 counter (not this property!) is decremented until zero reached. After that if
 @free property is on memory cell is cleared. If this property equals zero
 memory cell never expires.<br>
-__type:__ int<br>
-__range:__ 0..1024<br>
-__default:__ 0<br>
+_type:_ int<br>
+_range:_ 0..1024<br>
+_default:_ 0<br>
 
 
 
 ## inlets:
 
-* input: store in 1st memory cell 
-__type:__ control<br>
-* input: store in ... memory cell 
-__type:__ control<br>
-* input: store in n-th memory cell 
-__type:__ control<br>
-* output all cells 
-__type:__ control<br>
+* input: store in 1st memory cell<br>
+_type:_ control
+* input: store in ... memory cell<br>
+_type:_ control
+* input: store in n-th memory cell<br>
+_type:_ control
+* output all cells<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* output 1st cell
-__type:__ control<br>
-* output ... cell
-__type:__ control<br>
-* output n-th cell
-__type:__ control<br>
+* output 1st cell<br>
+_type:_ control
+* output ... cell<br>
+_type:_ control
+* output n-th cell<br>
+_type:_ control
 
 
 

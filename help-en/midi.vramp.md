@@ -20,15 +20,15 @@
 
 * **FROM**
 start value<br>
-__type:__ int<br>
+_type:_ int<br>
 
 * **TO**
 end value<br>
-__type:__ int<br>
+_type:_ int<br>
 
 * **N**
 number of steps<br>
-__type:__ int<br>
+_type:_ int<br>
 
 
 
@@ -44,44 +44,43 @@ reset to start value<br>
 
 * **@from** 
 Get/set start value<br>
-__type:__ int<br>
-__range:__ 0..127<br>
-__default:__ 127<br>
+_type:_ int<br>
+_range:_ 0..127<br>
+_default:_ 127<br>
 
 * **@to** 
 Get/set end value<br>
-__type:__ int<br>
-__range:__ 0..127<br>
-__default:__ 127<br>
+_type:_ int<br>
+_range:_ 0..127<br>
+_default:_ 127<br>
 
 * **@n** 
 Get/set number of steps<br>
-__type:__ int<br>
-__min value:__ 0<br>
-__default:__ 0<br>
+_type:_ int<br>
+_min value:_ 0<br>
+_default:_ 0<br>
 
 * **@auto** 
 Get/set auto reset mode. If true: reset to @start value after ramp is finished<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 0<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 0<br>
 
 
 
 ## inlets:
 
-* if VALUE &gt;0, treat as (VALUE 127) list, otherwise as (-VALUE,
-                0) 
-__type:__ control<br>
+* if VALUE &gt;0, treat as (VALUE 127) list, otherwise as (-VALUE, 0)<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* outputs NOTE VELOCITY pair
-__type:__ control<br>
-* bang when destination value is reached
-__type:__ control<br>
+* outputs NOTE VELOCITY pair<br>
+_type:_ control
+* bang when destination value is reached<br>
+_type:_ control
 
 
 

@@ -36,15 +36,15 @@ output all patch properties as list<br>
 
 ## inlets:
 
-* output all properties in [prop] objects 
-__type:__ control<br>
+* output all properties in [prop] objects<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* output value
-__type:__ control<br>
+* output value<br>
+_type:_ control
 
 
 

@@ -23,7 +23,7 @@ convert signal to float via specified time invervals
 
 * **INTERV**
 sampling interval<br>
-__type:__ float<br>
+_type:_ float<br>
 
 
 
@@ -33,31 +33,31 @@ __type:__ float<br>
 
 * **@interval** 
 Get/set sampling interval<br>
-__type:__ float<br>
-__units:__ ms<br>
-__min value:__ -1<br>
-__default:__ 50<br>
+_type:_ float<br>
+_units:_ ms<br>
+_min value:_ -1<br>
+_default:_ 50<br>
 
 * **@offset** 
 Get/set sample offset inside DSP block<br>
-__type:__ int<br>
-__units:__ samp<br>
-__range:__ 0..8192<br>
-__default:__ 0<br>
+_type:_ int<br>
+_units:_ samp<br>
+_range:_ 0..8192<br>
+_default:_ 0<br>
 
 
 
 ## inlets:
 
-* input signal 
-__type:__ audio<br>
+* input signal<br>
+_type:_ audio
 
 
 
 ## outlets:
 
-* float: sample
-__type:__ control<br>
+* float: sample<br>
+_type:_ control
 
 
 

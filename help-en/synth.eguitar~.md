@@ -38,59 +38,59 @@ note on/off message<br>
 
 * **@pitch** 
 Get/set midi pitch<br>
-__type:__ float<br>
-__range:__ 36..84<br>
-__default:__ 48<br>
+_type:_ float<br>
+_range:_ 36..84<br>
+_default:_ 48<br>
 
 * **@freq** 
 Get/set frequency<br>
-__type:__ float<br>
-__units:__ Hz<br>
-__default:__ 130.813<br>
+_type:_ float<br>
+_units:_ Hz<br>
+_default:_ 130.813<br>
 
 * **@pos** 
 Get/set pluck position (1 is on the bridge)<br>
-__type:__ float<br>
-__range:__ 0..1<br>
-__default:__ 0.5<br>
+_type:_ float<br>
+_range:_ 0..1<br>
+_default:_ 0.5<br>
 
 * **@mute** 
 Get/set mute coefficient (0 for no mute and 1 for instant mute)<br>
-__type:__ float<br>
-__range:__ 0..1<br>
-__default:__ 0<br>
+_type:_ float<br>
+_range:_ 0..1<br>
+_default:_ 0<br>
 
 * **@gain** 
 Get/set pluck gain<br>
-__type:__ float<br>
-__range:__ 0..1<br>
-__default:__ 1<br>
+_type:_ float<br>
+_range:_ 0..1<br>
+_default:_ 1<br>
 
 * **@gate** 
 Get/set play trigger - 1: on, 0: off<br>
-__type:__ float<br>
-__range:__ 0..1<br>
-__default:__ 0<br>
+_type:_ float<br>
+_range:_ 0..1<br>
+_default:_ 0<br>
 
 * **@active** 
 Get/set on/off dsp processing<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 1<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 1<br>
 
 
 
 ## inlets:
 
-* NOTE VEL 
-__type:__ control<br>
+* NOTE VEL<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* None
-__type:__ audio<br>
+* None<br>
+_type:_ audio
 
 
 

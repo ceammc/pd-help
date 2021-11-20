@@ -27,15 +27,15 @@ Outputs the integral value nearest to but no larger in magnitude than x
 
 ## inlets:
 
-* input signal 
-__type:__ audio<br>
+* input signal<br>
+_type:_ audio
 
 
 
 ## outlets:
 
-* result signal
-__type:__ audio<br>
+* result signal<br>
+_type:_ audio
 
 
 

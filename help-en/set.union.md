@@ -20,7 +20,7 @@
 
 * **ARGS**
 right set elements<br>
-__type:__ any<br>
+_type:_ any<br>
 
 
 
@@ -30,17 +30,17 @@ __type:__ any<br>
 
 ## inlets:
 
-* first set or list (converted to set), other values are ignored 
-__type:__ control<br>
-* second set or list (converted to set) 
-__type:__ control<br>
+* first set or list (converted to set), other values are ignored<br>
+_type:_ control
+* second set or list (converted to set)<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* output union of given sets
-__type:__ control<br>
+* output union of given sets<br>
+_type:_ control
 
 
 

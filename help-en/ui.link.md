@@ -25,11 +25,11 @@ Link allows to open external URLs, not only Pd patches but all kind of URL
 
 * **URL**
 @url property value<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 * **TITLE**
 @title property value<br>
-__type:__ list<br>
+_type:_ list<br>
 
 
 
@@ -53,30 +53,30 @@ set UI element position<br>
 
 * **@url** 
 Get/set destination url<br>
-__type:__ symbol<br>
-__default:__ &lt;no url&gt;<br>
+_type:_ symbol<br>
+_default:_ &lt;no url&gt;<br>
 
 * **@title** 
 Get/set link title<br>
-__type:__ symbol<br>
-__default:__ &lt;no title&gt;<br>
+_type:_ symbol<br>
+_default:_ &lt;no title&gt;<br>
 
 * **@pinned** 
 Get/set pin mode. if 1 - put element to the lowest level<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 0<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 0<br>
 
 * **@hover_color** 
 Get/set color when mouse pointer is over element (list of red, green, blue values in
 0-1 range)<br>
-__type:__ list<br>
-__default:__ 1 0 0.5 1<br>
+_type:_ list<br>
+_default:_ 1 0 0.5 1<br>
 
 * **@link_color** 
 Get/set link color (list of red, green, blue values in 0-1 range)<br>
-__type:__ list<br>
-__default:__ 0 0.625 0.75 1<br>
+_type:_ list<br>
+_default:_ 0 0.625 0.75 1<br>
 
 
 

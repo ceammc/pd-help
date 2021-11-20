@@ -23,7 +23,7 @@ Numbers thar are *less equal* then N-th argument are passed to N-th inlet
 
 * **LIST**
 compare values: list of floats in ascending order<br>
-__type:__ list<br>
+_type:_ list<br>
 
 
 
@@ -33,27 +33,27 @@ __type:__ list<br>
 
 * **@values** 
 Get/set compare values: list of floats in ascending order<br>
-__type:__ list<br>
+_type:_ list<br>
 
 
 
 ## inlets:
 
-* input flow 
-__type:__ control<br>
+* input flow<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* numbers that are less equal then 1st argument
-__type:__ control<br>
-* numbers that are less equal than ... argument
-__type:__ control<br>
-* numbers that are less equal than N-th argument
-__type:__ control<br>
-* numbers that are greater than last argument
-__type:__ control<br>
+* numbers that are less equal then 1st argument<br>
+_type:_ control
+* numbers that are less equal than ... argument<br>
+_type:_ control
+* numbers that are less equal than N-th argument<br>
+_type:_ control
+* numbers that are greater than last argument<br>
+_type:_ control
 
 
 

@@ -20,8 +20,8 @@
 
 * **SHIFT**
 time-shift<br>
-__type:__ float<br>
-__units:__ ms<br>
+_type:_ float<br>
+_units:_ ms<br>
 
 
 
@@ -31,23 +31,23 @@ __units:__ ms<br>
 
 * **@shift** 
 Get/set time-shift<br>
-__type:__ float<br>
-__units:__ ms<br>
-__default:__ 0<br>
+_type:_ float<br>
+_units:_ ms<br>
+_default:_ 0<br>
 
 
 
 ## inlets:
 
-* input envelope 
-__type:__ control<br>
+* input envelope<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* shifted output envelope
-__type:__ control<br>
+* shifted output envelope<br>
+_type:_ control
 
 
 

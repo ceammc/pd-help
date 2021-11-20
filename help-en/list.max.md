@@ -29,36 +29,36 @@ Also you can choose largest symbol from list, using @symbol property.
 
 * **@type** 
 Get/set type of largest element<br>
-__type:__ symbol<br>
-__enum:__ float, symbol, any<br>
-__default:__ float<br>
+_type:_ symbol<br>
+_enum:_ float, symbol, any<br>
+_default:_ float<br>
 
 * **@float** 
 Get/set alias for @type float. Find max float element in list<br>
-__type:__ alias<br>
+_type:_ alias<br>
 
 * **@symbol** 
 Get/set alias for @type symbol. Find greatest symbol element<br>
-__type:__ alias<br>
+_type:_ alias<br>
 
 * **@any** 
 Get/set alias for @type any. Find greatest atom of any type. Note: symbols are greater
 then numbers<br>
-__type:__ alias<br>
+_type:_ alias<br>
 
 
 
 ## inlets:
 
-* input list 
-__type:__ control<br>
+* input list<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* largest element
-__type:__ control<br>
+* largest element<br>
+_type:_ control
 
 
 

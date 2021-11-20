@@ -23,13 +23,13 @@ Random distribution: uniform
 
 * **MIN**
 minimal bang interval<br>
-__type:__ int<br>
-__units:__ ms<br>
+_type:_ int<br>
+_units:_ ms<br>
 
 * **MAX**
 maximum bang interval<br>
-__type:__ int<br>
-__units:__ ms<br>
+_type:_ int<br>
+_units:_ ms<br>
 
 
 
@@ -39,33 +39,33 @@ __units:__ ms<br>
 
 * **@min** 
 Get/set minimal bang interval<br>
-__type:__ int<br>
-__units:__ ms<br>
-__min value:__ 1<br>
-__default:__ 100<br>
+_type:_ int<br>
+_units:_ ms<br>
+_min value:_ 1<br>
+_default:_ 100<br>
 
 * **@max** 
 Get/set maximum bang interval<br>
-__type:__ int<br>
-__units:__ ms<br>
-__min value:__ 1<br>
-__default:__ 200<br>
+_type:_ int<br>
+_units:_ ms<br>
+_min value:_ 1<br>
+_default:_ 200<br>
 
 
 
 ## inlets:
 
-* starts (on &gt; 0) or stops (on &lt;= 0) metro 
-__type:__ control<br>
-* set random range. min max pair expected. 
-__type:__ control<br>
+* starts (on &gt; 0) or stops (on &lt;= 0) metro<br>
+_type:_ control
+* set random range. min max pair expected.<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* outputs *bang*
-__type:__ control<br>
+* outputs *bang*<br>
+_type:_ control
 
 
 

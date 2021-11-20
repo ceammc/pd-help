@@ -24,15 +24,15 @@
 
 ## inlets:
 
-* input flow 
-__type:__ control<br>
+* input flow<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* output time between current and previous event in milliseconds
-__type:__ control<br>
+* output time between current and previous event in milliseconds<br>
+_type:_ control
 
 
 

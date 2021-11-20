@@ -24,15 +24,15 @@
 
 ## inlets:
 
-* input signal 
-__type:__ control<br>
+* input signal<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* output rounded signal
-__type:__ control<br>
+* output rounded signal<br>
+_type:_ control
 
 
 

@@ -25,7 +25,7 @@ Use @seed property to get reproducible sequences. If @seed property was not
 
 * **ARG**
 list of atoms<br>
-__type:__ list<br>
+_type:_ list<br>
 
 
 
@@ -35,31 +35,31 @@ __type:__ list<br>
 
 * **@a** 
 Get/set list of atoms<br>
-__type:__ list<br>
+_type:_ list<br>
 
 * **@w** 
 Get/set list of atom weights<br>
-__type:__ list<br>
+_type:_ list<br>
 
 * **@seed** 
 Get/set generator seed<br>
-__type:__ int<br>
-__min value:__ 0<br>
-__default:__ 0<br>
+_type:_ int<br>
+_min value:_ 0<br>
+_default:_ 0<br>
 
 
 
 ## inlets:
 
-* output random atom 
-__type:__ control<br>
+* output random atom<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* random atom value
-__type:__ control<br>
+* random atom value<br>
+_type:_ control
 
 
 

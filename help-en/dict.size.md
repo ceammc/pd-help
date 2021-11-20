@@ -24,15 +24,15 @@
 
 ## inlets:
 
-* data.dict 
-__type:__ control<br>
+* data.dict<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* size of dict
-__type:__ control<br>
+* size of dict<br>
+_type:_ control
 
 
 

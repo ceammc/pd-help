@@ -38,31 +38,31 @@ Note: in Pd float point exceptions are disabled.
 
 * **@type** 
 Get/set type of outputed NaN: quiet or signal<br>
-__type:__ symbol<br>
-__enum:__ quiet, signal<br>
-__default:__ quiet<br>
+_type:_ symbol<br>
+_enum:_ quiet, signal<br>
+_default:_ quiet<br>
 
 * **@quiet** 
 Get/set alias to @type quiet<br>
-__type:__ alias<br>
+_type:_ alias<br>
 
 * **@signal** 
 Get/set alias to @type signal<br>
-__type:__ alias<br>
+_type:_ alias<br>
 
 
 
 ## inlets:
 
-* outputs value 
-__type:__ control<br>
+* outputs value<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* output value
-__type:__ control<br>
+* output value<br>
+_type:_ control
 
 
 

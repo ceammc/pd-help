@@ -20,12 +20,12 @@
 
 * **bits**
 number of bits<br>
-__type:__ int<br>
+_type:_ int<br>
 
 * **downsamp**
 number of samples to skip<br>
-__type:__ int<br>
-__units:__ samp<br>
+_type:_ int<br>
+_units:_ samp<br>
 
 
 
@@ -35,42 +35,42 @@ __units:__ samp<br>
 
 * **@bits** 
 Get/set output bits<br>
-__type:__ int<br>
-__range:__ 1..16<br>
-__default:__ 16<br>
+_type:_ int<br>
+_range:_ 1..16<br>
+_default:_ 16<br>
 
 * **@downsamp** 
 Get/set number samples to skip<br>
-__type:__ int<br>
-__units:__ samp<br>
-__range:__ 1..200<br>
-__default:__ 1<br>
+_type:_ int<br>
+_units:_ samp<br>
+_range:_ 1..200<br>
+_default:_ 1<br>
 
 * **@bypass** 
 Get/set if set to 1 - bypass &#39;effected&#39; signal.<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 0<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 0<br>
 
 * **@active** 
 Get/set on/off dsp processing<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 1<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 1<br>
 
 
 
 ## inlets:
 
-* left channel 
-__type:__ audio<br>
+* left channel<br>
+_type:_ audio
 
 
 
 ## outlets:
 
-* output
-__type:__ audio<br>
+* output<br>
+_type:_ audio
 
 
 

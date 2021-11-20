@@ -24,17 +24,17 @@
 
 ## inlets:
 
-* list of properties 
-__type:__ control<br>
+* list of properties<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* sequence of @prop messages
-__type:__ control<br>
-* list of non prop arguments
-__type:__ control<br>
+* sequence of @prop messages<br>
+_type:_ control
+* list of non prop arguments<br>
+_type:_ control
 
 
 

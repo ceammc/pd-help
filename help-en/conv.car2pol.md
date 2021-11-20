@@ -25,23 +25,23 @@
 * **@positive** 
 Get/set output in positive range. If true output is in [0..2π) range, otherwise output
 range is [-π..+π]<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 0<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 0<br>
 
 
 
 ## inlets:
 
-* x, y coord pair 
-__type:__ control<br>
+* x, y coord pair<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* radius and angle (in radians) pair
-__type:__ control<br>
+* radius and angle (in radians) pair<br>
+_type:_ control
 
 
 

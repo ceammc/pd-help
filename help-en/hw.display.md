@@ -27,23 +27,23 @@ At this moment supports only MacOSX
 
 * **@brightness** 
 Get/set display brightness<br>
-__type:__ float<br>
-__range:__ 0..1<br>
-__default:__ 0.313477<br>
+_type:_ float<br>
+_range:_ 0..1<br>
+_default:_ 0.313477<br>
 
 
 
 ## inlets:
 
-* input 
-__type:__ control<br>
+* input<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* properties output
-__type:__ control<br>
+* properties output<br>
+_type:_ control
 
 
 

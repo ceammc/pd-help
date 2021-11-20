@@ -24,15 +24,15 @@
 
 ## inlets:
 
-* checks if given path exists 
-__type:__ control<br>
+* checks if given path exists<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* 1 - on success, 0 - if not exists
-__type:__ control<br>
+* 1 - on success, 0 - if not exists<br>
+_type:_ control
 
 
 

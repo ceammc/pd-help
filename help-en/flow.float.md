@@ -24,15 +24,15 @@
 
 ## inlets:
 
-* passed float 
-__type:__ control<br>
+* passed float<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* passed float
-__type:__ control<br>
+* passed float<br>
+_type:_ control
 
 
 

@@ -20,7 +20,7 @@
 
 * **NAME**
 array name<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 
 
@@ -30,23 +30,23 @@ __type:__ symbol<br>
 
 * **@array** 
 Get/set array name<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 
 
 ## inlets:
 
-* perform search in current array 
-__type:__ control<br>
+* perform search in current array<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* list with two elements: minimal and maximum value
-__type:__ control<br>
-* indexes of found values
-__type:__ control<br>
+* list with two elements: minimal and maximum value<br>
+_type:_ control
+* indexes of found values<br>
+_type:_ control
 
 
 

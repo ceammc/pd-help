@@ -24,21 +24,21 @@
 
 * **@strict** 
 Get/set ignore parsing error<br>
-__type:__ flag<br>
+_type:_ flag<br>
 
 
 
 ## inlets:
 
-* input value 
-__type:__ control<br>
+* input value<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* converted value: int
-__type:__ control<br>
+* converted value: int<br>
+_type:_ control
 
 
 

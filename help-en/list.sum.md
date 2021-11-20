@@ -24,15 +24,15 @@
 
 ## inlets:
 
-* input list. Non float values are ignored 
-__type:__ control<br>
+* input list. Non float values are ignored<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* float list sum
-__type:__ control<br>
+* float list sum<br>
+_type:_ control
 
 
 

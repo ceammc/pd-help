@@ -27,15 +27,15 @@ Note: numbers are smaller then symbols
 
 ## inlets:
 
-* input list 
-__type:__ control<br>
+* input list<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* list of two elements: first is a smallest values, second - largest
-__type:__ control<br>
+* list of two elements: first is a smallest values, second - largest<br>
+_type:_ control
 
 
 

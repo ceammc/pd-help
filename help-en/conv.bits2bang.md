@@ -28,33 +28,33 @@ in @poly mode if bit is on - send list (BIT_IDX bang) to single outlet
 
 * **@n** (readonly)
 Get 123<br>
-__type:__ int<br>
-__range:__ 1..64<br>
-__default:__ 8<br>
+_type:_ int<br>
+_range:_ 1..64<br>
+_default:_ 8<br>
 
 * **@rev** 
 Get/set reversed bit order<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 0<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 0<br>
 
 * **@poly** 
 Get/set polyphonic mode for using with [clone] object<br>
-__type:__ flag<br>
+_type:_ flag<br>
 
 
 
 ## inlets:
 
-* input bit list 
-__type:__ control<br>
+* input bit list<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* output
-__type:__ control<br>
+* output<br>
+_type:_ control
 
 
 

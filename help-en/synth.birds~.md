@@ -24,49 +24,49 @@
 
 * **@speed** 
 Get/set maximum speed of whistles if @auto enabled<br>
-__type:__ float<br>
-__range:__ 120..480<br>
-__default:__ 240<br>
+_type:_ float<br>
+_range:_ 120..480<br>
+_default:_ 240<br>
 
 * **@probability** 
 Get/set whistles probability if @auto enabled<br>
-__type:__ float<br>
-__range:__ 25..100<br>
-__default:__ 50<br>
+_type:_ float<br>
+_range:_ 25..100<br>
+_default:_ 50<br>
 
 * **@gate** 
 Get/set play trigger. Starts playing on release<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 0<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 0<br>
 
 * **@auto** 
 Get/set auto playing mode<br>
-__type:__ int<br>
-__range:__ 0..1<br>
-__default:__ 0<br>
+_type:_ int<br>
+_range:_ 0..1<br>
+_default:_ 0<br>
 
 * **@active** 
 Get/set on/off dsp processing<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 1<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 1<br>
 
 
 
 ## inlets:
 
-* play 
-__type:__ control<br>
+* play<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* synth left channel
-__type:__ audio<br>
-* synth right channel
-__type:__ audio<br>
+* synth left channel<br>
+_type:_ audio
+* synth right channel<br>
+_type:_ audio
 
 
 

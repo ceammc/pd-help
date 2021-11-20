@@ -111,120 +111,120 @@ set UI element position<br>
 
 * **@items** 
 Get/set list of menu items<br>
-__type:__ list<br>
+_type:_ list<br>
 
 * **@index** 
 Get/set current menu item index<br>
-__type:__ int<br>
-__default:__ 0<br>
+_type:_ int<br>
+_default:_ 0<br>
 
 * **@value** 
 Get/set current menu item value<br>
-__type:__ atom<br>
+_type:_ atom<br>
 
 * **@count** (readonly)
 Get number of menu items<br>
-__type:__ int<br>
-__default:__ 0<br>
+_type:_ int<br>
+_default:_ 0<br>
 
 * **@max_length** 
 Get/set maximum displayed item character length<br>
-__type:__ int<br>
-__range:__ 10..1024<br>
-__default:__ 100<br>
+_type:_ int<br>
+_range:_ 10..1024<br>
+_default:_ 100<br>
 
 * **@open** 
 Get/set opened state<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 0<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 0<br>
 
 * **@title** (readonly)
 Get current element text<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 * **@presetname** 
 Get/set preset name for using with [ui.preset]<br>
-__type:__ symbol<br>
-__default:__ (null)<br>
+_type:_ symbol<br>
+_default:_ (null)<br>
 
 * **@send** 
 Get/set send destination<br>
-__type:__ symbol<br>
-__default:__ (null)<br>
+_type:_ symbol<br>
+_default:_ (null)<br>
 
 * **@receive** 
 Get/set receive source<br>
-__type:__ symbol<br>
-__default:__ (null)<br>
+_type:_ symbol<br>
+_default:_ (null)<br>
 
 * **@size** 
 Get/set element size (width, height pair)<br>
-__type:__ list<br>
-__default:__ 100 16<br>
+_type:_ list<br>
+_default:_ 100 16<br>
 
 * **@pinned** 
 Get/set pin mode. if 1 - put element to the lowest level<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 0<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 0<br>
 
 * **@active_color** 
 Get/set active color (list of red, green, blue values in 0-1 range)<br>
-__type:__ list<br>
-__default:__ 0 0.75 1 1<br>
+_type:_ list<br>
+_default:_ 0 0.75 1 1<br>
 
 * **@text_color** 
 Get/set text color (list of red, green, blue values in 0-1 range)<br>
-__type:__ list<br>
-__default:__ 0 0 0 1<br>
+_type:_ list<br>
+_default:_ 0 0 0 1<br>
 
 * **@background_color** 
 Get/set element background color (list of red, green, blue values in 0-1 range)<br>
-__type:__ list<br>
-__default:__ 0.93 0.93 0.93 1<br>
+_type:_ list<br>
+_default:_ 0.93 0.93 0.93 1<br>
 
 * **@border_color** 
 Get/set border color (list of red, green, blue values in 0-1 range)<br>
-__type:__ list<br>
-__default:__ 0.6 0.6 0.6 1<br>
+_type:_ list<br>
+_default:_ 0.6 0.6 0.6 1<br>
 
 * **@fontsize** 
 Get/set fontsize<br>
-__type:__ int<br>
-__range:__ 4..11<br>
-__default:__ 11<br>
+_type:_ int<br>
+_range:_ 4..11<br>
+_default:_ 11<br>
 
 * **@fontname** 
 Get/set fontname<br>
-__type:__ symbol<br>
-__default:__ Helvetica<br>
+_type:_ symbol<br>
+_default:_ Helvetica<br>
 
 * **@fontweight** 
 Get/set font weight<br>
-__type:__ symbol<br>
-__enum:__ normal, bold<br>
-__default:__ normal<br>
+_type:_ symbol<br>
+_enum:_ normal, bold<br>
+_default:_ normal<br>
 
 * **@fontslant** 
 Get/set font slant<br>
-__type:__ symbol<br>
-__enum:__ roman, italic<br>
-__default:__ roman<br>
+_type:_ symbol<br>
+_enum:_ roman, italic<br>
+_default:_ roman<br>
 
 
 
 ## inlets:
 
-* outputs current menu state as list: INDEX ITEM_NAME 
-__type:__ control<br>
+* outputs current menu state as list: INDEX ITEM_NAME<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* output
-__type:__ control<br>
+* output<br>
+_type:_ control
 
 
 

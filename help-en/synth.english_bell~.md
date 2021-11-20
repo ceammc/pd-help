@@ -38,73 +38,73 @@ reset synth<br>
 
 * **@pos** 
 Get/set strike position (0 is on the bottom)<br>
-__type:__ int<br>
-__range:__ 0..6<br>
-__default:__ 0<br>
+_type:_ int<br>
+_range:_ 0..6<br>
+_default:_ 0<br>
 
 * **@gain** 
 Get/set strike gain<br>
-__type:__ float<br>
-__range:__ 0..1<br>
-__default:__ 1<br>
+_type:_ float<br>
+_range:_ 0..1<br>
+_default:_ 1<br>
 
 * **@sharp** 
 Get/set strike sharpness<br>
-__type:__ float<br>
-__range:__ 0.01..5<br>
-__default:__ 0.5<br>
+_type:_ float<br>
+_range:_ 0.01..5<br>
+_default:_ 0.5<br>
 
 * **@cutoff** 
 Get/set strike cutoff frequency<br>
-__type:__ float<br>
-__units:__ Hz<br>
-__range:__ 20..20000<br>
-__default:__ 6500<br>
+_type:_ float<br>
+_units:_ Hz<br>
+_range:_ 20..20000<br>
+_default:_ 6500<br>
 
 * **@t60** 
 Get/set time to decay to -60db level<br>
-__type:__ float<br>
-__units:__ sec<br>
-__range:__ 0.1..30<br>
-__default:__ 20<br>
+_type:_ float<br>
+_units:_ sec<br>
+_range:_ 0.1..30<br>
+_default:_ 20<br>
 
 * **@decay_ratio** 
 Get/set decay ratio<br>
-__type:__ float<br>
-__range:__ 0..1<br>
-__default:__ 1<br>
+_type:_ float<br>
+_range:_ 0..1<br>
+_default:_ 1<br>
 
 * **@decay_slope** 
 Get/set decay slope<br>
-__type:__ float<br>
-__range:__ 0..10<br>
-__default:__ 2.5<br>
+_type:_ float<br>
+_range:_ 0..10<br>
+_default:_ 2.5<br>
 
 * **@gate** 
 Get/set play trigger - 1: on, 0: off<br>
-__type:__ float<br>
-__range:__ 0..1<br>
-__default:__ 0<br>
+_type:_ float<br>
+_range:_ 0..1<br>
+_default:_ 0<br>
 
 * **@active** 
 Get/set on/off dsp processing<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 1<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 1<br>
 
 
 
 ## inlets:
 
-* play 
-__type:__ control<br>
+* play<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* output signal
-__type:__ audio<br>
+* output signal<br>
+_type:_ audio
 
 
 

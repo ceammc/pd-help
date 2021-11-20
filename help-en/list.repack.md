@@ -20,7 +20,7 @@
 
 * **SIZE**
 output list size<br>
-__type:__ int<br>
+_type:_ int<br>
 
 
 
@@ -30,25 +30,25 @@ __type:__ int<br>
 
 * **@size** 
 Get/set output list size<br>
-__type:__ int<br>
-__range:__ 1..1024<br>
-__default:__ 1<br>
+_type:_ int<br>
+_range:_ 1..1024<br>
+_default:_ 1<br>
 
 
 
 ## inlets:
 
-* input list 
-__type:__ control<br>
+* input list<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* output list
-__type:__ control<br>
-* bang after last element output
-__type:__ control<br>
+* output list<br>
+_type:_ control
+* bang after last element output<br>
+_type:_ control
 
 
 

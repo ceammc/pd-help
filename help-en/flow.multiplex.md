@@ -24,11 +24,11 @@ Set @index property only via [prop.set]
 
 * **N**
 number of multiplexed inputs<br>
-__type:__ int<br>
+_type:_ int<br>
 
 * **N**
 default input index<br>
-__type:__ int<br>
+_type:_ int<br>
 
 
 
@@ -38,27 +38,27 @@ __type:__ int<br>
 
 * **@index** 
 Get/set input index<br>
-__type:__ int<br>
-__range:__ 0..23<br>
-__default:__ 0<br>
+_type:_ int<br>
+_range:_ 0..23<br>
+_default:_ 0<br>
 
 
 
 ## inlets:
 
-* multiplexer first inlet 
-__type:__ control<br>
-* multiplexer N-th inlet 
-__type:__ control<br>
-* set input index 
-__type:__ control<br>
+* multiplexer first inlet<br>
+_type:_ control
+* multiplexer N-th inlet<br>
+_type:_ control
+* set input index<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* output
-__type:__ control<br>
+* output<br>
+_type:_ control
 
 
 

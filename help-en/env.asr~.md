@@ -20,18 +20,18 @@
 
 * **attack**
 attack time<br>
-__type:__ float<br>
-__units:__ ms<br>
+_type:_ float<br>
+_units:_ ms<br>
 
 * **sustain**
 sustain level (percentage of trigger)<br>
-__type:__ float<br>
-__units:__ %<br>
+_type:_ float<br>
+_units:_ %<br>
 
 * **release**
 release time<br>
-__type:__ float<br>
-__units:__ ms<br>
+_type:_ float<br>
+_units:_ ms<br>
 
 
 
@@ -53,56 +53,56 @@ reset envelope to initial state<br>
 
 * **@attack** 
 Get/set attack time<br>
-__type:__ float<br>
-__units:__ ms<br>
-__range:__ 0..100000<br>
-__default:__ 10<br>
+_type:_ float<br>
+_units:_ ms<br>
+_range:_ 0..100000<br>
+_default:_ 10<br>
 
 * **@sustain** 
 Get/set sustain level - percent from trigger signal<br>
-__type:__ float<br>
-__units:__ %<br>
-__range:__ 0..100<br>
-__default:__ 100<br>
+_type:_ float<br>
+_units:_ %<br>
+_range:_ 0..100<br>
+_default:_ 100<br>
 
 * **@release** 
 Get/set release time<br>
-__type:__ float<br>
-__units:__ ms<br>
-__range:__ 0..100000<br>
-__default:__ 300<br>
+_type:_ float<br>
+_units:_ ms<br>
+_range:_ 0..100000<br>
+_default:_ 300<br>
 
 * **@gate** 
 Get/set trigger. If &gt; 0 - starts envelope.<br>
-__type:__ float<br>
-__range:__ 0..1<br>
-__default:__ 0<br>
+_type:_ float<br>
+_range:_ 0..1<br>
+_default:_ 0<br>
 
 * **@asr** (readonly)
 Get attack sustain release triplet<br>
-__type:__ list<br>
+_type:_ list<br>
 
 * **@active** 
 Get/set on/off dsp processing<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 1<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 1<br>
 
 
 
 ## inlets:
 
-* input signal 
-__type:__ audio<br>
+* input signal<br>
+_type:_ audio
 
 
 
 ## outlets:
 
-* output signal with applied envelope
-__type:__ audio<br>
-* outputs 1 when attack phase finished, 0 - when release phase finished
-__type:__ control<br>
+* output signal with applied envelope<br>
+_type:_ audio
+* outputs 1 when attack phase finished, 0 - when release phase finished<br>
+_type:_ control
 
 
 

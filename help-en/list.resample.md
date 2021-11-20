@@ -20,7 +20,7 @@
 
 * **RATIO**
 resample ratio<br>
-__type:__ float<br>
+_type:_ float<br>
 
 
 
@@ -30,25 +30,25 @@ __type:__ float<br>
 
 * **@ratio** 
 Get/set resample ratio (src/dest)<br>
-__type:__ float<br>
-__range:__ 0..100<br>
-__default:__ 1<br>
+_type:_ float<br>
+_range:_ 0..100<br>
+_default:_ 1<br>
 
 
 
 ## inlets:
 
-* input list. 
-__type:__ control<br>
-* set ratio 
-__type:__ control<br>
+* input list.<br>
+_type:_ control
+* set ratio<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* new modified list
-__type:__ control<br>
+* new modified list<br>
+_type:_ control
 
 
 

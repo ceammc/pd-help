@@ -20,13 +20,13 @@
 
 * **attack**
 attack time<br>
-__type:__ float<br>
-__units:__ ms<br>
+_type:_ float<br>
+_units:_ ms<br>
 
 * **release**
 release time<br>
-__type:__ float<br>
-__units:__ ms<br>
+_type:_ float<br>
+_units:_ ms<br>
 
 
 
@@ -36,36 +36,36 @@ __units:__ ms<br>
 
 * **@attack** 
 Get/set attack time<br>
-__type:__ float<br>
-__range:__ 1..1000<br>
-__default:__ 200<br>
+_type:_ float<br>
+_range:_ 1..1000<br>
+_default:_ 200<br>
 
 * **@release** 
 Get/set release time<br>
-__type:__ float<br>
-__range:__ 1..1000<br>
-__default:__ 200<br>
+_type:_ float<br>
+_range:_ 1..1000<br>
+_default:_ 200<br>
 
 * **@active** 
 Get/set on/off dsp processing<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 1<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 1<br>
 
 
 
 ## inlets:
 
-* input signal 
-__type:__ audio<br>
+* input signal<br>
+_type:_ audio
 
 
 
 ## outlets:
 
 * amplitude envelope that follows the absolute value going
-            up/down
-__type:__ audio<br>
+            up/down<br>
+_type:_ audio
 
 
 

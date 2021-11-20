@@ -24,22 +24,22 @@
 
 * **@symbol** 
 Get/set output as symbol instead of string by default<br>
-__type:__ flag<br>
-__default:__ 0<br>
+_type:_ flag<br>
+_default:_ 0<br>
 
 
 
 ## inlets:
 
-* Standart MIDI controller number [0-127] 
-__type:__ control<br>
+* Standart MIDI controller number [0-127]<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* output Standart MIDI controller name (string or symbol)
-__type:__ control<br>
+* output Standart MIDI controller name (string or symbol)<br>
+_type:_ control
 
 
 

@@ -24,78 +24,78 @@
 
 * **@name** (readonly)
 Get canvas name<br>
-__type:__ symbol<br>
-__default:__ test_canvas<br>
+_type:_ symbol<br>
+_default:_ test_canvas<br>
 
 * **@dir** (readonly)
 Get canvas directory (only if top level or abstraction)<br>
-__type:__ symbol<br>
-__default:__ /<br>
+_type:_ symbol<br>
+_default:_ /<br>
 
 * **@args** (readonly)
 Get canvas creation arguments<br>
-__type:__ list<br>
+_type:_ list<br>
 
 * **@root** (readonly)
 Get 1 if canvas is top-level (window)<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 1<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 1<br>
 
 * **@abstraction** (readonly)
 Get 1 if canvas is abstraction<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 1<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 1<br>
 
 * **@size** (readonly)
 Get canvas dimensions. If root canvas (window) return window size, if subpatch
 return Graph on Parent size<br>
-__type:__ list<br>
-__default:__ 600 400<br>
+_type:_ list<br>
+_default:_ 600 400<br>
 
 * **@font** (readonly)
 Get canvas font size<br>
-__type:__ int<br>
-__default:__ 10<br>
+_type:_ int<br>
+_default:_ 10<br>
 
 * **@paths** (readonly)
 Get canvas search paths<br>
-__type:__ list<br>
+_type:_ list<br>
 
 * **@width** (readonly)
 Get canvas width (window or GOP)<br>
-__type:__ int<br>
-__default:__ 600<br>
+_type:_ int<br>
+_default:_ 600<br>
 
 * **@height** (readonly)
 Get canvas height (window or GOP)<br>
-__type:__ int<br>
-__default:__ 400<br>
+_type:_ int<br>
+_default:_ 400<br>
 
 * **@x** (readonly)
 Get canvas x-pos (window or GOP)<br>
-__type:__ int<br>
-__default:__ 0<br>
+_type:_ int<br>
+_default:_ 0<br>
 
 * **@y** (readonly)
 Get canvas y-pos (window or GOP)<br>
-__type:__ int<br>
-__default:__ 0<br>
+_type:_ int<br>
+_default:_ 0<br>
 
 
 
 ## inlets:
 
-* property request 
-__type:__ control<br>
+* property request<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* dict or property output
-__type:__ control<br>
+* dict or property output<br>
+_type:_ control
 
 
 

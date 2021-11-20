@@ -24,35 +24,35 @@
 
 * **@mode** 
 Get/set edge detection mode<br>
-__type:__ symbol<br>
-__enum:__ up, down, both<br>
-__default:__ up<br>
+_type:_ symbol<br>
+_enum:_ up, down, both<br>
+_default:_ up<br>
 
 * **@up** 
 Get/set alias to @mode up<br>
-__type:__ alias<br>
+_type:_ alias<br>
 
 * **@down** 
 Get/set alias to @mode down<br>
-__type:__ alias<br>
+_type:_ alias<br>
 
 * **@both** 
 Get/set alias to @mode both<br>
-__type:__ alias<br>
+_type:_ alias<br>
 
 
 
 ## inlets:
 
-* input value 
-__type:__ control<br>
+* input value<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* bang: on edge
-__type:__ control<br>
+* bang: on edge<br>
+_type:_ control
 
 
 

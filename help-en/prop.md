@@ -24,7 +24,7 @@ Property should be declared with [prop.declare]. Min/max limits can be set to
 
 * **@NAME**
 property name<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 
 
@@ -40,15 +40,15 @@ reset to default value and output<br>
 
 ## inlets:
 
-* output property value 
-__type:__ control<br>
+* output property value<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* output value
-__type:__ control<br>
+* output value<br>
+_type:_ control
 
 
 

@@ -24,15 +24,15 @@
 
 ## inlets:
 
-* symbol 
-__type:__ control<br>
+* symbol<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* output message
-__type:__ control<br>
+* output message<br>
+_type:_ control
 
 
 

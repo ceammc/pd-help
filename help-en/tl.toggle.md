@@ -27,21 +27,21 @@ Output 1 when cue section activated, 0 when switched to other cue section
 
 * **@cue** (readonly)
 Get related cue<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 
 
 ## inlets:
 
-* control inlet 
-__type:__ control<br>
+* control inlet<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* 1 on cue enter, 0 on cue out
-__type:__ control<br>
+* 1 on cue enter, 0 on cue out<br>
+_type:_ control
 
 
 

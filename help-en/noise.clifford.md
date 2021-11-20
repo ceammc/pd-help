@@ -37,27 +37,27 @@ a-chaos v1.0.2
 
 * **ARG0**
 x value (optional)<br>
-__type:__ float<br>
+_type:_ float<br>
 
 * **ARG1**
 y value (optional)<br>
-__type:__ float<br>
+_type:_ float<br>
 
 * **ARG2**
 a value (optional)<br>
-__type:__ float<br>
+_type:_ float<br>
 
 * **ARG3**
 b value (optional)<br>
-__type:__ float<br>
+_type:_ float<br>
 
 * **ARG4**
 c value (optional)<br>
-__type:__ float<br>
+_type:_ float<br>
 
 * **ARG5**
 d value (optional)<br>
-__type:__ float<br>
+_type:_ float<br>
 
 
 
@@ -129,15 +129,15 @@ reset state<br>
 
 ## inlets:
 
-* output value 
-__type:__ control<br>
+* output value<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* main outlet
-__type:__ control<br>
+* main outlet<br>
+_type:_ control
 
 
 

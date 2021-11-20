@@ -45,57 +45,57 @@ seek to specified tick<br>
 
 * **@track** 
 Get/set track number<br>
-__type:__ int<br>
-__min value:__ 0<br>
-__default:__ 0<br>
+_type:_ int<br>
+_min value:_ 0<br>
+_default:_ 0<br>
 
 * **@join** 
 Get/set join all tracks into one<br>
-__type:__ flag<br>
-__default:__ 0<br>
+_type:_ flag<br>
+_default:_ 0<br>
 
 * **@speed** 
 Get/set play speed factor<br>
-__type:__ float<br>
-__min value:__ 0.01<br>
-__default:__ 1<br>
+_type:_ float<br>
+_min value:_ 0.01<br>
+_default:_ 1<br>
 
 * **@tempo** (readonly)
 Get current tempo in TPQ<br>
-__type:__ int<br>
-__default:__ 120<br>
+_type:_ int<br>
+_default:_ 120<br>
 
 * **@current** (readonly)
 Get current event tick index<br>
-__type:__ int<br>
-__default:__ 0<br>
+_type:_ int<br>
+_default:_ 0<br>
 
 * **@nevents** (readonly)
 Get number of events in track<br>
-__type:__ int<br>
-__default:__ 0<br>
+_type:_ int<br>
+_default:_ 0<br>
 
 * **@state** (readonly)
 Get current state. 0: stopped, 1: playing, 2: paused<br>
-__type:__ int<br>
-__enum:__ 0, 1, 2<br>
-__default:__ 0<br>
+_type:_ int<br>
+_enum:_ 0, 1, 2<br>
+_default:_ 0<br>
 
 
 
 ## inlets:
 
-* method inlet 
-__type:__ control<br>
+* method inlet<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* outputs MidiEvent message
-__type:__ control<br>
-* time in milliseconds until next MIDI event
-__type:__ control<br>
+* outputs MidiEvent message<br>
+_type:_ control
+* time in milliseconds until next MIDI event<br>
+_type:_ control
 
 
 

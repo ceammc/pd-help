@@ -24,7 +24,7 @@ Creates the circular harmonics of a signal depending of a given order and a
 
 * **ORDER**
 the order of decomposition<br>
-__type:__ int<br>
+_type:_ int<br>
 
 
 
@@ -34,29 +34,29 @@ __type:__ int<br>
 
 * **@order** (readonly)
 Get the order of decomposition<br>
-__type:__ int<br>
-__range:__ 1..63<br>
-__default:__ 1<br>
+_type:_ int<br>
+_range:_ 1..63<br>
+_default:_ 1<br>
 
 
 
 ## inlets:
 
-* input signal 
-__type:__ audio<br>
-* position on a circle in radians 
-__type:__ audio<br>
+* input signal<br>
+_type:_ audio
+* position on a circle in radians<br>
+_type:_ audio
 
 
 
 ## outlets:
 
-* first circular harmonics output
-__type:__ audio<br>
-* ... circular harmonics output
-__type:__ audio<br>
-* n-th circular harmonics output
-__type:__ audio<br>
+* first circular harmonics output<br>
+_type:_ audio
+* ... circular harmonics output<br>
+_type:_ audio
+* n-th circular harmonics output<br>
+_type:_ audio
 
 
 

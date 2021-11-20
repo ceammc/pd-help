@@ -24,11 +24,11 @@ Infinity is a MatrixVerb specifically designed to sustain and layer sounds
 
 * **SIZE**
 room size<br>
-__type:__ float<br>
+_type:_ float<br>
 
 * **DRYWET**
 proportion of mix between the original (dry) and &#39;effected&#39; (wet) signals<br>
-__type:__ float<br>
+_type:_ float<br>
 
 
 
@@ -44,52 +44,52 @@ reset reverb<br>
 
 * **@size** 
 Get/set room size<br>
-__type:__ float<br>
-__range:__ 0..1<br>
-__default:__ 0.5<br>
+_type:_ float<br>
+_range:_ 0..1<br>
+_default:_ 0.5<br>
 
 * **@filter** 
 Get/set filter coefficient<br>
-__type:__ float<br>
-__range:__ 0..1<br>
-__default:__ 1<br>
+_type:_ float<br>
+_range:_ 0..1<br>
+_default:_ 1<br>
 
 * **@damp** 
 Get/set damping of the lowpass comb filter<br>
-__type:__ float<br>
-__range:__ 0..1<br>
-__default:__ 0<br>
+_type:_ float<br>
+_range:_ 0..1<br>
+_default:_ 0<br>
 
 * **@drywet** 
 Get/set proportion of mix between the original (dry) and &#39;effected&#39; (wet) signals. 0 -
 dry signal, 1 - wet<br>
-__type:__ float<br>
-__range:__ 0..1<br>
-__default:__ 1<br>
+_type:_ float<br>
+_range:_ 0..1<br>
+_default:_ 1<br>
 
 * **@bypass** 
 Get/set if set to 1 - bypass &#39;effected&#39; signal<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 0<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 0<br>
 
 
 
 ## inlets:
 
-* input Left signal 
-__type:__ audio<br>
-* input Right signal 
-__type:__ audio<br>
+* input Left signal<br>
+_type:_ audio
+* input Right signal<br>
+_type:_ audio
 
 
 
 ## outlets:
 
-* output Left signal
-__type:__ audio<br>
-* output Right signal
-__type:__ audio<br>
+* output Left signal<br>
+_type:_ audio
+* output Right signal<br>
+_type:_ audio
 
 
 

@@ -24,15 +24,15 @@
 
 ## inlets:
 
-* number of samples 
-__type:__ control<br>
+* number of samples<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* converted value (float or list)
-__type:__ control<br>
+* converted value (float or list)<br>
+_type:_ control
 
 
 

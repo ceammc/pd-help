@@ -25,15 +25,15 @@ If nsrc==1 radius and angle controlled with signal values
 
 * **ORDER**
 the order of decomposition<br>
-__type:__ int<br>
+_type:_ int<br>
 
 * **NSRC**
 number of sources<br>
-__type:__ int<br>
+_type:_ int<br>
 
 * **MODE**
 decoding mode<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 
 
@@ -73,43 +73,43 @@ set source mapping in polar coordinates<br>
 
 * **@order** (readonly)
 Get the order of decomposition<br>
-__type:__ int<br>
-__range:__ 1..63<br>
-__default:__ 1<br>
+_type:_ int<br>
+_range:_ 1..63<br>
+_default:_ 1<br>
 
 * **@nsrc** (readonly)
 Get number of input sources<br>
-__type:__ int<br>
-__range:__ 1..63<br>
-__default:__ 1<br>
+_type:_ int<br>
+_range:_ 1..63<br>
+_default:_ 1<br>
 
 * **@ramp** 
 Get/set ramp time<br>
-__type:__ float<br>
-__min value:__ 0<br>
-__default:__ 100<br>
+_type:_ float<br>
+_min value:_ 0<br>
+_default:_ 100<br>
 
 
 
 ## inlets:
 
-* first source input 
-__type:__ audio<br>
-* ... source input 
-__type:__ audio<br>
-* n-th source input 
-__type:__ audio<br>
+* first source input<br>
+_type:_ audio
+* ... source input<br>
+_type:_ audio
+* n-th source input<br>
+_type:_ audio
 
 
 
 ## outlets:
 
-* first harmonic output
-__type:__ audio<br>
-* ... harmonic output
-__type:__ audio<br>
-* n-th harmonic output
-__type:__ audio<br>
+* first harmonic output<br>
+_type:_ audio
+* ... harmonic output<br>
+_type:_ audio
+* n-th harmonic output<br>
+_type:_ audio
 
 
 

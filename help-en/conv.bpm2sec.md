@@ -28,15 +28,15 @@ Convert frequency from BPM (beats per minute) to period in seconds. It&#39;s sim
 
 ## inlets:
 
-* frequency in BPM 
-__type:__ control<br>
+* frequency in BPM<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* period in seconds
-__type:__ control<br>
+* period in seconds<br>
+_type:_ control
 
 
 

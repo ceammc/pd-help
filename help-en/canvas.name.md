@@ -24,15 +24,15 @@
 
 ## inlets:
 
-* output current canvas name 
-__type:__ control<br>
+* output current canvas name<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* current canvas name
-__type:__ control<br>
+* current canvas name<br>
+_type:_ control
 
 
 

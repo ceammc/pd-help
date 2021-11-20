@@ -20,11 +20,11 @@
 
 * **INS**
 number of matrix inputs (columns)<br>
-__type:__ int<br>
+_type:_ int<br>
 
 * **OUTS**
 number of matrix outputs (rows)<br>
-__type:__ int<br>
+_type:_ int<br>
 
 
 
@@ -48,37 +48,37 @@ on/off matrix cell. Note argument order: row, cols.<br>
 
 * **@inputs** (readonly)
 Get number of matrix inputs<br>
-__type:__ int<br>
-__range:__ 2..16<br>
-__default:__ 2<br>
+_type:_ int<br>
+_range:_ 2..16<br>
+_default:_ 2<br>
 
 * **@outputs** (readonly)
 Get number of matrix outputs<br>
-__type:__ int<br>
-__range:__ 2..16<br>
-__default:__ 2<br>
+_type:_ int<br>
+_range:_ 2..16<br>
+_default:_ 2<br>
 
 
 
 ## inlets:
 
-* first input signal 
-__type:__ audio<br>
-* ... input signal 
-__type:__ audio<br>
-* n-th input signal 
-__type:__ audio<br>
+* first input signal<br>
+_type:_ audio
+* ... input signal<br>
+_type:_ audio
+* n-th input signal<br>
+_type:_ audio
 
 
 
 ## outlets:
 
-* first output signal
-__type:__ audio<br>
-* ... output signal
-__type:__ audio<br>
-* n-th output signal
-__type:__ audio<br>
+* first output signal<br>
+_type:_ audio
+* ... output signal<br>
+_type:_ audio
+* n-th output signal<br>
+_type:_ audio
 
 
 

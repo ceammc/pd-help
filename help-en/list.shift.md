@@ -20,7 +20,7 @@
 
 * **shift**
 shift amount. Float values cause linear interpolation. Can be negative.<br>
-__type:__ float<br>
+_type:_ float<br>
 
 
 
@@ -30,24 +30,24 @@ __type:__ float<br>
 
 * **@shift** 
 Get/set shift amount<br>
-__type:__ float<br>
-__default:__ 0<br>
+_type:_ float<br>
+_default:_ 0<br>
 
 
 
 ## inlets:
 
-* input list 
-__type:__ control<br>
-* shift value 
-__type:__ control<br>
+* input list<br>
+_type:_ control
+* shift value<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* new modified list
-__type:__ control<br>
+* new modified list<br>
+_type:_ control
 
 
 

@@ -20,7 +20,7 @@
 
 * **ARRAY**
 array name<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 
 
@@ -30,47 +30,47 @@ __type:__ symbol<br>
 
 * **@array** 
 Get/set target array name<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 * **@redraw** 
 Get/set redraw after array change<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 1<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 1<br>
 
 * **@mode** 
 Get/set rendering mode: *fit* to array size, *resize* array to envelope length or *raw*
 render while enough space in array<br>
-__type:__ symbol<br>
-__enum:__ fit, resize, raw<br>
-__default:__ fit<br>
+_type:_ symbol<br>
+_enum:_ fit, resize, raw<br>
+_default:_ fit<br>
 
 * **@fit** 
 Get/set alias to @mode fit property<br>
-__type:__ alias<br>
+_type:_ alias<br>
 
 * **@resize** 
 Get/set alias to @mode resize property<br>
-__type:__ alias<br>
+_type:_ alias<br>
 
 * **@raw** 
 Get/set alias to @mode raw property<br>
-__type:__ alias<br>
+_type:_ alias<br>
 
 
 
 ## inlets:
 
-* *envelope* data 
-__type:__ control<br>
+* *envelope* data<br>
+_type:_ control
 
 
 
 ## outlets:
 
 * output number of samples in destination array. If array was resized - output
-            this new size
-__type:__ control<br>
+            this new size<br>
+_type:_ control
 
 
 

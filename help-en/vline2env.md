@@ -24,15 +24,15 @@
 
 ## inlets:
 
-* output current envelope 
-__type:__ control<br>
+* output current envelope<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* envelope output
-__type:__ control<br>
+* envelope output<br>
+_type:_ control
 
 
 

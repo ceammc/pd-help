@@ -25,12 +25,12 @@ Note: control rate in PureData depends on block size and samplerate. Do not rely
 
 * **FREQ**
 frequency<br>
-__type:__ float<br>
-__units:__ Hz<br>
+_type:_ float<br>
+_units:_ Hz<br>
 
 * **ON**
 on/off initial state<br>
-__type:__ int<br>
+_type:_ int<br>
 
 
 
@@ -58,52 +58,52 @@ output current value and move to next<br>
 
 * **@freq** 
 Get/set frequency<br>
-__type:__ float<br>
-__units:__ Hz<br>
-__range:__ 0..100<br>
-__default:__ 0<br>
+_type:_ float<br>
+_units:_ Hz<br>
+_range:_ 0..100<br>
+_default:_ 0<br>
 
 * **@on** 
 Get/set on/off state<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 0<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 0<br>
 
 * **@invert** 
 Get/set saw inversion mode. If true, outputs descreasing waveform<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 0<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 0<br>
 
 * **@steps** 
 Get/set numbers of steps<br>
-__type:__ int<br>
-__min value:__ 3<br>
-__default:__ 128<br>
+_type:_ int<br>
+_min value:_ 3<br>
+_default:_ 128<br>
 
 * **@open** 
 Get/set output in open [0..1) range, otherwise output range is [0..1]<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 0<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 0<br>
 
 
 
 ## inlets:
 
-* 1: starts output, 0: stop 
-__type:__ control<br>
-* reset phase to 0 
-__type:__ control<br>
+* 1: starts output, 0: stop<br>
+_type:_ control
+* reset phase to 0<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* float value in 0..1 range
-__type:__ control<br>
-* bang after full cycle
-__type:__ control<br>
+* float value in 0..1 range<br>
+_type:_ control
+* bang after full cycle<br>
+_type:_ control
 
 
 

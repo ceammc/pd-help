@@ -20,11 +20,11 @@
 
 * **NUM**
 @n property<br>
-__type:__ float<br>
+_type:_ float<br>
 
 * **INIT**
 init values<br>
-__type:__ list<br>
+_type:_ list<br>
 
 
 
@@ -34,35 +34,35 @@ __type:__ list<br>
 
 * **@n** 
 Get/set number of inputs/outputs<br>
-__type:__ int<br>
-__range:__ 1..12<br>
-__default:__ 1<br>
+_type:_ int<br>
+_range:_ 1..12<br>
+_default:_ 1<br>
 
 * **@values** 
 Get/set current output values. Default: 0<br>
-__type:__ list<br>
+_type:_ list<br>
 
 
 
 ## inlets:
 
-* set first output value 
-__type:__ control<br>
-* set ... output value 
-__type:__ control<br>
-* set n-th output value 
-__type:__ control<br>
+* set first output value<br>
+_type:_ control
+* set ... output value<br>
+_type:_ control
+* set n-th output value<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* first value output
-__type:__ audio<br>
-* ... value output
-__type:__ audio<br>
-* n-th value output
-__type:__ audio<br>
+* first value output<br>
+_type:_ audio
+* ... value output<br>
+_type:_ audio
+* n-th value output<br>
+_type:_ audio
 
 
 

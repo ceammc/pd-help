@@ -23,7 +23,7 @@ Get properties from connected object/subpatch/abstraction
 
 * **PROPS**
 property names<br>
-__type:__ list<br>
+_type:_ list<br>
 
 
 
@@ -33,21 +33,21 @@ __type:__ list<br>
 
 ## inlets:
 
-* output specified properites to corresponding outlets 
-__type:__ control<br>
+* output specified properites to corresponding outlets<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* connected to destination object
-__type:__ control<br>
-* output of first requested property
-__type:__ control<br>
-* output of ... requested property
-__type:__ control<br>
-* output of n-th requested property
-__type:__ control<br>
+* connected to destination object<br>
+_type:_ control
+* output of first requested property<br>
+_type:_ control
+* output of ... requested property<br>
+_type:_ control
+* output of n-th requested property<br>
+_type:_ control
 
 
 

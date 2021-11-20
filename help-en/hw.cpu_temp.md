@@ -27,15 +27,15 @@ At this moment supports only MacOSX
 
 ## inlets:
 
-* outputs current CPU temperature 
-__type:__ control<br>
+* outputs current CPU temperature<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* float value in celsius degree
-__type:__ control<br>
+* float value in celsius degree<br>
+_type:_ control
 
 
 

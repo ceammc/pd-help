@@ -20,7 +20,7 @@
 
 * **N**
 number of synchronized values<br>
-__type:__ int<br>
+_type:_ int<br>
 
 
 
@@ -30,23 +30,23 @@ __type:__ int<br>
 
 ## inlets:
 
-* first synchronized input 
-__type:__ control<br>
-* ... synchronized input 
-__type:__ control<br>
-* n-th synchronized input 
-__type:__ control<br>
+* first synchronized input<br>
+_type:_ control
+* ... synchronized input<br>
+_type:_ control
+* n-th synchronized input<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* first synchronized output
-__type:__ control<br>
-* ... synchronized output
-__type:__ control<br>
-* n-th synchronized output
-__type:__ control<br>
+* first synchronized output<br>
+_type:_ control
+* ... synchronized output<br>
+_type:_ control
+* n-th synchronized output<br>
+_type:_ control
 
 
 

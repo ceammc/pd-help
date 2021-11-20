@@ -29,19 +29,19 @@ Injects properties into data stream. Values from first inlet are passed unchange
 
 ## inlets:
 
-* data stream 
-__type:__ control<br>
-* property value 
-__type:__ control<br>
-* property value 
-__type:__ control<br>
+* data stream<br>
+_type:_ control
+* property value<br>
+_type:_ control
+* property value<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* output values
-__type:__ control<br>
+* output values<br>
+_type:_ control
 
 
 

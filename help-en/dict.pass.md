@@ -20,7 +20,7 @@
 
 * **KEYS**
 keys<br>
-__type:__ list<br>
+_type:_ list<br>
 
 
 
@@ -30,23 +30,23 @@ __type:__ list<br>
 
 * **@keys** 
 Get/set passed keys<br>
-__type:__ list<br>
+_type:_ list<br>
 
 
 
 ## inlets:
 
-* input dictionary 
-__type:__ control<br>
-* set passed keys 
-__type:__ control<br>
+* input dictionary<br>
+_type:_ control
+* set passed keys<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* dict with passed keys
-__type:__ control<br>
+* dict with passed keys<br>
+_type:_ control
 
 
 

@@ -24,15 +24,15 @@
 
 ## inlets:
 
-* Input list. 
-__type:__ control<br>
+* Input list.<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* new sorted list
-__type:__ control<br>
+* new sorted list<br>
+_type:_ control
 
 
 

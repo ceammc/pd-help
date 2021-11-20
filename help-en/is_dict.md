@@ -24,17 +24,17 @@
 
 ## inlets:
 
-* input 
-__type:__ control<br>
+* input<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* 0 or 1
-__type:__ control<br>
-* passes *dict*
-__type:__ control<br>
+* 0 or 1<br>
+_type:_ control
+* passes *dict*<br>
+_type:_ control
 
 
 

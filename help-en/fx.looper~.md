@@ -20,8 +20,8 @@
 
 * **MAX_LENGTH**
 max loop time<br>
-__type:__ float<br>
-__units:__ sec<br>
+_type:_ float<br>
+_units:_ sec<br>
 
 
 
@@ -69,119 +69,119 @@ clear loop data and stops playing<br>
 
 * **@capacity** 
 Get/set max loop time<br>
-__type:__ float<br>
-__units:__ sec<br>
-__range:__ 0..120<br>
-__default:__ 5<br>
+_type:_ float<br>
+_units:_ sec<br>
+_range:_ 0..120<br>
+_default:_ 5<br>
 
 * **@length** (readonly)
 Get recorded loop length<br>
-__type:__ float<br>
-__units:__ sec<br>
-__min value:__ 0<br>
-__default:__ 0<br>
+_type:_ float<br>
+_units:_ sec<br>
+_min value:_ 0<br>
+_default:_ 0<br>
 
 * **@array** 
 Get/set use specified array for record instead of internal buffer<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 * **@play_pos** (readonly)
 Get current playing position<br>
-__type:__ float<br>
-__units:__ sec<br>
-__min value:__ 0<br>
-__default:__ 0<br>
+_type:_ float<br>
+_units:_ sec<br>
+_min value:_ 0<br>
+_default:_ 0<br>
 
 * **@play_phase** (readonly)
 Get current playing phase position<br>
-__type:__ float<br>
-__range:__ 0..1<br>
-__default:__ 0<br>
+_type:_ float<br>
+_range:_ 0..1<br>
+_default:_ 0<br>
 
 * **@state** (readonly)
 Get current state<br>
-__type:__ symbol<br>
-__enum:__ init, stop, record, play, overdub<br>
-__default:__ init<br>
+_type:_ symbol<br>
+_enum:_ init, stop, record, play, overdub<br>
+_default:_ init<br>
 
 * **@loop_bang** 
 Get/set output bang on each loop start<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 1<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 1<br>
 
 * **@loop_smooth** 
 Get/set time of lin fadein/fadeout applied to recorded loop for smooth playing<br>
-__type:__ float<br>
-__units:__ ms<br>
-__min value:__ 0<br>
-__default:__ 10<br>
+_type:_ float<br>
+_units:_ ms<br>
+_min value:_ 0<br>
+_default:_ 10<br>
 
 * **@play_to_stop_time** 
 Get/set fadeout time while transition from play to stop<br>
-__type:__ float<br>
-__units:__ ms<br>
-__min value:__ 0<br>
-__default:__ 10<br>
+_type:_ float<br>
+_units:_ ms<br>
+_min value:_ 0<br>
+_default:_ 10<br>
 
 * **@play_to_dub_time** 
 Get/set fadein time of overdub input signal while transition from play mode<br>
-__type:__ float<br>
-__units:__ ms<br>
-__min value:__ 0<br>
-__default:__ 10<br>
+_type:_ float<br>
+_units:_ ms<br>
+_min value:_ 0<br>
+_default:_ 10<br>
 
 * **@rec_to_play_time** 
 Get/set xfade between recorded and input signal while transition from record to play<br>
-__type:__ float<br>
-__units:__ ms<br>
-__min value:__ 0<br>
-__default:__ 30<br>
+_type:_ float<br>
+_units:_ ms<br>
+_min value:_ 0<br>
+_default:_ 30<br>
 
 * **@dub_to_stop_time** 
 Get/set fadeout time while transition from overdub to stop<br>
-__type:__ float<br>
-__units:__ ms<br>
-__min value:__ 0<br>
-__default:__ 20<br>
+_type:_ float<br>
+_units:_ ms<br>
+_min value:_ 0<br>
+_default:_ 20<br>
 
 * **@dub_to_play_time** 
 Get/set record fadeout time while transition from overdub to play<br>
-__type:__ float<br>
-__units:__ ms<br>
-__min value:__ 0<br>
-__default:__ 20<br>
+_type:_ float<br>
+_units:_ ms<br>
+_min value:_ 0<br>
+_default:_ 20<br>
 
 * **@stop_to_play_time** 
 Get/set fadein time of play while transition from stop<br>
-__type:__ float<br>
-__units:__ ms<br>
-__min value:__ 0<br>
-__default:__ 10<br>
+_type:_ float<br>
+_units:_ ms<br>
+_min value:_ 0<br>
+_default:_ 10<br>
 
 * **@round** 
 Get/set encrease loop length to be multiple of specified value. If *0* - no rounding is
 performed<br>
-__type:__ int<br>
-__units:__ samp<br>
-__min value:__ 0<br>
-__default:__ 0<br>
+_type:_ int<br>
+_units:_ samp<br>
+_min value:_ 0<br>
+_default:_ 0<br>
 
 
 
 ## inlets:
 
-* input signal 
-__type:__ audio<br>
+* input signal<br>
+_type:_ audio
 
 
 
 ## outlets:
 
-* output signal
-__type:__ audio<br>
-* bang on each loop start if @loop_bang property is true
-__type:__ control<br>
+* output signal<br>
+_type:_ audio
+* bang on each loop start if @loop_bang property is true<br>
+_type:_ control
 
 
 

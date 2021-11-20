@@ -20,7 +20,7 @@
 
 * **ORDER**
 the order of decomposition<br>
-__type:__ int<br>
+_type:_ int<br>
 
 
 
@@ -30,34 +30,33 @@ __type:__ int<br>
 
 * **@order** (readonly)
 Get the order of decomposition<br>
-__type:__ int<br>
-__range:__ 1..63<br>
-__default:__ 1<br>
+_type:_ int<br>
+_range:_ 1..63<br>
+_default:_ 1<br>
 
 
 
 ## inlets:
 
-* first input harmonic 
-__type:__ audio<br>
-* ... input harmonic 
-__type:__ audio<br>
-* n-th input harmonic 
-__type:__ audio<br>
-* Set the angle of the rotation of the soundfield in radian. The rotation
-                angle is anti-clockwise and wrapped between 0 and 2π. 
-__type:__ audio<br>
+* first input harmonic<br>
+_type:_ audio
+* ... input harmonic<br>
+_type:_ audio
+* n-th input harmonic<br>
+_type:_ audio
+* Set the angle of the rotation of the soundfield in radian. The rotation angle is anti-clockwise and wrapped between 0 and 2π.<br>
+_type:_ audio
 
 
 
 ## outlets:
 
-* first output harmonic
-__type:__ audio<br>
-* ... output harmonic
-__type:__ audio<br>
-* n-th output harmonic
-__type:__ audio<br>
+* first output harmonic<br>
+_type:_ audio
+* ... output harmonic<br>
+_type:_ audio
+* n-th output harmonic<br>
+_type:_ audio
 
 
 

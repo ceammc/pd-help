@@ -27,16 +27,15 @@ If relative path is given file searched under patch directory
 
 ## inlets:
 
-* outputs &#39;1&#39; if file exists and can be opened, otherwise
-                &#39;0&#39; 
-__type:__ control<br>
+* outputs &#39;1&#39; if file exists and can be opened, otherwise &#39;0&#39;<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* 0 or 1
-__type:__ control<br>
+* 0 or 1<br>
+_type:_ control
 
 
 

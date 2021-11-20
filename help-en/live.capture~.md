@@ -37,31 +37,31 @@ reset recorded data<br>
 
 * **@gate** 
 Get/set start/stop recording<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 0<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 0<br>
 
 * **@active** 
 Get/set on/off dsp processing<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 1<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 1<br>
 
 
 
 ## inlets:
 
-* source signal 
-__type:__ audio<br>
-* 1/0 toggle signal 
-__type:__ control<br>
+* source signal<br>
+_type:_ audio
+* 1/0 toggle signal<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* recorded signal
-__type:__ audio<br>
+* recorded signal<br>
+_type:_ audio
 
 
 

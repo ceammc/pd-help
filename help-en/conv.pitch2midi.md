@@ -29,15 +29,15 @@ Convert Scientific Pitch Notation to MIDI note numbers. SPN consist of pitch cla
 
 ## inlets:
 
-* Scientific Pitch Notation value 
-__type:__ control<br>
+* Scientific Pitch Notation value<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* MIDI note number or -1 on Rest
-__type:__ control<br>
+* MIDI note number or -1 on Rest<br>
+_type:_ control
 
 
 

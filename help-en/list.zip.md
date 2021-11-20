@@ -21,7 +21,7 @@
 
 * **N**
 number of inputs<br>
-__type:__ int<br>
+_type:_ int<br>
 
 
 
@@ -31,57 +31,57 @@ __type:__ int<br>
 
 * **@method** 
 Get/set behavior, if list have different sizes<br>
-__type:__ symbol<br>
-__enum:__ min, pad, clip, wrap, fold<br>
-__default:__ min<br>
+_type:_ symbol<br>
+_enum:_ min, pad, clip, wrap, fold<br>
+_default:_ min<br>
 
 * **@min** 
 Get/set alias for &#34;@oversize min&#34; property. Truncates lists to minimal common size<br>
-__type:__ alias<br>
+_type:_ alias<br>
 
 * **@clip** 
 Get/set alias for &#34;@oversize clip&#34; property. Pad shortest list with last element to
 conform longest list<br>
-__type:__ alias<br>
+_type:_ alias<br>
 
 * **@wrap** 
 Get/set alias for &#34;@oversize wrap&#34; property. Pad shortest list with repeated values
 from the beginning.<br>
-__type:__ alias<br>
+_type:_ alias<br>
 
 * **@fold** 
 Get/set alias for &#34;@oversize fold&#34; property. Pad shortest list with repeated values
 from the end to the beginning, then back and so on.<br>
-__type:__ alias<br>
+_type:_ alias<br>
 
 * **@pad** 
 Get/set pad value for pad method of resizing<br>
-__type:__ atom<br>
-__default:__ 0<br>
+_type:_ atom<br>
+_default:_ 0<br>
 
 * **@n** 
 Get/set number of inputs<br>
-__type:__ int<br>
-__range:__ 2..20<br>
-__default:__ 2<br>
+_type:_ int<br>
+_range:_ 2..20<br>
+_default:_ 2<br>
 
 * **@lists** (readonly)
 Get input data list: list of data:mlist<br>
-__type:__ list<br>
+_type:_ list<br>
 
 
 
 ## inlets:
 
-* input list 
-__type:__ control<br>
+* input list<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* interleaved list
-__type:__ control<br>
+* interleaved list<br>
+_type:_ control
 
 
 

@@ -24,15 +24,15 @@
 
 ## inlets:
 
-* output current patch tree as Dict 
-__type:__ control<br>
+* output current patch tree as Dict<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* patch tree as Dict
-__type:__ control<br>
+* patch tree as Dict<br>
+_type:_ control
 
 
 

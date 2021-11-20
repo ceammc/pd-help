@@ -23,7 +23,7 @@ Calculates BPM (Beats Per Minute) rate using SoundTouch library
 
 * **ARRAY**
 array name<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 
 
@@ -33,21 +33,21 @@ __type:__ symbol<br>
 
 * **@array** 
 Get/set array name<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 
 
 ## inlets:
 
-* starts calculation 
-__type:__ control<br>
+* starts calculation<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* float value - BPM
-__type:__ control<br>
+* float value - BPM<br>
+_type:_ control
 
 
 

@@ -28,8 +28,8 @@ Empty timeline always contains &#34;end&#34; event, that can&#39;t be removed. E
 
 * **LENGTH**
 timeline length<br>
-__type:__ int<br>
-__units:__ sec<br>
+_type:_ int<br>
+_units:_ sec<br>
 
 
 
@@ -97,67 +97,66 @@ move time to time<br>
 
 * **@is_running** (readonly)
 Get if timeline is running<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 0<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 0<br>
 
 * **@length** (readonly)
 Get timeline length<br>
-__type:__ float<br>
-__units:__ sec<br>
-__default:__ 60<br>
+_type:_ float<br>
+_units:_ sec<br>
+_default:_ 60<br>
 
 * **@size** (readonly)
 Get number of events in timeline<br>
-__type:__ int<br>
-__min value:__ 0<br>
-__default:__ 1<br>
+_type:_ int<br>
+_min value:_ 0<br>
+_default:_ 1<br>
 
 * **@current** (readonly)
 Get current time<br>
-__type:__ float<br>
-__units:__ ms<br>
-__default:__ 0<br>
+_type:_ float<br>
+_units:_ ms<br>
+_default:_ 0<br>
 
 * **@phase** (readonly)
 Get current phase in [0-1) range<br>
-__type:__ float<br>
-__range:__ 0..1<br>
-__default:__ 0<br>
+_type:_ float<br>
+_range:_ 0..1<br>
+_default:_ 0<br>
 
 * **@events** (readonly)
 Get list of event names in chronological order<br>
-__type:__ list<br>
-__default:__ end<br>
+_type:_ list<br>
+_default:_ end<br>
 
 * **@loop** 
 Get/set loop mode<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 0<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 0<br>
 
 * **@mode** 
 Get/set timeline mode. If timeline is fixed, when reached, it outputs *end* event and
 stops after that. Infinite timeline never stops by itself. Fixed timeline can
 have @loop property for repeats<br>
-__type:__ symbol<br>
-__enum:__ fixed, inf<br>
-__default:__ fixed<br>
+_type:_ symbol<br>
+_enum:_ fixed, inf<br>
+_default:_ fixed<br>
 
 
 
 ## inlets:
 
-* control inlet. Non-zero value starts timeline, zero -
-                stops. 
-__type:__ control<br>
+* control inlet. Non-zero value starts timeline, zero - stops.<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* outputs pair: event index and event name
-__type:__ control<br>
+* outputs pair: event index and event name<br>
+_type:_ control
 
 
 

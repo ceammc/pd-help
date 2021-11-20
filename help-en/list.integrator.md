@@ -31,50 +31,50 @@ clear integrator state<br>
 
 * **@oversize** 
 Get/set behavior, if list have different sizes<br>
-__type:__ symbol<br>
-__enum:__ min, padz, clip, wrap, fold<br>
-__default:__ padz<br>
+_type:_ symbol<br>
+_enum:_ min, padz, clip, wrap, fold<br>
+_default:_ padz<br>
 
 * **@min** 
 Get/set alias for &#34;@oversize min&#34; property. Truncates lists to minimal common size<br>
-__type:__ alias<br>
+_type:_ alias<br>
 
 * **@clip** 
 Get/set alias for &#34;@oversize min&#34; property. Truncates lists to minimal common size.<br>
-__type:__ alias<br>
+_type:_ alias<br>
 
 * **@padz** 
 Get/set alias for &#34;@oversize padz&#34; property. Pad shortest list with zeroes.<br>
-__type:__ alias<br>
+_type:_ alias<br>
 
 * **@clip** 
 Get/set alias for &#34;@oversize clip&#34; property. Pad shortest list with last element to
 conform longest list<br>
-__type:__ alias<br>
+_type:_ alias<br>
 
 * **@wrap** 
 Get/set alias for &#34;@oversize wrap&#34; property. Pad shortest list with repeated values
 from the beginning.<br>
-__type:__ alias<br>
+_type:_ alias<br>
 
 * **@fold** 
 Get/set alias for &#34;@oversize fold&#34; property. Pad shortest list with repeated values
 from the end to the beginning, then back and so on.<br>
-__type:__ alias<br>
+_type:_ alias<br>
 
 
 
 ## inlets:
 
-* Input list 
-__type:__ control<br>
+* Input list<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* new integrated list
-__type:__ control<br>
+* new integrated list<br>
+_type:_ control
 
 
 

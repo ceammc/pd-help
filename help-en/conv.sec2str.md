@@ -25,27 +25,27 @@
 
 * **@ms** 
 Get/set output milliseconds<br>
-__type:__ flag<br>
-__default:__ 0<br>
+_type:_ flag<br>
+_default:_ 0<br>
 
 * **@symbol** 
 Get/set if specified - output formatted time as symbol, otherwise as string.<br>
-__type:__ flag<br>
-__default:__ 0<br>
+_type:_ flag<br>
+_default:_ 0<br>
 
 
 
 ## inlets:
 
-* converts float value in seconds to formatted symbol 
-__type:__ control<br>
+* converts float value in seconds to formatted symbol<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* time in format &#34;HH:MM::SS&#34; or &#34;HH:MM:SS.XXX&#34;
-__type:__ control<br>
+* time in format &#34;HH:MM::SS&#34; or &#34;HH:MM:SS.XXX&#34;<br>
+_type:_ control
 
 
 

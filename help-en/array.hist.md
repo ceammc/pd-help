@@ -23,19 +23,19 @@ Values outside of range @min...@max are ignored
 
 * **NAME**
 array name<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 * **BINS**
 number of bins<br>
-__type:__ int<br>
+_type:_ int<br>
 
 * **MIN**
 minimal value<br>
-__type:__ float<br>
+_type:_ float<br>
 
 * **MAX**
 maximum value<br>
-__type:__ float<br>
+_type:_ float<br>
 
 
 
@@ -45,37 +45,37 @@ __type:__ float<br>
 
 * **@array** 
 Get/set array name<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 * **@bins** 
 Get/set number of bins<br>
-__type:__ int<br>
-__range:__ 2..1000<br>
-__default:__ 100<br>
+_type:_ int<br>
+_range:_ 2..1000<br>
+_default:_ 100<br>
 
 * **@min** 
 Get/set minimal value<br>
-__type:__ float<br>
-__default:__ -1<br>
+_type:_ float<br>
+_default:_ -1<br>
 
 * **@max** 
 Get/set maximum value<br>
-__type:__ float<br>
-__default:__ 1<br>
+_type:_ float<br>
+_default:_ 1<br>
 
 
 
 ## inlets:
 
-* calculates and outputs histogram 
-__type:__ control<br>
+* calculates and outputs histogram<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* list of histogram value (length=@bins)
-__type:__ control<br>
+* list of histogram value (length=@bins)<br>
+_type:_ control
 
 
 

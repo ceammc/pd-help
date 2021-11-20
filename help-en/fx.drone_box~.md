@@ -20,7 +20,7 @@
 
 * **pitch**
 drone MIDI pitch<br>
-__type:__ float<br>
+_type:_ float<br>
 
 
 
@@ -30,49 +30,49 @@ __type:__ float<br>
 
 * **@pitch** 
 Get/set drone MIDI pitch<br>
-__type:__ float<br>
-__range:__ 36..60<br>
-__default:__ 48<br>
+_type:_ float<br>
+_range:_ 36..60<br>
+_default:_ 48<br>
 
 * **@decay** 
 Get/set drone pluck decay time<br>
-__type:__ float<br>
-__units:__ ms<br>
-__range:__ 100..120000<br>
-__default:__ 4000<br>
+_type:_ float<br>
+_units:_ ms<br>
+_range:_ 100..120000<br>
+_default:_ 4000<br>
 
 * **@drywet** 
 Get/set proportion of mix between the original (dry) and &#39;effected&#39; (wet) signals. 0 -
 dry signal, 1 - wet.<br>
-__type:__ float<br>
-__range:__ 0..1<br>
-__default:__ 0.5<br>
+_type:_ float<br>
+_range:_ 0..1<br>
+_default:_ 0.5<br>
 
 * **@bypass** 
 Get/set if set to 1 - bypass &#39;effected&#39; signal.<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 0<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 0<br>
 
 * **@active** 
 Get/set on/off dsp processing<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 1<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 1<br>
 
 
 
 ## inlets:
 
-* input signal 
-__type:__ audio<br>
+* input signal<br>
+_type:_ audio
 
 
 
 ## outlets:
 
-* output signal
-__type:__ audio<br>
+* output signal<br>
+_type:_ audio
 
 
 

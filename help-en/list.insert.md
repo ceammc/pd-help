@@ -23,7 +23,7 @@ Works with data atoms
 
 * **LIST**
 list content<br>
-__type:__ list<br>
+_type:_ list<br>
 
 
 
@@ -33,31 +33,31 @@ __type:__ list<br>
 
 * **@index** 
 Get/set insert element index<br>
-__type:__ int<br>
-__min value:__ 0<br>
-__default:__ 0<br>
+_type:_ int<br>
+_min value:_ 0<br>
+_default:_ 0<br>
 
 * **@value** 
 Get/set list contents<br>
-__type:__ list<br>
+_type:_ list<br>
 
 
 
 ## inlets:
 
-* input list 
-__type:__ control<br>
-* set inserted atom or list 
-__type:__ control<br>
-* set insert position 
-__type:__ control<br>
+* input list<br>
+_type:_ control
+* set inserted atom or list<br>
+_type:_ control
+* set insert position<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* output result list or mlist
-__type:__ control<br>
+* output result list or mlist<br>
+_type:_ control
 
 
 

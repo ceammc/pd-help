@@ -23,7 +23,7 @@ Note: you can get/set object properties only via prop.set/prop.get objects
 
 * **N**
 number of outlets<br>
-__type:__ int<br>
+_type:_ int<br>
 
 
 
@@ -33,27 +33,27 @@ __type:__ int<br>
 
 * **@index** 
 Get/set current demultiplexer output index<br>
-__type:__ int<br>
-__min value:__ 0<br>
-__default:__ 0<br>
+_type:_ int<br>
+_min value:_ 0<br>
+_default:_ 0<br>
 
 
 
 ## inlets:
 
-* input flow inlet 
-__type:__ control<br>
-* output selector 
-__type:__ control<br>
+* input flow inlet<br>
+_type:_ control
+* output selector<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* demultiplexer first output
-__type:__ control<br>
-* demultiplexer N-th output
-__type:__ control<br>
+* demultiplexer first output<br>
+_type:_ control
+* demultiplexer N-th output<br>
+_type:_ control
 
 
 

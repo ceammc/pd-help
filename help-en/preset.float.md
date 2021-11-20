@@ -23,11 +23,11 @@ Named float preset entry. Can store/load up to 256 various float values
 
 * **ID**
 preset id (should be unique in most use cases)<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 * **VAL**
 preset initial value<br>
-__type:__ float<br>
+_type:_ float<br>
 
 
 
@@ -53,40 +53,40 @@ linearly interpolate between preset indexes and output<br>
 * **@path** (readonly)
 Get property OSC-like path that includes id, abstraction name and may be subpatch
 name separated by slashes.<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 * **@id** (readonly)
 Get preset id<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 * **@init** 
 Get/set init float value<br>
-__type:__ float<br>
-__default:__ 0<br>
+_type:_ float<br>
+_default:_ 0<br>
 
 * **@global** 
 Get/set use global path like /ID<br>
-__type:__ flag<br>
-__default:__ 0<br>
+_type:_ flag<br>
+_default:_ 0<br>
 
 * **@subpatch** 
 Get/set include subpatch name to path<br>
-__type:__ flag<br>
-__default:__ 0<br>
+_type:_ flag<br>
+_default:_ 0<br>
 
 
 
 ## inlets:
 
-* set preset value without output 
-__type:__ control<br>
+* set preset value without output<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* preset float value
-__type:__ control<br>
+* preset float value<br>
+_type:_ control
 
 
 

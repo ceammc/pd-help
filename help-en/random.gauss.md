@@ -31,11 +31,11 @@ Use @seed property to get reproducible sequences. If @seed property was not
 
 * **MU**
 the mean<br>
-__type:__ float<br>
+_type:_ float<br>
 
 * **SIGMA**
 the standard deviation<br>
-__type:__ float<br>
+_type:_ float<br>
 
 
 
@@ -45,34 +45,34 @@ __type:__ float<br>
 
 * **@mu** 
 Get/set the mean<br>
-__type:__ float<br>
-__default:__ 0<br>
+_type:_ float<br>
+_default:_ 0<br>
 
 * **@sigma** 
 Get/set the standard deviation<br>
-__type:__ float<br>
-__min value:__ 0<br>
-__default:__ 0<br>
+_type:_ float<br>
+_min value:_ 0<br>
+_default:_ 0<br>
 
 * **@seed** 
 Get/set generator seed<br>
-__type:__ int<br>
-__min value:__ 0<br>
-__default:__ 0<br>
+_type:_ int<br>
+_min value:_ 0<br>
+_default:_ 0<br>
 
 
 
 ## inlets:
 
-* generates random number 
-__type:__ control<br>
+* generates random number<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* result value
-__type:__ control<br>
+* result value<br>
+_type:_ control
 
 
 

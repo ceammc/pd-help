@@ -23,11 +23,11 @@ By default converts from [0..127] to [0..1]
 
 * **FROM**
 start value of output range<br>
-__type:__ float<br>
+_type:_ float<br>
 
 * **TO**
 end value of output range<br>
-__type:__ float<br>
+_type:_ float<br>
 
 
 
@@ -37,27 +37,27 @@ __type:__ float<br>
 
 * **@from** 
 Get/set start value of output range<br>
-__type:__ float<br>
-__default:__ 0<br>
+_type:_ float<br>
+_default:_ 0<br>
 
 * **@to** 
 Get/set end value of output range<br>
-__type:__ float<br>
-__default:__ 1<br>
+_type:_ float<br>
+_default:_ 1<br>
 
 
 
 ## inlets:
 
-* value in MIDI CC range [0..127] 
-__type:__ control<br>
+* value in MIDI CC range [0..127]<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* converted value
-__type:__ control<br>
+* converted value<br>
+_type:_ control
 
 
 

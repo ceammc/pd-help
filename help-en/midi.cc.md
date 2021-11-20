@@ -20,15 +20,15 @@
 
 * **CC**
 controller number<br>
-__type:__ int<br>
+_type:_ int<br>
 
 * **MIN**
 @min value<br>
-__type:__ float<br>
+_type:_ float<br>
 
 * **MAX**
 @max value<br>
-__type:__ float<br>
+_type:_ float<br>
 
 
 
@@ -38,44 +38,44 @@ __type:__ float<br>
 
 * **@cc** 
 Get/set controller number<br>
-__type:__ int<br>
-__range:__ 0..127<br>
-__default:__ 0<br>
+_type:_ int<br>
+_range:_ 0..127<br>
+_default:_ 0<br>
 
 * **@ch** 
 Get/set MIDI channel<br>
-__type:__ int<br>
-__range:__ 0..16<br>
-__default:__ 0<br>
+_type:_ int<br>
+_range:_ 0..16<br>
+_default:_ 0<br>
 
 * **@min** 
 Get/set output value at midi input == 0<br>
-__type:__ float<br>
-__default:__ 0<br>
+_type:_ float<br>
+_default:_ 0<br>
 
 * **@max** 
 Get/set output value at midi input == 127<br>
-__type:__ float<br>
-__default:__ 127<br>
+_type:_ float<br>
+_default:_ 127<br>
 
 * **@curve** 
 Get/set output curve. If @curve0: slow begin, fast end, if @curve==0: linear speed<br>
-__type:__ float<br>
-__default:__ 0<br>
+_type:_ float<br>
+_default:_ 0<br>
 
 
 
 ## inlets:
 
-* control input 
-__type:__ control<br>
+* control input<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* float value
-__type:__ control<br>
+* float value<br>
+_type:_ control
 
 
 

@@ -24,12 +24,12 @@ if new input message received, while delayed message is not send, the delayed
 
 * **DELAY**
 message delay<br>
-__type:__ float<br>
-__units:__ ms<br>
+_type:_ float<br>
+_units:_ ms<br>
 
 * **MSG**
 message arguments<br>
-__type:__ list<br>
+_type:_ list<br>
 
 
 
@@ -39,17 +39,17 @@ __type:__ list<br>
 
 ## inlets:
 
-* any input message 
-__type:__ control<br>
-* change message delay 
-__type:__ control<br>
+* any input message<br>
+_type:_ control
+* change message delay<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* message output
-__type:__ control<br>
+* message output<br>
+_type:_ control
 
 
 

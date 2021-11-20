@@ -24,22 +24,22 @@
 
 * **@on_err** 
 Get/set value returned when unrecognized symbol given<br>
-__type:__ float<br>
-__default:__ -1<br>
+_type:_ float<br>
+_default:_ -1<br>
 
 
 
 ## inlets:
 
-* Time in format: &#34;HH:MM::SS[.XXX]&#34; 
-__type:__ control<br>
+* Time in format: &#34;HH:MM::SS[.XXX]&#34;<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* time in seconds
-__type:__ control<br>
+* time in seconds<br>
+_type:_ control
 
 
 

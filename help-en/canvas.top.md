@@ -33,61 +33,61 @@ save patch to postscript<br>
 
 * **@name** (readonly)
 Get canvas name<br>
-__type:__ symbol<br>
-__default:__ test_canvas<br>
+_type:_ symbol<br>
+_default:_ test_canvas<br>
 
 * **@dir** (readonly)
 Get canvas directory<br>
-__type:__ symbol<br>
-__default:__ /<br>
+_type:_ symbol<br>
+_default:_ /<br>
 
 * **@size** (readonly)
 Get window size<br>
-__type:__ list<br>
-__default:__ 600 400<br>
+_type:_ list<br>
+_default:_ 600 400<br>
 
 * **@width** (readonly)
 Get window width<br>
-__type:__ int<br>
-__default:__ 600<br>
+_type:_ int<br>
+_default:_ 600<br>
 
 * **@height** (readonly)
 Get window height<br>
-__type:__ int<br>
-__default:__ 400<br>
+_type:_ int<br>
+_default:_ 400<br>
 
 * **@font** (readonly)
 Get window font<br>
-__type:__ int<br>
-__default:__ 10<br>
+_type:_ int<br>
+_default:_ 10<br>
 
 * **@paths** (readonly)
 Get search paths<br>
-__type:__ list<br>
+_type:_ list<br>
 
 * **@x** (readonly)
 Get window x-pos<br>
-__type:__ int<br>
-__default:__ 0<br>
+_type:_ int<br>
+_default:_ 0<br>
 
 * **@y** (readonly)
 Get window y-pos<br>
-__type:__ int<br>
-__default:__ 0<br>
+_type:_ int<br>
+_default:_ 0<br>
 
 
 
 ## inlets:
 
-* property request 
-__type:__ control<br>
+* property request<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* dict/property output
-__type:__ control<br>
+* dict/property output<br>
+_type:_ control
 
 
 

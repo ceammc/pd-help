@@ -24,27 +24,27 @@
 
 * **@active** 
 Get/set on/off dsp processing<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 1<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 1<br>
 
 
 
 ## inlets:
 
-* left input signal 
-__type:__ audio<br>
-* right input signal 
-__type:__ audio<br>
+* left input signal<br>
+_type:_ audio
+* right input signal<br>
+_type:_ audio
 
 
 
 ## outlets:
 
-* left output signal
-__type:__ audio<br>
-* right output signal
-__type:__ audio<br>
+* left output signal<br>
+_type:_ audio
+* right output signal<br>
+_type:_ audio
 
 
 

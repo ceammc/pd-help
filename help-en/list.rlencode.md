@@ -24,18 +24,17 @@
 
 ## inlets:
 
-* input list 
-__type:__ control<br>
+* input list<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* First list: list entries without repetitions. For example 1 1 2 2 2 1 1 becomes
-            1 2 1
-__type:__ control<br>
-* Second list: count of entries
-__type:__ control<br>
+* First list: list entries without repetitions. For example 1 1 2 2 2 1 1 becomes 1 2 1<br>
+_type:_ control
+* Second list: count of entries<br>
+_type:_ control
 
 
 

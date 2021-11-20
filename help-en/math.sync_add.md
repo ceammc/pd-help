@@ -20,7 +20,7 @@
 
 * **F**
 second addend<br>
-__type:__ float<br>
+_type:_ float<br>
 
 
 
@@ -30,24 +30,24 @@ __type:__ float<br>
 
 * **@int** 
 Get/set operate on integers only<br>
-__type:__ flag<br>
-__default:__ 0<br>
+_type:_ flag<br>
+_default:_ 0<br>
 
 
 
 ## inlets:
 
-* set first addend, calculate and output result 
-__type:__ control<br>
-* change second addend, calculate and output result 
-__type:__ control<br>
+* set first addend, calculate and output result<br>
+_type:_ control
+* change second addend, calculate and output result<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* result output
-__type:__ control<br>
+* result output<br>
+_type:_ control
 
 
 

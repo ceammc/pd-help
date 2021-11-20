@@ -24,16 +24,15 @@
 
 ## inlets:
 
-* calc all coefficients for given order and output them as
-                list 
-__type:__ control<br>
+* calc all coefficients for given order and output them as list<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* result value
-__type:__ control<br>
+* result value<br>
+_type:_ control
 
 
 

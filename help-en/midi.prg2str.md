@@ -24,27 +24,27 @@
 
 * **@symbol** 
 Get/set output as symbol instead of string by default<br>
-__type:__ flag<br>
-__default:__ 0<br>
+_type:_ flag<br>
+_default:_ 0<br>
 
 * **@family** 
 Get/set output family name instead of instrument name<br>
-__type:__ flag<br>
-__default:__ 0<br>
+_type:_ flag<br>
+_default:_ 0<br>
 
 
 
 ## inlets:
 
-* General MIDI instrument number [1-128] 
-__type:__ control<br>
+* General MIDI instrument number [1-128]<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* output General MIDI instrument name (string or symbol)
-__type:__ control<br>
+* output General MIDI instrument name (string or symbol)<br>
+_type:_ control
 
 
 

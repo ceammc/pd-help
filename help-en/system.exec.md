@@ -39,25 +39,25 @@ write data to process stdin<br>
 
 * **@is_running** (readonly)
 Get is process is running<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 0<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 0<br>
 
 
 
 ## inlets:
 
-* run specified program 
-__type:__ control<br>
+* run specified program<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* output process exit code
-__type:__ control<br>
-* output list of strings
-__type:__ control<br>
+* output process exit code<br>
+_type:_ control
+* output list of strings<br>
+_type:_ control
 
 
 

@@ -28,15 +28,15 @@ Note: amplitude value &lt;=0 is converted to -144 db (24-bit range)
 
 ## inlets:
 
-* input signal 
-__type:__ audio<br>
+* input signal<br>
+_type:_ audio
 
 
 
 ## outlets:
 
-* converted signal
-__type:__ audio<br>
+* converted signal<br>
+_type:_ audio
 
 
 

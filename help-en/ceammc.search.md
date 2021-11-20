@@ -39,23 +39,23 @@ alias to objects method<br>
 
 * **@max** 
 Get/set maximum number of result<br>
-__type:__ int<br>
-__range:__ 1..50<br>
-__default:__ 10<br>
+_type:_ int<br>
+_range:_ 1..50<br>
+_default:_ 10<br>
 
 
 
 ## inlets:
 
-* search in descriptions 
-__type:__ control<br>
+* search in descriptions<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* list of matched object names
-__type:__ control<br>
+* list of matched object names<br>
+_type:_ control
 
 
 

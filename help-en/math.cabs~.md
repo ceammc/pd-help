@@ -24,17 +24,17 @@
 
 ## inlets:
 
-* real part of input signal 
-__type:__ audio<br>
-* imag part of input signal 
-__type:__ audio<br>
+* real part of input signal<br>
+_type:_ audio
+* imag part of input signal<br>
+_type:_ audio
 
 
 
 ## outlets:
 
-* signal magnitude
-__type:__ audio<br>
+* signal magnitude<br>
+_type:_ audio
 
 
 

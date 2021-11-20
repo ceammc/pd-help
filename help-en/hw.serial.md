@@ -20,12 +20,12 @@
 
 * **RATE**
 serial baud rate<br>
-__type:__ int<br>
+_type:_ int<br>
 
 * **PORT**
 serial device or port name, eg.: COM3 on Windows, /dev/ttyACM0 on Linux and
 /dev/cu.usbmodem411 on MacOSX<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 
 
@@ -45,32 +45,32 @@ disconnect from device<br>
 * **@port** 
 Get/set name of serial port, eg.: COM3 on Windows, /dev/ttyACM0 on Linux and
 /dev/cu.usbmodem411 on MacOSX<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 * **@rate** 
 Get/set serial baud rate. Standard value supported by most serial ports: 110, 300, 600,
 1200, 2400, 4800, 9600, 14400, 19200, 28800, 38400, 56000, 57600, 115200<br>
-__type:__ int<br>
-__min value:__ 0<br>
-__default:__ 57600<br>
+_type:_ int<br>
+_min value:_ 0<br>
+_default:_ 57600<br>
 
 * **@devices** (readonly)
 Get list of found serial devices<br>
-__type:__ list<br>
+_type:_ list<br>
 
 
 
 ## inlets:
 
-* sends float value in byte range [0-255] to serial port 
-__type:__ control<br>
+* sends float value in byte range [0-255] to serial port<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* outputs received byte from serial port
-__type:__ control<br>
+* outputs received byte from serial port<br>
+_type:_ control
 
 
 

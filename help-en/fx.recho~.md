@@ -20,12 +20,12 @@
 
 * **time**
 echo time<br>
-__type:__ float<br>
-__units:__ ms<br>
+_type:_ float<br>
+_units:_ ms<br>
 
 * **feedback**
 feedback coefficient<br>
-__type:__ float<br>
+_type:_ float<br>
 
 
 
@@ -41,49 +41,49 @@ reset to initial state<br>
 
 * **@delay** 
 Get/set echo time<br>
-__type:__ float<br>
-__units:__ ms<br>
-__range:__ 0..2000<br>
-__default:__ 500<br>
+_type:_ float<br>
+_units:_ ms<br>
+_range:_ 0..2000<br>
+_default:_ 500<br>
 
 * **@feedback** 
 Get/set feedback coefficient<br>
-__type:__ float<br>
-__range:__ 0..0.99<br>
-__default:__ 0.3<br>
+_type:_ float<br>
+_range:_ 0..0.99<br>
+_default:_ 0.3<br>
 
 * **@drywet** 
 Get/set proportion of mix between the original (dry) and &#39;effected&#39; (wet) signals. 0 -
 dry signal, 1 - wet<br>
-__type:__ float<br>
-__range:__ 0..1<br>
-__default:__ 1<br>
+_type:_ float<br>
+_range:_ 0..1<br>
+_default:_ 1<br>
 
 * **@bypass** 
 Get/set if set to 1 - bypass &#39;effected&#39; signal<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 0<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 0<br>
 
 * **@active** 
 Get/set on/off dsp processing<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 1<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 1<br>
 
 
 
 ## inlets:
 
-* input signal 
-__type:__ audio<br>
+* input signal<br>
+_type:_ audio
 
 
 
 ## outlets:
 
-* output signal
-__type:__ audio<br>
+* output signal<br>
+_type:_ audio
 
 
 

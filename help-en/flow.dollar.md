@@ -24,15 +24,15 @@
 
 ## inlets:
 
-* input flow 
-__type:__ control<br>
+* input flow<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* outputs flow with realized dollar atoms
-__type:__ control<br>
+* outputs flow with realized dollar atoms<br>
+_type:_ control
 
 
 

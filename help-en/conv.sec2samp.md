@@ -25,15 +25,15 @@
 
 ## inlets:
 
-* time in seconds 
-__type:__ control<br>
+* time in seconds<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* converted value (float or list)
-__type:__ control<br>
+* converted value (float or list)<br>
+_type:_ control
 
 
 

@@ -127,15 +127,15 @@ draw row pixels<br>
 
 ## inlets:
 
-* input byte value from arduino 
-__type:__ control<br>
+* input byte value from arduino<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* output parsed messages from device
-__type:__ control<br>
+* output parsed messages from device<br>
+_type:_ control
 
 
 

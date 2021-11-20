@@ -51,15 +51,15 @@ Collatz conjecture output
 
 ## inlets:
 
-* output value 
-__type:__ control<br>
+* output value<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* main outlet
-__type:__ control<br>
+* main outlet<br>
+_type:_ control
 
 
 

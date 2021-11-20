@@ -20,7 +20,7 @@
 
 * **N**
 buffer length<br>
-__type:__ int<br>
+_type:_ int<br>
 
 
 
@@ -30,29 +30,29 @@ __type:__ int<br>
 
 * **@length** 
 Get/set buffer length<br>
-__type:__ int<br>
-__range:__ 1..24<br>
-__default:__ 2<br>
+_type:_ int<br>
+_range:_ 1..24<br>
+_default:_ 2<br>
 
 
 
 ## inlets:
 
-* input 
-__type:__ control<br>
-* output all buffer values 
-__type:__ control<br>
+* input<br>
+_type:_ control
+* output all buffer values<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* first output
-__type:__ control<br>
-* ... output
-__type:__ control<br>
-* n-th output
-__type:__ control<br>
+* first output<br>
+_type:_ control
+* ... output<br>
+_type:_ control
+* n-th output<br>
+_type:_ control
 
 
 

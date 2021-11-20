@@ -29,30 +29,30 @@ Exponential segment also has curve property: if 0 - (linear) &lt;0 (concave,
 
 * **adsr**
 ADSR envelope: attack(ms), decay(ms), sustain(%), release(ms)<br>
-__type:__ list<br>
+_type:_ list<br>
 
 * **asr**
 ASR envelope: attack(ms), release(ms) - with sustain stop point<br>
-__type:__ list<br>
+_type:_ list<br>
 
 * **ar**
 AR envelope: attack(ms), release(ms)<br>
-__type:__ list<br>
+_type:_ list<br>
 
 * **eadsr**
 exponential ADSR envelope: attack(ms), attack_curve, decay(ms), decay_curve,
 sustain(%), release(ms), release_curve<br>
-__type:__ list<br>
+_type:_ list<br>
 
 * **easr**
 exponential ASR envelope: attack(ms), attack_curve, release(ms), release_curve
 - with sustain stop point<br>
-__type:__ list<br>
+_type:_ list<br>
 
 * **ear**
 exponential ASR envelope: attack(ms), attack_curve, release(ms), release_curve
 - no sustain point<br>
-__type:__ list<br>
+_type:_ list<br>
 
 
 
@@ -452,42 +452,42 @@ creates sigmoid-segmented envelope with arbitrary number of segments<br>
 
 * **@npoints** (readonly)
 Get number of points<br>
-__type:__ int<br>
-__min value:__ 0<br>
-__default:__ 0<br>
+_type:_ int<br>
+_min value:_ 0<br>
+_default:_ 0<br>
 
 * **@length** (readonly)
 Get total envelope time length<br>
-__type:__ float<br>
-__units:__ ms<br>
-__min value:__ 0<br>
-__default:__ 0<br>
+_type:_ float<br>
+_units:_ ms<br>
+_min value:_ 0<br>
+_default:_ 0<br>
 
 * **@points** (readonly)
 Get list of point times (ms)<br>
-__type:__ list<br>
+_type:_ list<br>
 
 * **@values** (readonly)
 Get list of point values<br>
-__type:__ list<br>
+_type:_ list<br>
 
 * **@stops** (readonly)
 Get list of stop points<br>
-__type:__ list<br>
+_type:_ list<br>
 
 
 
 ## inlets:
 
-* outputs current envelope 
-__type:__ control<br>
+* outputs current envelope<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* data output
-__type:__ control<br>
+* data output<br>
+_type:_ control
 
 
 

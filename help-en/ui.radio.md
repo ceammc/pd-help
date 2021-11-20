@@ -24,7 +24,7 @@
 
 * **NCELLS**
 number of cells<br>
-__type:__ float<br>
+_type:_ float<br>
 
 
 
@@ -100,103 +100,103 @@ set UI element position<br>
 
 * **@nitems** 
 Get/set number of items<br>
-__type:__ int<br>
-__range:__ 2..128<br>
-__default:__ 8<br>
+_type:_ int<br>
+_range:_ 2..128<br>
+_default:_ 8<br>
 
 * **@mode** 
 Get/set check list mode. If true acts as checklist<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 0<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 0<br>
 
 * **@value** 
 Get/set widget value (float or list)<br>
-__type:__ list<br>
+_type:_ list<br>
 
 * **@presetname** 
 Get/set preset name for using with [ui.preset]<br>
-__type:__ symbol<br>
-__default:__ (null)<br>
+_type:_ symbol<br>
+_default:_ (null)<br>
 
 * **@send** 
 Get/set send destination<br>
-__type:__ symbol<br>
-__default:__ (null)<br>
+_type:_ symbol<br>
+_default:_ (null)<br>
 
 * **@receive** 
 Get/set receive source<br>
-__type:__ symbol<br>
-__default:__ (null)<br>
+_type:_ symbol<br>
+_default:_ (null)<br>
 
 * **@size** 
 Get/set element size (width, height pair)<br>
-__type:__ list<br>
-__default:__ 120 15<br>
+_type:_ list<br>
+_default:_ 120 15<br>
 
 * **@pinned** 
 Get/set pin mode. if 1 - put element to the lowest level<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 0<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 0<br>
 
 * **@active_color** 
 Get/set active color (list of red, green, blue values in 0-1 range)<br>
-__type:__ list<br>
-__default:__ 0 0.75 1 1<br>
+_type:_ list<br>
+_default:_ 0 0.75 1 1<br>
 
 * **@background_color** 
 Get/set element background color (list of red, green, blue values in 0-1 range)<br>
-__type:__ list<br>
-__default:__ 0.93 0.93 0.93 1<br>
+_type:_ list<br>
+_default:_ 0.93 0.93 0.93 1<br>
 
 * **@border_color** 
 Get/set border color (list of red, green, blue values in 0-1 range)<br>
-__type:__ list<br>
-__default:__ 0.6 0.6 0.6 1<br>
+_type:_ list<br>
+_default:_ 0.6 0.6 0.6 1<br>
 
 * **@fontsize** 
 Get/set fontsize<br>
-__type:__ int<br>
-__range:__ 4..11<br>
-__default:__ 11<br>
+_type:_ int<br>
+_range:_ 4..11<br>
+_default:_ 11<br>
 
 * **@fontname** 
 Get/set fontname<br>
-__type:__ symbol<br>
-__default:__ Helvetica<br>
+_type:_ symbol<br>
+_default:_ Helvetica<br>
 
 * **@fontweight** 
 Get/set font weight<br>
-__type:__ symbol<br>
-__enum:__ normal, bold<br>
-__default:__ normal<br>
+_type:_ symbol<br>
+_enum:_ normal, bold<br>
+_default:_ normal<br>
 
 * **@fontslant** 
 Get/set font slant<br>
-__type:__ symbol<br>
-__enum:__ roman, italic<br>
-__default:__ roman<br>
+_type:_ symbol<br>
+_enum:_ roman, italic<br>
+_default:_ roman<br>
 
 * **@mouse_events** 
 Get/set mouse events output mode. If on outputs @mouse_down and @mouse_drag events<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 0<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 0<br>
 
 
 
 ## inlets:
 
-* outputs current radio state 
-__type:__ control<br>
+* outputs current radio state<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* output value
-__type:__ control<br>
+* output value<br>
+_type:_ control
 
 
 

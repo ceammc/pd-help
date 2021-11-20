@@ -24,8 +24,8 @@ Calculates coefficients for transfer function: H(z)=(b0 + b1*z⁻¹ + b2*z⁻²)
 
 * **freq**
 center frequency<br>
-__type:__ float<br>
-__units:__ Hz<br>
+_type:_ float<br>
+_units:_ Hz<br>
 
 
 
@@ -35,42 +35,42 @@ __units:__ Hz<br>
 
 * **@freq** 
 Get/set center frequency<br>
-__type:__ float<br>
-__units:__ Hz<br>
-__range:__ 0..22050<br>
-__default:__ 1000<br>
+_type:_ float<br>
+_units:_ Hz<br>
+_range:_ 0..22050<br>
+_default:_ 1000<br>
 
 * **@rad** 
 Get/set use angular frequency<br>
-__type:__ flag<br>
+_type:_ flag<br>
 
 * **@mode** 
 Get/set filter modey<br>
-__type:__ symbol<br>
-__enum:__ hpf, lpf<br>
-__default:__ lpf<br>
+_type:_ symbol<br>
+_enum:_ hpf, lpf<br>
+_default:_ lpf<br>
 
 * **@lpf** 
 Get/set to @mode lpf<br>
-__type:__ alias<br>
+_type:_ alias<br>
 
 * **@hpf** 
 Get/set ti @mode hpf<br>
-__type:__ alias<br>
+_type:_ alias<br>
 
 
 
 ## inlets:
 
-* filter frequency 
-__type:__ control<br>
+* filter frequency<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* list: b0 b1 b2 a1 a2
-__type:__ control<br>
+* list: b0 b1 b2 a1 a2<br>
+_type:_ control
 
 
 

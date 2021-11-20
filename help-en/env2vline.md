@@ -38,24 +38,24 @@ reset current segment position for multi-segment envelopes<br>
 * **@sync** 
 Get/set sync with input data. When set to 1 outputs envelope (as fixed) on every input
 data<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 0<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 0<br>
 
 
 
 ## inlets:
 
 * output as envelope of fixed length (no stop-points are
-                encountered) 
-__type:__ control<br>
+                encountered)<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* bunch of vline-compatible messages: VALUE, DURATION, OFFSET
-__type:__ control<br>
+* bunch of vline-compatible messages: VALUE, DURATION, OFFSET<br>
+_type:_ control
 
 
 

@@ -20,7 +20,7 @@
 
 * **NAME**
 array name<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 
 
@@ -57,65 +57,65 @@ set play range.<br>
 
 * **@array** 
 Get/set array name<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 * **@state** (readonly)
 Get player state<br>
-__type:__ symbol<br>
-__enum:__ play, stop<br>
-__default:__ stop<br>
+_type:_ symbol<br>
+_enum:_ play, stop<br>
+_default:_ stop<br>
 
 * **@speed** 
 Get/set play speed<br>
-__type:__ float<br>
-__min value:__ 0.1<br>
-__default:__ 1<br>
+_type:_ float<br>
+_min value:_ 0.1<br>
+_default:_ 1<br>
 
 * **@begin** 
 Get/set begin position in samples<br>
-__type:__ int<br>
-__units:__ samp<br>
-__default:__ 0<br>
+_type:_ int<br>
+_units:_ samp<br>
+_default:_ 0<br>
 
 * **@end** 
 Get/set end position in samples<br>
-__type:__ int<br>
-__units:__ samp<br>
-__default:__ -1<br>
+_type:_ int<br>
+_units:_ samp<br>
+_default:_ -1<br>
 
 * **@abs_begin** (readonly)
 Get absolute start position in samples<br>
-__type:__ int<br>
-__units:__ samp<br>
-__default:__ 0<br>
+_type:_ int<br>
+_units:_ samp<br>
+_default:_ 0<br>
 
 * **@abs_end** (readonly)
 Get absolute stop position in samples<br>
-__type:__ int<br>
-__units:__ samp<br>
-__default:__ 0<br>
+_type:_ int<br>
+_units:_ samp<br>
+_default:_ 0<br>
 
 * **@reversed** 
 Get/set playing backwards (if set to 1)<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 0<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 0<br>
 
 
 
 ## inlets:
 
-* start playing from the begining 
-__type:__ control<br>
+* start playing from the begining<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* message to vline~ object
-__type:__ control<br>
-* bang after playing finished
-__type:__ control<br>
+* message to vline~ object<br>
+_type:_ control
+* bang after playing finished<br>
+_type:_ control
 
 
 

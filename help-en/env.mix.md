@@ -25,19 +25,19 @@
 
 ## inlets:
 
-* mix factor [0-1] 
-__type:__ control<br>
-* first envelope 
-__type:__ control<br>
-* second envelope 
-__type:__ control<br>
+* mix factor [0-1]<br>
+_type:_ control
+* first envelope<br>
+_type:_ control
+* second envelope<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* mixed envelope
-__type:__ control<br>
+* mixed envelope<br>
+_type:_ control
 
 
 

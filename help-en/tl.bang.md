@@ -28,28 +28,28 @@ Bang only when nearest left tl.cue was activated. If other cue is activated and
 
 * **@delay** 
 Get/set bang delay after cue activation<br>
-__type:__ float<br>
-__units:__ ms<br>
-__min value:__ 0<br>
-__default:__ 0<br>
+_type:_ float<br>
+_units:_ ms<br>
+_min value:_ 0<br>
+_default:_ 0<br>
 
 * **@cue** (readonly)
 Get related cue<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 
 
 ## inlets:
 
-* control inlet 
-__type:__ control<br>
+* control inlet<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* bang output
-__type:__ control<br>
+* bang output<br>
+_type:_ control
 
 
 

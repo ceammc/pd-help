@@ -24,7 +24,7 @@ Note: cause in Pd messages are processed between DSP blocks - measured bpm is no
 
 * **DIV**
 @div clock subdivision<br>
-__type:__ int<br>
+_type:_ int<br>
 
 
 
@@ -41,25 +41,25 @@ reset beat counter<br>
 * **@div** 
 Get/set clock subdivision. If 0: bang each incoming midi clock message, if 4: output
 every quoter note, 8: every eight note etc.<br>
-__type:__ int<br>
-__enum:__ 0, 4, 8, 16, 32<br>
-__default:__ 0<br>
+_type:_ int<br>
+_enum:_ 0, 4, 8, 16, 32<br>
+_default:_ 0<br>
 
 
 
 ## inlets:
 
-* control input 
-__type:__ control<br>
+* control input<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* bang: on specified beat
-__type:__ control<br>
-* float: measured bpm (output every beat)
-__type:__ control<br>
+* bang: on specified beat<br>
+_type:_ control
+* float: measured bpm (output every beat)<br>
+_type:_ control
 
 
 

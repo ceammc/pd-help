@@ -20,7 +20,7 @@
 
 * **N**
 counter init value<br>
-__type:__ int<br>
+_type:_ int<br>
 
 
 
@@ -31,25 +31,25 @@ __type:__ int<br>
 * **@value** 
 Get/set current counter state. Can be set via message to second(!) inlet or [prop.set]
 object.<br>
-__type:__ int<br>
-__min value:__ 0<br>
-__default:__ 0<br>
+_type:_ int<br>
+_min value:_ 0<br>
+_default:_ 0<br>
 
 
 
 ## inlets:
 
-* input messages 
-__type:__ control<br>
-* reset counter to init value 
-__type:__ control<br>
+* input messages<br>
+_type:_ control
+* reset counter to init value<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* outputs event number
-__type:__ control<br>
+* outputs event number<br>
+_type:_ control
 
 
 

@@ -24,24 +24,24 @@
 
 * **@in_list** 
 Get/set output &#39;1&#39; is list contains at least one data atom<br>
-__type:__ flag<br>
-__default:__ 0<br>
+_type:_ flag<br>
+_default:_ 0<br>
 
 
 
 ## inlets:
 
-* outputs &#39;1&#39; to 1st outlet, otherwise &#39;0&#39; 
-__type:__ control<br>
+* outputs &#39;1&#39; to 1st outlet, otherwise &#39;0&#39;<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* 0 or 1
-__type:__ control<br>
-* passes *data* message
-__type:__ control<br>
+* 0 or 1<br>
+_type:_ control
+* passes *data* message<br>
+_type:_ control
 
 
 

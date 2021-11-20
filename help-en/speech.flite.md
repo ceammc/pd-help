@@ -24,7 +24,7 @@ Rendering is performed in separate thread.
 
 * **ARRAY**
 destination array name render to<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 
 
@@ -34,40 +34,40 @@ __type:__ symbol<br>
 
 * **@array** 
 Get/set destination array name<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 * **@voice** 
 Get/set default voice<br>
-__type:__ symbol<br>
-__enum:__ kal16, slt, rms, awb<br>
-__default:__ kal16<br>
+_type:_ symbol<br>
+_enum:_ kal16, slt, rms, awb<br>
+_default:_ kal16<br>
 
 * **@speed** 
 Get/set speaking speed<br>
-__type:__ float<br>
-__range:__ 1..4<br>
-__default:__ 1<br>
+_type:_ float<br>
+_range:_ 1..4<br>
+_default:_ 1<br>
 
 * **@pitch** 
 Get/set voice pitch (-1 - default value)<br>
-__type:__ float<br>
-__default:__ -1<br>
+_type:_ float<br>
+_default:_ -1<br>
 
 
 
 ## inlets:
 
-* render number to array 
-__type:__ control<br>
-* set target array name 
-__type:__ control<br>
+* render number to array<br>
+_type:_ control
+* set target array name<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* bang on done
-__type:__ control<br>
+* bang on done<br>
+_type:_ control
 
 
 

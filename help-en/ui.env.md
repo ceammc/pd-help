@@ -325,110 +325,110 @@ set UI element position<br>
 
 * **@length** 
 Get/set envelope time length<br>
-__type:__ float<br>
-__units:__ ms<br>
-__min value:__ 10<br>
-__default:__ 400<br>
+_type:_ float<br>
+_units:_ ms<br>
+_min value:_ 10<br>
+_default:_ 400<br>
 
 * **@presetname** 
 Get/set preset name for using with [ui.preset]<br>
-__type:__ symbol<br>
-__default:__ (null)<br>
+_type:_ symbol<br>
+_default:_ (null)<br>
 
 * **@send** 
 Get/set send destination<br>
-__type:__ symbol<br>
-__default:__ (null)<br>
+_type:_ symbol<br>
+_default:_ (null)<br>
 
 * **@receive** 
 Get/set receive source<br>
-__type:__ symbol<br>
-__default:__ (null)<br>
+_type:_ symbol<br>
+_default:_ (null)<br>
 
 * **@size** 
 Get/set element size (width, height pair)<br>
-__type:__ list<br>
-__default:__ 200 150<br>
+_type:_ list<br>
+_default:_ 200 150<br>
 
 * **@pinned** 
 Get/set pin mode. if 1 - put element to the lowest level<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 0<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 0<br>
 
 * **@active_color** 
 Get/set element active color (list of red, green, blue values in 0-1 range)<br>
-__type:__ list<br>
-__default:__ 0 0.75 1 1<br>
+_type:_ list<br>
+_default:_ 0 0.75 1 1<br>
 
 * **@line_color** 
 Get/set line color (list of red, green, blue values in 0-1 range)<br>
-__type:__ list<br>
-__default:__ 0.1 0.1 0.1 1<br>
+_type:_ list<br>
+_default:_ 0.1 0.1 0.1 1<br>
 
 * **@background_color** 
 Get/set element background color (list of red, green, blue values in 0-1 range)<br>
-__type:__ list<br>
-__default:__ 0.93 0.93 0.93 1<br>
+_type:_ list<br>
+_default:_ 0.93 0.93 0.93 1<br>
 
 * **@border_color** 
 Get/set border color (list of red, green, blue values in 0-1 range)<br>
-__type:__ list<br>
-__default:__ 0.6 0.6 0.6 1<br>
+_type:_ list<br>
+_default:_ 0.6 0.6 0.6 1<br>
 
 * **@fontsize** 
 Get/set fontsize<br>
-__type:__ int<br>
-__range:__ 4..11<br>
-__default:__ 11<br>
+_type:_ int<br>
+_range:_ 4..11<br>
+_default:_ 11<br>
 
 * **@fontname** 
 Get/set fontname<br>
-__type:__ symbol<br>
-__default:__ Helvetica<br>
+_type:_ symbol<br>
+_default:_ Helvetica<br>
 
 * **@fontweight** 
 Get/set font weight<br>
-__type:__ symbol<br>
-__enum:__ normal, bold<br>
-__default:__ normal<br>
+_type:_ symbol<br>
+_enum:_ normal, bold<br>
+_default:_ normal<br>
 
 * **@fontslant** 
 Get/set font slant<br>
-__type:__ symbol<br>
-__enum:__ roman, italic<br>
-__default:__ roman<br>
+_type:_ symbol<br>
+_enum:_ roman, italic<br>
+_default:_ roman<br>
 
 * **@mouse_events** 
 Get/set mouse events output mode. If on outputs @mouse_down, @mouse_up and @mouse_drag
 events<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 0<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 0<br>
 
 * **@output_mode** 
 Get/set output envelope mode. If set to &#34;mouse_up&#34; - output envelope on mouse up if
 Ctrl/Cmd key not pressed. If set to &#34;drag&#34; - output envelope on every change.
 Note: in any mode you can output evenlope with Ctrl/Cmd + mouse down.<br>
-__type:__ symbol<br>
-__enum:__ mouse_up, drag<br>
-__default:__ mouse_up<br>
+_type:_ symbol<br>
+_enum:_ mouse_up, drag<br>
+_default:_ mouse_up<br>
 
 
 
 ## inlets:
 
-* set new envelope and output it 
-__type:__ control<br>
+* set new envelope and output it<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* envelope
-__type:__ control<br>
-* float: envelope value at time moment
-__type:__ control<br>
+* envelope<br>
+_type:_ control
+* float: envelope value at time moment<br>
+_type:_ control
 
 
 

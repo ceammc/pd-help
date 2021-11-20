@@ -20,7 +20,7 @@
 
 * **LST**
 initial element repeat list<br>
-__type:__ list<br>
+_type:_ list<br>
 
 
 
@@ -30,24 +30,23 @@ __type:__ list<br>
 
 * **@l** 
 Get/set list of repeats<br>
-__type:__ list<br>
+_type:_ list<br>
 
 
 
 ## inlets:
 
-* First list - single elements 
-__type:__ control<br>
-* Second list - count of each element 
-__type:__ control<br>
+* First list - single elements<br>
+_type:_ control
+* Second list - count of each element<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* result - elements repeated n times specified by corresponding values in second
-            list
-__type:__ control<br>
+* result - elements repeated n times specified by corresponding values in second list<br>
+_type:_ control
 
 
 

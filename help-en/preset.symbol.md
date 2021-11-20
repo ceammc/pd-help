@@ -23,11 +23,11 @@ Named symbol preset entry. Can store/load up to 256 various symbol values
 
 * **ID**
 preset id (should be unique in most use cases)<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 * **VAL**
 preset initial value<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 
 
@@ -50,39 +50,39 @@ clear preset at specified index<br>
 * **@path** (readonly)
 Get property OSC-like path that includes id, abstraction name and may be subpatch
 name separated by slashes.<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 * **@id** (readonly)
 Get preset id<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 * **@init** 
 Get/set init symbol value<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 * **@global** 
 Get/set use global path like /ID<br>
-__type:__ flag<br>
-__default:__ 0<br>
+_type:_ flag<br>
+_default:_ 0<br>
 
 * **@subpatch** 
 Get/set include subpatch name to path<br>
-__type:__ flag<br>
-__default:__ 0<br>
+_type:_ flag<br>
+_default:_ 0<br>
 
 
 
 ## inlets:
 
-* set preset value without output 
-__type:__ control<br>
+* set preset value without output<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* preset symbol value
-__type:__ control<br>
+* preset symbol value<br>
+_type:_ control
 
 
 

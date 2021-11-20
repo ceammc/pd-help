@@ -28,7 +28,7 @@ Array access: array1[$f]
 
 * **EXPR**
 expression<br>
-__type:__ list<br>
+_type:_ list<br>
 
 
 
@@ -38,23 +38,23 @@ __type:__ list<br>
 
 * **@expr** 
 Get/set expression<br>
-__type:__ list<br>
+_type:_ list<br>
 
 
 
 ## inlets:
 
-* input value (referenced as $f0 or $f in expression) 
-__type:__ control<br>
-* change expression 
-__type:__ control<br>
+* input value (referenced as $f0 or $f in expression)<br>
+_type:_ control
+* change expression<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* calculated expression
-__type:__ control<br>
+* calculated expression<br>
+_type:_ control
 
 
 

@@ -20,15 +20,15 @@
 
 * **FROM**
 start value<br>
-__type:__ int<br>
+_type:_ int<br>
 
 * **TO**
 end value<br>
-__type:__ int<br>
+_type:_ int<br>
 
 * **REPEATS**
 number of repeats<br>
-__type:__ int<br>
+_type:_ int<br>
 
 
 
@@ -44,69 +44,69 @@ reset counter to start value and repeat counter to 0<br>
 
 * **@from** 
 Get/set start value<br>
-__type:__ int<br>
-__default:__ 0<br>
+_type:_ int<br>
+_default:_ 0<br>
 
 * **@to** 
 Get/set end value<br>
-__type:__ int<br>
-__default:__ 0<br>
+_type:_ int<br>
+_default:_ 0<br>
 
 * **@r** 
 Get/set number of repeats. If -1: repeat infinitely.<br>
-__type:__ int<br>
-__min value:__ -1<br>
-__default:__ -1<br>
+_type:_ int<br>
+_min value:_ -1<br>
+_default:_ -1<br>
 
 * **@inf** 
 Get/set alias to @r -1, repeats infinitely<br>
-__type:__ alias<br>
+_type:_ alias<br>
 
 * **@once** 
 Get/set alias to @r 1, play once<br>
-__type:__ alias<br>
+_type:_ alias<br>
 
 * **@i** (readonly)
 Get current iteration<br>
-__type:__ int<br>
-__default:__ 0<br>
+_type:_ int<br>
+_default:_ 0<br>
 
 * **@ri** (readonly)
 Get current repeat iteration<br>
-__type:__ int<br>
-__default:__ 0<br>
+_type:_ int<br>
+_default:_ 0<br>
 
 * **@mode** 
 Get/set repeat counter mode<br>
-__type:__ symbol<br>
-__enum:__ wrap, fold<br>
-__default:__ wrap<br>
+_type:_ symbol<br>
+_enum:_ wrap, fold<br>
+_default:_ wrap<br>
 
 * **@wrap** 
 Get/set alias to @mode wrap<br>
-__type:__ alias<br>
+_type:_ alias<br>
 
 * **@fold** 
 Get/set alias to @mode fold<br>
-__type:__ alias<br>
+_type:_ alias<br>
 
 
 
 ## inlets:
 
-* output current value and increment counter 
-__type:__ control<br>
-* reset counter to start value 
-__type:__ control<br>
+* output current value and increment counter<br>
+_type:_ control
+* reset counter to start value<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* int: counter value
-__type:__ control<br>
-* int: repeat counter, done: when done
-__type:__ control<br>
+* int: counter value<br>
+_type:_ control
+* int: repeat counter, done: when done<br>
+_type:_ control
 
 
 

@@ -24,7 +24,7 @@ Different arguments order then in [list.^contains]
 
 * **LIST**
 list contents<br>
-__type:__ list<br>
+_type:_ list<br>
 
 
 
@@ -34,23 +34,23 @@ __type:__ list<br>
 
 * **@value** 
 Get/set list contents<br>
-__type:__ list<br>
+_type:_ list<br>
 
 
 
 ## inlets:
 
-* checks if given float is found the list 
-__type:__ control<br>
-* set haystack list 
-__type:__ control<br>
+* checks if given float is found the list<br>
+_type:_ control
+* set haystack list<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* 1 on success, otherwise 0
-__type:__ control<br>
+* 1 on success, otherwise 0<br>
+_type:_ control
 
 
 

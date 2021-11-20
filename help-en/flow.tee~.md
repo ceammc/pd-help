@@ -24,17 +24,17 @@
 
 ## inlets:
 
-* mixed stream 
-__type:__ audio<br>
+* mixed stream<br>
+_type:_ audio
 
 
 
 ## outlets:
 
-* audio stream
-__type:__ audio<br>
-* control stream
-__type:__ control<br>
+* audio stream<br>
+_type:_ audio
+* control stream<br>
+_type:_ control
 
 
 

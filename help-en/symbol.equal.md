@@ -24,17 +24,17 @@
 
 ## inlets:
 
-* first symbol 
-__type:__ control<br>
-* second symbol 
-__type:__ control<br>
+* first symbol<br>
+_type:_ control
+* second symbol<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* outputs 1 if symbols are equal, otherwise 0
-__type:__ control<br>
+* outputs 1 if symbols are equal, otherwise 0<br>
+_type:_ control
 
 
 

@@ -20,26 +20,26 @@
 
 * **ratio**
 compression ratio (1 = no compression, &gt;1 means compression)<br>
-__type:__ float<br>
+_type:_ float<br>
 
 * **threshold**
 level threshold above which compression kicks in (100 dB = max level)<br>
-__type:__ float<br>
-__units:__ db<br>
+_type:_ float<br>
+_units:_ db<br>
 
 * **attack**
 attack time = time constant when level &amp; compression going up<br>
-__type:__ float<br>
-__units:__ ms<br>
+_type:_ float<br>
+_units:_ ms<br>
 
 * **release**
 release time = time constant coming out of compression<br>
-__type:__ float<br>
-__units:__ ms<br>
+_type:_ float<br>
+_units:_ ms<br>
 
 * **ID**
 object ID for OSC control path<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 
 
@@ -49,56 +49,56 @@ __type:__ symbol<br>
 
 * **@ratio** 
 Get/set compression ratio (1 = no compression, &gt;1 means compression)<br>
-__type:__ float<br>
-__range:__ 1..10<br>
-__default:__ 1<br>
+_type:_ float<br>
+_range:_ 1..10<br>
+_default:_ 1<br>
 
 * **@threshold** 
 Get/set level threshold above which compression kicks in (100 dB = max level)<br>
-__type:__ float<br>
-__units:__ db<br>
-__range:__ 0..100<br>
-__default:__ 100<br>
+_type:_ float<br>
+_units:_ db<br>
+_range:_ 0..100<br>
+_default:_ 100<br>
 
 * **@attack** 
 Get/set time constant when level &amp; compression going up<br>
-__type:__ float<br>
-__units:__ ms<br>
-__range:__ 1..100<br>
-__default:__ 10<br>
+_type:_ float<br>
+_units:_ ms<br>
+_range:_ 1..100<br>
+_default:_ 10<br>
 
 * **@release** 
 Get/set release time = time constant coming out of compression<br>
-__type:__ float<br>
-__units:__ ms<br>
-__range:__ 1..500<br>
-__default:__ 50<br>
+_type:_ float<br>
+_units:_ ms<br>
+_range:_ 1..500<br>
+_default:_ 50<br>
 
 * **@active** 
 Get/set on/off dsp processing<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 1<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 1<br>
 
 
 
 ## inlets:
 
-* left input signal 
-__type:__ audio<br>
-* right input signal 
-__type:__ audio<br>
+* left input signal<br>
+_type:_ audio
+* right input signal<br>
+_type:_ audio
 
 
 
 ## outlets:
 
-* left output signal
-__type:__ audio<br>
-* right output signal
-__type:__ audio<br>
-* information output
-__type:__ control<br>
+* left output signal<br>
+_type:_ audio
+* right output signal<br>
+_type:_ audio
+* information output<br>
+_type:_ control
 
 
 

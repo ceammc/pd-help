@@ -23,7 +23,7 @@ Works with data atoms
 
 * **LIST**
 appended value<br>
-__type:__ list<br>
+_type:_ list<br>
 
 
 
@@ -33,23 +33,23 @@ __type:__ list<br>
 
 * **@value** 
 Get/set append value<br>
-__type:__ list<br>
+_type:_ list<br>
 
 
 
 ## inlets:
 
-* treated as empty input list 
-__type:__ control<br>
-* set appended list 
-__type:__ control<br>
+* treated as empty input list<br>
+_type:_ control
+* set appended list<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* output concatenated list
-__type:__ control<br>
+* output concatenated list<br>
+_type:_ control
 
 
 

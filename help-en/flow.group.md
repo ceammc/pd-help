@@ -20,7 +20,7 @@
 
 * **SIZE**
 group by this size<br>
-__type:__ int<br>
+_type:_ int<br>
 
 
 
@@ -39,31 +39,31 @@ clear without output<br>
 
 * **@by** 
 Get/set group size<br>
-__type:__ int<br>
-__min value:__ 1<br>
-__default:__ 1<br>
+_type:_ int<br>
+_min value:_ 1<br>
+_default:_ 1<br>
 
 * **@free** (readonly)
 Get free space left in group<br>
-__type:__ int<br>
-__min value:__ 0<br>
-__default:__ 0<br>
+_type:_ int<br>
+_min value:_ 0<br>
+_default:_ 0<br>
 
 
 
 ## inlets:
 
-* add float to group and flush if group is full packed 
-__type:__ control<br>
-* set group size 
-__type:__ control<br>
+* add float to group and flush if group is full packed<br>
+_type:_ control
+* set group size<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* output list of grouped atoms
-__type:__ control<br>
+* output list of grouped atoms<br>
+_type:_ control
 
 
 

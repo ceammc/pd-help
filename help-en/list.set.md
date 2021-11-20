@@ -20,11 +20,11 @@
 
 * **IDX**
 element position. Negative indexes are supported. -1 means last element<br>
-__type:__ int<br>
+_type:_ int<br>
 
 * **VAL**
 element value<br>
-__type:__ atom<br>
+_type:_ atom<br>
 
 
 
@@ -34,30 +34,30 @@ __type:__ atom<br>
 
 * **@index** 
 Get/set element index<br>
-__type:__ int<br>
-__default:__ 0<br>
+_type:_ int<br>
+_default:_ 0<br>
 
 * **@value** 
 Get/set element value<br>
-__type:__ atom<br>
+_type:_ atom<br>
 
 
 
 ## inlets:
 
-* input list 
-__type:__ control<br>
-* element index 
-__type:__ control<br>
-* new element value 
-__type:__ control<br>
+* input list<br>
+_type:_ control
+* element index<br>
+_type:_ control
+* new element value<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* result list
-__type:__ control<br>
+* result list<br>
+_type:_ control
 
 
 

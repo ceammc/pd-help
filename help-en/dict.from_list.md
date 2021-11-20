@@ -24,7 +24,7 @@ Convertion depends on property @step, which means a length of key/value pair.
 
 * **STEP**
 key/value length in input list<br>
-__type:__ int<br>
+_type:_ int<br>
 
 
 
@@ -34,23 +34,23 @@ __type:__ int<br>
 
 * **@step** 
 Get/set key/value length in input list<br>
-__type:__ int<br>
-__min value:__ 2<br>
-__default:__ 2<br>
+_type:_ int<br>
+_min value:_ 2<br>
+_default:_ 2<br>
 
 
 
 ## inlets:
 
-* input 
-__type:__ control<br>
+* input<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* dict output
-__type:__ control<br>
+* dict output<br>
+_type:_ control
 
 
 

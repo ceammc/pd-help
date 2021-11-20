@@ -24,7 +24,7 @@ when pedal is off: output all sustained notes off
 
 * **STATE**
 initial state<br>
-__type:__ int<br>
+_type:_ int<br>
 
 
 
@@ -34,31 +34,31 @@ __type:__ int<br>
 
 * **@on** 
 Get/set pedal state<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 0<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 0<br>
 
 * **@ctlin** 
 Get/set listen to CTL64 from MIDI controller<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 0<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 0<br>
 
 
 
 ## inlets:
 
-* MIDI input: NOTE VEL 
-__type:__ control<br>
-* turn sustain on/off (1/0) 
-__type:__ control<br>
+* MIDI input: NOTE VEL<br>
+_type:_ control
+* turn sustain on/off (1/0)<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* MIDI output: NOTE VEL
-__type:__ control<br>
+* MIDI output: NOTE VEL<br>
+_type:_ control
 
 
 

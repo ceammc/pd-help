@@ -20,11 +20,11 @@
 
 * **ROWS**
 number of rows<br>
-__type:__ int<br>
+_type:_ int<br>
 
 * **COLS**
 number of columns<br>
-__type:__ int<br>
+_type:_ int<br>
 
 
 
@@ -138,34 +138,34 @@ fills with random<br>
 
 * **@rows** 
 Get/set number of rows<br>
-__type:__ int<br>
-__range:__ 1..32<br>
-__default:__ 16<br>
+_type:_ int<br>
+_range:_ 1..32<br>
+_default:_ 16<br>
 
 * **@cols** 
 Get/set number of columns<br>
-__type:__ int<br>
-__range:__ 1..32<br>
-__default:__ 16<br>
+_type:_ int<br>
+_range:_ 1..32<br>
+_default:_ 16<br>
 
 * **@size** (readonly)
 Get total cell count<br>
-__type:__ int<br>
-__default:__ 256<br>
+_type:_ int<br>
+_default:_ 256<br>
 
 
 
 ## inlets:
 
-* output all cells 
-__type:__ control<br>
+* output all cells<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* list: pitch vel
-__type:__ control<br>
+* list: pitch vel<br>
+_type:_ control
 
 
 

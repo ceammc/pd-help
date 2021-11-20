@@ -20,11 +20,11 @@
 
 * **FROM**
 substring for replace<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 * **TO**
 substring to replace<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 
 
@@ -34,47 +34,47 @@ __type:__ symbol<br>
 
 * **@from** 
 Get/set replace from<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 * **@to** 
 Get/set replace to<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 * **@mode** 
 Get/set replace mode<br>
-__type:__ symbol<br>
-__enum:__ all, first, last<br>
-__default:__ all<br>
+_type:_ symbol<br>
+_enum:_ all, first, last<br>
+_default:_ all<br>
 
 * **@all** 
 Get/set alias to @mode all - replace all occurences in input string<br>
-__type:__ alias<br>
+_type:_ alias<br>
 
 * **@first** 
 Get/set alias to @mode first - replace first occurence in input string<br>
-__type:__ alias<br>
+_type:_ alias<br>
 
 * **@last** 
 Get/set alias to @mode last - replace last occurence in input string<br>
-__type:__ alias<br>
+_type:_ alias<br>
 
 
 
 ## inlets:
 
-* input string or symbol 
-__type:__ control<br>
-* from 
-__type:__ control<br>
-* to 
-__type:__ control<br>
+* input string or symbol<br>
+_type:_ control
+* from<br>
+_type:_ control
+* to<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* output string
-__type:__ control<br>
+* output string<br>
+_type:_ control
 
 
 

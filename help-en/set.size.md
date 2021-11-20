@@ -24,15 +24,15 @@
 
 ## inlets:
 
-* input set. Other values are ignored 
-__type:__ control<br>
+* input set. Other values are ignored<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* number of element in set
-__type:__ control<br>
+* number of element in set<br>
+_type:_ control
 
 
 

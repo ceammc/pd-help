@@ -20,7 +20,7 @@
 
 * **DIV**
 divisor<br>
-__type:__ float<br>
+_type:_ float<br>
 
 
 
@@ -30,24 +30,24 @@ __type:__ float<br>
 
 * **@div** 
 Get/set divisor<br>
-__type:__ float<br>
-__default:__ 1<br>
+_type:_ float<br>
+_default:_ 1<br>
 
 
 
 ## inlets:
 
-* divident 
-__type:__ control<br>
-* change divisor 
-__type:__ control<br>
+* divident<br>
+_type:_ control
+* change divisor<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* float or list
-__type:__ control<br>
+* float or list<br>
+_type:_ control
 
 
 

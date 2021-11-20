@@ -27,17 +27,17 @@ extract properties from object, connected to second outlet
 
 ## inlets:
 
-* output extracted properties to first outlet 
-__type:__ control<br>
+* output extracted properties to first outlet<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* property output (data:dict)
-__type:__ control<br>
-* connect to examined object
-__type:__ control<br>
+* property output (data:dict)<br>
+_type:_ control
+* connect to examined object<br>
+_type:_ control
 
 
 

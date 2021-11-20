@@ -20,7 +20,7 @@
 
 * **PREFIX**
 prefix<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 
 
@@ -30,23 +30,23 @@ __type:__ symbol<br>
 
 * **@prefix** 
 Get/set prefix<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 
 
 ## inlets:
 
-* input string or symbol 
-__type:__ control<br>
-* search prefix (string or symbol) 
-__type:__ control<br>
+* input string or symbol<br>
+_type:_ control
+* search prefix (string or symbol)<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* output 1 if input string starts with prefix, otherwise 0
-__type:__ control<br>
+* output 1 if input string starts with prefix, otherwise 0<br>
+_type:_ control
 
 
 

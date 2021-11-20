@@ -24,15 +24,15 @@
 
 ## inlets:
 
-* input value 
-__type:__ audio<br>
+* input value<br>
+_type:_ audio
 
 
 
 ## outlets:
 
-* converted value
-__type:__ audio<br>
+* converted value<br>
+_type:_ audio
 
 
 

@@ -28,21 +28,21 @@ Extracts properties from data stream with matching. Non property values are pass
 
 ## inlets:
 
-* input values 
-__type:__ control<br>
+* input values<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* passed values
-__type:__ control<br>
-* first matched property value (without property selector)
-__type:__ control<br>
-* others matched property value
-__type:__ control<br>
-* unmatched property output (with selector)
-__type:__ control<br>
+* passed values<br>
+_type:_ control
+* first matched property value (without property selector)<br>
+_type:_ control
+* others matched property value<br>
+_type:_ control
+* unmatched property output (with selector)<br>
+_type:_ control
 
 
 

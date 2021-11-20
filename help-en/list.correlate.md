@@ -24,7 +24,7 @@ Note: may perform slowly in large lists because it does not use the FFT to compu
 
 * **B**
 second argument values<br>
-__type:__ list<br>
+_type:_ list<br>
 
 
 
@@ -34,11 +34,11 @@ __type:__ list<br>
 
 * **@a** 
 Get/set first argument<br>
-__type:__ list<br>
+_type:_ list<br>
 
 * **@b** 
 Get/set second argument<br>
-__type:__ list<br>
+_type:_ list<br>
 
 * **@mode** 
 Get/set output mode. &#39;full&#39; - output the cross-correlation at each point of overlap,
@@ -48,37 +48,37 @@ the signals do not overlap completely, and boundary effects may be seen.
 is only given for points where the signals overlap completely. Values outside
 the signal boundary have no effect. &#39;same&#39; - output of length max(M,N).
 Boundary effects are still visible<br>
-__type:__ symbol<br>
-__enum:__ valid, same, full<br>
-__default:__ valid<br>
+_type:_ symbol<br>
+_enum:_ valid, same, full<br>
+_default:_ valid<br>
 
 * **@valid** 
 Get/set alias to @mode valid<br>
-__type:__ alias<br>
+_type:_ alias<br>
 
 * **@same** 
 Get/set alias to @mode same<br>
-__type:__ alias<br>
+_type:_ alias<br>
 
 * **@full** 
 Get/set alias to @mode full<br>
-__type:__ alias<br>
+_type:_ alias<br>
 
 
 
 ## inlets:
 
-* calculate cross-correlation and output 
-__type:__ control<br>
-* set second argument (@b property) 
-__type:__ control<br>
+* calculate cross-correlation and output<br>
+_type:_ control
+* set second argument (@b property)<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* list: output result
-__type:__ control<br>
+* list: output result<br>
+_type:_ control
 
 
 

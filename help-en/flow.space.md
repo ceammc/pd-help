@@ -23,12 +23,12 @@ first message is delayed to next scheduler time
 
 * **MS**
 time space between messages<br>
-__type:__ float<br>
-__units:__ ms<br>
+_type:_ float<br>
+_units:_ ms<br>
 
 * **N**
 time space = N*space after last outputted message<br>
-__type:__ int<br>
+_type:_ int<br>
 
 
 
@@ -38,35 +38,35 @@ __type:__ int<br>
 
 * **@delay** 
 Get/set time-space between messages<br>
-__type:__ float<br>
-__units:__ ms<br>
-__min value:__ 1<br>
-__default:__ 1<br>
+_type:_ float<br>
+_units:_ ms<br>
+_min value:_ 1<br>
+_default:_ 1<br>
 
 * **@done** 
 Get/set time space (=@done*@delay) after last outputted message. After that delay
 output bang to second outlet<br>
-__type:__ int<br>
-__min value:__ 0<br>
-__default:__ 1<br>
+_type:_ int<br>
+_min value:_ 0<br>
+_default:_ 1<br>
 
 
 
 ## inlets:
 
-* messages 
-__type:__ control<br>
-* set space interval (ms) 
-__type:__ control<br>
+* messages<br>
+_type:_ control
+* set space interval (ms)<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* output
-__type:__ control<br>
-* bang on finish (after @delay*@done ms after last outputted message)
-__type:__ control<br>
+* output<br>
+_type:_ control
+* bang on finish (after @delay*@done ms after last outputted message)<br>
+_type:_ control
 
 
 

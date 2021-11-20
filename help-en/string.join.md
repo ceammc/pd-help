@@ -20,7 +20,7 @@
 
 * **SEP**
 separator. For space use quotes.<br>
-__type:__ list<br>
+_type:_ list<br>
 
 
 
@@ -30,23 +30,23 @@ __type:__ list<br>
 
 * **@sep** 
 Get/set separator<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 
 
 ## inlets:
 
-* symbol passed untouched 
-__type:__ control<br>
-* change separator to new 
-__type:__ control<br>
+* symbol passed untouched<br>
+_type:_ control
+* change separator to new<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* result String
-__type:__ control<br>
+* result String<br>
+_type:_ control
 
 
 

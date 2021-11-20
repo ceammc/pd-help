@@ -28,8 +28,8 @@ Note: @delay property can be set only via right inlet or [prop.set] object
 
 * **MS**
 init @delay property<br>
-__type:__ float<br>
-__units:__ ms<br>
+_type:_ float<br>
+_units:_ ms<br>
 
 
 
@@ -39,34 +39,34 @@ __units:__ ms<br>
 
 * **@delay** 
 Get/set delay time<br>
-__type:__ float<br>
-__units:__ ms<br>
-__min value:__ 0<br>
-__default:__ 0<br>
+_type:_ float<br>
+_units:_ ms<br>
+_min value:_ 0<br>
+_default:_ 0<br>
 
 * **@block** 
 Get/set blocking mode. If true, discards incoming messages until scheduled message will
 output, after that is ready to accept the new one. Otherwise acts like vanilla
 [del] object.<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 0<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 0<br>
 
 
 
 ## inlets:
 
-* incoming message 
-__type:__ control<br>
-* reset (stop) current delay 
-__type:__ control<br>
+* incoming message<br>
+_type:_ control
+* reset (stop) current delay<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* outputs nothing. connect to destination object(s)
-__type:__ control<br>
+* outputs nothing. connect to destination object(s)<br>
+_type:_ control
 
 
 

@@ -30,55 +30,55 @@ same as reset<br>
 
 * **@delay** 
 Get/set delay amount<br>
-__type:__ float<br>
-__units:__ ms<br>
-__range:__ 0..200<br>
-__default:__ 25<br>
+_type:_ float<br>
+_units:_ ms<br>
+_range:_ 0..200<br>
+_default:_ 25<br>
 
 * **@freq** 
 Get/set effect freq<br>
-__type:__ float<br>
-__units:__ Hz<br>
-__range:__ 0..10<br>
-__default:__ 3<br>
+_type:_ float<br>
+_units:_ Hz<br>
+_range:_ 0..10<br>
+_default:_ 3<br>
 
 * **@depth** 
 Get/set effect depth<br>
-__type:__ float<br>
-__range:__ 0..1<br>
-__default:__ 0.02<br>
+_type:_ float<br>
+_range:_ 0..1<br>
+_default:_ 0.02<br>
 
 * **@drywet** 
 Get/set Ratio between processed signal (wet) and source signal<br>
-__type:__ float<br>
-__range:__ 0..1<br>
-__default:__ 1<br>
+_type:_ float<br>
+_range:_ 0..1<br>
+_default:_ 1<br>
 
 * **@bypass** 
 Get/set if set to 1 - bypass &#39;effected&#39; signal.<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 0<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 0<br>
 
 * **@active** 
 Get/set on/off dsp processing<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 1<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 1<br>
 
 
 
 ## inlets:
 
-* input signal 
-__type:__ audio<br>
+* input signal<br>
+_type:_ audio
 
 
 
 ## outlets:
 
-* output
-__type:__ audio<br>
+* output<br>
+_type:_ audio
 
 
 

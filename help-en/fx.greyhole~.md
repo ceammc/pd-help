@@ -37,88 +37,88 @@ reset to initial state<br>
 
 * **@feedback** 
 Get/set amount of feedback for the delay line<br>
-__type:__ float<br>
-__range:__ 0..1<br>
-__default:__ 0.9<br>
+_type:_ float<br>
+_range:_ 0..1<br>
+_default:_ 0.9<br>
 
 * **@damping** 
 Get/set controls damping of high-frequencies as the delay decays. 0 is no damping, 1 is
 very strong damping<br>
-__type:__ float<br>
-__range:__ 0..0.99<br>
-__default:__ 0<br>
+_type:_ float<br>
+_range:_ 0..0.99<br>
+_default:_ 0<br>
 
 * **@delaytime** 
 Get/set approximate delay time in seconds<br>
-__type:__ float<br>
-__units:__ sec<br>
-__range:__ 0.001..1.45<br>
-__default:__ 0.2<br>
+_type:_ float<br>
+_units:_ sec<br>
+_range:_ 0.001..1.45<br>
+_default:_ 0.2<br>
 
 * **@diffusion** 
 Get/set shape of the diffusion unit. Values greater than 0.707 produce smooth
 exponential decay. Lower values produce a slower build-up of echoes<br>
-__type:__ float<br>
-__range:__ 0..0.99<br>
-__default:__ 0.5<br>
+_type:_ float<br>
+_range:_ 0..0.99<br>
+_default:_ 0.5<br>
 
 * **@moddepth** 
 Get/set depth of delay-line modulation. Use in combination with *@modfreq* to set
 amount of chorusing within the structure<br>
-__type:__ float<br>
-__range:__ 0..1<br>
-__default:__ 0.1<br>
+_type:_ float<br>
+_range:_ 0..1<br>
+_default:_ 0.1<br>
 
 * **@modfreq** 
 Get/set frequency of delay-line modulation. Use in combination with *@moddepth* to set
 amount of chorusing within the structure<br>
-__type:__ float<br>
-__range:__ 0..10<br>
-__default:__ 2<br>
+_type:_ float<br>
+_range:_ 0..10<br>
+_default:_ 2<br>
 
 * **@size** 
 Get/set size of delay-lines within the diffusion unit, producing the impression of a
 larger or smaller space. Values below 1 can sound quite metallic.<br>
-__type:__ float<br>
-__range:__ 0.5..3<br>
-__default:__ 1<br>
+_type:_ float<br>
+_range:_ 0.5..3<br>
+_default:_ 1<br>
 
 * **@drywet** 
 Get/set proportion of mix between the original (dry) and &#39;effected&#39; (wet) signals. 0 -
 dry signal, 1 - wet.<br>
-__type:__ float<br>
-__range:__ 0..1<br>
-__default:__ 1<br>
+_type:_ float<br>
+_range:_ 0..1<br>
+_default:_ 1<br>
 
 * **@bypass** 
 Get/set if set to 1 - bypass &#39;effected&#39; signal.<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 0<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 0<br>
 
 * **@active** 
 Get/set on/off dsp processing<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 1<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 1<br>
 
 
 
 ## inlets:
 
-* left channel 
-__type:__ audio<br>
-* right channel 
-__type:__ audio<br>
+* left channel<br>
+_type:_ audio
+* right channel<br>
+_type:_ audio
 
 
 
 ## outlets:
 
-* output signal
-__type:__ audio<br>
-* output signal
-__type:__ audio<br>
+* output signal<br>
+_type:_ audio
+* output signal<br>
+_type:_ audio
 
 
 

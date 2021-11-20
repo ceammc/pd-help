@@ -25,15 +25,15 @@
 
 ## inlets:
 
-* outputs memory size 
-__type:__ control<br>
+* outputs memory size<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* physical memory (RAM) size in bytes
-__type:__ control<br>
+* physical memory (RAM) size in bytes<br>
+_type:_ control
 
 
 

@@ -25,23 +25,23 @@
 * **@norepeat** 
 Get/set norepeat property. If 1 is given: every time output value at new list position,
 do not repeat choosed position twice at adjacent events.<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 0<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 0<br>
 
 
 
 ## inlets:
 
-* Input list 
-__type:__ control<br>
+* Input list<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* random list element
-__type:__ control<br>
+* random list element<br>
+_type:_ control
 
 
 

@@ -35,33 +35,33 @@ reset filter state<br>
 
 * **@active** 
 Get/set on/off dsp processing<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 1<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 1<br>
 
 
 
 ## inlets:
 
-* input signal 
-__type:__ audio<br>
-* b0 
-__type:__ audio<br>
-* b1 
-__type:__ audio<br>
-* b2 
-__type:__ audio<br>
-* a1 
-__type:__ audio<br>
-* a2 
-__type:__ audio<br>
+* input signal<br>
+_type:_ audio
+* b0<br>
+_type:_ audio
+* b1<br>
+_type:_ audio
+* b2<br>
+_type:_ audio
+* a1<br>
+_type:_ audio
+* a2<br>
+_type:_ audio
 
 
 
 ## outlets:
 
-* filtered signal
-__type:__ audio<br>
+* filtered signal<br>
+_type:_ audio
 
 
 

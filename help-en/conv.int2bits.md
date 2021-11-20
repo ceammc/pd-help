@@ -28,29 +28,29 @@ Note: negative numbers converted using machine architecture, commonly two&#39;s
 
 * **@size** 
 Get/set output bit-length<br>
-__type:__ int<br>
-__range:__ 1..32<br>
-__default:__ 32<br>
+_type:_ int<br>
+_range:_ 1..32<br>
+_default:_ 32<br>
 
 * **@rev** 
 Get/set reversed bit order<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 0<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 0<br>
 
 
 
 ## inlets:
 
-* input value 
-__type:__ control<br>
+* input value<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* list of bits
-__type:__ control<br>
+* list of bits<br>
+_type:_ control
 
 
 

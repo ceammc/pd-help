@@ -20,7 +20,7 @@
 
 * **PREFIX**
 log message prefix<br>
-__type:__ list<br>
+_type:_ list<br>
 
 
 
@@ -30,22 +30,22 @@ __type:__ list<br>
 
 * **@prefix** 
 Get/set log message prefix<br>
-__type:__ list<br>
+_type:_ list<br>
 
 * **@active** 
 Get/set enabled/disabled logging state<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 1<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 1<br>
 
 
 
 ## inlets:
 
-* log input 
-__type:__ control<br>
-* 1: enable logging, 0: disable logging 
-__type:__ control<br>
+* log input<br>
+_type:_ control
+* 1: enable logging, 0: disable logging<br>
+_type:_ control
 
 
 

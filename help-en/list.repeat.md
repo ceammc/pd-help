@@ -20,7 +20,7 @@
 
 * **N**
 repeat times<br>
-__type:__ int<br>
+_type:_ int<br>
 
 
 
@@ -30,26 +30,25 @@ __type:__ int<br>
 
 * **@times** 
 Get/set repeat times<br>
-__type:__ int<br>
-__range:__ 0..10000<br>
-__default:__ 1<br>
+_type:_ int<br>
+_range:_ 0..10000<br>
+_default:_ 1<br>
 
 
 
 ## inlets:
 
-* input float. Example: input 10 outputs list - 10 x n
-                times 
-__type:__ control<br>
-* repeat count 
-__type:__ control<br>
+* input float. Example: input 10 outputs list - 10 x n times<br>
+_type:_ control
+* repeat count<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* output list
-__type:__ control<br>
+* output list<br>
+_type:_ control
 
 
 

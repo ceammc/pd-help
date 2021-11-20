@@ -24,46 +24,46 @@
 
 * **@array** 
 Get/set array name<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 * **@ymin** 
 Get/set minimal y-axis value<br>
-__type:__ float<br>
-__range:__ -2048..2048<br>
-__default:__ -1<br>
+_type:_ float<br>
+_range:_ -2048..2048<br>
+_default:_ -1<br>
 
 * **@ymax** 
 Get/set minimal y-axis value<br>
-__type:__ float<br>
-__range:__ -2048..2048<br>
-__default:__ 1<br>
+_type:_ float<br>
+_range:_ -2048..2048<br>
+_default:_ 1<br>
 
 * **@yauto** 
 Get/set calculate y-axis range automatically<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 1<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 1<br>
 
 * **@nan** 
 Get/set value to replace nan on plot<br>
-__type:__ float<br>
-__default:__ +inf<br>
+_type:_ float<br>
+_default:_ +inf<br>
 
 
 
 ## inlets:
 
-* single input sample 
-__type:__ control<br>
-* plot all samples fitted to specified array 
-__type:__ control<br>
+* single input sample<br>
+_type:_ control
+* plot all samples fitted to specified array<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* bang on done
-__type:__ control<br>
+* bang on done<br>
+_type:_ control
 
 
 

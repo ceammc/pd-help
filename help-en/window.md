@@ -21,11 +21,11 @@
 * **NAME**
 window name: blackman, blackman-harris, flattop, gauss, hamming, hann, nuttall,
 rect, sine, tri, welch<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 * **SIZE**
 window size<br>
-__type:__ int<br>
+_type:_ int<br>
 
 
 
@@ -71,29 +71,29 @@ Sets Welch window type<br>
 
 * **@type** 
 Get/set window type. See argument description<br>
-__type:__ symbol<br>
-__default:__ hann<br>
+_type:_ symbol<br>
+_default:_ hann<br>
 
 * **@size** 
 Get/set window size<br>
-__type:__ int<br>
-__units:__ samp<br>
-__min value:__ 16<br>
-__default:__ 512<br>
+_type:_ int<br>
+_units:_ samp<br>
+_min value:_ 16<br>
+_default:_ 512<br>
 
 
 
 ## inlets:
 
-* output all window values as list 
-__type:__ control<br>
+* output all window values as list<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* sample number
-__type:__ control<br>
+* sample number<br>
+_type:_ control
 
 
 

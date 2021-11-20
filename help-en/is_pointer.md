@@ -24,17 +24,17 @@
 
 ## inlets:
 
-* outputs &#39;1&#39; to 1st outlet, otherwise &#39;0&#39; 
-__type:__ control<br>
+* outputs &#39;1&#39; to 1st outlet, otherwise &#39;0&#39;<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* 0 or 1
-__type:__ control<br>
-* passes *pointer* message
-__type:__ control<br>
+* 0 or 1<br>
+_type:_ control
+* passes *pointer* message<br>
+_type:_ control
 
 
 

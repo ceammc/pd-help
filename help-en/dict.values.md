@@ -24,15 +24,15 @@
 
 ## inlets:
 
-* data.dict 
-__type:__ control<br>
+* data.dict<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* mlist of values
-__type:__ control<br>
+* mlist of values<br>
+_type:_ control
 
 
 

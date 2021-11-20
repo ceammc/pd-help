@@ -20,7 +20,7 @@
 
 * **N**
 number of inputs/outputs<br>
-__type:__ int<br>
+_type:_ int<br>
 
 
 
@@ -85,44 +85,44 @@ set gain in db for all inputs<br>
 
 * **@value** 
 Get/set gain amplitude values<br>
-__type:__ list<br>
-__min value:__ 0<br>
-__default:__ 0<br>
+_type:_ list<br>
+_min value:_ 0<br>
+_default:_ 0<br>
 
 * **@db** 
 Get/set gain decibel (dbfs) values<br>
-__type:__ list<br>
-__min value:__ -144<br>
-__default:__ -144<br>
+_type:_ list<br>
+_min value:_ -144<br>
+_default:_ -144<br>
 
 * **@smooth_time** 
 Get/set gain change smooth time<br>
-__type:__ float<br>
-__units:__ ms<br>
-__min value:__ 1<br>
-__default:__ 20<br>
+_type:_ float<br>
+_units:_ ms<br>
+_min value:_ 1<br>
+_default:_ 20<br>
 
 
 
 ## inlets:
 
-* input signal 
-__type:__ audio<br>
-* input signal 
-__type:__ audio<br>
-* set gain for all inputs 
-__type:__ control<br>
+* input signal<br>
+_type:_ audio
+* input signal<br>
+_type:_ audio
+* set gain for all inputs<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* output signal
-__type:__ audio<br>
-* output signal
-__type:__ audio<br>
-* output signal
-__type:__ audio<br>
+* output signal<br>
+_type:_ audio
+* output signal<br>
+_type:_ audio
+* output signal<br>
+_type:_ audio
 
 
 

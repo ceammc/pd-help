@@ -24,15 +24,15 @@
 
 ## inlets:
 
-* output current canvas directory 
-__type:__ control<br>
+* output current canvas directory<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* current canvas directory as symbol
-__type:__ control<br>
+* current canvas directory as symbol<br>
+_type:_ control
 
 
 

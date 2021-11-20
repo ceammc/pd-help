@@ -28,15 +28,15 @@ Note: symbol values are treated as 0. So if list contains at least one symbol,
 
 ## inlets:
 
-* input list 
-__type:__ control<br>
+* input list<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* float list product
-__type:__ control<br>
+* float list product<br>
+_type:_ control
 
 
 

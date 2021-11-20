@@ -25,7 +25,7 @@ In @poly mode: output VOICE NOTE VEL triplet to first outlet
 
 * **KEYS**
 list of note keys<br>
-__type:__ list<br>
+_type:_ list<br>
 
 
 
@@ -35,39 +35,39 @@ __type:__ list<br>
 
 * **@poly** 
 Get/set polyphonic mode. (for using with [clone] object)<br>
-__type:__ flag<br>
-__default:__ 0<br>
+_type:_ flag<br>
+_default:_ 0<br>
 
 * **@mode** 
 Get/set mode for repeated notes. If &#39;off&#39; - send note off before retriggering, if &#39;tie&#39;
 - ignore repeated events, if &#39;raw&#39; - always send on/off events<br>
-__type:__ symbol<br>
-__enum:__ off, tie, raw<br>
-__default:__ off<br>
+_type:_ symbol<br>
+_enum:_ off, tie, raw<br>
+_default:_ off<br>
 
 * **@keys** 
 Get/set list of mapped keys<br>
-__type:__ list<br>
+_type:_ list<br>
 
 * **@vel** 
 Get/set output velocity<br>
-__type:__ float<br>
-__range:__ 0..127<br>
-__default:__ 90<br>
+_type:_ float<br>
+_range:_ 0..127<br>
+_default:_ 90<br>
 
 
 
 ## inlets:
 
-* input bit list 
-__type:__ control<br>
+* input bit list<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* output
-__type:__ control<br>
+* output<br>
+_type:_ control
 
 
 

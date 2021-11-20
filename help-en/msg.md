@@ -20,11 +20,11 @@
 
 * **NAME**
 message selector<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 * **X**
 message content<br>
-__type:__ any<br>
+_type:_ any<br>
 
 
 
@@ -34,17 +34,17 @@ __type:__ any<br>
 
 ## inlets:
 
-* appends all atoms to message content and outputs it 
-__type:__ control<br>
-* change message selector 
-__type:__ control<br>
+* appends all atoms to message content and outputs it<br>
+_type:_ control
+* change message selector<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* message output
-__type:__ control<br>
+* message output<br>
+_type:_ control
 
 
 

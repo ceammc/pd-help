@@ -33,7 +33,7 @@ Grain properties:
 
 * **NAME**
 array name<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 
 
@@ -112,43 +112,43 @@ align gain(s) to onset<br>
 
 * **@array** 
 Get/set array name<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 * **@sync** 
 Get/set grain sync mode. If &#39;none&#39;: start grains right after they are finished, if
 &#39;int&#39;: start grains after specified interval (@tsync).<br>
-__type:__ symbol<br>
-__enum:__ none, int, ext<br>
-__default:__ none<br>
+_type:_ symbol<br>
+_enum:_ none, int, ext<br>
+_default:_ none<br>
 
 * **@tsync** 
 Get/set grain sync interval<br>
-__type:__ float<br>
-__units:__ ms<br>
-__min value:__ 1<br>
-__default:__ 50<br>
+_type:_ float<br>
+_units:_ ms<br>
+_min value:_ 1<br>
+_default:_ 50<br>
 
 * **@prob** 
 Get/set grain start probability in internal or external sync mode. (&#39;int&#39; or &#39;ext&#39;)<br>
-__type:__ float<br>
-__range:__ 0..1<br>
-__default:__ 1<br>
+_type:_ float<br>
+_range:_ 0..1<br>
+_default:_ 1<br>
 
 
 
 ## inlets:
 
-* control inlet 
-__type:__ control<br>
+* control inlet<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* left output
-__type:__ audio<br>
-* right output
-__type:__ audio<br>
+* left output<br>
+_type:_ audio
+* right output<br>
+_type:_ audio
 
 
 

@@ -24,13 +24,13 @@ filter that passes most frequencies unaltered, but attenuates those in a specifi
 
 * **freq**
 center frequency<br>
-__type:__ float<br>
-__units:__ Hz<br>
+_type:_ float<br>
+_units:_ Hz<br>
 
 * **width**
 band width (approximate)<br>
-__type:__ float<br>
-__units:__ Hz<br>
+_type:_ float<br>
+_units:_ Hz<br>
 
 
 
@@ -40,37 +40,37 @@ __units:__ Hz<br>
 
 * **@freq** 
 Get/set center frequency<br>
-__type:__ float<br>
-__units:__ Hz<br>
-__range:__ 20..20000<br>
-__default:__ 1000<br>
+_type:_ float<br>
+_units:_ Hz<br>
+_range:_ 20..20000<br>
+_default:_ 1000<br>
 
 * **@width** 
 Get/set band width (approximate)<br>
-__type:__ float<br>
-__units:__ Hz<br>
-__range:__ 1..10000<br>
-__default:__ 50<br>
+_type:_ float<br>
+_units:_ Hz<br>
+_range:_ 1..10000<br>
+_default:_ 50<br>
 
 * **@active** 
 Get/set on/off dsp processing<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 1<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 1<br>
 
 
 
 ## inlets:
 
-* input signal 
-__type:__ audio<br>
+* input signal<br>
+_type:_ audio
 
 
 
 ## outlets:
 
-* filtered signal
-__type:__ audio<br>
+* filtered signal<br>
+_type:_ audio
 
 
 

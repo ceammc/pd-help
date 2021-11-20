@@ -24,7 +24,7 @@ A minimal, modern and easy-to-use synthesizer for Bytebeat music and not
 
 * **EXPR**
 Glitch expression<br>
-__type:__ list<br>
+_type:_ list<br>
 
 
 
@@ -50,28 +50,28 @@ reset synth<br>
 
 * **@expr** 
 Get/set expression<br>
-__type:__ list<br>
+_type:_ list<br>
 
 * **@clip** 
 Get/set clip output to -1..+1 range. Use false value only when you are know what are
 you doing and at your own risk!<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 1<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 1<br>
 
 
 
 ## inlets:
 
-* ... 
-__type:__ control<br>
+* ...<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* synth output
-__type:__ audio<br>
+* synth output<br>
+_type:_ audio
 
 
 

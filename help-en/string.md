@@ -20,7 +20,7 @@
 
 * **STR**
 initial string<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 
 
@@ -42,21 +42,21 @@ append values to the end of string<br>
 
 * **@value** 
 Get/set string value<br>
-__type:__ list<br>
+_type:_ list<br>
 
 
 
 ## inlets:
 
-* outputs string value 
-__type:__ control<br>
+* outputs string value<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* string data
-__type:__ control<br>
+* string data<br>
+_type:_ control
 
 
 

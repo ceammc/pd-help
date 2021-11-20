@@ -28,15 +28,15 @@ Outputs the principle value of the arc cosine of input signal. The result is in
 
 ## inlets:
 
-* input signal 
-__type:__ audio<br>
+* input signal<br>
+_type:_ audio
 
 
 
 ## outlets:
 
-* result signal
-__type:__ audio<br>
+* result signal<br>
+_type:_ audio
 
 
 

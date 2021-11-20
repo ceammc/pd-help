@@ -24,15 +24,15 @@
 
 ## inlets:
 
-* outputs single positive impulse 
-__type:__ control<br>
+* outputs single positive impulse<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* output signal
-__type:__ audio<br>
+* output signal<br>
+_type:_ audio
 
 
 

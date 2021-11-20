@@ -20,7 +20,7 @@
 
 * **X**
 searched element<br>
-__type:__ atom<br>
+_type:_ atom<br>
 
 
 
@@ -30,23 +30,23 @@ __type:__ atom<br>
 
 * **@subj** 
 Get/set searched element<br>
-__type:__ atom<br>
+_type:_ atom<br>
 
 
 
 ## inlets:
 
-* input set. Other values are ignored 
-__type:__ control<br>
-* set searched element 
-__type:__ control<br>
+* input set. Other values are ignored<br>
+_type:_ control
+* set searched element<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* 1 if element exists in set, otherwise 0
-__type:__ control<br>
+* 1 if element exists in set, otherwise 0<br>
+_type:_ control
 
 
 

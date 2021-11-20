@@ -20,7 +20,7 @@
 
 * **VAR**
 environment variable name<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 
 
@@ -30,15 +30,15 @@ __type:__ symbol<br>
 
 ## inlets:
 
-* outputs variable value 
-__type:__ control<br>
+* outputs variable value<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* symbol: env-variable value
-__type:__ control<br>
+* symbol: env-variable value<br>
+_type:_ control
 
 
 

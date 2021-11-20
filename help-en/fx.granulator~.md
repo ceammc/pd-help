@@ -30,45 +30,45 @@ reset object state<br>
 
 * **@density** 
 Get/set number of grains<br>
-__type:__ int<br>
-__range:__ 1..64<br>
-__default:__ 10<br>
+_type:_ int<br>
+_range:_ 1..64<br>
+_default:_ 10<br>
 
 * **@length** 
 Get/set grain length<br>
-__type:__ float<br>
-__units:__ ms<br>
-__range:__ 10..500<br>
-__default:__ 100<br>
+_type:_ float<br>
+_units:_ ms<br>
+_range:_ 10..500<br>
+_default:_ 100<br>
 
 * **@delay** 
 Get/set grain total area length<br>
-__type:__ float<br>
-__units:__ sec<br>
-__range:__ 0.5..10<br>
-__default:__ 10<br>
+_type:_ float<br>
+_units:_ sec<br>
+_range:_ 0.5..10<br>
+_default:_ 10<br>
 
 * **@active** 
 Get/set on/off dsp processing<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 1<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 1<br>
 
 
 
 ## inlets:
 
-* left channel 
-__type:__ audio<br>
+* left channel<br>
+_type:_ audio
 
 
 
 ## outlets:
 
-* output
-__type:__ audio<br>
-* output
-__type:__ audio<br>
+* output<br>
+_type:_ audio
+* output<br>
+_type:_ audio
 
 
 

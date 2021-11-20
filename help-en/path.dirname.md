@@ -24,15 +24,15 @@
 
 ## inlets:
 
-* outputs directory portion of pathname 
-__type:__ control<br>
+* outputs directory portion of pathname<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* directory name
-__type:__ control<br>
+* directory name<br>
+_type:_ control
 
 
 

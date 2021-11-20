@@ -20,7 +20,7 @@
 
 * **N**
 @n property<br>
-__type:__ int<br>
+_type:_ int<br>
 
 
 
@@ -30,41 +30,41 @@ __type:__ int<br>
 
 * **@n** 
 Get/set number of processed samples<br>
-__type:__ int<br>
-__range:__ 32..8192<br>
-__default:__ 512<br>
+_type:_ int<br>
+_range:_ 32..8192<br>
+_default:_ 512<br>
 
 * **@db** 
 Get/set decibel mode. It true outputs amplitude in decibels<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 0<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 0<br>
 
 * **@sr** 
 Get/set using samplerate. If true output in [0..SR/2] instead of [0..pi]<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 0<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 0<br>
 
 
 
 ## inlets:
 
-* input signal 
-__type:__ audio<br>
-* starts response calculation 
-__type:__ control<br>
+* input signal<br>
+_type:_ audio
+* starts response calculation<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* frequency response
-__type:__ audio<br>
-* phase response
-__type:__ audio<br>
-* output to [array.plot~] or [ui.plot~]
-__type:__ control<br>
+* frequency response<br>
+_type:_ audio
+* phase response<br>
+_type:_ audio
+* output to [array.plot~] or [ui.plot~]<br>
+_type:_ control
 
 
 

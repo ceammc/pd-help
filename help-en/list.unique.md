@@ -24,23 +24,23 @@
 
 * **@stable** 
 Get/set if true - preserves element appearing order<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 1<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 1<br>
 
 
 
 ## inlets:
 
-* input list 
-__type:__ control<br>
+* input list<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* output list
-__type:__ control<br>
+* output list<br>
+_type:_ control
 
 
 

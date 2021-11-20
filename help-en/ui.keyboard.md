@@ -24,11 +24,11 @@ Piano keyboard widget
 
 * **NKEYS**
 number of keys<br>
-__type:__ int<br>
+_type:_ int<br>
 
 * **SHIFT**
 pitch of starting key<br>
-__type:__ int<br>
+_type:_ int<br>
 
 
 
@@ -55,89 +55,88 @@ set UI element position<br>
 
 * **@keys** 
 Get/set number of keys<br>
-__type:__ int<br>
-__range:__ 5..88<br>
-__default:__ 61<br>
+_type:_ int<br>
+_range:_ 5..88<br>
+_default:_ 61<br>
 
 * **@shift** 
 Get/set MIDI pitch of starting key<br>
-__type:__ int<br>
-__range:__ 6..88<br>
-__default:__ 36<br>
+_type:_ int<br>
+_range:_ 6..88<br>
+_default:_ 36<br>
 
 * **@send** 
 Get/set send destination<br>
-__type:__ symbol<br>
-__default:__ (null)<br>
+_type:_ symbol<br>
+_default:_ (null)<br>
 
 * **@receive** 
 Get/set receive source<br>
-__type:__ symbol<br>
-__default:__ (null)<br>
+_type:_ symbol<br>
+_default:_ (null)<br>
 
 * **@size** 
 Get/set element size (width, height pair)<br>
-__type:__ list<br>
-__default:__ 433 60<br>
+_type:_ list<br>
+_default:_ 433 60<br>
 
 * **@pinned** 
 Get/set pin mode. if 1 - put element to the lowest level<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 0<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 0<br>
 
 * **@active_color** 
 Get/set active color (list of red, green, blue values in 0-1 range)<br>
-__type:__ list<br>
-__default:__ 0 0.75 1 1<br>
+_type:_ list<br>
+_default:_ 0 0.75 1 1<br>
 
 * **@background_color** 
 Get/set element background color (list of red, green, blue values in 0-1 range)<br>
-__type:__ list<br>
-__default:__ 0.93 0.93 0.93 1<br>
+_type:_ list<br>
+_default:_ 0.93 0.93 0.93 1<br>
 
 * **@border_color** 
 Get/set border color (list of red, green, blue values in 0-1 range)<br>
-__type:__ list<br>
-__default:__ 0.6 0.6 0.6 1<br>
+_type:_ list<br>
+_default:_ 0.6 0.6 0.6 1<br>
 
 * **@fontsize** 
 Get/set fontsize<br>
-__type:__ int<br>
-__range:__ 4..11<br>
-__default:__ 11<br>
+_type:_ int<br>
+_range:_ 4..11<br>
+_default:_ 11<br>
 
 * **@fontname** 
 Get/set fontname<br>
-__type:__ symbol<br>
-__default:__ Helvetica<br>
+_type:_ symbol<br>
+_default:_ Helvetica<br>
 
 * **@fontweight** 
 Get/set font weight<br>
-__type:__ symbol<br>
-__enum:__ normal, bold<br>
-__default:__ normal<br>
+_type:_ symbol<br>
+_enum:_ normal, bold<br>
+_default:_ normal<br>
 
 * **@fontslant** 
 Get/set font slant<br>
-__type:__ symbol<br>
-__enum:__ roman, italic<br>
-__default:__ roman<br>
+_type:_ symbol<br>
+_enum:_ roman, italic<br>
+_default:_ roman<br>
 
 
 
 ## inlets:
 
-* control inlet 
-__type:__ control<br>
+* control inlet<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* list from two elements: MIDI pitch, MIDI velocity. Velocity depends from key
-            press position.
-__type:__ control<br>
+* list from two elements: MIDI pitch, MIDI velocity. Velocity depends from key press position.<br>
+_type:_ control
 
 
 

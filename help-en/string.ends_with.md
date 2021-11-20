@@ -20,7 +20,7 @@
 
 * **SUFFIX**
 suffix<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 
 
@@ -30,23 +30,23 @@ __type:__ symbol<br>
 
 * **@suffix** 
 Get/set suffix to search<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 
 
 ## inlets:
 
-* input string or symbol 
-__type:__ control<br>
-* search suffix (string or symbol) 
-__type:__ control<br>
+* input string or symbol<br>
+_type:_ control
+* search suffix (string or symbol)<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* output 1 if input string ends with suffix, otherwise 0
-__type:__ control<br>
+* output 1 if input string ends with suffix, otherwise 0<br>
+_type:_ control
 
 
 

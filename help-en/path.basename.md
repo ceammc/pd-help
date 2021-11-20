@@ -24,15 +24,15 @@
 
 ## inlets:
 
-* outputs filename portion of pathname 
-__type:__ control<br>
+* outputs filename portion of pathname<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* filename
-__type:__ control<br>
+* filename<br>
+_type:_ control
 
 
 

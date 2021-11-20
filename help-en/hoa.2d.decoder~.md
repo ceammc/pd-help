@@ -31,15 +31,15 @@ The default mode is regular for an array of 2 * order + 2 loudspeakers. The
 
 * **ORDER**
 the order of decomposition<br>
-__type:__ int<br>
+_type:_ int<br>
 
 * **MODE**
 decoding mode<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 * **N**
 number of loud speakers (minimum 2*ORDER+1 for ambisonic mode)<br>
-__type:__ int<br>
+_type:_ int<br>
 
 
 
@@ -49,100 +49,100 @@ __type:__ int<br>
 
 * **@order** (readonly)
 Get the order of decomposition<br>
-__type:__ int<br>
-__range:__ 1..63<br>
-__default:__ 1<br>
+_type:_ int<br>
+_range:_ 1..63<br>
+_default:_ 1<br>
 
 * **@mode** (readonly)
 Get decoding mode<br>
-__type:__ symbol<br>
-__enum:__ regular, irregular, binaural<br>
-__default:__ regular<br>
+_type:_ symbol<br>
+_enum:_ regular, irregular, binaural<br>
+_default:_ regular<br>
 
 * **@regular** 
 Get/set alias for @mode regular<br>
-__type:__ alias<br>
+_type:_ alias<br>
 
 * **@irregular** 
 Get/set alias for @mode irregular<br>
-__type:__ alias<br>
+_type:_ alias<br>
 
 * **@binaural** 
 Get/set alias for @mode binaural<br>
-__type:__ alias<br>
+_type:_ alias<br>
 
 * **@crop** 
 Get/set crop HRIR response. Only for @binaural mode.<br>
-__type:__ int<br>
-__units:__ samp<br>
-__range:__ 0..512<br>
-__default:__ 16<br>
+_type:_ int<br>
+_units:_ samp<br>
+_range:_ 0..512<br>
+_default:_ 16<br>
 
 * **@offset** 
 Get/set rotation of loudspeakers. Only available for @regular and @irregular mode.<br>
-__type:__ float<br>
-__units:__ deg<br>
-__default:__ 0<br>
+_type:_ float<br>
+_units:_ deg<br>
+_default:_ 0<br>
 
 * **@angles** 
 Get/set angles of loudspeakers. Only available for @irregular mode.<br>
-__type:__ list<br>
-__units:__ deg<br>
+_type:_ list<br>
+_units:_ deg<br>
 
 * **@pw_x** (readonly)
 Get list of plain wave x-coordinates (abscissas). -1 is the left of the soundfield,
 0 is the center of the soundfield and 1 is the right of the soundfield.<br>
-__type:__ list<br>
-__units:__ rad<br>
-__range:__ -1..1<br>
+_type:_ list<br>
+_units:_ rad<br>
+_range:_ -1..1<br>
 
 * **@pw_y** (readonly)
 Get list of plain wave y-coordinates (ordinatas). -1 is the back of the soundfield,
 0 is the center of the soundfield and 1 is the front of the soundfield.<br>
-__type:__ list<br>
-__units:__ rad<br>
-__range:__ -1..1<br>
+_type:_ list<br>
+_units:_ rad<br>
+_range:_ -1..1<br>
 
 * **@pw_z** (readonly)
 Get list of plain wave z-coordinates (heights). -1 is the bottom of the soundfield,
 0 is the center of the soundfield and 1 is the top of the soundfield.<br>
-__type:__ list<br>
-__units:__ rad<br>
-__range:__ -1..1<br>
+_type:_ list<br>
+_units:_ rad<br>
+_range:_ -1..1<br>
 
 * **@nharm** (readonly)
 Get number of circular harmonics.<br>
-__type:__ int<br>
-__min value:__ 1<br>
-__default:__ 3<br>
+_type:_ int<br>
+_min value:_ 1<br>
+_default:_ 3<br>
 
 * **@nwaves** (readonly)
 Get number of plain waves.<br>
-__type:__ int<br>
-__min value:__ 1<br>
-__default:__ 0<br>
+_type:_ int<br>
+_min value:_ 1<br>
+_default:_ 0<br>
 
 
 
 ## inlets:
 
-* first input harmonic 
-__type:__ audio<br>
-* ... input harmonic 
-__type:__ audio<br>
-* n-th input harmonic 
-__type:__ audio<br>
+* first input harmonic<br>
+_type:_ audio
+* ... input harmonic<br>
+_type:_ audio
+* n-th input harmonic<br>
+_type:_ audio
 
 
 
 ## outlets:
 
-* first loudspeaker output
-__type:__ audio<br>
-* ... loudspeaker output
-__type:__ audio<br>
-* n-th loudspeaker output
-__type:__ audio<br>
+* first loudspeaker output<br>
+_type:_ audio
+* ... loudspeaker output<br>
+_type:_ audio
+* n-th loudspeaker output<br>
+_type:_ audio
 
 
 

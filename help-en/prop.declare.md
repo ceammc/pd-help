@@ -20,7 +20,7 @@
 
 * **NAME**
 property name without @ (should be unique for current canvas)<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 
 
@@ -30,47 +30,47 @@ __type:__ symbol<br>
 
 * **@type** 
 Get/set property type<br>
-__type:__ symbol<br>
-__enum:__ float, int, bool, enum, symbol, list<br>
-__default:__ float<br>
+_type:_ symbol<br>
+_enum:_ float, int, bool, enum, symbol, list<br>
+_default:_ float<br>
 
 * **@f** 
 Get/set alias to @type float<br>
-__type:__ alias<br>
+_type:_ alias<br>
 
 * **@i** 
 Get/set alias to @type int<br>
-__type:__ alias<br>
+_type:_ alias<br>
 
 * **@b** 
 Get/set alias to @type bool<br>
-__type:__ alias<br>
+_type:_ alias<br>
 
 * **@s** 
 Get/set alias to @type symbol<br>
-__type:__ alias<br>
+_type:_ alias<br>
 
 * **@l** 
 Get/set alias to @type list<br>
-__type:__ alias<br>
+_type:_ alias<br>
 
 * **@default** 
 Get/set default property value<br>
-__type:__ list<br>
+_type:_ list<br>
 
 * **@min** 
 Get/set minimal value (for float and int properties only)<br>
-__type:__ float<br>
-__default:__ -inf<br>
+_type:_ float<br>
+_default:_ -inf<br>
 
 * **@max** 
 Get/set maximum value (for float and int properties only)<br>
-__type:__ float<br>
-__default:__ +inf<br>
+_type:_ float<br>
+_default:_ +inf<br>
 
 * **@enum** 
 Get/set allowed values (without default value) (for symbol properties only)<br>
-__type:__ list<br>
+_type:_ list<br>
 
 
 

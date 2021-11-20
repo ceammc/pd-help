@@ -353,24 +353,23 @@ send CC Bank Select LSB<br>
 
 * **@list** 
 Get/set output as list<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 0<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 0<br>
 
 
 
 ## inlets:
 
-* raw midi input bytes 
-__type:__ control<br>
+* raw midi input bytes<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* float: raw midi output or parsed messages with selector (output format is the
-            same as for corresponding methods)
-__type:__ control<br>
+* float: raw midi output or parsed messages with selector (output format is the same as for corresponding methods)<br>
+_type:_ control
 
 
 

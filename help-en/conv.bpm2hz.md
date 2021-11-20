@@ -28,15 +28,15 @@ Converts frequency from BPM (beats per minute) to herz. It&#39;s simple as /60, 
 
 ## inlets:
 
-* frequency in BPM 
-__type:__ control<br>
+* frequency in BPM<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* frequency in herz
-__type:__ control<br>
+* frequency in herz<br>
+_type:_ control
 
 
 

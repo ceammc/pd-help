@@ -24,15 +24,15 @@
 
 ## inlets:
 
-* first symbol 
-__type:__ control<br>
+* first symbol<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* list of codes
-__type:__ control<br>
+* list of codes<br>
+_type:_ control
 
 
 

@@ -28,17 +28,17 @@ Other messages passed &#39;as is&#39; immidiately.
 
 ## inlets:
 
-* immidiately output bang 
-__type:__ control<br>
-* clear scheduled messages 
-__type:__ control<br>
+* immidiately output bang<br>
+_type:_ control
+* clear scheduled messages<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* message output
-__type:__ control<br>
+* message output<br>
+_type:_ control
 
 
 

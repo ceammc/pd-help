@@ -24,15 +24,15 @@
 
 ## inlets:
 
-* input list 
-__type:__ control<br>
+* input list<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* new shuffled list
-__type:__ control<br>
+* new shuffled list<br>
+_type:_ control
 
 
 

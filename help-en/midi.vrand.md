@@ -20,11 +20,11 @@
 
 * **MIN**
 min random range<br>
-__type:__ float<br>
+_type:_ float<br>
 
 * **MAX**
 max random range<br>
-__type:__ float<br>
+_type:_ float<br>
 
 
 
@@ -34,39 +34,39 @@ __type:__ float<br>
 
 * **@min** 
 Get/set min random range<br>
-__type:__ float<br>
-__default:__ 0<br>
+_type:_ float<br>
+_default:_ 0<br>
 
 * **@max** 
 Get/set max random range<br>
-__type:__ float<br>
-__default:__ 127<br>
+_type:_ float<br>
+_default:_ 127<br>
 
 * **@seed** 
 Get/set random seed<br>
-__type:__ int<br>
-__min value:__ 0<br>
-__default:__ 0<br>
+_type:_ int<br>
+_min value:_ 0<br>
+_default:_ 0<br>
 
 * **@mode** 
 Get/set assign mode. If *assign* - replace origin velocity with random new one
 (default), if *add* - adds random value to origin velocity, if *sub* - subtract
 random value from origin velocity.<br>
-__type:__ symbol<br>
-__enum:__ assign, add, sub<br>
-__default:__ assign<br>
+_type:_ symbol<br>
+_enum:_ assign, add, sub<br>
+_default:_ assign<br>
 
 * **@add** 
 Get/set alias to @mode add<br>
-__type:__ alias<br>
+_type:_ alias<br>
 
 * **@sub** 
 Get/set alias to @mode sub<br>
-__type:__ alias<br>
+_type:_ alias<br>
 
 * **@assign** 
 Get/set alias to @mode assign<br>
-__type:__ alias<br>
+_type:_ alias<br>
 
 * **@dist** 
 Get/set random distribution. *uniform* - generate uniformly distributed value, *gauss*
@@ -74,23 +74,23 @@ Get/set random distribution. *uniform* - generate uniformly distributed value, *
 prob=0 at @min and prob=1 at @max, *lindown* - linear distribution with prob=1
 at @min and prob=0 at @max, *cmin* - constant @min value, *cmax* - constant
 @max value, *cmean* - constant (@max+@min)/2 value<br>
-__type:__ symbol<br>
-__enum:__ uniform, gauss, linup, lindown, cmin, cmax, cmean<br>
-__default:__ uniform<br>
+_type:_ symbol<br>
+_enum:_ uniform, gauss, linup, lindown, cmin, cmax, cmean<br>
+_default:_ uniform<br>
 
 
 
 ## inlets:
 
-* note value 
-__type:__ control<br>
+* note value<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* outputs NOTE VELOCITY [DUR] list with randomized VELOCITY value
-__type:__ control<br>
+* outputs NOTE VELOCITY [DUR] list with randomized VELOCITY value<br>
+_type:_ control
 
 
 

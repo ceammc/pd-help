@@ -31,23 +31,23 @@ In raw output mode output values can be in various output range and sign,
 
 * **@raw** 
 Get/set raw data output mode<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 0<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 0<br>
 
 
 
 ## inlets:
 
-* outputs current motion sensor information 
-__type:__ control<br>
+* outputs current motion sensor information<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* list of three values: x-rotation, y-rotation, z-acceleration
-__type:__ control<br>
+* list of three values: x-rotation, y-rotation, z-acceleration<br>
+_type:_ control
 
 
 

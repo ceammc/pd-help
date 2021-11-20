@@ -20,11 +20,11 @@
 
 * **ARRAY**
 array name<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 * **SPEED**
 play speed<br>
-__type:__ float<br>
+_type:_ float<br>
 
 
 
@@ -60,121 +60,121 @@ set @begin and @end property<br>
 
 * **@array** 
 Get/set array name<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 * **@begin** 
 Get/set playback start position. Negative value means position relative to the end of
 the array<br>
-__type:__ float<br>
-__units:__ samp<br>
-__default:__ 0<br>
+_type:_ float<br>
+_units:_ samp<br>
+_default:_ 0<br>
 
 * **@end** 
 Get/set playback end position. Negative value means position relative to the end of the
 array<br>
-__type:__ float<br>
-__units:__ samp<br>
-__default:__ -1<br>
+_type:_ float<br>
+_units:_ samp<br>
+_default:_ -1<br>
 
 * **@speed** 
 Get/set playback speed. Negative value means reversed playback<br>
-__type:__ float<br>
-__default:__ 1<br>
+_type:_ float<br>
+_default:_ 1<br>
 
 * **@amp** 
 Get/set playback amplitude<br>
-__type:__ float<br>
-__min value:__ 0<br>
-__default:__ 1<br>
+_type:_ float<br>
+_min value:_ 0<br>
+_default:_ 1<br>
 
 * **@interp** 
 Get/set interpolation type. 0: no interpolationm 1: linear, 3: cubic.<br>
-__type:__ int<br>
-__enum:__ 0, 1, 3<br>
-__default:__ 1<br>
+_type:_ int<br>
+_enum:_ 0, 1, 3<br>
+_default:_ 1<br>
 
 * **@clock** 
 Get/set clock output period. Zero means: no clock output (by default).<br>
-__type:__ float<br>
-__units:__ sec<br>
-__range:__ 0..20<br>
-__default:__ 0<br>
+_type:_ float<br>
+_units:_ sec<br>
+_range:_ 0..20<br>
+_default:_ 0<br>
 
 * **@cfmt** 
 Get/set clock output format<br>
-__type:__ symbol<br>
-__enum:__ sec, ms, samp, phase<br>
-__default:__ sec<br>
+_type:_ symbol<br>
+_enum:_ sec, ms, samp, phase<br>
+_default:_ sec<br>
 
 * **@state** (readonly)
 Get playing state. 0: stopped, 1: playing, 2: paused.<br>
-__type:__ int<br>
-__default:__ 0<br>
+_type:_ int<br>
+_default:_ 0<br>
 
 * **@cursor_ms** 
 Get/set current play position<br>
-__type:__ float<br>
-__units:__ ms<br>
-__default:__ 0<br>
+_type:_ float<br>
+_units:_ ms<br>
+_default:_ 0<br>
 
 * **@cursor_sec** 
 Get/set current play position<br>
-__type:__ float<br>
-__units:__ sec<br>
-__default:__ 0<br>
+_type:_ float<br>
+_units:_ sec<br>
+_default:_ 0<br>
 
 * **@cursor_phase** 
 Get/set current play position<br>
-__type:__ float<br>
-__default:__ 0<br>
+_type:_ float<br>
+_default:_ 0<br>
 
 * **@cursor_samp** 
 Get/set current play position<br>
-__type:__ float<br>
-__units:__ samp<br>
-__default:__ 0<br>
+_type:_ float<br>
+_units:_ samp<br>
+_default:_ 0<br>
 
 * **@select_samp** 
 Get/set selection range<br>
-__type:__ list<br>
-__units:__ samp<br>
-__default:__ 0 0<br>
+_type:_ list<br>
+_units:_ samp<br>
+_default:_ 0 0<br>
 
 * **@select_ms** 
 Get/set selection range<br>
-__type:__ list<br>
-__units:__ ms<br>
-__default:__ 0 0<br>
+_type:_ list<br>
+_units:_ ms<br>
+_default:_ 0 0<br>
 
 * **@select_sec** 
 Get/set selection range<br>
-__type:__ list<br>
-__units:__ sec<br>
-__default:__ 0 0<br>
+_type:_ list<br>
+_units:_ sec<br>
+_default:_ 0 0<br>
 
 * **@select_phase** 
 Get/set selection range in [0, 1] range<br>
-__type:__ list<br>
-__default:__ 0 0<br>
+_type:_ list<br>
+_default:_ 0 0<br>
 
 
 
 ## inlets:
 
-* resets play position and starts playback 
-__type:__ control<br>
+* resets play position and starts playback<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* played signal
-__type:__ audio<br>
+* played signal<br>
+_type:_ audio
 * output current playing position according to @cfmt property. By default output
-            seconds
-__type:__ control<br>
-* output bang when finished
-__type:__ control<br>
+            seconds<br>
+_type:_ control
+* output bang when finished<br>
+_type:_ control
 
 
 

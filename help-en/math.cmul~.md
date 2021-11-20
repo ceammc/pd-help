@@ -27,23 +27,23 @@ Calculates for signals (a + bi) * (c + di) = (ac - bd) + (ad + bc)i
 
 ## inlets:
 
-* real part of input signal1 
-__type:__ audio<br>
-* imag part of input signal1 
-__type:__ audio<br>
-* real part of input signal2 
-__type:__ audio<br>
-* imag part of input signal2 
-__type:__ audio<br>
+* real part of input signal1<br>
+_type:_ audio
+* imag part of input signal1<br>
+_type:_ audio
+* real part of input signal2<br>
+_type:_ audio
+* imag part of input signal2<br>
+_type:_ audio
 
 
 
 ## outlets:
 
-* real part of result
-__type:__ audio<br>
-* imag part of result
-__type:__ audio<br>
+* real part of result<br>
+_type:_ audio
+* imag part of result<br>
+_type:_ audio
 
 
 

@@ -24,18 +24,17 @@
 
 ## inlets:
 
-* outputs &#39;1&#39; if number can be divided exactly by 2, otherwise
-                &#39;0&#39; 
-__type:__ control<br>
+* outputs &#39;1&#39; if number can be divided exactly by 2, otherwise &#39;0&#39;<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* 0 or 1
-__type:__ control<br>
-* passed even numbers
-__type:__ control<br>
+* 0 or 1<br>
+_type:_ control
+* passed even numbers<br>
+_type:_ control
 
 
 

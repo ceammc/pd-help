@@ -27,7 +27,7 @@ If @min method used, output is [1 3 5] and [2 4]. If @pad method used with value
 
 * **N**
 number of output outlets<br>
-__type:__ int<br>
+_type:_ int<br>
 
 
 
@@ -38,33 +38,33 @@ __type:__ int<br>
 * **@method** 
 Get/set split method if number element in the input list is not multiple of number of
 outputs<br>
-__type:__ symbol<br>
-__enum:__ min, pad<br>
-__default:__ min<br>
+_type:_ symbol<br>
+_enum:_ min, pad<br>
+_default:_ min<br>
 
 * **@min** 
 Get/set alias to @method min. No padding used<br>
-__type:__ alias<br>
+_type:_ alias<br>
 
 * **@pad** 
 Get/set padding value. Pads result lists with specified value, if number of elements in
 the input list is not multiple of number of outputs<br>
-__type:__ atom<br>
-__default:__ 0<br>
+_type:_ atom<br>
+_default:_ 0<br>
 
 
 
 ## inlets:
 
-* input list 
-__type:__ control<br>
+* input list<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* unzipped list
-__type:__ control<br>
+* unzipped list<br>
+_type:_ control
 
 
 

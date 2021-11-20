@@ -24,15 +24,15 @@
 
 ## inlets:
 
-* input 
-__type:__ control<br>
+* input<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* list output
-__type:__ control<br>
+* list output<br>
+_type:_ control
 
 
 

@@ -20,7 +20,7 @@
 
 * **NAME**
 array name<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 
 
@@ -30,21 +30,21 @@ __type:__ symbol<br>
 
 * **@array** 
 Get/set array name<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 
 
 ## inlets:
 
-* calculates and outputs standard deviation 
-__type:__ control<br>
+* calculates and outputs standard deviation<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* standard deviation value
-__type:__ control<br>
+* standard deviation value<br>
+_type:_ control
 
 
 

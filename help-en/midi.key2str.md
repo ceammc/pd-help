@@ -24,27 +24,27 @@
 
 * **@symbol** 
 Get/set output as symbol instead of string by default<br>
-__type:__ flag<br>
-__default:__ 0<br>
+_type:_ flag<br>
+_default:_ 0<br>
 
 * **@tonality** 
 Get/set current tonality<br>
-__type:__ symbol<br>
-__default:__ C major<br>
+_type:_ symbol<br>
+_default:_ C major<br>
 
 
 
 ## inlets:
 
-* standart MIDI key number [0-127] 
-__type:__ control<br>
+* standart MIDI key number [0-127]<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* output key name
-__type:__ control<br>
+* output key name<br>
+_type:_ control
 
 
 

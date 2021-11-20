@@ -24,23 +24,23 @@
 
 * **@from** 
 Get/set starting args index<br>
-__type:__ int<br>
-__min value:__ 0<br>
-__default:__ 0<br>
+_type:_ int<br>
+_min value:_ 0<br>
+_default:_ 0<br>
 
 
 
 ## inlets:
 
-* output patch or subpatch arguments 
-__type:__ control<br>
+* output patch or subpatch arguments<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* list of arguments
-__type:__ control<br>
+* list of arguments<br>
+_type:_ control
 
 
 

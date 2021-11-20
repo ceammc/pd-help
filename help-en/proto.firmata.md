@@ -129,16 +129,15 @@ turns on/off digital port value reporting.<br>
 
 ## inlets:
 
-* raw input of bytes from Arduino serial connection 
-__type:__ control<br>
+* raw input of bytes from Arduino serial connection<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* raw byte output to Arduino serial connection and tagged parsed output from
-            Arduino
-__type:__ control<br>
+* raw byte output to Arduino serial connection and tagged parsed output from Arduino<br>
+_type:_ control
 
 
 

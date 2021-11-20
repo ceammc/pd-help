@@ -31,15 +31,15 @@ tan(+-infinity) returns a NaN and raises the &#34;invalid&#34; floating-point
 
 ## inlets:
 
-* input value 
-__type:__ control<br>
+* input value<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* result value
-__type:__ control<br>
+* result value<br>
+_type:_ control
 
 
 

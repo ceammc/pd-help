@@ -24,7 +24,7 @@ Two channel equal power panner. The center pan position is boosted by 3 dB
 
 * **POS**
 panning position. -1 means left, 0 - center, +1 - right<br>
-__type:__ float<br>
+_type:_ float<br>
 
 
 
@@ -34,33 +34,33 @@ __type:__ float<br>
 
 * **@pos** 
 Get/set panning position. -1 means left, 0 - center, +1 - right<br>
-__type:__ float<br>
-__range:__ -1..1<br>
-__default:__ 0<br>
+_type:_ float<br>
+_range:_ -1..1<br>
+_default:_ 0<br>
 
 * **@smooth** (readonly)
 Get smooth control signal to avoid zipping-noise<br>
-__type:__ int<br>
-__range:__ 0..100<br>
-__default:__ 20<br>
+_type:_ int<br>
+_range:_ 0..100<br>
+_default:_ 20<br>
 
 
 
 ## inlets:
 
-* input signal 
-__type:__ audio<br>
-* pan position 
-__type:__ control<br>
+* input signal<br>
+_type:_ audio
+* pan position<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* left output channel
-__type:__ audio<br>
-* right output channel
-__type:__ audio<br>
+* left output channel<br>
+_type:_ audio
+* right output channel<br>
+_type:_ audio
 
 
 

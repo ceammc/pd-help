@@ -23,7 +23,7 @@ with this object you can get relative position in array
 
 * **NAME**
 array name<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 
 
@@ -33,21 +33,21 @@ __type:__ symbol<br>
 
 * **@array** 
 Get/set array name<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 
 
 ## inlets:
 
-* array sample number 
-__type:__ control<br>
+* array sample number<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* relative position (non-clipped)
-__type:__ control<br>
+* relative position (non-clipped)<br>
+_type:_ control
 
 
 

@@ -24,7 +24,7 @@ if route starts with &#39;*&#39; - output with message selector
 
 * **MATCHES**
 list of route matches<br>
-__type:__ list<br>
+_type:_ list<br>
 
 
 
@@ -36,21 +36,21 @@ __type:__ list<br>
 
 * match to first list element, output to corresponding outlet. If
                 route starts with * output list &#39;as is&#39;, otherwise output without first
-                element 
-__type:__ control<br>
+                element<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* first pattern match output
-__type:__ control<br>
-* ... pattern match output
-__type:__ control<br>
-* n-th pattern match output
-__type:__ control<br>
-* unmatched output
-__type:__ control<br>
+* first pattern match output<br>
+_type:_ control
+* ... pattern match output<br>
+_type:_ control
+* n-th pattern match output<br>
+_type:_ control
+* unmatched output<br>
+_type:_ control
 
 
 

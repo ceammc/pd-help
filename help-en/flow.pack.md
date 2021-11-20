@@ -20,11 +20,11 @@
 
 * **N**
 number of inputs<br>
-__type:__ int<br>
+_type:_ int<br>
 
 * **VALS**
 default values for all inlets. If not enough default values given it sets to 0.<br>
-__type:__ list<br>
+_type:_ list<br>
 
 
 
@@ -34,31 +34,31 @@ __type:__ list<br>
 
 * **@n** 
 Get/set number of inlets<br>
-__type:__ int<br>
-__range:__ 1..255<br>
-__default:__ 1<br>
+_type:_ int<br>
+_range:_ 1..255<br>
+_default:_ 1<br>
 
 * **@init** 
 Get/set default init values<br>
-__type:__ list<br>
+_type:_ list<br>
 
 
 
 ## inlets:
 
-* output current value 
-__type:__ control<br>
-* change ... packed value 
-__type:__ control<br>
-* change n-th packed value 
-__type:__ control<br>
+* output current value<br>
+_type:_ control
+* change ... packed value<br>
+_type:_ control
+* change n-th packed value<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* packed list or message (if message input)
-__type:__ control<br>
+* packed list or message (if message input)<br>
+_type:_ control
 
 
 

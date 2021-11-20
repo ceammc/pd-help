@@ -27,16 +27,15 @@ Only Apple keyboards are supported at this moment
 
 ## inlets:
 
-* sets current keyboards light level (no
-                output) 
-__type:__ control<br>
+* sets current keyboards light level (no output)<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* keyboard light level in range 0...1
-__type:__ control<br>
+* keyboard light level in range 0...1<br>
+_type:_ control
 
 
 

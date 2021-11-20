@@ -24,7 +24,7 @@ Only 1 and 0 values are accepted. Any other number treat as 1, but print error t
 
 * **V**
 second value<br>
-__type:__ int<br>
+_type:_ int<br>
 
 
 
@@ -34,17 +34,17 @@ __type:__ int<br>
 
 ## inlets:
 
-* set first value, calculate and output result 
-__type:__ control<br>
-* change second value, calculate and output result 
-__type:__ control<br>
+* set first value, calculate and output result<br>
+_type:_ control
+* change second value, calculate and output result<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* output 1 or 0, according logical XOR operation
-__type:__ control<br>
+* output 1 or 0, according logical XOR operation<br>
+_type:_ control
 
 
 

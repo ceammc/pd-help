@@ -24,34 +24,34 @@
 
 * **@array** 
 Get/set array name<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 * **@ymin** 
 Get/set minimal y-axis value<br>
-__type:__ float<br>
-__range:__ -1024..1024<br>
-__default:__ -1<br>
+_type:_ float<br>
+_range:_ -1024..1024<br>
+_default:_ -1<br>
 
 * **@ymax** 
 Get/set minimal y-axis value<br>
-__type:__ float<br>
-__range:__ -1024..1024<br>
-__default:__ 1<br>
+_type:_ float<br>
+_range:_ -1024..1024<br>
+_default:_ 1<br>
 
 * **@yauto** 
 Get/set calculate y-axis range automatically<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 0<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 0<br>
 
 
 
 ## inlets:
 
-* input signal 
-__type:__ audio<br>
-* plot all samples fitted to specified array 
-__type:__ control<br>
+* input signal<br>
+_type:_ audio
+* plot all samples fitted to specified array<br>
+_type:_ control
 
 
 

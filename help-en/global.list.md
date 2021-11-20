@@ -23,7 +23,7 @@ Defines global scope list variable, accessed by ID name.
 
 * **ID**
 object ID<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 
 
@@ -103,29 +103,29 @@ dump object info to Pd window<br>
 
 * **@empty** (readonly)
 Get 1 if list is empty, otherwise 0<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 1<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 1<br>
 
 * **@size** (readonly)
 Get number of elements in list<br>
-__type:__ int<br>
-__min value:__ 0<br>
-__default:__ 0<br>
+_type:_ int<br>
+_min value:_ 0<br>
+_default:_ 0<br>
 
 
 
 ## inlets:
 
-* output list content 
-__type:__ control<br>
+* output list content<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* list output
-__type:__ control<br>
+* list output<br>
+_type:_ control
 
 
 

@@ -20,7 +20,7 @@
 
 * **PATTERN**
 list of time intervals<br>
-__type:__ list<br>
+_type:_ list<br>
 
 
 
@@ -30,35 +30,35 @@ __type:__ list<br>
 
 * **@pattern** 
 Get/set time intervals performed in a loop<br>
-__type:__ list<br>
+_type:_ list<br>
 
 * **@current** 
 Get/set current pattern index<br>
-__type:__ int<br>
-__min value:__ 0<br>
-__default:__ 0<br>
+_type:_ int<br>
+_min value:_ 0<br>
+_default:_ 0<br>
 
 * **@sync** 
 Get/set sync mode - change pattern after full cycle<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 0<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 0<br>
 
 
 
 ## inlets:
 
-* starts (on 1) or stops (on 0) metro 
-__type:__ control<br>
+* starts (on 1) or stops (on 0) metro<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* outputs *bang*
-__type:__ control<br>
-* outputs current pattern index and bang on loop return
-__type:__ control<br>
+* outputs *bang*<br>
+_type:_ control
+* outputs current pattern index and bang on loop return<br>
+_type:_ control
 
 
 

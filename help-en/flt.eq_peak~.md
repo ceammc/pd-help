@@ -21,18 +21,18 @@
 
 * **freq**
 peak frequency<br>
-__type:__ float<br>
-__units:__ Hz<br>
+_type:_ float<br>
+_units:_ Hz<br>
 
 * **gain**
 level at fx (boost if &gt;0 or cut if &lt;0)<br>
-__type:__ float<br>
-__units:__ db<br>
+_type:_ float<br>
+_units:_ db<br>
 
 * **bandwidth**
 bandwidth of peak<br>
-__type:__ float<br>
-__units:__ Hz<br>
+_type:_ float<br>
+_units:_ Hz<br>
 
 
 
@@ -42,44 +42,44 @@ __units:__ Hz<br>
 
 * **@freq** 
 Get/set peak frequency<br>
-__type:__ float<br>
-__units:__ Hz<br>
-__range:__ 20..20000<br>
-__default:__ 1000<br>
+_type:_ float<br>
+_units:_ Hz<br>
+_range:_ 20..20000<br>
+_default:_ 1000<br>
 
 * **@gain** 
 Get/set level at fx (boost if &gt;0 or cut if &lt;0)<br>
-__type:__ float<br>
-__units:__ db<br>
-__range:__ -15..15<br>
-__default:__ 0<br>
+_type:_ float<br>
+_units:_ db<br>
+_range:_ -15..15<br>
+_default:_ 0<br>
 
 * **@bandwidth** 
 Get/set bandwidth of peak<br>
-__type:__ float<br>
-__units:__ Hz<br>
-__range:__ 1..5000<br>
-__default:__ 100<br>
+_type:_ float<br>
+_units:_ Hz<br>
+_range:_ 1..5000<br>
+_default:_ 100<br>
 
 * **@active** 
 Get/set on/off dsp processing<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 1<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 1<br>
 
 
 
 ## inlets:
 
-* input signal 
-__type:__ audio<br>
+* input signal<br>
+_type:_ audio
 
 
 
 ## outlets:
 
-* filtered signal
-__type:__ audio<br>
+* filtered signal<br>
+_type:_ audio
 
 
 

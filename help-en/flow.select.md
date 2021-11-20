@@ -29,7 +29,7 @@ set: A|B|C - match to A or B or C
 
 * **ARGS**
 flow match expressions<br>
-__type:__ list<br>
+_type:_ list<br>
 
 
 
@@ -39,35 +39,35 @@ __type:__ list<br>
 
 * **@v** 
 Get/set alias to @keep_value 1<br>
-__type:__ alias<br>
+_type:_ alias<br>
 
 * **@keep_value** 
 Get/set vakue output mode. If false (by default) acts like vanilla select: output bang
 on match or full unmatched message to last outlet. If true always outputs full
 matched message to corresponding outlet.<br>
-__type:__ int<br>
-__enum:__ 0, 1, on, off<br>
-__default:__ 0<br>
+_type:_ int<br>
+_enum:_ 0, 1, on, off<br>
+_default:_ 0<br>
 
 
 
 ## inlets:
 
-* check float for matches 
-__type:__ control<br>
+* check float for matches<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* first matched output: bang or full message
-__type:__ control<br>
-* ... matched output: bang or full message
-__type:__ control<br>
-* nth matched output: bang or full message
-__type:__ control<br>
-* unmatched message
-__type:__ control<br>
+* first matched output: bang or full message<br>
+_type:_ control
+* ... matched output: bang or full message<br>
+_type:_ control
+* nth matched output: bang or full message<br>
+_type:_ control
+* unmatched message<br>
+_type:_ control
 
 
 

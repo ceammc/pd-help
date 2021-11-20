@@ -34,7 +34,7 @@ The event length is controlled via @length property. It can be fixed, percent or
 
 * **PATTERN**
 sequencer pattern in beat duration units<br>
-__type:__ list<br>
+_type:_ list<br>
 
 
 
@@ -62,81 +62,80 @@ output current sequence element and move to next<br>
 
 * **@t** 
 Get/set time between beats. Unit values like 100ms or 240bpm also can be used<br>
-__type:__ float<br>
-__units:__ ms<br>
-__range:__ 1..20000<br>
-__default:__ 100<br>
+_type:_ float<br>
+_units:_ ms<br>
+_range:_ 1..20000<br>
+_default:_ 100<br>
 
 * **@p** 
 Get/set sequencer pattern in beat duration units<br>
-__type:__ list<br>
+_type:_ list<br>
 
 * **@r** 
 Get/set number of whole sequence repeats. If -1: repeat infinitely<br>
-__type:__ int<br>
-__min value:__ -1<br>
-__default:__ 1<br>
+_type:_ int<br>
+_min value:_ -1<br>
+_default:_ 1<br>
 
 * **@inf** 
 Get/set alias to @r -1, repeats infinitely<br>
-__type:__ alias<br>
+_type:_ alias<br>
 
 * **@once** 
 Get/set alias to @r 1, play once<br>
-__type:__ alias<br>
+_type:_ alias<br>
 
 * **@dur** 
 Get/set whole sequence duration. (Recalculates @t property accordingly)<br>
-__type:__ float<br>
-__units:__ ms<br>
-__min value:__ 0<br>
-__default:__ 0<br>
+_type:_ float<br>
+_units:_ ms<br>
+_min value:_ 0<br>
+_default:_ 0<br>
 
 * **@length** 
 Get/set event length. In case of float or float wuth &#39;ms&#39; suffix - event length is
 fixed for any event duration. In case of V% - @length expected to be in 0..100
 range and event length is percent of duration. In case of negative @length
 event duration is calculated as duration+@length, but not less then 1<br>
-__type:__ float<br>
-__default:__ 75<br>
+_type:_ float<br>
+_default:_ 75<br>
 
 * **@i** (readonly)
 Get current sequence iteration<br>
-__type:__ int<br>
-__min value:__ 0<br>
-__default:__ 0<br>
+_type:_ int<br>
+_min value:_ 0<br>
+_default:_ 0<br>
 
 * **@ri** (readonly)
 Get current repeat iteration<br>
-__type:__ int<br>
-__min value:__ 0<br>
-__default:__ 0<br>
+_type:_ int<br>
+_min value:_ 0<br>
+_default:_ 0<br>
 
 * **@mode** 
 Get/set sequencer mode. &#39;inc&#39;: from first to last, &#39;dec&#39;: from last to first, &#39;tri&#39;:
 from first to last, then back<br>
-__type:__ symbol<br>
-__enum:__ inc, dec, tri<br>
-__default:__ inc<br>
+_type:_ symbol<br>
+_enum:_ inc, dec, tri<br>
+_default:_ inc<br>
 
 
 
 ## inlets:
 
-* reset sequence and repeat counters and start sequencer 
-__type:__ control<br>
-* set new pattern value 
-__type:__ control<br>
+* reset sequence and repeat counters and start sequencer<br>
+_type:_ control
+* set new pattern value<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* 1 and 0
-__type:__ control<br>
-* [i IDX N( - sequence iteration, [ri IDX N( - repeat iteration, [ed MS( - event
-            duration, [el MS( event length or [done( when done
-__type:__ control<br>
+* 1 and 0<br>
+_type:_ control
+* [i IDX N( - sequence iteration, [ri IDX N( - repeat iteration, [ed MS( - event duration, [el MS( event length or [done( when done<br>
+_type:_ control
 
 
 

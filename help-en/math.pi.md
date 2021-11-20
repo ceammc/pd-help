@@ -24,7 +24,7 @@ The number PI is a mathematical constant, the ratio of a circle&#39;s circumfere
 
 * **MUL**
 multiplier. default is 1<br>
-__type:__ float<br>
+_type:_ float<br>
 
 
 
@@ -34,22 +34,22 @@ __type:__ float<br>
 
 * **@k** 
 Get/set multiplier<br>
-__type:__ float<br>
-__default:__ 1<br>
+_type:_ float<br>
+_default:_ 1<br>
 
 
 
 ## inlets:
 
-* outputs value 
-__type:__ control<br>
+* outputs value<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* output value
-__type:__ control<br>
+* output value<br>
+_type:_ control
 
 
 

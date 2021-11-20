@@ -20,7 +20,7 @@
 
 * **MUL**
 multiplicand<br>
-__type:__ float<br>
+_type:_ float<br>
 
 
 
@@ -30,24 +30,24 @@ __type:__ float<br>
 
 * **@mul** 
 Get/set multiplicand<br>
-__type:__ float<br>
-__default:__ 1<br>
+_type:_ float<br>
+_default:_ 1<br>
 
 
 
 ## inlets:
 
-* multiplier 
-__type:__ control<br>
-* change multiplicand 
-__type:__ control<br>
+* multiplier<br>
+_type:_ control
+* change multiplicand<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* float or list
-__type:__ control<br>
+* float or list<br>
+_type:_ control
 
 
 

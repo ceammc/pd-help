@@ -25,13 +25,13 @@ Calculates coefficients for transfer function: H(z)=(b0 + b1*z⁻¹ + b2*z⁻²)
 
 * **freq**
 cutoff frequency<br>
-__type:__ float<br>
-__units:__ Hz<br>
+_type:_ float<br>
+_units:_ Hz<br>
 
 * **gain**
 filter gain<br>
-__type:__ float<br>
-__units:__ db<br>
+_type:_ float<br>
+_units:_ db<br>
 
 
 
@@ -41,45 +41,45 @@ __units:__ db<br>
 
 * **@freq** 
 Get/set center frequency<br>
-__type:__ float<br>
-__units:__ Hz<br>
-__range:__ 20..20000<br>
-__default:__ 1000<br>
+_type:_ float<br>
+_units:_ Hz<br>
+_range:_ 20..20000<br>
+_default:_ 1000<br>
 
 * **@gain** 
 Get/set filter gain<br>
-__type:__ float<br>
-__units:__ db<br>
-__range:__ -15..15<br>
-__default:__ 0<br>
+_type:_ float<br>
+_units:_ db<br>
+_range:_ -15..15<br>
+_default:_ 0<br>
 
 * **@active** 
 Get/set on/off dsp processing<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 1<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 1<br>
 
 
 
 ## inlets:
 
-* control input 
-__type:__ control<br>
+* control input<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* b0
-__type:__ audio<br>
-* b1
-__type:__ audio<br>
-* b2
-__type:__ audio<br>
-* a1
-__type:__ audio<br>
-* a2
-__type:__ audio<br>
+* b0<br>
+_type:_ audio
+* b1<br>
+_type:_ audio
+* b2<br>
+_type:_ audio
+* a1<br>
+_type:_ audio
+* a2<br>
+_type:_ audio
 
 
 

@@ -23,11 +23,11 @@ Default keyboard layout is QWERTY, but you can specify custom one
 
 * **LAYOUT**
 layout name<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 * **ON**
 init on/off state<br>
-__type:__ int<br>
+_type:_ int<br>
 
 
 
@@ -47,48 +47,48 @@ set custom<br>
 
 * **@octave** 
 Get/set output octave<br>
-__type:__ int<br>
-__range:__ 0..8<br>
-__default:__ 4<br>
+_type:_ int<br>
+_range:_ 0..8<br>
+_default:_ 4<br>
 
 * **@vel** 
 Get/set output velocity<br>
-__type:__ float<br>
-__range:__ 0..127<br>
-__default:__ 100<br>
+_type:_ float<br>
+_range:_ 0..127<br>
+_default:_ 100<br>
 
 * **@layout** 
 Get/set current layout<br>
-__type:__ symbol<br>
-__enum:__ qwerty, names, custom<br>
-__default:__ qwerty<br>
+_type:_ symbol<br>
+_enum:_ qwerty, names, custom<br>
+_default:_ qwerty<br>
 
 * **@custom** 
 Get/set custom layout (Dict data type)<br>
-__type:__ atom<br>
-__default:__ []<br>
+_type:_ atom<br>
+_default:_ []<br>
 
 * **@on** 
 Get/set on/off state<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 1<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 1<br>
 
 
 
 ## inlets:
 
-* control input 
-__type:__ control<br>
-* 1 or 0: turn on/off 
-__type:__ control<br>
+* control input<br>
+_type:_ control
+* 1 or 0: turn on/off<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* MIDI output: NOTE VEL
-__type:__ control<br>
+* MIDI output: NOTE VEL<br>
+_type:_ control
 
 
 

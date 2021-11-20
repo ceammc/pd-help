@@ -25,7 +25,7 @@ Given the M-order numerator b and N-order denominator a of a digital filter,
 
 * **N**
 number of points<br>
-__type:__ int<br>
+_type:_ int<br>
 
 
 
@@ -62,42 +62,42 @@ set &#39;b&#39; and &#39;a&#39; coefficients, no output<br>
 * **@a** 
 Get/set denominator (poles) coefficients. &#39;a0&#39; always implicitly set to 1, property
 value set a1...an coefficients<br>
-__type:__ list<br>
+_type:_ list<br>
 
 * **@b** 
 Get/set numerator (zeros) coefficients<br>
-__type:__ list<br>
-__default:__ 1<br>
+_type:_ list<br>
+_default:_ 1<br>
 
 * **@n** 
 Get/set number of points<br>
-__type:__ int<br>
-__range:__ 4..1024<br>
-__default:__ 256<br>
+_type:_ int<br>
+_range:_ 4..1024<br>
+_default:_ 256<br>
 
 * **@db** 
 Get/set output amp response in db scale<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 0<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 0<br>
 
 
 
 ## inlets:
 
-* calculate and output frequency responses 
-__type:__ control<br>
+* calculate and output frequency responses<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* list: amplitude response data
-__type:__ control<br>
-* list: phase response data
-__type:__ control<br>
-* int: number of points
-__type:__ control<br>
+* list: amplitude response data<br>
+_type:_ control
+* list: phase response data<br>
+_type:_ control
+* int: number of points<br>
+_type:_ control
 
 
 

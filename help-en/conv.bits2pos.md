@@ -28,23 +28,23 @@ Note: byte default the least significant bit is the rightmost, this can be chang
 
 * **@rev** 
 Get/set reversed bit order<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 0<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 0<br>
 
 
 
 ## inlets:
 
-* input bit list 
-__type:__ control<br>
+* input bit list<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* list of bit positions
-__type:__ control<br>
+* list of bit positions<br>
+_type:_ control
 
 
 

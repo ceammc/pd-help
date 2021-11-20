@@ -26,8 +26,8 @@ Passthru all control data not often then specified limit in ms. Can be used for
 
 * **TIME**
 limit time<br>
-__type:__ int<br>
-__units:__ ms<br>
+_type:_ int<br>
+_units:_ ms<br>
 
 
 
@@ -37,26 +37,26 @@ __units:__ ms<br>
 
 * **@limit** 
 Get/set speed limit. If set to zero there is no flow limitations<br>
-__type:__ int<br>
-__units:__ ms<br>
-__min value:__ 0<br>
-__default:__ 0<br>
+_type:_ int<br>
+_units:_ ms<br>
+_min value:_ 0<br>
+_default:_ 0<br>
 
 
 
 ## inlets:
 
-* input flow 
-__type:__ control<br>
-* reset internal timer and goes to opened state 
-__type:__ control<br>
+* input flow<br>
+_type:_ control
+* reset internal timer and goes to opened state<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* output flow
-__type:__ control<br>
+* output flow<br>
+_type:_ control
 
 
 

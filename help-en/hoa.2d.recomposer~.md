@@ -27,11 +27,11 @@ The hoa.2d.recomposer~ can be controlled either by message or with the help of i
 
 * **ORDER**
 the order of decomposition<br>
-__type:__ int<br>
+_type:_ int<br>
 
 * **NCH**
 number of channels<br>
-__type:__ int<br>
+_type:_ int<br>
 
 * **MODE**
 recomposition mode. There is three modes: *fixe* - simply recomposes a plane
@@ -39,7 +39,7 @@ wave decomposition into circular harmonics. *fisheye* - allows you to perform
 an operation similar to the visual &#34;fisheye&#34; effect by distorsion of the sound
 field perspective to the front of the scene. *free* - allows you to change the
 angles and the widening value for each channels.<br>
-__type:__ symbol<br>
+_type:_ symbol<br>
 
 
 
@@ -68,15 +68,15 @@ set the widening value of channels. Widening value is clipped between 0.
 
 * **@order** (readonly)
 Get the order of decomposition<br>
-__type:__ int<br>
-__range:__ 1..63<br>
-__default:__ 1<br>
+_type:_ int<br>
+_range:_ 1..63<br>
+_default:_ 1<br>
 
 * **@n** (readonly)
 Get number of channels (planewaves)<br>
-__type:__ int<br>
-__range:__ 0..63<br>
-__default:__ 0<br>
+_type:_ int<br>
+_range:_ 0..63<br>
+_default:_ 0<br>
 
 * **@mode** (readonly)
 Get recomposition mode. There is three modes: *fixe* - simply recomposes a plane
@@ -84,50 +84,49 @@ wave decomposition into circular harmonics. *fisheye* - allows you to perform
 an operation similar to the visual &#34;fisheye&#34; effect by distorsion of the sound
 field perspective to the front of the scene. *free* - allows you to change the
 angles and the widening value for each channels.<br>
-__type:__ symbol<br>
-__enum:__ fixe, fisheye, free<br>
-__default:__ free<br>
+_type:_ symbol<br>
+_enum:_ fixe, fisheye, free<br>
+_default:_ free<br>
 
 * **@fixe** 
 Get/set alias for @mode fixe<br>
-__type:__ alias<br>
+_type:_ alias<br>
 
 * **@fisheye** 
 Get/set alias for @mode fisheye<br>
-__type:__ alias<br>
+_type:_ alias<br>
 
 * **@free** 
 Get/set alias for @mode free<br>
-__type:__ alias<br>
+_type:_ alias<br>
 
 * **@ramp** 
 Get/set ramp time<br>
-__type:__ float<br>
-__min value:__ 0<br>
-__default:__ 100<br>
+_type:_ float<br>
+_min value:_ 0<br>
+_default:_ 100<br>
 
 
 
 ## inlets:
 
-* input harmonic 
-__type:__ audio<br>
-* input harmonic 
-__type:__ audio<br>
-* input harmonic. If @fisheye mode is used: fisheye factor [0-1] in last
-                inlet 
-__type:__ audio<br>
+* input harmonic<br>
+_type:_ audio
+* input harmonic<br>
+_type:_ audio
+* input harmonic. If @fisheye mode is used: fisheye factor [0-1] in last inlet<br>
+_type:_ audio
 
 
 
 ## outlets:
 
-* first planewave output
-__type:__ audio<br>
-* ... planewave output
-__type:__ audio<br>
-* n-th planewave output
-__type:__ audio<br>
+* first planewave output<br>
+_type:_ audio
+* ... planewave output<br>
+_type:_ audio
+* n-th planewave output<br>
+_type:_ audio
 
 
 

@@ -23,11 +23,11 @@ Discretizes the ambisonic sound field into the plane waves domain.
 
 * **ORDER**
 the order of decomposition<br>
-__type:__ int<br>
+_type:_ int<br>
 
 * **NCH**
 number of channels<br>
-__type:__ int<br>
+_type:_ int<br>
 
 
 
@@ -37,37 +37,37 @@ __type:__ int<br>
 
 * **@order** (readonly)
 Get the order of decomposition<br>
-__type:__ int<br>
-__range:__ 1..63<br>
-__default:__ 1<br>
+_type:_ int<br>
+_range:_ 1..63<br>
+_default:_ 1<br>
 
 * **@n** (readonly)
 Get number of channels (planewaves)<br>
-__type:__ int<br>
-__range:__ 0..63<br>
-__default:__ 0<br>
+_type:_ int<br>
+_range:_ 0..63<br>
+_default:_ 0<br>
 
 
 
 ## inlets:
 
-* input harmonic 
-__type:__ audio<br>
-* ... input harmonic 
-__type:__ audio<br>
-* n-th input harmonic 
-__type:__ audio<br>
+* input harmonic<br>
+_type:_ audio
+* ... input harmonic<br>
+_type:_ audio
+* n-th input harmonic<br>
+_type:_ audio
 
 
 
 ## outlets:
 
-* first plane wave output
-__type:__ audio<br>
-* ... plane wave output
-__type:__ audio<br>
-* n-th plane wave output
-__type:__ audio<br>
+* first plane wave output<br>
+_type:_ audio
+* ... plane wave output<br>
+_type:_ audio
+* n-th plane wave output<br>
+_type:_ audio
 
 
 

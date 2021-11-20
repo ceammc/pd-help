@@ -23,19 +23,19 @@ Another &#39;Henon phase&#39; implementation by André Sier
 
 * **ARG0**
 a value (optional)<br>
-__type:__ float<br>
+_type:_ float<br>
 
 * **ARG1**
 b value (optional)<br>
-__type:__ float<br>
+_type:_ float<br>
 
 * **ARG2**
 x value (optional)<br>
-__type:__ float<br>
+_type:_ float<br>
 
 * **ARG3**
 y value (optional)<br>
-__type:__ float<br>
+_type:_ float<br>
 
 
 
@@ -100,15 +100,15 @@ reset state<br>
 
 ## inlets:
 
-* output value 
-__type:__ control<br>
+* output value<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* main outlet
-__type:__ control<br>
+* main outlet<br>
+_type:_ control
 
 
 

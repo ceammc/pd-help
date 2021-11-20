@@ -24,7 +24,7 @@ Outputs float, symbol or list to matched outlet or to last outlet if no
 
 * **@type**
 list of matched atoms<br>
-__type:__ list<br>
+_type:_ list<br>
 
 
 
@@ -34,43 +34,43 @@ __type:__ list<br>
 
 * **@args** 
 Get/set matching atoms<br>
-__type:__ list<br>
+_type:_ list<br>
 
 * **@trim** 
 Get/set cut first element from list, transform float or symbol to bang<br>
-__type:__ flag<br>
-__default:__ 0<br>
+_type:_ flag<br>
+_default:_ 0<br>
 
 * **@simplify** 
 Get/set one element list simplification - transform them to floats or symbols<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 1<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 1<br>
 
 * **@as_any** 
 Get/set trim list or symbol selector on output<br>
-__type:__ flag<br>
-__default:__ 0<br>
+_type:_ flag<br>
+_default:_ 0<br>
 
 
 
 ## inlets:
 
-* input list 
-__type:__ control<br>
+* input list<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* first match
-__type:__ control<br>
-* second match
-__type:__ control<br>
-* nth match
-__type:__ control<br>
-* unmatched element (without changes)
-__type:__ control<br>
+* first match<br>
+_type:_ control
+* second match<br>
+_type:_ control
+* nth match<br>
+_type:_ control
+* unmatched element (without changes)<br>
+_type:_ control
 
 
 

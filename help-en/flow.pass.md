@@ -24,23 +24,23 @@
 
 * **@values** 
 Get/set atoms to pass<br>
-__type:__ list<br>
+_type:_ list<br>
 
 
 
 ## inlets:
 
-* pass 
-__type:__ control<br>
-* set pass list 
-__type:__ control<br>
+* pass<br>
+_type:_ control
+* set pass list<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* passed values
-__type:__ control<br>
+* passed values<br>
+_type:_ control
 
 
 

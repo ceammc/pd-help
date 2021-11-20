@@ -22,7 +22,7 @@
 list of output channels: single channel number or X:Y range, that means from X
 channel to Y (including last one). If not specified - using 1 and 2 out
 channels<br>
-__type:__ list<br>
+_type:_ list<br>
 
 
 
@@ -32,12 +32,12 @@ __type:__ list<br>
 
 ## inlets:
 
-* first specified channel 
-__type:__ audio<br>
-* ... specified channel 
-__type:__ audio<br>
-* n-th specified channel 
-__type:__ audio<br>
+* first specified channel<br>
+_type:_ audio
+* ... specified channel<br>
+_type:_ audio
+* n-th specified channel<br>
+_type:_ audio
 
 
 

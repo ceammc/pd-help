@@ -24,11 +24,11 @@ Examples: (1 1 1) - triplet, (2 1) - swing
 
 * **DUR**
 total pattern duration<br>
-__type:__ float<br>
+_type:_ float<br>
 
 * **RTREE**
 rythm tree<br>
-__type:__ atom<br>
+_type:_ atom<br>
 
 
 
@@ -38,27 +38,27 @@ __type:__ atom<br>
 
 * **@dur** 
 Get/set total pattern duration<br>
-__type:__ float<br>
-__default:__ 1<br>
+_type:_ float<br>
+_default:_ 1<br>
 
 * **@rtree** 
 Get/set rythm tree. (MList)<br>
-__type:__ atom<br>
-__default:__ ()<br>
+_type:_ atom<br>
+_default:_ ()<br>
 
 
 
 ## inlets:
 
-* output 
-__type:__ control<br>
+* output<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* list output
-__type:__ control<br>
+* list output<br>
+_type:_ control
 
 
 

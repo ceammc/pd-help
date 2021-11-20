@@ -23,7 +23,7 @@ Numbers thar are *less* then last argument are passed to N+1 inlet
 
 * **LIST**
 compare values: list of floats in descending order<br>
-__type:__ list<br>
+_type:_ list<br>
 
 
 
@@ -33,27 +33,27 @@ __type:__ list<br>
 
 * **@values** 
 Get/set compare values: list of floats in descending order<br>
-__type:__ list<br>
+_type:_ list<br>
 
 
 
 ## inlets:
 
-* input flow 
-__type:__ control<br>
+* input flow<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* numbers that are greater or equal then 1st argument
-__type:__ control<br>
-* numbers that are greater or equal than ... argument
-__type:__ control<br>
-* numbers that are greater or equal than last argument
-__type:__ control<br>
-* numbers that are less than last argument
-__type:__ control<br>
+* numbers that are greater or equal then 1st argument<br>
+_type:_ control
+* numbers that are greater or equal than ... argument<br>
+_type:_ control
+* numbers that are greater or equal than last argument<br>
+_type:_ control
+* numbers that are less than last argument<br>
+_type:_ control
 
 
 

@@ -25,7 +25,7 @@ hoa.2d.wider~ can be used to wide the diffusion of a localised sound. The order
 
 * **ORDER**
 the order of decomposition<br>
-__type:__ int<br>
+_type:_ int<br>
 
 
 
@@ -35,33 +35,33 @@ __type:__ int<br>
 
 * **@order** (readonly)
 Get the order of decomposition<br>
-__type:__ int<br>
-__range:__ 1..63<br>
-__default:__ 1<br>
+_type:_ int<br>
+_range:_ 1..63<br>
+_default:_ 1<br>
 
 
 
 ## inlets:
 
-* first input signal 
-__type:__ audio<br>
-* ... input signal 
-__type:__ audio<br>
-* n-th input signal 
-__type:__ audio<br>
-* widening signal in [0-1] range. 
-__type:__ audio<br>
+* first input signal<br>
+_type:_ audio
+* ... input signal<br>
+_type:_ audio
+* n-th input signal<br>
+_type:_ audio
+* widening signal in [0-1] range.<br>
+_type:_ audio
 
 
 
 ## outlets:
 
-* first circular harmonics output
-__type:__ audio<br>
-* ... circular harmonics output
-__type:__ audio<br>
-* n-th circular harmonics output
-__type:__ audio<br>
+* first circular harmonics output<br>
+_type:_ audio
+* ... circular harmonics output<br>
+_type:_ audio
+* n-th circular harmonics output<br>
+_type:_ audio
 
 
 

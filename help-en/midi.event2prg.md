@@ -24,15 +24,15 @@
 
 ## inlets:
 
-* MidiEvent message 
-__type:__ control<br>
+* MidiEvent message<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* output MIDI patch number
-__type:__ control<br>
+* output MIDI patch number<br>
+_type:_ control
 
 
 

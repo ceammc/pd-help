@@ -27,11 +27,11 @@ The properties of chaos of the standard map were established by Boris Chirikov i
 
 * **X**
 initial x value, default 0.5<br>
-__type:__ float<br>
+_type:_ float<br>
 
 * **Y**
 initial y value, default 0<br>
-__type:__ float<br>
+_type:_ float<br>
 
 
 
@@ -41,19 +41,19 @@ __type:__ float<br>
 
 ## inlets:
 
-* generation frequency, minimal value 0.001Hz 
-__type:__ audio<br>
-* k-value 
-__type:__ audio<br>
+* generation frequency, minimal value 0.001Hz<br>
+_type:_ audio
+* k-value<br>
+_type:_ audio
 
 
 
 ## outlets:
 
-* outputs x-value mapped to [-1..1] range
-__type:__ audio<br>
-* outputs y-value mapped to [-1..1] range
-__type:__ audio<br>
+* outputs x-value mapped to [-1..1] range<br>
+_type:_ audio
+* outputs y-value mapped to [-1..1] range<br>
+_type:_ audio
 
 
 

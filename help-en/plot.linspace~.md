@@ -25,55 +25,55 @@
 
 * **@start** 
 Get/set the starting value of the sequence<br>
-__type:__ float<br>
-__min value:__ 0<br>
-__default:__ 0<br>
+_type:_ float<br>
+_min value:_ 0<br>
+_default:_ 0<br>
 
 * **@stop** 
 Get/set the final value of the sequence, unless @endpoint is false. In that case, @n +
 1 values are spaced over the interval in lin-space, of which all but the last
 (a sequence of length @n) are returned.<br>
-__type:__ float<br>
-__min value:__ 0<br>
-__default:__ 255<br>
+_type:_ float<br>
+_min value:_ 0<br>
+_default:_ 255<br>
 
 * **@n** 
 Get/set number of points<br>
-__type:__ int<br>
-__range:__ 4..1024<br>
-__default:__ 256<br>
+_type:_ int<br>
+_range:_ 4..1024<br>
+_default:_ 256<br>
 
 * **@base** 
 Get/set x-axis scale base<br>
-__type:__ atom<br>
-__enum:__ 0, pi<br>
-__default:__ 0<br>
+_type:_ atom<br>
+_enum:_ 0, pi<br>
+_default:_ 0<br>
 
 * **@pi** 
 Get/set alias to @base pi<br>
-__type:__ atom<br>
+_type:_ atom<br>
 
 * **@endpoint** 
 Get/set include @stop to interval<br>
-__type:__ int<br>
-__enum:__ 0, 1<br>
-__default:__ 1<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 1<br>
 
 
 
 ## inlets:
 
-* starts output 
-__type:__ control<br>
+* starts output<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* signal output
-__type:__ audio<br>
-* output to [array.plot~] or [ui.plot~]
-__type:__ control<br>
+* signal output<br>
+_type:_ audio
+* output to [array.plot~] or [ui.plot~]<br>
+_type:_ control
 
 
 

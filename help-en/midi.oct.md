@@ -20,7 +20,7 @@
 
 * **OCT**
 octave transposition<br>
-__type:__ int<br>
+_type:_ int<br>
 
 
 
@@ -30,43 +30,43 @@ __type:__ int<br>
 
 * **@oct** 
 Get/set octave transposition<br>
-__type:__ int<br>
-__range:__ -11..11<br>
-__default:__ 0<br>
+_type:_ int<br>
+_range:_ -11..11<br>
+_default:_ 0<br>
 
 * **@mode** 
 Get/set octave mode<br>
-__type:__ symbol<br>
-__enum:__ transpose, set<br>
-__default:__ transpose<br>
+_type:_ symbol<br>
+_enum:_ transpose, set<br>
+_default:_ transpose<br>
 
 * **@set** 
 Get/set alias to @mode set<br>
-__type:__ alias<br>
+_type:_ alias<br>
 
 * **@transpose** 
 Get/set alias to @mode transpose<br>
-__type:__ alias<br>
+_type:_ alias<br>
 
 * **@random** 
 Get/set random octave range. Arguments are: MIN MAX.<br>
-__type:__ list<br>
+_type:_ list<br>
 
 
 
 ## inlets:
 
-* note value 
-__type:__ control<br>
-* set @oct value 
-__type:__ control<br>
+* note value<br>
+_type:_ control
+* set @oct value<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* transposed NOTE VELOCITY [DUR] list
-__type:__ control<br>
+* transposed NOTE VELOCITY [DUR] list<br>
+_type:_ control
 
 
 

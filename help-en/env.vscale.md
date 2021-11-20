@@ -20,7 +20,7 @@
 
 * **SCALE**
 value-scale<br>
-__type:__ float<br>
+_type:_ float<br>
 
 
 
@@ -30,22 +30,22 @@ __type:__ float<br>
 
 * **@scale** 
 Get/set value-scale<br>
-__type:__ float<br>
-__default:__ 1<br>
+_type:_ float<br>
+_default:_ 1<br>
 
 
 
 ## inlets:
 
-* input envelope 
-__type:__ control<br>
+* input envelope<br>
+_type:_ control
 
 
 
 ## outlets:
 
-* scaled output envelope
-__type:__ control<br>
+* scaled output envelope<br>
+_type:_ control
 
 
 

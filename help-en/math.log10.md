@@ -1,13 +1,16 @@
-[< reference home](index.html)
+[index](index.html) :: [math](category_math.html)
 ---
 
 # math.log10
 
+###### logarithm functions
 
-logarithm functions
+*available since version:* 0.1
 
 ---
 
+
+## information
 The log10() function computes the value of the logarithm of argument x to base
             10.
 Special values:
@@ -15,22 +18,54 @@ log10(+-0) return -infinity
 log10(1) return +0.
 log10(x) return a NaN
 log10(+infinity) return +infinity.
-<br>
 
 
----
+
+[![example](../examples/img/math.log10.jpg)](../examples/pd/math.log10.pd)
 
 
-![example](examples/math.log10-example.jpg)
-
----
-arguments:
 
 
----
-properties:
 
 
----
-see also:<br>
-[![math.exp](img/object_math.exp.png)](math.exp.html)
+
+
+
+## inlets:
+
+* input value 
+__type:__ control<br>
+
+
+
+## outlets:
+
+* result value
+__type:__ control<br>
+
+
+
+## keywords:
+
+[math](keywords/math.html)
+[log10](keywords/log10.html)
+
+
+
+**See also:**
+[\[math.exp\]](math.exp.html)
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

@@ -1,32 +1,67 @@
-[< reference home](index.html)
+[index](index.html) :: [predicates](category_predicates.html)
 ---
 
 # is_float
 
+###### checks if input data has *float* type
 
-checks if input data has *float* type
-
----
-
-<br>
-
+*available since version:* 0.1
 
 ---
 
 
-![example](examples/is_float-example.jpg)
-
----
-arguments:
 
 
----
-properties:
+[![example](../examples/img/is_float.jpg)](../examples/pd/is_float.pd)
 
 
----
-see also:<br>
-[![is_any](img/object_is_any.png)](is_any.html)
-[![is_bang](img/object_is_bang.png)](is_bang.html)
-[![is_symbol](img/object_is_symbol.png)](is_symbol.html)
-[![is_list](img/object_is_list.png)](is_list.html)
+
+
+
+
+
+
+
+## inlets:
+
+* outputs &#39;1&#39; to 1st outlet, otherwise &#39;0&#39; 
+__type:__ control<br>
+
+
+
+## outlets:
+
+* 0 or 1
+__type:__ control<br>
+* passes *float* message
+__type:__ control<br>
+
+
+
+## keywords:
+
+[predicate](keywords/predicate.html)
+[float](keywords/float.html)
+
+
+
+**See also:**
+[\[is_any\]](is_any.html)
+[\[is_bang\]](is_bang.html)
+[\[is_symbol\]](is_symbol.html)
+[\[is_list\]](is_list.html)
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

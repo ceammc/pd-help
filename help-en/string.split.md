@@ -1,32 +1,82 @@
-[< reference home](index.html)
+[index](index.html) :: [string](category_string.html)
 ---
 
 # string.split
 
+###### split string by separator
 
-split string by separator
-
----
-
-<br>
-
+*available since version:* 0.3
 
 ---
 
 
-![example](examples/string.split-example.jpg)
+## information
+Note: by default string or symbol splitted to list of data:String, to get list of
+            Pd symbols use @sym flag
 
----
-arguments:
 
-SEP: separator. If nonspecified - separate by every char.
-            To separate by space - use &#34; &#34; argument<br>
 
----
-properties:
+[![example](../examples/img/string.split.jpg)](../examples/pd/string.split.pd)
 
-@sep: separator<br>
 
----
-see also:<br>
-[![string.join](img/object_string.join.png)](string.join.html)
+
+## arguments:
+
+* **SEP**
+separator. If nonspecified - separate by every char. To separate by space - use
+&#34; &#34; argument<br>
+__type:__ atom<br>
+
+
+
+
+
+## properties:
+
+* **@sep** 
+Get/set separator<br>
+__type:__ symbol<br>
+
+* **@sym** 
+Get/set flag to output as list of Pd symbols<br>
+__type:__ flag<br>
+
+
+
+## inlets:
+
+* input symbol 
+__type:__ control<br>
+
+
+
+## outlets:
+
+* list of data:Strings or symbols
+__type:__ control<br>
+
+
+
+## keywords:
+
+[split](keywords/split.html)
+
+
+
+**See also:**
+[\[string.join\]](string.join.html)
+
+
+
+
+**Authors:** Alex Nadzharov, Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

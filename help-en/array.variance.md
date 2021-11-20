@@ -1,31 +1,75 @@
-[< reference home](index.html)
+[index](index.html) :: [array](category_array.html)
 ---
 
 # array.variance
 
+###### calculates variance of array values
 
-calculates variance of array values
-
----
-
-<br>
-
+*available since version:* 0.7.1
 
 ---
 
 
-![example](examples/array.variance-example.jpg)
 
----
-arguments:
 
-NAME: array name<br>
+[![example](../examples/img/array.variance.jpg)](../examples/pd/array.variance.pd)
 
----
-properties:
 
-@array: array name<br>
 
----
-see also:<br>
-[![array.stddev](img/object_array.stddev.png)](array.stddev.html)
+## arguments:
+
+* **NAME**
+array name<br>
+__type:__ symbol<br>
+
+
+
+
+
+## properties:
+
+* **@array** 
+Get/set array name<br>
+__type:__ symbol<br>
+
+
+
+## inlets:
+
+* calculates and outputs variance 
+__type:__ control<br>
+
+
+
+## outlets:
+
+* variance
+__type:__ control<br>
+
+
+
+## keywords:
+
+[array](keywords/array.html)
+[deviation](keywords/deviation.html)
+[variance](keywords/variance.html)
+
+
+
+**See also:**
+[\[array.stddev\]](array.stddev.html)
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

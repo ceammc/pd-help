@@ -1,34 +1,84 @@
-[< reference home](index.html)
+[index](index.html) :: [data](category_data.html)
 ---
 
 # dict.get
 
+###### output dict values
 
-output dict values
-
----
-
-<br>
-
+*available since version:* 0.6
 
 ---
 
 
-![example](examples/dict.get-example.jpg)
 
----
-arguments:
 
-KEYS: keys<br>
+[![example](../examples/img/dict.get.jpg)](../examples/pd/dict.get.pd)
 
----
-properties:
 
-@keys: extracted keys<br>
-@default: default value when key is not found in
-            dictionary. If not specified no output is performed.<br>
 
----
-see also:<br>
-[![data.dict](img/object_data.dict.png)](data.dict.html)
-[![flow.route](img/object_flow.route.png)](flow.route.html)
+## arguments:
+
+* **KEYS**
+keys<br>
+__type:__ list<br>
+
+
+
+
+
+## properties:
+
+* **@keys** 
+Get/set extracted keys<br>
+__type:__ list<br>
+
+* **@default** 
+Get/set default value when key is not found in dictionary. If not specified no output
+is performed.<br>
+__type:__ atom<br>
+
+
+
+## inlets:
+
+* input dictionary 
+__type:__ control<br>
+
+
+
+## outlets:
+
+* first key output
+__type:__ control<br>
+* ... key output
+__type:__ control<br>
+* nth key output
+__type:__ control<br>
+
+
+
+## keywords:
+
+[get](keywords/get.html)
+[dictionary](keywords/dictionary.html)
+
+
+
+**See also:**
+[\[data.dict\]](data.dict.html)
+[\[flow.route\]](flow.route.html)
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

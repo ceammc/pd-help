@@ -1,30 +1,76 @@
-[< reference home](index.html)
+[index](index.html) :: [string](category_string.html)
 ---
 
 # string.ends_with
 
+###### checks if string ends with specified substring
 
-checks if given string ends with specified suffix
-
----
-
-<br>
-
+*available since version:* 0.3
 
 ---
 
 
-![example](examples/string.ends_with-example.jpg)
-
----
-arguments:
-
-SUFFIX: suffix<br>
-
----
-properties:
 
 
----
-see also:<br>
-[![str.starts_with](img/object_str.starts_with.png)](str.starts_with.html)
+[![example](../examples/img/string.ends_with.jpg)](../examples/pd/string.ends_with.pd)
+
+
+
+## arguments:
+
+* **SUFFIX**
+suffix<br>
+__type:__ symbol<br>
+
+
+
+
+
+## properties:
+
+* **@suffix** 
+Get/set suffix to search<br>
+__type:__ symbol<br>
+
+
+
+## inlets:
+
+* input string or symbol 
+__type:__ control<br>
+* search suffix (string or symbol) 
+__type:__ control<br>
+
+
+
+## outlets:
+
+* output 1 if input string ends with suffix, otherwise 0
+__type:__ control<br>
+
+
+
+## keywords:
+
+[ends](keywords/ends.html)
+[search](keywords/search.html)
+
+
+
+**See also:**
+[\[str.starts_with\]](str.starts_with.html)
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

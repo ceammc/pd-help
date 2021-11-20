@@ -1,26 +1,59 @@
-[< reference home](index.html)
+[index](index.html) :: [math](category_math.html)
 ---
 
 # math.squared~
 
+###### signal value square
 
-signal value square
-
----
-
-<br>
-
+*available since version:* 0.9
 
 ---
 
 
-![example](examples/math.squared~-example.jpg)
-
----
-arguments:
 
 
----
-properties:
+[![example](../examples/img/math.squared~.jpg)](../examples/pd/math.squared~.pd)
+
+
+
+
+
+
+
+
+
+## inlets:
+
+* input signal 
+__type:__ audio<br>
+
+
+
+## outlets:
+
+* output signal
+__type:__ control<br>
+
+
+
+## keywords:
+
+[math](keywords/math.html)
+[square](keywords/square.html)
+
+
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
 
 

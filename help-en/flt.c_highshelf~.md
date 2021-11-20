@@ -1,40 +1,110 @@
-[< reference home](index.html)
+[index](index.html) :: [flt](category_flt.html)
 ---
 
 # flt.c_highshelf~
 
+###### Highshelf filter coefficient calculator for biquad
 
-Highshelf filter coefficient calculator for biquad
+*available since version:* 0.1
 
 ---
 
+
+## information
 gain boost|cut above some frequency
 Calculates coefficients for transfer function: H(z)=(b0 + b1*z⁻¹ + b2*z⁻²)/(1 +
             a1*z⁻¹ + a2*z⁻²)
-<br>
 
 
----
+
+[![example](../examples/img/flt.c_highshelf~.jpg)](../examples/pd/flt.c_highshelf~.pd)
 
 
-![example](examples/flt.c_highshelf~-example.jpg)
 
----
-arguments:
+## arguments:
 
-freq(Hz): cutoff frequency<br>
-gain(db): filter
-            gain<br>
+* **freq**
+cutoff frequency<br>
+__type:__ float<br>
+__units:__ Hz<br>
 
----
-properties:
+* **gain**
+filter gain<br>
+__type:__ float<br>
+__units:__ db<br>
 
-@freq(Hz): center frequency<br>
-@gain(db): filter gain<br>
-@active: on/off dsp
-            processing<br>
 
----
-see also:<br>
-[![flt.highshelf~](img/object_flt.highshelf~.png)](flt.highshelf~.html)
-[![flt.biquad~](img/object_flt.biquad~.png)](flt.biquad~.html)
+
+
+
+## properties:
+
+* **@freq** 
+Get/set center frequency<br>
+__type:__ float<br>
+__units:__ Hz<br>
+__range:__ 20..20000<br>
+__default:__ 10000<br>
+
+* **@gain** 
+Get/set filter gain<br>
+__type:__ float<br>
+__units:__ db<br>
+__range:__ -15..15<br>
+__default:__ 0<br>
+
+* **@active** 
+Get/set on/off dsp processing<br>
+__type:__ int<br>
+__enum:__ 0, 1<br>
+__default:__ 1<br>
+
+
+
+## inlets:
+
+* control input 
+__type:__ control<br>
+
+
+
+## outlets:
+
+* b0
+__type:__ audio<br>
+* b1
+__type:__ audio<br>
+* b2
+__type:__ audio<br>
+* a1
+__type:__ audio<br>
+* a2
+__type:__ audio<br>
+
+
+
+## keywords:
+
+[filter](keywords/filter.html)
+[highshelf](keywords/highshelf.html)
+
+
+
+**See also:**
+[\[flt.highshelf~\]](flt.highshelf~.html)
+[\[flt.biquad~\]](flt.biquad~.html)
+
+
+
+
+**Authors:** Alex Nadzharov, Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

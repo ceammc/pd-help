@@ -1,30 +1,76 @@
-[< reference home](index.html)
+[index](index.html) :: [data](category_data.html)
 ---
 
 # dict.reject
 
+###### rejects specified keys from dict
 
-rejects specified keys from dict
-
----
-
-<br>
-
+*available since version:* 0.7
 
 ---
 
 
-![example](examples/dict.reject-example.jpg)
-
----
-arguments:
-
-KEYS: keys<br>
-
----
-properties:
 
 
----
-see also:<br>
-[![data.dict](img/object_data.dict.png)](data.dict.html)
+[![example](../examples/img/dict.reject.jpg)](../examples/pd/dict.reject.pd)
+
+
+
+## arguments:
+
+* **KEYS**
+keys<br>
+__type:__ list<br>
+
+
+
+
+
+## properties:
+
+* **@keys** 
+Get/set rejected keys<br>
+__type:__ list<br>
+
+
+
+## inlets:
+
+* input dictionary 
+__type:__ control<br>
+* set rejected keys 
+__type:__ control<br>
+
+
+
+## outlets:
+
+* new dict with filtered keys
+__type:__ control<br>
+
+
+
+## keywords:
+
+[reject](keywords/reject.html)
+[dictionary](keywords/dictionary.html)
+
+
+
+**See also:**
+[\[data.dict\]](data.dict.html)
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

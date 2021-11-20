@@ -1,32 +1,95 @@
-[< reference home](index.html)
+[index](index.html) :: [data](category_data.html)
 ---
 
 # data.float
 
+###### robust float object
 
-robust float object
-
----
-
-<br>
-
+*available since version:* 0.6
 
 ---
 
 
-![example](examples/data.float-example.jpg)
 
----
-arguments:
 
-VAL: set initial value<br>
+[![example](../examples/img/data.float.jpg)](../examples/pd/data.float.pd)
 
----
-properties:
 
-@value: current
-            value<br>
 
----
-see also:<br>
-[![data.int](img/object_data.int.png)](data.int.html)
+## arguments:
+
+* **VAL**
+set initial value<br>
+__type:__ float<br>
+
+
+
+## methods:
+
+* **set**
+sets new value without output<br>
+
+* **+**
+add to float, no output<br>
+
+* **-**
+subtract from float, no output<br>
+
+* *****
+multiply to, no output<br>
+
+* **/**
+divide by, no output<br>
+
+
+
+
+## properties:
+
+* **@value** (readonly)
+Get current value<br>
+__type:__ float<br>
+__default:__ 0<br>
+
+
+
+## inlets:
+
+* output value 
+__type:__ control<br>
+* set new value without output 
+__type:__ control<br>
+
+
+
+## outlets:
+
+* set output
+__type:__ control<br>
+
+
+
+## keywords:
+
+[data](keywords/data.html)
+[float](keywords/float.html)
+
+
+
+**See also:**
+[\[data.int\]](data.int.html)
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

@@ -1,33 +1,71 @@
-[< reference home](index.html)
+[index](index.html) :: [flow](category_flow.html)
 ---
 
 # flow.append
 
+###### append message to flow stream
 
-inject message into flow
-
----
-
-<br>
-
+*available since version:* 0.9
 
 ---
 
 
-![example](examples/flow.append-example.jpg)
 
----
-arguments:
 
-VAL: append value<br>
+[![example](../examples/img/flow.append.jpg)](../examples/pd/flow.append.pd)
 
----
-properties:
 
-@delay(ms): 
-            message delay. If &gt; 0 schedules message output in the future, if == 0 - send in next
-            time tick, if &lt; 0 - output immidiately<br>
-@msg: output as message, not as list (by
-            default)<br>
-@value: append value<br>
+
+
+
+
+
+## properties:
+
+* **@delay** 
+Get/set append delay. If &lt;0 append immidiately at the same logical time, if equal zero
+- output after next DSP block.<br>
+__type:__ float<br>
+__units:__ ms<br>
+__min value:__ -1<br>
+__default:__ -1<br>
+
+
+
+## inlets:
+
+* input message 
+__type:__ control<br>
+* set append value 
+__type:__ control<br>
+
+
+
+## outlets:
+
+* output message
+__type:__ control<br>
+
+
+
+## keywords:
+
+[flow](keywords/flow.html)
+[append](keywords/append.html)
+
+
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
 

@@ -1,28 +1,84 @@
-[< reference home](index.html)
+[index](index.html) :: [system](category_system.html)
 ---
 
 # system.exec
 
+###### run external command in separate process
 
-run external command in separate process
-
----
-
-<br>
-
+*available since version:* 0.7
 
 ---
 
 
-![example](examples/system.exec-example.jpg)
-
----
-arguments:
 
 
----
-properties:
+[![example](../examples/img/system.exec.jpg)](../examples/pd/system.exec.pd)
 
-@is_running: is process is
-            running<br>
+
+
+
+
+## methods:
+
+* **eof**
+send EOF to running processes<br>
+
+* **stop**
+stop running process<br>
+
+* **terminate**
+terminate running process<br>
+
+* **write**
+write data to process stdin<br>
+
+
+
+
+## properties:
+
+* **@is_running** (readonly)
+Get is process is running<br>
+__type:__ int<br>
+__enum:__ 0, 1<br>
+__default:__ 0<br>
+
+
+
+## inlets:
+
+* run specified program 
+__type:__ control<br>
+
+
+
+## outlets:
+
+* output process exit code
+__type:__ control<br>
+* output list of strings
+__type:__ control<br>
+
+
+
+## keywords:
+
+[system](keywords/system.html)
+[execute](keywords/execute.html)
+
+
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
 

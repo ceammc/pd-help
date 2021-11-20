@@ -1,30 +1,76 @@
-[< reference home](index.html)
+[index](index.html) :: [data](category_data.html)
 ---
 
 # dict.pass
 
+###### passes specified keys in dict
 
-passes specified keys in dict
-
----
-
-<br>
-
+*available since version:* 0.7
 
 ---
 
 
-![example](examples/dict.pass-example.jpg)
-
----
-arguments:
-
-KEYS: keys<br>
-
----
-properties:
 
 
----
-see also:<br>
-[![data.dict](img/object_data.dict.png)](data.dict.html)
+[![example](../examples/img/dict.pass.jpg)](../examples/pd/dict.pass.pd)
+
+
+
+## arguments:
+
+* **KEYS**
+keys<br>
+__type:__ list<br>
+
+
+
+
+
+## properties:
+
+* **@keys** 
+Get/set passed keys<br>
+__type:__ list<br>
+
+
+
+## inlets:
+
+* input dictionary 
+__type:__ control<br>
+* set passed keys 
+__type:__ control<br>
+
+
+
+## outlets:
+
+* dict with passed keys
+__type:__ control<br>
+
+
+
+## keywords:
+
+[pass](keywords/pass.html)
+[dictionary](keywords/dictionary.html)
+
+
+
+**See also:**
+[\[data.dict\]](data.dict.html)
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

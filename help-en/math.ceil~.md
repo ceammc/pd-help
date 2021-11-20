@@ -1,31 +1,64 @@
-[< reference home](index.html)
+[index](index.html) :: [math](category_math.html)
 ---
 
 # math.ceil~
 
+###### round to smallest integral value not less than input value
 
-round to smallest integral value not less than input value
-
----
-
-<br>
-
+*available since version:* 0.9
 
 ---
 
 
-![example](examples/math.ceil~-example.jpg)
-
----
-arguments:
 
 
----
-properties:
+[![example](../examples/img/math.ceil~.jpg)](../examples/pd/math.ceil~.pd)
 
 
----
-see also:<br>
-[![math.ceil](img/object_math.ceil.png)](math.ceil.html)
-[![math.round~](img/object_math.round~.png)](math.round~.html)
-[![math.floor~](img/object_math.floor~.png)](math.floor~.html)
+
+
+
+
+
+
+
+## inlets:
+
+* input signal 
+__type:__ audio<br>
+
+
+
+## outlets:
+
+* result signal
+__type:__ audio<br>
+
+
+
+## keywords:
+
+[math](keywords/math.html)
+[ceil](keywords/ceil.html)
+
+
+
+**See also:**
+[\[math.ceil\]](math.ceil.html)
+[\[math.round~\]](math.round~.html)
+[\[math.floor~\]](math.floor~.html)
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

@@ -1,35 +1,98 @@
-[< reference home](index.html)
+[index](index.html) :: [local](category_local.html)
 ---
 
 # local.float
 
+###### canvas-scoped named float variable
 
-canvas-scoped named float variable
+*available since version:* 0.1
 
 ---
 
+
+## information
 Defines named local float variable, accessed by name and available only within its
             patch (canvas). Note: it is not accessible even from subpatch.
-<br>
 
 
----
+
+[![example](../examples/img/local.float.jpg)](../examples/pd/local.float.pd)
 
 
-![example](examples/local.float-example.jpg)
 
----
-arguments:
+## arguments:
 
-ID: object ID<br>
+* **ID**
+object ID<br>
+__type:__ symbol<br>
 
----
-properties:
 
-@value: current
-            value<br>
 
----
-see also:<br>
-[![local.int](img/object_local.int.png)](local.int.html)
-[![global.int](img/object_global.int.png)](global.int.html)
+## methods:
+
+* **set**
+sets new value without output<br>
+
+* **+**
+add to float, no output<br>
+
+* **-**
+subtract from float, no output<br>
+
+* *****
+multiply to, no output<br>
+
+* **/**
+divide by, no output<br>
+
+
+
+
+## properties:
+
+* **@value** (readonly)
+Get current value<br>
+__type:__ float<br>
+__default:__ 0<br>
+
+
+
+## inlets:
+
+* output value 
+__type:__ control<br>
+
+
+
+## outlets:
+
+* float output
+__type:__ control<br>
+
+
+
+## keywords:
+
+[float](keywords/float.html)
+[local](keywords/local.html)
+
+
+
+**See also:**
+[\[local.int\]](local.int.html)
+[\[global.int\]](global.int.html)
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

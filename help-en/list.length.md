@@ -1,29 +1,63 @@
-[< reference home](index.html)
+[index](index.html) :: [list](category_list.html)
 ---
 
 # list.length
 
+###### output the number of atoms in the list
 
-returns the number of atoms in the list
-
----
-
-<br>
-
+*available since version:* 0.1
 
 ---
 
 
-![example](examples/list.length-example.jpg)
-
----
-arguments:
 
 
----
-properties:
+[![example](../examples/img/list.length.jpg)](../examples/pd/list.length.pd)
 
 
----
-see also:<br>
-[![list.at](img/object_list.at.png)](list.at.html)
+
+
+
+
+
+
+
+## inlets:
+
+* Input list 
+__type:__ control<br>
+
+
+
+## outlets:
+
+* the number of elements in the list
+__type:__ control<br>
+
+
+
+## keywords:
+
+[list](keywords/list.html)
+[length](keywords/length.html)
+[size](keywords/size.html)
+
+
+
+**See also:**
+[\[list.at\]](list.at.html)
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

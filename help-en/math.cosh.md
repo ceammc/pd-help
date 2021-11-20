@@ -1,35 +1,70 @@
-[< reference home](index.html)
+[index](index.html) :: [math](category_math.html)
 ---
 
 # math.cosh
 
+###### hyperbolic cosine function
 
-hyperbolic cosine function
+*available since version:* 0.1
 
 ---
 
+
+## information
 The coshf() function computes the hyperbolic cosine of input value.
 Special values:
 cosh(+-0) returns 1.
 cosh(+-infinity) returns +infinity.
-<br>
 
 
----
+
+[![example](../examples/img/math.cosh.jpg)](../examples/pd/math.cosh.pd)
 
 
-![example](examples/math.cosh-example.jpg)
-
----
-arguments:
 
 
----
-properties:
 
 
----
-see also:<br>
-[![math.acos](img/object_math.acos.png)](math.acos.html)
-[![math.asin](img/object_math.asin.png)](math.asin.html)
-[![math.atan](img/object_math.atan.png)](math.atan.html)
+
+
+
+## inlets:
+
+* input value 
+__type:__ control<br>
+
+
+
+## outlets:
+
+* result value
+__type:__ control<br>
+
+
+
+## keywords:
+
+[math](keywords/math.html)
+[cosh](keywords/cosh.html)
+
+
+
+**See also:**
+[\[math.acos\]](math.acos.html)
+[\[math.asin\]](math.asin.html)
+[\[math.atan\]](math.atan.html)
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

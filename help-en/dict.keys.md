@@ -1,30 +1,64 @@
-[< reference home](index.html)
+[index](index.html) :: [data](category_data.html)
 ---
 
 # dict.keys
 
+###### get list of dict keys
 
-get list of dict keys
-
----
-
-<br>
-
+*available since version:* 0.6
 
 ---
 
 
-![example](examples/dict.keys-example.jpg)
-
----
-arguments:
 
 
----
-properties:
+[![example](../examples/img/dict.keys.jpg)](../examples/pd/dict.keys.pd)
 
 
----
-see also:<br>
-[![data.dict](img/object_data.dict.png)](data.dict.html)
-[![dict.values](img/object_dict.values.png)](dict.values.html)
+
+
+
+
+
+
+
+## inlets:
+
+* data.dict 
+__type:__ control<br>
+
+
+
+## outlets:
+
+* list of dict keys
+__type:__ control<br>
+
+
+
+## keywords:
+
+[list](keywords/list.html)
+[keys](keywords/keys.html)
+[dictionary](keywords/dictionary.html)
+
+
+
+**See also:**
+[\[data.dict\]](data.dict.html)
+[\[dict.values\]](dict.values.html)
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

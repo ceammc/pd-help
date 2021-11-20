@@ -1,34 +1,96 @@
-[< reference home](index.html)
+[index](index.html) :: [flt](category_flt.html)
 ---
 
 # flt.freqz~
 
+###### compute the frequency response of a digital filter
 
-compute the frequency response of a digital filter
+*available since version:* 0.9
 
 ---
 
+
+## information
 Given the M-order numerator b and N-order denominator a of a digital filter,
             compute its frequency response: H(eʲʷ) = B(eʲʷ)/A(eʲʷ) =
             (b⁰+b¹e⁻ʲʷ+...+bᴹe⁻ʲʷᴹ)/(1+a¹e⁻ʲʷ+...+aᴺe⁻ʲʷᴺ)
-<br>
 
 
----
+
+[![example](../examples/img/flt.freqz~.jpg)](../examples/pd/flt.freqz~.pd)
 
 
-![example](examples/flt.freqz~-example.jpg)
-
----
-arguments:
 
 
----
-properties:
 
-@a: denominator (poles) coefficients. &#39;a0&#39; always
-            implicitly set to 1, property value set a1...an coefficients<br>
-@b: numerator (zeros) coefficients<br>
-@sr: normalize using current
-            samplerate<br>
+
+
+## properties:
+
+* **@a** 
+Get/set denominator (poles) coefficients. &#39;a0&#39; always implicitly set to 1, property
+value set a1...an coefficients<br>
+__type:__ list<br>
+
+* **@b** 
+Get/set numerator (zeros) coefficients<br>
+__type:__ list<br>
+__default:__ 1<br>
+
+* **@sr** 
+Get/set normalize using current samplerate<br>
+__type:__ int<br>
+__enum:__ 0, 1<br>
+__default:__ 0<br>
+
+* **@db** 
+Get/set output amp response in db scale<br>
+__type:__ int<br>
+__enum:__ 0, 1<br>
+__default:__ 0<br>
+
+
+
+## inlets:
+
+* input frequency in radians [0, π] or in hertz [0 sr/2] if @sr property is
+                true 
+__type:__ audio<br>
+
+
+
+## outlets:
+
+* amplitude frequency response signal
+__type:__ audio<br>
+* phase frequency response signal
+__type:__ audio<br>
+
+
+
+## keywords:
+
+[filter](keywords/filter.html)
+[calc](keywords/calc.html)
+[bode](keywords/bode.html)
+[frequence](keywords/frequence.html)
+[response](keywords/response.html)
+[phase](keywords/phase.html)
+[plot](keywords/plot.html)
+
+
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
 

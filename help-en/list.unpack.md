@@ -1,31 +1,73 @@
-[< reference home](index.html)
+[index](index.html) :: [list](category_list.html)
 ---
 
 # list.unpack
 
+###### unpack list elements to separate outlets
 
-unpack list elements to separate outlets
-
----
-
-<br>
-
+*available since version:* 0.3
 
 ---
 
 
-![example](examples/list.unpack-example.jpg)
-
----
-arguments:
-
-N: number of outlets<br>
-
----
-properties:
 
 
----
-see also:<br>
-[![list.repack](img/object_list.repack.png)](list.repack.html)
-[![list.separate](img/object_list.separate.png)](list.separate.html)
+[![example](../examples/img/list.unpack.jpg)](../examples/pd/list.unpack.pd)
+
+
+
+## arguments:
+
+* **N**
+number of outlets<br>
+__type:__ int<br>
+
+
+
+
+
+
+
+## inlets:
+
+* input list 
+__type:__ control<br>
+
+
+
+## outlets:
+
+* outlet for first atom in list
+__type:__ control<br>
+* None
+__type:__ control<br>
+* outlet for Nth atom in list
+__type:__ control<br>
+
+
+
+## keywords:
+
+[list](keywords/list.html)
+[unpack](keywords/unpack.html)
+
+
+
+**See also:**
+[\[list.repack\]](list.repack.html)
+[\[list.separate\]](list.separate.html)
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

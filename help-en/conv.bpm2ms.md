@@ -1,32 +1,67 @@
-[< reference home](index.html)
+[index](index.html) :: [conv](category_conv.html)
 ---
 
 # conv.bpm2ms
 
+###### convert frequency in BPM to period in milliseconds
 
-convert frequency in BPM to period in milliseconds
+*available since version:* 0.1
 
 ---
 
+
+## information
 Converts frequency from BPM (beats per minute) to period in ms. It is simple as
             (60 / f) * 1000, but more readable.
-<br>
 
 
----
+
+[![example](../examples/img/conv.bpm2ms.jpg)](../examples/pd/conv.bpm2ms.pd)
 
 
-![example](examples/conv.bpm2ms-example.jpg)
-
----
-arguments:
 
 
----
-properties:
 
 
----
-see also:<br>
-[![conv.bpm2sec](img/object_conv.bpm2sec.png)](conv.bpm2sec.html)
-[![conv.bpm2hz](img/object_conv.bpm2hz.png)](conv.bpm2hz.html)
+
+
+
+## inlets:
+
+* frequency in BPM 
+__type:__ control<br>
+
+
+
+## outlets:
+
+* period in milliseconds
+__type:__ control<br>
+
+
+
+## keywords:
+
+[conv](keywords/conv.html)
+[time](keywords/time.html)
+
+
+
+**See also:**
+[\[conv.bpm2sec\]](conv.bpm2sec.html)
+[\[conv.bpm2hz\]](conv.bpm2hz.html)
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

@@ -1,55 +1,167 @@
-[< reference home](index.html)
+[index](index.html) :: [noise](category_noise.html)
 ---
 
 # noise.navier_stokes
 
+###### Part of a-chaos library
 
-Part of a-chaos library
+*available since version:* .5
 
 ---
 
 
-            A model obtained by a suitable five-mode truncation 
-of the Navier-Stokes equations for a two-dimensional 
-incompressible fluid on a torus:
-
+## information
+A model obtained by a suitable five-mode truncation of the Navier-Stokes equations
+            for a two-dimensional incompressible fluid on a torus:
 dx1= -2*x1 + 4*x2*x3 + 4*x4*x5
-
 dx2= -9*x2 + 3*x1*x3
-
 dx3= -5*x3 - 7*x1*x2 + reyn
-
 dx4= -5*x4 - x1*x5
-
 dx5= -x5 - 3*x1*x4
-
 ---
+Where &lt;reyn&gt; is the Reynolds number, and exibits an interesting variety of
+            different behaviors for different ranges of &lt;reyn&gt;. For the critical values of
+            &lt;reyn&gt;, the most interesting feature is the stochastic behavior observed when R1
+            &lt; &lt;reyn&gt; &lt; R2. With 28.73 &lt; R1 &gt; 29.0 and R2 ± = 33.43.
 
 
-Where &lt;reyn&gt; is the Reynolds number,
-and exibits  an interesting variety of different behaviors for different 
-ranges of &lt;reyn&gt;. For the critical values of &lt;reyn&gt;, the most interesting
-feature is the stochastic behavior observed when  R1 &lt; &lt;reyn&gt; &lt; R2.
-With 28.73 &lt; R1 &gt; 29.0 and R2 ± = 33.43.
+
+[![example](../examples/img/noise.navier_stokes.jpg)](../examples/pd/noise.navier_stokes.pd)
+
+
+
+## arguments:
+
+* **ARG0**
+a value (optional)<br>
+__type:__ float<br>
+
+* **ARG1**
+b value (optional)<br>
+__type:__ float<br>
+
+* **ARG2**
+c value (optional)<br>
+__type:__ float<br>
+
+* **ARG3**
+d value (optional)<br>
+__type:__ float<br>
+
+* **ARG4**
+r value (optional)<br>
+__type:__ float<br>
+
+* **ARG5**
+dt value (optional)<br>
+__type:__ float<br>
+
+
+
+## methods:
+
+* **set**
 <br>
+  __parameters:__
+  - **SET** set to value<br>
+    type: float <br>
+    required: True <br>
+
+* **reset**
+reset state<br>
+
+* **om**
+<br>
+  __parameters:__
+  - **OM** enables output when cut or fold value is changed<br>
+    type: int <br>
+    required: True <br>
+
+* **a**
+<br>
+  __parameters:__
+  - **A** a value<br>
+    type: float <br>
+    required: True <br>
+
+* **b**
+<br>
+  __parameters:__
+  - **B** b value<br>
+    type: float <br>
+    required: True <br>
+
+* **c**
+<br>
+  __parameters:__
+  - **C** c value<br>
+    type: float <br>
+    required: True <br>
+
+* **d**
+<br>
+  __parameters:__
+  - **D** d value<br>
+    type: float <br>
+    required: True <br>
+
+* **r**
+<br>
+  __parameters:__
+  - **R** r value<br>
+    type: float <br>
+    required: True <br>
+
+* **dt**
+<br>
+  __parameters:__
+  - **DT** dt value<br>
+    type: float <br>
+    required: True <br>
+
+* **om**
+<br>
+  __parameters:__
+  - **OM** enables output when cut or fold value is changed<br>
+    type: int <br>
+    required: True <br>
 
 
----
 
 
-![example](examples/noise.navier_stokes-example.jpg)
 
----
-arguments:
 
-ARG0: a value (optional)<br>
-ARG1: b value (optional)<br>
-ARG2: c value (optional)<br>
-ARG3: d value (optional)<br>
-ARG4: r value (optional)<br>
-ARG5: dt value (optional)<br>
+## inlets:
 
----
-properties:
+* output value 
+__type:__ control<br>
+
+
+
+## outlets:
+
+* main outlet
+__type:__ control<br>
+
+
+
+## keywords:
+
+[noise](keywords/noise.html)
+
+
+
+
+
+
+**Authors:** Richard Dudas, André Sier
+
+
+
+
+**License:** %
+
+
+
 
 

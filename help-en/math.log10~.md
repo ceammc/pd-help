@@ -1,33 +1,68 @@
-[< reference home](index.html)
+[index](index.html) :: [math](category_math.html)
 ---
 
 # math.log10~
 
+###### natural logarithm
 
-natural logarithm
+*available since version:* 0.9
 
 ---
 
+
+## information
 Outputs the value of the base-10 logarithm
 Special values:
 log10(1) return +0.
 log10(+infinity) return +infinity.
-<br>
 
 
----
+
+[![example](../examples/img/math.log10~.jpg)](../examples/pd/math.log10~.pd)
 
 
-![example](examples/math.log10~-example.jpg)
-
----
-arguments:
 
 
----
-properties:
 
 
----
-see also:<br>
-[![math.log10](img/object_math.log10.png)](math.log10.html)
+
+
+
+## inlets:
+
+* input signal 
+__type:__ audio<br>
+
+
+
+## outlets:
+
+* result signal
+__type:__ audio<br>
+
+
+
+## keywords:
+
+[math](keywords/math.html)
+[log10](keywords/log10.html)
+
+
+
+**See also:**
+[\[math.log10\]](math.log10.html)
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

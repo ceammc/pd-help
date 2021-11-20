@@ -1,13 +1,16 @@
-[< reference home](index.html)
+[index](index.html) :: [math](category_math.html)
 ---
 
 # math.atanh
 
+###### inverse hyperbolic tangent function
 
-inverse hyperbolic tangent function
+*available since version:* 0.1
 
 ---
 
+
+## information
 The atanh() function computes the inverse hyperbolic tangent of the real argument
             input value.
 Special values:
@@ -16,24 +19,56 @@ atanh(+-1) returns +-infinity and raises the &#34;divide-by-zero&#34; floating- 
             exception.
 atanh(x) returns a NaN and raises the &#34;invalid&#34; floating-point exception for |x|
             &gt; 1.
-<br>
 
 
----
+
+[![example](../examples/img/math.atanh.jpg)](../examples/pd/math.atanh.pd)
 
 
-![example](examples/math.atanh-example.jpg)
-
----
-arguments:
 
 
----
-properties:
 
 
----
-see also:<br>
-[![math.acosh](img/object_math.acosh.png)](math.acosh.html)
-[![math.asinh](img/object_math.asinh.png)](math.asinh.html)
-[![math.exp](img/object_math.exp.png)](math.exp.html)
+
+
+
+## inlets:
+
+* input value 
+__type:__ control<br>
+
+
+
+## outlets:
+
+* result value
+__type:__ control<br>
+
+
+
+## keywords:
+
+[math](keywords/math.html)
+[atanh](keywords/atanh.html)
+
+
+
+**See also:**
+[\[math.acosh\]](math.acosh.html)
+[\[math.asinh\]](math.asinh.html)
+[\[math.exp\]](math.exp.html)
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

@@ -1,32 +1,79 @@
-[< reference home](index.html)
+[index](index.html) :: [conv](category_conv.html)
 ---
 
 # array.p2s
 
+###### convert array phase [0..1] to sample position
 
-convert array phase [0..1] to sample position
+*available since version:* 0.2
 
 ---
 
+
+## information
 this object allows to get relative access to array
-<br>
 
 
----
+
+[![example](../examples/img/array.p2s.jpg)](../examples/pd/array.p2s.pd)
 
 
-![example](examples/array.p2s-example.jpg)
 
----
-arguments:
+## arguments:
 
-NAME: array name<br>
+* **NAME**
+array name<br>
+__type:__ symbol<br>
 
----
-properties:
 
-@array: array name<br>
 
----
-see also:<br>
-[![array.s2p](img/object_array.s2p.png)](array.s2p.html)
+
+
+## properties:
+
+* **@array** 
+Get/set array name<br>
+__type:__ symbol<br>
+
+
+
+## inlets:
+
+* value between 0 and 1, where 0 maps to begin of array, 1 - to
+                end 
+__type:__ control<br>
+
+
+
+## outlets:
+
+* sample number
+__type:__ control<br>
+
+
+
+## keywords:
+
+[array](keywords/array.html)
+[phase](keywords/phase.html)
+[sample](keywords/sample.html)
+
+
+
+**See also:**
+[\[array.s2p\]](array.s2p.html)
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

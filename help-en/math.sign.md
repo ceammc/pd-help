@@ -1,27 +1,62 @@
-[< reference home](index.html)
+[index](index.html) :: [math](category_math.html)
 ---
 
 # math.sign
 
+###### sign function
 
-sign function
+*available since version:* 0.1
 
 ---
 
+
+## information
 Returns *-1* if x &lt; 0, *0* if x == 0 and *1* if x &gt; 0.
-<br>
 
 
----
+
+[![example](../examples/img/math.sign.jpg)](../examples/pd/math.sign.pd)
 
 
-![example](examples/math.sign-example.jpg)
-
----
-arguments:
 
 
----
-properties:
+
+
+
+
+
+## inlets:
+
+* input value 
+__type:__ control<br>
+
+
+
+## outlets:
+
+* result value
+__type:__ control<br>
+
+
+
+## keywords:
+
+[math](keywords/math.html)
+[sign](keywords/sign.html)
+
+
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
 
 

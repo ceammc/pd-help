@@ -1,33 +1,68 @@
-[< reference home](index.html)
+[index](index.html) :: [math](category_math.html)
 ---
 
 # math.cbrt
 
+###### cube root function
 
-cube root function
+*available since version:* 0.1
 
 ---
 
+
+## information
 The cbrt() function computes the cube root of input value.
 Special values:
 cbrt(+-0) returns +-0.
 cbrt(+-infinity) returns +-infinity.
-<br>
 
 
----
+
+[![example](../examples/img/math.cbrt.jpg)](../examples/pd/math.cbrt.pd)
 
 
-![example](examples/math.cbrt-example.jpg)
-
----
-arguments:
 
 
----
-properties:
 
 
----
-see also:<br>
-[![math.sqrt](img/object_math.sqrt.png)](math.sqrt.html)
+
+
+
+## inlets:
+
+* input value 
+__type:__ control<br>
+
+
+
+## outlets:
+
+* result value
+__type:__ control<br>
+
+
+
+## keywords:
+
+[math](keywords/math.html)
+[cbrt](keywords/cbrt.html)
+
+
+
+**See also:**
+[\[math.sqrt\]](math.sqrt.html)
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

@@ -1,37 +1,72 @@
-[< reference home](index.html)
+[index](index.html) :: [math](category_math.html)
 ---
 
 # math.cos
 
+###### cosine function
 
-cosine function
+*available since version:* 0.1
 
 ---
 
+
+## information
 The cos() function computes the cosine of input value (measured in radians).
 Special values:
 cos(+-0) returns 1.
 cos(+-infinity) returns a NaN and raises the &#34;invalid&#34; floating-point
             exception.
-<br>
 
 
----
+
+[![example](../examples/img/math.cos.jpg)](../examples/pd/math.cos.pd)
 
 
-![example](examples/math.cos-example.jpg)
-
----
-arguments:
 
 
----
-properties:
 
 
----
-see also:<br>
-[![math.sin](img/object_math.sin.png)](math.sin.html)
-[![math.tan](img/object_math.tan.png)](math.tan.html)
-[![math.asin](img/object_math.asin.png)](math.asin.html)
-[![math.acos](img/object_math.acos.png)](math.acos.html)
+
+
+
+## inlets:
+
+* input value 
+__type:__ control<br>
+
+
+
+## outlets:
+
+* result value
+__type:__ control<br>
+
+
+
+## keywords:
+
+[math](keywords/math.html)
+[cos](keywords/cos.html)
+
+
+
+**See also:**
+[\[math.sin\]](math.sin.html)
+[\[math.tan\]](math.tan.html)
+[\[math.asin\]](math.asin.html)
+[\[math.acos\]](math.acos.html)
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

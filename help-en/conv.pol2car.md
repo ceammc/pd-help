@@ -1,29 +1,63 @@
-[< reference home](index.html)
+[index](index.html) :: [conv](category_conv.html)
 ---
 
 # conv.pol2car
 
+###### convert from polar coordinates to cartesian
 
-convert from polar coordinates to cartesian
-
----
-
-<br>
-
+*available since version:* 0.8
 
 ---
 
 
-![example](examples/conv.pol2car-example.jpg)
-
----
-arguments:
 
 
----
-properties:
+[![example](../examples/img/conv.pol2car.jpg)](../examples/pd/conv.pol2car.pd)
 
 
----
-see also:<br>
-[![conv.car2pol](img/object_conv.car2pol.png)](conv.car2pol.html)
+
+
+
+
+
+
+
+## inlets:
+
+* radius and angle (in radians) pair 
+__type:__ control<br>
+
+
+
+## outlets:
+
+* x, y coordinates pair
+__type:__ control<br>
+
+
+
+## keywords:
+
+[conv](keywords/conv.html)
+[polar](keywords/polar.html)
+[cartesian](keywords/cartesian.html)
+
+
+
+**See also:**
+[\[conv.car2pol\]](conv.car2pol.html)
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

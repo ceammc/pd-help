@@ -1,34 +1,119 @@
-[< reference home](index.html)
+[index](index.html) :: [noise](category_noise.html)
 ---
 
 # noise.torus
 
+###### Part of a-chaos library
 
-Part of a-chaos library
+*available since version:* .5
 
 ---
 
 
-            a-torus
+## information
+a-torus
 try these parameters:
 0.7 1.1 1.3
 0.9 1. 1.6
+
+
+
+[![example](../examples/img/noise.torus.jpg)](../examples/pd/noise.torus.pd)
+
+
+
+## arguments:
+
+* **ARG0**
+x value (optional)<br>
+__type:__ float<br>
+
+* **ARG1**
+y value (optional)<br>
+__type:__ float<br>
+
+* **ARG2**
+cr value (optional)<br>
+__type:__ float<br>
+
+
+
+## methods:
+
+* **set**
 <br>
+  __parameters:__
+  - **SET** set to value<br>
+    type: float <br>
+    required: True <br>
+
+* **reset**
+reset state<br>
+
+* **om**
+<br>
+  __parameters:__
+  - **OM** enables output when cut or fold value is changed<br>
+    type: int <br>
+    required: True <br>
+
+* **cr**
+<br>
+  __parameters:__
+  - **SEED** cr value<br>
+    type: float <br>
+    required: True <br>
+
+* **x**
+<br>
+  __parameters:__
+  - **NX** x value<br>
+    type: float <br>
+    required: True <br>
+
+* **y**
+<br>
+  __parameters:__
+  - **NY** y value<br>
+    type: float <br>
+    required: True <br>
 
 
----
 
 
-![example](examples/noise.torus-example.jpg)
 
----
-arguments:
 
-ARG0: x value (optional)<br>
-ARG1: y value (optional)<br>
-ARG2: cr value (optional)<br>
+## inlets:
 
----
-properties:
+* output value 
+__type:__ control<br>
+
+
+
+## outlets:
+
+* main outlet
+__type:__ control<br>
+
+
+
+## keywords:
+
+[noise](keywords/noise.html)
+
+
+
+
+
+
+**Authors:** André Sier
+
+
+
+
+**License:** %
+
+
+
 
 

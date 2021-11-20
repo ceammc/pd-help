@@ -1,31 +1,66 @@
-[< reference home](index.html)
+[index](index.html) :: [math](category_math.html)
 ---
 
 # math.sin~
 
+###### sine function
 
-sine function
+*available since version:* 0.9
 
 ---
 
+
+## information
 Computes the sine of input signal (in radians)
-<br>
 
 
----
+
+[![example](../examples/img/math.sin~.jpg)](../examples/pd/math.sin~.pd)
 
 
-![example](examples/math.sin~-example.jpg)
-
----
-arguments:
 
 
----
-properties:
 
 
----
-see also:<br>
-[![math.sin](img/object_math.sin.png)](math.sin.html)
-[![math.cos~](img/object_math.cos~.png)](math.cos~.html)
+
+
+
+## inlets:
+
+* input signal 
+__type:__ audio<br>
+
+
+
+## outlets:
+
+* result signal
+__type:__ audio<br>
+
+
+
+## keywords:
+
+[math](keywords/math.html)
+[sin](keywords/sin.html)
+
+
+
+**See also:**
+[\[math.sin\]](math.sin.html)
+[\[math.cos~\]](math.cos~.html)
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

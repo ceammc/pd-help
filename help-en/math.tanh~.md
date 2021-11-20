@@ -1,31 +1,67 @@
-[< reference home](index.html)
+[index](index.html) :: [math](category_math.html)
 ---
 
 # math.tanh~
 
+###### hyperbolic tangent for signals
 
-hyperbolic tangent for signals
+*available since version:* 0.9
 
 ---
 
+
+## information
 Outputs hyperbolic tangent of input signal
-<br>
 
 
----
+
+[![example](../examples/img/math.tanh~.jpg)](../examples/pd/math.tanh~.pd)
 
 
-![example](examples/math.tanh~-example.jpg)
-
----
-arguments:
 
 
----
-properties:
 
 
----
-see also:<br>
-[![math.atanh~](img/object_math.atanh~.png)](math.atanh~.html)
-[![math.tanh](img/object_math.tanh.png)](math.tanh.html)
+
+
+
+## inlets:
+
+* input signal 
+__type:__ audio<br>
+
+
+
+## outlets:
+
+* result signal
+__type:__ audio<br>
+
+
+
+## keywords:
+
+[math](keywords/math.html)
+[hyperbolic](keywords/hyperbolic.html)
+[tangent](keywords/tangent.html)
+
+
+
+**See also:**
+[\[math.atanh~\]](math.atanh~.html)
+[\[math.tanh\]](math.tanh.html)
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

@@ -1,30 +1,64 @@
-[< reference home](index.html)
+[index](index.html) :: [env](category_env.html)
 ---
 
 # env.concat
 
+###### Envelope concatenation
 
-Envelope concatenation
-
----
-
-<br>
-
+*available since version:* 0.5
 
 ---
 
 
-![example](examples/env.concat-example.jpg)
-
----
-arguments:
 
 
----
-properties:
+[![example](../examples/img/env.concat.jpg)](../examples/pd/env.concat.pd)
 
 
----
-see also:<br>
-[![env.tshift](img/object_env.tshift.png)](env.tshift.html)
-[![envelope](img/object_envelope.png)](envelope.html)
+
+
+
+
+
+
+
+## inlets:
+
+* output concatenated result (previous) 
+__type:__ control<br>
+* set second envelope (no output) 
+__type:__ control<br>
+
+
+
+## outlets:
+
+* new combined envelope
+__type:__ control<br>
+
+
+
+## keywords:
+
+[concat](keywords/concat.html)
+
+
+
+**See also:**
+[\[env.tshift\]](env.tshift.html)
+[\[envelope\]](envelope.html)
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

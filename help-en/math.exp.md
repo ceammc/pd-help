@@ -1,13 +1,16 @@
-[< reference home](index.html)
+[index](index.html) :: [math](category_math.html)
 ---
 
 # math.exp
 
+###### exponential functions
 
-exponential functions
+*available since version:* 0.1
 
 ---
 
+
+## information
 The exp() function computes e**x, the base-e exponential of x.
 If x is nearly zero, then the common expression exp(x) - 1.0 will suffer from
             catastrophic cancellation and the result will have little or no precision.
@@ -17,23 +20,55 @@ exp(-infinity) return +0.
 exp(+infinity) return +infinity.
 For all these functions, a range error occurs if the magnitude of x is too
             large.
-<br>
 
 
----
+
+[![example](../examples/img/math.exp.jpg)](../examples/pd/math.exp.pd)
 
 
-![example](examples/math.exp-example.jpg)
-
----
-arguments:
 
 
----
-properties:
 
 
----
-see also:<br>
-[![math.log](img/object_math.log.png)](math.log.html)
-[![math.exp2](img/object_math.exp2.png)](math.exp2.html)
+
+
+
+## inlets:
+
+* input value 
+__type:__ control<br>
+
+
+
+## outlets:
+
+* result value
+__type:__ control<br>
+
+
+
+## keywords:
+
+[math](keywords/math.html)
+[exp](keywords/exp.html)
+
+
+
+**See also:**
+[\[math.log\]](math.log.html)
+[\[math.exp2\]](math.exp2.html)
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

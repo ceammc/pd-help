@@ -1,31 +1,64 @@
-[< reference home](index.html)
+[index](index.html) :: [data](category_data.html)
 ---
 
 # dict.values
 
+###### dictionary values as mlist
 
-dictionary values as mlist
-
----
-
-<br>
-
+*available since version:* 0.6
 
 ---
 
 
-![example](examples/dict.values-example.jpg)
-
----
-arguments:
 
 
----
-properties:
+[![example](../examples/img/dict.values.jpg)](../examples/pd/dict.values.pd)
 
 
----
-see also:<br>
-[![data.dict](img/object_data.dict.png)](data.dict.html)
-[![data.mlist](img/object_data.mlist.png)](data.mlist.html)
-[![dict.keys](img/object_dict.keys.png)](dict.keys.html)
+
+
+
+
+
+
+
+## inlets:
+
+* data.dict 
+__type:__ control<br>
+
+
+
+## outlets:
+
+* mlist of values
+__type:__ control<br>
+
+
+
+## keywords:
+
+[size](keywords/size.html)
+[dictionary](keywords/dictionary.html)
+
+
+
+**See also:**
+[\[data.dict\]](data.dict.html)
+[\[data.mlist\]](data.mlist.html)
+[\[dict.keys\]](dict.keys.html)
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

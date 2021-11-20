@@ -13,8 +13,8 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 
 
 ### an
----
 
+---
 
 
 [**an.onset**](an.onset.html): onset detector for arrays 
@@ -29,8 +29,8 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 
 
 ### array
----
 
+---
 
 
 [**array.bpm**](array.bpm.html): BPM calculator 
@@ -91,8 +91,8 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 
 
 ### base
----
 
+---
 
 
 [**ceammc.search**](ceammc.search.html): ceammc library search object 
@@ -135,8 +135,8 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 
 
 ### chaos
----
 
+---
 
 
 [**chaos.gbman0**](chaos.gbman0.html): Gingerbreadman map chaotic generator 
@@ -153,8 +153,8 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 
 
 ### conv
----
 
+---
 
 
 [**array.p2s**](array.p2s.html): convert array phase [0..1] to sample position 
@@ -247,8 +247,8 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 
 
 ### data
----
 
+---
 
 
 [**data.copy**](data.copy.html): make copy for any data types: MList, Set etc... 
@@ -309,8 +309,8 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 
 
 ### dyn
----
 
+---
 
 
 [**dyn.comp2~**](dyn.comp2~.html): stereo dynamic range compressor 
@@ -329,8 +329,8 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 
 
 ### env
----
 
+---
 
 
 [**env.adsr~**](env.adsr~.html): ADSR (Attack, Decay, Sustain, Release) envelope generator 
@@ -363,8 +363,8 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 
 
 ### flow
----
 
+---
 
 
 [**expand_env**](expand_env.html): Substitute environment variables in data stream 
@@ -459,8 +459,8 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 
 
 ### flt
----
 
+---
 
 
 [**flt.biquad~**](flt.biquad~.html): second order IIR filter. 
@@ -535,8 +535,8 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 
 
 ### fx
----
 
+---
 
 
 [**fx.bitdown~**](fx.bitdown~.html): bit downer and downsampler effect 
@@ -601,8 +601,8 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 
 
 ### global
----
 
+---
 
 
 [**global.dict**](global.dict.html): global named dict object 
@@ -619,8 +619,8 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 
 
 ### hw
----
 
+---
 
 
 [**hw.apple_smc**](hw.apple_smc.html): query the system management control in Apples 
@@ -639,8 +639,8 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 
 
 ### lang
----
 
+---
 
 
 [**lang.faust~**](lang.faust~.html): faust realtime compilation 
@@ -649,8 +649,8 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 
 
 ### lfo
----
 
+---
 
 
 [**lfo.+pulse~**](lfo.%2Bpulse~.html): Unit-amplitude nonnegative low frequency pulse train 
@@ -675,8 +675,8 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 
 
 ### list
----
 ###### objects for list processing
+---
 
 
 [**list.^at**](list.%5Eat.html): on input index(es) outputs list element(s) 
@@ -815,16 +815,16 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 
 
 ### live
----
 
+---
 
 
 [**live.capture~**](live.capture~.html): record up to 32s of sound and playback the recorded sound in loop 
 
 
 ### local
----
 
+---
 
 
 [**local.dict**](local.dict.html): local named dict object 
@@ -841,8 +841,8 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 
 
 ### math
----
 ###### math objects. can operate with list of numbers.
+---
 
 
 [**math.abs**](math.abs.html): absolute value function 
@@ -1043,8 +1043,8 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 
 
 ### midi
----
 
+---
 
 
 [**midi.cc**](midi.cc.html): enhanced version of vanilla ctlin 
@@ -1083,8 +1083,8 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 
 
 ### misc
----
 
+---
 
 
 [**click~**](click~.html): Output single impulse on bang 
@@ -1101,8 +1101,8 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 
 
 ### msg
----
 
+---
 
 
 [**loadexpr**](loadexpr.html): send message when patch loads 
@@ -1117,16 +1117,16 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 
 
 ### net
----
 
+---
 
 
 [**net.host2ip**](net.host2ip.html): returns IP address by DNS name 
 
 
 ### noise
----
 
+---
 
 
 [**noise.baker**](noise.baker.html): Part of a-chaos library 
@@ -1175,8 +1175,8 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 
 
 ### osc
----
 
+---
 
 
 [**osc.blit~**](osc.blit~.html): Bandlimited impulse train oscillator 
@@ -1199,8 +1199,8 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 
 
 ### patch
----
 
+---
 
 
 [**canvas.current**](canvas.current.html): verbose information about current canvas 
@@ -1221,8 +1221,8 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 
 
 ### path
----
 
+---
 
 
 [**file.size**](file.size.html): output file size 
@@ -1245,8 +1245,8 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 
 
 ### predicates
----
 
+---
 
 
 [**is_any**](is_any.html): checks if input data has *any* type 
@@ -1273,8 +1273,8 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 
 
 ### preset
----
 
+---
 
 
 [**preset.float**](preset.float.html): load/store float preset 
@@ -1287,8 +1287,8 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 
 
 ### property
----
 
+---
 
 
 [**patch.props**](patch.props.html): patch properties manager 
@@ -1311,8 +1311,8 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 
 
 ### proto
----
 
+---
 
 
 [**proto.firmata**](proto.firmata.html): Firmata Arduino protocol support 
@@ -1331,8 +1331,8 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 
 
 ### random
----
 
+---
 
 
 [**random.atom**](random.atom.html): weighted atom generation from specified list 
@@ -1353,16 +1353,16 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 
 
 ### samp
----
 
+---
 
 
 [**samp.time~**](samp.time~.html): sample counter 
 
 
 ### seq
----
 
+---
 
 
 [**seq.arp**](seq.arp.html): sequence arpeggiator 
@@ -1385,16 +1385,16 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 
 
 ### snd
----
 
+---
 
 
 [**snd.file**](snd.file.html): Sound file loader on steroids 
 
 
 ### spat
----
 
+---
 
 
 [**hoa.2d.decoder~**](hoa.2d.decoder~.html): hoa 2d decoder 
@@ -1447,8 +1447,8 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 
 
 ### string
----
 
+---
 
 
 [**string**](string.html): string constructor 
@@ -1481,8 +1481,8 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 
 
 ### symbol
----
 
+---
 
 
 [**symbol.equal**](symbol.equal.html): check symbols for equality 
@@ -1497,8 +1497,8 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 
 
 ### synth
----
 
+---
 
 
 [**synth.bee3~**](synth.bee3~.html): Hammond-oid organ FM synthesis instrument 
@@ -1559,8 +1559,8 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 
 
 ### system
----
 
+---
 
 
 [**system.colorpanel**](system.colorpanel.html): System color panel dialog popup 
@@ -1583,8 +1583,8 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 
 
 ### tl
----
 
+---
 
 
 [**tl.bang**](tl.bang.html): Timeline bang (with possible delay) 
@@ -1599,8 +1599,8 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 
 
 ### ui
----
 
+---
 
 
 [**ui.aview**](ui.aview.html): array view with cursor and selection 

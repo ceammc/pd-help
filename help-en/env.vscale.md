@@ -1,32 +1,76 @@
-[< reference home](index.html)
+[index](index.html) :: [env](category_env.html)
 ---
 
 # env.vscale
 
+###### Envelope value-scale
 
-Envelope value-scale
-
----
-
-<br>
-
+*available since version:* 0.5
 
 ---
 
 
-![example](examples/env.vscale-example.jpg)
 
----
-arguments:
 
-SCALE: value-scale<br>
+[![example](../examples/img/env.vscale.jpg)](../examples/pd/env.vscale.pd)
 
----
-properties:
 
-@scale: value-scale<br>
 
----
-see also:<br>
-[![env.tscale](img/object_env.tscale.png)](env.tscale.html)
-[![envelope](img/object_envelope.png)](envelope.html)
+## arguments:
+
+* **SCALE**
+value-scale<br>
+__type:__ float<br>
+
+
+
+
+
+## properties:
+
+* **@scale** 
+Get/set value-scale<br>
+__type:__ float<br>
+__default:__ 1<br>
+
+
+
+## inlets:
+
+* input envelope 
+__type:__ control<br>
+
+
+
+## outlets:
+
+* scaled output envelope
+__type:__ control<br>
+
+
+
+## keywords:
+
+[value](keywords/value.html)
+[scale](keywords/scale.html)
+
+
+
+**See also:**
+[\[env.tscale\]](env.tscale.html)
+[\[envelope\]](envelope.html)
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

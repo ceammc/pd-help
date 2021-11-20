@@ -1,33 +1,69 @@
-[< reference home](index.html)
+[index](index.html) :: [math](category_math.html)
 ---
 
 # math.erf
 
+###### error function
 
-error function
+*available since version:* 0.9
 
 ---
 
+
+## information
 In statistics, for non-negative values of x, the error function has the following
             interpretation:
 for a random variable Y that is normally distributed with mean 0 and variance 1/2,
             erf x is the probability that Y falls in the range [−x, x]
-<br>
 
 
----
+
+[![example](../examples/img/math.erf.jpg)](../examples/pd/math.erf.pd)
 
 
-![example](examples/math.erf-example.jpg)
-
----
-arguments:
 
 
----
-properties:
 
 
----
-see also:<br>
-[![math.erf~](img/object_math.erf~.png)](math.erf~.html)
+
+
+
+## inlets:
+
+* input value 
+__type:__ control<br>
+
+
+
+## outlets:
+
+* result value
+__type:__ control<br>
+
+
+
+## keywords:
+
+[math](keywords/math.html)
+[error](keywords/error.html)
+[gauss](keywords/gauss.html)
+
+
+
+**See also:**
+[\[math.erf~\]](math.erf~.html)
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

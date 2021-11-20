@@ -1,36 +1,71 @@
-[< reference home](index.html)
+[index](index.html) :: [math](category_math.html)
 ---
 
 # math.round
 
+###### round to integral value, regardless of rounding direction
 
-round to integral value, regardless of rounding direction
+*available since version:* 0.1
 
 ---
 
+
+## information
 The round() functions return the integral value nearest to x rounding half-way
             cases away from zero, regardless of the current rounding direction.
 Special values:
 round(+-0) returns +-0.
 round(+-infinity) returns +-infinity.
-<br>
 
 
----
+
+[![example](../examples/img/math.round.jpg)](../examples/pd/math.round.pd)
 
 
-![example](examples/math.round-example.jpg)
-
----
-arguments:
 
 
----
-properties:
 
 
----
-see also:<br>
-[![math.ceil](img/object_math.ceil.png)](math.ceil.html)
-[![math.floor](img/object_math.floor.png)](math.floor.html)
-[![math.trunc](img/object_math.trunc.png)](math.trunc.html)
+
+
+
+## inlets:
+
+* input value 
+__type:__ control<br>
+
+
+
+## outlets:
+
+* result value
+__type:__ control<br>
+
+
+
+## keywords:
+
+[math](keywords/math.html)
+[round](keywords/round.html)
+
+
+
+**See also:**
+[\[math.ceil\]](math.ceil.html)
+[\[math.floor\]](math.floor.html)
+[\[math.trunc\]](math.trunc.html)
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

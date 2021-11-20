@@ -1,31 +1,75 @@
-[< reference home](index.html)
+[index](index.html) :: [string](category_string.html)
 ---
 
 # string.join
 
+###### joins (concatenates) strings with separator
 
-joins (concatenates) strings with separator
-
----
-
-<br>
-
+*available since version:* 0.3
 
 ---
 
 
-![example](examples/string.join-example.jpg)
 
----
-arguments:
 
-SEP: separator. For space use &#39; &#39;.<br>
+[![example](../examples/img/string.join.jpg)](../examples/pd/string.join.pd)
 
----
-properties:
 
-@sep: separator<br>
 
----
-see also:<br>
-[![string.split](img/object_string.split.png)](string.split.html)
+## arguments:
+
+* **SEP**
+separator. For space use quotes.<br>
+__type:__ list<br>
+
+
+
+
+
+## properties:
+
+* **@sep** 
+Get/set separator<br>
+__type:__ symbol<br>
+
+
+
+## inlets:
+
+* symbol passed untouched 
+__type:__ control<br>
+* change separator to new 
+__type:__ control<br>
+
+
+
+## outlets:
+
+* result String
+__type:__ control<br>
+
+
+
+## keywords:
+
+[join](keywords/join.html)
+
+
+
+**See also:**
+[\[string.split\]](string.split.html)
+
+
+
+
+**Authors:** Alex Nadzharov, Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

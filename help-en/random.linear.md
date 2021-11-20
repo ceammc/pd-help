@@ -1,36 +1,97 @@
-[< reference home](index.html)
+[index](index.html) :: [random](category_random.html)
 ---
 
 # random.linear
 
+###### random linear distribution
 
-random linear distribution
+*available since version:* 0.4
 
 ---
 
+
+## information
 Generates random number in interval [@v0, @v1) with linear distribution [@p0,
             @p1)
-<br>
+Use @seed property to get reproducible sequences. If @seed property was not
+            explicitly set or specified, uses generator initialized with current time.
 
 
----
+
+[![example](../examples/img/random.linear.jpg)](../examples/pd/random.linear.pd)
 
 
-![example](examples/random.linear-example.jpg)
-
----
-arguments:
 
 
----
-properties:
 
-@v0: begin of value interval<br>
-@v1: end of value interval<br>
-@p0: probability at begin<br>
-@p1: probability at end<br>
 
----
-see also:<br>
-[![random.float](img/object_random.float.png)](random.float.html)
-[![random.int](img/object_random.int.png)](random.int.html)
+
+## properties:
+
+* **@v0** 
+Get/set begin of value interval<br>
+__type:__ float<br>
+__default:__ 0<br>
+
+* **@v1** 
+Get/set end of value interval<br>
+__type:__ float<br>
+__default:__ 1<br>
+
+* **@p0** 
+Get/set probability at begin<br>
+__type:__ float<br>
+__default:__ 1<br>
+
+* **@p1** 
+Get/set probability at end<br>
+__type:__ float<br>
+__default:__ 0<br>
+
+* **@seed** 
+Get/set generator seed<br>
+__type:__ int<br>
+__min value:__ 0<br>
+__default:__ 0<br>
+
+
+
+## inlets:
+
+* generates random number 
+__type:__ control<br>
+
+
+
+## outlets:
+
+* result value
+__type:__ control<br>
+
+
+
+## keywords:
+
+[linear](keywords/linear.html)
+[random](keywords/random.html)
+
+
+
+**See also:**
+[\[random.float\]](random.float.html)
+[\[random.int\]](random.int.html)
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

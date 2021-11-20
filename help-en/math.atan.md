@@ -1,36 +1,71 @@
-[< reference home](index.html)
+[index](index.html) :: [math](category_math.html)
 ---
 
 # math.atan
 
+###### arc tangent function
 
-arc tangent function
+*available since version:* 0.1
 
 ---
 
+
+## information
 Outputs the principal value of the arc tangent of input value. The result is in
             the range [-π/2, +π/2].
 Special values:
 atan(+-0) returns +-0.
 atan(+-infinity) returns +-π/2
-<br>
 
 
----
+
+[![example](../examples/img/math.atan.jpg)](../examples/pd/math.atan.pd)
 
 
-![example](examples/math.atan-example.jpg)
-
----
-arguments:
 
 
----
-properties:
 
 
----
-see also:<br>
-[![math.acos](img/object_math.acos.png)](math.acos.html)
-[![math.asin](img/object_math.asin.png)](math.asin.html)
-[![math.cos](img/object_math.cos.png)](math.cos.html)
+
+
+
+## inlets:
+
+* input value 
+__type:__ control<br>
+
+
+
+## outlets:
+
+* result value
+__type:__ control<br>
+
+
+
+## keywords:
+
+[math](keywords/math.html)
+[atan](keywords/atan.html)
+
+
+
+**See also:**
+[\[math.acos\]](math.acos.html)
+[\[math.asin\]](math.asin.html)
+[\[math.cos\]](math.cos.html)
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

@@ -1,31 +1,76 @@
-[< reference home](index.html)
+[index](index.html) :: [property](category_property.html)
 ---
 
 # prop.get
 
+###### get property from connected object/subpatch/abstraction
 
-Property extractor
-
----
-
-Extracts properties from data stream with matching. Non property values are passed
-            untouched.
-<br>
-
+*available since version:* 0.9
 
 ---
 
 
-![example](examples/prop.get-example.jpg)
-
----
-arguments:
+## information
+Get properties from connected object/subpatch/abstraction
 
 
----
-properties:
+
+[![example](../examples/img/prop.get.jpg)](../examples/pd/prop.get.pd)
 
 
----
-see also:<br>
-[![prop&lt;-](img/object_prop&lt;-.png)](prop<-.html)
+
+## arguments:
+
+* **PROPS**
+property names<br>
+__type:__ list<br>
+
+
+
+
+
+
+
+## inlets:
+
+* output specified properites to corresponding outlets 
+__type:__ control<br>
+
+
+
+## outlets:
+
+* connected to destination object
+__type:__ control<br>
+* output of first requested property
+__type:__ control<br>
+* output of ... requested property
+__type:__ control<br>
+* output of n-th requested property
+__type:__ control<br>
+
+
+
+## keywords:
+
+[property](keywords/property.html)
+
+
+
+**See also:**
+[\[prop&lt;-\]](prop%3C-.html)
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

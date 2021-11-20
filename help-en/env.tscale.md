@@ -1,32 +1,77 @@
-[< reference home](index.html)
+[index](index.html) :: [env](category_env.html)
 ---
 
 # env.tscale
 
+###### Envelope time-scale
 
-Envelope time-scale
-
----
-
-<br>
-
+*available since version:* 0.5
 
 ---
 
 
-![example](examples/env.tscale-example.jpg)
 
----
-arguments:
 
-SCALE: time-scale<br>
+[![example](../examples/img/env.tscale.jpg)](../examples/pd/env.tscale.pd)
 
----
-properties:
 
-@scale: time-scale<br>
 
----
-see also:<br>
-[![env.tshift](img/object_env.tshift.png)](env.tshift.html)
-[![envelope](img/object_envelope.png)](envelope.html)
+## arguments:
+
+* **SCALE**
+time-scale<br>
+__type:__ float<br>
+
+
+
+
+
+## properties:
+
+* **@scale** 
+Get/set time-scale<br>
+__type:__ float<br>
+__min value:__ 0<br>
+__default:__ 1<br>
+
+
+
+## inlets:
+
+* input envelope 
+__type:__ control<br>
+
+
+
+## outlets:
+
+* scaled output envelope
+__type:__ control<br>
+
+
+
+## keywords:
+
+[time](keywords/time.html)
+[scale](keywords/scale.html)
+
+
+
+**See also:**
+[\[env.tshift\]](env.tshift.html)
+[\[envelope\]](envelope.html)
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

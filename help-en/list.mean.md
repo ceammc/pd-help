@@ -1,29 +1,63 @@
-[< reference home](index.html)
+[index](index.html) :: [list](category_list.html)
 ---
 
 # list.mean
 
+###### calculates average of list of floats
 
-calculates average of list of floats
-
----
-
-<br>
-
+*available since version:* 0.1
 
 ---
 
 
-![example](examples/list.mean-example.jpg)
-
----
-arguments:
 
 
----
-properties:
+[![example](../examples/img/list.mean.jpg)](../examples/pd/list.mean.pd)
 
 
----
-see also:<br>
-[![list.normalize](img/object_list.normalize.png)](list.normalize.html)
+
+
+
+
+
+
+
+## inlets:
+
+* input list of floats. Non float values are just ignored. No output
+                if no floats in list 
+__type:__ control<br>
+
+
+
+## outlets:
+
+* average (float)
+__type:__ control<br>
+
+
+
+## keywords:
+
+[list](keywords/list.html)
+[mean](keywords/mean.html)
+
+
+
+**See also:**
+[\[list.normalize\]](list.normalize.html)
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

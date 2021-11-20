@@ -1,29 +1,66 @@
-[< reference home](index.html)
+[index](index.html) :: [tl](category_tl.html)
 ---
 
 # tl.transport
 
+###### Timeline transport control
 
-Timeline transport control
-
----
-
-<br>
-
+*available since version:* 0.1
 
 ---
 
 
-![example](examples/tl.transport-example.jpg)
-
----
-arguments:
 
 
----
-properties:
+[![example](../examples/img/tl.transport.jpg)](../examples/pd/tl.transport.pd)
 
 
----
-see also:<br>
-[![tl.cue](img/object_tl.cue.png)](tl.cue.html)
+
+
+
+## methods:
+
+* **cue**
+sets cue index<br>
+  __parameters:__
+  - **[N]** cue index<br>
+    type: int <br>
+
+
+
+
+
+
+## inlets:
+
+* control input 
+__type:__ control<br>
+
+
+
+
+
+## keywords:
+
+[timeline](keywords/timeline.html)
+[transport](keywords/transport.html)
+
+
+
+**See also:**
+[\[tl.cue\]](tl.cue.html)
+
+
+
+
+**Authors:** Alex Nadzharov, Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

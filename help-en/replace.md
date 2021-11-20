@@ -1,35 +1,90 @@
-[< reference home](index.html)
+[index](index.html) :: [flow](category_flow.html)
 ---
 
 # replace
 
+###### Replace atoms in data stream
 
-Replace atoms in data stream
+*available since version:* 0.1
 
 ---
 
+
+## information
 From/to values can be specified both as @from/@to properties or first and second
             arguments.
-<br>
 
 
----
+
+[![example](../examples/img/replace.jpg)](../examples/pd/replace.pd)
 
 
-![example](examples/replace-example.jpg)
 
----
-arguments:
+## arguments:
 
-FROM: replace subject<br>
-TO: replace value<br>
+* **FROM**
+replace subject<br>
+__type:__ atom<br>
 
----
-properties:
+* **TO**
+replace value<br>
+__type:__ atom<br>
 
-@from: replace subject<br>
-@to: replace value<br>
 
----
-see also:<br>
-[![flow.pass](img/object_flow.pass.png)](flow.pass.html)
+
+
+
+## properties:
+
+* **@from** 
+Get/set replace subject<br>
+__type:__ atom<br>
+
+* **@to** 
+Get/set replace value<br>
+__type:__ atom<br>
+
+
+
+## inlets:
+
+* input data stream 
+__type:__ control<br>
+* @from property inlet 
+__type:__ control<br>
+* @to property inlet 
+__type:__ control<br>
+
+
+
+## outlets:
+
+* output data stream
+__type:__ control<br>
+
+
+
+## keywords:
+
+[replace](keywords/replace.html)
+[test](keywords/test.html)
+
+
+
+**See also:**
+[\[flow.pass\]](flow.pass.html)
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

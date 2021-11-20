@@ -1,31 +1,74 @@
-[< reference home](index.html)
+[index](index.html) :: [array](category_array.html)
 ---
 
 # array.mean
 
+###### calculates array arithmetic mean value
 
-calculates array arithmetic mean value
-
----
-
-<br>
-
+*available since version:* 0.8
 
 ---
 
 
-![example](examples/array.mean-example.jpg)
 
----
-arguments:
 
-NAME: array name<br>
+[![example](../examples/img/array.mean.jpg)](../examples/pd/array.mean.pd)
 
----
-properties:
 
-@array: array name<br>
 
----
-see also:<br>
-[![array.sum](img/object_array.sum.png)](array.sum.html)
+## arguments:
+
+* **NAME**
+array name<br>
+__type:__ symbol<br>
+
+
+
+
+
+## properties:
+
+* **@array** 
+Get/set array name<br>
+__type:__ symbol<br>
+
+
+
+## inlets:
+
+* calculates and outputs mean value 
+__type:__ control<br>
+
+
+
+## outlets:
+
+* mean value
+__type:__ control<br>
+
+
+
+## keywords:
+
+[array](keywords/array.html)
+[mean](keywords/mean.html)
+
+
+
+**See also:**
+[\[array.sum\]](array.sum.html)
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

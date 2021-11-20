@@ -1,35 +1,70 @@
-[< reference home](index.html)
+[index](index.html) :: [math](category_math.html)
 ---
 
 # math.sinh
 
+###### hyperbolic sine function
 
-hyperbolic sine function
+*available since version:* 0.1
 
 ---
 
+
+## information
 The sinh() function computes the hyperbolic sine of x.
 Special values:
 sinh(+-0) returns +-0.
 sinh(+-infinity) returns +-infinity.
-<br>
 
 
----
+
+[![example](../examples/img/math.sinh.jpg)](../examples/pd/math.sinh.pd)
 
 
-![example](examples/math.sinh-example.jpg)
-
----
-arguments:
 
 
----
-properties:
 
 
----
-see also:<br>
-[![math.acos](img/object_math.acos.png)](math.acos.html)
-[![math.asin](img/object_math.asin.png)](math.asin.html)
-[![math.atan](img/object_math.atan.png)](math.atan.html)
+
+
+
+## inlets:
+
+* input value 
+__type:__ control<br>
+
+
+
+## outlets:
+
+* result value
+__type:__ control<br>
+
+
+
+## keywords:
+
+[math](keywords/math.html)
+[sinh](keywords/sinh.html)
+
+
+
+**See also:**
+[\[math.acos\]](math.acos.html)
+[\[math.asin\]](math.asin.html)
+[\[math.atan\]](math.atan.html)
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

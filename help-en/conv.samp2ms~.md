@@ -1,29 +1,62 @@
-[< reference home](index.html)
+[index](index.html) :: [conv](category_conv.html)
 ---
 
 # conv.samp2ms~
 
+###### convert samples to milliseconds according to samplerate
 
-convert samples to milliseconds according to samplerate
-
----
-
-<br>
-
+*available since version:* 0.9
 
 ---
 
 
-![example](examples/conv.samp2ms~-example.jpg)
-
----
-arguments:
 
 
----
-properties:
+[![example](../examples/img/conv.samp2ms~.jpg)](../examples/pd/conv.samp2ms~.pd)
 
 
----
-see also:<br>
-[![conv.samp2ms~](img/object_conv.samp2ms~.png)](conv.samp2ms~.html)
+
+
+
+
+
+
+
+## inlets:
+
+* input signal 
+__type:__ audio<br>
+
+
+
+## outlets:
+
+* output signal
+__type:__ audio<br>
+
+
+
+## keywords:
+
+[conv](keywords/conv.html)
+[samp](keywords/samp.html)
+
+
+
+**See also:**
+[\[conv.samp2ms~\]](conv.samp2ms~.html)
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

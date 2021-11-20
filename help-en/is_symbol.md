@@ -1,32 +1,67 @@
-[< reference home](index.html)
+[index](index.html) :: [predicates](category_predicates.html)
 ---
 
 # is_symbol
 
+###### checks if input data has *symbol* type
 
-checks if input data has *symbol* type
-
----
-
-<br>
-
+*available since version:* 0.1
 
 ---
 
 
-![example](examples/is_symbol-example.jpg)
-
----
-arguments:
 
 
----
-properties:
+[![example](../examples/img/is_symbol.jpg)](../examples/pd/is_symbol.pd)
 
 
----
-see also:<br>
-[![is_any](img/object_is_any.png)](is_any.html)
-[![is_bang](img/object_is_bang.png)](is_bang.html)
-[![is_list](img/object_is_list.png)](is_list.html)
-[![is_float](img/object_is_float.png)](is_float.html)
+
+
+
+
+
+
+
+## inlets:
+
+* outputs &#39;1&#39; to 1st outlet, otherwise &#39;0&#39; 
+__type:__ control<br>
+
+
+
+## outlets:
+
+* 0 or 1
+__type:__ control<br>
+* passes *symbol* message
+__type:__ control<br>
+
+
+
+## keywords:
+
+[predicate](keywords/predicate.html)
+[symbol](keywords/symbol.html)
+
+
+
+**See also:**
+[\[is_any\]](is_any.html)
+[\[is_bang\]](is_bang.html)
+[\[is_list\]](is_list.html)
+[\[is_float\]](is_float.html)
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

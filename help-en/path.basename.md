@@ -1,29 +1,62 @@
-[< reference home](index.html)
+[index](index.html) :: [path](category_path.html)
 ---
 
 # path.basename
 
+###### outputs filename portion of pathname
 
-outputs filename portion of pathname
-
----
-
-<br>
-
+*available since version:* 0.1
 
 ---
 
 
-![example](examples/path.basename-example.jpg)
-
----
-arguments:
 
 
----
-properties:
+[![example](../examples/img/path.basename.jpg)](../examples/pd/path.basename.pd)
 
 
----
-see also:<br>
-[![path.dirname](img/object_path.dirname.png)](path.dirname.html)
+
+
+
+
+
+
+
+## inlets:
+
+* outputs filename portion of pathname 
+__type:__ control<br>
+
+
+
+## outlets:
+
+* filename
+__type:__ control<br>
+
+
+
+## keywords:
+
+[path](keywords/path.html)
+[environment](keywords/environment.html)
+
+
+
+**See also:**
+[\[path.dirname\]](path.dirname.html)
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

@@ -1,32 +1,65 @@
-[< reference home](index.html)
+[index](index.html) :: [math](category_math.html)
 ---
 
 # math.floor~
 
+###### round to largest integral value not greater than x
 
-round to largest integral value not greater than x
-
----
-
-<br>
-
+*available since version:* 0.9
 
 ---
 
 
-![example](examples/math.floor~-example.jpg)
-
----
-arguments:
 
 
----
-properties:
+[![example](../examples/img/math.floor~.jpg)](../examples/pd/math.floor~.pd)
 
 
----
-see also:<br>
-[![math.floor](img/object_math.floor.png)](math.floor.html)
-[![math.ceil~](img/object_math.ceil~.png)](math.ceil~.html)
-[![math.round~](img/object_math.round~.png)](math.round~.html)
-[![math.trunc~](img/object_math.trunc~.png)](math.trunc~.html)
+
+
+
+
+
+
+
+## inlets:
+
+* input signal 
+__type:__ audio<br>
+
+
+
+## outlets:
+
+* result signal
+__type:__ audio<br>
+
+
+
+## keywords:
+
+[math](keywords/math.html)
+[floor](keywords/floor.html)
+
+
+
+**See also:**
+[\[math.floor\]](math.floor.html)
+[\[math.ceil~\]](math.ceil~.html)
+[\[math.round~\]](math.round~.html)
+[\[math.trunc~\]](math.trunc~.html)
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

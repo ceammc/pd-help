@@ -1,45 +1,105 @@
-[< reference home](index.html)
+[index](index.html) :: [property](category_property.html)
 ---
 
 # prop.declare
 
+###### declare named property for subpatch or abstraction
 
-declare named property for subpatch or abstraction
-
----
-
-<br>
-
+*available since version:* 0.7
 
 ---
 
 
-![example](examples/prop.declare-example.jpg)
 
----
-arguments:
 
-NAME: property name without @ (should be unique for
-            current canvas)<br>
+[![example](../examples/img/prop.declare.jpg)](../examples/pd/prop.declare.pd)
 
----
-properties:
 
-@type: property type<br>
-@f: alias to @type float<br>
-@i: alias to @type int<br>
-@b: alias to @type bool<br>
-@s: alias to @type symbol<br>
-@l: alias to @type list<br>
-@default: default property value<br>
-@min: minimal value (for float and
-            int properties only)<br>
-@max: maximum value (for float and
-            int properties only)<br>
-@enum: allowed values (without default value) (for symbol
-            properties only)<br>
 
----
-see also:<br>
-[![prop](img/object_prop.png)](prop.html)
-[![patch.props](img/object_patch.props.png)](patch.props.html)
+## arguments:
+
+* **NAME**
+property name without @ (should be unique for current canvas)<br>
+__type:__ symbol<br>
+
+
+
+
+
+## properties:
+
+* **@type** 
+Get/set property type<br>
+__type:__ symbol<br>
+__enum:__ float, int, bool, enum, symbol, list<br>
+__default:__ float<br>
+
+* **@f** 
+Get/set alias to @type float<br>
+__type:__ alias<br>
+
+* **@i** 
+Get/set alias to @type int<br>
+__type:__ alias<br>
+
+* **@b** 
+Get/set alias to @type bool<br>
+__type:__ alias<br>
+
+* **@s** 
+Get/set alias to @type symbol<br>
+__type:__ alias<br>
+
+* **@l** 
+Get/set alias to @type list<br>
+__type:__ alias<br>
+
+* **@default** 
+Get/set default property value<br>
+__type:__ list<br>
+
+* **@min** 
+Get/set minimal value (for float and int properties only)<br>
+__type:__ float<br>
+__default:__ -inf<br>
+
+* **@max** 
+Get/set maximum value (for float and int properties only)<br>
+__type:__ float<br>
+__default:__ +inf<br>
+
+* **@enum** 
+Get/set allowed values (without default value) (for symbol properties only)<br>
+__type:__ list<br>
+
+
+
+
+
+
+
+## keywords:
+
+[property](keywords/property.html)
+[declare](keywords/declare.html)
+
+
+
+**See also:**
+[\[prop\]](prop.html)
+[\[patch.props\]](patch.props.html)
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

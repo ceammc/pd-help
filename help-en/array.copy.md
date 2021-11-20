@@ -1,31 +1,141 @@
-[< reference home](index.html)
+[index](index.html) :: [array](category_array.html)
 ---
 
 # array.copy
 
+###### copy samples from one array to another
 
-copy samples from one array to another
-
----
-
-<br>
-
+*available since version:* 0.3
 
 ---
 
 
-![example](examples/array.copy-example.jpg)
-
----
-arguments:
 
 
----
-properties:
+[![example](../examples/img/array.copy.jpg)](../examples/pd/array.copy.pd)
 
-@resize: resize of destination array
-            on overflow<br>
 
----
-see also:<br>
-[![array.each](img/object_array.each.png)](array.each.html)
+
+
+
+## methods:
+
+* **copy**
+copy whole array content<br>
+  __parameters:__
+  - **SRC** name of source array<br>
+    type: symbol <br>
+    required: True <br>
+
+  - **DEST** name of destination array<br>
+    type: symbol <br>
+    required: True <br>
+
+* **copy**
+copy array content from specified position till end<br>
+  __parameters:__
+  - **SRC** name of source array<br>
+    type: symbol <br>
+    required: True <br>
+
+  - **FROM** source start position<br>
+    type: int <br>
+    required: True <br>
+
+  - **DEST** name of destination array<br>
+    type: symbol <br>
+    required: True <br>
+
+* **copy**
+copy array content from specified range<br>
+  __parameters:__
+  - **SRC** name of source array<br>
+    type: symbol <br>
+    required: True <br>
+
+  - **FROM** source start range<br>
+    type: int <br>
+    required: True <br>
+
+  - **TO** source end range<br>
+    type: int <br>
+    required: True <br>
+
+  - **DEST** name of destination array<br>
+    type: symbol <br>
+    required: True <br>
+
+* **copy**
+copy array content from specified range and to specified destination position<br>
+  __parameters:__
+  - **SRC** name of source array<br>
+    type: symbol <br>
+    required: True <br>
+
+  - **FROM** source start range<br>
+    type: int <br>
+    required: True <br>
+
+  - **TO** source end range<br>
+    type: int <br>
+    required: True <br>
+
+  - **DEST** name of destination array<br>
+    type: symbol <br>
+    required: True <br>
+
+  - **DEST_FROM** destination start position<br>
+    type: int <br>
+    required: True <br>
+
+
+
+
+## properties:
+
+* **@resize** 
+Get/set resize of destination array on overflow<br>
+__type:__ int<br>
+__enum:__ 1, 0<br>
+__default:__ 0<br>
+
+
+
+## inlets:
+
+* FROM, TO - copy data from one array to another 
+__type:__ control<br>
+
+
+
+## outlets:
+
+* bang on finish
+__type:__ control<br>
+
+
+
+## keywords:
+
+[array](keywords/array.html)
+[copy](keywords/copy.html)
+
+
+
+**See also:**
+[\[array.each\]](array.each.html)
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

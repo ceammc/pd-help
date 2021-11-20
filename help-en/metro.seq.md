@@ -1,41 +1,96 @@
-[< reference home](index.html)
+[index](index.html) :: [base](category_base.html)
 ---
 
 # metro.seq
 
+###### metro sequencer
 
-metro sequencer
+*available since version:* 0.5
 
 ---
 
+
+## information
 Easy way to build beat machines
-<br>
 
 
----
+
+[![example](../examples/img/metro.seq.jpg)](../examples/pd/metro.seq.pd)
 
 
-![example](examples/metro.seq-example.jpg)
 
----
-arguments:
+## arguments:
 
-INTERVAL(ms): metro tempo in
-            ms<br>
-PATTERN: list of 1 and 0. Where 1 means output bang on this
-            beat<br>
+* **INTERVAL**
+metro tempo in ms<br>
+__type:__ float<br>
+__units:__ ms<br>
 
----
-properties:
+* **PATTERN**
+list of 1 and 0. Where 1 means output bang on this beat<br>
+__type:__ list<br>
 
-@pattern: list of 1 and 0. Where 1 means output bang on
-            this beat<br>
-@interval(ms): 
-            interval between beats<br>
-@current: current pattern
-            index<br>
 
----
-see also:<br>
-[![metro](img/object_metro.png)](metro.html)
-[![metro.pattern](img/object_metro.pattern.png)](metro.pattern.html)
+
+
+
+## properties:
+
+* **@pattern** 
+Get/set list of 1 and 0. Where 1 means output bang on this beat<br>
+__type:__ list<br>
+
+* **@interval** 
+Get/set interval between beats<br>
+__type:__ float<br>
+__units:__ ms<br>
+__min value:__ 1<br>
+__default:__ 0<br>
+
+* **@current** 
+Get/set current pattern index<br>
+__type:__ int<br>
+__min value:__ 0<br>
+__default:__ 0<br>
+
+
+
+## inlets:
+
+* starts (on 1) or stops (on 0) metro 
+__type:__ control<br>
+
+
+
+## outlets:
+
+* outputs *bang*
+__type:__ control<br>
+
+
+
+## keywords:
+
+[metro](keywords/metro.html)
+[sequencer](keywords/sequencer.html)
+
+
+
+**See also:**
+[\[metro\]](metro.html)
+[\[metro.pattern\]](metro.pattern.html)
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

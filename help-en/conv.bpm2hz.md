@@ -1,31 +1,66 @@
-[< reference home](index.html)
+[index](index.html) :: [conv](category_conv.html)
 ---
 
 # conv.bpm2hz
 
+###### converts BPM to frequency in herz
 
-converts BPM to frequency in herz
-
----
-
-Converts frequency from BPM (beats per minute) to herz. It is simple as /60, but
-            more readable.
-<br>
-
+*available since version:* 0.1
 
 ---
 
 
-![example](examples/conv.bpm2hz-example.jpg)
-
----
-arguments:
-
-
----
-properties:
+## information
+Converts frequency from BPM (beats per minute) to herz. It&#39;s simple as /60, but
+            more readable
 
 
----
-see also:<br>
-[![conv.bpm2ms](img/object_conv.bpm2ms.png)](conv.bpm2ms.html)
+
+[![example](../examples/img/conv.bpm2hz.jpg)](../examples/pd/conv.bpm2hz.pd)
+
+
+
+
+
+
+
+
+
+## inlets:
+
+* frequency in BPM 
+__type:__ control<br>
+
+
+
+## outlets:
+
+* frequency in herz
+__type:__ control<br>
+
+
+
+## keywords:
+
+[conv](keywords/conv.html)
+[time](keywords/time.html)
+
+
+
+**See also:**
+[\[conv.bpm2ms\]](conv.bpm2ms.html)
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

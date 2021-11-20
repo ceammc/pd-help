@@ -1,32 +1,67 @@
-[< reference home](index.html)
+[index](index.html) :: [math](category_math.html)
 ---
 
 # math.inf
 
+###### infinity value that cannot be represented accurately
 
-infinity value that cannot be represented accurately
+*available since version:* 0.1
 
 ---
 
+
+## information
 IEEE 754 floating point numbers can represent positive or negative infinity, and
             NaN (not a number). These three values arise from calculations whose result is
             undefined or cannot be represented accurately.
-<br>
 
 
----
+
+[![example](../examples/img/math.inf.jpg)](../examples/pd/math.inf.pd)
 
 
-![example](examples/math.inf-example.jpg)
-
----
-arguments:
 
 
----
-properties:
 
 
----
-see also:<br>
-[![math.nan](img/object_math.nan.png)](math.nan.html)
+
+
+
+## inlets:
+
+* outputs *inf* value 
+__type:__ control<br>
+
+
+
+## outlets:
+
+* output value
+__type:__ control<br>
+
+
+
+## keywords:
+
+[math](keywords/math.html)
+[inf](keywords/inf.html)
+
+
+
+**See also:**
+[\[math.nan\]](math.nan.html)
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

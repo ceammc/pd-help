@@ -1,30 +1,63 @@
-[< reference home](index.html)
+[index](index.html) :: [patch](category_patch.html)
 ---
 
 # canvas.path
 
+###### current canvas fullpath
 
-current canvas fullpath
-
----
-
-<br>
-
+*available since version:* 0.8
 
 ---
 
 
-![example](examples/canvas.path-example.jpg)
-
----
-arguments:
 
 
----
-properties:
+[![example](../examples/img/canvas.path.jpg)](../examples/pd/canvas.path.pd)
 
 
----
-see also:<br>
-[![canvas.name](img/object_canvas.name.png)](canvas.name.html)
-[![canvas.dir](img/object_canvas.dir.png)](canvas.dir.html)
+
+
+
+
+
+
+
+## inlets:
+
+* output current canvas fullpath 
+__type:__ control<br>
+
+
+
+## outlets:
+
+* current canvas fullpath as symbol
+__type:__ control<br>
+
+
+
+## keywords:
+
+[canvas](keywords/canvas.html)
+[path](keywords/path.html)
+
+
+
+**See also:**
+[\[canvas.name\]](canvas.name.html)
+[\[canvas.dir\]](canvas.dir.html)
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

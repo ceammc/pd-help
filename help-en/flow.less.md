@@ -1,33 +1,83 @@
-[< reference home](index.html)
+[index](index.html) :: [flow](category_flow.html)
 ---
 
 # flow.less
 
+###### numeric stream router, like many [moses]
 
-numeric stream router, like many [moses]
+*available since version:* 0.4
 
 ---
 
+
+## information
 Numbers thar are *less* then N-th argument are passed to N-th inlet
-<br>
 
 
----
+
+[![example](../examples/img/flow.less.jpg)](../examples/pd/flow.less.pd)
 
 
-![example](examples/flow.less-example.jpg)
 
----
-arguments:
+## arguments:
 
-LIST: compare values: list of floats in ascending
-            order<br>
-
----
-properties:
+* **LIST**
+compare values: list of floats in ascending order<br>
+__type:__ list<br>
 
 
----
-see also:<br>
-[![flow.greater](img/object_flow.greater.png)](flow.greater.html)
-[![flow.less_eq](img/object_flow.less_eq.png)](flow.less_eq.html)
+
+
+
+## properties:
+
+* **@values** 
+Get/set compare values: list of floats in ascending order<br>
+__type:__ list<br>
+
+
+
+## inlets:
+
+* input flow 
+__type:__ control<br>
+
+
+
+## outlets:
+
+* numbers that are less then 1st argument
+__type:__ control<br>
+* numbers that are less than ... argument
+__type:__ control<br>
+* numbers that are less than N-th argument
+__type:__ control<br>
+* numbers that are greater or equal than last argument
+__type:__ control<br>
+
+
+
+## keywords:
+
+[gate](keywords/gate.html)
+
+
+
+**See also:**
+[\[flow.greater\]](flow.greater.html)
+[\[flow.less_eq\]](flow.less_eq.html)
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

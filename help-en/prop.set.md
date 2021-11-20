@@ -1,32 +1,78 @@
-[< reference home](index.html)
+[index](index.html) :: [property](category_property.html)
 ---
 
 # prop.set
 
+###### set property for connected object/subpatch/abstraction
 
-Property injector
-
----
-
-Injects properties into data stream. Values from first inlet are passed unchanged
-            and named property values added to stream. Note: all property inlets are *hot*, i.e. if
-            object receives new value on inlet it immediately outputs it.
-<br>
-
+*available since version:* 0.9
 
 ---
 
 
-![example](examples/prop.set-example.jpg)
-
----
-arguments:
-
-
----
-properties:
+## information
+The object adds ability to change properties of flow objects that should accept
+            any incoming messages. The object should be connected to destination, but it not sends
+            pd messages to change props, but using internal pd method calls
+Object can be used with patch declared user properties
+Note: you can connect to *any* destination inlet
 
 
----
-see also:<br>
-[![prop-&gt;](img/object_prop-&gt;.png)](prop->.html)
+
+[![example](../examples/img/prop.set.jpg)](../examples/pd/prop.set.pd)
+
+
+
+## arguments:
+
+* **PROPS**
+property names<br>
+__type:__ list<br>
+
+
+
+
+
+
+
+## inlets:
+
+* first property value 
+__type:__ control<br>
+* ... property value 
+__type:__ control<br>
+* n-th property value 
+__type:__ control<br>
+
+
+
+## outlets:
+
+* outputs nothing. connect to destination object(s)
+__type:__ control<br>
+
+
+
+## keywords:
+
+[property](keywords/property.html)
+
+
+
+**See also:**
+[\[prop.get\]](prop.get.html)
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

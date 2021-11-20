@@ -1,37 +1,147 @@
-[< reference home](index.html)
+[index](index.html) :: [data](category_data.html)
 ---
 
 # data.dict
 
+###### dictionary container: store values by key
 
-dictionary container: store values by key
+*available since version:* 0.6
 
 ---
 
+
+## information
 Syntax: [key1: value key2 : &#34;with space&#34;]. Nested dictionaries are supported: [a:
             [A:1 B:2]]).
-<br>
 
 
----
+
+[![example](../examples/img/data.dict.jpg)](../examples/pd/data.dict.pd)
 
 
-![example](examples/data.dict-example.jpg)
-
----
-arguments:
 
 
----
-properties:
 
-@keys: keys of dictionary<br>
-@empty: 1 if dict is
-            empty, otherwise 0<br>
-@size: number of
-            entries in dictionary<br>
+## methods:
 
----
-see also:<br>
-[![data.set](img/object_data.set.png)](data.set.html)
-[![data.mlist](img/object_data.mlist.png)](data.mlist.html)
+* **add**
+adds entry to dictionary<br>
+  __parameters:__
+  - **KEY** entry key<br>
+    type: symbol <br>
+    required: True <br>
+
+  - **VAL** single value or list<br>
+    type: list <br>
+    required: True <br>
+
+* **clear**
+removes all dict values. No output<br>
+
+* **get_key**
+get entry from dictionary<br>
+  __parameters:__
+  - **KEY** entry key<br>
+    type: symbol <br>
+    required: True <br>
+
+* **set_key**
+change entry in dictionary. If it&#39;s not exists, do nothing.<br>
+  __parameters:__
+  - **KEY** key<br>
+    type: symbol <br>
+    required: True <br>
+
+  - **VAL** single value or list<br>
+    type: list <br>
+    required: True <br>
+
+* **set**
+set dict content without output<br>
+
+* **remove**
+remove entry from dictionary<br>
+  __parameters:__
+  - **KEY** entry key<br>
+    type: symbol <br>
+    required: True <br>
+
+* **[....]**
+sets new content without output<br>
+
+* **read**
+read dict from JSON file<br>
+  __parameters:__
+  - **PATH** file path<br>
+    type: symbol <br>
+    required: True <br>
+
+* **write**
+write dict as JSON file<br>
+  __parameters:__
+  - **PATH** file path<br>
+    type: symbol <br>
+    required: True <br>
+
+
+
+
+## properties:
+
+* **@keys** (readonly)
+Get keys of dictionary<br>
+__type:__ list<br>
+
+* **@empty** (readonly)
+Get 1 if dict is empty, otherwise 0<br>
+__type:__ int<br>
+__enum:__ 0, 1<br>
+__default:__ 1<br>
+
+* **@size** (readonly)
+Get number of entries in dictionary<br>
+__type:__ int<br>
+__min value:__ 0<br>
+__default:__ 0<br>
+
+
+
+## inlets:
+
+* output current dictionary value 
+__type:__ control<br>
+
+
+
+## outlets:
+
+* output dictionary
+__type:__ control<br>
+
+
+
+## keywords:
+
+[data](keywords/data.html)
+[dictionary](keywords/dictionary.html)
+
+
+
+**See also:**
+[\[data.set\]](data.set.html)
+[\[data.mlist\]](data.mlist.html)
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

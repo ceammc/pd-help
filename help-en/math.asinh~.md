@@ -1,31 +1,68 @@
-[< reference home](index.html)
+[index](index.html) :: [math](category_math.html)
 ---
 
 # math.asinh~
 
+###### hyperbolic arc sine for signals
 
-hyperbolic arc sine for signals
+*available since version:* 0.9
 
 ---
 
+
+## information
 Outputs the principle value of the hyperbolic arc sine of input signal
-<br>
 
 
----
+
+[![example](../examples/img/math.asinh~.jpg)](../examples/pd/math.asinh~.pd)
 
 
-![example](examples/math.asinh~-example.jpg)
-
----
-arguments:
 
 
----
-properties:
 
 
----
-see also:<br>
-[![math.sinh~](img/object_math.sinh~.png)](math.sinh~.html)
-[![math.asinh](img/object_math.asinh.png)](math.asinh.html)
+
+
+
+## inlets:
+
+* input signal 
+__type:__ audio<br>
+
+
+
+## outlets:
+
+* result signal
+__type:__ audio<br>
+
+
+
+## keywords:
+
+[math](keywords/math.html)
+[hyperbolic](keywords/hyperbolic.html)
+[arc](keywords/arc.html)
+[sine](keywords/sine.html)
+
+
+
+**See also:**
+[\[math.sinh~\]](math.sinh~.html)
+[\[math.asinh\]](math.asinh.html)
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

@@ -1,32 +1,72 @@
-[< reference home](index.html)
+[index](index.html) :: [tl](category_tl.html)
 ---
 
 # tl.toggle
 
+###### Timeline bang
 
-Timeline bang
+*available since version:* 0.7
 
 ---
 
+
+## information
 Output 1 when cue section activated, 0 when switched to other cue section
-<br>
 
 
----
+
+[![example](../examples/img/tl.toggle.jpg)](../examples/pd/tl.toggle.pd)
 
 
-![example](examples/tl.toggle-example.jpg)
-
----
-arguments:
 
 
----
-properties:
 
-@cue: related cue<br>
 
----
-see also:<br>
-[![tl.bang](img/object_tl.bang.png)](tl.bang.html)
-[![tl.cue](img/object_tl.cue.png)](tl.cue.html)
+
+## properties:
+
+* **@cue** (readonly)
+Get related cue<br>
+__type:__ symbol<br>
+
+
+
+## inlets:
+
+* control inlet 
+__type:__ control<br>
+
+
+
+## outlets:
+
+* 1 on cue enter, 0 on cue out
+__type:__ control<br>
+
+
+
+## keywords:
+
+[timeline](keywords/timeline.html)
+[toggle](keywords/toggle.html)
+
+
+
+**See also:**
+[\[tl.bang\]](tl.bang.html)
+[\[tl.cue\]](tl.cue.html)
+
+
+
+
+**Authors:** Alex Nadzharov, Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

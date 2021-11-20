@@ -1,40 +1,102 @@
-[< reference home](index.html)
+[index](index.html) :: [array](category_array.html)
 ---
 
 # plot.hist~
 
+###### calculate and output signal histogram
 
-calculate and output signal histogram
-
----
-
-<br>
-
+*available since version:* 0.9
 
 ---
 
 
-![example](examples/plot.hist~-example.jpg)
 
----
-arguments:
 
-NSAMP: @nsamp property<br>
+[![example](../examples/img/plot.hist~.jpg)](../examples/pd/plot.hist~.pd)
 
----
-properties:
 
-@nsamp: max
-            number of input samples<br>
-@nbins: number of
-            histogram bins<br>
-@min: minimal input value<br>
-@max: maximum input value<br>
-@clip: clip input values into input
-            range, otherwise just ignore them<br>
 
----
-see also:<br>
-[![plot.linspace~](img/object_plot.linspace~.png)](plot.linspace~.html)
-[![plot.geomspace~](img/object_plot.geomspace~.png)](plot.geomspace~.html)
-[![plot.response~](img/object_plot.response~.png)](plot.response~.html)
+## arguments:
+
+* **NSAMP**
+@nsamp property<br>
+__type:__ int<br>
+
+
+
+
+
+## properties:
+
+* **@nsamp** 
+Get/set max number of input samples<br>
+__type:__ int<br>
+__range:__ 8..32768<br>
+__default:__ 512<br>
+
+* **@nbins** 
+Get/set number of histogram bins<br>
+__type:__ int<br>
+__range:__ 8..512<br>
+__default:__ 63<br>
+
+* **@min** 
+Get/set minimal input value<br>
+__type:__ float<br>
+__default:__ -1<br>
+
+* **@max** 
+Get/set maximum input value<br>
+__type:__ float<br>
+__default:__ 1<br>
+
+* **@clip** 
+Get/set clip input values into input range, otherwise just ignore them<br>
+__type:__ int<br>
+__enum:__ 0, 1<br>
+__default:__ 1<br>
+
+
+
+## inlets:
+
+* starts histogram calculation 
+__type:__ audio<br>
+
+
+
+## outlets:
+
+* signal output
+__type:__ audio<br>
+* output to [array.plot~] or [ui.plot~]
+__type:__ control<br>
+
+
+
+## keywords:
+
+[array](keywords/array.html)
+[histogram](keywords/histogram.html)
+
+
+
+**See also:**
+[\[plot.linspace~\]](plot.linspace~.html)
+[\[plot.geomspace~\]](plot.geomspace~.html)
+[\[plot.response~\]](plot.response~.html)
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

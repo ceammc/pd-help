@@ -1,50 +1,140 @@
-[< reference home](index.html)
+[index](index.html) :: [conv](category_conv.html)
 ---
 
 # conv.lin2curve
 
+###### map linear to exponential range with 0 allowed.
 
-map linear to exponential range with 0 allowed.
+*available since version:* 0.1
 
 ---
 
+
+## information
 map the receiver from an assumed linear input range to an exponential curve output
             range. Unlike with [conv.lin2exp], the output range may include zero. If the input
             exceeds the input range, the following behaviours are specified by the clip
             property.
-<br>
 
 
----
+
+[![example](../examples/img/conv.lin2curve.jpg)](../examples/pd/conv.lin2curve.pd)
 
 
-![example](examples/conv.lin2curve-example.jpg)
 
----
-arguments:
+## arguments:
 
-FROM: begin of input range<br>
-TO: end of input range<br>
-FROM: begin of output range<br>
-TO: end of output range<br>
-CURVE: curve shape<br>
+* **FROM**
+begin of input range<br>
+__type:__ float<br>
 
----
-properties:
+* **TO**
+end of input range<br>
+__type:__ float<br>
 
-@in_from: begin of input range<br>
-@in_to: end of input range<br>
-@out_from: begin of output range<br>
-@out_to: end of output range<br>
-@curve: 0 (linear) &lt;0 (concave, negatively
-            curved) &gt;0 (convex, positively curved)<br>
-@clip: 
-            noclip (don&#39;t clip) max (clip ceiling) min (clip floor) minmax (clip both).<br>
-@noclip: alias to @clip noclip<br>
-@min: alias to @clip min<br>
-@max: alias to @clip max<br>
-@minmax: alias to @clip minmax<br>
+* **FROM**
+begin of output range<br>
+__type:__ float<br>
 
----
-see also:<br>
-[![conv.lin2exp](img/object_conv.lin2exp.png)](conv.lin2exp.html)
+* **TO**
+end of output range<br>
+__type:__ float<br>
+
+* **CURVE**
+curve shape<br>
+__type:__ float<br>
+
+
+
+
+
+## properties:
+
+* **@in_from** 
+Get/set begin of input range<br>
+__type:__ float<br>
+__default:__ 0<br>
+
+* **@in_to** 
+Get/set end of input range<br>
+__type:__ float<br>
+__default:__ 127<br>
+
+* **@out_from** 
+Get/set begin of output range<br>
+__type:__ float<br>
+__default:__ 0<br>
+
+* **@out_to** 
+Get/set end of output range<br>
+__type:__ float<br>
+__default:__ 1<br>
+
+* **@curve** 
+Get/set 0 (linear) 0 (convex, positively curved)<br>
+__type:__ float<br>
+__default:__ -4<br>
+
+* **@clip** 
+Get/set noclip (don&#39;t clip) max (clip ceiling) min (clip floor) minmax (clip both).<br>
+__type:__ symbol<br>
+__enum:__ noclip, min, max, minmax<br>
+__default:__ minmax<br>
+
+* **@noclip** 
+Get/set alias to @clip noclip<br>
+__type:__ symbol<br>
+
+* **@min** 
+Get/set alias to @clip min<br>
+__type:__ symbol<br>
+
+* **@max** 
+Get/set alias to @clip max<br>
+__type:__ symbol<br>
+
+* **@minmax** 
+Get/set alias to @clip minmax<br>
+__type:__ symbol<br>
+
+
+
+## inlets:
+
+* input value 
+__type:__ control<br>
+
+
+
+## outlets:
+
+* converted value
+__type:__ control<br>
+
+
+
+## keywords:
+
+[convert](keywords/convert.html)
+[exponential](keywords/exponential.html)
+[curve](keywords/curve.html)
+
+
+
+**See also:**
+[\[conv.lin2exp\]](conv.lin2exp.html)
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

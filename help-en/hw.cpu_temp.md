@@ -1,27 +1,62 @@
-[< reference home](index.html)
+[index](index.html) :: [hw](category_hw.html)
 ---
 
 # hw.cpu_temp
 
+###### get CPU temperature
 
-get CPU temperature
+*available since version:* 0.8
 
 ---
 
+
+## information
 At this moment supports only MacOSX
-<br>
 
 
----
+
+[![example](../examples/img/hw.cpu_temp.jpg)](../examples/pd/hw.cpu_temp.pd)
 
 
-![example](examples/hw.cpu_temp-example.jpg)
-
----
-arguments:
 
 
----
-properties:
+
+
+
+
+
+## inlets:
+
+* outputs current CPU temperature 
+__type:__ control<br>
+
+
+
+## outlets:
+
+* float value in celsius degree
+__type:__ control<br>
+
+
+
+## keywords:
+
+[motion](keywords/motion.html)
+[sensor](keywords/sensor.html)
+
+
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
 
 

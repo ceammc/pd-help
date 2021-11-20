@@ -1,36 +1,71 @@
-[< reference home](index.html)
+[index](index.html) :: [math](category_math.html)
 ---
 
 # math.asinh
 
+###### inverse hyperbolic sine function
 
-inverse hyperbolic sine function
+*available since version:* 0.1
 
 ---
 
+
+## information
 The asinh() function computes the inverse hyperbolic sine of the real
             argument
 Special values:
 asinh(+-0) returns +-0.
 asinh(+-infinity) returns +-infinity.
-<br>
 
 
----
+
+[![example](../examples/img/math.asinh.jpg)](../examples/pd/math.asinh.pd)
 
 
-![example](examples/math.asinh-example.jpg)
-
----
-arguments:
 
 
----
-properties:
 
 
----
-see also:<br>
-[![math.acosh](img/object_math.acosh.png)](math.acosh.html)
-[![math.atanh](img/object_math.atanh.png)](math.atanh.html)
-[![math.exp](img/object_math.exp.png)](math.exp.html)
+
+
+
+## inlets:
+
+* input value 
+__type:__ control<br>
+
+
+
+## outlets:
+
+* result value
+__type:__ control<br>
+
+
+
+## keywords:
+
+[math](keywords/math.html)
+[asinh](keywords/asinh.html)
+
+
+
+**See also:**
+[\[math.acosh\]](math.acosh.html)
+[\[math.atanh\]](math.atanh.html)
+[\[math.exp\]](math.exp.html)
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

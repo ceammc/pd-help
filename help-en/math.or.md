@@ -1,35 +1,92 @@
-[< reference home](index.html)
+[index](index.html) :: [math](category_math.html)
 ---
 
 # math.or
 
+###### operation OR for multiple arguments
 
-operation OR for multiple arguments
-
----
-
-<br>
-
+*available since version:* 0.2
 
 ---
 
 
-![example](examples/math.or-example.jpg)
 
----
-arguments:
 
-NUM: number of
-            arguments<br>
+[![example](../examples/img/math.or.jpg)](../examples/pd/math.or.pd)
 
----
-properties:
 
-@sync: if specified - all inlets are
-            &#39;hot&#39;<br>
-@state: internal logic
-            state as list of 1 and 0<br>
 
----
-see also:<br>
-[![math.and](img/object_math.and.png)](math.and.html)
+## arguments:
+
+* **NUM**
+number of arguments<br>
+__type:__ int<br>
+
+
+
+## methods:
+
+* **reset**
+resets all input states to false<br>
+
+
+
+
+## properties:
+
+* **@sync** 
+Get/set if specified - all inlets are &#39;hot&#39;<br>
+__type:__ int<br>
+__enum:__ 0, 1<br>
+__default:__ 0<br>
+
+* **@state** (readonly)
+Get internal logic state as list of 1 and 0<br>
+__type:__ list<br>
+__default:__ 0 0 0<br>
+
+
+
+## inlets:
+
+* 1 or 0 
+__type:__ control<br>
+* 1 or 0 
+__type:__ control<br>
+* 1 or 0 
+__type:__ control<br>
+
+
+
+## outlets:
+
+* 1 - if all input values are true (1), 0 - otherwise
+__type:__ control<br>
+
+
+
+## keywords:
+
+[math](keywords/math.html)
+[or](keywords/or.html)
+[logic](keywords/logic.html)
+
+
+
+**See also:**
+[\[math.and\]](math.and.html)
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

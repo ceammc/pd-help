@@ -1,30 +1,74 @@
-[< reference home](index.html)
+[index](index.html) :: [math](category_math.html)
 ---
 
 # math.cmul~
 
+###### multiplication of complex signals
 
-multiplication of complex signals
+*available since version:* 0.7
 
 ---
 
+
+## information
 Calculates for signals (a + bi) * (c + di) = (ac - bd) + (ad + bc)i
-<br>
 
 
----
+
+[![example](../examples/img/math.cmul~.jpg)](../examples/pd/math.cmul~.pd)
 
 
-![example](examples/math.cmul~-example.jpg)
-
----
-arguments:
 
 
----
-properties:
 
 
----
-see also:<br>
-[![math.cdiv~](img/object_math.cdiv~.png)](math.cdiv~.html)
+
+
+
+## inlets:
+
+* real part of input signal1 
+__type:__ audio<br>
+* imag part of input signal1 
+__type:__ audio<br>
+* real part of input signal2 
+__type:__ audio<br>
+* imag part of input signal2 
+__type:__ audio<br>
+
+
+
+## outlets:
+
+* real part of result
+__type:__ audio<br>
+* imag part of result
+__type:__ audio<br>
+
+
+
+## keywords:
+
+[math](keywords/math.html)
+[complex](keywords/complex.html)
+[multiplication](keywords/multiplication.html)
+
+
+
+**See also:**
+[\[math.cdiv~\]](math.cdiv~.html)
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

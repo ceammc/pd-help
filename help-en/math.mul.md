@@ -1,28 +1,74 @@
-[< reference home](index.html)
+[index](index.html) :: [math](category_math.html)
 ---
 
 # math.mul
 
+###### multiplication (on lists too)
 
-multiplication (on lists too)
-
----
-
-<br>
-
+*available since version:* 0.6
 
 ---
 
 
-![example](examples/math.mul-example.jpg)
 
----
-arguments:
 
-MUL: multiplicand<br>
+[![example](../examples/img/math.mul.jpg)](../examples/pd/math.mul.pd)
 
----
-properties:
 
-@mul: multiplicand<br>
+
+## arguments:
+
+* **MUL**
+multiplicand<br>
+__type:__ float<br>
+
+
+
+
+
+## properties:
+
+* **@mul** 
+Get/set multiplicand<br>
+__type:__ float<br>
+__default:__ 1<br>
+
+
+
+## inlets:
+
+* multiplier 
+__type:__ control<br>
+* change multiplicand 
+__type:__ control<br>
+
+
+
+## outlets:
+
+* float or list
+__type:__ control<br>
+
+
+
+## keywords:
+
+[math](keywords/math.html)
+[mul](keywords/mul.html)
+
+
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
 

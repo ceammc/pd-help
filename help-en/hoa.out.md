@@ -1,35 +1,78 @@
-[< reference home](index.html)
+[index](index.html) :: [spat](category_spat.html)
 ---
 
 # hoa.out
 
+###### message outlet for a patcher loaded by hoa.process~
 
-message outlet for a patcher loaded by hoa.process~
+*available since version:* 0.8
 
 ---
 
+
+## information
 hoa.out defines a message outlet for a patcher loaded by a hoa.process~
             object.
-<br>
 
 
----
+
+[![example](../examples/img/hoa.out.jpg)](../examples/pd/hoa.out.pd)
 
 
-![example](examples/hoa.out-example.jpg)
 
----
-arguments:
+## arguments:
 
-INDEX: outlet index<br>
+* **INDEX**
+outlet index<br>
+__type:__ int<br>
 
----
-properties:
 
-@index: outlet index<br>
 
----
-see also:<br>
-[![hoa.out~](img/object_hoa.out~.png)](hoa.out~.html)
-[![hoa.in](img/object_hoa.in.png)](hoa.in.html)
-[![hoa.in~](img/object_hoa.in~.png)](hoa.in~.html)
+
+
+## properties:
+
+* **@index** 
+Get/set outlet index<br>
+__type:__ int<br>
+__min value:__ 1<br>
+__default:__ 1<br>
+
+
+
+## inlets:
+
+* output bang message in the corresponding hoa.process~ object&#39;s
+                message outlet 
+__type:__ control<br>
+
+
+
+
+
+## keywords:
+
+[hoa](keywords/hoa.html)
+[outlet](keywords/outlet.html)
+
+
+
+**See also:**
+[\[hoa.out~\]](hoa.out~.html)
+[\[hoa.in\]](hoa.in.html)
+[\[hoa.in~\]](hoa.in~.html)
+
+
+
+
+**Authors:** Serge Poltavsky, Pierre Guillot, Eliott Paris, Thomas Le Meur
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

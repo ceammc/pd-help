@@ -1,34 +1,69 @@
-[< reference home](index.html)
+[index](index.html) :: [math](category_math.html)
 ---
 
 # math.log~
 
+###### natural logarithm
 
-natural logarithm
+*available since version:* 0.9
 
 ---
 
+
+## information
 Outputs the value of the natural logarithm
 Special values:
 log(1) return +0.
 log(+infinity) return +infinity.
-<br>
 
 
----
+
+[![example](../examples/img/math.log~.jpg)](../examples/pd/math.log~.pd)
 
 
-![example](examples/math.log~-example.jpg)
-
----
-arguments:
 
 
----
-properties:
 
 
----
-see also:<br>
-[![math.exp~](img/object_math.exp~.png)](math.exp~.html)
-[![math.log2](img/object_math.log2.png)](math.log2.html)
+
+
+
+## inlets:
+
+* input signal 
+__type:__ audio<br>
+
+
+
+## outlets:
+
+* result signal
+__type:__ audio<br>
+
+
+
+## keywords:
+
+[math](keywords/math.html)
+[log](keywords/log.html)
+
+
+
+**See also:**
+[\[math.exp~\]](math.exp~.html)
+[\[math.log2\]](math.log2.html)
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

@@ -1,32 +1,69 @@
-[< reference home](index.html)
+[index](index.html) :: [math](category_math.html)
 ---
 
 # math.sinh~
 
+###### hyperbolic sine for signals
 
-hyperbolic sine for signals
+*available since version:* 0.9
 
 ---
 
+
+## information
 Outputs hyperbolic sine of input signal
 sinh x = (ℯˣ - ℯ⁻ˣ)/2
-<br>
 
 
----
+
+[![example](../examples/img/math.sinh~.jpg)](../examples/pd/math.sinh~.pd)
 
 
-![example](examples/math.sinh~-example.jpg)
-
----
-arguments:
 
 
----
-properties:
 
 
----
-see also:<br>
-[![math.asinh~](img/object_math.asinh~.png)](math.asinh~.html)
-[![math.sinh](img/object_math.sinh.png)](math.sinh.html)
+
+
+
+## inlets:
+
+* input signal 
+__type:__ audio<br>
+
+
+
+## outlets:
+
+* result signal
+__type:__ audio<br>
+
+
+
+## keywords:
+
+[math](keywords/math.html)
+[hyperbolic](keywords/hyperbolic.html)
+[arc](keywords/arc.html)
+[sine](keywords/sine.html)
+
+
+
+**See also:**
+[\[math.asinh~\]](math.asinh~.html)
+[\[math.sinh\]](math.sinh.html)
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

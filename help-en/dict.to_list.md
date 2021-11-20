@@ -1,29 +1,61 @@
-[< reference home](index.html)
+[index](index.html) :: [data](category_data.html)
 ---
 
 # dict.to_list
 
+###### converts dictionary to plain list
 
-converts dictionary to plain list
-
----
-
-<br>
-
+*available since version:* 0.7
 
 ---
 
 
-![example](examples/dict.to_list-example.jpg)
-
----
-arguments:
 
 
----
-properties:
+[![example](../examples/img/dict.to_list.jpg)](../examples/pd/dict.to_list.pd)
 
 
----
-see also:<br>
-[![data.dict](img/object_data.dict.png)](data.dict.html)
+
+
+
+
+
+
+
+## inlets:
+
+* input 
+__type:__ control<br>
+
+
+
+## outlets:
+
+* list output
+__type:__ control<br>
+
+
+
+## keywords:
+
+[dictionary](keywords/dictionary.html)
+
+
+
+**See also:**
+[\[data.dict\]](data.dict.html)
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

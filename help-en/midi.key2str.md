@@ -1,29 +1,72 @@
-[< reference home](index.html)
+[index](index.html) :: [midi](category_midi.html)
 ---
 
 # midi.key2str
 
+###### convert key number to SPN name according to tonality
 
-convert key number to SPN name according to tonality
-
----
-
-<br>
-
+*available since version:* 0.4
 
 ---
 
 
-![example](examples/midi.key2str-example.jpg)
-
----
-arguments:
 
 
----
-properties:
+[![example](../examples/img/midi.key2str.jpg)](../examples/pd/midi.key2str.pd)
 
-@symbol: output as symbol instead of string by
-            default<br>
-@tonality: current tonality<br>
+
+
+
+
+
+
+## properties:
+
+* **@symbol** 
+Get/set output as symbol instead of string by default<br>
+__type:__ flag<br>
+__default:__ 0<br>
+
+* **@tonality** 
+Get/set current tonality<br>
+__type:__ symbol<br>
+__default:__ C major<br>
+
+
+
+## inlets:
+
+* standart MIDI key number [0-127] 
+__type:__ control<br>
+
+
+
+## outlets:
+
+* output key name
+__type:__ control<br>
+
+
+
+## keywords:
+
+[midi](keywords/midi.html)
+[key](keywords/key.html)
+[name](keywords/name.html)
+
+
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
 

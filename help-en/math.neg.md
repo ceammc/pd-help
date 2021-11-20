@@ -1,27 +1,62 @@
-[< reference home](index.html)
+[index](index.html) :: [math](category_math.html)
 ---
 
 # math.neg
 
+###### negate function
 
-negate function
+*available since version:* 0.1
 
 ---
 
+
+## information
 Returns value with opposite sign
-<br>
 
 
----
+
+[![example](../examples/img/math.neg.jpg)](../examples/pd/math.neg.pd)
 
 
-![example](examples/math.neg-example.jpg)
-
----
-arguments:
 
 
----
-properties:
+
+
+
+
+
+## inlets:
+
+* input value 
+__type:__ control<br>
+
+
+
+## outlets:
+
+* result
+__type:__ control<br>
+
+
+
+## keywords:
+
+[math](keywords/math.html)
+[negate](keywords/negate.html)
+
+
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
 
 

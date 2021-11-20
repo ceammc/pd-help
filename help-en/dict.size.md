@@ -1,30 +1,63 @@
-[< reference home](index.html)
+[index](index.html) :: [data](category_data.html)
 ---
 
 # dict.size
 
+###### dictionary size
 
-dictionary size
-
----
-
-<br>
-
+*available since version:* 0.6
 
 ---
 
 
-![example](examples/dict.size-example.jpg)
-
----
-arguments:
 
 
----
-properties:
+[![example](../examples/img/dict.size.jpg)](../examples/pd/dict.size.pd)
 
 
----
-see also:<br>
-[![data.dict](img/object_data.dict.png)](data.dict.html)
-[![dict.keys](img/object_dict.keys.png)](dict.keys.html)
+
+
+
+
+
+
+
+## inlets:
+
+* data.dict 
+__type:__ control<br>
+
+
+
+## outlets:
+
+* size of dict
+__type:__ control<br>
+
+
+
+## keywords:
+
+[size](keywords/size.html)
+[dictionary](keywords/dictionary.html)
+
+
+
+**See also:**
+[\[data.dict\]](data.dict.html)
+[\[dict.keys\]](dict.keys.html)
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

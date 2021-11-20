@@ -1,34 +1,69 @@
-[< reference home](index.html)
+[index](index.html) :: [math](category_math.html)
 ---
 
 # math.log2
 
+###### logarithm functions
 
-logarithm functions
+*available since version:* 0.1
 
 ---
 
+
+## information
 The log2() function computes the value of the logarithm of argument x to base
             2.
 Special values:
 log2(1) return +0.
 log2(+infinity) return +infinity.
-<br>
 
 
----
+
+[![example](../examples/img/math.log2.jpg)](../examples/pd/math.log2.pd)
 
 
-![example](examples/math.log2-example.jpg)
-
----
-arguments:
 
 
----
-properties:
 
 
----
-see also:<br>
-[![math.exp](img/object_math.exp.png)](math.exp.html)
+
+
+
+## inlets:
+
+* input value 
+__type:__ control<br>
+
+
+
+## outlets:
+
+* result value
+__type:__ control<br>
+
+
+
+## keywords:
+
+[math](keywords/math.html)
+[log2](keywords/log2.html)
+
+
+
+**See also:**
+[\[math.exp\]](math.exp.html)
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

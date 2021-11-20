@@ -1,41 +1,93 @@
-[< reference home](index.html)
+[index](index.html) :: [flt](category_flt.html)
 ---
 
 # flt.lpf12~
 
+###### Low-pass second order Butterworth filter
 
-Low-pass second order Butterworth filter
+*available since version:* 0.1
 
 ---
 
+
+## information
 A low-pass filter is a filter that passes signals with a frequency lower than a
             certain cutoff frequency and attenuates signals with frequencies higher than the cutoff
             frequency. A low-pass filter is the complement of a high-pass filter.
 Butterworth filter is a type of filter designed to have a frequency response as
             flat as possible in the passband.
-<br>
 
 
----
+
+[![example](../examples/img/flt.lpf12~.jpg)](../examples/pd/flt.lpf12~.pd)
 
 
-![example](examples/flt.lpf12~-example.jpg)
 
----
-arguments:
+## arguments:
 
-freq(Hz): cutoff
-            frequency<br>
+* **freq**
+cutoff frequency<br>
+__type:__ float<br>
+__units:__ Hz<br>
 
----
-properties:
 
-@freq(Hz): cutoff frequency<br>
-@active: on/off dsp
-            processing<br>
 
----
-see also:<br>
-[![flt.lpf24~](img/object_flt.lpf24~.png)](flt.lpf24~.html)
-[![flt.hpf12~](img/object_flt.hpf12~.png)](flt.hpf12~.html)
-[![flt.c_lpf~](img/object_flt.c_lpf~.png)](flt.c_lpf~.html)
+
+
+## properties:
+
+* **@freq** 
+Get/set cutoff frequency<br>
+__type:__ float<br>
+__units:__ Hz<br>
+__range:__ 20..20000<br>
+__default:__ 1000<br>
+
+* **@active** 
+Get/set on/off dsp processing<br>
+__type:__ int<br>
+__enum:__ 0, 1<br>
+__default:__ 1<br>
+
+
+
+## inlets:
+
+* input signal 
+__type:__ audio<br>
+
+
+
+## outlets:
+
+* filtered signal
+__type:__ audio<br>
+
+
+
+## keywords:
+
+[filter](keywords/filter.html)
+[lowpass](keywords/lowpass.html)
+
+
+
+**See also:**
+[\[flt.lpf24~\]](flt.lpf24~.html)
+[\[flt.hpf12~\]](flt.hpf12~.html)
+[\[flt.c_lpf~\]](flt.c_lpf~.html)
+
+
+
+
+**Authors:** Alex Nadzharov, Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

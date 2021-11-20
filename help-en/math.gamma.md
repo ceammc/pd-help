@@ -1,32 +1,68 @@
-[< reference home](index.html)
+[index](index.html) :: [math](category_math.html)
 ---
 
 # math.gamma
 
+###### gamma function
 
-gamma function
+*available since version:* 0.9
 
 ---
 
+
+## information
 Extension of factorial function to real numbers
 For any positive integer n, Γ(n) = (n−1)!
-<br>
 
 
----
+
+[![example](../examples/img/math.gamma.jpg)](../examples/pd/math.gamma.pd)
 
 
-![example](examples/math.gamma-example.jpg)
-
----
-arguments:
 
 
----
-properties:
 
 
----
-see also:<br>
-[![math.gamma](img/object_math.gamma.png)](math.gamma.html)
-[![math.lgamma~](img/object_math.lgamma~.png)](math.lgamma~.html)
+
+
+
+## inlets:
+
+* input value 
+__type:__ control<br>
+
+
+
+## outlets:
+
+* result value or list
+__type:__ control<br>
+
+
+
+## keywords:
+
+[math](keywords/math.html)
+[gamma](keywords/gamma.html)
+[factorial](keywords/factorial.html)
+
+
+
+**See also:**
+[\[math.gamma\]](math.gamma.html)
+[\[math.lgamma~\]](math.lgamma~.html)
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

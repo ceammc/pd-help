@@ -1,33 +1,78 @@
-[< reference home](index.html)
+[index](index.html) :: [property](category_property.html)
 ---
 
 # prop
 
+###### get/set named property value for subpatch or abstraction
 
-get/set named property value for subpatch or abstraction
+*available since version:* 0.7
 
 ---
 
+
+## information
 Property should be declared with [prop.declare]. Min/max limits can be set to
             property
-<br>
 
 
----
+
+[![example](../examples/img/prop.jpg)](../examples/pd/prop.pd)
 
 
-![example](examples/prop-example.jpg)
 
----
-arguments:
+## arguments:
 
-@NAME: property name<br>
-
----
-properties:
+* **@NAME**
+property name<br>
+__type:__ symbol<br>
 
 
----
-see also:<br>
-[![prop.declare](img/object_prop.declare.png)](prop.declare.html)
-[![patch.props](img/object_patch.props.png)](patch.props.html)
+
+## methods:
+
+* **default**
+reset to default value and output<br>
+
+
+
+
+
+
+## inlets:
+
+* output property value 
+__type:__ control<br>
+
+
+
+## outlets:
+
+* output value
+__type:__ control<br>
+
+
+
+## keywords:
+
+[property](keywords/property.html)
+
+
+
+**See also:**
+[\[prop.declare\]](prop.declare.html)
+[\[patch.props\]](patch.props.html)
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

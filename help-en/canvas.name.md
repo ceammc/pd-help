@@ -1,29 +1,62 @@
-[< reference home](index.html)
+[index](index.html) :: [patch](category_patch.html)
 ---
 
 # canvas.name
 
+###### current canvas name
 
-current canvas name
-
----
-
-<br>
-
+*available since version:* 0.8
 
 ---
 
 
-![example](examples/canvas.name-example.jpg)
-
----
-arguments:
 
 
----
-properties:
+[![example](../examples/img/canvas.name.jpg)](../examples/pd/canvas.name.pd)
 
 
----
-see also:<br>
-[![canvas.current](img/object_canvas.current.png)](canvas.current.html)
+
+
+
+
+
+
+
+## inlets:
+
+* output current canvas name 
+__type:__ control<br>
+
+
+
+## outlets:
+
+* current canvas name
+__type:__ control<br>
+
+
+
+## keywords:
+
+[canvas](keywords/canvas.html)
+[name](keywords/name.html)
+
+
+
+**See also:**
+[\[canvas.current\]](canvas.current.html)
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

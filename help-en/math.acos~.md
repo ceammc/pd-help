@@ -1,31 +1,66 @@
-[< reference home](index.html)
+[index](index.html) :: [math](category_math.html)
 ---
 
 # math.acos~
 
+###### arc cosine function for signals
 
-arc cosine function for signals
+*available since version:* 0.9
 
 ---
 
+
+## information
 Outputs the principle value of the arc cosine of input signal. The result is in
             the range [0, pi]
-<br>
 
 
----
+
+[![example](../examples/img/math.acos~.jpg)](../examples/pd/math.acos~.pd)
 
 
-![example](examples/math.acos~-example.jpg)
-
----
-arguments:
 
 
----
-properties:
 
 
----
-see also:<br>
-[![math.acos](img/object_math.acos.png)](math.acos.html)
+
+
+
+## inlets:
+
+* input signal 
+__type:__ audio<br>
+
+
+
+## outlets:
+
+* result signal
+__type:__ audio<br>
+
+
+
+## keywords:
+
+[math](keywords/math.html)
+[acos](keywords/acos.html)
+
+
+
+**See also:**
+[\[math.acos\]](math.acos.html)
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

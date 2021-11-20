@@ -1,30 +1,63 @@
-[< reference home](index.html)
+[index](index.html) :: [math](category_math.html)
 ---
 
 # math.exp~
 
+###### base-e exponential for signal
 
-base-e exponential for signal
-
----
-
-<br>
-
+*available since version:* 0.9
 
 ---
 
 
-![example](examples/math.exp~-example.jpg)
-
----
-arguments:
 
 
----
-properties:
+[![example](../examples/img/math.exp~.jpg)](../examples/pd/math.exp~.pd)
 
 
----
-see also:<br>
-[![math.log~](img/object_math.log~.png)](math.log~.html)
-[![math.exp2~](img/object_math.exp2~.png)](math.exp2~.html)
+
+
+
+
+
+
+
+## inlets:
+
+* input signal 
+__type:__ audio<br>
+
+
+
+## outlets:
+
+* output signal
+__type:__ audio<br>
+
+
+
+## keywords:
+
+[math](keywords/math.html)
+[exp2](keywords/exp2.html)
+
+
+
+**See also:**
+[\[math.log~\]](math.log~.html)
+[\[math.exp2~\]](math.exp2~.html)
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

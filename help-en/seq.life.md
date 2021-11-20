@@ -1,0 +1,198 @@
+[index](index.html) :: [seq](category_seq.html)
+---
+
+# seq.life
+
+###### Conway gamw of life sequencer
+
+*available since version:* 0.9.2
+
+---
+
+
+
+
+[![example](../examples/img/seq.life.jpg)](../examples/pd/seq.life.pd)
+
+
+
+## arguments:
+
+* **ROWS**
+number of rows<br>
+__type:__ int<br>
+
+* **COLS**
+number of columns<br>
+__type:__ int<br>
+
+
+
+## methods:
+
+* **clear**
+clear all cells<br>
+
+* **next**
+generate next state<br>
+
+* **glider**
+adds glider<br>
+  __parameters:__
+  - **ROW** row<br>
+    type: int <br>
+    required: True <br>
+
+  - **COL** column<br>
+    type: int <br>
+    required: True <br>
+
+* **hive**
+adds horizontal bee-hive<br>
+  __parameters:__
+  - **ROW** row<br>
+    type: int <br>
+    required: True <br>
+
+  - **COL** column<br>
+    type: int <br>
+    required: True <br>
+
+* **vhive**
+adds vertical bee-hive<br>
+  __parameters:__
+  - **ROW** row<br>
+    type: int <br>
+    required: True <br>
+
+  - **COL** column<br>
+    type: int <br>
+    required: True <br>
+
+* **rpent**
+adds R-pentamino<br>
+  __parameters:__
+  - **ROW** row<br>
+    type: int <br>
+    required: True <br>
+
+  - **COL** column<br>
+    type: int <br>
+    required: True <br>
+
+* **block**
+adds block<br>
+  __parameters:__
+  - **ROW** row<br>
+    type: int <br>
+    required: True <br>
+
+  - **COL** column<br>
+    type: int <br>
+    required: True <br>
+
+* **oct2**
+adds octagon<br>
+  __parameters:__
+  - **ROW** row<br>
+    type: int <br>
+    required: True <br>
+
+  - **COL** column<br>
+    type: int <br>
+    required: True <br>
+
+* **cell**
+sets cell value<br>
+  __parameters:__
+  - **ROW** row<br>
+    type: int <br>
+    required: True <br>
+
+  - **COL** column<br>
+    type: int <br>
+    required: True <br>
+
+  - **VALUE** column<br>
+    type: int <br>
+    required: True <br>
+
+* **blinker**
+adds blinker<br>
+  __parameters:__
+  - **ROW** row<br>
+    type: int <br>
+    required: True <br>
+
+  - **COL** column<br>
+    type: int <br>
+    required: True <br>
+
+* **random**
+fills with random<br>
+
+
+
+
+## properties:
+
+* **@rows** 
+Get/set number of rows<br>
+__type:__ int<br>
+__range:__ 1..32<br>
+__default:__ 16<br>
+
+* **@cols** 
+Get/set number of columns<br>
+__type:__ int<br>
+__range:__ 1..32<br>
+__default:__ 16<br>
+
+* **@size** (readonly)
+Get total cell count<br>
+__type:__ int<br>
+__default:__ 256<br>
+
+
+
+## inlets:
+
+* output all cells 
+__type:__ control<br>
+
+
+
+## outlets:
+
+* list: pitch vel
+__type:__ control<br>
+
+
+
+## keywords:
+
+[seq](keywords/seq.html)
+[conway](keywords/conway.html)
+[life](keywords/life.html)
+[game](keywords/game.html)
+
+
+
+**See also:**
+[\[seq.b\]](seq.b.html)
+[\[seq.t\]](seq.t.html)
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

@@ -1,43 +1,124 @@
-[< reference home](index.html)
+[index](index.html) :: [conv](category_conv.html)
 ---
 
 # conv.lin2lin
 
+###### convert from one linear range to another
 
-convert from one linear range to another
-
----
-
-<br>
-
+*available since version:* 0.1
 
 ---
 
 
-![example](examples/conv.lin2lin-example.jpg)
 
----
-arguments:
 
-FROM: begin of input range<br>
-TO: end of input range<br>
-FROM: begin of output range<br>
-TO: end of input output<br>
+[![example](../examples/img/conv.lin2lin.jpg)](../examples/pd/conv.lin2lin.pd)
 
----
-properties:
 
-@in_from: begin of input range<br>
-@in_to: end of input range<br>
-@out_from: begin of output range<br>
-@out_to: end of output range<br>
-@clip: 
-            noclip (don&#39;t clip) max (clip ceiling) min (clip floor) minmax (clip both).<br>
-@noclip: alias to @clip noclip<br>
-@min: alias to @clip min<br>
-@max: alias to @clip max<br>
-@minmax: alias to @clip minmax<br>
 
----
-see also:<br>
-[![conv.cc2amp](img/object_conv.cc2amp.png)](conv.cc2amp.html)
+## arguments:
+
+* **FROM**
+begin of input range<br>
+__type:__ float<br>
+
+* **TO**
+end of input range<br>
+__type:__ float<br>
+
+* **FROM**
+begin of output range<br>
+__type:__ float<br>
+
+* **TO**
+end of input output<br>
+__type:__ float<br>
+
+
+
+
+
+## properties:
+
+* **@in_from** 
+Get/set begin of input range<br>
+__type:__ float<br>
+__default:__ 0<br>
+
+* **@in_to** 
+Get/set end of input range<br>
+__type:__ float<br>
+__default:__ 127<br>
+
+* **@out_from** 
+Get/set begin of output range<br>
+__type:__ float<br>
+__default:__ 0<br>
+
+* **@out_to** 
+Get/set end of output range<br>
+__type:__ float<br>
+__default:__ 1<br>
+
+* **@clip** 
+Get/set noclip (don&#39;t clip) max (clip ceiling) min (clip floor) minmax (clip both).<br>
+__type:__ symbol<br>
+__enum:__ noclip, min, max, minmax<br>
+__default:__ minmax<br>
+
+* **@noclip** 
+Get/set alias to @clip noclip<br>
+__type:__ symbol<br>
+
+* **@min** 
+Get/set alias to @clip min<br>
+__type:__ symbol<br>
+
+* **@max** 
+Get/set alias to @clip max<br>
+__type:__ symbol<br>
+
+* **@minmax** 
+Get/set alias to @clip minmax<br>
+__type:__ symbol<br>
+
+
+
+## inlets:
+
+* input float 
+__type:__ control<br>
+
+
+
+## outlets:
+
+* converted float/list
+__type:__ control<br>
+
+
+
+## keywords:
+
+[convert](keywords/convert.html)
+[linear](keywords/linear.html)
+
+
+
+**See also:**
+[\[conv.cc2amp\]](conv.cc2amp.html)
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

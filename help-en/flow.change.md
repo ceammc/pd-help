@@ -1,33 +1,75 @@
-[< reference home](index.html)
+[index](index.html) :: [flow](category_flow.html)
 ---
 
 # flow.change
 
+###### rejects redundant input values
 
-rejects redundant input values
+*available since version:* 0.3
 
 ---
 
+
+## information
 The object passes input values only when it&#39;s changed. You can &#34;set&#34; the current
             value, or bang to force output.
 Note: [list a b c( and [a b c( are different values!
-<br>
 
 
----
+
+[![example](../examples/img/flow.change.jpg)](../examples/pd/flow.change.pd)
 
 
-![example](examples/flow.change-example.jpg)
-
----
-arguments:
 
 
----
-properties:
 
-@onrepeat: function called when repeat occurs<br>
 
----
-see also:<br>
-[![change](img/object_change.png)](change.html)
+
+## properties:
+
+* **@onrepeat** 
+Get/set function called when repeat occurs<br>
+__type:__ symbol<br>
+
+
+
+## inlets:
+
+* force output current value 
+__type:__ control<br>
+* reset: reset state 
+__type:__ control<br>
+
+
+
+## outlets:
+
+* output only if input changed
+__type:__ control<br>
+
+
+
+## keywords:
+
+[flow](keywords/flow.html)
+[change](keywords/change.html)
+
+
+
+**See also:**
+[\[change\]](change.html)
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

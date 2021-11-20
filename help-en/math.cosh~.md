@@ -1,32 +1,68 @@
-[< reference home](index.html)
+[index](index.html) :: [math](category_math.html)
 ---
 
 # math.cosh~
 
+###### hyperbolic cosine for signals
 
-hyperbolic cosine for signals
+*available since version:* 0.9
 
 ---
 
+
+## information
 Outputs hyperbolic cosine of input signal
 cosh x = (ℯˣ + ℯ⁻ˣ)/2
-<br>
 
 
----
+
+[![example](../examples/img/math.cosh~.jpg)](../examples/pd/math.cosh~.pd)
 
 
-![example](examples/math.cosh~-example.jpg)
-
----
-arguments:
 
 
----
-properties:
 
 
----
-see also:<br>
-[![math.cosh](img/object_math.cosh.png)](math.cosh.html)
-[![math.acosh~](img/object_math.acosh~.png)](math.acosh~.html)
+
+
+
+## inlets:
+
+* input signal 
+__type:__ audio<br>
+
+
+
+## outlets:
+
+* result signal
+__type:__ audio<br>
+
+
+
+## keywords:
+
+[math](keywords/math.html)
+[cosh](keywords/cosh.html)
+[hyperbolic](keywords/hyperbolic.html)
+
+
+
+**See also:**
+[\[math.cosh\]](math.cosh.html)
+[\[math.acosh~\]](math.acosh~.html)
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

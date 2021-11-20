@@ -1,26 +1,59 @@
-[< reference home](index.html)
+[index](index.html) :: [system](category_system.html)
 ---
 
 # system.screen_size
 
+###### returns current screen size in pixels
 
-returns current screen size in pixels
-
----
-
-<br>
-
+*available since version:* 0.1
 
 ---
 
 
-![example](examples/system.screen_size-example.jpg)
-
----
-arguments:
 
 
----
-properties:
+[![example](../examples/img/system.screen_size.jpg)](../examples/pd/system.screen_size.pd)
+
+
+
+
+
+
+
+
+
+## inlets:
+
+* outputs screen size in pixels 
+__type:__ control<br>
+
+
+
+## outlets:
+
+* list of two values: width and height
+__type:__ control<br>
+
+
+
+## keywords:
+
+[screen](keywords/screen.html)
+[info](keywords/info.html)
+
+
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
 
 

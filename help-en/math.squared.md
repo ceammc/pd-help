@@ -1,26 +1,59 @@
-[< reference home](index.html)
+[index](index.html) :: [math](category_math.html)
 ---
 
 # math.squared
 
+###### value square
 
-value square
-
----
-
-<br>
-
+*available since version:* 0.1
 
 ---
 
 
-![example](examples/math.squared-example.jpg)
-
----
-arguments:
 
 
----
-properties:
+[![example](../examples/img/math.squared.jpg)](../examples/pd/math.squared.pd)
+
+
+
+
+
+
+
+
+
+## inlets:
+
+* input value 
+__type:__ control<br>
+
+
+
+## outlets:
+
+* result
+__type:__ control<br>
+
+
+
+## keywords:
+
+[math](keywords/math.html)
+[square](keywords/square.html)
+
+
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
 
 

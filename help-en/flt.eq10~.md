@@ -1,42 +1,150 @@
-[< reference home](index.html)
+[index](index.html) :: [flt](category_flt.html)
 ---
 
 # flt.eq10~
 
+###### graphic 10 band equalizer
 
-graphic 10 band equalizer
+*available since version:* 0.1
 
 ---
 
+
+## information
 One band per octave. 5th-order Butterworth filters
-<br>
 
 
----
+
+[![example](../examples/img/flt.eq10~.jpg)](../examples/pd/flt.eq10~.pd)
 
 
-![example](examples/flt.eq10~-example.jpg)
-
----
-arguments:
 
 
----
-properties:
 
-@f31(db): gain at 31.25Hz<br>
-@f62(db): gain at 62.5Hz<br>
-@f125(db): gain at 125Hz<br>
-@f250(db): gain at 250Hz<br>
-@f500(db): gain at 500Hz<br>
-@f1000(db): gain at 1000Hz<br>
-@f2000(db): gain at 2000Hz<br>
-@f4000(db): gain at 4000Hz<br>
-@f8000(db): gain at 8000Hz<br>
-@f16000(db): gain at 16000Hz<br>
-@active: on/off dsp
-            processing<br>
+## methods:
 
----
-see also:<br>
-[![flt.eq_peak~](img/object_flt.eq_peak~.png)](flt.eq_peak~.html)
+* **reset**
+reset filter state to default<br>
+
+
+
+
+## properties:
+
+* **@f31** 
+Get/set gain at 31.25Hz<br>
+__type:__ float<br>
+__units:__ db<br>
+__range:__ -70..10<br>
+__default:__ 0<br>
+
+* **@f62** 
+Get/set gain at 62.5Hz<br>
+__type:__ float<br>
+__units:__ db<br>
+__range:__ -70..10<br>
+__default:__ 0<br>
+
+* **@f125** 
+Get/set gain at 125Hz<br>
+__type:__ float<br>
+__units:__ db<br>
+__range:__ -70..10<br>
+__default:__ 0<br>
+
+* **@f250** 
+Get/set gain at 250Hz<br>
+__type:__ float<br>
+__units:__ db<br>
+__range:__ -70..10<br>
+__default:__ 0<br>
+
+* **@f500** 
+Get/set gain at 500Hz<br>
+__type:__ float<br>
+__units:__ db<br>
+__range:__ -70..10<br>
+__default:__ 0<br>
+
+* **@f1000** 
+Get/set gain at 1000Hz<br>
+__type:__ float<br>
+__units:__ db<br>
+__range:__ -70..10<br>
+__default:__ 0<br>
+
+* **@f2000** 
+Get/set gain at 2000Hz<br>
+__type:__ float<br>
+__units:__ db<br>
+__range:__ -70..10<br>
+__default:__ 0<br>
+
+* **@f4000** 
+Get/set gain at 4000Hz<br>
+__type:__ float<br>
+__units:__ db<br>
+__range:__ -70..10<br>
+__default:__ 0<br>
+
+* **@f8000** 
+Get/set gain at 8000Hz<br>
+__type:__ float<br>
+__units:__ db<br>
+__range:__ -70..10<br>
+__default:__ 0<br>
+
+* **@f16000** 
+Get/set gain at 16000Hz<br>
+__type:__ float<br>
+__units:__ db<br>
+__range:__ -70..10<br>
+__default:__ 0<br>
+
+* **@active** 
+Get/set on/off dsp processing<br>
+__type:__ int<br>
+__enum:__ 0, 1<br>
+__default:__ 1<br>
+
+
+
+## inlets:
+
+* input signal 
+__type:__ audio<br>
+
+
+
+## outlets:
+
+* output signal
+__type:__ audio<br>
+
+
+
+## keywords:
+
+[graphic](keywords/graphic.html)
+[filter](keywords/filter.html)
+[equalizer](keywords/equalizer.html)
+
+
+
+**See also:**
+[\[flt.eq_peak~\]](flt.eq_peak~.html)
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

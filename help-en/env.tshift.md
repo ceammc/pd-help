@@ -1,33 +1,78 @@
-[< reference home](index.html)
+[index](index.html) :: [env](category_env.html)
 ---
 
 # env.tshift
 
+###### Envelope time-shift (horizontal)
 
-Envelope time-shift (horizontal)
-
----
-
-<br>
-
+*available since version:* 0.5
 
 ---
 
 
-![example](examples/env.tshift-example.jpg)
 
----
-arguments:
 
-SHIFT(ms): time-shift<br>
+[![example](../examples/img/env.tshift.jpg)](../examples/pd/env.tshift.pd)
 
----
-properties:
 
-@shift(ms): 
-            time-shift<br>
 
----
-see also:<br>
-[![env.tscale](img/object_env.tscale.png)](env.tscale.html)
-[![envelope](img/object_envelope.png)](envelope.html)
+## arguments:
+
+* **SHIFT**
+time-shift<br>
+__type:__ float<br>
+__units:__ ms<br>
+
+
+
+
+
+## properties:
+
+* **@shift** 
+Get/set time-shift<br>
+__type:__ float<br>
+__units:__ ms<br>
+__default:__ 0<br>
+
+
+
+## inlets:
+
+* input envelope 
+__type:__ control<br>
+
+
+
+## outlets:
+
+* shifted output envelope
+__type:__ control<br>
+
+
+
+## keywords:
+
+[time](keywords/time.html)
+[shift](keywords/shift.html)
+
+
+
+**See also:**
+[\[env.tscale\]](env.tscale.html)
+[\[envelope\]](envelope.html)
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

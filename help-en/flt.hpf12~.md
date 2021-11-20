@@ -1,41 +1,93 @@
-[< reference home](index.html)
+[index](index.html) :: [flt](category_flt.html)
 ---
 
 # flt.hpf12~
 
+###### High-pass second order Butterworth filter
 
-High-pass second order Butterworth filter
+*available since version:* 0.1
 
 ---
 
+
+## information
 A high-pass filter is an electronic filter that passes signals with a frequency
             higher than a certain cutoff frequency and attenuates signals with frequencies lower
             than the cutoff frequency.
 Butterworth filter is a type of filter designed to have a frequency response as
             flat as possible in the passband.
-<br>
 
 
----
+
+[![example](../examples/img/flt.hpf12~.jpg)](../examples/pd/flt.hpf12~.pd)
 
 
-![example](examples/flt.hpf12~-example.jpg)
 
----
-arguments:
+## arguments:
 
-freq(Hz): cutoff
-            frequency<br>
+* **freq**
+cutoff frequency<br>
+__type:__ float<br>
+__units:__ Hz<br>
 
----
-properties:
 
-@freq(Hz): cutoff frequency<br>
-@active: on/off dsp
-            processing<br>
 
----
-see also:<br>
-[![flt.hpf24~](img/object_flt.hpf24~.png)](flt.hpf24~.html)
-[![flt.lpf12~](img/object_flt.lpf12~.png)](flt.lpf12~.html)
-[![flt.c_hpf~](img/object_flt.c_hpf~.png)](flt.c_hpf~.html)
+
+
+## properties:
+
+* **@freq** 
+Get/set cutoff frequency<br>
+__type:__ float<br>
+__units:__ Hz<br>
+__range:__ 20..20000<br>
+__default:__ 10000<br>
+
+* **@active** 
+Get/set on/off dsp processing<br>
+__type:__ int<br>
+__enum:__ 0, 1<br>
+__default:__ 1<br>
+
+
+
+## inlets:
+
+* input signal 
+__type:__ audio<br>
+
+
+
+## outlets:
+
+* filtered signal
+__type:__ audio<br>
+
+
+
+## keywords:
+
+[filter](keywords/filter.html)
+[highpass](keywords/highpass.html)
+
+
+
+**See also:**
+[\[flt.hpf24~\]](flt.hpf24~.html)
+[\[flt.lpf12~\]](flt.lpf12~.html)
+[\[flt.c_hpf~\]](flt.c_hpf~.html)
+
+
+
+
+**Authors:** Alex Nadzharov, Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

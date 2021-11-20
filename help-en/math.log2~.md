@@ -1,34 +1,69 @@
-[< reference home](index.html)
+[index](index.html) :: [math](category_math.html)
 ---
 
 # math.log2~
 
+###### base-2 logarithm
 
-base-2 logarithm
+*available since version:* 0.9
 
 ---
 
+
+## information
 Outputs the value of the logarithm of argument x to base 2
 Special values:
 log2(1) return +0.
 log2(+infinity) return +infinity.
-<br>
 
 
----
+
+[![example](../examples/img/math.log2~.jpg)](../examples/pd/math.log2~.pd)
 
 
-![example](examples/math.log2~-example.jpg)
-
----
-arguments:
 
 
----
-properties:
 
 
----
-see also:<br>
-[![math.exp2~](img/object_math.exp2~.png)](math.exp2~.html)
-[![math.log2](img/object_math.log2.png)](math.log2.html)
+
+
+
+## inlets:
+
+* input signal 
+__type:__ audio<br>
+
+
+
+## outlets:
+
+* result signal
+__type:__ audio<br>
+
+
+
+## keywords:
+
+[math](keywords/math.html)
+[log2](keywords/log2.html)
+
+
+
+**See also:**
+[\[math.exp2~\]](math.exp2~.html)
+[\[math.log2\]](math.log2.html)
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

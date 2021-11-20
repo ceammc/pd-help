@@ -1,36 +1,77 @@
-[< reference home](index.html)
+[index](index.html) :: [spat](category_spat.html)
 ---
 
 # hoa.in~
 
+###### signal inlet for a patcher loaded by hoa.process~
 
-signal inlet for a patcher loaded by hoa.process~
+*available since version:* 0.8
 
 ---
 
+
+## information
 defines a signal inlet for a patcher loaded by a hoa.process~ object
-<br>
 
 
----
+
+[![example](../examples/img/hoa.in~.jpg)](../examples/pd/hoa.in~.pd)
 
 
-![example](examples/hoa.in~-example.jpg)
 
----
-arguments:
+## arguments:
 
-EXTRA: shortcut for @extra property<br>
+* **EXTRA**
+shortcut for @extra property<br>
+__type:__ int<br>
 
----
-properties:
 
-@extra: extra inlet. Extra inlet
-            are added to the &#34;normal&#34; instance inlet and can be used to send signal to all
-            instances<br>
 
----
-see also:<br>
-[![hoa.in](img/object_hoa.in.png)](hoa.in.html)
-[![hoa.out](img/object_hoa.out.png)](hoa.out.html)
-[![hoa.out~](img/object_hoa.out~.png)](hoa.out~.html)
+
+
+## properties:
+
+* **@extra** 
+Get/set extra inlet. Extra inlet are added to the &#34;normal&#34; instance inlet and can be
+used to send signal to all instances<br>
+__type:__ int<br>
+__min value:__ 0<br>
+__default:__ 0<br>
+
+
+
+
+
+## outlets:
+
+* output signal from a hoa.process~ object&#39;s inlet
+__type:__ audio<br>
+
+
+
+## keywords:
+
+[hoa](keywords/hoa.html)
+[inlet](keywords/inlet.html)
+
+
+
+**See also:**
+[\[hoa.in\]](hoa.in.html)
+[\[hoa.out\]](hoa.out.html)
+[\[hoa.out~\]](hoa.out~.html)
+
+
+
+
+**Authors:** Serge Poltavsky, Pierre Guillot, Eliott Paris, Thomas Le Meur
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

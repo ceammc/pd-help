@@ -1,33 +1,75 @@
-[< reference home](index.html)
+[index](index.html) :: [conv](category_conv.html)
 ---
 
 # conv.sec2str
 
-
-converts float time in seconds to formated symbol (or
+###### converts float time in seconds to formated symbol (or
             string)
 
----
-
-<br>
-
+*available since version:* 0.1
 
 ---
 
 
-![example](examples/conv.sec2str-example.jpg)
-
----
-arguments:
 
 
----
-properties:
+[![example](../examples/img/conv.sec2str.jpg)](../examples/pd/conv.sec2str.pd)
 
-@ms: output milliseconds<br>
-@symbol: if specified - output formatted time as symbol,
-            otherwise as string.<br>
 
----
-see also:<br>
-[![conv.str2sec](img/object_conv.str2sec.png)](conv.str2sec.html)
+
+
+
+
+
+## properties:
+
+* **@ms** 
+Get/set output milliseconds<br>
+__type:__ flag<br>
+__default:__ 0<br>
+
+* **@symbol** 
+Get/set if specified - output formatted time as symbol, otherwise as string.<br>
+__type:__ flag<br>
+__default:__ 0<br>
+
+
+
+## inlets:
+
+* converts float value in seconds to formatted symbol 
+__type:__ control<br>
+
+
+
+## outlets:
+
+* time in format &#34;HH:MM::SS&#34; or &#34;HH:MM:SS.XXX&#34;
+__type:__ control<br>
+
+
+
+## keywords:
+
+[conv](keywords/conv.html)
+[time](keywords/time.html)
+
+
+
+**See also:**
+[\[conv.str2sec\]](conv.str2sec.html)
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

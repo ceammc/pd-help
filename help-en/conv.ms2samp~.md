@@ -1,30 +1,64 @@
-[< reference home](index.html)
+[index](index.html) :: [conv](category_conv.html)
 ---
 
 # conv.ms2samp~
 
-
-convert time in milliseconds to number of samples according to current
+###### convert time in milliseconds to number of samples according to current
             samplerate
 
----
-
-<br>
-
+*available since version:* 0.9
 
 ---
 
 
-![example](examples/conv.ms2samp~-example.jpg)
-
----
-arguments:
 
 
----
-properties:
+[![example](../examples/img/conv.ms2samp~.jpg)](../examples/pd/conv.ms2samp~.pd)
 
 
----
-see also:<br>
-[![conv.samp2ms~](img/object_conv.samp2ms~.png)](conv.samp2ms~.html)
+
+
+
+
+
+
+
+## inlets:
+
+* input signal 
+__type:__ audio<br>
+
+
+
+## outlets:
+
+* output signal
+__type:__ audio<br>
+
+
+
+## keywords:
+
+[conv](keywords/conv.html)
+[samp](keywords/samp.html)
+[ms](keywords/ms.html)
+
+
+
+**See also:**
+[\[conv.samp2ms~\]](conv.samp2ms~.html)
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

@@ -1,30 +1,63 @@
-[< reference home](index.html)
+[index](index.html) :: [env](category_env.html)
 ---
 
 # vline2env
 
+###### Converts vline messages to env
 
-Converts vline messages to env
-
----
-
-<br>
-
+*available since version:* 0.6
 
 ---
 
 
-![example](examples/vline2env-example.jpg)
-
----
-arguments:
 
 
----
-properties:
+[![example](../examples/img/vline2env.jpg)](../examples/pd/vline2env.pd)
 
 
----
-see also:<br>
-[![env-&gt;vline](img/object_env-&gt;vline.png)](env->vline.html)
-[![env-&gt;array](img/object_env-&gt;array.png)](env->array.html)
+
+
+
+
+
+
+
+## inlets:
+
+* output current envelope 
+__type:__ control<br>
+
+
+
+## outlets:
+
+* envelope output
+__type:__ control<br>
+
+
+
+## keywords:
+
+[envelope](keywords/envelope.html)
+[vline](keywords/vline.html)
+
+
+
+**See also:**
+[\[env-&gt;vline\]](env-%3Evline.html)
+[\[env-&gt;array\]](env-%3Earray.html)
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

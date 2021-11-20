@@ -1,39 +1,105 @@
-[< reference home](index.html)
+[index](index.html) :: [array](category_array.html)
 ---
 
 # array.hist
 
+###### calculates array histogram
 
-calculates array histogram
+*available since version:* 0.7.1
 
 ---
 
+
+## information
 Values outside of range @min...@max are ignored
-<br>
 
 
----
+
+[![example](../examples/img/array.hist.jpg)](../examples/pd/array.hist.pd)
 
 
-![example](examples/array.hist-example.jpg)
 
----
-arguments:
+## arguments:
 
-NAME: array name<br>
-BINS: number of bins<br>
-MIN: minimal value<br>
-MAX: maximum value<br>
+* **NAME**
+array name<br>
+__type:__ symbol<br>
 
----
-properties:
+* **BINS**
+number of bins<br>
+__type:__ int<br>
 
-@array: array name<br>
-@bins: number of
-            bins<br>
-@min: minimal value<br>
-@max: maximum value<br>
+* **MIN**
+minimal value<br>
+__type:__ float<br>
 
----
-see also:<br>
-[![list.histogram](img/object_list.histogram.png)](list.histogram.html)
+* **MAX**
+maximum value<br>
+__type:__ float<br>
+
+
+
+
+
+## properties:
+
+* **@array** 
+Get/set array name<br>
+__type:__ symbol<br>
+
+* **@bins** 
+Get/set number of bins<br>
+__type:__ int<br>
+__range:__ 2..1000<br>
+__default:__ 100<br>
+
+* **@min** 
+Get/set minimal value<br>
+__type:__ float<br>
+__default:__ -1<br>
+
+* **@max** 
+Get/set maximum value<br>
+__type:__ float<br>
+__default:__ 1<br>
+
+
+
+## inlets:
+
+* calculates and outputs histogram 
+__type:__ control<br>
+
+
+
+## outlets:
+
+* list of histogram value (length=@bins)
+__type:__ control<br>
+
+
+
+## keywords:
+
+[array](keywords/array.html)
+[histogram](keywords/histogram.html)
+
+
+
+**See also:**
+[\[list.histogram\]](list.histogram.html)
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

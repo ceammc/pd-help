@@ -1,31 +1,69 @@
-[< reference home](index.html)
+[index](index.html) :: [conv](category_conv.html)
 ---
 
 # conv.str2sec
 
+###### converts formatted time to float value in seconds
 
-converts formatted time to float value in seconds
-
----
-
-<br>
-
+*available since version:* 0.1
 
 ---
 
 
-![example](examples/conv.str2sec-example.jpg)
-
----
-arguments:
 
 
----
-properties:
+[![example](../examples/img/conv.str2sec.jpg)](../examples/pd/conv.str2sec.pd)
 
-@on_err: value returned when unrecognized
-            symbol given<br>
 
----
-see also:<br>
-[![conv.sec2str](img/object_conv.sec2str.png)](conv.sec2str.html)
+
+
+
+
+
+## properties:
+
+* **@on_err** 
+Get/set value returned when unrecognized symbol given<br>
+__type:__ float<br>
+__default:__ -1<br>
+
+
+
+## inlets:
+
+* Time in format: &#34;HH:MM::SS[.XXX]&#34; 
+__type:__ control<br>
+
+
+
+## outlets:
+
+* time in seconds
+__type:__ control<br>
+
+
+
+## keywords:
+
+[conv](keywords/conv.html)
+[time](keywords/time.html)
+
+
+
+**See also:**
+[\[conv.sec2str\]](conv.sec2str.html)
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

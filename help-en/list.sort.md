@@ -1,31 +1,64 @@
-[< reference home](index.html)
+[index](index.html) :: [list](category_list.html)
 ---
 
 # list.sort
 
+###### sorts list values by ascending order
 
-sorts list values by ascending order
-
----
-
-<br>
-
+*available since version:* 0.1
 
 ---
 
 
-![example](examples/list.sort-example.jpg)
-
----
-arguments:
 
 
----
-properties:
+[![example](../examples/img/list.sort.jpg)](../examples/pd/list.sort.pd)
 
 
----
-see also:<br>
-[![list.sort_with](img/object_list.sort_with.png)](list.sort_with.html)
-[![list.reverse](img/object_list.reverse.png)](list.reverse.html)
-[![list.shuffle](img/object_list.shuffle.png)](list.shuffle.html)
+
+
+
+
+
+
+
+## inlets:
+
+* Input list. 
+__type:__ control<br>
+
+
+
+## outlets:
+
+* new sorted list
+__type:__ control<br>
+
+
+
+## keywords:
+
+[list](keywords/list.html)
+[sort](keywords/sort.html)
+
+
+
+**See also:**
+[\[list.sort_with\]](list.sort_with.html)
+[\[list.reverse\]](list.reverse.html)
+[\[list.shuffle\]](list.shuffle.html)
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

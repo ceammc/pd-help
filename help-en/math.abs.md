@@ -1,30 +1,65 @@
-[< reference home](index.html)
+[index](index.html) :: [math](category_math.html)
 ---
 
 # math.abs
 
+###### absolute value function
 
-absolute value function
+*available since version:* 0.1
 
 ---
 
+
+## information
 The abs() function computes the absolute value of the float input.
-<br>
 
 
----
+
+[![example](../examples/img/math.abs.jpg)](../examples/pd/math.abs.pd)
 
 
-![example](examples/math.abs-example.jpg)
-
----
-arguments:
 
 
----
-properties:
 
 
----
-see also:<br>
-[![math.floor](img/object_math.floor.png)](math.floor.html)
+
+
+
+## inlets:
+
+* input value 
+__type:__ control<br>
+
+
+
+## outlets:
+
+* result value
+__type:__ control<br>
+
+
+
+## keywords:
+
+[math](keywords/math.html)
+[abs](keywords/abs.html)
+
+
+
+**See also:**
+[\[math.floor\]](math.floor.html)
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

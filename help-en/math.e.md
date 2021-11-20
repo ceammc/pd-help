@@ -1,31 +1,66 @@
-[< reference home](index.html)
+[index](index.html) :: [math](category_math.html)
 ---
 
 # math.e
 
+###### mathematical constant, base of the natural logarithm
 
-mathematical constant, base of the natural logarithm
+*available since version:* 0.1
 
 ---
 
+
+## information
 It is approximately equal to 2.71828, and is the limit of (1 + 1/n)^n as n
             approaches infinity.
-<br>
 
 
----
+
+[![example](../examples/img/math.e.jpg)](../examples/pd/math.e.pd)
 
 
-![example](examples/math.e-example.jpg)
-
----
-arguments:
 
 
----
-properties:
 
 
----
-see also:<br>
-[![math.pi](img/object_math.pi.png)](math.pi.html)
+
+
+
+## inlets:
+
+* outputs value 
+__type:__ control<br>
+
+
+
+## outlets:
+
+* output value
+__type:__ control<br>
+
+
+
+## keywords:
+
+[math](keywords/math.html)
+[e](keywords/e.html)
+
+
+
+**See also:**
+[\[math.pi\]](math.pi.html)
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

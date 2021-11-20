@@ -1,29 +1,62 @@
-[< reference home](index.html)
+[index](index.html) :: [path](category_path.html)
 ---
 
 # path.dirname
 
+###### outputs directory portion of pathname
 
-outputs directory portion of pathname
-
----
-
-<br>
-
+*available since version:* 0.1
 
 ---
 
 
-![example](examples/path.dirname-example.jpg)
-
----
-arguments:
 
 
----
-properties:
+[![example](../examples/img/path.dirname.jpg)](../examples/pd/path.dirname.pd)
 
 
----
-see also:<br>
-[![path.basename](img/object_path.basename.png)](path.basename.html)
+
+
+
+
+
+
+
+## inlets:
+
+* outputs directory portion of pathname 
+__type:__ control<br>
+
+
+
+## outlets:
+
+* directory name
+__type:__ control<br>
+
+
+
+## keywords:
+
+[path](keywords/path.html)
+[environment](keywords/environment.html)
+
+
+
+**See also:**
+[\[path.basename\]](path.basename.html)
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

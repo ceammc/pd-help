@@ -1,35 +1,70 @@
-[< reference home](index.html)
+[index](index.html) :: [math](category_math.html)
 ---
 
 # math.tanh
 
+###### hyperbolic tangent function
 
-hyperbolic tangent function
+*available since version:* 0.1
 
 ---
 
+
+## information
 The tanh() function computes the hyperbolic tangent of x.
 Special values:
 tanh(+-0) returns +-0.
 tanh(+-infinity) returns +-1.
-<br>
 
 
----
+
+[![example](../examples/img/math.tanh.jpg)](../examples/pd/math.tanh.pd)
 
 
-![example](examples/math.tanh-example.jpg)
-
----
-arguments:
 
 
----
-properties:
 
 
----
-see also:<br>
-[![math.acos](img/object_math.acos.png)](math.acos.html)
-[![math.asin](img/object_math.asin.png)](math.asin.html)
-[![math.atan](img/object_math.atan.png)](math.atan.html)
+
+
+
+## inlets:
+
+* input value 
+__type:__ control<br>
+
+
+
+## outlets:
+
+* result value
+__type:__ control<br>
+
+
+
+## keywords:
+
+[math](keywords/math.html)
+[tanh](keywords/tanh.html)
+
+
+
+**See also:**
+[\[math.acos\]](math.acos.html)
+[\[math.asin\]](math.asin.html)
+[\[math.atan\]](math.atan.html)
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

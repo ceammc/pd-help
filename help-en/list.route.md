@@ -1,37 +1,100 @@
-[< reference home](index.html)
+[index](index.html) :: [list](category_list.html)
 ---
 
 # list.route
 
+###### acts like [route] but for lists
 
-acts like [route] but for lists
+*available since version:* 0.5
 
 ---
 
+
+## information
 Outputs float, symbol or list to matched outlet or to last outlet if no
             match
-<br>
 
 
----
+
+[![example](../examples/img/list.route.jpg)](../examples/pd/list.route.pd)
 
 
-![example](examples/list.route-example.jpg)
 
----
-arguments:
+## arguments:
 
-@type: list of matched atoms<br>
+* **@type**
+list of matched atoms<br>
+__type:__ list<br>
 
----
-properties:
 
-@trim: cut first element from list, transform float or
-            symbol to bang<br>
-@simplify: one element list
-            simplification - transform them to floats or symbols<br>
-@as_any: trim list or symbol selector on output.<br>
 
----
-see also:<br>
-[![route](img/object_route.png)](route.html)
+
+
+## properties:
+
+* **@args** 
+Get/set matching atoms<br>
+__type:__ list<br>
+
+* **@trim** 
+Get/set cut first element from list, transform float or symbol to bang<br>
+__type:__ flag<br>
+__default:__ 0<br>
+
+* **@simplify** 
+Get/set one element list simplification - transform them to floats or symbols<br>
+__type:__ int<br>
+__enum:__ 0, 1<br>
+__default:__ 1<br>
+
+* **@as_any** 
+Get/set trim list or symbol selector on output<br>
+__type:__ flag<br>
+__default:__ 0<br>
+
+
+
+## inlets:
+
+* input list 
+__type:__ control<br>
+
+
+
+## outlets:
+
+* first match
+__type:__ control<br>
+* second match
+__type:__ control<br>
+* nth match
+__type:__ control<br>
+* unmatched element (without changes)
+__type:__ control<br>
+
+
+
+## keywords:
+
+[list](keywords/list.html)
+[route](keywords/route.html)
+
+
+
+**See also:**
+[\[route\]](route.html)
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

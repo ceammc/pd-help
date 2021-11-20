@@ -1,37 +1,72 @@
-[< reference home](index.html)
+[index](index.html) :: [math](category_math.html)
 ---
 
 # math.asin
 
+###### arc sine function
 
-arc sine function
+*available since version:* 0.1
 
 ---
 
+
+## information
 The asin() function computes the principal value of the arc sine of input value.
             The result is in the range [-pi/2, +pi/2].
 Special values:
 asin(+-0) returns +-0.
 asin(x) returns a NAN and raises the &#34;invalid&#34; floating-point exception for |x|
             &gt; 1.
-<br>
 
 
----
+
+[![example](../examples/img/math.asin.jpg)](../examples/pd/math.asin.pd)
 
 
-![example](examples/math.asin-example.jpg)
-
----
-arguments:
 
 
----
-properties:
 
 
----
-see also:<br>
-[![math.acos](img/object_math.acos.png)](math.acos.html)
-[![math.atan](img/object_math.atan.png)](math.atan.html)
-[![math.cos](img/object_math.cos.png)](math.cos.html)
+
+
+
+## inlets:
+
+* input value 
+__type:__ control<br>
+
+
+
+## outlets:
+
+* result value
+__type:__ control<br>
+
+
+
+## keywords:
+
+[math](keywords/math.html)
+[asin](keywords/asin.html)
+
+
+
+**See also:**
+[\[math.acos\]](math.acos.html)
+[\[math.atan\]](math.atan.html)
+[\[math.cos\]](math.cos.html)
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

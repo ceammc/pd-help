@@ -1,32 +1,80 @@
-[< reference home](index.html)
+[index](index.html) :: [math](category_math.html)
 ---
 
 # math.sync_eq
 
+###### sync equal numbers check
 
-sync equal numbers check
-
----
-
-<br>
-
+*available since version:* 0.8
 
 ---
 
 
-![example](examples/math.sync_eq-example.jpg)
 
----
-arguments:
 
-F: second number<br>
+[![example](../examples/img/math.sync_eq.jpg)](../examples/pd/math.sync_eq.pd)
 
----
-properties:
 
-@epsilon: compare epsilon. If not
-            zero calculates expession: -epsilon &lt; abs(A-B) &lt; +epsilon<br>
 
----
-see also:<br>
-[![math.!=&#39;](img/object_math.!=&#39;.png)](math.!='.html)
+## arguments:
+
+* **F**
+second number<br>
+__type:__ float<br>
+
+
+
+
+
+## properties:
+
+* **@epsilon** 
+Get/set compare epsilon. If not zero calculates expession: -epsilon &lt; abs(A-B) &lt;
++epsilon<br>
+__type:__ float<br>
+__min value:__ 0<br>
+__default:__ 0<br>
+
+
+
+## inlets:
+
+* set first number, calculate and output result 
+__type:__ control<br>
+* change second number, calculate and output result 
+__type:__ control<br>
+
+
+
+## outlets:
+
+* result output: 1 if numbers are equal otherwise 0
+__type:__ control<br>
+
+
+
+## keywords:
+
+[math](keywords/math.html)
+[sync](keywords/sync.html)
+[equal](keywords/equal.html)
+
+
+
+**See also:**
+[\[math.!=&#39;\]](math.%21%3D%27.html)
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

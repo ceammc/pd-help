@@ -1,38 +1,154 @@
-[< reference home](index.html)
+[index](index.html) :: [global](category_global.html)
 ---
 
 # global.dict
 
+###### global named dict object
 
-global named dict object
+*available since version:* 0.6
 
 ---
 
-Defines global scope dict variable, accessed by ID name and available fro
+
+## information
+Defines global scope dict variable, accessed by ID name and available from
             everywhere
-<br>
 
 
----
+
+[![example](../examples/img/global.dict.jpg)](../examples/pd/global.dict.pd)
 
 
-![example](examples/global.dict-example.jpg)
 
----
-arguments:
+## arguments:
 
-ID: object ID<br>
+* **ID**
+object ID<br>
+__type:__ symbol<br>
 
----
-properties:
 
-@keys: keys of dictionary<br>
-@empty: 1 if dict is
-            empty, otherwise 0<br>
-@size: number of
-            entries in dictionary<br>
 
----
-see also:<br>
-[![data.dict](img/object_data.dict.png)](data.dict.html)
-[![global.dict](img/object_global.dict.png)](global.dict.html)
+## methods:
+
+* **add**
+adds entry to dictionary<br>
+  __parameters:__
+  - **KEY** entry key<br>
+    type: atom <br>
+    required: True <br>
+
+  - **VAL** single value or list<br>
+    type: list <br>
+    required: True <br>
+
+* **clear**
+removes all dict values. No output<br>
+
+* **get_key**
+get entry from dictionary<br>
+  __parameters:__
+  - **KEY** entry key<br>
+    type: atom <br>
+    required: True <br>
+
+* **set_key**
+change entry in dictionary. If it&#39;s not exists, do nothing.<br>
+  __parameters:__
+  - **KEY** key<br>
+    type: atom <br>
+    required: True <br>
+
+  - **VAL** single value or list<br>
+    type: list <br>
+    required: True <br>
+
+* **set**
+set dict content without output<br>
+
+* **remove**
+remove entry from dictionary<br>
+  __parameters:__
+  - **KEY** entry key<br>
+    type: atom <br>
+    required: True <br>
+
+* **[....]**
+sets new content without output<br>
+
+* **read**
+read dict from JSON file<br>
+  __parameters:__
+  - **PATH** file path<br>
+    type: symbol <br>
+    required: True <br>
+
+* **write**
+write dict as JSON file<br>
+  __parameters:__
+  - **PATH** file path<br>
+    type: symbol <br>
+    required: True <br>
+
+
+
+
+## properties:
+
+* **@keys** (readonly)
+Get keys of dictionary<br>
+__type:__ list<br>
+
+* **@empty** (readonly)
+Get 1 if dict is empty, otherwise 0<br>
+__type:__ int<br>
+__enum:__ 0, 1<br>
+__default:__ 1<br>
+
+* **@size** (readonly)
+Get number of entries in dictionary<br>
+__type:__ int<br>
+__min value:__ 0<br>
+__default:__ 0<br>
+
+
+
+## inlets:
+
+* output current dictionary value 
+__type:__ control<br>
+
+
+
+## outlets:
+
+* dict output
+__type:__ control<br>
+
+
+
+## keywords:
+
+[dict](keywords/dict.html)
+[local](keywords/local.html)
+[global](keywords/global.html)
+
+
+
+**See also:**
+[\[data.dict\]](data.dict.html)
+[\[global.dict\]](global.dict.html)
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

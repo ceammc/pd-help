@@ -1,31 +1,90 @@
-[< reference home](index.html)
+[index](index.html) :: [math](category_math.html)
 ---
 
 # math.approx
 
+###### check if input value approximately equal to pattern
 
-check if input value approximately equal to pattern
+*available since version:* 0.1
 
 ---
 
+
+## information
 checks is |x - pattern| &lt;= |epsilon|
-<br>
 
 
----
+
+[![example](../examples/img/math.approx.jpg)](../examples/pd/math.approx.pd)
 
 
-![example](examples/math.approx-example.jpg)
 
----
-arguments:
+## arguments:
 
-P: compare pattern<br>
-E: compare epsilon<br>
+* **P**
+compare pattern<br>
+__type:__ float<br>
 
----
-properties:
+* **E**
+compare epsilon<br>
+__type:__ float<br>
 
-@value: compare pattern<br>
-@epsilon: compare epsilon<br>
+
+
+
+
+## properties:
+
+* **@value** 
+Get/set compare pattern<br>
+__type:__ float<br>
+__default:__ 0<br>
+
+* **@epsilon** 
+Get/set compare epsilon<br>
+__type:__ float<br>
+__default:__ 0.01<br>
+
+
+
+## inlets:
+
+* input value 
+__type:__ control<br>
+* pattern value 
+__type:__ control<br>
+* epsilon 
+__type:__ control<br>
+
+
+
+## outlets:
+
+* output 1 if input value is approximately equal to pattern, 0 0
+            otherwise
+__type:__ control<br>
+
+
+
+## keywords:
+
+[equal](keywords/equal.html)
+[compare](keywords/compare.html)
+[approx](keywords/approx.html)
+
+
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
 

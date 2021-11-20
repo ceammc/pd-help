@@ -1,37 +1,72 @@
-[< reference home](index.html)
+[index](index.html) :: [math](category_math.html)
 ---
 
 # math.acosh
 
+###### inverse hyperbolic cosine function
 
-inverse hyperbolic cosine function
+*available since version:* 0.1
 
 ---
 
+
+## information
 The acosh() function computes the principle value of the inverse hyperbolic cosine
             of input value. The result is in the range [0, +infinity].
 Special values:
 acosh(1) returns +0.
 acosh(x) returns a NAN.
 acosh(+infinity) returns +infinity.
-<br>
 
 
----
+
+[![example](../examples/img/math.acosh.jpg)](../examples/pd/math.acosh.pd)
 
 
-![example](examples/math.acosh-example.jpg)
-
----
-arguments:
 
 
----
-properties:
 
 
----
-see also:<br>
-[![math.asinh](img/object_math.asinh.png)](math.asinh.html)
-[![math.atanh](img/object_math.atanh.png)](math.atanh.html)
-[![math.exp](img/object_math.exp.png)](math.exp.html)
+
+
+
+## inlets:
+
+* input value 
+__type:__ control<br>
+
+
+
+## outlets:
+
+* result value
+__type:__ control<br>
+
+
+
+## keywords:
+
+[math](keywords/math.html)
+[acosh](keywords/acosh.html)
+
+
+
+**See also:**
+[\[math.asinh\]](math.asinh.html)
+[\[math.atanh\]](math.atanh.html)
+[\[math.exp\]](math.exp.html)
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

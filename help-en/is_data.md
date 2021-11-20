@@ -1,33 +1,73 @@
-[< reference home](index.html)
+[index](index.html) :: [predicates](category_predicates.html)
 ---
 
 # is_data
 
+###### checks if input data has *data* type
 
-checks if input data has *data* type
-
----
-
-<br>
-
+*available since version:* 0.6
 
 ---
 
 
-![example](examples/is_data-example.jpg)
-
----
-arguments:
 
 
----
-properties:
+[![example](../examples/img/is_data.jpg)](../examples/pd/is_data.pd)
 
-@in_list: output &#39;1&#39; is list contains at least one data
-            atom<br>
 
----
-see also:<br>
-[![is_float](img/object_is_float.png)](is_float.html)
-[![is_symbol](img/object_is_symbol.png)](is_symbol.html)
-[![is_list](img/object_is_list.png)](is_list.html)
+
+
+
+
+
+## properties:
+
+* **@in_list** 
+Get/set output &#39;1&#39; is list contains at least one data atom<br>
+__type:__ flag<br>
+__default:__ 0<br>
+
+
+
+## inlets:
+
+* outputs &#39;1&#39; to 1st outlet, otherwise &#39;0&#39; 
+__type:__ control<br>
+
+
+
+## outlets:
+
+* 0 or 1
+__type:__ control<br>
+* passes *data* message
+__type:__ control<br>
+
+
+
+## keywords:
+
+[predicate](keywords/predicate.html)
+[data](keywords/data.html)
+
+
+
+**See also:**
+[\[is_float\]](is_float.html)
+[\[is_symbol\]](is_symbol.html)
+[\[is_list\]](is_list.html)
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

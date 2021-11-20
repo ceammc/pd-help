@@ -1,31 +1,66 @@
-[< reference home](index.html)
+[index](index.html) :: [math](category_math.html)
 ---
 
 # math.cos~
 
+###### cosine function
 
-cosine function
+*available since version:* 0.9
 
 ---
 
+
+## information
 Computes the cosine of input signal (in radians)
-<br>
 
 
----
+
+[![example](../examples/img/math.cos~.jpg)](../examples/pd/math.cos~.pd)
 
 
-![example](examples/math.cos~-example.jpg)
-
----
-arguments:
 
 
----
-properties:
 
 
----
-see also:<br>
-[![math.cos](img/object_math.cos.png)](math.cos.html)
-[![math.sin~](img/object_math.sin~.png)](math.sin~.html)
+
+
+
+## inlets:
+
+* input signal 
+__type:__ audio<br>
+
+
+
+## outlets:
+
+* result signal
+__type:__ audio<br>
+
+
+
+## keywords:
+
+[math](keywords/math.html)
+[cos](keywords/cos.html)
+
+
+
+**See also:**
+[\[math.cos\]](math.cos.html)
+[\[math.sin~\]](math.sin~.html)
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

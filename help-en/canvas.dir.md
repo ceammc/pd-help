@@ -1,30 +1,63 @@
-[< reference home](index.html)
+[index](index.html) :: [patch](category_patch.html)
 ---
 
 # canvas.dir
 
+###### current canvas directory
 
-current canvas directory
-
----
-
-<br>
-
+*available since version:* 0.8
 
 ---
 
 
-![example](examples/canvas.dir-example.jpg)
-
----
-arguments:
 
 
----
-properties:
+[![example](../examples/img/canvas.dir.jpg)](../examples/pd/canvas.dir.pd)
 
 
----
-see also:<br>
-[![canvas.name](img/object_canvas.name.png)](canvas.name.html)
-[![canvas.path](img/object_canvas.path.png)](canvas.path.html)
+
+
+
+
+
+
+
+## inlets:
+
+* output current canvas directory 
+__type:__ control<br>
+
+
+
+## outlets:
+
+* current canvas directory as symbol
+__type:__ control<br>
+
+
+
+## keywords:
+
+[canvas](keywords/canvas.html)
+[directory](keywords/directory.html)
+
+
+
+**See also:**
+[\[canvas.name\]](canvas.name.html)
+[\[canvas.path\]](canvas.path.html)
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

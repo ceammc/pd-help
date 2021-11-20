@@ -1,31 +1,72 @@
-[< reference home](index.html)
+[index](index.html) :: [data](category_data.html)
 ---
 
 # set.union
 
+###### output union of given sets
 
-output union of given sets
-
----
-
-<br>
-
+*available since version:* 0.3
 
 ---
 
 
-![example](examples/set.union-example.jpg)
-
----
-arguments:
-
-ARGS: right set elements<br>
-
----
-properties:
 
 
----
-see also:<br>
-[![data.set](img/object_data.set.png)](data.set.html)
-[![set.intersect](img/object_set.intersect.png)](set.intersect.html)
+[![example](../examples/img/set.union.jpg)](../examples/pd/set.union.pd)
+
+
+
+## arguments:
+
+* **ARGS**
+right set elements<br>
+__type:__ any<br>
+
+
+
+
+
+
+
+## inlets:
+
+* first set or list (converted to set), other values are ignored 
+__type:__ control<br>
+* second set or list (converted to set) 
+__type:__ control<br>
+
+
+
+## outlets:
+
+* output union of given sets
+__type:__ control<br>
+
+
+
+## keywords:
+
+[data](keywords/data.html)
+[union](keywords/union.html)
+[set](keywords/set.html)
+
+
+
+**See also:**
+[\[data.set\]](data.set.html)
+[\[set.intersect\]](set.intersect.html)
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

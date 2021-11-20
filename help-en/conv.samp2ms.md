@@ -1,29 +1,62 @@
-[< reference home](index.html)
+[index](index.html) :: [conv](category_conv.html)
 ---
 
 # conv.samp2ms
 
+###### convert samples to time according to samplerate
 
-convert samples to time according to samplerate
-
----
-
-<br>
-
+*available since version:* 0.8
 
 ---
 
 
-![example](examples/conv.samp2ms-example.jpg)
-
----
-arguments:
 
 
----
-properties:
+[![example](../examples/img/conv.samp2ms.jpg)](../examples/pd/conv.samp2ms.pd)
 
 
----
-see also:<br>
-[![conv.sec2samp](img/object_conv.sec2samp.png)](conv.sec2samp.html)
+
+
+
+
+
+
+
+## inlets:
+
+* number of samples 
+__type:__ control<br>
+
+
+
+## outlets:
+
+* converted value (float or list)
+__type:__ control<br>
+
+
+
+## keywords:
+
+[conv](keywords/conv.html)
+[samp](keywords/samp.html)
+
+
+
+**See also:**
+[\[conv.sec2samp\]](conv.sec2samp.html)
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

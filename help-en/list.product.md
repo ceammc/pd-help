@@ -1,31 +1,66 @@
-[< reference home](index.html)
+[index](index.html) :: [list](category_list.html)
 ---
 
 # list.product
 
+###### calculates product of floats in list
 
-calculates product of floats in list
+*available since version:* 0.1
 
 ---
 
+
+## information
 Note: symbol values are treated as 0. So if list contains at least one symbol,
             product will be always equal to zero
-<br>
 
 
----
+
+[![example](../examples/img/list.product.jpg)](../examples/pd/list.product.pd)
 
 
-![example](examples/list.product-example.jpg)
-
----
-arguments:
 
 
----
-properties:
 
 
----
-see also:<br>
-[![list.sum](img/object_list.sum.png)](list.sum.html)
+
+
+
+## inlets:
+
+* input list 
+__type:__ control<br>
+
+
+
+## outlets:
+
+* float list product
+__type:__ control<br>
+
+
+
+## keywords:
+
+[list](keywords/list.html)
+[product](keywords/product.html)
+
+
+
+**See also:**
+[\[list.sum\]](list.sum.html)
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

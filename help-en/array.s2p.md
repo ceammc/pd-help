@@ -1,33 +1,78 @@
-[< reference home](index.html)
+[index](index.html) :: [conv](category_conv.html)
 ---
 
 # array.s2p
 
+###### convert sample position to phase range [0..1]
 
-convert array sample position to relative phase position
-            [0..1]
+*available since version:* 0.2
 
 ---
 
+
+## information
 with this object you can get relative position in array
-<br>
 
 
----
+
+[![example](../examples/img/array.s2p.jpg)](../examples/pd/array.s2p.pd)
 
 
-![example](examples/array.s2p-example.jpg)
 
----
-arguments:
+## arguments:
 
-NAME: array name<br>
+* **NAME**
+array name<br>
+__type:__ symbol<br>
 
----
-properties:
 
-@array: array name<br>
 
----
-see also:<br>
-[![array.p2s](img/object_array.p2s.png)](array.p2s.html)
+
+
+## properties:
+
+* **@array** 
+Get/set array name<br>
+__type:__ symbol<br>
+
+
+
+## inlets:
+
+* array sample number 
+__type:__ control<br>
+
+
+
+## outlets:
+
+* relative position (non-clipped)
+__type:__ control<br>
+
+
+
+## keywords:
+
+[array](keywords/array.html)
+[phase](keywords/phase.html)
+[sample](keywords/sample.html)
+
+
+
+**See also:**
+[\[array.p2s\]](array.p2s.html)
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

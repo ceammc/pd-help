@@ -1,31 +1,71 @@
-[< reference home](index.html)
+[index](index.html) :: [flow](category_flow.html)
 ---
 
 # flow.pass
 
+###### pass specified values
 
-pass specified values
-
----
-
-<br>
-
+*available since version:* 0.3
 
 ---
 
 
-![example](examples/flow.pass-example.jpg)
-
----
-arguments:
 
 
----
-properties:
+[![example](../examples/img/flow.pass.jpg)](../examples/pd/flow.pass.pd)
 
-@values: atoms to pass<br>
 
----
-see also:<br>
-[![flow.pass_if](img/object_flow.pass_if.png)](flow.pass_if.html)
-[![flow.reject](img/object_flow.reject.png)](flow.reject.html)
+
+
+
+
+
+## properties:
+
+* **@values** 
+Get/set atoms to pass<br>
+__type:__ list<br>
+
+
+
+## inlets:
+
+* pass 
+__type:__ control<br>
+* set pass list 
+__type:__ control<br>
+
+
+
+## outlets:
+
+* passed values
+__type:__ control<br>
+
+
+
+## keywords:
+
+[pass](keywords/pass.html)
+[functional](keywords/functional.html)
+
+
+
+**See also:**
+[\[flow.pass_if\]](flow.pass_if.html)
+[\[flow.reject\]](flow.reject.html)
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

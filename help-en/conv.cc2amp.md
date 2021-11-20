@@ -1,35 +1,89 @@
-[< reference home](index.html)
+[index](index.html) :: [conv](category_conv.html)
 ---
 
 # conv.cc2amp
 
+###### convert from MIDI Control Change range
 
-convert from MIDI Control Change range
+*available since version:* 0.3
 
 ---
 
+
+## information
 By default converts from [0..127] to [0..1]
-<br>
 
 
----
+
+[![example](../examples/img/conv.cc2amp.jpg)](../examples/pd/conv.cc2amp.pd)
 
 
-![example](examples/conv.cc2amp-example.jpg)
 
----
-arguments:
+## arguments:
 
-FROM: start value of output range<br>
-TO: end value of output range<br>
+* **FROM**
+start value of output range<br>
+__type:__ float<br>
 
----
-properties:
+* **TO**
+end value of output range<br>
+__type:__ float<br>
 
-@from: start value of output range<br>
-@to: end value of output range<br>
 
----
-see also:<br>
-[![lin-&gt;lin](img/object_lin-&gt;lin.png)](lin->lin.html)
-[![lin-&gt;curve](img/object_lin-&gt;curve.png)](lin->curve.html)
+
+
+
+## properties:
+
+* **@from** 
+Get/set start value of output range<br>
+__type:__ float<br>
+__default:__ 0<br>
+
+* **@to** 
+Get/set end value of output range<br>
+__type:__ float<br>
+__default:__ 1<br>
+
+
+
+## inlets:
+
+* value in MIDI CC range [0..127] 
+__type:__ control<br>
+
+
+
+## outlets:
+
+* converted value
+__type:__ control<br>
+
+
+
+## keywords:
+
+[conv](keywords/conv.html)
+[cc](keywords/cc.html)
+[amp](keywords/amp.html)
+
+
+
+**See also:**
+[\[lin-&gt;lin\]](lin-%3Elin.html)
+[\[lin-&gt;curve\]](lin-%3Ecurve.html)
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

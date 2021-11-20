@@ -676,7 +676,7 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 
 ### list
 ---
-
+###### objects for list processing
 
 
 [**list.^at**](list.%5Eat.html): on input index(es) outputs list element(s) 
@@ -842,7 +842,7 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 
 ### math
 ---
-
+###### math objects. can operate with list of numbers.
 
 
 [**math.abs**](math.abs.html): absolute value function 

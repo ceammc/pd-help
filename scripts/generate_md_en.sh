@@ -6,6 +6,13 @@ XLET_DB="@PDDOC_SRC_DIR@/ceammc.db"
 
 mkdir -p "${OUT_DIR}"
 
+pd_lib2md "@PDDOC_SRC_DIR@/ceammc_lib.xml" \
+  --output "${OUT_DIR}/index.md" \
+  --local EN \
+  --force
+
+exit
+
 for f in "${PDDOC_DIR}/"*.pddoc
 do
     bn=$(basename $f)
@@ -21,7 +28,6 @@ done
 
 exit
 
-pd_lib2md ceammc_lib.xml --output index.md -f
 
 for filename in *.md; do
     mv "$filename" "../help-en/$filename"

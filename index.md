@@ -18,7 +18,7 @@ Authors<br>
 Serge Poltavsky Alex Nadzharov<br>
 <br>
 Puredata<br>
-Copyright (c) 1997-2016 Miller Puckette and others.<br>
+Copyright (c) 1997-2021 Miller Puckette and others.<br>
 
 ---
 [report an issue](https://github.com/ceammc/puredata/issues/new)

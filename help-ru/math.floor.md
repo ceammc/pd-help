@@ -1,0 +1,66 @@
+[index](index.html) :: [math](category_math.html)
+---
+
+# math.floor
+
+###### round to largest integral value not greater than x
+
+*доступно с версии:* 0.1
+
+---
+
+
+## информация
+The floor() functions return the largest integral value less than or equal to x. Special values: floor(+-0) returns +-0. floor(+-infinity) returns +-infinity.
+
+
+[![example](../examples/img/math.floor.jpg)](../examples/pd/math.floor.pd)
+
+
+
+
+
+
+
+
+
+## входы:
+
+* input value<br>
+_тип:_ control
+
+
+
+## выходы:
+
+* result value<br>
+_тип:_ control
+
+
+
+## ключевые слова:
+
+[math](keywords/math.html)
+[floor](keywords/floor.html)
+
+
+
+**Смотрите также:**
+[\[math.ceil\]](math.ceil.html)
+[\[math.round\]](math.round.html)
+[\[math.trunc\]](math.trunc.html)
+
+
+
+
+**Авторы:** Serge Poltavsky
+
+
+
+
+**Лицензия:** GPL3 or later
+
+
+
+
+

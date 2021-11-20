@@ -11,6 +11,14 @@ pd_lib2md "@PDDOC_SRC_DIR@/ceammc_lib.xml" \
   --local EN \
   --force
 
+pd_cat2md "@PDDOC_SRC_DIR@/ceammc_lib.xml" \
+  --base-dir ${OUT_DIR} \
+  --local EN \
+  --force \
+  --aliases
+
+exit
+
 for f in "${PDDOC_DIR}/"*.pddoc
 do
     bn=$(basename $f)

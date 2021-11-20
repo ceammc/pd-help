@@ -2,7 +2,7 @@
 ---
 
 # flow.multiplex2~
-**aliases:** [flow.mux2~], [ceammc/mux2~], [mux2~]
+**aliases:** [flow.mux2\~], [ceammc/mux2\~], [mux2\~]
 
 
 ###### audio stream stereo multiplexer

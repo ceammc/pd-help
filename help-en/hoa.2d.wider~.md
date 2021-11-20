@@ -2,7 +2,7 @@
 ---
 
 # hoa.2d.wider~
-**aliases:** [hoa.wider~]
+**aliases:** [hoa.wider\~]
 
 
 ###### a 2d fractional ambisonic order simulator

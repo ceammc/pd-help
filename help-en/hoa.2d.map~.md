@@ -2,7 +2,7 @@
 ---
 
 # hoa.2d.map~
-**aliases:** [hoa.map~]
+**aliases:** [hoa.map\~]
 
 
 ###### a 2d ambisonic multisource spatializer

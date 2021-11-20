@@ -2,7 +2,7 @@
 ---
 
 # flow.demultiplex~
-**aliases:** [flow.demux~], [ceammc/demux~], [demux~]
+**aliases:** [flow.demux\~], [ceammc/demux\~], [demux\~]
 
 
 ###### audio stream demultiplexer

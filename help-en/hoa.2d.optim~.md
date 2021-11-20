@@ -2,7 +2,7 @@
 ---
 
 # hoa.2d.optim~
-**aliases:** [hoa.optim~]
+**aliases:** [hoa.optim\~]
 
 
 ###### a 2D ambisonic optimization tool

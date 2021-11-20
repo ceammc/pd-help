@@ -23,7 +23,6 @@
 [**patch.tree**](patch.tree.html): patch tree 
 
 
+**Version:** 0.9.4
 
 **License:** GPL3
-
-**Version:** GPL3

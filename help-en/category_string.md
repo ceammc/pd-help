@@ -63,7 +63,6 @@ _aliases:_ ceammc/string2symbol, ceammc/str-&gt;sym, str-&gt;sym
 
 
 
+**Version:** 0.9.4
 
 **License:** GPL3
-
-**Version:** GPL3

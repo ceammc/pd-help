@@ -21,7 +21,6 @@
 [**proto.xtouch_ext**](proto.xtouch_ext.html): Behringer XTouch Extender XMidi protocol 
 
 
+**Version:** 0.9.4
 
 **License:** GPL3
-
-**Version:** GPL3

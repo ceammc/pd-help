@@ -35,7 +35,6 @@ _aliases:_ ceammc/is_file
 [**is_symbol**](is_symbol.html): checks if input data has *symbol* type 
 
 
+**Version:** 0.9.4
 
 **License:** GPL3
-
-**Version:** GPL3

@@ -21,7 +21,6 @@ _aliases:_ preset.s
 
 
 
+**Version:** 0.9.4
 
 **License:** GPL3
-
-**Version:** GPL3

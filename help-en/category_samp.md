@@ -11,7 +11,6 @@ _aliases:_ samp.t~
 
 
 
+**Version:** 0.9.4
 
 **License:** GPL3
-
-**Version:** GPL3

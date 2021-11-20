@@ -21,7 +21,6 @@ _aliases:_ ceammc/symbol2intlist, ceammc/sym-&gt;ilist, sym-&gt;ilist
 
 
 
+**Version:** 0.9.4
 
 **License:** GPL3
-
-**Version:** GPL3

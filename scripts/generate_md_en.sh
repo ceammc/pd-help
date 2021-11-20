@@ -11,8 +11,6 @@ pd_lib2md "@PDDOC_SRC_DIR@/ceammc_lib.xml" \
   --local EN \
   --force
 
-exit
-
 for f in "${PDDOC_DIR}/"*.pddoc
 do
     bn=$(basename $f)
@@ -22,15 +20,6 @@ do
       --xlet-db ${XLET_DB} \
       --example-img "../examples/img/" \
       --example-pd "../examples/pd/" \
+      --no-images \
       "$f" "${OUT_DIR}/${md}"
-    break
 done
-
-exit
-
-
-for filename in *.md; do
-    mv "$filename" "../help-en/$filename"
-done
-mv img ../help-en/img
-cp examples ../help-en/examples

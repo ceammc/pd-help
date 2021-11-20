@@ -1,5 +1,5 @@
 theme: jekyll-theme-minimal
-exclude: src-en, src-ru
+exclude: src-en, src-ru, build
 show_downloads: true
 title: "PureData CEAMMC web documentation"
 description: "PureData CEAMMC library web documentation"
@@ -13,3 +13,7 @@ post_search: true
 
 # The keywords to associate with your website, for SEO purposes
 keywords: "ceammc,puredata,music,center,electroacoustic,library"
+
+github:
+  zip_url: https://github.com/uliss/pure-data/releases/download/v2021.11/Pd-ceammc_2021.11-double-macosx-10.13.zip
+  repository_url: https://github.com/uliss/pure-data

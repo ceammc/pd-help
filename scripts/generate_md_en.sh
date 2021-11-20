@@ -17,8 +17,6 @@ pd_cat2md "@PDDOC_SRC_DIR@/ceammc_lib.xml" \
   --force \
   --aliases
 
-exit
-
 for f in "${PDDOC_DIR}/"*.pddoc
 do
     bn=$(basename $f)

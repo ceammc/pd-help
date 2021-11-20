@@ -2,6 +2,8 @@
 ---
 
 # vline2env
+**aliases:** [ceammc/vline2env], [ceammc/vline-&gt;env], [vline-&gt;env]
+
 
 ###### Converts vline messages to env
 

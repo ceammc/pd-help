@@ -2,6 +2,8 @@
 ---
 
 # string.ends_with
+**aliases:** [str.ends_with]
+
 
 ###### checks if string ends with specified substring
 

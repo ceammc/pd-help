@@ -2,6 +2,8 @@
 ---
 
 # midi.ctl2str
+**aliases:** [midi.ctl-&gt;str]
+
 
 ###### convert Standard MIDI Controllers number to name
 

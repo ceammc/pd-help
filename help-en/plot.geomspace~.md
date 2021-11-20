@@ -3,8 +3,7 @@
 
 # plot.geomspace~
 
-###### outputs numbers spaced evenly on a log scale (a geometric
-            progression)
+###### outputs numbers spaced evenly on a log scale (a geometric progression)
 
 *available since version:* 0.9
 

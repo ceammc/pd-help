@@ -2,6 +2,8 @@
 ---
 
 # string2symbol
+**aliases:** [ceammc/string2symbol], [ceammc/str-&gt;sym], [str-&gt;sym]
+
 
 ###### converts string to symbol
 

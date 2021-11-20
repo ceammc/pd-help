@@ -2,6 +2,8 @@
 ---
 
 # string.match
+**aliases:** [str.match]
+
 
 ###### check if string match regular expression
 
@@ -11,13 +13,7 @@
 
 
 ## information
-Used syntax: re2 (like pcre). Some characters are non-supported in Pd. Use `
-            instead of backslash, `` instead of `, (( instead of {, )) instead of }, .. instead of
-            comma, `: instead of semicolon
-If you need spaces: you should quote the string, also note that in quoted string `
-            symbol should be escaped like ``.
-For example, all digits: `d+, two or three chars: [a-z]((2..3)) etc.
-
+Used syntax: re2 (like pcre). Some characters are non-supported in Pd. Use ` instead of backslash, `` instead of `, (( instead of {, )) instead of }, .. instead of comma, `: instead of semicolon If you need spaces: you should quote the string, also note that in quoted string ` symbol should be escaped like ``. For example, all digits: `d+, two or three chars: [a-z]((2..3)) etc.
 
 
 [![example](../examples/img/string.match.jpg)](../examples/pd/string.match.pd)

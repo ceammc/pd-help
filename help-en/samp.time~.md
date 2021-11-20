@@ -2,6 +2,8 @@
 ---
 
 # samp.time~
+**aliases:** [samp.t\~]
+
 
 ###### sample counter
 

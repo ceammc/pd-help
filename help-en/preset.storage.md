@@ -11,9 +11,7 @@
 
 
 ## information
-Preset storage allows to load and store presets, read and write them to
-            files
-
+Preset storage allows to load and store presets, read and write them to files
 
 
 [![example](../examples/img/preset.storage.jpg)](../examples/pd/preset.storage.pd)

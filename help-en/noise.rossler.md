@@ -14,7 +14,6 @@
 Heuns&#39; method
 
 
-
 [![example](../examples/img/noise.rossler.jpg)](../examples/pd/noise.rossler.pd)
 
 

@@ -2,6 +2,8 @@
 ---
 
 # prop.get
+**aliases:** [p.get]
+
 
 ###### get property from connected object/subpatch/abstraction
 
@@ -12,7 +14,6 @@
 
 ## information
 Get properties from connected object/subpatch/abstraction
-
 
 
 [![example](../examples/img/prop.get.jpg)](../examples/pd/prop.get.pd)

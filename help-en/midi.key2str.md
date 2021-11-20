@@ -2,6 +2,8 @@
 ---
 
 # midi.key2str
+**aliases:** [midi.key-&gt;str]
+
 
 ###### convert key number to SPN name according to tonality
 

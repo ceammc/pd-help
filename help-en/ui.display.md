@@ -2,6 +2,8 @@
 ---
 
 # ui.display
+**aliases:** [ui.d], [ui.dt]
+
 
 ###### Display GUI object
 
@@ -12,7 +14,6 @@
 
 ## information
 [ui.dt] is alias for [ui.display @display_type 1]
-
 
 
 [![example](../examples/img/ui.display.jpg)](../examples/pd/ui.display.pd)

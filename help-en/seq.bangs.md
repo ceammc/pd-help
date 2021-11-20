@@ -2,6 +2,8 @@
 ---
 
 # seq.bangs
+**aliases:** [seq.b]
+
 
 ###### bang sequencer
 

@@ -14,7 +14,6 @@
 Verhulst distribution
 
 
-
 [![example](../examples/img/noise.verhulst.jpg)](../examples/pd/noise.verhulst.pd)
 
 

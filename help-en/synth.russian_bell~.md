@@ -11,13 +11,7 @@
 
 
 ## information
-Modeled after D. Bartocha and . Baron, Influence of Tin Bronze Melting and Pouring
-            Parameters on Its Properties and Bell&#39; Tone, Archives of Foundry Engineering,
-            2016
-Model height is 2m
-This model contains 7 excitation positions going linearly from the bottom to the
-            top of the bell
-
+Modeled after D. Bartocha and . Baron, Influence of Tin Bronze Melting and Pouring Parameters on Its Properties and Bell&#39; Tone, Archives of Foundry Engineering, 2016 Model height is 2m This model contains 7 excitation positions going linearly from the bottom to the top of the bell
 
 
 [![example](../examples/img/synth.russian_bell~.jpg)](../examples/pd/synth.russian_bell~.pd)

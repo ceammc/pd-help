@@ -2,6 +2,8 @@
 ---
 
 # ui.mouse_route
+**aliases:** [ui.mr]
+
 
 ###### routes mouse events from ui objects
 
@@ -12,7 +14,6 @@
 
 ## information
 routes only specified mouse events from ui.* objects
-
 
 
 [![example](../examples/img/ui.mouse_route.jpg)](../examples/pd/ui.mouse_route.pd)

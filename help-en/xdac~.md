@@ -2,6 +2,8 @@
 ---
 
 # xdac~
+**aliases:** [ceammc/xdac\~]
+
 
 ###### dac~ with channel ranges
 

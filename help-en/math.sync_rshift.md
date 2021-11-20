@@ -2,6 +2,8 @@
 ---
 
 # math.sync_rshift
+**aliases:** [math.&gt;&gt;&#39;], [ceammc/&gt;&gt;&#39;], [&gt;&gt;&#39;]
+
 
 ###### sync signed bit right shift
 

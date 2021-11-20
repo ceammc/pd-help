@@ -11,9 +11,7 @@
 
 
 ## information
-This class implements a simple 4 operator topology, also referred to as algorithm
-            8 of the TX81Z
-
+This class implements a simple 4 operator topology, also referred to as algorithm 8 of the TX81Z
 
 
 [![example](../examples/img/synth.bee3~.jpg)](../examples/pd/synth.bee3~.pd)

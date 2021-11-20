@@ -14,7 +14,6 @@
 outputs random numbers between -1 and 1 at signal rate.
 
 
-
 [![example](../examples/img/noise.white~.jpg)](../examples/pd/noise.white~.pd)
 
 

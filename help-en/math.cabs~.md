@@ -2,7 +2,7 @@
 ---
 
 # math.cabs~
-**aliases:** [ceammc/cabs~], [cabs~]
+**aliases:** [ceammc/cabs\~], [cabs\~]
 
 
 ###### magnitude of a complex signals

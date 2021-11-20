@@ -11,10 +11,7 @@
 
 
 ## information
-A non-interpolating generator based on the difference equations:
-x(n+1) = 1 - y(n) + seed * |x(n)|
-y(n+1) = x(n)
-
+A non-interpolating generator based on the difference equations: x(n+1) = 1 - y(n) + seed * |x(n)| y(n+1) = x(n)
 
 
 [![example](../examples/img/noise.ginger.jpg)](../examples/pd/noise.ginger.pd)

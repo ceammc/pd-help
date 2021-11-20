@@ -2,6 +2,8 @@
 ---
 
 # preset.float
+**aliases:** [preset.f]
+
 
 ###### load/store float preset
 
@@ -12,7 +14,6 @@
 
 ## information
 Named float preset entry. Can store/load up to 256 various float values
-
 
 
 [![example](../examples/img/preset.float.jpg)](../examples/pd/preset.float.pd)

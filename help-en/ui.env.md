@@ -14,7 +14,6 @@
 Editor of sound envelope function
 
 
-
 [![example](../examples/img/ui.env.jpg)](../examples/pd/ui.env.pd)
 
 

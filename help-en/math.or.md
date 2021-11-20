@@ -2,6 +2,8 @@
 ---
 
 # math.or
+**aliases:** [ceammc/or], [or]
+
 
 ###### operation OR for multiple arguments
 

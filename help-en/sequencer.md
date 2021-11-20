@@ -2,6 +2,8 @@
 ---
 
 # sequencer
+**aliases:** [ceammc/sequencer], [ceammc/seq], [seq]
+
 
 ###### basic sequence player
 

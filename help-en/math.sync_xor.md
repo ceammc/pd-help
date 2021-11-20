@@ -2,6 +2,8 @@
 ---
 
 # math.sync_xor
+**aliases:** [math.^&#39;], [ceammc/^&#39;], [^&#39;]
+
 
 ###### sync logical XOR operation
 

@@ -2,6 +2,8 @@
 ---
 
 # random.float
+**aliases:** [random.f]
+
 
 ###### uniform random float generator in specified range
 
@@ -11,12 +13,7 @@
 
 
 ## information
-generates a random floating-point value uniformly distributed in the range
-            [min..max)
-Use @seed property to get reproducible sequences. If @seed property was not
-            explicitly set or specified, uses generator initialized with current time.
-Algorithm: 32-bit Mersenne Twister by Matsumoto and Nishimura, 1998
-
+generates a random floating-point value uniformly distributed in the range [min..max) Use @seed property to get reproducible sequences. If @seed property was not explicitly set or specified, uses generator initialized with current time. Algorithm: 32-bit Mersenne Twister by Matsumoto and Nishimura, 1998
 
 
 [![example](../examples/img/random.float.jpg)](../examples/pd/random.float.pd)

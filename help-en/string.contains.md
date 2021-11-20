@@ -2,6 +2,8 @@
 ---
 
 # string.contains
+**aliases:** [str.contains]
+
 
 ###### checks if string contains specified substring
 

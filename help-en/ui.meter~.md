@@ -2,6 +2,8 @@
 ---
 
 # ui.meter~
+**aliases:** [ui.m\~], [ui.hm\~], [ui.vm\~]
+
 
 ###### Shows peak and rms signal level
 
@@ -11,11 +13,7 @@
 
 
 ## information
-Each cell has 3db range. Full meter range is 39 db.
-Values &gt; -3db are red, range [-12, -3) db is hot, [-21, -12) db is warm, [-30,
-            -21) is tepid, values &lt; 30 are cold.
-[ui.hm~] - alias for horizontal meter
-
+Each cell has 3db range. Full meter range is 39 db. Values &gt; -3db are red, range [-12, -3) db is hot, [-21, -12) db is warm, [-30, -21) is tepid, values &lt; 30 are cold. [ui.hm~] - alias for horizontal meter
 
 
 [![example](../examples/img/ui.meter~.jpg)](../examples/pd/ui.meter~.pd)

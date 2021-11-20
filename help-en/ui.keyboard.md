@@ -2,6 +2,8 @@
 ---
 
 # ui.keyboard
+**aliases:** [ui.hk], [ui.vkeyboard], [ui.vk]
+
 
 ###### keyboard widget
 
@@ -11,9 +13,7 @@
 
 
 ## information
-Piano keyboard widget
-[ui.vkeyboard] and [ui.vk] - aliases for vertical keyboard
-
+Piano keyboard widget [ui.vkeyboard] and [ui.vk] - aliases for vertical keyboard
 
 
 [![example](../examples/img/ui.keyboard.jpg)](../examples/pd/ui.keyboard.pd)

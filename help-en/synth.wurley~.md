@@ -11,9 +11,7 @@
 
 
 ## information
-This class implements two simple FM Pairs summed together, also referred to as
-            algorithm 5 of the TX81Z
-
+This class implements two simple FM Pairs summed together, also referred to as algorithm 5 of the TX81Z
 
 
 [![example](../examples/img/synth.wurley~.jpg)](../examples/pd/synth.wurley~.pd)

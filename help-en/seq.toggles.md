@@ -2,6 +2,8 @@
 ---
 
 # seq.toggles
+**aliases:** [seq.t]
+
 
 ###### toggle sequencer
 
@@ -11,19 +13,7 @@
 
 
 ## information
-Output 1 on event start and 0 on event stop
-The event length is controlled via @length property. It can be fixed, percent or
-            subtractive. Percent values are calculated from whole event duration. Positive values
-            &gt;=0 treated as fixed event length. Values &lt;0 are calculated as
-            EVENT_DUR-value
-• &#39;percent&#39;: @length 60% and @t 100ms - for event value &#39;2&#39;, event duration is
-            200ms, event length is 120ms
-• &#39;fixed&#39;: @length 10 or @length 10ms and @t 100ms - event any duration, event
-            length is fixed: 10ms
-• &#39;subtract&#39;: @length -40 and @t 100ms - for event value &#39;2&#39;, event duration is
-            200ms, event length is 160 (200-40). For event value &#39;1&#39;, event duration is 100ms,
-            event length is 60 (100-40)
-
+Output 1 on event start and 0 on event stop The event length is controlled via @length property. It can be fixed, percent or subtractive. Percent values are calculated from whole event duration. Positive values &gt;=0 treated as fixed event length. Values &lt;0 are calculated as EVENT_DUR-value • &#39;percent&#39;: @length 60% and @t 100ms - for event value &#39;2&#39;, event duration is 200ms, event length is 120ms • &#39;fixed&#39;: @length 10 or @length 10ms and @t 100ms - event any duration, event length is fixed: 10ms • &#39;subtract&#39;: @length -40 and @t 100ms - for event value &#39;2&#39;, event duration is 200ms, event length is 160 (200-40). For event value &#39;1&#39;, event duration is 100ms, event length is 60 (100-40)
 
 
 [![example](../examples/img/seq.toggles.jpg)](../examples/pd/seq.toggles.pd)

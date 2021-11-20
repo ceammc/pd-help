@@ -14,7 +14,6 @@
 extract properties from object, connected to second outlet
 
 
-
 [![example](../examples/img/obj.props.jpg)](../examples/pd/obj.props.pd)
 
 

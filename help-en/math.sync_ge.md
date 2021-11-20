@@ -2,6 +2,8 @@
 ---
 
 # math.sync_ge
+**aliases:** [math.&gt;=&#39;], [ceammc/&gt;=&#39;], [&gt;=&#39;]
+
 
 ###### sync greater equal numbers compare
 

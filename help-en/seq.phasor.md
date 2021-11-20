@@ -11,10 +11,7 @@
 
 
 ## information
-Outputs saw signal in [0..1] or [0..1) range.
-Note: control rate in PureData depends on block size and samplerate. Do not rely
-            on strict timing for this object, especially at high frequencies!
-
+Outputs saw signal in [0..1] or [0..1) range. Note: control rate in PureData depends on block size and samplerate. Do not rely on strict timing for this object, especially at high frequencies!
 
 
 [![example](../examples/img/seq.phasor.jpg)](../examples/pd/seq.phasor.pd)

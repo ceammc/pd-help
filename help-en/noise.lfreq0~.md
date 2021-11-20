@@ -14,7 +14,6 @@
 new random number every int(SR/freq) samples or so
 
 
-
 [![example](../examples/img/noise.lfreq0~.jpg)](../examples/pd/noise.lfreq0~.pd)
 
 

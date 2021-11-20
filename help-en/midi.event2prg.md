@@ -2,6 +2,8 @@
 ---
 
 # midi.event2prg
+**aliases:** [midi.ev-&gt;prg]
+
 
 ###### convert MidiEvent message to midi program change value
 

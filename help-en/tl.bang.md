@@ -2,6 +2,8 @@
 ---
 
 # tl.bang
+**aliases:** [tl.b]
+
 
 ###### Timeline bang (with possible delay)
 
@@ -11,9 +13,7 @@
 
 
 ## information
-Bang only when nearest left tl.cue was activated. If other cue is activated and
-            bang was scheduled by @delay property - it canceled
-
+Bang only when nearest left tl.cue was activated. If other cue is activated and bang was scheduled by @delay property - it canceled
 
 
 [![example](../examples/img/tl.bang.jpg)](../examples/pd/tl.bang.pd)

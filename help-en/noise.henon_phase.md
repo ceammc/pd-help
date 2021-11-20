@@ -11,12 +11,7 @@
 
 
 ## information
-Henon Phase Diagrams
-Written by Paul Bourke
-January 1991
-xn+1 = xn cos(a) - (yn - xn2) sin(a)
-yn+1 = xn sin(a) + (yn - xn2) cos(a)
-
+Henon Phase Diagrams Written by Paul Bourke January 1991 xn+1 = xn cos(a) - (yn - xn2) sin(a) yn+1 = xn sin(a) + (yn - xn2) cos(a)
 
 
 [![example](../examples/img/noise.henon_phase.jpg)](../examples/pd/noise.henon_phase.pd)

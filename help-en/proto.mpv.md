@@ -14,7 +14,6 @@
 MPV video player control
 
 
-
 [![example](../examples/img/proto.mpv.jpg)](../examples/pd/proto.mpv.pd)
 
 

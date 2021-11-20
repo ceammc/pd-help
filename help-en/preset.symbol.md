@@ -2,6 +2,8 @@
 ---
 
 # preset.symbol
+**aliases:** [preset.s]
+
 
 ###### load/store symbol preset
 
@@ -12,7 +14,6 @@
 
 ## information
 Named symbol preset entry. Can store/load up to 256 various symbol values
-
 
 
 [![example](../examples/img/preset.symbol.jpg)](../examples/pd/preset.symbol.pd)

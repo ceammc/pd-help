@@ -2,6 +2,8 @@
 ---
 
 # math.sync_lt
+**aliases:** [math.&lt;&#39;], [ceammc/&lt;&#39;], [&lt;&#39;]
+
 
 ###### sync less then numbers compare
 

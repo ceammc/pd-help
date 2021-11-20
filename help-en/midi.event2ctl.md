@@ -2,6 +2,8 @@
 ---
 
 # midi.event2ctl
+**aliases:** [midi.ev-&gt;ctl]
+
 
 ###### convert MidiEvent message to controller channel/value pair
 

@@ -2,6 +2,8 @@
 ---
 
 # symbol2intlist
+**aliases:** [ceammc/symbol2intlist], [ceammc/sym-&gt;ilist], [sym-&gt;ilist]
+
 
 ###### converts symbol to list of character codes
 

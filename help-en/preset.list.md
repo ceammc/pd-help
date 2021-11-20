@@ -2,6 +2,8 @@
 ---
 
 # preset.list
+**aliases:** [preset.l]
+
 
 ###### load/store symbol preset
 
@@ -12,7 +14,6 @@
 
 ## information
 Named list preset entry. Can store/load up to 256 various lists
-
 
 
 [![example](../examples/img/preset.list.jpg)](../examples/pd/preset.list.pd)

@@ -14,7 +14,6 @@
 ---
 
 
-
 [![example](../examples/img/noise.henon.jpg)](../examples/pd/noise.henon.pd)
 
 

@@ -3,8 +3,7 @@
 
 # synth.dubdub~
 
-###### simple synth based on a sawtooth wave filtered by a resonant
-            lowpass
+###### simple synth based on a sawtooth wave filtered by a resonant lowpass
 
 *available since version:* 0.6
 

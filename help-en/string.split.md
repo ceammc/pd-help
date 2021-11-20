@@ -2,6 +2,8 @@
 ---
 
 # string.split
+**aliases:** [str.split]
+
 
 ###### split string by separator
 
@@ -11,9 +13,7 @@
 
 
 ## information
-Note: by default string or symbol splitted to list of data:String, to get list of
-            Pd symbols use @sym flag
-
+Note: by default string or symbol splitted to list of data:String, to get list of Pd symbols use @sym flag
 
 
 [![example](../examples/img/string.split.jpg)](../examples/pd/string.split.pd)

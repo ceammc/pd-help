@@ -2,6 +2,8 @@
 ---
 
 # ui.bang
+**aliases:** [ui.b]
+
 
 ###### A bang... that&#39;s all
 
@@ -12,7 +14,6 @@
 
 ## information
 do nothing more than vanilla bang for the moment...
-
 
 
 [![example](../examples/img/ui.bang.jpg)](../examples/pd/ui.bang.pd)

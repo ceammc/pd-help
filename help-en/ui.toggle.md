@@ -2,6 +2,8 @@
 ---
 
 # ui.toggle
+**aliases:** [ui.t]
+
 
 ###### modern toggle widget
 
@@ -12,7 +14,6 @@
 
 ## information
 This is the ceammc counterpart of the vanilla toggle
-
 
 
 [![example](../examples/img/ui.toggle.jpg)](../examples/pd/ui.toggle.pd)

@@ -2,6 +2,8 @@
 ---
 
 # path.lsdir
+**aliases:** [path.ls]
+
 
 ###### list directory contents
 

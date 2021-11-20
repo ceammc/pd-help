@@ -11,9 +11,7 @@
 
 
 ## information
-A minimal, modern and easy-to-use synthesizer for Bytebeat music and not
-            only
-
+A minimal, modern and easy-to-use synthesizer for Bytebeat music and not only
 
 
 [![example](../examples/img/synth.glitch~.jpg)](../examples/pd/synth.glitch~.pd)

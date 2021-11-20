@@ -2,6 +2,8 @@
 ---
 
 # midi.event2note
+**aliases:** [midi.ev-&gt;note]
+
 
 ###### convert MidiEvent message to midi note/velocity pair
 

@@ -2,6 +2,8 @@
 ---
 
 # msg
+**aliases:** [ceammc/msg], [ceammc/m], [m], [ceammc/prepend], [prepend]
+
 
 ###### message constructor
 

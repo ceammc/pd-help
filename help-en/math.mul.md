@@ -2,6 +2,8 @@
 ---
 
 # math.mul
+**aliases:** [math.*]
+
 
 ###### multiplication (on lists too)
 

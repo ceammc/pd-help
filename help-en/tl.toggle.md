@@ -2,6 +2,8 @@
 ---
 
 # tl.toggle
+**aliases:** [tl.t]
+
 
 ###### Timeline bang
 
@@ -12,7 +14,6 @@
 
 ## information
 Output 1 when cue section activated, 0 when switched to other cue section
-
 
 
 [![example](../examples/img/tl.toggle.jpg)](../examples/pd/tl.toggle.pd)

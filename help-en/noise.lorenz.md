@@ -11,10 +11,7 @@
 
 
 ## information
-Lorenz chaos by Heuns method - extra accuracy
-sigma replaced with a
-b replaced with c
-
+Lorenz chaos by Heuns method - extra accuracy sigma replaced with a b replaced with c
 
 
 [![example](../examples/img/noise.lorenz.jpg)](../examples/pd/noise.lorenz.pd)

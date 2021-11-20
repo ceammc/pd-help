@@ -2,6 +2,8 @@
 ---
 
 # sync
+**aliases:** [ceammc/sync]
+
 
 ###### value synchronization
 

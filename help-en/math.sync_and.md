@@ -2,6 +2,8 @@
 ---
 
 # math.sync_and
+**aliases:** [math.&amp;&amp;&#39;], [ceammc/&amp;&amp;&#39;], [&amp;&amp;&#39;]
+
 
 ###### sync logical AND operation
 

@@ -2,6 +2,8 @@
 ---
 
 # ui.number~
+**aliases:** [ui.n\~]
+
 
 ###### counterpart of the vanilla [nbx] for signal
 
@@ -12,7 +14,6 @@
 
 ## information
 Shows one sample from input block via specified interval
-
 
 
 [![example](../examples/img/ui.number~.jpg)](../examples/pd/ui.number~.pd)

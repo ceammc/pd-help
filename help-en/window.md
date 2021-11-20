@@ -2,6 +2,8 @@
 ---
 
 # window
+**aliases:** [ceammc/window], [ceammc/win], [win]
+
 
 ###### returns window value by given window position
 

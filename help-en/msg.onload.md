@@ -2,6 +2,8 @@
 ---
 
 # msg.onload
+**aliases:** [ceammc/loadmsg], [loadmsg]
+
 
 ###### send message when patch loads
 

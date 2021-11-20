@@ -2,6 +2,8 @@
 ---
 
 # math.cexp~
+**aliases:** [ceammc/cexp\~], [cexp\~]
+
 
 ###### exponent of a complex signals
 

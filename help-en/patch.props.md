@@ -14,7 +14,6 @@
 Property should be declared with [prop.declare]
 
 
-
 [![example](../examples/img/patch.props.jpg)](../examples/pd/patch.props.pd)
 
 

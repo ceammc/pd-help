@@ -2,6 +2,8 @@
 ---
 
 # ui.sliders
+**aliases:** [ui.vsliders]
+
 
 ###### Multiple slider widget
 

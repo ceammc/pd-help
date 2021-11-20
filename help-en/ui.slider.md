@@ -2,6 +2,8 @@
 ---
 
 # ui.slider
+**aliases:** [ui.hsl], [ui.vsl]
+
 
 ###### counterpart of the vanilla slider
 
@@ -12,7 +14,6 @@
 
 ## information
 [ui.hsl] is alias for horizontal slider, [ui.vsl] - for vertical
-
 
 
 [![example](../examples/img/ui.slider.jpg)](../examples/pd/ui.slider.pd)

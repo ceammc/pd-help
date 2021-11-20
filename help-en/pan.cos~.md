@@ -11,9 +11,7 @@
 
 
 ## information
-Two channel equal power panner. The center pan position is boosted by 3 dB
-            compared to linear panning, and the total power at every pan position is 0 dB.
-
+Two channel equal power panner. The center pan position is boosted by 3 dB compared to linear panning, and the total power at every pan position is 0 dB.
 
 
 [![example](../examples/img/pan.cos~.jpg)](../examples/pd/pan.cos~.pd)

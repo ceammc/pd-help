@@ -11,15 +11,7 @@
 
 
 ## information
-Searches file by name in user specified or PureData system paths.
-Outputs first found file.
-Search order: 1. user defined paths (@path property), 2. current patch directory,
-            3. PureData system path, 4. home directory.
-Absolute paths processed before relative.
-Home directory can be specified with &#39;~&#39; symbol.
-Note: by default search request is performed asynchronously, so a delay will
-            occured between input and output.
-
+Searches file by name in user specified or PureData system paths. Outputs first found file. Search order: 1. user defined paths (@path property), 2. current patch directory, 3. PureData system path, 4. home directory. Absolute paths processed before relative. Home directory can be specified with &#39;~&#39; symbol. Note: by default search request is performed asynchronously, so a delay will occured between input and output.
 
 
 [![example](../examples/img/path.search.jpg)](../examples/pd/path.search.pd)

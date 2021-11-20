@@ -11,11 +11,7 @@
 
 
 ## information
-Generates random number in interval [@v0, @v1) with linear distribution [@p0,
-            @p1)
-Use @seed property to get reproducible sequences. If @seed property was not
-            explicitly set or specified, uses generator initialized with current time.
-
+Generates random number in interval [@v0, @v1) with linear distribution [@p0, @p1) Use @seed property to get reproducible sequences. If @seed property was not explicitly set or specified, uses generator initialized with current time.
 
 
 [![example](../examples/img/random.linear.jpg)](../examples/pd/random.linear.pd)

@@ -2,6 +2,8 @@
 ---
 
 # ui.button
+**aliases:** [ui.btn]
+
 
 ###### button widget
 

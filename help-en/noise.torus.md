@@ -11,11 +11,7 @@
 
 
 ## information
-a-torus
-try these parameters:
-0.7 1.1 1.3
-0.9 1. 1.6
-
+a-torus try these parameters: 0.7 1.1 1.3 0.9 1. 1.6
 
 
 [![example](../examples/img/noise.torus.jpg)](../examples/pd/noise.torus.pd)

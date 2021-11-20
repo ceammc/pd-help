@@ -2,6 +2,8 @@
 ---
 
 # string.equal
+**aliases:** [str.equal]
+
 
 ###### check strings or symbols for equality
 

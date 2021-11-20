@@ -14,7 +14,6 @@
 Behringer XTouch Extender XMidi
 
 
-
 [![example](../examples/img/proto.xtouch_ext.jpg)](../examples/pd/proto.xtouch_ext.pd)
 
 

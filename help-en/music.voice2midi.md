@@ -2,6 +2,8 @@
 ---
 
 # music.voice2midi
+**aliases:** [music.v-&gt;m]
+
 
 ###### convert voice music list of midi pitches
 

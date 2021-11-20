@@ -2,6 +2,8 @@
 ---
 
 # mix~
+**aliases:** [ceammc/mix\~]
+
 
 ###### multislot signal mixer
 

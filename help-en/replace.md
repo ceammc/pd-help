@@ -2,6 +2,8 @@
 ---
 
 # replace
+**aliases:** [ceammc/replace]
+
 
 ###### Replace atoms in data stream
 
@@ -11,9 +13,7 @@
 
 
 ## information
-From/to values can be specified both as @from/@to properties or first and second
-            arguments.
-
+From/to values can be specified both as @from/@to properties or first and second arguments.
 
 
 [![example](../examples/img/replace.jpg)](../examples/pd/replace.pd)

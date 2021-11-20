@@ -2,6 +2,8 @@
 ---
 
 # string.join
+**aliases:** [str.join]
+
 
 ###### joins (concatenates) strings with separator
 

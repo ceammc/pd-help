@@ -2,6 +2,8 @@
 ---
 
 # path.normalize
+**aliases:** [path.norm]
+
 
 ###### normalize file paths
 
@@ -11,9 +13,7 @@
 
 
 ## information
-These conversions are purely lexical. They do not check that the paths exist, do
-            not follow symlinks, and do not access the filesystem at all
-
+These conversions are purely lexical. They do not check that the paths exist, do not follow symlinks, and do not access the filesystem at all
 
 
 [![example](../examples/img/path.normalize.jpg)](../examples/pd/path.normalize.pd)

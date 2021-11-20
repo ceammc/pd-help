@@ -14,7 +14,6 @@
 2D sliders widget
 
 
-
 [![example](../examples/img/ui.slider2d.jpg)](../examples/pd/ui.slider2d.pd)
 
 

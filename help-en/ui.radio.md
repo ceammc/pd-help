@@ -2,6 +2,8 @@
 ---
 
 # ui.radio
+**aliases:** [ui.radio*], [ui.hrd], [ui.hrd*], [ui.vrd], [ui.vrd*]
+
 
 ###### counterpart of the vanilla radio toggle
 
@@ -11,9 +13,7 @@
 
 
 ## information
-[ui.hrd] alias for horizontal radio, [ui.vrd] alias for vertical radio, [ui.hrd*]
-            alias for horizontal radio checklist.
-
+[ui.hrd] alias for horizontal radio, [ui.vrd] alias for vertical radio, [ui.hrd*] alias for horizontal radio checklist.
 
 
 [![example](../examples/img/ui.radio.jpg)](../examples/pd/ui.radio.pd)

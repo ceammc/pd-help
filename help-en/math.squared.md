@@ -2,6 +2,8 @@
 ---
 
 # math.squared
+**aliases:** [math.^2], [ceammc/^2], [^2]
+
 
 ###### value square
 

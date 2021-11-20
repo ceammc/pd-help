@@ -2,6 +2,8 @@
 ---
 
 # prop
+**aliases:** [ceammc/prop]
+
 
 ###### get/set named property value for subpatch or abstraction
 
@@ -11,9 +13,7 @@
 
 
 ## information
-Property should be declared with [prop.declare]. Min/max limits can be set to
-            property
-
+Property should be declared with [prop.declare]. Min/max limits can be set to property
 
 
 [![example](../examples/img/prop.jpg)](../examples/pd/prop.pd)

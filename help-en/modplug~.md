@@ -2,6 +2,8 @@
 ---
 
 # modplug~
+**aliases:** [ceammc/modplug\~]
+
 
 ###### MOD file player (using libmodplug)
 

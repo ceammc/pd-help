@@ -2,6 +2,8 @@
 ---
 
 # plot.hist~
+**aliases:** [ceammc/hist\~], [hist\~]
+
 
 ###### calculate and output signal histogram
 

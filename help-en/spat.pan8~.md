@@ -2,6 +2,8 @@
 ---
 
 # spat.pan8~
+**aliases:** [ceammc/pan8\~], [pan8\~]
+
 
 ###### GMEM SPAT: 8-outputs spatializer
 

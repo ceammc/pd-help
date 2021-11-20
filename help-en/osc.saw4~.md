@@ -11,9 +11,7 @@
 
 
 ## information
-Differentiated Polynomial Waves (DPW) used for aliasing suppression. 4nd order
-            interpolation.
-
+Differentiated Polynomial Waves (DPW) used for aliasing suppression. 4nd order interpolation.
 
 
 [![example](../examples/img/osc.saw4~.jpg)](../examples/pd/osc.saw4~.pd)

@@ -2,6 +2,8 @@
 ---
 
 # prop.get~
+**aliases:** [prop\~&gt;], [@\~&gt;]
+
 
 ###### Property extractor from sound stream
 
@@ -11,9 +13,7 @@
 
 
 ## information
-Extracts properties from sound stream with matching. Non property values are
-            passed untouched.
-
+Extracts properties from sound stream with matching. Non property values are passed untouched.
 
 
 [![example](../examples/img/prop.get~.jpg)](../examples/pd/prop.get~.pd)

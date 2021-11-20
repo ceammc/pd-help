@@ -2,6 +2,8 @@
 ---
 
 # ui.gain~
+**aliases:** [ui.hgain\~], [ui.vgain\~]
+
 
 ###### UI gain control
 

@@ -14,7 +14,6 @@
 Split filename to dirname and basename.
 
 
-
 [![example](../examples/img/path.split.jpg)](../examples/pd/path.split.pd)
 
 

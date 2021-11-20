@@ -2,6 +2,8 @@
 ---
 
 # math.sync_ne
+**aliases:** [math.!=&#39;], [ceammc/!=&#39;], [!=&#39;]
+
 
 ###### sync numbers for not equality
 

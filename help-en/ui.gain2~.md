@@ -2,6 +2,8 @@
 ---
 
 # ui.gain2~
+**aliases:** [ui.hgain2\~], [ui.vgain2\~]
+
 
 ###### UI stereo gain control
 

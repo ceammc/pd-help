@@ -2,6 +2,8 @@
 ---
 
 # radio
+**aliases:** [ceammc/radio]
+
 
 ###### float index to outlet values as radio switch
 

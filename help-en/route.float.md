@@ -2,6 +2,8 @@
 ---
 
 # route.float
+**aliases:** [route.f]
+
 
 ###### separate float messages from other types
 
@@ -11,9 +13,7 @@
 
 
 ## information
-to get properties use *prop.get* object, cause all messages (including property
-            requests) are passed thru
-
+to get properties use *prop.get* object, cause all messages (including property requests) are passed thru
 
 
 [![example](../examples/img/route.float.jpg)](../examples/pd/route.float.pd)

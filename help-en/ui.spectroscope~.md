@@ -2,6 +2,8 @@
 ---
 
 # ui.spectroscope~
+**aliases:** [ui.ssc\~]
+
 
 ###### Spectroscope GUI object
 

@@ -3,8 +3,7 @@
 
 # plot.linspace~
 
-###### outputs numbers spaced evenly spaced over a specified
-            interval
+###### outputs numbers spaced evenly spaced over a specified interval
 
 *available since version:* 0.9
 

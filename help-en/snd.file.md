@@ -11,9 +11,7 @@
 
 
 ## information
-Deal with sound files: gets files info and loads them into arrays. Various formats
-            are supported. Supports array name patterns.
-
+Deal with sound files: gets files info and loads them into arrays. Various formats are supported. Supports array name patterns.
 
 
 [![example](../examples/img/snd.file.jpg)](../examples/pd/snd.file.pd)

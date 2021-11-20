@@ -11,9 +11,7 @@
 
 
 ## information
-Implements a sitar plucked string physical model based on the Karplus-Strong
-            algorithm
-
+Implements a sitar plucked string physical model based on the Karplus-Strong algorithm
 
 
 [![example](../examples/img/synth.sitar~.jpg)](../examples/pd/synth.sitar~.pd)

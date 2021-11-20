@@ -2,6 +2,8 @@
 ---
 
 # string
+**aliases:** [ceammc/string], [ceammc/str], [str]
+
 
 ###### string constructor
 

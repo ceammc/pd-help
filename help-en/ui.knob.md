@@ -2,6 +2,8 @@
 ---
 
 # ui.knob
+**aliases:** [ui.k]
+
 
 ###### knob widget
 
@@ -12,7 +14,6 @@
 
 ## information
 Simple knob widget with default range 0-1.
-
 
 
 [![example](../examples/img/ui.knob.jpg)](../examples/pd/ui.knob.pd)

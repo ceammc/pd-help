@@ -2,6 +2,8 @@
 ---
 
 # prop.set
+**aliases:** [p.set]
+
 
 ###### set property for connected object/subpatch/abstraction
 
@@ -11,12 +13,7 @@
 
 
 ## information
-The object adds ability to change properties of flow objects that should accept
-            any incoming messages. The object should be connected to destination, but it not sends
-            pd messages to change props, but using internal pd method calls
-Object can be used with patch declared user properties
-Note: you can connect to *any* destination inlet
-
+The object adds ability to change properties of flow objects that should accept any incoming messages. The object should be connected to destination, but it not sends pd messages to change props, but using internal pd method calls Object can be used with patch declared user properties Note: you can connect to *any* destination inlet
 
 
 [![example](../examples/img/prop.set.jpg)](../examples/pd/prop.set.pd)

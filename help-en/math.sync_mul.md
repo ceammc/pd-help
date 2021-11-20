@@ -2,6 +2,8 @@
 ---
 
 # math.sync_mul
+**aliases:** [math.*&#39;], [ceammc/*&#39;], [*&#39;]
+
 
 ###### sync multiplication
 

@@ -14,7 +14,6 @@
 Stein distribution
 
 
-
 [![example](../examples/img/noise.stein.jpg)](../examples/pd/noise.stein.pd)
 
 

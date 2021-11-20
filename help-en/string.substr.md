@@ -2,6 +2,8 @@
 ---
 
 # string.substr
+**aliases:** [str.substr]
+
 
 ###### extract substring from input string
 

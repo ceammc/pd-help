@@ -2,6 +2,8 @@
 ---
 
 # math.sync_eq
+**aliases:** [math.==&#39;], [ceammc/==&#39;], [==&#39;]
+
 
 ###### sync equal numbers check
 

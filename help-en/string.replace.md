@@ -2,6 +2,8 @@
 ---
 
 # string.replace
+**aliases:** [str.replace]
+
 
 ###### replace from one substring to another in input string
 

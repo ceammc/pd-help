@@ -2,6 +2,8 @@
 ---
 
 # xfade~
+**aliases:** [ceammc/xfade\~]
+
 
 ###### multi signal crossfade
 
@@ -11,9 +13,7 @@
 
 
 ## information
-control float value in range [0-1) controls xfade between first and second
-            signals, [1-2) between second and third etc.
-
+control float value in range [0-1) controls xfade between first and second signals, [1-2) between second and third etc.
 
 
 [![example](../examples/img/xfade~.jpg)](../examples/pd/xfade~.pd)

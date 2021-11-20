@@ -14,7 +14,6 @@
 Port of Richard&#39;s chaos-baker from chaos collection
 
 
-
 [![example](../examples/img/noise.baker.jpg)](../examples/pd/noise.baker.pd)
 
 

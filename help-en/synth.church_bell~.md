@@ -11,12 +11,7 @@
 
 
 ## information
-Modeled after T. Rossing and R. Perrin, Vibrations of Bells, Applied Acoustics 2,
-            1987
-Model height is 301 mm
-This model contains 7 excitation positions going linearly from the bottom to the
-            top of the bell
-
+Modeled after T. Rossing and R. Perrin, Vibrations of Bells, Applied Acoustics 2, 1987 Model height is 301 mm This model contains 7 excitation positions going linearly from the bottom to the top of the bell
 
 
 [![example](../examples/img/synth.church_bell~.jpg)](../examples/pd/synth.church_bell~.pd)

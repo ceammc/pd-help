@@ -14,7 +14,6 @@
 included for library comprehension
 
 
-
 [![example](../examples/img/osc.sin~.jpg)](../examples/pd/osc.sin~.pd)
 
 

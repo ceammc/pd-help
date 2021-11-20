@@ -2,6 +2,8 @@
 ---
 
 # random.atom
+**aliases:** [random.a]
+
 
 ###### weighted atom generation from specified list
 
@@ -11,10 +13,7 @@
 
 
 ## information
-Choose random atom from specified list (with weights) and output it
-Use @seed property to get reproducible sequences. If @seed property was not
-            explicitly set or specified, uses generator initialized with current time.
-
+Choose random atom from specified list (with weights) and output it Use @seed property to get reproducible sequences. If @seed property was not explicitly set or specified, uses generator initialized with current time.
 
 
 [![example](../examples/img/random.atom.jpg)](../examples/pd/random.atom.pd)

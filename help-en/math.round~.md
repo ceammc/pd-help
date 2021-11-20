@@ -2,6 +2,8 @@
 ---
 
 # math.round~
+**aliases:** [round\~]
+
 
 ###### signal round
 

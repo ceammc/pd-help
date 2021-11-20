@@ -2,6 +2,8 @@
 ---
 
 # math.pi
+**aliases:** [ceammc/pi], [pi]
+
 
 ###### mathematical constant
 

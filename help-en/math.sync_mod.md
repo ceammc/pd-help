@@ -2,6 +2,8 @@
 ---
 
 # math.sync_mod
+**aliases:** [math.%&#39;], [ceammc/%&#39;], [%&#39;]
+
 
 ###### sync remainder of modulo division (float or integer)
 

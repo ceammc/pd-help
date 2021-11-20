@@ -2,6 +2,8 @@
 ---
 
 # seq.nbangs
+**aliases:** [seq.nb]
+
 
 ###### output specified number of bang with time intervals
 

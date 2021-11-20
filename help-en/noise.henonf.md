@@ -14,7 +14,6 @@
 Another &#39;Henon phase&#39; implementation by André Sier
 
 
-
 [![example](../examples/img/noise.henonf.jpg)](../examples/pd/noise.henonf.pd)
 
 

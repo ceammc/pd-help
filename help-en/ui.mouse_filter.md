@@ -2,6 +2,8 @@
 ---
 
 # ui.mouse_filter
+**aliases:** [ui.mf]
+
 
 ###### filter mouse events from ui objects
 
@@ -12,7 +14,6 @@
 
 ## information
 pass only specified mouse events from ui.* objects
-
 
 
 [![example](../examples/img/ui.mouse_filter.jpg)](../examples/pd/ui.mouse_filter.pd)

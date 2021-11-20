@@ -14,7 +14,6 @@
 Firmata basic protocol support.
 
 
-
 [![example](../examples/img/proto.firmata.jpg)](../examples/pd/proto.firmata.pd)
 
 

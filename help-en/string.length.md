@@ -2,6 +2,8 @@
 ---
 
 # string.length
+**aliases:** [str.length]
+
 
 ###### number of characters in string (unicode supported)
 

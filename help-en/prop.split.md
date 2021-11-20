@@ -2,6 +2,8 @@
 ---
 
 # prop.split
+**aliases:** [prop-&gt;], [@-&gt;]
+
 
 ###### separate properties from dataflow
 
@@ -11,9 +13,7 @@
 
 
 ## information
-Extracts properties from data stream with matching. Non property values are passed
-            untouched
-
+Extracts properties from data stream with matching. Non property values are passed untouched
 
 
 [![example](../examples/img/prop.split.jpg)](../examples/pd/prop.split.pd)

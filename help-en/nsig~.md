@@ -2,6 +2,8 @@
 ---
 
 # nsig~
+**aliases:** [ceammc/nsig\~]
+
 
 ###### Mulitchannel converter from control to audio rate
 

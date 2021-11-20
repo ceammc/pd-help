@@ -2,6 +2,8 @@
 ---
 
 # string.starts_with
+**aliases:** [str.starts_with]
+
 
 ###### checks if string starts with specified substring
 

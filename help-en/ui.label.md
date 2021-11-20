@@ -14,7 +14,6 @@
 With spaces, text-align, font customization and word wrap
 
 
-
 [![example](../examples/img/ui.label.jpg)](../examples/pd/ui.label.pd)
 
 

@@ -11,9 +11,7 @@
 
 
 ## information
-Symmetric difference, of two sets is the set of elements which are in either of
-            the sets and not in their intersection
-
+Symmetric difference, of two sets is the set of elements which are in either of the sets and not in their intersection
 
 
 [![example](../examples/img/set.symdiff.jpg)](../examples/pd/set.symdiff.pd)

@@ -2,6 +2,8 @@
 ---
 
 # string.format
+**aliases:** [str.format]
+
 
 ###### formats string like printf.
 
@@ -12,7 +14,6 @@
 
 ## information
 This format modifiers are supported: %d, %u, %i, %o, %x, %X, %s, %e, %E.
-
 
 
 [![example](../examples/img/string.format.jpg)](../examples/pd/string.format.pd)

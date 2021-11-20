@@ -14,7 +14,6 @@
 a port of Richard&#39;s chaos-henon-heilles from chaos collection
 
 
-
 [![example](../examples/img/noise.henon_heilles.jpg)](../examples/pd/noise.henon_heilles.pd)
 
 

@@ -2,6 +2,8 @@
 ---
 
 # music.dur2time
+**aliases:** [music.d-&gt;t]
+
 
 ###### convert duration list to time
 

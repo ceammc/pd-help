@@ -2,6 +2,8 @@
 ---
 
 # math.reciprocal~
+**aliases:** [ceammc/1/x\~], [1/x\~]
+
 
 ###### calculate reciprocal number for signals
 

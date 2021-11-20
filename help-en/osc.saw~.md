@@ -11,9 +11,7 @@
 
 
 ## information
-Polynomial Transition Regions (PTR) used for aliasing suppression. 2nd order
-            interpolation.
-
+Polynomial Transition Regions (PTR) used for aliasing suppression. 2nd order interpolation.
 
 
 [![example](../examples/img/osc.saw~.jpg)](../examples/pd/osc.saw~.pd)

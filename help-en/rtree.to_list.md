@@ -2,6 +2,8 @@
 ---
 
 # rtree.to_list
+**aliases:** [ceammc/rtree-&gt;list], [rtree-&gt;list]
+
 
 ###### convert OpenMusic-like rythm tree to list of fractions
 
@@ -11,9 +13,7 @@
 
 
 ## information
-Rythm tree is structure to define complex rythmic patterns
-Examples: (1 1 1) - triplet, (2 1) - swing
-
+Rythm tree is structure to define complex rythmic patterns Examples: (1 1 1) - triplet, (2 1) - swing
 
 
 [![example](../examples/img/rtree.to_list.jpg)](../examples/pd/rtree.to_list.pd)

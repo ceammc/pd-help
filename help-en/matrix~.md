@@ -2,6 +2,8 @@
 ---
 
 # matrix~
+**aliases:** [ceammc/matrix\~]
+
 
 ###### signal routing matrix
 

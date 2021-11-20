@@ -2,6 +2,8 @@
 ---
 
 # math.sync_add
+**aliases:** [math.+&#39;], [ceammc/+&#39;], [+&#39;]
+
 
 ###### sync addition
 

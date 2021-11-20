@@ -2,6 +2,8 @@
 ---
 
 # math.cmul~
+**aliases:** [ceammc/cmul\~], [cmul\~]
+
 
 ###### multiplication of complex signals
 

@@ -2,6 +2,8 @@
 ---
 
 # prop.join
+**aliases:** [prop&lt;-]
+
 
 ###### join property to main data flow
 
@@ -11,10 +13,7 @@
 
 
 ## information
-Injects properties into data stream. Values from first inlet are passed unchanged
-            and named property values added to stream. Note: all property inlets are *hot*, i.e. if
-            object receives new value on inlet it immediately outputs it.
-
+Injects properties into data stream. Values from first inlet are passed unchanged and named property values added to stream. Note: all property inlets are *hot*, i.e. if object receives new value on inlet it immediately outputs it.
 
 
 [![example](../examples/img/prop.join.jpg)](../examples/pd/prop.join.pd)

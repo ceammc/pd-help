@@ -2,6 +2,8 @@
 ---
 
 # random.int
+**aliases:** [random.i]
+
 
 ###### uniform random integer generator in specified range
 
@@ -11,11 +13,7 @@
 
 
 ## information
-Generates pseudo-random number in specified closed interval.
-Use @seed property to get reproducible sequences. If @seed property was not
-            explicitly set or specified, uses generator initialized with current time.
-Algorithm: 32-bit Mersenne Twister by Matsumoto and Nishimura, 1998
-
+Generates pseudo-random number in specified closed interval. Use @seed property to get reproducible sequences. If @seed property was not explicitly set or specified, uses generator initialized with current time. Algorithm: 32-bit Mersenne Twister by Matsumoto and Nishimura, 1998
 
 
 [![example](../examples/img/random.int.jpg)](../examples/pd/random.int.pd)

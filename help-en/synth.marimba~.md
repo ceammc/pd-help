@@ -3,8 +3,7 @@
 
 # synth.marimba~
 
-###### simple marimba physical model implementing a single tone bar connected to
-            tube
+###### simple marimba physical model implementing a single tone bar connected to tube
 
 *available since version:* 0.6
 

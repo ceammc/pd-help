@@ -14,7 +14,6 @@
 Collatz conjecture output
 
 
-
 [![example](../examples/img/noise.collatz.jpg)](../examples/pd/noise.collatz.pd)
 
 

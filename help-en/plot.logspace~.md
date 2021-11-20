@@ -11,9 +11,7 @@
 
 
 ## information
-In linear space, the sequence starts at base^start (base to the power of start)
-            and ends with base^stop (see @endpoint).
-
+In linear space, the sequence starts at base^start (base to the power of start) and ends with base^stop (see @endpoint).
 
 
 [![example](../examples/img/plot.logspace~.jpg)](../examples/pd/plot.logspace~.pd)

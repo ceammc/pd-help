@@ -11,9 +11,7 @@
 
 
 ## information
-Renders floats, symbols and list to wavetables using flite TTS engine.
-Rendering is performed in separate thread.
-
+Renders floats, symbols and list to wavetables using flite TTS engine. Rendering is performed in separate thread.
 
 
 [![example](../examples/img/speech.flite.jpg)](../examples/pd/speech.flite.pd)

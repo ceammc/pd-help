@@ -14,7 +14,6 @@
 Speaks floats, symbols and list to wavetables using flite TTS engine.
 
 
-
 [![example](../examples/img/speech.flite~.jpg)](../examples/pd/speech.flite~.pd)
 
 

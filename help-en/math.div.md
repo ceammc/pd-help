@@ -2,6 +2,8 @@
 ---
 
 # math.div
+**aliases:** [math./]
+
 
 ###### division (on lists too)
 

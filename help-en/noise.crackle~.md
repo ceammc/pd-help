@@ -11,9 +11,7 @@
 
 
 ## information
-Random impulses in the amplitude range -1 to 1 are generated at an average rate of
-            @freq impulses per second
-
+Random impulses in the amplitude range -1 to 1 are generated at an average rate of @freq impulses per second
 
 
 [![example](../examples/img/noise.crackle~.jpg)](../examples/pd/noise.crackle~.pd)

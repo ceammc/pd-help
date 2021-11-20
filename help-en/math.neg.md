@@ -2,6 +2,8 @@
 ---
 
 # math.neg
+**aliases:** [ceammc/-x], [-x]
+
 
 ###### negate function
 

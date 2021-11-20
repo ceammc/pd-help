@@ -2,6 +2,8 @@
 ---
 
 # string.remove
+**aliases:** [str.remove]
+
 
 ###### remove substring from input string
 

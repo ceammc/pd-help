@@ -2,6 +2,8 @@
 ---
 
 # net.host2ip
+**aliases:** [net.host-&gt;ip]
+
 
 ###### returns IP address by DNS name
 

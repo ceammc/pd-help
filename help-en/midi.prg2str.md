@@ -2,6 +2,8 @@
 ---
 
 # midi.prg2str
+**aliases:** [midi.prg-&gt;str]
+
 
 ###### convert GM Instrument number to name (string or symbol)
 

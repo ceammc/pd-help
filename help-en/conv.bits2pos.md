@@ -2,6 +2,8 @@
 ---
 
 # conv.bits2pos
+**aliases:** [ceammc/bits-&gt;pos], [bits-&gt;pos]
+
 
 ###### convert list of bits to list of bit position
 

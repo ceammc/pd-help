@@ -2,6 +2,8 @@
 ---
 
 # gain~
+**aliases:** [ceammc/gain~]
+
 
 ###### multislot signal gain
 

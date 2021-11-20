@@ -2,6 +2,8 @@
 ---
 
 # flow.dollar
+**aliases:** [flow.$$]
+
 
 ###### data flow dollar converter
 

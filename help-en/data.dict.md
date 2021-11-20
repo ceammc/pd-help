@@ -2,6 +2,8 @@
 ---
 
 # data.dict
+**aliases:** [ceammc/dict], [dict]
+
 
 ###### dictionary container: store values by key
 

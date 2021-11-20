@@ -2,6 +2,8 @@
 ---
 
 # flow.multiplex~
+**aliases:** [flow.mux~], [ceammc/mux~], [mux~]
+
 
 ###### audio stream multiplexer
 

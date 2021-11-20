@@ -2,6 +2,8 @@
 ---
 
 # flow.delay
+**aliases:** [flow.del]
+
 
 ###### enhanced version on vanilla delay object
 

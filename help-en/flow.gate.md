@@ -2,6 +2,8 @@
 ---
 
 # flow.gate
+**aliases:** [ceammc/gate], [gate]
+
 
 ###### control flow gate. [spigot] analog
 

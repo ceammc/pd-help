@@ -2,6 +2,8 @@
 ---
 
 # conv.lin2curve
+**aliases:** [ceammc/lin-&gt;curve], [lin-&gt;curve]
+
 
 ###### map linear to exponential range with 0 allowed.
 

@@ -19,13 +19,13 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 
 [**an.onset**](an.onset.html): onset detector for arrays 
 
-[**an.onset~**](an.onset~.html): onset detector 
+[**an.onset\~**](an.onset~.html): onset detector 
 
-[**an.pitchtrack~**](an.pitchtrack~.html): pitch tracker 
+[**an.pitchtrack\~**](an.pitchtrack~.html): pitch tracker 
 
-[**an.rms~**](an.rms~.html): root mean square with moving-average algorithm. 
+[**an.rms\~**](an.rms~.html): root mean square with moving-average algorithm. 
 
-[**an.tempo~**](an.tempo~.html): tempo detector 
+[**an.tempo\~**](an.tempo~.html): tempo detector 
 
 
 [### array](category_array.html)
@@ -35,7 +35,7 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 
 [**array.bpm**](array.bpm.html): BPM calculator 
 
-[**array.circular~**](array.circular~.html): circular buffer for arrays 
+[**array.circular\~**](array.circular~.html): circular buffer for arrays 
 
 [**array.copy**](array.copy.html): copy samples from one array to another 
 
@@ -45,7 +45,7 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 
 [**array.fill**](array.fill.html): fill array with single value or pattern 
 
-[**array.grainer~**](array.grainer~.html): array granulator 
+[**array.grainer\~**](array.grainer~.html): array granulator 
 
 [**array.hist**](array.hist.html): calculates array histogram 
 
@@ -53,11 +53,11 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 
 [**array.minmax**](array.minmax.html): find array min and max element value 
 
-[**array.play~**](array.play~.html): array player with variable speed and amplitude 
+[**array.play\~**](array.play~.html): array player with variable speed and amplitude 
 
 [**array.plot**](array.plot.html): array data plotter 
 
-[**array.plot~**](array.plot~.html): plot signal on specified array 
+[**array.plot\~**](array.plot~.html): plot signal on specified array 
 
 [**array.resample**](array.resample.html): array resampler 
 
@@ -79,15 +79,15 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 
 [**array.window**](array.window.html): fill array with window 
 
-[**plot.geomspace~**](plot.geomspace~.html): outputs numbers spaced evenly on a log scale (a geometric progression) 
+[**plot.geomspace\~**](plot.geomspace~.html): outputs numbers spaced evenly on a log scale (a geometric progression) 
 
-[**plot.hist~**](plot.hist~.html): calculate and output signal histogram 
+[**plot.hist\~**](plot.hist~.html): calculate and output signal histogram 
 
-[**plot.linspace~**](plot.linspace~.html): outputs numbers spaced evenly spaced over a specified interval 
+[**plot.linspace\~**](plot.linspace~.html): outputs numbers spaced evenly spaced over a specified interval 
 
-[**plot.logspace~**](plot.logspace~.html): outputs numbers spaced evenly on a log scale 
+[**plot.logspace\~**](plot.logspace~.html): outputs numbers spaced evenly on a log scale 
 
-[**plot.response~**](plot.response~.html): output amp/phase freq response to impulse 
+[**plot.response\~**](plot.response~.html): output amp/phase freq response to impulse 
 
 
 [### base](category_base.html)
@@ -101,11 +101,11 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 
 [**function.call**](function.call.html): call named function 
 
-[**gain~**](gain~.html): multislot signal gain 
+[**gain\~**](gain~.html): multislot signal gain 
 
 [**logger**](logger.html): advanced data logger 
 
-[**matrix~**](matrix~.html): signal routing matrix 
+[**matrix\~**](matrix~.html): signal routing matrix 
 
 [**metro.pattern**](metro.pattern.html): metro with rhythmic patterns 
 
@@ -113,9 +113,9 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 
 [**metro.seq**](metro.seq.html): metro sequencer 
 
-[**mix~**](mix~.html): multislot signal mixer 
+[**mix\~**](mix~.html): multislot signal mixer 
 
-[**nsig~**](nsig~.html): Mulitchannel converter from control to audio rate 
+[**nsig\~**](nsig~.html): Mulitchannel converter from control to audio rate 
 
 [**obj.props**](obj.props.html): property extractor 
 
@@ -127,11 +127,11 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 
 [**window**](window.html): returns window value by given window position 
 
-[**xdac~**](xdac~.html): dac~ with channel ranges 
+[**xdac\~**](xdac~.html): dac~ with channel ranges 
 
-[**xfade2~**](xfade2~.html): multi stereo-signal crossfade 
+[**xfade2\~**](xfade2~.html): multi stereo-signal crossfade 
 
-[**xfade~**](xfade~.html): multi signal crossfade 
+[**xfade\~**](xfade~.html): multi signal crossfade 
 
 
 [### chaos](category_chaos.html)
@@ -141,7 +141,7 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 
 [**chaos.gbman0**](chaos.gbman0.html): Gingerbreadman map chaotic generator 
 
-[**chaos.gbman0~**](chaos.gbman0~.html): Gingerbreadman map chaotic generator 
+[**chaos.gbman0\~**](chaos.gbman0~.html): Gingerbreadman map chaotic generator 
 
 [**chaos.jong**](chaos.jong.html): Peter de Jong attractor 
 
@@ -149,7 +149,7 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 
 [**chaos.std0**](chaos.std0.html): Standard map chaotic generator 
 
-[**chaos.std0~**](chaos.std0~.html): Standard map chaotic generator 
+[**chaos.std0\~**](chaos.std0~.html): Standard map chaotic generator 
 
 
 [### conv](category_conv.html)
@@ -163,7 +163,7 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 
 [**conv.amp2dbfs**](conv.amp2dbfs.html): convert from amplitude to decibel full scale 
 
-[**conv.amp2dbfs~**](conv.amp2dbfs~.html): convert from amplitude to decibel full scale 
+[**conv.amp2dbfs\~**](conv.amp2dbfs~.html): convert from amplitude to decibel full scale 
 
 [**conv.bits2bang**](conv.bits2bang.html): convert list of bits to bang events 
 
@@ -185,7 +185,7 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 
 [**conv.dbfs2amp**](conv.dbfs2amp.html): convert decibel full scale to amplitude 
 
-[**conv.dbfs2amp~**](conv.dbfs2amp~.html): convert decibel full scale to amplitude 
+[**conv.dbfs2amp\~**](conv.dbfs2amp~.html): convert decibel full scale to amplitude 
 
 [**conv.degree2key**](conv.degree2key.html): convert scale degree to key 
 
@@ -201,7 +201,7 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 
 [**conv.lin2lin**](conv.lin2lin.html): convert from one linear range to another 
 
-[**conv.lin2lin~**](conv.lin2lin~.html): convert from one linear range to another for signals 
+[**conv.lin2lin\~**](conv.lin2lin~.html): convert from one linear range to another for signals 
 
 [**conv.list2props**](conv.list2props.html): converts list to series of property messages 
 
@@ -211,11 +211,11 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 
 [**conv.ms2samp**](conv.ms2samp.html): convert time in milliseconds to number of samples according to current samplerate 
 
-[**conv.ms2samp~**](conv.ms2samp~.html): convert time in milliseconds to number of samples according to current samplerate 
+[**conv.ms2samp\~**](conv.ms2samp~.html): convert time in milliseconds to number of samples according to current samplerate 
 
 [**conv.phase2rad**](conv.phase2rad.html): convert phase value [0-1] to radians [0-2π] 
 
-[**conv.phase2rad~**](conv.phase2rad~.html): convert phase value [0-1] to radians [0-2π] 
+[**conv.phase2rad\~**](conv.phase2rad~.html): convert phase value [0-1] to radians [0-2π] 
 
 [**conv.pitch2midi**](conv.pitch2midi.html): converts symbol pitch name to MIDI note number 
 
@@ -223,11 +223,11 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 
 [**conv.rad2phase**](conv.rad2phase.html): convert radians value to phase 
 
-[**conv.rad2phase~**](conv.rad2phase~.html): convert radians value to phase 
+[**conv.rad2phase\~**](conv.rad2phase~.html): convert radians value to phase 
 
 [**conv.samp2ms**](conv.samp2ms.html): convert samples to time according to samplerate 
 
-[**conv.samp2ms~**](conv.samp2ms~.html): convert samples to milliseconds according to samplerate 
+[**conv.samp2ms\~**](conv.samp2ms~.html): convert samples to milliseconds according to samplerate 
 
 [**conv.samp2sec**](conv.samp2sec.html): convert samples to time according to samplerate 
 
@@ -237,7 +237,7 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 
 [**conv.sec2str**](conv.sec2str.html): converts float time in seconds to formated symbol (or string) 
 
-[**conv.sig2float~**](conv.sig2float~.html): convert signal to floats 
+[**conv.sig2float\~**](conv.sig2float~.html): convert signal to floats 
 
 [**conv.str2sec**](conv.str2sec.html): converts formatted time to float value in seconds 
 
@@ -313,19 +313,19 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 ---
 
 
-[**dyn.comp2~**](dyn.comp2~.html): stereo dynamic range compressor 
+[**dyn.comp2\~**](dyn.comp2~.html): stereo dynamic range compressor 
 
-[**dyn.comp~**](dyn.comp~.html): mono dynamic range compressors 
+[**dyn.comp\~**](dyn.comp~.html): mono dynamic range compressors 
 
-[**dyn.gate2~**](dyn.gate2~.html): stereo signal gate 
+[**dyn.gate2\~**](dyn.gate2~.html): stereo signal gate 
 
-[**dyn.gate~**](dyn.gate~.html): mono signal gate 
+[**dyn.gate\~**](dyn.gate~.html): mono signal gate 
 
-[**dyn.limit2~**](dyn.limit2~.html): stereo 1176LN Peak Limiter 
+[**dyn.limit2\~**](dyn.limit2~.html): stereo 1176LN Peak Limiter 
 
-[**dyn.limit~**](dyn.limit~.html): mono 1176LN Peak Limiter 
+[**dyn.limit\~**](dyn.limit~.html): mono 1176LN Peak Limiter 
 
-[**dyn.softclip~**](dyn.softclip~.html): soft signal clip 
+[**dyn.softclip\~**](dyn.softclip~.html): soft signal clip 
 
 
 [### env](category_env.html)
@@ -333,19 +333,19 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 ---
 
 
-[**env.adsr~**](env.adsr~.html): ADSR (Attack, Decay, Sustain, Release) envelope generator 
+[**env.adsr\~**](env.adsr~.html): ADSR (Attack, Decay, Sustain, Release) envelope generator 
 
-[**env.ar~**](env.ar~.html): Attack/Release envelope generator 
+[**env.ar\~**](env.ar~.html): Attack/Release envelope generator 
 
-[**env.asr~**](env.asr~.html): Attack/Sustain/Release envelope generator 
+[**env.asr\~**](env.asr~.html): Attack/Sustain/Release envelope generator 
 
 [**env.concat**](env.concat.html): Envelope concatenation 
 
-[**env.follow~**](env.follow~.html): Envelope follower with independent attack and release times 
+[**env.follow\~**](env.follow~.html): Envelope follower with independent attack and release times 
 
 [**env.mix**](env.mix.html): Mix between two envelopes. Envelopes should contain equal number of segments 
 
-[**env.smooth~**](env.smooth~.html): An envelope with an exponential attack and release 
+[**env.smooth\~**](env.smooth~.html): An envelope with an exponential attack and release 
 
 [**env.tscale**](env.tscale.html): Envelope time-scale 
 
@@ -379,9 +379,9 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 
 [**flow.demultiplex**](flow.demultiplex.html): control flow demultiplexer 
 
-[**flow.demultiplex2~**](flow.demultiplex2~.html): audio stream stereo demultiplexer 
+[**flow.demultiplex2\~**](flow.demultiplex2~.html): audio stream stereo demultiplexer 
 
-[**flow.demultiplex~**](flow.demultiplex~.html): audio stream demultiplexer 
+[**flow.demultiplex\~**](flow.demultiplex~.html): audio stream demultiplexer 
 
 [**flow.dollar**](flow.dollar.html): data flow dollar converter 
 
@@ -411,9 +411,9 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 
 [**flow.multiplex**](flow.multiplex.html): control flow multiplexer 
 
-[**flow.multiplex2~**](flow.multiplex2~.html): audio stream stereo multiplexer 
+[**flow.multiplex2\~**](flow.multiplex2~.html): audio stream stereo multiplexer 
 
-[**flow.multiplex~**](flow.multiplex~.html): audio stream multiplexer 
+[**flow.multiplex\~**](flow.multiplex~.html): audio stream multiplexer 
 
 [**flow.once**](flow.once.html): one message pass thru 
 
@@ -451,7 +451,7 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 
 [**flow.sync_pack**](flow.sync_pack.html): flow pack with all hot inlets 
 
-[**flow.tee~**](flow.tee~.html): separate audio and control streams 
+[**flow.tee\~**](flow.tee~.html): separate audio and control streams 
 
 [**replace**](replace.html): Replace atoms in data stream 
 
@@ -463,75 +463,75 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 ---
 
 
-[**flt.biquad~**](flt.biquad~.html): second order IIR filter. 
+[**flt.biquad\~**](flt.biquad~.html): second order IIR filter. 
 
-[**flt.bpf12~**](flt.bpf12~.html): Two pole band-pass butterworth filter 
+[**flt.bpf12\~**](flt.bpf12~.html): Two pole band-pass butterworth filter 
 
-[**flt.bpf24~**](flt.bpf24~.html): Four pole band-pass butterworth filter 
+[**flt.bpf24\~**](flt.bpf24~.html): Four pole band-pass butterworth filter 
 
 [**flt.c_apf**](flt.c_apf.html): Allpass filter coefficient calculator for biquad 
 
-[**flt.c_bpf~**](flt.c_bpf~.html): BPF coefficient calculator for biquad filter 
+[**flt.c_bpf\~**](flt.c_bpf~.html): BPF coefficient calculator for biquad filter 
 
-[**flt.c_highshelf~**](flt.c_highshelf~.html): Highshelf filter coefficient calculator for biquad 
+[**flt.c_highshelf\~**](flt.c_highshelf~.html): Highshelf filter coefficient calculator for biquad 
 
 [**flt.c_hpf**](flt.c_hpf.html): HPF coefficient calculator for biquad filter 
 
-[**flt.c_hpf~**](flt.c_hpf~.html): HPF coefficient calculator for biquad filter 
+[**flt.c_hpf\~**](flt.c_hpf~.html): HPF coefficient calculator for biquad filter 
 
-[**flt.c_lowshelf~**](flt.c_lowshelf~.html): Lowshelf filter coefficient calculator for biquad 
+[**flt.c_lowshelf\~**](flt.c_lowshelf~.html): Lowshelf filter coefficient calculator for biquad 
 
 [**flt.c_lpf**](flt.c_lpf.html): LPF coefficient calculator for biquad filter 
 
-[**flt.c_lpf~**](flt.c_lpf~.html): LPF coefficient calculator for biquad filter 
+[**flt.c_lpf\~**](flt.c_lpf~.html): LPF coefficient calculator for biquad filter 
 
 [**flt.c_notch**](flt.c_notch.html): Notch filter coefficient calculator for biquad 
 
-[**flt.c_notch~**](flt.c_notch~.html): Band-reject coefficient calculator for biquad filter 
+[**flt.c_notch\~**](flt.c_notch~.html): Band-reject coefficient calculator for biquad filter 
 
-[**flt.c_peak~**](flt.c_peak~.html): Peaking equalizer calculator for biquad 
+[**flt.c_peak\~**](flt.c_peak~.html): Peaking equalizer calculator for biquad 
 
 [**flt.c_pole**](flt.c_pole.html): One-pole coefficient calculator for biquad filter 
 
-[**flt.dcblock2~**](flt.dcblock2~.html): stereo DC blocker 
+[**flt.dcblock2\~**](flt.dcblock2~.html): stereo DC blocker 
 
-[**flt.dcblock~**](flt.dcblock~.html): mono DC blocker 
+[**flt.dcblock\~**](flt.dcblock~.html): mono DC blocker 
 
-[**flt.eq10~**](flt.eq10~.html): graphic 10 band equalizer 
+[**flt.eq10\~**](flt.eq10~.html): graphic 10 band equalizer 
 
-[**flt.eq_peak_cq~**](flt.eq_peak_cq~.html): constant-Q second order peaking equalizer section 
+[**flt.eq_peak_cq\~**](flt.eq_peak_cq~.html): constant-Q second order peaking equalizer section 
 
-[**flt.eq_peak~**](flt.eq_peak~.html): second order &#34;peaking equalizer&#34; section (gain boost or cut near some frequency). Also called a &#34;parametric equalizer&#34; section. 
+[**flt.eq_peak\~**](flt.eq_peak~.html): second order &#34;peaking equalizer&#34; section (gain boost or cut near some frequency). Also called a &#34;parametric equalizer&#34; section. 
 
-[**flt.fb_comb~**](flt.fb_comb~.html): feedback comb filter 
+[**flt.fb_comb\~**](flt.fb_comb~.html): feedback comb filter 
 
-[**flt.fbank5x1~**](flt.fbank5x1~.html): 5 band one octave butterworth filterbank 
+[**flt.fbank5x1\~**](flt.fbank5x1~.html): 5 band one octave butterworth filterbank 
 
-[**flt.ff_comb~**](flt.ff_comb~.html): feed forward comb filter 
+[**flt.ff_comb\~**](flt.ff_comb~.html): feed forward comb filter 
 
 [**flt.freqz**](flt.freqz.html): compute the frequency response of a digital filter 
 
-[**flt.freqz~**](flt.freqz~.html): compute the frequency response of a digital filter 
+[**flt.freqz\~**](flt.freqz~.html): compute the frequency response of a digital filter 
 
-[**flt.highshelf~**](flt.highshelf~.html): gain boost|cut above some frequency 
+[**flt.highshelf\~**](flt.highshelf~.html): gain boost|cut above some frequency 
 
-[**flt.hpf12~**](flt.hpf12~.html): High-pass second order Butterworth filter 
+[**flt.hpf12\~**](flt.hpf12~.html): High-pass second order Butterworth filter 
 
-[**flt.hpf24~**](flt.hpf24~.html): High-pass fourth order Butterworth filter 
+[**flt.hpf24\~**](flt.hpf24~.html): High-pass fourth order Butterworth filter 
 
-[**flt.lowshelf~**](flt.lowshelf~.html): gain boost|cut below some frequency 
+[**flt.lowshelf\~**](flt.lowshelf~.html): gain boost|cut below some frequency 
 
-[**flt.lpf12~**](flt.lpf12~.html): Low-pass second order Butterworth filter 
+[**flt.lpf12\~**](flt.lpf12~.html): Low-pass second order Butterworth filter 
 
-[**flt.lpf24~**](flt.lpf24~.html): Low-pass fourth order Butterworth filter 
+[**flt.lpf24\~**](flt.lpf24~.html): Low-pass fourth order Butterworth filter 
 
 [**flt.median**](flt.median.html): Median control flow filter 
 
-[**flt.moog_vcf~**](flt.moog_vcf~.html): Moog Voltage Controlled Filter 
+[**flt.moog_vcf\~**](flt.moog_vcf~.html): Moog Voltage Controlled Filter 
 
-[**flt.notch~**](flt.notch~.html): band-rejection filter 
+[**flt.notch\~**](flt.notch~.html): band-rejection filter 
 
-[**flt.resonbp~**](flt.resonbp~.html): Simple resonant bandpass filter 
+[**flt.resonbp\~**](flt.resonbp~.html): Simple resonant bandpass filter 
 
 
 [### fx](category_fx.html)
@@ -539,65 +539,65 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 ---
 
 
-[**fx.bitdown~**](fx.bitdown~.html): bit downer and downsampler effect 
+[**fx.bitdown\~**](fx.bitdown~.html): bit downer and downsampler effect 
 
-[**fx.chorus~**](fx.chorus~.html): Chorus effect 
+[**fx.chorus\~**](fx.chorus~.html): Chorus effect 
 
-[**fx.distortion1~**](fx.distortion1~.html): distortion #1 from Guitarix effects set 
+[**fx.distortion1\~**](fx.distortion1~.html): distortion #1 from Guitarix effects set 
 
-[**fx.distortion2~**](fx.distortion2~.html): distortion #2 from Guitarix effects set 
+[**fx.distortion2\~**](fx.distortion2~.html): distortion #2 from Guitarix effects set 
 
-[**fx.distortion3~**](fx.distortion3~.html): simple distortion #3 from Guitarix effects set 
+[**fx.distortion3\~**](fx.distortion3~.html): simple distortion #3 from Guitarix effects set 
 
-[**fx.distortion~**](fx.distortion~.html): cubic nonlinearity distortion 
+[**fx.distortion\~**](fx.distortion~.html): cubic nonlinearity distortion 
 
-[**fx.drive~**](fx.drive~.html): Guitarix drive effect 
+[**fx.drive\~**](fx.drive~.html): Guitarix drive effect 
 
-[**fx.drone_box~**](fx.drone_box~.html): mono sympathetic resonance generator 
+[**fx.drone_box\~**](fx.drone_box~.html): mono sympathetic resonance generator 
 
-[**fx.echo2~**](fx.echo2~.html): stereo echo effect 
+[**fx.echo2\~**](fx.echo2~.html): stereo echo effect 
 
-[**fx.echo~**](fx.echo~.html): simple echo effect 
+[**fx.echo\~**](fx.echo~.html): simple echo effect 
 
-[**fx.flanger~**](fx.flanger~.html): mono flanging effect 
+[**fx.flanger\~**](fx.flanger~.html): mono flanging effect 
 
-[**fx.freeverb2~**](fx.freeverb2~.html): freeverb2 - stereo version of freeverb 
+[**fx.freeverb2\~**](fx.freeverb2~.html): freeverb2 - stereo version of freeverb 
 
-[**fx.freeverb~**](fx.freeverb~.html): freeverb - common used open-source reverb 
+[**fx.freeverb\~**](fx.freeverb~.html): freeverb - common used open-source reverb 
 
-[**fx.freqshift~**](fx.freqshift~.html): frequency shifter or single-sideband ring modulation 
+[**fx.freqshift\~**](fx.freqshift~.html): frequency shifter or single-sideband ring modulation 
 
-[**fx.granulator~**](fx.granulator~.html): simple input stream granulator 
+[**fx.granulator\~**](fx.granulator~.html): simple input stream granulator 
 
-[**fx.greyhole~**](fx.greyhole~.html): A complex echo-like effect 
+[**fx.greyhole\~**](fx.greyhole~.html): A complex echo-like effect 
 
-[**fx.infrev~**](fx.infrev~.html): port of Infinity VST plugin from airwindows 
+[**fx.infrev\~**](fx.infrev~.html): port of Infinity VST plugin from airwindows 
 
-[**fx.looper~**](fx.looper~.html): One track looper 
+[**fx.looper\~**](fx.looper~.html): One track looper 
 
-[**fx.pitchshift_s~**](fx.pitchshift_s~.html): signal version of fx.pitchshift~ 
+[**fx.pitchshift_s\~**](fx.pitchshift_s~.html): signal version of fx.pitchshift~ 
 
-[**fx.pitchshift~**](fx.pitchshift~.html): simple pitch shifter based on 2 delay lines 
+[**fx.pitchshift\~**](fx.pitchshift~.html): simple pitch shifter based on 2 delay lines 
 
-[**fx.rb_pitchshift~**](fx.rb_pitchshift~.html): rubber band pitchshift 
+[**fx.rb_pitchshift\~**](fx.rb_pitchshift~.html): rubber band pitchshift 
 
-[**fx.recho~**](fx.recho~.html): reversed echo effect 
+[**fx.recho\~**](fx.recho~.html): reversed echo effect 
 
-[**fx.room~**](fx.room~.html): Gardners room emulation algorithms 
+[**fx.room\~**](fx.room~.html): Gardners room emulation algorithms 
 
-[**fx.sdelay~**](fx.sdelay~.html): smooth delay with a feedback control 
+[**fx.sdelay\~**](fx.sdelay~.html): smooth delay with a feedback control 
 
-[**fx.secho~**](fx.secho~.html): enchanced echo effect that does not click on delay change 
+[**fx.secho\~**](fx.secho~.html): enchanced echo effect that does not click on delay change 
 
-[**fx.shimmer~**](fx.shimmer~.html): shimmer reverb effect effect 
+[**fx.shimmer\~**](fx.shimmer~.html): shimmer reverb effect effect 
 
-[**fx.tapiir~**](fx.tapiir~.html): multi-tap delay 
+[**fx.tapiir\~**](fx.tapiir~.html): multi-tap delay 
 
-[**fx.vocoder~**](fx.vocoder~.html): very simple vocoder where the spectrum of the modulation signal is analyzed using a 32-band filter bank 
+[**fx.vocoder\~**](fx.vocoder~.html): very simple vocoder where the spectrum of the modulation signal is analyzed using a 32-band filter bank 
 
-[**fx.wahwah~**](fx.wahwah~.html): digitized CryBaby wah pedal 
+[**fx.wahwah\~**](fx.wahwah~.html): digitized CryBaby wah pedal 
 
-[**fx.zita_rev1~**](fx.zita_rev1~.html): Zita stereo reverb 
+[**fx.zita_rev1\~**](fx.zita_rev1~.html): Zita stereo reverb 
 
 
 [### global](category_global.html)
@@ -643,9 +643,9 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 ---
 
 
-[**lang.faust~**](lang.faust~.html): faust realtime compilation 
+[**lang.faust\~**](lang.faust~.html): faust realtime compilation 
 
-[**ui.faust~**](ui.faust~.html): faust compiled ui object 
+[**ui.faust\~**](ui.faust~.html): faust compiled ui object 
 
 
 [### lfo](category_lfo.html)
@@ -653,25 +653,25 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 ---
 
 
-[**lfo.+pulse~**](lfo.%2Bpulse~.html): Unit-amplitude nonnegative low frequency pulse train 
+[**lfo.+pulse\~**](lfo.%2Bpulse~.html): Unit-amplitude nonnegative low frequency pulse train 
 
-[**lfo.+saw~**](lfo.%2Bsaw~.html): Positive unit-amplitude low frequency saw wave 
+[**lfo.+saw\~**](lfo.%2Bsaw~.html): Positive unit-amplitude low frequency saw wave 
 
-[**lfo.+square~**](lfo.%2Bsquare~.html): Positive low frequency square wave 
+[**lfo.+square\~**](lfo.%2Bsquare~.html): Positive low frequency square wave 
 
-[**lfo.+tri~**](lfo.%2Btri~.html): Positive unit-amplitude low frequency triangle wave 
+[**lfo.+tri\~**](lfo.%2Btri~.html): Positive unit-amplitude low frequency triangle wave 
 
-[**lfo.impulse~**](lfo.impulse~.html): Unit-amplitude low-frequency impulse train 
+[**lfo.impulse\~**](lfo.impulse~.html): Unit-amplitude low-frequency impulse train 
 
-[**lfo.mosc~**](lfo.mosc~.html): multi-oscillator with various waveforms 
+[**lfo.mosc\~**](lfo.mosc~.html): multi-oscillator with various waveforms 
 
-[**lfo.pulse~**](lfo.pulse~.html): Full-range unit-amplitude low frequency pulse train 
+[**lfo.pulse\~**](lfo.pulse~.html): Full-range unit-amplitude low frequency pulse train 
 
-[**lfo.saw~**](lfo.saw~.html): Full-range unit-amplitude low frequency saw 
+[**lfo.saw\~**](lfo.saw~.html): Full-range unit-amplitude low frequency saw 
 
-[**lfo.square~**](lfo.square~.html): Zero-mean unit-amplitude low frequency square wave 
+[**lfo.square\~**](lfo.square~.html): Zero-mean unit-amplitude low frequency square wave 
 
-[**lfo.tri~**](lfo.tri~.html): Zero-mean unit-amplitude low frequency triangle wave 
+[**lfo.tri\~**](lfo.tri~.html): Zero-mean unit-amplitude low frequency triangle wave 
 
 
 [### list](category_list.html)
@@ -819,7 +819,7 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 ---
 
 
-[**live.capture~**](live.capture~.html): record up to 32s of sound and playback the recorded sound in loop 
+[**live.capture\~**](live.capture~.html): record up to 32s of sound and playback the recorded sound in loop 
 
 
 [### local](category_local.html)
@@ -847,15 +847,15 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 
 [**math.abs**](math.abs.html): absolute value function 
 
-[**math.abs~**](math.abs~.html): absolute value function for signals 
+[**math.abs\~**](math.abs~.html): absolute value function for signals 
 
 [**math.acos**](math.acos.html): arc cosine function 
 
 [**math.acosh**](math.acosh.html): inverse hyperbolic cosine function 
 
-[**math.acosh~**](math.acosh~.html): hyperbolic arc cosine for signals 
+[**math.acosh\~**](math.acosh~.html): hyperbolic arc cosine for signals 
 
-[**math.acos~**](math.acos~.html): arc cosine function for signals 
+[**math.acos\~**](math.acos~.html): arc cosine function for signals 
 
 [**math.and**](math.and.html): operation AND for multiple arguments 
 
@@ -865,45 +865,45 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 
 [**math.asinh**](math.asinh.html): inverse hyperbolic sine function 
 
-[**math.asinh~**](math.asinh~.html): hyperbolic arc sine for signals 
+[**math.asinh\~**](math.asinh~.html): hyperbolic arc sine for signals 
 
-[**math.asin~**](math.asin~.html): arc sine for signals 
+[**math.asin\~**](math.asin~.html): arc sine for signals 
 
 [**math.atan**](math.atan.html): arc tangent function 
 
 [**math.atanh**](math.atanh.html): inverse hyperbolic tangent function 
 
-[**math.atanh~**](math.atanh~.html): hyperbolic arc tangent for signals 
+[**math.atanh\~**](math.atanh~.html): hyperbolic arc tangent for signals 
 
-[**math.atan~**](math.atan~.html): arc tangent for signals 
+[**math.atan\~**](math.atan~.html): arc tangent for signals 
 
 [**math.binomial**](math.binomial.html): binomial coefficient calculator 
 
-[**math.cabs~**](math.cabs~.html): magnitude of a complex signals 
+[**math.cabs\~**](math.cabs~.html): magnitude of a complex signals 
 
-[**math.carg~**](math.carg~.html): phase angle of a complex signals 
+[**math.carg\~**](math.carg~.html): phase angle of a complex signals 
 
 [**math.cbrt**](math.cbrt.html): cube root function 
 
-[**math.cbrt~**](math.cbrt~.html): cube root function for signals 
+[**math.cbrt\~**](math.cbrt~.html): cube root function for signals 
 
-[**math.cdiv~**](math.cdiv~.html): division of complex signals 
+[**math.cdiv\~**](math.cdiv~.html): division of complex signals 
 
 [**math.ceil**](math.ceil.html): round to smallest integral value not less than input value 
 
-[**math.ceil~**](math.ceil~.html): round to smallest integral value not less than input value 
+[**math.ceil\~**](math.ceil~.html): round to smallest integral value not less than input value 
 
-[**math.cexp~**](math.cexp~.html): exponent of a complex signals 
+[**math.cexp\~**](math.cexp~.html): exponent of a complex signals 
 
-[**math.cmul~**](math.cmul~.html): multiplication of complex signals 
+[**math.cmul\~**](math.cmul~.html): multiplication of complex signals 
 
 [**math.cos**](math.cos.html): cosine function 
 
 [**math.cosh**](math.cosh.html): hyperbolic cosine function 
 
-[**math.cosh~**](math.cosh~.html): hyperbolic cosine for signals 
+[**math.cosh\~**](math.cosh~.html): hyperbolic cosine for signals 
 
-[**math.cos~**](math.cos~.html): cosine function 
+[**math.cos\~**](math.cos~.html): cosine function 
 
 [**math.div**](math.div.html): division (on lists too) 
 
@@ -911,55 +911,55 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 
 [**math.erf**](math.erf.html): error function 
 
-[**math.erf~**](math.erf~.html): error function for signals 
+[**math.erf\~**](math.erf~.html): error function for signals 
 
 [**math.exp**](math.exp.html): exponential functions 
 
 [**math.exp2**](math.exp2.html): exponential functions 
 
-[**math.exp2~**](math.exp2~.html): base-2 exponential for signal 
+[**math.exp2\~**](math.exp2~.html): base-2 exponential for signal 
 
 [**math.expr**](math.expr.html): dynamic [expr] 
 
-[**math.exp~**](math.exp~.html): base-e exponential for signal 
+[**math.exp\~**](math.exp~.html): base-e exponential for signal 
 
 [**math.floor**](math.floor.html): round to largest integral value not greater than x 
 
-[**math.floor~**](math.floor~.html): round to largest integral value not greater than x 
+[**math.floor\~**](math.floor~.html): round to largest integral value not greater than x 
 
 [**math.gamma**](math.gamma.html): gamma function 
 
-[**math.gamma~**](math.gamma~.html): gamma function for floating point signals 
+[**math.gamma\~**](math.gamma~.html): gamma function for floating point signals 
 
 [**math.gcd**](math.gcd.html): calculate greatest common divisor 
 
 [**math.inf**](math.inf.html): infinity value that cannot be represented accurately 
 
-[**math.inf~**](math.inf~.html): inifinity signal generator 
+[**math.inf\~**](math.inf~.html): inifinity signal generator 
 
 [**math.lcm**](math.lcm.html): calculate least common multiple 
 
 [**math.lgamma**](math.lgamma.html): natural logarithm of the absolute value of the gamma function 
 
-[**math.lgamma~**](math.lgamma~.html): natural logarithm of the absolute value of the gamma function for signals 
+[**math.lgamma\~**](math.lgamma~.html): natural logarithm of the absolute value of the gamma function for signals 
 
 [**math.log**](math.log.html): natural logarithm 
 
 [**math.log10**](math.log10.html): logarithm functions 
 
-[**math.log10~**](math.log10~.html): natural logarithm 
+[**math.log10\~**](math.log10~.html): natural logarithm 
 
 [**math.log2**](math.log2.html): logarithm functions 
 
-[**math.log2~**](math.log2~.html): base-2 logarithm 
+[**math.log2\~**](math.log2~.html): base-2 logarithm 
 
-[**math.log~**](math.log~.html): natural logarithm 
+[**math.log\~**](math.log~.html): natural logarithm 
 
 [**math.mul**](math.mul.html): multiplication (on lists too) 
 
 [**math.nan**](math.nan.html): Not a Number, unrepresentable value 
 
-[**math.nan~**](math.nan~.html): signal NaN 
+[**math.nan\~**](math.nan~.html): signal NaN 
 
 [**math.neg**](math.neg.html): negate function 
 
@@ -967,17 +967,17 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 
 [**math.pi**](math.pi.html): mathematical constant 
 
-[**math.pi~**](math.pi~.html): mathematical constant 
+[**math.pi\~**](math.pi~.html): mathematical constant 
 
 [**math.polyeval**](math.polyeval.html): evaluates the polynomial described by the coefficients list 
 
 [**math.reciprocal**](math.reciprocal.html): calculate reciprocal number 
 
-[**math.reciprocal~**](math.reciprocal~.html): calculate reciprocal number for signals 
+[**math.reciprocal\~**](math.reciprocal~.html): calculate reciprocal number for signals 
 
 [**math.round**](math.round.html): round to integral value, regardless of rounding direction 
 
-[**math.round~**](math.round~.html): signal round 
+[**math.round\~**](math.round~.html): signal round 
 
 [**math.sign**](math.sign.html): sign function 
 
@@ -985,17 +985,17 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 
 [**math.sinh**](math.sinh.html): hyperbolic sine function 
 
-[**math.sinh~**](math.sinh~.html): hyperbolic sine for signals 
+[**math.sinh\~**](math.sinh~.html): hyperbolic sine for signals 
 
-[**math.sin~**](math.sin~.html): sine function 
+[**math.sin\~**](math.sin~.html): sine function 
 
 [**math.sqrt**](math.sqrt.html): square root function 
 
-[**math.sqrt~**](math.sqrt~.html): square root for signal 
+[**math.sqrt\~**](math.sqrt~.html): square root for signal 
 
 [**math.squared**](math.squared.html): value square 
 
-[**math.squared~**](math.squared~.html): signal value square 
+[**math.squared\~**](math.squared~.html): signal value square 
 
 [**math.sync_add**](math.sync_add.html): sync addition 
 
@@ -1033,13 +1033,13 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 
 [**math.tanh**](math.tanh.html): hyperbolic tangent function 
 
-[**math.tanh~**](math.tanh~.html): hyperbolic tangent for signals 
+[**math.tanh\~**](math.tanh~.html): hyperbolic tangent for signals 
 
-[**math.tan~**](math.tan~.html): tangent function 
+[**math.tan\~**](math.tan~.html): tangent function 
 
 [**math.trunc**](math.trunc.html): truncate to integer value 
 
-[**math.trunc~**](math.trunc~.html): truncate to integer value 
+[**math.trunc\~**](math.trunc~.html): truncate to integer value 
 
 
 [### midi](category_midi.html)
@@ -1087,17 +1087,17 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 ---
 
 
-[**click~**](click~.html): Output single impulse on bang 
+[**click\~**](click~.html): Output single impulse on bang 
 
-[**fluid~**](fluid~.html): FluidSynth SoundFont 2 player 
+[**fluid\~**](fluid~.html): FluidSynth SoundFont 2 player 
 
-[**modplug~**](modplug~.html): MOD file player (using libmodplug) 
+[**modplug\~**](modplug~.html): MOD file player (using libmodplug) 
 
-[**sfizz~**](sfizz~.html): SFZ format sample player 
+[**sfizz\~**](sfizz~.html): SFZ format sample player 
 
 [**speech.flite**](speech.flite.html): render speech to array 
 
-[**speech.flite~**](speech.flite~.html): render speech to array 
+[**speech.flite\~**](speech.flite~.html): render speech to array 
 
 
 [### msg](category_msg.html)
@@ -1135,7 +1135,7 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 
 [**noise.collatz**](noise.collatz.html): Part of a-chaos library 
 
-[**noise.crackle~**](noise.crackle~.html): sparse noise generator 
+[**noise.crackle\~**](noise.crackle~.html): sparse noise generator 
 
 [**noise.duffing**](noise.duffing.html): Part of a-chaos library 
 
@@ -1151,9 +1151,9 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 
 [**noise.ikeda**](noise.ikeda.html): Part of a-chaos library 
 
-[**noise.lfreq0~**](noise.lfreq0~.html): sampled/held noise (piecewise constant) 
+[**noise.lfreq0\~**](noise.lfreq0~.html): sampled/held noise (piecewise constant) 
 
-[**noise.lfreq~**](noise.lfreq~.html): noise.lfreq0~ smoothed with no overshoot 
+[**noise.lfreq\~**](noise.lfreq~.html): noise.lfreq0~ smoothed with no overshoot 
 
 [**noise.lorenz**](noise.lorenz.html): Part of a-chaos library 
 
@@ -1161,7 +1161,7 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 
 [**noise.navier_stokes**](noise.navier_stokes.html): Part of a-chaos library 
 
-[**noise.pink~**](noise.pink~.html): Pink noise generator 
+[**noise.pink\~**](noise.pink~.html): Pink noise generator 
 
 [**noise.rossler**](noise.rossler.html): Part of a-chaos library 
 
@@ -1171,7 +1171,7 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 
 [**noise.verhulst**](noise.verhulst.html): Part of a-chaos library 
 
-[**noise.white~**](noise.white~.html): White noise generator 
+[**noise.white\~**](noise.white~.html): White noise generator 
 
 
 [### osc](category_osc.html)
@@ -1179,23 +1179,23 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 ---
 
 
-[**osc.blit~**](osc.blit~.html): Bandlimited impulse train oscillator 
+[**osc.blit\~**](osc.blit~.html): Bandlimited impulse train oscillator 
 
-[**osc.impulse~**](osc.impulse~.html): Bandlimited impulse train generator 
+[**osc.impulse\~**](osc.impulse~.html): Bandlimited impulse train generator 
 
-[**osc.pulse~**](osc.pulse~.html): Bandlimited pulse train oscillator 
+[**osc.pulse\~**](osc.pulse~.html): Bandlimited pulse train oscillator 
 
-[**osc.saw4~**](osc.saw4~.html): Bandlimited sawtooth wave 
+[**osc.saw4\~**](osc.saw4~.html): Bandlimited sawtooth wave 
 
-[**osc.saw~**](osc.saw~.html): Alias-free sawtooth wave 
+[**osc.saw\~**](osc.saw~.html): Alias-free sawtooth wave 
 
-[**osc.sinfb~**](osc.sinfb~.html): Sine oscilator with feedback 
+[**osc.sinfb\~**](osc.sinfb~.html): Sine oscilator with feedback 
 
-[**osc.sin~**](osc.sin~.html): Sine wave oscillator 
+[**osc.sin\~**](osc.sin~.html): Sine wave oscillator 
 
-[**osc.square~**](osc.square~.html): Bandlimited square wave oscillator 
+[**osc.square\~**](osc.square~.html): Bandlimited square wave oscillator 
 
-[**osc.tri~**](osc.tri~.html): Bandlimited triangle wave oscillator 
+[**osc.tri\~**](osc.tri~.html): Bandlimited triangle wave oscillator 
 
 
 [### patch](category_patch.html)
@@ -1299,7 +1299,7 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 
 [**prop.get**](prop.get.html): get property from connected object/subpatch/abstraction 
 
-[**prop.get~**](prop.get~.html): Property extractor from sound stream 
+[**prop.get\~**](prop.get~.html): Property extractor from sound stream 
 
 [**prop.join**](prop.join.html): join property to main data flow 
 
@@ -1357,7 +1357,7 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 ---
 
 
-[**samp.time~**](samp.time~.html): sample counter 
+[**samp.time\~**](samp.time~.html): sample counter 
 
 
 [### seq](category_seq.html)
@@ -1397,53 +1397,53 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 ---
 
 
-[**hoa.2d.decoder~**](hoa.2d.decoder~.html): hoa 2d decoder 
+[**hoa.2d.decoder\~**](hoa.2d.decoder~.html): hoa 2d decoder 
 
-[**hoa.2d.encoder~**](hoa.2d.encoder~.html): hoa 2d encoder 
+[**hoa.2d.encoder\~**](hoa.2d.encoder~.html): hoa 2d encoder 
 
-[**hoa.2d.map~**](hoa.2d.map~.html): a 2d ambisonic multisource spatializer 
+[**hoa.2d.map\~**](hoa.2d.map~.html): a 2d ambisonic multisource spatializer 
 
-[**hoa.2d.optim~**](hoa.2d.optim~.html): a 2D ambisonic optimization tool 
+[**hoa.2d.optim\~**](hoa.2d.optim~.html): a 2D ambisonic optimization tool 
 
-[**hoa.2d.projector~**](hoa.2d.projector~.html): a plane waves decomposer from circular harmonics domain 
+[**hoa.2d.projector\~**](hoa.2d.projector~.html): a plane waves decomposer from circular harmonics domain 
 
-[**hoa.2d.recomposer~**](hoa.2d.recomposer~.html): recomposes a 2d plane wave decomposition into circular harmonics 
+[**hoa.2d.recomposer\~**](hoa.2d.recomposer~.html): recomposes a 2d plane wave decomposition into circular harmonics 
 
-[**hoa.2d.rotate~**](hoa.2d.rotate~.html): a 2D ambisonic sound field rotation 
+[**hoa.2d.rotate\~**](hoa.2d.rotate~.html): a 2D ambisonic sound field rotation 
 
-[**hoa.2d.wider~**](hoa.2d.wider~.html): a 2d fractional ambisonic order simulator 
+[**hoa.2d.wider\~**](hoa.2d.wider~.html): a 2d fractional ambisonic order simulator 
 
 [**hoa.@process**](hoa.%40process.html): process properties manager for hoa.process~ 
 
 [**hoa.in**](hoa.in.html): message inlet for a patcher loaded by hoa.process~ 
 
-[**hoa.in~**](hoa.in~.html): signal inlet for a patcher loaded by hoa.process~ 
+[**hoa.in\~**](hoa.in~.html): signal inlet for a patcher loaded by hoa.process~ 
 
 [**hoa.out**](hoa.out.html): message outlet for a patcher loaded by hoa.process~ 
 
-[**hoa.out~**](hoa.out~.html): signal inlet for a patcher loaded by hoa.process~ 
+[**hoa.out\~**](hoa.out~.html): signal inlet for a patcher loaded by hoa.process~ 
 
-[**hoa.process~**](hoa.process~.html): patcher loader for multichannel processing 
+[**hoa.process\~**](hoa.process~.html): patcher loader for multichannel processing 
 
-[**hoa.scope~**](hoa.scope~.html): a 2d ambisonic harmonic scope 
+[**hoa.scope\~**](hoa.scope~.html): a 2d ambisonic harmonic scope 
 
-[**pan.cos~**](pan.cos~.html): two channel equal power sine/cosine panner 
+[**pan.cos\~**](pan.cos~.html): two channel equal power sine/cosine panner 
 
-[**pan.linsig~**](pan.linsig~.html): two channel linear panner with signal control 
+[**pan.linsig\~**](pan.linsig~.html): two channel linear panner with signal control 
 
-[**pan.lin~**](pan.lin~.html): two channel linear panner 
+[**pan.lin\~**](pan.lin~.html): two channel linear panner 
 
-[**pan.spread~**](pan.spread~.html): spreads input channels across the stereo field 
+[**pan.spread\~**](pan.spread~.html): spreads input channels across the stereo field 
 
-[**pan.sqrt~**](pan.sqrt~.html): two channel equal power square root panner 
+[**pan.sqrt\~**](pan.sqrt~.html): two channel equal power square root panner 
 
-[**spat.pan4~**](spat.pan4~.html): GMEM SPAT: 4-outputs spatializer 
+[**spat.pan4\~**](spat.pan4~.html): GMEM SPAT: 4-outputs spatializer 
 
-[**spat.pan8~**](spat.pan8~.html): GMEM SPAT: 8-outputs spatializer 
+[**spat.pan8\~**](spat.pan8~.html): GMEM SPAT: 8-outputs spatializer 
 
-[**spat.zita6x8~**](spat.zita6x8~.html): spat with 6 inputs sources to 8 channel output 
+[**spat.zita6x8\~**](spat.zita6x8~.html): spat with 6 inputs sources to 8 channel output 
 
-[**spat.zita8~**](spat.zita8~.html): 8 channel reverb spatializer 
+[**spat.zita8\~**](spat.zita8~.html): 8 channel reverb spatializer 
 
 
 [### string](category_string.html)
@@ -1501,61 +1501,61 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 ---
 
 
-[**synth.bee3~**](synth.bee3~.html): Hammond-oid organ FM synthesis instrument 
+[**synth.bee3\~**](synth.bee3~.html): Hammond-oid organ FM synthesis instrument 
 
-[**synth.birds~**](synth.birds~.html): bird singing generator 
+[**synth.birds\~**](synth.birds~.html): bird singing generator 
 
-[**synth.church_bell~**](synth.church_bell~.html): generic church bell modal model 
+[**synth.church_bell\~**](synth.church_bell~.html): generic church bell modal model 
 
-[**synth.dubdub~**](synth.dubdub~.html): simple synth based on a sawtooth wave filtered by a resonant lowpass 
+[**synth.dubdub\~**](synth.dubdub~.html): simple synth based on a sawtooth wave filtered by a resonant lowpass 
 
-[**synth.dx7~**](synth.dx7~.html): FAUST dx7 implementation 
+[**synth.dx7\~**](synth.dx7~.html): FAUST dx7 implementation 
 
-[**synth.eguitar~**](synth.eguitar~.html): simple electric guitar model with steel strings 
+[**synth.eguitar\~**](synth.eguitar~.html): simple electric guitar model with steel strings 
 
-[**synth.english_bell~**](synth.english_bell~.html): english church bell modal model 
+[**synth.english_bell\~**](synth.english_bell~.html): english church bell modal model 
 
-[**synth.fgrain~**](synth.fgrain~.html): file granulator from STK 
+[**synth.fgrain\~**](synth.fgrain~.html): file granulator from STK 
 
-[**synth.french_bell~**](synth.french_bell~.html): french church bell modal model 
+[**synth.french_bell\~**](synth.french_bell~.html): french church bell modal model 
 
-[**synth.german_bell~**](synth.german_bell~.html): german church bell modal model 
+[**synth.german_bell\~**](synth.german_bell~.html): german church bell modal model 
 
-[**synth.glass_harm~**](synth.glass_harm~.html): nonlinear banded waveguide modeled Glass Harmonica 
+[**synth.glass_harm\~**](synth.glass_harm~.html): nonlinear banded waveguide modeled Glass Harmonica 
 
-[**synth.glitch~**](synth.glitch~.html): Glitch synthesizer by naivesound 
+[**synth.glitch\~**](synth.glitch~.html): Glitch synthesizer by naivesound 
 
-[**synth.harpsichord~**](synth.harpsichord~.html): waveguide commuted harpsichord 
+[**synth.harpsichord\~**](synth.harpsichord~.html): waveguide commuted harpsichord 
 
-[**synth.kick~**](synth.kick~.html): low-kick synth from Guitarix project 
+[**synth.kick\~**](synth.kick~.html): low-kick synth from Guitarix project 
 
-[**synth.ks~**](synth.ks~.html): Karplus-Strong string 
+[**synth.ks\~**](synth.ks~.html): Karplus-Strong string 
 
-[**synth.marimba~**](synth.marimba~.html): simple marimba physical model implementing a single tone bar connected to tube 
+[**synth.marimba\~**](synth.marimba~.html): simple marimba physical model implementing a single tone bar connected to tube 
 
-[**synth.piano~**](synth.piano~.html): waveguide commuted piano 
+[**synth.piano\~**](synth.piano~.html): waveguide commuted piano 
 
-[**synth.rhodey~**](synth.rhodey~.html): STK Fender Rhodes electric piano FM synthesis instrument 
+[**synth.rhodey\~**](synth.rhodey~.html): STK Fender Rhodes electric piano FM synthesis instrument 
 
-[**synth.risset_arp~**](synth.risset_arp~.html): Jean Claude Risset&#39;s harmonic arpeggio effect 
+[**synth.risset_arp\~**](synth.risset_arp~.html): Jean Claude Risset&#39;s harmonic arpeggio effect 
 
-[**synth.risset_bell~**](synth.risset_bell~.html): Jean Claude Risset&#39;s bell synth 
+[**synth.risset_bell\~**](synth.risset_bell~.html): Jean Claude Risset&#39;s bell synth 
 
-[**synth.risset_tone~**](synth.risset_tone~.html): Jean Claude Risset&#39;s endless glissando 
+[**synth.risset_tone\~**](synth.risset_tone~.html): Jean Claude Risset&#39;s endless glissando 
 
-[**synth.russian_bell~**](synth.russian_bell~.html): russian church bell modal model 
+[**synth.russian_bell\~**](synth.russian_bell~.html): russian church bell modal model 
 
-[**synth.shakers~**](synth.shakers~.html): various percussion sounds from STK library 
+[**synth.shakers\~**](synth.shakers~.html): various percussion sounds from STK library 
 
-[**synth.sitar~**](synth.sitar~.html): STK sitar 
+[**synth.sitar\~**](synth.sitar~.html): STK sitar 
 
-[**synth.snare~**](synth.snare~.html): Snare drum synth from Guitarix project 
+[**synth.snare\~**](synth.snare~.html): Snare drum synth from Guitarix project 
 
-[**synth.standard_bell~**](synth.standard_bell~.html): german church bell modal model 
+[**synth.standard_bell\~**](synth.standard_bell~.html): german church bell modal model 
 
-[**synth.tube_bell~**](synth.tube_bell~.html): STK tubular bell (orchestral chime) FM synthesis instrument 
+[**synth.tube_bell\~**](synth.tube_bell~.html): STK tubular bell (orchestral chime) FM synthesis instrument 
 
-[**synth.wurley~**](synth.wurley~.html): Wurlitzer electric piano FM synthesis instrument 
+[**synth.wurley\~**](synth.wurley~.html): Wurlitzer electric piano FM synthesis instrument 
 
 
 [### system](category_system.html)
@@ -1613,17 +1613,17 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 
 [**ui.display**](ui.display.html): Display GUI object 
 
-[**ui.dsp~**](ui.dsp~.html): GUI for turning DSP on/off 
+[**ui.dsp\~**](ui.dsp~.html): GUI for turning DSP on/off 
 
 [**ui.env**](ui.env.html): envelope editor widget 
 
 [**ui.filter**](ui.filter.html): UI filter object calculator for biquad filter 
 
-[**ui.filter~**](ui.filter~.html): UI filter object based on biquad filter 
+[**ui.filter\~**](ui.filter~.html): UI filter object based on biquad filter 
 
-[**ui.gain2~**](ui.gain2~.html): UI stereo gain control 
+[**ui.gain2\~**](ui.gain2~.html): UI stereo gain control 
 
-[**ui.gain~**](ui.gain~.html): UI gain control 
+[**ui.gain\~**](ui.gain~.html): UI gain control 
 
 [**ui.icon**](ui.icon.html): simple icon with button capabilities 
 
@@ -1641,7 +1641,7 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 
 [**ui.menu**](ui.menu.html): Dropdown menu 
 
-[**ui.meter~**](ui.meter~.html): Shows peak and rms signal level 
+[**ui.meter\~**](ui.meter~.html): Shows peak and rms signal level 
 
 [**ui.midi**](ui.midi.html): incoming MIDI message viewport 
 
@@ -1651,9 +1651,9 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 
 [**ui.number**](ui.number.html): counterpart of the vanilla [nbx] 
 
-[**ui.number~**](ui.number~.html): counterpart of the vanilla [nbx] for signal 
+[**ui.number\~**](ui.number~.html): counterpart of the vanilla [nbx] for signal 
 
-[**ui.plot~**](ui.plot~.html): signal plotter 
+[**ui.plot\~**](ui.plot~.html): signal plotter 
 
 [**ui.polar**](ui.polar.html): 2D slider in polar coordinates 
 
@@ -1663,7 +1663,7 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 
 [**ui.rslider**](ui.rslider.html): range slider 
 
-[**ui.scope~**](ui.scope~.html): Scope GUI object 
+[**ui.scope\~**](ui.scope~.html): Scope GUI object 
 
 [**ui.slider**](ui.slider.html): counterpart of the vanilla slider 
 
@@ -1671,7 +1671,7 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 
 [**ui.sliders**](ui.sliders.html): Multiple slider widget 
 
-[**ui.spectroscope~**](ui.spectroscope~.html): Spectroscope GUI object 
+[**ui.spectroscope\~**](ui.spectroscope~.html): Spectroscope GUI object 
 
 [**ui.tab**](ui.tab.html): displays a list of text buttons or text toggles 
 

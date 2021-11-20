@@ -2,6 +2,8 @@
 ---
 
 # math.cdiv~
+**aliases:** [ceammc/cdiv\~], [cdiv\~]
+
 
 ###### division of complex signals
 

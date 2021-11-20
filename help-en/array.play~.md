@@ -2,6 +2,8 @@
 ---
 
 # array.play~
+**aliases:** [array.p\~]
+
 
 ###### array player with variable speed and amplitude
 

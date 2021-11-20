@@ -2,6 +2,8 @@
 ---
 
 # local.dict
+**aliases:** [local.json]
+
 
 ###### local named dict object
 

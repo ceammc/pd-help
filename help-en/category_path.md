@@ -17,11 +17,11 @@
 [**path.is_dir**](path.is_dir.html): check if path is directory 
 
 [**path.lsdir**](path.lsdir.html): list directory contents <br>
-_aliases:_ [path.ls]
+_aliases:_ \[path.ls\]
 
 
 [**path.normalize**](path.normalize.html): normalize file paths <br>
-_aliases:_ [path.norm]
+_aliases:_ \[path.norm\]
 
 
 [**path.search**](path.search.html): file search 

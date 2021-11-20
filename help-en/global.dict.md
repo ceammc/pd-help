@@ -2,6 +2,8 @@
 ---
 
 # global.dict
+**aliases:** [global.json]
+
 
 ###### global named dict object
 

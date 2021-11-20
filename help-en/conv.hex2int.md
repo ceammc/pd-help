@@ -2,6 +2,8 @@
 ---
 
 # conv.hex2int
+**aliases:** [ceammc/hex-&gt;int], [hex-&gt;int]
+
 
 ###### hex symbol to int value
 

@@ -2,6 +2,8 @@
 ---
 
 # array.s2p
+**aliases:** [array.s-&gt;p], [array.sample-&gt;phase]
+
 
 ###### convert sample position to phase range [0..1]
 

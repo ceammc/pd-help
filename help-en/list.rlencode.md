@@ -2,6 +2,8 @@
 ---
 
 # list.rlencode
+**aliases:** [list.wrap]
+
 
 ###### RLE (run-length encoding) for lists
 

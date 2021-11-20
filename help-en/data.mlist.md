@@ -2,6 +2,8 @@
 ---
 
 # data.mlist
+**aliases:** [ceammc/mlist], [mlist], [ceammc/ml], [ml]
+
 
 ###### multidimensional list container
 

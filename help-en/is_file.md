@@ -2,6 +2,8 @@
 ---
 
 # is_file
+**aliases:** [ceammc/is_file]
+
 
 ###### checks if file exists and accessible
 

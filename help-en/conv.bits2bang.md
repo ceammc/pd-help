@@ -2,6 +2,8 @@
 ---
 
 # conv.bits2bang
+**aliases:** [ceammc/bits-&gt;bang], [bits-&gt;bang]
+
 
 ###### convert list of bits to bang events
 

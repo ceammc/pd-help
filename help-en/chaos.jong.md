@@ -2,6 +2,8 @@
 ---
 
 # chaos.jong
+**aliases:** [noise.jong]
+
 
 ###### Peter de Jong attractor
 

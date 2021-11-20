@@ -2,6 +2,8 @@
 ---
 
 # list.unzip
+**aliases:** [list.deinterleave]
+
 
 ###### splits list to N lists, each to separate output
 

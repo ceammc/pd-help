@@ -2,6 +2,8 @@
 ---
 
 # conv.pol2car
+**aliases:** [ceammc/pol-&gt;car], [pol-&gt;car]
+
 
 ###### convert from polar coordinates to cartesian
 

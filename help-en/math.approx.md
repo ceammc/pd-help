@@ -2,6 +2,8 @@
 ---
 
 # math.approx
+**aliases:** [ceammc/approx], [approx]
+
 
 ###### check if input value approximately equal to pattern
 

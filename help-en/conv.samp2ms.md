@@ -2,6 +2,8 @@
 ---
 
 # conv.samp2ms
+**aliases:** [ceammc/samp-&gt;ms], [samp-&gt;ms]
+
 
 ###### convert samples to time according to samplerate
 

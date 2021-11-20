@@ -2,6 +2,8 @@
 ---
 
 # conv.str2sec
+**aliases:** [ceammc/str-&gt;sec], [str-&gt;sec]
+
 
 ###### converts formatted time to float value in seconds
 

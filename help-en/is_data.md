@@ -2,6 +2,8 @@
 ---
 
 # is_data
+**aliases:** [ceammc/is_data]
+
 
 ###### checks if input data has *data* type
 

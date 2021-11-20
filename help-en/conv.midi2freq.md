@@ -2,6 +2,8 @@
 ---
 
 # conv.midi2freq
+**aliases:** [ceammc/midi-&gt;freq], [midi-&gt;freq], [ceammc/m-&gt;f], [m-&gt;f]
+
 
 ###### convert from midi pitch to frequency in hz (with various base A and temperament)
 

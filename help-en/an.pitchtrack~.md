@@ -2,6 +2,8 @@
 ---
 
 # an.pitchtrack~
+**aliases:** [ceammc/helmholtz\~], [helmholtz\~]
+
 
 ###### pitch tracker
 

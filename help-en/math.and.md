@@ -2,6 +2,8 @@
 ---
 
 # math.and
+**aliases:** [ceammc/and], [and]
+
 
 ###### operation AND for multiple arguments
 

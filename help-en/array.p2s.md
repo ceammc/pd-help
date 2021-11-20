@@ -2,6 +2,8 @@
 ---
 
 # array.p2s
+**aliases:** [array.p-&gt;s], [array.phase-&gt;sample]
+
 
 ###### convert array phase [0..1] to sample position
 

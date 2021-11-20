@@ -2,6 +2,8 @@
 ---
 
 # flow.pass
+**aliases:** [ceammc/pass], [pass]
+
 
 ###### pass specified values
 

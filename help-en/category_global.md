@@ -7,7 +7,7 @@
 
 
 [**global.dict**](global.dict.html): global named dict object <br>
-_aliases:_ [global.json]
+_aliases:_ \[global.json\]
 
 
 [**global.float**](global.float.html): global named float object 

@@ -2,6 +2,8 @@
 ---
 
 # flow.list2many
+**aliases:** [ceammc/list-&gt;many], [list-&gt;many]
+
 
 ###### routes list element with message selectors
 

@@ -2,6 +2,8 @@
 ---
 
 # conv.sig2float~
+**aliases:** [ceammc/sig-&gt;float\~], [sig-&gt;float\~], [ceammc/s-&gt;f\~], [s-&gt;f\~]
+
 
 ###### convert signal to floats
 

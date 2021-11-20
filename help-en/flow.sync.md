@@ -2,6 +2,8 @@
 ---
 
 # flow.sync
+**aliases:** [flow.&#39;]
+
 
 ###### bus with only hot inlets
 

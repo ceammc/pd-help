@@ -2,6 +2,8 @@
 ---
 
 # list.resample
+**aliases:** [list.r]
+
 
 ###### resample list with specified ratio
 

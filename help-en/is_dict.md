@@ -2,6 +2,8 @@
 ---
 
 # is_dict
+**aliases:** [ceammc/is_dict]
+
 
 ###### checks if input data has *dict* type
 

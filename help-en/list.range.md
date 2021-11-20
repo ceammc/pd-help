@@ -2,6 +2,8 @@
 ---
 
 # list.range
+**aliases:** [list.minmax]
+
 
 ###### output list smallest and largest value
 

@@ -2,6 +2,8 @@
 ---
 
 # flow.greater_eq
+**aliases:** [flow.&gt;=]
+
 
 ###### numeric stream router
 

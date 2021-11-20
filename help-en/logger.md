@@ -2,6 +2,8 @@
 ---
 
 # logger
+**aliases:** [ceammc/logger], [log.error], [log.post], [log.debug], [log.verbose], [log.stdout], [log.stderr]
+
 
 ###### advanced data logger
 

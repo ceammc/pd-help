@@ -2,6 +2,8 @@
 ---
 
 # list.mean
+**aliases:** [list.average]
+
 
 ###### calculates average of list of floats
 

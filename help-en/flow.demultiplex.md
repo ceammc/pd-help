@@ -2,6 +2,8 @@
 ---
 
 # flow.demultiplex
+**aliases:** [flow.demux]
+
 
 ###### control flow demultiplexer
 

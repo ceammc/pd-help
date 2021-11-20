@@ -2,6 +2,8 @@
 ---
 
 # list.rotate
+**aliases:** [list.&gt;]
+
 
 ###### rotates list
 

@@ -2,6 +2,8 @@
 ---
 
 # list.rldecode
+**aliases:** [list.unwrap]
+
 
 ###### Run-length list decoder (RLE)
 

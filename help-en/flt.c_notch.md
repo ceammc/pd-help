@@ -2,6 +2,8 @@
 ---
 
 # flt.c_notch
+**aliases:** [ceammc/notch-&gt;biquad], [notch-&gt;biquad]
+
 
 ###### Notch filter coefficient calculator for biquad
 

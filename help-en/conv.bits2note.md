@@ -2,6 +2,8 @@
 ---
 
 # conv.bits2note
+**aliases:** [ceammc/bits-&gt;note], [bits-&gt;note]
+
 
 ###### convert list of bits to note events
 

@@ -2,6 +2,8 @@
 ---
 
 # flow.sync_pack
+**aliases:** [flow.pack&#39;]
+
 
 ###### flow pack with all hot inlets
 

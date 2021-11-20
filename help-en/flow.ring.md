@@ -2,6 +2,8 @@
 ---
 
 # flow.ring
+**aliases:** [flow.&gt;&gt;]
+
 
 ###### dataflow ring buffer
 

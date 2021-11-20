@@ -2,6 +2,8 @@
 ---
 
 # list.convolve
+**aliases:** [list.conv]
+
 
 ###### convolution for lists
 

@@ -2,6 +2,8 @@
 ---
 
 # conv.lin2lin~
+**aliases:** [ceammc/lin-&gt;lin\~], [lin-&gt;lin\~], [ceammc/l-&gt;l\~], [l-&gt;l\~]
+
 
 ###### convert from one linear range to another for signals
 

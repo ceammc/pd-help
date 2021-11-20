@@ -2,6 +2,8 @@
 ---
 
 # hoa.2d.rotate~
+**aliases:** [hoa.rotate~]
+
 
 ###### a 2D ambisonic sound field rotation
 

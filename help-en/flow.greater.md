@@ -2,6 +2,8 @@
 ---
 
 # flow.greater
+**aliases:** [flow.&gt;]
+
 
 ###### numeric stream router
 

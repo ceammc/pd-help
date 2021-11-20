@@ -2,6 +2,8 @@
 ---
 
 # conv.rad2phase
+**aliases:** [ceammc/rad-&gt;phase], [rad-&gt;phase]
+
 
 ###### convert radians value to phase
 

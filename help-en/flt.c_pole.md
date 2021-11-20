@@ -2,6 +2,8 @@
 ---
 
 # flt.c_pole
+**aliases:** [ceammc/pole-&gt;biquad], [pole-&gt;biquad]
+
 
 ###### One-pole coefficient calculator for biquad filter
 

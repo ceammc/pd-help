@@ -2,6 +2,8 @@
 ---
 
 # flow.reject
+**aliases:** [ceammc/reject], [reject], [flow.!]
+
 
 ###### reject specified values
 

@@ -2,6 +2,8 @@
 ---
 
 # conv.list2props
+**aliases:** [ceammc/list-&gt;props], [list-&gt;props], [ceammc/any-&gt;props], [any-&gt;props]
+
 
 ###### converts list to series of property messages
 

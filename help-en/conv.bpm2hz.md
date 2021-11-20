@@ -2,6 +2,8 @@
 ---
 
 # conv.bpm2hz
+**aliases:** [ceammc/bpm-&gt;hz], [bpm-&gt;hz]
+
 
 ###### converts BPM to frequency in herz
 

@@ -6,9 +6,9 @@
 
 
 
-[**lang.faust~**](lang.faust~.html): faust realtime compilation 
+[**lang.faust\~**](lang.faust~.html): faust realtime compilation 
 
-[**ui.faust~**](ui.faust~.html): faust compiled ui object 
+[**ui.faust\~**](ui.faust~.html): faust compiled ui object 
 
 
 **Version:** 0.9.4

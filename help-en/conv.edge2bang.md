@@ -2,6 +2,8 @@
 ---
 
 # conv.edge2bang
+**aliases:** [ceammc/edge-&gt;bang], [edge-&gt;bang]
+
 
 ###### edge detector for numeric stream
 

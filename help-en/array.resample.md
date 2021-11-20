@@ -2,6 +2,8 @@
 ---
 
 # array.resample
+**aliases:** [array.r]
+
 
 ###### array resampler
 

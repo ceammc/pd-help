@@ -2,6 +2,8 @@
 ---
 
 # flow.float
+**aliases:** [flow.f]
+
 
 ###### pass floats
 

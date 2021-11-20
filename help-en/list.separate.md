@@ -2,6 +2,8 @@
 ---
 
 # list.separate
+**aliases:** [list.sep]
+
 
 ###### sends list elements one by one separately
 

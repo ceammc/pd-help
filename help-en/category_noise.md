@@ -12,7 +12,7 @@
 
 [**noise.collatz**](noise.collatz.html): Part of a-chaos library 
 
-[**noise.crackle~**](noise.crackle~.html): sparse noise generator 
+[**noise.crackle\~**](noise.crackle~.html): sparse noise generator 
 
 [**noise.duffing**](noise.duffing.html): Part of a-chaos library 
 
@@ -28,9 +28,9 @@
 
 [**noise.ikeda**](noise.ikeda.html): Part of a-chaos library 
 
-[**noise.lfreq0~**](noise.lfreq0~.html): sampled/held noise (piecewise constant) 
+[**noise.lfreq0\~**](noise.lfreq0~.html): sampled/held noise (piecewise constant) 
 
-[**noise.lfreq~**](noise.lfreq~.html): noise.lfreq0~ smoothed with no overshoot 
+[**noise.lfreq\~**](noise.lfreq~.html): noise.lfreq0~ smoothed with no overshoot 
 
 [**noise.lorenz**](noise.lorenz.html): Part of a-chaos library 
 
@@ -38,7 +38,7 @@
 
 [**noise.navier_stokes**](noise.navier_stokes.html): Part of a-chaos library 
 
-[**noise.pink~**](noise.pink~.html): Pink noise generator 
+[**noise.pink\~**](noise.pink~.html): Pink noise generator 
 
 [**noise.rossler**](noise.rossler.html): Part of a-chaos library 
 
@@ -48,7 +48,7 @@
 
 [**noise.verhulst**](noise.verhulst.html): Part of a-chaos library 
 
-[**noise.white~**](noise.white~.html): White noise generator 
+[**noise.white\~**](noise.white~.html): White noise generator 
 
 
 **Version:** 0.9.4

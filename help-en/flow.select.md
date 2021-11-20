@@ -2,6 +2,8 @@
 ---
 
 # flow.select
+**aliases:** [flow.sel]
+
 
 ###### vanilla flow on steroids
 

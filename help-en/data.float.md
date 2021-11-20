@@ -2,6 +2,8 @@
 ---
 
 # data.float
+**aliases:** [.float], [.f]
+
 
 ###### robust float object
 

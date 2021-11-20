@@ -2,6 +2,8 @@
 ---
 
 # flow.multiplex
+**aliases:** [flow.mux]
+
 
 ###### control flow multiplexer
 

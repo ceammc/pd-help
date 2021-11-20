@@ -2,6 +2,8 @@
 ---
 
 # conv.lin2exp
+**aliases:** [ceammc/lin-&gt;exp], [lin-&gt;exp]
+
 
 ###### maps linear range to exponential range
 

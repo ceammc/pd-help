@@ -2,6 +2,8 @@
 ---
 
 # flt.c_lpf
+**aliases:** [ceammc/lpf-&gt;biquad], [lpf-&gt;biquad]
+
 
 ###### LPF coefficient calculator for biquad filter
 

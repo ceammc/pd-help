@@ -2,6 +2,8 @@
 ---
 
 # envelope
+**aliases:** [ceammc/envelope], [ceammc/env], [env]
+
 
 ###### Envelope data type
 

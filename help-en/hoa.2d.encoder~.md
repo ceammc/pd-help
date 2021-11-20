@@ -2,6 +2,8 @@
 ---
 
 # hoa.2d.encoder~
+**aliases:** [hoa.encoder~]
+
 
 ###### hoa 2d encoder
 

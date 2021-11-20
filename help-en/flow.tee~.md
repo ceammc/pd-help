@@ -2,6 +2,8 @@
 ---
 
 # flow.tee~
+**aliases:** [ceammc/tee~], [tee~], [ceammc/~-&gt;], [~-&gt;]
+
 
 ###### separate audio and control streams
 

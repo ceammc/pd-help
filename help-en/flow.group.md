@@ -2,6 +2,8 @@
 ---
 
 # flow.group
+**aliases:** [ceammc/group], [group]
+
 
 ###### group input atoms in list of specified size
 

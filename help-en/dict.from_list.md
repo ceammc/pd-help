@@ -2,6 +2,8 @@
 ---
 
 # dict.from_list
+**aliases:** [ceammc/list-&gt;dict], [list-&gt;dict]
+
 
 ###### creates dictionary from list
 

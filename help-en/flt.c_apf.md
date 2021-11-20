@@ -2,6 +2,8 @@
 ---
 
 # flt.c_apf
+**aliases:** [ceammc/apf-&gt;biquad], [apf-&gt;biquad]
+
 
 ###### Allpass filter coefficient calculator for biquad
 

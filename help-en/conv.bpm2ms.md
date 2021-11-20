@@ -2,6 +2,8 @@
 ---
 
 # conv.bpm2ms
+**aliases:** [ceammc/bpm-&gt;ms], [bpm-&gt;ms]
+
 
 ###### convert frequency in BPM to period in milliseconds
 

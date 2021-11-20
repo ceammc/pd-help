@@ -2,6 +2,8 @@
 ---
 
 # env2vline
+**aliases:** [ceammc/env2vline], [ceammc/env-&gt;vline], [env-&gt;vline]
+
 
 ###### Converts envelope to bunch of vline messages
 

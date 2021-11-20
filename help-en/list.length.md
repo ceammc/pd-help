@@ -2,6 +2,8 @@
 ---
 
 # list.length
+**aliases:** [list.size]
+
 
 ###### output the number of atoms in the list
 

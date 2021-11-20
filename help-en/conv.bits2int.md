@@ -2,6 +2,8 @@
 ---
 
 # conv.bits2int
+**aliases:** [ceammc/bits-&gt;int], [bits-&gt;int]
+
 
 ###### convert list of bits to integer
 

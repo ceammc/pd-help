@@ -2,6 +2,8 @@
 ---
 
 # dict.to_list
+**aliases:** [ceammc/dict-&gt;list], [dict-&gt;list]
+
 
 ###### converts dictionary to plain list
 

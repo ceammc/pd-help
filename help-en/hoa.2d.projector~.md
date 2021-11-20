@@ -2,6 +2,8 @@
 ---
 
 # hoa.2d.projector~
+**aliases:** [hoa.projector~]
+
 
 ###### a plane waves decomposer from circular harmonics domain
 

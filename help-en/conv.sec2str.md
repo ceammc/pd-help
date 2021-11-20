@@ -2,6 +2,8 @@
 ---
 
 # conv.sec2str
+**aliases:** [ceammc/sec-&gt;str], [sec-&gt;str]
+
 
 ###### converts float time in seconds to formated symbol (or string)
 

@@ -2,6 +2,8 @@
 ---
 
 # expand_env
+**aliases:** [ceammc/expand_env]
+
 
 ###### Substitute environment variables in data stream
 

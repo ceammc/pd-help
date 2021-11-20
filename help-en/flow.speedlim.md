@@ -2,6 +2,8 @@
 ---
 
 # flow.speedlim
+**aliases:** [ceammc/speedlim], [speedlim]
+
 
 ###### control stream speed limiter
 

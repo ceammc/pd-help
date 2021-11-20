@@ -2,6 +2,8 @@
 ---
 
 # conv.sec2samp
+**aliases:** [ceammc/sec-&gt;samp], [sec-&gt;samp]
+
 
 ###### convert time in seconds to number of samples according to current samplerate
 

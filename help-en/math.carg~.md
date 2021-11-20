@@ -2,6 +2,8 @@
 ---
 
 # math.carg~
+**aliases:** [ceammc/carg~], [carg~]
+
 
 ###### phase angle of a complex signals
 

@@ -2,6 +2,8 @@
 ---
 
 # hoa.2d.recomposer~
+**aliases:** [hoa.recomposer~]
+
 
 ###### recomposes a 2d plane wave decomposition into circular harmonics
 

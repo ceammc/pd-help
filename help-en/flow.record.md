@@ -2,6 +2,8 @@
 ---
 
 # flow.record
+**aliases:** [flow.rec]
+
 
 ###### flow stream recorder/player
 

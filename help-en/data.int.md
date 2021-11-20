@@ -2,6 +2,8 @@
 ---
 
 # data.int
+**aliases:** [.int], [.i]
+
 
 ###### robust int object
 

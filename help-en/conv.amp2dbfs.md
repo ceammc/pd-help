@@ -2,6 +2,8 @@
 ---
 
 # conv.amp2dbfs
+**aliases:** [ceammc/amp-&gt;dbfs], [amp-&gt;dbfs]
+
 
 ###### convert from amplitude to decibel full scale
 

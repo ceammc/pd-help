@@ -2,6 +2,8 @@
 ---
 
 # math.binomial
+**aliases:** [math.nck]
+
 
 ###### binomial coefficient calculator
 

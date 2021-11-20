@@ -2,6 +2,8 @@
 ---
 
 # click~
+**aliases:** [ceammc/click\~]
+
 
 ###### Output single impulse on bang
 

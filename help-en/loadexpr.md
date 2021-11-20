@@ -2,6 +2,8 @@
 ---
 
 # loadexpr
+**aliases:** [ceammc/loadexpr]
+
 
 ###### send message when patch loads
 

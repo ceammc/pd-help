@@ -2,6 +2,8 @@
 ---
 
 # flow.less_eq
+**aliases:** [flow.&lt;=]
+
 
 ###### numeric stream router, like many [moses]
 

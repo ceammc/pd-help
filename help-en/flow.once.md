@@ -2,6 +2,8 @@
 ---
 
 # flow.once
+**aliases:** [ceammc/once], [once]
+
 
 ###### one message pass thru
 

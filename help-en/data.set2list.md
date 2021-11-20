@@ -2,6 +2,8 @@
 ---
 
 # data.set2list
+**aliases:** [ceammc/set-&gt;list], [set-&gt;list]
+
 
 ###### converts set to list
 

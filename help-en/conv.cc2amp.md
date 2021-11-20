@@ -2,6 +2,8 @@
 ---
 
 # conv.cc2amp
+**aliases:** [ceammc/cc-&gt;amp], [cc-&gt;amp]
+
 
 ###### convert from MIDI Control Change range
 

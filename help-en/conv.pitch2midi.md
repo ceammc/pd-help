@@ -2,6 +2,8 @@
 ---
 
 # conv.pitch2midi
+**aliases:** [ceammc/pitch-&gt;midi], [pitch-&gt;midi]
+
 
 ###### converts symbol pitch name to MIDI note number
 

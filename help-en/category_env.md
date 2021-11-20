@@ -27,19 +27,19 @@
 [**env.vscale**](env.vscale.html): Envelope value-scale 
 
 [**env2array**](env2array.html): Renders envelope to specified array <br>
-_aliases:_ ceammc/env2array, ceammc/env-&gt;array, env-&gt;array
+_aliases:_ [ceammc/env2array], [ceammc/env-&gt;array], [env-&gt;array]
 
 
 [**env2vline**](env2vline.html): Converts envelope to bunch of vline messages <br>
-_aliases:_ ceammc/env2vline, ceammc/env-&gt;vline, env-&gt;vline
+_aliases:_ [ceammc/env2vline], [ceammc/env-&gt;vline], [env-&gt;vline]
 
 
 [**envelope**](envelope.html): Envelope data type <br>
-_aliases:_ ceammc/envelope, ceammc/env, env
+_aliases:_ [ceammc/envelope], [ceammc/env], [env]
 
 
 [**vline2env**](vline2env.html): Converts vline messages to env <br>
-_aliases:_ ceammc/vline2env, ceammc/vline-&gt;env, vline-&gt;env
+_aliases:_ [ceammc/vline2env], [ceammc/vline-&gt;env], [vline-&gt;env]
 
 
 

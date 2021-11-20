@@ -27,7 +27,7 @@
 [**array.minmax**](array.minmax.html): find array min and max element value 
 
 [**array.play~**](array.play~.html): array player with variable speed and amplitude <br>
-_aliases:_ array.p~
+_aliases:_ [array.p~]
 
 
 [**array.plot**](array.plot.html): array data plotter 
@@ -35,13 +35,13 @@ _aliases:_ array.p~
 [**array.plot~**](array.plot~.html): plot signal on specified array 
 
 [**array.resample**](array.resample.html): array resampler <br>
-_aliases:_ array.r
+_aliases:_ [array.r]
 
 
 [**array.rms**](array.rms.html): calculates root mean square value for array 
 
 [**array.set**](array.set.html): set array content from list <br>
-_aliases:_ ceammc/list-&gt;array, list-&gt;array
+_aliases:_ [ceammc/list-&gt;array], [list-&gt;array]
 
 
 [**array.stddev**](array.stddev.html): calculates standard deviation for array values 
@@ -61,7 +61,7 @@ _aliases:_ ceammc/list-&gt;array, list-&gt;array
 [**plot.geomspace~**](plot.geomspace~.html): outputs numbers spaced evenly on a log scale (a geometric progression) 
 
 [**plot.hist~**](plot.hist~.html): calculate and output signal histogram <br>
-_aliases:_ ceammc/hist~, hist~
+_aliases:_ [ceammc/hist~], [hist~]
 
 
 [**plot.linspace~**](plot.linspace~.html): outputs numbers spaced evenly spaced over a specified interval 

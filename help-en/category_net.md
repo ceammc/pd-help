@@ -7,7 +7,7 @@
 
 
 [**net.host2ip**](net.host2ip.html): returns IP address by DNS name <br>
-_aliases:_ net.host-&gt;ip
+_aliases:_ [net.host-&gt;ip]
 
 
 

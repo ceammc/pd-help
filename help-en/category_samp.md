@@ -7,7 +7,7 @@
 
 
 [**samp.time~**](samp.time~.html): sample counter <br>
-_aliases:_ samp.t~
+_aliases:_ [samp.t~]
 
 
 

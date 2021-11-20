@@ -27,7 +27,7 @@
 [**list.contains**](list.contains.html): checks if input list contains specified atoms 
 
 [**list.convolve**](list.convolve.html): convolution for lists <br>
-_aliases:_ list.conv
+_aliases:_ [list.conv]
 
 
 [**list.correlate**](list.correlate.html): list cross-correlation 
@@ -61,13 +61,13 @@ _aliases:_ list.conv
 [**list.last**](list.last.html): output last list element 
 
 [**list.length**](list.length.html): output the number of atoms in the list <br>
-_aliases:_ list.size
+_aliases:_ [list.size]
 
 
 [**list.max**](list.max.html): output largest element in the list 
 
 [**list.mean**](list.mean.html): calculates average of list of floats <br>
-_aliases:_ list.average
+_aliases:_ [list.average]
 
 
 [**list.min**](list.min.html): returns smallest element in the list 
@@ -77,7 +77,7 @@ _aliases:_ list.average
 [**list.normalize**](list.normalize.html): normalizes float list values to get their sum = 1.0 
 
 [**list.pass_if**](list.pass_if.html): leave only elements accepted by predicate <br>
-_aliases:_ list.filter
+_aliases:_ [list.filter]
 
 
 [**list.prepend**](list.prepend.html): prepend atom or list before input list 
@@ -85,11 +85,11 @@ _aliases:_ list.filter
 [**list.product**](list.product.html): calculates product of floats in list 
 
 [**list.range**](list.range.html): output list smallest and largest value <br>
-_aliases:_ list.minmax
+_aliases:_ [list.minmax]
 
 
 [**list.reduce**](list.reduce.html): apply function of two arguments cumulatively to the list <br>
-_aliases:_ list.foldl
+_aliases:_ [list.foldl]
 
 
 [**list.remove**](list.remove.html): remove list element(s) at specified positions 
@@ -101,7 +101,7 @@ _aliases:_ list.foldl
 [**list.repeat**](list.repeat.html): output new list by repeating input list specified times 
 
 [**list.resample**](list.resample.html): resample list with specified ratio <br>
-_aliases:_ list.r
+_aliases:_ [list.r]
 
 
 [**list.resize**](list.resize.html): changes list size 
@@ -109,15 +109,15 @@ _aliases:_ list.r
 [**list.reverse**](list.reverse.html): reverses the order of the elements in the list 
 
 [**list.rldecode**](list.rldecode.html): Run-length list decoder (RLE) <br>
-_aliases:_ list.unwrap
+_aliases:_ [list.unwrap]
 
 
 [**list.rlencode**](list.rlencode.html): RLE (run-length encoding) for lists <br>
-_aliases:_ list.wrap
+_aliases:_ [list.wrap]
 
 
 [**list.rotate**](list.rotate.html): rotates list <br>
-_aliases:_ list.&lt;&lt;, list.&gt;&gt;
+_aliases:_ [list.&lt;&lt;], [list.&gt;&gt;]
 
 
 [**list.route**](list.route.html): acts like [route] but for lists 
@@ -129,7 +129,7 @@ _aliases:_ list.&lt;&lt;, list.&gt;&gt;
 [**list.search**](list.search.html): search specified items in input list 
 
 [**list.separate**](list.separate.html): sends list elements one by one separately <br>
-_aliases:_ list.sep
+_aliases:_ [list.sep]
 
 
 [**list.seq**](list.seq.html): numeric sequence list generator 
@@ -157,13 +157,13 @@ _aliases:_ list.sep
 [**list.unpack**](list.unpack.html): unpack list elements to separate outlets 
 
 [**list.unzip**](list.unzip.html): splits list to N lists, each to separate output <br>
-_aliases:_ list.deinterleave
+_aliases:_ [list.deinterleave]
 
 
 [**list.walk**](list.walk.html): Walks thru the list 
 
 [**list.zip**](list.zip.html): takes n lists from n inlets (specified by argument) and output their elements sequentially (list1-1 list2-1 list1-2 list2-2 etc.). <br>
-_aliases:_ list.interleave
+_aliases:_ [list.interleave]
 
 
 

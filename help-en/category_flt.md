@@ -13,7 +13,7 @@
 [**flt.bpf24~**](flt.bpf24~.html): Four pole band-pass butterworth filter 
 
 [**flt.c_apf**](flt.c_apf.html): Allpass filter coefficient calculator for biquad <br>
-_aliases:_ ceammc/apf-&gt;biquad, apf-&gt;biquad
+_aliases:_ [ceammc/apf-&gt;biquad], [apf-&gt;biquad]
 
 
 [**flt.c_bpf~**](flt.c_bpf~.html): BPF coefficient calculator for biquad filter 
@@ -21,7 +21,7 @@ _aliases:_ ceammc/apf-&gt;biquad, apf-&gt;biquad
 [**flt.c_highshelf~**](flt.c_highshelf~.html): Highshelf filter coefficient calculator for biquad 
 
 [**flt.c_hpf**](flt.c_hpf.html): HPF coefficient calculator for biquad filter <br>
-_aliases:_ ceammc/hpf-&gt;biquad, hpf-&gt;biquad
+_aliases:_ [ceammc/hpf-&gt;biquad], [hpf-&gt;biquad]
 
 
 [**flt.c_hpf~**](flt.c_hpf~.html): HPF coefficient calculator for biquad filter 
@@ -29,13 +29,13 @@ _aliases:_ ceammc/hpf-&gt;biquad, hpf-&gt;biquad
 [**flt.c_lowshelf~**](flt.c_lowshelf~.html): Lowshelf filter coefficient calculator for biquad 
 
 [**flt.c_lpf**](flt.c_lpf.html): LPF coefficient calculator for biquad filter <br>
-_aliases:_ ceammc/lpf-&gt;biquad, lpf-&gt;biquad
+_aliases:_ [ceammc/lpf-&gt;biquad], [lpf-&gt;biquad]
 
 
 [**flt.c_lpf~**](flt.c_lpf~.html): LPF coefficient calculator for biquad filter 
 
 [**flt.c_notch**](flt.c_notch.html): Notch filter coefficient calculator for biquad <br>
-_aliases:_ ceammc/notch-&gt;biquad, notch-&gt;biquad
+_aliases:_ [ceammc/notch-&gt;biquad], [notch-&gt;biquad]
 
 
 [**flt.c_notch~**](flt.c_notch~.html): Band-reject coefficient calculator for biquad filter 
@@ -43,7 +43,7 @@ _aliases:_ ceammc/notch-&gt;biquad, notch-&gt;biquad
 [**flt.c_peak~**](flt.c_peak~.html): Peaking equalizer calculator for biquad 
 
 [**flt.c_pole**](flt.c_pole.html): One-pole coefficient calculator for biquad filter <br>
-_aliases:_ ceammc/pole-&gt;biquad, pole-&gt;biquad
+_aliases:_ [ceammc/pole-&gt;biquad], [pole-&gt;biquad]
 
 
 [**flt.dcblock2~**](flt.dcblock2~.html): stereo DC blocker 

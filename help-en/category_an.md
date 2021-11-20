@@ -11,7 +11,7 @@
 [**an.onset~**](an.onset~.html): onset detector 
 
 [**an.pitchtrack~**](an.pitchtrack~.html): pitch tracker <br>
-_aliases:_ ceammc/helmholtz~, helmholtz~
+_aliases:_ [ceammc/helmholtz~], [helmholtz~]
 
 
 [**an.rms~**](an.rms~.html): root mean square with moving-average algorithm. 

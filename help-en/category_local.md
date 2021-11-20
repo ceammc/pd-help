@@ -7,7 +7,7 @@
 
 
 [**local.dict**](local.dict.html): local named dict object <br>
-_aliases:_ local.json
+_aliases:_ [local.json]
 
 
 [**local.float**](local.float.html): canvas-scoped named float variable 

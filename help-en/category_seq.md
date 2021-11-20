@@ -9,7 +9,7 @@
 [**seq.arp**](seq.arp.html): sequence arpeggiator 
 
 [**seq.bangs**](seq.bangs.html): bang sequencer <br>
-_aliases:_ seq.b
+_aliases:_ [seq.b]
 
 
 [**seq.counter**](seq.counter.html): sequencer counter 
@@ -19,17 +19,17 @@ _aliases:_ seq.b
 [**seq.matrix**](seq.matrix.html): sequencer control for ui.matrix 
 
 [**seq.nbangs**](seq.nbangs.html): output specified number of bang with time intervals <br>
-_aliases:_ seq.nb
+_aliases:_ [seq.nb]
 
 
 [**seq.phasor**](seq.phasor.html): control rate phasor (saw) generator 
 
 [**seq.toggles**](seq.toggles.html): toggle sequencer <br>
-_aliases:_ seq.t
+_aliases:_ [seq.t]
 
 
 [**sequencer**](sequencer.html): basic sequence player <br>
-_aliases:_ ceammc/sequencer, ceammc/seq, seq
+_aliases:_ [ceammc/sequencer], [ceammc/seq], [seq]
 
 
 

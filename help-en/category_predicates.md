@@ -11,17 +11,17 @@
 [**is_bang**](is_bang.html): checks if input data has *bang* type 
 
 [**is_data**](is_data.html): checks if input data has *data* type <br>
-_aliases:_ ceammc/is_data
+_aliases:_ [ceammc/is_data]
 
 
 [**is_dict**](is_dict.html): checks if input data has *dict* type <br>
-_aliases:_ ceammc/is_dict
+_aliases:_ [ceammc/is_dict]
 
 
 [**is_even**](is_even.html): checks if input number is even 
 
 [**is_file**](is_file.html): checks if file exists and accessible <br>
-_aliases:_ ceammc/is_file
+_aliases:_ [ceammc/is_file]
 
 
 [**is_float**](is_float.html): checks if input data has *float* type 

@@ -87,7 +87,6 @@ _aliases:_ ceammc/pole-&gt;biquad, pole-&gt;biquad
 [**flt.resonbp~**](flt.resonbp~.html): Simple resonant bandpass filter 
 
 
+**Version:** 0.9.4
 
 **License:** GPL3
-
-**Version:** GPL3

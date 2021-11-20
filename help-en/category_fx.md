@@ -67,7 +67,6 @@
 [**fx.zita_rev1~**](fx.zita_rev1~.html): Zita stereo reverb 
 
 
+**Version:** 0.9.4
 
 **License:** GPL3
-
-**Version:** GPL3

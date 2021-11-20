@@ -183,7 +183,6 @@ _aliases:_ music.v-&gt;m
 
 
 
+**Version:** 0.9.4
 
 **License:** GPL3
-
-**Version:** GPL3

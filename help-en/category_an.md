@@ -19,7 +19,6 @@ _aliases:_ ceammc/helmholtz~, helmholtz~
 [**an.tempo~**](an.tempo~.html): tempo detector 
 
 
+**Version:** 0.9.4
 
 **License:** GPL3
-
-**Version:** GPL3

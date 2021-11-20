@@ -71,7 +71,6 @@ _aliases:_ ceammc/hist~, hist~
 [**plot.response~**](plot.response~.html): output amp/phase freq response to impulse 
 
 
+**Version:** 0.9.4
 
 **License:** GPL3
-
-**Version:** GPL3

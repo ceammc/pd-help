@@ -273,7 +273,6 @@ _aliases:_ math.^&#39;, ceammc/^&#39;, ^&#39;
 [**math.trunc~**](math.trunc~.html): truncate to integer value 
 
 
+**Version:** 0.9.4
 
 **License:** GPL3
-
-**Version:** GPL3

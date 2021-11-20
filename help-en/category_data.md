@@ -79,7 +79,6 @@ _aliases:_ ceammc/rtree-&gt;list, rtree-&gt;list
 [**set.union**](set.union.html): output union of given sets 
 
 
+**Version:** 0.9.4
 
 **License:** GPL3
-
-**Version:** GPL3

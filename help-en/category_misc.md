@@ -27,7 +27,6 @@ _aliases:_ ceammc/sfizz~
 [**speech.flite~**](speech.flite~.html): render speech to array 
 
 
+**Version:** 0.9.4
 
 **License:** GPL3
-
-**Version:** GPL3

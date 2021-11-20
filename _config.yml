@@ -7,3 +7,9 @@ description: "PureData CEAMMC library web documentation"
 social-network-links:
   facebook: ceammc
   github: ceammc
+
+# Add a search button to the navbar
+post_search: true
+
+# The keywords to associate with your website, for SEO purposes
+keywords: "ceammc,puredata,music,center,electroacoustic,library"

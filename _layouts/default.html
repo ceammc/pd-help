@@ -29,16 +29,16 @@
         <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
         {% endif %}
 
-        <!-- {% if site.github.is_user_page %}
-        <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
-        {% endif %} -->
+        {% if site.github.repository_url %}
+        <p class="view"><a href="{{ site.github.repository_url }}">View on GitHub</a></p>
+        {% endif %}
 
         {% if site.show_downloads %}
+        {% assign version = site.data.ceammc.distrib.version %}
         <ul class="downloads">
-          <li><a href="http://github.com/uliss/pure-data/releases/v{{data.ceammc.distrib.version}}">Download <strong>DMG File</strong></a></li>
-          <li><a href="http://github.com/uliss/pure-data/releases/v{{data.ceammc.distrib.version}}">Download <strong>EXE File</strong></a></li>
-          <li><a href="{{ site.snapcraft.url }}">Download <strong>SNAP</strong> package</a></li>
-          <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
+          <li><a href="http://github.com/uliss/pure-data/releases/tag/v{{version}}">Download <strong>Mac</strong></a></li>
+          <li><a href="http://github.com/uliss/pure-data/releases/tag/v{{version}}">Download <strong>Windows</strong></a></li>
+          <li><a href="{{ site.snapcraft.url }}">Download <strong>Linux</strong></a></li>
         </ul>
       {% endif %}
       </header>
@@ -46,16 +46,6 @@
 
       {{ content }}
 
-      </section>
-      <section>
-        <h2>Posts</h2>
-        <ul>
-          {% for post in site.posts %}
-            <li>
-              <a href="{{ post.url }}">{{ post.title }}</a>
-            </li>
-          {% endfor %}
-        </ul>
       </section>
       <footer>
         {% if site.github.is_project_page %}

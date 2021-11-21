@@ -27,5 +27,6 @@ do
       --example-img "../examples/img/" \
       --example-pd "../examples/pd/" \
       --no-images \
+      --jekyll \
       "$f" "${OUT_DIR}/${md}"
 done

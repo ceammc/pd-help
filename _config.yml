@@ -1,5 +1,5 @@
 theme: jekyll-theme-minimal
-exclude: src-en, src-ru, build
+exclude: [src-en, src-ru, build, examples/ascii]
 show_downloads: true
 title: "PureData CEAMMC web documentation"
 description: "PureData CEAMMC library web documentation"
@@ -17,3 +17,6 @@ keywords: "ceammc,puredata,music,center,electroacoustic,library"
 github:
   zip_url: https://github.com/uliss/pure-data/releases/download/v2021.11/Pd-ceammc_2021.11-double-macosx-10.13.zip
   repository_url: https://github.com/uliss/pure-data
+
+snapcraft:
+  url: https://snapcraft.io/pd-ceammc

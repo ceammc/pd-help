@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      midi.event2note
+categories: [midi]
+tags:       [midi, track]
+---
 [index](index.html) :: [midi](category_midi.html)
 ---
 

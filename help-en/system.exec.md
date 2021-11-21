@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      system.exec
+categories: [system]
+tags:       [system, execute]
+---
 [index](index.html) :: [system](category_system.html)
 ---
 

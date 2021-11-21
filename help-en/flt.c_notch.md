@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      flt.c_notch
+categories: [flt]
+tags:       [filter, biquad, notch, reject]
+---
 [index](index.html) :: [flt](category_flt.html)
 ---
 

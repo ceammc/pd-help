@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      list.rldecode
+categories: [list]
+tags:       [list, rle, decode]
+---
 [index](index.html) :: [list](category_list.html)
 ---
 

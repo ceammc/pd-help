@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      math.squared~
+categories: [math]
+tags:       [math, square]
+---
 [index](index.html) :: [math](category_math.html)
 ---
 

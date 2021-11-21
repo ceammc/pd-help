@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      flt.fbank5x1~
+categories: [flt]
+tags:       [filter, filterbank]
+---
 [index](index.html) :: [flt](category_flt.html)
 ---
 

@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      system.hostname
+categories: [system]
+tags:       [system, hostname]
+---
 [index](index.html) :: [system](category_system.html)
 ---
 

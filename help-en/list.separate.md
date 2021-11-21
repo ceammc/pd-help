@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      list.separate
+categories: [list]
+tags:       [list, separate]
+---
 [index](index.html) :: [list](category_list.html)
 ---
 

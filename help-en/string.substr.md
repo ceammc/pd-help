@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      string.substr
+categories: [string]
+tags:       [substring]
+---
 [index](index.html) :: [string](category_string.html)
 ---
 

@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      proto.xtouch_ext
+categories: [proto]
+tags:       [xtouch, behringer]
+---
 [index](index.html) :: [proto](category_proto.html)
 ---
 

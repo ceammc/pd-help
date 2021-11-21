@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      is_data
+categories: [predicates]
+tags:       [predicate, data]
+---
 [index](index.html) :: [predicates](category_predicates.html)
 ---
 

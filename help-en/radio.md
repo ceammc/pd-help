@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      radio
+categories: [base]
+tags:       [radio]
+---
 [index](index.html) :: [base](category_base.html)
 ---
 

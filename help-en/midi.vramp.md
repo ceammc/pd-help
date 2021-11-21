@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      midi.vramp
+categories: [midi]
+tags:       [midi, ramp, crescendo, diminuendo]
+---
 [index](index.html) :: [midi](category_midi.html)
 ---
 

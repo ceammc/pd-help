@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      proto.midi.cc
+categories: [proto]
+tags:       [parser, midi]
+---
 [index](index.html) :: [proto](category_proto.html)
 ---
 

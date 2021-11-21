@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      fx.bitdown~
+categories: [fx]
+tags:       [fx, bits, downsample]
+---
 [index](index.html) :: [fx](category_fx.html)
 ---
 

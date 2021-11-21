@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      proto.mpv
+categories: [proto]
+tags:       [mpv, mplayer]
+---
 [index](index.html) :: [proto](category_proto.html)
 ---
 

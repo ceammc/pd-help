@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      math.or
+categories: [math]
+tags:       [math, or, logic]
+---
 [index](index.html) :: [math](category_math.html)
 ---
 

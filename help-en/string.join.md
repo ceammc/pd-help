@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      string.join
+categories: [string]
+tags:       [join]
+---
 [index](index.html) :: [string](category_string.html)
 ---
 

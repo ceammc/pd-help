@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      tl.bang
+categories: [tl]
+tags:       [timeline, bang]
+---
 [index](index.html) :: [tl](category_tl.html)
 ---
 

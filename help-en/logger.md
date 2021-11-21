@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      logger
+categories: [base]
+tags:       [log]
+---
 [index](index.html) :: [base](category_base.html)
 ---
 

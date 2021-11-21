@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      math.acosh~
+categories: [math]
+tags:       [math, hyperbolic, arc, cosine]
+---
 [index](index.html) :: [math](category_math.html)
 ---
 

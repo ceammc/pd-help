@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      plot.logspace~
+categories: [array]
+tags:       [array, geom, log, scale]
+---
 [index](index.html) :: [array](category_array.html)
 ---
 

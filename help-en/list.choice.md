@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      list.choice
+categories: [list]
+tags:       [list, random, choice]
+---
 [index](index.html) :: [list](category_list.html)
 ---
 

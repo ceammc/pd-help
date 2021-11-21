@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      flt.bpf24~
+categories: [flt]
+tags:       [filter, biquad, bpf]
+---
 [index](index.html) :: [flt](category_flt.html)
 ---
 

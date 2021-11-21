@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      ui.plot~
+categories: [ui]
+tags:       [plot]
+---
 [index](index.html) :: [ui](category_ui.html)
 ---
 

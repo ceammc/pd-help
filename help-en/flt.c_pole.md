@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      flt.c_pole
+categories: [flt]
+tags:       [filter, biquad, one, pol]
+---
 [index](index.html) :: [flt](category_flt.html)
 ---
 

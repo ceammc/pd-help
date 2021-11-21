@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      noise.henon_phase
+categories: [noise]
+tags:       [noise]
+---
 [index](index.html) :: [noise](category_noise.html)
 ---
 

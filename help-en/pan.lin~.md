@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      pan.lin~
+categories: [spat]
+tags:       [pan, span]
+---
 [index](index.html) :: [spat](category_spat.html)
 ---
 

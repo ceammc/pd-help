@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      midi.sysex
+categories: [midi]
+tags:       [midi, sysexin]
+---
 [index](index.html) :: [midi](category_midi.html)
 ---
 

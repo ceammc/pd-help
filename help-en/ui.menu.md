@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      ui.menu
+categories: [ui]
+tags:       [ui, menu]
+---
 [index](index.html) :: [ui](category_ui.html)
 ---
 

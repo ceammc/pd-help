@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      hw.display
+categories: [hw]
+tags:       [display, brightness]
+---
 [index](index.html) :: [hw](category_hw.html)
 ---
 

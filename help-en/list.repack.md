@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      list.repack
+categories: [list]
+tags:       [list, repack]
+---
 [index](index.html) :: [list](category_list.html)
 ---
 

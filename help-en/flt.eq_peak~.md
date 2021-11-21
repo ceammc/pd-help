@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      flt.eq_peak~
+categories: [flt]
+tags:       [filter, equalizer]
+---
 [index](index.html) :: [flt](category_flt.html)
 ---
 

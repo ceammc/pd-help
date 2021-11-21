@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      list.enumerate
+categories: [list]
+tags:       [list, enumerate]
+---
 [index](index.html) :: [list](category_list.html)
 ---
 

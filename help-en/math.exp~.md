@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      math.exp~
+categories: [math]
+tags:       [math, exp2]
+---
 [index](index.html) :: [math](category_math.html)
 ---
 

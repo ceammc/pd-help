@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      hoa.2d.wider~
+categories: [spat]
+tags:       [hoa, wider]
+---
 [index](index.html) :: [spat](category_spat.html)
 ---
 

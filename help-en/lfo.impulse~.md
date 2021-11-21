@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      lfo.impulse~
+categories: [lfo]
+tags:       [lfo, oscillator]
+---
 [index](index.html) :: [lfo](category_lfo.html)
 ---
 

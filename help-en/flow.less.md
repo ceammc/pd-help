@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      flow.less
+categories: [flow]
+tags:       [gate]
+---
 [index](index.html) :: [flow](category_flow.html)
 ---
 

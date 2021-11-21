@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      random.atom
+categories: [random]
+tags:       [random, atom]
+---
 [index](index.html) :: [random](category_random.html)
 ---
 

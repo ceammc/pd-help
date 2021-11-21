@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      xfade~
+categories: [base]
+tags:       [crossfade, xfade]
+---
 [index](index.html) :: [base](category_base.html)
 ---
 

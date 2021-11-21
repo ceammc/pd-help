@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      fx.vocoder~
+categories: [fx]
+tags:       [vocoder]
+---
 [index](index.html) :: [fx](category_fx.html)
 ---
 

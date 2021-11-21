@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      flow.pass
+categories: [flow]
+tags:       [pass, functional]
+---
 [index](index.html) :: [flow](category_flow.html)
 ---
 

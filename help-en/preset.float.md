@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      preset.float
+categories: [preset]
+tags:       [preset, storage, float]
+---
 [index](index.html) :: [preset](category_preset.html)
 ---
 

@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      synth.risset_arp~
+categories: [synth]
+tags:       [risset, arpeggio]
+---
 [index](index.html) :: [synth](category_synth.html)
 ---
 

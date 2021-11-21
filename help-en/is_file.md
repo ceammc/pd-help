@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      is_file
+categories: [predicates]
+tags:       [predicate, filesystem]
+---
 [index](index.html) :: [predicates](category_predicates.html)
 ---
 

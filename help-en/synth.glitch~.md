@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      synth.glitch~
+categories: [synth]
+tags:       [glitch]
+---
 [index](index.html) :: [synth](category_synth.html)
 ---
 

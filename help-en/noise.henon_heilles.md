@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      noise.henon_heilles
+categories: [noise]
+tags:       [noise]
+---
 [index](index.html) :: [noise](category_noise.html)
 ---
 

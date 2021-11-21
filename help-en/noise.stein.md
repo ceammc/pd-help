@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      noise.stein
+categories: [noise]
+tags:       [noise]
+---
 [index](index.html) :: [noise](category_noise.html)
 ---
 

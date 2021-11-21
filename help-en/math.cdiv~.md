@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      math.cdiv~
+categories: [math]
+tags:       [math, complex, division]
+---
 [index](index.html) :: [math](category_math.html)
 ---
 

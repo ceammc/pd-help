@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      fx.drone_box~
+categories: [fx]
+tags:       [fx, drone]
+---
 [index](index.html) :: [fx](category_fx.html)
 ---
 

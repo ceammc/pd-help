@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      system.exit
+categories: [system]
+tags:       [quit, exit]
+---
 [index](index.html) :: [system](category_system.html)
 ---
 

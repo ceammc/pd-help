@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      local.dict
+categories: [local]
+tags:       [dict, local, global]
+---
 [index](index.html) :: [local](category_local.html)
 ---
 

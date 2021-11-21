@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      math.sinh~
+categories: [math]
+tags:       [math, hyperbolic, arc, sine]
+---
 [index](index.html) :: [math](category_math.html)
 ---
 

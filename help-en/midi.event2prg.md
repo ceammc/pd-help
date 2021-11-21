@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      midi.event2prg
+categories: [midi]
+tags:       [midi, program]
+---
 [index](index.html) :: [midi](category_midi.html)
 ---
 

@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      seq.bangs
+categories: [seq]
+tags:       [seq, sequencer, bang, pattern, rythm]
+---
 [index](index.html) :: [seq](category_seq.html)
 ---
 

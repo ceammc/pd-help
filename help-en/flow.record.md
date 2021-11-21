@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      flow.record
+categories: [flow]
+tags:       [flow, record]
+---
 [index](index.html) :: [flow](category_flow.html)
 ---
 

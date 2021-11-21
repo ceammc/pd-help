@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      nsig~
+categories: [base]
+tags:       [sig, list]
+---
 [index](index.html) :: [base](category_base.html)
 ---
 

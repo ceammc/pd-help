@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      metro.pattern
+categories: [base]
+tags:       [metro, pattern, rhythm]
+---
 [index](index.html) :: [base](category_base.html)
 ---
 

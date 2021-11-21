@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      local.mlist
+categories: [local]
+tags:       [mlist, local, global]
+---
 [index](index.html) :: [local](category_local.html)
 ---
 

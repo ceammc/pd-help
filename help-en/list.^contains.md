@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      list.^contains
+categories: [list]
+tags:       [list, predicate, any]
+---
 [index](index.html) :: [list](category_list.html)
 ---
 

@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      msg.sched
+categories: [msg]
+tags:       [message, scheduler]
+---
 [index](index.html) :: [msg](category_msg.html)
 ---
 

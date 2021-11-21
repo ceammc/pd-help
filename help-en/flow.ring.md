@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      flow.ring
+categories: [flow]
+tags:       [ring, buffer, dataflow]
+---
 [index](index.html) :: [flow](category_flow.html)
 ---
 

@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      math.sqrt
+categories: [math]
+tags:       [math, sqrt]
+---
 [index](index.html) :: [math](category_math.html)
 ---
 

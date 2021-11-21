@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      flow.list2many
+categories: [flow]
+tags:       [conv, map, list]
+---
 [index](index.html) :: [flow](category_flow.html)
 ---
 

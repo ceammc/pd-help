@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      set.contains
+categories: [data]
+tags:       [data, predicate, contains]
+---
 [index](index.html) :: [data](category_data.html)
 ---
 

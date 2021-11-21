@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      synth.french_bell~
+categories: [synth]
+tags:       [bell, church, french]
+---
 [index](index.html) :: [synth](category_synth.html)
 ---
 

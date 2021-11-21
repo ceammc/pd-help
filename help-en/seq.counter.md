@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      seq.counter
+categories: [seq]
+tags:       [counter, modulo]
+---
 [index](index.html) :: [seq](category_seq.html)
 ---
 

@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      fx.pitchshift~
+categories: [fx]
+tags:       [fx, pitchshift]
+---
 [index](index.html) :: [fx](category_fx.html)
 ---
 

@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      math.mul
+categories: [math]
+tags:       [math, mul]
+---
 [index](index.html) :: [math](category_math.html)
 ---
 

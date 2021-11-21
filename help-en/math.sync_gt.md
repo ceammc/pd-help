@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      math.sync_gt
+categories: [math]
+tags:       [math, sync, greater, then, compare]
+---
 [index](index.html) :: [math](category_math.html)
 ---
 

@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      flow.mem
+categories: [flow]
+tags:       [memory, store]
+---
 [index](index.html) :: [flow](category_flow.html)
 ---
 

@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      noise.pink~
+categories: [noise]
+tags:       [noise, pink]
+---
 [index](index.html) :: [noise](category_noise.html)
 ---
 

@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      ui.toggle
+categories: [ui]
+tags:       [ui, toggle]
+---
 [index](index.html) :: [ui](category_ui.html)
 ---
 

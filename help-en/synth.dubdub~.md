@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      synth.dubdub~
+categories: [synth]
+tags:       [dubdub, saw]
+---
 [index](index.html) :: [synth](category_synth.html)
 ---
 

@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      symbol.length
+categories: [symbol]
+tags:       [symbol, length]
+---
 [index](index.html) :: [symbol](category_symbol.html)
 ---
 

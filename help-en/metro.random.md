@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      metro.random
+categories: [base]
+tags:       [metro, random]
+---
 [index](index.html) :: [base](category_base.html)
 ---
 

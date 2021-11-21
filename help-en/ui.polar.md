@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      ui.polar
+categories: [ui]
+tags:       [ui, slider, polar]
+---
 [index](index.html) :: [ui](category_ui.html)
 ---
 

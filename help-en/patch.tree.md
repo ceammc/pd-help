@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      patch.tree
+categories: [patch]
+tags:       [patch, tree]
+---
 [index](index.html) :: [patch](category_patch.html)
 ---
 

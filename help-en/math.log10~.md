@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      math.log10~
+categories: [math]
+tags:       [math, log10]
+---
 [index](index.html) :: [math](category_math.html)
 ---
 

@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      noise.lyapunov
+categories: [noise]
+tags:       [noise]
+---
 [index](index.html) :: [noise](category_noise.html)
 ---
 

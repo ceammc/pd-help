@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      math.cbrt~
+categories: [math]
+tags:       [math, cbrt]
+---
 [index](index.html) :: [math](category_math.html)
 ---
 

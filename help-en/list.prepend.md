@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      list.prepend
+categories: [list]
+tags:       [list, prepend]
+---
 [index](index.html) :: [list](category_list.html)
 ---
 

@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      lfo.+saw~
+categories: [lfo]
+tags:       [lfo, oscillator, saw]
+---
 [index](index.html) :: [lfo](category_lfo.html)
 ---
 

@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      list.range
+categories: [list]
+tags:       [list, range, compare]
+---
 [index](index.html) :: [list](category_list.html)
 ---
 

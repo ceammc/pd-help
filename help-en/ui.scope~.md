@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      ui.scope~
+categories: [ui]
+tags:       [ui, scope]
+---
 [index](index.html) :: [ui](category_ui.html)
 ---
 

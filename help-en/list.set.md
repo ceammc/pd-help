@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      list.set
+categories: [list]
+tags:       [list, set]
+---
 [index](index.html) :: [list](category_list.html)
 ---
 

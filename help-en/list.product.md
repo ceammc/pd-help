@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      list.product
+categories: [list]
+tags:       [list, product]
+---
 [index](index.html) :: [list](category_list.html)
 ---
 

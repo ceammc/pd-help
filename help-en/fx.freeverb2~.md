@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      fx.freeverb2~
+categories: [fx]
+tags:       [fx, reverb]
+---
 [index](index.html) :: [fx](category_fx.html)
 ---
 

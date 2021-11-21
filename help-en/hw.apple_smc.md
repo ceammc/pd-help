@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      hw.apple_smc
+categories: [hw]
+tags:       [motion, sensor]
+---
 [index](index.html) :: [hw](category_hw.html)
 ---
 

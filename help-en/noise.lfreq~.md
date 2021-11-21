@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      noise.lfreq~
+categories: [noise]
+tags:       [noise, lfreq]
+---
 [index](index.html) :: [noise](category_noise.html)
 ---
 

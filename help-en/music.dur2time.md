@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      music.dur2time
+categories: [conv]
+tags:       [conv, music, duration]
+---
 [index](index.html) :: [conv](category_conv.html)
 ---
 

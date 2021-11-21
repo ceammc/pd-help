@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      ui.matrix
+categories: [ui]
+tags:       [ui, matrix]
+---
 [index](index.html) :: [ui](category_ui.html)
 ---
 

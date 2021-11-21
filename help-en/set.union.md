@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      set.union
+categories: [data]
+tags:       [data, union, set]
+---
 [index](index.html) :: [data](category_data.html)
 ---
 

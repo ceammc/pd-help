@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      spat.pan8~
+categories: [spat]
+tags:       [spat, pan]
+---
 [index](index.html) :: [spat](category_spat.html)
 ---
 

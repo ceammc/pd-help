@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      list.unzip
+categories: [list]
+tags:       [list]
+---
 [index](index.html) :: [list](category_list.html)
 ---
 

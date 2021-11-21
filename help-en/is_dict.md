@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      is_dict
+categories: [predicates]
+tags:       [dictionary]
+---
 [index](index.html) :: [predicates](category_predicates.html)
 ---
 

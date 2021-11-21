@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      ui.aview
+categories: [ui]
+tags:       [ui, array, view]
+---
 [index](index.html) :: [ui](category_ui.html)
 ---
 

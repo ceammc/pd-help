@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      ui.icon
+categories: [ui]
+tags:       [ui, icon, button]
+---
 [index](index.html) :: [ui](category_ui.html)
 ---
 

@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      noise.white~
+categories: [noise]
+tags:       [noise, white]
+---
 [index](index.html) :: [noise](category_noise.html)
 ---
 

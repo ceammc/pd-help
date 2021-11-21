@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      flow.stack
+categories: [flow]
+tags:       [stack]
+---
 [index](index.html) :: [flow](category_flow.html)
 ---
 

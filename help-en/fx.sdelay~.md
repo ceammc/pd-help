@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      fx.sdelay~
+categories: [fx]
+tags:       [fx, echo, delay]
+---
 [index](index.html) :: [fx](category_fx.html)
 ---
 

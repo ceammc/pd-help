@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      fx.chorus~
+categories: [fx]
+tags:       [fx, chorus]
+---
 [index](index.html) :: [fx](category_fx.html)
 ---
 

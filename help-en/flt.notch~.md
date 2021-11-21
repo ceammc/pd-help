@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      flt.notch~
+categories: [flt]
+tags:       [filter, lowshelf]
+---
 [index](index.html) :: [flt](category_flt.html)
 ---
 

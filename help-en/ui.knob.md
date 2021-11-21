@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      ui.knob
+categories: [ui]
+tags:       [ui, knob]
+---
 [index](index.html) :: [ui](category_ui.html)
 ---
 

@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      flow.tee~
+categories: [flow]
+tags:       [flow, tee, separate]
+---
 [index](index.html) :: [flow](category_flow.html)
 ---
 

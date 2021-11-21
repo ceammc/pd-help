@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      math.asinh
+categories: [math]
+tags:       [math, asinh]
+---
 [index](index.html) :: [math](category_math.html)
 ---
 

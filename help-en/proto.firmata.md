@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      proto.firmata
+categories: [proto]
+tags:       [arduino, firmata]
+---
 [index](index.html) :: [proto](category_proto.html)
 ---
 

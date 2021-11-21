@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      ui.incdec
+categories: [ui]
+tags:       [ui, increment, decrement]
+---
 [index](index.html) :: [ui](category_ui.html)
 ---
 

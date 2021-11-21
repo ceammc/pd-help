@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      synth.fgrain~
+categories: [synth]
+tags:       [grain]
+---
 [index](index.html) :: [synth](category_synth.html)
 ---
 

@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      flt.biquad~
+categories: [flt]
+tags:       [filter, biquad]
+---
 [index](index.html) :: [flt](category_flt.html)
 ---
 

@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      flt.dcblock~
+categories: [flt]
+tags:       [filter, dcblock]
+---
 [index](index.html) :: [flt](category_flt.html)
 ---
 

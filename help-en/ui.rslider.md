@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      ui.rslider
+categories: [ui]
+tags:       [ui, range, slider]
+---
 [index](index.html) :: [ui](category_ui.html)
 ---
 

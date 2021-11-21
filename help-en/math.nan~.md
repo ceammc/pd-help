@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      math.nan~
+categories: [math]
+tags:       [math, nan]
+---
 [index](index.html) :: [math](category_math.html)
 ---
 

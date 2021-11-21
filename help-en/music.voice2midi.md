@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      music.voice2midi
+categories: [conv]
+tags:       [conv, music, voice]
+---
 [index](index.html) :: [conv](category_conv.html)
 ---
 

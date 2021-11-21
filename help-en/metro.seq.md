@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      metro.seq
+categories: [base]
+tags:       [metro, sequencer]
+---
 [index](index.html) :: [base](category_base.html)
 ---
 

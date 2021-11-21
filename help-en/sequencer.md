@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      sequencer
+categories: [seq]
+tags:       [sequencer]
+---
 [index](index.html) :: [seq](category_seq.html)
 ---
 

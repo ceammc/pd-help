@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      osc.sinfb~
+categories: [osc]
+tags:       [osc, feedback]
+---
 [index](index.html) :: [osc](category_osc.html)
 ---
 

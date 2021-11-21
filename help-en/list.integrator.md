@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      list.integrator
+categories: [list]
+tags:       [list, integrator]
+---
 [index](index.html) :: [list](category_list.html)
 ---
 

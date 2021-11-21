@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      synth.risset_bell~
+categories: [synth]
+tags:       [risset, bell]
+---
 [index](index.html) :: [synth](category_synth.html)
 ---
 

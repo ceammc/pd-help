@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      list.normalize
+categories: [list]
+tags:       [list, normalize]
+---
 [index](index.html) :: [list](category_list.html)
 ---
 

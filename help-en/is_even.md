@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      is_even
+categories: [predicates]
+tags:       [predicate, numbers]
+---
 [index](index.html) :: [predicates](category_predicates.html)
 ---
 

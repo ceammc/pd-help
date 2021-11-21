@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      string.equal
+categories: [string]
+tags:       [compare, equal]
+---
 [index](index.html) :: [string](category_string.html)
 ---
 

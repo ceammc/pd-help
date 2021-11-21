@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      flow.multiplex2~
+categories: [flow]
+tags:       [flow, multiplex]
+---
 [index](index.html) :: [flow](category_flow.html)
 ---
 

@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      plot.hist~
+categories: [array]
+tags:       [array, histogram]
+---
 [index](index.html) :: [array](category_array.html)
 ---
 

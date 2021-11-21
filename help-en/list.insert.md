@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      list.insert
+categories: [list]
+tags:       [list, insert]
+---
 [index](index.html) :: [list](category_list.html)
 ---
 

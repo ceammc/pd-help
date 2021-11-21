@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      ui.bang
+categories: [ui]
+tags:       [ui, bang]
+---
 [index](index.html) :: [ui](category_ui.html)
 ---
 

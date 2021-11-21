@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      patch.deps
+categories: [patch]
+tags:       [patch, canvas, deps]
+---
 [index](index.html) :: [patch](category_patch.html)
 ---
 

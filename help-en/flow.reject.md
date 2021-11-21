@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      flow.reject
+categories: [flow]
+tags:       [reject, functional]
+---
 [index](index.html) :: [flow](category_flow.html)
 ---
 

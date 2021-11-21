@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      hoa.2d.recomposer~
+categories: [spat]
+tags:       [hoa, recomposer]
+---
 [index](index.html) :: [spat](category_spat.html)
 ---
 

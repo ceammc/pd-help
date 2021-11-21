@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      set.equal
+categories: [data]
+tags:       [data, equal, set]
+---
 [index](index.html) :: [data](category_data.html)
 ---
 

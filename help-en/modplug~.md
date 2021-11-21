@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      modplug~
+categories: [misc]
+tags:       [mod, player]
+---
 [index](index.html) :: [misc](category_misc.html)
 ---
 

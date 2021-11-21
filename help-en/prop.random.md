@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      prop.random
+categories: [property]
+tags:       [property, random]
+---
 [index](index.html) :: [property](category_property.html)
 ---
 

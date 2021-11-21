@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      seq.arp
+categories: [seq]
+tags:       [seq, arpeggio, pattern]
+---
 [index](index.html) :: [seq](category_seq.html)
 ---
 

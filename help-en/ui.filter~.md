@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      ui.filter~
+categories: [ui]
+tags:       [ui, filter, biquad]
+---
 [index](index.html) :: [ui](category_ui.html)
 ---
 

@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      hoa.2d.decoder~
+categories: [spat]
+tags:       [hoa, decoder]
+---
 [index](index.html) :: [spat](category_spat.html)
 ---
 

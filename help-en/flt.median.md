@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      flt.median~
+categories: [flt]
+tags:       [filter, median]
+---
 [index](index.html) :: [flt](category_flt.html)
 ---
 

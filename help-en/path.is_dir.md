@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      path.is_dir
+categories: [path]
+tags:       [path, dir]
+---
 [index](index.html) :: [path](category_path.html)
 ---
 

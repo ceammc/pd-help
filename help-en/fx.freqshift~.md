@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      fx.freqshift~
+categories: [fx]
+tags:       [fx, freqshift]
+---
 [index](index.html) :: [fx](category_fx.html)
 ---
 

@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      synth.glass_harm~
+categories: [synth]
+tags:       [model, synth, glass, harmonica]
+---
 [index](index.html) :: [synth](category_synth.html)
 ---
 

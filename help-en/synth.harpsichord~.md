@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      synth.harpsichord~
+categories: [synth]
+tags:       [model, synth, harpsichord]
+---
 [index](index.html) :: [synth](category_synth.html)
 ---
 

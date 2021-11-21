@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      hoa.2d.projector~
+categories: [spat]
+tags:       [hoa, recomposer, projector]
+---
 [index](index.html) :: [spat](category_spat.html)
 ---
 

@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      math.and
+categories: [math]
+tags:       [math, and, logic]
+---
 [index](index.html) :: [math](category_math.html)
 ---
 

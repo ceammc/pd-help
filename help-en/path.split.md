@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      path.split
+categories: [path]
+tags:       [path, environment]
+---
 [index](index.html) :: [path](category_path.html)
 ---
 

@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      ui.label
+categories: [ui]
+tags:       [ui, label]
+---
 [index](index.html) :: [ui](category_ui.html)
 ---
 

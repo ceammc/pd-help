@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      fx.granulator~
+categories: [fx]
+tags:       [fx, bits, granulator]
+---
 [index](index.html) :: [fx](category_fx.html)
 ---
 

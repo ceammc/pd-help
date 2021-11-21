@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      noise.rossler
+categories: [noise]
+tags:       [noise]
+---
 [index](index.html) :: [noise](category_noise.html)
 ---
 

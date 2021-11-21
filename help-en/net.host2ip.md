@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      net.host2ip
+categories: [net]
+tags:       [net, dns, ip]
+---
 [index](index.html) :: [net](category_net.html)
 ---
 

@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      msg.after
+categories: [msg]
+tags:       [message, after, onload]
+---
 [index](index.html) :: [msg](category_msg.html)
 ---
 

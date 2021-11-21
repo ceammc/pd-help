@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      list.equal
+categories: [list]
+tags:       [list, compare, equal]
+---
 [index](index.html) :: [list](category_list.html)
 ---
 

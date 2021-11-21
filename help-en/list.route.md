@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      list.route
+categories: [list]
+tags:       [list, route]
+---
 [index](index.html) :: [list](category_list.html)
 ---
 

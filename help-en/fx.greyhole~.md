@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      fx.greyhole~
+categories: [fx]
+tags:       [fx, reverb, echo]
+---
 [index](index.html) :: [fx](category_fx.html)
 ---
 

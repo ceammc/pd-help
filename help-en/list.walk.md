@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      list.walk
+categories: [list]
+tags:       [list, walk, iterate]
+---
 [index](index.html) :: [list](category_list.html)
 ---
 

@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      math.gcd
+categories: [math]
+tags:       [math, gcd]
+---
 [index](index.html) :: [math](category_math.html)
 ---
 

@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      fx.distortion2~
+categories: [fx]
+tags:       [fx, distortion]
+---
 [index](index.html) :: [fx](category_fx.html)
 ---
 

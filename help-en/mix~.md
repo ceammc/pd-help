@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      mix~
+categories: [base]
+tags:       [mix, amplitude, decibel]
+---
 [index](index.html) :: [base](category_base.html)
 ---
 

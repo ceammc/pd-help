@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      list.correlate
+categories: [list]
+tags:       [list, correlation, cross]
+---
 [index](index.html) :: [list](category_list.html)
 ---
 

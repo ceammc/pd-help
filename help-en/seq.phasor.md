@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      seq.phasor
+categories: [seq]
+tags:       [seq, lfo, phasor, saw]
+---
 [index](index.html) :: [seq](category_seq.html)
 ---
 

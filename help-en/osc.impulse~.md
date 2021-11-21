@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      osc.impulse~
+categories: [osc]
+tags:       [oscillator, band-limited]
+---
 [index](index.html) :: [osc](category_osc.html)
 ---
 

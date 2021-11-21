@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      fx.rb_pitchshift~
+categories: [fx]
+tags:       [fx, pitchshift, rubberband]
+---
 [index](index.html) :: [fx](category_fx.html)
 ---
 

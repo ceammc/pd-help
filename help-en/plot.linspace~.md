@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      plot.linspace~
+categories: [array]
+tags:       [array, linear, scale]
+---
 [index](index.html) :: [array](category_array.html)
 ---
 

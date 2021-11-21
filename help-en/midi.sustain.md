@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      midi.sustain
+categories: [midi]
+tags:       [midi, sustain]
+---
 [index](index.html) :: [midi](category_midi.html)
 ---
 

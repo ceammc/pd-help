@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      hw.serial
+categories: [hw]
+tags:       [serial]
+---
 [index](index.html) :: [hw](category_hw.html)
 ---
 

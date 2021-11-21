@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      set.diff
+categories: [data]
+tags:       [data, difference, set]
+---
 [index](index.html) :: [data](category_data.html)
 ---
 

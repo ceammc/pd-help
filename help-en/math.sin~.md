@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      math.sin~
+categories: [math]
+tags:       [math, sin]
+---
 [index](index.html) :: [math](category_math.html)
 ---
 

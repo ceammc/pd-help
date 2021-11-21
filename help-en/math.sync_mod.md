@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      math.sync_mod
+categories: [math]
+tags:       [math, modulo, sync]
+---
 [index](index.html) :: [math](category_math.html)
 ---
 

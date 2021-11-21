@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      speech.flite~
+categories: [misc]
+tags:       [speak, speech, flite]
+---
 [index](index.html) :: [misc](category_misc.html)
 ---
 

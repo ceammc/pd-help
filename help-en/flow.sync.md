@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      flow.sync
+categories: [flow]
+tags:       [flow, control]
+---
 [index](index.html) :: [flow](category_flow.html)
 ---
 

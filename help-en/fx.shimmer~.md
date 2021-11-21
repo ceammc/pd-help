@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      fx.shimmer~
+categories: [fx]
+tags:       [fx, echo, shimmer, reverb]
+---
 [index](index.html) :: [fx](category_fx.html)
 ---
 

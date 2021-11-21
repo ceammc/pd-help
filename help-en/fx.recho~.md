@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      fx.recho~
+categories: [fx]
+tags:       [fx, echo, reversed]
+---
 [index](index.html) :: [fx](category_fx.html)
 ---
 

@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      hoa.scope~
+categories: [spat]
+tags:       [hoa, scope]
+---
 [index](index.html) :: [spat](category_spat.html)
 ---
 

@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      midi.prg2str
+categories: [midi]
+tags:       [midi, convert, midi]
+---
 [index](index.html) :: [midi](category_midi.html)
 ---
 

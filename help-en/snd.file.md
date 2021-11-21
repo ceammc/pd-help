@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      snd.file
+categories: [snd]
+tags:       [soundfiler]
+---
 [index](index.html) :: [snd](category_snd.html)
 ---
 

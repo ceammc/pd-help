@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      flow.pipe
+categories: [flow]
+tags:       [flow, pipe]
+---
 [index](index.html) :: [flow](category_flow.html)
 ---
 

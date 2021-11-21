@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      hoa.2d.rotate~
+categories: [spat]
+tags:       [hoa, rotate]
+---
 [index](index.html) :: [spat](category_spat.html)
 ---
 

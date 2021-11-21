@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      synth.dx7~
+categories: [synth]
+tags:       [dx7, synth, fm]
+---
 [index](index.html) :: [synth](category_synth.html)
 ---
 

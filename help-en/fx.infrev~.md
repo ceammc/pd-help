@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      fx.infrev~
+categories: [fx]
+tags:       [fx, reverb, airwindows, infinity]
+---
 [index](index.html) :: [fx](category_fx.html)
 ---
 

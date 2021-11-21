@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      midi.clock
+categories: [midi]
+tags:       [midi, clock]
+---
 [index](index.html) :: [midi](category_midi.html)
 ---
 

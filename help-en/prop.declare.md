@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      prop.declare
+categories: [property]
+tags:       [property, declare]
+---
 [index](index.html) :: [property](category_property.html)
 ---
 

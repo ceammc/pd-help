@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      system.screen_size
+categories: [system]
+tags:       [screen, info]
+---
 [index](index.html) :: [system](category_system.html)
 ---
 

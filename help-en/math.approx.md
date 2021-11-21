@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      math.approx
+categories: [math]
+tags:       [equal, compare, approx]
+---
 [index](index.html) :: [math](category_math.html)
 ---
 

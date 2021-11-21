@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      ui.sliders
+categories: [ui]
+tags:       [ui, slider]
+---
 [index](index.html) :: [ui](category_ui.html)
 ---
 

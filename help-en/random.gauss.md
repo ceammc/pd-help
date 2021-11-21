@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      random.gauss
+categories: [random]
+tags:       [gauss, random]
+---
 [index](index.html) :: [random](category_random.html)
 ---
 

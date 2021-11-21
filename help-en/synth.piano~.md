@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      synth.piano~
+categories: [synth]
+tags:       [piano, model, synth]
+---
 [index](index.html) :: [synth](category_synth.html)
 ---
 

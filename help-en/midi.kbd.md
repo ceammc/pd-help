@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      midi.kdb
+categories: [midi]
+tags:       [midi, keyboard]
+---
 [index](index.html) :: [midi](category_midi.html)
 ---
 

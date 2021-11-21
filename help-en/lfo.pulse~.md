@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      lfo.pulse~
+categories: [lfo]
+tags:       [lfo, oscillator, pulse, train]
+---
 [index](index.html) :: [lfo](category_lfo.html)
 ---
 

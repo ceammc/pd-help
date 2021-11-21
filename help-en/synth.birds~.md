@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      synth.birds~
+categories: [synth]
+tags:       [birds]
+---
 [index](index.html) :: [synth](category_synth.html)
 ---
 

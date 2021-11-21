@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      midi.oct
+categories: [midi]
+tags:       [midi, octave, transpose]
+---
 [index](index.html) :: [midi](category_midi.html)
 ---
 

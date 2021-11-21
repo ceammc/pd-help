@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      xdac~
+categories: [base]
+tags:       [base]
+---
 [index](index.html) :: [base](category_base.html)
 ---
 

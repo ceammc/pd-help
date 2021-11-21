@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      pan.spread~
+categories: [spat]
+tags:       [pan, spread]
+---
 [index](index.html) :: [spat](category_spat.html)
 ---
 

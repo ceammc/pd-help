@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      samp.time~
+categories: [samp]
+tags:       [base]
+---
 [index](index.html) :: [samp](category_samp.html)
 ---
 

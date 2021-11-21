@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      pan.sqrt~
+categories: [spat]
+tags:       [pan, span]
+---
 [index](index.html) :: [spat](category_spat.html)
 ---
 

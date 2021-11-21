@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      math.tanh~
+categories: [math]
+tags:       [math, hyperbolic, tangent]
+---
 [index](index.html) :: [math](category_math.html)
 ---
 

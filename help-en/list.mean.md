@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      list.mean
+categories: [list]
+tags:       [list, mean]
+---
 [index](index.html) :: [list](category_list.html)
 ---
 

@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      list.append
+categories: [list]
+tags:       [list, append]
+---
 [index](index.html) :: [list](category_list.html)
 ---
 

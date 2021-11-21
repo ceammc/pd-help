@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      math.pi~
+categories: [math]
+tags:       [math, pi]
+---
 [index](index.html) :: [math](category_math.html)
 ---
 

@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      fx.wahwah~
+categories: [fx]
+tags:       [wahwah, guitar, crybaby]
+---
 [index](index.html) :: [fx](category_fx.html)
 ---
 

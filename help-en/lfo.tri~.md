@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      lfo.tri~
+categories: [lfo]
+tags:       [lfo, oscillator, triangle]
+---
 [index](index.html) :: [lfo](category_lfo.html)
 ---
 

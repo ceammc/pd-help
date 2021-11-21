@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      system.getenv
+categories: [system]
+tags:       [system, environment]
+---
 [index](index.html) :: [system](category_system.html)
 ---
 

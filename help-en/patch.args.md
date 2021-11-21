@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      patch.args
+categories: [patch]
+tags:       [patch, args, arguments, canvas]
+---
 [index](index.html) :: [patch](category_patch.html)
 ---
 

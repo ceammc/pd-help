@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      fx.echo~
+categories: [fx]
+tags:       [fx, echo, delay]
+---
 [index](index.html) :: [fx](category_fx.html)
 ---
 

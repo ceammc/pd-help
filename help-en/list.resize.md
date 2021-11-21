@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      list.resize
+categories: [list]
+tags:       [list, size, resize]
+---
 [index](index.html) :: [list](category_list.html)
 ---
 

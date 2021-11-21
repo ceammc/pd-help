@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      list.unique
+categories: [list]
+tags:       [list, unique, sort]
+---
 [index](index.html) :: [list](category_list.html)
 ---
 

@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      synth.sitar~
+categories: [synth]
+tags:       [sitar, string, pluck, karplus]
+---
 [index](index.html) :: [synth](category_synth.html)
 ---
 

@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      path.search
+categories: [path]
+tags:       [path, environment]
+---
 [index](index.html) :: [path](category_path.html)
 ---
 

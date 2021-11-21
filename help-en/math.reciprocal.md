@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      math.reciprocal
+categories: [math]
+tags:       [math, reciprocal]
+---
 [index](index.html) :: [math](category_math.html)
 ---
 

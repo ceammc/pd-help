@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      path.lsdir
+categories: [path]
+tags:       [path, list]
+---
 [index](index.html) :: [path](category_path.html)
 ---
 

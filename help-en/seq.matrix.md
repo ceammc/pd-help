@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      seq.matrix
+categories: [seq]
+tags:       [seq, sequencer, bang, pattern, rythm, matrix]
+---
 [index](index.html) :: [seq](category_seq.html)
 ---
 

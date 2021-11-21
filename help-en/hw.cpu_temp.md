@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      hw.cpu_temp
+categories: [hw]
+tags:       [motion, sensor]
+---
 [index](index.html) :: [hw](category_hw.html)
 ---
 

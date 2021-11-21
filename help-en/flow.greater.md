@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      flow.greater
+categories: [flow]
+tags:       [gate, greater]
+---
 [index](index.html) :: [flow](category_flow.html)
 ---
 

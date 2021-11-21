@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      ui.radio
+categories: [ui]
+tags:       [ui, radio]
+---
 [index](index.html) :: [ui](category_ui.html)
 ---
 

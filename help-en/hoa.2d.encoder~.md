@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      hoa.2d.encoder~
+categories: [spat]
+tags:       [hoa, encoder]
+---
 [index](index.html) :: [spat](category_spat.html)
 ---
 

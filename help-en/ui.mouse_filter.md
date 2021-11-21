@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      ui.mouse_filter
+categories: [ui]
+tags:       [ui, mouse, filter, events]
+---
 [index](index.html) :: [ui](category_ui.html)
 ---
 

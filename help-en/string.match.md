@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      string.match
+categories: [string]
+tags:       [match, regex]
+---
 [index](index.html) :: [string](category_string.html)
 ---
 

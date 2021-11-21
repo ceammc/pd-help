@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      math.sync_lt
+categories: [math]
+tags:       [math, sync, less, then]
+---
 [index](index.html) :: [math](category_math.html)
 ---
 

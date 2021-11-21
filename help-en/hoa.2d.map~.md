@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      hoa.2d.map~
+categories: [spat]
+tags:       [hoa, map]
+---
 [index](index.html) :: [spat](category_spat.html)
 ---
 

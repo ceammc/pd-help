@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      math.trunc~
+categories: [math]
+tags:       [math, trunc]
+---
 [index](index.html) :: [math](category_math.html)
 ---
 

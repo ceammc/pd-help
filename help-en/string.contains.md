@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      string.contains
+categories: [string]
+tags:       [contains, search]
+---
 [index](index.html) :: [string](category_string.html)
 ---
 

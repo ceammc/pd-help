@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      synth.risset_tone~
+categories: [synth]
+tags:       [risset]
+---
 [index](index.html) :: [synth](category_synth.html)
 ---
 

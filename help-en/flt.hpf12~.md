@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      flt.hpf12~
+categories: [flt]
+tags:       [filter, highpass]
+---
 [index](index.html) :: [flt](category_flt.html)
 ---
 

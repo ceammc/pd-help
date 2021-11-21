@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      fx.looper~
+categories: [fx]
+tags:       [fx, looper]
+---
 [index](index.html) :: [fx](category_fx.html)
 ---
 

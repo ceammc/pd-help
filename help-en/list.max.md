@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      list.max
+categories: [list]
+tags:       [list, max, compare]
+---
 [index](index.html) :: [list](category_list.html)
 ---
 

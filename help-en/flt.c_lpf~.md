@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      flt.c_lpf~
+categories: [flt]
+tags:       [filter, biquad, lowpass]
+---
 [index](index.html) :: [flt](category_flt.html)
 ---
 

@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      local.float
+categories: [local]
+tags:       [float, local]
+---
 [index](index.html) :: [local](category_local.html)
 ---
 

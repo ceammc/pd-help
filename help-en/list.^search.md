@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      list.^search
+categories: [list]
+tags:       [list, search, index, find]
+---
 [index](index.html) :: [list](category_list.html)
 ---
 

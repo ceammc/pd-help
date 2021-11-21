@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      list.repeat
+categories: [list]
+tags:       [list, repeat]
+---
 [index](index.html) :: [list](category_list.html)
 ---
 

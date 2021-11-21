@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      string2symbol
+categories: [string]
+tags:       [string, symbol, convert]
+---
 [index](index.html) :: [string](category_string.html)
 ---
 

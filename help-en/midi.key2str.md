@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      midi.key2str
+categories: [midi]
+tags:       [midi, key, name]
+---
 [index](index.html) :: [midi](category_midi.html)
 ---
 

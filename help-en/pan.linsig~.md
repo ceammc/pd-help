@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      pan.linsig~
+categories: [spat]
+tags:       [pan, span]
+---
 [index](index.html) :: [spat](category_spat.html)
 ---
 

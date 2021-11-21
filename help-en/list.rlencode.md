@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      list.rlencode
+categories: [list]
+tags:       [list, functional]
+---
 [index](index.html) :: [list](category_list.html)
 ---
 

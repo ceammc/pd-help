@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      seq.toggles
+categories: [seq]
+tags:       [seq, sequencer, toggle, pattern, rythm]
+---
 [index](index.html) :: [seq](category_seq.html)
 ---
 

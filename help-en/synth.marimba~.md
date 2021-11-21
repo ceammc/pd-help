@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      synth.marimba~
+categories: [synth]
+tags:       [marimba]
+---
 [index](index.html) :: [synth](category_synth.html)
 ---
 

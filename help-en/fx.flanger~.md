@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      fx.flanger~
+categories: [fx]
+tags:       [fx, flanger]
+---
 [index](index.html) :: [fx](category_fx.html)
 ---
 

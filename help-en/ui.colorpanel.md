@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      ui.colorpanel
+categories: [ui]
+tags:       [ui, color, choose]
+---
 [index](index.html) :: [ui](category_ui.html)
 ---
 

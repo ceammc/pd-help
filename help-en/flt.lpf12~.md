@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      flt.lpf12~
+categories: [flt]
+tags:       [filter, lowpass]
+---
 [index](index.html) :: [flt](category_flt.html)
 ---
 

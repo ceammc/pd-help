@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      list.sort
+categories: [list]
+tags:       [list, sort]
+---
 [index](index.html) :: [list](category_list.html)
 ---
 

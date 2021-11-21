@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      prop.split
+categories: [property]
+tags:       [property]
+---
 [index](index.html) :: [property](category_property.html)
 ---
 

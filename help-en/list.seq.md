@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      list.seq
+categories: [list]
+tags:       [list, sequence, generate]
+---
 [index](index.html) :: [list](category_list.html)
 ---
 

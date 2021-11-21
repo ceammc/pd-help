@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      fx.drive~
+categories: [fx]
+tags:       [fx, drive]
+---
 [index](index.html) :: [fx](category_fx.html)
 ---
 

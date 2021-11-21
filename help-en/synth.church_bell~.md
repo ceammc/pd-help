@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      synth.church_bell~
+categories: [synth]
+tags:       [bell, church]
+---
 [index](index.html) :: [synth](category_synth.html)
 ---
 

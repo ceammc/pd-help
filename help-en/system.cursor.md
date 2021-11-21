@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      system.cursor
+categories: [system]
+tags:       [cursor, mouse, mousewheel]
+---
 [index](index.html) :: [system](category_system.html)
 ---
 

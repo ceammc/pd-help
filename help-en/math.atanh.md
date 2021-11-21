@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      math.atanh
+categories: [math]
+tags:       [math, atanh]
+---
 [index](index.html) :: [math](category_math.html)
 ---
 

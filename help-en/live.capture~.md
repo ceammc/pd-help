@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      live.capture~
+categories: [live]
+tags:       [live, record]
+---
 [index](index.html) :: [live](category_live.html)
 ---
 

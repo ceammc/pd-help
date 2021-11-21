@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      is_list
+categories: [predicates]
+tags:       [predicate, list]
+---
 [index](index.html) :: [predicates](category_predicates.html)
 ---
 

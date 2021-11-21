@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      ui.link
+categories: [ui]
+tags:       [ui, link]
+---
 [index](index.html) :: [ui](category_ui.html)
 ---
 

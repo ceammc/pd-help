@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      msg.onload
+categories: [msg]
+tags:       [message, loadbang, onload]
+---
 [index](index.html) :: [msg](category_msg.html)
 ---
 

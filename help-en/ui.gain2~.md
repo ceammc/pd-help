@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      ui.gain2~
+categories: [ui]
+tags:       [ui, gain]
+---
 [index](index.html) :: [ui](category_ui.html)
 ---
 

@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      math.sync_le
+categories: [math]
+tags:       [math, sync, less, equal, compare]
+---
 [index](index.html) :: [math](category_math.html)
 ---
 

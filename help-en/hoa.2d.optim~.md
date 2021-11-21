@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      hoa.2d.optim~
+categories: [spat]
+tags:       [hoa, optim, 2d]
+---
 [index](index.html) :: [spat](category_spat.html)
 ---
 

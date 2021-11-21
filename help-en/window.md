@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      window
+categories: [base]
+tags:       [window]
+---
 [index](index.html) :: [base](category_base.html)
 ---
 

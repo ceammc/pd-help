@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      midi.file
+categories: [midi]
+tags:       [midi, file]
+---
 [index](index.html) :: [midi](category_midi.html)
 ---
 

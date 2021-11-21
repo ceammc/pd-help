@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      fx.room~
+categories: [fx]
+tags:       [fx, room, reverb]
+---
 [index](index.html) :: [fx](category_fx.html)
 ---
 

@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      fx.tapiir~
+categories: [fx]
+tags:       [fx, delay, tapiir]
+---
 [index](index.html) :: [fx](category_fx.html)
 ---
 

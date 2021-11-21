@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      global.set
+categories: [global]
+tags:       [set, local, global]
+---
 [index](index.html) :: [global](category_global.html)
 ---
 

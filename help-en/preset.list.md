@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      preset.list
+categories: [preset]
+tags:       [preset, storage, symbol]
+---
 [index](index.html) :: [preset](category_preset.html)
 ---
 

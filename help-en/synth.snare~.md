@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      synth.snare~
+categories: [synth]
+tags:       [synth, snare, drum]
+---
 [index](index.html) :: [synth](category_synth.html)
 ---
 

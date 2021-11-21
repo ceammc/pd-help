@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      system.colorpanel
+categories: [system]
+tags:       [colorpanel]
+---
 [index](index.html) :: [system](category_system.html)
 ---
 

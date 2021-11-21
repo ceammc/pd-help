@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      ui.meter~
+categories: [ui]
+tags:       [ui, meter]
+---
 [index](index.html) :: [ui](category_ui.html)
 ---
 

@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      synth.ks~
+categories: [synth]
+tags:       [karplus, strong]
+---
 [index](index.html) :: [synth](category_synth.html)
 ---
 

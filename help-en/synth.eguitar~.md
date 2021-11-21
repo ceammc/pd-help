@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      synth.eguitar~
+categories: [synth]
+tags:       [guitar, electric]
+---
 [index](index.html) :: [synth](category_synth.html)
 ---
 

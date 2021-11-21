@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      noise.crackle~
+categories: [noise]
+tags:       [noise, crackle]
+---
 [index](index.html) :: [noise](category_noise.html)
 ---
 

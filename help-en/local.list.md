@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      local.list
+categories: [local]
+tags:       [list, global]
+---
 [index](index.html) :: [local](category_local.html)
 ---
 

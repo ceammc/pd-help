@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      lfo.+square~
+categories: [lfo]
+tags:       [lfo, oscillator, square]
+---
 [index](index.html) :: [lfo](category_lfo.html)
 ---
 

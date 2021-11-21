@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      ui.spectroscope~
+categories: [ui]
+tags:       [ui, spectroscope]
+---
 [index](index.html) :: [ui](category_ui.html)
 ---
 

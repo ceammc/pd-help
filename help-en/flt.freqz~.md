@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      flt.freqz~
+categories: [flt]
+tags:       [filter, calc, bode, frequence, response, phase, plot]
+---
 [index](index.html) :: [flt](category_flt.html)
 ---
 

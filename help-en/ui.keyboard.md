@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      ui.keyboard
+categories: [ui]
+tags:       [ui, keyboard]
+---
 [index](index.html) :: [ui](category_ui.html)
 ---
 

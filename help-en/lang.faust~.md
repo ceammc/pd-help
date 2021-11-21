@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      lang.faust~
+categories: [lang]
+tags:       [faust]
+---
 [index](index.html) :: [lang](category_lang.html)
 ---
 

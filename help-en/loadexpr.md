@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      loadexpr
+categories: [msg]
+tags:       [message, loadbang, onload]
+---
 [index](index.html) :: [msg](category_msg.html)
 ---
 

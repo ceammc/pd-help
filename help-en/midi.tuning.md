@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      midi.tuning
+categories: [midi]
+tags:       [midi, tuning]
+---
 [index](index.html) :: [midi](category_midi.html)
 ---
 

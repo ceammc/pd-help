@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      math.expr
+categories: [math]
+tags:       [math, expr]
+---
 [index](index.html) :: [math](category_math.html)
 ---
 

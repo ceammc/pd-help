@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      midi.cc
+categories: [midi]
+tags:       [midi, controller, name, cc, ctlin]
+---
 [index](index.html) :: [midi](category_midi.html)
 ---
 

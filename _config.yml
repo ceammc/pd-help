@@ -15,7 +15,6 @@ post_search: true
 keywords: "ceammc,puredata,music,center,electroacoustic,library"
 
 github:
-  zip_url: https://github.com/uliss/pure-data/releases/download/v2021.11/Pd-ceammc_2021.11-double-macosx-10.13.zip
   repository_url: https://github.com/uliss/pure-data
 
 snapcraft:

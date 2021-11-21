@@ -25,10 +25,6 @@
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
-        {% if site.github.is_project_page %}
-        <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
-        {% endif %}
-
         {% if site.github.repository_url %}
         <p class="view"><a href="{{ site.github.repository_url }}">View on GitHub</a></p>
         {% endif %}
@@ -36,8 +32,8 @@
         {% if site.show_downloads %}
         {% assign version = site.data.ceammc.distrib.version %}
         <ul class="downloads">
-          <li><a href="http://github.com/uliss/pure-data/releases/tag/v{{version}}">Download <strong>Mac</strong></a></li>
-          <li><a href="http://github.com/uliss/pure-data/releases/tag/v{{version}}">Download <strong>Windows</strong></a></li>
+          <li><a href="http://github.com/uliss/pure-data/releases/tag/v{{version}}/Pd-ceammc_{{version}}-macosx-10.13.dmg">Download <strong>Mac</strong></a></li>
+          <li><a href="http://github.com/uliss/pure-data/releases/tag/v{{version}}/PureData-ceammc-{{version}}-x86_64-float-setup.exe">Download <strong>Windows</strong></a></li>
           <li><a href="{{ site.snapcraft.url }}">Download <strong>Linux</strong></a></li>
         </ul>
       {% endif %}

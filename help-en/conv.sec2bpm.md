@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      conv.sec2bpm
+categories: [conv]
+tags:       [conv, time]
+---
 [index](index.html) :: [conv](category_conv.html)
 ---
 

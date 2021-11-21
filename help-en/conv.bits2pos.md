@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      conv.bits2pos
+categories: [conv]
+tags:       [conv, bits, position]
+---
 [index](index.html) :: [conv](category_conv.html)
 ---
 

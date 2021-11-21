@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      dyn.limit2~
+categories: [dyn]
+tags:       [limiter]
+---
 [index](index.html) :: [dyn](category_dyn.html)
 ---
 

@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      file.size
+categories: [path]
+tags:       [path, file, size]
+---
 [index](index.html) :: [path](category_path.html)
 ---
 

@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      an.tempo~
+categories: [an]
+tags:       [tempo, aubio, bpm]
+---
 [index](index.html) :: [an](category_an.html)
 ---
 

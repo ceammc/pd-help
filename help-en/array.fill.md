@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      array.fill
+categories: [array]
+tags:       [array, fill]
+---
 [index](index.html) :: [array](category_array.html)
 ---
 

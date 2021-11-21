@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      array.mean
+categories: [array]
+tags:       [array, mean]
+---
 [index](index.html) :: [array](category_array.html)
 ---
 

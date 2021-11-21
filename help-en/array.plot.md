@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      array.plot
+categories: [array]
+tags:       [array, plot]
+---
 [index](index.html) :: [array](category_array.html)
 ---
 

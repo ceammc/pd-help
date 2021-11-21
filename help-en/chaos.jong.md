@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      chaos.jong
+categories: [chaos]
+tags:       [chaos, peter, de, jong]
+---
 [index](index.html) :: [chaos](category_chaos.html)
 ---
 

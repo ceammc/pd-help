@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      array.vplay
+categories: [array]
+tags:       [array, play, vline]
+---
 [index](index.html) :: [array](category_array.html)
 ---
 

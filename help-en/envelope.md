@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      envelope
+categories: [env]
+tags:       [envelope]
+---
 [index](index.html) :: [env](category_env.html)
 ---
 

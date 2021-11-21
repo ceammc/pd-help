@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      env.follow~
+categories: [env]
+tags:       [envelope, amplitude, follower]
+---
 [index](index.html) :: [env](category_env.html)
 ---
 

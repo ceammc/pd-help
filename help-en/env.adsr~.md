@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      env.adsr~
+categories: [env]
+tags:       [envelope, adsr]
+---
 [index](index.html) :: [env](category_env.html)
 ---
 

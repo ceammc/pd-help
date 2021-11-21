@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      an.onset~
+categories: [an]
+tags:       [onset]
+---
 [index](index.html) :: [an](category_an.html)
 ---
 

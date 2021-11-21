@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      array.bpm
+categories: [array]
+tags:       [array, bpm]
+---
 [index](index.html) :: [array](category_array.html)
 ---
 

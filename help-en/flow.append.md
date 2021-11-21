@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      flow.append
+categories: [flow]
+tags:       [flow, append]
+---
 [index](index.html) :: [flow](category_flow.html)
 ---
 

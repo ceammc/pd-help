@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      array.play~
+categories: [array]
+tags:       [array, play]
+---
 [index](index.html) :: [array](category_array.html)
 ---
 

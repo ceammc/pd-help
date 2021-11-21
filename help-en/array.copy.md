@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      array.copy
+categories: [array]
+tags:       [array, copy]
+---
 [index](index.html) :: [array](category_array.html)
 ---
 

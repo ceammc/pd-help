@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      data.fifo
+categories: [data]
+tags:       [data, fifo]
+---
 [index](index.html) :: [data](category_data.html)
 ---
 

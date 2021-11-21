@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      array.minmax
+categories: [array]
+tags:       [array, minmax]
+---
 [index](index.html) :: [array](category_array.html)
 ---
 

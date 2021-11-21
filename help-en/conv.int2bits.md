@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      conv.int2bits
+categories: [conv]
+tags:       [conv, bits, int]
+---
 [index](index.html) :: [conv](category_conv.html)
 ---
 

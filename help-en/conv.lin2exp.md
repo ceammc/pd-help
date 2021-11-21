@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      conv.lin2exp
+categories: [conv]
+tags:       [convert, exponential]
+---
 [index](index.html) :: [conv](category_conv.html)
 ---
 

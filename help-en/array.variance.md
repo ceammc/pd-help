@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      array.variance
+categories: [array]
+tags:       [array, deviation, variance]
+---
 [index](index.html) :: [array](category_array.html)
 ---
 

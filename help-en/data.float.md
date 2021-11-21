@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      data.float
+categories: [data]
+tags:       [data, float]
+---
 [index](index.html) :: [data](category_data.html)
 ---
 

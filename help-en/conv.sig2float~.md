@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      conv.sig2float~
+categories: [conv]
+tags:       [conv, signal, float, snapshot]
+---
 [index](index.html) :: [conv](category_conv.html)
 ---
 

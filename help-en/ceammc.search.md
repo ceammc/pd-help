@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      ceammc.search
+categories: [base]
+tags:       [search]
+---
 [index](index.html) :: [base](category_base.html)
 ---
 

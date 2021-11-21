@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      dict.from_list
+categories: [data]
+tags:       [dictionary]
+---
 [index](index.html) :: [data](category_data.html)
 ---
 

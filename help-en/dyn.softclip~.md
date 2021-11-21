@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      dyn.softclip~
+categories: [dyn]
+tags:       [dyn, clip, limiter]
+---
 [index](index.html) :: [dyn](category_dyn.html)
 ---
 

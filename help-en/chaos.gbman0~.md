@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      chaos.gbman0~
+categories: [chaos]
+tags:       [chaos]
+---
 [index](index.html) :: [chaos](category_chaos.html)
 ---
 

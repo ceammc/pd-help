@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      dict.get
+categories: [data]
+tags:       [get, dictionary]
+---
 [index](index.html) :: [data](category_data.html)
 ---
 

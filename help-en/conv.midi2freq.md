@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      conv.midi2freq
+categories: [conv]
+tags:       [conv, freq, midi]
+---
 [index](index.html) :: [conv](category_conv.html)
 ---
 

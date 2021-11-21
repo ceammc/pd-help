@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      conv.pitch2midi
+categories: [conv]
+tags:       [conv, pitch, midi]
+---
 [index](index.html) :: [conv](category_conv.html)
 ---
 

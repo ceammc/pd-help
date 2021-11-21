@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      array.circular~
+categories: [array]
+tags:       [array, circular, ring]
+---
 [index](index.html) :: [array](category_array.html)
 ---
 

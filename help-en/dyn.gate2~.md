@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      dyn.gate2~
+categories: [dyn]
+tags:       [gate]
+---
 [index](index.html) :: [dyn](category_dyn.html)
 ---
 

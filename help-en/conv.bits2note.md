@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      conv.bits2note
+categories: [conv]
+tags:       [conv, bits, note, poly]
+---
 [index](index.html) :: [conv](category_conv.html)
 ---
 

@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      dict.contains
+categories: [data]
+tags:       [contains, dictionary]
+---
 [index](index.html) :: [data](category_data.html)
 ---
 

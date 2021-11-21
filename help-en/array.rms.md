@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      array.rms
+categories: [array]
+tags:       [array, mean, rms, square]
+---
 [index](index.html) :: [array](category_array.html)
 ---
 

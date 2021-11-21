@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      conv.hex2int
+categories: [conv]
+tags:       [conv, int, hex]
+---
 [index](index.html) :: [conv](category_conv.html)
 ---
 

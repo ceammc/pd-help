@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      array.window
+categories: [array]
+tags:       [array, window]
+---
 [index](index.html) :: [array](category_array.html)
 ---
 

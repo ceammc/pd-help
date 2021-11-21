@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      chaos.std0~
+categories: [chaos]
+tags:       [chaos, standard, map]
+---
 [index](index.html) :: [chaos](category_chaos.html)
 ---
 

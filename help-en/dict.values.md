@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      dict.values
+categories: [data]
+tags:       [size, dictionary]
+---
 [index](index.html) :: [data](category_data.html)
 ---
 

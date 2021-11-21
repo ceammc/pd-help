@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      array.stretch
+categories: [array]
+tags:       [array, stretch]
+---
 [index](index.html) :: [array](category_array.html)
 ---
 

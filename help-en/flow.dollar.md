@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      flow.dollar
+categories: [flow]
+tags:       [dollar]
+---
 [index](index.html) :: [flow](category_flow.html)
 ---
 

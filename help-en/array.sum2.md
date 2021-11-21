@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      array.sum2
+categories: [array]
+tags:       [array, sum]
+---
 [index](index.html) :: [array](category_array.html)
 ---
 

@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      dict.reject
+categories: [data]
+tags:       [reject, dictionary]
+---
 [index](index.html) :: [data](category_data.html)
 ---
 

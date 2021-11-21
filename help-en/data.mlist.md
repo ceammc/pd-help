@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      data.mlist
+categories: [data]
+tags:       [data, multilist]
+---
 [index](index.html) :: [data](category_data.html)
 ---
 

@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      conv.bits2bang
+categories: [conv]
+tags:       [conv, bits, bangs]
+---
 [index](index.html) :: [conv](category_conv.html)
 ---
 

@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      conv.lin2lin~
+categories: [conv]
+tags:       [convert, linear]
+---
 [index](index.html) :: [conv](category_conv.html)
 ---
 

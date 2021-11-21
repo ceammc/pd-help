@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      flow.delay
+categories: [flow]
+tags:       [flow, delay]
+---
 [index](index.html) :: [flow](category_flow.html)
 ---
 

@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      data.set2list
+categories: [data]
+tags:       [data, set, list]
+---
 [index](index.html) :: [data](category_data.html)
 ---
 

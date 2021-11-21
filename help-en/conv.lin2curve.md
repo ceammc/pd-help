@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      conv.lin2curve
+categories: [conv]
+tags:       [convert, exponential, curve]
+---
 [index](index.html) :: [conv](category_conv.html)
 ---
 

@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      click~
+categories: [misc]
+tags:       [click]
+---
 [index](index.html) :: [misc](category_misc.html)
 ---
 

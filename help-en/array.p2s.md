@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      array.p2s
+categories: [conv]
+tags:       [array, phase, sample]
+---
 [index](index.html) :: [conv](category_conv.html)
 ---
 

@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      canvas.current
+categories: [patch]
+tags:       [canvas]
+---
 [index](index.html) :: [patch](category_patch.html)
 ---
 

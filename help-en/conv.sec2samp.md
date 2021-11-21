@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      conv.sec2samp
+categories: [conv]
+tags:       [conv, samp, sec]
+---
 [index](index.html) :: [conv](category_conv.html)
 ---
 

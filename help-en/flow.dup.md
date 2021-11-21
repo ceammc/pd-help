@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      flow.dup
+categories: [flow]
+tags:       [flow, duplicate, repeat]
+---
 [index](index.html) :: [flow](category_flow.html)
 ---
 

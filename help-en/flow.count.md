@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      flow.count
+categories: [flow]
+tags:       [counter]
+---
 [index](index.html) :: [flow](category_flow.html)
 ---
 

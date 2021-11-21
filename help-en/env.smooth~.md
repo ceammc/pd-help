@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      env.smooth~
+categories: [env]
+tags:       [envelope, smooth]
+---
 [index](index.html) :: [env](category_env.html)
 ---
 

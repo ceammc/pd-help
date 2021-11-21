@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      array.grainer~
+categories: [array]
+tags:       [array, grain, particle, granular]
+---
 [index](index.html) :: [array](category_array.html)
 ---
 

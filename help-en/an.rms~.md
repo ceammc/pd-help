@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      an.rms~
+categories: [an]
+tags:       [rms, root, mean, square]
+---
 [index](index.html) :: [an](category_an.html)
 ---
 

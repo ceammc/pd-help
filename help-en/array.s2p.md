@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      array.s2p
+categories: [conv]
+tags:       [array, phase, sample]
+---
 [index](index.html) :: [conv](category_conv.html)
 ---
 

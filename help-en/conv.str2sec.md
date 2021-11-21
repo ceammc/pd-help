@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      conv.str2sec
+categories: [conv]
+tags:       [conv, time]
+---
 [index](index.html) :: [conv](category_conv.html)
 ---
 

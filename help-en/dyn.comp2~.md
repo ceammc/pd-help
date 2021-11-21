@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      dyn.comp2~
+categories: [dyn]
+tags:       [compressor]
+---
 [index](index.html) :: [dyn](category_dyn.html)
 ---
 

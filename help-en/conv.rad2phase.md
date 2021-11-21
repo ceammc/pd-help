@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      conv.rad2phase
+categories: [conv]
+tags:       [conv, phase, radians]
+---
 [index](index.html) :: [conv](category_conv.html)
 ---
 

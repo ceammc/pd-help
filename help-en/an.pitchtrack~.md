@@ -1,3 +1,9 @@
+---
+layout:     default
+title:      an.pitchtrack~
+categories: [an]
+tags:       [pitchtrack]
+---
 [index](index.html) :: [an](category_an.html)
 ---
 

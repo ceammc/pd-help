@@ -19,3 +19,17 @@ github:
 
 snapcraft:
   url: https://snapcraft.io/pd-ceammc
+
+
+
+# -----------------------------------------------------------------------------
+#  Collections
+# -----------------------------------------------------------------------------
+
+collections:
+  featured_categories:
+    permalink:       /category/:name/
+    output:          true
+  featured_tags:
+    permalink:       /tag/:name/
+    output:          true

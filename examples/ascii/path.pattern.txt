@@ -1,0 +1,13 @@
+
+
+[symbol file-###.wav(
+|
+|  [symbol ~/test-%NOW%.wav(
+|  |
+|  |  [bang(
+|  |  |
+[path.pattern]
+|
+[ui.dt @auto_size 0 @size 400 40]
+
+            

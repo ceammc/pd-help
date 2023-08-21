@@ -1,0 +1,22 @@
+
+
+[osc.saw~ 200]            [ui.dsp~]
+|
+|  [ui.hsl 500 5000 @show_value 1]
+|  |
+|  [@freq $1( [ui.hsl 0.5 50 @show_value 1]
+|  |          |
+|  |          [@q $1(
+|  |          |
+[flt.resonlp~ 1000 20 #a]
+|
+[ui.gain~ @size 120 14]  [ui.ssc~ @size 400 120 #x]
+|*
+|*
+|*
+|*
+|*
+[dac~]
+[X a->x]
+
+            

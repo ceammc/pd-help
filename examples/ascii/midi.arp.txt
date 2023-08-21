@@ -1,0 +1,28 @@
+
+
+[notein]       [ui.dsp~]
+| ^|.
+[pack f f]
+|
+[ui.keyboard]
+|
+|
+|
+|
+|   [T]      [ui.tab up down tri up1 down1 tri1 random random1 @size 400 14]
+|   |        |
+|   [@on $1( [@mode $2( [F]     [1( [2( [3(
+|   |        |          |       |   |   |
+|   |        |          [@t $1( [@min_notes $1(
+|   |        |          |       |
+[midi.arp                       ]
+|           ^|
+[msg note]  [F]
+|
+[sfizz~ \#sine]
+*|*
+[ui.hgain2~]
+*|*
+[dac~]
+
+            

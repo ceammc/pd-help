@@ -1,0 +1,23 @@
+
+
+[T]    [F]   [ui.k #a]    [ui.k #b]     [ui.k #c]
+|      |.    |            |             |
+[metro 150]  |            |             |
+|            |            |             |
+[T]          [@attack $1( [@release $1( [@tone $1(
+|            |            |             |
+[@gate $1(   |            |             |
+|            |            |             |
+[synth.clap~                            ]
+|               ^|
+|               [B]
+|
+[ui.hgain~]     [ui.dsp~]
+| \
+[dac~]
+
+#a 0 100 @show_value 1
+#b 0 100 @show_value 1
+#c 400 3500 @show_value 1
+
+            

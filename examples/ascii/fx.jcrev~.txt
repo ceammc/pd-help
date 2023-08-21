@@ -1,0 +1,26 @@
+
+
+[T]                [ui.dsp~]
+|
+[metro 250]
+|
+[random.a 68 26 84]
+|
+[makenote 127 200] [ui.k]
+*|*                |
+[pack f f]         |             [T]
+|                  |             |
+[synth.dubdub~]    [@drywet $1(  [@bypass $1(
+|                  |             |
+[fx.jcrev~                       ]
+*|*
+*|*                [ui.hsl -60 0 @show_value 1]
+*|*                |
+*|*                [dbfs->amp #a]
+*|*
+[gain~ 4 {i=5,o=4,w=20} #x]
+*|*
+[dac~ 1 2 3 4 {w=20}]
+[X a->x:4]
+
+            

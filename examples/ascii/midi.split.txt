@@ -1,0 +1,22 @@
+
+
+[ui.keyboard]
+|
+|
+|
+|
+[midi.split 40 60 80 #x]
+|
+[ui.dt #a]
+
+      [ui.dt #b]
+
+            [ui.dt #c]
+
+                  [ui.dt #d]
+[X x:0->a]
+[X x:1->b]
+[X x:2->c]
+[X x:3->d]
+
+            

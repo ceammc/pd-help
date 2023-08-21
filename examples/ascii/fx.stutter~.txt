@@ -1,0 +1,18 @@
+
+
+[open %CEAMMC%/guitar1.wav, 1 #c(
+|
+[expand_env]  [stop #b(
+|
+[readsf~ #a]  [ui.btn] [B]
+|             |.       |.
+[fx.stutter~          60]
+|
+[ui.gain~ @size 120 14] [ui.dsp~]
+|\
+[dac~]
+
+[X a:1->c]
+[X b->a]
+
+            

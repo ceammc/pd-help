@@ -14,8 +14,6 @@
 |
 [midi.ev->ctl]
 |
-[msg set]
-|
-[ (
+[ui.dt]
 
             

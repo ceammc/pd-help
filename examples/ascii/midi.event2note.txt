@@ -2,20 +2,25 @@
 
 [B]
 |
-[openpanel]
-|
+[openpanel] [symbol midi/bach-wtk2-prelude2.mid(
+|           |
 [read $1, bang(
 |
-[midi.file]
-|
-|  [play( [stop(
-|  |      |
+[midi.file]             [ui.hsl 0.5 2 @show_value 1]
+|                       |
+|  [reset, play( [stop( [@speed $1(
+|  |             |      |
+|  |             |      |
 [midi.track @join @speed 0.7]
 |
-[midi.ev->note]
-|
-[msg set]
-|
-[ (
+[midi.ev->note] [loadbang]  [ui.dsp~]
+|               |
+[msg note]      [prog 0 1(
+|               |
+[fluid~ sf2/waves.sf2 @gain 1]
+*|*
+[ui.hgain2~]
+*|*
+[dac~]
 
             

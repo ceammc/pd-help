@@ -1,0 +1,17 @@
+
+
+[ui.tab piano epiano strings bass organ vibr harps @size 310 15]
+|
+|      [ui.hrd 6]
+|      |.
+[sync 2 ]
+|
+[pack f f]
+|
+[msg instr]
+|
+[proto.midi.casio]
+|
+[midiout]
+
+            

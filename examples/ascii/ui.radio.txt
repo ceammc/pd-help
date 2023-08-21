@@ -5,11 +5,13 @@
 |    |               |      |       |
 [ui.radio ]          [ui.radio @mode 1]
 |                    |
-[F]                  [ui.display @display_type 1]
+[F]                  [ui.dt]
 
-[+ 3( [- 1( [prev( [next(
-|     |     |      |
-|     |     |      |
-[ui.radio          ]
+[+ 3( [- 1( [prev( [next( [random( [random move(
+|     |     |      |      |        |
+|     |     |      |      |        |
+[ui.radio 4                        ]
+|
+[ui.dt]
 
             

@@ -1,0 +1,33 @@
+
+
+[bang #a(
+|
+[click~   ]
+|         |
+|         [z~ 1]
+|         |
+[*~ 0.5]  [*~ 0.5]
+|         |
+[plot.response~ 64 #b {i=2,o=3}]
+*|*
+*|*
+[ui.plot~ {i=3} #z]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[ui.dsp~]
+[X a->b:1]
+#z @size 400 200 @xlabels 1 @ylabels 1 @xmin_grid 1 @ymin_ticks 0 @ymaj_ticks 0 @xmin_ticks 0 @ymin -2 @ymax 2 @n 2
+
+            

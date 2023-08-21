@@ -6,9 +6,7 @@
 |                             |
 [list.pass_if] X [is_odd]     [list.pass_if] X [> 5]
 |                             |
-[msg set]                     [msg set]
-|                             |
-[  (                          [  (
+[ui.dt]                       [ui.dt]
 
 [B]
 |
@@ -20,8 +18,6 @@
 |
 [str->sym]
 |
-[msg set]
-|
-[ (
+[ui.dt]
 
             

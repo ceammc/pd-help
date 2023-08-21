@@ -1,0 +1,17 @@
+
+
+/*Enter device ID*/
+
+[S digits=20]
+|
+[@dev $1( [@dev 0001f2fffe00XXXX #a(
+|
+|  [T]            [ui.hsl -60 0 @show_value 1]
+|  |              |
+|  [phantom 0 $1( [main_gain $1(
+|  |              |
+|  |              |
+[hw.motu.avb      #z]
+[X a->z]
+
+            

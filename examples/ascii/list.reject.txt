@@ -1,0 +1,14 @@
+
+
+[F]   [S digits=24]
+|     |
+|     [symbol2any]
+|     |
+|     [list]
+|     |
+|     |
+[list.reject A B C 1 2 3]
+|
+[ui.dt]
+
+            

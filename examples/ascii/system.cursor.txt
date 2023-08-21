@@ -1,12 +1,12 @@
 
 
-[T]          [T]            [T]
-|            |              |
-|  [bang(    [@relative $1( [@norm $1(
-|  |         |              |
-|  |         |              |
-|  |         |              |
-[system.cursor              ]
+[T]       [T]            [T]        [T]         [system.cursor.abs]
+|         |              |          |
+|  [bang( [@relative $1( [@norm $1( [@clip $1(  [system.cursor.osc~]
+|  |      |              |          |
+|  |      |              |          |
+|  |      |              |          |
+[system.cursor                      ]
 |
 [route motion mousewheel button]
 |        ^|   ^^|

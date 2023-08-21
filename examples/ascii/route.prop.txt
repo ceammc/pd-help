@@ -1,0 +1,24 @@
+
+
+[B #a]  [100 #b(  [symbol TEST #c(
+
+ [list 1 2 3 #d(  [some message #e(
+
+  [@prop A B #f(  [@prop? #g(
+
+
+
+[route.prop #z]
+|       ^|
+[ui.dt]  |
+         |
+         [ui.dt]
+[X a->z]
+[X b->z]
+[X c->z]
+[X d->z]
+[X e->z]
+[X f->z]
+[X g->z]
+
+            

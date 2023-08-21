@@ -1,0 +1,19 @@
+
+
+[ui.keyboard]
+|
+|
+|
+|
+|
+[midi.modus @scale minor_pentatonic]
+|
+[msg note 1]
+|
+[fluid~ sf2/waves.sf2]
+*|*
+[ui.hgain2~]            [ui.dsp~]
+*|*
+[dac~]
+
+            

@@ -5,8 +5,10 @@
 |
 |
 |
-| [clear(
-| |
+|         [T]
+|         |
+| [clear( [pause * $1(
+| |       |
 [array.grainer~ agr0]  [ui.dsp~]
 *|*
 [ui.hgain2~]
@@ -17,6 +19,12 @@
 
 [msg.onload load guitar1.wav to agr0 @resize]
 |
+| [B]
+| |
+| [openpanel]
+| |
+| [load $1 to agr0 @resize(
+| |
 [snd.file]
 
             

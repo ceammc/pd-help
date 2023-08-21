@@ -14,8 +14,6 @@
 |
 [midi.prg->str @symbol]
 |
-[msg set]
-|
-[ (
+[ui.dt]
 
             

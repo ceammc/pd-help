@@ -1,0 +1,21 @@
+
+
+[T]
+|
+[metro 250]
+|
+[random.a 68 26 84]
+|
+[makenote 127 200] [ui.k]
+*|*                |
+[pack f f]         |             [T]
+|                  |             |
+[synth.dubdub~]    [@drywet $1(  [@bypass $1(
+|                  |             |
+[fx.satrev~                      ]
+*|*
+[ui.hgain2~]       [ui.dsp~]
+*|*
+[dac~]
+
+            

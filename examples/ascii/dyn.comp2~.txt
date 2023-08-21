@@ -4,11 +4,12 @@
 |
 [*~ 100]
 |
-[clip~ 0 1]   [F]
+[clip~ 0 1]   [ui.hsl 1.5 10 @show_value 1]
 |             |
 [*~ 20]       [@ratio $1(
-|             |
-[dyn.comp2~ 3 90 10 100 id]
+|*            |
+|*            |
+[dyn.comp2~ 3 90 10 100]
 *|*
 [ui.hgain2~]
 *|*

@@ -26,10 +26,6 @@
 |
 [route version firmware apin dport]
 |         ^|        ^^|
-[msg set] [msg set] [msg set]
-|         |         |
-[ (       [ (       |
-                    |
-                    [ (
+[ui.dt]   [ui.dt]   [ui.dt]
 
             

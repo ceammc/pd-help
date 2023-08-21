@@ -1,0 +1,23 @@
+
+
+[0, 1 10000(  [F]               [F]
+|             |                 |
+[line 0 20]   [@interval $1 #a( [@shift $1 #b(
+|
+|
+|
+[risset.gliss 60 #x]
+|          ^|
+[msg \#:0] [msg \#:0]
+|.         |..
+[hoa.process~ 5 risset.gliss.osc~ planewaves {i:3,o:5}]
+| ^| ^^| ^^^| ^^^^|
+|  |   |    |     |
+[ui.hgain~        ]             [ui.dsp~]
+|\
+[dac~ 1 2]
+
+[X a->x]
+[X b->x]
+
+            

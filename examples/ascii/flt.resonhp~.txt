@@ -1,0 +1,28 @@
+
+
+[osc.saw~ 15] [noise~]   [ui.dsp~]
+|             |
+|             |  [T]
+|             |. |..
+[mux~ 2       {i=3,o=1}]
+|
+|  [ui.hsl 20 4000 @show_value 1]
+|  |
+|  [@freq $1( [ui.hsl 0.5 50 @show_value 1]
+|  |          |
+|  |          [@q $1(
+|  |          |
+[flt.resonhp~ 440 10 #a]
+|
+[dyn.limit~]
+|
+[ui.gain~ @size 120 14]  [ui.ssc~ @size 400 120 @log_scale 1 #x]
+|*
+|*
+|*
+|*
+|*
+[dac~]
+[X a->x]
+
+            

@@ -1,0 +1,19 @@
+
+
+[text LABEL text message(
+|
+| [ui.hsl -1 1]     [ui.hsl 0 360]
+| |                 |
+| [x LABEL $1(      [angle LABEL $1(
+| |                 |
+| | [dx LABEL 0.1(  | [gmn M \[f b d# g#\](
+| | |               | |
+| | | [del LABEL(   | |
+| | | |             | |
+[proto.inscore        ]
+|  |
+|  [print INSCORE]
+|
+[net.osc.send osc.udp://localhost:7000 {i=1}]
+
+            

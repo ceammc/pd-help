@@ -1,0 +1,19 @@
+
+
+[ui.hrd 4]
+|
+[input $1(
+|
+[proto.feelworld]
+|
+[msg send]
+|
+| [S digits=20]
+| |
+| [connect $1 1000(
+| |
+[netsend -u -b]
+|
+[T]
+
+            

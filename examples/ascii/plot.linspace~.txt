@@ -1,6 +1,6 @@
 
 
-[B]          [ui.dsp~]
+[B]
 |
 |
 [plot.linspace~ -5 5]

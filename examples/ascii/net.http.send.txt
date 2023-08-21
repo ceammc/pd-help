@@ -1,0 +1,12 @@
+
+
+[get /(
+|
+|
+[net.http.send google.com]
+|       ^|
+|        | [bang(
+|        | |
+[F]      [ui.dt]
+
+            

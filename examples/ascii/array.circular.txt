@@ -1,0 +1,13 @@
+
+
+[T]                     [array A-CIRC size=100 w=180 h=130 yr=0..1]
+|
+[metro 200] [ui.knob]
+|           |
+[random.f]  |
+|           |
+[array.circular A-CIRC]
+|
+[F]
+
+            

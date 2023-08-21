@@ -2,8 +2,8 @@
 
 [B]
 |
-[openpanel]
-|
+[openpanel] [symbol midi/bach-wtk2-prelude2.mid(
+|           |
 [read $1, bang(
 |
 [midi.file]
@@ -21,7 +21,9 @@
 [osc~] |
 |      |.
 [*~     ]
-| \
+*|*
+[ui.hgain2~]
+|\
 [dac~]
 
             

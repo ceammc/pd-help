@@ -1,0 +1,26 @@
+
+
+[bang(              [list 0 500 120 110( /*- change pattern*/
+|                   |
+|       [T]         |  [list 0 400 100 300(
+|       |           |  |
+|       [@block $1( |  |
+|       |.          |. |.
+[flow.seqdel 0 0 0 0 {i=2,o=4}]
+|   ^|   ^^| ^^^|
+|    |     |    [synth.church_bell~ #d]
+|    |     |
+|    |     [synth.german_bell~ #c]
+|    |
+|    [synth.english_bell~ #b]
+|
+[synth.russian_bell~ #a] [ui.dsp~]
+|
+[pan.spread~ 4 {w=21} #x]
+*|*
+[ui.hgain2~ @size 15 151]
+*|*
+[dac~ 1 2 {w=21}]
+[X b->x:1] [X c->x:2] [X d->x:3]
+
+            

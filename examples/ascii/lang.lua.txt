@@ -1,0 +1,12 @@
+
+
+[loadmsg load lua/basic.lua]
+|
+| [B] [F]  [1 2 3 4( [S]  [call fn ABC(
+| |   |    |         |    |
+| |   |.   |..       |... |
+[lang.lua @in 4 @out 3    ]
+|         ^|
+[ui.dt]   [F]
+
+            

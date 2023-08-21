@@ -1,6 +1,6 @@
 
 
-[ui.sliders]    [ui.sliders @auto_range 1 #b]
+[ui.sliders]    [ui.sliders @auto_count 1 #b]
 |
 |
 |

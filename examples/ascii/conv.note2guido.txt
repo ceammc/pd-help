@@ -1,0 +1,17 @@
+
+
+[ui.keyboard]
+|
+|
+|
+|
+[$1( [60 61 62( [note 61 4.5( [note 61 4.25(
+|    |          |             |
+|    |          |             |
+[conv.note2guido              ]
+|
+[ui.dt]
+
+[conv.note2guido.inscore]
+
+            

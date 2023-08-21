@@ -6,6 +6,8 @@
 |     |       |   |          |
 [global.set     s1]          [global.set s1]
 |                            |
-[ui.display @display_type 1] [ui.display @display_type 1]
+[ui.dt]                      [ui.dt]
+
+[global.set.abs]
 
             

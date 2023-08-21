@@ -8,7 +8,8 @@
 |         |           |
 |         [@ratio $1( [@threshold $1(
 |         |           |
-[dyn.comp~ 3 40 10 100 id]  [ui.dsp~]
+|         |           |
+[dyn.comp~ 3 40 10 100]  [ui.dsp~]
 *|*
 [ui.hgain~]
 |\

@@ -1,0 +1,11 @@
+
+
+[T]                [ui.tab chords classic]
+|                  |
+|   [random harm(  [@mode $2(
+|   |              |
+[proto.whammy @chan 0 @mode classic]
+|         |
+[midiout] [print]
+
+            

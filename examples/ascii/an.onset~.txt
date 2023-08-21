@@ -7,6 +7,9 @@
 |   |.    |
 [gain~]   [@method $1, dump(
 |         |
+|         |  [reset(
+|         |  |
+|         |  |
 [an.onset~ 2048]             [ui.dsp~]
 |        ^|
 [B]      [F digits=10]

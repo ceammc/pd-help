@@ -1,0 +1,21 @@
+
+
+[T]          [speech.rhvoice~.voices] /*<-- see here*/
+|
+[metro 1000]
+|
+[flow.count] [ui.hsl #a]     [ui.hsl #a]
+|            |               |
+|            [@pitch $1(     [@rate $1(
+|            |               |
+[speech.rhvoice~             ]
+|          ^|
+|          [B]
+|
+[ui.gain~ @size 120 16]   [ui.dsp~]
+|\
+[dac~]
+
+#a -1 1 @show_value 1
+
+            

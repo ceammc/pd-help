@@ -1,0 +1,21 @@
+
+
+[play #a(    [playlist #c(   [next #d( [prev #e(
+
+[stop #b(    [B]             [browse file:// #f(
+             |
+ [T]         [openpanel]     [S digits=10]
+ |           |               |
+[pause( [fs( [add file://$1( [seek $1(
+|       |    |               |
+[proto.vlc localhost @pass 12345 #z]
+|                      ^|
+[T]                    [print]
+[X a->z]
+[X b->z]
+[X c->z]
+[X d->z]
+[X e->z]
+[X f->z]
+
+            

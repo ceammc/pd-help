@@ -5,14 +5,14 @@
 |        [@scale $2(          [@type $2(
 |        |                    |
 [ui.filter~                   ]
-|
-|
-|
-|
-|
-|
-|
-[ui.hgain~]       [ui.dsp~]
+|                            ^|
+|                            |
+|                            |
+|                            |
+|                            |
+|                            |
+|                            |
+[ui.hgain~]     [ui.dsp~]    [ui.dt]
 |\
 [dac~]
 

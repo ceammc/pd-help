@@ -1,0 +1,19 @@
+
+
+[loadmsg load %CEAMMC%/guitar1.wav to ARR @resize] [table ARR]
+|
+[expand_env] [B]
+|            |
+|            [openpanel]
+|            |
+[snd.file    ]
+
+[T]
+|
+[array.risset_rythm~ ARR]
+|
+[ui.hgain~]       [ui.dsp~]
+|\
+[dac~]
+
+            

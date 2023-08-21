@@ -1,0 +1,21 @@
+
+
+[F]
+|
+|  [1 2 3(
+|  |
+|  |  [bang( [any message(
+|  |  |      |
+[route.random 4]
+|  ^| ^^| ^^^|
+|   |   |  [ui.dt]
+|   |   |
+|   |   [ui.dt]
+|   |
+|   [ui.dt]
+|
+[ui.dt]
+
+[route.random.chord]
+
+            

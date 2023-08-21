@@ -1,0 +1,19 @@
+
+
+[F]  [bang( [symbol ABC #a(
+|    |
+|    |   [list 1 2 3(
+|    |   |
+|    |   |  [list(
+|    |   |  |
+|    |   |  | [@any( [other(
+|    |   |  | |      |
+[route.list        #z]
+|       ^|
+[ui.dt]  |
+         |
+         [ui.dt]
+
+[X a->z]
+
+            

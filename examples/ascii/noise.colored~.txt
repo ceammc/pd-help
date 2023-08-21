@@ -1,0 +1,19 @@
+
+
+[ui.k -1 1 @show_value 1]
+|
+|
+|
+[noise.colored~         ]
+|                       |
+[ui.gain~ @size 120 16] [ui.ssc~ @size 300 120 @log_scale 1]
+|*
+|*
+|*
+|*
+|*
+[dac~]
+
+[ui.dsp~]
+
+            

@@ -1,12 +1,10 @@
 
 
-[bang(
+[list A B C 1 2 3(
 |
-[string TEST]
-|
-[string.split]  [symbol .(
-|               |.
-[string.join " " ]
+|               [symbol ":::"( [symbol ""(
+|               |.             |.
+[string.join _                  ]
 |
 [ui.dt]
 

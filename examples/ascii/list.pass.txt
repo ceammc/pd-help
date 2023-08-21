@@ -1,0 +1,13 @@
+
+
+[F]   [S digits=16]
+|     |
+|     [symbol2any]
+|     |
+|     [list]
+|     |
+[list.pass A B C 1 2 3]
+|
+[ui.dt]
+
+            

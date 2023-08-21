@@ -1,0 +1,24 @@
+
+
+[T]    [F]   [ui.k #a]  [ui.k #b]    [ui.k #c]     [ui.k #d]
+|      |.    |          |            |             |
+[metro 150]  |          |            |             |
+|            |          |            |             |
+[T]          [@freq $1( [@attack $1( [@release $1( [@tone $1(
+|            |          |            |             |
+[@gate $1(   |          |            |             |
+|            |          |            |             |
+[synth.hat~                                        ]
+|               ^|
+|               [B]
+|
+[ui.hgain~]     [ui.dsp~]
+| \
+[dac~]
+
+#a 300 4000 @show_value 1
+#b 5 100 @show_value 1
+#c 5 500 @show_value 1
+#d 800 18000 @show_value 1
+
+            

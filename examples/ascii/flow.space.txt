@@ -1,7 +1,11 @@
 
 
 [7, 2, 1, 2, 0, 2, 1, 2 #a( [reset(
-|                           |.
+|                           |
+|   [ui.hsl @show_value 1]  |
+|   |                       |
+|   [@dev $1(               |
+|   |                       |.
 [flow.space 110            #b]
 |
 [degree->key minor {i=1,o=1}]

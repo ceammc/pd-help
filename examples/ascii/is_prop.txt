@@ -1,0 +1,23 @@
+
+
+[B #a]  [100 #b(  [symbol TEST #c(
+
+ [list 1 2 3 #d(  [some message #e(
+
+  [@prop A B #f(  [@prop? #g(
+
+
+
+[is_prop #x]
+|       ^|
+[ui.d]  [ui.dt]
+
+[X a->x]
+[X b->x]
+[X c->x]
+[X d->x]
+[X e->x]
+[X f->x]
+[X g->x]
+
+            

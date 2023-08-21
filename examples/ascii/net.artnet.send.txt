@@ -1,0 +1,27 @@
+
+
+[ui.hrd 4]        [F]
+|                 |
+[@universe $1 #a( [@offset $1 #b(
+
+ [ui.colorpanel #c]
+ |
+ |
+ |
+ |
+ |
+ |
+ |
+ [route @rgb]
+ |
+ [math.* 255]
+ |
+ [msg dmx] [poll( [dmx_fill 0(
+ |         |      |
+[net.artnet.send #x]
+
+[X a->x]
+[X b->x]
+#c @matrix 16 8
+
+            

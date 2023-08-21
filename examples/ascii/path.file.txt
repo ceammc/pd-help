@@ -1,0 +1,15 @@
+
+
+[open ~/test.txt w+, write_line 1 2 3 4 5(
+|
+| [close( [write_bytes 67 69 0x41 0x4D 0x43(
+| |       |
+| |       | [seek_read 0(
+| |       | |
+| |       | | [read_line( [remove ~/test.txt(
+| |       | | |           |
+[path.file                ]
+|           ^|
+[ui.dt]     [B]
+
+            

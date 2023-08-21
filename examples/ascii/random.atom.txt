@@ -1,9 +1,9 @@
 
 
-[T]
-|
-[metro 110]
-|
+[T]           [T]
+|             |
+[metro 110]   [@nonrep $1(
+|             |
 [random.atom C5 D5 C6 Eb4 @w 2 1 6 3]
 |
 [pitch->midi]

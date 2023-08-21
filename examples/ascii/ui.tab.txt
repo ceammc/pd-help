@@ -1,15 +1,20 @@
 
 
-[append sqrt(    [set_item 0 white_noise(
+[append sqrt( [set_item 0 white_noise(      [next #d(
 |                |
-| [insert 0 saw( |  [delete 1(
-| |              |  |
-| | [clear( [F]  |  | [B]  [tri (   [T]
-| | |       |    |  | |    |        |
-| | |       |    |  | |    |        [@toggle $1(
-| | |       |    |  | |    |        |
-[ui.tab      @items sin tri @size 350 15]
-|
-[ui.d]
+| [insert 0 saw( | [delete 1(  [+ 1 #c(     [random move #e(
+| |              | |
+| | [clear( [F]  | | [B] [tri( [T]          [random #a(
+| | |       |    | | |   |     |
+| | |       |    | | |   |     [@toggle $1( [flip #b(
+| | |       |    | | |   |     |
+[ui.tab      @items sin tri @size 350 15 #x]
+|       |
+[print] [ui.dt]
+[X a->x]
+[X b->x]
+[X c->x]
+[X d->x]
+[X e->x]
 
             

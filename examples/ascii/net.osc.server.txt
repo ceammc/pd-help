@@ -1,0 +1,17 @@
+
+
+/*default OSC server: osc.udp://:9000*/
+
+[tgl]
+|
+[@dump $1( [start( [stop(
+|          |       |
+[net.osc.server    ]
+
+/*send list of floats*/
+
+[send /addr 1 2 3 4(
+|
+[net.osc.send osc.udp://localhost:9000]
+
+            

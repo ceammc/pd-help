@@ -1,0 +1,15 @@
+
+
+[path.monitor "%PD%"]
+|
+[ui.dt]
+
+[open "%PD%/test.txt" w(
+|
+| [write 1 2 3, close(
+| |
+| | [remove "%PD%/test.txt"(
+| | |
+[file]
+
+            

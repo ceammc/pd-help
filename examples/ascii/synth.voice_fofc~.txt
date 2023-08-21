@@ -1,0 +1,26 @@
+
+
+[T]
+|
+[@gate $1(
+|
+| [ui.tab #v]
+| |
+| [@voice $1(  [random move(
+| |            |
+| | [F]        [ui.tab #w]         [ui.hsl 0 40 @show_value 1]
+| | |          |                   |
+| | [@freq $1( [@vowel $1(         [@wsmooth $1(
+| | |          |                   |
+[synth.voice_fofc~ bass @freq 120  ]
+|
+[flt.lpf24~ 4500]
+|
+[ui.gain~ @size 120 16]  [ui.dsp~]
+| \
+[dac~]
+
+#v alto bass countertenor soprano tenor @size 360 17
+#w a e i o u
+
+            

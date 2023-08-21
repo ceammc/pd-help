@@ -1,0 +1,14 @@
+
+
+/*default OSC server: osc.udp://:9000*/ [net.osc.server TCP osc.tcp://:9001]
+
+[net.osc.receive /x]                    [net.osc.receive /y TCP]
+|                                       |
+[ui.dt]                                 [ui.dt]
+
+
+[send /x 1 2 3 4( [send /* 4 3 2 1(     [send /y ABC(
+|                 |                     |
+[net.osc.send osc.udp://:9000]          [net.osc.send osc.tcp://:9001]
+
+            

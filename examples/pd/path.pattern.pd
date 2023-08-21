@@ -1,0 +1,10 @@
+#N canvas 0 0 289 207 12;
+#X msg 20 50 symbol file-###.wav;
+#X msg 47 80 symbol ~/test-%NOW%.wav;
+#X msg 74 110 bang;
+#X obj 20 140 path.pattern;
+#X obj 20 170 ui.dt @auto_size 0 @size 400 40;
+#X connect 0 0 3 0;
+#X connect 1 0 3 0;
+#X connect 2 0 3 0;
+#X connect 3 0 4 0;

@@ -1,0 +1,11 @@
+#N canvas 0 0 792 297 12;
+#X obj 20 50 ui.keyboard 24;
+#X msg 20 140 \$1;
+#X obj 20 170 % 12;
+#X obj 20 200 list.map \[0: "C" 1: "C#" 2: "D" 3: "Eb" 4: "E" 5: "F"
+6: "F#" 7: "G" 8: "G#" 9: "A" 10: "A#" 11: "B"\];
+#X obj 20 260 ui.dt;
+#X connect 0 0 1 0;
+#X connect 1 0 2 0;
+#X connect 2 0 3 0;
+#X connect 3 0 4 0;

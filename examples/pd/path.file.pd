@@ -1,0 +1,19 @@
+#N canvas 0 0 425 237 12;
+#X msg 20 50 open ~/test.txt w+ \, write_line 1 2 3 4 5;
+#X msg 38 80 close;
+#X msg 110 80 write_bytes 67 69 0x41 0x4D 0x43;
+#X msg 128 110 seek_read 0;
+#X msg 146 140 read_line;
+#X msg 254 140 remove ~/test.txt;
+#X obj 20 170 path.file;
+#X obj 20 200 ui.dt;
+#X obj 128 200 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X connect 0 0 6 0;
+#X connect 1 0 6 0;
+#X connect 2 0 6 0;
+#X connect 3 0 6 0;
+#X connect 4 0 6 0;
+#X connect 5 0 6 0;
+#X connect 6 0 7 0;
+#X connect 6 1 8 0;

@@ -1,0 +1,19 @@
+#N canvas 0 0 382 192 12;
+#X obj 20 50 loadmsg load lua/basic.lua;
+#X obj 38 80 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X floatatom 74 80 5 0 0 0 - - -;
+#X msg 119 80 1 2 3 4;
+#X symbolatom 209 80 5 0 0 0 - - -;
+#X msg 254 80 call fn ABC;
+#X obj 20 125 lang.lua @in 4 @out 3;
+#X obj 20 155 ui.dt;
+#X floatatom 110 155 5 0 0 0 - - -;
+#X connect 0 0 6 0;
+#X connect 1 0 6 0;
+#X connect 2 0 6 1;
+#X connect 3 0 6 2;
+#X connect 4 0 6 3;
+#X connect 5 0 6 0;
+#X connect 6 0 7 0;
+#X connect 6 1 8 0;

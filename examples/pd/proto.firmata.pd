@@ -1,4 +1,4 @@
-#N canvas 0 0 511 537 12;
+#N canvas 0 0 511 477 12;
 #X obj 20 50 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0 1;
 #X msg 20 80 report_apin 0 \$1;
 #X obj 38 110 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0 1;
@@ -16,12 +16,9 @@
 #X obj 20 350 hw.arduino;
 #X obj 20 380 proto.firmata;
 #X obj 20 410 route version firmware apin dport;
-#X obj 20 440 msg set;
-#X obj 110 440 msg set;
-#X obj 200 440 msg set;
-#X msg 20 470 ;
-#X msg 110 470 ;
-#X msg 200 500 ;
+#X obj 20 440 ui.dt;
+#X obj 110 440 ui.dt;
+#X obj 200 440 ui.dt;
 #X connect 0 0 1 0;
 #X connect 2 0 3 0;
 #X connect 4 0 6 0;
@@ -39,6 +36,3 @@
 #X connect 16 0 17 0;
 #X connect 16 1 18 0;
 #X connect 16 2 19 0;
-#X connect 17 0 20 0;
-#X connect 18 0 21 0;
-#X connect 19 0 22 0;

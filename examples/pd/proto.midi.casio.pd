@@ -1,0 +1,13 @@
+#N canvas 0 0 513 267 12;
+#X obj 20 50 ui.tab piano epiano strings bass organ vibr harps @size
+310 15;
+#X obj 83 80 ui.hrd 6;
+#X obj 20 110 sync 2;
+#X obj 20 140 pack f f;
+#X obj 20 170 msg instr;
+#X obj 20 200 proto.midi.casio;
+#X obj 20 230 midiout;
+#X connect 0 0 2 0;
+#X connect 1 0 2 1;
+#X connect 2 0 3 0;
+#X connect 3 0 4 0;

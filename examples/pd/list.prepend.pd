@@ -9,7 +9,7 @@
 -1;
 #X obj 101 80 str test1;
 #X obj 272 80 str ANOTHER STRING;
-#X obj 20 125 list.prepend @prop ABC;
+#X obj 20 125 list.prepend "@prop" ABC;
 #X obj 20 155 ui.display @display_type 1;
 #X connect 2 0 5 0;
 #X connect 4 0 6 0;

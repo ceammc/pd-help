@@ -1,0 +1,15 @@
+#N canvas 0 0 676 210 12;
+#X msg 20 50 bang;
+#N canvas 0 22 450 300 (subpatch) 0;
+#X array A-WEIGHT 100 float 1;
+#A 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+#X coords 0 1 100 0 400 140 1;
+#X restore 236 50 graph;
+#X obj 20 80 list.seq 20 20000 50;
+#X obj 20 110 flt.a-weight;
+#X obj 20 140 list->array A-WEIGHT;
+#X connect 0 0 2 0;
+#X connect 2 0 3 0;
+#X connect 3 0 4 0;

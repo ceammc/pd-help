@@ -1,4 +1,4 @@
-#N canvas 0 0 278 327 12;
+#N canvas 0 0 278 297 12;
 #X obj 20 50 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 20 80 openpanel;
@@ -9,8 +9,7 @@
 #X obj 20 170 midi.track @join;
 #X obj 20 200 midi.ev->prg;
 #X obj 20 230 midi.prg->str @symbol;
-#X obj 20 260 msg set;
-#X msg 20 290 ;
+#X obj 20 260 ui.dt;
 #X connect 0 0 1 0;
 #X connect 1 0 2 0;
 #X connect 2 0 3 0;
@@ -20,4 +19,3 @@
 #X connect 6 0 7 0;
 #X connect 7 0 8 0;
 #X connect 8 0 9 0;
-#X connect 9 0 10 0;

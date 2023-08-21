@@ -1,4 +1,4 @@
-#N canvas 0 0 366 282 12;
+#N canvas 0 0 366 312 12;
 #X msg 20 50 open;
 #X msg 83 50 symbol ex1.dsp;
 #X obj 263 50 osc~ 500;
@@ -7,6 +7,7 @@
 #X obj 20 215 ui.hgain~;
 #X obj 182 215 ui.dsp~;
 #X obj 20 245 dac~;
+#X obj 20 275 ui.faust~.extra;
 #X connect 1 0 3 0;
 #X connect 0 0 4 0;
 #X connect 3 0 4 0;

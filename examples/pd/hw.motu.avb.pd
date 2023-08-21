@@ -1,0 +1,17 @@
+#N canvas 0 0 415 252 12;
+#X text 20 50 Enter device ID;
+#X symbolatom 20 80 20 0 0 0 - - -;
+#X msg 20 110 @dev \$1;
+#X msg 110 110 @dev 0001f2fffe00XXXX;
+#X obj 47 140 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0 1;
+#X obj 182 140 ui.hsl -60 0 @show_value 1;
+#X msg 47 170 phantom 0 \$1;
+#X msg 182 170 main_gain \$1;
+#X obj 20 215 hw.motu.avb;
+#X connect 1 0 2 0;
+#X connect 4 0 6 0;
+#X connect 5 0 7 0;
+#X connect 2 0 8 0;
+#X connect 6 0 8 0;
+#X connect 7 0 8 0;
+#X connect 3 0 8 0;

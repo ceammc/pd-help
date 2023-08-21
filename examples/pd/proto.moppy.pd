@@ -1,0 +1,18 @@
+#N canvas 0 0 381 297 12;
+#X obj 20 50 ui.keyboard 60 12;
+#X msg 191 140 choose;
+#X obj 20 170 msg note;
+#X msg 119 170 reset;
+#X obj 191 170 data.list 1 14 15 19;
+#X msg 191 200 @v 1 \, period \$1;
+#X obj 20 230 proto.moppy;
+#X msg 191 230 dump;
+#X obj 20 260 hw.arduino @rate 57600;
+#X connect 0 0 2 0;
+#X connect 1 0 4 0;
+#X connect 4 0 5 0;
+#X connect 2 0 6 0;
+#X connect 3 0 6 0;
+#X connect 6 0 8 0;
+#X connect 7 0 8 0;
+#X connect 5 0 6 0;

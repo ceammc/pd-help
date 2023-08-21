@@ -1,0 +1,8 @@
+#N canvas 0 0 262 237 12;
+#X obj 20 50 path.monitor "%PD%";
+#X obj 20 80 ui.dt;
+#X msg 20 110 open "%PD%/test.txt" w;
+#X msg 38 140 write 1 2 3 \, close;
+#X msg 56 170 remove "%PD%/test.txt";
+#X obj 20 200 file;
+#X connect 0 0 1 0;

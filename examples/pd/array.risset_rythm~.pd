@@ -1,0 +1,19 @@
+#N canvas 0 0 590 297 12;
+#X obj 20 50 loadmsg load %CEAMMC%/guitar1.wav to ARR @resize;
+#X obj 479 50 table ARR;
+#X obj 20 80 expand_env;
+#X obj 137 80 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 137 110 openpanel;
+#X obj 20 140 snd.file;
+#X obj 20 170 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0 1;
+#X obj 20 200 array.risset_rythm~ ARR;
+#X obj 20 230 ui.hgain~;
+#X obj 182 230 ui.dsp~;
+#X obj 20 260 dac~;
+#X connect 0 0 2 0;
+#X connect 3 0 4 0;
+#X connect 2 0 5 0;
+#X connect 4 0 5 0;
+#X connect 8 0 10 0;
+#X connect 8 0 10 1;

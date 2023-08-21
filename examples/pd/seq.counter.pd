@@ -1,24 +1,23 @@
-#N canvas 0 0 539 177 12;
+#N canvas 0 0 377 237 12;
 #X obj 20 50 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X obj 182 50 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
--1;
-#X obj 308 50 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
--1;
+#X msg 74 50 prev;
+#X msg 137 50 next;
 #X obj 20 80 seq.counter 1 4;
-#X obj 182 80 seq.counter 1 4 @r 2;
-#X text 380 80 repeat two times;
-#X floatatom 20 110 5 0 0 0 - - -;
-#X floatatom 182 110 5 0 0 0 - - -;
-#X obj 308 110 route done;
-#X obj 308 140 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#X obj 20 110 ui.dt;
+#X obj 20 140 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X floatatom 380 140 5 0 0 0 - - -;
+#X obj 155 140 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 20 170 seq.counter 1 4 @r 2;
+#X text 218 170 repeat two times;
+#X floatatom 20 200 5 0 0 0 - - -;
+#X obj 155 200 ui.dt;
 #X connect 0 0 3 0;
-#X connect 1 0 4 0;
-#X connect 2 0 4 1;
-#X connect 3 0 6 0;
-#X connect 4 0 7 0;
-#X connect 4 1 8 0;
-#X connect 8 0 9 0;
-#X connect 8 1 10 0;
+#X connect 1 0 3 0;
+#X connect 2 0 3 0;
+#X connect 3 0 4 0;
+#X connect 5 0 7 0;
+#X connect 6 0 7 1;
+#X connect 7 0 9 0;
+#X connect 7 1 10 0;

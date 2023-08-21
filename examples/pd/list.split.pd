@@ -1,14 +1,10 @@
-#N canvas 0 0 260 207 12;
+#N canvas 0 0 236 177 12;
 #X msg 20 50 1 2 3 4 5;
 #X msg 137 50 @at 3;
 #X obj 20 110 list.split 2;
-#X obj 20 140 msg set;
-#X obj 164 140 msg set;
-#X msg 20 170 ;
-#X msg 164 170 ;
+#X obj 20 140 ui.dt;
+#X obj 155 140 ui.dt;
 #X connect 0 0 2 0;
 #X connect 1 0 2 0;
 #X connect 2 0 3 0;
 #X connect 2 1 4 0;
-#X connect 3 0 5 0;
-#X connect 4 0 6 0;

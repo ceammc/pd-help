@@ -1,11 +1,9 @@
-#N canvas 0 0 301 177 12;
+#N canvas 0 0 301 147 12;
 #X msg 20 50 1 60 61 120;
 #X obj 20 80 list.apply_to 1 -2;
 #X obj 227 80 mtof;
-#X obj 20 110 msg set;
-#X msg 20 140 ;
+#X obj 20 110 ui.dt;
 #X connect 0 0 1 0;
 #X connect 1 0 3 0;
-#X connect 3 0 4 0;
 #X connect 1 1 2 0;
 #X connect 2 0 1 2;

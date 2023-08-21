@@ -1,0 +1,9 @@
+#N canvas 0 0 269 312 12;
+#X obj 20 50 gnoise.chua~;
+#X obj 20 245 ui.hgain2~;
+#X obj 173 245 ui.dsp~;
+#X obj 20 275 dac~;
+#X connect 0 0 1 0;
+#X connect 0 1 1 1;
+#X connect 1 0 3 0;
+#X connect 1 1 3 1;

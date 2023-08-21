@@ -1,4 +1,4 @@
-#N canvas 0 0 281 267 12;
+#N canvas 0 0 281 237 12;
 #X msg 20 50 dump;
 #X obj 38 80 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
@@ -7,10 +7,8 @@
 #X obj 20 140 data.set a b c d;
 #X obj 20 170 set->list;
 #X obj 128 170 set->list @sort;
-#X obj 20 200 msg set;
-#X obj 128 200 msg set;
-#X msg 20 230 ;
-#X msg 128 230 ;
+#X obj 20 200 ui.dt;
+#X obj 128 200 ui.dt;
 #X connect 0 0 4 0;
 #X connect 1 0 4 0;
 #X connect 2 0 4 0;
@@ -19,5 +17,3 @@
 #X connect 4 0 6 0;
 #X connect 5 0 7 0;
 #X connect 6 0 8 0;
-#X connect 7 0 9 0;
-#X connect 8 0 10 0;

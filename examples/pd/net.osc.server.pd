@@ -1,0 +1,15 @@
+#N canvas 0 0 332 267 12;
+#X text 20 50 default OSC server: osc.udp://:9000;
+#X obj 20 80 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0 1;
+#X msg 20 110 @dump \$1;
+#X msg 119 110 start;
+#X msg 191 110 stop;
+#X obj 20 140 net.osc.server;
+#X text 20 170 send list of floats;
+#X msg 20 200 send /addr 1 2 3 4;
+#X obj 20 230 net.osc.send osc.udp://localhost:9000;
+#X connect 1 0 2 0;
+#X connect 2 0 5 0;
+#X connect 3 0 5 0;
+#X connect 4 0 5 0;
+#X connect 7 0 8 0;

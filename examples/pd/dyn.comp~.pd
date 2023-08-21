@@ -1,4 +1,4 @@
-#N canvas 0 0 368 267 12;
+#N canvas 0 0 362 282 12;
 #X obj 20 50 lfo.impulse~ 10;
 #X obj 182 50 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0 1;
 #X obj 20 80 *~;
@@ -7,10 +7,10 @@
 #X obj 20 110 *~ 4;
 #X msg 110 140 @ratio \$1;
 #X msg 218 140 @threshold \$1;
-#X obj 20 170 dyn.comp~ 3 40 10 100 id;
-#X obj 272 170 ui.dsp~;
-#X obj 20 200 ui.hgain~;
-#X obj 20 230 dac~;
+#X obj 20 185 dyn.comp~ 3 40 10 100;
+#X obj 245 185 ui.dsp~;
+#X obj 20 215 ui.hgain~;
+#X obj 20 245 dac~;
 #X connect 0 0 2 0;
 #X connect 1 0 2 1;
 #X connect 2 0 5 0;

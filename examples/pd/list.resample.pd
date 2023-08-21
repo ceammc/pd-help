@@ -1,6 +1,6 @@
 #N canvas 0 0 382 237 12;
 #X obj 20 50 ui.sliders;
-#X obj 164 50 ui.sliders @auto_range 1;
+#X obj 164 50 ui.sliders @auto_count 1;
 #X obj 137 170 ui.hrd;
 #X obj 20 200 list.resample 4;
 #X connect 0 0 3 0;

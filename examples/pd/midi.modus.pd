@@ -1,0 +1,15 @@
+#N canvas 0 0 332 297 12;
+#X obj 20 50 ui.keyboard;
+#X obj 20 140 midi.modus @scale minor_pentatonic;
+#X obj 20 170 msg note 1;
+#X obj 20 200 fluid~ sf2/waves.sf2;
+#X obj 20 230 ui.hgain2~;
+#X obj 236 230 ui.dsp~;
+#X obj 20 260 dac~;
+#X connect 0 0 1 0;
+#X connect 1 0 2 0;
+#X connect 2 0 3 0;
+#X connect 3 0 4 0;
+#X connect 3 1 4 1;
+#X connect 4 0 6 0;
+#X connect 4 1 6 1;

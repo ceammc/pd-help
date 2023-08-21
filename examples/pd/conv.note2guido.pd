@@ -1,0 +1,15 @@
+#N canvas 0 0 426 267 12;
+#X obj 20 50 ui.keyboard;
+#X msg 20 125 \$1;
+#X msg 65 125 60 61 62;
+#X msg 164 125 note 61 4.5;
+#X msg 290 125 note 61 4.25;
+#X obj 20 170 conv.note2guido;
+#X obj 20 200 ui.dt;
+#X obj 20 230 conv.note2guido.inscore;
+#X connect 0 0 1 0;
+#X connect 1 0 5 0;
+#X connect 2 0 5 0;
+#X connect 3 0 5 0;
+#X connect 4 0 5 0;
+#X connect 5 0 6 0;

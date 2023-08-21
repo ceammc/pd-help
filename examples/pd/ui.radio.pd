@@ -1,4 +1,4 @@
-#N canvas 0 0 487 237 12;
+#N canvas 0 0 487 267 12;
 #X floatatom 20 50 5 0 0 0 - - -;
 #X msg 65 50 set 2;
 #X msg 209 50 flip;
@@ -7,12 +7,15 @@
 #X obj 20 95 ui.radio;
 #X obj 209 95 ui.radio @mode 1;
 #X floatatom 20 125 5 0 0 0 - - -;
-#X obj 209 125 ui.display @display_type 1;
+#X obj 209 125 ui.dt;
 #X msg 20 155 + 3;
 #X msg 74 155 - 1;
 #X msg 128 155 prev;
 #X msg 191 155 next;
-#X obj 20 200 ui.radio;
+#X msg 254 155 random;
+#X msg 335 155 random move;
+#X obj 20 200 ui.radio 4;
+#X obj 20 230 ui.dt;
 #X connect 0 0 5 0;
 #X connect 1 0 5 0;
 #X connect 2 0 6 0;
@@ -20,7 +23,10 @@
 #X connect 4 0 6 0;
 #X connect 5 0 7 0;
 #X connect 6 0 8 0;
-#X connect 9 0 13 0;
-#X connect 10 0 13 0;
-#X connect 11 0 13 0;
-#X connect 12 0 13 0;
+#X connect 9 0 15 0;
+#X connect 10 0 15 0;
+#X connect 11 0 15 0;
+#X connect 12 0 15 0;
+#X connect 13 0 15 0;
+#X connect 14 0 15 0;
+#X connect 15 0 16 0;

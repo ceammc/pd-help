@@ -10,9 +10,51 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 
 
 ## категории
+[an](#cat_an)
+[array](#cat_array)
+[base](#cat_base)
+[chaos](#cat_chaos)
+[conv](#cat_conv)
+[data](#cat_data)
+[dyn](#cat_dyn)
+[env](#cat_env)
+[flow](#cat_flow)
+[flt](#cat_flt)
+[fx](#cat_fx)
+[global](#cat_global)
+[hw](#cat_hw)
+[lang](#cat_lang)
+[lfo](#cat_lfo)
+[list](#cat_list)
+[live](#cat_live)
+[local](#cat_local)
+[math](#cat_math)
+[midi](#cat_midi)
+[misc](#cat_misc)
+[msg](#cat_msg)
+[net](#cat_net)
+[noise](#cat_noise)
+[osc](#cat_osc)
+[patch](#cat_patch)
+[path](#cat_path)
+[predicates](#cat_predicates)
+[preset](#cat_preset)
+[property](#cat_property)
+[proto](#cat_proto)
+[random](#cat_random)
+[samp](#cat_samp)
+[seq](#cat_seq)
+[snd](#cat_snd)
+[spat](#cat_spat)
+[string](#cat_string)
+[symbol](#cat_symbol)
+[synth](#cat_synth)
+[system](#cat_system)
+[tl](#cat_tl)
+[ui](#cat_ui)
 
 
-### [an](category_an.html)
+### <a id="cat_an" href="category_an.html">an</a>
 
 ---
 
@@ -30,7 +72,7 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 [**an.zero~**](an.zero~.html): zero crossing count/rate/freq calculator 
 
 
-### [array](category_array.html)
+### <a id="cat_array" href="category_array.html">array</a>
 
 ---
 
@@ -96,7 +138,7 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 [**plot.response~**](plot.response~.html): output amp/phase freq response to impulse 
 
 
-### [base](category_base.html)
+### <a id="cat_base" href="category_base.html">base</a>
 
 ---
 
@@ -142,7 +184,7 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 [**z~**](z~.html): sample delay 
 
 
-### [chaos](category_chaos.html)
+### <a id="cat_chaos" href="category_chaos.html">chaos</a>
 
 ---
 
@@ -160,7 +202,7 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 [**chaos.std0~**](chaos.std0~.html): Standard map chaotic generator 
 
 
-### [conv](category_conv.html)
+### <a id="cat_conv" href="category_conv.html">conv</a>
 
 ---
 
@@ -256,7 +298,7 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 [**music.voice2midi**](music.voice2midi.html): convert voice music list of midi pitches 
 
 
-### [data](category_data.html)
+### <a id="cat_data" href="category_data.html">data</a>
 
 ---
 
@@ -318,7 +360,7 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 [**set.union**](set.union.html): output union of given sets 
 
 
-### [dyn](category_dyn.html)
+### <a id="cat_dyn" href="category_dyn.html">dyn</a>
 
 ---
 
@@ -338,7 +380,7 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 [**dyn.softclip~**](dyn.softclip~.html): soft signal clip 
 
 
-### [env](category_env.html)
+### <a id="cat_env" href="category_env.html">env</a>
 
 ---
 
@@ -372,7 +414,7 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 [**vline2env**](vline2env.html): Converts vline messages to env 
 
 
-### [flow](category_flow.html)
+### <a id="cat_flow" href="category_flow.html">flow</a>
 
 ---
 
@@ -482,7 +524,7 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 [**route.symbol**](route.symbol.html): separate symbol messages from other types 
 
 
-### [flt](category_flt.html)
+### <a id="cat_flt" href="category_flt.html">flt</a>
 
 ---
 
@@ -564,7 +606,7 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 [**flt.resonlp~**](flt.resonlp~.html): Simple resonant lowpass filter 
 
 
-### [fx](category_fx.html)
+### <a id="cat_fx" href="category_fx.html">fx</a>
 
 ---
 
@@ -638,7 +680,7 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 [**fx.zita_rev1~**](fx.zita_rev1~.html): Zita stereo reverb 
 
 
-### [global](category_global.html)
+### <a id="cat_global" href="category_global.html">global</a>
 
 ---
 
@@ -656,7 +698,7 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 [**global.set**](global.set.html): global named set object 
 
 
-### [hw](category_hw.html)
+### <a id="cat_hw" href="category_hw.html">hw</a>
 
 ---
 
@@ -678,7 +720,7 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 [**hw.serial**](hw.serial.html): serial port device 
 
 
-### [lang](category_lang.html)
+### <a id="cat_lang" href="category_lang.html">lang</a>
 
 ---
 
@@ -690,7 +732,7 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 [**ui.faust~**](ui.faust~.html): faust compiled ui object 
 
 
-### [lfo](category_lfo.html)
+### <a id="cat_lfo" href="category_lfo.html">lfo</a>
 
 ---
 
@@ -716,7 +758,7 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 [**lfo.tri~**](lfo.tri~.html): Zero-mean unit-amplitude low frequency triangle wave 
 
 
-### [list](category_list.html)
+### <a id="cat_list" href="category_list.html">list</a>
 ###### objects for list processing
 ---
 
@@ -862,7 +904,7 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 [**list.zip**](list.zip.html): takes n lists from n inlets (specified by argument) and output their elements sequentially (list1-1 list2-1 list1-2 list2-2 etc.). 
 
 
-### [live](category_live.html)
+### <a id="cat_live" href="category_live.html">live</a>
 
 ---
 
@@ -870,7 +912,7 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 [**live.capture~**](live.capture~.html): record up to 32s of sound and playback the recorded sound in loop 
 
 
-### [local](category_local.html)
+### <a id="cat_local" href="category_local.html">local</a>
 
 ---
 
@@ -888,7 +930,7 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 [**local.set**](local.set.html): local named set object 
 
 
-### [math](category_math.html)
+### <a id="cat_math" href="category_math.html">math</a>
 ###### math objects. can operate with list of numbers.
 ---
 
@@ -1090,7 +1132,7 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 [**math.trunc~**](math.trunc~.html): truncate to integer value 
 
 
-### [midi](category_midi.html)
+### <a id="cat_midi" href="category_midi.html">midi</a>
 
 ---
 
@@ -1136,7 +1178,7 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 [**midi.vrand**](midi.vrand.html): midi velocity randomizer 
 
 
-### [misc](category_misc.html)
+### <a id="cat_misc" href="category_misc.html">misc</a>
 
 ---
 
@@ -1158,7 +1200,7 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 [**speech.rhvoice~**](speech.rhvoice~.html): RHVoice text to speech synthesis 
 
 
-### [msg](category_msg.html)
+### <a id="cat_msg" href="category_msg.html">msg</a>
 
 ---
 
@@ -1174,7 +1216,7 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 [**msg.sched**](msg.sched.html): message scheduler 
 
 
-### [net](category_net.html)
+### <a id="cat_net" href="category_net.html">net</a>
 
 ---
 
@@ -1192,7 +1234,7 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 [**net.osc.server**](net.osc.server.html): OSC server control 
 
 
-### [noise](category_noise.html)
+### <a id="cat_noise" href="category_noise.html">noise</a>
 
 ---
 
@@ -1244,7 +1286,7 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 [**noise.white~**](noise.white~.html): White noise generator 
 
 
-### [osc](category_osc.html)
+### <a id="cat_osc" href="category_osc.html">osc</a>
 
 ---
 
@@ -1268,7 +1310,7 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 [**osc.tri~**](osc.tri~.html): Bandlimited triangle wave oscillator 
 
 
-### [patch](category_patch.html)
+### <a id="cat_patch" href="category_patch.html">patch</a>
 
 ---
 
@@ -1292,7 +1334,7 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 [**patch.tree**](patch.tree.html): patch tree 
 
 
-### [path](category_path.html)
+### <a id="cat_path" href="category_path.html">path</a>
 
 ---
 
@@ -1322,7 +1364,7 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 [**path.split**](path.split.html): file path split 
 
 
-### [predicates](category_predicates.html)
+### <a id="cat_predicates" href="category_predicates.html">predicates</a>
 
 ---
 
@@ -1352,7 +1394,7 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 [**is_symbol**](is_symbol.html): checks if input data has *symbol* type 
 
 
-### [preset](category_preset.html)
+### <a id="cat_preset" href="category_preset.html">preset</a>
 
 ---
 
@@ -1366,7 +1408,7 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 [**preset.symbol**](preset.symbol.html): load/store symbol preset 
 
 
-### [property](category_property.html)
+### <a id="cat_property" href="category_property.html">property</a>
 
 ---
 
@@ -1390,7 +1432,7 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 [**prop.split**](prop.split.html): separate properties from dataflow 
 
 
-### [proto](category_proto.html)
+### <a id="cat_proto" href="category_proto.html">proto</a>
 
 ---
 
@@ -1420,7 +1462,7 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 [**proto.xtouch_ext**](proto.xtouch_ext.html): Behringer XTouch Extender XMidi protocol 
 
 
-### [random](category_random.html)
+### <a id="cat_random" href="category_random.html">random</a>
 
 ---
 
@@ -1442,7 +1484,7 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 [**random.pw_lin**](random.pw_lin.html): piecewise linear random distribution 
 
 
-### [samp](category_samp.html)
+### <a id="cat_samp" href="category_samp.html">samp</a>
 
 ---
 
@@ -1450,7 +1492,7 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 [**samp.time~**](samp.time~.html): sample counter 
 
 
-### [seq](category_seq.html)
+### <a id="cat_seq" href="category_seq.html">seq</a>
 
 ---
 
@@ -1474,7 +1516,7 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 [**sequencer**](sequencer.html): basic sequence player 
 
 
-### [snd](category_snd.html)
+### <a id="cat_snd" href="category_snd.html">snd</a>
 
 ---
 
@@ -1482,7 +1524,7 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 [**snd.file**](snd.file.html): Sound file loader on steroids 
 
 
-### [spat](category_spat.html)
+### <a id="cat_spat" href="category_spat.html">spat</a>
 
 ---
 
@@ -1536,7 +1578,7 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 [**spat.zita8~**](spat.zita8~.html): 8 channel reverb spatializer 
 
 
-### [string](category_string.html)
+### <a id="cat_string" href="category_string.html">string</a>
 
 ---
 
@@ -1570,7 +1612,7 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 [**string2symbol**](string2symbol.html): converts string to symbol 
 
 
-### [symbol](category_symbol.html)
+### <a id="cat_symbol" href="category_symbol.html">symbol</a>
 
 ---
 
@@ -1586,7 +1628,7 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 [**symbol2intlist**](symbol2intlist.html): converts symbol to list of character codes 
 
 
-### [synth](category_synth.html)
+### <a id="cat_synth" href="category_synth.html">synth</a>
 
 ---
 
@@ -1660,7 +1702,7 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 [**synth.wurley~**](synth.wurley~.html): Wurlitzer electric piano FM synthesis instrument 
 
 
-### [system](category_system.html)
+### <a id="cat_system" href="category_system.html">system</a>
 
 ---
 
@@ -1684,7 +1726,7 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 [**system.screen_size**](system.screen_size.html): returns current screen size in pixels 
 
 
-### [tl](category_tl.html)
+### <a id="cat_tl" href="category_tl.html">tl</a>
 
 ---
 
@@ -1700,7 +1742,7 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 [**tl.transport**](tl.transport.html): Timeline transport control 
 
 
-### [ui](category_ui.html)
+### <a id="cat_ui" href="category_ui.html">ui</a>
 
 ---
 

@@ -22,7 +22,7 @@
 number of inputs<br>
 _тип:_ int<br>
 
-* **VALS**
+* **INIT**
 default values for all inlets. If not enough default values given it sets to 0.<br>
 _тип:_ list<br>
 
@@ -32,14 +32,14 @@ _тип:_ list<br>
 
 ## свойства:
 
-* **@n** 
-Получить/установить number of inlets<br>
+* **@n** (initonly)
+Запросить/установить number of inlets<br>
 _тип:_ int<br>
 _диапазон:_ 1..255<br>
 _по умолчанию:_ 1<br>
 
-* **@init** 
-Получить/установить default init values<br>
+* **@init** (initonly)
+Запросить/установить default init values<br>
 _тип:_ list<br>
 
 

@@ -52,7 +52,7 @@ _тип:_ control
 ## выходы:
 
 * current sample number<br>
-_тип:_ control
+_тип:_ audio
 
 
 

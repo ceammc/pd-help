@@ -20,7 +20,7 @@ Works with data atoms
 
 ## аргументы:
 
-* **LIST**
+* **VALUE**
 appended value<br>
 _тип:_ list<br>
 
@@ -31,7 +31,7 @@ _тип:_ list<br>
 ## свойства:
 
 * **@value** 
-Получить/установить append value<br>
+Запросить/установить append value<br>
 _тип:_ list<br>
 
 

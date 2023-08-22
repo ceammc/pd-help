@@ -41,56 +41,53 @@ reset reverb<br>
 ## свойства:
 
 * **@room** 
-Получить/установить room size<br>
+Запросить/установить room size<br>
 _тип:_ float<br>
 _диапазон:_ 0..1<br>
 _по умолчанию:_ 0.5<br>
 
 * **@damp** 
-Получить/установить damping of the lowpass comb filter<br>
+Запросить/установить damping of the lowpass comb filter<br>
 _тип:_ float<br>
 _диапазон:_ 0..1<br>
 _по умолчанию:_ 0.5<br>
 
 * **@drywet** 
-Получить/установить proportion of mix between the original (dry) and &#39;effected&#39; (wet) signals. 0 -
+Запросить/установить proportion of mix between the original (dry) and &#39;effected&#39; (wet) signals. 0 -
 dry signal, 1 - wet<br>
 _тип:_ float<br>
 _диапазон:_ 0..1<br>
 _по умолчанию:_ 0.33<br>
 
 * **@bypass** 
-Получить/установить if set to 1 - bypass &#39;effected&#39; signal<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить if set to 1 - bypass &#39;effected&#39; signal<br>
+_тип:_ bool<br>
 _по умолчанию:_ 0<br>
 
 * **@active** 
-Получить/установить on/off dsp processing<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить on/off dsp processing<br>
+_тип:_ bool<br>
 _по умолчанию:_ 1<br>
 
 * **@freeze** 
-Получить/установить freeze reverberation tail<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить freeze reverberation tail<br>
+_тип:_ bool<br>
 _по умолчанию:_ 0<br>
 
 * **@fr_room** 
-Получить/установить freeze room size<br>
+Запросить/установить freeze room size<br>
 _тип:_ float<br>
 _диапазон:_ 0..1<br>
 _по умолчанию:_ 0.999<br>
 
 * **@fr_damp** 
-Получить/установить freeze room damp<br>
+Запросить/установить freeze room damp<br>
 _тип:_ float<br>
 _диапазон:_ 0..1<br>
 _по умолчанию:_ 0.0001<br>
 
 * **@fr_time** 
-Получить/установить length of freeze tail<br>
+Запросить/установить length of freeze tail<br>
 _тип:_ float<br>
 _единица:_ ms<br>
 _диапазон:_ 0..1000<br>

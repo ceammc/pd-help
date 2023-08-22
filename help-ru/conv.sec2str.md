@@ -22,13 +22,13 @@
 
 ## свойства:
 
-* **@ms** 
-Получить/установить output milliseconds<br>
+* **@ms** (initonly)
+Запросить/установить output milliseconds<br>
 _тип:_ flag<br>
 _по умолчанию:_ 0<br>
 
-* **@symbol** 
-Получить/установить if specified - output formatted time as symbol, otherwise as string.<br>
+* **@symbol** (initonly)
+Запросить/установить if specified - output formatted time as symbol, otherwise as string.<br>
 _тип:_ flag<br>
 _по умолчанию:_ 0<br>
 

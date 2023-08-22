@@ -24,7 +24,7 @@
 
 ## входы:
 
-* Input list.<br>
+* input list.<br>
 _тип:_ control
 
 

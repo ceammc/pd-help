@@ -54,34 +54,31 @@ output current value and move to next<br>
 ## свойства:
 
 * **@freq** 
-Получить/установить frequency<br>
+Запросить/установить frequency<br>
 _тип:_ float<br>
 _единица:_ Hz<br>
 _диапазон:_ 0..100<br>
 _по умолчанию:_ 0<br>
 
 * **@on** 
-Получить/установить on/off state<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить on/off state<br>
+_тип:_ bool<br>
 _по умолчанию:_ 0<br>
 
 * **@invert** 
-Получить/установить saw inversion mode. If true, outputs descreasing waveform<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить saw inversion mode. If true, outputs descreasing waveform<br>
+_тип:_ bool<br>
 _по умолчанию:_ 0<br>
 
 * **@steps** 
-Получить/установить numbers of steps<br>
+Запросить/установить numbers of steps<br>
 _тип:_ int<br>
 _минимальное значение:_ 3<br>
 _по умолчанию:_ 128<br>
 
 * **@open** 
-Получить/установить output in open [0..1) range, otherwise output range is [0..1]<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить output in open [0..1) range, otherwise output range is [0..1]<br>
+_тип:_ bool<br>
 _по умолчанию:_ 0<br>
 
 

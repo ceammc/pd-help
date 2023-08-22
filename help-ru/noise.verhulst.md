@@ -3,9 +3,9 @@
 
 # noise.verhulst
 
-###### Part of a-chaos library
+###### verhulst distribution
 
-*доступно с версии:* .5
+*доступно с версии:* 0.5
 
 ---
 

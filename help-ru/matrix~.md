@@ -47,13 +47,13 @@ on/off matrix cell. Note argument order: row, cols.<br>
 ## свойства:
 
 * **@inputs** (readonly)
-Получить number of matrix inputs<br>
+Запросить number of matrix inputs<br>
 _тип:_ int<br>
 _диапазон:_ 2..16<br>
 _по умолчанию:_ 2<br>
 
 * **@outputs** (readonly)
-Получить number of matrix outputs<br>
+Запросить number of matrix outputs<br>
 _тип:_ int<br>
 _диапазон:_ 2..16<br>
 _по умолчанию:_ 2<br>

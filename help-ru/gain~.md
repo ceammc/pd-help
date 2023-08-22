@@ -84,19 +84,19 @@ set gain in db for all inputs<br>
 ## свойства:
 
 * **@value** 
-Получить/установить gain amplitude values<br>
+Запросить/установить gain amplitude values<br>
 _тип:_ list<br>
 _минимальное значение:_ 0<br>
 _по умолчанию:_ 0<br>
 
 * **@db** 
-Получить/установить gain decibel (dbfs) values<br>
+Запросить/установить gain decibel (dbfs) values<br>
 _тип:_ list<br>
 _минимальное значение:_ -144<br>
 _по умолчанию:_ -144<br>
 
 * **@smooth_time** 
-Получить/установить gain change smooth time<br>
+Запросить/установить gain change smooth time<br>
 _тип:_ float<br>
 _единица:_ ms<br>
 _минимальное значение:_ 1<br>

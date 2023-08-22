@@ -90,48 +90,46 @@ move time to time<br>
 ## свойства:
 
 * **@is_running** (readonly)
-Получить if timeline is running<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить if timeline is running<br>
+_тип:_ bool<br>
 _по умолчанию:_ 0<br>
 
 * **@length** (readonly)
-Получить timeline length<br>
+Запросить timeline length<br>
 _тип:_ float<br>
 _единица:_ sec<br>
 _по умолчанию:_ 60<br>
 
 * **@size** (readonly)
-Получить number of events in timeline<br>
+Запросить number of events in timeline<br>
 _тип:_ int<br>
 _минимальное значение:_ 0<br>
 _по умолчанию:_ 1<br>
 
 * **@current** (readonly)
-Получить current time<br>
+Запросить current time<br>
 _тип:_ float<br>
 _единица:_ ms<br>
 _по умолчанию:_ 0<br>
 
 * **@phase** (readonly)
-Получить current phase in [0-1) range<br>
+Запросить current phase in [0-1) range<br>
 _тип:_ float<br>
 _диапазон:_ 0..1<br>
 _по умолчанию:_ 0<br>
 
 * **@events** (readonly)
-Получить list of event names in chronological order<br>
+Запросить list of event names in chronological order<br>
 _тип:_ list<br>
 _по умолчанию:_ end<br>
 
 * **@loop** 
-Получить/установить loop mode<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить loop mode<br>
+_тип:_ bool<br>
 _по умолчанию:_ 0<br>
 
 * **@mode** 
-Получить/установить timeline mode. If timeline is fixed, when reached, it outputs *end* event and
+Запросить/установить timeline mode. If timeline is fixed, when reached, it outputs *end* event and
 stops after that. Infinite timeline never stops by itself. Fixed timeline can
 have @loop property for repeats<br>
 _тип:_ symbol<br>

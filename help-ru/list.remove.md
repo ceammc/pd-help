@@ -29,7 +29,7 @@ _тип:_ list<br>
 ## свойства:
 
 * **@indexes** 
-Получить/установить indexes to remove<br>
+Запросить/установить indexes to remove<br>
 _тип:_ list<br>
 
 

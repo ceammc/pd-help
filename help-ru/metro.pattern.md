@@ -19,7 +19,7 @@
 ## аргументы:
 
 * **PATTERN**
-list of time intervals<br>
+list of time intervals (in ms)<br>
 _тип:_ list<br>
 
 
@@ -29,19 +29,18 @@ _тип:_ list<br>
 ## свойства:
 
 * **@pattern** 
-Получить/установить time intervals performed in a loop<br>
+Запросить/установить time intervals (in ms) performed in a loop<br>
 _тип:_ list<br>
 
 * **@current** 
-Получить/установить current pattern index<br>
+Запросить/установить current pattern index<br>
 _тип:_ int<br>
 _минимальное значение:_ 0<br>
 _по умолчанию:_ 0<br>
 
 * **@sync** 
-Получить/установить sync mode - change pattern after full cycle<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить sync mode - change pattern after full cycle<br>
+_тип:_ bool<br>
 _по умолчанию:_ 0<br>
 
 

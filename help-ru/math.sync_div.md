@@ -30,8 +30,8 @@ _тип:_ float<br>
 
 ## свойства:
 
-* **@int** 
-Получить/установить operate on integers only<br>
+* **@int** (initonly)
+Запросить/установить operate on integers only<br>
 _тип:_ flag<br>
 _по умолчанию:_ 0<br>
 

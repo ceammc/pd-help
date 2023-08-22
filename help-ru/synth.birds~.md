@@ -16,6 +16,16 @@
 
 
 
+## аргументы:
+
+* **SPEED**
+maximum speed of whistles if @auto enabled<br>
+_тип:_ float<br>
+
+* **PROBABILITY**
+whistles probability if @auto enabled<br>
+_тип:_ float<br>
+
 
 
 
@@ -23,33 +33,30 @@
 ## свойства:
 
 * **@speed** 
-Получить/установить maximum speed of whistles if @auto enabled<br>
+Запросить/установить maximum speed of whistles if @auto enabled<br>
 _тип:_ float<br>
 _диапазон:_ 120..480<br>
 _по умолчанию:_ 240<br>
 
 * **@probability** 
-Получить/установить whistles probability if @auto enabled<br>
+Запросить/установить whistles probability if @auto enabled<br>
 _тип:_ float<br>
 _диапазон:_ 25..100<br>
 _по умолчанию:_ 50<br>
 
 * **@gate** 
-Получить/установить play trigger. Starts playing on release<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить play trigger. Starts playing on release<br>
+_тип:_ bool<br>
 _по умолчанию:_ 0<br>
 
 * **@auto** 
-Получить/установить auto playing mode<br>
-_тип:_ int<br>
-_диапазон:_ 0..1<br>
+Запросить/установить auto playing mode<br>
+_тип:_ bool<br>
 _по умолчанию:_ 0<br>
 
 * **@active** 
-Получить/установить on/off dsp processing<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить on/off dsp processing<br>
+_тип:_ bool<br>
 _по умолчанию:_ 1<br>
 
 

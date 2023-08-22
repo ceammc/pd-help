@@ -34,21 +34,20 @@ _единица:_ rad<br>
 ## свойства:
 
 * **@angle** 
-Получить/установить panning position in radians<br>
+Запросить/установить panning position in radians<br>
 _тип:_ float<br>
 _диапазон:_ 0..2π<br>
 _по умолчанию:_ 0<br>
 
 * **@radius** 
-Получить/установить distance from circle center<br>
+Запросить/установить distance from circle center<br>
 _тип:_ float<br>
 _диапазон:_ 0..1<br>
 _по умолчанию:_ 1<br>
 
 * **@active** 
-Получить/установить on/off dsp processing<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить on/off dsp processing<br>
+_тип:_ bool<br>
 _по умолчанию:_ 1<br>
 
 

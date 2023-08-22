@@ -37,14 +37,14 @@ _единица:_ ms<br>
 ## свойства:
 
 * **@min** 
-Получить/установить minimal bang interval<br>
+Запросить/установить minimal bang interval<br>
 _тип:_ int<br>
 _единица:_ ms<br>
 _минимальное значение:_ 1<br>
 _по умолчанию:_ 100<br>
 
 * **@max** 
-Получить/установить maximum bang interval<br>
+Запросить/установить maximum bang interval<br>
 _тип:_ int<br>
 _единица:_ ms<br>
 _минимальное значение:_ 1<br>

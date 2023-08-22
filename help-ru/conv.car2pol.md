@@ -23,10 +23,9 @@
 ## свойства:
 
 * **@positive** 
-Получить/установить output in positive range. If true output is in [0..2π) range, otherwise output
+Запросить/установить output in positive range. If true output is in [0..2π) range, otherwise output
 range is [-π..+π]<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+_тип:_ bool<br>
 _по умолчанию:_ 0<br>
 
 

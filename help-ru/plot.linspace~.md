@@ -16,6 +16,20 @@
 
 
 
+## аргументы:
+
+* **START**
+@start property<br>
+_тип:_ float<br>
+
+* **STOP**
+@stop property<br>
+_тип:_ float<br>
+
+* **N**
+@n property<br>
+_тип:_ int<br>
+
 
 
 
@@ -23,39 +37,36 @@
 ## свойства:
 
 * **@start** 
-Получить/установить the starting value of the sequence<br>
+Запросить/установить the starting value of the sequence<br>
 _тип:_ float<br>
-_минимальное значение:_ 0<br>
 _по умолчанию:_ 0<br>
 
 * **@stop** 
-Получить/установить the final value of the sequence, unless @endpoint is false. In that case, @n +
+Запросить/установить the final value of the sequence, unless @endpoint is false. In that case, @n +
 1 values are spaced over the interval in lin-space, of which all but the last
 (a sequence of length @n) are returned.<br>
 _тип:_ float<br>
-_минимальное значение:_ 0<br>
 _по умолчанию:_ 255<br>
 
 * **@n** 
-Получить/установить number of points<br>
+Запросить/установить number of points<br>
 _тип:_ int<br>
 _диапазон:_ 4..1024<br>
 _по умолчанию:_ 256<br>
 
 * **@base** 
-Получить/установить x-axis scale base<br>
+Запросить/установить x-axis scale base<br>
 _тип:_ atom<br>
 _варианты:_ 0, pi<br>
 _по умолчанию:_ 0<br>
 
 * **@pi** 
-Получить/установить alias to @base pi<br>
+Запросить/установить alias to @base pi<br>
 _тип:_ atom<br>
 
 * **@endpoint** 
-Получить/установить include @stop to interval<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить include @stop to interval<br>
+_тип:_ bool<br>
 _по умолчанию:_ 1<br>
 
 

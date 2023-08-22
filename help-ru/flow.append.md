@@ -23,7 +23,7 @@
 ## свойства:
 
 * **@delay** 
-Получить/установить append delay. If &lt;0 append immidiately at the same logical time, if equal zero
+Запросить/установить append delay. If &lt;0 append immediately at the same logical time, if equal zero
 - output after next DSP block.<br>
 _тип:_ float<br>
 _единица:_ ms<br>

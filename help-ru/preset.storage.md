@@ -60,7 +60,7 @@ fill empty presets by coping exiting values<br>
 ## свойства:
 
 * **@keys** (readonly)
-Получить list of all existing preset keys<br>
+Запросить list of all existing preset keys<br>
 _тип:_ list<br>
 
 

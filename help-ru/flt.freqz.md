@@ -57,25 +57,24 @@ set &#39;b&#39; and &#39;a&#39; coefficients, no output<br>
 ## свойства:
 
 * **@a** 
-Получить/установить denominator (poles) coefficients. &#39;a0&#39; always implicitly set to 1, property
+Запросить/установить denominator (poles) coefficients. &#39;a0&#39; always implicitly set to 1, property
 value set a1...an coefficients<br>
 _тип:_ list<br>
 
 * **@b** 
-Получить/установить numerator (zeros) coefficients<br>
+Запросить/установить numerator (zeros) coefficients<br>
 _тип:_ list<br>
 _по умолчанию:_ 1<br>
 
 * **@n** 
-Получить/установить number of points<br>
+Запросить/установить number of points<br>
 _тип:_ int<br>
 _диапазон:_ 4..1024<br>
 _по умолчанию:_ 256<br>
 
 * **@db** 
-Получить/установить output amp response in db scale<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить output amp response in db scale<br>
+_тип:_ bool<br>
 _по умолчанию:_ 0<br>
 
 

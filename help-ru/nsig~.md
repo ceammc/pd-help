@@ -18,11 +18,11 @@
 
 ## аргументы:
 
-* **NUM**
-@n property<br>
-_тип:_ float<br>
+* **N**
+number of inputs/outputs<br>
+_тип:_ int<br>
 
-* **INIT**
+* **VALUES**
 init values<br>
 _тип:_ list<br>
 
@@ -32,14 +32,14 @@ _тип:_ list<br>
 
 ## свойства:
 
-* **@n** 
-Получить/установить number of inputs/outputs<br>
+* **@n** (initonly)
+Запросить/установить number of inputs/outputs<br>
 _тип:_ int<br>
 _диапазон:_ 1..12<br>
 _по умолчанию:_ 1<br>
 
 * **@values** 
-Получить/установить current output values. Default: 0<br>
+Запросить/установить current output values. Default: 0<br>
 _тип:_ list<br>
 
 

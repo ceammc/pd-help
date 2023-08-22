@@ -20,7 +20,7 @@ The number PI is a mathematical constant, the ratio of a circle&#39;s circumfere
 
 ## аргументы:
 
-* **MUL**
+* **K**
 multiplier. default is 1<br>
 _тип:_ float<br>
 
@@ -30,8 +30,8 @@ _тип:_ float<br>
 
 ## свойства:
 
-* **@k** 
-Получить/установить multiplier<br>
+* **@k** (initonly)
+Запросить/установить multiplier<br>
 _тип:_ float<br>
 _по умолчанию:_ 1<br>
 

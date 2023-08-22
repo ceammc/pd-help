@@ -7,22 +7,22 @@
 
 
 [**loadexpr**](loadexpr.html): send message when patch loads <br>
-_псевдонимы:_ [ceammc/loadexpr]
+_псевдонимы:_ \[ceammc/loadexpr\]
 
 
 [**msg**](msg.html): message constructor <br>
-_псевдонимы:_ [ceammc/msg], [ceammc/m], [m], [ceammc/prepend], [prepend]
+_псевдонимы:_ \[ceammc/msg\], \[ceammc/m\], \[m\], \[ceammc/prepend\], \[prepend\]
 
 
 [**msg.after**](msg.after.html): send specified message after incoming message 
 
 [**msg.onload**](msg.onload.html): send message when patch loads <br>
-_псевдонимы:_ [ceammc/loadmsg], [loadmsg]
+_псевдонимы:_ \[ceammc/loadmsg\], \[loadmsg\]
 
 
 [**msg.sched**](msg.sched.html): message scheduler 
 
 
-**Версия:** 0.9.4
+**Версия:** 0.9.6
 
 **Лицензия:** GPL3

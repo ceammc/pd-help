@@ -20,7 +20,7 @@ Outputs float, symbol or list to matched outlet or to last outlet if no match
 
 ## аргументы:
 
-* **@type**
+* **ARGS**
 list of matched atoms<br>
 _тип:_ list<br>
 
@@ -30,23 +30,22 @@ _тип:_ list<br>
 
 ## свойства:
 
-* **@args** 
-Получить/установить matching atoms<br>
+* **@args** (initonly)
+Запросить/установить matching atoms<br>
 _тип:_ list<br>
 
-* **@trim** 
-Получить/установить cut first element from list, transform float or symbol to bang<br>
+* **@trim** (initonly)
+Запросить/установить cut first element from list, transform float or symbol to bang<br>
 _тип:_ flag<br>
 _по умолчанию:_ 0<br>
 
 * **@simplify** 
-Получить/установить one element list simplification - transform them to floats or symbols<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить one element list simplification - transform them to floats or symbols<br>
+_тип:_ bool<br>
 _по умолчанию:_ 1<br>
 
-* **@as_any** 
-Получить/установить trim list or symbol selector on output<br>
+* **@as_any** (initonly)
+Запросить/установить trim list or symbol selector on output<br>
 _тип:_ flag<br>
 _по умолчанию:_ 0<br>
 

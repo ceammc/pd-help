@@ -18,9 +18,9 @@
 
 ## аргументы:
 
-* **pattern**
+* **PATTERN**
 count pattern value<br>
-_тип:_ any<br>
+_тип:_ atom<br>
 
 
 
@@ -29,7 +29,7 @@ _тип:_ any<br>
 ## свойства:
 
 * **@pattern** 
-Получить/установить new pattern value<br>
+Запросить/установить new pattern value<br>
 _тип:_ atom<br>
 
 

@@ -23,9 +23,8 @@
 ## свойства:
 
 * **@stable** 
-Получить/установить if true - preserves element appearing order<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить if true - preserves element appearing order<br>
+_тип:_ bool<br>
 _по умолчанию:_ 1<br>
 
 

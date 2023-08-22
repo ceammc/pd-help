@@ -27,14 +27,14 @@ Outputs the integral value nearest to but no larger in magnitude than x
 ## входы:
 
 * input signal<br>
-_тип:_ audio
+_тип:_ control
 
 
 
 ## выходы:
 
 * result signal<br>
-_тип:_ audio
+_тип:_ control
 
 
 

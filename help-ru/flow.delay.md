@@ -20,7 +20,7 @@ Delay any incoming message by specified time. If @block=0 acts like vanilla [del
 
 ## аргументы:
 
-* **MS**
+* **DELAY**
 init @delay property<br>
 _тип:_ float<br>
 _единица:_ ms<br>
@@ -32,18 +32,17 @@ _единица:_ ms<br>
 ## свойства:
 
 * **@delay** 
-Получить/установить delay time<br>
+Запросить/установить delay time<br>
 _тип:_ float<br>
 _единица:_ ms<br>
 _минимальное значение:_ 0<br>
 _по умолчанию:_ 0<br>
 
 * **@block** 
-Получить/установить blocking mode. If true, discards incoming messages until scheduled message will
+Запросить/установить blocking mode. If true, discards incoming messages until scheduled message will
 output, after that is ready to accept the new one. Otherwise acts like vanilla
 [del] object.<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+_тип:_ bool<br>
 _по умолчанию:_ 0<br>
 
 

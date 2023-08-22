@@ -10,6 +10,8 @@
 
 [**fx.chorus~**](fx.chorus~.html): Chorus effect 
 
+[**fx.dattorro~**](fx.dattorro~.html): dattorro reverb 
+
 [**fx.distortion1~**](fx.distortion1~.html): distortion #1 from Guitarix effects set 
 
 [**fx.distortion2~**](fx.distortion2~.html): distortion #2 from Guitarix effects set 
@@ -40,6 +42,8 @@
 
 [**fx.infrev~**](fx.infrev~.html): port of Infinity VST plugin from airwindows 
 
+[**fx.jcrev~**](fx.jcrev~.html): Schroeder quad reverberator from 1972 
+
 [**fx.looper~**](fx.looper~.html): One track looper 
 
 [**fx.pitchshift_s~**](fx.pitchshift_s~.html): signal version of fx.pitchshift~ 
@@ -52,11 +56,15 @@
 
 [**fx.room~**](fx.room~.html): Gardners room emulation algorithms 
 
+[**fx.satrev~**](fx.satrev~.html): Schroeder reverberator from 1971 
+
 [**fx.sdelay~**](fx.sdelay~.html): smooth delay with a feedback control 
 
 [**fx.secho~**](fx.secho~.html): enchanced echo effect that does not click on delay change 
 
 [**fx.shimmer~**](fx.shimmer~.html): shimmer reverb effect effect 
+
+[**fx.stutter~**](fx.stutter~.html): stutter effect 
 
 [**fx.tapiir~**](fx.tapiir~.html): multi-tap delay 
 
@@ -67,6 +75,6 @@
 [**fx.zita_rev1~**](fx.zita_rev1~.html): Zita stereo reverb 
 
 
-**Версия:** 0.9.4
+**Версия:** 0.9.6
 
 **Лицензия:** GPL3

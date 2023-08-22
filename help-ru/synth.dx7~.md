@@ -37,20 +37,20 @@ note on/off message<br>
 ## свойства:
 
 * **@freq** 
-Получить/установить maximum speed of whistles<br>
+Запросить/установить maximum speed of whistles<br>
 _тип:_ float<br>
 _единица:_ Hz<br>
 _диапазон:_ 0..480<br>
 _по умолчанию:_ 130.813<br>
 
 * **@pitch** 
-Получить/установить midi pitch<br>
+Запросить/установить midi pitch<br>
 _тип:_ float<br>
 _диапазон:_ 24..84<br>
 _по умолчанию:_ 48<br>
 
 * **@gate** 
-Получить/установить synth gate (&gt;0 - play)<br>
+Запросить/установить synth gate (&gt;0 - play)<br>
 _тип:_ float<br>
 _диапазон:_ 0..1<br>
 _по умолчанию:_ 0<br>

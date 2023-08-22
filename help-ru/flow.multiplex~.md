@@ -29,7 +29,7 @@ _тип:_ int<br>
 ## свойства:
 
 * **@value** 
-Получить/установить gain coefficients per each output<br>
+Запросить/установить gain coefficients per each output<br>
 _тип:_ list<br>
 _по умолчанию:_ 1 0<br>
 

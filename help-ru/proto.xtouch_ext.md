@@ -18,6 +18,12 @@ Behringer XTouch Extender XMidi
 
 
 
+## аргументы:
+
+* **PROTO**
+connection protocol<br>
+_тип:_ symbol<br>
+
 
 
 ## методы:
@@ -323,17 +329,23 @@ display texts<br>
 
 ## свойства:
 
-* **@n** (readonly)
-Получить number of scenes<br>
+* **@n** (initonly)
+Запросить/установить number of scenes<br>
 _тип:_ int<br>
 _диапазон:_ 1..32<br>
 _по умолчанию:_ 2<br>
 
-* **@scene** (readonly)
-Получить current scene<br>
+* **@scene** 
+Запросить/установить current scene<br>
 _тип:_ int<br>
 _минимальное значение:_ 0<br>
 _по умолчанию:_ 0<br>
+
+* **@proto** 
+Запросить/установить connection protocol<br>
+_тип:_ symbol<br>
+_варианты:_ hui, mcu, xmidi<br>
+_по умолчанию:_ xmidi<br>
 
 
 

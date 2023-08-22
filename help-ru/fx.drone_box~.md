@@ -18,7 +18,7 @@
 
 ## аргументы:
 
-* **pitch**
+* **PITCH**
 drone MIDI pitch<br>
 _тип:_ float<br>
 
@@ -29,35 +29,33 @@ _тип:_ float<br>
 ## свойства:
 
 * **@pitch** 
-Получить/установить drone MIDI pitch<br>
+Запросить/установить drone MIDI pitch<br>
 _тип:_ float<br>
 _диапазон:_ 36..60<br>
 _по умолчанию:_ 48<br>
 
 * **@decay** 
-Получить/установить drone pluck decay time<br>
+Запросить/установить drone pluck decay time<br>
 _тип:_ float<br>
 _единица:_ ms<br>
 _диапазон:_ 100..120000<br>
 _по умолчанию:_ 4000<br>
 
 * **@drywet** 
-Получить/установить proportion of mix between the original (dry) and &#39;effected&#39; (wet) signals. 0 -
+Запросить/установить proportion of mix between the original (dry) and &#39;effected&#39; (wet) signals. 0 -
 dry signal, 1 - wet.<br>
 _тип:_ float<br>
 _диапазон:_ 0..1<br>
 _по умолчанию:_ 0.5<br>
 
 * **@bypass** 
-Получить/установить if set to 1 - bypass &#39;effected&#39; signal.<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить if set to 1 - bypass &#39;effected&#39; signal.<br>
+_тип:_ bool<br>
 _по умолчанию:_ 0<br>
 
 * **@active** 
-Получить/установить on/off dsp processing<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить on/off dsp processing<br>
+_тип:_ bool<br>
 _по умолчанию:_ 1<br>
 
 

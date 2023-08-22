@@ -20,7 +20,7 @@ If size argument specified - creates queue with fixed size. When count of values
 
 ## аргументы:
 
-* **size**
+* **SIZE**
 if specified, creates fixed-size queue. Value &#39;0&#39; means default size (1024)<br>
 _тип:_ int<br>
 
@@ -49,25 +49,24 @@ outputs and removes first values in queue<br>
 ## свойства:
 
 * **@empty** (readonly)
-Получить if queue is empty<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить if queue is empty<br>
+_тип:_ bool<br>
 _по умолчанию:_ 1<br>
 
 * **@filled** (readonly)
-Получить current number of elements in queue<br>
+Запросить current number of elements in queue<br>
 _тип:_ int<br>
 _минимальное значение:_ 0<br>
 _по умолчанию:_ 0<br>
 
 * **@size** 
-Получить/установить size of queue<br>
+Запросить/установить size of queue<br>
 _тип:_ int<br>
 _диапазон:_ 1..1024<br>
 _по умолчанию:_ 32<br>
 
 * **@free** (readonly)
-Получить number of elements you can add to queue until it full<br>
+Запросить number of elements you can add to queue until it full<br>
 _тип:_ int<br>
 _минимальное значение:_ 0<br>
 _по умолчанию:_ 32<br>

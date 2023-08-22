@@ -37,43 +37,40 @@ cancel search process<br>
 ## свойства:
 
 * **@async** 
-Получить/установить perform async search in separate thread<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить perform async search in separate thread<br>
+_тип:_ bool<br>
 _по умолчанию:_ 1<br>
 
 * **@sync** 
-Получить/установить alias to @async 0<br>
+Запросить/установить alias to @async 0<br>
 _тип:_ alias<br>
 
 * **@depth** 
-Получить/установить search recursion depth (-1: infinite)<br>
+Запросить/установить search recursion depth (-1: infinite)<br>
 _тип:_ int<br>
 _минимальное значение:_ -1<br>
 _по умолчанию:_ 0<br>
 
 * **@paths** 
-Получить/установить user defined search paths<br>
+Запросить/установить user defined search paths<br>
 _тип:_ list<br>
 
 * **@home** 
-Получить/установить search in home directory<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить search in home directory<br>
+_тип:_ bool<br>
 _по умолчанию:_ 1<br>
 
 * **@std** 
-Получить/установить search in PureData standard directory<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить search in PureData standard directory<br>
+_тип:_ bool<br>
 _по умолчанию:_ 1<br>
 
 * **@nohome** 
-Получить/установить alias to @home 0, do not search in home directory<br>
+Запросить/установить alias to @home 0, do not search in home directory<br>
 _тип:_ alias<br>
 
 * **@nostd** 
-Получить/установить alias to @std 0, do not search in standard dirs<br>
+Запросить/установить alias to @std 0, do not search in standard dirs<br>
 _тип:_ alias<br>
 
 

@@ -1,54 +1,180 @@
-[< справка — содержание](index.html)
+[index](index.html) :: [ui](category_ui.html)
 ---
 
 # ui.bang
 
+###### A bang... that&#39;s all
 
-&#34;A bang... that&#39;s all&#34;. Виджет - кнопка
-
----
-
-полностью аналогичен стандартному объекту bng
-<br>
-
+*доступно с версии:* 0.1
 
 ---
 
 
-![example](examples/ui.bang-example.jpg)
-
----
-аргументы:
+## информация
+do nothing more than vanilla bang for the moment...
 
 
----
-свойства:
+[![example](../examples/img/ui.bang.jpg)](../examples/pd/ui.bang.pd)
 
-@send: адрес для отправки сообщения (send)<br>
-@receive: имя источника сообщений (receive)<br>
-@size: размер виджета (пара значений: ширина, высота)<br>
-@pinned: режим  if 1 - put element
-            to the lowest level<br>
-@active_color: активный цвет (список значений для красного, зеленого и синего цветов в диапазоне 0..1)<br>
-@background_color: цвет фона (список значений для красного, зеленого и синего цветов в диапазоне 0..1)<br>
-@border_color: цвет рамки (список значений для красного, зеленого и синего цветов в диапазоне 0..1)<br>
-@fontsize: 
-            размер шрифта<br>
-@fontname: название шрифта<br>
-@fontweight: жирный шрифт<br>
-@fontslant: курсивный шрифт<br>
-@label: содержимое текстовой метки<br>
-@label_color: цвет текстовой метки в формате RGB в диапазоне 0-1, например 0.2 0.4 0.1<br>
-@label_inner: положение текстовой метки (1 -
-            внутри, 0 - снаружи).<br>
-@label_align: 
-            горизонтальное выравнивание текстовой метки<br>
-@label_valign: 
-            вертикальное выравнивание текстовой метки<br>
-@label_side: 
-            сторона текстовой метки, по которой происходит привязка<br>
-@label_margins: смещение метки в пикселях<br>
 
----
-смотрите также:<br>
-[![ui.toggle](img/object_ui.toggle.png)](ui.toggle.html)
+
+
+
+## методы:
+
+* **dump**
+dumps all object info to Pd console window.<br>
+
+* **pos**
+set UI element position<br>
+  __параметры:__
+  - **X** top left x-coord<br>
+    тип: float <br>
+    обязательно: True <br>
+
+  - **Y** top right y-coord<br>
+    тип: float <br>
+    обязательно: True <br>
+
+
+
+
+## свойства:
+
+* **@send** 
+Запросить/установить send destination<br>
+_тип:_ symbol<br>
+_по умолчанию:_ (null)<br>
+
+* **@receive** 
+Запросить/установить receive source<br>
+_тип:_ symbol<br>
+_по умолчанию:_ (null)<br>
+
+* **@size** 
+Запросить/установить element size (width, height pair)<br>
+_тип:_ list<br>
+_по умолчанию:_ 15 15<br>
+
+* **@pinned** 
+Запросить/установить pin mode. if 1 - put element to the lowest level<br>
+_тип:_ bool<br>
+_по умолчанию:_ 0<br>
+
+* **@active_color** 
+Запросить/установить element active color (list of red, green, blue values in 0-1 range)<br>
+_тип:_ list<br>
+_по умолчанию:_ 0 0.75 1 1<br>
+
+* **@background_color** 
+Запросить/установить element background color (list of red, green, blue values in 0-1 range)<br>
+_тип:_ list<br>
+_по умолчанию:_ 0.93 0.93 0.93 1<br>
+
+* **@border_color** 
+Запросить/установить border color (list of red, green, blue values in 0-1 range)<br>
+_тип:_ list<br>
+_по умолчанию:_ 0.6 0.6 0.6 1<br>
+
+* **@fontsize** 
+Запросить/установить fontsize<br>
+_тип:_ int<br>
+_диапазон:_ 4..100<br>
+_по умолчанию:_ 11<br>
+
+* **@fontname** 
+Запросить/установить fontname<br>
+_тип:_ symbol<br>
+_варианты:_ Courier, DejaVu, Helvetica, Monaco, Times<br>
+_по умолчанию:_ Helvetica<br>
+
+* **@fontweight** 
+Запросить/установить font weight<br>
+_тип:_ symbol<br>
+_варианты:_ normal, bold<br>
+_по умолчанию:_ normal<br>
+
+* **@fontslant** 
+Запросить/установить font slant<br>
+_тип:_ symbol<br>
+_варианты:_ roman, italic<br>
+_по умолчанию:_ roman<br>
+
+* **@label** 
+Запросить/установить label text<br>
+_тип:_ symbol<br>
+_по умолчанию:_ (null)<br>
+
+* **@label_color** 
+Запросить/установить label color in RGB format within 0-1 range, for example: 0.2 0.4 0.1<br>
+_тип:_ list<br>
+_по умолчанию:_ 0 0 0 1<br>
+
+* **@label_inner** 
+Запросить/установить label position (1 - inner, 0 - outer).<br>
+_тип:_ bool<br>
+_по умолчанию:_ 0<br>
+
+* **@label_align** 
+Запросить/установить label horizontal align<br>
+_тип:_ symbol<br>
+_варианты:_ left, center, right<br>
+_по умолчанию:_ left<br>
+
+* **@label_valign** 
+Запросить/установить label vertical align<br>
+_тип:_ symbol<br>
+_варианты:_ top, center, bottom<br>
+_по умолчанию:_ top<br>
+
+* **@label_side** 
+Запросить/установить label snap side<br>
+_тип:_ symbol<br>
+_варианты:_ left, top, right, bottom<br>
+_по умолчанию:_ top<br>
+
+* **@label_margins** 
+Запросить/установить label offset in pixels<br>
+_тип:_ list<br>
+_по умолчанию:_ 0 0<br>
+
+
+
+## входы:
+
+* outputs bang<br>
+_тип:_ control
+
+
+
+## выходы:
+
+* bang output<br>
+_тип:_ control
+
+
+
+## ключевые слова:
+
+[ui](keywords/ui.html)
+[bang](keywords/bang.html)
+
+
+
+**Смотрите также:**
+[\[ui.toggle\]](ui.toggle.html)
+
+
+
+
+**Авторы:** Pierre Guillot
+
+
+
+
+**Лицензия:** GPL3 or later
+
+
+
+
+

@@ -22,8 +22,8 @@
 
 ## свойства:
 
-* **@in_list** 
-Получить/установить output &#39;1&#39; is list contains at least one data atom<br>
+* **@in_list** (initonly)
+Запросить/установить output &#39;1&#39; if list contains at least one data atom<br>
 _тип:_ flag<br>
 _по умолчанию:_ 0<br>
 

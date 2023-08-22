@@ -41,17 +41,17 @@ generate list of random floats with specified length<br>
 ## свойства:
 
 * **@min** 
-Получить/установить random range lower bound<br>
+Запросить/установить random range lower bound<br>
 _тип:_ float<br>
 _по умолчанию:_ 0<br>
 
 * **@max** 
-Получить/установить random range upper bound<br>
+Запросить/установить random range upper bound<br>
 _тип:_ float<br>
 _по умолчанию:_ 1<br>
 
 * **@seed** 
-Получить/установить generator seed<br>
+Запросить/установить generator seed<br>
 _тип:_ int<br>
 _минимальное значение:_ 0<br>
 _по умолчанию:_ 0<br>

@@ -50,18 +50,18 @@ manually output current element and move to next<br>
 ## свойства:
 
 * **@v** 
-Получить/установить sequence elements<br>
+Запросить/установить sequence elements<br>
 _тип:_ list<br>
 
 * **@dur** 
-Получить/установить whole sequence duration. Changing this property also changes @t interval
+Запросить/установить whole sequence duration. Changing this property also changes @t interval
 between bangs.<br>
 _тип:_ float<br>
 _минимальное значение:_ 0<br>
 _по умолчанию:_ 0<br>
 
 * **@t** 
-Получить/установить time interval between bangs. You could also use units values like 100ms or
+Запросить/установить time interval between bangs. You could also use units values like 100ms or
 120bpm.<br>
 _тип:_ float<br>
 _единица:_ ms<br>
@@ -69,33 +69,33 @@ _диапазон:_ 1..20000<br>
 _по умолчанию:_ 20<br>
 
 * **@r** 
-Получить/установить number of whole sequence repeats. If -1: output infinitly.<br>
+Запросить/установить number of whole sequence repeats. If -1: output infinitly.<br>
 _тип:_ int<br>
 _минимальное значение:_ -1<br>
 _по умолчанию:_ 1<br>
 
 * **@once** 
-Получить/установить alias to @r 1<br>
+Запросить/установить alias to @r 1<br>
 _тип:_ alias<br>
 
 * **@inf** 
-Получить/установить alias to @r -1<br>
+Запросить/установить alias to @r -1<br>
 _тип:_ alias<br>
 
 * **@i** (readonly)
-Получить current sequence iteration<br>
+Запросить current sequence iteration<br>
 _тип:_ int<br>
 _минимальное значение:_ 0<br>
 _по умолчанию:_ 0<br>
 
 * **@ri** (readonly)
-Получить current repeat iteration<br>
+Запросить current repeat iteration<br>
 _тип:_ int<br>
 _минимальное значение:_ 0<br>
 _по умолчанию:_ 0<br>
 
 * **@mode** 
-Получить/установить sequencer mode. &#39;inc&#39;: from first to last, &#39;dec&#39;: from last to first, &#39;tri&#39;:
+Запросить/установить sequencer mode. &#39;inc&#39;: from first to last, &#39;dec&#39;: from last to first, &#39;tri&#39;:
 from first to last, then back<br>
 _тип:_ symbol<br>
 _варианты:_ inc, dec, tri<br>

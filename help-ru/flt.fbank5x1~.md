@@ -20,27 +20,27 @@ Split the input signal into a bank of parallel signals, one for each spectral ba
 
 ## аргументы:
 
-* **f250**
+* **F250**
 @f250 property init value<br>
 _тип:_ float<br>
 _единица:_ db<br>
 
-* **f500**
+* **F500**
 @f500 property init value<br>
 _тип:_ float<br>
 _единица:_ db<br>
 
-* **f1000**
+* **F1000**
 @f1000 property init value<br>
 _тип:_ float<br>
 _единица:_ db<br>
 
-* **f2000**
+* **F2000**
 @f2000 property init value<br>
 _тип:_ float<br>
 _единица:_ db<br>
 
-* **f4000**
+* **F4000**
 @f4000 property init value<br>
 _тип:_ float<br>
 _единица:_ db<br>
@@ -58,44 +58,43 @@ reset filter state<br>
 ## свойства:
 
 * **@f250** 
-Получить/установить first filter (lowpass) gain at 250Hz<br>
+Запросить/установить first filter (lowpass) gain at 250Hz<br>
 _тип:_ float<br>
 _единица:_ db<br>
 _диапазон:_ -6..6<br>
 _по умолчанию:_ 0<br>
 
 * **@f500** 
-Получить/установить second filter (bandpass) gain at 500Hz<br>
+Запросить/установить second filter (bandpass) gain at 500Hz<br>
 _тип:_ float<br>
 _единица:_ db<br>
 _диапазон:_ -6..6<br>
 _по умолчанию:_ 0<br>
 
 * **@f1000** 
-Получить/установить third filter (bandpass) gain at 1000Hz<br>
+Запросить/установить third filter (bandpass) gain at 1000Hz<br>
 _тип:_ float<br>
 _единица:_ db<br>
 _диапазон:_ -6..6<br>
 _по умолчанию:_ 0<br>
 
 * **@f2000** 
-Получить/установить fourth filter (bandpass) gain at 2000Hz<br>
+Запросить/установить fourth filter (bandpass) gain at 2000Hz<br>
 _тип:_ float<br>
 _единица:_ db<br>
 _диапазон:_ -6..6<br>
 _по умолчанию:_ 0<br>
 
 * **@f4000** 
-Получить/установить fifth filter (highpass) gain at 4000Hz<br>
+Запросить/установить fifth filter (highpass) gain at 4000Hz<br>
 _тип:_ float<br>
 _единица:_ db<br>
 _диапазон:_ -6..6<br>
 _по умолчанию:_ 0<br>
 
 * **@active** 
-Получить/установить on/off dsp processing<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить on/off dsp processing<br>
+_тип:_ bool<br>
 _по умолчанию:_ 1<br>
 
 

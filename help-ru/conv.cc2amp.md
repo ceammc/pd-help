@@ -35,12 +35,12 @@ _тип:_ float<br>
 ## свойства:
 
 * **@from** 
-Получить/установить start value of output range<br>
+Запросить/установить start value of output range<br>
 _тип:_ float<br>
 _по умолчанию:_ 0<br>
 
 * **@to** 
-Получить/установить end value of output range<br>
+Запросить/установить end value of output range<br>
 _тип:_ float<br>
 _по умолчанию:_ 1<br>
 

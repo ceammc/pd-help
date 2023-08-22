@@ -28,10 +28,6 @@ _тип:_ int<br>
 number of sources<br>
 _тип:_ int<br>
 
-* **MODE**
-decoding mode<br>
-_тип:_ symbol<br>
-
 
 
 ## методы:
@@ -68,20 +64,20 @@ set source mapping in polar coordinates<br>
 
 ## свойства:
 
-* **@order** (readonly)
-Получить the order of decomposition<br>
+* **@order** (initonly)
+Запросить/установить the order of decomposition<br>
 _тип:_ int<br>
 _диапазон:_ 1..63<br>
 _по умолчанию:_ 1<br>
 
-* **@nsrc** (readonly)
-Получить number of input sources<br>
+* **@nsrc** (initonly)
+Запросить/установить number of input sources<br>
 _тип:_ int<br>
-_диапазон:_ 1..63<br>
+_минимальное значение:_ 1<br>
 _по умолчанию:_ 1<br>
 
 * **@ramp** 
-Получить/установить ramp time<br>
+Запросить/установить ramp time<br>
 _тип:_ float<br>
 _минимальное значение:_ 0<br>
 _по умолчанию:_ 100<br>

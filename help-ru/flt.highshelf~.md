@@ -18,12 +18,12 @@
 
 ## аргументы:
 
-* **freq**
+* **FREQ**
 starting frequency for the shelf<br>
 _тип:_ float<br>
 _единица:_ Hz<br>
 
-* **gain**
+* **GAIN**
 amount of boost or cut apply to the signal<br>
 _тип:_ float<br>
 _единица:_ db<br>
@@ -35,23 +35,22 @@ _единица:_ db<br>
 ## свойства:
 
 * **@freq** 
-Получить/установить starting frequency for the shelf<br>
+Запросить/установить starting frequency for the shelf<br>
 _тип:_ float<br>
 _единица:_ Hz<br>
 _диапазон:_ 20..20000<br>
 _по умолчанию:_ 10000<br>
 
 * **@gain** 
-Получить/установить amount of boost or cut apply to the signal<br>
+Запросить/установить amount of boost or cut apply to the signal<br>
 _тип:_ float<br>
 _единица:_ db<br>
 _диапазон:_ -15..15<br>
 _по умолчанию:_ 0<br>
 
 * **@active** 
-Получить/установить on/off dsp processing<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить on/off dsp processing<br>
+_тип:_ bool<br>
 _по умолчанию:_ 1<br>
 
 

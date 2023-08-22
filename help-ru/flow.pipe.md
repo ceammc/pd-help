@@ -20,7 +20,7 @@ Acts like vanilla [pipe] but for any messages: bangs, floats, symbols etc. Note:
 
 ## аргументы:
 
-* **MS**
+* **DELAY**
 init @delay property<br>
 _тип:_ float<br>
 _единица:_ ms<br>
@@ -32,20 +32,19 @@ _единица:_ ms<br>
 ## свойства:
 
 * **@delay** 
-Получить/установить delay time<br>
+Запросить/установить delay time<br>
 _тип:_ float<br>
 _единица:_ ms<br>
 _минимальное значение:_ 0<br>
 _по умолчанию:_ 0<br>
 
 * **@empty** (readonly)
-Получить 1 if pipe is empty, otherwise 0.<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить 1 if pipe is empty, otherwise 0.<br>
+_тип:_ bool<br>
 _по умолчанию:_ 1<br>
 
 * **@size** (readonly)
-Получить pipe size<br>
+Запросить pipe size<br>
 _тип:_ int<br>
 _по умолчанию:_ 0<br>
 

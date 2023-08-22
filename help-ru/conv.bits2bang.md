@@ -18,26 +18,31 @@ in default mode if bit is on - sends bang to corresponding outlet in @poly mode 
 
 
 
+## аргументы:
+
+* **N**
+number of outlets<br>
+_тип:_ int<br>
+
 
 
 
 
 ## свойства:
 
-* **@n** (readonly)
-Получить 123<br>
+* **@n** (initonly)
+Запросить/установить number of outlets<br>
 _тип:_ int<br>
 _диапазон:_ 1..64<br>
 _по умолчанию:_ 8<br>
 
 * **@rev** 
-Получить/установить reversed bit order<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить reversed bit order<br>
+_тип:_ bool<br>
 _по умолчанию:_ 0<br>
 
-* **@poly** 
-Получить/установить polyphonic mode for using with [clone] object<br>
+* **@poly** (initonly)
+Запросить/установить polyphonic mode for using with [clone] object<br>
 _тип:_ flag<br>
 
 

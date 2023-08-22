@@ -32,46 +32,46 @@ save patch to postscript<br>
 ## свойства:
 
 * **@name** (readonly)
-Получить canvas name<br>
+Запросить canvas name<br>
 _тип:_ symbol<br>
 _по умолчанию:_ test_canvas<br>
 
 * **@dir** (readonly)
-Получить canvas directory<br>
+Запросить canvas directory<br>
 _тип:_ symbol<br>
 _по умолчанию:_ /<br>
 
 * **@size** (readonly)
-Получить window size<br>
+Запросить window size<br>
 _тип:_ list<br>
 _по умолчанию:_ 600 400<br>
 
 * **@width** (readonly)
-Получить window width<br>
+Запросить window width<br>
 _тип:_ int<br>
 _по умолчанию:_ 600<br>
 
 * **@height** (readonly)
-Получить window height<br>
+Запросить window height<br>
 _тип:_ int<br>
 _по умолчанию:_ 400<br>
 
 * **@font** (readonly)
-Получить window font<br>
+Запросить window font<br>
 _тип:_ int<br>
 _по умолчанию:_ 10<br>
 
 * **@paths** (readonly)
-Получить search paths<br>
+Запросить search paths<br>
 _тип:_ list<br>
 
 * **@x** (readonly)
-Получить window x-pos<br>
+Запросить window x-pos<br>
 _тип:_ int<br>
 _по умолчанию:_ 0<br>
 
 * **@y** (readonly)
-Получить window y-pos<br>
+Запросить window y-pos<br>
 _тип:_ int<br>
 _по умолчанию:_ 0<br>
 

@@ -3,7 +3,7 @@
 
 # string.split
 
-###### split string by separator
+###### split string or symbol by separator
 
 *доступно с версии:* 0.3
 
@@ -11,7 +11,7 @@
 
 
 ## информация
-Note: by default string or symbol splitted to list of data:String, to get list of Pd symbols use @sym flag
+Note: by default string or symbol splitted to list of data:String, to get list of Pd symbols use @sym flag or use alias [symbol.split]
 
 
 [![example](../examples/img/string.split.jpg)](../examples/pd/string.split.pd)
@@ -23,7 +23,7 @@ Note: by default string or symbol splitted to list of data:String, to get list o
 * **SEP**
 separator. If nonspecified - separate by every char. To separate by space - use
 &#34; &#34; argument<br>
-_тип:_ atom<br>
+_тип:_ symbol<br>
 
 
 
@@ -32,11 +32,11 @@ _тип:_ atom<br>
 ## свойства:
 
 * **@sep** 
-Получить/установить separator<br>
+Запросить/установить separator<br>
 _тип:_ symbol<br>
 
-* **@sym** 
-Получить/установить flag to output as list of Pd symbols<br>
+* **@sym** (initonly)
+Запросить/установить flag to output as list of Pd symbols<br>
 _тип:_ flag<br>
 
 
@@ -44,6 +44,8 @@ _тип:_ flag<br>
 ## входы:
 
 * input symbol<br>
+_тип:_ control
+* set split symbol<br>
 _тип:_ control
 
 

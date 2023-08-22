@@ -7,7 +7,7 @@
 
 
 [**global.dict**](global.dict.html): global named dict object <br>
-_псевдонимы:_ [global.json]
+_псевдонимы:_ \[global.json\]
 
 
 [**global.float**](global.float.html): global named float object 
@@ -21,6 +21,6 @@ _псевдонимы:_ [global.json]
 [**global.set**](global.set.html): global named set object 
 
 
-**Версия:** 0.9.4
+**Версия:** 0.9.6
 
 **Лицензия:** GPL3

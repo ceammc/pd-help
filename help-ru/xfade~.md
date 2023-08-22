@@ -24,6 +24,10 @@ control float value in range [0-1) controls xfade between first and second signa
 number of inputs<br>
 _тип:_ int<br>
 
+* **X**
+crossfade init value. Valid value in [0..N-1] range. See @x property<br>
+_тип:_ float<br>
+
 
 
 
@@ -31,25 +35,31 @@ _тип:_ int<br>
 ## свойства:
 
 * **@smooth** 
-Получить/установить signal change smooth time<br>
+Запросить/установить signal change smooth time<br>
 _тип:_ float<br>
 _единица:_ ms<br>
 _минимальное значение:_ 1<br>
 _по умолчанию:_ 20<br>
 
 * **@type** 
-Получить/установить fade curve type: linear or power<br>
+Запросить/установить fade curve type: linear or power<br>
 _тип:_ symbol<br>
 _варианты:_ lin, pow<br>
 _по умолчанию:_ pow<br>
 
 * **@lin** 
-Получить/установить alias to @type lin<br>
+Запросить/установить alias to @type lin<br>
 _тип:_ alias<br>
 
 * **@pow** 
-Получить/установить alias to @type pow<br>
+Запросить/установить alias to @type pow<br>
 _тип:_ alias<br>
+
+* **@x** 
+Запросить/установить crossfade property. Valid value in [0..N-1] range.<br>
+_тип:_ float<br>
+_диапазон:_ 0..1<br>
+_по умолчанию:_ 0<br>
 
 
 

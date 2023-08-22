@@ -3,9 +3,9 @@
 
 # noise.rossler
 
-###### Part of a-chaos library
+###### Rössler attractor
 
-*доступно с версии:* .5
+*доступно с версии:* 0.5
 
 ---
 
@@ -20,31 +20,31 @@ Heuns&#39; method
 
 ## аргументы:
 
-* **ARG0**
+* **X**
 x value (optional)<br>
 _тип:_ float<br>
 
-* **ARG1**
+* **Y**
 y value (optional)<br>
 _тип:_ float<br>
 
-* **ARG2**
+* **Z**
 z value (optional)<br>
 _тип:_ float<br>
 
-* **ARG3**
+* **A**
 a value (optional)<br>
 _тип:_ float<br>
 
-* **ARG4**
+* **B**
 b value (optional)<br>
 _тип:_ float<br>
 
-* **ARG5**
+* **C**
 c value (optional)<br>
 _тип:_ float<br>
 
-* **ARG6**
+* **DT**
 dt value (optional)<br>
 _тип:_ float<br>
 
@@ -132,7 +132,11 @@ _тип:_ control
 
 ## выходы:
 
-* main outlet<br>
+* x outlet<br>
+_тип:_ control
+* y outlet<br>
+_тип:_ control
+* z outlet<br>
 _тип:_ control
 
 

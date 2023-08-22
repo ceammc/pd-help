@@ -30,24 +30,24 @@ _тип:_ list<br>
 
 ## свойства:
 
-* **@poly** 
-Получить/установить polyphonic mode. (for using with [clone] object)<br>
+* **@poly** (initonly)
+Запросить/установить polyphonic mode. (for using with [clone] object)<br>
 _тип:_ flag<br>
 _по умолчанию:_ 0<br>
 
 * **@mode** 
-Получить/установить mode for repeated notes. If &#39;off&#39; - send note off before retriggering, if &#39;tie&#39;
+Запросить/установить mode for repeated notes. If &#39;off&#39; - send note off before retriggering, if &#39;tie&#39;
 - ignore repeated events, if &#39;raw&#39; - always send on/off events<br>
 _тип:_ symbol<br>
 _варианты:_ off, tie, raw<br>
 _по умолчанию:_ off<br>
 
-* **@keys** 
-Получить/установить list of mapped keys<br>
+* **@keys** (initonly)
+Запросить/установить list of mapped keys<br>
 _тип:_ list<br>
 
 * **@vel** 
-Получить/установить output velocity<br>
+Запросить/установить output velocity<br>
 _тип:_ float<br>
 _диапазон:_ 0..127<br>
 _по умолчанию:_ 90<br>

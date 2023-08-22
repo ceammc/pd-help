@@ -1,28 +1,71 @@
-[< справка — содержание](index.html)
+[index](index.html) :: [msg](category_msg.html)
 ---
 
 # msg
 
+###### message constructor
 
-Конструктор сообщений
-
----
-
-<br>
-
+*доступно с версии:* 0.1
 
 ---
 
 
-![example](examples/msg-example.jpg)
 
----
-аргументы:
 
-NAME: селектор сообщения<br>
-X: содержимое сообщения<br>
+[![example](../examples/img/msg.jpg)](../examples/pd/msg.pd)
 
----
-свойства:
+
+
+## аргументы:
+
+* **NAME**
+message selector<br>
+_тип:_ symbol<br>
+
+* **X**
+message content<br>
+_тип:_ any<br>
+
+
+
+
+
+
+
+## входы:
+
+* appends all atoms to message content and outputs it<br>
+_тип:_ control
+* change message selector<br>
+_тип:_ control
+
+
+
+## выходы:
+
+* message output<br>
+_тип:_ control
+
+
+
+## ключевые слова:
+
+[msg](keywords/msg.html)
+[message](keywords/message.html)
+
+
+
+
+
+
+**Авторы:** Serge Poltavsky
+
+
+
+
+**Лицензия:** GPL3 or later
+
+
+
 
 

@@ -20,12 +20,12 @@ filter that passes most frequencies unaltered, but attenuates those in a specifi
 
 ## аргументы:
 
-* **freq**
+* **FREQ**
 center frequency<br>
 _тип:_ float<br>
 _единица:_ Hz<br>
 
-* **width**
+* **WIDTH**
 band width (approximate)<br>
 _тип:_ float<br>
 _единица:_ Hz<br>
@@ -37,23 +37,22 @@ _единица:_ Hz<br>
 ## свойства:
 
 * **@freq** 
-Получить/установить center frequency<br>
+Запросить/установить center frequency<br>
 _тип:_ float<br>
 _единица:_ Hz<br>
 _диапазон:_ 20..20000<br>
 _по умолчанию:_ 1000<br>
 
 * **@width** 
-Получить/установить band width (approximate)<br>
+Запросить/установить band width (approximate)<br>
 _тип:_ float<br>
 _единица:_ Hz<br>
 _диапазон:_ 1..10000<br>
 _по умолчанию:_ 50<br>
 
 * **@active** 
-Получить/установить on/off dsp processing<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить on/off dsp processing<br>
+_тип:_ bool<br>
 _по умолчанию:_ 1<br>
 
 

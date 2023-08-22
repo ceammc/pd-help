@@ -18,12 +18,12 @@
 
 ## аргументы:
 
-* **attack**
+* **ATTACK**
 attack time<br>
 _тип:_ float<br>
 _единица:_ ms<br>
 
-* **release**
+* **RELEASE**
 release time<br>
 _тип:_ float<br>
 _единица:_ ms<br>
@@ -35,21 +35,22 @@ _единица:_ ms<br>
 ## свойства:
 
 * **@attack** 
-Получить/установить attack time<br>
+Запросить/установить attack time<br>
 _тип:_ float<br>
+_единица:_ ms<br>
 _диапазон:_ 1..1000<br>
 _по умолчанию:_ 200<br>
 
 * **@release** 
-Получить/установить release time<br>
+Запросить/установить release time<br>
 _тип:_ float<br>
+_единица:_ ms<br>
 _диапазон:_ 1..1000<br>
 _по умолчанию:_ 200<br>
 
 * **@active** 
-Получить/установить on/off dsp processing<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить on/off dsp processing<br>
+_тип:_ bool<br>
 _по умолчанию:_ 1<br>
 
 

@@ -1,7 +1,7 @@
 [index](index.html) :: [flt](category_flt.html)
 ---
 
-# flt.median~
+# flt.median
 
 ###### Median control flow filter
 
@@ -14,7 +14,7 @@
 The main idea of the median filter is to run through the signal entry by entry, replacing each entry with the median of neighboring entries. If window size is even: mean between center elements outputed
 
 
-[![example](../examples/img/flt.median~.jpg)](../examples/pd/flt.median~.pd)
+[![example](../examples/img/flt.median.jpg)](../examples/pd/flt.median.pd)
 
 
 
@@ -25,7 +25,7 @@ The main idea of the median filter is to run through the signal entry by entry, 
 ## свойства:
 
 * **@size** 
-Получить/установить filter windows size<br>
+Запросить/установить filter windows size<br>
 _тип:_ int<br>
 _единица:_ samp<br>
 _диапазон:_ 1..128<br>

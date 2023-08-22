@@ -29,32 +29,31 @@ _тип:_ symbol<br>
 ## свойства:
 
 * **@array** 
-Получить/установить target array name<br>
+Запросить/установить target array name<br>
 _тип:_ symbol<br>
 
 * **@redraw** 
-Получить/установить redraw after array change<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить redraw after array change<br>
+_тип:_ bool<br>
 _по умолчанию:_ 1<br>
 
 * **@mode** 
-Получить/установить rendering mode: *fit* to array size, *resize* array to envelope length or *raw*
+Запросить/установить rendering mode: *fit* to array size, *resize* array to envelope length or *raw*
 render while enough space in array<br>
 _тип:_ symbol<br>
 _варианты:_ fit, resize, raw<br>
 _по умолчанию:_ fit<br>
 
 * **@fit** 
-Получить/установить alias to @mode fit property<br>
+Запросить/установить alias to @mode fit property<br>
 _тип:_ alias<br>
 
 * **@resize** 
-Получить/установить alias to @mode resize property<br>
+Запросить/установить alias to @mode resize property<br>
 _тип:_ alias<br>
 
 * **@raw** 
-Получить/установить alias to @mode raw property<br>
+Запросить/установить alias to @mode raw property<br>
 _тип:_ alias<br>
 
 

@@ -25,9 +25,8 @@ Note: byte default the least significant bit is the rightmost, this can be chang
 ## свойства:
 
 * **@rev** 
-Получить/установить reversed bit order<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить reversed bit order<br>
+_тип:_ bool<br>
 _по умолчанию:_ 0<br>
 
 

@@ -31,7 +31,9 @@ _тип:_ control
 
 ## выходы:
 
-* output MIDI patch number<br>
+* int: MIDI program change value<br>
+_тип:_ control
+* int: MIDI track<br>
 _тип:_ control
 
 

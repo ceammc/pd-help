@@ -28,14 +28,15 @@ _тип:_ list<br>
 
 ## свойства:
 
-* **@keys** 
-Получить/установить extracted keys<br>
+* **@keys** (initonly)
+Запросить/установить extracted keys<br>
 _тип:_ list<br>
 
 * **@default** 
-Получить/установить default value when key is not found in dictionary. If not specified no output
+Запросить/установить default value when key is not found in dictionary. If not specified no output
 is performed.<br>
 _тип:_ atom<br>
+_по умолчанию:_ null<br>
 
 
 

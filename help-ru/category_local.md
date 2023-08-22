@@ -7,7 +7,7 @@
 
 
 [**local.dict**](local.dict.html): local named dict object <br>
-_псевдонимы:_ [local.json]
+_псевдонимы:_ \[local.json\]
 
 
 [**local.float**](local.float.html): canvas-scoped named float variable 
@@ -21,6 +21,6 @@ _псевдонимы:_ [local.json]
 [**local.set**](local.set.html): local named set object 
 
 
-**Версия:** 0.9.4
+**Версия:** 0.9.6
 
 **Лицензия:** GPL3

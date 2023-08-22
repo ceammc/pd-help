@@ -22,8 +22,8 @@
 
 ## свойства:
 
-* **@strict** 
-Получить/установить ignore parsing error<br>
+* **@strict** (initonly)
+Запросить/установить ignore parsing error<br>
 _тип:_ flag<br>
 
 

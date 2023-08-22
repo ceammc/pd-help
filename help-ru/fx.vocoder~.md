@@ -23,29 +23,28 @@
 ## свойства:
 
 * **@attack** 
-Получить/установить attack time<br>
+Запросить/установить attack time<br>
 _тип:_ float<br>
 _единица:_ ms<br>
 _диапазон:_ 0.1..100<br>
 _по умолчанию:_ 5<br>
 
 * **@release** 
-Получить/установить release time<br>
+Запросить/установить release time<br>
 _тип:_ float<br>
 _единица:_ ms<br>
 _диапазон:_ 0.1..100<br>
 _по умолчанию:_ 5<br>
 
 * **@bwratio** 
-Получить/установить coefficient to adjust the bandwidth of each band<br>
+Запросить/установить coefficient to adjust the bandwidth of each band<br>
 _тип:_ float<br>
 _диапазон:_ 0.1..2<br>
 _по умолчанию:_ 0.5<br>
 
 * **@active** 
-Получить/установить on/off dsp processing<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить on/off dsp processing<br>
+_тип:_ bool<br>
 _по умолчанию:_ 1<br>
 
 

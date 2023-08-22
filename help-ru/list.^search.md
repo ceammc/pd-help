@@ -20,7 +20,7 @@ Outputs index or -1 if not found
 
 ## аргументы:
 
-* **LIST**
+* **VALUE**
 list contents<br>
 _тип:_ list<br>
 
@@ -31,17 +31,17 @@ _тип:_ list<br>
 ## свойства:
 
 * **@value** 
-Получить/установить list contents<br>
+Запросить/установить list contents<br>
 _тип:_ list<br>
 
 * **@start** 
-Получить/установить search start index position<br>
+Запросить/установить search start index position<br>
 _тип:_ int<br>
 _минимальное значение:_ 0<br>
 _по умолчанию:_ 0<br>
 
 * **@end** 
-Получить/установить search end index position (-1 means end of list)<br>
+Запросить/установить search end index position (-1 means end of list)<br>
 _тип:_ int<br>
 _минимальное значение:_ -1<br>
 _по умолчанию:_ -1<br>

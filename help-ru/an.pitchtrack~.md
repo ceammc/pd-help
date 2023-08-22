@@ -20,13 +20,10 @@ Period-length detector using Philip McLeod&#39;s Specially Normalized AutoCorrel
 
 ## аргументы:
 
-* **FRAME**
+* **FRAMESIZE**
 frame size in samples<br>
 _тип:_ int<br>
-
-* **OVERLAP**
-overlap of analysis frames<br>
-_тип:_ int<br>
+_единица:_ samp<br>
 
 
 
@@ -35,33 +32,33 @@ _тип:_ int<br>
 ## свойства:
 
 * **@framesize** 
-Получить/установить frame size in samples<br>
+Запросить/установить frame size in samples<br>
 _тип:_ int<br>
 _единица:_ samp<br>
 _варианты:_ 128, 256, 512, 1024, 2048<br>
 _по умолчанию:_ 1024<br>
 
 * **@overlap** 
-Получить/установить overlap of analysis frames<br>
+Запросить/установить overlap of analysis frames<br>
 _тип:_ int<br>
 _варианты:_ 1, 2, 4, 8<br>
 _по умолчанию:_ 1<br>
 
 * **@bias** 
-Получить/установить bias which favours small lags over large lags in the period detection, thereby
+Запросить/установить bias which favours small lags over large lags in the period detection, thereby
 avoiding low-octave jumps<br>
 _тип:_ float<br>
 _диапазон:_ 0..1<br>
 _по умолчанию:_ 0.2<br>
 
 * **@fidthr** 
-Получить/установить min fidelity threshold to report the pitch<br>
+Запросить/установить min fidelity threshold to report the pitch<br>
 _тип:_ float<br>
 _диапазон:_ 0..1<br>
 _по умолчанию:_ 0.95<br>
 
 * **@maxfreq** 
-Получить/установить max tracked frequency<br>
+Запросить/установить max tracked frequency<br>
 _тип:_ float<br>
 _единица:_ Hz<br>
 _диапазон:_ 10..10000<br>

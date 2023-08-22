@@ -18,10 +18,14 @@
 
 ## аргументы:
 
-* **freq**
+* **FREQ**
 default frequency (440hz if not specified)<br>
 _тип:_ float<br>
 _единица:_ Hz<br>
+
+* **HARMONICS**
+number of harmonics. Missing or 0 means all available harmonics until SR/2<br>
+_тип:_ int<br>
 
 
 
@@ -30,7 +34,7 @@ _единица:_ Hz<br>
 ## свойства:
 
 * **@harmonics** 
-Получить/установить number of harmonics. 0 means all available harmonics until SR/2<br>
+Запросить/установить number of harmonics. 0 means all available harmonics until SR/2<br>
 _тип:_ int<br>
 _минимальное значение:_ 0<br>
 _по умолчанию:_ 0<br>

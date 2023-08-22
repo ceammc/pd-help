@@ -41,35 +41,34 @@ reset synth<br>
 ## свойства:
 
 * **@freq** 
-Получить/установить base frequency<br>
+Запросить/установить base frequency<br>
 _тип:_ float<br>
 _единица:_ Hz<br>
 _диапазон:_ 1..10000<br>
 _по умолчанию:_ 440<br>
 
 * **@pfreq** 
-Получить/установить freq multiplication coefficient<br>
+Запросить/установить freq multiplication coefficient<br>
 _тип:_ float<br>
 _диапазон:_ 0..10<br>
 _по умолчанию:_ 1<br>
 
 * **@dur** 
-Получить/установить duration<br>
+Запросить/установить duration<br>
 _тип:_ float<br>
 _единица:_ ms<br>
 _диапазон:_ 10..600000<br>
 _по умолчанию:_ 5000<br>
 
 * **@gate** 
-Получить/установить play trigger - 1: on, 0: off<br>
+Запросить/установить play trigger - 1: on, 0: off<br>
 _тип:_ float<br>
 _диапазон:_ 0..1<br>
 _по умолчанию:_ 0<br>
 
 * **@active** 
-Получить/установить on/off dsp processing<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить on/off dsp processing<br>
+_тип:_ bool<br>
 _по умолчанию:_ 1<br>
 
 

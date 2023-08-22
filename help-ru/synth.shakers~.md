@@ -39,19 +39,19 @@ Control change<br>
 ## свойства:
 
 * **@gate** 
-Получить/установить synth gate (&gt;0 - play)<br>
+Запросить/установить synth gate (&gt;0 - play)<br>
 _тип:_ float<br>
 _диапазон:_ 0..1<br>
 _по умолчанию:_ 0<br>
 
 * **@type** 
-Получить/установить instrument type<br>
+Запросить/установить instrument type<br>
 _тип:_ atom<br>
 _варианты:_ maraca, cabasa, sekere, tambourine, sleigh_bells, bamboo_chimes, sand_paper, coke_can, sticks, crunch, big_rocks, little_rocks, next_mug, penny_mug, nickle_mug, dime_mug, quarter_mug, franc_mug, peso_mug, guiro, wrench, water_drops, tuned_bamboo_chimes<br>
 _по умолчанию:_ maraca<br>
 
 * **@types** (readonly)
-Получить all instrument types<br>
+Запросить all instrument types<br>
 _тип:_ list<br>
 _по умолчанию:_ maraca cabasa sekere tambourine sleigh_bells bamboo_chimes sand_paper coke_can sticks crunch big_rocks little_rocks next_mug penny_mug nickle_mug dime_mug quarter_mug franc_mug peso_mug guiro wrench water_drops tuned_bamboo_chimes<br>
 

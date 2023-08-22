@@ -3,9 +3,9 @@
 
 # noise.lorenz
 
-###### Part of a-chaos library
+###### Lorenz chaos
 
-*доступно с версии:* .5
+*доступно с версии:* 0.5
 
 ---
 
@@ -20,31 +20,31 @@ Lorenz chaos by Heuns method - extra accuracy sigma replaced with a b replaced w
 
 ## аргументы:
 
-* **ARG0**
+* **X**
 x value (optional)<br>
 _тип:_ float<br>
 
-* **ARG1**
+* **Y**
 y value (optional)<br>
 _тип:_ float<br>
 
-* **ARG2**
+* **Z**
 z value (optional)<br>
 _тип:_ float<br>
 
-* **ARG3**
+* **A**
 a value (optional)<br>
 _тип:_ float<br>
 
-* **ARG4**
+* **R**
 r value (optional)<br>
 _тип:_ float<br>
 
-* **ARG5**
+* **C**
 c value (optional)<br>
 _тип:_ float<br>
 
-* **ARG6**
+* **DT**
 dt value (optional)<br>
 _тип:_ float<br>
 
@@ -132,7 +132,11 @@ _тип:_ control
 
 ## выходы:
 
-* main outlet<br>
+* x outlet<br>
+_тип:_ control
+* y outlet<br>
+_тип:_ control
+* z outlet<br>
 _тип:_ control
 
 

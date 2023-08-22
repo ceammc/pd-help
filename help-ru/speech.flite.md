@@ -31,23 +31,23 @@ _тип:_ symbol<br>
 ## свойства:
 
 * **@array** 
-Получить/установить destination array name<br>
+Запросить/установить destination array name<br>
 _тип:_ symbol<br>
 
 * **@voice** 
-Получить/установить default voice<br>
+Запросить/установить default voice<br>
 _тип:_ symbol<br>
 _варианты:_ kal16, slt, rms, awb<br>
 _по умолчанию:_ kal16<br>
 
 * **@speed** 
-Получить/установить speaking speed<br>
+Запросить/установить speaking speed<br>
 _тип:_ float<br>
 _диапазон:_ 1..4<br>
 _по умолчанию:_ 1<br>
 
 * **@pitch** 
-Получить/установить voice pitch (-1 - default value)<br>
+Запросить/установить voice pitch (-1 - default value)<br>
 _тип:_ float<br>
 _по умолчанию:_ -1<br>
 

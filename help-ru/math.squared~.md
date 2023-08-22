@@ -32,7 +32,7 @@ _тип:_ audio
 ## выходы:
 
 * output signal<br>
-_тип:_ control
+_тип:_ audio
 
 
 

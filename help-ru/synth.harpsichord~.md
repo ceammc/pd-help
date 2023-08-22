@@ -40,31 +40,31 @@ reset synth<br>
 ## свойства:
 
 * **@pitch** 
-Получить/установить midi pitch<br>
+Запросить/установить midi pitch<br>
 _тип:_ float<br>
 _диапазон:_ 12..96<br>
 _по умолчанию:_ 48<br>
 
 * **@freq** 
-Получить/установить frequency<br>
+Запросить/установить frequency<br>
 _тип:_ float<br>
 _единица:_ Hz<br>
 _по умолчанию:_ 130.813<br>
 
 * **@room_size** 
-Получить/установить reverb room size<br>
+Запросить/установить reverb room size<br>
 _тип:_ float<br>
 _диапазон:_ 0.005..1<br>
 _по умолчанию:_ 0.36<br>
 
 * **@nonlin** 
-Получить/установить nonlinearity factor<br>
+Запросить/установить nonlinearity factor<br>
 _тип:_ float<br>
 _диапазон:_ 0..1<br>
 _по умолчанию:_ 0<br>
 
 * **@modtype** 
-Получить/установить modulation type. 0=theta is modulated by the incoming signal. 1=theta is
+Запросить/установить modulation type. 0=theta is modulated by the incoming signal. 1=theta is
 modulated by the averaged incoming signal. 2=theta is modulated by the squared
 incoming signal. 3=theta is modulated by a sine wave of frequency @modfreq.
 4=theta is modulated by a sine wave of frequency @freq<br>
@@ -73,40 +73,39 @@ _диапазон:_ 0..4<br>
 _по умолчанию:_ 0<br>
 
 * **@modfreq** 
-Получить/установить frequency of the sine wave for the modulation of theta (works if @modetype=3)<br>
+Запросить/установить frequency of the sine wave for the modulation of theta (works if @modetype=3)<br>
 _тип:_ float<br>
 _единица:_ Hz<br>
 _диапазон:_ 20..1000<br>
 _по умолчанию:_ 220<br>
 
 * **@reverb_gain** 
-Получить/установить reverb gain<br>
+Запросить/установить reverb gain<br>
 _тип:_ float<br>
 _диапазон:_ 0..1<br>
 _по умолчанию:_ 0.137<br>
 
 * **@width** 
-Получить/установить spatialization width<br>
+Запросить/установить spatialization width<br>
 _тип:_ float<br>
 _диапазон:_ 0..1<br>
 _по умолчанию:_ 0.5<br>
 
 * **@pan** 
-Получить/установить pan angle<br>
+Запросить/установить pan angle<br>
 _тип:_ float<br>
 _диапазон:_ 0..1<br>
 _по умолчанию:_ 0.6<br>
 
 * **@gate** 
-Получить/установить play trigger - 1: on, 0: off<br>
+Запросить/установить play trigger - 1: on, 0: off<br>
 _тип:_ float<br>
 _диапазон:_ 0..1<br>
 _по умолчанию:_ 0<br>
 
 * **@active** 
-Получить/установить on/off dsp processing<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить on/off dsp processing<br>
+_тип:_ bool<br>
 _по умолчанию:_ 1<br>
 
 

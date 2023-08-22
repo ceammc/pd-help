@@ -3,9 +3,9 @@
 
 # noise.collatz
 
-###### Part of a-chaos library
+###### collatz conjecture output
 
-*доступно с версии:* .5
+*доступно с версии:* 0.5
 
 ---
 

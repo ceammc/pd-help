@@ -18,6 +18,12 @@ Note: negative numbers converted using machine architecture, commonly two&#39;s 
 
 
 
+## аргументы:
+
+* **SIZE**
+output bit-length<br>
+_тип:_ int<br>
+
 
 
 
@@ -25,15 +31,14 @@ Note: negative numbers converted using machine architecture, commonly two&#39;s 
 ## свойства:
 
 * **@size** 
-Получить/установить output bit-length<br>
+Запросить/установить output bit-length<br>
 _тип:_ int<br>
 _диапазон:_ 1..32<br>
 _по умолчанию:_ 32<br>
 
 * **@rev** 
-Получить/установить reversed bit order<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить reversed bit order<br>
+_тип:_ bool<br>
 _по умолчанию:_ 0<br>
 
 

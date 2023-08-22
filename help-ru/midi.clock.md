@@ -37,7 +37,7 @@ reset beat counter<br>
 ## свойства:
 
 * **@div** 
-Получить/установить clock subdivision. If 0: bang each incoming midi clock message, if 4: output
+Запросить/установить clock subdivision. If 0: bang each incoming midi clock message, if 4: output
 every quoter note, 8: every eight note etc.<br>
 _тип:_ int<br>
 _варианты:_ 0, 4, 8, 16, 32<br>

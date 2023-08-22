@@ -31,7 +31,7 @@ _тип:_ int<br>
 ## свойства:
 
 * **@step** 
-Получить/установить key/value length in input list<br>
+Запросить/установить key/value length in input list<br>
 _тип:_ int<br>
 _минимальное значение:_ 2<br>
 _по умолчанию:_ 2<br>

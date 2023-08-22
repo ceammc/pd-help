@@ -35,15 +35,20 @@ reset recorded data<br>
 ## свойства:
 
 * **@gate** 
-Получить/установить start/stop recording<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить start/stop recording<br>
+_тип:_ bool<br>
 _по умолчанию:_ 0<br>
 
+* **@fade** 
+Запросить/установить intput crossfade time<br>
+_тип:_ float<br>
+_единица:_ ms<br>
+_диапазон:_ 0..200<br>
+_по умолчанию:_ 70<br>
+
 * **@active** 
-Получить/установить on/off dsp processing<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить on/off dsp processing<br>
+_тип:_ bool<br>
 _по умолчанию:_ 1<br>
 
 

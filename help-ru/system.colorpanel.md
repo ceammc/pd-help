@@ -23,35 +23,35 @@
 ## свойства:
 
 * **@mode** 
-Получить/установить output mode<br>
+Запросить/установить output mode<br>
 _тип:_ symbol<br>
 _варианты:_ float, int, hex<br>
 _по умолчанию:_ float<br>
 
 * **@f** 
-Получить/установить alias for @mode float. Output values as RGB list in 0-1 range.<br>
+Запросить/установить alias for @mode float. Output values as RGB list in 0-1 range.<br>
 _тип:_ alias<br>
 
 * **@i** 
-Получить/установить alias for @mode int. Output values as RGB list in 0-255 range.<br>
+Запросить/установить alias for @mode int. Output values as RGB list in 0-255 range.<br>
 _тип:_ alias<br>
 
 * **@h** 
-Получить/установить alias for @mode hex. Output value as #RRGGBB symbol.<br>
+Запросить/установить alias for @mode hex. Output value as #RRGGBB symbol.<br>
 _тип:_ alias<br>
 
 * **@float** 
-Получить/установить RGB color value in float range (0-1)<br>
+Запросить/установить RGB color value in float range (0-1)<br>
 _тип:_ list<br>
 _по умолчанию:_ 1 1 1<br>
 
 * **@int** 
-Получить/установить RGB color value in int range (0-255)<br>
+Запросить/установить RGB color value in int range (0-255)<br>
 _тип:_ list<br>
 _по умолчанию:_ 255 255 255<br>
 
 * **@hex** 
-Получить/установить color value as #RRGGBB symbol<br>
+Запросить/установить color value as #RRGGBB symbol<br>
 _тип:_ symbol<br>
 _по умолчанию:_ #ffffff<br>
 
@@ -80,7 +80,7 @@ _тип:_ control
 
 
 
-**Авторы:** Hans-Christoph Steiner, Serge Poltavski
+**Авторы:** Hans-Christoph Steiner, Serge Poltavsky
 
 
 

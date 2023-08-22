@@ -18,9 +18,9 @@
 
 ## аргументы:
 
-* **X**
+* **VALUE**
 initial list values<br>
-_тип:_ any<br>
+_тип:_ list<br>
 
 
 
@@ -38,6 +38,19 @@ inserts values to the list beginning<br>
   __параметры:__
   - **VAL** prepended value<br>
     тип: atom <br>
+    обязательно: True <br>
+
+* **front**
+output first list element<br>
+
+* **back**
+output last list element<br>
+
+* **at**
+outputs atom at the specified position<br>
+  __параметры:__
+  - **IDX** position (negative indexes are supported: -1 means last element)<br>
+    тип: int <br>
     обязательно: True <br>
 
 * **insert**
@@ -99,19 +112,18 @@ dump object info to Pd window<br>
 ## свойства:
 
 * **@empty** (readonly)
-Получить 1 if list is empty, otherwise 0<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить 1 if list is empty, otherwise 0<br>
+_тип:_ bool<br>
 _по умолчанию:_ 1<br>
 
 * **@size** (readonly)
-Получить number of elements in list<br>
+Запросить number of elements in list<br>
 _тип:_ int<br>
 _минимальное значение:_ 0<br>
 _по умолчанию:_ 0<br>
 
 * **@value** 
-Получить/установить current value<br>
+Запросить/установить current value<br>
 _тип:_ list<br>
 
 

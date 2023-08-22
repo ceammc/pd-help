@@ -23,21 +23,21 @@
 ## свойства:
 
 * **@mode** 
-Получить/установить edge detection mode<br>
+Запросить/установить edge detection mode<br>
 _тип:_ symbol<br>
 _варианты:_ up, down, both<br>
 _по умолчанию:_ up<br>
 
 * **@up** 
-Получить/установить alias to @mode up<br>
+Запросить/установить alias to @mode up<br>
 _тип:_ alias<br>
 
 * **@down** 
-Получить/установить alias to @mode down<br>
+Запросить/установить alias to @mode down<br>
 _тип:_ alias<br>
 
 * **@both** 
-Получить/установить alias to @mode both<br>
+Запросить/установить alias to @mode both<br>
 _тип:_ alias<br>
 
 

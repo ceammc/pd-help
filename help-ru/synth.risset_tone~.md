@@ -39,27 +39,26 @@ reset to start position<br>
 ## свойства:
 
 * **@rate** 
-Получить/установить glissanso speed<br>
+Запросить/установить glissanso speed<br>
 _тип:_ float<br>
 _диапазон:_ -2..2<br>
 _по умолчанию:_ 0.01<br>
 
 * **@centroid** 
-Получить/установить main frequency. Units: MIDI note<br>
+Запросить/установить main frequency. Units: MIDI note<br>
 _тип:_ float<br>
 _диапазон:_ 20..120<br>
 _по умолчанию:_ 60<br>
 
 * **@range** 
-Получить/установить glissando range in MIDI note units<br>
+Запросить/установить glissando range in MIDI note units<br>
 _тип:_ float<br>
 _диапазон:_ 1..120<br>
 _по умолчанию:_ 120<br>
 
 * **@active** 
-Получить/установить on/off dsp processing<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить on/off dsp processing<br>
+_тип:_ bool<br>
 _по умолчанию:_ 1<br>
 
 

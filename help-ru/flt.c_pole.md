@@ -20,7 +20,7 @@ Calculates coefficients for transfer function: H(z)=(b0 + b1*z⁻¹ + b2*z⁻²)
 
 ## аргументы:
 
-* **freq**
+* **FREQ**
 center frequency<br>
 _тип:_ float<br>
 _единица:_ Hz<br>
@@ -32,28 +32,28 @@ _единица:_ Hz<br>
 ## свойства:
 
 * **@freq** 
-Получить/установить center frequency<br>
+Запросить/установить center frequency<br>
 _тип:_ float<br>
 _единица:_ Hz<br>
 _диапазон:_ 0..22050<br>
 _по умолчанию:_ 1000<br>
 
-* **@rad** 
-Получить/установить use angular frequency<br>
+* **@rad** (initonly)
+Запросить/установить use angular frequency<br>
 _тип:_ flag<br>
 
 * **@mode** 
-Получить/установить filter modey<br>
+Запросить/установить filter modey<br>
 _тип:_ symbol<br>
 _варианты:_ hpf, lpf<br>
 _по умолчанию:_ lpf<br>
 
 * **@lpf** 
-Получить/установить to @mode lpf<br>
+Запросить/установить to @mode lpf<br>
 _тип:_ alias<br>
 
 * **@hpf** 
-Получить/установить ti @mode hpf<br>
+Запросить/установить ti @mode hpf<br>
 _тип:_ alias<br>
 
 

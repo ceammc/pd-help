@@ -25,25 +25,23 @@ Given the M-order numerator b and N-order denominator a of a digital filter, com
 ## свойства:
 
 * **@a** 
-Получить/установить denominator (poles) coefficients. &#39;a0&#39; always implicitly set to 1, property
+Запросить/установить denominator (poles) coefficients. &#39;a0&#39; always implicitly set to 1, property
 value set a1...an coefficients<br>
 _тип:_ list<br>
 
 * **@b** 
-Получить/установить numerator (zeros) coefficients<br>
+Запросить/установить numerator (zeros) coefficients<br>
 _тип:_ list<br>
 _по умолчанию:_ 1<br>
 
 * **@sr** 
-Получить/установить normalize using current samplerate<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить normalize using current samplerate<br>
+_тип:_ bool<br>
 _по умолчанию:_ 0<br>
 
 * **@db** 
-Получить/установить output amp response in db scale<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить output amp response in db scale<br>
+_тип:_ bool<br>
 _по умолчанию:_ 0<br>
 
 

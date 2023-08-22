@@ -37,39 +37,38 @@ note on/off message<br>
 ## свойства:
 
 * **@pitch** 
-Получить/установить midi pitch<br>
+Запросить/установить midi pitch<br>
 _тип:_ float<br>
 _диапазон:_ 24..84<br>
 _по умолчанию:_ 48<br>
 
 * **@freq** 
-Получить/установить frequency<br>
+Запросить/установить frequency<br>
 _тип:_ float<br>
 _единица:_ Hz<br>
 _по умолчанию:_ 130.813<br>
 
 * **@cutoff** 
-Получить/установить cutoff frequency<br>
+Запросить/установить cutoff frequency<br>
 _тип:_ float<br>
 _диапазон:_ 20..20000<br>
 _по умолчанию:_ 3000<br>
 
 * **@gate** 
-Получить/установить play trigger &gt;0: on, 0: off. Values greater then zero set output amplitude.<br>
+Запросить/установить play trigger &gt;0: on, 0: off. Values greater then zero set output amplitude.<br>
 _тип:_ float<br>
 _диапазон:_ 0..1<br>
 _по умолчанию:_ 0<br>
 
 * **@q** 
-Получить/установить quality factor<br>
+Запросить/установить quality factor<br>
 _тип:_ float<br>
 _диапазон:_ 0.01..100<br>
 _по умолчанию:_ 0.1<br>
 
 * **@active** 
-Получить/установить on/off dsp processing<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить on/off dsp processing<br>
+_тип:_ bool<br>
 _по умолчанию:_ 1<br>
 
 

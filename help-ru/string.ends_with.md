@@ -29,7 +29,7 @@ _тип:_ symbol<br>
 ## свойства:
 
 * **@suffix** 
-Получить/установить suffix to search<br>
+Запросить/установить suffix to search<br>
 _тип:_ symbol<br>
 
 

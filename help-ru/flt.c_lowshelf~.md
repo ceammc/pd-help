@@ -20,12 +20,12 @@ gain boost|cut below some frequency Calculates coefficients for transfer functio
 
 ## аргументы:
 
-* **freq**
+* **FREQ**
 cutoff frequency<br>
 _тип:_ float<br>
 _единица:_ Hz<br>
 
-* **gain**
+* **GAIN**
 filter gain<br>
 _тип:_ float<br>
 _единица:_ db<br>
@@ -37,23 +37,22 @@ _единица:_ db<br>
 ## свойства:
 
 * **@freq** 
-Получить/установить center frequency<br>
+Запросить/установить center frequency<br>
 _тип:_ float<br>
 _единица:_ Hz<br>
 _диапазон:_ 20..20000<br>
 _по умолчанию:_ 1000<br>
 
 * **@gain** 
-Получить/установить filter gain<br>
+Запросить/установить filter gain<br>
 _тип:_ float<br>
 _единица:_ db<br>
 _диапазон:_ -15..15<br>
 _по умолчанию:_ 0<br>
 
 * **@active** 
-Получить/установить on/off dsp processing<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить on/off dsp processing<br>
+_тип:_ bool<br>
 _по умолчанию:_ 1<br>
 
 

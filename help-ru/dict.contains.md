@@ -18,7 +18,7 @@
 
 ## аргументы:
 
-* **KEY**
+* **KEYS**
 checked keys<br>
 _тип:_ list<br>
 
@@ -29,7 +29,7 @@ _тип:_ list<br>
 ## свойства:
 
 * **@keys** 
-Получить/установить checked keys<br>
+Запросить/установить checked keys<br>
 _тип:_ list<br>
 
 

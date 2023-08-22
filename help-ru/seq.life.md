@@ -137,19 +137,19 @@ fills with random<br>
 ## свойства:
 
 * **@rows** 
-Получить/установить number of rows<br>
+Запросить/установить number of rows<br>
 _тип:_ int<br>
 _диапазон:_ 1..32<br>
 _по умолчанию:_ 16<br>
 
 * **@cols** 
-Получить/установить number of columns<br>
+Запросить/установить number of columns<br>
 _тип:_ int<br>
 _диапазон:_ 1..32<br>
 _по умолчанию:_ 16<br>
 
 * **@size** (readonly)
-Получить total cell count<br>
+Запросить total cell count<br>
 _тип:_ int<br>
 _по умолчанию:_ 256<br>
 

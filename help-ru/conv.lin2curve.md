@@ -20,19 +20,19 @@ map the receiver from an assumed linear input range to an exponential curve outp
 
 ## аргументы:
 
-* **FROM**
+* **IN_FROM**
 begin of input range<br>
 _тип:_ float<br>
 
-* **TO**
+* **IN_TO**
 end of input range<br>
 _тип:_ float<br>
 
-* **FROM**
+* **OUT_FROM**
 begin of output range<br>
 _тип:_ float<br>
 
-* **TO**
+* **OUT_TO**
 end of output range<br>
 _тип:_ float<br>
 
@@ -47,50 +47,50 @@ _тип:_ float<br>
 ## свойства:
 
 * **@in_from** 
-Получить/установить begin of input range<br>
+Запросить/установить begin of input range<br>
 _тип:_ float<br>
 _по умолчанию:_ 0<br>
 
 * **@in_to** 
-Получить/установить end of input range<br>
+Запросить/установить end of input range<br>
 _тип:_ float<br>
 _по умолчанию:_ 127<br>
 
 * **@out_from** 
-Получить/установить begin of output range<br>
+Запросить/установить begin of output range<br>
 _тип:_ float<br>
 _по умолчанию:_ 0<br>
 
 * **@out_to** 
-Получить/установить end of output range<br>
+Запросить/установить end of output range<br>
 _тип:_ float<br>
 _по умолчанию:_ 1<br>
 
 * **@curve** 
-Получить/установить 0 (linear) 0 (convex, positively curved)<br>
+Запросить/установить 0 (linear) &lt;0 (concave, negatively curved) &gt;0 (convex, positively curved)<br>
 _тип:_ float<br>
 _по умолчанию:_ -4<br>
 
 * **@clip** 
-Получить/установить noclip (don&#39;t clip) max (clip ceiling) min (clip floor) minmax (clip both).<br>
+Запросить/установить noclip (don&#39;t clip) max (clip ceiling) min (clip floor) minmax (clip both).<br>
 _тип:_ symbol<br>
 _варианты:_ noclip, min, max, minmax<br>
 _по умолчанию:_ minmax<br>
 
 * **@noclip** 
-Получить/установить alias to @clip noclip<br>
+Запросить/установить alias to @clip noclip<br>
 _тип:_ symbol<br>
 
 * **@min** 
-Получить/установить alias to @clip min<br>
+Запросить/установить alias to @clip min<br>
 _тип:_ symbol<br>
 
 * **@max** 
-Получить/установить alias to @clip max<br>
+Запросить/установить alias to @clip max<br>
 _тип:_ symbol<br>
 
 * **@minmax** 
-Получить/установить alias to @clip minmax<br>
+Запросить/установить alias to @clip minmax<br>
 _тип:_ symbol<br>
 
 

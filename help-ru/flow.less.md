@@ -20,7 +20,7 @@ Numbers thar are *less* then N-th argument are passed to N-th inlet
 
 ## аргументы:
 
-* **LIST**
+* **VALUES**
 compare values: list of floats in ascending order<br>
 _тип:_ list<br>
 
@@ -30,8 +30,8 @@ _тип:_ list<br>
 
 ## свойства:
 
-* **@values** 
-Получить/установить compare values: list of floats in ascending order<br>
+* **@values** (initonly)
+Запросить/установить compare values: list of floats in ascending order<br>
 _тип:_ list<br>
 
 

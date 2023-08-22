@@ -34,8 +34,8 @@ output zeroes to all outlets<br>
 
 ## свойства:
 
-* **@n** 
-Получить/установить number of outlets<br>
+* **@n** (initonly)
+Запросить/установить number of outlets<br>
 _тип:_ int<br>
 _диапазон:_ 2..24<br>
 _по умолчанию:_ 2<br>

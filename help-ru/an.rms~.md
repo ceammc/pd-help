@@ -36,15 +36,15 @@ clear averaging data<br>
 ## свойства:
 
 * **@period** 
-Получить/установить averaging frame<br>
+Запросить/установить averaging frame<br>
 _тип:_ float<br>
+_единица:_ ms<br>
 _диапазон:_ 1..1000<br>
 _по умолчанию:_ 200<br>
 
 * **@active** 
-Получить/установить on/off dsp processing<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить on/off dsp processing<br>
+_тип:_ bool<br>
 _по умолчанию:_ 1<br>
 
 

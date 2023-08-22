@@ -18,7 +18,7 @@
 
 ## аргументы:
 
-* **ARGS**
+* **SUBJ**
 right set elements<br>
 _тип:_ any<br>
 
@@ -29,7 +29,7 @@ _тип:_ any<br>
 ## свойства:
 
 * **@subj** 
-Получить/установить right set elements of data:Set<br>
+Запросить/установить right set elements of data:Set<br>
 _тип:_ list<br>
 _по умолчанию:_ Set()<br>
 

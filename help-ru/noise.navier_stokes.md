@@ -3,9 +3,9 @@
 
 # noise.navier_stokes
 
-###### Part of a-chaos library
+###### navier-stokes diff equations
 
-*доступно с версии:* .5
+*доступно с версии:* 0.5
 
 ---
 
@@ -20,27 +20,27 @@ A model obtained by a suitable five-mode truncation of the Navier-Stokes equatio
 
 ## аргументы:
 
-* **ARG0**
+* **A**
 a value (optional)<br>
 _тип:_ float<br>
 
-* **ARG1**
+* **B**
 b value (optional)<br>
 _тип:_ float<br>
 
-* **ARG2**
+* **C**
 c value (optional)<br>
 _тип:_ float<br>
 
-* **ARG3**
+* **D**
 d value (optional)<br>
 _тип:_ float<br>
 
-* **ARG4**
+* **R**
 r value (optional)<br>
 _тип:_ float<br>
 
-* **ARG5**
+* **DT**
 dt value (optional)<br>
 _тип:_ float<br>
 
@@ -128,7 +128,15 @@ _тип:_ control
 
 ## выходы:
 
-* main outlet<br>
+* a outlet<br>
+_тип:_ control
+* b outlet<br>
+_тип:_ control
+* c outlet<br>
+_тип:_ control
+* d outlet<br>
+_тип:_ control
+* e outlet<br>
 _тип:_ control
 
 

@@ -20,7 +20,7 @@ Output 1 on event start and 0 on event stop The event length is controlled via @
 
 ## аргументы:
 
-* **PATTERN**
+* **P**
 sequencer pattern in beat duration units<br>
 _тип:_ list<br>
 
@@ -49,39 +49,39 @@ output current sequence element and move to next<br>
 ## свойства:
 
 * **@t** 
-Получить/установить time between beats. Unit values like 100ms or 240bpm also can be used<br>
+Запросить/установить time between beats. Unit values like 100ms, 240bpm or 60|4bpm also can be used<br>
 _тип:_ float<br>
 _единица:_ ms<br>
 _диапазон:_ 1..20000<br>
 _по умолчанию:_ 100<br>
 
 * **@p** 
-Получить/установить sequencer pattern in beat duration units<br>
+Запросить/установить sequencer pattern in beat duration units<br>
 _тип:_ list<br>
 
 * **@r** 
-Получить/установить number of whole sequence repeats. If -1: repeat infinitely<br>
+Запросить/установить number of whole sequence repeats. If -1: repeat infinitely<br>
 _тип:_ int<br>
 _минимальное значение:_ -1<br>
 _по умолчанию:_ 1<br>
 
 * **@inf** 
-Получить/установить alias to @r -1, repeats infinitely<br>
+Запросить/установить alias to @r -1, repeats infinitely<br>
 _тип:_ alias<br>
 
 * **@once** 
-Получить/установить alias to @r 1, play once<br>
+Запросить/установить alias to @r 1, play once<br>
 _тип:_ alias<br>
 
 * **@dur** 
-Получить/установить whole sequence duration. (Recalculates @t property accordingly)<br>
+Запросить/установить whole sequence duration. (Recalculates @t property accordingly)<br>
 _тип:_ float<br>
 _единица:_ ms<br>
 _минимальное значение:_ 0<br>
 _по умолчанию:_ 0<br>
 
 * **@length** 
-Получить/установить event length. In case of float or float wuth &#39;ms&#39; suffix - event length is
+Запросить/установить event length. In case of float or float wuth &#39;ms&#39; suffix - event length is
 fixed for any event duration. In case of V% - @length expected to be in 0..100
 range and event length is percent of duration. In case of negative @length
 event duration is calculated as duration+@length, but not less then 1<br>
@@ -89,19 +89,19 @@ _тип:_ float<br>
 _по умолчанию:_ 75<br>
 
 * **@i** (readonly)
-Получить current sequence iteration<br>
+Запросить current sequence iteration<br>
 _тип:_ int<br>
 _минимальное значение:_ 0<br>
 _по умолчанию:_ 0<br>
 
 * **@ri** (readonly)
-Получить current repeat iteration<br>
+Запросить current repeat iteration<br>
 _тип:_ int<br>
 _минимальное значение:_ 0<br>
 _по умолчанию:_ 0<br>
 
 * **@mode** 
-Получить/установить sequencer mode. &#39;inc&#39;: from first to last, &#39;dec&#39;: from last to first, &#39;tri&#39;:
+Запросить/установить sequencer mode. &#39;inc&#39;: from first to last, &#39;dec&#39;: from last to first, &#39;tri&#39;:
 from first to last, then back<br>
 _тип:_ symbol<br>
 _варианты:_ inc, dec, tri<br>

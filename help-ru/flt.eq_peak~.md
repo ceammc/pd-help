@@ -18,17 +18,17 @@
 
 ## аргументы:
 
-* **freq**
+* **FREQ**
 peak frequency<br>
 _тип:_ float<br>
 _единица:_ Hz<br>
 
-* **gain**
+* **GAIN**
 level at fx (boost if &gt;0 or cut if &lt;0)<br>
 _тип:_ float<br>
 _единица:_ db<br>
 
-* **bandwidth**
+* **BANDWIDTH**
 bandwidth of peak<br>
 _тип:_ float<br>
 _единица:_ Hz<br>
@@ -40,30 +40,29 @@ _единица:_ Hz<br>
 ## свойства:
 
 * **@freq** 
-Получить/установить peak frequency<br>
+Запросить/установить peak frequency<br>
 _тип:_ float<br>
 _единица:_ Hz<br>
 _диапазон:_ 20..20000<br>
 _по умолчанию:_ 1000<br>
 
 * **@gain** 
-Получить/установить level at fx (boost if &gt;0 or cut if &lt;0)<br>
+Запросить/установить level at fx (boost if &gt;0 or cut if &lt;0)<br>
 _тип:_ float<br>
 _единица:_ db<br>
 _диапазон:_ -15..15<br>
 _по умолчанию:_ 0<br>
 
 * **@bandwidth** 
-Получить/установить bandwidth of peak<br>
+Запросить/установить bandwidth of peak<br>
 _тип:_ float<br>
 _единица:_ Hz<br>
 _диапазон:_ 1..5000<br>
 _по умолчанию:_ 100<br>
 
 * **@active** 
-Получить/установить on/off dsp processing<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить on/off dsp processing<br>
+_тип:_ bool<br>
 _по умолчанию:_ 1<br>
 
 

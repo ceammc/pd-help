@@ -50,50 +50,50 @@ note on/off message<br>
 ## свойства:
 
 * **@freq** 
-Получить/установить maximum speed of whistles<br>
+Запросить/установить maximum speed of whistles<br>
 _тип:_ float<br>
 _единица:_ Hz<br>
 _диапазон:_ 0..480<br>
 _по умолчанию:_ 220<br>
 
 * **@pitch** 
-Получить/установить midi pitch<br>
+Запросить/установить midi pitch<br>
 _тип:_ float<br>
 _диапазон:_ 36..84<br>
 _по умолчанию:_ 57<br>
 
 * **@gate** 
-Получить/установить synth gate (&gt;0 - play)<br>
+Запросить/установить synth gate (&gt;0 - play)<br>
 _тип:_ float<br>
 _диапазон:_ 0..1<br>
 _по умолчанию:_ 0<br>
 
 * **@op4** 
-Получить/установить operator 4 (feedback) gain (cc2)<br>
+Запросить/установить operator 4 (feedback) gain (cc2)<br>
 _тип:_ int<br>
 _диапазон:_ 0..127<br>
 _по умолчанию:_ 0<br>
 
 * **@op3** 
-Получить/установить operator 3 gain (cc4)<br>
+Запросить/установить operator 3 gain (cc4)<br>
 _тип:_ int<br>
 _диапазон:_ 0..127<br>
 _по умолчанию:_ 0<br>
 
 * **@lfo_speed** 
-Получить/установить LFO Speed (cc11)<br>
+Запросить/установить LFO Speed (cc11)<br>
 _тип:_ int<br>
 _диапазон:_ 0..127<br>
 _по умолчанию:_ 0<br>
 
 * **@lfo_depth** 
-Получить/установить LFO Speed (cc1)<br>
+Запросить/установить LFO Speed (cc1)<br>
 _тип:_ int<br>
 _диапазон:_ 0..127<br>
 _по умолчанию:_ 0<br>
 
 * **@adsr** 
-Получить/установить ADSR 2 &amp; 4 Target<br>
+Запросить/установить ADSR 2 &amp; 4 Target<br>
 _тип:_ int<br>
 _диапазон:_ 0..127<br>
 _по умолчанию:_ 0<br>

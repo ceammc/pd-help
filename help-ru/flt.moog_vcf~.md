@@ -18,7 +18,7 @@
 
 ## аргументы:
 
-* **res**
+* **RES**
 normalized amount of corner-resonance<br>
 _тип:_ float<br>
 
@@ -35,15 +35,14 @@ reset object state<br>
 ## свойства:
 
 * **@res** 
-Получить/установить normalized amount of corner-resonance<br>
+Запросить/установить normalized amount of corner-resonance<br>
 _тип:_ float<br>
 _диапазон:_ 0..1<br>
 _по умолчанию:_ 0.4<br>
 
 * **@active** 
-Получить/установить on/off dsp processing<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить on/off dsp processing<br>
+_тип:_ bool<br>
 _по умолчанию:_ 1<br>
 
 

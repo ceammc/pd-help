@@ -5,7 +5,7 @@
 
 ###### Part of a-chaos library
 
-*доступно с версии:* .5
+*доступно с версии:* 0.5
 
 ---
 
@@ -20,7 +20,7 @@ Port of Richard&#39;s chaos-baker from chaos collection
 
 ## аргументы:
 
-* **ARG0**
+* **VALUE**
 initial value<br>
 _тип:_ float<br>
 

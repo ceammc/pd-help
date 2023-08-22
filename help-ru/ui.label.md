@@ -65,91 +65,81 @@ set UI element position<br>
 ## свойства:
 
 * **@text** 
-Получить/установить label text<br>
+Запросить/установить label text<br>
 _тип:_ symbol<br>
 _по умолчанию:_ Label<br>
 
 * **@align** 
-Получить/установить text align<br>
+Запросить/установить text align<br>
 _тип:_ symbol<br>
 _варианты:_ left, center, right<br>
 _по умолчанию:_ left<br>
 
 * **@margin_top** 
-Получить/установить text top margin<br>
+Запросить/установить text top margin<br>
 _тип:_ int<br>
 _по умолчанию:_ 5<br>
 
 * **@margin_left** 
-Получить/установить text left margin<br>
+Запросить/установить text left margin<br>
 _тип:_ int<br>
 _по умолчанию:_ 5<br>
 
 * **@margin_right** 
-Получить/установить text right margin<br>
+Запросить/установить text right margin<br>
 _тип:_ int<br>
 _по умолчанию:_ 5<br>
 
 * **@margin_bottom** 
-Получить/установить text bottom margin<br>
+Запросить/установить text bottom margin<br>
 _тип:_ int<br>
 _по умолчанию:_ 5<br>
 
-* **@send** 
-Получить/установить send destination<br>
-_тип:_ symbol<br>
-_по умолчанию:_ (null)<br>
-
 * **@receive** 
-Получить/установить receive source<br>
+Запросить/установить receive source<br>
 _тип:_ symbol<br>
 _по умолчанию:_ (null)<br>
 
 * **@size** 
-Получить/установить element size (width, height pair)<br>
+Запросить/установить element size (width, height pair)<br>
 _тип:_ list<br>
 _по умолчанию:_ 300 47<br>
 
 * **@pinned** 
-Получить/установить pin mode. if 1 - put element to the lowest level<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить pin mode. if 1 - put element to the lowest level<br>
+_тип:_ bool<br>
 _по умолчанию:_ 1<br>
 
 * **@text_color** 
-Получить/установить text color (list of red, green, blue values in 0-1 range)<br>
+Запросить/установить text color (list of red, green, blue values in 0-1 range)<br>
 _тип:_ list<br>
 _по умолчанию:_ 0 0 0 1<br>
 
 * **@background_color** 
-Получить/установить element background color (list of red, green, blue values in 0-1 range)<br>
+Запросить/установить element background color (list of red, green, blue values in 0-1 range)<br>
 _тип:_ list<br>
 _по умолчанию:_ 1 1 1 1<br>
 
-* **@border_color** 
-Получить/установить border color (list of red, green, blue values in 0-1 range)<br>
-_тип:_ list<br>
-_по умолчанию:_ 0.6 0.6 0.6 1<br>
-
 * **@fontsize** 
-Получить/установить fontsize<br>
+Запросить/установить fontsize<br>
 _тип:_ int<br>
-_минимальное значение:_ 4<br>
+_диапазон:_ 4..100<br>
 _по умолчанию:_ 32<br>
 
 * **@fontname** 
-Получить/установить fontname<br>
+Запросить/установить fontname<br>
 _тип:_ symbol<br>
+_варианты:_ Courier, DejaVu, Helvetica, Monaco, Times<br>
 _по умолчанию:_ Helvetica<br>
 
 * **@fontweight** 
-Получить/установить font weight<br>
+Запросить/установить font weight<br>
 _тип:_ symbol<br>
 _варианты:_ normal, bold<br>
 _по умолчанию:_ normal<br>
 
 * **@fontslant** 
-Получить/установить font slant<br>
+Запросить/установить font slant<br>
 _тип:_ symbol<br>
 _варианты:_ roman, italic<br>
 _по умолчанию:_ roman<br>

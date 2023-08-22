@@ -35,12 +35,14 @@ _тип:_ atom<br>
 ## свойства:
 
 * **@from** 
-Получить/установить replace subject<br>
+Запросить/установить replace subject<br>
 _тип:_ atom<br>
+_по умолчанию:_ None<br>
 
 * **@to** 
-Получить/установить replace value<br>
+Запросить/установить replace value<br>
 _тип:_ atom<br>
+_по умолчанию:_ None<br>
 
 
 

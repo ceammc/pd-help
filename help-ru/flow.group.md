@@ -38,13 +38,13 @@ clear without output<br>
 ## свойства:
 
 * **@by** 
-Получить/установить group size<br>
+Запросить/установить group size<br>
 _тип:_ int<br>
 _минимальное значение:_ 1<br>
 _по умолчанию:_ 1<br>
 
 * **@free** (readonly)
-Получить free space left in group<br>
+Запросить free space left in group<br>
 _тип:_ int<br>
 _минимальное значение:_ 0<br>
 _по умолчанию:_ 0<br>

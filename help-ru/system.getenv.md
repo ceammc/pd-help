@@ -18,13 +18,19 @@
 
 ## аргументы:
 
-* **VAR**
+* **NAME**
 environment variable name<br>
 _тип:_ symbol<br>
 
 
 
 
+
+## свойства:
+
+* **@name** 
+Запросить/установить environment variable name<br>
+_тип:_ symbol<br>
 
 
 

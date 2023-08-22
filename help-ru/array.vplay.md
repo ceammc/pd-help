@@ -18,7 +18,7 @@
 
 ## аргументы:
 
-* **NAME**
+* **ARRAY**
 array name<br>
 _тип:_ symbol<br>
 
@@ -56,56 +56,55 @@ set play range.<br>
 ## свойства:
 
 * **@array** 
-Получить/установить array name<br>
+Запросить/установить array name<br>
 _тип:_ symbol<br>
 
 * **@state** (readonly)
-Получить player state<br>
+Запросить player state<br>
 _тип:_ symbol<br>
 _варианты:_ play, stop<br>
 _по умолчанию:_ stop<br>
 
 * **@speed** 
-Получить/установить play speed<br>
+Запросить/установить play speed<br>
 _тип:_ float<br>
 _минимальное значение:_ 0.1<br>
 _по умолчанию:_ 1<br>
 
 * **@begin** 
-Получить/установить begin position in samples<br>
+Запросить/установить begin position in samples<br>
 _тип:_ int<br>
 _единица:_ samp<br>
 _по умолчанию:_ 0<br>
 
 * **@end** 
-Получить/установить end position in samples<br>
+Запросить/установить end position in samples<br>
 _тип:_ int<br>
 _единица:_ samp<br>
 _по умолчанию:_ -1<br>
 
 * **@abs_begin** (readonly)
-Получить absolute start position in samples<br>
+Запросить absolute start position in samples<br>
 _тип:_ int<br>
 _единица:_ samp<br>
 _по умолчанию:_ 0<br>
 
 * **@abs_end** (readonly)
-Получить absolute stop position in samples<br>
+Запросить absolute stop position in samples<br>
 _тип:_ int<br>
 _единица:_ samp<br>
 _по умолчанию:_ 0<br>
 
 * **@reversed** 
-Получить/установить playing backwards (if set to 1)<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить playing backwards (if set to 1)<br>
+_тип:_ bool<br>
 _по умолчанию:_ 0<br>
 
 
 
 ## входы:
 
-* start playing from the begining<br>
+* start playing from the beginning<br>
 _тип:_ control
 
 

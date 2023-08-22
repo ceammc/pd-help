@@ -33,29 +33,29 @@ _тип:_ symbol<br>
 ## свойства:
 
 * **@from** 
-Получить/установить replace from<br>
+Запросить/установить replace from<br>
 _тип:_ symbol<br>
 
 * **@to** 
-Получить/установить replace to<br>
+Запросить/установить replace to<br>
 _тип:_ symbol<br>
 
 * **@mode** 
-Получить/установить replace mode<br>
+Запросить/установить replace mode<br>
 _тип:_ symbol<br>
 _варианты:_ all, first, last<br>
 _по умолчанию:_ all<br>
 
 * **@all** 
-Получить/установить alias to @mode all - replace all occurences in input string<br>
+Запросить/установить alias to @mode all - replace all occurences in input string<br>
 _тип:_ alias<br>
 
 * **@first** 
-Получить/установить alias to @mode first - replace first occurence in input string<br>
+Запросить/установить alias to @mode first - replace first occurence in input string<br>
 _тип:_ alias<br>
 
 * **@last** 
-Получить/установить alias to @mode last - replace last occurence in input string<br>
+Запросить/установить alias to @mode last - replace last occurence in input string<br>
 _тип:_ alias<br>
 
 

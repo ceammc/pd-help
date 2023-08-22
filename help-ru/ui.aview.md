@@ -54,165 +54,162 @@ dumps all object info to Pd console window.<br>
 ## свойства:
 
 * **@array** 
-Получить/установить array name<br>
+Запросить/установить array name<br>
 _тип:_ symbol<br>
 
 * **@mouse_events** 
-Получить/установить mouse events output mode. If on outputs @mouse_down, @mouse_up and @mouse_drag
+Запросить/установить mouse events output mode. If on outputs @mouse_down, @mouse_up and @mouse_drag
 events<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+_тип:_ bool<br>
 _по умолчанию:_ 1<br>
 
 * **@cursor_samp** 
-Получить/установить cursor position in samples<br>
+Запросить/установить cursor position in samples<br>
 _тип:_ int<br>
 _единица:_ samp<br>
 _по умолчанию:_ 0<br>
 
 * **@cursor_phase** 
-Получить/установить cursor position in 0-1 range<br>
+Запросить/установить cursor position in 0-1 range<br>
 _тип:_ float<br>
 _диапазон:_ 0..1<br>
 _по умолчанию:_ 0<br>
 
 * **@cursor_sec** 
-Получить/установить cursor position in seconds<br>
+Запросить/установить cursor position in seconds<br>
 _тип:_ float<br>
 _единица:_ sec<br>
 _по умолчанию:_ 0<br>
 
 * **@cursor_ms** 
-Получить/установить cursor position in milliseconds<br>
+Запросить/установить cursor position in milliseconds<br>
 _тип:_ float<br>
 _единица:_ ms<br>
 _по умолчанию:_ 0<br>
 
 * **@select_samp** 
-Получить/установить selection range in samples, pair of values: begin, end<br>
+Запросить/установить selection range in samples, pair of values: begin, end<br>
 _тип:_ list<br>
 _единица:_ samp<br>
 
 * **@select_sec** 
-Получить/установить selection range in seconds, pair of values: begin, end<br>
+Запросить/установить selection range in seconds, pair of values: begin, end<br>
 _тип:_ list<br>
 _единица:_ sec<br>
 
 * **@select_ms** 
-Получить/установить selection range in milliseconds, pair of values: begin, end<br>
+Запросить/установить selection range in milliseconds, pair of values: begin, end<br>
 _тип:_ list<br>
 _единица:_ ms<br>
 
 * **@select_phase** 
-Получить/установить selection range noramlized to 0-1 range, pair of values: begin, end<br>
+Запросить/установить selection range noramlized to 0-1 range, pair of values: begin, end<br>
 _тип:_ list<br>
 
 * **@show_rms** 
-Получить/установить show RMS graph<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить show RMS graph<br>
+_тип:_ bool<br>
 _по умолчанию:_ 0<br>
 
 * **@show_labels** 
-Получить/установить if show corner labels<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить if show corner labels<br>
+_тип:_ bool<br>
 _по умолчанию:_ 0<br>
 
 * **@label_top** 
-Получить/установить top right label if @show_labels is on<br>
+Запросить/установить top right label if @show_labels is on<br>
 _тип:_ symbol<br>
 
 * **@label_bottom** 
-Получить/установить bottom right label if @show_labels is on<br>
+Запросить/установить bottom right label if @show_labels is on<br>
 _тип:_ symbol<br>
 
 * **@size_samp** (readonly)
-Получить array size in samples<br>
+Запросить array size in samples<br>
 _тип:_ int<br>
 _единица:_ samp<br>
 _минимальное значение:_ 0<br>
 _по умолчанию:_ 0<br>
 
 * **@size_sec** (readonly)
-Получить array size in seconds<br>
+Запросить array size in seconds<br>
 _тип:_ float<br>
 _единица:_ sec<br>
 _минимальное значение:_ 0<br>
 _по умолчанию:_ 0<br>
 
 * **@size_ms** (readonly)
-Получить array size in milliseconds<br>
+Запросить array size in milliseconds<br>
 _тип:_ float<br>
 _единица:_ ms<br>
 _минимальное значение:_ 0<br>
 _по умолчанию:_ 0<br>
 
 * **@send** 
-Получить/установить send destination<br>
+Запросить/установить send destination<br>
 _тип:_ symbol<br>
 _по умолчанию:_ (null)<br>
 
 * **@receive** 
-Получить/установить receive source<br>
+Запросить/установить receive source<br>
 _тип:_ symbol<br>
 _по умолчанию:_ (null)<br>
 
 * **@size** 
-Получить/установить element size (width, height pair)<br>
+Запросить/установить element size (width, height pair)<br>
 _тип:_ list<br>
 _по умолчанию:_ 300 100<br>
 
 * **@pinned** 
-Получить/установить pin mode. if 1 - put element to the lowest level<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить pin mode. if 1 - put element to the lowest level<br>
+_тип:_ bool<br>
 _по умолчанию:_ 0<br>
 
 * **@selection_color** 
-Получить/установить selection color (list of red, green, blue values in 0-1 range)<br>
+Запросить/установить selection color (list of red, green, blue values in 0-1 range)<br>
 _тип:_ list<br>
 _по умолчанию:_ 0 0.75 1 1<br>
 
 * **@cursor_color** 
-Получить/установить cursor color (list of red, green, blue values in 0-1 range)<br>
+Запросить/установить cursor color (list of red, green, blue values in 0-1 range)<br>
 _тип:_ list<br>
 _по умолчанию:_ 0 0.75 1 1<br>
 
 * **@wave_color** 
-Получить/установить wave color (list of red, green, blue values in 0-1 range)<br>
+Запросить/установить wave color (list of red, green, blue values in 0-1 range)<br>
 _тип:_ list<br>
 _по умолчанию:_ 0.3 0.3 0.3 1<br>
 
 * **@background_color** 
-Получить/установить element background color (list of red, green, blue values in 0-1 range)<br>
+Запросить/установить element background color (list of red, green, blue values in 0-1 range)<br>
 _тип:_ list<br>
 _по умолчанию:_ 0.93 0.93 0.93 1<br>
 
 * **@border_color** 
-Получить/установить border color (list of red, green, blue values in 0-1 range)<br>
+Запросить/установить border color (list of red, green, blue values in 0-1 range)<br>
 _тип:_ list<br>
 _по умолчанию:_ 0.6 0.6 0.6 1<br>
 
 * **@fontsize** 
-Получить/установить fontsize<br>
+Запросить/установить fontsize<br>
 _тип:_ int<br>
-_диапазон:_ 4..11<br>
+_диапазон:_ 4..100<br>
 _по умолчанию:_ 11<br>
 
 * **@fontname** 
-Получить/установить fontname<br>
+Запросить/установить fontname<br>
 _тип:_ symbol<br>
+_варианты:_ Courier, DejaVu, Helvetica, Monaco, Times<br>
 _по умолчанию:_ Helvetica<br>
 
 * **@fontweight** 
-Получить/установить font weight<br>
+Запросить/установить font weight<br>
 _тип:_ symbol<br>
 _варианты:_ normal, bold<br>
 _по умолчанию:_ normal<br>
 
 * **@fontslant** 
-Получить/установить font slant<br>
+Запросить/установить font slant<br>
 _тип:_ symbol<br>
 _варианты:_ roman, italic<br>
 _по умолчанию:_ roman<br>

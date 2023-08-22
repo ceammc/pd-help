@@ -21,6 +21,6 @@
 [**dyn.softclip~**](dyn.softclip~.html): soft signal clip 
 
 
-**Версия:** 0.9.4
+**Версия:** 0.9.6
 
 **Лицензия:** GPL3

@@ -26,7 +26,7 @@ _тип:_ int<br>
 end value<br>
 _тип:_ int<br>
 
-* **REPEATS**
+* **R**
 number of repeats<br>
 _тип:_ int<br>
 
@@ -37,64 +37,75 @@ _тип:_ int<br>
 * **reset**
 reset counter to start value and repeat counter to 0<br>
 
+* **next**
+increment counter then output<br>
+
+* **prev**
+decrement counter then output<br>
+
 
 
 
 ## свойства:
 
 * **@from** 
-Получить/установить start value<br>
+Запросить/установить start value. Setting this property resets @i to 0<br>
 _тип:_ int<br>
 _по умолчанию:_ 0<br>
 
 * **@to** 
-Получить/установить end value<br>
+Запросить/установить end value (inclusive)<br>
 _тип:_ int<br>
 _по умолчанию:_ 0<br>
 
 * **@r** 
-Получить/установить number of repeats. If -1: repeat infinitely.<br>
+Запросить/установить number of repeats. If -1: repeat infinitely.<br>
 _тип:_ int<br>
 _минимальное значение:_ -1<br>
 _по умолчанию:_ -1<br>
 
 * **@inf** 
-Получить/установить alias to @r -1, repeats infinitely<br>
+Запросить/установить alias to @r -1, repeats infinitely<br>
 _тип:_ alias<br>
 
 * **@once** 
-Получить/установить alias to @r 1, play once<br>
+Запросить/установить alias to @r 1, play once<br>
 _тип:_ alias<br>
 
-* **@i** (readonly)
-Получить current iteration<br>
+* **@i** 
+Запросить/установить current iteration<br>
 _тип:_ int<br>
 _по умолчанию:_ 0<br>
 
 * **@ri** (readonly)
-Получить current repeat iteration<br>
+Запросить current repeat iteration<br>
 _тип:_ int<br>
 _по умолчанию:_ 0<br>
 
 * **@mode** 
-Получить/установить repeat counter mode<br>
+Запросить/установить repeat counter mode<br>
 _тип:_ symbol<br>
 _варианты:_ wrap, fold<br>
 _по умолчанию:_ wrap<br>
 
 * **@wrap** 
-Получить/установить alias to @mode wrap<br>
+Запросить/установить alias to @mode wrap<br>
 _тип:_ alias<br>
 
 * **@fold** 
-Получить/установить alias to @mode fold<br>
+Запросить/установить alias to @mode fold<br>
 _тип:_ alias<br>
+
+* **@value** (readonly)
+Запросить current value<br>
+_тип:_ int<br>
+_по умолчанию:_ 0<br>
 
 
 
 ## входы:
 
-* output current value and increment counter<br>
+* output current value then increment counter<br>
 _тип:_ control
 * reset counter to start value<br>
 _тип:_ control

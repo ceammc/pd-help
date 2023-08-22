@@ -31,7 +31,7 @@ _тип:_ int<br>
 ## свойства:
 
 * **@index** 
-Получить/установить current demultiplexer output index<br>
+Запросить/установить current demultiplexer output index<br>
 _тип:_ int<br>
 _минимальное значение:_ 0<br>
 _по умолчанию:_ 0<br>

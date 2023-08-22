@@ -20,7 +20,7 @@ Use backtick ` instead of backslash in regexp syntax if you want to match proper
 
 ## аргументы:
 
-* **RE_LST**
+* **PATTERNS**
 list of regular expressions<br>
 _тип:_ list<br>
 
@@ -30,14 +30,13 @@ _тип:_ list<br>
 
 ## свойства:
 
-* **@patterns** 
-Получить/установить list of regular expressions<br>
+* **@patterns** (initonly)
+Запросить/установить list of regular expressions<br>
 _тип:_ list<br>
 
 * **@cut** 
-Получить/установить cut or pass message selector<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить cut or pass message selector<br>
+_тип:_ bool<br>
 _по умолчанию:_ 0<br>
 
 

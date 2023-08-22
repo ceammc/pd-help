@@ -29,27 +29,27 @@ _тип:_ int<br>
 ## свойства:
 
 * **@oct** 
-Получить/установить octave transposition<br>
+Запросить/установить octave transposition<br>
 _тип:_ int<br>
 _диапазон:_ -11..11<br>
 _по умолчанию:_ 0<br>
 
 * **@mode** 
-Получить/установить octave mode<br>
+Запросить/установить octave mode<br>
 _тип:_ symbol<br>
 _варианты:_ transpose, set<br>
 _по умолчанию:_ transpose<br>
 
 * **@set** 
-Получить/установить alias to @mode set<br>
+Запросить/установить alias to @mode set<br>
 _тип:_ alias<br>
 
 * **@transpose** 
-Получить/установить alias to @mode transpose<br>
+Запросить/установить alias to @mode transpose<br>
 _тип:_ alias<br>
 
 * **@random** 
-Получить/установить random octave range. Arguments are: MIN MAX.<br>
+Запросить/установить random octave range. Arguments are: MIN MAX.<br>
 _тип:_ list<br>
 
 

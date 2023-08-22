@@ -22,6 +22,10 @@
 array name<br>
 _тип:_ symbol<br>
 
+* **ON**
+write mode<br>
+_тип:_ bool<br>
+
 
 
 ## методы:
@@ -40,17 +44,16 @@ resize target array<br>
 ## свойства:
 
 * **@array** 
-Получить/установить array name<br>
+Запросить/установить array name<br>
 _тип:_ symbol<br>
 
 * **@on** 
-Получить/установить write mode<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить write mode<br>
+_тип:_ bool<br>
 _по умолчанию:_ 1<br>
 
 * **@interp** 
-Получить/установить interpolation mode<br>
+Запросить/установить interpolation mode<br>
 _тип:_ int<br>
 _варианты:_ 0, 1, 3<br>
 _по умолчанию:_ 0<br>
@@ -64,7 +67,7 @@ _тип:_ audio
 * read delay<br>
 _тип:_ audio
 * reset write position to zero<br>
-_тип:_ audio
+_тип:_ control
 
 
 

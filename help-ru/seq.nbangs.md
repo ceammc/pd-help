@@ -55,20 +55,20 @@ manually output current sequence element and move to next<br>
 ## свойства:
 
 * **@dur** 
-Получить/установить sequence duration. Changing this property also changes @t interval between
+Запросить/установить sequence duration. Changing this property also changes @t interval between
 bangs.<br>
 _тип:_ float<br>
 _минимальное значение:_ 0<br>
 _по умолчанию:_ 0<br>
 
 * **@n** 
-Получить/установить number of bangs<br>
+Запросить/установить number of bangs<br>
 _тип:_ int<br>
 _минимальное значение:_ 0<br>
 _по умолчанию:_ 0<br>
 
 * **@t** 
-Получить/установить time interval between bangs. You could also use units values like 100ms or
+Запросить/установить time interval between bangs. You could also use units values like 100ms or
 120bpm.<br>
 _тип:_ float<br>
 _единица:_ ms<br>

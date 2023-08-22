@@ -25,9 +25,8 @@ In raw output mode output values can be in various output range and sign, otherw
 ## свойства:
 
 * **@raw** 
-Получить/установить raw data output mode<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить raw data output mode<br>
+_тип:_ bool<br>
 _по умолчанию:_ 0<br>
 
 

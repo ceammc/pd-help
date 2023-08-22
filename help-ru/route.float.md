@@ -25,17 +25,16 @@ to get properties use *prop.get* object, cause all messages (including property 
 ## свойства:
 
 * **@strict** 
-Получить/установить strict mode. By default list with single float treated as float. Set to true to
+Запросить/установить strict mode. By default list with single float treated as float. Set to true to
 disable this behavior<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+_тип:_ bool<br>
 _по умолчанию:_ 0<br>
 
 
 
 ## входы:
 
-* float to first outlet<br>
+* float to *first* outlet<br>
 _тип:_ control
 
 

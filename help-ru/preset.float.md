@@ -24,7 +24,7 @@ Named float preset entry. Can store/load up to 256 various float values
 preset id (should be unique in most use cases)<br>
 _тип:_ symbol<br>
 
-* **VAL**
+* **INIT**
 preset initial value<br>
 _тип:_ float<br>
 
@@ -50,26 +50,26 @@ linearly interpolate between preset indexes and output<br>
 ## свойства:
 
 * **@path** (readonly)
-Получить property OSC-like path that includes id, abstraction name and may be subpatch
+Запросить property OSC-like path that includes id, abstraction name and may be subpatch
 name separated by slashes.<br>
 _тип:_ symbol<br>
 
-* **@id** (readonly)
-Получить preset id<br>
+* **@id** (initonly)
+Запросить/установить preset id<br>
 _тип:_ symbol<br>
 
-* **@init** 
-Получить/установить init float value<br>
+* **@init** (initonly)
+Запросить/установить init float value<br>
 _тип:_ float<br>
 _по умолчанию:_ 0<br>
 
-* **@global** 
-Получить/установить use global path like /ID<br>
+* **@global** (initonly)
+Запросить/установить use global path like /ID<br>
 _тип:_ flag<br>
 _по умолчанию:_ 0<br>
 
-* **@subpatch** 
-Получить/установить include subpatch name to path<br>
+* **@subpatch** (initonly)
+Запросить/установить include subpatch name to path<br>
 _тип:_ flag<br>
 _по умолчанию:_ 0<br>
 

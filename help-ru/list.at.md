@@ -11,7 +11,7 @@
 
 
 ## информация
-Returns the element at the given index position in the list. @rel property allows to acess elements in range (-LIST_SIZE, LIST_SIZE). Negative index means position from the end of the list. For example: -1 returns last element. @clip property: if element index = LIST_SIZE last element returned. @wrap property: in range [0, LIST_SIZE) ordinal elements are returned. Other indexes are wrapped by modulo division.
+Returns the element at the given index position in the list. @rel property allows to acess elements in range (-LIST_SIZE, LIST_SIZE). Negative index means position from the end of the list. For example: -1 returns last element. @clip property: if element index &lt; 0 - first element returned. If element index &gt;= LIST_SIZE last element returned. @wrap property: in range [0, LIST_SIZE) ordinal elements are returned. Other indexes are wrapped by modulo division.
 
 
 [![example](../examples/img/list.at.jpg)](../examples/pd/list.at.pd)
@@ -20,7 +20,7 @@ Returns the element at the given index position in the list. @rel property allow
 
 ## аргументы:
 
-* **position**
+* **INDEX**
 single or multiple elements position<br>
 _тип:_ list<br>
 
@@ -31,38 +31,39 @@ _тип:_ list<br>
 ## свойства:
 
 * **@method** 
-Получить/установить methods of processing of negative/invalid indexes<br>
+Запросить/установить methods of processing of negative/invalid indexes<br>
 _тип:_ symbol<br>
 _варианты:_ rel, clip, fold, wrap<br>
 _по умолчанию:_ rel<br>
 
 * **@rel** 
-Получить/установить alias to @method rel. Negative index means position from the end of the list<br>
+Запросить/установить alias to @method rel. Negative index means position from the end of the list<br>
 _тип:_ alias<br>
 
 * **@clip** 
-Получить/установить alias to @method clip. If index &lt; 0 - return first element. If index greater or
+Запросить/установить alias to @method clip. If index &lt; 0 - return first element. If index greater or
 equal list size - return last element<br>
 _тип:_ alias<br>
 
 * **@fold** 
-Получить/установить alias to @method fold. In range [0, LIST_SIZE) ordinal elements are returned.
+Запросить/установить alias to @method fold. In range [0, LIST_SIZE) ordinal elements are returned.
 [LIST_SIZE, 2*LIST_SIZE) - returned in negative order etc.<br>
 _тип:_ alias<br>
 
 * **@wrap** 
-Получить/установить alias to @method wrap. In range [0, LIST_SIZE) ordinal elements are returned.
+Запросить/установить alias to @method wrap. In range [0, LIST_SIZE) ordinal elements are returned.
 Other indexes are wrapped by modulo division.<br>
 _тип:_ alias<br>
 
 * **@index** 
-Получить/установить indexes<br>
+Запросить/установить indexes<br>
 _тип:_ list<br>
 _по умолчанию:_ 0<br>
 
 * **@default** 
-Получить/установить default output value if not found. If not set, outputs error message to console<br>
+Запросить/установить default output value if not found. If not set, outputs error message to console<br>
 _тип:_ atom<br>
+_по умолчанию:_ null<br>
 
 
 

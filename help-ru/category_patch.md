@@ -6,6 +6,8 @@
 
 
 
+[**canvas.active**](canvas.active.html): checks if canvas window is on top and active 
+
 [**canvas.current**](canvas.current.html): verbose information about current canvas 
 
 [**canvas.dir**](canvas.dir.html): current canvas directory 
@@ -23,6 +25,6 @@
 [**patch.tree**](patch.tree.html): patch tree 
 
 
-**Версия:** 0.9.4
+**Версия:** 0.9.6
 
 **Лицензия:** GPL3

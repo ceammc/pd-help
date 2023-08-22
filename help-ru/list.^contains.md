@@ -20,7 +20,7 @@ Outputs 1 if contains, otherwise 0 Different arguments order then in [list.^cont
 
 ## аргументы:
 
-* **LIST**
+* **VALUE**
 list contents<br>
 _тип:_ list<br>
 
@@ -31,7 +31,7 @@ _тип:_ list<br>
 ## свойства:
 
 * **@value** 
-Получить/установить list contents<br>
+Запросить/установить list contents<br>
 _тип:_ list<br>
 
 

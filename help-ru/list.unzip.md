@@ -1,38 +1,88 @@
-[< справка — содержание](index.html)
+[index](index.html) :: [list](category_list.html)
 ---
 
 # list.unzip
 
+###### splits list to N lists, each to separate output
 
-Разделяет список на N списков и отправляет их на отдельные выходы
-
----
-
-Для N = 2 и списка [1 2 3 4] мы получаем [1 3] на выходе 1 и [2 4] на выходе
-            2.
-Если в этом случае входящее значение [1 2 3 4 5], то результат зависит от установленного способа разделения.
-Если установлен метод @min, на выходах будет [1 3 5] и [2 4]. Если установлен метод @pad со значением
-            X, выходу будут [1 3 5] и [2 4 X]
-<br>
-
+*доступно с версии:* 0.1
 
 ---
 
 
-![example](examples/list.unzip-example.jpg)
+## информация
+For N = 2 and list elements [1 2 3 4] we get [1 3] on output 1 and [2 4] on output 2. If input value is [1 2 3 4 5] the output depends on split method. If @min method used, output is [1 3 5] and [2 4]. If @pad method used with value X, output if [1 3 5] and [2 4 X]
 
----
-аргументы:
 
-N: количество выходов<br>
+[![example](../examples/img/list.unzip.jpg)](../examples/pd/list.unzip.pd)
 
----
-свойства:
 
-@method: метод разделения для случая, если длина входящего списка не кратна количеству выходов<br>
-@min: сокращение для @method min. Используется минимальный размер списка.<br>
-@pad:  значение для заполнения. Выходной список дополняется в конце указанными значениями в случае если длина входного списка не кратна количеству выходов<br>
 
----
-смотрите также:<br>
-[![list.zip](img/object_list.zip.png)](list.zip.html)
+## аргументы:
+
+* **N**
+number of output outlets<br>
+_тип:_ int<br>
+
+
+
+
+
+## свойства:
+
+* **@method** 
+Запросить/установить split method if number element in the input list is not multiple of number of
+outputs<br>
+_тип:_ symbol<br>
+_варианты:_ min, pad<br>
+_по умолчанию:_ min<br>
+
+* **@min** 
+Запросить/установить alias to @method min. No padding used<br>
+_тип:_ alias<br>
+
+* **@pad** 
+Запросить/установить padding value. Pads result lists with specified value, if number of elements in
+the input list is not multiple of number of outputs<br>
+_тип:_ atom<br>
+_по умолчанию:_ 0<br>
+
+
+
+## входы:
+
+* input list<br>
+_тип:_ control
+
+
+
+## выходы:
+
+* unzipped list<br>
+_тип:_ control
+
+
+
+## ключевые слова:
+
+[list](keywords/list.html)
+
+
+
+**Смотрите также:**
+[\[list.zip\]](list.zip.html)
+
+
+
+
+**Авторы:** Alex Nadzharov, Serge Poltavsky
+
+
+
+
+**Лицензия:** GPL3 or later
+
+
+
+
+

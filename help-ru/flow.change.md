@@ -25,7 +25,7 @@ The object passes input values only when it&#39;s changed. You can &#34;set&#34;
 ## свойства:
 
 * **@onrepeat** 
-Получить/установить function called when repeat occurs<br>
+Запросить/установить function called when repeat occurs<br>
 _тип:_ symbol<br>
 
 

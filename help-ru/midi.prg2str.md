@@ -22,13 +22,13 @@
 
 ## свойства:
 
-* **@symbol** 
-Получить/установить output as symbol instead of string by default<br>
+* **@symbol** (initonly)
+Запросить/установить output as symbol instead of string by default<br>
 _тип:_ flag<br>
 _по умолчанию:_ 0<br>
 
-* **@family** 
-Получить/установить output family name instead of instrument name<br>
+* **@family** (initonly)
+Запросить/установить output family name instead of instrument name<br>
 _тип:_ flag<br>
 _по умолчанию:_ 0<br>
 

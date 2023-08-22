@@ -29,29 +29,28 @@ reset object state<br>
 ## свойства:
 
 * **@density** 
-Получить/установить number of grains<br>
+Запросить/установить number of grains<br>
 _тип:_ int<br>
 _диапазон:_ 1..64<br>
 _по умолчанию:_ 10<br>
 
 * **@length** 
-Получить/установить grain length<br>
+Запросить/установить grain length<br>
 _тип:_ float<br>
 _единица:_ ms<br>
 _диапазон:_ 10..500<br>
 _по умолчанию:_ 100<br>
 
 * **@delay** 
-Получить/установить grain total area length<br>
+Запросить/установить grain total area length<br>
 _тип:_ float<br>
 _единица:_ sec<br>
 _диапазон:_ 0.5..10<br>
 _по умолчанию:_ 10<br>
 
 * **@active** 
-Получить/установить on/off dsp processing<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить on/off dsp processing<br>
+_тип:_ bool<br>
 _по умолчанию:_ 1<br>
 
 

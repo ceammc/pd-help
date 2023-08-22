@@ -61,20 +61,20 @@ set the widening value of channels. Widening value is clipped between 0.
 
 ## свойства:
 
-* **@order** (readonly)
-Получить the order of decomposition<br>
+* **@order** (initonly)
+Запросить/установить the order of decomposition<br>
 _тип:_ int<br>
 _диапазон:_ 1..63<br>
 _по умолчанию:_ 1<br>
 
-* **@n** (readonly)
-Получить number of channels (planewaves)<br>
+* **@n** (initonly)
+Запросить/установить number of channels (planewaves)<br>
 _тип:_ int<br>
 _диапазон:_ 0..63<br>
 _по умолчанию:_ 0<br>
 
-* **@mode** (readonly)
-Получить recomposition mode. There is three modes: *fixe* - simply recomposes a plane
+* **@mode** (initonly)
+Запросить/установить recomposition mode. There is three modes: *fixe* - simply recomposes a plane
 wave decomposition into circular harmonics. *fisheye* - allows you to perform
 an operation similar to the visual &#34;fisheye&#34; effect by distorsion of the sound
 field perspective to the front of the scene. *free* - allows you to change the
@@ -83,20 +83,20 @@ _тип:_ symbol<br>
 _варианты:_ fixe, fisheye, free<br>
 _по умолчанию:_ free<br>
 
-* **@fixe** 
-Получить/установить alias for @mode fixe<br>
+* **@fixe** (initonly)
+Запросить/установить alias for @mode fixe<br>
 _тип:_ alias<br>
 
-* **@fisheye** 
-Получить/установить alias for @mode fisheye<br>
+* **@fisheye** (initonly)
+Запросить/установить alias for @mode fisheye<br>
 _тип:_ alias<br>
 
-* **@free** 
-Получить/установить alias for @mode free<br>
+* **@free** (initonly)
+Запросить/установить alias for @mode free<br>
 _тип:_ alias<br>
 
 * **@ramp** 
-Получить/установить ramp time<br>
+Запросить/установить ramp time<br>
 _тип:_ float<br>
 _минимальное значение:_ 0<br>
 _по умолчанию:_ 100<br>

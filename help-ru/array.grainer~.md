@@ -20,7 +20,7 @@ Grain properties: @at - grain position in source array (in samples) @l - grain l
 
 ## аргументы:
 
-* **NAME**
+* **ARRAY**
 array name<br>
 _тип:_ symbol<br>
 
@@ -31,7 +31,7 @@ _тип:_ symbol<br>
 * **clear**
 remove grain(s)<br>
   __параметры:__
-  - **[SUBJ]** if &#39;*&#39; or ommited: remove all grains, if &#39;.&#39;: remove finished grains only, if float: remove grain with corresponding #id, if symbol: remove grains with corresponding tag<br>
+  - **[SUBJ]** if &#39;*&#39; or omitted: remove all grains, if &#39;.&#39;: remove finished grains only, if float: remove grain with corresponding #id, if symbol: remove grains with corresponding tag<br>
     тип: atom <br>
 
 * **set**
@@ -89,10 +89,76 @@ analyze source array for onsets<br>
     единица: db <br>
 
 * **align**
-align gain(s) to onset<br>
+align grain(s) to onset<br>
   __параметры:__
-  - **[SUBJ]** if &#39;*&#39; or ommited: align all grains, if &#39;.&#39;: align finished grains only, if float: align grain with corresponding #id, if symbol: align grains with corresponding tag<br>
+  - **[SUBJ]** if &#39;*&#39; or omitted: align all grains, if &#39;.&#39;: align finished grains only, if float: align grain with corresponding #id, if symbol: align grains with corresponding tag<br>
     тип: atom <br>
+
+* **pause**
+pause (resume) grain(s)<br>
+  __параметры:__
+  - **SUBJ** if &#39;*&#39;: pause all grains, if float: pause grain with corresponding #id, if symbol: pause grains with matched tag<br>
+    тип: atom <br>
+    обязательно: True <br>
+
+  - **[STATE]** on/off value<br>
+    тип: int <br>
+
+* **slice**
+slice specified duration to specified number of grains and add them<br>
+  __параметры:__
+  - **N** desired number of grains<br>
+    тип: int <br>
+    обязательно: True <br>
+
+  - **[DUR]** duration to slice. Positive time value expected, for example: 100ms, 1.02s, 400samp etc. Float value treat as millisecond. If not specified - use the whole source array duration<br>
+    тип: atom <br>
+
+  - **[GRAIN]** properties of sliced grains<br>
+    тип: list <br>
+
+* **spread**
+uniformly arrange grains to fill specified time space<br>
+  __параметры:__
+  - **[DUR]** time space. Positive time values are expected, for example: 100ms, 1.02s, 400samp etc. Float value treat as millisecond. If not specified - use the whole source array duration<br>
+    тип: atom <br>
+
+  - **[TAG]** if &#39;*&#39; or omitted: spread all grains, if &#39;.&#39;: spread finished grains only, otherwise spread grains with corresponding tag<br>
+    тип: symbol <br>
+
+* **shuffle**
+shuffle grain positions (@ta and @tb) values<br>
+  __параметры:__
+  - **[TAG]** if &#39;*&#39; or omitted: shuffle all grains, if &#39;.&#39;: shuffle finished grains only, otherwise shuffle grains with corresponding tag<br>
+    тип: symbol <br>
+
+* **reverse**
+reverse grain positions (@ta and @tb) values<br>
+  __параметры:__
+  - **[TAG]** if &#39;*&#39; or omitted: reverse positions of all grains, if &#39;.&#39;: reverse positions of finished grains only, otherwise reverse grains with corresponding tag<br>
+    тип: symbol <br>
+
+* **permutate**
+permutate grain positions (@ta and @tb) values<br>
+  __параметры:__
+  - **[N]** number of permutations. If N&gt;0 results N-th next permutation, N&lt;0 - N-th previous permutation<br>
+    тип: int <br>
+
+  - **[TAG]** if &#39;*&#39; or omitted: reverse positions of all grains, if &#39;.&#39;: reverse positions of finished grains only, otherwise reverse grains with corresponding tag<br>
+    тип: symbol <br>
+
+* **defer**
+defer method call until grains will finish<br>
+  __параметры:__
+  - **[N]** number of finished grains to wait before calling. If not specified, treat as 1.<br>
+    тип: int <br>
+
+  - **METHOD** method name<br>
+    тип: symbol <br>
+    обязательно: True <br>
+
+  - **[ARGS]** method arguments<br>
+    тип: list <br>
 
 
 
@@ -100,25 +166,25 @@ align gain(s) to onset<br>
 ## свойства:
 
 * **@array** 
-Получить/установить array name<br>
+Запросить/установить array name<br>
 _тип:_ symbol<br>
 
 * **@sync** 
-Получить/установить grain sync mode. If &#39;none&#39;: start grains right after they are finished, if
+Запросить/установить grain sync mode. If &#39;none&#39;: start grains right after they are finished, if
 &#39;int&#39;: start grains after specified interval (@tsync).<br>
 _тип:_ symbol<br>
 _варианты:_ none, int, ext<br>
 _по умолчанию:_ none<br>
 
 * **@tsync** 
-Получить/установить grain sync interval<br>
+Запросить/установить grain sync interval<br>
 _тип:_ float<br>
 _единица:_ ms<br>
 _минимальное значение:_ 1<br>
 _по умолчанию:_ 50<br>
 
 * **@prob** 
-Получить/установить grain start probability in internal or external sync mode. (&#39;int&#39; or &#39;ext&#39;)<br>
+Запросить/установить grain start probability in internal or external sync mode. (&#39;int&#39; or &#39;ext&#39;)<br>
 _тип:_ float<br>
 _диапазон:_ 0..1<br>
 _по умолчанию:_ 1<br>

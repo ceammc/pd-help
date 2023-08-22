@@ -31,7 +31,7 @@ _тип:_ int<br>
 ## свойства:
 
 * **@index** 
-Получить/установить Defines an inlet index<br>
+Запросить/установить Defines an inlet index<br>
 _тип:_ int<br>
 _минимальное значение:_ 1<br>
 _по умолчанию:_ 1<br>

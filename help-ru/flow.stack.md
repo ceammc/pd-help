@@ -18,7 +18,7 @@
 
 ## аргументы:
 
-* **N**
+* **MAX_SIZE**
 max stack size<br>
 _тип:_ int<br>
 
@@ -29,30 +29,29 @@ _тип:_ int<br>
 ## свойства:
 
 * **@max_size** 
-Получить/установить maximum stack grow size<br>
+Запросить/установить maximum stack grow size<br>
 _тип:_ int<br>
 _минимальное значение:_ 1<br>
 _по умолчанию:_ 100<br>
 
 * **@size** (readonly)
-Получить current number of elements in stack<br>
+Запросить current number of elements in stack<br>
 _тип:_ int<br>
 _по умолчанию:_ 0<br>
 
 * **@empty** (readonly)
-Получить if stack is empty<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить if stack is empty<br>
+_тип:_ bool<br>
 _по умолчанию:_ 1<br>
 
 * **@on_empty** 
-Получить/установить message send to destination address when stack becomes empty. First list
+Запросить/установить message send to destination address when stack becomes empty. First list
 element is address to send, other additional elements treated as message or
 bang if not specified.<br>
 _тип:_ list<br>
 
 * **@on_full** 
-Получить/установить message send to destination address when stack becomes full. First list element
+Запросить/установить message send to destination address when stack becomes full. First list element
 is address to send, other additional elements treated as message or bang if not
 specified.<br>
 _тип:_ list<br>

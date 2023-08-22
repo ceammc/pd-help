@@ -16,6 +16,13 @@
 
 
 
+## аргументы:
+
+* **DELAY**
+exit delay time<br>
+_тип:_ float<br>
+_единица:_ ms<br>
+
 
 
 ## методы:
@@ -32,21 +39,20 @@ exit PureData<br>
 ## свойства:
 
 * **@delay** 
-Получить/установить exit PureData after specified delay time<br>
+Запросить/установить exit PureData after specified delay time<br>
 _тип:_ float<br>
 _единица:_ ms<br>
 _минимальное значение:_ 0<br>
 _по умолчанию:_ 0<br>
 
 * **@rc** 
-Получить/установить exit code<br>
+Запросить/установить exit code<br>
 _тип:_ int<br>
 _по умолчанию:_ 0<br>
 
 * **@auto** 
-Получить/установить close automatically, without incoming call<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить close automatically, without incoming call<br>
+_тип:_ bool<br>
 _по умолчанию:_ 0<br>
 
 
@@ -70,7 +76,7 @@ _тип:_ control
 
 
 
-**Авторы:** Serge Poltavski
+**Авторы:** Serge Poltavsky
 
 
 

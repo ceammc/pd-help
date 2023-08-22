@@ -25,14 +25,14 @@
 ## входы:
 
 * input signal<br>
-_тип:_ control
+_тип:_ audio
 
 
 
 ## выходы:
 
 * output rounded signal<br>
-_тип:_ control
+_тип:_ audio
 
 
 

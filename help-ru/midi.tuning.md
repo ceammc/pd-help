@@ -31,13 +31,13 @@ _тип:_ list<br>
 ## свойства:
 
 * **@base** 
-Получить/установить base pitch (C: 0, A: 9, etc..)<br>
+Запросить/установить base pitch (C: 0, A: 9, etc..)<br>
 _тип:_ int<br>
 _диапазон:_ 0..11<br>
 _по умолчанию:_ 9<br>
 
 * **@dev** 
-Получить/установить list of deviations in cents<br>
+Запросить/установить list of deviations in cents<br>
 _тип:_ list<br>
 _по умолчанию:_ 0 0 0 0 0 0 0 0 0 0 0 0<br>
 

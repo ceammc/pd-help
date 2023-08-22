@@ -23,7 +23,7 @@
 ## свойства:
 
 * **@on_err** 
-Получить/установить value returned when unrecognized symbol given<br>
+Запросить/установить value returned when unrecognized symbol given<br>
 _тип:_ float<br>
 _по умолчанию:_ -1<br>
 

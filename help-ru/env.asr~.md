@@ -18,17 +18,17 @@
 
 ## аргументы:
 
-* **attack**
+* **ATTACK**
 attack time<br>
 _тип:_ float<br>
 _единица:_ ms<br>
 
-* **sustain**
+* **SUSTAIN**
 sustain level (percentage of trigger)<br>
 _тип:_ float<br>
 _единица:_ %<br>
 
-* **release**
+* **RELEASE**
 release time<br>
 _тип:_ float<br>
 _единица:_ ms<br>
@@ -52,40 +52,39 @@ reset envelope to initial state<br>
 ## свойства:
 
 * **@attack** 
-Получить/установить attack time<br>
+Запросить/установить attack time<br>
 _тип:_ float<br>
 _единица:_ ms<br>
 _диапазон:_ 0..100000<br>
 _по умолчанию:_ 10<br>
 
 * **@sustain** 
-Получить/установить sustain level - percent from trigger signal<br>
+Запросить/установить sustain level - percent from trigger signal<br>
 _тип:_ float<br>
 _единица:_ %<br>
 _диапазон:_ 0..100<br>
 _по умолчанию:_ 100<br>
 
 * **@release** 
-Получить/установить release time<br>
+Запросить/установить release time<br>
 _тип:_ float<br>
 _единица:_ ms<br>
 _диапазон:_ 0..100000<br>
 _по умолчанию:_ 300<br>
 
 * **@gate** 
-Получить/установить trigger. If &gt; 0 - starts envelope.<br>
+Запросить/установить trigger. If &gt; 0 - starts envelope.<br>
 _тип:_ float<br>
 _диапазон:_ 0..1<br>
 _по умолчанию:_ 0<br>
 
 * **@asr** (readonly)
-Получить attack sustain release triplet<br>
+Запросить attack sustain release triplet<br>
 _тип:_ list<br>
 
 * **@active** 
-Получить/установить on/off dsp processing<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить on/off dsp processing<br>
+_тип:_ bool<br>
 _по умолчанию:_ 1<br>
 
 
@@ -94,6 +93,8 @@ _по умолчанию:_ 1<br>
 
 * input signal<br>
 _тип:_ audio
+* float: 1 - start envelope, 0 - stop<br>
+_тип:_ control
 
 
 

@@ -3,15 +3,13 @@
 
 # noise.henon
 
-###### Part of a-chaos library
+###### henon attractor
 
 *доступно с версии:* .5
 
 ---
 
 
-## информация
----
 
 
 [![example](../examples/img/noise.henon.jpg)](../examples/pd/noise.henon.pd)
@@ -20,19 +18,19 @@
 
 ## аргументы:
 
-* **ARG0**
+* **A**
 a value (optional)<br>
 _тип:_ float<br>
 
-* **ARG1**
+* **B**
 b value (optional)<br>
 _тип:_ float<br>
 
-* **ARG2**
+* **X**
 x value (optional)<br>
 _тип:_ float<br>
 
-* **ARG3**
+* **Y**
 y value (optional)<br>
 _тип:_ float<br>
 
@@ -99,7 +97,9 @@ _тип:_ control
 
 ## выходы:
 
-* main outlet<br>
+* x value<br>
+_тип:_ control
+* y value<br>
 _тип:_ control
 
 

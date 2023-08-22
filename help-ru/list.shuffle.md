@@ -1,30 +1,64 @@
-[< справка — содержание](index.html)
+[index](index.html) :: [list](category_list.html)
 ---
 
 # list.shuffle
 
+###### randomly rearranges elements in list
 
-Переставляет элементы списка в случайном порядке
-
----
-
-<br>
-
+*доступно с версии:* 0.1
 
 ---
 
 
-![example](examples/list.shuffle-example.jpg)
-
----
-аргументы:
 
 
----
-свойства:
+[![example](../examples/img/list.shuffle.jpg)](../examples/pd/list.shuffle.pd)
 
 
----
-смотрите также:<br>
-[![list.sort](img/object_list.sort.png)](list.sort.html)
-[![list.reverse](img/object_list.reverse.png)](list.reverse.html)
+
+
+
+
+
+
+
+## входы:
+
+* input list<br>
+_тип:_ control
+
+
+
+## выходы:
+
+* new shuffled list<br>
+_тип:_ control
+
+
+
+## ключевые слова:
+
+[list](keywords/list.html)
+[shuffle](keywords/shuffle.html)
+[random](keywords/random.html)
+
+
+
+**Смотрите также:**
+[\[list.sort\]](list.sort.html)
+[\[list.reverse\]](list.reverse.html)
+
+
+
+
+**Авторы:** Serge Poltavsky
+
+
+
+
+**Лицензия:** GPL3 or later
+
+
+
+
+

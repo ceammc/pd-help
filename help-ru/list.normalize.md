@@ -25,17 +25,17 @@ There are two modes of normalization: 1. by sum - multiply all elements to such 
 ## свойства:
 
 * **@by** 
-Получить/установить normalization mode<br>
+Запросить/установить normalization mode<br>
 _тип:_ symbol<br>
 _варианты:_ sum, range<br>
 _по умолчанию:_ sum<br>
 
 * **@sum** 
-Получить/установить alias to @by sum<br>
+Запросить/установить alias to @by sum<br>
 _тип:_ alias<br>
 
 * **@range** 
-Получить/установить alias to @by range<br>
+Запросить/установить alias to @by range<br>
 _тип:_ alias<br>
 
 

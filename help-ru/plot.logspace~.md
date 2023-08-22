@@ -20,13 +20,21 @@ In linear space, the sequence starts at base^start (base to the power of start) 
 
 ## аргументы:
 
-* **start**
+* **START**
 @start property<br>
 _тип:_ float<br>
 
-* **stop**
+* **STOP**
 @stop property<br>
 _тип:_ float<br>
+
+* **BASE**
+@base property<br>
+_тип:_ atom<br>
+
+* **N**
+@n property<br>
+_тип:_ int<br>
 
 
 
@@ -35,47 +43,44 @@ _тип:_ float<br>
 ## свойства:
 
 * **@start** 
-Получить/установить starting value of the sequence: base^start<br>
+Запросить/установить starting value of the sequence: base^start<br>
 _тип:_ float<br>
-_минимальное значение:_ 0<br>
 _по умолчанию:_ 0<br>
 
 * **@stop** 
-Получить/установить the final value (base^stop) of the sequence, unless @endpoint is false. In that
+Запросить/установить the final value (base^stop) of the sequence, unless @endpoint is false. In that
 case, @n + 1 values are spaced over the interval in log-space, of which all but
 the last (a sequence of length @n) are returned.<br>
 _тип:_ float<br>
-_минимальное значение:_ 0<br>
 _по умолчанию:_ 2<br>
 
 * **@n** 
-Получить/установить number of points<br>
+Запросить/установить number of points<br>
 _тип:_ int<br>
 _диапазон:_ 4..1024<br>
 _по умолчанию:_ 100<br>
 
 * **@base** 
-Получить/установить x-axis scale base<br>
+Запросить/установить x-axis scale base<br>
 _тип:_ atom<br>
 _варианты:_ 10, 2, e<br>
 _по умолчанию:_ 10<br>
 
 * **@2** 
-Получить/установить alias to @base 2<br>
+Запросить/установить alias to @base 2<br>
 _тип:_ atom<br>
 
 * **@10** 
-Получить/установить alias to @base 10<br>
+Запросить/установить alias to @base 10<br>
 _тип:_ atom<br>
 
 * **@e** 
-Получить/установить alias to @base e<br>
+Запросить/установить alias to @base e<br>
 _тип:_ atom<br>
 
 * **@endpoint** 
-Получить/установить include @stop to interval<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить include @stop to interval<br>
+_тип:_ bool<br>
 _по умолчанию:_ 1<br>
 
 

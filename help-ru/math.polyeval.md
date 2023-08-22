@@ -18,7 +18,7 @@
 
 ## аргументы:
 
-* **ARGS**
+* **COEFFS**
 coefficient list<br>
 _тип:_ float<br>
 
@@ -29,7 +29,7 @@ _тип:_ float<br>
 ## свойства:
 
 * **@coeffs** 
-Получить/установить coefficient list<br>
+Запросить/установить coefficient list<br>
 _тип:_ list<br>
 
 

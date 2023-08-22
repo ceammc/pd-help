@@ -25,21 +25,21 @@ By default returns smallest float in list, this equal to using @float property. 
 ## свойства:
 
 * **@type** 
-Получить/установить type of largest element<br>
+Запросить/установить type of largest element<br>
 _тип:_ symbol<br>
 _варианты:_ float, symbol, any<br>
 _по умолчанию:_ float<br>
 
 * **@float** 
-Получить/установить alias for @type float. Find max float element in list<br>
+Запросить/установить alias for @type float. Find max float element in list<br>
 _тип:_ alias<br>
 
 * **@symbol** 
-Получить/установить alias for @type symbol. Find greatest symbol element<br>
+Запросить/установить alias for @type symbol. Find greatest symbol element<br>
 _тип:_ alias<br>
 
 * **@any** 
-Получить/установить alias for @type any. Find greatest atom of any type. Note: symbols are greater
+Запросить/установить alias for @type any. Find greatest atom of any type. Note: symbols are greater
 then numbers<br>
 _тип:_ alias<br>
 

@@ -37,29 +37,30 @@ _тип:_ float<br>
 ## свойства:
 
 * **@cc** 
-Получить/установить controller number<br>
+Запросить/установить controller number<br>
 _тип:_ int<br>
 _диапазон:_ 0..127<br>
 _по умолчанию:_ 0<br>
 
 * **@ch** 
-Получить/установить MIDI channel<br>
+Запросить/установить MIDI channel<br>
 _тип:_ int<br>
 _диапазон:_ 0..16<br>
 _по умолчанию:_ 0<br>
 
 * **@min** 
-Получить/установить output value at midi input == 0<br>
+Запросить/установить output value at midi input == 0<br>
 _тип:_ float<br>
 _по умолчанию:_ 0<br>
 
 * **@max** 
-Получить/установить output value at midi input == 127<br>
+Запросить/установить output value at midi input == 127<br>
 _тип:_ float<br>
 _по умолчанию:_ 127<br>
 
 * **@curve** 
-Получить/установить output curve. If @curve0: slow begin, fast end, if @curve==0: linear speed<br>
+Запросить/установить output curve. If @curve&lt;0: fast begin, slow end, else if @curve&gt;0: slow begin,
+fast end, if @curve==0: linear speed<br>
 _тип:_ float<br>
 _по умолчанию:_ 0<br>
 

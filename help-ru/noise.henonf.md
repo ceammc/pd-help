@@ -3,9 +3,9 @@
 
 # noise.henonf
 
-###### Part of a-chaos library
+###### Henon phase
 
-*доступно с версии:* .5
+*доступно с версии:* 0.5
 
 ---
 
@@ -20,19 +20,19 @@ Another &#39;Henon phase&#39; implementation by André Sier
 
 ## аргументы:
 
-* **ARG0**
+* **A**
 a value (optional)<br>
 _тип:_ float<br>
 
-* **ARG1**
+* **B**
 b value (optional)<br>
 _тип:_ float<br>
 
-* **ARG2**
+* **X**
 x value (optional)<br>
 _тип:_ float<br>
 
-* **ARG3**
+* **Y**
 y value (optional)<br>
 _тип:_ float<br>
 
@@ -106,7 +106,9 @@ _тип:_ control
 
 ## выходы:
 
-* main outlet<br>
+* x outlet<br>
+_тип:_ control
+* y outlet<br>
 _тип:_ control
 
 

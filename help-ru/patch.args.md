@@ -16,6 +16,12 @@
 
 
 
+## аргументы:
+
+* **FROM**
+starting args index<br>
+_тип:_ int<br>
+
 
 
 
@@ -23,7 +29,7 @@
 ## свойства:
 
 * **@from** 
-Получить/установить starting args index<br>
+Запросить/установить starting args index<br>
 _тип:_ int<br>
 _минимальное значение:_ 0<br>
 _по умолчанию:_ 0<br>

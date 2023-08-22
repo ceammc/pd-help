@@ -29,31 +29,30 @@ _тип:_ int<br>
 ## свойства:
 
 * **@nsamp** 
-Получить/установить max number of input samples<br>
+Запросить/установить max number of input samples<br>
 _тип:_ int<br>
 _диапазон:_ 8..32768<br>
 _по умолчанию:_ 512<br>
 
 * **@nbins** 
-Получить/установить number of histogram bins<br>
+Запросить/установить number of histogram bins<br>
 _тип:_ int<br>
 _диапазон:_ 8..512<br>
 _по умолчанию:_ 63<br>
 
 * **@min** 
-Получить/установить minimal input value<br>
+Запросить/установить minimal input value<br>
 _тип:_ float<br>
 _по умолчанию:_ -1<br>
 
 * **@max** 
-Получить/установить maximum input value<br>
+Запросить/установить maximum input value<br>
 _тип:_ float<br>
 _по умолчанию:_ 1<br>
 
 * **@clip** 
-Получить/установить clip input values into input range, otherwise just ignore them<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить clip input values into input range, otherwise just ignore them<br>
+_тип:_ bool<br>
 _по умолчанию:_ 1<br>
 
 

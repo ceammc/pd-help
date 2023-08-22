@@ -23,75 +23,74 @@
 ## свойства:
 
 * **@freq** 
-Получить/установить base frequency<br>
+Запросить/установить base frequency<br>
 _тип:_ float<br>
 _диапазон:_ 40..500<br>
 _по умолчанию:_ 100<br>
 
 * **@detune** 
-Получить/установить detune percent<br>
+Запросить/установить detune percent<br>
 _тип:_ float<br>
 _диапазон:_ 0..1000<br>
 _по умолчанию:_ 5<br>
 
 * **@spread** 
-Получить/установить stereo spread<br>
+Запросить/установить stereo spread<br>
 _тип:_ float<br>
 _диапазон:_ 0..1<br>
 _по умолчанию:_ 1<br>
 
 * **@harmonic1** 
-Получить/установить 1st harmonic amplitude<br>
+Запросить/установить 1st harmonic amplitude<br>
 _тип:_ float<br>
 _диапазон:_ 0..1<br>
 _по умолчанию:_ 1<br>
 
 * **@harmonic2** 
-Получить/установить 2nd harmonic amplitude<br>
+Запросить/установить 2nd harmonic amplitude<br>
 _тип:_ float<br>
 _диапазон:_ 0..1<br>
 _по умолчанию:_ 1<br>
 
 * **@harmonic3** 
-Получить/установить 3rd harmonic amplitude<br>
+Запросить/установить 3rd harmonic amplitude<br>
 _тип:_ float<br>
 _диапазон:_ 0..1<br>
 _по умолчанию:_ 1<br>
 
 * **@harmonic4** 
-Получить/установить 4th harmonic amplitude<br>
+Запросить/установить 4th harmonic amplitude<br>
 _тип:_ float<br>
 _диапазон:_ 0..1<br>
 _по умолчанию:_ 1<br>
 
 * **@harmonic5** 
-Получить/установить 5th harmonic amplitude<br>
+Запросить/установить 5th harmonic amplitude<br>
 _тип:_ float<br>
 _диапазон:_ 0..1<br>
 _по умолчанию:_ 1<br>
 
 * **@harmonic6** 
-Получить/установить 6th harmonic amplitude<br>
+Запросить/установить 6th harmonic amplitude<br>
 _тип:_ float<br>
 _диапазон:_ 0..1<br>
 _по умолчанию:_ 1<br>
 
 * **@harmonic7** 
-Получить/установить 7th harmonic amplitude<br>
+Запросить/установить 7th harmonic amplitude<br>
 _тип:_ float<br>
 _диапазон:_ 0..1<br>
 _по умолчанию:_ 1<br>
 
 * **@harmonic8** 
-Получить/установить 8th harmonic amplitude<br>
+Запросить/установить 8th harmonic amplitude<br>
 _тип:_ float<br>
 _диапазон:_ 0..1<br>
 _по умолчанию:_ 1<br>
 
 * **@active** 
-Получить/установить on/off dsp processing<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить on/off dsp processing<br>
+_тип:_ bool<br>
 _по умолчанию:_ 1<br>
 
 

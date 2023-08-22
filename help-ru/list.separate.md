@@ -23,14 +23,13 @@
 ## свойства:
 
 * **@enumerate** 
-Получить/установить enumeration mode. If enumeration is active output pairs: INDEX ATOM, otherwise
+Запросить/установить enumeration mode. If enumeration is active output pairs: INDEX ATOM, otherwise
 single atoms<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+_тип:_ bool<br>
 _по умолчанию:_ 0<br>
 
 * **@from** 
-Получить/установить enumeration starting index<br>
+Запросить/установить enumeration starting index<br>
 _тип:_ int<br>
 _по умолчанию:_ 0<br>
 

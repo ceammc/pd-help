@@ -20,17 +20,17 @@ Calculates coefficients for transfer function: H(z)=(b0 + b1*z⁻¹ + b2*z⁻²)
 
 ## аргументы:
 
-* **freq**
+* **FREQ**
 center frequency<br>
 _тип:_ float<br>
 _единица:_ Hz<br>
 
-* **gain**
+* **GAIN**
 filter gain<br>
 _тип:_ float<br>
 _единица:_ db<br>
 
-* **q**
+* **Q**
 quality factory<br>
 _тип:_ float<br>
 
@@ -41,29 +41,28 @@ _тип:_ float<br>
 ## свойства:
 
 * **@freq** 
-Получить/установить center frequency<br>
+Запросить/установить center frequency<br>
 _тип:_ float<br>
 _единица:_ Hz<br>
 _диапазон:_ 20..20000<br>
 _по умолчанию:_ 1000<br>
 
 * **@gain** 
-Получить/установить filter gain<br>
+Запросить/установить filter gain<br>
 _тип:_ float<br>
 _единица:_ db<br>
 _диапазон:_ -15..15<br>
 _по умолчанию:_ 0<br>
 
 * **@q** 
-Получить/установить quality factor: @freq/BANDWIDTH<br>
+Запросить/установить quality factor: @freq/BANDWIDTH<br>
 _тип:_ float<br>
 _диапазон:_ 0.01..100<br>
 _по умолчанию:_ 1<br>
 
 * **@active** 
-Получить/установить on/off dsp processing<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить on/off dsp processing<br>
+_тип:_ bool<br>
 _по умолчанию:_ 1<br>
 
 

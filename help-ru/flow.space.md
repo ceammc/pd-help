@@ -20,12 +20,12 @@ first message is delayed to next scheduler time
 
 ## аргументы:
 
-* **MS**
+* **DELAY**
 time space between messages<br>
 _тип:_ float<br>
 _единица:_ ms<br>
 
-* **N**
+* **DONE**
 time space = N*space after last outputted message<br>
 _тип:_ int<br>
 
@@ -36,18 +36,24 @@ _тип:_ int<br>
 ## свойства:
 
 * **@delay** 
-Получить/установить time-space between messages<br>
+Запросить/установить time-space between messages<br>
 _тип:_ float<br>
 _единица:_ ms<br>
 _минимальное значение:_ 1<br>
 _по умолчанию:_ 1<br>
 
 * **@done** 
-Получить/установить time space (=@done*@delay) after last outputted message. After that delay
+Запросить/установить time space (=@done*@delay) after last outputted message. After that delay
 output bang to second outlet<br>
 _тип:_ int<br>
 _минимальное значение:_ 0<br>
 _по умолчанию:_ 1<br>
+
+* **@dev** 
+Запросить/установить random deviation<br>
+_тип:_ float<br>
+_диапазон:_ 0..1<br>
+_по умолчанию:_ 0<br>
 
 
 

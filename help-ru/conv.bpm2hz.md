@@ -3,7 +3,7 @@
 
 # conv.bpm2hz
 
-###### converts BPM to frequency in herz
+###### converts BPM to frequency in hertz
 
 *доступно с версии:* 0.1
 
@@ -11,7 +11,7 @@
 
 
 ## информация
-Converts frequency from BPM (beats per minute) to herz. It&#39;s simple as /60, but more readable
+Converts frequency from BPM (beats per minute) to hertz. It&#39;s simple as /60, but more readable
 
 
 [![example](../examples/img/conv.bpm2hz.jpg)](../examples/pd/conv.bpm2hz.pd)
@@ -33,7 +33,7 @@ _тип:_ control
 
 ## выходы:
 
-* frequency in herz<br>
+* frequency in hertz<br>
 _тип:_ control
 
 

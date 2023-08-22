@@ -42,6 +42,9 @@ adds entry to dictionary<br>
 * **clear**
 removes all dict values. No output<br>
 
+* **choose**
+choose random key and output it<br>
+
 * **get_key**
 get entry from dictionary<br>
   __параметры:__
@@ -93,17 +96,16 @@ write dict as JSON file<br>
 ## свойства:
 
 * **@keys** (readonly)
-Получить keys of dictionary<br>
+Запросить keys of dictionary<br>
 _тип:_ list<br>
 
 * **@empty** (readonly)
-Получить 1 if dict is empty, otherwise 0<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить 1 if dict is empty, otherwise 0<br>
+_тип:_ bool<br>
 _по умолчанию:_ 1<br>
 
 * **@size** (readonly)
-Получить number of entries in dictionary<br>
+Запросить number of entries in dictionary<br>
 _тип:_ int<br>
 _минимальное значение:_ 0<br>
 _по умолчанию:_ 0<br>

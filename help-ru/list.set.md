@@ -18,11 +18,11 @@
 
 ## аргументы:
 
-* **IDX**
+* **INDEX**
 element position. Negative indexes are supported. -1 means last element<br>
 _тип:_ int<br>
 
-* **VAL**
+* **VALUE**
 element value<br>
 _тип:_ atom<br>
 
@@ -33,12 +33,12 @@ _тип:_ atom<br>
 ## свойства:
 
 * **@index** 
-Получить/установить element index<br>
+Запросить/установить element index<br>
 _тип:_ int<br>
 _по умолчанию:_ 0<br>
 
 * **@value** 
-Получить/установить element value<br>
+Запросить/установить element value<br>
 _тип:_ atom<br>
 
 

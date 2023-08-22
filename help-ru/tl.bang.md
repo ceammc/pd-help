@@ -18,6 +18,13 @@ Bang only when nearest left tl.cue was activated. If other cue is activated and 
 
 
 
+## аргументы:
+
+* **DELAY**
+timeline length<br>
+_тип:_ float<br>
+_единица:_ ms<br>
+
 
 
 
@@ -25,14 +32,14 @@ Bang only when nearest left tl.cue was activated. If other cue is activated and 
 ## свойства:
 
 * **@delay** 
-Получить/установить bang delay after cue activation<br>
+Запросить/установить bang delay after cue activation<br>
 _тип:_ float<br>
 _единица:_ ms<br>
 _минимальное значение:_ 0<br>
 _по умолчанию:_ 0<br>
 
 * **@cue** (readonly)
-Получить related cue<br>
+Запросить related cue<br>
 _тип:_ symbol<br>
 
 

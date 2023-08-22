@@ -18,12 +18,12 @@
 
 ## аргументы:
 
-* **freq**
+* **FREQ**
 initial frequency<br>
 _тип:_ float<br>
 _единица:_ Hz<br>
 
-* **feedback**
+* **FEEDBACK**
 oscillator feedback coefficient in range 0..2pi<br>
 _тип:_ float<br>
 
@@ -34,15 +34,14 @@ _тип:_ float<br>
 ## свойства:
 
 * **@feedback** 
-Получить/установить oscillator feedback coefficient<br>
+Запросить/установить oscillator feedback coefficient<br>
 _тип:_ float<br>
-_диапазон:_ 0..6.28319<br>
+_диапазон:_ 0..6.283<br>
 _по умолчанию:_ 0<br>
 
 * **@active** 
-Получить/установить on/off dsp processing<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить on/off dsp processing<br>
+_тип:_ bool<br>
 _по умолчанию:_ 1<br>
 
 

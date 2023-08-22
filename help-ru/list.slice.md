@@ -37,18 +37,18 @@ _тип:_ int<br>
 ## свойства:
 
 * **@from** 
-Получить/установить start slice position. You can use negative index to address elements from the
+Запросить/установить start slice position. You can use negative index to address elements from the
 end<br>
 _тип:_ int<br>
 _по умолчанию:_ 0<br>
 
 * **@to** 
-Получить/установить end slice position. You can use negative index to address elements from the end<br>
+Запросить/установить end slice position. You can use negative index to address elements from the end<br>
 _тип:_ int<br>
 _по умолчанию:_ -1<br>
 
 * **@step** 
-Получить/установить slice step<br>
+Запросить/установить slice step<br>
 _тип:_ int<br>
 _минимальное значение:_ 0<br>
 _по умолчанию:_ 1<br>

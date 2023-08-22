@@ -29,32 +29,32 @@ _тип:_ int<br>
 ## свойства:
 
 * **@size** 
-Получить/установить output list size<br>
+Запросить/установить output list size<br>
 _тип:_ int<br>
 _минимальное значение:_ 0<br>
 _по умолчанию:_ 0<br>
 
 * **@method** 
-Получить/установить method of resizing, if new size is longer then current<br>
+Запросить/установить method of resizing, if new size is longer then current<br>
 _тип:_ symbol<br>
 _варианты:_ pad, clip, wrap, fold<br>
 _по умолчанию:_ pad<br>
 
 * **@pad** 
-Получить/установить pad value for pad method of resizing<br>
+Запросить/установить pad value for pad method of resizing<br>
 _тип:_ atom<br>
 _по умолчанию:_ 0<br>
 
 * **@clip** 
-Получить/установить alias for @method clip<br>
+Запросить/установить alias for @method clip<br>
 _тип:_ alias<br>
 
 * **@wrap** 
-Получить/установить alias for @method wrap<br>
+Запросить/установить alias for @method wrap<br>
 _тип:_ alias<br>
 
 * **@fold** 
-Получить/установить alias for @method fold<br>
+Запросить/установить alias for @method fold<br>
 _тип:_ alias<br>
 
 
@@ -62,6 +62,8 @@ _тип:_ alias<br>
 ## входы:
 
 * input list<br>
+_тип:_ control
+* set desired list size<br>
 _тип:_ control
 
 

@@ -36,18 +36,18 @@ _тип:_ list<br>
 ## свойства:
 
 * **@pattern** 
-Получить/установить list of 1 and 0. Where 1 means output bang on this beat<br>
+Запросить/установить list of 1 and 0. Where 1 means output bang on this beat<br>
 _тип:_ list<br>
 
 * **@interval** 
-Получить/установить interval between beats<br>
+Запросить/установить interval between beats<br>
 _тип:_ float<br>
 _единица:_ ms<br>
-_минимальное значение:_ 1<br>
+_минимальное значение:_ 0<br>
 _по умолчанию:_ 0<br>
 
 * **@current** 
-Получить/установить current pattern index<br>
+Запросить/установить current pattern index<br>
 _тип:_ int<br>
 _минимальное значение:_ 0<br>
 _по умолчанию:_ 0<br>

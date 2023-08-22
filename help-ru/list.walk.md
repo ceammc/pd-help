@@ -20,7 +20,7 @@ Universal list walker. If you want to output current element and when move to ne
 
 ## аргументы:
 
-* **INIT**
+* **VALUE**
 initial list<br>
 _тип:_ list<br>
 
@@ -55,59 +55,58 @@ sets current position to 0<br>
 ## свойства:
 
 * **@mode** 
-Получить/установить pass mode. See properties below for detailed information.<br>
+Запросить/установить pass mode. See properties below for detailed information.<br>
 _тип:_ symbol<br>
 _варианты:_ single, clip, wrap, fold<br>
 _по умолчанию:_ single<br>
 
 * **@clip** 
-Получить/установить clipped pass mode. When the list bounds are reached - min/max value repeats
+Запросить/установить clipped pass mode. When the list bounds are reached - min/max value repeats
 perpetually.<br>
 _тип:_ alias<br>
 
 * **@single** 
-Получить/установить single pass mode. When the list bounds are reached - no output any more until
+Запросить/установить single pass mode. When the list bounds are reached - no output any more until
 reset.<br>
 _тип:_ alias<br>
 
 * **@loop** 
-Получить/установить @wrap alias<br>
+Запросить/установить @wrap alias<br>
 _тип:_ alias<br>
 
 * **@wrap** 
-Получить/установить wrap pass mode. List values are repeated in a loop<br>
+Запросить/установить wrap pass mode. List values are repeated in a loop<br>
 _тип:_ alias<br>
 
 * **@fold** 
-Получить/установить fold pass mode. List values are repeated in a loop with folding<br>
+Запросить/установить fold pass mode. List values are repeated in a loop with folding<br>
 _тип:_ alias<br>
 
 * **@direction** 
-Получить/установить walking direction. &#34;1&#34; - forwards, &#34;0&#34; - backwards.<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить walking direction. &#34;1&#34; - forwards, &#34;0&#34; - backwards.<br>
+_тип:_ bool<br>
 _по умолчанию:_ 1<br>
 
 * **@index** 
-Получить/установить current position<br>
+Запросить/установить current position<br>
 _тип:_ list<br>
 _минимальное значение:_ 0<br>
 _по умолчанию:_ 0<br>
 
 * **@length** 
-Получить/установить output list length<br>
+Запросить/установить output list length<br>
 _тип:_ int<br>
 _минимальное значение:_ 1<br>
 _по умолчанию:_ 1<br>
 
 * **@size** (readonly)
-Получить current list size<br>
+Запросить current list size<br>
 _тип:_ int<br>
 _минимальное значение:_ 0<br>
 _по умолчанию:_ 0<br>
 
 * **@value** 
-Получить/установить current list<br>
+Запросить/установить current list<br>
 _тип:_ list<br>
 
 
@@ -122,6 +121,8 @@ _тип:_ control
 ## выходы:
 
 * list element<br>
+_тип:_ control
+* bang: when last element reached<br>
 _тип:_ control
 
 

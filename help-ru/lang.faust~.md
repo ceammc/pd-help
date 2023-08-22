@@ -41,18 +41,17 @@ update faust object, recompile if needed<br>
 ## свойства:
 
 * **@fname** 
-Получить/установить path to faust dsp file<br>
+Запросить/установить path to faust dsp file<br>
 _тип:_ symbol<br>
 
 * **@include** 
-Получить/установить list of faust include directories<br>
+Запросить/установить list of faust include directories<br>
 _тип:_ list<br>
 
 * **@auto** 
-Получить/установить auto update mode. If on - recompiles faust dsp file on change<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
-_по умолчанию:_ 1<br>
+Запросить/установить auto update mode. If on - recompiles faust dsp file on change<br>
+_тип:_ bool<br>
+_по умолчанию:_ 0<br>
 
 
 

@@ -29,25 +29,25 @@ _тип:_ symbol<br>
 ## свойства:
 
 * **@mode** 
-Получить/установить remove mode<br>
+Запросить/установить remove mode<br>
 _тип:_ symbol<br>
 _варианты:_ all, first, last<br>
 _по умолчанию:_ all<br>
 
 * **@all** 
-Получить/установить alias to @mode all - remove all occurences in input string<br>
+Запросить/установить alias to @mode all - remove all occurences in input string<br>
 _тип:_ alias<br>
 
 * **@first** 
-Получить/установить alias to @mode first - remove first occurence in input string<br>
+Запросить/установить alias to @mode first - remove first occurence in input string<br>
 _тип:_ alias<br>
 
 * **@last** 
-Получить/установить alias to @mode last - remove last occurence in input string<br>
+Запросить/установить alias to @mode last - remove last occurence in input string<br>
 _тип:_ alias<br>
 
 * **@str** 
-Получить/установить removed string<br>
+Запросить/установить removed string<br>
 _тип:_ symbol<br>
 
 

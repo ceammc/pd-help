@@ -18,7 +18,7 @@
 
 ## аргументы:
 
-* **SUBSTR**
+* **SUBJ**
 searched substring<br>
 _тип:_ symbol<br>
 
@@ -29,7 +29,7 @@ _тип:_ symbol<br>
 ## свойства:
 
 * **@subj** 
-Получить/установить searched substring<br>
+Запросить/установить searched substring<br>
 _тип:_ symbol<br>
 
 

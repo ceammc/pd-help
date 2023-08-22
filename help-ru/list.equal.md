@@ -18,7 +18,7 @@
 
 ## аргументы:
 
-* **LIST**
+* **PATTERN**
 initial value<br>
 _тип:_ list<br>
 
@@ -35,7 +35,7 @@ dumps object state to PD console window<br>
 ## свойства:
 
 * **@pattern** 
-Получить/установить current pattern<br>
+Запросить/установить current pattern<br>
 _тип:_ list<br>
 
 

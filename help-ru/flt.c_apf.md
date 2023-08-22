@@ -20,7 +20,7 @@ Allpass filter is a signal processing filter that passes all frequencies equally
 
 ## аргументы:
 
-* **freq**
+* **FREQ**
 center frequency<br>
 _тип:_ float<br>
 _единица:_ Hz<br>
@@ -42,20 +42,20 @@ set bandwidth in octaves<br>
 ## свойства:
 
 * **@freq** 
-Получить/установить center frequency<br>
+Запросить/установить center frequency<br>
 _тип:_ float<br>
 _единица:_ Hz<br>
 _диапазон:_ 0..22050<br>
 _по умолчанию:_ 0<br>
 
 * **@q** 
-Получить/установить quality factor: @freq/BANDWIDTH<br>
+Запросить/установить quality factor: @freq/BANDWIDTH<br>
 _тип:_ float<br>
 _диапазон:_ 0.01..100<br>
-_по умолчанию:_ 0.707107<br>
+_по умолчанию:_ 0.7071<br>
 
-* **@rad** 
-Получить/установить use angular frequency<br>
+* **@rad** (initonly)
+Запросить/установить use angular frequency<br>
 _тип:_ flag<br>
 
 

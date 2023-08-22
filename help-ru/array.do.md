@@ -16,6 +16,12 @@
 
 
 
+## аргументы:
+
+* **ARRAY**
+array name<br>
+_тип:_ symbol<br>
+
 
 
 
@@ -23,13 +29,12 @@
 ## свойства:
 
 * **@array** 
-Получить/установить array name<br>
+Запросить/установить array name<br>
 _тип:_ symbol<br>
 
 * **@redraw** 
-Получить/установить redraw after array change<br>
-_тип:_ int<br>
-_варианты:_ 1, 0<br>
+Запросить/установить redraw after array change<br>
+_тип:_ bool<br>
 _по умолчанию:_ 1<br>
 
 

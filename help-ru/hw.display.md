@@ -25,7 +25,7 @@ At this moment supports only MacOSX
 ## свойства:
 
 * **@brightness** 
-Получить/установить display brightness<br>
+Запросить/установить display brightness<br>
 _тип:_ float<br>
 _диапазон:_ 0..1<br>
 _по умолчанию:_ 0.313477<br>

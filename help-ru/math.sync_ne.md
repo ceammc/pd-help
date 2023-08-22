@@ -29,7 +29,7 @@ _тип:_ float<br>
 ## свойства:
 
 * **@epsilon** 
-Получить/установить compare epsilon. If not zero calculates expession: !(-epsilon &lt; abs(A-B) &lt;
+Запросить/установить compare epsilon. If not zero calculates expession: !(-epsilon &lt; abs(A-B) &lt;
 +epsilon)<br>
 _тип:_ float<br>
 _минимальное значение:_ 0<br>

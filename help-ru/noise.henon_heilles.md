@@ -3,9 +3,9 @@
 
 # noise.henon_heilles
 
-###### Part of a-chaos library
+###### Hénon–Heiles_system
 
-*доступно с версии:* .5
+*доступно с версии:* 0.5
 
 ---
 
@@ -20,23 +20,23 @@ a port of Richard&#39;s chaos-henon-heilles from chaos collection
 
 ## аргументы:
 
-* **ARG0**
+* **X**
 x value (optional)<br>
 _тип:_ float<br>
 
-* **ARG1**
+* **Y**
 y value (optional)<br>
 _тип:_ float<br>
 
-* **ARG2**
+* **Y&#39;**
 y&#39; value (optional)<br>
 _тип:_ float<br>
 
-* **ARG3**
+* **E**
 e value (optional)<br>
 _тип:_ float<br>
 
-* **ARG4**
+* **DT**
 dt value (optional)<br>
 _тип:_ float<br>
 
@@ -106,6 +106,10 @@ _тип:_ control
 * x outlet<br>
 _тип:_ control
 * y outlet<br>
+_тип:_ control
+* xdot outlet<br>
+_тип:_ control
+* ydot outlet<br>
 _тип:_ control
 
 

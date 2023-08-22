@@ -18,9 +18,21 @@ Works with data atoms
 
 
 
+## аргументы:
+
+* **VALUE**
+prepend values<br>
+_тип:_ list<br>
 
 
 
+
+
+## свойства:
+
+* **@value** 
+Запросить/установить prepend values<br>
+_тип:_ list<br>
 
 
 

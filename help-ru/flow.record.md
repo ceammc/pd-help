@@ -23,34 +23,32 @@
 ## свойства:
 
 * **@r** 
-Получить/установить number of repeats in play mode. If -1: repeat infinitely<br>
+Запросить/установить number of repeats in play mode. If -1: repeat infinitely<br>
 _тип:_ int<br>
 _минимальное значение:_ -1<br>
 _по умолчанию:_ 1<br>
 
 * **@max** 
-Получить/установить max number of events, if 0: no max size check. If @auto is set - starts
+Запросить/установить max number of events, if 0: no max size check. If @auto is set - starts
 playback when max size reached.<br>
 _тип:_ int<br>
 _диапазон:_ 0..65536<br>
 _по умолчанию:_ 256<br>
 
 * **@speed** 
-Получить/установить play speed<br>
+Запросить/установить play speed<br>
 _тип:_ float<br>
-_диапазон:_ 0.015625..64<br>
+_диапазон:_ 0.0156..64<br>
 _по умолчанию:_ 1<br>
 
 * **@auto** 
-Получить/установить autostart record on first input atom<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить autostart record on first input atom<br>
+_тип:_ bool<br>
 _по умолчанию:_ 0<br>
 
 * **@sync** 
-Получить/установить use external bang pulse to sync recorded events with.<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить use external bang pulse to sync recorded events with.<br>
+_тип:_ bool<br>
 _по умолчанию:_ 0<br>
 
 

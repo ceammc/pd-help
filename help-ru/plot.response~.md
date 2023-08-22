@@ -29,21 +29,19 @@ _тип:_ int<br>
 ## свойства:
 
 * **@n** 
-Получить/установить number of processed samples<br>
+Запросить/установить number of processed samples<br>
 _тип:_ int<br>
 _диапазон:_ 32..8192<br>
 _по умолчанию:_ 512<br>
 
 * **@db** 
-Получить/установить decibel mode. It true outputs amplitude in decibels<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить decibel mode. It true outputs amplitude in decibels<br>
+_тип:_ bool<br>
 _по умолчанию:_ 0<br>
 
 * **@sr** 
-Получить/установить using samplerate. If true output in [0..SR/2] instead of [0..pi]<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить using samplerate. If true output in [0..SR/2] instead of [0..pi]<br>
+_тип:_ bool<br>
 _по умолчанию:_ 0<br>
 
 

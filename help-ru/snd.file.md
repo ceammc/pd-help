@@ -67,36 +67,35 @@ load.<br>
 ## свойства:
 
 * **@formats** (readonly)
-Получить list of supported formats<br>
+Запросить list of supported formats<br>
 _тип:_ list<br>
 _по умолчанию:_ AAC AIFF ALAC AU AVR CAF FLAC HTK IFF MACE3:1 MACE6:1 MAT4 MAT5 MP3 MP4 MPC OGG PAF PVF RAW RF64 SD2 SDS SF VOC W64 WAV WAVEX WVE XI<br>
 
 * **@sr** (readonly)
-Получить source file samplerate<br>
+Запросить source file samplerate<br>
 _тип:_ list<br>
 
 * **@filename** (readonly)
-Получить filename<br>
+Запросить filename<br>
 _тип:_ list<br>
 
 * **@samples** (readonly)
-Получить list of number of loaded samples into each array<br>
+Запросить list of number of loaded samples into each array<br>
 _тип:_ list<br>
 
 * **@channels** (readonly)
-Получить list of loaded channels into each array<br>
+Запросить list of loaded channels into each array<br>
 _тип:_ list<br>
 
 * **@smpte_fr** 
-Получить/установить SMPTE framerate for SMPTE offset calculations<br>
+Запросить/установить SMPTE framerate for SMPTE offset calculations<br>
 _тип:_ float<br>
 _диапазон:_ 1..99<br>
 _по умолчанию:_ 30<br>
 
-* **@verbose** 
-Получить/установить verbose output to Pd window<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+* **@verbose** (initonly)
+Запросить/установить verbose output to Pd window<br>
+_тип:_ bool<br>
 _по умолчанию:_ 0<br>
 
 

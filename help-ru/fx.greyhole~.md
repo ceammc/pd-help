@@ -31,70 +31,68 @@ reset to initial state<br>
 ## свойства:
 
 * **@feedback** 
-Получить/установить amount of feedback for the delay line<br>
+Запросить/установить amount of feedback for the delay line<br>
 _тип:_ float<br>
 _диапазон:_ 0..1<br>
 _по умолчанию:_ 0.9<br>
 
 * **@damping** 
-Получить/установить controls damping of high-frequencies as the delay decays. 0 is no damping, 1 is
+Запросить/установить controls damping of high-frequencies as the delay decays. 0 is no damping, 1 is
 very strong damping<br>
 _тип:_ float<br>
 _диапазон:_ 0..0.99<br>
 _по умолчанию:_ 0<br>
 
 * **@delaytime** 
-Получить/установить approximate delay time in seconds<br>
+Запросить/установить approximate delay time in seconds<br>
 _тип:_ float<br>
 _единица:_ sec<br>
 _диапазон:_ 0.001..1.45<br>
 _по умолчанию:_ 0.2<br>
 
 * **@diffusion** 
-Получить/установить shape of the diffusion unit. Values greater than 0.707 produce smooth
+Запросить/установить shape of the diffusion unit. Values greater than 0.707 produce smooth
 exponential decay. Lower values produce a slower build-up of echoes<br>
 _тип:_ float<br>
 _диапазон:_ 0..0.99<br>
 _по умолчанию:_ 0.5<br>
 
 * **@moddepth** 
-Получить/установить depth of delay-line modulation. Use in combination with *@modfreq* to set
+Запросить/установить depth of delay-line modulation. Use in combination with *@modfreq* to set
 amount of chorusing within the structure<br>
 _тип:_ float<br>
 _диапазон:_ 0..1<br>
 _по умолчанию:_ 0.1<br>
 
 * **@modfreq** 
-Получить/установить frequency of delay-line modulation. Use in combination with *@moddepth* to set
+Запросить/установить frequency of delay-line modulation. Use in combination with *@moddepth* to set
 amount of chorusing within the structure<br>
 _тип:_ float<br>
 _диапазон:_ 0..10<br>
 _по умолчанию:_ 2<br>
 
 * **@size** 
-Получить/установить size of delay-lines within the diffusion unit, producing the impression of a
+Запросить/установить size of delay-lines within the diffusion unit, producing the impression of a
 larger or smaller space. Values below 1 can sound quite metallic.<br>
 _тип:_ float<br>
 _диапазон:_ 0.5..3<br>
 _по умолчанию:_ 1<br>
 
 * **@drywet** 
-Получить/установить proportion of mix between the original (dry) and &#39;effected&#39; (wet) signals. 0 -
+Запросить/установить proportion of mix between the original (dry) and &#39;effected&#39; (wet) signals. 0 -
 dry signal, 1 - wet.<br>
 _тип:_ float<br>
 _диапазон:_ 0..1<br>
 _по умолчанию:_ 1<br>
 
 * **@bypass** 
-Получить/установить if set to 1 - bypass &#39;effected&#39; signal.<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить if set to 1 - bypass &#39;effected&#39; signal.<br>
+_тип:_ bool<br>
 _по умолчанию:_ 0<br>
 
 * **@active** 
-Получить/установить on/off dsp processing<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить on/off dsp processing<br>
+_тип:_ bool<br>
 _по умолчанию:_ 1<br>
 
 

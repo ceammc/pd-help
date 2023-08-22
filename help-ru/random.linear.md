@@ -25,27 +25,27 @@ Generates random number in interval [@v0, @v1) with linear distribution [@p0, @p
 ## свойства:
 
 * **@v0** 
-Получить/установить begin of value interval<br>
+Запросить/установить begin of value interval<br>
 _тип:_ float<br>
 _по умолчанию:_ 0<br>
 
 * **@v1** 
-Получить/установить end of value interval<br>
+Запросить/установить end of value interval<br>
 _тип:_ float<br>
 _по умолчанию:_ 1<br>
 
 * **@p0** 
-Получить/установить probability at begin<br>
+Запросить/установить probability at begin<br>
 _тип:_ float<br>
 _по умолчанию:_ 1<br>
 
 * **@p1** 
-Получить/установить probability at end<br>
+Запросить/установить probability at end<br>
 _тип:_ float<br>
 _по умолчанию:_ 0<br>
 
 * **@seed** 
-Получить/установить generator seed<br>
+Запросить/установить generator seed<br>
 _тип:_ int<br>
 _минимальное значение:_ 0<br>
 _по умолчанию:_ 0<br>

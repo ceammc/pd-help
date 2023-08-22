@@ -50,20 +50,20 @@ control change message<br>
 ## свойства:
 
 * **@pitch** 
-Получить/установить midi pitch<br>
+Запросить/установить midi pitch<br>
 _тип:_ float<br>
 _диапазон:_ 36..84<br>
 _по умолчанию:_ 57<br>
 
 * **@freq** 
-Получить/установить maximum speed of whistles<br>
+Запросить/установить maximum speed of whistles<br>
 _тип:_ float<br>
 _единица:_ Hz<br>
 _диапазон:_ 0..480<br>
 _по умолчанию:_ 220<br>
 
 * **@gate** 
-Получить/установить synth gate (&gt;0 - play)<br>
+Запросить/установить synth gate (&gt;0 - play)<br>
 _тип:_ float<br>
 _диапазон:_ 0..1<br>
 _по умолчанию:_ 0<br>

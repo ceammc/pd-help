@@ -31,15 +31,13 @@ _тип:_ int<br>
 ## свойства:
 
 * **@on** 
-Получить/установить pedal state<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить pedal state<br>
+_тип:_ bool<br>
 _по умолчанию:_ 0<br>
 
 * **@ctlin** 
-Получить/установить listen to CTL64 from MIDI controller<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить listen to CTL64 from MIDI controller<br>
+_тип:_ bool<br>
 _по умолчанию:_ 0<br>
 
 

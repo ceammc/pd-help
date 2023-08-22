@@ -23,6 +23,7 @@ Random impulses in the amplitude range -1 to 1 are generated at an average rate 
 * **FREQ**
 average frequency of noise impulses per second<br>
 _тип:_ float<br>
+_единица:_ Hz<br>
 
 
 
@@ -31,16 +32,15 @@ _тип:_ float<br>
 ## свойства:
 
 * **@freq** 
-Получить/установить average frequency of noise impulses per second<br>
+Запросить/установить average frequency of noise impulses per second<br>
 _тип:_ float<br>
 _единица:_ Hz<br>
 _диапазон:_ 0..100<br>
 _по умолчанию:_ 10<br>
 
 * **@active** 
-Получить/установить on/off dsp processing<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить on/off dsp processing<br>
+_тип:_ bool<br>
 _по умолчанию:_ 1<br>
 
 

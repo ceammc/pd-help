@@ -20,7 +20,7 @@ Differentiated Polynomial Waves (DPW) used for aliasing suppression. 4nd order i
 
 ## аргументы:
 
-* **freq**
+* **FREQ**
 frequency<br>
 _тип:_ float<br>
 _единица:_ Hz<br>
@@ -32,13 +32,12 @@ _единица:_ Hz<br>
 ## свойства:
 
 * **@active** 
-Получить/установить on/off dsp processing<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить on/off dsp processing<br>
+_тип:_ bool<br>
 _по умолчанию:_ 1<br>
 
 * **@phase** 
-Получить/установить phase<br>
+Запросить/установить phase<br>
 _тип:_ float<br>
 _диапазон:_ 0..1<br>
 _по умолчанию:_ 0<br>

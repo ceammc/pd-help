@@ -27,7 +27,7 @@
 [**list.contains**](list.contains.html): checks if input list contains specified atoms 
 
 [**list.convolve**](list.convolve.html): convolution for lists <br>
-_псевдонимы:_ [list.conv]
+_псевдонимы:_ \[list.conv\]
 
 
 [**list.correlate**](list.correlate.html): list cross-correlation 
@@ -61,13 +61,15 @@ _псевдонимы:_ [list.conv]
 [**list.last**](list.last.html): output last list element 
 
 [**list.length**](list.length.html): output the number of atoms in the list <br>
-_псевдонимы:_ [list.size]
+_псевдонимы:_ \[list.size\]
 
+
+[**list.map**](list.map.html): map list values by specified dictionary 
 
 [**list.max**](list.max.html): output largest element in the list 
 
 [**list.mean**](list.mean.html): calculates average of list of floats <br>
-_псевдонимы:_ [list.average]
+_псевдонимы:_ \[list.average\]
 
 
 [**list.min**](list.min.html): returns smallest element in the list 
@@ -76,8 +78,10 @@ _псевдонимы:_ [list.average]
 
 [**list.normalize**](list.normalize.html): normalizes float list values to get their sum = 1.0 
 
+[**list.pass**](list.pass.html): leave in list only specified elements 
+
 [**list.pass_if**](list.pass_if.html): leave only elements accepted by predicate <br>
-_псевдонимы:_ [list.filter]
+_псевдонимы:_ \[list.filter\]
 
 
 [**list.prepend**](list.prepend.html): prepend atom or list before input list 
@@ -85,12 +89,14 @@ _псевдонимы:_ [list.filter]
 [**list.product**](list.product.html): calculates product of floats in list 
 
 [**list.range**](list.range.html): output list smallest and largest value <br>
-_псевдонимы:_ [list.minmax]
+_псевдонимы:_ \[list.minmax\]
 
 
 [**list.reduce**](list.reduce.html): apply function of two arguments cumulatively to the list <br>
-_псевдонимы:_ [list.foldl]
+_псевдонимы:_ \[list.foldl\]
 
+
+[**list.reject**](list.reject.html): remove specified element from list 
 
 [**list.remove**](list.remove.html): remove list element(s) at specified positions 
 
@@ -101,7 +107,7 @@ _псевдонимы:_ [list.foldl]
 [**list.repeat**](list.repeat.html): output new list by repeating input list specified times 
 
 [**list.resample**](list.resample.html): resample list with specified ratio <br>
-_псевдонимы:_ [list.r]
+_псевдонимы:_ \[list.r\]
 
 
 [**list.resize**](list.resize.html): changes list size 
@@ -109,15 +115,15 @@ _псевдонимы:_ [list.r]
 [**list.reverse**](list.reverse.html): reverses the order of the elements in the list 
 
 [**list.rldecode**](list.rldecode.html): Run-length list decoder (RLE) <br>
-_псевдонимы:_ [list.unwrap]
+_псевдонимы:_ \[list.unwrap\]
 
 
 [**list.rlencode**](list.rlencode.html): RLE (run-length encoding) for lists <br>
-_псевдонимы:_ [list.wrap]
+_псевдонимы:_ \[list.wrap\]
 
 
 [**list.rotate**](list.rotate.html): rotates list <br>
-_псевдонимы:_ [list.&lt;&lt;], [list.&gt;&gt;]
+_псевдонимы:_ \[list.&lt;&lt;\], \[list.&gt;&gt;\]
 
 
 [**list.route**](list.route.html): acts like [route] but for lists 
@@ -129,7 +135,7 @@ _псевдонимы:_ [list.&lt;&lt;], [list.&gt;&gt;]
 [**list.search**](list.search.html): search specified items in input list 
 
 [**list.separate**](list.separate.html): sends list elements one by one separately <br>
-_псевдонимы:_ [list.sep]
+_псевдонимы:_ \[list.sep\]
 
 
 [**list.seq**](list.seq.html): numeric sequence list generator 
@@ -157,16 +163,16 @@ _псевдонимы:_ [list.sep]
 [**list.unpack**](list.unpack.html): unpack list elements to separate outlets 
 
 [**list.unzip**](list.unzip.html): splits list to N lists, each to separate output <br>
-_псевдонимы:_ [list.deinterleave]
+_псевдонимы:_ \[list.deinterleave\]
 
 
 [**list.walk**](list.walk.html): Walks thru the list 
 
 [**list.zip**](list.zip.html): takes n lists from n inlets (specified by argument) and output their elements sequentially (list1-1 list2-1 list1-2 list2-2 etc.). <br>
-_псевдонимы:_ [list.interleave]
+_псевдонимы:_ \[list.interleave\]
 
 
 
-**Версия:** 0.9.4
+**Версия:** 0.9.6
 
 **Лицензия:** GPL3

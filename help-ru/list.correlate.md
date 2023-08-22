@@ -31,15 +31,15 @@ _тип:_ list<br>
 ## свойства:
 
 * **@a** 
-Получить/установить first argument<br>
+Запросить/установить first argument<br>
 _тип:_ list<br>
 
 * **@b** 
-Получить/установить second argument<br>
+Запросить/установить second argument<br>
 _тип:_ list<br>
 
 * **@mode** 
-Получить/установить output mode. &#39;full&#39; - output the cross-correlation at each point of overlap,
+Запросить/установить output mode. &#39;full&#39; - output the cross-correlation at each point of overlap,
 with an output length of (M+N-1). At the end-points of the cross-correlation,
 the signals do not overlap completely, and boundary effects may be seen.
 &#39;valid&#39; - output of length (max(M,N)-min(M,N)+1). The cross-correlation product
@@ -51,15 +51,15 @@ _варианты:_ valid, same, full<br>
 _по умолчанию:_ valid<br>
 
 * **@valid** 
-Получить/установить alias to @mode valid<br>
+Запросить/установить alias to @mode valid<br>
 _тип:_ alias<br>
 
 * **@same** 
-Получить/установить alias to @mode same<br>
+Запросить/установить alias to @mode same<br>
 _тип:_ alias<br>
 
 * **@full** 
-Получить/установить alias to @mode full<br>
+Запросить/установить alias to @mode full<br>
 _тип:_ alias<br>
 
 

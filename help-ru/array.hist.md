@@ -20,7 +20,7 @@ Values outside of range @min...@max are ignored
 
 ## аргументы:
 
-* **NAME**
+* **ARRAY**
 array name<br>
 _тип:_ symbol<br>
 
@@ -43,22 +43,22 @@ _тип:_ float<br>
 ## свойства:
 
 * **@array** 
-Получить/установить array name<br>
+Запросить/установить array name<br>
 _тип:_ symbol<br>
 
 * **@bins** 
-Получить/установить number of bins<br>
+Запросить/установить number of bins<br>
 _тип:_ int<br>
 _диапазон:_ 2..1000<br>
 _по умолчанию:_ 100<br>
 
 * **@min** 
-Получить/установить minimal value<br>
+Запросить/установить minimal value<br>
 _тип:_ float<br>
 _по умолчанию:_ -1<br>
 
 * **@max** 
-Получить/установить maximum value<br>
+Запросить/установить maximum value<br>
 _тип:_ float<br>
 _по умолчанию:_ 1<br>
 

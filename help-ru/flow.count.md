@@ -18,7 +18,7 @@
 
 ## аргументы:
 
-* **N**
+* **VALUE**
 counter init value<br>
 _тип:_ int<br>
 
@@ -29,7 +29,7 @@ _тип:_ int<br>
 ## свойства:
 
 * **@value** 
-Получить/установить current counter state. Can be set via message to second(!) inlet or [prop.set]
+Запросить/установить current counter state. Can be set via message to second(!) inlet or [prop.set]
 object.<br>
 _тип:_ int<br>
 _минимальное значение:_ 0<br>
@@ -41,7 +41,7 @@ _по умолчанию:_ 0<br>
 
 * input messages<br>
 _тип:_ control
-* reset counter to init value<br>
+* reset counter to init value (no output)<br>
 _тип:_ control
 
 

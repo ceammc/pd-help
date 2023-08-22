@@ -18,11 +18,11 @@
 
 ## аргументы:
 
-* **drive**
+* **DRIVE**
 distortion amount<br>
 _тип:_ float<br>
 
-* **offset**
+* **OFFSET**
 constant added before nonlinearity to give even harmonics<br>
 _тип:_ float<br>
 
@@ -33,34 +33,32 @@ _тип:_ float<br>
 ## свойства:
 
 * **@drive** 
-Получить/установить distortion amount<br>
+Запросить/установить distortion amount<br>
 _тип:_ float<br>
 _диапазон:_ 0..1<br>
 _по умолчанию:_ 0.5<br>
 
 * **@drywet** 
-Получить/установить proportion of mix between the original (dry) and &#39;effected&#39; (wet) signals. 0 -
+Запросить/установить proportion of mix between the original (dry) and &#39;effected&#39; (wet) signals. 0 -
 dry signal, 1 - wet.<br>
 _тип:_ float<br>
 _диапазон:_ 0..1<br>
 _по умолчанию:_ 1<br>
 
 * **@offset** 
-Получить/установить constant added before nonlinearity to give even harmonics<br>
+Запросить/установить constant added before nonlinearity to give even harmonics<br>
 _тип:_ float<br>
 _диапазон:_ 0..0.5<br>
 _по умолчанию:_ 0<br>
 
 * **@bypass** 
-Получить/установить if set to 1 - bypass &#39;effected&#39; signal.<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить if set to 1 - bypass &#39;effected&#39; signal.<br>
+_тип:_ bool<br>
 _по умолчанию:_ 0<br>
 
 * **@active** 
-Получить/установить on/off dsp processing<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить on/off dsp processing<br>
+_тип:_ bool<br>
 _по умолчанию:_ 1<br>
 
 

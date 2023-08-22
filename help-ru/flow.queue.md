@@ -18,7 +18,7 @@
 
 ## аргументы:
 
-* **MAX**
+* **MAX_SIZE**
 max queue size<br>
 _тип:_ int<br>
 
@@ -33,15 +33,14 @@ _тип:_ int<br>
 ## свойства:
 
 * **@max_size** 
-Получить/установить max queue size<br>
+Запросить/установить max queue size<br>
 _тип:_ int<br>
 _диапазон:_ 1..1024<br>
 _по умолчанию:_ 32<br>
 
 * **@auto_pop** 
-Получить/установить auto pop mode. If true automatically pops oldest elements when queue is full<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить auto pop mode. If true automatically pops oldest elements when queue is full<br>
+_тип:_ bool<br>
 _по умолчанию:_ 0<br>
 
 

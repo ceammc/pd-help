@@ -11,7 +11,7 @@
 
 
 ## информация
-Choose random atom from specified list (with weights) and output it Use @seed property to get reproducible sequences. If @seed property was not explicitly set or specified, uses generator initialized with current time.
+Choose random atom from specified list (with weights) and output it. If no weights specified, choose elements with random uniform distribution. Use @seed property to get reproducible sequences. If @seed property was not explicitly set or specified, uses generator initialized with current time. Note: when @nonrep property is set, distribution is not uniform or weighted.
 
 
 [![example](../examples/img/random.atom.jpg)](../examples/pd/random.atom.pd)
@@ -20,7 +20,7 @@ Choose random atom from specified list (with weights) and output it Use @seed pr
 
 ## аргументы:
 
-* **ARG**
+* **VALUE**
 list of atoms<br>
 _тип:_ list<br>
 
@@ -30,18 +30,23 @@ _тип:_ list<br>
 
 ## свойства:
 
-* **@a** 
-Получить/установить list of atoms<br>
+* **@value** 
+Запросить/установить list of atoms<br>
 _тип:_ list<br>
 
 * **@w** 
-Получить/установить list of atom weights<br>
+Запросить/установить list of atom weights<br>
 _тип:_ list<br>
 
 * **@seed** 
-Получить/установить generator seed<br>
+Запросить/установить generator seed<br>
 _тип:_ int<br>
 _минимальное значение:_ 0<br>
+_по умолчанию:_ 0<br>
+
+* **@nonrep** 
+Запросить/установить generate non-repeated adjacent values (note: distribution will changed!)<br>
+_тип:_ bool<br>
 _по умолчанию:_ 0<br>
 
 
@@ -49,6 +54,8 @@ _по умолчанию:_ 0<br>
 ## входы:
 
 * output random atom<br>
+_тип:_ control
+* set list of elements to choose from. Note: clear all weights.<br>
 _тип:_ control
 
 

@@ -16,6 +16,20 @@
 
 
 
+## аргументы:
+
+* **ARRAY**
+array name<br>
+_тип:_ symbol<br>
+
+* **YMIN**
+minimal y-axis value<br>
+_тип:_ float<br>
+
+* **YMAX**
+maximum y-axis value<br>
+_тип:_ float<br>
+
 
 
 
@@ -23,25 +37,24 @@
 ## свойства:
 
 * **@array** 
-Получить/установить array name<br>
+Запросить/установить array name<br>
 _тип:_ symbol<br>
 
 * **@ymin** 
-Получить/установить minimal y-axis value<br>
+Запросить/установить minimal y-axis value<br>
 _тип:_ float<br>
 _диапазон:_ -1024..1024<br>
 _по умолчанию:_ -1<br>
 
 * **@ymax** 
-Получить/установить minimal y-axis value<br>
+Запросить/установить minimal y-axis value<br>
 _тип:_ float<br>
 _диапазон:_ -1024..1024<br>
 _по умолчанию:_ 1<br>
 
 * **@yauto** 
-Получить/установить calculate y-axis range automatically<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить calculate y-axis range automatically<br>
+_тип:_ bool<br>
 _по умолчанию:_ 0<br>
 
 

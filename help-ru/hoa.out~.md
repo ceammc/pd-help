@@ -31,7 +31,7 @@ _тип:_ int<br>
 ## свойства:
 
 * **@extra** 
-Получить/установить extra inlet. Extra inlet are added to the &#34;normal&#34; instance inlet and can be
+Запросить/установить extra inlet. Extra inlet are added to the &#34;normal&#34; instance inlet and can be
 used to send signal to all instances<br>
 _тип:_ int<br>
 _минимальное значение:_ 0<br>
@@ -39,12 +39,12 @@ _по умолчанию:_ 0<br>
 
 
 
-
-
-## выходы:
+## входы:
 
 * output signal in the corresponding hoa.process~ object&#39;s signal outlet<br>
 _тип:_ audio
+
+
 
 
 

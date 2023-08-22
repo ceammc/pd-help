@@ -35,35 +35,34 @@ stop playing and move play position to the end of file<br>
 ## свойства:
 
 * **@done** 
-Получить/установить function called with bang when playing is finished<br>
+Запросить/установить function called with bang when playing is finished<br>
 _тип:_ symbol<br>
 
 * **@len** (readonly)
-Получить length of mod file<br>
+Запросить length of mod file<br>
 _тип:_ float<br>
 _единица:_ ms<br>
 _по умолчанию:_ 0<br>
 
 * **@name** (readonly)
-Получить mod name<br>
+Запросить mod name<br>
 _тип:_ symbol<br>
 
 * **@pos** 
-Получить/установить position in mod file<br>
+Запросить/установить position in mod file<br>
 _тип:_ float<br>
 _единица:_ ms<br>
 _по умолчанию:_ -1<br>
 
 * **@rpos** 
-Получить/установить relative position in mod file<br>
+Запросить/установить relative position in mod file<br>
 _тип:_ float<br>
 _диапазон:_ 0..1<br>
 _по умолчанию:_ 0<br>
 
 * **@play** 
-Получить/установить play state<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить play state<br>
+_тип:_ bool<br>
 _по умолчанию:_ 0<br>
 
 

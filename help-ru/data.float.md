@@ -18,7 +18,7 @@
 
 ## аргументы:
 
-* **VAL**
+* **VALUE**
 set initial value<br>
 _тип:_ float<br>
 
@@ -47,7 +47,7 @@ divide by, no output<br>
 ## свойства:
 
 * **@value** (readonly)
-Получить current value<br>
+Запросить current value<br>
 _тип:_ float<br>
 _по умолчанию:_ 0<br>
 

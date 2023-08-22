@@ -18,7 +18,7 @@
 
 ## аргументы:
 
-* **shift**
+* **SHIFT**
 shift amount. Float values cause linear interpolation. Can be negative.<br>
 _тип:_ float<br>
 
@@ -29,7 +29,7 @@ _тип:_ float<br>
 ## свойства:
 
 * **@shift** 
-Получить/установить shift amount<br>
+Запросить/установить shift amount<br>
 _тип:_ float<br>
 _по умолчанию:_ 0<br>
 

@@ -29,47 +29,47 @@ _тип:_ symbol<br>
 ## свойства:
 
 * **@type** 
-Получить/установить property type<br>
+Запросить/установить property type<br>
 _тип:_ symbol<br>
 _варианты:_ float, int, bool, enum, symbol, list<br>
 _по умолчанию:_ float<br>
 
 * **@f** 
-Получить/установить alias to @type float<br>
+Запросить/установить alias to @type float<br>
 _тип:_ alias<br>
 
 * **@i** 
-Получить/установить alias to @type int<br>
+Запросить/установить alias to @type int<br>
 _тип:_ alias<br>
 
 * **@b** 
-Получить/установить alias to @type bool<br>
+Запросить/установить alias to @type bool<br>
 _тип:_ alias<br>
 
 * **@s** 
-Получить/установить alias to @type symbol<br>
+Запросить/установить alias to @type symbol<br>
 _тип:_ alias<br>
 
 * **@l** 
-Получить/установить alias to @type list<br>
+Запросить/установить alias to @type list<br>
 _тип:_ alias<br>
 
-* **@default** 
-Получить/установить default property value<br>
+* **@default** (initonly)
+Запросить/установить default property value<br>
 _тип:_ list<br>
 
-* **@min** 
-Получить/установить minimal value (for float and int properties only)<br>
+* **@min** (initonly)
+Запросить/установить minimal value (for float and int properties only)<br>
 _тип:_ float<br>
 _по умолчанию:_ -inf<br>
 
-* **@max** 
-Получить/установить maximum value (for float and int properties only)<br>
+* **@max** (initonly)
+Запросить/установить maximum value (for float and int properties only)<br>
 _тип:_ float<br>
 _по умолчанию:_ +inf<br>
 
-* **@enum** 
-Получить/установить allowed values (without default value) (for symbol properties only)<br>
+* **@enum** (initonly)
+Запросить/установить allowed values (without default value) (for symbol properties only)<br>
 _тип:_ list<br>
 
 

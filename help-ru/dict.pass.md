@@ -29,7 +29,7 @@ _тип:_ list<br>
 ## свойства:
 
 * **@keys** 
-Получить/установить passed keys<br>
+Запросить/установить passed keys<br>
 _тип:_ list<br>
 
 

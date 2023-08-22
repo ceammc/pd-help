@@ -35,12 +35,12 @@ _тип:_ atom<br>
 ## свойства:
 
 * **@dur** 
-Получить/установить total pattern duration<br>
+Запросить/установить total pattern duration<br>
 _тип:_ float<br>
 _по умолчанию:_ 1<br>
 
 * **@rtree** 
-Получить/установить rythm tree. (MList)<br>
+Запросить/установить rythm tree. (MList)<br>
 _тип:_ atom<br>
 _по умолчанию:_ ()<br>
 

@@ -25,14 +25,13 @@ duration can be specified - by denominator: 1 (whole), 2_. (dotted half), 8 (eig
 ## свойства:
 
 * **@bpm** 
-Получить/установить tempo<br>
+Запросить/установить tempo<br>
 _тип:_ list<br>
 _по умолчанию:_ 60 0.25<br>
 
 * **@seq** 
-Получить/установить sequencial durations<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить sequential durations<br>
+_тип:_ bool<br>
 _по умолчанию:_ 1<br>
 
 

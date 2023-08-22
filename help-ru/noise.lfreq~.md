@@ -21,6 +21,7 @@
 * **FREQ**
 noise generation freq<br>
 _тип:_ float<br>
+_единица:_ Hz<br>
 
 
 
@@ -29,16 +30,15 @@ _тип:_ float<br>
 ## свойства:
 
 * **@freq** 
-Получить/установить noise generation freq<br>
+Запросить/установить noise generation freq<br>
 _тип:_ float<br>
 _единица:_ Hz<br>
 _диапазон:_ 5..22050<br>
 _по умолчанию:_ 1000<br>
 
 * **@active** 
-Получить/установить on/off dsp processing<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить on/off dsp processing<br>
+_тип:_ bool<br>
 _по умолчанию:_ 1<br>
 
 

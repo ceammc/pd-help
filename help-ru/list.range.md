@@ -11,7 +11,7 @@
 
 
 ## информация
-Note: numbers are smaller then symbols
+Note: if @type = any, numbers are smaller then symbols
 
 
 [![example](../examples/img/list.range.jpg)](../examples/pd/list.range.pd)
@@ -21,6 +21,26 @@ Note: numbers are smaller then symbols
 
 
 
+
+## свойства:
+
+* **@type** 
+Запросить/установить type of accepted atoms<br>
+_тип:_ symbol<br>
+_варианты:_ float, symbol, any<br>
+_по умолчанию:_ float<br>
+
+* **@f** 
+Запросить/установить alias to @type float, accept only floats<br>
+_тип:_ alias<br>
+
+* **@s** 
+Запросить/установить alias to @type symbol, accept only symbols<br>
+_тип:_ alias<br>
+
+* **@a** 
+Запросить/установить alias to @type any, accept all<br>
+_тип:_ alias<br>
 
 
 
@@ -33,7 +53,7 @@ _тип:_ control
 
 ## выходы:
 
-* list of two elements: first is a smallest values, second - largest<br>
+* list of two elements: first is a smallest value, second - largest<br>
 _тип:_ control
 
 

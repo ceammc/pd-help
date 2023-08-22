@@ -22,8 +22,8 @@
 
 ## свойства:
 
-* **@symbol** 
-Получить/установить output as symbol instead of string by default<br>
+* **@symbol** (initonly)
+Запросить/установить output as symbol instead of string by default<br>
 _тип:_ flag<br>
 _по умолчанию:_ 0<br>
 

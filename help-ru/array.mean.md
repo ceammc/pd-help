@@ -18,7 +18,7 @@
 
 ## аргументы:
 
-* **NAME**
+* **ARRAY**
 array name<br>
 _тип:_ symbol<br>
 
@@ -29,7 +29,7 @@ _тип:_ symbol<br>
 ## свойства:
 
 * **@array** 
-Получить/установить array name<br>
+Запросить/установить array name<br>
 _тип:_ symbol<br>
 
 

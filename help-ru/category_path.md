@@ -14,21 +14,27 @@
 
 [**path.exists**](path.exists.html): checks if given path exists 
 
+[**path.file**](path.file.html): file input/output 
+
 [**path.is_dir**](path.is_dir.html): check if path is directory 
 
 [**path.lsdir**](path.lsdir.html): list directory contents <br>
-_псевдонимы:_ [path.ls]
+_псевдонимы:_ \[path.ls\]
 
+
+[**path.monitor**](path.monitor.html): filesystem event monitor 
 
 [**path.normalize**](path.normalize.html): normalize file paths <br>
-_псевдонимы:_ [path.norm]
+_псевдонимы:_ \[path.norm\]
 
+
+[**path.pattern**](path.pattern.html): pattern filename generator 
 
 [**path.search**](path.search.html): file search 
 
 [**path.split**](path.split.html): file path split 
 
 
-**Версия:** 0.9.4
+**Версия:** 0.9.6
 
 **Лицензия:** GPL3

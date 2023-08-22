@@ -18,7 +18,7 @@
 
 ## аргументы:
 
-* **LST**
+* **L**
 initial element repeat list<br>
 _тип:_ list<br>
 
@@ -29,7 +29,7 @@ _тип:_ list<br>
 ## свойства:
 
 * **@l** 
-Получить/установить list of repeats<br>
+Запросить/установить list of repeats<br>
 _тип:_ list<br>
 
 

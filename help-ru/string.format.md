@@ -20,9 +20,9 @@ This format modifiers are supported: %d, %u, %i, %o, %x, %X, %s, %e, %E.
 
 ## аргументы:
 
-* **FMT**
+* **FORMAT**
 format string<br>
-_тип:_ symbol<br>
+_тип:_ list<br>
 
 
 
@@ -31,11 +31,11 @@ _тип:_ symbol<br>
 ## свойства:
 
 * **@format** 
-Получить/установить format string<br>
+Запросить/установить format string<br>
 _тип:_ list<br>
 
-* **@int** 
-Получить/установить flag for integer mode. If specified all floats are converted to integers. This
+* **@int** (initonly)
+Запросить/установить flag for integer mode. If specified all floats are converted to integers. This
 usefull for hex and octal formatting<br>
 _тип:_ flag<br>
 _по умолчанию:_ 0<br>

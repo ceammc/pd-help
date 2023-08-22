@@ -19,11 +19,11 @@
 [**math.acos~**](math.acos~.html): arc cosine function for signals 
 
 [**math.and**](math.and.html): operation AND for multiple arguments <br>
-_псевдонимы:_ [ceammc/and], [and]
+_псевдонимы:_ \[ceammc/and\], \[and\]
 
 
 [**math.approx**](math.approx.html): check if input value approximately equal to pattern <br>
-_псевдонимы:_ [ceammc/approx], [approx]
+_псевдонимы:_ \[ceammc/approx\], \[approx\]
 
 
 [**math.asin**](math.asin.html): arc sine function 
@@ -43,15 +43,15 @@ _псевдонимы:_ [ceammc/approx], [approx]
 [**math.atan~**](math.atan~.html): arc tangent for signals 
 
 [**math.binomial**](math.binomial.html): binomial coefficient calculator <br>
-_псевдонимы:_ [math.nck]
+_псевдонимы:_ \[math.nck\]
 
 
 [**math.cabs~**](math.cabs~.html): magnitude of a complex signals <br>
-_псевдонимы:_ [ceammc/cabs~], [cabs~]
+_псевдонимы:_ \[ceammc/cabs~\], \[cabs~\]
 
 
 [**math.carg~**](math.carg~.html): phase angle of a complex signals <br>
-_псевдонимы:_ [ceammc/carg~], [carg~]
+_псевдонимы:_ \[ceammc/carg~\], \[carg~\]
 
 
 [**math.cbrt**](math.cbrt.html): cube root function 
@@ -59,7 +59,7 @@ _псевдонимы:_ [ceammc/carg~], [carg~]
 [**math.cbrt~**](math.cbrt~.html): cube root function for signals 
 
 [**math.cdiv~**](math.cdiv~.html): division of complex signals <br>
-_псевдонимы:_ [ceammc/cdiv~], [cdiv~]
+_псевдонимы:_ \[ceammc/cdiv~\], \[cdiv~\]
 
 
 [**math.ceil**](math.ceil.html): round to smallest integral value not less than input value 
@@ -67,11 +67,11 @@ _псевдонимы:_ [ceammc/cdiv~], [cdiv~]
 [**math.ceil~**](math.ceil~.html): round to smallest integral value not less than input value 
 
 [**math.cexp~**](math.cexp~.html): exponent of a complex signals <br>
-_псевдонимы:_ [ceammc/cexp~], [cexp~]
+_псевдонимы:_ \[ceammc/cexp~\], \[cexp~\]
 
 
 [**math.cmul~**](math.cmul~.html): multiplication of complex signals <br>
-_псевдонимы:_ [ceammc/cmul~], [cmul~]
+_псевдонимы:_ \[ceammc/cmul~\], \[cmul~\]
 
 
 [**math.cos**](math.cos.html): cosine function 
@@ -83,7 +83,7 @@ _псевдонимы:_ [ceammc/cmul~], [cmul~]
 [**math.cos~**](math.cos~.html): cosine function 
 
 [**math.div**](math.div.html): division (on lists too) <br>
-_псевдонимы:_ [math./]
+_псевдонимы:_ \[math./\]
 
 
 [**math.e**](math.e.html): mathematical constant, base of the natural logarithm 
@@ -135,7 +135,7 @@ _псевдонимы:_ [math./]
 [**math.log~**](math.log~.html): natural logarithm 
 
 [**math.mul**](math.mul.html): multiplication (on lists too) <br>
-_псевдонимы:_ [math.*]
+_псевдонимы:_ \[math.*\]
 
 
 [**math.nan**](math.nan.html): Not a Number, unrepresentable value 
@@ -143,35 +143,37 @@ _псевдонимы:_ [math.*]
 [**math.nan~**](math.nan~.html): signal NaN 
 
 [**math.neg**](math.neg.html): negate function <br>
-_псевдонимы:_ [ceammc/-x], [-x]
+_псевдонимы:_ \[ceammc/-x\], \[-x\]
 
 
 [**math.or**](math.or.html): operation OR for multiple arguments <br>
-_псевдонимы:_ [ceammc/or], [or]
+_псевдонимы:_ \[ceammc/or\], \[or\]
 
 
 [**math.pi**](math.pi.html): mathematical constant <br>
-_псевдонимы:_ [ceammc/pi], [pi]
+_псевдонимы:_ \[ceammc/pi\], \[pi\]
 
 
 [**math.pi~**](math.pi~.html): mathematical constant <br>
-_псевдонимы:_ [ceammc/pi~], [pi~]
+_псевдонимы:_ \[ceammc/pi~\], \[pi~\]
 
 
 [**math.polyeval**](math.polyeval.html): evaluates the polynomial described by the coefficients list 
 
 [**math.reciprocal**](math.reciprocal.html): calculate reciprocal number <br>
-_псевдонимы:_ [ceammc/1/x], [1/x]
+_псевдонимы:_ \[ceammc/1/x\], \[1/x\]
 
 
 [**math.reciprocal~**](math.reciprocal~.html): calculate reciprocal number for signals <br>
-_псевдонимы:_ [ceammc/1/x~], [1/x~]
+_псевдонимы:_ \[ceammc/1/x~\], \[1/x~\]
 
 
-[**math.round**](math.round.html): round to integral value, regardless of rounding direction 
+[**math.round**](math.round.html): round to integral value, regardless of rounding direction <br>
+_псевдонимы:_ \[round\], \[ceammc/round\]
+
 
 [**math.round~**](math.round~.html): signal round <br>
-_псевдонимы:_ [round~]
+_псевдонимы:_ \[round~\], \[ceammc/round~\]
 
 
 [**math.sign**](math.sign.html): sign function 
@@ -189,75 +191,75 @@ _псевдонимы:_ [round~]
 [**math.sqrt~**](math.sqrt~.html): square root for signal 
 
 [**math.squared**](math.squared.html): value square <br>
-_псевдонимы:_ [math.^2], [ceammc/^2], [^2]
+_псевдонимы:_ \[math.^2\], \[ceammc/^2\], \[^2\]
 
 
 [**math.squared~**](math.squared~.html): signal value square <br>
-_псевдонимы:_ [math.^2~], [ceammc/^2~], [^2~]
+_псевдонимы:_ \[math.^2~\], \[ceammc/^2~\], \[^2~\]
 
 
 [**math.sync_add**](math.sync_add.html): sync addition <br>
-_псевдонимы:_ [math.+&#39;], [ceammc/+&#39;], [+&#39;]
+_псевдонимы:_ \[math.+&#39;\], \[ceammc/+&#39;\], \[+&#39;\]
 
 
 [**math.sync_and**](math.sync_and.html): sync logical AND operation <br>
-_псевдонимы:_ [math.&amp;&amp;&#39;], [ceammc/&amp;&amp;&#39;], [&amp;&amp;&#39;]
+_псевдонимы:_ \[math.&amp;&amp;&#39;\], \[ceammc/&amp;&amp;&#39;\], \[&amp;&amp;&#39;\]
 
 
 [**math.sync_div**](math.sync_div.html): sync division <br>
-_псевдонимы:_ [math./&#39;], [ceammc//&#39;], [/&#39;]
+_псевдонимы:_ \[math./&#39;\], \[ceammc//&#39;\], \[/&#39;\]
 
 
 [**math.sync_eq**](math.sync_eq.html): sync equal numbers check <br>
-_псевдонимы:_ [math.==&#39;], [ceammc/==&#39;], [==&#39;]
+_псевдонимы:_ \[math.==&#39;\], \[ceammc/==&#39;\], \[==&#39;\]
 
 
 [**math.sync_ge**](math.sync_ge.html): sync greater equal numbers compare <br>
-_псевдонимы:_ [math.&gt;=&#39;], [ceammc/&gt;=&#39;], [&gt;=&#39;]
+_псевдонимы:_ \[math.&gt;=&#39;\], \[ceammc/&gt;=&#39;\], \[&gt;=&#39;\]
 
 
 [**math.sync_gt**](math.sync_gt.html): sync greater then numbers compare <br>
-_псевдонимы:_ [math.&gt;&#39;], [ceammc/&gt;&#39;], [&gt;&#39;]
+_псевдонимы:_ \[math.&gt;&#39;\], \[ceammc/&gt;&#39;\], \[&gt;&#39;\]
 
 
 [**math.sync_le**](math.sync_le.html): sync less equal numbers compare <br>
-_псевдонимы:_ [math.&lt;=&#39;], [ceammc/&lt;=&#39;], [&lt;=&#39;]
+_псевдонимы:_ \[math.&lt;=&#39;\], \[ceammc/&lt;=&#39;\], \[&lt;=&#39;\]
 
 
 [**math.sync_lshift**](math.sync_lshift.html): sync signed bit left shift <br>
-_псевдонимы:_ [math.&lt;&lt;&#39;], [ceammc/&lt;&lt;&#39;], [&lt;&lt;&#39;]
+_псевдонимы:_ \[math.&lt;&lt;&#39;\], \[ceammc/&lt;&lt;&#39;\], \[&lt;&lt;&#39;\]
 
 
 [**math.sync_lt**](math.sync_lt.html): sync less then numbers compare <br>
-_псевдонимы:_ [math.&lt;&#39;], [ceammc/&lt;&#39;], [&lt;&#39;]
+_псевдонимы:_ \[math.&lt;&#39;\], \[ceammc/&lt;&#39;\], \[&lt;&#39;\]
 
 
 [**math.sync_mod**](math.sync_mod.html): sync remainder of modulo division (float or integer) <br>
-_псевдонимы:_ [math.%&#39;], [ceammc/%&#39;], [%&#39;]
+_псевдонимы:_ \[math.%&#39;\], \[ceammc/%&#39;\], \[%&#39;\]
 
 
 [**math.sync_mul**](math.sync_mul.html): sync multiplication <br>
-_псевдонимы:_ [math.*&#39;], [ceammc/*&#39;], [*&#39;]
+_псевдонимы:_ \[math.*&#39;\], \[ceammc/*&#39;\], \[*&#39;\]
 
 
 [**math.sync_ne**](math.sync_ne.html): sync numbers for not equality <br>
-_псевдонимы:_ [math.!=&#39;], [ceammc/!=&#39;], [!=&#39;]
+_псевдонимы:_ \[math.!=&#39;\], \[ceammc/!=&#39;\], \[!=&#39;\]
 
 
 [**math.sync_or**](math.sync_or.html): sync logical OR operation <br>
-_псевдонимы:_ [math.||&#39;], [ceammc/||&#39;], [||&#39;]
+_псевдонимы:_ \[math.||&#39;\], \[ceammc/||&#39;\], \[||&#39;\]
 
 
 [**math.sync_rshift**](math.sync_rshift.html): sync signed bit right shift <br>
-_псевдонимы:_ [math.&gt;&gt;&#39;], [ceammc/&gt;&gt;&#39;], [&gt;&gt;&#39;]
+_псевдонимы:_ \[math.&gt;&gt;&#39;\], \[ceammc/&gt;&gt;&#39;\], \[&gt;&gt;&#39;\]
 
 
 [**math.sync_sub**](math.sync_sub.html): sync subtraction <br>
-_псевдонимы:_ [math.-&#39;], [ceammc/-&#39;], [-&#39;]
+_псевдонимы:_ \[math.-&#39;\], \[ceammc/-&#39;\], \[-&#39;\]
 
 
 [**math.sync_xor**](math.sync_xor.html): sync logical XOR operation <br>
-_псевдонимы:_ [math.^&#39;], [ceammc/^&#39;], [^&#39;]
+_псевдонимы:_ \[math.^&#39;\], \[ceammc/^&#39;\], \[^&#39;\]
 
 
 [**math.tan**](math.tan.html): tangent function 
@@ -273,6 +275,6 @@ _псевдонимы:_ [math.^&#39;], [ceammc/^&#39;], [^&#39;]
 [**math.trunc~**](math.trunc~.html): truncate to integer value 
 
 
-**Версия:** 0.9.4
+**Версия:** 0.9.6
 
 **Лицензия:** GPL3

@@ -20,7 +20,7 @@
 
 * **PATH**
 init directory value<br>
-_тип:_ symbol<br>
+_тип:_ list<br>
 
 
 
@@ -29,11 +29,11 @@ _тип:_ symbol<br>
 ## свойства:
 
 * **@match** 
-Получить/установить match mask: for example *.wav for all wav files<br>
+Запросить/установить match mask: for example *.wav for all wav files<br>
 _тип:_ symbol<br>
 
 * **@path** 
-Получить/установить current path<br>
+Запросить/установить current path<br>
 _тип:_ list<br>
 
 

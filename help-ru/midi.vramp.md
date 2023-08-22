@@ -43,27 +43,26 @@ reset to start value<br>
 ## свойства:
 
 * **@from** 
-Получить/установить start value<br>
+Запросить/установить start value<br>
 _тип:_ int<br>
 _диапазон:_ 0..127<br>
 _по умолчанию:_ 127<br>
 
 * **@to** 
-Получить/установить end value<br>
+Запросить/установить end value<br>
 _тип:_ int<br>
 _диапазон:_ 0..127<br>
 _по умолчанию:_ 127<br>
 
 * **@n** 
-Получить/установить number of steps<br>
+Запросить/установить number of steps<br>
 _тип:_ int<br>
 _минимальное значение:_ 0<br>
 _по умолчанию:_ 0<br>
 
 * **@auto** 
-Получить/установить auto reset mode. If true: reset to @start value after ramp is finished<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить auto reset mode. If true: reset to @start value after ramp is finished<br>
+_тип:_ bool<br>
 _по умолчанию:_ 0<br>
 
 

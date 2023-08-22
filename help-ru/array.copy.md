@@ -94,9 +94,8 @@ copy array content from specified range and to specified destination position<br
 ## свойства:
 
 * **@resize** 
-Получить/установить resize of destination array on overflow<br>
-_тип:_ int<br>
-_варианты:_ 1, 0<br>
+Запросить/установить resize of destination array on overflow<br>
+_тип:_ bool<br>
 _по умолчанию:_ 0<br>
 
 

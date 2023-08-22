@@ -52,19 +52,21 @@ sets new set content without output<br>
     тип: list <br>
     обязательно: True <br>
 
+* **choose**
+choose random element and output it<br>
+
 
 
 
 ## свойства:
 
 * **@empty** (readonly)
-Получить 1 if list is empty, otherwise 0<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить 1 if list is empty, otherwise 0<br>
+_тип:_ bool<br>
 _по умолчанию:_ 1<br>
 
 * **@size** (readonly)
-Получить number of elements in list<br>
+Запросить number of elements in list<br>
 _тип:_ int<br>
 _минимальное значение:_ 0<br>
 _по умолчанию:_ 0<br>

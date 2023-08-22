@@ -3,9 +3,9 @@
 
 # noise.stein
 
-###### Part of a-chaos library
+###### Stein distribution
 
-*доступно с версии:* .5
+*доступно с версии:* 0.5
 
 ---
 

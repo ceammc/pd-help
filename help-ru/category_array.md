@@ -8,7 +8,11 @@
 
 [**array.bpm**](array.bpm.html): BPM calculator 
 
+[**array.circular**](array.circular.html): array read/write as circular buffer 
+
 [**array.circular~**](array.circular~.html): circular buffer for arrays 
+
+[**array.convolve**](array.convolve.html): array FFT convolution 
 
 [**array.copy**](array.copy.html): copy samples from one array to another 
 
@@ -27,7 +31,7 @@
 [**array.minmax**](array.minmax.html): find array min and max element value 
 
 [**array.play~**](array.play~.html): array player with variable speed and amplitude <br>
-_псевдонимы:_ [array.p~]
+_псевдонимы:_ \[array.p~\]
 
 
 [**array.plot**](array.plot.html): array data plotter 
@@ -35,13 +39,13 @@ _псевдонимы:_ [array.p~]
 [**array.plot~**](array.plot~.html): plot signal on specified array 
 
 [**array.resample**](array.resample.html): array resampler <br>
-_псевдонимы:_ [array.r]
+_псевдонимы:_ \[array.r\]
 
 
 [**array.rms**](array.rms.html): calculates root mean square value for array 
 
 [**array.set**](array.set.html): set array content from list <br>
-_псевдонимы:_ [ceammc/list-&gt;array], [list-&gt;array]
+_псевдонимы:_ \[ceammc/list-&gt;array\], \[list-&gt;array\]
 
 
 [**array.stddev**](array.stddev.html): calculates standard deviation for array values 
@@ -61,7 +65,7 @@ _псевдонимы:_ [ceammc/list-&gt;array], [list-&gt;array]
 [**plot.geomspace~**](plot.geomspace~.html): outputs numbers spaced evenly on a log scale (a geometric progression) 
 
 [**plot.hist~**](plot.hist~.html): calculate and output signal histogram <br>
-_псевдонимы:_ [ceammc/hist~], [hist~]
+_псевдонимы:_ \[ceammc/hist~\], \[hist~\]
 
 
 [**plot.linspace~**](plot.linspace~.html): outputs numbers spaced evenly spaced over a specified interval 
@@ -71,6 +75,6 @@ _псевдонимы:_ [ceammc/hist~], [hist~]
 [**plot.response~**](plot.response~.html): output amp/phase freq response to impulse 
 
 
-**Версия:** 0.9.4
+**Версия:** 0.9.6
 
 **Лицензия:** GPL3

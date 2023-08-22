@@ -34,10 +34,9 @@ reset current segment position for multi-segment envelopes<br>
 ## свойства:
 
 * **@sync** 
-Получить/установить sync with input data. When set to 1 outputs envelope (as fixed) on every input
+Запросить/установить sync with input data. When set to 1 outputs envelope (as fixed) on every input
 data<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+_тип:_ bool<br>
 _по умолчанию:_ 0<br>
 
 

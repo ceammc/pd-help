@@ -43,19 +43,18 @@ disconnect from device<br>
 ## свойства:
 
 * **@port** 
-Получить/установить name of serial port, eg.: COM3 on Windows, /dev/ttyACM0 on Linux and
+Запросить/установить name of serial port, eg.: COM3 on Windows, /dev/ttyACM0 on Linux and
 /dev/cu.usbmodem411 on MacOSX<br>
 _тип:_ symbol<br>
 
 * **@rate** 
-Получить/установить serial baud rate. Standard value supported by most serial ports: 110, 300, 600,
-1200, 2400, 4800, 9600, 14400, 19200, 28800, 38400, 56000, 57600, 115200<br>
+Запросить/установить serial baud rate<br>
 _тип:_ int<br>
-_минимальное значение:_ 0<br>
+_варианты:_ 110, 300, 600, 1200, 2400, 4800, 9600, 14400, 19200, 38400, 56000, 57600, 115200, 128000, 256000<br>
 _по умолчанию:_ 57600<br>
 
 * **@devices** (readonly)
-Получить list of found serial devices<br>
+Запросить list of found serial devices<br>
 _тип:_ list<br>
 
 

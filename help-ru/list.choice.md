@@ -1,30 +1,71 @@
-[< справка — содержание](index.html)
+[index](index.html) :: [list](category_list.html)
 ---
 
 # list.choice
 
+###### outputs random element from list
 
-Выбирает случайный элемент из списка
-
----
-
-<br>
-
+*доступно с версии:* 0.1
 
 ---
 
 
-![example](examples/list.choice-example.jpg)
-
----
-аргументы:
 
 
----
-свойства:
+[![example](../examples/img/list.choice.jpg)](../examples/pd/list.choice.pd)
 
-@norepeat: Свойство norepeat property. Если установлено значение 1: каждое новое значение на выходе берется из нового элемента списка и не повторяется.<br>
 
----
-смотрите также:<br>
-[![random.int](img/object_random.int.png)](random.int.html)
+
+
+
+
+
+## свойства:
+
+* **@norepeat** 
+Запросить/установить norepeat property. If 1 is given: every time output value at new list position,
+do not repeat choosed position twice at adjacent events.<br>
+_тип:_ bool<br>
+_по умолчанию:_ 0<br>
+
+
+
+## входы:
+
+* Input list<br>
+_тип:_ control
+
+
+
+## выходы:
+
+* random list element<br>
+_тип:_ control
+
+
+
+## ключевые слова:
+
+[list](keywords/list.html)
+[random](keywords/random.html)
+[choice](keywords/choice.html)
+
+
+
+**Смотрите также:**
+[\[random.int\]](random.int.html)
+
+
+
+
+**Авторы:** Serge Poltavsky
+
+
+
+
+**Лицензия:** GPL3 or later
+
+
+
+
+

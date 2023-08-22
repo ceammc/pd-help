@@ -18,7 +18,7 @@
 
 ## аргументы:
 
-* **NUM**
+* **N**
 number of arguments<br>
 _тип:_ int<br>
 
@@ -34,16 +34,20 @@ resets all input states to false<br>
 
 ## свойства:
 
-* **@sync** 
-Получить/установить if specified - all inlets are &#39;hot&#39;<br>
+* **@n** (initonly)
+Запросить/установить number of arguments<br>
 _тип:_ int<br>
-_варианты:_ 0, 1<br>
+_диапазон:_ 3..16<br>
+_по умолчанию:_ 3<br>
+
+* **@sync** (initonly)
+Запросить/установить if specified - all inlets are &#39;hot&#39;<br>
+_тип:_ flag<br>
 _по умолчанию:_ 0<br>
 
 * **@state** (readonly)
-Получить internal logic state as list of 1 and 0<br>
+Запросить internal logic state as list of 1 and 0<br>
 _тип:_ list<br>
-_по умолчанию:_ 0 0 0<br>
 
 
 

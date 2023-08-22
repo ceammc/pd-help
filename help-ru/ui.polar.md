@@ -111,143 +111,138 @@ set UI element position<br>
 ## свойства:
 
 * **@clockwise** 
-Получить/установить clockwise positive direction<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить clockwise positive direction<br>
+_тип:_ bool<br>
 _по умолчанию:_ 1<br>
 
 * **@direction** 
-Получить/установить zero-angle direction<br>
+Запросить/установить zero-angle direction<br>
 _тип:_ symbol<br>
-_варианты:_ N, E, S, W<br>
+_варианты:_ N, W, S, E<br>
 _по умолчанию:_ N<br>
 
 * **@positive** 
-Получить/установить use positive output angle range. For example: [0..360) when using degrees,
+Запросить/установить use positive output angle range. For example: [0..360) when using degrees,
 otherwise using [-180..180) range.<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+_тип:_ bool<br>
 _по умолчанию:_ 0<br>
 
 * **@radians** 
-Получить/установить using radians instead of degrees<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить using radians instead of degrees<br>
+_тип:_ bool<br>
 _по умолчанию:_ 0<br>
 
 * **@angle** 
-Получить/установить angle<br>
+Запросить/установить angle<br>
 _тип:_ float<br>
 _по умолчанию:_ 0<br>
 
 * **@radius** 
-Получить/установить radius<br>
+Запросить/установить radius<br>
 _тип:_ float<br>
 _диапазон:_ 0..1<br>
 _по умолчанию:_ 0<br>
 
 * **@presetname** 
-Получить/установить preset name for using with [ui.preset]<br>
+Запросить/установить preset name for using with [ui.preset]<br>
 _тип:_ symbol<br>
 _по умолчанию:_ (null)<br>
 
 * **@send** 
-Получить/установить send destination<br>
+Запросить/установить send destination<br>
 _тип:_ symbol<br>
 _по умолчанию:_ (null)<br>
 
 * **@receive** 
-Получить/установить receive source<br>
+Запросить/установить receive source<br>
 _тип:_ symbol<br>
 _по умолчанию:_ (null)<br>
 
 * **@size** 
-Получить/установить element size (width, height pair)<br>
+Запросить/установить element size (width, height pair)<br>
 _тип:_ list<br>
 _по умолчанию:_ 100 100<br>
 
 * **@pinned** 
-Получить/установить pin mode. if 1 - put element to the lowest level<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить pin mode. if 1 - put element to the lowest level<br>
+_тип:_ bool<br>
 _по умолчанию:_ 0<br>
 
 * **@mouse_events** 
-Получить/установить mouse events output mode. If on outputs @mouse_down, @mouse_up and @mouse_drag
+Запросить/установить mouse events output mode. If on outputs @mouse_down, @mouse_up and @mouse_drag
 events<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+_тип:_ bool<br>
 _по умолчанию:_ 0<br>
 
 * **@background_color** 
-Получить/установить element background color (list of red, green, blue values in 0-1 range)<br>
+Запросить/установить element background color (list of red, green, blue values in 0-1 range)<br>
 _тип:_ list<br>
 _по умолчанию:_ 0.93 0.93 0.93 1<br>
 
 * **@border_color** 
-Получить/установить border color (list of red, green, blue values in 0-1 range)<br>
+Запросить/установить border color (list of red, green, blue values in 0-1 range)<br>
 _тип:_ list<br>
 _по умолчанию:_ 0.6 0.6 0.6 1<br>
 
 * **@fontsize** 
-Получить/установить fontsize<br>
+Запросить/установить fontsize<br>
 _тип:_ int<br>
-_диапазон:_ 4..11<br>
+_диапазон:_ 4..100<br>
 _по умолчанию:_ 11<br>
 
 * **@fontname** 
-Получить/установить fontname<br>
+Запросить/установить fontname<br>
 _тип:_ symbol<br>
+_варианты:_ Helvetica, Monaco, Courier, Times, DejaVu<br>
 _по умолчанию:_ Helvetica<br>
 
 * **@fontweight** 
-Получить/установить font weight<br>
+Запросить/установить font weight<br>
 _тип:_ symbol<br>
 _варианты:_ normal, bold<br>
 _по умолчанию:_ normal<br>
 
 * **@fontslant** 
-Получить/установить font slant<br>
+Запросить/установить font slant<br>
 _тип:_ symbol<br>
 _варианты:_ roman, italic<br>
 _по умолчанию:_ roman<br>
 
 * **@label** 
-Получить/установить label text<br>
+Запросить/установить label text<br>
 _тип:_ symbol<br>
 _по умолчанию:_ (null)<br>
 
 * **@label_color** 
-Получить/установить label color in RGB format within 0-1 range, for example: 0.2 0.4 0.1<br>
+Запросить/установить label color in RGB format within 0-1 range, for example: 0.2 0.4 0.1<br>
 _тип:_ list<br>
 _по умолчанию:_ 0 0 0 1<br>
 
 * **@label_inner** 
-Получить/установить label position (1 - inner, 0 - outer).<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить label position (1 - inner, 0 - outer).<br>
+_тип:_ bool<br>
 _по умолчанию:_ 0<br>
 
 * **@label_align** 
-Получить/установить label horizontal align<br>
+Запросить/установить label horizontal align<br>
 _тип:_ symbol<br>
 _варианты:_ left, center, right<br>
 _по умолчанию:_ left<br>
 
 * **@label_valign** 
-Получить/установить label vertical align<br>
+Запросить/установить label vertical align<br>
 _тип:_ symbol<br>
 _варианты:_ top, center, bottom<br>
 _по умолчанию:_ top<br>
 
 * **@label_side** 
-Получить/установить label snap side<br>
+Запросить/установить label snap side<br>
 _тип:_ symbol<br>
 _варианты:_ left, top, right, bottom<br>
 _по умолчанию:_ top<br>
 
 * **@label_margins** 
-Получить/установить label offset in pixels<br>
+Запросить/установить label offset in pixels<br>
 _тип:_ list<br>
 _по умолчанию:_ 0 0<br>
 

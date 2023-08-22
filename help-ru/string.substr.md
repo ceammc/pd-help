@@ -23,7 +23,7 @@ substring position. May be relative: -1 means one character from the end of
 stirng<br>
 _тип:_ int<br>
 
-* **LENGTH**
+* **LEN**
 substring length. If -1 given (by default), means &#39;till string end&#39;.<br>
 _тип:_ int<br>
 
@@ -34,12 +34,12 @@ _тип:_ int<br>
 ## свойства:
 
 * **@from** 
-Получить/установить substring position. Can be negative - to address string from the end<br>
+Запросить/установить substring position. Can be negative - to address string from the end<br>
 _тип:_ int<br>
 _по умолчанию:_ 0<br>
 
 * **@len** 
-Получить/установить substring length. If equal to -1, substring to the end of string<br>
+Запросить/установить substring length. If equal to -1, substring to the end of string<br>
 _тип:_ int<br>
 _минимальное значение:_ 0<br>
 _по умолчанию:_ -1<br>

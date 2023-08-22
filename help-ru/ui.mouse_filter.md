@@ -25,68 +25,62 @@ pass only specified mouse events from ui.* objects
 ## свойства:
 
 * **@mouse_up** 
-Получить/установить passing a @mouse_up events<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить passing a @mouse_up events<br>
+_тип:_ bool<br>
 _по умолчанию:_ 0<br>
 
 * **@mouse_down** 
-Получить/установить passing a @mouse_down events<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить passing a @mouse_down events<br>
+_тип:_ bool<br>
 _по умолчанию:_ 0<br>
 
 * **@mouse_leave** 
-Получить/установить passing a @mouse_leave events<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить passing a @mouse_leave events<br>
+_тип:_ bool<br>
 _по умолчанию:_ 0<br>
 
 * **@mouse_enter** 
-Получить/установить passing a @mouse_enter events<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить passing a @mouse_enter events<br>
+_тип:_ bool<br>
 _по умолчанию:_ 0<br>
 
 * **@mouse_move** 
-Получить/установить passing a @mouse_move events<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить passing a @mouse_move events<br>
+_тип:_ bool<br>
 _по умолчанию:_ 0<br>
 
 * **@mouse_drag** 
-Получить/установить passing a @mouse_drag events<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить passing a @mouse_drag events<br>
+_тип:_ bool<br>
 _по умолчанию:_ 0<br>
 
 * **@up** 
-Получить/установить alias to @mouse_up 1 property<br>
+Запросить/установить alias to @mouse_up 1 property<br>
 _тип:_ alias<br>
 _по умолчанию:_ 0<br>
 
 * **@down** 
-Получить/установить alias to @mouse_down 1 property<br>
+Запросить/установить alias to @mouse_down 1 property<br>
 _тип:_ alias<br>
 _по умолчанию:_ 0<br>
 
 * **@leave** 
-Получить/установить alias to @mouse_leave 1 property<br>
+Запросить/установить alias to @mouse_leave 1 property<br>
 _тип:_ alias<br>
 _по умолчанию:_ 0<br>
 
 * **@enter** 
-Получить/установить alias to @mouse_enter 1 property<br>
+Запросить/установить alias to @mouse_enter 1 property<br>
 _тип:_ alias<br>
 _по умолчанию:_ 0<br>
 
 * **@move** 
-Получить/установить alias to @mouse_move 1 property<br>
+Запросить/установить alias to @mouse_move 1 property<br>
 _тип:_ alias<br>
 _по умолчанию:_ 0<br>
 
 * **@drag** 
-Получить/установить alias to @mouse_drag 1 property<br>
+Запросить/установить alias to @mouse_drag 1 property<br>
 _тип:_ alias<br>
 _по умолчанию:_ 0<br>
 

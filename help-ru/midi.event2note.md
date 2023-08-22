@@ -31,7 +31,7 @@ _тип:_ control
 
 ## выходы:
 
-* output pair: note, velocity<br>
+* pair: note, velocity<br>
 _тип:_ control
 * note duration in milliseconds<br>
 _тип:_ control

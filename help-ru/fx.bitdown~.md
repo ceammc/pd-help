@@ -18,11 +18,11 @@
 
 ## аргументы:
 
-* **bits**
+* **BITS**
 number of bits<br>
 _тип:_ int<br>
 
-* **downsamp**
+* **DOWNSAMP**
 number of samples to skip<br>
 _тип:_ int<br>
 _единица:_ samp<br>
@@ -34,28 +34,26 @@ _единица:_ samp<br>
 ## свойства:
 
 * **@bits** 
-Получить/установить output bits<br>
+Запросить/установить output bits<br>
 _тип:_ int<br>
 _диапазон:_ 1..16<br>
 _по умолчанию:_ 16<br>
 
 * **@downsamp** 
-Получить/установить number samples to skip<br>
+Запросить/установить number samples to skip<br>
 _тип:_ int<br>
 _единица:_ samp<br>
 _диапазон:_ 1..200<br>
 _по умолчанию:_ 1<br>
 
 * **@bypass** 
-Получить/установить if set to 1 - bypass &#39;effected&#39; signal.<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить if set to 1 - bypass &#39;effected&#39; signal.<br>
+_тип:_ bool<br>
 _по умолчанию:_ 0<br>
 
 * **@active** 
-Получить/установить on/off dsp processing<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить on/off dsp processing<br>
+_тип:_ bool<br>
 _по умолчанию:_ 1<br>
 
 

@@ -18,7 +18,7 @@
 
 ## аргументы:
 
-* **values**
+* **VALUES**
 list of atoms to reject<br>
 _тип:_ list<br>
 
@@ -29,7 +29,7 @@ _тип:_ list<br>
 ## свойства:
 
 * **@values** 
-Получить/установить atoms to reject<br>
+Запросить/установить atoms to reject<br>
 _тип:_ list<br>
 
 

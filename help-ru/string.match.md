@@ -22,7 +22,7 @@ Used syntax: re2 (like pcre). Some characters are non-supported in Pd. Use ` ins
 
 * **RE**
 regular expression<br>
-_тип:_ symbol<br>
+_тип:_ list<br>
 
 
 
@@ -31,7 +31,7 @@ _тип:_ symbol<br>
 ## свойства:
 
 * **@re** 
-Получить/установить regular expression<br>
+Запросить/установить regular expression<br>
 _тип:_ list<br>
 
 

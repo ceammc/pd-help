@@ -3,15 +3,15 @@
 
 # noise.duffing
 
-###### Part of a-chaos library
+###### duffing attractor
 
-*доступно с версии:* .5
+*доступно с версии:* 0.5
 
 ---
 
 
 ## информация
-Duffing Attractor Written by Paul Bourke March 1998 --- The solution to the Duffing equations is often used as an example of a classic chaotic system. The Duffing system of differential equations is: =========== dx / dt = y dy / dt = x - x3 - a y + b cos(w t) =================================== where typically, a = 0.25, b = 0.3, w = 1 The following shows a &#34;typical&#34; segment of (x,y) values.
+Duffing Attractor Written by Paul Bourke --- The solution to the Duffing equations is often used as an example of a classic chaotic system. The Duffing system of differential equations is: =========== dx / dt = y dy / dt = x - x3 - a y + b cos(w t) =================================== where typically, a = 0.25, b = 0.3, w = 1 The following shows a &#34;typical&#34; segment of (x,y) values.
 
 
 [![example](../examples/img/noise.duffing.jpg)](../examples/pd/noise.duffing.pd)
@@ -20,19 +20,19 @@ Duffing Attractor Written by Paul Bourke March 1998 --- The solution to the Duff
 
 ## аргументы:
 
-* **ARG0**
+* **A**
 a value (default 0.25), optional<br>
 _тип:_ float<br>
 
-* **ARG1**
+* **B**
 b value (default 0.3), optional<br>
 _тип:_ float<br>
 
-* **ARG2**
+* **W**
 w value (default 1.0), optional<br>
 _тип:_ float<br>
 
-* **ARG3**
+* **DT**
 dt value (default 0.01), optional<br>
 _тип:_ float<br>
 
@@ -99,7 +99,9 @@ _тип:_ control
 
 ## выходы:
 
-* main outlet<br>
+* dx output<br>
+_тип:_ control
+* dy output<br>
 _тип:_ control
 
 

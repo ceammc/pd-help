@@ -3,7 +3,7 @@
 
 # string.join
 
-###### joins (concatenates) strings with separator
+###### joins (concatenates) list to string with separator
 
 *доступно с версии:* 0.3
 
@@ -29,8 +29,8 @@ _тип:_ list<br>
 ## свойства:
 
 * **@sep** 
-Получить/установить separator<br>
-_тип:_ symbol<br>
+Запросить/установить separator<br>
+_тип:_ list<br>
 
 
 

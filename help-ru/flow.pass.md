@@ -16,6 +16,12 @@
 
 
 
+## аргументы:
+
+* **VALUES**
+atoms to pass<br>
+_тип:_ list<br>
+
 
 
 
@@ -23,7 +29,7 @@
 ## свойства:
 
 * **@values** 
-Получить/установить atoms to pass<br>
+Запросить/установить atoms to pass<br>
 _тип:_ list<br>
 
 

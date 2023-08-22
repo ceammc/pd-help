@@ -20,10 +20,14 @@ switching between waveforms is interpolated and takes 50ms.
 
 ## аргументы:
 
-* **freq**
+* **FREQ**
 frequency<br>
 _тип:_ float<br>
 _единица:_ Hz<br>
+
+* **WAVE**
+wave type<br>
+_тип:_ symbol<br>
 
 
 
@@ -38,40 +42,38 @@ reset to initial state<br>
 ## свойства:
 
 * **@duty** 
-Получить/установить duty cycle for pulse waveform<br>
+Запросить/установить duty cycle for pulse waveform<br>
 _тип:_ float<br>
 _диапазон:_ 0..1<br>
 _по умолчанию:_ 0.5<br>
 
 * **@pause** 
-Получить/установить pause oscillator at current value<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить pause oscillator at current value<br>
+_тип:_ bool<br>
 _по умолчанию:_ 0<br>
 
 * **@phase** 
-Получить/установить initial phase<br>
+Запросить/установить initial phase<br>
 _тип:_ float<br>
 _диапазон:_ 0..1<br>
 _по умолчанию:_ 0<br>
 
 * **@windex** 
-Получить/установить waveform index (counting from 0): sin, saw, tri, sqr, pulse, +sin, +saw, +tri,
+Запросить/установить waveform index (counting from 0): sin, saw, tri, sqr, pulse, +sin, +saw, +tri,
 +sqr, +pulse.<br>
 _тип:_ int<br>
 _диапазон:_ 0..9<br>
 _по умолчанию:_ 0<br>
 
 * **@wave** 
-Получить/установить wave type<br>
+Запросить/установить wave type<br>
 _тип:_ symbol<br>
 _варианты:_ sin, saw, tri, sqr, pulse, +sin, +saw, +tri, +sqr, +pulse<br>
 _по умолчанию:_ sin<br>
 
 * **@active** 
-Получить/установить on/off dsp processing<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить on/off dsp processing<br>
+_тип:_ bool<br>
 _по умолчанию:_ 1<br>
 
 

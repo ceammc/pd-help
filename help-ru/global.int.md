@@ -49,7 +49,7 @@ divide by, no output<br>
 ## свойства:
 
 * **@value** (readonly)
-Получить current value<br>
+Запросить current value<br>
 _тип:_ int<br>
 _по умолчанию:_ 0<br>
 

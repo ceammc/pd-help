@@ -29,21 +29,19 @@ _тип:_ float<br>
 ## свойства:
 
 * **@drive** 
-Получить/установить drive coefficient<br>
+Запросить/установить drive coefficient<br>
 _тип:_ float<br>
 _диапазон:_ 1..10<br>
 _по умолчанию:_ 1<br>
 
 * **@bypass** 
-Получить/установить if set to 1 - bypass &#39;effected&#39; signal.<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить if set to 1 - bypass &#39;effected&#39; signal.<br>
+_тип:_ bool<br>
 _по умолчанию:_ 0<br>
 
 * **@active** 
-Получить/установить on/off dsp processing<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить on/off dsp processing<br>
+_тип:_ bool<br>
 _по умолчанию:_ 1<br>
 
 

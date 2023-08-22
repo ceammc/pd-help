@@ -20,7 +20,7 @@ Passthru all control data not often then specified limit in ms. Can be used for 
 
 ## аргументы:
 
-* **TIME**
+* **LIMIT**
 limit time<br>
 _тип:_ int<br>
 _единица:_ ms<br>
@@ -32,7 +32,7 @@ _единица:_ ms<br>
 ## свойства:
 
 * **@limit** 
-Получить/установить speed limit. If set to zero there is no flow limitations<br>
+Запросить/установить speed limit. If set to zero there is no flow limitations<br>
 _тип:_ int<br>
 _единица:_ ms<br>
 _минимальное значение:_ 0<br>

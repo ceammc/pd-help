@@ -28,33 +28,32 @@ _тип:_ int<br>
 
 ## свойства:
 
-* **@ch** 
-Получить/установить number of input channels<br>
+* **@n** (initonly)
+Запросить/установить number of input channels<br>
 _тип:_ int<br>
 _диапазон:_ 2..16<br>
 _по умолчанию:_ 2<br>
 
 * **@spread** 
-Получить/установить for @spread = 0, all channels are in the centre, for 1, they have maximum
+Запросить/установить for @spread = 0, all channels are in the centre, for 1, they have maximum
 distribution<br>
 _тип:_ float<br>
 _диапазон:_ 0..1<br>
 _по умолчанию:_ 1<br>
 
 * **@center** 
-Получить/установить shift the centre of the distribution<br>
+Запросить/установить shift the centre of the distribution<br>
 _тип:_ float<br>
 _диапазон:_ -0.5..0.5<br>
 _по умолчанию:_ 0<br>
 
 * **@compensate** 
-Получить/установить compensate output level: divide amplitude to number of input channels<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить compensate output level: divide amplitude to number of input channels<br>
+_тип:_ bool<br>
 _по умолчанию:_ 0<br>
 
 * **@coeffs** (readonly)
-Получить list of gain pairs<br>
+Запросить list of gain pairs<br>
 _тип:_ list<br>
 
 

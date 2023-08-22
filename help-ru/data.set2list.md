@@ -24,8 +24,8 @@ Note: output list is not sorted by default. You can use @sort flag to get sorted
 
 ## свойства:
 
-* **@sort** 
-Получить/установить if specified - sort output list<br>
+* **@sort** (initonly)
+Запросить/установить if specified - sort output list<br>
 _тип:_ flag<br>
 _по умолчанию:_ 0<br>
 

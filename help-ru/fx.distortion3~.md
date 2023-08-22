@@ -23,49 +23,47 @@
 ## свойства:
 
 * **@gain** 
-Получить/установить total effect gain<br>
+Запросить/установить total effect gain<br>
 _тип:_ float<br>
 _единица:_ db<br>
 _диапазон:_ -30..10<br>
 _по умолчанию:_ 0<br>
 
 * **@drive** 
-Получить/установить distortion amount<br>
+Запросить/установить distortion amount<br>
 _тип:_ float<br>
 _диапазон:_ 0..1<br>
 _по умолчанию:_ 0.5<br>
 
 * **@lp_freq** 
-Получить/установить low pass frequency<br>
+Запросить/установить low pass frequency<br>
 _тип:_ float<br>
 _единица:_ Hz<br>
 _диапазон:_ 1000..20000<br>
 _по умолчанию:_ 10000<br>
 
 * **@hp_freq** 
-Получить/установить high pass frequency<br>
+Запросить/установить high pass frequency<br>
 _тип:_ float<br>
 _единица:_ Hz<br>
 _диапазон:_ 20..2000<br>
 _по умолчанию:_ 30<br>
 
 * **@active** 
-Получить/установить on/off dsp processing<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить on/off dsp processing<br>
+_тип:_ bool<br>
 _по умолчанию:_ 1<br>
 
 * **@drywet** 
-Получить/установить proportion of mix between the original (dry) and &#39;effected&#39; (wet) signals. 0 -
+Запросить/установить proportion of mix between the original (dry) and &#39;effected&#39; (wet) signals. 0 -
 dry signal, 1 - wet.<br>
 _тип:_ float<br>
 _диапазон:_ 0..1<br>
 _по умолчанию:_ 1<br>
 
 * **@bypass** 
-Получить/установить if set to 1 - bypass &#39;effected&#39; signal.<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить if set to 1 - bypass &#39;effected&#39; signal.<br>
+_тип:_ bool<br>
 _по умолчанию:_ 0<br>
 
 

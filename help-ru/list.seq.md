@@ -1,36 +1,99 @@
-[< справка — содержание](index.html)
+[index](index.html) :: [list](category_list.html)
 ---
 
 # list.seq
 
+###### numeric sequence list generator
 
-Генератор последовательностей чисел
-
----
-
-<br>
-
+*доступно с версии:* 0.1
 
 ---
 
 
-![example](examples/list.seq-example.jpg)
 
----
-аргументы:
 
-FROM: начальное значение<br>
-TO: конечное значение<br>
-STEP: размер шага<br>
+[![example](../examples/img/list.seq.jpg)](../examples/pd/list.seq.pd)
 
----
-свойства:
 
-@from: начальное значение<br>
-@to: конечное значение<br>
-@step: размер шага (всегда больше 0)<br>
-@closed: если 1, используется весь диапазон значений<br>
 
----
-смотрите также:<br>
-[![list.gen](img/object_list.gen.png)](list.gen.html)
+## аргументы:
+
+* **FROM**
+start value<br>
+_тип:_ float<br>
+
+* **TO**
+end value<br>
+_тип:_ float<br>
+
+* **STEP**
+sequence step<br>
+_тип:_ float<br>
+
+
+
+
+
+## свойства:
+
+* **@from** 
+Запросить/установить start value<br>
+_тип:_ float<br>
+_по умолчанию:_ 0<br>
+
+* **@to** 
+Запросить/установить end value<br>
+_тип:_ float<br>
+_по умолчанию:_ 1<br>
+
+* **@step** 
+Запросить/установить sequence step (always positive)<br>
+_тип:_ float<br>
+_по умолчанию:_ 1<br>
+
+* **@closed** (initonly)
+Запросить/установить generate closed range sequence<br>
+_тип:_ flag<br>
+_по умолчанию:_ 0<br>
+
+
+
+## входы:
+
+* outputs generated list<br>
+_тип:_ control
+
+
+
+## выходы:
+
+* generated sequence<br>
+_тип:_ control
+
+
+
+## ключевые слова:
+
+[list](keywords/list.html)
+[sequence](keywords/sequence.html)
+[generate](keywords/generate.html)
+
+
+
+**Смотрите также:**
+[\[list.gen\]](list.gen.html)
+
+
+
+
+**Авторы:** Alex Nadzharov, Serge Poltavsky
+
+
+
+
+**Лицензия:** GPL3 or later
+
+
+
+
+

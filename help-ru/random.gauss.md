@@ -35,18 +35,18 @@ _тип:_ float<br>
 ## свойства:
 
 * **@mu** 
-Получить/установить the mean<br>
+Запросить/установить the mean<br>
 _тип:_ float<br>
 _по умолчанию:_ 0<br>
 
 * **@sigma** 
-Получить/установить the standard deviation<br>
+Запросить/установить the standard deviation<br>
 _тип:_ float<br>
 _минимальное значение:_ 0<br>
 _по умолчанию:_ 0<br>
 
 * **@seed** 
-Получить/установить generator seed<br>
+Запросить/установить generator seed<br>
 _тип:_ int<br>
 _минимальное значение:_ 0<br>
 _по умолчанию:_ 0<br>

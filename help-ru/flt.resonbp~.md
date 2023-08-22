@@ -18,12 +18,12 @@
 
 ## аргументы:
 
-* **freq**
+* **FREQ**
 center frequency<br>
 _тип:_ float<br>
 _единица:_ Hz<br>
 
-* **q**
+* **Q**
 Q<br>
 _тип:_ float<br>
 
@@ -34,22 +34,21 @@ _тип:_ float<br>
 ## свойства:
 
 * **@freq** 
-Получить/установить center frequency<br>
+Запросить/установить center frequency<br>
 _тип:_ float<br>
 _единица:_ Hz<br>
 _диапазон:_ 20..20000<br>
 _по умолчанию:_ 1000<br>
 
 * **@q** 
-Получить/установить Q<br>
+Запросить/установить Q<br>
 _тип:_ float<br>
 _диапазон:_ 0.1..300<br>
 _по умолчанию:_ 80<br>
 
 * **@active** 
-Получить/установить on/off dsp processing<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить on/off dsp processing<br>
+_тип:_ bool<br>
 _по умолчанию:_ 1<br>
 
 
@@ -58,6 +57,10 @@ _по умолчанию:_ 1<br>
 
 * input signal<br>
 _тип:_ audio
+* set frequency<br>
+_тип:_ control
+* set Q-factor<br>
+_тип:_ control
 
 
 
@@ -76,6 +79,7 @@ _тип:_ audio
 
 
 **Смотрите также:**
+[\[flt.resonlp~\]](flt.resonlp~.html)
 [\[flt.bpf12~\]](flt.bpf12~.html)
 
 

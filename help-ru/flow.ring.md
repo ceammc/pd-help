@@ -18,7 +18,7 @@
 
 ## аргументы:
 
-* **N**
+* **LENGTH**
 buffer length<br>
 _тип:_ int<br>
 
@@ -28,8 +28,8 @@ _тип:_ int<br>
 
 ## свойства:
 
-* **@length** 
-Получить/установить buffer length<br>
+* **@length** (initonly)
+Запросить/установить buffer length<br>
 _тип:_ int<br>
 _диапазон:_ 1..24<br>
 _по умолчанию:_ 2<br>

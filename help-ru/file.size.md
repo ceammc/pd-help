@@ -25,13 +25,12 @@ Note: by default filesize request performed asynchronously, so there&#39;s a (us
 ## свойства:
 
 * **@async** 
-Получить/установить async mode<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить async mode<br>
+_тип:_ bool<br>
 _по умолчанию:_ 1<br>
 
 * **@sync** 
-Получить/установить alias for @async 0<br>
+Запросить/установить alias for @async 0<br>
 _тип:_ alias<br>
 
 

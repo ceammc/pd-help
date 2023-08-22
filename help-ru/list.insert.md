@@ -20,7 +20,7 @@ Works with data atoms
 
 ## аргументы:
 
-* **LIST**
+* **VALUE**
 list content<br>
 _тип:_ list<br>
 
@@ -31,13 +31,13 @@ _тип:_ list<br>
 ## свойства:
 
 * **@index** 
-Получить/установить insert element index<br>
+Запросить/установить insert element index<br>
 _тип:_ int<br>
 _минимальное значение:_ 0<br>
 _по умолчанию:_ 0<br>
 
 * **@value** 
-Получить/установить list contents<br>
+Запросить/установить list content<br>
 _тип:_ list<br>
 
 

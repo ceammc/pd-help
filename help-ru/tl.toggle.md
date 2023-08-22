@@ -25,7 +25,7 @@ Output 1 when cue section activated, 0 when switched to other cue section
 ## свойства:
 
 * **@cue** (readonly)
-Получить related cue<br>
+Запросить related cue<br>
 _тип:_ symbol<br>
 
 

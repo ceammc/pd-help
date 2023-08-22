@@ -31,7 +31,7 @@ _тип:_ int<br>
 ## свойства:
 
 * **@step** 
-Получить/установить rotate step. Negative value change rotation direction to opposite<br>
+Запросить/установить rotate step. Negative value change rotation direction to opposite<br>
 _тип:_ int<br>
 _по умолчанию:_ 1<br>
 

@@ -20,12 +20,12 @@ click on object to activate envelope
 
 ## аргументы:
 
-* **attack**
+* **ATTACK**
 attack time<br>
 _тип:_ float<br>
 _единица:_ ms<br>
 
-* **release**
+* **RELEASE**
 release time<br>
 _тип:_ float<br>
 _единица:_ ms<br>
@@ -46,39 +46,37 @@ reset envelope to initial state<br>
 ## свойства:
 
 * **@attack** 
-Получить/установить attack time<br>
+Запросить/установить attack time<br>
 _тип:_ float<br>
 _единица:_ ms<br>
 _диапазон:_ 0..100000<br>
 _по умолчанию:_ 10<br>
 
 * **@release** 
-Получить/установить release time<br>
+Запросить/установить release time<br>
 _тип:_ float<br>
 _единица:_ ms<br>
 _диапазон:_ 0..100000<br>
 _по умолчанию:_ 300<br>
 
 * **@gate** 
-Получить/установить trigger signal<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить trigger signal<br>
+_тип:_ bool<br>
 _по умолчанию:_ 0<br>
 
 * **@ar** (readonly)
-Получить attack release pair<br>
+Запросить attack release pair<br>
 _тип:_ list<br>
 
 * **@length** (readonly)
-Получить envelope length<br>
+Запросить envelope length<br>
 _тип:_ float<br>
 _единица:_ ms<br>
 _по умолчанию:_ 310<br>
 
 * **@active** 
-Получить/установить on/off dsp processing<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить on/off dsp processing<br>
+_тип:_ bool<br>
 _по умолчанию:_ 1<br>
 
 

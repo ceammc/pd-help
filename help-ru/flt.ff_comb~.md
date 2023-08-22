@@ -20,7 +20,7 @@ Frequency response of a comb filter consists of a series of regularly spaced not
 
 ## аргументы:
 
-* **a**
+* **A**
 scaling factor of delayed signal<br>
 _тип:_ float<br>
 
@@ -37,15 +37,14 @@ reset filter state<br>
 ## свойства:
 
 * **@a** 
-Получить/установить scaling factor of delayed signal<br>
+Запросить/установить scaling factor of delayed signal<br>
 _тип:_ float<br>
 _диапазон:_ -1..1<br>
 _по умолчанию:_ 1<br>
 
 * **@active** 
-Получить/установить on/off dsp processing<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить on/off dsp processing<br>
+_тип:_ bool<br>
 _по умолчанию:_ 1<br>
 
 

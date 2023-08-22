@@ -31,7 +31,7 @@ _тип:_ list<br>
 ## свойства:
 
 * **@expr** 
-Получить/установить expression<br>
+Запросить/установить expression<br>
 _тип:_ list<br>
 
 

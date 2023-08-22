@@ -18,7 +18,7 @@
 
 ## аргументы:
 
-* **STR**
+* **SUBJ**
 second string initial value<br>
 _тип:_ symbol<br>
 
@@ -29,7 +29,7 @@ _тип:_ symbol<br>
 ## свойства:
 
 * **@subj** 
-Получить/установить string to compare<br>
+Запросить/установить string to compare<br>
 _тип:_ symbol<br>
 
 

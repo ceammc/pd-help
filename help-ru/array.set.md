@@ -18,7 +18,7 @@
 
 ## аргументы:
 
-* **NAME**
+* **ARRAY**
 array name<br>
 _тип:_ symbol<br>
 
@@ -29,18 +29,17 @@ _тип:_ symbol<br>
 ## свойства:
 
 * **@array** 
-Получить/установить array name<br>
+Запросить/установить array name<br>
 _тип:_ symbol<br>
 
-* **@normalize** 
-Получить/установить scale input values to fit them in [0, 1] range<br>
+* **@normalize** (initonly)
+Запросить/установить scale input values to fit them in [0, 1] range<br>
 _тип:_ flag<br>
 _по умолчанию:_ 0<br>
 
 * **@redraw** 
-Получить/установить redraw array view<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить redraw array view<br>
+_тип:_ bool<br>
 _по умолчанию:_ 1<br>
 
 

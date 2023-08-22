@@ -106,7 +106,7 @@ change the playback position. By default, seeks by a relative amount of seconds<
 ## свойства:
 
 * **@ipc** 
-Получить/установить path to IPC local socket<br>
+Запросить/установить path to IPC local socket<br>
 _тип:_ symbol<br>
 
 

@@ -35,6 +35,8 @@ _тип:_ control
 
 * 0 or 1<br>
 _тип:_ control
+* symbol os String: pass filename if file exists<br>
+_тип:_ control
 
 
 

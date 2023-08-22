@@ -3,15 +3,15 @@
 
 # noise.lyapunov
 
-###### Part of a-chaos library
+###### lyapunov random attractor
 
-*доступно с версии:* .5
+*доступно с версии:* 0.5
 
 ---
 
 
 ## информация
-inspired by Paul Bourke, implementation by André Sier --- lyapunov random attractors --- Paul Bourke&#39;s words http://astronomy.swin.edu.au/%7Epbourke/fractals/lyapunov/ --- On average 98% of the random selections of (an, bn) result in an infinite series. This is so common because of the range (-2 &lt;= a,b &lt;= 2) for each of the parameters a and b, the number of infinite cases will reduce greatly with a smaller range. About 1% were point attractors, and about 0.5% were periodic basins of attraction. === xn+1 = a0 + a1 xn + a2 xn2 + a3 xn yn + a4 yn + a5 yn2 yn+1 = b0 + b1 xn + b2 xn2 + b3 xn yn + b4 yn + b5 yn2 === see references in object&#39;s source code
+inspired by Paul Bourke, implementation by André Sier --- lyapunov random attractors --- Paul Bourke&#39;s words http://astronomy.swin.edu.au/%7Epbourke/fractals/lyapunov/ --- On average 98% of the random selections of (an, bn) result in an infinite series. This is so common because of the range (-2&lt;=a, b&lt;=2) for each of the parameters a and b, the number of infinite cases will reduce greatly with a smaller range. About 1% were point attractors, and about 0.5% were periodic basins of attraction. === x[n+1] = a[0] + a[1]*x[n] + a[2]*x[n]^2 + a[3]*x[n]*y[n] + a[4]*y[n] + a[5]*y[n]^2 y[n+1] = b[0] + b[1]*x[n] + b[2]*x[n]^2 + b[3]*x[n]*y[n] + b[4]*y[n] + b[5]*y[n]^2 ===
 
 
 [![example](../examples/img/noise.lyapunov.jpg)](../examples/pd/noise.lyapunov.pd)
@@ -20,19 +20,19 @@ inspired by Paul Bourke, implementation by André Sier --- lyapunov random attra
 
 ## аргументы:
 
-* **ARG0**
+* **A**
 a value (optional)<br>
 _тип:_ float<br>
 
-* **ARG1**
+* **B**
 b value (optional)<br>
 _тип:_ float<br>
 
-* **ARG2**
+* **X**
 x value (optional)<br>
 _тип:_ float<br>
 
-* **ARG3**
+* **Y**
 y value (optional)<br>
 _тип:_ float<br>
 
@@ -60,16 +60,46 @@ reset state<br>
 * **a**
 <br>
   __параметры:__
-  - **A** a value<br>
+  - **A0** a[0] value<br>
     тип: float <br>
     обязательно: True <br>
+
+  - **[A1]** a[1] value<br>
+    тип: float <br>
+
+  - **[A2]** a[2] value<br>
+    тип: float <br>
+
+  - **[A3]** a[3] value<br>
+    тип: float <br>
+
+  - **[A4]** a[4] value<br>
+    тип: float <br>
+
+  - **[A5]** a[5] value<br>
+    тип: float <br>
 
 * **b**
 <br>
   __параметры:__
-  - **B** b value<br>
+  - **B0** b[0] value<br>
     тип: float <br>
     обязательно: True <br>
+
+  - **[B1]** b[1] value<br>
+    тип: float <br>
+
+  - **[B2]** b[2] value<br>
+    тип: float <br>
+
+  - **[B3]** b[3] value<br>
+    тип: float <br>
+
+  - **[B4]** b[4] value<br>
+    тип: float <br>
+
+  - **[B5]** b[5] value<br>
+    тип: float <br>
 
 * **x**
 <br>
@@ -99,7 +129,9 @@ _тип:_ control
 
 ## выходы:
 
-* main outlet<br>
+* x outlet<br>
+_тип:_ control
+* y outlet<br>
 _тип:_ control
 
 

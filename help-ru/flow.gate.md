@@ -20,9 +20,9 @@ Note: property setting can be done only via [prop.set] object, since object acce
 
 ## аргументы:
 
-* **PASS**
+* **STATE**
 init gate state. 1 means open, 0 - closed. By default gate is closed<br>
-_тип:_ int<br>
+_тип:_ bool<br>
 
 
 
@@ -31,9 +31,8 @@ _тип:_ int<br>
 ## свойства:
 
 * **@state** 
-Получить/установить gate state. 1 means open, 0 - closed<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить gate state. 1 means open, 0 - closed<br>
+_тип:_ bool<br>
 _по умолчанию:_ 0<br>
 
 

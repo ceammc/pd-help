@@ -11,7 +11,7 @@
 
 
 ## информация
-checks is |x - pattern| &lt;= |epsilon|
+checks if |x - pattern| &lt;= |epsilon|
 
 
 [![example](../examples/img/math.approx.jpg)](../examples/pd/math.approx.pd)
@@ -20,11 +20,11 @@ checks is |x - pattern| &lt;= |epsilon|
 
 ## аргументы:
 
-* **P**
+* **VALUE**
 compare pattern<br>
 _тип:_ float<br>
 
-* **E**
+* **EPSILON**
 compare epsilon<br>
 _тип:_ float<br>
 
@@ -35,12 +35,12 @@ _тип:_ float<br>
 ## свойства:
 
 * **@value** 
-Получить/установить compare pattern<br>
+Запросить/установить compare pattern<br>
 _тип:_ float<br>
 _по умолчанию:_ 0<br>
 
 * **@epsilon** 
-Получить/установить compare epsilon<br>
+Запросить/установить compare epsilon<br>
 _тип:_ float<br>
 _по умолчанию:_ 0.01<br>
 

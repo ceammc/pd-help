@@ -16,6 +16,12 @@
 
 
 
+## аргументы:
+
+* **FROM**
+enumeration start index<br>
+_тип:_ int<br>
+
 
 
 
@@ -23,12 +29,12 @@
 ## свойства:
 
 * **@from** 
-Получить/установить start enumeration index<br>
+Запросить/установить enumeration start index<br>
 _тип:_ int<br>
 _по умолчанию:_ 0<br>
 
-* **@append** 
-Получить/установить put element index after element value<br>
+* **@append** (initonly)
+Запросить/установить put element index after element value<br>
 _тип:_ flag<br>
 _по умолчанию:_ 0<br>
 

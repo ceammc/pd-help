@@ -151,7 +151,7 @@ _тип:_ control
 
 
 
-**Авторы:** Serge Poltavski
+**Авторы:** Serge Poltavsky
 
 
 

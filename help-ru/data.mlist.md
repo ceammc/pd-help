@@ -1,36 +1,169 @@
-[< справка — содержание](index.html)
+[index](index.html) :: [data](category_data.html)
 ---
 
 # data.mlist
 
+###### multidimensional list container
 
-Контейнер для многоуровневого списка (mlist)
-
----
-
-Синтаксис: значения, разделенные пробелами:(1 2 3) - список из значений 1, 2 и 3
-Вложенные списки: (1 2 3 (значения элементов вложенного списка))
-Символы с пробелами: (&#34;список с одним элементом&#34;)
-<br>
-
+*доступно с версии:* 0.6
 
 ---
 
 
-![example](examples/data.mlist-example.jpg)
+## информация
+Syntax: values are separated by spaces: (1 2 3) - list of 1, 2 and 3 Nested lists: (1 2 3 (nested liat values)) Symbols with spaces: (&#34;single item list&#34;)
 
----
-аргументы:
 
-X: начальные значения для списка. Пример: (1 2 3 (1 2)
-            4)<br>
+[![example](../examples/img/data.mlist.jpg)](../examples/pd/data.mlist.pd)
 
----
-свойства:
 
-@empty: 1 если список пустой, иначе 0<br>
-@size: количество элементов в списке<br>
 
----
-смотрите также:<br>
-[![data.list](img/object_data.list.png)](data.list.html)
+## аргументы:
+
+* **X**
+initial list values in (). For example: (1 2 3 (1 2) 4)<br>
+_тип:_ any<br>
+
+
+
+## методы:
+
+* **append**
+adds values to the end of the list<br>
+  __параметры:__
+  - **VAL** appended value<br>
+    тип: atom <br>
+    обязательно: True <br>
+
+* **prepend**
+inserts values to the list beginning<br>
+  __параметры:__
+  - **VAL** prepended value<br>
+    тип: atom <br>
+    обязательно: True <br>
+
+* **front**
+output first list element<br>
+
+* **back**
+output last list element<br>
+
+* **at**
+outputs atom at the specified position<br>
+  __параметры:__
+  - **IDX** position (negative indexes are supported: -1 means last element)<br>
+    тип: int <br>
+    обязательно: True <br>
+
+* **insert**
+inserts values to the specified position<br>
+  __параметры:__
+  - **IDX** insert position<br>
+    тип: int <br>
+    обязательно: True <br>
+
+  - **VAL** value<br>
+    тип: atom <br>
+    обязательно: True <br>
+
+* **fill**
+fills with specified value<br>
+  __параметры:__
+  - **VAL** fill value<br>
+    тип: atom <br>
+    обязательно: True <br>
+
+* **reverse**
+reverses list<br>
+
+* **choose**
+choose random element in list and output it<br>
+
+* **shuffle**
+put elements in random order<br>
+
+* **sort**
+sorts list<br>
+
+* **clear**
+removes all list elements<br>
+
+* **pop**
+removes last list element<br>
+
+* **remove**
+removes specified element<br>
+  __параметры:__
+  - **IDX** element index<br>
+    тип: int <br>
+    обязательно: True <br>
+
+* **set**
+sets new list without output<br>
+  __параметры:__
+  - **LIST** new list content<br>
+    тип: list <br>
+    обязательно: True <br>
+
+* **dump**
+dump object info to Pd window<br>
+
+* **(....)**
+sets new list without output<br>
+
+
+
+
+## свойства:
+
+* **@empty** (readonly)
+Запросить 1 if list is empty, otherwise 0<br>
+_тип:_ bool<br>
+_по умолчанию:_ 1<br>
+
+* **@size** (readonly)
+Запросить number of elements in list<br>
+_тип:_ int<br>
+_минимальное значение:_ 0<br>
+_по умолчанию:_ 0<br>
+
+
+
+## входы:
+
+* output current list value<br>
+_тип:_ control
+
+
+
+## выходы:
+
+* output list or list elements<br>
+_тип:_ control
+
+
+
+## ключевые слова:
+
+[data](keywords/data.html)
+[multilist](keywords/multilist.html)
+
+
+
+**Смотрите также:**
+[\[data.list\]](data.list.html)
+
+
+
+
+**Авторы:** Serge Poltavsky
+
+
+
+
+**Лицензия:** GPL3 or later
+
+
+
+
+

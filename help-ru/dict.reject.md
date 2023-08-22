@@ -29,7 +29,7 @@ _тип:_ list<br>
 ## свойства:
 
 * **@keys** 
-Получить/установить rejected keys<br>
+Запросить/установить rejected keys<br>
 _тип:_ list<br>
 
 

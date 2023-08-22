@@ -53,32 +53,32 @@ solo (mute all others that not solo) specified channel<br>
 ## свойства:
 
 * **@xfade_time** 
-Получить/установить smooth time<br>
+Запросить/установить smooth time<br>
 _тип:_ float<br>
 _единица:_ ms<br>
 _минимальное значение:_ 1<br>
 _по умолчанию:_ 20<br>
 
 * **@value** 
-Получить/установить linear amplitude values<br>
+Запросить/установить linear amplitude values<br>
 _тип:_ list<br>
 _минимальное значение:_ 0<br>
 _по умолчанию:_ 0 0<br>
 
 * **@db** 
-Получить/установить amplitude values in decibels<br>
+Запросить/установить amplitude values in decibels<br>
 _тип:_ list<br>
 _единица:_ db<br>
 _минимальное значение:_ -144<br>
 _по умолчанию:_ -144 -144<br>
 
 * **@mute** 
-Получить/установить mute channel list, allowed values: 0, 1<br>
+Запросить/установить mute channel list, allowed values: 0, 1<br>
 _тип:_ list<br>
 _по умолчанию:_ 0 0<br>
 
 * **@solo** 
-Получить/установить solo channel list, allowed values: 0, 1<br>
+Запросить/установить solo channel list, allowed values: 0, 1<br>
 _тип:_ list<br>
 _по умолчанию:_ 0 0<br>
 

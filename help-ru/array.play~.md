@@ -59,101 +59,106 @@ set @begin and @end property<br>
 ## свойства:
 
 * **@array** 
-Получить/установить array name<br>
+Запросить/установить array name<br>
 _тип:_ symbol<br>
 
 * **@begin** 
-Получить/установить playback start position. Negative value means position relative to the end of
+Запросить/установить playback start position. Negative value means position relative to the end of
 the array<br>
 _тип:_ float<br>
 _единица:_ samp<br>
 _по умолчанию:_ 0<br>
 
 * **@end** 
-Получить/установить playback end position. Negative value means position relative to the end of the
+Запросить/установить playback end position. Negative value means position relative to the end of the
 array<br>
 _тип:_ float<br>
 _единица:_ samp<br>
 _по умолчанию:_ -1<br>
 
 * **@speed** 
-Получить/установить playback speed. Negative value means reversed playback<br>
+Запросить/установить playback speed. Negative value means reversed playback<br>
 _тип:_ float<br>
 _по умолчанию:_ 1<br>
 
 * **@amp** 
-Получить/установить playback amplitude<br>
+Запросить/установить playback amplitude<br>
 _тип:_ float<br>
 _минимальное значение:_ 0<br>
 _по умолчанию:_ 1<br>
 
+* **@loop** 
+Запросить/установить samplewise loop playing mode<br>
+_тип:_ bool<br>
+_по умолчанию:_ 0<br>
+
 * **@interp** 
-Получить/установить interpolation type. 0: no interpolationm 1: linear, 3: cubic.<br>
+Запросить/установить interpolation type. 0: no interpolation 1: linear, 3: cubic.<br>
 _тип:_ int<br>
 _варианты:_ 0, 1, 3<br>
 _по умолчанию:_ 1<br>
 
 * **@clock** 
-Получить/установить clock output period. Zero means: no clock output (by default).<br>
+Запросить/установить clock output period. Zero means: no clock output (by default).<br>
 _тип:_ float<br>
 _единица:_ sec<br>
 _диапазон:_ 0..20<br>
 _по умолчанию:_ 0<br>
 
 * **@cfmt** 
-Получить/установить clock output format<br>
+Запросить/установить clock output format<br>
 _тип:_ symbol<br>
 _варианты:_ sec, ms, samp, phase<br>
 _по умолчанию:_ sec<br>
 
 * **@state** (readonly)
-Получить playing state. 0: stopped, 1: playing, 2: paused.<br>
+Запросить playing state. 0: stopped, 1: playing, 2: paused.<br>
 _тип:_ int<br>
 _по умолчанию:_ 0<br>
 
 * **@cursor_ms** 
-Получить/установить current play position<br>
+Запросить/установить current play position<br>
 _тип:_ float<br>
 _единица:_ ms<br>
 _по умолчанию:_ 0<br>
 
 * **@cursor_sec** 
-Получить/установить current play position<br>
+Запросить/установить current play position<br>
 _тип:_ float<br>
 _единица:_ sec<br>
 _по умолчанию:_ 0<br>
 
 * **@cursor_phase** 
-Получить/установить current play position<br>
+Запросить/установить current play position<br>
 _тип:_ float<br>
 _по умолчанию:_ 0<br>
 
 * **@cursor_samp** 
-Получить/установить current play position<br>
+Запросить/установить current play position<br>
 _тип:_ float<br>
 _единица:_ samp<br>
 _по умолчанию:_ 0<br>
 
 * **@select_samp** 
-Получить/установить selection range<br>
+Запросить/установить selection range<br>
 _тип:_ list<br>
 _единица:_ samp<br>
 _по умолчанию:_ 0 0<br>
 
 * **@select_ms** 
-Получить/установить selection range<br>
+Запросить/установить selection range<br>
 _тип:_ list<br>
 _единица:_ ms<br>
 _по умолчанию:_ 0 0<br>
 
 * **@select_sec** 
-Получить/установить selection range<br>
+Запросить/установить selection range<br>
 _тип:_ list<br>
 _единица:_ sec<br>
 _по умолчанию:_ 0 0<br>
 
 * **@select_phase** 
-Получить/установить selection range in [0, 1] range<br>
+Запросить/установить selection range in [0, 1] range<br>
 _тип:_ list<br>
 _по умолчанию:_ 0 0<br>
 

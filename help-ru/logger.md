@@ -29,13 +29,12 @@ _тип:_ list<br>
 ## свойства:
 
 * **@prefix** 
-Получить/установить log message prefix<br>
+Запросить/установить log message prefix<br>
 _тип:_ list<br>
 
 * **@active** 
-Получить/установить enabled/disabled logging state<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить enabled/disabled logging state<br>
+_тип:_ bool<br>
 _по умолчанию:_ 1<br>
 
 

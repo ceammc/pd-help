@@ -26,7 +26,7 @@ _тип:_ symbol<br>
 
 * **ON**
 init on/off state<br>
-_тип:_ int<br>
+_тип:_ bool<br>
 
 
 
@@ -45,32 +45,31 @@ set custom<br>
 ## свойства:
 
 * **@octave** 
-Получить/установить output octave<br>
+Запросить/установить output octave<br>
 _тип:_ int<br>
 _диапазон:_ 0..8<br>
 _по умолчанию:_ 4<br>
 
 * **@vel** 
-Получить/установить output velocity<br>
+Запросить/установить output velocity<br>
 _тип:_ float<br>
 _диапазон:_ 0..127<br>
 _по умолчанию:_ 100<br>
 
 * **@layout** 
-Получить/установить current layout<br>
+Запросить/установить current layout<br>
 _тип:_ symbol<br>
 _варианты:_ qwerty, names, custom<br>
 _по умолчанию:_ qwerty<br>
 
 * **@custom** 
-Получить/установить custom layout (Dict data type)<br>
+Запросить/установить custom layout (Dict data type)<br>
 _тип:_ atom<br>
 _по умолчанию:_ []<br>
 
 * **@on** 
-Получить/установить on/off state<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить on/off state<br>
+_тип:_ bool<br>
 _по умолчанию:_ 1<br>
 
 

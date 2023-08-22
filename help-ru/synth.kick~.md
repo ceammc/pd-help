@@ -29,41 +29,40 @@ reset synth<br>
 ## свойства:
 
 * **@gate** 
-Получить/установить play trigger &gt;0: on, 0: off. To set output gain to 0.5 you can 0.5 as trigger
+Запросить/установить play trigger &gt;0: on, 0: off. To set output gain to 0.5 you can 0.5 as trigger
 value<br>
 _тип:_ float<br>
 _диапазон:_ 0..1<br>
 _по умолчанию:_ 0<br>
 
 * **@active** 
-Получить/установить on/off dsp processing<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить on/off dsp processing<br>
+_тип:_ bool<br>
 _по умолчанию:_ 1<br>
 
 * **@attack** 
-Получить/установить attack time<br>
+Запросить/установить attack time<br>
 _тип:_ float<br>
 _единица:_ ms<br>
 _диапазон:_ 1..50<br>
 _по умолчанию:_ 10<br>
 
 * **@release** 
-Получить/установить release time<br>
+Запросить/установить release time<br>
 _тип:_ float<br>
 _единица:_ ms<br>
 _диапазон:_ 10..8000<br>
 _по умолчанию:_ 1000<br>
 
 * **@envwait** 
-Получить/установить ignore new notes until previous note is not finished release time<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить ignore new notes until previous note is not finished release time<br>
+_тип:_ bool<br>
 _по умолчанию:_ 0<br>
 
 * **@freq** 
-Получить/установить start frequency<br>
+Запросить/установить start frequency<br>
 _тип:_ float<br>
+_единица:_ Hz<br>
 _диапазон:_ 10..5000<br>
 _по умолчанию:_ 50<br>
 

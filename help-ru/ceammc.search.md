@@ -38,7 +38,7 @@ alias to objects method<br>
 ## свойства:
 
 * **@max** 
-Получить/установить maximum number of result<br>
+Запросить/установить maximum number of result<br>
 _тип:_ int<br>
 _диапазон:_ 1..50<br>
 _по умолчанию:_ 10<br>
@@ -68,7 +68,7 @@ _тип:_ control
 
 
 
-**Авторы:** Serge Poltavski
+**Авторы:** Serge Poltavsky
 
 
 

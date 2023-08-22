@@ -34,28 +34,28 @@ _тип:_ symbol<br>
 
 ## свойства:
 
-* **@order** (readonly)
-Получить the order of decomposition<br>
+* **@order** (initonly)
+Запросить/установить the order of decomposition<br>
 _тип:_ int<br>
 _диапазон:_ 1..63<br>
 _по умолчанию:_ 1<br>
 
 * **@mode** 
-Получить/установить optimization mode<br>
+Запросить/установить optimization mode<br>
 _тип:_ symbol<br>
 _варианты:_ basic, maxre, inphase<br>
 _по умолчанию:_ basic<br>
 
 * **@basic** 
-Получить/установить alias for @mode basic (no optimization)<br>
+Запросить/установить alias for @mode basic (no optimization)<br>
 _тип:_ alias<br>
 
 * **@maxre** 
-Получить/установить alias for @mode maxre.<br>
+Запросить/установить alias for @mode maxre.<br>
 _тип:_ alias<br>
 
 * **@inphase** 
-Получить/установить alias for @mode inphase.<br>
+Запросить/установить alias for @mode inphase.<br>
 _тип:_ alias<br>
 
 

@@ -18,7 +18,7 @@
 
 ## аргументы:
 
-* **X**
+* **SUBJ**
 searched element<br>
 _тип:_ atom<br>
 
@@ -29,8 +29,9 @@ _тип:_ atom<br>
 ## свойства:
 
 * **@subj** 
-Получить/установить searched element<br>
+Запросить/установить searched element<br>
 _тип:_ atom<br>
+_по умолчанию:_ null<br>
 
 
 

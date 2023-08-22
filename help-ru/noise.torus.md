@@ -3,15 +3,15 @@
 
 # noise.torus
 
-###### Part of a-chaos library
+###### torus attractor
 
-*доступно с версии:* .5
+*доступно с версии:* 0.5
 
 ---
 
 
 ## информация
-a-torus try these parameters: 0.7 1.1 1.3 0.9 1. 1.6
+try these parameters: 0.7 1.1 1.3 0.9 1. 1.6
 
 
 [![example](../examples/img/noise.torus.jpg)](../examples/pd/noise.torus.pd)
@@ -20,15 +20,15 @@ a-torus try these parameters: 0.7 1.1 1.3 0.9 1. 1.6
 
 ## аргументы:
 
-* **ARG0**
+* **X**
 x value (optional)<br>
 _тип:_ float<br>
 
-* **ARG1**
+* **Y**
 y value (optional)<br>
 _тип:_ float<br>
 
-* **ARG2**
+* **CR**
 cr value (optional)<br>
 _тип:_ float<br>
 
@@ -88,7 +88,9 @@ _тип:_ control
 
 ## выходы:
 
-* main outlet<br>
+* x outlet<br>
+_тип:_ control
+* y outlet<br>
 _тип:_ control
 
 

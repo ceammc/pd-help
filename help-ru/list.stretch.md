@@ -18,7 +18,7 @@
 
 ## аргументы:
 
-* **stretch**
+* **SIZE**
 New size of output list. Input list will be stretched to the new size with
 linear interpolation<br>
 _тип:_ int<br>
@@ -30,7 +30,7 @@ _тип:_ int<br>
 ## свойства:
 
 * **@size** 
-Получить/установить new size<br>
+Запросить/установить new size<br>
 _тип:_ int<br>
 _минимальное значение:_ 0<br>
 _по умолчанию:_ 1<br>

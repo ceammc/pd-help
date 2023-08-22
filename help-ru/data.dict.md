@@ -1,35 +1,147 @@
-[< справка — содержание](index.html)
+[index](index.html) :: [data](category_data.html)
 ---
 
 # data.dict
 
+###### dictionary container: store values by key
 
-Контейнер для словаря (dictionary): хранит пары ключ-значение
-
----
-
-Синтаксис: [ключ1: значение ключ2 : &#34;текст с пробелами&#34;]. Поддерживаются вложенные словари: [a:
-            [A:1 B:2]]).
-<br>
-
+*доступно с версии:* 0.6
 
 ---
 
 
-![example](examples/data.dict-example.jpg)
-
----
-аргументы:
+## информация
+Syntax: [key1: value key2 : &#34;with space&#34;]. Nested dictionaries are supported: [a: [A:1 B:2]]).
 
 
----
-свойства:
+[![example](../examples/img/data.dict.jpg)](../examples/pd/data.dict.pd)
 
-@keys: ключи словаря<br>
-@empty: 1 если словарь пустой, в остальных случаях - 0<br>
-@size: количество сохраненных элементов в словаре<br>
 
----
-смотрите также:<br>
-[![data.set](img/object_data.set.png)](data.set.html)
-[![data.mlist](img/object_data.mlist.png)](data.mlist.html)
+
+
+
+## методы:
+
+* **add**
+adds entry to dictionary<br>
+  __параметры:__
+  - **KEY** entry key<br>
+    тип: symbol <br>
+    обязательно: True <br>
+
+  - **VAL** single value or list<br>
+    тип: list <br>
+    обязательно: True <br>
+
+* **clear**
+removes all dict values. No output<br>
+
+* **get_key**
+get entry from dictionary<br>
+  __параметры:__
+  - **KEY** entry key<br>
+    тип: symbol <br>
+    обязательно: True <br>
+
+* **choose**
+choose random key and output it<br>
+
+* **set_key**
+change entry in dictionary. If it&#39;s not exists, do nothing.<br>
+  __параметры:__
+  - **KEY** key<br>
+    тип: symbol <br>
+    обязательно: True <br>
+
+  - **VAL** single value or list<br>
+    тип: list <br>
+    обязательно: True <br>
+
+* **set**
+set dict content without output<br>
+
+* **remove**
+remove entry from dictionary<br>
+  __параметры:__
+  - **KEY** entry key<br>
+    тип: symbol <br>
+    обязательно: True <br>
+
+* **[....]**
+sets new content without output<br>
+
+* **read**
+read dict from JSON file<br>
+  __параметры:__
+  - **PATH** file path<br>
+    тип: symbol <br>
+    обязательно: True <br>
+
+* **write**
+write dict as JSON file<br>
+  __параметры:__
+  - **PATH** file path<br>
+    тип: symbol <br>
+    обязательно: True <br>
+
+
+
+
+## свойства:
+
+* **@keys** (readonly)
+Запросить keys of dictionary<br>
+_тип:_ list<br>
+
+* **@empty** (readonly)
+Запросить 1 if dict is empty, otherwise 0<br>
+_тип:_ bool<br>
+_по умолчанию:_ 1<br>
+
+* **@size** (readonly)
+Запросить number of entries in dictionary<br>
+_тип:_ int<br>
+_минимальное значение:_ 0<br>
+_по умолчанию:_ 0<br>
+
+
+
+## входы:
+
+* output current dictionary value<br>
+_тип:_ control
+
+
+
+## выходы:
+
+* output dictionary<br>
+_тип:_ control
+
+
+
+## ключевые слова:
+
+[data](keywords/data.html)
+[dictionary](keywords/dictionary.html)
+
+
+
+**Смотрите также:**
+[\[data.set\]](data.set.html)
+[\[data.mlist\]](data.mlist.html)
+
+
+
+
+**Авторы:** Serge Poltavsky
+
+
+
+
+**Лицензия:** GPL3 or later
+
+
+
+
+

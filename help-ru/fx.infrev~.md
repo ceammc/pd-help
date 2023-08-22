@@ -41,34 +41,33 @@ reset reverb<br>
 ## свойства:
 
 * **@size** 
-Получить/установить room size<br>
+Запросить/установить room size<br>
 _тип:_ float<br>
 _диапазон:_ 0..1<br>
 _по умолчанию:_ 0.5<br>
 
 * **@filter** 
-Получить/установить filter coefficient<br>
+Запросить/установить filter coefficient<br>
 _тип:_ float<br>
 _диапазон:_ 0..1<br>
 _по умолчанию:_ 1<br>
 
 * **@damp** 
-Получить/установить damping of the lowpass comb filter<br>
+Запросить/установить damping of the lowpass comb filter<br>
 _тип:_ float<br>
 _диапазон:_ 0..1<br>
 _по умолчанию:_ 0<br>
 
 * **@drywet** 
-Получить/установить proportion of mix between the original (dry) and &#39;effected&#39; (wet) signals. 0 -
+Запросить/установить proportion of mix between the original (dry) and &#39;effected&#39; (wet) signals. 0 -
 dry signal, 1 - wet<br>
 _тип:_ float<br>
 _диапазон:_ 0..1<br>
 _по умолчанию:_ 1<br>
 
 * **@bypass** 
-Получить/установить if set to 1 - bypass &#39;effected&#39; signal<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить if set to 1 - bypass &#39;effected&#39; signal<br>
+_тип:_ bool<br>
 _по умолчанию:_ 0<br>
 
 

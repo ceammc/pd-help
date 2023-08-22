@@ -18,7 +18,7 @@
 
 ## аргументы:
 
-* **STR**
+* **VALUE**
 initial string<br>
 _тип:_ symbol<br>
 
@@ -41,7 +41,7 @@ append values to the end of string<br>
 ## свойства:
 
 * **@value** 
-Получить/установить string value<br>
+Запросить/установить string value<br>
 _тип:_ list<br>
 
 

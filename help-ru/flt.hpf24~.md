@@ -20,7 +20,7 @@ A high-pass filter is an electronic filter that passes signals with a frequency 
 
 ## аргументы:
 
-* **freq**
+* **FREQ**
 cutoff frequency<br>
 _тип:_ float<br>
 _единица:_ Hz<br>
@@ -32,16 +32,15 @@ _единица:_ Hz<br>
 ## свойства:
 
 * **@freq** 
-Получить/установить cutoff frequency<br>
+Запросить/установить cutoff frequency<br>
 _тип:_ float<br>
 _единица:_ Hz<br>
 _диапазон:_ 20..20000<br>
 _по умолчанию:_ 10000<br>
 
 * **@active** 
-Получить/установить on/off dsp processing<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить on/off dsp processing<br>
+_тип:_ bool<br>
 _по умолчанию:_ 1<br>
 
 
@@ -50,6 +49,8 @@ _по умолчанию:_ 1<br>
 
 * input signal<br>
 _тип:_ audio
+* set frequency<br>
+_тип:_ control
 
 
 

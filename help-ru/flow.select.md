@@ -31,15 +31,14 @@ _тип:_ list<br>
 ## свойства:
 
 * **@v** 
-Получить/установить alias to @keep_value 1<br>
+Запросить/установить alias to @keep_value 1<br>
 _тип:_ alias<br>
 
 * **@keep_value** 
-Получить/установить vakue output mode. If false (by default) acts like vanilla select: output bang
+Запросить/установить value output mode. If false (by default) acts like vanilla select: output bang
 on match or full unmatched message to last outlet. If true always outputs full
 matched message to corresponding outlet.<br>
-_тип:_ int<br>
-_варианты:_ 0, 1, on, off<br>
+_тип:_ bool<br>
 _по умолчанию:_ 0<br>
 
 

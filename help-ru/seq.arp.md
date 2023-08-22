@@ -76,14 +76,14 @@ set arpeggiate mode and run<br>
 ## свойства:
 
 * **@chord** 
-Получить/установить list of pitches to arpeggiate<br>
+Запросить/установить list of pitches to arpeggiate<br>
 _тип:_ list<br>
 
 
 
 ## входы:
 
-* starts sequencer<br>
+* play one note in sequence (same as [on( message)<br>
 _тип:_ control
 
 

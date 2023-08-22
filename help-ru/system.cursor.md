@@ -18,21 +18,37 @@
 
 
 
+## методы:
+
+* **polltime**
+sets global cursor polling time<br>
+  __параметры:__
+  - **T** polling time<br>
+    тип: float <br>
+    единица: ms <br>
+    обязательно: True <br>
+
+
 
 
 ## свойства:
 
 * **@relative** 
-Получить/установить relative output mode: if on output coords relative to window, otherwise output
-screen coordinates<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить relative output mode: if on output coords relative to the root window,
+otherwise output screen coordinates<br>
+_тип:_ bool<br>
 _по умолчанию:_ 0<br>
 
 * **@norm** 
-Получить/установить cursor x/y coordinates normalization by screen (or window) width/height<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить cursor x/y coordinates normalization by screen (or window) width/height<br>
+_тип:_ bool<br>
+_по умолчанию:_ 0<br>
+
+* **@clip** 
+Запросить/установить clip mode. If true clip a cursor XY values to the [0..1] range in normalized
+mode, to the window width/height relative mode, otherwise to the screen
+width/height<br>
+_тип:_ bool<br>
 _по умолчанию:_ 0<br>
 
 
@@ -62,7 +78,7 @@ _тип:_ control
 
 
 
-**Авторы:** Hans-Christoph Steiner, Serge Poltavski
+**Авторы:** Hans-Christoph Steiner, Serge Poltavsky
 
 
 

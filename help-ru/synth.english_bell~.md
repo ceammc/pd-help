@@ -31,59 +31,58 @@ reset synth<br>
 ## свойства:
 
 * **@pos** 
-Получить/установить strike position (0 is on the bottom)<br>
+Запросить/установить strike position (0 is on the bottom)<br>
 _тип:_ int<br>
 _диапазон:_ 0..6<br>
 _по умолчанию:_ 0<br>
 
 * **@gain** 
-Получить/установить strike gain<br>
+Запросить/установить strike gain<br>
 _тип:_ float<br>
 _диапазон:_ 0..1<br>
 _по умолчанию:_ 1<br>
 
 * **@sharp** 
-Получить/установить strike sharpness<br>
+Запросить/установить strike sharpness<br>
 _тип:_ float<br>
 _диапазон:_ 0.01..5<br>
 _по умолчанию:_ 0.5<br>
 
 * **@cutoff** 
-Получить/установить strike cutoff frequency<br>
+Запросить/установить strike cutoff frequency<br>
 _тип:_ float<br>
 _единица:_ Hz<br>
 _диапазон:_ 20..20000<br>
 _по умолчанию:_ 6500<br>
 
 * **@t60** 
-Получить/установить time to decay to -60db level<br>
+Запросить/установить time to decay to -60db level<br>
 _тип:_ float<br>
 _единица:_ sec<br>
 _диапазон:_ 0.1..30<br>
 _по умолчанию:_ 20<br>
 
 * **@decay_ratio** 
-Получить/установить decay ratio<br>
+Запросить/установить decay ratio<br>
 _тип:_ float<br>
 _диапазон:_ 0..1<br>
 _по умолчанию:_ 1<br>
 
 * **@decay_slope** 
-Получить/установить decay slope<br>
+Запросить/установить decay slope<br>
 _тип:_ float<br>
 _диапазон:_ 0..10<br>
 _по умолчанию:_ 2.5<br>
 
 * **@gate** 
-Получить/установить play trigger - 1: on, 0: off<br>
+Запросить/установить play trigger - 1: on, 0: off<br>
 _тип:_ float<br>
 _диапазон:_ 0..1<br>
 _по умолчанию:_ 0<br>
 
 * **@active** 
-Получить/установить on/off dsp processing<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить on/off dsp processing<br>
+_тип:_ bool<br>
 _по умолчанию:_ 1<br>
 
 

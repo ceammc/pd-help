@@ -24,8 +24,8 @@ Environment variable %HOME% will be replaced by home user directory under UNIX S
 
 ## свойства:
 
-* **@any** 
-Получить/установить if specified - also do substitution in message selector<br>
+* **@any** (initonly)
+Запросить/установить if specified - also do substitution in message selector<br>
 _тип:_ flag<br>
 _по умолчанию:_ 0<br>
 

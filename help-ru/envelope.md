@@ -11,7 +11,7 @@
 
 
 ## информация
-Data type for sound envelope. Contains points specified by time and value. Points could have stop property - to execute oly part of envelope and stop on this point. So multisegment envelopes could be created Point also has segment type property, that defines following segment curve - it could be *step*, *line* (default) or *exp* (exponential) Exponential segment also has curve property: if 0 - (linear) 0 (convex, positively curved)
+Data type for sound envelope. Contains points specified by time and value. Points could have stop property - to execute oly part of envelope and stop on this point. So multisegment envelopes could be created Point also has segment type property, that defines following segment curve - it could be *step*, *line* (default) or *exp* (exponential) Exponential segment also has curve property: if 0 - (linear) &lt;0 (concave, negatively curved) &gt;0 (convex, positively curved)
 
 
 [![example](../examples/img/envelope.jpg)](../examples/pd/envelope.pd)
@@ -72,7 +72,7 @@ add envelope point<br>
   - **[TYPE=line]** segment type: step, linear, exponential, sin^2 or sigmoid curve<br>
     тип: symbol <br>
 
-  - **[CURVE=1]** exponential curve degree: 0 (linear) 0 (convex, positively curved)<br>
+  - **[CURVE=1]** exponential curve degree: 0 (linear) &lt;0 (concave, negatively curved) &gt;0 (convex, positively curved)<br>
     тип: float <br>
 
 * **remove_point**
@@ -444,28 +444,28 @@ creates sigmoid-segmented envelope with arbitrary number of segments<br>
 ## свойства:
 
 * **@npoints** (readonly)
-Получить number of points<br>
+Запросить number of points<br>
 _тип:_ int<br>
 _минимальное значение:_ 0<br>
 _по умолчанию:_ 0<br>
 
 * **@length** (readonly)
-Получить total envelope time length<br>
+Запросить total envelope time length<br>
 _тип:_ float<br>
 _единица:_ ms<br>
 _минимальное значение:_ 0<br>
 _по умолчанию:_ 0<br>
 
 * **@points** (readonly)
-Получить list of point times (ms)<br>
+Запросить list of point times (ms)<br>
 _тип:_ list<br>
 
 * **@values** (readonly)
-Получить list of point values<br>
+Запросить list of point values<br>
 _тип:_ list<br>
 
 * **@stops** (readonly)
-Получить list of stop points<br>
+Запросить list of stop points<br>
 _тип:_ list<br>
 
 

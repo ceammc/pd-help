@@ -31,7 +31,7 @@ _тип:_ int<br>
 ## свойства:
 
 * **@extra** 
-Получить/установить extra inlet. Extra inlet are added to the &#34;normal&#34; instance inlet and can be
+Запросить/установить extra inlet. Extra inlet are added to the &#34;normal&#34; instance inlet and can be
 used to send signal to all instances<br>
 _тип:_ int<br>
 _минимальное значение:_ 0<br>

@@ -40,75 +40,74 @@ reset synth<br>
 ## свойства:
 
 * **@pitch** 
-Получить/установить midi pitch<br>
+Запросить/установить midi pitch<br>
 _тип:_ float<br>
 _диапазон:_ 21..108<br>
 _по умолчанию:_ 48<br>
 
 * **@freq** 
-Получить/установить frequency<br>
+Запросить/установить frequency<br>
 _тип:_ float<br>
 _единица:_ Hz<br>
 _по умолчанию:_ 130.813<br>
 
 * **@stiffness** 
-Получить/установить stiffness factor<br>
+Запросить/установить stiffness factor<br>
 _тип:_ float<br>
 _диапазон:_ 0..1<br>
 _по умолчанию:_ 0.28<br>
 
 * **@detuning** 
-Получить/установить detuning factor<br>
+Запросить/установить detuning factor<br>
 _тип:_ float<br>
 _диапазон:_ 0..1<br>
 _по умолчанию:_ 0.1<br>
 
 * **@brightness** 
-Получить/установить brightness<br>
+Запросить/установить brightness<br>
 _тип:_ float<br>
 _диапазон:_ 0..1<br>
 _по умолчанию:_ 0<br>
 
 * **@hammer_hardness** 
-Получить/установить hammer hardness<br>
+Запросить/установить hammer hardness<br>
 _тип:_ float<br>
 _диапазон:_ 0..1<br>
 _по умолчанию:_ 0.1<br>
 
 * **@room_size** 
-Получить/установить reverb room size<br>
+Запросить/установить reverb room size<br>
 _тип:_ float<br>
 _диапазон:_ 0.005..1<br>
 _по умолчанию:_ 0.36<br>
 
 * **@reverb_gain** 
-Получить/установить reverb gain<br>
+Запросить/установить reverb gain<br>
 _тип:_ float<br>
 _диапазон:_ 0..1<br>
 _по умолчанию:_ 0.137<br>
 
 * **@width** 
-Получить/установить spatialization width<br>
+Запросить/установить spatialization width<br>
 _тип:_ float<br>
 _диапазон:_ 0..1<br>
 _по умолчанию:_ 0.5<br>
 
 * **@pan** 
-Получить/установить pan angle<br>
+Запросить/установить pan angle<br>
 _тип:_ float<br>
 _диапазон:_ 0..1<br>
 _по умолчанию:_ 0.6<br>
 
 * **@gate** 
-Получить/установить play trigger - 1: on, 0: off<br>
+Запросить/установить play trigger - 1: on, 0: off<br>
 _тип:_ float<br>
 _диапазон:_ 0..1<br>
 _по умолчанию:_ 0<br>
 
 * **@active** 
-Получить/установить on/off dsp processing<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить on/off dsp processing<br>
+_тип:_ bool<br>
 _по умолчанию:_ 1<br>
 
 

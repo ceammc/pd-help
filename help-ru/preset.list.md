@@ -24,7 +24,7 @@ Named list preset entry. Can store/load up to 256 various lists
 preset id (should be unique in most use cases)<br>
 _тип:_ symbol<br>
 
-* **VALUES**
+* **INIT**
 preset initial value<br>
 _тип:_ list<br>
 
@@ -47,25 +47,25 @@ clear preset at specified index<br>
 ## свойства:
 
 * **@path** (readonly)
-Получить property OSC-like path that includes id, abstraction name and may be subpatch
+Запросить property OSC-like path that includes id, abstraction name and may be subpatch
 name separated by slashes.<br>
 _тип:_ symbol<br>
 
-* **@id** (readonly)
-Получить preset id<br>
+* **@id** (initonly)
+Запросить/установить preset id<br>
 _тип:_ symbol<br>
 
 * **@init** 
-Получить/установить init list value<br>
+Запросить/установить init list value<br>
 _тип:_ list<br>
 
-* **@global** 
-Получить/установить use global path like /ID<br>
+* **@global** (initonly)
+Запросить/установить use global path like /ID<br>
 _тип:_ flag<br>
 _по умолчанию:_ 0<br>
 
-* **@subpatch** 
-Получить/установить include subpatch name to path<br>
+* **@subpatch** (initonly)
+Запросить/установить include subpatch name to path<br>
 _тип:_ flag<br>
 _по умолчанию:_ 0<br>
 

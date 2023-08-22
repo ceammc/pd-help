@@ -233,7 +233,7 @@ send All Sounds Off message<br>
     тип: int <br>
 
 * **bendsens**
-send Pitch bend sensivity message<br>
+send Pitch bend sensitivity message<br>
   __параметры:__
   - **CH** midi channel<br>
     тип: int <br>
@@ -351,9 +351,9 @@ send CC Bank Select LSB<br>
 
 ## свойства:
 
-* **@list** 
-Получить/установить output as list<br>
-_тип:_ int<br>
+* **@list** (initonly)
+Запросить/установить output as list<br>
+_тип:_ flag<br>
 _варианты:_ 0, 1<br>
 _по умолчанию:_ 0<br>
 

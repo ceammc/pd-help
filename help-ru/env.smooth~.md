@@ -18,7 +18,7 @@
 
 ## аргументы:
 
-* **duration**
+* **DURATION**
 attack time<br>
 _тип:_ float<br>
 _единица:_ ms<br>
@@ -43,22 +43,20 @@ reset envelope to initial state<br>
 ## свойства:
 
 * **@duration** 
-Получить/установить attack/release time (time to get -60db level)<br>
+Запросить/установить attack/release time (time to get -60db level)<br>
 _тип:_ float<br>
 _единица:_ ms<br>
 _диапазон:_ 0..100000<br>
 _по умолчанию:_ 100<br>
 
 * **@gate** 
-Получить/установить trigger signal<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить trigger signal<br>
+_тип:_ bool<br>
 _по умолчанию:_ 0<br>
 
 * **@active** 
-Получить/установить on/off dsp processing<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+Запросить/установить on/off dsp processing<br>
+_тип:_ bool<br>
 _по умолчанию:_ 1<br>
 
 

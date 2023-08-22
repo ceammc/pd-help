@@ -47,14 +47,13 @@ reset synth<br>
 ## свойства:
 
 * **@expr** 
-Получить/установить expression<br>
+Запросить/установить expression<br>
 _тип:_ list<br>
 
 * **@clip** 
-Получить/установить clip output to -1..+1 range. Use false value only when you are know what are
+Запросить/установить clip output to -1..+1 range. Use false value only when you are know what are
 you doing and at your own risk!<br>
-_тип:_ int<br>
-_варианты:_ 0, 1<br>
+_тип:_ bool<br>
 _по умолчанию:_ 1<br>
 
 

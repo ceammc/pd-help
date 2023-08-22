@@ -66,7 +66,7 @@ _тип:_ audio
 
 
 
-**Авторы:** Serge Poltavski
+**Авторы:** Serge Poltavsky
 
 
 

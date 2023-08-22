@@ -11,7 +11,7 @@
 
 
 ## информация
-First element of input list considered as delay time in milliseconds. Other messages passed &#39;as is&#39; immidiately.
+First element of input list considered as delay time in milliseconds. Other messages passed &#39;as is&#39; immediately.
 
 
 [![example](../examples/img/msg.sched.jpg)](../examples/pd/msg.sched.pd)
@@ -26,7 +26,7 @@ First element of input list considered as delay time in milliseconds. Other mess
 
 ## входы:
 
-* immidiately output bang<br>
+* immediately output bang<br>
 _тип:_ control
 * clear scheduled messages<br>
 _тип:_ control

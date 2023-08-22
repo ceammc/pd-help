@@ -1,9 +1,3 @@
----
-layout:     default
-title:      an.onset
-categories: [an]
-tags:       [onset]
----
 [index](index.html) :: [an](category_an.html)
 ---
 
@@ -42,6 +36,7 @@ _type:_ symbol<br>
 * **HS**
 hop size (by default buffer_size/2)<br>
 _type:_ int<br>
+_units:_ samp<br>
 
 
 
@@ -53,7 +48,7 @@ _type:_ int<br>
 Get/set name of analyzed array<br>
 _type:_ symbol<br>
 
-* **@bs** 
+* **@bs** (initonly)
 Get/set buffer size<br>
 _type:_ int<br>
 _units:_ samp<br>
@@ -136,8 +131,7 @@ _default:_ 1<br>
 
 * **@awhitening** 
 Get/set adaptive whitening<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 * **@delay** 

@@ -26,7 +26,7 @@ _aliases:_ \[str.equal\]
 _aliases:_ \[str.format\]
 
 
-[**string.join**](string.join.html): joins (concatenates) strings with separator <br>
+[**string.join**](string.join.html): joins (concatenates) list to string with separator <br>
 _aliases:_ \[str.join\]
 
 
@@ -46,8 +46,8 @@ _aliases:_ \[str.remove\]
 _aliases:_ \[str.replace\]
 
 
-[**string.split**](string.split.html): split string by separator <br>
-_aliases:_ \[str.split\]
+[**string.split**](string.split.html): split string or symbol by separator <br>
+_aliases:_ \[str.split\], \[symbol.split\]
 
 
 [**string.starts_with**](string.starts_with.html): checks if string starts with specified substring <br>
@@ -63,6 +63,6 @@ _aliases:_ \[ceammc/string2symbol\], \[ceammc/str-&gt;sym\], \[str-&gt;sym\]
 
 
 
-**Version:** 0.9.4
+**Version:** 0.9.6
 
 **License:** GPL3

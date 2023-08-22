@@ -1,9 +1,3 @@
----
-layout:     default
-title:      math.cos
-categories: [math]
-tags:       [math, cos]
----
 [index](index.html) :: [math](category_math.html)
 ---
 

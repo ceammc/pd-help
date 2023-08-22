@@ -1,9 +1,3 @@
----
-layout:     default
-title:      proto.sp.alpaca
-categories: [proto]
-tags:       [protocol, diy, alpaca, footswitch]
----
 [index](index.html) :: [proto](category_proto.html)
 ---
 
@@ -157,7 +151,7 @@ _type:_ control
 
 
 
-**Authors:** Serge Poltavski
+**Authors:** Serge Poltavsky
 
 
 

@@ -1,9 +1,3 @@
----
-layout:     default
-title:      ui.bang
-categories: [ui]
-tags:       [ui, bang]
----
 [index](index.html) :: [ui](category_ui.html)
 ---
 
@@ -66,8 +60,7 @@ _default:_ 15 15<br>
 
 * **@pinned** 
 Get/set pin mode. if 1 - put element to the lowest level<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 * **@active_color** 
@@ -88,12 +81,13 @@ _default:_ 0.6 0.6 0.6 1<br>
 * **@fontsize** 
 Get/set fontsize<br>
 _type:_ int<br>
-_range:_ 4..11<br>
+_range:_ 4..100<br>
 _default:_ 11<br>
 
 * **@fontname** 
 Get/set fontname<br>
 _type:_ symbol<br>
+_enum:_ Courier, DejaVu, Helvetica, Monaco, Times<br>
 _default:_ Helvetica<br>
 
 * **@fontweight** 
@@ -120,8 +114,7 @@ _default:_ 0 0 0 1<br>
 
 * **@label_inner** 
 Get/set label position (1 - inner, 0 - outer).<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 * **@label_align** 

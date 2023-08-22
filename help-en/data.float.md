@@ -1,9 +1,3 @@
----
-layout:     default
-title:      data.float
-categories: [data]
-tags:       [data, float]
----
 [index](index.html) :: [data](category_data.html)
 ---
 
@@ -26,7 +20,7 @@ tags:       [data, float]
 
 ## arguments:
 
-* **VAL**
+* **VALUE**
 set initial value<br>
 _type:_ float<br>
 

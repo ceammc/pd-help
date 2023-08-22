@@ -1,9 +1,3 @@
----
-layout:     default
-title:      math.abs~
-categories: [math]
-tags:       [math, abs]
----
 [index](index.html) :: [math](category_math.html)
 ---
 

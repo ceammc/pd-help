@@ -1,9 +1,3 @@
----
-layout:     default
-title:      fx.vocoder~
-categories: [fx]
-tags:       [vocoder]
----
 [index](index.html) :: [fx](category_fx.html)
 ---
 
@@ -50,8 +44,7 @@ _default:_ 0.5<br>
 
 * **@active** 
 Get/set on/off dsp processing<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 1<br>
 
 

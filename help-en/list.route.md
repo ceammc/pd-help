@@ -1,9 +1,3 @@
----
-layout:     default
-title:      list.route
-categories: [list]
-tags:       [list, route]
----
 [index](index.html) :: [list](category_list.html)
 ---
 
@@ -26,7 +20,7 @@ Outputs float, symbol or list to matched outlet or to last outlet if no match
 
 ## arguments:
 
-* **@type**
+* **ARGS**
 list of matched atoms<br>
 _type:_ list<br>
 
@@ -36,22 +30,21 @@ _type:_ list<br>
 
 ## properties:
 
-* **@args** 
+* **@args** (initonly)
 Get/set matching atoms<br>
 _type:_ list<br>
 
-* **@trim** 
+* **@trim** (initonly)
 Get/set cut first element from list, transform float or symbol to bang<br>
 _type:_ flag<br>
 _default:_ 0<br>
 
 * **@simplify** 
 Get/set one element list simplification - transform them to floats or symbols<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 1<br>
 
-* **@as_any** 
+* **@as_any** (initonly)
 Get/set trim list or symbol selector on output<br>
 _type:_ flag<br>
 _default:_ 0<br>

@@ -23,6 +23,6 @@ _aliases:_ \[ceammc/loadmsg\], \[loadmsg\]
 [**msg.sched**](msg.sched.html): message scheduler 
 
 
-**Version:** 0.9.4
+**Version:** 0.9.6
 
 **License:** GPL3

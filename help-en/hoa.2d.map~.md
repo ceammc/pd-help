@@ -1,9 +1,3 @@
----
-layout:     default
-title:      hoa.2d.map~
-categories: [spat]
-tags:       [hoa, map]
----
 [index](index.html) :: [spat](category_spat.html)
 ---
 
@@ -35,10 +29,6 @@ _type:_ int<br>
 * **NSRC**
 number of sources<br>
 _type:_ int<br>
-
-* **MODE**
-decoding mode<br>
-_type:_ symbol<br>
 
 
 
@@ -76,16 +66,16 @@ set source mapping in polar coordinates<br>
 
 ## properties:
 
-* **@order** (readonly)
-Get the order of decomposition<br>
+* **@order** (initonly)
+Get/set the order of decomposition<br>
 _type:_ int<br>
 _range:_ 1..63<br>
 _default:_ 1<br>
 
-* **@nsrc** (readonly)
-Get number of input sources<br>
+* **@nsrc** (initonly)
+Get/set number of input sources<br>
 _type:_ int<br>
-_range:_ 1..63<br>
+_min value:_ 1<br>
 _default:_ 1<br>
 
 * **@ramp** 

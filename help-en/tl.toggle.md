@@ -1,9 +1,3 @@
----
-layout:     default
-title:      tl.toggle
-categories: [tl]
-tags:       [timeline, toggle]
----
 [index](index.html) :: [tl](category_tl.html)
 ---
 

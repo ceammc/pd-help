@@ -1,9 +1,3 @@
----
-layout:     default
-title:      flow.greater
-categories: [flow]
-tags:       [gate, greater]
----
 [index](index.html) :: [flow](category_flow.html)
 ---
 
@@ -28,7 +22,7 @@ Numbers thar are *less* or *equal* then last argument are passed to N-th inlet
 
 ## arguments:
 
-* **LIST**
+* **VALUES**
 compare values: list of floats in descending order<br>
 _type:_ list<br>
 
@@ -38,7 +32,7 @@ _type:_ list<br>
 
 ## properties:
 
-* **@values** 
+* **@values** (initonly)
 Get/set compare values: list of floats in descending order<br>
 _type:_ list<br>
 

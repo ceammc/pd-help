@@ -1,9 +1,3 @@
----
-layout:     default
-title:      array.minmax
-categories: [array]
-tags:       [array, minmax]
----
 [index](index.html) :: [array](category_array.html)
 ---
 
@@ -24,7 +18,7 @@ tags:       [array, minmax]
 
 ## arguments:
 
-* **NAME**
+* **ARRAY**
 array name<br>
 _type:_ symbol<br>
 

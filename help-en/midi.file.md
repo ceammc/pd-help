@@ -1,9 +1,3 @@
----
-layout:     default
-title:      midi.file
-categories: [midi]
-tags:       [midi, file]
----
 [index](index.html) :: [midi](category_midi.html)
 ---
 
@@ -22,6 +16,12 @@ tags:       [midi, file]
 
 
 
+## arguments:
+
+* **FILENAME**
+initial MIDI filename<br>
+_type:_ symbol<br>
+
 
 
 ## methods:
@@ -33,12 +33,6 @@ read specified midi file. No output<br>
 write to specified midi file<br>
 
 * **clear**
-removes all midi file content<br>
-
-* **seek**
-removes all midi file content<br>
-
-* **reset**
 removes all midi file content<br>
 
 
@@ -87,7 +81,7 @@ _type:_ control
 
 ## outlets:
 
-* MidiFile data type<br>
+* MidiStream data type<br>
 _type:_ control
 
 

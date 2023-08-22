@@ -1,9 +1,3 @@
----
-layout:     default
-title:      nsig~
-categories: [base]
-tags:       [sig, list]
----
 [index](index.html) :: [base](category_base.html)
 ---
 
@@ -26,11 +20,11 @@ tags:       [sig, list]
 
 ## arguments:
 
-* **NUM**
-@n property<br>
-_type:_ float<br>
+* **N**
+number of inputs/outputs<br>
+_type:_ int<br>
 
-* **INIT**
+* **VALUES**
 init values<br>
 _type:_ list<br>
 
@@ -40,7 +34,7 @@ _type:_ list<br>
 
 ## properties:
 
-* **@n** 
+* **@n** (initonly)
 Get/set number of inputs/outputs<br>
 _type:_ int<br>
 _range:_ 1..12<br>

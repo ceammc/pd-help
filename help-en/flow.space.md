@@ -1,9 +1,3 @@
----
-layout:     default
-title:      flow.space
-categories: [flow]
-tags:       [space]
----
 [index](index.html) :: [flow](category_flow.html)
 ---
 
@@ -26,12 +20,12 @@ first message is delayed to next scheduler time
 
 ## arguments:
 
-* **MS**
+* **DELAY**
 time space between messages<br>
 _type:_ float<br>
 _units:_ ms<br>
 
-* **N**
+* **DONE**
 time space = N*space after last outputted message<br>
 _type:_ int<br>
 
@@ -54,6 +48,12 @@ output bang to second outlet<br>
 _type:_ int<br>
 _min value:_ 0<br>
 _default:_ 1<br>
+
+* **@dev** 
+Get/set random deviation<br>
+_type:_ float<br>
+_range:_ 0..1<br>
+_default:_ 0<br>
 
 
 

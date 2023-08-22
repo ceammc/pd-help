@@ -1,9 +1,3 @@
----
-layout:     default
-title:      ui.env
-categories: [ui]
-tags:       [ui, envelope]
----
 [index](index.html) :: [ui](category_ui.html)
 ---
 
@@ -357,9 +351,13 @@ _default:_ 200 150<br>
 
 * **@pinned** 
 Get/set pin mode. if 1 - put element to the lowest level<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
+
+* **@norm** 
+Get/set normalize input values<br>
+_type:_ bool<br>
+_default:_ 1<br>
 
 * **@active_color** 
 Get/set element active color (list of red, green, blue values in 0-1 range)<br>
@@ -384,12 +382,13 @@ _default:_ 0.6 0.6 0.6 1<br>
 * **@fontsize** 
 Get/set fontsize<br>
 _type:_ int<br>
-_range:_ 4..11<br>
+_range:_ 4..100<br>
 _default:_ 11<br>
 
 * **@fontname** 
 Get/set fontname<br>
 _type:_ symbol<br>
+_enum:_ Courier, DejaVu, Helvetica, Monaco, Times<br>
 _default:_ Helvetica<br>
 
 * **@fontweight** 
@@ -407,8 +406,7 @@ _default:_ roman<br>
 * **@mouse_events** 
 Get/set mouse events output mode. If on outputs @mouse_down, @mouse_up and @mouse_drag
 events<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 * **@output_mode** 

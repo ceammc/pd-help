@@ -1,9 +1,3 @@
----
-layout:     default
-title:      synth.shakers~
-categories: [synth]
-tags:       [shakers, percussion]
----
 [index](index.html) :: [synth](category_synth.html)
 ---
 

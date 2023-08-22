@@ -1,17 +1,11 @@
----
-layout:     default
-title:      noise.henon_heilles
-categories: [noise]
-tags:       [noise]
----
 [index](index.html) :: [noise](category_noise.html)
 ---
 
 # noise.henon_heilles
 
-###### Part of a-chaos library
+###### Hénon–Heiles_system
 
-*available since version:* .5
+*available since version:* 0.5
 
 ---
 
@@ -26,23 +20,23 @@ a port of Richard&#39;s chaos-henon-heilles from chaos collection
 
 ## arguments:
 
-* **ARG0**
+* **X**
 x value (optional)<br>
 _type:_ float<br>
 
-* **ARG1**
+* **Y**
 y value (optional)<br>
 _type:_ float<br>
 
-* **ARG2**
+* **Y&#39;**
 y&#39; value (optional)<br>
 _type:_ float<br>
 
-* **ARG3**
+* **E**
 e value (optional)<br>
 _type:_ float<br>
 
-* **ARG4**
+* **DT**
 dt value (optional)<br>
 _type:_ float<br>
 
@@ -112,6 +106,10 @@ _type:_ control
 * x outlet<br>
 _type:_ control
 * y outlet<br>
+_type:_ control
+* xdot outlet<br>
+_type:_ control
+* ydot outlet<br>
 _type:_ control
 
 

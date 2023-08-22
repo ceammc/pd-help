@@ -1,9 +1,3 @@
----
-layout:     default
-title:      mlist.flatten
-categories: [data]
-tags:       [flatten, list]
----
 [index](index.html) :: [data](category_data.html)
 ---
 

@@ -1,17 +1,11 @@
----
-layout:     default
-title:      noise.navier_stokes
-categories: [noise]
-tags:       [noise]
----
 [index](index.html) :: [noise](category_noise.html)
 ---
 
 # noise.navier_stokes
 
-###### Part of a-chaos library
+###### navier-stokes diff equations
 
-*available since version:* .5
+*available since version:* 0.5
 
 ---
 
@@ -26,27 +20,27 @@ A model obtained by a suitable five-mode truncation of the Navier-Stokes equatio
 
 ## arguments:
 
-* **ARG0**
+* **A**
 a value (optional)<br>
 _type:_ float<br>
 
-* **ARG1**
+* **B**
 b value (optional)<br>
 _type:_ float<br>
 
-* **ARG2**
+* **C**
 c value (optional)<br>
 _type:_ float<br>
 
-* **ARG3**
+* **D**
 d value (optional)<br>
 _type:_ float<br>
 
-* **ARG4**
+* **R**
 r value (optional)<br>
 _type:_ float<br>
 
-* **ARG5**
+* **DT**
 dt value (optional)<br>
 _type:_ float<br>
 
@@ -134,7 +128,15 @@ _type:_ control
 
 ## outlets:
 
-* main outlet<br>
+* a outlet<br>
+_type:_ control
+* b outlet<br>
+_type:_ control
+* c outlet<br>
+_type:_ control
+* d outlet<br>
+_type:_ control
+* e outlet<br>
 _type:_ control
 
 

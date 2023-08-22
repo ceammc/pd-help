@@ -1,9 +1,3 @@
----
-layout:     default
-title:      list.seq
-categories: [list]
-tags:       [list, sequence, generate]
----
 [index](index.html) :: [list](category_list.html)
 ---
 
@@ -57,7 +51,7 @@ Get/set sequence step (always positive)<br>
 _type:_ float<br>
 _default:_ 1<br>
 
-* **@closed** 
+* **@closed** (initonly)
 Get/set generate closed range sequence<br>
 _type:_ flag<br>
 _default:_ 0<br>

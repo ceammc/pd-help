@@ -1,9 +1,3 @@
----
-layout:     default
-title:      list.count
-categories: [list]
-tags:       [list, count]
----
 [index](index.html) :: [list](category_list.html)
 ---
 
@@ -24,9 +18,9 @@ tags:       [list, count]
 
 ## arguments:
 
-* **pattern**
+* **PATTERN**
 count pattern value<br>
-_type:_ any<br>
+_type:_ atom<br>
 
 
 

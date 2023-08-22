@@ -1,9 +1,3 @@
----
-layout:     default
-title:      hw.apple_sms
-categories: [hw]
-tags:       [motion, sensor]
----
 [index](index.html) :: [hw](category_hw.html)
 ---
 
@@ -32,8 +26,7 @@ In raw output mode output values can be in various output range and sign, otherw
 
 * **@raw** 
 Get/set raw data output mode<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 

@@ -1,9 +1,3 @@
----
-layout:     default
-title:      list.shift
-categories: [list]
-tags:       [list]
----
 [index](index.html) :: [list](category_list.html)
 ---
 
@@ -24,7 +18,7 @@ tags:       [list]
 
 ## arguments:
 
-* **shift**
+* **SHIFT**
 shift amount. Float values cause linear interpolation. Can be negative.<br>
 _type:_ float<br>
 

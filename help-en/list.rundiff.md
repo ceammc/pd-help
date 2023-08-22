@@ -1,9 +1,3 @@
----
-layout:     default
-title:      list.rundiff
-categories: [list]
-tags:       [list, running, difference, partial, cumulative]
----
 [index](index.html) :: [list](category_list.html)
 ---
 

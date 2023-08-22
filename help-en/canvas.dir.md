@@ -1,9 +1,3 @@
----
-layout:     default
-title:      canvas.dir
-categories: [patch]
-tags:       [canvas, directory]
----
 [index](index.html) :: [patch](category_patch.html)
 ---
 

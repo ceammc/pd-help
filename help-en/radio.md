@@ -1,9 +1,3 @@
----
-layout:     default
-title:      radio
-categories: [base]
-tags:       [radio]
----
 [index](index.html) :: [base](category_base.html)
 ---
 
@@ -42,7 +36,7 @@ output zeroes to all outlets<br>
 
 ## properties:
 
-* **@n** 
+* **@n** (initonly)
 Get/set number of outlets<br>
 _type:_ int<br>
 _range:_ 2..24<br>

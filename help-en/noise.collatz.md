@@ -1,17 +1,11 @@
----
-layout:     default
-title:      noise.collatz
-categories: [noise]
-tags:       [noise]
----
 [index](index.html) :: [noise](category_noise.html)
 ---
 
 # noise.collatz
 
-###### Part of a-chaos library
+###### collatz conjecture output
 
-*available since version:* .5
+*available since version:* 0.5
 
 ---
 

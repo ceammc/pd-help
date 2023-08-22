@@ -1,9 +1,3 @@
----
-layout:     default
-title:      vline2env
-categories: [env]
-tags:       [envelope, vline]
----
 [index](index.html) :: [env](category_env.html)
 ---
 

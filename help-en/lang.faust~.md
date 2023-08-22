@@ -1,9 +1,3 @@
----
-layout:     default
-title:      lang.faust~
-categories: [lang]
-tags:       [faust]
----
 [index](index.html) :: [lang](category_lang.html)
 ---
 
@@ -56,9 +50,8 @@ _type:_ list<br>
 
 * **@auto** 
 Get/set auto update mode. If on - recompiles faust dsp file on change<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
-_default:_ 1<br>
+_type:_ bool<br>
+_default:_ 0<br>
 
 
 

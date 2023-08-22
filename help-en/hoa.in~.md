@@ -1,9 +1,3 @@
----
-layout:     default
-title:      hoa.in~
-categories: [spat]
-tags:       [hoa, inlet]
----
 [index](index.html) :: [spat](category_spat.html)
 ---
 

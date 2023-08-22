@@ -1,9 +1,3 @@
----
-layout:     default
-title:      file.size
-categories: [path]
-tags:       [path, file, size]
----
 [index](index.html) :: [path](category_path.html)
 ---
 
@@ -32,8 +26,7 @@ Note: by default filesize request performed asynchronously, so there&#39;s a (us
 
 * **@async** 
 Get/set async mode<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 1<br>
 
 * **@sync** 

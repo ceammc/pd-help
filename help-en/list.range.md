@@ -1,9 +1,3 @@
----
-layout:     default
-title:      list.range
-categories: [list]
-tags:       [list, range, compare]
----
 [index](index.html) :: [list](category_list.html)
 ---
 
@@ -19,7 +13,7 @@ tags:       [list, range, compare]
 
 
 ## information
-Note: numbers are smaller then symbols
+Note: if @type = any, numbers are smaller then symbols
 
 
 [![example](../examples/img/list.range.jpg)](../examples/pd/list.range.pd)
@@ -29,6 +23,26 @@ Note: numbers are smaller then symbols
 
 
 
+
+## properties:
+
+* **@type** 
+Get/set type of accepted atoms<br>
+_type:_ symbol<br>
+_enum:_ float, symbol, any<br>
+_default:_ float<br>
+
+* **@f** 
+Get/set alias to @type float, accept only floats<br>
+_type:_ alias<br>
+
+* **@s** 
+Get/set alias to @type symbol, accept only symbols<br>
+_type:_ alias<br>
+
+* **@a** 
+Get/set alias to @type any, accept all<br>
+_type:_ alias<br>
 
 
 
@@ -41,7 +55,7 @@ _type:_ control
 
 ## outlets:
 
-* list of two elements: first is a smallest values, second - largest<br>
+* list of two elements: first is a smallest value, second - largest<br>
 _type:_ control
 
 

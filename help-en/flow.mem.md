@@ -1,9 +1,3 @@
----
-layout:     default
-title:      flow.mem
-categories: [flow]
-tags:       [memory, store]
----
 [index](index.html) :: [flow](category_flow.html)
 ---
 
@@ -28,6 +22,10 @@ tags:       [memory, store]
 number of memory cells<br>
 _type:_ int<br>
 
+* **TTL**
+see @ttl property<br>
+_type:_ int<br>
+
 
 
 
@@ -42,8 +40,7 @@ _default:_ 1<br>
 
 * **@free** 
 Get/set clear cell mode. If on - clear cell counter after zero was reached.<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 1<br>
 
 * **@ttl** 

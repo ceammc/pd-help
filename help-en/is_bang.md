@@ -1,9 +1,3 @@
----
-layout:     default
-title:      is_bang
-categories: [predicates]
-tags:       [predicate, bang]
----
 [index](index.html) :: [predicates](category_predicates.html)
 ---
 

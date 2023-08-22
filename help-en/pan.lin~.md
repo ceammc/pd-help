@@ -1,9 +1,3 @@
----
-layout:     default
-title:      pan.lin~
-categories: [spat]
-tags:       [pan, span]
----
 [index](index.html) :: [spat](category_spat.html)
 ---
 
@@ -44,8 +38,8 @@ _type:_ float<br>
 _range:_ -1..1<br>
 _default:_ 0<br>
 
-* **@smooth** (readonly)
-Get smooth control signal to avoid zipping-noise<br>
+* **@smooth** (initonly)
+Get/set smooth control signal to avoid zipping-noise<br>
 _type:_ int<br>
 _range:_ 0..100<br>
 _default:_ 20<br>

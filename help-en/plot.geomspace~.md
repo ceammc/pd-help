@@ -1,9 +1,3 @@
----
-layout:     default
-title:      plot.geomspace~
-categories: [array]
-tags:       [array, geom, log, scale]
----
 [index](index.html) :: [array](category_array.html)
 ---
 
@@ -21,6 +15,24 @@ tags:       [array, geom, log, scale]
 [![example](../examples/img/plot.geomspace~.jpg)](../examples/pd/plot.geomspace~.pd)
 
 
+
+## arguments:
+
+* **START**
+@start property<br>
+_type:_ float<br>
+
+* **STOP**
+@stop property<br>
+_type:_ float<br>
+
+* **N**
+@n property<br>
+_type:_ int<br>
+
+* **BASE**
+x-axis scale base<br>
+_type:_ atom<br>
 
 
 
@@ -68,8 +80,7 @@ _type:_ atom<br>
 
 * **@endpoint** 
 Get/set include @stop to interval<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 1<br>
 
 

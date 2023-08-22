@@ -1,14 +1,8 @@
----
-layout:     default
-title:      prop.get~
-categories: [property]
-tags:       [property]
----
 [index](index.html) :: [property](category_property.html)
 ---
 
 # prop.get~
-**aliases:** [prop\~&gt;], [@\~&gt;]
+**aliases:** [prop\~&gt;], [@\~&gt;], [ceammc/prop\~&gt;], [ceammc/@\~&gt;]
 
 
 ###### Property extractor from sound stream

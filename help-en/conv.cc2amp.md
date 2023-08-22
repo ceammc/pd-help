@@ -1,9 +1,3 @@
----
-layout:     default
-title:      conv.cc2amp
-categories: [conv]
-tags:       [conv, cc, amp]
----
 [index](index.html) :: [conv](category_conv.html)
 ---
 

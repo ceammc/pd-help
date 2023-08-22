@@ -1,9 +1,3 @@
----
-layout:     default
-title:      midi.ctl2str
-categories: [midi]
-tags:       [midi, controller, name]
----
 [index](index.html) :: [midi](category_midi.html)
 ---
 
@@ -30,7 +24,7 @@ tags:       [midi, controller, name]
 
 ## properties:
 
-* **@symbol** 
+* **@symbol** (initonly)
 Get/set output as symbol instead of string by default<br>
 _type:_ flag<br>
 _default:_ 0<br>

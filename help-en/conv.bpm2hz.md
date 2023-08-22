@@ -1,9 +1,3 @@
----
-layout:     default
-title:      conv.bpm2hz
-categories: [conv]
-tags:       [conv, time]
----
 [index](index.html) :: [conv](category_conv.html)
 ---
 
@@ -11,7 +5,7 @@ tags:       [conv, time]
 **aliases:** [ceammc/bpm-&gt;hz], [bpm-&gt;hz]
 
 
-###### converts BPM to frequency in herz
+###### converts BPM to frequency in hertz
 
 *available since version:* 0.1
 
@@ -19,7 +13,7 @@ tags:       [conv, time]
 
 
 ## information
-Converts frequency from BPM (beats per minute) to herz. It&#39;s simple as /60, but more readable
+Converts frequency from BPM (beats per minute) to hertz. It&#39;s simple as /60, but more readable
 
 
 [![example](../examples/img/conv.bpm2hz.jpg)](../examples/pd/conv.bpm2hz.pd)
@@ -41,7 +35,7 @@ _type:_ control
 
 ## outlets:
 
-* frequency in herz<br>
+* frequency in hertz<br>
 _type:_ control
 
 

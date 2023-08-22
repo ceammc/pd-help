@@ -1,9 +1,3 @@
----
-layout:     default
-title:      seq.matrix
-categories: [seq]
-tags:       [seq, sequencer, bang, pattern, rythm, matrix]
----
 [index](index.html) :: [seq](category_seq.html)
 ---
 
@@ -31,6 +25,7 @@ _type:_ int<br>
 * **T**
 time interval between steps or bpm<br>
 _type:_ float<br>
+_units:_ ms<br>
 
 
 

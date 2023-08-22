@@ -1,17 +1,11 @@
----
-layout:     default
-title:      string.split
-categories: [string]
-tags:       [split]
----
 [index](index.html) :: [string](category_string.html)
 ---
 
 # string.split
-**aliases:** [str.split]
+**aliases:** [str.split], [symbol.split]
 
 
-###### split string by separator
+###### split string or symbol by separator
 
 *available since version:* 0.3
 
@@ -19,7 +13,7 @@ tags:       [split]
 
 
 ## information
-Note: by default string or symbol splitted to list of data:String, to get list of Pd symbols use @sym flag
+Note: by default string or symbol splitted to list of data:String, to get list of Pd symbols use @sym flag or use alias [symbol.split]
 
 
 [![example](../examples/img/string.split.jpg)](../examples/pd/string.split.pd)
@@ -31,7 +25,7 @@ Note: by default string or symbol splitted to list of data:String, to get list o
 * **SEP**
 separator. If nonspecified - separate by every char. To separate by space - use
 &#34; &#34; argument<br>
-_type:_ atom<br>
+_type:_ symbol<br>
 
 
 
@@ -43,7 +37,7 @@ _type:_ atom<br>
 Get/set separator<br>
 _type:_ symbol<br>
 
-* **@sym** 
+* **@sym** (initonly)
 Get/set flag to output as list of Pd symbols<br>
 _type:_ flag<br>
 
@@ -52,6 +46,8 @@ _type:_ flag<br>
 ## inlets:
 
 * input symbol<br>
+_type:_ control
+* set split symbol<br>
 _type:_ control
 
 

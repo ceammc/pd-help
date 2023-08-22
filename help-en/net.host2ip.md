@@ -1,9 +1,3 @@
----
-layout:     default
-title:      net.host2ip
-categories: [net]
-tags:       [net, dns, ip]
----
 [index](index.html) :: [net](category_net.html)
 ---
 
@@ -23,6 +17,12 @@ tags:       [net, dns, ip]
 [![example](../examples/img/net.host2ip.jpg)](../examples/pd/net.host2ip.pd)
 
 
+
+## arguments:
+
+* **TYPE**
+result IP type<br>
+_type:_ symbol<br>
 
 
 

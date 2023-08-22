@@ -1,9 +1,3 @@
----
-layout:     default
-title:      math.floor~
-categories: [math]
-tags:       [math, floor]
----
 [index](index.html) :: [math](category_math.html)
 ---
 

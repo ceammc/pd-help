@@ -1,9 +1,3 @@
----
-layout:     default
-title:      path.exists
-categories: [path]
-tags:       [path, exists]
----
 [index](index.html) :: [path](category_path.html)
 ---
 

@@ -1,9 +1,3 @@
----
-layout:     default
-title:      math.cabs~
-categories: [math]
-tags:       [math, complex, magnitude, module]
----
 [index](index.html) :: [math](category_math.html)
 ---
 

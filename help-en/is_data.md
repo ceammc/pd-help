@@ -1,9 +1,3 @@
----
-layout:     default
-title:      is_data
-categories: [predicates]
-tags:       [predicate, data]
----
 [index](index.html) :: [predicates](category_predicates.html)
 ---
 
@@ -30,8 +24,8 @@ tags:       [predicate, data]
 
 ## properties:
 
-* **@in_list** 
-Get/set output &#39;1&#39; is list contains at least one data atom<br>
+* **@in_list** (initonly)
+Get/set output &#39;1&#39; if list contains at least one data atom<br>
 _type:_ flag<br>
 _default:_ 0<br>
 

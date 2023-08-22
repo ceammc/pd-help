@@ -1,9 +1,3 @@
----
-layout:     default
-title:      midi.track
-categories: [midi]
-tags:       [midi, track]
----
 [index](index.html) :: [midi](category_midi.html)
 ---
 
@@ -22,6 +16,12 @@ tags:       [midi, track]
 
 
 
+## arguments:
+
+* **TRACK**
+init track number<br>
+_type:_ int<br>
+
 
 
 ## methods:
@@ -33,13 +33,13 @@ start playing<br>
 pause playing<br>
 
 * **stop**
-stop playing<br>
+stop playing and send All Notes Off event<br>
 
 * **next**
 moves playing position to next event. No output<br>
 
 * **reset**
-set current event index to zero<br>
+set current event index to zero and send All Notes Off event<br>
 
 * **seek**
 seek to specified tick<br>
@@ -55,7 +55,7 @@ _type:_ int<br>
 _min value:_ 0<br>
 _default:_ 0<br>
 
-* **@join** 
+* **@join** (initonly)
 Get/set join all tracks into one<br>
 _type:_ flag<br>
 _default:_ 0<br>
@@ -91,14 +91,14 @@ _default:_ 0<br>
 
 ## inlets:
 
-* method inlet<br>
+* output current event<br>
 _type:_ control
 
 
 
 ## outlets:
 
-* outputs MidiEvent message<br>
+* MidiEvent message<br>
 _type:_ control
 * time in milliseconds until next MIDI event<br>
 _type:_ control

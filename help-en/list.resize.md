@@ -1,9 +1,3 @@
----
-layout:     default
-title:      list.resize
-categories: [list]
-tags:       [list, size, resize]
----
 [index](index.html) :: [list](category_list.html)
 ---
 
@@ -68,6 +62,8 @@ _type:_ alias<br>
 ## inlets:
 
 * input list<br>
+_type:_ control
+* set desired list size<br>
 _type:_ control
 
 

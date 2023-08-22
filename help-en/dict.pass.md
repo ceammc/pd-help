@@ -1,9 +1,3 @@
----
-layout:     default
-title:      dict.pass
-categories: [data]
-tags:       [pass, dictionary]
----
 [index](index.html) :: [data](category_data.html)
 ---
 

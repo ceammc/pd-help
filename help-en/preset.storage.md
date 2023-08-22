@@ -1,9 +1,3 @@
----
-layout:     default
-title:      preset.storage
-categories: [preset]
-tags:       [preset, storage]
----
 [index](index.html) :: [preset](category_preset.html)
 ---
 

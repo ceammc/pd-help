@@ -1,9 +1,3 @@
----
-layout:     default
-title:      fx.freqshift~
-categories: [fx]
-tags:       [fx, freqshift]
----
 [index](index.html) :: [fx](category_fx.html)
 ---
 
@@ -30,8 +24,7 @@ tags:       [fx, freqshift]
 
 * **@active** 
 Get/set on/off dsp processing<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 1<br>
 
 

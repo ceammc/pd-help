@@ -1,9 +1,3 @@
----
-layout:     default
-title:      is_symbol
-categories: [predicates]
-tags:       [predicate, symbol]
----
 [index](index.html) :: [predicates](category_predicates.html)
 ---
 

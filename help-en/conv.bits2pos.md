@@ -1,9 +1,3 @@
----
-layout:     default
-title:      conv.bits2pos
-categories: [conv]
-tags:       [conv, bits, position]
----
 [index](index.html) :: [conv](category_conv.html)
 ---
 
@@ -34,8 +28,7 @@ Note: byte default the least significant bit is the rightmost, this can be chang
 
 * **@rev** 
 Get/set reversed bit order<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 

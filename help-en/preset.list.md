@@ -1,9 +1,3 @@
----
-layout:     default
-title:      preset.list
-categories: [preset]
-tags:       [preset, storage, symbol]
----
 [index](index.html) :: [preset](category_preset.html)
 ---
 
@@ -32,7 +26,7 @@ Named list preset entry. Can store/load up to 256 various lists
 preset id (should be unique in most use cases)<br>
 _type:_ symbol<br>
 
-* **VALUES**
+* **INIT**
 preset initial value<br>
 _type:_ list<br>
 
@@ -59,20 +53,20 @@ Get property OSC-like path that includes id, abstraction name and may be subpatc
 name separated by slashes.<br>
 _type:_ symbol<br>
 
-* **@id** (readonly)
-Get preset id<br>
+* **@id** (initonly)
+Get/set preset id<br>
 _type:_ symbol<br>
 
 * **@init** 
 Get/set init list value<br>
 _type:_ list<br>
 
-* **@global** 
+* **@global** (initonly)
 Get/set use global path like /ID<br>
 _type:_ flag<br>
 _default:_ 0<br>
 
-* **@subpatch** 
+* **@subpatch** (initonly)
 Get/set include subpatch name to path<br>
 _type:_ flag<br>
 _default:_ 0<br>

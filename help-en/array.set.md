@@ -1,9 +1,3 @@
----
-layout:     default
-title:      array.set
-categories: [array]
-tags:       [array, set]
----
 [index](index.html) :: [array](category_array.html)
 ---
 
@@ -26,7 +20,7 @@ tags:       [array, set]
 
 ## arguments:
 
-* **NAME**
+* **ARRAY**
 array name<br>
 _type:_ symbol<br>
 
@@ -40,15 +34,14 @@ _type:_ symbol<br>
 Get/set array name<br>
 _type:_ symbol<br>
 
-* **@normalize** 
+* **@normalize** (initonly)
 Get/set scale input values to fit them in [0, 1] range<br>
 _type:_ flag<br>
 _default:_ 0<br>
 
 * **@redraw** 
 Get/set redraw array view<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 1<br>
 
 

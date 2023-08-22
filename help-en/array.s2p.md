@@ -1,9 +1,3 @@
----
-layout:     default
-title:      array.s2p
-categories: [conv]
-tags:       [array, phase, sample]
----
 [index](index.html) :: [conv](category_conv.html)
 ---
 
@@ -28,7 +22,7 @@ with this object you can get relative position in array
 
 ## arguments:
 
-* **NAME**
+* **ARRAY**
 array name<br>
 _type:_ symbol<br>
 

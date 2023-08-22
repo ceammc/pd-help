@@ -1,9 +1,3 @@
----
-layout:     default
-title:      flow.sync_pack
-categories: [flow]
-tags:       [flow, pack, hot]
----
 [index](index.html) :: [flow](category_flow.html)
 ---
 
@@ -30,7 +24,7 @@ tags:       [flow, pack, hot]
 number of inputs<br>
 _type:_ int<br>
 
-* **VALS**
+* **INIT**
 default values for all inlets. If not enough default values given it sets to 0<br>
 _type:_ list<br>
 
@@ -40,13 +34,13 @@ _type:_ list<br>
 
 ## properties:
 
-* **@n** 
+* **@n** (initonly)
 Get/set number of inlets<br>
 _type:_ int<br>
 _range:_ 1..255<br>
 _default:_ 1<br>
 
-* **@init** 
+* **@init** (initonly)
 Get/set default init values<br>
 _type:_ list<br>
 

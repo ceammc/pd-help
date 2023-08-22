@@ -1,9 +1,3 @@
----
-layout:     default
-title:      set.symdiff
-categories: [data]
-tags:       [data, symmetric, difference, set]
----
 [index](index.html) :: [data](category_data.html)
 ---
 

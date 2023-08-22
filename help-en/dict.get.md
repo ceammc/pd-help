@@ -1,9 +1,3 @@
----
-layout:     default
-title:      dict.get
-categories: [data]
-tags:       [get, dictionary]
----
 [index](index.html) :: [data](category_data.html)
 ---
 
@@ -34,7 +28,7 @@ _type:_ list<br>
 
 ## properties:
 
-* **@keys** 
+* **@keys** (initonly)
 Get/set extracted keys<br>
 _type:_ list<br>
 
@@ -42,6 +36,7 @@ _type:_ list<br>
 Get/set default value when key is not found in dictionary. If not specified no output
 is performed.<br>
 _type:_ atom<br>
+_default:_ null<br>
 
 
 

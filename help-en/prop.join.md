@@ -1,9 +1,3 @@
----
-layout:     default
-title:      prop.join
-categories: [property]
-tags:       [property]
----
 [index](index.html) :: [property](category_property.html)
 ---
 

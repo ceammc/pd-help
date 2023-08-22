@@ -1,9 +1,3 @@
----
-layout:     default
-title:      proto.midi.sysex
-categories: [proto]
-tags:       [parser, midi]
----
 [index](index.html) :: [proto](category_proto.html)
 ---
 

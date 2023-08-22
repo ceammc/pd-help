@@ -1,9 +1,3 @@
----
-layout:     default
-title:      math.log~
-categories: [math]
-tags:       [math, log]
----
 [index](index.html) :: [math](category_math.html)
 ---
 

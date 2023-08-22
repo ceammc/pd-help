@@ -1,9 +1,3 @@
----
-layout:     default
-title:      array.copy
-categories: [array]
-tags:       [array, copy]
----
 [index](index.html) :: [array](category_array.html)
 ---
 
@@ -101,8 +95,7 @@ copy array content from specified range and to specified destination position<br
 
 * **@resize** 
 Get/set resize of destination array on overflow<br>
-_type:_ int<br>
-_enum:_ 1, 0<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 

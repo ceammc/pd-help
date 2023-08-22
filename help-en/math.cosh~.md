@@ -1,9 +1,3 @@
----
-layout:     default
-title:      math.cosh~
-categories: [math]
-tags:       [math, cosh, hyperbolic]
----
 [index](index.html) :: [math](category_math.html)
 ---
 

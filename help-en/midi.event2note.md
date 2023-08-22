@@ -1,9 +1,3 @@
----
-layout:     default
-title:      midi.event2note
-categories: [midi]
-tags:       [midi, track]
----
 [index](index.html) :: [midi](category_midi.html)
 ---
 
@@ -39,7 +33,7 @@ _type:_ control
 
 ## outlets:
 
-* output pair: note, velocity<br>
+* pair: note, velocity<br>
 _type:_ control
 * note duration in milliseconds<br>
 _type:_ control

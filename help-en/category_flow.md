@@ -128,6 +128,10 @@ _aliases:_ \[flow.&gt;&gt;\]
 _aliases:_ \[flow.sel\]
 
 
+[**flow.seqdelay**](flow.seqdelay.html): sequential delay/router for input flow <br>
+_aliases:_ \[flow.seqdel\]
+
+
 [**flow.space**](flow.space.html): space in time messages received at the same logical time 
 
 [**flow.speedlim**](flow.speedlim.html): control stream speed limiter <br>
@@ -156,11 +160,31 @@ _aliases:_ \[ceammc/tee\~\], \[tee\~\], \[ceammc/\~-&gt;\], \[\~-&gt;\]
 _aliases:_ \[ceammc/replace\]
 
 
+[**route.any**](route.any.html): separate any messages from bangs, floats, symbols and lists 
+
+[**route.bang**](route.bang.html): separate bang messages from other types <br>
+_aliases:_ \[route.b\]
+
+
 [**route.float**](route.float.html): separate float messages from other types <br>
 _aliases:_ \[route.f\]
 
 
+[**route.list**](route.list.html): separate list messages from other types <br>
+_aliases:_ \[route.l\]
 
-**Version:** 0.9.4
+
+[**route.prop**](route.prop.html): separate property messages from other types 
+
+[**route.random**](route.random.html): routes input flow to random outlet <br>
+_aliases:_ \[route.r\]
+
+
+[**route.symbol**](route.symbol.html): separate symbol messages from other types <br>
+_aliases:_ \[route.s\]
+
+
+
+**Version:** 0.9.6
 
 **License:** GPL3

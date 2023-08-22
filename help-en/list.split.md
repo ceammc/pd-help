@@ -1,9 +1,3 @@
----
-layout:     default
-title:      list.split
-categories: [list]
-tags:       [list, split, moses]
----
 [index](index.html) :: [list](category_list.html)
 ---
 

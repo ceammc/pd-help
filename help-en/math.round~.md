@@ -1,14 +1,8 @@
----
-layout:     default
-title:      math.round~
-categories: [math]
-tags:       [math, round~]
----
 [index](index.html) :: [math](category_math.html)
 ---
 
 # math.round~
-**aliases:** [round\~]
+**aliases:** [round\~], [ceammc/round\~]
 
 
 ###### signal round
@@ -33,14 +27,14 @@ tags:       [math, round~]
 ## inlets:
 
 * input signal<br>
-_type:_ control
+_type:_ audio
 
 
 
 ## outlets:
 
 * output rounded signal<br>
-_type:_ control
+_type:_ audio
 
 
 

@@ -1,9 +1,3 @@
----
-layout:     default
-title:      lfo.pulse~
-categories: [lfo]
-tags:       [lfo, oscillator, pulse, train]
----
 [index](index.html) :: [lfo](category_lfo.html)
 ---
 
@@ -24,12 +18,12 @@ tags:       [lfo, oscillator, pulse, train]
 
 ## arguments:
 
-* **freq**
-frequency<br>
+* **INITFREQ**
+initial frequency<br>
 _type:_ float<br>
 _units:_ Hz<br>
 
-* **duty**
+* **DUTY**
 duty cycle<br>
 _type:_ float<br>
 
@@ -53,8 +47,7 @@ _default:_ 0.5<br>
 
 * **@pause** 
 Get/set pause oscillator at current value<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 * **@phase** 
@@ -63,10 +56,15 @@ _type:_ float<br>
 _range:_ 0..1<br>
 _default:_ 0<br>
 
+* **@initfreq** (initonly)
+Get/set initial frequency<br>
+_type:_ float<br>
+_units:_ Hz<br>
+_default:_ 0<br>
+
 * **@active** 
 Get/set on/off dsp processing<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 1<br>
 
 

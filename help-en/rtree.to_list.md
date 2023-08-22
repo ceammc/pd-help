@@ -1,9 +1,3 @@
----
-layout:     default
-title:      rtree.to_list
-categories: [data]
-tags:       [rythm, rtree, openmusic, pattern]
----
 [index](index.html) :: [data](category_data.html)
 ---
 

@@ -1,9 +1,3 @@
----
-layout:     default
-title:      ui.knob
-categories: [ui]
-tags:       [ui, knob]
----
 [index](index.html) :: [ui](category_ui.html)
 ---
 
@@ -28,11 +22,11 @@ Simple knob widget with default range 0-1.
 
 ## arguments:
 
-* **min**
+* **MIN**
 min value<br>
 _type:_ float<br>
 
-* **max**
+* **MAX**
 max value<br>
 _type:_ float<br>
 
@@ -148,23 +142,21 @@ _range:_ 0..16<br>
 _default:_ 0<br>
 
 * **@midi_control** 
-Get/set binded MIDI controller number. 0 means not binded to any controller.<br>
+Get/set binded MIDI controller number. -1 means not binded to any controller.<br>
 _type:_ int<br>
-_range:_ 0..128<br>
-_default:_ 0<br>
+_range:_ -1..127<br>
+_default:_ -1<br>
 
 * **@midi_pickup** 
 Get/set pickup current value. If slider is binded to value, first time you should pass
 over this value to make binding. It prevents from sudden value change on first
 control change<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 1<br>
 
 * **@active_scale** 
 Get/set if should draw active scale<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 * **@value** 
@@ -174,14 +166,12 @@ _default:_ 0<br>
 
 * **@show_range** 
 Get/set show knob range<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 * **@show_value** 
 Get/set show value<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 * **@scale** 
@@ -212,15 +202,13 @@ _default:_ 40 40<br>
 
 * **@pinned** 
 Get/set pin mode. if 1 - put element to the lowest level<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 * **@mouse_events** 
 Get/set mouse events output mode. If on outputs @mouse_down, @mouse_up and @mouse_drag
 events<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 * **@knob_color** 
@@ -246,12 +234,13 @@ _default:_ 0.6 0.6 0.6 1<br>
 * **@fontsize** 
 Get/set fontsize<br>
 _type:_ int<br>
-_range:_ 4..11<br>
+_range:_ 4..100<br>
 _default:_ 11<br>
 
 * **@fontname** 
 Get/set fontname<br>
 _type:_ symbol<br>
+_enum:_ Courier, DejaVu, Helvetica, Monaco, Times<br>
 _default:_ Helvetica<br>
 
 * **@fontweight** 
@@ -278,8 +267,7 @@ _default:_ 0 0 0 1<br>
 
 * **@label_inner** 
 Get/set label position (1 - inner, 0 - outer).<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 * **@label_align** 

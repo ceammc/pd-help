@@ -1,9 +1,3 @@
----
-layout:     default
-title:      math.neg
-categories: [math]
-tags:       [math, negate]
----
 [index](index.html) :: [math](category_math.html)
 ---
 

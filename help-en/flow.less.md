@@ -1,9 +1,3 @@
----
-layout:     default
-title:      flow.less
-categories: [flow]
-tags:       [gate]
----
 [index](index.html) :: [flow](category_flow.html)
 ---
 
@@ -28,7 +22,7 @@ Numbers thar are *less* then N-th argument are passed to N-th inlet
 
 ## arguments:
 
-* **LIST**
+* **VALUES**
 compare values: list of floats in ascending order<br>
 _type:_ list<br>
 
@@ -38,7 +32,7 @@ _type:_ list<br>
 
 ## properties:
 
-* **@values** 
+* **@values** (initonly)
 Get/set compare values: list of floats in ascending order<br>
 _type:_ list<br>
 

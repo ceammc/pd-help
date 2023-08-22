@@ -1,9 +1,3 @@
----
-layout:     default
-title:      noise.white~
-categories: [noise]
-tags:       [noise, white]
----
 [index](index.html) :: [noise](category_noise.html)
 ---
 
@@ -32,8 +26,7 @@ outputs random numbers between -1 and 1 at signal rate.
 
 * **@active** 
 Get/set on/off dsp processing<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 1<br>
 
 

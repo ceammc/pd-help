@@ -1,13 +1,9 @@
----
-layout:     default
-title:      ui.slider2d
-categories: [ui]
-tags:       [ui, slider]
----
 [index](index.html) :: [ui](category_ui.html)
 ---
 
 # ui.slider2d
+**aliases:** [ui.s2d]
+
 
 ###### 2D slider widget
 
@@ -16,8 +12,6 @@ tags:       [ui, slider]
 ---
 
 
-## information
-2D sliders widget
 
 
 [![example](../examples/img/ui.slider2d.jpg)](../examples/pd/ui.slider2d.pd)
@@ -139,14 +133,12 @@ _default:_ 0<br>
 
 * **@show_range** 
 Get/set if show slider range<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 1<br>
 
 * **@show_grid** 
 Get/set if show grid<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 * **@presetname** 
@@ -171,15 +163,13 @@ _default:_ 100 100<br>
 
 * **@pinned** 
 Get/set pin mode. if 1 - put element to the lowest level<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 * **@mouse_events** 
 Get/set mouse events output mode. If on outputs @mouse_down, @mouse_up and @mouse_drag
 events<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 * **@background_color** 
@@ -195,12 +185,13 @@ _default:_ 0.6 0.6 0.6 1<br>
 * **@fontsize** 
 Get/set fontsize<br>
 _type:_ int<br>
-_range:_ 4..11<br>
+_range:_ 4..100<br>
 _default:_ 11<br>
 
 * **@fontname** 
 Get/set fontname<br>
 _type:_ symbol<br>
+_enum:_ Courier, DejaVu, Helvetica, Monaco, Times<br>
 _default:_ Helvetica<br>
 
 * **@fontweight** 
@@ -227,8 +218,7 @@ _default:_ 0 0 0 1<br>
 
 * **@label_inner** 
 Get/set label position (1 - inner, 0 - outer).<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 * **@label_align** 

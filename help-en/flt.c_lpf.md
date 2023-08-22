@@ -1,9 +1,3 @@
----
-layout:     default
-title:      flt.c_lpf
-categories: [flt]
-tags:       [filter, biquad, lowpass]
----
 [index](index.html) :: [flt](category_flt.html)
 ---
 
@@ -28,7 +22,7 @@ Calculates coefficients for transfer function: H(z)=(b0 + b1*z⁻¹ + b2*z⁻²)
 
 ## arguments:
 
-* **freq**
+* **FREQ**
 center frequency<br>
 _type:_ float<br>
 _units:_ Hz<br>
@@ -60,9 +54,9 @@ _default:_ 1000<br>
 Get/set quality factor: @freq/BANDWIDTH<br>
 _type:_ float<br>
 _range:_ 0.01..100<br>
-_default:_ 0.707107<br>
+_default:_ 0.7071<br>
 
-* **@rad** 
+* **@rad** (initonly)
 Get/set use angular frequency<br>
 _type:_ flag<br>
 

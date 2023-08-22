@@ -1,9 +1,3 @@
----
-layout:     default
-title:      flow.stack
-categories: [flow]
-tags:       [stack]
----
 [index](index.html) :: [flow](category_flow.html)
 ---
 
@@ -24,7 +18,7 @@ tags:       [stack]
 
 ## arguments:
 
-* **N**
+* **MAX_SIZE**
 max stack size<br>
 _type:_ int<br>
 
@@ -47,8 +41,7 @@ _default:_ 0<br>
 
 * **@empty** (readonly)
 Get if stack is empty<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 1<br>
 
 * **@on_empty** 

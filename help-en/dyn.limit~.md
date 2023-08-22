@@ -1,9 +1,3 @@
----
-layout:     default
-title:      dyn.limit~
-categories: [dyn]
-tags:       [limiter]
----
 [index](index.html) :: [dyn](category_dyn.html)
 ---
 
@@ -30,8 +24,7 @@ tags:       [limiter]
 
 * **@active** 
 Get/set on/off dsp processing<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 1<br>
 
 

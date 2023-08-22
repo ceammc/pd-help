@@ -1,9 +1,3 @@
----
-layout:     default
-title:      flow.record
-categories: [flow]
-tags:       [flow, record]
----
 [index](index.html) :: [flow](category_flow.html)
 ---
 
@@ -46,19 +40,17 @@ _default:_ 256<br>
 * **@speed** 
 Get/set play speed<br>
 _type:_ float<br>
-_range:_ 0.015625..64<br>
+_range:_ 0.0156..64<br>
 _default:_ 1<br>
 
 * **@auto** 
 Get/set autostart record on first input atom<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 * **@sync** 
 Get/set use external bang pulse to sync recorded events with.<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 

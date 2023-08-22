@@ -1,9 +1,3 @@
----
-layout:     default
-title:      sync
-categories: [base]
-tags:       [sync]
----
 [index](index.html) :: [base](category_base.html)
 ---
 

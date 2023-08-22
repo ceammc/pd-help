@@ -1,9 +1,3 @@
----
-layout:     default
-title:      string.substr
-categories: [string]
-tags:       [substring]
----
 [index](index.html) :: [string](category_string.html)
 ---
 
@@ -31,7 +25,7 @@ substring position. May be relative: -1 means one character from the end of
 stirng<br>
 _type:_ int<br>
 
-* **LENGTH**
+* **LEN**
 substring length. If -1 given (by default), means &#39;till string end&#39;.<br>
 _type:_ int<br>
 

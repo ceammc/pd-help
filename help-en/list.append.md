@@ -1,9 +1,3 @@
----
-layout:     default
-title:      list.append
-categories: [list]
-tags:       [list, append]
----
 [index](index.html) :: [list](category_list.html)
 ---
 
@@ -26,7 +20,7 @@ Works with data atoms
 
 ## arguments:
 
-* **LIST**
+* **VALUE**
 appended value<br>
 _type:_ list<br>
 

@@ -18,9 +18,11 @@
 
 [**hw.kbd_light**](hw.kbd_light.html): Get/set keyboard light on some devices 
 
+[**hw.motu.avb**](hw.motu.avb.html): controls Motu AVB devices over http requests 
+
 [**hw.serial**](hw.serial.html): serial port device 
 
 
-**Version:** 0.9.4
+**Version:** 0.9.6
 
 **License:** GPL3

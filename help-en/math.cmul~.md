@@ -1,9 +1,3 @@
----
-layout:     default
-title:      math.cmul~
-categories: [math]
-tags:       [math, complex, multiplication]
----
 [index](index.html) :: [math](category_math.html)
 ---
 

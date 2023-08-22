@@ -1,9 +1,3 @@
----
-layout:     default
-title:      array.grainer~
-categories: [array]
-tags:       [array, grain, particle, granular]
----
 [index](index.html) :: [array](category_array.html)
 ---
 
@@ -26,7 +20,7 @@ Grain properties: @at - grain position in source array (in samples) @l - grain l
 
 ## arguments:
 
-* **NAME**
+* **ARRAY**
 array name<br>
 _type:_ symbol<br>
 
@@ -37,7 +31,7 @@ _type:_ symbol<br>
 * **clear**
 remove grain(s)<br>
   __parameters:__
-  - **[SUBJ]** if &#39;*&#39; or ommited: remove all grains, if &#39;.&#39;: remove finished grains only, if float: remove grain with corresponding #id, if symbol: remove grains with corresponding tag<br>
+  - **[SUBJ]** if &#39;*&#39; or omitted: remove all grains, if &#39;.&#39;: remove finished grains only, if float: remove grain with corresponding #id, if symbol: remove grains with corresponding tag<br>
     type: atom <br>
 
 * **set**
@@ -95,10 +89,76 @@ analyze source array for onsets<br>
     units: db <br>
 
 * **align**
-align gain(s) to onset<br>
+align grain(s) to onset<br>
   __parameters:__
-  - **[SUBJ]** if &#39;*&#39; or ommited: align all grains, if &#39;.&#39;: align finished grains only, if float: align grain with corresponding #id, if symbol: align grains with corresponding tag<br>
+  - **[SUBJ]** if &#39;*&#39; or omitted: align all grains, if &#39;.&#39;: align finished grains only, if float: align grain with corresponding #id, if symbol: align grains with corresponding tag<br>
     type: atom <br>
+
+* **pause**
+pause (resume) grain(s)<br>
+  __parameters:__
+  - **SUBJ** if &#39;*&#39;: pause all grains, if float: pause grain with corresponding #id, if symbol: pause grains with matched tag<br>
+    type: atom <br>
+    required: True <br>
+
+  - **[STATE]** on/off value<br>
+    type: int <br>
+
+* **slice**
+slice specified duration to specified number of grains and add them<br>
+  __parameters:__
+  - **N** desired number of grains<br>
+    type: int <br>
+    required: True <br>
+
+  - **[DUR]** duration to slice. Positive time value expected, for example: 100ms, 1.02s, 400samp etc. Float value treat as millisecond. If not specified - use the whole source array duration<br>
+    type: atom <br>
+
+  - **[GRAIN]** properties of sliced grains<br>
+    type: list <br>
+
+* **spread**
+uniformly arrange grains to fill specified time space<br>
+  __parameters:__
+  - **[DUR]** time space. Positive time values are expected, for example: 100ms, 1.02s, 400samp etc. Float value treat as millisecond. If not specified - use the whole source array duration<br>
+    type: atom <br>
+
+  - **[TAG]** if &#39;*&#39; or omitted: spread all grains, if &#39;.&#39;: spread finished grains only, otherwise spread grains with corresponding tag<br>
+    type: symbol <br>
+
+* **shuffle**
+shuffle grain positions (@ta and @tb) values<br>
+  __parameters:__
+  - **[TAG]** if &#39;*&#39; or omitted: shuffle all grains, if &#39;.&#39;: shuffle finished grains only, otherwise shuffle grains with corresponding tag<br>
+    type: symbol <br>
+
+* **reverse**
+reverse grain positions (@ta and @tb) values<br>
+  __parameters:__
+  - **[TAG]** if &#39;*&#39; or omitted: reverse positions of all grains, if &#39;.&#39;: reverse positions of finished grains only, otherwise reverse grains with corresponding tag<br>
+    type: symbol <br>
+
+* **permutate**
+permutate grain positions (@ta and @tb) values<br>
+  __parameters:__
+  - **[N]** number of permutations. If N&gt;0 results N-th next permutation, N&lt;0 - N-th previous permutation<br>
+    type: int <br>
+
+  - **[TAG]** if &#39;*&#39; or omitted: reverse positions of all grains, if &#39;.&#39;: reverse positions of finished grains only, otherwise reverse grains with corresponding tag<br>
+    type: symbol <br>
+
+* **defer**
+defer method call until grains will finish<br>
+  __parameters:__
+  - **[N]** number of finished grains to wait before calling. If not specified, treat as 1.<br>
+    type: int <br>
+
+  - **METHOD** method name<br>
+    type: symbol <br>
+    required: True <br>
+
+  - **[ARGS]** method arguments<br>
+    type: list <br>
 
 
 

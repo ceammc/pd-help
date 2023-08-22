@@ -1,9 +1,3 @@
----
-layout:     default
-title:      lfo.impulse~
-categories: [lfo]
-tags:       [lfo, oscillator]
----
 [index](index.html) :: [lfo](category_lfo.html)
 ---
 
@@ -37,8 +31,7 @@ _units:_ Hz<br>
 
 * **@active** 
 Get/set on/off dsp processing<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 1<br>
 
 
@@ -47,6 +40,8 @@ _default:_ 1<br>
 
 * frequency in Hz<br>
 _type:_ audio
+* reset phase<br>
+_type:_ control
 
 
 

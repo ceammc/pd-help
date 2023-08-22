@@ -100,7 +100,9 @@ _aliases:_ \[ui.rsl\]
 _aliases:_ \[ui.hsl\], \[ui.vsl\]
 
 
-[**ui.slider2d**](ui.slider2d.html): 2D slider widget 
+[**ui.slider2d**](ui.slider2d.html): 2D slider widget <br>
+_aliases:_ \[ui.s2d\]
+
 
 [**ui.sliders**](ui.sliders.html): Multiple slider widget <br>
 _aliases:_ \[ui.vsliders\]
@@ -117,6 +119,6 @@ _aliases:_ \[ui.t\]
 
 
 
-**Version:** 0.9.4
+**Version:** 0.9.6
 
 **License:** GPL3

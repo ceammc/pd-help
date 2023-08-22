@@ -1,9 +1,3 @@
----
-layout:     default
-title:      list.set
-categories: [list]
-tags:       [list, set]
----
 [index](index.html) :: [list](category_list.html)
 ---
 
@@ -24,11 +18,11 @@ tags:       [list, set]
 
 ## arguments:
 
-* **IDX**
+* **INDEX**
 element position. Negative indexes are supported. -1 means last element<br>
 _type:_ int<br>
 
-* **VAL**
+* **VALUE**
 element value<br>
 _type:_ atom<br>
 

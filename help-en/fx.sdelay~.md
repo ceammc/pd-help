@@ -1,9 +1,3 @@
----
-layout:     default
-title:      fx.sdelay~
-categories: [fx]
-tags:       [fx, echo, delay]
----
 [index](index.html) :: [fx](category_fx.html)
 ---
 
@@ -26,12 +20,12 @@ delay that doesn&#39;t click and doesn&#39;t transpose when the delay time is ch
 
 ## arguments:
 
-* **delay**
+* **DELAY**
 delay time<br>
 _type:_ float<br>
 _units:_ ms<br>
 
-* **feedback**
+* **FEEDBACK**
 feedback coefficient<br>
 _type:_ float<br>
 
@@ -79,14 +73,12 @@ _default:_ 1<br>
 
 * **@bypass** 
 Get/set if set to 1 - bypass &#39;effected&#39; signal.<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 * **@active** 
 Get/set on/off dsp processing<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 1<br>
 
 

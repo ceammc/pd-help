@@ -1,9 +1,3 @@
----
-layout:     default
-title:      flow.demultiplex
-categories: [flow]
-tags:       [demultiplex]
----
 [index](index.html) :: [flow](category_flow.html)
 ---
 

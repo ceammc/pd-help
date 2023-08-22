@@ -1,9 +1,3 @@
----
-layout:     default
-title:      list.insert
-categories: [list]
-tags:       [list, insert]
----
 [index](index.html) :: [list](category_list.html)
 ---
 
@@ -26,7 +20,7 @@ Works with data atoms
 
 ## arguments:
 
-* **LIST**
+* **VALUE**
 list content<br>
 _type:_ list<br>
 
@@ -43,7 +37,7 @@ _min value:_ 0<br>
 _default:_ 0<br>
 
 * **@value** 
-Get/set list contents<br>
+Get/set list content<br>
 _type:_ list<br>
 
 

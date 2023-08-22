@@ -1,9 +1,3 @@
----
-layout:     default
-title:      flow.change
-categories: [flow]
-tags:       [flow, change]
----
 [index](index.html) :: [flow](category_flow.html)
 ---
 

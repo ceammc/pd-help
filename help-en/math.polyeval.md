@@ -1,9 +1,3 @@
----
-layout:     default
-title:      math.polyeval
-categories: [math]
-tags:       [math, polynomial]
----
 [index](index.html) :: [math](category_math.html)
 ---
 
@@ -24,7 +18,7 @@ tags:       [math, polynomial]
 
 ## arguments:
 
-* **ARGS**
+* **COEFFS**
 coefficient list<br>
 _type:_ float<br>
 

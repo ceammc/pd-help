@@ -1,9 +1,3 @@
----
-layout:     default
-title:      prop.random
-categories: [property]
-tags:       [property, random]
----
 [index](index.html) :: [property](category_property.html)
 ---
 
@@ -41,7 +35,7 @@ _type:_ list<br>
 * **@seed** 
 Get/set random seed<br>
 _type:_ int<br>
-_default:_ float<br>
+_default:_ 0<br>
 
 
 

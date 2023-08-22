@@ -1,9 +1,3 @@
----
-layout:     default
-title:      plot.logspace~
-categories: [array]
-tags:       [array, geom, log, scale]
----
 [index](index.html) :: [array](category_array.html)
 ---
 
@@ -26,13 +20,21 @@ In linear space, the sequence starts at base^start (base to the power of start) 
 
 ## arguments:
 
-* **start**
+* **START**
 @start property<br>
 _type:_ float<br>
 
-* **stop**
+* **STOP**
 @stop property<br>
 _type:_ float<br>
+
+* **BASE**
+@base property<br>
+_type:_ atom<br>
+
+* **N**
+@n property<br>
+_type:_ int<br>
 
 
 
@@ -43,7 +45,6 @@ _type:_ float<br>
 * **@start** 
 Get/set starting value of the sequence: base^start<br>
 _type:_ float<br>
-_min value:_ 0<br>
 _default:_ 0<br>
 
 * **@stop** 
@@ -51,7 +52,6 @@ Get/set the final value (base^stop) of the sequence, unless @endpoint is false. 
 case, @n + 1 values are spaced over the interval in log-space, of which all but
 the last (a sequence of length @n) are returned.<br>
 _type:_ float<br>
-_min value:_ 0<br>
 _default:_ 2<br>
 
 * **@n** 
@@ -80,8 +80,7 @@ _type:_ atom<br>
 
 * **@endpoint** 
 Get/set include @stop to interval<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 1<br>
 
 

@@ -1,9 +1,3 @@
----
-layout:     default
-title:      array.do
-categories: [array]
-tags:       [array, do]
----
 [index](index.html) :: [array](category_array.html)
 ---
 
@@ -22,6 +16,12 @@ tags:       [array, do]
 
 
 
+## arguments:
+
+* **ARRAY**
+array name<br>
+_type:_ symbol<br>
+
 
 
 
@@ -34,8 +34,7 @@ _type:_ symbol<br>
 
 * **@redraw** 
 Get/set redraw after array change<br>
-_type:_ int<br>
-_enum:_ 1, 0<br>
+_type:_ bool<br>
 _default:_ 1<br>
 
 

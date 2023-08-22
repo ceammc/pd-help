@@ -1,9 +1,3 @@
----
-layout:     default
-title:      list.first
-categories: [list]
-tags:       [list, first]
----
 [index](index.html) :: [list](category_list.html)
 ---
 

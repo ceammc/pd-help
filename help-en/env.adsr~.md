@@ -1,9 +1,3 @@
----
-layout:     default
-title:      env.adsr~
-categories: [env]
-tags:       [envelope, adsr]
----
 [index](index.html) :: [env](category_env.html)
 ---
 
@@ -24,22 +18,22 @@ tags:       [envelope, adsr]
 
 ## arguments:
 
-* **attack**
+* **ATTACK**
 attack time<br>
 _type:_ float<br>
 _units:_ ms<br>
 
-* **decay**
+* **DECAY**
 decay time<br>
 _type:_ float<br>
 _units:_ ms<br>
 
-* **sustain**
+* **SUSTAIN**
 sustain level (percentage of trigger)<br>
 _type:_ float<br>
 _units:_ %<br>
 
-* **release**
+* **RELEASE**
 release time<br>
 _type:_ float<br>
 _units:_ ms<br>
@@ -102,8 +96,7 @@ _type:_ list<br>
 
 * **@active** 
 Get/set on/off dsp processing<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 1<br>
 
 

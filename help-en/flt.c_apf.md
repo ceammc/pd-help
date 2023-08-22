@@ -1,9 +1,3 @@
----
-layout:     default
-title:      flt.c_apf
-categories: [flt]
-tags:       [filter, biquad, hpf, allpass]
----
 [index](index.html) :: [flt](category_flt.html)
 ---
 
@@ -28,7 +22,7 @@ Allpass filter is a signal processing filter that passes all frequencies equally
 
 ## arguments:
 
-* **freq**
+* **FREQ**
 center frequency<br>
 _type:_ float<br>
 _units:_ Hz<br>
@@ -60,9 +54,9 @@ _default:_ 0<br>
 Get/set quality factor: @freq/BANDWIDTH<br>
 _type:_ float<br>
 _range:_ 0.01..100<br>
-_default:_ 0.707107<br>
+_default:_ 0.7071<br>
 
-* **@rad** 
+* **@rad** (initonly)
 Get/set use angular frequency<br>
 _type:_ flag<br>
 

@@ -1,9 +1,3 @@
----
-layout:     default
-title:      seq.arp
-categories: [seq]
-tags:       [seq, arpeggio, pattern]
----
 [index](index.html) :: [seq](category_seq.html)
 ---
 
@@ -89,7 +83,7 @@ _type:_ list<br>
 
 ## inlets:
 
-* starts sequencer<br>
+* play one note in sequence (same as [on( message)<br>
 _type:_ control
 
 

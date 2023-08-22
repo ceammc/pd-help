@@ -1,9 +1,3 @@
----
-layout:     default
-title:      hoa.out~
-categories: [spat]
-tags:       [hoa, outlet]
----
 [index](index.html) :: [spat](category_spat.html)
 ---
 
@@ -45,12 +39,12 @@ _default:_ 0<br>
 
 
 
-
-
-## outlets:
+## inlets:
 
 * output signal in the corresponding hoa.process~ object&#39;s signal outlet<br>
 _type:_ audio
+
+
 
 
 

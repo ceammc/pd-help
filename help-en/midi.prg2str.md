@@ -1,9 +1,3 @@
----
-layout:     default
-title:      midi.prg2str
-categories: [midi]
-tags:       [midi, convert, midi]
----
 [index](index.html) :: [midi](category_midi.html)
 ---
 
@@ -30,12 +24,12 @@ tags:       [midi, convert, midi]
 
 ## properties:
 
-* **@symbol** 
+* **@symbol** (initonly)
 Get/set output as symbol instead of string by default<br>
 _type:_ flag<br>
 _default:_ 0<br>
 
-* **@family** 
+* **@family** (initonly)
 Get/set output family name instead of instrument name<br>
 _type:_ flag<br>
 _default:_ 0<br>

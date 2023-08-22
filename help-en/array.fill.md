@@ -1,9 +1,3 @@
----
-layout:     default
-title:      array.fill
-categories: [array]
-tags:       [array, fill]
----
 [index](index.html) :: [array](category_array.html)
 ---
 
@@ -21,6 +15,12 @@ tags:       [array, fill]
 [![example](../examples/img/array.fill.jpg)](../examples/pd/array.fill.pd)
 
 
+
+## arguments:
+
+* **ARRAY**
+array name<br>
+_type:_ symbol<br>
 
 
 
@@ -121,8 +121,7 @@ _type:_ symbol<br>
 
 * **@redraw** 
 Get/set redraw after array change<br>
-_type:_ int<br>
-_enum:_ 1, 0<br>
+_type:_ bool<br>
 _default:_ 1<br>
 
 

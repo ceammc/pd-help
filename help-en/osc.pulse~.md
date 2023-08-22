@@ -1,9 +1,3 @@
----
-layout:     default
-title:      osc.pulse~
-categories: [osc]
-tags:       [oscillator, band-limited]
----
 [index](index.html) :: [osc](category_osc.html)
 ---
 
@@ -24,12 +18,12 @@ tags:       [oscillator, band-limited]
 
 ## arguments:
 
-* **freq**
+* **FREQ**
 frequency<br>
 _type:_ float<br>
 _units:_ Hz<br>
 
-* **duty**
+* **DUTY**
 duty cycle<br>
 _type:_ float<br>
 
@@ -41,8 +35,7 @@ _type:_ float<br>
 
 * **@active** 
 Get/set on/off dsp processing<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 1<br>
 
 * **@duty** 

@@ -1,9 +1,3 @@
----
-layout:     default
-title:      music.dur2time
-categories: [conv]
-tags:       [conv, music, duration]
----
 [index](index.html) :: [conv](category_conv.html)
 ---
 
@@ -38,9 +32,8 @@ _type:_ list<br>
 _default:_ 60 0.25<br>
 
 * **@seq** 
-Get/set sequencial durations<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+Get/set sequential durations<br>
+_type:_ bool<br>
 _default:_ 1<br>
 
 

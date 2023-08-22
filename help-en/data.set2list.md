@@ -1,9 +1,3 @@
----
-layout:     default
-title:      data.set2list
-categories: [data]
-tags:       [data, set, list]
----
 [index](index.html) :: [data](category_data.html)
 ---
 
@@ -32,7 +26,7 @@ Note: output list is not sorted by default. You can use @sort flag to get sorted
 
 ## properties:
 
-* **@sort** 
+* **@sort** (initonly)
 Get/set if specified - sort output list<br>
 _type:_ flag<br>
 _default:_ 0<br>

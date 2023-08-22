@@ -1,9 +1,3 @@
----
-layout:     default
-title:      env.smooth~
-categories: [env]
-tags:       [envelope, smooth]
----
 [index](index.html) :: [env](category_env.html)
 ---
 
@@ -24,7 +18,7 @@ tags:       [envelope, smooth]
 
 ## arguments:
 
-* **duration**
+* **DURATION**
 attack time<br>
 _type:_ float<br>
 _units:_ ms<br>
@@ -57,14 +51,12 @@ _default:_ 100<br>
 
 * **@gate** 
 Get/set trigger signal<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 * **@active** 
 Get/set on/off dsp processing<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 1<br>
 
 

@@ -1,9 +1,3 @@
----
-layout:     default
-title:      hoa.scope~
-categories: [spat]
-tags:       [hoa, scope]
----
 [index](index.html) :: [spat](category_spat.html)
 ---
 
@@ -53,8 +47,8 @@ set UI element position<br>
 
 ## properties:
 
-* **@order** (readonly)
-Get the order of decomposition<br>
+* **@order** 
+Get/set the order of decomposition<br>
 _type:_ int<br>
 _range:_ 1..63<br>
 _default:_ 1<br>
@@ -87,16 +81,6 @@ Get/set negative harmonics color<br>
 _type:_ list<br>
 _default:_ 0 0 1 1<br>
 
-* **@send** 
-Get/set send destination<br>
-_type:_ symbol<br>
-_default:_ (null)<br>
-
-* **@receive** 
-Get/set receive source<br>
-_type:_ symbol<br>
-_default:_ (null)<br>
-
 * **@size** 
 Get/set element size (width, height pair)<br>
 _type:_ list<br>
@@ -104,8 +88,7 @@ _default:_ 120 120<br>
 
 * **@pinned** 
 Get/set pin mode. if 1 - put element to the lowest level<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 * **@background_color** 
@@ -121,12 +104,13 @@ _default:_ 0.6 0.6 0.6 1<br>
 * **@fontsize** 
 Get/set fontsize<br>
 _type:_ int<br>
-_range:_ 4..11<br>
+_range:_ 4..100<br>
 _default:_ 11<br>
 
 * **@fontname** 
 Get/set fontname<br>
 _type:_ symbol<br>
+_enum:_ Courier, DejaVu, Helvetica, Monaco, Times<br>
 _default:_ Helvetica<br>
 
 * **@fontweight** 
@@ -153,8 +137,7 @@ _default:_ 0 0 0 1<br>
 
 * **@label_inner** 
 Get/set label position (1 - inner, 0 - outer).<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 * **@label_align** 

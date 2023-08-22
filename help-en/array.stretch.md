@@ -1,9 +1,3 @@
----
-layout:     default
-title:      array.stretch
-categories: [array]
-tags:       [array, stretch]
----
 [index](index.html) :: [array](category_array.html)
 ---
 
@@ -70,13 +64,12 @@ _default:_ 1<br>
 
 * **@speech** 
 Get/set optimize for speech sound source<br>
-_type:_ flag<br>
+_type:_ bool<br>
 
 * **@antialias** 
 Get/set use of anti-alias filter. Anti-alias filter is used to prevent folding of high
 frequencies when transposing the sample rate with interpolation.<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 * **@aalength** 

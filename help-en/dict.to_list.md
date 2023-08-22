@@ -1,9 +1,3 @@
----
-layout:     default
-title:      dict.to_list
-categories: [data]
-tags:       [dictionary]
----
 [index](index.html) :: [data](category_data.html)
 ---
 

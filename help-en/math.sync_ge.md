@@ -1,9 +1,3 @@
----
-layout:     default
-title:      math.sync_ge
-categories: [math]
-tags:       [math, sync, greater, equal, compare]
----
 [index](index.html) :: [math](category_math.html)
 ---
 

@@ -1,9 +1,3 @@
----
-layout:     default
-title:      path.lsdir
-categories: [path]
-tags:       [path, list]
----
 [index](index.html) :: [path](category_path.html)
 ---
 
@@ -28,7 +22,7 @@ tags:       [path, list]
 
 * **PATH**
 init directory value<br>
-_type:_ symbol<br>
+_type:_ list<br>
 
 
 

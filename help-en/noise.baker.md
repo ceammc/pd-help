@@ -1,9 +1,3 @@
----
-layout:     default
-title:      noise.baker
-categories: [noise]
-tags:       [noise]
----
 [index](index.html) :: [noise](category_noise.html)
 ---
 
@@ -11,7 +5,7 @@ tags:       [noise]
 
 ###### Part of a-chaos library
 
-*available since version:* .5
+*available since version:* 0.5
 
 ---
 
@@ -26,7 +20,7 @@ Port of Richard&#39;s chaos-baker from chaos collection
 
 ## arguments:
 
-* **ARG0**
+* **VALUE**
 initial value<br>
 _type:_ float<br>
 

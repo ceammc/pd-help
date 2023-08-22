@@ -1,9 +1,3 @@
----
-layout:     default
-title:      dyn.comp2~
-categories: [dyn]
-tags:       [compressor]
----
 [index](index.html) :: [dyn](category_dyn.html)
 ---
 
@@ -24,28 +18,24 @@ tags:       [compressor]
 
 ## arguments:
 
-* **ratio**
+* **RATIO**
 compression ratio (1 = no compression, &gt;1 means compression)<br>
 _type:_ float<br>
 
-* **threshold**
+* **THRESHOLD**
 level threshold above which compression kicks in (100 dB = max level)<br>
 _type:_ float<br>
 _units:_ db<br>
 
-* **attack**
+* **ATTACK**
 attack time = time constant when level &amp; compression going up<br>
 _type:_ float<br>
 _units:_ ms<br>
 
-* **release**
+* **RELEASE**
 release time = time constant coming out of compression<br>
 _type:_ float<br>
 _units:_ ms<br>
-
-* **ID**
-object ID for OSC control path<br>
-_type:_ symbol<br>
 
 
 
@@ -80,10 +70,16 @@ _units:_ ms<br>
 _range:_ 1..500<br>
 _default:_ 50<br>
 
+* **@gain** 
+Get/set make up gain: applied to the signal after the compression takes place<br>
+_type:_ float<br>
+_units:_ db<br>
+_range:_ -12..12<br>
+_default:_ 0<br>
+
 * **@active** 
 Get/set on/off dsp processing<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 1<br>
 
 
@@ -103,8 +99,6 @@ _type:_ audio
 _type:_ audio
 * right output signal<br>
 _type:_ audio
-* information output<br>
-_type:_ control
 
 
 

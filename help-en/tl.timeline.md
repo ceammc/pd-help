@@ -1,9 +1,3 @@
----
-layout:     default
-title:      tl.timeline
-categories: [tl]
-tags:       [timeline]
----
 [index](index.html) :: [tl](category_tl.html)
 ---
 
@@ -99,8 +93,7 @@ move time to time<br>
 
 * **@is_running** (readonly)
 Get if timeline is running<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 * **@length** (readonly)
@@ -134,8 +127,7 @@ _default:_ end<br>
 
 * **@loop** 
 Get/set loop mode<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 * **@mode** 

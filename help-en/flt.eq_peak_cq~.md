@@ -1,9 +1,3 @@
----
-layout:     default
-title:      flt.eq_peak_cq~
-categories: [flt]
-tags:       [filter, equalizer]
----
 [index](index.html) :: [flt](category_flt.html)
 ---
 
@@ -24,17 +18,17 @@ tags:       [filter, equalizer]
 
 ## arguments:
 
-* **freq**
+* **FREQ**
 center frequency<br>
 _type:_ float<br>
 _units:_ Hz<br>
 
-* **gain**
+* **GAIN**
 filter gain<br>
 _type:_ float<br>
 _units:_ db<br>
 
-* **q**
+* **Q**
 quality factory<br>
 _type:_ float<br>
 
@@ -66,8 +60,7 @@ _default:_ 3<br>
 
 * **@active** 
 Get/set on/off dsp processing<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 1<br>
 
 
@@ -75,7 +68,7 @@ _default:_ 1<br>
 ## inlets:
 
 * input signal<br>
-_type:_ control
+_type:_ audio
 
 
 

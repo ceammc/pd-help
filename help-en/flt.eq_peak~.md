@@ -1,9 +1,3 @@
----
-layout:     default
-title:      flt.eq_peak~
-categories: [flt]
-tags:       [filter, equalizer]
----
 [index](index.html) :: [flt](category_flt.html)
 ---
 
@@ -24,17 +18,17 @@ tags:       [filter, equalizer]
 
 ## arguments:
 
-* **freq**
+* **FREQ**
 peak frequency<br>
 _type:_ float<br>
 _units:_ Hz<br>
 
-* **gain**
+* **GAIN**
 level at fx (boost if &gt;0 or cut if &lt;0)<br>
 _type:_ float<br>
 _units:_ db<br>
 
-* **bandwidth**
+* **BANDWIDTH**
 bandwidth of peak<br>
 _type:_ float<br>
 _units:_ Hz<br>
@@ -68,8 +62,7 @@ _default:_ 100<br>
 
 * **@active** 
 Get/set on/off dsp processing<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 1<br>
 
 

@@ -1,9 +1,3 @@
----
-layout:     default
-title:      string.match
-categories: [string]
-tags:       [match, regex]
----
 [index](index.html) :: [string](category_string.html)
 ---
 
@@ -30,7 +24,7 @@ Used syntax: re2 (like pcre). Some characters are non-supported in Pd. Use ` ins
 
 * **RE**
 regular expression<br>
-_type:_ symbol<br>
+_type:_ list<br>
 
 
 

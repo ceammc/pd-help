@@ -1,9 +1,3 @@
----
-layout:     default
-title:      path.search
-categories: [path]
-tags:       [path, environment]
----
 [index](index.html) :: [path](category_path.html)
 ---
 
@@ -44,8 +38,7 @@ cancel search process<br>
 
 * **@async** 
 Get/set perform async search in separate thread<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 1<br>
 
 * **@sync** 
@@ -64,14 +57,12 @@ _type:_ list<br>
 
 * **@home** 
 Get/set search in home directory<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 1<br>
 
 * **@std** 
 Get/set search in PureData standard directory<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 1<br>
 
 * **@nohome** 

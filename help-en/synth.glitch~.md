@@ -1,9 +1,3 @@
----
-layout:     default
-title:      synth.glitch~
-categories: [synth]
-tags:       [glitch]
----
 [index](index.html) :: [synth](category_synth.html)
 ---
 
@@ -59,8 +53,7 @@ _type:_ list<br>
 * **@clip** 
 Get/set clip output to -1..+1 range. Use false value only when you are know what are
 you doing and at your own risk!<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 1<br>
 
 

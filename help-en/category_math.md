@@ -168,10 +168,12 @@ _aliases:_ \[ceammc/1/x\], \[1/x\]
 _aliases:_ \[ceammc/1/x\~\], \[1/x\~\]
 
 
-[**math.round**](math.round.html): round to integral value, regardless of rounding direction 
+[**math.round**](math.round.html): round to integral value, regardless of rounding direction <br>
+_aliases:_ \[round\], \[ceammc/round\]
+
 
 [**math.round\~**](math.round~.html): signal round <br>
-_aliases:_ \[round\~\]
+_aliases:_ \[round\~\], \[ceammc/round\~\]
 
 
 [**math.sign**](math.sign.html): sign function 
@@ -273,6 +275,6 @@ _aliases:_ \[math.^&#39;\], \[ceammc/^&#39;\], \[^&#39;\]
 [**math.trunc\~**](math.trunc~.html): truncate to integer value 
 
 
-**Version:** 0.9.4
+**Version:** 0.9.6
 
 **License:** GPL3

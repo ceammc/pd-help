@@ -38,7 +38,7 @@ _aliases:_ \[ceammc/bits-&gt;note\], \[bits-&gt;note\]
 _aliases:_ \[ceammc/bits-&gt;pos\], \[bits-&gt;pos\]
 
 
-[**conv.bpm2hz**](conv.bpm2hz.html): converts BPM to frequency in herz <br>
+[**conv.bpm2hz**](conv.bpm2hz.html): converts BPM to frequency in hertz <br>
 _aliases:_ \[ceammc/bpm-&gt;hz\], \[bpm-&gt;hz\]
 
 
@@ -118,6 +118,10 @@ _aliases:_ \[ceammc/ms-&gt;samp\], \[ms-&gt;samp\]
 _aliases:_ \[ceammc/ms-&gt;samp\~\], \[ms-&gt;samp\~\]
 
 
+[**conv.note2guido**](conv.note2guido.html): convert MIDI note to Guido notation <br>
+_aliases:_ \[ceammc/note-&gt;guido\], \[note-&gt;guido\]
+
+
 [**conv.phase2rad**](conv.phase2rad.html): convert phase value [0-1] to radians [0-2π] <br>
 _aliases:_ \[ceammc/phase-&gt;rad\], \[phase-&gt;rad\]
 
@@ -183,6 +187,6 @@ _aliases:_ \[music.v-&gt;m\]
 
 
 
-**Version:** 0.9.4
+**Version:** 0.9.6
 
 **License:** GPL3

@@ -1,9 +1,3 @@
----
-layout:     default
-title:      symbol2intlist
-categories: [symbol]
-tags:       [symbol, compare]
----
 [index](index.html) :: [symbol](category_symbol.html)
 ---
 

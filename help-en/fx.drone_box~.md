@@ -1,9 +1,3 @@
----
-layout:     default
-title:      fx.drone_box~
-categories: [fx]
-tags:       [fx, drone]
----
 [index](index.html) :: [fx](category_fx.html)
 ---
 
@@ -24,7 +18,7 @@ tags:       [fx, drone]
 
 ## arguments:
 
-* **pitch**
+* **PITCH**
 drone MIDI pitch<br>
 _type:_ float<br>
 
@@ -56,14 +50,12 @@ _default:_ 0.5<br>
 
 * **@bypass** 
 Get/set if set to 1 - bypass &#39;effected&#39; signal.<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 * **@active** 
 Get/set on/off dsp processing<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 1<br>
 
 

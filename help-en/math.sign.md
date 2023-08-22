@@ -1,9 +1,3 @@
----
-layout:     default
-title:      math.sign
-categories: [math]
-tags:       [math, sign]
----
 [index](index.html) :: [math](category_math.html)
 ---
 

@@ -1,9 +1,3 @@
----
-layout:     default
-title:      global.set
-categories: [global]
-tags:       [set, local, global]
----
 [index](index.html) :: [global](category_global.html)
 ---
 
@@ -58,6 +52,9 @@ sets new set content without output<br>
     type: list <br>
     required: True <br>
 
+* **choose**
+choose random element and output it<br>
+
 
 
 
@@ -65,8 +62,7 @@ sets new set content without output<br>
 
 * **@empty** (readonly)
 Get 1 if list is empty, otherwise 0<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 1<br>
 
 * **@size** (readonly)

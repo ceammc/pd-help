@@ -1,9 +1,3 @@
----
-layout:     default
-title:      replace
-categories: [flow]
-tags:       [replace, test]
----
 [index](index.html) :: [flow](category_flow.html)
 ---
 
@@ -45,10 +39,12 @@ _type:_ atom<br>
 * **@from** 
 Get/set replace subject<br>
 _type:_ atom<br>
+_default:_ None<br>
 
 * **@to** 
 Get/set replace value<br>
 _type:_ atom<br>
+_default:_ None<br>
 
 
 

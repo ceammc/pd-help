@@ -1,9 +1,3 @@
----
-layout:     default
-title:      array.resample
-categories: [array]
-tags:       [array, resample]
----
 [index](index.html) :: [array](category_array.html)
 ---
 

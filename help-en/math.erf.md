@@ -1,9 +1,3 @@
----
-layout:     default
-title:      math.erf
-categories: [math]
-tags:       [math, error, gauss]
----
 [index](index.html) :: [math](category_math.html)
 ---
 

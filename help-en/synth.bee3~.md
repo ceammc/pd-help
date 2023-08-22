@@ -1,9 +1,3 @@
----
-layout:     default
-title:      synth.bee3~
-categories: [synth]
-tags:       [hammond, synth, fm]
----
 [index](index.html) :: [synth](category_synth.html)
 ---
 

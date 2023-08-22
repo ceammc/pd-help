@@ -1,9 +1,3 @@
----
-layout:     default
-title:      msg.sched
-categories: [msg]
-tags:       [message, scheduler]
----
 [index](index.html) :: [msg](category_msg.html)
 ---
 
@@ -17,7 +11,7 @@ tags:       [message, scheduler]
 
 
 ## information
-First element of input list considered as delay time in milliseconds. Other messages passed &#39;as is&#39; immidiately.
+First element of input list considered as delay time in milliseconds. Other messages passed &#39;as is&#39; immediately.
 
 
 [![example](../examples/img/msg.sched.jpg)](../examples/pd/msg.sched.pd)
@@ -32,7 +26,7 @@ First element of input list considered as delay time in milliseconds. Other mess
 
 ## inlets:
 
-* immidiately output bang<br>
+* immediately output bang<br>
 _type:_ control
 * clear scheduled messages<br>
 _type:_ control

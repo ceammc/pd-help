@@ -1,9 +1,3 @@
----
-layout:     default
-title:      xfade~
-categories: [base]
-tags:       [crossfade, xfade]
----
 [index](index.html) :: [base](category_base.html)
 ---
 
@@ -32,6 +26,10 @@ control float value in range [0-1) controls xfade between first and second signa
 number of inputs<br>
 _type:_ int<br>
 
+* **X**
+crossfade init value. Valid value in [0..N-1] range. See @x property<br>
+_type:_ float<br>
+
 
 
 
@@ -58,6 +56,12 @@ _type:_ alias<br>
 * **@pow** 
 Get/set alias to @type pow<br>
 _type:_ alias<br>
+
+* **@x** 
+Get/set crossfade property. Valid value in [0..N-1] range.<br>
+_type:_ float<br>
+_range:_ 0..1<br>
+_default:_ 0<br>
 
 
 

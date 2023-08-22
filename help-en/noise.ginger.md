@@ -1,9 +1,3 @@
----
-layout:     default
-title:      noise.ginger
-categories: [noise]
-tags:       [chaos, generator, gingerbreadman]
----
 [index](index.html) :: [noise](category_noise.html)
 ---
 

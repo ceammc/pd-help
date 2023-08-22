@@ -1,9 +1,3 @@
----
-layout:     default
-title:      math.carg~
-categories: [math]
-tags:       [math, complex, phase, angle]
----
 [index](index.html) :: [math](category_math.html)
 ---
 

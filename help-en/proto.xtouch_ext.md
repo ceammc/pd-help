@@ -1,9 +1,3 @@
----
-layout:     default
-title:      proto.xtouch_ext
-categories: [proto]
-tags:       [xtouch, behringer]
----
 [index](index.html) :: [proto](category_proto.html)
 ---
 
@@ -23,6 +17,12 @@ Behringer XTouch Extender XMidi
 [![example](../examples/img/proto.xtouch_ext.jpg)](../examples/pd/proto.xtouch_ext.pd)
 
 
+
+## arguments:
+
+* **PROTO**
+connection protocol<br>
+_type:_ symbol<br>
 
 
 
@@ -329,17 +329,23 @@ display texts<br>
 
 ## properties:
 
-* **@n** (readonly)
-Get number of scenes<br>
+* **@n** (initonly)
+Get/set number of scenes<br>
 _type:_ int<br>
 _range:_ 1..32<br>
 _default:_ 2<br>
 
-* **@scene** (readonly)
-Get current scene<br>
+* **@scene** 
+Get/set current scene<br>
 _type:_ int<br>
 _min value:_ 0<br>
 _default:_ 0<br>
+
+* **@proto** 
+Get/set connection protocol<br>
+_type:_ symbol<br>
+_enum:_ hui, mcu, xmidi<br>
+_default:_ xmidi<br>
 
 
 

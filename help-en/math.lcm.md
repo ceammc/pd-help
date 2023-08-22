@@ -1,9 +1,3 @@
----
-layout:     default
-title:      math.lcm
-categories: [math]
-tags:       [math, lcm]
----
 [index](index.html) :: [math](category_math.html)
 ---
 

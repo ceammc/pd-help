@@ -1,9 +1,3 @@
----
-layout:     default
-title:      conv.edge2bang
-categories: [conv]
-tags:       [conv, edge, detector]
----
 [index](index.html) :: [conv](category_conv.html)
 ---
 

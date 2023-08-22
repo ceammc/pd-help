@@ -1,9 +1,3 @@
----
-layout:     default
-title:      array.p2s
-categories: [conv]
-tags:       [array, phase, sample]
----
 [index](index.html) :: [conv](category_conv.html)
 ---
 
@@ -28,7 +22,7 @@ this object allows to get relative access to array
 
 ## arguments:
 
-* **NAME**
+* **ARRAY**
 array name<br>
 _type:_ symbol<br>
 

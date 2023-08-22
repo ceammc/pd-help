@@ -1,9 +1,3 @@
----
-layout:     default
-title:      global.dict
-categories: [global]
-tags:       [dict, local, global]
----
 [index](index.html) :: [global](category_global.html)
 ---
 
@@ -49,6 +43,9 @@ adds entry to dictionary<br>
 
 * **clear**
 removes all dict values. No output<br>
+
+* **choose**
+choose random key and output it<br>
 
 * **get_key**
 get entry from dictionary<br>
@@ -106,8 +103,7 @@ _type:_ list<br>
 
 * **@empty** (readonly)
 Get 1 if dict is empty, otherwise 0<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 1<br>
 
 * **@size** (readonly)

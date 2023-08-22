@@ -1,23 +1,17 @@
----
-layout:     default
-title:      noise.ikeda
-categories: [noise]
-tags:       [noise]
----
 [index](index.html) :: [noise](category_noise.html)
 ---
 
 # noise.ikeda
 
-###### Part of a-chaos library
+###### Ikeda attractor
 
-*available since version:* .5
+*available since version:* 0.5
 
 ---
 
 
 ## information
-Ikeda attractor --------------- zn+1 = a + b zn exp[ i k - i p / (1 + | zn2 | ) ] --- where z is a complex number real number formula by euler returns: === xn+1 = a + k*( x0*cos(b-(p/(1+x0*x0+y0*y0))) - y0*sin(b-(p/(1*x0*x0+y0*y0))) ) yn+1 = k*( x0*sin(b-(p/(1+x0*x0+y0*y0))) - y0*cos(b-(p/(1*x0*x0+y0*y0))) ) === a = 0.85, b = 0.9, k = 0.4, p = 7.7 a = 1.0, b = 0.9, k = 0.4, p = 6.0
+Ikeda attractor z[n+1] = a + b*z[n]*exp(kj - pj/(1+|z[n]^2|)) where z is a complex number real number formula by euler returns: === x[n+1] = a + k*(x0*cos(t[n])) - y0*sin(t[n]) ) y[n+1] = k*(x0*sin(t[n])) - y0*cos(t[n]) === where t[n] = b - p/(1 + x[n]^2 + y[n]^2) a = 0.85, b = 0.9, k = 0.4, p = 7.7 a = 1.0, b = 0.9, k = 0.4, p = 6.0
 
 
 [![example](../examples/img/noise.ikeda.jpg)](../examples/pd/noise.ikeda.pd)
@@ -26,27 +20,27 @@ Ikeda attractor --------------- zn+1 = a + b zn exp[ i k - i p / (1 + | zn2 | ) 
 
 ## arguments:
 
-* **ARG0**
+* **A**
 a value (optional)<br>
 _type:_ float<br>
 
-* **ARG1**
+* **B**
 b value (optional)<br>
 _type:_ float<br>
 
-* **ARG2**
+* **K**
 k value (optional)<br>
 _type:_ float<br>
 
-* **ARG3**
+* **P**
 p value (optional)<br>
 _type:_ float<br>
 
-* **ARG4**
+* **NX**
 nx value (optional)<br>
 _type:_ float<br>
 
-* **ARG5**
+* **NY**
 ny value (optional)<br>
 _type:_ float<br>
 
@@ -127,7 +121,9 @@ _type:_ control
 
 ## outlets:
 
-* main outlet<br>
+* x outlet<br>
+_type:_ control
+* y outlet<br>
 _type:_ control
 
 

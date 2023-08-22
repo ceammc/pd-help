@@ -18,7 +18,9 @@ _aliases:_ \[ceammc/helmholtz\~\], \[helmholtz\~\]
 
 [**an.tempo\~**](an.tempo~.html): tempo detector 
 
+[**an.zero\~**](an.zero~.html): zero crossing count/rate/freq calculator 
 
-**Version:** 0.9.4
+
+**Version:** 0.9.6
 
 **License:** GPL3

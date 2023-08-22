@@ -1,9 +1,3 @@
----
-layout:     default
-title:      conv.car2pol
-categories: [conv]
-tags:       [conv, polar, cartesian]
----
 [index](index.html) :: [conv](category_conv.html)
 ---
 
@@ -33,8 +27,7 @@ tags:       [conv, polar, cartesian]
 * **@positive** 
 Get/set output in positive range. If true output is in [0..2π) range, otherwise output
 range is [-π..+π]<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 

@@ -1,9 +1,3 @@
----
-layout:     default
-title:      system.memused
-categories: [system]
-tags:       [system, memory]
----
 [index](index.html) :: [system](category_system.html)
 ---
 

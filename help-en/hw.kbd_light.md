@@ -1,9 +1,3 @@
----
-layout:     default
-title:      hw.kbd_light
-categories: [hw]
-tags:       [keyboard]
----
 [index](index.html) :: [hw](category_hw.html)
 ---
 

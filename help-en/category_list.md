@@ -64,6 +64,8 @@ _aliases:_ \[list.conv\]
 _aliases:_ \[list.size\]
 
 
+[**list.map**](list.map.html): map list values by specified dictionary 
+
 [**list.max**](list.max.html): output largest element in the list 
 
 [**list.mean**](list.mean.html): calculates average of list of floats <br>
@@ -75,6 +77,8 @@ _aliases:_ \[list.average\]
 [**list.none_of**](list.none_of.html): checks if none of list atoms is accepted by predicate 
 
 [**list.normalize**](list.normalize.html): normalizes float list values to get their sum = 1.0 
+
+[**list.pass**](list.pass.html): leave in list only specified elements 
 
 [**list.pass_if**](list.pass_if.html): leave only elements accepted by predicate <br>
 _aliases:_ \[list.filter\]
@@ -91,6 +95,8 @@ _aliases:_ \[list.minmax\]
 [**list.reduce**](list.reduce.html): apply function of two arguments cumulatively to the list <br>
 _aliases:_ \[list.foldl\]
 
+
+[**list.reject**](list.reject.html): remove specified element from list 
 
 [**list.remove**](list.remove.html): remove list element(s) at specified positions 
 
@@ -167,6 +173,6 @@ _aliases:_ \[list.interleave\]
 
 
 
-**Version:** 0.9.4
+**Version:** 0.9.6
 
 **License:** GPL3

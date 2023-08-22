@@ -1,9 +1,3 @@
----
-layout:     default
-title:      synth.snare~
-categories: [synth]
-tags:       [synth, snare, drum]
----
 [index](index.html) :: [synth](category_synth.html)
 ---
 
@@ -43,8 +37,7 @@ _default:_ 0<br>
 
 * **@active** 
 Get/set on/off dsp processing<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 1<br>
 
 * **@attack** 
@@ -70,8 +63,7 @@ _default:_ 200<br>
 
 * **@envwait** 
 Get/set ignore new notes until previous note is not finished release time<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 

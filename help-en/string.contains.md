@@ -1,9 +1,3 @@
----
-layout:     default
-title:      string.contains
-categories: [string]
-tags:       [contains, search]
----
 [index](index.html) :: [string](category_string.html)
 ---
 
@@ -26,7 +20,7 @@ tags:       [contains, search]
 
 ## arguments:
 
-* **SUBSTR**
+* **SUBJ**
 searched substring<br>
 _type:_ symbol<br>
 

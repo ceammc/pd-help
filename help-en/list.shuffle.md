@@ -1,9 +1,3 @@
----
-layout:     default
-title:      list.shuffle
-categories: [list]
-tags:       [list, shuffle, random]
----
 [index](index.html) :: [list](category_list.html)
 ---
 

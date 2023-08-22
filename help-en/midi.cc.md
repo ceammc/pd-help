@@ -1,9 +1,3 @@
----
-layout:     default
-title:      midi.cc
-categories: [midi]
-tags:       [midi, controller, name, cc, ctlin]
----
 [index](index.html) :: [midi](category_midi.html)
 ---
 
@@ -65,7 +59,8 @@ _type:_ float<br>
 _default:_ 127<br>
 
 * **@curve** 
-Get/set output curve. If @curve0: slow begin, fast end, if @curve==0: linear speed<br>
+Get/set output curve. If @curve&lt;0: fast begin, slow end, else if @curve&gt;0: slow begin,
+fast end, if @curve==0: linear speed<br>
 _type:_ float<br>
 _default:_ 0<br>
 

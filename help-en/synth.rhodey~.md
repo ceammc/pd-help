@@ -1,9 +1,3 @@
----
-layout:     default
-title:      synth.rhodey~
-categories: [synth]
-tags:       [rhodes, fender, synth, fm]
----
 [index](index.html) :: [synth](category_synth.html)
 ---
 

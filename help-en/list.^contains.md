@@ -1,9 +1,3 @@
----
-layout:     default
-title:      list.^contains
-categories: [list]
-tags:       [list, predicate, any]
----
 [index](index.html) :: [list](category_list.html)
 ---
 
@@ -26,7 +20,7 @@ Outputs 1 if contains, otherwise 0 Different arguments order then in [list.^cont
 
 ## arguments:
 
-* **LIST**
+* **VALUE**
 list contents<br>
 _type:_ list<br>
 

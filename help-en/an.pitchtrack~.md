@@ -1,9 +1,3 @@
----
-layout:     default
-title:      an.pitchtrack~
-categories: [an]
-tags:       [pitchtrack]
----
 [index](index.html) :: [an](category_an.html)
 ---
 
@@ -28,13 +22,10 @@ Period-length detector using Philip McLeod&#39;s Specially Normalized AutoCorrel
 
 ## arguments:
 
-* **FRAME**
+* **FRAMESIZE**
 frame size in samples<br>
 _type:_ int<br>
-
-* **OVERLAP**
-overlap of analysis frames<br>
-_type:_ int<br>
+_units:_ samp<br>
 
 
 

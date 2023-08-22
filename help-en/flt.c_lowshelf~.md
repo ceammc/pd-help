@@ -1,9 +1,3 @@
----
-layout:     default
-title:      flt.c_lowshelf~
-categories: [flt]
-tags:       [filter, lowshelf]
----
 [index](index.html) :: [flt](category_flt.html)
 ---
 
@@ -26,12 +20,12 @@ gain boost|cut below some frequency Calculates coefficients for transfer functio
 
 ## arguments:
 
-* **freq**
+* **FREQ**
 cutoff frequency<br>
 _type:_ float<br>
 _units:_ Hz<br>
 
-* **gain**
+* **GAIN**
 filter gain<br>
 _type:_ float<br>
 _units:_ db<br>
@@ -58,8 +52,7 @@ _default:_ 0<br>
 
 * **@active** 
 Get/set on/off dsp processing<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 1<br>
 
 

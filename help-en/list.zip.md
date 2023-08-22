@@ -1,9 +1,3 @@
----
-layout:     default
-title:      list.zip
-categories: [list]
-tags:       [list, functional]
----
 [index](index.html) :: [list](category_list.html)
 ---
 
@@ -66,7 +60,7 @@ Get/set pad value for pad method of resizing<br>
 _type:_ atom<br>
 _default:_ 0<br>
 
-* **@n** 
+* **@n** (initonly)
 Get/set number of inputs<br>
 _type:_ int<br>
 _range:_ 2..20<br>

@@ -1,9 +1,3 @@
----
-layout:     default
-title:      local.int
-categories: [local]
-tags:       [int, local]
----
 [index](index.html) :: [local](category_local.html)
 ---
 

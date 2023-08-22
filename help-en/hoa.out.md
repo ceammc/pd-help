@@ -1,9 +1,3 @@
----
-layout:     default
-title:      hoa.out
-categories: [spat]
-tags:       [hoa, outlet]
----
 [index](index.html) :: [spat](category_spat.html)
 ---
 

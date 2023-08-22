@@ -1,9 +1,3 @@
----
-layout:     default
-title:      array.mean
-categories: [array]
-tags:       [array, mean]
----
 [index](index.html) :: [array](category_array.html)
 ---
 
@@ -24,7 +18,7 @@ tags:       [array, mean]
 
 ## arguments:
 
-* **NAME**
+* **ARRAY**
 array name<br>
 _type:_ symbol<br>
 

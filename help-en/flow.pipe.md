@@ -1,9 +1,3 @@
----
-layout:     default
-title:      flow.pipe
-categories: [flow]
-tags:       [flow, pipe]
----
 [index](index.html) :: [flow](category_flow.html)
 ---
 
@@ -26,7 +20,7 @@ Acts like vanilla [pipe] but for any messages: bangs, floats, symbols etc. Note:
 
 ## arguments:
 
-* **MS**
+* **DELAY**
 init @delay property<br>
 _type:_ float<br>
 _units:_ ms<br>
@@ -46,8 +40,7 @@ _default:_ 0<br>
 
 * **@empty** (readonly)
 Get 1 if pipe is empty, otherwise 0.<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 1<br>
 
 * **@size** (readonly)

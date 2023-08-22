@@ -1,9 +1,3 @@
----
-layout:     default
-title:      flt.c_notch~
-categories: [flt]
-tags:       [filter, biquad, notch, reject]
----
 [index](index.html) :: [flt](category_flt.html)
 ---
 
@@ -26,12 +20,12 @@ Calculates coefficients for transfer function: H(z)=(b0 + b1*z⁻¹ + b2*z⁻²)
 
 ## arguments:
 
-* **freq**
+* **FREQ**
 center frequency<br>
 _type:_ float<br>
 _units:_ Hz<br>
 
-* **q**
+* **Q**
 quality factory<br>
 _type:_ float<br>
 
@@ -56,8 +50,7 @@ _default:_ 1<br>
 
 * **@active** 
 Get/set on/off dsp processing<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 1<br>
 
 

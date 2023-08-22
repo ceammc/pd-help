@@ -1,9 +1,3 @@
----
-layout:     default
-title:      flow.once
-categories: [flow]
-tags:       [once, pass]
----
 [index](index.html) :: [flow](category_flow.html)
 ---
 

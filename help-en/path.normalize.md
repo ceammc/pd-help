@@ -1,9 +1,3 @@
----
-layout:     default
-title:      path.normalize
-categories: [path]
-tags:       [path, normalize]
----
 [index](index.html) :: [path](category_path.html)
 ---
 

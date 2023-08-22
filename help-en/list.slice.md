@@ -1,9 +1,3 @@
----
-layout:     default
-title:      list.slice
-categories: [list]
-tags:       [list, slice, sublist]
----
 [index](index.html) :: [list](category_list.html)
 ---
 

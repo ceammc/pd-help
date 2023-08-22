@@ -1,9 +1,3 @@
----
-layout:     default
-title:      conv.list2props
-categories: [conv]
-tags:       [conv, properties]
----
 [index](index.html) :: [conv](category_conv.html)
 ---
 

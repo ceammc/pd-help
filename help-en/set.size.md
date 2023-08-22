@@ -1,9 +1,3 @@
----
-layout:     default
-title:      set.size
-categories: [data]
-tags:       [data, set, size]
----
 [index](index.html) :: [data](category_data.html)
 ---
 

@@ -1,9 +1,3 @@
----
-layout:     default
-title:      env.ar~
-categories: [env]
-tags:       [envelope, ar]
----
 [index](index.html) :: [env](category_env.html)
 ---
 
@@ -26,12 +20,12 @@ click on object to activate envelope
 
 ## arguments:
 
-* **attack**
+* **ATTACK**
 attack time<br>
 _type:_ float<br>
 _units:_ ms<br>
 
-* **release**
+* **RELEASE**
 release time<br>
 _type:_ float<br>
 _units:_ ms<br>
@@ -67,8 +61,7 @@ _default:_ 300<br>
 
 * **@gate** 
 Get/set trigger signal<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 * **@ar** (readonly)
@@ -83,8 +76,7 @@ _default:_ 310<br>
 
 * **@active** 
 Get/set on/off dsp processing<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 1<br>
 
 

@@ -1,9 +1,3 @@
----
-layout:     default
-title:      math.trunc
-categories: [math]
-tags:       [math, trunc]
----
 [index](index.html) :: [math](category_math.html)
 ---
 
@@ -33,14 +27,14 @@ Outputs the integral value nearest to but no larger in magnitude than x
 ## inlets:
 
 * input signal<br>
-_type:_ audio
+_type:_ control
 
 
 
 ## outlets:
 
 * result signal<br>
-_type:_ audio
+_type:_ control
 
 
 

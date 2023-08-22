@@ -1,9 +1,3 @@
----
-layout:     default
-title:      array.plot
-categories: [array]
-tags:       [array, plot]
----
 [index](index.html) :: [array](category_array.html)
 ---
 
@@ -22,6 +16,20 @@ tags:       [array, plot]
 
 
 
+## arguments:
+
+* **ARRAY**
+array name<br>
+_type:_ symbol<br>
+
+* **YMIN**
+minimal y-axis value<br>
+_type:_ float<br>
+
+* **YMAX**
+maximum y-axis value<br>
+_type:_ float<br>
+
 
 
 
@@ -39,15 +47,14 @@ _range:_ -2048..2048<br>
 _default:_ -1<br>
 
 * **@ymax** 
-Get/set minimal y-axis value<br>
+Get/set maximum y-axis value<br>
 _type:_ float<br>
 _range:_ -2048..2048<br>
 _default:_ 1<br>
 
 * **@yauto** 
 Get/set calculate y-axis range automatically<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 1<br>
 
 * **@nan** 

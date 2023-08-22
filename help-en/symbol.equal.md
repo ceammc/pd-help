@@ -1,9 +1,3 @@
----
-layout:     default
-title:      symbol.equal
-categories: [symbol]
-tags:       [symbol, compare]
----
 [index](index.html) :: [symbol](category_symbol.html)
 ---
 

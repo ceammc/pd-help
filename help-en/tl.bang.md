@@ -1,9 +1,3 @@
----
-layout:     default
-title:      tl.bang
-categories: [tl]
-tags:       [timeline, bang]
----
 [index](index.html) :: [tl](category_tl.html)
 ---
 
@@ -25,6 +19,13 @@ Bang only when nearest left tl.cue was activated. If other cue is activated and 
 [![example](../examples/img/tl.bang.jpg)](../examples/pd/tl.bang.pd)
 
 
+
+## arguments:
+
+* **DELAY**
+timeline length<br>
+_type:_ float<br>
+_units:_ ms<br>
 
 
 

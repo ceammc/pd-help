@@ -1,9 +1,3 @@
----
-layout:     default
-title:      lfo.mosc~
-categories: [lfo]
-tags:       [lfo, oscillator]
----
 [index](index.html) :: [lfo](category_lfo.html)
 ---
 
@@ -26,10 +20,14 @@ switching between waveforms is interpolated and takes 50ms.
 
 ## arguments:
 
-* **freq**
+* **FREQ**
 frequency<br>
 _type:_ float<br>
 _units:_ Hz<br>
+
+* **WAVE**
+wave type<br>
+_type:_ symbol<br>
 
 
 
@@ -51,8 +49,7 @@ _default:_ 0.5<br>
 
 * **@pause** 
 Get/set pause oscillator at current value<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 * **@phase** 
@@ -76,8 +73,7 @@ _default:_ sin<br>
 
 * **@active** 
 Get/set on/off dsp processing<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 1<br>
 
 

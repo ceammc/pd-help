@@ -1,9 +1,3 @@
----
-layout:     default
-title:      midi.event2prg
-categories: [midi]
-tags:       [midi, program]
----
 [index](index.html) :: [midi](category_midi.html)
 ---
 
@@ -39,7 +33,9 @@ _type:_ control
 
 ## outlets:
 
-* output MIDI patch number<br>
+* int: MIDI program change value<br>
+_type:_ control
+* int: MIDI track<br>
 _type:_ control
 
 

@@ -1,9 +1,3 @@
----
-layout:     default
-title:      osc.sinfb~
-categories: [osc]
-tags:       [osc, feedback]
----
 [index](index.html) :: [osc](category_osc.html)
 ---
 
@@ -24,12 +18,12 @@ tags:       [osc, feedback]
 
 ## arguments:
 
-* **freq**
+* **FREQ**
 initial frequency<br>
 _type:_ float<br>
 _units:_ Hz<br>
 
-* **feedback**
+* **FEEDBACK**
 oscillator feedback coefficient in range 0..2pi<br>
 _type:_ float<br>
 
@@ -42,13 +36,12 @@ _type:_ float<br>
 * **@feedback** 
 Get/set oscillator feedback coefficient<br>
 _type:_ float<br>
-_range:_ 0..6.28319<br>
+_range:_ 0..6.283<br>
 _default:_ 0<br>
 
 * **@active** 
 Get/set on/off dsp processing<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 1<br>
 
 

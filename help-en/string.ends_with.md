@@ -1,9 +1,3 @@
----
-layout:     default
-title:      string.ends_with
-categories: [string]
-tags:       [ends, search]
----
 [index](index.html) :: [string](category_string.html)
 ---
 

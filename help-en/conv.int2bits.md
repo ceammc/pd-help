@@ -1,9 +1,3 @@
----
-layout:     default
-title:      conv.int2bits
-categories: [conv]
-tags:       [conv, bits, int]
----
 [index](index.html) :: [conv](category_conv.html)
 ---
 
@@ -26,6 +20,12 @@ Note: negative numbers converted using machine architecture, commonly two&#39;s 
 
 
 
+## arguments:
+
+* **SIZE**
+output bit-length<br>
+_type:_ int<br>
+
 
 
 
@@ -40,8 +40,7 @@ _default:_ 32<br>
 
 * **@rev** 
 Get/set reversed bit order<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 

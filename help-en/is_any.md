@@ -1,9 +1,3 @@
----
-layout:     default
-title:      is_any
-categories: [predicates]
-tags:       [predicate, any]
----
 [index](index.html) :: [predicates](category_predicates.html)
 ---
 

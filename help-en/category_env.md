@@ -43,6 +43,6 @@ _aliases:_ \[ceammc/vline2env\], \[ceammc/vline-&gt;env\], \[vline-&gt;env\]
 
 
 
-**Version:** 0.9.4
+**Version:** 0.9.6
 
 **License:** GPL3

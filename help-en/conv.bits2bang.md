@@ -1,9 +1,3 @@
----
-layout:     default
-title:      conv.bits2bang
-categories: [conv]
-tags:       [conv, bits, bangs]
----
 [index](index.html) :: [conv](category_conv.html)
 ---
 
@@ -26,25 +20,30 @@ in default mode if bit is on - sends bang to corresponding outlet in @poly mode 
 
 
 
+## arguments:
+
+* **N**
+number of outlets<br>
+_type:_ int<br>
+
 
 
 
 
 ## properties:
 
-* **@n** (readonly)
-Get 123<br>
+* **@n** (initonly)
+Get/set number of outlets<br>
 _type:_ int<br>
 _range:_ 1..64<br>
 _default:_ 8<br>
 
 * **@rev** 
 Get/set reversed bit order<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
-* **@poly** 
+* **@poly** (initonly)
 Get/set polyphonic mode for using with [clone] object<br>
 _type:_ flag<br>
 

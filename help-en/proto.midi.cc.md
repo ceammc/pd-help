@@ -1,9 +1,3 @@
----
-layout:     default
-title:      proto.midi.cc
-categories: [proto]
-tags:       [parser, midi]
----
 [index](index.html) :: [proto](category_proto.html)
 ---
 
@@ -239,7 +233,7 @@ send All Sounds Off message<br>
     type: int <br>
 
 * **bendsens**
-send Pitch bend sensivity message<br>
+send Pitch bend sensitivity message<br>
   __parameters:__
   - **CH** midi channel<br>
     type: int <br>
@@ -357,9 +351,9 @@ send CC Bank Select LSB<br>
 
 ## properties:
 
-* **@list** 
+* **@list** (initonly)
 Get/set output as list<br>
-_type:_ int<br>
+_type:_ flag<br>
 _enum:_ 0, 1<br>
 _default:_ 0<br>
 

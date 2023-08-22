@@ -1,9 +1,3 @@
----
-layout:     default
-title:      math.sync_eq
-categories: [math]
-tags:       [math, sync, equal]
----
 [index](index.html) :: [math](category_math.html)
 ---
 

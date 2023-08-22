@@ -1,9 +1,3 @@
----
-layout:     default
-title:      canvas.name
-categories: [patch]
-tags:       [canvas, name]
----
 [index](index.html) :: [patch](category_patch.html)
 ---
 

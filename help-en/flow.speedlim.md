@@ -1,9 +1,3 @@
----
-layout:     default
-title:      flow.speedlim
-categories: [flow]
-tags:       [speelim, drop]
----
 [index](index.html) :: [flow](category_flow.html)
 ---
 
@@ -28,7 +22,7 @@ Passthru all control data not often then specified limit in ms. Can be used for 
 
 ## arguments:
 
-* **TIME**
+* **LIMIT**
 limit time<br>
 _type:_ int<br>
 _units:_ ms<br>

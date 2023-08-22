@@ -19,7 +19,7 @@ _aliases:_ \[p.get\]
 
 
 [**prop.get\~**](prop.get~.html): Property extractor from sound stream <br>
-_aliases:_ \[prop\~&gt;\], \[@\~&gt;\]
+_aliases:_ \[prop\~&gt;\], \[@\~&gt;\], \[ceammc/prop\~&gt;\], \[ceammc/@\~&gt;\]
 
 
 [**prop.join**](prop.join.html): join property to main data flow <br>
@@ -33,10 +33,10 @@ _aliases:_ \[p.set\]
 
 
 [**prop.split**](prop.split.html): separate properties from dataflow <br>
-_aliases:_ \[prop-&gt;\], \[@-&gt;\]
+_aliases:_ \[prop-&gt;\], \[@-&gt;\], \[ceammc/prop-&gt;\], \[ceammc/@-&gt;\]
 
 
 
-**Version:** 0.9.4
+**Version:** 0.9.6
 
 **License:** GPL3

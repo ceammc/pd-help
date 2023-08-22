@@ -1,9 +1,3 @@
----
-layout:     default
-title:      synth.ks~
-categories: [synth]
-tags:       [karplus, strong]
----
 [index](index.html) :: [synth](category_synth.html)
 ---
 
@@ -98,8 +92,7 @@ _default:_ 0<br>
 
 * **@active** 
 Get/set on/off dsp processing<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 1<br>
 
 

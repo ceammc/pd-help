@@ -1,9 +1,3 @@
----
-layout:     default
-title:      string.starts_with
-categories: [string]
-tags:       [starts, search]
----
 [index](index.html) :: [string](category_string.html)
 ---
 

@@ -1,9 +1,3 @@
----
-layout:     default
-title:      system.getenv
-categories: [system]
-tags:       [system, environment]
----
 [index](index.html) :: [system](category_system.html)
 ---
 
@@ -24,13 +18,19 @@ tags:       [system, environment]
 
 ## arguments:
 
-* **VAR**
+* **NAME**
 environment variable name<br>
 _type:_ symbol<br>
 
 
 
 
+
+## properties:
+
+* **@name** 
+Get/set environment variable name<br>
+_type:_ symbol<br>
 
 
 

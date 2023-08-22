@@ -1,9 +1,3 @@
----
-layout:     default
-title:      list.stretch
-categories: [list]
-tags:       [list]
----
 [index](index.html) :: [list](category_list.html)
 ---
 
@@ -24,7 +18,7 @@ tags:       [list]
 
 ## arguments:
 
-* **stretch**
+* **SIZE**
 New size of output list. Input list will be stretched to the new size with
 linear interpolation<br>
 _type:_ int<br>

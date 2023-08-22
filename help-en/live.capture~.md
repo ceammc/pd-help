@@ -1,9 +1,3 @@
----
-layout:     default
-title:      live.capture~
-categories: [live]
-tags:       [live, record]
----
 [index](index.html) :: [live](category_live.html)
 ---
 
@@ -42,14 +36,19 @@ reset recorded data<br>
 
 * **@gate** 
 Get/set start/stop recording<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
+
+* **@fade** 
+Get/set intput crossfade time<br>
+_type:_ float<br>
+_units:_ ms<br>
+_range:_ 0..200<br>
+_default:_ 70<br>
 
 * **@active** 
 Get/set on/off dsp processing<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 1<br>
 
 

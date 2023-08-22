@@ -1,9 +1,3 @@
----
-layout:     default
-title:      conv.lin2exp
-categories: [conv]
-tags:       [convert, exponential]
----
 [index](index.html) :: [conv](category_conv.html)
 ---
 
@@ -28,19 +22,19 @@ The output range must not include zero. If the input exceeds the input range, by
 
 ## arguments:
 
-* **FROM**
+* **IN_FROM**
 begin of input range<br>
 _type:_ float<br>
 
-* **TO**
+* **IN_TO**
 end of input range<br>
 _type:_ float<br>
 
-* **FROM**
+* **OUT_FROM**
 begin of output range<br>
 _type:_ float<br>
 
-* **TO**
+* **OUT_TO**
 end of input output<br>
 _type:_ float<br>
 

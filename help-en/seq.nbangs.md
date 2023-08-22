@@ -1,9 +1,3 @@
----
-layout:     default
-title:      seq.nbangs
-categories: [seq]
-tags:       [seq, bang, until]
----
 [index](index.html) :: [seq](category_seq.html)
 ---
 

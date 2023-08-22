@@ -1,9 +1,3 @@
----
-layout:     default
-title:      window
-categories: [base]
-tags:       [window]
----
 [index](index.html) :: [base](category_base.html)
 ---
 
@@ -26,7 +20,7 @@ tags:       [window]
 
 ## arguments:
 
-* **NAME**
+* **TYPE**
 window name: blackman, blackman-harris, flattop, gauss, hamming, hann, nuttall,
 rect, sine, tri, welch<br>
 _type:_ symbol<br>
@@ -34,6 +28,7 @@ _type:_ symbol<br>
 * **SIZE**
 window size<br>
 _type:_ int<br>
+_units:_ samp<br>
 
 
 

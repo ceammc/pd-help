@@ -1,9 +1,3 @@
----
-layout:     default
-title:      fx.tapiir~
-categories: [fx]
-tags:       [fx, delay, tapiir]
----
 [index](index.html) :: [fx](category_fx.html)
 ---
 
@@ -28,6 +22,31 @@ tags:       [fx, delay, tapiir]
 
 * **reset**
 reset to initial state<br>
+
+* **random**
+randomize values<br>
+  __parameters:__
+  - **TYPE** group name. If &#39;delays&#39; - randomize @delays properties, if &#39;fb&#39; - randomize @fb* properties.<br>
+    type: symbol <br>
+    required: True <br>
+
+  - **[MIN]** minimal value<br>
+    type: float <br>
+
+  - **[MAX]** maximum value<br>
+    type: float <br>
+
+* **pingpong**
+set pingpong delay values<br>
+  __parameters:__
+  - **DELAY** delay time<br>
+    type: float <br>
+    units: ms <br>
+    required: True <br>
+
+  - **FB** feedback value<br>
+    type: float <br>
+    required: True <br>
 
 
 
@@ -590,8 +609,7 @@ _default:_ 0<br>
 
 * **@active** 
 Get/set on/off dsp processing<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 1<br>
 
 

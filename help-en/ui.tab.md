@@ -1,9 +1,3 @@
----
-layout:     default
-title:      ui.tab
-categories: [ui]
-tags:       [ui, tab]
----
 [index](index.html) :: [ui](category_ui.html)
 ---
 
@@ -79,6 +73,29 @@ selects specified item in tab<br>
     type: int <br>
     required: True <br>
 
+* **random**
+select random item. If called [random move( moves to random item (excluding the
+current one)<br>
+
+* **flip**
+flips radio (only in checklist mode)<br>
+
+* **next**
+moves to next item until last item is reached (single mode only). Output new
+item<br>
+
+* **prev**
+moves to previous item until first item is reached (single mode only). Output
+new item<br>
+
+* **+ STEP**
+moves several steps forward on a loop (single mode only), output newly selected
+item<br>
+
+* **- STEP**
+moves several step backwards on a loop (single mode only), output newly
+selected item<br>
+
 * **load**
 loads specified preset<br>
   __parameters:__
@@ -125,14 +142,12 @@ _type:_ list<br>
 
 * **@toggle** 
 Get/set toggle mode. In toggle moe multiple selection is possible<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 * **@orientation** 
 Get/set tab orientation. 1 is vertical, 0 is horizontal<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 * **@selected** (readonly)
@@ -171,8 +186,7 @@ _default:_ 100 15<br>
 
 * **@pinned** 
 Get/set pin mode. if 1 - put element to the lowest level<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 * **@active_color** 
@@ -203,12 +217,13 @@ _default:_ 0.6 0.6 0.6 1<br>
 * **@fontsize** 
 Get/set fontsize<br>
 _type:_ int<br>
-_range:_ 4..11<br>
+_range:_ 4..100<br>
 _default:_ 11<br>
 
 * **@fontname** 
 Get/set fontname<br>
 _type:_ symbol<br>
+_enum:_ Courier, DejaVu, Helvetica, Monaco, Times<br>
 _default:_ Helvetica<br>
 
 * **@fontweight** 

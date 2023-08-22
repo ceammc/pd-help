@@ -1,17 +1,11 @@
----
-layout:     default
-title:      noise.stein
-categories: [noise]
-tags:       [noise]
----
 [index](index.html) :: [noise](category_noise.html)
 ---
 
 # noise.stein
 
-###### Part of a-chaos library
+###### Stein distribution
 
-*available since version:* .5
+*available since version:* 0.5
 
 ---
 

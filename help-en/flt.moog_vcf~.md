@@ -1,9 +1,3 @@
----
-layout:     default
-title:      flt.moog_vcf~
-categories: [flt]
-tags:       [moog, vcf]
----
 [index](index.html) :: [flt](category_flt.html)
 ---
 
@@ -24,7 +18,7 @@ tags:       [moog, vcf]
 
 ## arguments:
 
-* **res**
+* **RES**
 normalized amount of corner-resonance<br>
 _type:_ float<br>
 
@@ -48,8 +42,7 @@ _default:_ 0.4<br>
 
 * **@active** 
 Get/set on/off dsp processing<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 1<br>
 
 

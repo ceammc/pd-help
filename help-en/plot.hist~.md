@@ -1,9 +1,3 @@
----
-layout:     default
-title:      plot.hist~
-categories: [array]
-tags:       [array, histogram]
----
 [index](index.html) :: [array](category_array.html)
 ---
 
@@ -60,8 +54,7 @@ _default:_ 1<br>
 
 * **@clip** 
 Get/set clip input values into input range, otherwise just ignore them<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 1<br>
 
 

@@ -1,9 +1,3 @@
----
-layout:     default
-title:      lfo.+saw~
-categories: [lfo]
-tags:       [lfo, oscillator, saw]
----
 [index](index.html) :: [lfo](category_lfo.html)
 ---
 
@@ -24,14 +18,14 @@ tags:       [lfo, oscillator, saw]
 
 ## arguments:
 
-* **freq**
+* **FREQ**
 frequency<br>
 _type:_ float<br>
 _units:_ Hz<br>
 
-* **invert**
+* **INVERT**
 invert saw<br>
-_type:_ int<br>
+_type:_ bool<br>
 
 
 
@@ -47,14 +41,12 @@ reset to initial state<br>
 
 * **@invert** 
 Get/set wave inversion<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 * **@pause** 
 Get/set pause oscillator at current value<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 * **@phase** 
@@ -65,8 +57,7 @@ _default:_ 0<br>
 
 * **@active** 
 Get/set on/off dsp processing<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 1<br>
 
 

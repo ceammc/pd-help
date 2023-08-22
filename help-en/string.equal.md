@@ -1,9 +1,3 @@
----
-layout:     default
-title:      string.equal
-categories: [string]
-tags:       [compare, equal]
----
 [index](index.html) :: [string](category_string.html)
 ---
 
@@ -26,7 +20,7 @@ tags:       [compare, equal]
 
 ## arguments:
 
-* **STR**
+* **SUBJ**
 second string initial value<br>
 _type:_ symbol<br>
 

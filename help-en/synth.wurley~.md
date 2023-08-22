@@ -1,9 +1,3 @@
----
-layout:     default
-title:      synth.wurley~
-categories: [synth]
-tags:       [wurlitzer, synth, fm]
----
 [index](index.html) :: [synth](category_synth.html)
 ---
 

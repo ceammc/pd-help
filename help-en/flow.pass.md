@@ -1,9 +1,3 @@
----
-layout:     default
-title:      flow.pass
-categories: [flow]
-tags:       [pass, functional]
----
 [index](index.html) :: [flow](category_flow.html)
 ---
 
@@ -23,6 +17,12 @@ tags:       [pass, functional]
 [![example](../examples/img/flow.pass.jpg)](../examples/pd/flow.pass.pd)
 
 
+
+## arguments:
+
+* **VALUES**
+atoms to pass<br>
+_type:_ list<br>
 
 
 

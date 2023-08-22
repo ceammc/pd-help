@@ -1,9 +1,3 @@
----
-layout:     default
-title:      math.gamma
-categories: [math]
-tags:       [math, gamma, factorial]
----
 [index](index.html) :: [math](category_math.html)
 ---
 

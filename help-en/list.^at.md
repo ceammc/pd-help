@@ -1,9 +1,3 @@
----
-layout:     default
-title:      list.^at
-categories: [list]
-tags:       [list, at]
----
 [index](index.html) :: [list](category_list.html)
 ---
 
@@ -24,7 +18,7 @@ tags:       [list, at]
 
 ## arguments:
 
-* **LIST**
+* **VALUE**
 list contents<br>
 _type:_ list<br>
 
@@ -41,7 +35,7 @@ _type:_ list<br>
 * **@default** 
 Get/set default output value if element was not found<br>
 _type:_ atom<br>
-_default:_ none<br>
+_default:_ None<br>
 
 * **@method** 
 Get/set methods of processing of negative/invalid indexes<br>

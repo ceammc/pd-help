@@ -1,9 +1,3 @@
----
-layout:     default
-title:      env.follow~
-categories: [env]
-tags:       [envelope, amplitude, follower]
----
 [index](index.html) :: [env](category_env.html)
 ---
 
@@ -24,12 +18,12 @@ tags:       [envelope, amplitude, follower]
 
 ## arguments:
 
-* **attack**
+* **ATTACK**
 attack time<br>
 _type:_ float<br>
 _units:_ ms<br>
 
-* **release**
+* **RELEASE**
 release time<br>
 _type:_ float<br>
 _units:_ ms<br>
@@ -43,19 +37,20 @@ _units:_ ms<br>
 * **@attack** 
 Get/set attack time<br>
 _type:_ float<br>
+_units:_ ms<br>
 _range:_ 1..1000<br>
 _default:_ 200<br>
 
 * **@release** 
 Get/set release time<br>
 _type:_ float<br>
+_units:_ ms<br>
 _range:_ 1..1000<br>
 _default:_ 200<br>
 
 * **@active** 
 Get/set on/off dsp processing<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 1<br>
 
 

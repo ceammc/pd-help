@@ -1,9 +1,3 @@
----
-layout:     default
-title:      route.float
-categories: [flow]
-tags:       [route]
----
 [index](index.html) :: [flow](category_flow.html)
 ---
 
@@ -35,15 +29,14 @@ to get properties use *prop.get* object, cause all messages (including property 
 * **@strict** 
 Get/set strict mode. By default list with single float treated as float. Set to true to
 disable this behavior<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 
 
 ## inlets:
 
-* float to first outlet<br>
+* float to *first* outlet<br>
 _type:_ control
 
 

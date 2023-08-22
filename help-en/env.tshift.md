@@ -1,9 +1,3 @@
----
-layout:     default
-title:      env.tshift
-categories: [env]
-tags:       [time, shift]
----
 [index](index.html) :: [env](category_env.html)
 ---
 

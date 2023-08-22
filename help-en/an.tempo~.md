@@ -1,9 +1,3 @@
----
-layout:     default
-title:      an.tempo~
-categories: [an]
-tags:       [tempo, aubio, bpm]
----
 [index](index.html) :: [an](category_an.html)
 ---
 
@@ -38,6 +32,7 @@ _type:_ symbol<br>
 * **HS**
 hop size (by default buffer_size/2)<br>
 _type:_ int<br>
+_units:_ samp<br>
 
 
 
@@ -45,7 +40,7 @@ _type:_ int<br>
 
 ## properties:
 
-* **@bs** 
+* **@bs** (initonly)
 Get/set buffer size<br>
 _type:_ int<br>
 _units:_ samp<br>
@@ -82,7 +77,7 @@ Get/set alias to @method phase. Phase Based Method onset detection function<br>
 _type:_ alias<br>
 
 * **@wphase** 
-Get/set alias to @method phase.Weighted Phase Deviation onset detection function<br>
+Get/set alias to @method phase. Weighted Phase Deviation onset detection function<br>
 _type:_ alias<br>
 
 * **@specdiff** 
@@ -122,8 +117,7 @@ _default:_ 0<br>
 
 * **@active** 
 Get/set audio processing state<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 1<br>
 
 
@@ -137,9 +131,9 @@ _type:_ audio
 
 ## outlets:
 
-* bang if onset detected<br>
+* float: BPM value<br>
 _type:_ control
-* output time of the latest onset detected in millisecond<br>
+* float: detection confidence<br>
 _type:_ control
 
 

@@ -1,9 +1,3 @@
----
-layout:     default
-title:      synth.kick~
-categories: [synth]
-tags:       [synth, kick]
----
 [index](index.html) :: [synth](category_synth.html)
 ---
 
@@ -43,8 +37,7 @@ _default:_ 0<br>
 
 * **@active** 
 Get/set on/off dsp processing<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 1<br>
 
 * **@attack** 
@@ -63,13 +56,13 @@ _default:_ 1000<br>
 
 * **@envwait** 
 Get/set ignore new notes until previous note is not finished release time<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 * **@freq** 
 Get/set start frequency<br>
 _type:_ float<br>
+_units:_ Hz<br>
 _range:_ 10..5000<br>
 _default:_ 50<br>
 

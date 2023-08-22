@@ -1,9 +1,3 @@
----
-layout:     default
-title:      ui.mouse_filter
-categories: [ui]
-tags:       [ui, mouse, filter, events]
----
 [index](index.html) :: [ui](category_ui.html)
 ---
 
@@ -34,38 +28,32 @@ pass only specified mouse events from ui.* objects
 
 * **@mouse_up** 
 Get/set passing a @mouse_up events<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 * **@mouse_down** 
 Get/set passing a @mouse_down events<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 * **@mouse_leave** 
 Get/set passing a @mouse_leave events<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 * **@mouse_enter** 
 Get/set passing a @mouse_enter events<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 * **@mouse_move** 
 Get/set passing a @mouse_move events<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 * **@mouse_drag** 
 Get/set passing a @mouse_drag events<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 * **@up** 

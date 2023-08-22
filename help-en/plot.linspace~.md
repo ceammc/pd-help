@@ -1,9 +1,3 @@
----
-layout:     default
-title:      plot.linspace~
-categories: [array]
-tags:       [array, linear, scale]
----
 [index](index.html) :: [array](category_array.html)
 ---
 
@@ -22,6 +16,20 @@ tags:       [array, linear, scale]
 
 
 
+## arguments:
+
+* **START**
+@start property<br>
+_type:_ float<br>
+
+* **STOP**
+@stop property<br>
+_type:_ float<br>
+
+* **N**
+@n property<br>
+_type:_ int<br>
+
 
 
 
@@ -31,7 +39,6 @@ tags:       [array, linear, scale]
 * **@start** 
 Get/set the starting value of the sequence<br>
 _type:_ float<br>
-_min value:_ 0<br>
 _default:_ 0<br>
 
 * **@stop** 
@@ -39,7 +46,6 @@ Get/set the final value of the sequence, unless @endpoint is false. In that case
 1 values are spaced over the interval in lin-space, of which all but the last
 (a sequence of length @n) are returned.<br>
 _type:_ float<br>
-_min value:_ 0<br>
 _default:_ 255<br>
 
 * **@n** 
@@ -60,8 +66,7 @@ _type:_ atom<br>
 
 * **@endpoint** 
 Get/set include @stop to interval<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 1<br>
 
 

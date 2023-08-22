@@ -1,17 +1,11 @@
----
-layout:     default
-title:      noise.rossler
-categories: [noise]
-tags:       [noise]
----
 [index](index.html) :: [noise](category_noise.html)
 ---
 
 # noise.rossler
 
-###### Part of a-chaos library
+###### Rössler attractor
 
-*available since version:* .5
+*available since version:* 0.5
 
 ---
 
@@ -26,31 +20,31 @@ Heuns&#39; method
 
 ## arguments:
 
-* **ARG0**
+* **X**
 x value (optional)<br>
 _type:_ float<br>
 
-* **ARG1**
+* **Y**
 y value (optional)<br>
 _type:_ float<br>
 
-* **ARG2**
+* **Z**
 z value (optional)<br>
 _type:_ float<br>
 
-* **ARG3**
+* **A**
 a value (optional)<br>
 _type:_ float<br>
 
-* **ARG4**
+* **B**
 b value (optional)<br>
 _type:_ float<br>
 
-* **ARG5**
+* **C**
 c value (optional)<br>
 _type:_ float<br>
 
-* **ARG6**
+* **DT**
 dt value (optional)<br>
 _type:_ float<br>
 
@@ -138,7 +132,11 @@ _type:_ control
 
 ## outlets:
 
-* main outlet<br>
+* x outlet<br>
+_type:_ control
+* y outlet<br>
+_type:_ control
+* z outlet<br>
 _type:_ control
 
 

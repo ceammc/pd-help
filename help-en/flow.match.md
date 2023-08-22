@@ -1,9 +1,3 @@
----
-layout:     default
-title:      flow.match
-categories: [flow]
-tags:       [regexp]
----
 [index](index.html) :: [flow](category_flow.html)
 ---
 
@@ -26,7 +20,7 @@ Use backtick ` instead of backslash in regexp syntax if you want to match proper
 
 ## arguments:
 
-* **RE_LST**
+* **PATTERNS**
 list of regular expressions<br>
 _type:_ list<br>
 
@@ -36,14 +30,13 @@ _type:_ list<br>
 
 ## properties:
 
-* **@patterns** 
+* **@patterns** (initonly)
 Get/set list of regular expressions<br>
 _type:_ list<br>
 
 * **@cut** 
 Get/set cut or pass message selector<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 

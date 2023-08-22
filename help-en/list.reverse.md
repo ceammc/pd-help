@@ -1,9 +1,3 @@
----
-layout:     default
-title:      list.reverse
-categories: [list]
-tags:       [list, reverse]
----
 [index](index.html) :: [list](category_list.html)
 ---
 

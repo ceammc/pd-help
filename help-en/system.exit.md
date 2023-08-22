@@ -1,9 +1,3 @@
----
-layout:     default
-title:      system.exit
-categories: [system]
-tags:       [quit, exit]
----
 [index](index.html) :: [system](category_system.html)
 ---
 
@@ -21,6 +15,13 @@ tags:       [quit, exit]
 [![example](../examples/img/system.exit.jpg)](../examples/pd/system.exit.pd)
 
 
+
+## arguments:
+
+* **DELAY**
+exit delay time<br>
+_type:_ float<br>
+_units:_ ms<br>
 
 
 
@@ -51,8 +52,7 @@ _default:_ 0<br>
 
 * **@auto** 
 Get/set close automatically, without incoming call<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 
@@ -76,7 +76,7 @@ _type:_ control
 
 
 
-**Authors:** Serge Poltavski
+**Authors:** Serge Poltavsky
 
 
 

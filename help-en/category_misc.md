@@ -18,6 +18,8 @@ _aliases:_ \[ceammc/fluid\~\]
 _aliases:_ \[ceammc/modplug\~\]
 
 
+[**risset.gliss**](risset.gliss.html): Sheppard/Risset glissando calculator 
+
 [**sfizz\~**](sfizz~.html): SFZ format sample player <br>
 _aliases:_ \[ceammc/sfizz\~\]
 
@@ -26,7 +28,11 @@ _aliases:_ \[ceammc/sfizz\~\]
 
 [**speech.flite\~**](speech.flite~.html): render speech to array 
 
+[**speech.rhvoice\~**](speech.rhvoice~.html): RHVoice text to speech synthesis <br>
+_aliases:_ \[ceammc/rhvoice\~\], \[rhvoice\~\]
 
-**Version:** 0.9.4
+
+
+**Version:** 0.9.6
 
 **License:** GPL3

@@ -1,9 +1,3 @@
----
-layout:     default
-title:      dict.keys
-categories: [data]
-tags:       [list, keys, dictionary]
----
 [index](index.html) :: [data](category_data.html)
 ---
 

@@ -9,6 +9,6 @@
 [**snd.file**](snd.file.html): Sound file loader on steroids 
 
 
-**Version:** 0.9.4
+**Version:** 0.9.6
 
 **License:** GPL3

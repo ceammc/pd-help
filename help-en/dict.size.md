@@ -1,9 +1,3 @@
----
-layout:     default
-title:      dict.size
-categories: [data]
-tags:       [size, dictionary]
----
 [index](index.html) :: [data](category_data.html)
 ---
 

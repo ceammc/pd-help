@@ -1,9 +1,3 @@
----
-layout:     default
-title:      list.remove
-categories: [list]
-tags:       [list, remove]
----
 [index](index.html) :: [list](category_list.html)
 ---
 

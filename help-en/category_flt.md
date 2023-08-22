@@ -6,6 +6,8 @@
 
 
 
+[**flt.a-weight**](flt.a-weight.html): convert frequency to A-weight value 
+
 [**flt.biquad\~**](flt.biquad~.html): second order IIR filter. 
 
 [**flt.bpf12\~**](flt.bpf12~.html): Two pole band-pass butterworth filter 
@@ -86,7 +88,11 @@ _aliases:_ \[ceammc/pole-&gt;biquad\], \[pole-&gt;biquad\]
 
 [**flt.resonbp\~**](flt.resonbp~.html): Simple resonant bandpass filter 
 
+[**flt.resonhp\~**](flt.resonhp~.html): Simple resonant highpass filter 
 
-**Version:** 0.9.4
+[**flt.resonlp\~**](flt.resonlp~.html): Simple resonant lowpass filter 
+
+
+**Version:** 0.9.6
 
 **License:** GPL3

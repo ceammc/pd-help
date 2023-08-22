@@ -6,6 +6,8 @@
 
 
 
+[**midi.arp**](midi.arp.html): MIDI arpeggiator 
+
 [**midi.cc**](midi.cc.html): enhanced version of vanilla ctlin 
 
 [**midi.clock**](midi.clock.html): midi clock toolbox 
@@ -34,11 +36,15 @@ _aliases:_ \[midi.ev-&gt;prg\]
 _aliases:_ \[midi.key-&gt;str\]
 
 
+[**midi.modus**](midi.modus.html): snap/skip midi pitches according modus 
+
 [**midi.oct**](midi.oct.html): midi octave transpose 
 
 [**midi.prg2str**](midi.prg2str.html): convert GM Instrument number to name (string or symbol) <br>
 _aliases:_ \[midi.prg-&gt;str\]
 
+
+[**midi.split**](midi.split.html): midi note splitter 
 
 [**midi.sustain**](midi.sustain.html): sustain pedal emulation 
 
@@ -53,6 +59,6 @@ _aliases:_ \[midi.prg-&gt;str\]
 [**midi.vrand**](midi.vrand.html): midi velocity randomizer 
 
 
-**Version:** 0.9.4
+**Version:** 0.9.6
 
 **License:** GPL3

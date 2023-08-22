@@ -1,9 +1,3 @@
----
-layout:     default
-title:      noise.lfreq0~
-categories: [noise]
-tags:       [noise, white]
----
 [index](index.html) :: [noise](category_noise.html)
 ---
 
@@ -29,6 +23,7 @@ new random number every int(SR/freq) samples or so
 * **FREQ**
 noise generation freq<br>
 _type:_ float<br>
+_units:_ Hz<br>
 
 
 
@@ -45,8 +40,7 @@ _default:_ 1000<br>
 
 * **@active** 
 Get/set on/off dsp processing<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 1<br>
 
 

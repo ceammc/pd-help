@@ -1,9 +1,3 @@
----
-layout:     default
-title:      midi.vramp
-categories: [midi]
-tags:       [midi, ramp, crescendo, diminuendo]
----
 [index](index.html) :: [midi](category_midi.html)
 ---
 
@@ -68,8 +62,7 @@ _default:_ 0<br>
 
 * **@auto** 
 Get/set auto reset mode. If true: reset to @start value after ramp is finished<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 

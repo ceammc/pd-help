@@ -1,9 +1,3 @@
----
-layout:     default
-title:      conv.sec2str
-categories: [conv]
-tags:       [conv, time]
----
 [index](index.html) :: [conv](category_conv.html)
 ---
 
@@ -30,12 +24,12 @@ tags:       [conv, time]
 
 ## properties:
 
-* **@ms** 
+* **@ms** (initonly)
 Get/set output milliseconds<br>
 _type:_ flag<br>
 _default:_ 0<br>
 
-* **@symbol** 
+* **@symbol** (initonly)
 Get/set if specified - output formatted time as symbol, otherwise as string.<br>
 _type:_ flag<br>
 _default:_ 0<br>

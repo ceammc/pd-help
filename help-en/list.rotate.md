@@ -1,9 +1,3 @@
----
-layout:     default
-title:      list.rotate
-categories: [list]
-tags:       [list, rotate]
----
 [index](index.html) :: [list](category_list.html)
 ---
 

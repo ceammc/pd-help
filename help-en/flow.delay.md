@@ -1,9 +1,3 @@
----
-layout:     default
-title:      flow.delay
-categories: [flow]
-tags:       [flow, delay]
----
 [index](index.html) :: [flow](category_flow.html)
 ---
 
@@ -28,7 +22,7 @@ Delay any incoming message by specified time. If @block=0 acts like vanilla [del
 
 ## arguments:
 
-* **MS**
+* **DELAY**
 init @delay property<br>
 _type:_ float<br>
 _units:_ ms<br>
@@ -50,8 +44,7 @@ _default:_ 0<br>
 Get/set blocking mode. If true, discards incoming messages until scheduled message will
 output, after that is ready to accept the new one. Otherwise acts like vanilla
 [del] object.<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 

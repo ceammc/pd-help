@@ -6,11 +6,15 @@
 
 
 
+[**noise.chua\~**](noise.chua~.html): Chua&#39;s diode circuit 
+
 [**synth.bee3\~**](synth.bee3~.html): Hammond-oid organ FM synthesis instrument 
 
 [**synth.birds\~**](synth.birds~.html): bird singing generator 
 
 [**synth.church_bell\~**](synth.church_bell~.html): generic church bell modal model 
+
+[**synth.clap\~**](synth.clap~.html): clap synth from faust libraries 
 
 [**synth.dubdub\~**](synth.dubdub~.html): simple synth based on a sawtooth wave filtered by a resonant lowpass 
 
@@ -31,6 +35,10 @@
 [**synth.glitch\~**](synth.glitch~.html): Glitch synthesizer by naivesound 
 
 [**synth.harpsichord\~**](synth.harpsichord~.html): waveguide commuted harpsichord 
+
+[**synth.hat\~**](synth.hat~.html): hi-hat synth from faust librariest 
+
+[**synth.kick2\~**](synth.kick2~.html): low-kick synth from faust librariest 
 
 [**synth.kick\~**](synth.kick~.html): low-kick synth from Guitarix project 
 
@@ -60,9 +68,13 @@
 
 [**synth.tube_bell\~**](synth.tube_bell~.html): STK tubular bell (orchestral chime) FM synthesis instrument 
 
+[**synth.voice_fofc\~**](synth.voice_fofc~.html): Simple formant/vocal synthesizer with FOF-cycle filterbank. 
+
+[**synth.voice_fofs\~**](synth.voice_fofs~.html): Simple formant/vocal synthesizer with FOF-smooth filterbank. 
+
 [**synth.wurley\~**](synth.wurley~.html): Wurlitzer electric piano FM synthesis instrument 
 
 
-**Version:** 0.9.4
+**Version:** 0.9.6
 
 **License:** GPL3

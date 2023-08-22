@@ -1,9 +1,3 @@
----
-layout:     default
-title:      flow.gate
-categories: [flow]
-tags:       [gate]
----
 [index](index.html) :: [flow](category_flow.html)
 ---
 
@@ -28,9 +22,9 @@ Note: property setting can be done only via [prop.set] object, since object acce
 
 ## arguments:
 
-* **PASS**
+* **STATE**
 init gate state. 1 means open, 0 - closed. By default gate is closed<br>
-_type:_ int<br>
+_type:_ bool<br>
 
 
 
@@ -40,8 +34,7 @@ _type:_ int<br>
 
 * **@state** 
 Get/set gate state. 1 means open, 0 - closed<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 

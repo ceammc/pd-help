@@ -1,9 +1,3 @@
----
-layout:     default
-title:      fx.shimmer~
-categories: [fx]
-tags:       [fx, echo, shimmer, reverb]
----
 [index](index.html) :: [fx](category_fx.html)
 ---
 
@@ -24,14 +18,15 @@ tags:       [fx, echo, shimmer, reverb]
 
 ## arguments:
 
-* **size**
-echo time<br>
+* **DECAY_LOW**
+time to decay 60dB in low-frequency band<br>
 _type:_ float<br>
-_units:_ ms<br>
+_units:_ sec<br>
 
-* **diffusion**
-feedback coefficient<br>
+* **DECAY_MID**
+time to decay 60dB in mid-frequency band<br>
 _type:_ float<br>
+_units:_ sec<br>
 
 
 
@@ -127,14 +122,12 @@ _default:_ 0.5<br>
 
 * **@bypass** 
 Get/set if set to 1 - bypass &#39;effected&#39; signal<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 * **@active** 
 Get/set on/off dsp processing<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 1<br>
 
 

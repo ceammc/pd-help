@@ -1,13 +1,7 @@
----
-layout:     default
-title:      flt.median~
-categories: [flt]
-tags:       [filter, median]
----
 [index](index.html) :: [flt](category_flt.html)
 ---
 
-# flt.median~
+# flt.median
 
 ###### Median control flow filter
 
@@ -20,7 +14,7 @@ tags:       [filter, median]
 The main idea of the median filter is to run through the signal entry by entry, replacing each entry with the median of neighboring entries. If window size is even: mean between center elements outputed
 
 
-[![example](../examples/img/flt.median~.jpg)](../examples/pd/flt.median~.pd)
+[![example](../examples/img/flt.median.jpg)](../examples/pd/flt.median.pd)
 
 
 

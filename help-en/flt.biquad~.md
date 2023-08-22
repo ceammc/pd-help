@@ -1,9 +1,3 @@
----
-layout:     default
-title:      flt.biquad~
-categories: [flt]
-tags:       [filter, biquad]
----
 [index](index.html) :: [flt](category_flt.html)
 ---
 
@@ -38,8 +32,7 @@ reset filter state<br>
 
 * **@active** 
 Get/set on/off dsp processing<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 1<br>
 
 

@@ -1,9 +1,3 @@
----
-layout:     default
-title:      data.fifo
-categories: [data]
-tags:       [data, fifo]
----
 [index](index.html) :: [data](category_data.html)
 ---
 
@@ -26,7 +20,7 @@ If size argument specified - creates queue with fixed size. When count of values
 
 ## arguments:
 
-* **size**
+* **SIZE**
 if specified, creates fixed-size queue. Value &#39;0&#39; means default size (1024)<br>
 _type:_ int<br>
 
@@ -56,8 +50,7 @@ outputs and removes first values in queue<br>
 
 * **@empty** (readonly)
 Get if queue is empty<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 1<br>
 
 * **@filled** (readonly)

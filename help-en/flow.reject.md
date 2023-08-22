@@ -1,9 +1,3 @@
----
-layout:     default
-title:      flow.reject
-categories: [flow]
-tags:       [reject, functional]
----
 [index](index.html) :: [flow](category_flow.html)
 ---
 
@@ -26,7 +20,7 @@ tags:       [reject, functional]
 
 ## arguments:
 
-* **values**
+* **VALUES**
 list of atoms to reject<br>
 _type:_ list<br>
 

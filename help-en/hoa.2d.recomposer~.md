@@ -1,9 +1,3 @@
----
-layout:     default
-title:      hoa.2d.recomposer~
-categories: [spat]
-tags:       [hoa, recomposer]
----
 [index](index.html) :: [spat](category_spat.html)
 ---
 
@@ -69,20 +63,20 @@ set the widening value of channels. Widening value is clipped between 0.
 
 ## properties:
 
-* **@order** (readonly)
-Get the order of decomposition<br>
+* **@order** (initonly)
+Get/set the order of decomposition<br>
 _type:_ int<br>
 _range:_ 1..63<br>
 _default:_ 1<br>
 
-* **@n** (readonly)
-Get number of channels (planewaves)<br>
+* **@n** (initonly)
+Get/set number of channels (planewaves)<br>
 _type:_ int<br>
 _range:_ 0..63<br>
 _default:_ 0<br>
 
-* **@mode** (readonly)
-Get recomposition mode. There is three modes: *fixe* - simply recomposes a plane
+* **@mode** (initonly)
+Get/set recomposition mode. There is three modes: *fixe* - simply recomposes a plane
 wave decomposition into circular harmonics. *fisheye* - allows you to perform
 an operation similar to the visual &#34;fisheye&#34; effect by distorsion of the sound
 field perspective to the front of the scene. *free* - allows you to change the
@@ -91,15 +85,15 @@ _type:_ symbol<br>
 _enum:_ fixe, fisheye, free<br>
 _default:_ free<br>
 
-* **@fixe** 
+* **@fixe** (initonly)
 Get/set alias for @mode fixe<br>
 _type:_ alias<br>
 
-* **@fisheye** 
+* **@fisheye** (initonly)
 Get/set alias for @mode fisheye<br>
 _type:_ alias<br>
 
-* **@free** 
+* **@free** (initonly)
 Get/set alias for @mode free<br>
 _type:_ alias<br>
 

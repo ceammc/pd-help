@@ -1,9 +1,3 @@
----
-layout:     default
-title:      msg
-categories: [msg]
-tags:       [msg, message]
----
 [index](index.html) :: [msg](category_msg.html)
 ---
 

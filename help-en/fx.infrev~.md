@@ -1,9 +1,3 @@
----
-layout:     default
-title:      fx.infrev~
-categories: [fx]
-tags:       [fx, reverb, airwindows, infinity]
----
 [index](index.html) :: [fx](category_fx.html)
 ---
 
@@ -73,8 +67,7 @@ _default:_ 1<br>
 
 * **@bypass** 
 Get/set if set to 1 - bypass &#39;effected&#39; signal<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 

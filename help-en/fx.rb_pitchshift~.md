@@ -1,9 +1,3 @@
----
-layout:     default
-title:      fx.rb_pitchshift~
-categories: [fx]
-tags:       [fx, pitchshift, rubberband]
----
 [index](index.html) :: [fx](category_fx.html)
 ---
 
@@ -24,9 +18,10 @@ tags:       [fx, pitchshift, rubberband]
 
 ## arguments:
 
-* **PITCH**
+* **TRANSPOSE**
 transposition in semitones<br>
 _type:_ float<br>
+_units:_ semitone<br>
 
 
 
@@ -69,8 +64,7 @@ frequency bin independently from its neighbours. This usually results in a
 slightly softer, phasier sound. &#39;True&#39; adjust phases when stretching in such a
 way as to try to retain the continuity of phase relationships between adjacent
 frequency bins whose phases are behaving in similar ways<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 1<br>
 
 * **@smooth** 
@@ -78,8 +72,7 @@ Get/set control the use of window-presum FFT and time-domain smoothing. If true 
 in a softer sound with some audible artifacts around sharp transients, but it
 may be appropriate for longer stretches of some instruments and can mix well
 with @window short<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 * **@scale** 
@@ -94,15 +87,14 @@ If &#39;true&#39; preserve the spectral envelope of the unshifted signal. This p
 shifting the note frequency without so substantially affecting the perceived
 pitch profile of the voice or instrument. &#39;False&#39; apply no special formant
 processing. The spectral envelope will be pitch shifted as normal.<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 * **@latency** (readonly)
 Get object latency<br>
 _type:_ float<br>
 _units:_ samp<br>
-_default:_ 1025<br>
+_default:_ 1024<br>
 
 * **@trans** 
 Get/set control the component frequency phase-reset mechanism that may be used at

@@ -32,9 +32,11 @@ _aliases:_ \[ceammc/is_file\]
 
 [**is_pointer**](is_pointer.html): checks if input data has *pointer* type 
 
+[**is_prop**](is_prop.html): checks if input message is *property* message 
+
 [**is_symbol**](is_symbol.html): checks if input data has *symbol* type 
 
 
-**Version:** 0.9.4
+**Version:** 0.9.6
 
 **License:** GPL3

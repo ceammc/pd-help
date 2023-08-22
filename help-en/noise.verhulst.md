@@ -1,17 +1,11 @@
----
-layout:     default
-title:      noise.verhulst
-categories: [noise]
-tags:       [noise]
----
 [index](index.html) :: [noise](category_noise.html)
 ---
 
 # noise.verhulst
 
-###### Part of a-chaos library
+###### verhulst distribution
 
-*available since version:* .5
+*available since version:* 0.5
 
 ---
 

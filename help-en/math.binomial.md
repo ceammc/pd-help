@@ -1,9 +1,3 @@
----
-layout:     default
-title:      math.binomial
-categories: [math]
-tags:       [math, binomial]
----
 [index](index.html) :: [math](category_math.html)
 ---
 

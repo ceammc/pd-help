@@ -3,7 +3,7 @@
 
 # ceammc
 
-##### Version 0.9.4
+##### Version 0.9.6
 
 General purpose Pd library used for work and education purposes in
 centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro studio.
@@ -27,6 +27,8 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 
 [**an.tempo\~**](an.tempo~.html): tempo detector 
 
+[**an.zero\~**](an.zero~.html): zero crossing count/rate/freq calculator 
+
 
 ### [array](category_array.html)
 
@@ -35,7 +37,11 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 
 [**array.bpm**](array.bpm.html): BPM calculator 
 
+[**array.circular**](array.circular.html): array read/write as circular buffer 
+
 [**array.circular\~**](array.circular~.html): circular buffer for arrays 
+
+[**array.convolve**](array.convolve.html): array FFT convolution 
 
 [**array.copy**](array.copy.html): copy samples from one array to another 
 
@@ -133,6 +139,8 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 
 [**xfade\~**](xfade~.html): multi signal crossfade 
 
+[**z\~**](z~.html): sample delay 
+
 
 ### [chaos](category_chaos.html)
 
@@ -173,7 +181,7 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 
 [**conv.bits2pos**](conv.bits2pos.html): convert list of bits to list of bit position 
 
-[**conv.bpm2hz**](conv.bpm2hz.html): converts BPM to frequency in herz 
+[**conv.bpm2hz**](conv.bpm2hz.html): converts BPM to frequency in hertz 
 
 [**conv.bpm2ms**](conv.bpm2ms.html): convert frequency in BPM to period in milliseconds 
 
@@ -212,6 +220,8 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 [**conv.ms2samp**](conv.ms2samp.html): convert time in milliseconds to number of samples according to current samplerate 
 
 [**conv.ms2samp\~**](conv.ms2samp~.html): convert time in milliseconds to number of samples according to current samplerate 
+
+[**conv.note2guido**](conv.note2guido.html): convert MIDI note to Guido notation 
 
 [**conv.phase2rad**](conv.phase2rad.html): convert phase value [0-1] to radians [0-2π] 
 
@@ -439,6 +449,8 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 
 [**flow.select**](flow.select.html): vanilla flow on steroids 
 
+[**flow.seqdelay**](flow.seqdelay.html): sequential delay/router for input flow 
+
 [**flow.space**](flow.space.html): space in time messages received at the same logical time 
 
 [**flow.speedlim**](flow.speedlim.html): control stream speed limiter 
@@ -455,13 +467,27 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 
 [**replace**](replace.html): Replace atoms in data stream 
 
+[**route.any**](route.any.html): separate any messages from bangs, floats, symbols and lists 
+
+[**route.bang**](route.bang.html): separate bang messages from other types 
+
 [**route.float**](route.float.html): separate float messages from other types 
+
+[**route.list**](route.list.html): separate list messages from other types 
+
+[**route.prop**](route.prop.html): separate property messages from other types 
+
+[**route.random**](route.random.html): routes input flow to random outlet 
+
+[**route.symbol**](route.symbol.html): separate symbol messages from other types 
 
 
 ### [flt](category_flt.html)
 
 ---
 
+
+[**flt.a-weight**](flt.a-weight.html): convert frequency to A-weight value 
 
 [**flt.biquad\~**](flt.biquad~.html): second order IIR filter. 
 
@@ -533,6 +559,10 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 
 [**flt.resonbp\~**](flt.resonbp~.html): Simple resonant bandpass filter 
 
+[**flt.resonhp\~**](flt.resonhp~.html): Simple resonant highpass filter 
+
+[**flt.resonlp\~**](flt.resonlp~.html): Simple resonant lowpass filter 
+
 
 ### [fx](category_fx.html)
 
@@ -542,6 +572,8 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 [**fx.bitdown\~**](fx.bitdown~.html): bit downer and downsampler effect 
 
 [**fx.chorus\~**](fx.chorus~.html): Chorus effect 
+
+[**fx.dattorro\~**](fx.dattorro~.html): dattorro reverb 
 
 [**fx.distortion1\~**](fx.distortion1~.html): distortion #1 from Guitarix effects set 
 
@@ -573,6 +605,8 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 
 [**fx.infrev\~**](fx.infrev~.html): port of Infinity VST plugin from airwindows 
 
+[**fx.jcrev\~**](fx.jcrev~.html): Schroeder quad reverberator from 1972 
+
 [**fx.looper\~**](fx.looper~.html): One track looper 
 
 [**fx.pitchshift_s\~**](fx.pitchshift_s~.html): signal version of fx.pitchshift~ 
@@ -585,11 +619,15 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 
 [**fx.room\~**](fx.room~.html): Gardners room emulation algorithms 
 
+[**fx.satrev\~**](fx.satrev~.html): Schroeder reverberator from 1971 
+
 [**fx.sdelay\~**](fx.sdelay~.html): smooth delay with a feedback control 
 
 [**fx.secho\~**](fx.secho~.html): enchanced echo effect that does not click on delay change 
 
 [**fx.shimmer\~**](fx.shimmer~.html): shimmer reverb effect effect 
+
+[**fx.stutter\~**](fx.stutter~.html): stutter effect 
 
 [**fx.tapiir\~**](fx.tapiir~.html): multi-tap delay 
 
@@ -635,6 +673,8 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 
 [**hw.kbd_light**](hw.kbd_light.html): Get/set keyboard light on some devices 
 
+[**hw.motu.avb**](hw.motu.avb.html): controls Motu AVB devices over http requests 
+
 [**hw.serial**](hw.serial.html): serial port device 
 
 
@@ -644,6 +684,8 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 
 
 [**lang.faust\~**](lang.faust~.html): faust realtime compilation 
+
+[**lang.lua**](lang.lua.html): Lua JIT language bindings 
 
 [**ui.faust\~**](ui.faust~.html): faust compiled ui object 
 
@@ -733,6 +775,8 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 
 [**list.length**](list.length.html): output the number of atoms in the list 
 
+[**list.map**](list.map.html): map list values by specified dictionary 
+
 [**list.max**](list.max.html): output largest element in the list 
 
 [**list.mean**](list.mean.html): calculates average of list of floats 
@@ -743,6 +787,8 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 
 [**list.normalize**](list.normalize.html): normalizes float list values to get their sum = 1.0 
 
+[**list.pass**](list.pass.html): leave in list only specified elements 
+
 [**list.pass_if**](list.pass_if.html): leave only elements accepted by predicate 
 
 [**list.prepend**](list.prepend.html): prepend atom or list before input list 
@@ -752,6 +798,8 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 [**list.range**](list.range.html): output list smallest and largest value 
 
 [**list.reduce**](list.reduce.html): apply function of two arguments cumulatively to the list 
+
+[**list.reject**](list.reject.html): remove specified element from list 
 
 [**list.remove**](list.remove.html): remove list element(s) at specified positions 
 
@@ -1047,6 +1095,8 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 ---
 
 
+[**midi.arp**](midi.arp.html): MIDI arpeggiator 
+
 [**midi.cc**](midi.cc.html): enhanced version of vanilla ctlin 
 
 [**midi.clock**](midi.clock.html): midi clock toolbox 
@@ -1065,9 +1115,13 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 
 [**midi.key2str**](midi.key2str.html): convert key number to SPN name according to tonality 
 
+[**midi.modus**](midi.modus.html): snap/skip midi pitches according modus 
+
 [**midi.oct**](midi.oct.html): midi octave transpose 
 
 [**midi.prg2str**](midi.prg2str.html): convert GM Instrument number to name (string or symbol) 
+
+[**midi.split**](midi.split.html): midi note splitter 
 
 [**midi.sustain**](midi.sustain.html): sustain pedal emulation 
 
@@ -1093,11 +1147,15 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 
 [**modplug\~**](modplug~.html): MOD file player (using libmodplug) 
 
+[**risset.gliss**](risset.gliss.html): Sheppard/Risset glissando calculator 
+
 [**sfizz\~**](sfizz~.html): SFZ format sample player 
 
 [**speech.flite**](speech.flite.html): render speech to array 
 
 [**speech.flite\~**](speech.flite~.html): render speech to array 
+
+[**speech.rhvoice\~**](speech.rhvoice~.html): RHVoice text to speech synthesis 
 
 
 ### [msg](category_msg.html)
@@ -1121,7 +1179,17 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 ---
 
 
+[**net.artnet.send**](net.artnet.send.html): ArtNet DMX message sender 
+
 [**net.host2ip**](net.host2ip.html): returns IP address by DNS name 
+
+[**net.http.send**](net.http.send.html): HTTP request sender 
+
+[**net.osc.receive**](net.osc.receive.html): OSC message listener 
+
+[**net.osc.send**](net.osc.send.html): OSC message sender 
+
+[**net.osc.server**](net.osc.server.html): OSC server control 
 
 
 ### [noise](category_noise.html)
@@ -1131,45 +1199,47 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 
 [**noise.baker**](noise.baker.html): Part of a-chaos library 
 
-[**noise.clifford**](noise.clifford.html): Part of a-chaos library 
+[**noise.clifford**](noise.clifford.html): clifford attractor 
 
-[**noise.collatz**](noise.collatz.html): Part of a-chaos library 
+[**noise.collatz**](noise.collatz.html): collatz conjecture output 
+
+[**noise.colored\~**](noise.colored~.html): colored noise generator with an arbitrary spectral roll 
 
 [**noise.crackle\~**](noise.crackle~.html): sparse noise generator 
 
-[**noise.duffing**](noise.duffing.html): Part of a-chaos library 
+[**noise.duffing**](noise.duffing.html): duffing attractor 
 
 [**noise.ginger**](noise.ginger.html): Gingerbreadman map chaotic generator 
 
-[**noise.henon**](noise.henon.html): Part of a-chaos library 
+[**noise.henon**](noise.henon.html): henon attractor 
 
-[**noise.henon_heilles**](noise.henon_heilles.html): Part of a-chaos library 
+[**noise.henon_heilles**](noise.henon_heilles.html): Hénon–Heiles_system 
 
-[**noise.henon_phase**](noise.henon_phase.html): Part of a-chaos library 
+[**noise.henon_phase**](noise.henon_phase.html): henon phase Ddagrams 
 
-[**noise.henonf**](noise.henonf.html): Part of a-chaos library 
+[**noise.henonf**](noise.henonf.html): Henon phase 
 
-[**noise.ikeda**](noise.ikeda.html): Part of a-chaos library 
+[**noise.ikeda**](noise.ikeda.html): Ikeda attractor 
 
 [**noise.lfreq0\~**](noise.lfreq0~.html): sampled/held noise (piecewise constant) 
 
 [**noise.lfreq\~**](noise.lfreq~.html): noise.lfreq0~ smoothed with no overshoot 
 
-[**noise.lorenz**](noise.lorenz.html): Part of a-chaos library 
+[**noise.lorenz**](noise.lorenz.html): Lorenz chaos 
 
-[**noise.lyapunov**](noise.lyapunov.html): Part of a-chaos library 
+[**noise.lyapunov**](noise.lyapunov.html): lyapunov random attractor 
 
-[**noise.navier_stokes**](noise.navier_stokes.html): Part of a-chaos library 
+[**noise.navier_stokes**](noise.navier_stokes.html): navier-stokes diff equations 
 
 [**noise.pink\~**](noise.pink~.html): Pink noise generator 
 
-[**noise.rossler**](noise.rossler.html): Part of a-chaos library 
+[**noise.rossler**](noise.rossler.html): Rössler attractor 
 
-[**noise.stein**](noise.stein.html): Part of a-chaos library 
+[**noise.stein**](noise.stein.html): Stein distribution 
 
-[**noise.torus**](noise.torus.html): Part of a-chaos library 
+[**noise.torus**](noise.torus.html): torus attractor 
 
-[**noise.verhulst**](noise.verhulst.html): Part of a-chaos library 
+[**noise.verhulst**](noise.verhulst.html): verhulst distribution 
 
 [**noise.white\~**](noise.white~.html): White noise generator 
 
@@ -1203,6 +1273,8 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 ---
 
 
+[**canvas.active**](canvas.active.html): checks if canvas window is on top and active 
+
 [**canvas.current**](canvas.current.html): verbose information about current canvas 
 
 [**canvas.dir**](canvas.dir.html): current canvas directory 
@@ -1233,11 +1305,17 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 
 [**path.exists**](path.exists.html): checks if given path exists 
 
+[**path.file**](path.file.html): file input/output 
+
 [**path.is_dir**](path.is_dir.html): check if path is directory 
 
 [**path.lsdir**](path.lsdir.html): list directory contents 
 
+[**path.monitor**](path.monitor.html): filesystem event monitor 
+
 [**path.normalize**](path.normalize.html): normalize file paths 
+
+[**path.pattern**](path.pattern.html): pattern filename generator 
 
 [**path.search**](path.search.html): file search 
 
@@ -1268,6 +1346,8 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 [**is_odd**](is_odd.html): checks if input number is odd 
 
 [**is_pointer**](is_pointer.html): checks if input data has *pointer* type 
+
+[**is_prop**](is_prop.html): checks if input message is *property* message 
 
 [**is_symbol**](is_symbol.html): checks if input data has *symbol* type 
 
@@ -1315,7 +1395,11 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 ---
 
 
+[**proto.feelworld**](proto.feelworld.html): protocol for FeelWorld LivePro L1 HDMI mixer 
+
 [**proto.firmata**](proto.firmata.html): Firmata Arduino protocol support 
+
+[**proto.inscore**](proto.inscore.html): INScore message creator 
 
 [**proto.midi**](proto.midi.html): raw midi encoder/parser 
 
@@ -1323,9 +1407,15 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 
 [**proto.midi.sysex**](proto.midi.sysex.html): raw midi SYSex encoder/parser 
 
+[**proto.moppy**](proto.moppy.html): protocol for Musical flOPPY controller 
+
 [**proto.mpv**](proto.mpv.html): mpv video player control 
 
 [**proto.sp.alpaca**](proto.sp.alpaca.html): protocol parser for Arduino-based CEAMMC footswitch 
+
+[**proto.vlc**](proto.vlc.html): VLC video player control over HTTP 
+
+[**proto.whammy**](proto.whammy.html): Control for Digitech Whammy pedal 
 
 [**proto.xtouch_ext**](proto.xtouch_ext.html): Behringer XTouch Extender XMidi protocol 
 
@@ -1461,7 +1551,7 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 
 [**string.format**](string.format.html): formats string like printf. 
 
-[**string.join**](string.join.html): joins (concatenates) strings with separator 
+[**string.join**](string.join.html): joins (concatenates) list to string with separator 
 
 [**string.length**](string.length.html): number of characters in string (unicode supported) 
 
@@ -1471,7 +1561,7 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 
 [**string.replace**](string.replace.html): replace from one substring to another in input string 
 
-[**string.split**](string.split.html): split string by separator 
+[**string.split**](string.split.html): split string or symbol by separator 
 
 [**string.starts_with**](string.starts_with.html): checks if string starts with specified substring 
 
@@ -1501,11 +1591,15 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 ---
 
 
+[**noise.chua\~**](noise.chua~.html): Chua&#39;s diode circuit 
+
 [**synth.bee3\~**](synth.bee3~.html): Hammond-oid organ FM synthesis instrument 
 
 [**synth.birds\~**](synth.birds~.html): bird singing generator 
 
 [**synth.church_bell\~**](synth.church_bell~.html): generic church bell modal model 
+
+[**synth.clap\~**](synth.clap~.html): clap synth from faust libraries 
 
 [**synth.dubdub\~**](synth.dubdub~.html): simple synth based on a sawtooth wave filtered by a resonant lowpass 
 
@@ -1526,6 +1620,10 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 [**synth.glitch\~**](synth.glitch~.html): Glitch synthesizer by naivesound 
 
 [**synth.harpsichord\~**](synth.harpsichord~.html): waveguide commuted harpsichord 
+
+[**synth.hat\~**](synth.hat~.html): hi-hat synth from faust librariest 
+
+[**synth.kick2\~**](synth.kick2~.html): low-kick synth from faust librariest 
 
 [**synth.kick\~**](synth.kick~.html): low-kick synth from Guitarix project 
 
@@ -1554,6 +1652,10 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 [**synth.standard_bell\~**](synth.standard_bell~.html): german church bell modal model 
 
 [**synth.tube_bell\~**](synth.tube_bell~.html): STK tubular bell (orchestral chime) FM synthesis instrument 
+
+[**synth.voice_fofc\~**](synth.voice_fofc~.html): Simple formant/vocal synthesizer with FOF-cycle filterbank. 
+
+[**synth.voice_fofs\~**](synth.voice_fofs~.html): Simple formant/vocal synthesizer with FOF-smooth filterbank. 
 
 [**synth.wurley\~**](synth.wurley~.html): Wurlitzer electric piano FM synthesis instrument 
 
@@ -1684,4 +1786,4 @@ centre of electroacoustic music of Moscow Conservatory (CEAMMC) and ZIL-electro 
 
 **License:** GPL3
 
-**Authors:** Albert Graef, Alex Nadzharov, André Sier, Eliott Paris, Hans-Christoph Steiner, Julian Parker, Katja Vetter, Mayank Sanganeria, Mikhail Malt, Oliver Larkin, Olli Parviainen, Paul Bourke, Pierre Cochard, Pierre Guillot, Richard Dudas, Romain Michon, Serge Poltavski, Serge Poltavsky, Serge Potlavsky, Thomas Le Meur, Till Bovermann, Viacheslav Lotsmanov, Yann Orlarey, naivesound, thedrgreenthumb
+**Authors:** Albert Graef, Alex Nadzharov, André Sier, Eliott Paris, Hans-Christoph Steiner, Julian Parker, Katja Vetter, Mayank Sanganeria, Mikhail Malt, Oliver Larkin, Olli Parviainen, Paul Bourke, Pierre Cochard, Pierre Guillot, Richard Dudas, Romain Michon, Serge Poltavsky, Serge Potlavsky, Thomas Le Meur, Till Bovermann, Viacheslav Lotsmanov, Yann Orlarey, naivesound, thedrgreenthumb

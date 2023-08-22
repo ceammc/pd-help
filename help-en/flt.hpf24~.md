@@ -1,9 +1,3 @@
----
-layout:     default
-title:      flt.hpf24~
-categories: [flt]
-tags:       [filter, highpass]
----
 [index](index.html) :: [flt](category_flt.html)
 ---
 
@@ -26,7 +20,7 @@ A high-pass filter is an electronic filter that passes signals with a frequency 
 
 ## arguments:
 
-* **freq**
+* **FREQ**
 cutoff frequency<br>
 _type:_ float<br>
 _units:_ Hz<br>
@@ -46,8 +40,7 @@ _default:_ 10000<br>
 
 * **@active** 
 Get/set on/off dsp processing<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 1<br>
 
 
@@ -56,6 +49,8 @@ _default:_ 1<br>
 
 * input signal<br>
 _type:_ audio
+* set frequency<br>
+_type:_ control
 
 
 

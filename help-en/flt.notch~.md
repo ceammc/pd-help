@@ -1,9 +1,3 @@
----
-layout:     default
-title:      flt.notch~
-categories: [flt]
-tags:       [filter, lowshelf]
----
 [index](index.html) :: [flt](category_flt.html)
 ---
 
@@ -26,12 +20,12 @@ filter that passes most frequencies unaltered, but attenuates those in a specifi
 
 ## arguments:
 
-* **freq**
+* **FREQ**
 center frequency<br>
 _type:_ float<br>
 _units:_ Hz<br>
 
-* **width**
+* **WIDTH**
 band width (approximate)<br>
 _type:_ float<br>
 _units:_ Hz<br>
@@ -58,8 +52,7 @@ _default:_ 50<br>
 
 * **@active** 
 Get/set on/off dsp processing<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 1<br>
 
 

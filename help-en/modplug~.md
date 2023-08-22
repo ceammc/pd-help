@@ -1,9 +1,3 @@
----
-layout:     default
-title:      modplug~
-categories: [misc]
-tags:       [mod, player]
----
 [index](index.html) :: [misc](category_misc.html)
 ---
 
@@ -70,8 +64,7 @@ _default:_ 0<br>
 
 * **@play** 
 Get/set play state<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 

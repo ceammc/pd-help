@@ -1,9 +1,3 @@
----
-layout:     default
-title:      hoa.2d.wider~
-categories: [spat]
-tags:       [hoa, wider]
----
 [index](index.html) :: [spat](category_spat.html)
 ---
 
@@ -38,8 +32,8 @@ _type:_ int<br>
 
 ## properties:
 
-* **@order** (readonly)
-Get the order of decomposition<br>
+* **@order** (initonly)
+Get/set the order of decomposition<br>
 _type:_ int<br>
 _range:_ 1..63<br>
 _default:_ 1<br>

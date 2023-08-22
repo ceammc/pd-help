@@ -1,9 +1,3 @@
----
-layout:     default
-title:      conv.amp2dbfs~
-categories: [conv]
-tags:       [conv, amp, dbfs, decibel]
----
 [index](index.html) :: [conv](category_conv.html)
 ---
 

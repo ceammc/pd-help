@@ -1,9 +1,3 @@
----
-layout:     default
-title:      env.tscale
-categories: [env]
-tags:       [time, scale]
----
 [index](index.html) :: [env](category_env.html)
 ---
 

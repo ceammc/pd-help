@@ -1,9 +1,3 @@
----
-layout:     default
-title:      metro.seq
-categories: [base]
-tags:       [metro, sequencer]
----
 [index](index.html) :: [base](category_base.html)
 ---
 
@@ -49,7 +43,7 @@ _type:_ list<br>
 Get/set interval between beats<br>
 _type:_ float<br>
 _units:_ ms<br>
-_min value:_ 1<br>
+_min value:_ 0<br>
 _default:_ 0<br>
 
 * **@current** 

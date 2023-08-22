@@ -1,9 +1,3 @@
----
-layout:     default
-title:      list.^search
-categories: [list]
-tags:       [list, search, index, find]
----
 [index](index.html) :: [list](category_list.html)
 ---
 
@@ -26,7 +20,7 @@ Outputs index or -1 if not found
 
 ## arguments:
 
-* **LIST**
+* **VALUE**
 list contents<br>
 _type:_ list<br>
 

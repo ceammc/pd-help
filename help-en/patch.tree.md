@@ -1,9 +1,3 @@
----
-layout:     default
-title:      patch.tree
-categories: [patch]
-tags:       [patch, tree]
----
 [index](index.html) :: [patch](category_patch.html)
 ---
 
@@ -55,7 +49,7 @@ _type:_ control
 
 
 
-**Authors:** Serge Poltavski
+**Authors:** Serge Poltavsky
 
 
 

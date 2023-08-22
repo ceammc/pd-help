@@ -1,9 +1,3 @@
----
-layout:     default
-title:      math.sync_rshift
-categories: [math]
-tags:       [math, shift, sync]
----
 [index](index.html) :: [math](category_math.html)
 ---
 

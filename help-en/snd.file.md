@@ -1,9 +1,3 @@
----
-layout:     default
-title:      snd.file
-categories: [snd]
-tags:       [soundfiler]
----
 [index](index.html) :: [snd](category_snd.html)
 ---
 
@@ -99,10 +93,9 @@ _type:_ float<br>
 _range:_ 1..99<br>
 _default:_ 30<br>
 
-* **@verbose** 
+* **@verbose** (initonly)
 Get/set verbose output to Pd window<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 

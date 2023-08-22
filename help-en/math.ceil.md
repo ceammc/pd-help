@@ -1,9 +1,3 @@
----
-layout:     default
-title:      math.ceil
-categories: [math]
-tags:       [math, ceil]
----
 [index](index.html) :: [math](category_math.html)
 ---
 

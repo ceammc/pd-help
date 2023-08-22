@@ -1,9 +1,3 @@
----
-layout:     default
-title:      list.rldecode
-categories: [list]
-tags:       [list, rle, decode]
----
 [index](index.html) :: [list](category_list.html)
 ---
 
@@ -26,7 +20,7 @@ tags:       [list, rle, decode]
 
 ## arguments:
 
-* **LST**
+* **L**
 initial element repeat list<br>
 _type:_ list<br>
 

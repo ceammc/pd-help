@@ -1,9 +1,3 @@
----
-layout:     default
-title:      flow.select
-categories: [flow]
-tags:       [select]
----
 [index](index.html) :: [flow](category_flow.html)
 ---
 
@@ -43,11 +37,10 @@ Get/set alias to @keep_value 1<br>
 _type:_ alias<br>
 
 * **@keep_value** 
-Get/set vakue output mode. If false (by default) acts like vanilla select: output bang
+Get/set value output mode. If false (by default) acts like vanilla select: output bang
 on match or full unmatched message to last outlet. If true always outputs full
 matched message to corresponding outlet.<br>
-_type:_ int<br>
-_enum:_ 0, 1, on, off<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 

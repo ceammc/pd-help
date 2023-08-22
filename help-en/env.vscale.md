@@ -1,9 +1,3 @@
----
-layout:     default
-title:      env.vscale
-categories: [env]
-tags:       [value, scale]
----
 [index](index.html) :: [env](category_env.html)
 ---
 

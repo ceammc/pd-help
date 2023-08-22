@@ -1,13 +1,9 @@
----
-layout:     default
-title:      math.round
-categories: [math]
-tags:       [math, round]
----
 [index](index.html) :: [math](category_math.html)
 ---
 
 # math.round
+**aliases:** [round], [ceammc/round]
+
 
 ###### round to integral value, regardless of rounding direction
 

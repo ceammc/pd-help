@@ -1,9 +1,3 @@
----
-layout:     default
-title:      system.cursor
-categories: [system]
-tags:       [cursor, mouse, mousewheel]
----
 [index](index.html) :: [system](category_system.html)
 ---
 
@@ -24,21 +18,37 @@ tags:       [cursor, mouse, mousewheel]
 
 
 
+## methods:
+
+* **polltime**
+sets global cursor polling time<br>
+  __parameters:__
+  - **T** polling time<br>
+    type: float <br>
+    units: ms <br>
+    required: True <br>
+
+
 
 
 ## properties:
 
 * **@relative** 
-Get/set relative output mode: if on output coords relative to window, otherwise output
-screen coordinates<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+Get/set relative output mode: if on output coords relative to the root window,
+otherwise output screen coordinates<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 * **@norm** 
 Get/set cursor x/y coordinates normalization by screen (or window) width/height<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
+_default:_ 0<br>
+
+* **@clip** 
+Get/set clip mode. If true clip a cursor XY values to the [0..1] range in normalized
+mode, to the window width/height relative mode, otherwise to the screen
+width/height<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 
@@ -68,7 +78,7 @@ _type:_ control
 
 
 
-**Authors:** Hans-Christoph Steiner, Serge Poltavski
+**Authors:** Hans-Christoph Steiner, Serge Poltavsky
 
 
 

@@ -1,9 +1,3 @@
----
-layout:     default
-title:      seq.life
-categories: [seq]
-tags:       [seq, conway, life, game]
----
 [index](index.html) :: [seq](category_seq.html)
 ---
 

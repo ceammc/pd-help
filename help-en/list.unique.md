@@ -1,9 +1,3 @@
----
-layout:     default
-title:      list.unique
-categories: [list]
-tags:       [list, unique, sort]
----
 [index](index.html) :: [list](category_list.html)
 ---
 
@@ -30,8 +24,7 @@ tags:       [list, unique, sort]
 
 * **@stable** 
 Get/set if true - preserves element appearing order<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 1<br>
 
 

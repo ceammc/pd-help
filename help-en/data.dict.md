@@ -1,9 +1,3 @@
----
-layout:     default
-title:      data.dict
-categories: [data]
-tags:       [data, dictionary]
----
 [index](index.html) :: [data](category_data.html)
 ---
 
@@ -50,6 +44,9 @@ get entry from dictionary<br>
   - **KEY** entry key<br>
     type: symbol <br>
     required: True <br>
+
+* **choose**
+choose random key and output it<br>
 
 * **set_key**
 change entry in dictionary. If it&#39;s not exists, do nothing.<br>
@@ -100,8 +97,7 @@ _type:_ list<br>
 
 * **@empty** (readonly)
 Get 1 if dict is empty, otherwise 0<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 1<br>
 
 * **@size** (readonly)

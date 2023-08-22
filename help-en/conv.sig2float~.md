@@ -1,9 +1,3 @@
----
-layout:     default
-title:      conv.sig2float~
-categories: [conv]
-tags:       [conv, signal, float, snapshot]
----
 [index](index.html) :: [conv](category_conv.html)
 ---
 
@@ -19,7 +13,7 @@ tags:       [conv, signal, float, snapshot]
 
 
 ## information
-convert signal to float via specified time invervals
+convert signal to float via specified time intervals
 
 
 [![example](../examples/img/conv.sig2float~.jpg)](../examples/pd/conv.sig2float~.pd)
@@ -28,9 +22,10 @@ convert signal to float via specified time invervals
 
 ## arguments:
 
-* **INTERV**
+* **INTERVAL**
 sampling interval<br>
 _type:_ float<br>
+_units:_ ms<br>
 
 
 
@@ -58,6 +53,8 @@ _default:_ 0<br>
 
 * input signal<br>
 _type:_ audio
+* set sample interval<br>
+_type:_ control
 
 
 

@@ -1,9 +1,3 @@
----
-layout:     default
-title:      midi.vrand
-categories: [midi]
-tags:       [midi, velocity, random]
----
 [index](index.html) :: [midi](category_midi.html)
 ---
 

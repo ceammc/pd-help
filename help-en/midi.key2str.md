@@ -1,9 +1,3 @@
----
-layout:     default
-title:      midi.key2str
-categories: [midi]
-tags:       [midi, key, name]
----
 [index](index.html) :: [midi](category_midi.html)
 ---
 
@@ -30,14 +24,14 @@ tags:       [midi, key, name]
 
 ## properties:
 
-* **@symbol** 
+* **@symbol** (initonly)
 Get/set output as symbol instead of string by default<br>
 _type:_ flag<br>
 _default:_ 0<br>
 
 * **@tonality** 
 Get/set current tonality<br>
-_type:_ symbol<br>
+_type:_ list<br>
 _default:_ C major<br>
 
 

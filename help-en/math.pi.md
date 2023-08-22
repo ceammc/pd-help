@@ -1,9 +1,3 @@
----
-layout:     default
-title:      math.pi
-categories: [math]
-tags:       [math, pi]
----
 [index](index.html) :: [math](category_math.html)
 ---
 
@@ -28,7 +22,7 @@ The number PI is a mathematical constant, the ratio of a circle&#39;s circumfere
 
 ## arguments:
 
-* **MUL**
+* **K**
 multiplier. default is 1<br>
 _type:_ float<br>
 
@@ -38,7 +32,7 @@ _type:_ float<br>
 
 ## properties:
 
-* **@k** 
+* **@k** (initonly)
 Get/set multiplier<br>
 _type:_ float<br>
 _default:_ 1<br>

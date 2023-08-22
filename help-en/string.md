@@ -1,9 +1,3 @@
----
-layout:     default
-title:      string
-categories: [string]
-tags:       [string, data]
----
 [index](index.html) :: [string](category_string.html)
 ---
 
@@ -26,7 +20,7 @@ tags:       [string, data]
 
 ## arguments:
 
-* **STR**
+* **VALUE**
 initial string<br>
 _type:_ symbol<br>
 

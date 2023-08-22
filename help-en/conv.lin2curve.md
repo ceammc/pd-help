@@ -1,9 +1,3 @@
----
-layout:     default
-title:      conv.lin2curve
-categories: [conv]
-tags:       [convert, exponential, curve]
----
 [index](index.html) :: [conv](category_conv.html)
 ---
 
@@ -28,19 +22,19 @@ map the receiver from an assumed linear input range to an exponential curve outp
 
 ## arguments:
 
-* **FROM**
+* **IN_FROM**
 begin of input range<br>
 _type:_ float<br>
 
-* **TO**
+* **IN_TO**
 end of input range<br>
 _type:_ float<br>
 
-* **FROM**
+* **OUT_FROM**
 begin of output range<br>
 _type:_ float<br>
 
-* **TO**
+* **OUT_TO**
 end of output range<br>
 _type:_ float<br>
 
@@ -75,7 +69,7 @@ _type:_ float<br>
 _default:_ 1<br>
 
 * **@curve** 
-Get/set 0 (linear) 0 (convex, positively curved)<br>
+Get/set 0 (linear) &lt;0 (concave, negatively curved) &gt;0 (convex, positively curved)<br>
 _type:_ float<br>
 _default:_ -4<br>
 

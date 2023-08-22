@@ -1,9 +1,3 @@
----
-layout:     default
-title:      expand_env
-categories: [flow]
-tags:       [expand_env, test]
----
 [index](index.html) :: [flow](category_flow.html)
 ---
 
@@ -32,7 +26,7 @@ Environment variable %HOME% will be replaced by home user directory under UNIX S
 
 ## properties:
 
-* **@any** 
+* **@any** (initonly)
 Get/set if specified - also do substitution in message selector<br>
 _type:_ flag<br>
 _default:_ 0<br>

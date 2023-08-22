@@ -1,9 +1,3 @@
----
-layout:     default
-title:      list.runsum
-categories: [list]
-tags:       [list, running, total, sum, partial, cumulative]
----
 [index](index.html) :: [list](category_list.html)
 ---
 

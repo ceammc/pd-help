@@ -1,9 +1,3 @@
----
-layout:     default
-title:      envelope
-categories: [env]
-tags:       [envelope]
----
 [index](index.html) :: [env](category_env.html)
 ---
 
@@ -19,7 +13,7 @@ tags:       [envelope]
 
 
 ## information
-Data type for sound envelope. Contains points specified by time and value. Points could have stop property - to execute oly part of envelope and stop on this point. So multisegment envelopes could be created Point also has segment type property, that defines following segment curve - it could be *step*, *line* (default) or *exp* (exponential) Exponential segment also has curve property: if 0 - (linear) 0 (convex, positively curved)
+Data type for sound envelope. Contains points specified by time and value. Points could have stop property - to execute oly part of envelope and stop on this point. So multisegment envelopes could be created Point also has segment type property, that defines following segment curve - it could be *step*, *line* (default) or *exp* (exponential) Exponential segment also has curve property: if 0 - (linear) &lt;0 (concave, negatively curved) &gt;0 (convex, positively curved)
 
 
 [![example](../examples/img/envelope.jpg)](../examples/pd/envelope.pd)
@@ -80,7 +74,7 @@ add envelope point<br>
   - **[TYPE=line]** segment type: step, linear, exponential, sin^2 or sigmoid curve<br>
     type: symbol <br>
 
-  - **[CURVE=1]** exponential curve degree: 0 (linear) 0 (convex, positively curved)<br>
+  - **[CURVE=1]** exponential curve degree: 0 (linear) &lt;0 (concave, negatively curved) &gt;0 (convex, positively curved)<br>
     type: float <br>
 
 * **remove_point**

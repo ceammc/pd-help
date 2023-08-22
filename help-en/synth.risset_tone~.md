@@ -1,9 +1,3 @@
----
-layout:     default
-title:      synth.risset_tone~
-categories: [synth]
-tags:       [risset]
----
 [index](index.html) :: [synth](category_synth.html)
 ---
 
@@ -64,8 +58,7 @@ _default:_ 120<br>
 
 * **@active** 
 Get/set on/off dsp processing<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 1<br>
 
 

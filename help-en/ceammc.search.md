@@ -1,9 +1,3 @@
----
-layout:     default
-title:      ceammc.search
-categories: [base]
-tags:       [search]
----
 [index](index.html) :: [base](category_base.html)
 ---
 
@@ -74,7 +68,7 @@ _type:_ control
 
 
 
-**Authors:** Serge Poltavski
+**Authors:** Serge Poltavsky
 
 
 

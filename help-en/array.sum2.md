@@ -1,9 +1,3 @@
----
-layout:     default
-title:      array.sum2
-categories: [array]
-tags:       [array, sum]
----
 [index](index.html) :: [array](category_array.html)
 ---
 
@@ -24,7 +18,7 @@ tags:       [array, sum]
 
 ## arguments:
 
-* **NAME**
+* **ARRAY**
 array name<br>
 _type:_ symbol<br>
 

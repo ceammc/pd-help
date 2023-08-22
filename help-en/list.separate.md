@@ -1,9 +1,3 @@
----
-layout:     default
-title:      list.separate
-categories: [list]
-tags:       [list, separate]
----
 [index](index.html) :: [list](category_list.html)
 ---
 
@@ -33,8 +27,7 @@ tags:       [list, separate]
 * **@enumerate** 
 Get/set enumeration mode. If enumeration is active output pairs: INDEX ATOM, otherwise
 single atoms<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 * **@from** 

@@ -1,9 +1,3 @@
----
-layout:     default
-title:      env.mix
-categories: [env]
-tags:       [mix]
----
 [index](index.html) :: [env](category_env.html)
 ---
 

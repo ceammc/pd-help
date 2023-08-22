@@ -1,9 +1,3 @@
----
-layout:     default
-title:      flow.ring
-categories: [flow]
-tags:       [ring, buffer, dataflow]
----
 [index](index.html) :: [flow](category_flow.html)
 ---
 
@@ -26,7 +20,7 @@ tags:       [ring, buffer, dataflow]
 
 ## arguments:
 
-* **N**
+* **LENGTH**
 buffer length<br>
 _type:_ int<br>
 
@@ -36,7 +30,7 @@ _type:_ int<br>
 
 ## properties:
 
-* **@length** 
+* **@length** (initonly)
 Get/set buffer length<br>
 _type:_ int<br>
 _range:_ 1..24<br>

@@ -1,9 +1,3 @@
----
-layout:     default
-title:      set.equal
-categories: [data]
-tags:       [data, equal, set]
----
 [index](index.html) :: [data](category_data.html)
 ---
 
@@ -24,7 +18,7 @@ tags:       [data, equal, set]
 
 ## arguments:
 
-* **ARGS**
+* **SUBJ**
 right set elements<br>
 _type:_ any<br>
 

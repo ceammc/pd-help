@@ -1,9 +1,3 @@
----
-layout:     default
-title:      math.approx
-categories: [math]
-tags:       [equal, compare, approx]
----
 [index](index.html) :: [math](category_math.html)
 ---
 
@@ -19,7 +13,7 @@ tags:       [equal, compare, approx]
 
 
 ## information
-checks is |x - pattern| &lt;= |epsilon|
+checks if |x - pattern| &lt;= |epsilon|
 
 
 [![example](../examples/img/math.approx.jpg)](../examples/pd/math.approx.pd)
@@ -28,11 +22,11 @@ checks is |x - pattern| &lt;= |epsilon|
 
 ## arguments:
 
-* **P**
+* **VALUE**
 compare pattern<br>
 _type:_ float<br>
 
-* **E**
+* **EPSILON**
 compare epsilon<br>
 _type:_ float<br>
 

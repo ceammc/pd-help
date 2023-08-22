@@ -77,6 +77,6 @@ _aliases:_ \[ceammc/pan8\~\], \[pan8\~\]
 [**spat.zita8\~**](spat.zita8~.html): 8 channel reverb spatializer 
 
 
-**Version:** 0.9.4
+**Version:** 0.9.6
 
 **License:** GPL3

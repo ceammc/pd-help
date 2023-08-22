@@ -25,6 +25,6 @@
 [**system.screen_size**](system.screen_size.html): returns current screen size in pixels 
 
 
-**Version:** 0.9.4
+**Version:** 0.9.6
 
 **License:** GPL3

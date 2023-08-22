@@ -1,9 +1,3 @@
----
-layout:     default
-title:      array.window
-categories: [array]
-tags:       [array, window]
----
 [index](index.html) :: [array](category_array.html)
 ---
 
@@ -21,6 +15,12 @@ tags:       [array, window]
 [![example](../examples/img/array.window.jpg)](../examples/pd/array.window.pd)
 
 
+
+## arguments:
+
+* **ARRAY**
+array name<br>
+_type:_ symbol<br>
 
 
 
@@ -57,13 +57,13 @@ generate hann window<br>
 generate nuttall window<br>
 
 * **rect**
-generate rectangualar window<br>
+generate rectangular window<br>
 
 * **sine**
 generate sine window<br>
 
 * **tri**
-generate triangualar window<br>
+generate triangular window<br>
 
 * **welch**
 generate welch window<br>
@@ -79,8 +79,7 @@ _type:_ symbol<br>
 
 * **@redraw** 
 Get/set redraw after array change<br>
-_type:_ int<br>
-_enum:_ 1, 0<br>
+_type:_ bool<br>
 _default:_ 1<br>
 
 * **@type** 

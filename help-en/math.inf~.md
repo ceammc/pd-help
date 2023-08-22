@@ -1,9 +1,3 @@
----
-layout:     default
-title:      math.inf~
-categories: [math]
-tags:       [math, inf]
----
 [index](index.html) :: [math](category_math.html)
 ---
 

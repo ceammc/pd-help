@@ -1,9 +1,3 @@
----
-layout:     default
-title:      math.e
-categories: [math]
-tags:       [math, e]
----
 [index](index.html) :: [math](category_math.html)
 ---
 

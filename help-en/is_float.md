@@ -1,9 +1,3 @@
----
-layout:     default
-title:      is_float
-categories: [predicates]
-tags:       [predicate, float]
----
 [index](index.html) :: [predicates](category_predicates.html)
 ---
 

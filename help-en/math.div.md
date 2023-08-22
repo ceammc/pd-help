@@ -1,9 +1,3 @@
----
-layout:     default
-title:      math.div
-categories: [math]
-tags:       [math, divide]
----
 [index](index.html) :: [math](category_math.html)
 ---
 

@@ -1,9 +1,3 @@
----
-layout:     default
-title:      array.vplay
-categories: [array]
-tags:       [array, play, vline]
----
 [index](index.html) :: [array](category_array.html)
 ---
 
@@ -24,7 +18,7 @@ tags:       [array, play, vline]
 
 ## arguments:
 
-* **NAME**
+* **ARRAY**
 array name<br>
 _type:_ symbol<br>
 
@@ -103,15 +97,14 @@ _default:_ 0<br>
 
 * **@reversed** 
 Get/set playing backwards (if set to 1)<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 
 
 ## inlets:
 
-* start playing from the begining<br>
+* start playing from the beginning<br>
 _type:_ control
 
 

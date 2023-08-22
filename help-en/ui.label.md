@@ -1,9 +1,3 @@
----
-layout:     default
-title:      ui.label
-categories: [ui]
-tags:       [ui, label]
----
 [index](index.html) :: [ui](category_ui.html)
 ---
 
@@ -101,11 +95,6 @@ Get/set text bottom margin<br>
 _type:_ int<br>
 _default:_ 5<br>
 
-* **@send** 
-Get/set send destination<br>
-_type:_ symbol<br>
-_default:_ (null)<br>
-
 * **@receive** 
 Get/set receive source<br>
 _type:_ symbol<br>
@@ -118,8 +107,7 @@ _default:_ 300 47<br>
 
 * **@pinned** 
 Get/set pin mode. if 1 - put element to the lowest level<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 1<br>
 
 * **@text_color** 
@@ -132,20 +120,16 @@ Get/set element background color (list of red, green, blue values in 0-1 range)<
 _type:_ list<br>
 _default:_ 1 1 1 1<br>
 
-* **@border_color** 
-Get/set border color (list of red, green, blue values in 0-1 range)<br>
-_type:_ list<br>
-_default:_ 0.6 0.6 0.6 1<br>
-
 * **@fontsize** 
 Get/set fontsize<br>
 _type:_ int<br>
-_min value:_ 4<br>
+_range:_ 4..100<br>
 _default:_ 32<br>
 
 * **@fontname** 
 Get/set fontname<br>
 _type:_ symbol<br>
+_enum:_ Courier, DejaVu, Helvetica, Monaco, Times<br>
 _default:_ Helvetica<br>
 
 * **@fontweight** 

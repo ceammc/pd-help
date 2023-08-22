@@ -1,9 +1,3 @@
----
-layout:     default
-title:      env2array
-categories: [env]
-tags:       [envelope, array]
----
 [index](index.html) :: [env](category_env.html)
 ---
 
@@ -42,8 +36,7 @@ _type:_ symbol<br>
 
 * **@redraw** 
 Get/set redraw after array change<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 1<br>
 
 * **@mode** 

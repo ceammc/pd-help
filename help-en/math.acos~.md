@@ -1,9 +1,3 @@
----
-layout:     default
-title:      math.acos~
-categories: [math]
-tags:       [math, acos]
----
 [index](index.html) :: [math](category_math.html)
 ---
 

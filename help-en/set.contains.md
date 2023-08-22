@@ -1,9 +1,3 @@
----
-layout:     default
-title:      set.contains
-categories: [data]
-tags:       [data, predicate, contains]
----
 [index](index.html) :: [data](category_data.html)
 ---
 
@@ -24,7 +18,7 @@ tags:       [data, predicate, contains]
 
 ## arguments:
 
-* **X**
+* **SUBJ**
 searched element<br>
 _type:_ atom<br>
 
@@ -37,6 +31,7 @@ _type:_ atom<br>
 * **@subj** 
 Get/set searched element<br>
 _type:_ atom<br>
+_default:_ null<br>
 
 
 

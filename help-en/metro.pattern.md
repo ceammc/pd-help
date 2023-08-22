@@ -1,9 +1,3 @@
----
-layout:     default
-title:      metro.pattern
-categories: [base]
-tags:       [metro, pattern, rhythm]
----
 [index](index.html) :: [base](category_base.html)
 ---
 
@@ -25,7 +19,7 @@ tags:       [metro, pattern, rhythm]
 ## arguments:
 
 * **PATTERN**
-list of time intervals<br>
+list of time intervals (in ms)<br>
 _type:_ list<br>
 
 
@@ -35,7 +29,7 @@ _type:_ list<br>
 ## properties:
 
 * **@pattern** 
-Get/set time intervals performed in a loop<br>
+Get/set time intervals (in ms) performed in a loop<br>
 _type:_ list<br>
 
 * **@current** 
@@ -46,8 +40,7 @@ _default:_ 0<br>
 
 * **@sync** 
 Get/set sync mode - change pattern after full cycle<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 

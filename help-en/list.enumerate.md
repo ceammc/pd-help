@@ -1,9 +1,3 @@
----
-layout:     default
-title:      list.enumerate
-categories: [list]
-tags:       [list, enumerate]
----
 [index](index.html) :: [list](category_list.html)
 ---
 
@@ -22,6 +16,12 @@ tags:       [list, enumerate]
 
 
 
+## arguments:
+
+* **FROM**
+enumeration start index<br>
+_type:_ int<br>
+
 
 
 
@@ -29,11 +29,11 @@ tags:       [list, enumerate]
 ## properties:
 
 * **@from** 
-Get/set start enumeration index<br>
+Get/set enumeration start index<br>
 _type:_ int<br>
 _default:_ 0<br>
 
-* **@append** 
+* **@append** (initonly)
 Get/set put element index after element value<br>
 _type:_ flag<br>
 _default:_ 0<br>

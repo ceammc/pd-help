@@ -1,9 +1,3 @@
----
-layout:     default
-title:      set.intersect
-categories: [data]
-tags:       [data, intersection, set]
----
 [index](index.html) :: [data](category_data.html)
 ---
 

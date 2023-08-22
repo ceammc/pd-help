@@ -1,9 +1,3 @@
----
-layout:     default
-title:      flt.dcblock2~
-categories: [flt]
-tags:       [filter, dcblock]
----
 [index](index.html) :: [flt](category_flt.html)
 ---
 
@@ -32,8 +26,7 @@ Stereo DC blocker. It has -3dB point near 35 Hz (at 44.1 kHz) and high-frequency
 
 * **@active** 
 Get/set on/off dsp processing<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 1<br>
 
 

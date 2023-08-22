@@ -1,9 +1,3 @@
----
-layout:     default
-title:      list.min
-categories: [list]
-tags:       [list, min, compare]
----
 [index](index.html) :: [list](category_list.html)
 ---
 

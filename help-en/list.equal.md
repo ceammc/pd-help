@@ -1,9 +1,3 @@
----
-layout:     default
-title:      list.equal
-categories: [list]
-tags:       [list, compare, equal]
----
 [index](index.html) :: [list](category_list.html)
 ---
 
@@ -24,7 +18,7 @@ tags:       [list, compare, equal]
 
 ## arguments:
 
-* **LIST**
+* **PATTERN**
 initial value<br>
 _type:_ list<br>
 

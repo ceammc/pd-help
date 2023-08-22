@@ -1,9 +1,3 @@
----
-layout:     default
-title:      ui.polar
-categories: [ui]
-tags:       [ui, slider, polar]
----
 [index](index.html) :: [ui](category_ui.html)
 ---
 
@@ -118,27 +112,24 @@ set UI element position<br>
 
 * **@clockwise** 
 Get/set clockwise positive direction<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 1<br>
 
 * **@direction** 
 Get/set zero-angle direction<br>
 _type:_ symbol<br>
-_enum:_ N, E, S, W<br>
+_enum:_ N, W, S, E<br>
 _default:_ N<br>
 
 * **@positive** 
 Get/set use positive output angle range. For example: [0..360) when using degrees,
 otherwise using [-180..180) range.<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 * **@radians** 
 Get/set using radians instead of degrees<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 * **@angle** 
@@ -174,15 +165,13 @@ _default:_ 100 100<br>
 
 * **@pinned** 
 Get/set pin mode. if 1 - put element to the lowest level<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 * **@mouse_events** 
 Get/set mouse events output mode. If on outputs @mouse_down, @mouse_up and @mouse_drag
 events<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 * **@background_color** 
@@ -198,12 +187,13 @@ _default:_ 0.6 0.6 0.6 1<br>
 * **@fontsize** 
 Get/set fontsize<br>
 _type:_ int<br>
-_range:_ 4..11<br>
+_range:_ 4..100<br>
 _default:_ 11<br>
 
 * **@fontname** 
 Get/set fontname<br>
 _type:_ symbol<br>
+_enum:_ Helvetica, Monaco, Courier, Times, DejaVu<br>
 _default:_ Helvetica<br>
 
 * **@fontweight** 
@@ -230,8 +220,7 @@ _default:_ 0 0 0 1<br>
 
 * **@label_inner** 
 Get/set label position (1 - inner, 0 - outer).<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 * **@label_align** 

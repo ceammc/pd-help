@@ -1,9 +1,3 @@
----
-layout:     default
-title:      dyn.gate~
-categories: [dyn]
-tags:       [gate]
----
 [index](index.html) :: [dyn](category_dyn.html)
 ---
 
@@ -24,29 +18,25 @@ tags:       [gate]
 
 ## arguments:
 
-* **threshold**
+* **THRESHOLD**
 dB level threshold above which gate opens (e.g., 40 dB)<br>
 _type:_ float<br>
 _units:_ db<br>
 
-* **attack**
+* **ATTACK**
 attack time = time constant (ms) for gate to open<br>
 _type:_ float<br>
 _units:_ ms<br>
 
-* **hold**
+* **HOLD**
 hold time = time (ms) gate stays open after signal level &lt; threshold<br>
 _type:_ float<br>
 _units:_ ms<br>
 
-* **release**
+* **RELEASE**
 release time = time constant (ms) for gate to close<br>
 _type:_ float<br>
 _units:_ ms<br>
-
-* **ID**
-object ID for OSC control path<br>
-_type:_ symbol<br>
 
 
 
@@ -84,8 +74,7 @@ _default:_ 20<br>
 
 * **@active** 
 Get/set on/off dsp processing<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 1<br>
 
 

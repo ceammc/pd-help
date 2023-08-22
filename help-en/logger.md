@@ -1,9 +1,3 @@
----
-layout:     default
-title:      logger
-categories: [base]
-tags:       [log]
----
 [index](index.html) :: [base](category_base.html)
 ---
 
@@ -42,8 +36,7 @@ _type:_ list<br>
 
 * **@active** 
 Get/set enabled/disabled logging state<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 1<br>
 
 

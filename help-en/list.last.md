@@ -1,9 +1,3 @@
----
-layout:     default
-title:      list.last
-categories: [list]
-tags:       [list, last, back]
----
 [index](index.html) :: [list](category_list.html)
 ---
 

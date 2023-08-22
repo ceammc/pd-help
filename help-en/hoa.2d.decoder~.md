@@ -1,9 +1,3 @@
----
-layout:     default
-title:      hoa.2d.decoder~
-categories: [spat]
-tags:       [hoa, decoder]
----
 [index](index.html) :: [spat](category_spat.html)
 ---
 
@@ -46,14 +40,14 @@ _type:_ int<br>
 
 ## properties:
 
-* **@order** (readonly)
-Get the order of decomposition<br>
+* **@order** (initonly)
+Get/set the order of decomposition<br>
 _type:_ int<br>
 _range:_ 1..63<br>
 _default:_ 1<br>
 
-* **@mode** (readonly)
-Get decoding mode<br>
+* **@mode** 
+Get/set decoding mode<br>
 _type:_ symbol<br>
 _enum:_ regular, irregular, binaural<br>
 _default:_ regular<br>
@@ -87,6 +81,7 @@ _default:_ 0<br>
 Get/set angles of loudspeakers. Only available for @irregular mode.<br>
 _type:_ list<br>
 _units:_ deg<br>
+_default:_ 0 90 180 270<br>
 
 * **@pw_x** (readonly)
 Get list of plain wave x-coordinates (abscissas). -1 is the left of the soundfield,
@@ -94,6 +89,7 @@ Get list of plain wave x-coordinates (abscissas). -1 is the left of the soundfie
 _type:_ list<br>
 _units:_ rad<br>
 _range:_ -1..1<br>
+_default:_ 0 -1 0 1<br>
 
 * **@pw_y** (readonly)
 Get list of plain wave y-coordinates (ordinatas). -1 is the back of the soundfield,
@@ -101,6 +97,7 @@ Get list of plain wave y-coordinates (ordinatas). -1 is the back of the soundfie
 _type:_ list<br>
 _units:_ rad<br>
 _range:_ -1..1<br>
+_default:_ 1 0 -1 0<br>
 
 * **@pw_z** (readonly)
 Get list of plain wave z-coordinates (heights). -1 is the bottom of the soundfield,
@@ -108,6 +105,7 @@ Get list of plain wave z-coordinates (heights). -1 is the bottom of the soundfie
 _type:_ list<br>
 _units:_ rad<br>
 _range:_ -1..1<br>
+_default:_ 0 0 0 0<br>
 
 * **@nharm** (readonly)
 Get number of circular harmonics.<br>
@@ -115,8 +113,8 @@ _type:_ int<br>
 _min value:_ 1<br>
 _default:_ 3<br>
 
-* **@nwaves** (readonly)
-Get number of plain waves.<br>
+* **@nwaves** (initonly)
+Get/set number of plain waves.<br>
 _type:_ int<br>
 _min value:_ 1<br>
 _default:_ 0<br>

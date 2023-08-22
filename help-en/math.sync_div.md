@@ -1,9 +1,3 @@
----
-layout:     default
-title:      math.sync_div
-categories: [math]
-tags:       [math, division, sync]
----
 [index](index.html) :: [math](category_math.html)
 ---
 
@@ -38,7 +32,7 @@ _type:_ float<br>
 
 ## properties:
 
-* **@int** 
+* **@int** (initonly)
 Get/set operate on integers only<br>
 _type:_ flag<br>
 _default:_ 0<br>

@@ -1,9 +1,3 @@
----
-layout:     default
-title:      patch.args
-categories: [patch]
-tags:       [patch, args, arguments, canvas]
----
 [index](index.html) :: [patch](category_patch.html)
 ---
 
@@ -21,6 +15,12 @@ tags:       [patch, args, arguments, canvas]
 [![example](../examples/img/patch.args.jpg)](../examples/pd/patch.args.pd)
 
 
+
+## arguments:
+
+* **FROM**
+starting args index<br>
+_type:_ int<br>
 
 
 

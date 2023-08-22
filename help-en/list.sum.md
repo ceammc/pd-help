@@ -1,9 +1,3 @@
----
-layout:     default
-title:      list.sum
-categories: [list]
-tags:       [list, sum]
----
 [index](index.html) :: [list](category_list.html)
 ---
 

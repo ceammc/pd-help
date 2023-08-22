@@ -1,9 +1,3 @@
----
-layout:     default
-title:      math.squared~
-categories: [math]
-tags:       [math, square]
----
 [index](index.html) :: [math](category_math.html)
 ---
 
@@ -40,7 +34,7 @@ _type:_ audio
 ## outlets:
 
 * output signal<br>
-_type:_ control
+_type:_ audio
 
 
 

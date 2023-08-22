@@ -1,9 +1,3 @@
----
-layout:     default
-title:      ui.filter~
-categories: [ui]
-tags:       [ui, filter, biquad]
----
 [index](index.html) :: [ui](category_ui.html)
 ---
 
@@ -104,8 +98,8 @@ _default:_ 0<br>
 * **@q** 
 Get/set quality factor<br>
 _type:_ float<br>
-_range:_ 0.015625..64<br>
-_default:_ 0.707107<br>
+_range:_ 0.0156..64<br>
+_default:_ 0.7071<br>
 
 * **@presetname** 
 Get/set preset name for using with [ui.preset]<br>
@@ -129,15 +123,13 @@ _default:_ 300 100<br>
 
 * **@pinned** 
 Get/set pin mode. if 1 - put element to the lowest level<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 * **@mouse_events** 
 Get/set mouse events output mode. If on outputs @mouse_down, @mouse_up and @mouse_drag
 events<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 * **@background_color** 
@@ -168,12 +160,13 @@ _default:_ 0 0 0 1<br>
 * **@fontsize** 
 Get/set fontsize<br>
 _type:_ int<br>
-_range:_ 4..11<br>
+_range:_ 4..100<br>
 _default:_ 11<br>
 
 * **@fontname** 
 Get/set fontname<br>
 _type:_ symbol<br>
+_enum:_ Courier, DejaVu, Helvetica, Monaco, Times<br>
 _default:_ Helvetica<br>
 
 * **@fontweight** 
@@ -197,12 +190,6 @@ _default:_ (null)<br>
 Get/set label color in RGB format within 0-1 range, for example: 0.2 0.4 0.1<br>
 _type:_ list<br>
 _default:_ 0.6 0.6 0.6 1<br>
-
-* **@label_inner** 
-Get/set label position (1 - inner, 0 - outer).<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
-_default:_ 0<br>
 
 * **@label_align** 
 Get/set label horizontal align<br>
@@ -240,6 +227,8 @@ _type:_ audio
 
 * filtered signal<br>
 _type:_ audio
+* list: filter biquad coefficient<br>
+_type:_ control
 
 
 

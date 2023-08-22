@@ -1,9 +1,3 @@
----
-layout:     default
-title:      math.tan~
-categories: [math]
-tags:       [math, tan]
----
 [index](index.html) :: [math](category_math.html)
 ---
 

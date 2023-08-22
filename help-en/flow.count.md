@@ -1,9 +1,3 @@
----
-layout:     default
-title:      flow.count
-categories: [flow]
-tags:       [counter]
----
 [index](index.html) :: [flow](category_flow.html)
 ---
 
@@ -24,7 +18,7 @@ tags:       [counter]
 
 ## arguments:
 
-* **N**
+* **VALUE**
 counter init value<br>
 _type:_ int<br>
 
@@ -47,7 +41,7 @@ _default:_ 0<br>
 
 * input messages<br>
 _type:_ control
-* reset counter to init value<br>
+* reset counter to init value (no output)<br>
 _type:_ control
 
 

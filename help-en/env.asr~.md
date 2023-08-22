@@ -1,9 +1,3 @@
----
-layout:     default
-title:      env.asr~
-categories: [env]
-tags:       [envelope, asr]
----
 [index](index.html) :: [env](category_env.html)
 ---
 
@@ -24,17 +18,17 @@ tags:       [envelope, asr]
 
 ## arguments:
 
-* **attack**
+* **ATTACK**
 attack time<br>
 _type:_ float<br>
 _units:_ ms<br>
 
-* **sustain**
+* **SUSTAIN**
 sustain level (percentage of trigger)<br>
 _type:_ float<br>
 _units:_ %<br>
 
-* **release**
+* **RELEASE**
 release time<br>
 _type:_ float<br>
 _units:_ ms<br>
@@ -90,8 +84,7 @@ _type:_ list<br>
 
 * **@active** 
 Get/set on/off dsp processing<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 1<br>
 
 
@@ -100,6 +93,8 @@ _default:_ 1<br>
 
 * input signal<br>
 _type:_ audio
+* float: 1 - start envelope, 0 - stop<br>
+_type:_ control
 
 
 

@@ -1,9 +1,3 @@
----
-layout:     default
-title:      seq.counter
-categories: [seq]
-tags:       [counter, modulo]
----
 [index](index.html) :: [seq](category_seq.html)
 ---
 
@@ -32,7 +26,7 @@ _type:_ int<br>
 end value<br>
 _type:_ int<br>
 
-* **REPEATS**
+* **R**
 number of repeats<br>
 _type:_ int<br>
 
@@ -43,18 +37,24 @@ _type:_ int<br>
 * **reset**
 reset counter to start value and repeat counter to 0<br>
 
+* **next**
+increment counter then output<br>
+
+* **prev**
+decrement counter then output<br>
+
 
 
 
 ## properties:
 
 * **@from** 
-Get/set start value<br>
+Get/set start value. Setting this property resets @i to 0<br>
 _type:_ int<br>
 _default:_ 0<br>
 
 * **@to** 
-Get/set end value<br>
+Get/set end value (inclusive)<br>
 _type:_ int<br>
 _default:_ 0<br>
 
@@ -72,8 +72,8 @@ _type:_ alias<br>
 Get/set alias to @r 1, play once<br>
 _type:_ alias<br>
 
-* **@i** (readonly)
-Get current iteration<br>
+* **@i** 
+Get/set current iteration<br>
 _type:_ int<br>
 _default:_ 0<br>
 
@@ -96,11 +96,16 @@ _type:_ alias<br>
 Get/set alias to @mode fold<br>
 _type:_ alias<br>
 
+* **@value** (readonly)
+Get current value<br>
+_type:_ int<br>
+_default:_ 0<br>
+
 
 
 ## inlets:
 
-* output current value and increment counter<br>
+* output current value then increment counter<br>
 _type:_ control
 * reset counter to start value<br>
 _type:_ control

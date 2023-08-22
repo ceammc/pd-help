@@ -1,9 +1,3 @@
----
-layout:     default
-title:      samp.time~
-categories: [samp]
-tags:       [base]
----
 [index](index.html) :: [samp](category_samp.html)
 ---
 
@@ -60,7 +54,7 @@ _type:_ control
 ## outlets:
 
 * current sample number<br>
-_type:_ control
+_type:_ audio
 
 
 

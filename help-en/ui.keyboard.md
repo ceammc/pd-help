@@ -1,9 +1,3 @@
----
-layout:     default
-title:      ui.keyboard
-categories: [ui]
-tags:       [ui, keyboard]
----
 [index](index.html) :: [ui](category_ui.html)
 ---
 
@@ -88,19 +82,13 @@ _default:_ 433 60<br>
 
 * **@pinned** 
 Get/set pin mode. if 1 - put element to the lowest level<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 * **@active_color** 
 Get/set active color (list of red, green, blue values in 0-1 range)<br>
 _type:_ list<br>
 _default:_ 0 0.75 1 1<br>
-
-* **@background_color** 
-Get/set element background color (list of red, green, blue values in 0-1 range)<br>
-_type:_ list<br>
-_default:_ 0.93 0.93 0.93 1<br>
 
 * **@border_color** 
 Get/set border color (list of red, green, blue values in 0-1 range)<br>
@@ -110,12 +98,13 @@ _default:_ 0.6 0.6 0.6 1<br>
 * **@fontsize** 
 Get/set fontsize<br>
 _type:_ int<br>
-_range:_ 4..11<br>
+_range:_ 4..100<br>
 _default:_ 11<br>
 
 * **@fontname** 
 Get/set fontname<br>
 _type:_ symbol<br>
+_enum:_ Courier, DejaVu, Helvetica, Monaco, Times<br>
 _default:_ Helvetica<br>
 
 * **@fontweight** 

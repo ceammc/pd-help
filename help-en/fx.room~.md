@@ -1,9 +1,3 @@
----
-layout:     default
-title:      fx.room~
-categories: [fx]
-tags:       [fx, room, reverb]
----
 [index](index.html) :: [fx](category_fx.html)
 ---
 
@@ -24,12 +18,11 @@ tags:       [fx, room, reverb]
 
 ## arguments:
 
-* **size**
+* **SIZE**
 echo time<br>
 _type:_ float<br>
-_units:_ ms<br>
 
-* **diffusion**
+* **FB**
 feedback coefficient<br>
 _type:_ float<br>
 
@@ -65,7 +58,9 @@ _range:_ 0..1<br>
 _default:_ 1<br>
 
 * **@size** 
-Get/set room size (1: small, 2: medium, 3: large)<br>
+Get/set room size (0: no room, 1: small, 2: medium, 3: large). Non-integer values are
+interpolated betweed neighbours, for example 1.3 is interpoltation between
+first and second room size with 0.3 ratio.<br>
 _type:_ float<br>
 _range:_ 0..3<br>
 _default:_ 1<br>
@@ -79,14 +74,12 @@ _default:_ 0.5<br>
 
 * **@bypass** 
 Get/set if set to 1 - bypass &#39;effected&#39; signal<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 * **@active** 
 Get/set on/off dsp processing<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 1<br>
 
 
@@ -95,6 +88,8 @@ _default:_ 1<br>
 
 * input signal<br>
 _type:_ audio
+* set room size<br>
+_type:_ control
 
 
 

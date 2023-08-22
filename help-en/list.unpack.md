@@ -1,9 +1,3 @@
----
-layout:     default
-title:      list.unpack
-categories: [list]
-tags:       [list, unpack]
----
 [index](index.html) :: [list](category_list.html)
 ---
 

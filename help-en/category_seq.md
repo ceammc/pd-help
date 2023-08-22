@@ -33,6 +33,6 @@ _aliases:_ \[ceammc/sequencer\], \[ceammc/seq\], \[seq\]
 
 
 
-**Version:** 0.9.4
+**Version:** 0.9.6
 
 **License:** GPL3

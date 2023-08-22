@@ -1,9 +1,3 @@
----
-layout:     default
-title:      array.play~
-categories: [array]
-tags:       [array, play]
----
 [index](index.html) :: [array](category_array.html)
 ---
 
@@ -95,8 +89,13 @@ _type:_ float<br>
 _min value:_ 0<br>
 _default:_ 1<br>
 
+* **@loop** 
+Get/set samplewise loop playing mode<br>
+_type:_ bool<br>
+_default:_ 0<br>
+
 * **@interp** 
-Get/set interpolation type. 0: no interpolationm 1: linear, 3: cubic.<br>
+Get/set interpolation type. 0: no interpolation 1: linear, 3: cubic.<br>
 _type:_ int<br>
 _enum:_ 0, 1, 3<br>
 _default:_ 1<br>

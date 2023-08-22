@@ -1,9 +1,3 @@
----
-layout:     default
-title:      is_pointer
-categories: [predicates]
-tags:       [predicate, pointer]
----
 [index](index.html) :: [predicates](category_predicates.html)
 ---
 

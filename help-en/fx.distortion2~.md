@@ -1,9 +1,3 @@
----
-layout:     default
-title:      fx.distortion2~
-categories: [fx]
-tags:       [fx, distortion]
----
 [index](index.html) :: [fx](category_fx.html)
 ---
 
@@ -44,8 +38,7 @@ _default:_ 5000<br>
 
 * **@sp_on_off** 
 Get/set speaker emulation turn on/off<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 * **@lp_freq** 
@@ -64,8 +57,7 @@ _default:_ 130<br>
 
 * **@flt_on_off** 
 Get/set filter processing<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 * **@level** 
@@ -89,8 +81,7 @@ _default:_ 0.64<br>
 
 * **@res_on_off** 
 Get/set resonator<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 * **@vibrato** 
@@ -107,8 +98,7 @@ _default:_ 0.12<br>
 
 * **@active** 
 Get/set on/off dsp processing<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 1<br>
 
 

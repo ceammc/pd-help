@@ -1,9 +1,3 @@
----
-layout:     default
-title:      array.circular~
-categories: [array]
-tags:       [array, circular, ring]
----
 [index](index.html) :: [array](category_array.html)
 ---
 
@@ -28,6 +22,10 @@ tags:       [array, circular, ring]
 array name<br>
 _type:_ symbol<br>
 
+* **ON**
+write mode<br>
+_type:_ bool<br>
+
 
 
 ## methods:
@@ -51,8 +49,7 @@ _type:_ symbol<br>
 
 * **@on** 
 Get/set write mode<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 1<br>
 
 * **@interp** 
@@ -70,7 +67,7 @@ _type:_ audio
 * read delay<br>
 _type:_ audio
 * reset write position to zero<br>
-_type:_ audio
+_type:_ control
 
 
 

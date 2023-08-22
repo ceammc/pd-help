@@ -1,9 +1,3 @@
----
-layout:     default
-title:      fx.zita_rev1~
-categories: [fx]
-tags:       [fx, reverb]
----
 [index](index.html) :: [fx](category_fx.html)
 ---
 
@@ -24,15 +18,19 @@ tags:       [fx, reverb]
 
 ## arguments:
 
-* **decay_low**
+* **DECAY_LOW**
 time (in seconds) to decay 60dB in low-frequency band<br>
 _type:_ float<br>
 _units:_ sec<br>
 
-* **decay_mid**
+* **DECAY_MID**
 time (in seconds) to decay 60dB in mid-frequency band<br>
 _type:_ float<br>
 _units:_ sec<br>
+
+* **DRYWET**
+ratio between source signal (dry) and processed signal (wet)<br>
+_type:_ float<br>
 
 
 
@@ -60,13 +58,13 @@ _units:_ sec<br>
 _range:_ 1..60<br>
 _default:_ 2<br>
 
-* **@delay** 
-Get/set a delay of 20 to 100 ms operating on the &#39;wet&#39; signal. Large values will
-provide the impression of a larger room<br>
+* **@predelay** 
+Get/set a delay operating on the &#39;wet&#39; signal. Large values will provide the impression
+of a larger room<br>
 _type:_ float<br>
 _units:_ ms<br>
-_range:_ 20..100<br>
-_default:_ 60<br>
+_range:_ 0..100<br>
+_default:_ 40<br>
 
 * **@freq_low** 
 Get/set Crossover frequency (Hz) separating low and middle frequencies<br>
@@ -83,27 +81,24 @@ _range:_ 1500..47040<br>
 _default:_ 6000<br>
 
 * **@drywet** 
-Get/set Ratio between processed signal (wet) and source signal<br>
+Get/set Ratio between source signal (dry) and processed signal (wet)<br>
 _type:_ float<br>
 _range:_ 0..1<br>
 _default:_ 1<br>
 
 * **@bypass** 
 Get/set if set to 1 - bypass &#39;effected&#39; signal.<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 * **@active** 
 Get/set on/off dsp processing<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 1<br>
 
 * **@freeze** 
 Get/set freeze reverberation tail<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 * **@fr_mdecay** 

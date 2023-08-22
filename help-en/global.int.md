@@ -1,9 +1,3 @@
----
-layout:     default
-title:      global.int
-categories: [global]
-tags:       [int, global]
----
 [index](index.html) :: [global](category_global.html)
 ---
 

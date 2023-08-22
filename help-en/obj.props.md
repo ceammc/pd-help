@@ -1,9 +1,3 @@
----
-layout:     default
-title:      obj.props
-categories: [base]
-tags:       [property]
----
 [index](index.html) :: [base](category_base.html)
 ---
 

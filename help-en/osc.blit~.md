@@ -1,9 +1,3 @@
----
-layout:     default
-title:      osc.blit~
-categories: [osc]
-tags:       [oscillator, band-limited]
----
 [index](index.html) :: [osc](category_osc.html)
 ---
 
@@ -24,10 +18,14 @@ tags:       [oscillator, band-limited]
 
 ## arguments:
 
-* **freq**
+* **FREQ**
 default frequency (440hz if not specified)<br>
 _type:_ float<br>
 _units:_ Hz<br>
+
+* **HARMONICS**
+number of harmonics. Missing or 0 means all available harmonics until SR/2<br>
+_type:_ int<br>
 
 
 

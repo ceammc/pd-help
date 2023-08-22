@@ -1,9 +1,3 @@
----
-layout:     default
-title:      string.remove
-categories: [string]
-tags:       [remove]
----
 [index](index.html) :: [string](category_string.html)
 ---
 

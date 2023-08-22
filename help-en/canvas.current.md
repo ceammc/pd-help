@@ -1,9 +1,3 @@
----
-layout:     default
-title:      canvas.current
-categories: [patch]
-tags:       [canvas]
----
 [index](index.html) :: [patch](category_patch.html)
 ---
 
@@ -44,14 +38,12 @@ _type:_ list<br>
 
 * **@root** (readonly)
 Get 1 if canvas is top-level (window)<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 1<br>
 
 * **@abstraction** (readonly)
 Get 1 if canvas is abstraction<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 1<br>
 
 * **@size** (readonly)

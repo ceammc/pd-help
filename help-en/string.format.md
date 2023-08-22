@@ -1,9 +1,3 @@
----
-layout:     default
-title:      string.format
-categories: [string]
-tags:       [string, format]
----
 [index](index.html) :: [string](category_string.html)
 ---
 
@@ -28,9 +22,9 @@ This format modifiers are supported: %d, %u, %i, %o, %x, %X, %s, %e, %E.
 
 ## arguments:
 
-* **FMT**
+* **FORMAT**
 format string<br>
-_type:_ symbol<br>
+_type:_ list<br>
 
 
 
@@ -42,7 +36,7 @@ _type:_ symbol<br>
 Get/set format string<br>
 _type:_ list<br>
 
-* **@int** 
+* **@int** (initonly)
 Get/set flag for integer mode. If specified all floats are converted to integers. This
 usefull for hex and octal formatting<br>
 _type:_ flag<br>

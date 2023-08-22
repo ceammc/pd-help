@@ -1,9 +1,3 @@
----
-layout:     default
-title:      system.memsize
-categories: [system]
-tags:       [system, memory]
----
 [index](index.html) :: [system](category_system.html)
 ---
 

@@ -1,9 +1,3 @@
----
-layout:     default
-title:      local.mlist
-categories: [local]
-tags:       [mlist, local, global]
----
 [index](index.html) :: [local](category_local.html)
 ---
 
@@ -46,6 +40,19 @@ inserts values to the list beginning<br>
   __parameters:__
   - **VAL** prepended value<br>
     type: atom <br>
+    required: True <br>
+
+* **front**
+output first list element<br>
+
+* **back**
+output last list element<br>
+
+* **at**
+outputs atom at the specified position<br>
+  __parameters:__
+  - **IDX** position (negative indexes are supported: -1 means last element)<br>
+    type: int <br>
     required: True <br>
 
 * **insert**
@@ -111,8 +118,7 @@ sets new list without output<br>
 
 * **@empty** (readonly)
 Get 1 if list is empty, otherwise 0<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 1<br>
 
 * **@size** (readonly)

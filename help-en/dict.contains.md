@@ -1,9 +1,3 @@
----
-layout:     default
-title:      dict.contains
-categories: [data]
-tags:       [contains, dictionary]
----
 [index](index.html) :: [data](category_data.html)
 ---
 
@@ -24,7 +18,7 @@ tags:       [contains, dictionary]
 
 ## arguments:
 
-* **KEY**
+* **KEYS**
 checked keys<br>
 _type:_ list<br>
 

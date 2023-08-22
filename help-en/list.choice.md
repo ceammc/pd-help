@@ -1,9 +1,3 @@
----
-layout:     default
-title:      list.choice
-categories: [list]
-tags:       [list, random, choice]
----
 [index](index.html) :: [list](category_list.html)
 ---
 
@@ -31,8 +25,7 @@ tags:       [list, random, choice]
 * **@norepeat** 
 Get/set norepeat property. If 1 is given: every time output value at new list position,
 do not repeat choosed position twice at adjacent events.<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 

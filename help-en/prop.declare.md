@@ -1,9 +1,3 @@
----
-layout:     default
-title:      prop.declare
-categories: [property]
-tags:       [property, declare]
----
 [index](index.html) :: [property](category_property.html)
 ---
 
@@ -60,21 +54,21 @@ _type:_ alias<br>
 Get/set alias to @type list<br>
 _type:_ alias<br>
 
-* **@default** 
+* **@default** (initonly)
 Get/set default property value<br>
 _type:_ list<br>
 
-* **@min** 
+* **@min** (initonly)
 Get/set minimal value (for float and int properties only)<br>
 _type:_ float<br>
 _default:_ -inf<br>
 
-* **@max** 
+* **@max** (initonly)
 Get/set maximum value (for float and int properties only)<br>
 _type:_ float<br>
 _default:_ +inf<br>
 
-* **@enum** 
+* **@enum** (initonly)
 Get/set allowed values (without default value) (for symbol properties only)<br>
 _type:_ list<br>
 

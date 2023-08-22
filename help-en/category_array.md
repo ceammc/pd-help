@@ -8,7 +8,11 @@
 
 [**array.bpm**](array.bpm.html): BPM calculator 
 
+[**array.circular**](array.circular.html): array read/write as circular buffer 
+
 [**array.circular\~**](array.circular~.html): circular buffer for arrays 
+
+[**array.convolve**](array.convolve.html): array FFT convolution 
 
 [**array.copy**](array.copy.html): copy samples from one array to another 
 
@@ -71,6 +75,6 @@ _aliases:_ \[ceammc/hist\~\], \[hist\~\]
 [**plot.response\~**](plot.response~.html): output amp/phase freq response to impulse 
 
 
-**Version:** 0.9.4
+**Version:** 0.9.6
 
 **License:** GPL3

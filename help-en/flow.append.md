@@ -1,9 +1,3 @@
----
-layout:     default
-title:      flow.append
-categories: [flow]
-tags:       [flow, append]
----
 [index](index.html) :: [flow](category_flow.html)
 ---
 
@@ -29,7 +23,7 @@ tags:       [flow, append]
 ## properties:
 
 * **@delay** 
-Get/set append delay. If &lt;0 append immidiately at the same logical time, if equal zero
+Get/set append delay. If &lt;0 append immediately at the same logical time, if equal zero
 - output after next DSP block.<br>
 _type:_ float<br>
 _units:_ ms<br>

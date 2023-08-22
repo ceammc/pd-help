@@ -1,9 +1,3 @@
----
-layout:     default
-title:      gain~
-categories: [base]
-tags:       [gain, amplitude, decibel]
----
 [index](index.html) :: [base](category_base.html)
 ---
 

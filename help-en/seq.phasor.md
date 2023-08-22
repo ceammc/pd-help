@@ -1,9 +1,3 @@
----
-layout:     default
-title:      seq.phasor
-categories: [seq]
-tags:       [seq, lfo, phasor, saw]
----
 [index](index.html) :: [seq](category_seq.html)
 ---
 
@@ -68,14 +62,12 @@ _default:_ 0<br>
 
 * **@on** 
 Get/set on/off state<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 * **@invert** 
 Get/set saw inversion mode. If true, outputs descreasing waveform<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 * **@steps** 
@@ -86,8 +78,7 @@ _default:_ 128<br>
 
 * **@open** 
 Get/set output in open [0..1) range, otherwise output range is [0..1]<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 

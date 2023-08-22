@@ -1,9 +1,3 @@
----
-layout:     default
-title:      env2vline
-categories: [env]
-tags:       [envelope, vline]
----
 [index](index.html) :: [env](category_env.html)
 ---
 
@@ -44,8 +38,7 @@ reset current segment position for multi-segment envelopes<br>
 * **@sync** 
 Get/set sync with input data. When set to 1 outputs envelope (as fixed) on every input
 data<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 

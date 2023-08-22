@@ -1,9 +1,3 @@
----
-layout:     default
-title:      fx.looper~
-categories: [fx]
-tags:       [fx, looper]
----
 [index](index.html) :: [fx](category_fx.html)
 ---
 
@@ -24,7 +18,7 @@ tags:       [fx, looper]
 
 ## arguments:
 
-* **MAX_LENGTH**
+* **CAPACITY**
 max loop time<br>
 _type:_ float<br>
 _units:_ sec<br>
@@ -112,8 +106,7 @@ _default:_ init<br>
 
 * **@loop_bang** 
 Get/set output bang on each loop start<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 1<br>
 
 * **@loop_smooth** 

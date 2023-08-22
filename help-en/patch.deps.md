@@ -1,9 +1,3 @@
----
-layout:     default
-title:      patch.deps
-categories: [patch]
-tags:       [patch, canvas, deps]
----
 [index](index.html) :: [patch](category_patch.html)
 ---
 
@@ -62,7 +56,7 @@ _type:_ control
 
 
 
-**Authors:** Serge Poltavski
+**Authors:** Serge Poltavsky
 
 
 

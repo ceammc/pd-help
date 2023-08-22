@@ -1,9 +1,3 @@
----
-layout:     default
-title:      flow.route
-categories: [flow]
-tags:       [route]
----
 [index](index.html) :: [flow](category_flow.html)
 ---
 

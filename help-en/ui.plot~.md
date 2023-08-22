@@ -1,9 +1,3 @@
----
-layout:     default
-title:      ui.plot~
-categories: [ui]
-tags:       [plot]
----
 [index](index.html) :: [ui](category_ui.html)
 ---
 
@@ -65,80 +59,67 @@ _default:_ 1<br>
 
 * **@yauto** 
 Get/set calculate y-axis range automatically<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 * **@xlabels** 
 Get/set draw labels on x-axis<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 * **@ylabels** 
 Get/set draw labels on y-axis<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 * **@xmaj_grid** 
 Get/set draw major grid lines on x-axis<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 1<br>
 
 * **@xmin_grid** 
 Get/set draw minor grid lines on x-axis<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 * **@xmaj_ticks** 
 Get/set draw minor ticks on x-axis<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 1<br>
 
 * **@xmin_ticks** 
 Get/set draw minor ticks on x-axis<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 1<br>
 
 * **@ymaj_grid** 
 Get/set draw major grid lines on y-axis<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 1<br>
 
 * **@ymin_grid** 
 Get/set draw minor grid lines on y-axis<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 * **@ymaj_ticks** 
 Get/set draw minor ticks on y-axis<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 1<br>
 
 * **@ymin_ticks** 
 Get/set draw minor ticks on y-axis<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 1<br>
 
 * **@xlabels** 
 Get/set draw labels on x-axis<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 * **@xlabels** 
 Get/set draw labels on x-axis<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 * **@mode** 
@@ -146,11 +127,6 @@ Get/set draw mode<br>
 _type:_ symbol<br>
 _enum:_ lines, bars<br>
 _default:_ lines<br>
-
-* **@send** 
-Get/set send destination<br>
-_type:_ symbol<br>
-_default:_ (null)<br>
 
 * **@receive** 
 Get/set receive source<br>
@@ -164,8 +140,7 @@ _default:_ 200 200<br>
 
 * **@pinned** 
 Get/set pin mode. if 1 - put element to the lowest level<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 * **@plot_color0** 
@@ -201,12 +176,13 @@ _default:_ 0.6 0.6 0.6 1<br>
 * **@fontsize** 
 Get/set fontsize<br>
 _type:_ int<br>
-_range:_ 4..11<br>
+_range:_ 4..100<br>
 _default:_ 11<br>
 
 * **@fontname** 
 Get/set fontname<br>
 _type:_ symbol<br>
+_enum:_ Courier, DejaVu, Helvetica, Monaco, Times<br>
 _default:_ Helvetica<br>
 
 * **@fontweight** 

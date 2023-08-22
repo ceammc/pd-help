@@ -1,9 +1,3 @@
----
-layout:     default
-title:      string.join
-categories: [string]
-tags:       [join]
----
 [index](index.html) :: [string](category_string.html)
 ---
 
@@ -11,7 +5,7 @@ tags:       [join]
 **aliases:** [str.join]
 
 
-###### joins (concatenates) strings with separator
+###### joins (concatenates) list to string with separator
 
 *available since version:* 0.3
 
@@ -38,7 +32,7 @@ _type:_ list<br>
 
 * **@sep** 
 Get/set separator<br>
-_type:_ symbol<br>
+_type:_ list<br>
 
 
 

@@ -1,9 +1,3 @@
----
-layout:     default
-title:      flt.freqz
-categories: [flt]
-tags:       [filter, calc, bode, frequence, response, phase, plot]
----
 [index](index.html) :: [flt](category_flt.html)
 ---
 
@@ -80,8 +74,7 @@ _default:_ 256<br>
 
 * **@db** 
 Get/set output amp response in db scale<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 

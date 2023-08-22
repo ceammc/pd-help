@@ -1,9 +1,3 @@
----
-layout:     default
-title:      osc.saw4~
-categories: [osc]
-tags:       [oscillator, band-limited]
----
 [index](index.html) :: [osc](category_osc.html)
 ---
 
@@ -26,7 +20,7 @@ Differentiated Polynomial Waves (DPW) used for aliasing suppression. 4nd order i
 
 ## arguments:
 
-* **freq**
+* **FREQ**
 frequency<br>
 _type:_ float<br>
 _units:_ Hz<br>
@@ -39,8 +33,7 @@ _units:_ Hz<br>
 
 * **@active** 
 Get/set on/off dsp processing<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 1<br>
 
 * **@phase** 

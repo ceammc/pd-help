@@ -1,9 +1,3 @@
----
-layout:     default
-title:      flt.eq10~
-categories: [flt]
-tags:       [graphic, filter, equalizer]
----
 [index](index.html) :: [flt](category_flt.html)
 ---
 
@@ -108,8 +102,7 @@ _default:_ 0<br>
 
 * **@active** 
 Get/set on/off dsp processing<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 1<br>
 
 

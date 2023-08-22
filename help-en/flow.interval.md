@@ -1,9 +1,3 @@
----
-layout:     default
-title:      flow.interval
-categories: [flow]
-tags:       [time, interval]
----
 [index](index.html) :: [flow](category_flow.html)
 ---
 

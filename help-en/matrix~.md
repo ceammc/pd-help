@@ -1,9 +1,3 @@
----
-layout:     default
-title:      matrix~
-categories: [base]
-tags:       [matrix]
----
 [index](index.html) :: [base](category_base.html)
 ---
 

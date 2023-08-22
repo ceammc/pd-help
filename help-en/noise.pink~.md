@@ -1,9 +1,3 @@
----
-layout:     default
-title:      noise.pink~
-categories: [noise]
-tags:       [noise, pink]
----
 [index](index.html) :: [noise](category_noise.html)
 ---
 
@@ -32,8 +26,7 @@ Pink noise or 1/f noise is a signal or process with a frequency spectrum such th
 
 * **@active** 
 Get/set on/off dsp processing<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 1<br>
 
 

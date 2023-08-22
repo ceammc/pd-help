@@ -1,9 +1,3 @@
----
-layout:     default
-title:      list.convolve
-categories: [list]
-tags:       [list, convolve, convolution]
----
 [index](index.html) :: [list](category_list.html)
 ---
 

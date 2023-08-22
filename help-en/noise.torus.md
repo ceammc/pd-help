@@ -1,23 +1,17 @@
----
-layout:     default
-title:      noise.torus
-categories: [noise]
-tags:       [noise]
----
 [index](index.html) :: [noise](category_noise.html)
 ---
 
 # noise.torus
 
-###### Part of a-chaos library
+###### torus attractor
 
-*available since version:* .5
+*available since version:* 0.5
 
 ---
 
 
 ## information
-a-torus try these parameters: 0.7 1.1 1.3 0.9 1. 1.6
+try these parameters: 0.7 1.1 1.3 0.9 1. 1.6
 
 
 [![example](../examples/img/noise.torus.jpg)](../examples/pd/noise.torus.pd)
@@ -26,15 +20,15 @@ a-torus try these parameters: 0.7 1.1 1.3 0.9 1. 1.6
 
 ## arguments:
 
-* **ARG0**
+* **X**
 x value (optional)<br>
 _type:_ float<br>
 
-* **ARG1**
+* **Y**
 y value (optional)<br>
 _type:_ float<br>
 
-* **ARG2**
+* **CR**
 cr value (optional)<br>
 _type:_ float<br>
 
@@ -94,7 +88,9 @@ _type:_ control
 
 ## outlets:
 
-* main outlet<br>
+* x outlet<br>
+_type:_ control
+* y outlet<br>
 _type:_ control
 
 

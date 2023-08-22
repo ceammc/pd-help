@@ -1,9 +1,3 @@
----
-layout:     default
-title:      flt.fb_comb~
-categories: [flt]
-tags:       [filter, comb]
----
 [index](index.html) :: [flt](category_flt.html)
 ---
 
@@ -26,7 +20,7 @@ Frequency response of a comb filter consists of a series of regularly spaced not
 
 ## arguments:
 
-* **a**
+* **A**
 scaling factor of delayed sum<br>
 _type:_ float<br>
 
@@ -50,8 +44,7 @@ _default:_ 0.75<br>
 
 * **@active** 
 Get/set on/off dsp processing<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 1<br>
 
 

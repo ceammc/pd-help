@@ -1,9 +1,3 @@
----
-layout:     default
-title:      symbol2any
-categories: [symbol]
-tags:       [symbol, any]
----
 [index](index.html) :: [symbol](category_symbol.html)
 ---
 

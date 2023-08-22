@@ -1,9 +1,3 @@
----
-layout:     default
-title:      flt.resonbp~
-categories: [flt]
-tags:       [filter, resonant]
----
 [index](index.html) :: [flt](category_flt.html)
 ---
 
@@ -24,12 +18,12 @@ tags:       [filter, resonant]
 
 ## arguments:
 
-* **freq**
+* **FREQ**
 center frequency<br>
 _type:_ float<br>
 _units:_ Hz<br>
 
-* **q**
+* **Q**
 Q<br>
 _type:_ float<br>
 
@@ -54,8 +48,7 @@ _default:_ 80<br>
 
 * **@active** 
 Get/set on/off dsp processing<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 1<br>
 
 
@@ -64,6 +57,10 @@ _default:_ 1<br>
 
 * input signal<br>
 _type:_ audio
+* set frequency<br>
+_type:_ control
+* set Q-factor<br>
+_type:_ control
 
 
 
@@ -82,6 +79,7 @@ _type:_ audio
 
 
 **See also:**
+[\[flt.resonlp~\]](flt.resonlp~.html)
 [\[flt.bpf12~\]](flt.bpf12~.html)
 
 

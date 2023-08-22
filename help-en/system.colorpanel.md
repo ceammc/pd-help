@@ -1,9 +1,3 @@
----
-layout:     default
-title:      system.colorpanel
-categories: [system]
-tags:       [colorpanel]
----
 [index](index.html) :: [system](category_system.html)
 ---
 
@@ -86,7 +80,7 @@ _type:_ control
 
 
 
-**Authors:** Hans-Christoph Steiner, Serge Poltavski
+**Authors:** Hans-Christoph Steiner, Serge Poltavsky
 
 
 

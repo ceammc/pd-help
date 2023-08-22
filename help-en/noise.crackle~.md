@@ -1,9 +1,3 @@
----
-layout:     default
-title:      noise.crackle~
-categories: [noise]
-tags:       [noise, crackle]
----
 [index](index.html) :: [noise](category_noise.html)
 ---
 
@@ -29,6 +23,7 @@ Random impulses in the amplitude range -1 to 1 are generated at an average rate 
 * **FREQ**
 average frequency of noise impulses per second<br>
 _type:_ float<br>
+_units:_ Hz<br>
 
 
 
@@ -45,8 +40,7 @@ _default:_ 10<br>
 
 * **@active** 
 Get/set on/off dsp processing<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 1<br>
 
 

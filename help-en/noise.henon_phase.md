@@ -1,15 +1,9 @@
----
-layout:     default
-title:      noise.henon_phase
-categories: [noise]
-tags:       [noise]
----
 [index](index.html) :: [noise](category_noise.html)
 ---
 
 # noise.henon_phase
 
-###### Part of a-chaos library
+###### henon phase Ddagrams
 
 *available since version:* .5
 
@@ -17,7 +11,7 @@ tags:       [noise]
 
 
 ## information
-Henon Phase Diagrams Written by Paul Bourke January 1991 xn+1 = xn cos(a) - (yn - xn2) sin(a) yn+1 = xn sin(a) + (yn - xn2) cos(a)
+Henon Phase Diagrams Written by Paul Bourke January 1991 x[n+1] = x[n]*cos(a) - (y[n] - x[n]^2)*sin(a) y[n+1] = x[n]*sin(a) + (y[n] - x[n]^2)*cos(a)
 
 
 [![example](../examples/img/noise.henon_phase.jpg)](../examples/pd/noise.henon_phase.pd)
@@ -26,19 +20,19 @@ Henon Phase Diagrams Written by Paul Bourke January 1991 xn+1 = xn cos(a) - (yn 
 
 ## arguments:
 
-* **ARG0**
+* **A**
 a value (optional)<br>
 _type:_ float<br>
 
-* **ARG1**
+* **B**
 b value (optional)<br>
 _type:_ float<br>
 
-* **ARG2**
+* **X**
 x value (optional)<br>
 _type:_ float<br>
 
-* **ARG3**
+* **Y**
 y value (optional)<br>
 _type:_ float<br>
 
@@ -112,7 +106,9 @@ _type:_ control
 
 ## outlets:
 
-* main outlet<br>
+* x outlet<br>
+_type:_ control
+* y outlet<br>
 _type:_ control
 
 

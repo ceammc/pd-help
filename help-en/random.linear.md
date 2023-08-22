@@ -1,9 +1,3 @@
----
-layout:     default
-title:      random.linear
-categories: [random]
-tags:       [linear, random]
----
 [index](index.html) :: [random](category_random.html)
 ---
 

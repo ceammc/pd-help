@@ -1,9 +1,3 @@
----
-layout:     default
-title:      pan.spread~
-categories: [spat]
-tags:       [pan, spread]
----
 [index](index.html) :: [spat](category_spat.html)
 ---
 
@@ -34,7 +28,7 @@ _type:_ int<br>
 
 ## properties:
 
-* **@ch** 
+* **@n** (initonly)
 Get/set number of input channels<br>
 _type:_ int<br>
 _range:_ 2..16<br>
@@ -55,8 +49,7 @@ _default:_ 0<br>
 
 * **@compensate** 
 Get/set compensate output level: divide amplitude to number of input channels<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 * **@coeffs** (readonly)

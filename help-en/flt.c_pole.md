@@ -1,9 +1,3 @@
----
-layout:     default
-title:      flt.c_pole
-categories: [flt]
-tags:       [filter, biquad, one, pol]
----
 [index](index.html) :: [flt](category_flt.html)
 ---
 
@@ -28,7 +22,7 @@ Calculates coefficients for transfer function: H(z)=(b0 + b1*z⁻¹ + b2*z⁻²)
 
 ## arguments:
 
-* **freq**
+* **FREQ**
 center frequency<br>
 _type:_ float<br>
 _units:_ Hz<br>
@@ -46,7 +40,7 @@ _units:_ Hz<br>
 _range:_ 0..22050<br>
 _default:_ 1000<br>
 
-* **@rad** 
+* **@rad** (initonly)
 Get/set use angular frequency<br>
 _type:_ flag<br>
 

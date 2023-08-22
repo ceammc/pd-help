@@ -72,7 +72,11 @@ _aliases:_ \[ceammc/xfade2\~\]
 _aliases:_ \[ceammc/xfade\~\]
 
 
+[**z\~**](z~.html): sample delay <br>
+_aliases:_ \[ceammc/z\~\]
 
-**Version:** 0.9.4
+
+
+**Version:** 0.9.6
 
 **License:** GPL3

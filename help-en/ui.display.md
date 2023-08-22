@@ -1,9 +1,3 @@
----
-layout:     default
-title:      ui.display
-categories: [ui]
-tags:       [display]
----
 [index](index.html) :: [ui](category_ui.html)
 ---
 
@@ -48,20 +42,17 @@ set UI element position<br>
 
 * **@auto_size** 
 Get/set flag if automatically resize contents to feet incoming message<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 1<br>
 
 * **@display_type** 
 Get/set flag for displaying incoming message type<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 * **@display_events** 
 Get/set flag for blinking on incoming messages<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 1<br>
 
 * **@float_width** 
@@ -79,14 +70,8 @@ _default:_ 2<br>
 
 * **@hex** 
 Get/set output integers in hex format<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
-
-* **@send** 
-Get/set send destination<br>
-_type:_ symbol<br>
-_default:_ (null)<br>
 
 * **@receive** 
 Get/set receive source<br>
@@ -100,8 +85,7 @@ _default:_ 80 18<br>
 
 * **@pinned** 
 Get/set pin mode. if 1 - put element to the lowest level<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 * **@active_color** 
@@ -127,12 +111,13 @@ _default:_ 0.6 0.6 0.6 1<br>
 * **@fontsize** 
 Get/set fontsize<br>
 _type:_ int<br>
-_range:_ 4..11<br>
+_range:_ 4..100<br>
 _default:_ 11<br>
 
 * **@fontname** 
 Get/set fontname<br>
 _type:_ symbol<br>
+_enum:_ Courier, DejaVu, Helvetica, Monaco, Times<br>
 _default:_ Helvetica<br>
 
 * **@fontweight** 

@@ -1,9 +1,3 @@
----
-layout:     default
-title:      array.variance
-categories: [array]
-tags:       [array, deviation, variance]
----
 [index](index.html) :: [array](category_array.html)
 ---
 
@@ -24,7 +18,7 @@ tags:       [array, deviation, variance]
 
 ## arguments:
 
-* **NAME**
+* **ARRAY**
 array name<br>
 _type:_ symbol<br>
 

@@ -1,14 +1,8 @@
----
-layout:     default
-title:      prop.split
-categories: [property]
-tags:       [property]
----
 [index](index.html) :: [property](category_property.html)
 ---
 
 # prop.split
-**aliases:** [prop-&gt;], [@-&gt;]
+**aliases:** [prop-&gt;], [@-&gt;], [ceammc/prop-&gt;], [ceammc/@-&gt;]
 
 
 ###### separate properties from dataflow

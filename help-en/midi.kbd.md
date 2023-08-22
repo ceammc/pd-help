@@ -1,9 +1,3 @@
----
-layout:     default
-title:      midi.kdb
-categories: [midi]
-tags:       [midi, keyboard]
----
 [index](index.html) :: [midi](category_midi.html)
 ---
 
@@ -32,7 +26,7 @@ _type:_ symbol<br>
 
 * **ON**
 init on/off state<br>
-_type:_ int<br>
+_type:_ bool<br>
 
 
 
@@ -75,8 +69,7 @@ _default:_ []<br>
 
 * **@on** 
 Get/set on/off state<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 1<br>
 
 

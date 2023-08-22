@@ -1,17 +1,11 @@
----
-layout:     default
-title:      noise.henonf
-categories: [noise]
-tags:       [noise]
----
 [index](index.html) :: [noise](category_noise.html)
 ---
 
 # noise.henonf
 
-###### Part of a-chaos library
+###### Henon phase
 
-*available since version:* .5
+*available since version:* 0.5
 
 ---
 
@@ -26,19 +20,19 @@ Another &#39;Henon phase&#39; implementation by André Sier
 
 ## arguments:
 
-* **ARG0**
+* **A**
 a value (optional)<br>
 _type:_ float<br>
 
-* **ARG1**
+* **B**
 b value (optional)<br>
 _type:_ float<br>
 
-* **ARG2**
+* **X**
 x value (optional)<br>
 _type:_ float<br>
 
-* **ARG3**
+* **Y**
 y value (optional)<br>
 _type:_ float<br>
 
@@ -112,7 +106,9 @@ _type:_ control
 
 ## outlets:
 
-* main outlet<br>
+* x outlet<br>
+_type:_ control
+* y outlet<br>
 _type:_ control
 
 

@@ -1,9 +1,3 @@
----
-layout:     default
-title:      list.resample
-categories: [list]
-tags:       [list]
----
 [index](index.html) :: [list](category_list.html)
 ---
 

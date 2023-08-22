@@ -1,9 +1,3 @@
----
-layout:     default
-title:      ui.toggle
-categories: [ui]
-tags:       [ui, toggle]
----
 [index](index.html) :: [ui](category_ui.html)
 ---
 
@@ -99,10 +93,10 @@ _range:_ 0..16<br>
 _default:_ 0<br>
 
 * **@midi_control** 
-Get/set binded MIDI controller number. 0 means not binded to any controller.<br>
+Get/set binded MIDI controller number. -1 means not binded to any controller.<br>
 _type:_ int<br>
-_range:_ 0..128<br>
-_default:_ 0<br>
+_range:_ -1..127<br>
+_default:_ -1<br>
 
 * **@presetname** 
 Get/set preset name for using with [ui.preset]<br>
@@ -126,8 +120,7 @@ _default:_ 15 15<br>
 
 * **@pinned** 
 Get/set pin mode. if 1 - put element to the lowest level<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 * **@active_color** 
@@ -148,12 +141,13 @@ _default:_ 0.6 0.6 0.6 1<br>
 * **@fontsize** 
 Get/set fontsize<br>
 _type:_ int<br>
-_range:_ 4..11<br>
+_range:_ 4..100<br>
 _default:_ 11<br>
 
 * **@fontname** 
 Get/set fontname<br>
 _type:_ symbol<br>
+_enum:_ Courier, DejaVu, Helvetica, Monaco, Times<br>
 _default:_ Helvetica<br>
 
 * **@fontweight** 

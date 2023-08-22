@@ -1,9 +1,3 @@
----
-layout:     default
-title:      list.repeat
-categories: [list]
-tags:       [list, repeat]
----
 [index](index.html) :: [list](category_list.html)
 ---
 
@@ -34,7 +28,7 @@ _type:_ int<br>
 
 ## properties:
 
-* **@times** 
+* **@n** 
 Get/set repeat times<br>
 _type:_ int<br>
 _range:_ 0..10000<br>

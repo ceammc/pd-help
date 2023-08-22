@@ -1,9 +1,3 @@
----
-layout:     default
-title:      conv.bits2note
-categories: [conv]
-tags:       [conv, bits, note, poly]
----
 [index](index.html) :: [conv](category_conv.html)
 ---
 
@@ -38,7 +32,7 @@ _type:_ list<br>
 
 ## properties:
 
-* **@poly** 
+* **@poly** (initonly)
 Get/set polyphonic mode. (for using with [clone] object)<br>
 _type:_ flag<br>
 _default:_ 0<br>
@@ -50,7 +44,7 @@ _type:_ symbol<br>
 _enum:_ off, tie, raw<br>
 _default:_ off<br>
 
-* **@keys** 
+* **@keys** (initonly)
 Get/set list of mapped keys<br>
 _type:_ list<br>
 

@@ -1,9 +1,3 @@
----
-layout:     default
-title:      list.walk
-categories: [list]
-tags:       [list, walk, iterate]
----
 [index](index.html) :: [list](category_list.html)
 ---
 
@@ -26,7 +20,7 @@ Universal list walker. If you want to output current element and when move to ne
 
 ## arguments:
 
-* **INIT**
+* **VALUE**
 initial list<br>
 _type:_ list<br>
 
@@ -90,8 +84,7 @@ _type:_ alias<br>
 
 * **@direction** 
 Get/set walking direction. &#34;1&#34; - forwards, &#34;0&#34; - backwards.<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 1<br>
 
 * **@index** 
@@ -128,6 +121,8 @@ _type:_ control
 ## outlets:
 
 * list element<br>
+_type:_ control
+* bang: when last element reached<br>
 _type:_ control
 
 

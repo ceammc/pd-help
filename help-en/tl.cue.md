@@ -1,9 +1,3 @@
----
-layout:     default
-title:      tl.cue
-categories: [tl]
-tags:       [timeline, cue]
----
 [index](index.html) :: [tl](category_tl.html)
 ---
 
@@ -42,15 +36,9 @@ set UI element position<br>
 
 ## properties:
 
-* **@size** 
-Get/set element size (width, height pair)<br>
-_type:_ list<br>
-_default:_ 45 15<br>
-
 * **@pinned** 
 Get/set pin mode. if 1 - put element to the lowest level<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 * **@background_color** 
@@ -66,25 +54,14 @@ _default:_ 0 0.75 1 1<br>
 * **@fontsize** 
 Get/set fontsize<br>
 _type:_ int<br>
-_range:_ 4..11<br>
+_range:_ 4..100<br>
 _default:_ 11<br>
 
 * **@fontname** 
 Get/set fontname<br>
 _type:_ symbol<br>
+_enum:_ Courier, DejaVu, Helvetica, Monaco, Times<br>
 _default:_ Helvetica<br>
-
-* **@fontweight** 
-Get/set font weight<br>
-_type:_ symbol<br>
-_enum:_ normal, bold<br>
-_default:_ normal<br>
-
-* **@fontslant** 
-Get/set font slant<br>
-_type:_ symbol<br>
-_enum:_ roman, italic<br>
-_default:_ roman<br>
 
 
 

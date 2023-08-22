@@ -1,9 +1,3 @@
----
-layout:     default
-title:      flt.fbank5x1~
-categories: [flt]
-tags:       [filter, filterbank]
----
 [index](index.html) :: [flt](category_flt.html)
 ---
 
@@ -26,27 +20,27 @@ Split the input signal into a bank of parallel signals, one for each spectral ba
 
 ## arguments:
 
-* **f250**
+* **F250**
 @f250 property init value<br>
 _type:_ float<br>
 _units:_ db<br>
 
-* **f500**
+* **F500**
 @f500 property init value<br>
 _type:_ float<br>
 _units:_ db<br>
 
-* **f1000**
+* **F1000**
 @f1000 property init value<br>
 _type:_ float<br>
 _units:_ db<br>
 
-* **f2000**
+* **F2000**
 @f2000 property init value<br>
 _type:_ float<br>
 _units:_ db<br>
 
-* **f4000**
+* **F4000**
 @f4000 property init value<br>
 _type:_ float<br>
 _units:_ db<br>
@@ -100,8 +94,7 @@ _default:_ 0<br>
 
 * **@active** 
 Get/set on/off dsp processing<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 1<br>
 
 

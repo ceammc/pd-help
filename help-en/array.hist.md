@@ -1,9 +1,3 @@
----
-layout:     default
-title:      array.hist
-categories: [array]
-tags:       [array, histogram]
----
 [index](index.html) :: [array](category_array.html)
 ---
 
@@ -26,7 +20,7 @@ Values outside of range @min...@max are ignored
 
 ## arguments:
 
-* **NAME**
+* **ARRAY**
 array name<br>
 _type:_ symbol<br>
 

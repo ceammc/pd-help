@@ -1,9 +1,3 @@
----
-layout:     default
-title:      list.prepend
-categories: [list]
-tags:       [list, prepend]
----
 [index](index.html) :: [list](category_list.html)
 ---
 
@@ -24,9 +18,21 @@ Works with data atoms
 
 
 
+## arguments:
+
+* **VALUE**
+prepend values<br>
+_type:_ list<br>
 
 
 
+
+
+## properties:
+
+* **@value** 
+Get/set prepend values<br>
+_type:_ list<br>
 
 
 

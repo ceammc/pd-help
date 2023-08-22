@@ -1,9 +1,3 @@
----
-layout:     default
-title:      math.acosh
-categories: [math]
-tags:       [math, acosh]
----
 [index](index.html) :: [math](category_math.html)
 ---
 

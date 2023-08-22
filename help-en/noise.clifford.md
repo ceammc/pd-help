@@ -1,23 +1,17 @@
----
-layout:     default
-title:      noise.clifford
-categories: [noise]
-tags:       [noise]
----
 [index](index.html) :: [noise](category_noise.html)
 ---
 
 # noise.clifford
 
-###### Part of a-chaos library
+###### clifford attractor
 
-*available since version:* .5
+*available since version:* 0.5
 
 ---
 
 
 ## information
-Clifford Attractors Attributed to Cliff Pickover --- See also Peter de Jong attractors xn+1 = sin(a yn) + c cos(a xn) yn+1 = sin(b xn) + d cos(b yn) where a, b, c, d are variabies that define each attractor. --- a = -1.4, b = 1.6, c = 1.0, d = 0.7 a = 1.1, b = -1.0, c = 1.0, d = 1.5 a = 1.6, b = -0.6, c = -1.2, d = 1.6 a = 1.7, b = 1.7, c = 0.06, d = 1.2 a = 1.3, b = 1.7, c = 0.5, d = 1.4 --- a-chaos v1.0.2
+Clifford Attractors Attributed to Cliff Pickover x[n+1] = sin(a*y[n]) + c*cos(a*x[n]) y[n+1] = sin(b*x[n]) + d*cos(b*y[n]) where a, b, c, d are variables that define each attractor.
 
 
 [![example](../examples/img/noise.clifford.jpg)](../examples/pd/noise.clifford.pd)
@@ -26,27 +20,27 @@ Clifford Attractors Attributed to Cliff Pickover --- See also Peter de Jong attr
 
 ## arguments:
 
-* **ARG0**
+* **X**
 x value (optional)<br>
 _type:_ float<br>
 
-* **ARG1**
+* **Y**
 y value (optional)<br>
 _type:_ float<br>
 
-* **ARG2**
+* **A**
 a value (optional)<br>
 _type:_ float<br>
 
-* **ARG3**
+* **B**
 b value (optional)<br>
 _type:_ float<br>
 
-* **ARG4**
+* **C**
 c value (optional)<br>
 _type:_ float<br>
 
-* **ARG5**
+* **D**
 d value (optional)<br>
 _type:_ float<br>
 
@@ -127,7 +121,9 @@ _type:_ control
 
 ## outlets:
 
-* main outlet<br>
+* x output<br>
+_type:_ control
+* y output<br>
 _type:_ control
 
 
@@ -146,7 +142,7 @@ _type:_ control
 
 
 
-**License:** %
+**License:** BSD
 
 
 

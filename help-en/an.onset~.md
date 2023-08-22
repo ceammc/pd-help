@@ -1,9 +1,3 @@
----
-layout:     default
-title:      an.onset~
-categories: [an]
-tags:       [onset]
----
 [index](index.html) :: [an](category_an.html)
 ---
 
@@ -38,6 +32,7 @@ _type:_ symbol<br>
 * **HS**
 hop size (by default buffer_size/2)<br>
 _type:_ int<br>
+_units:_ samp<br>
 
 
 
@@ -51,7 +46,7 @@ reset onset last frame and total frames counters<br>
 
 ## properties:
 
-* **@bs** 
+* **@bs** (initonly)
 Get/set buffer size<br>
 _type:_ int<br>
 _units:_ samp<br>
@@ -88,7 +83,7 @@ Get/set alias to @method phase. Phase Based Method onset detection function<br>
 _type:_ alias<br>
 
 * **@wphase** 
-Get/set alias to @method phase.Weighted Phase Deviation onset detection function<br>
+Get/set alias to @method phase. Weighted Phase Deviation onset detection function<br>
 _type:_ alias<br>
 
 * **@specdiff** 
@@ -134,8 +129,7 @@ _default:_ 1<br>
 
 * **@awhitening** 
 Get/set adaptive whitening<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 * **@delay** 
@@ -147,8 +141,7 @@ _default:_ 49.9093<br>
 
 * **@active** 
 Get/set audio processing state<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 1<br>
 
 
@@ -164,7 +157,7 @@ _type:_ audio
 
 * bang if onset detected<br>
 _type:_ control
-* output time of the latest onset detected in millisecond<br>
+* float: time of the latest onset detected in milliseconds from starting of measuring. You can reset start time with &#39;reset&#39; message<br>
 _type:_ control
 
 

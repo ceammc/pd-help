@@ -1,9 +1,3 @@
----
-layout:     default
-title:      seq.toggles
-categories: [seq]
-tags:       [seq, sequencer, toggle, pattern, rythm]
----
 [index](index.html) :: [seq](category_seq.html)
 ---
 
@@ -28,7 +22,7 @@ Output 1 on event start and 0 on event stop The event length is controlled via @
 
 ## arguments:
 
-* **PATTERN**
+* **P**
 sequencer pattern in beat duration units<br>
 _type:_ list<br>
 
@@ -57,7 +51,7 @@ output current sequence element and move to next<br>
 ## properties:
 
 * **@t** 
-Get/set time between beats. Unit values like 100ms or 240bpm also can be used<br>
+Get/set time between beats. Unit values like 100ms, 240bpm or 60|4bpm also can be used<br>
 _type:_ float<br>
 _units:_ ms<br>
 _range:_ 1..20000<br>

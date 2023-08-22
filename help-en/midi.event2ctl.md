@@ -1,9 +1,3 @@
----
-layout:     default
-title:      midi.event2ctl
-categories: [midi]
-tags:       [midi, event, control]
----
 [index](index.html) :: [midi](category_midi.html)
 ---
 

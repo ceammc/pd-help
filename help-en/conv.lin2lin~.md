@@ -1,9 +1,3 @@
----
-layout:     default
-title:      conv.lin2lin~
-categories: [conv]
-tags:       [convert, linear]
----
 [index](index.html) :: [conv](category_conv.html)
 ---
 
@@ -26,19 +20,19 @@ tags:       [convert, linear]
 
 ## arguments:
 
-* **FROM**
+* **IN_FROM**
 begin of input range<br>
 _type:_ float<br>
 
-* **TO**
+* **IN_TO**
 end of input range<br>
 _type:_ float<br>
 
-* **FROM**
+* **OUT_FROM**
 begin of output range<br>
 _type:_ float<br>
 
-* **TO**
+* **OUT_TO**
 end of input output<br>
 _type:_ float<br>
 

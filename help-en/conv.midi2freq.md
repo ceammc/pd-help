@@ -1,9 +1,3 @@
----
-layout:     default
-title:      conv.midi2freq
-categories: [conv]
-tags:       [conv, freq, midi]
----
 [index](index.html) :: [conv](category_conv.html)
 ---
 
@@ -26,9 +20,10 @@ tags:       [conv, freq, midi]
 
 ## arguments:
 
-* **APITCH**
-pitch standard<br>
+* **A**
+A pitch frequency<br>
 _type:_ float<br>
+_units:_ Hz<br>
 
 
 

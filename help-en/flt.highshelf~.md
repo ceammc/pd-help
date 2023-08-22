@@ -1,9 +1,3 @@
----
-layout:     default
-title:      flt.highshelf~
-categories: [flt]
-tags:       [filter, highshelf]
----
 [index](index.html) :: [flt](category_flt.html)
 ---
 
@@ -24,12 +18,12 @@ tags:       [filter, highshelf]
 
 ## arguments:
 
-* **freq**
+* **FREQ**
 starting frequency for the shelf<br>
 _type:_ float<br>
 _units:_ Hz<br>
 
-* **gain**
+* **GAIN**
 amount of boost or cut apply to the signal<br>
 _type:_ float<br>
 _units:_ db<br>
@@ -56,8 +50,7 @@ _default:_ 0<br>
 
 * **@active** 
 Get/set on/off dsp processing<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 1<br>
 
 

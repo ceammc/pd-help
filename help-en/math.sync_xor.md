@@ -1,9 +1,3 @@
----
-layout:     default
-title:      math.sync_xor
-categories: [math]
-tags:       [math, sync, logical, xor]
----
 [index](index.html) :: [math](category_math.html)
 ---
 

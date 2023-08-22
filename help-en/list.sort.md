@@ -1,9 +1,3 @@
----
-layout:     default
-title:      list.sort
-categories: [list]
-tags:       [list, sort]
----
 [index](index.html) :: [list](category_list.html)
 ---
 
@@ -30,7 +24,7 @@ tags:       [list, sort]
 
 ## inlets:
 
-* Input list.<br>
+* input list.<br>
 _type:_ control
 
 

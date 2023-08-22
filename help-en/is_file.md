@@ -1,9 +1,3 @@
----
-layout:     default
-title:      is_file
-categories: [predicates]
-tags:       [predicate, filesystem]
----
 [index](index.html) :: [predicates](category_predicates.html)
 ---
 
@@ -42,6 +36,8 @@ _type:_ control
 ## outlets:
 
 * 0 or 1<br>
+_type:_ control
+* symbol os String: pass filename if file exists<br>
 _type:_ control
 
 

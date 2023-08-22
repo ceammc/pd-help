@@ -1,9 +1,3 @@
----
-layout:     default
-title:      midi.sustain
-categories: [midi]
-tags:       [midi, sustain]
----
 [index](index.html) :: [midi](category_midi.html)
 ---
 
@@ -38,14 +32,12 @@ _type:_ int<br>
 
 * **@on** 
 Get/set pedal state<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 * **@ctlin** 
 Get/set listen to CTL64 from MIDI controller<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 

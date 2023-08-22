@@ -1,9 +1,3 @@
----
-layout:     default
-title:      math.atan~
-categories: [math]
-tags:       [math, asin]
----
 [index](index.html) :: [math](category_math.html)
 ---
 

@@ -1,9 +1,3 @@
----
-layout:     default
-title:      conv.pol2car
-categories: [conv]
-tags:       [conv, polar, cartesian]
----
 [index](index.html) :: [conv](category_conv.html)
 ---
 

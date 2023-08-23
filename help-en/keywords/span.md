@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## span
+## Keyword: span
+
+### Objects:
 * [pan.cos~](../pan.cos~.html)
 * [pan.linsig~](../pan.linsig~.html)
 * [pan.lin~](../pan.lin~.html)

@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## trunc
+## Keyword: trunc
+
+### Objects:
 * [math.trunc](../math.trunc.html)
 * [math.trunc~](../math.trunc~.html)
 

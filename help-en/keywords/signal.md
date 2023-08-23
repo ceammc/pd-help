@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## signal
+## Keyword: signal
+
+### Objects:
 * [conv.sig2float~](../conv.sig2float~.html)
 
 ---

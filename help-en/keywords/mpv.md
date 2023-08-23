@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## mpv
+## Keyword: mpv
+
+### Objects:
 * [proto.mpv](../proto.mpv.html)
 * [proto.vlc](../proto.vlc.html)
 

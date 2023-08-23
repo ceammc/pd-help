@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## logical
+## Keyword: logical
+
+### Objects:
 * [math.sync_and](../math.sync_and.html)
 * [math.sync_or](../math.sync_or.html)
 * [math.sync_xor](../math.sync_xor.html)

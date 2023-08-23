@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## inf
+## Keyword: inf
+
+### Objects:
 * [math.inf](../math.inf.html)
 * [math.inf~](../math.inf~.html)
 

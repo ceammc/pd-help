@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## convolution
+## Keyword: convolution
+
+### Objects:
 * [array.convolve](../array.convolve.html)
 * [list.convolve](../list.convolve.html)
 

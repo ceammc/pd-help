@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## deviation
+## Keyword: deviation
+
+### Objects:
 * [array.stddev](../array.stddev.html)
 * [array.variance](../array.variance.html)
 

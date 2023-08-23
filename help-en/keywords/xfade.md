@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## xfade
+## Keyword: xfade
+
+### Objects:
 * [xfade2~](../xfade2~.html)
 * [xfade~](../xfade~.html)
 

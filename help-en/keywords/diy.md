@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## diy
+## Keyword: diy
+
+### Objects:
 * [proto.moppy](../proto.moppy.html)
 * [proto.sp.alpaca](../proto.sp.alpaca.html)
 

@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## downsample
+## Keyword: downsample
+
+### Objects:
 * [fx.bitdown~](../fx.bitdown~.html)
 
 ---

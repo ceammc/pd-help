@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## last
+## Keyword: last
+
+### Objects:
 * [list.last](../list.last.html)
 
 ---

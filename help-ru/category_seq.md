@@ -1,7 +1,7 @@
 [index](index.html) 
 ---
 
-# seq
+# Категория: seq
 
 
 

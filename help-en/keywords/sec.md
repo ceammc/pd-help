@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## sec
+## Keyword: sec
+
+### Objects:
 * [conv.sec2samp](../conv.sec2samp.html)
 
 ---

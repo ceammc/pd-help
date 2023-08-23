@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## standard
+## Keyword: standard
+
+### Objects:
 * [chaos.std0](../chaos.std0.html)
 * [chaos.std0~](../chaos.std0~.html)
 

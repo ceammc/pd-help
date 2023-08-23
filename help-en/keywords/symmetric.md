@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## symmetric
+## Keyword: symmetric
+
+### Objects:
 * [set.symdiff](../set.symdiff.html)
 
 ---

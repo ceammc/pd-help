@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## rythm
+## Keyword: rythm
+
+### Objects:
 * [rtree.to_list](../rtree.to_list.html)
 * [seq.bangs](../seq.bangs.html)
 * [seq.matrix](../seq.matrix.html)

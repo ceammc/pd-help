@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## freq
+## Keyword: freq
+
+### Objects:
 * [an.zero~](../an.zero~.html)
 * [conv.midi2freq](../conv.midi2freq.html)
 

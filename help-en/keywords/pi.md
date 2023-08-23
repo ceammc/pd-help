@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## pi
+## Keyword: pi
+
+### Objects:
 * [math.pi](../math.pi.html)
 * [math.pi~](../math.pi~.html)
 

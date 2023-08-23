@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## divide
+## Keyword: divide
+
+### Objects:
 * [math.div](../math.div.html)
 
 ---

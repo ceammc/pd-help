@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## label
+## Keyword: label
+
+### Objects:
 * [ui.label](../ui.label.html)
 
 ---

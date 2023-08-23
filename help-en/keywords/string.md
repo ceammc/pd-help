@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## string
+## Keyword: string
+
+### Objects:
 * [string](../string.html)
 * [string.format](../string.format.html)
 * [string.length](../string.length.html)

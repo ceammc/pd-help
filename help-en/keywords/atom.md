@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## atom
+## Keyword: atom
+
+### Objects:
 * [random.atom](../random.atom.html)
 
 ---

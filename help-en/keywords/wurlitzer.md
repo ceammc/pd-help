@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## wurlitzer
+## Keyword: wurlitzer
+
+### Objects:
 * [synth.wurley~](../synth.wurley~.html)
 
 ---

@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## notch
+## Keyword: notch
+
+### Objects:
 * [flt.c_notch](../flt.c_notch.html)
 * [flt.c_notch~](../flt.c_notch~.html)
 

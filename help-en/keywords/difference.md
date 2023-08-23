@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## difference
+## Keyword: difference
+
+### Objects:
 * [list.rundiff](../list.rundiff.html)
 * [set.diff](../set.diff.html)
 * [set.symdiff](../set.symdiff.html)

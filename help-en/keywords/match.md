@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## match
+## Keyword: match
+
+### Objects:
 * [string.match](../string.match.html)
 
 ---

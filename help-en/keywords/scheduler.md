@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## scheduler
+## Keyword: scheduler
+
+### Objects:
 * [msg.sched](../msg.sched.html)
 
 ---

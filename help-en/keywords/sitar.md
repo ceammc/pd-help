@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## sitar
+## Keyword: sitar
+
+### Objects:
 * [synth.sitar~](../synth.sitar~.html)
 
 ---

@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## running
+## Keyword: running
+
+### Objects:
 * [list.rundiff](../list.rundiff.html)
 * [list.runsum](../list.runsum.html)
 

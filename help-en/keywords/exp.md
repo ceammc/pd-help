@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## exp
+## Keyword: exp
+
+### Objects:
 * [math.exp](../math.exp.html)
 
 ---

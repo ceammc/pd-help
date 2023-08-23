@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## mul
+## Keyword: mul
+
+### Objects:
 * [math.mul](../math.mul.html)
 * [math.sync_mul](../math.sync_mul.html)
 

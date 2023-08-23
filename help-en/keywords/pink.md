@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## pink
+## Keyword: pink
+
+### Objects:
 * [noise.pink~](../noise.pink~.html)
 
 ---

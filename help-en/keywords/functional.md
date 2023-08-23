@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## functional
+## Keyword: functional
+
+### Objects:
 * [flow.pass](../flow.pass.html)
 * [flow.pass_if](../flow.pass_if.html)
 * [flow.reject](../flow.reject.html)

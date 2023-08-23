@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## distribution
+## Keyword: distribution
+
+### Objects:
 * [list.distribution](../list.distribution.html)
 
 ---

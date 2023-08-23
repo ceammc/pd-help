@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## harpsichord
+## Keyword: harpsichord
+
+### Objects:
 * [synth.harpsichord~](../synth.harpsichord~.html)
 
 ---

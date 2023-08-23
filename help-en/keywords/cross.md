@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## cross
+## Keyword: cross
+
+### Objects:
 * [list.correlate](../list.correlate.html)
 
 ---

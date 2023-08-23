@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## chua
+## Keyword: chua
+
+### Objects:
 * [noise.chua~](../noise.chua~.html)
 
 ---

@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## canvas
+## Keyword: canvas
+
+### Objects:
 * [canvas.active](../canvas.active.html)
 * [canvas.current](../canvas.current.html)
 * [canvas.dir](../canvas.dir.html)

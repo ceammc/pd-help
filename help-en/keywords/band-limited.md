@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## band-limited
+## Keyword: band-limited
+
+### Objects:
 * [osc.blit~](../osc.blit~.html)
 * [osc.impulse~](../osc.impulse~.html)
 * [osc.pulse~](../osc.pulse~.html)

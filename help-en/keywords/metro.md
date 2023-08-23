@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## metro
+## Keyword: metro
+
+### Objects:
 * [metro.pattern](../metro.pattern.html)
 * [metro.random](../metro.random.html)
 * [metro.seq](../metro.seq.html)

@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## projector
+## Keyword: projector
+
+### Objects:
 * [hoa.2d.projector~](../hoa.2d.projector~.html)
 
 ---

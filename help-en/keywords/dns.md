@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## dns
+## Keyword: dns
+
+### Objects:
 * [net.host2ip](../net.host2ip.html)
 
 ---

@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## lowpass
+## Keyword: lowpass
+
+### Objects:
 * [flt.c_lpf](../flt.c_lpf.html)
 * [flt.c_lpf~](../flt.c_lpf~.html)
 * [flt.lpf12~](../flt.lpf12~.html)

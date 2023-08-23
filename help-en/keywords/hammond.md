@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## hammond
+## Keyword: hammond
+
+### Objects:
 * [synth.bee3~](../synth.bee3~.html)
 
 ---

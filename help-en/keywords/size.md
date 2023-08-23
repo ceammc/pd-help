@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## size
+## Keyword: size
+
+### Objects:
 * [dict.size](../dict.size.html)
 * [dict.values](../dict.values.html)
 * [file.size](../file.size.html)

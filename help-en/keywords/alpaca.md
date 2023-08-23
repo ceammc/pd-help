@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## alpaca
+## Keyword: alpaca
+
+### Objects:
 * [proto.sp.alpaca](../proto.sp.alpaca.html)
 
 ---

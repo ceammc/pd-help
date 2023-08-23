@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## gingerbreadman
+## Keyword: gingerbreadman
+
+### Objects:
 * [chaos.gbman0](../chaos.gbman0.html)
 * [noise.ginger](../noise.ginger.html)
 

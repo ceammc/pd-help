@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## jit
+## Keyword: jit
+
+### Objects:
 * [lang.lua](../lang.lua.html)
 
 ---

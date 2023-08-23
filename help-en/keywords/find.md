@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## find
+## Keyword: find
+
+### Objects:
 * [list.^search](../list.^search.html)
 * [list.search](../list.search.html)
 

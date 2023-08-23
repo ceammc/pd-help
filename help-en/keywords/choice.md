@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## choice
+## Keyword: choice
+
+### Objects:
 * [list.choice](../list.choice.html)
 
 ---

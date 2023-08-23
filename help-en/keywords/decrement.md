@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## decrement
+## Keyword: decrement
+
+### Objects:
 * [ui.incdec](../ui.incdec.html)
 
 ---

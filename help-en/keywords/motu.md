@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## motu
+## Keyword: motu
+
+### Objects:
 * [hw.motu.avb](../hw.motu.avb.html)
 
 ---

@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## allpass
+## Keyword: allpass
+
+### Objects:
 * [flt.c_apf](../flt.c_apf.html)
 
 ---

@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## amplitude
+## Keyword: amplitude
+
+### Objects:
 * [env.follow~](../env.follow~.html)
 * [gain~](../gain~.html)
 * [mix~](../mix~.html)

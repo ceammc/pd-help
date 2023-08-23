@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## const
+## Keyword: const
+
+### Objects:
 * [random.pw_const](../random.pw_const.html)
 
 ---

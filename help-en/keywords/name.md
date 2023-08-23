@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## name
+## Keyword: name
+
+### Objects:
 * [canvas.name](../canvas.name.html)
 * [midi.cc](../midi.cc.html)
 * [midi.ctl2str](../midi.ctl2str.html)

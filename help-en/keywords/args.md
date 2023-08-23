@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## args
+## Keyword: args
+
+### Objects:
 * [patch.args](../patch.args.html)
 
 ---

@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## substring
+## Keyword: substring
+
+### Objects:
 * [string.substr](../string.substr.html)
 
 ---

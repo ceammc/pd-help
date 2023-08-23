@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## properties
+## Keyword: properties
+
+### Objects:
 * [conv.list2props](../conv.list2props.html)
 * [hoa.@process](../hoa.@process.html)
 

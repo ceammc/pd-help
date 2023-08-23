@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## keys
+## Keyword: keys
+
+### Objects:
 * [dict.keys](../dict.keys.html)
 
 ---

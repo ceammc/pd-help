@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## parser
+## Keyword: parser
+
+### Objects:
 * [proto.midi](../proto.midi.html)
 * [proto.midi.cc](../proto.midi.cc.html)
 * [proto.midi.sysex](../proto.midi.sysex.html)

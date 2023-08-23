@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## angle
+## Keyword: angle
+
+### Objects:
 * [math.carg~](../math.carg~.html)
 
 ---

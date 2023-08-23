@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## e
+## Keyword: e
+
+### Objects:
 * [math.e](../math.e.html)
 
 ---

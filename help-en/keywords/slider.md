@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## slider
+## Keyword: slider
+
+### Objects:
 * [ui.polar](../ui.polar.html)
 * [ui.rslider](../ui.rslider.html)
 * [ui.slider](../ui.slider.html)

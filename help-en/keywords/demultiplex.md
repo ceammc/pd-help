@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## demultiplex
+## Keyword: demultiplex
+
+### Objects:
 * [flow.demultiplex](../flow.demultiplex.html)
 * [flow.demultiplex2~](../flow.demultiplex2~.html)
 * [flow.demultiplex~](../flow.demultiplex~.html)

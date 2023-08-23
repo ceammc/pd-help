@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## fluid
+## Keyword: fluid
+
+### Objects:
 * [fluid~](../fluid~.html)
 * [sfizz~](../sfizz~.html)
 

@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## lua
+## Keyword: lua
+
+### Objects:
 * [lang.lua](../lang.lua.html)
 
 ---

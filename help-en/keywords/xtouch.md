@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## xtouch
+## Keyword: xtouch
+
+### Objects:
 * [proto.xtouch_ext](../proto.xtouch_ext.html)
 
 ---

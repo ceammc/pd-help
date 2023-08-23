@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## display
+## Keyword: display
+
+### Objects:
 * [hw.display](../hw.display.html)
 * [ui.display](../ui.display.html)
 

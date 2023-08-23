@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## soundfiler
+## Keyword: soundfiler
+
+### Objects:
 * [snd.file](../snd.file.html)
 
 ---

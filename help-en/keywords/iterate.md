@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## iterate
+## Keyword: iterate
+
+### Objects:
 * [dict.each](../dict.each.html)
 * [list.do](../list.do.html)
 * [list.each](../list.each.html)

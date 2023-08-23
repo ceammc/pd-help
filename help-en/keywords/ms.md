@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## ms
+## Keyword: ms
+
+### Objects:
 * [conv.ms2samp](../conv.ms2samp.html)
 * [conv.ms2samp~](../conv.ms2samp~.html)
 

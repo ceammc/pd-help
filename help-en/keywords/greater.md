@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## greater
+## Keyword: greater
+
+### Objects:
 * [flow.greater](../flow.greater.html)
 * [flow.greater_eq](../flow.greater_eq.html)
 * [math.sync_ge](../math.sync_ge.html)

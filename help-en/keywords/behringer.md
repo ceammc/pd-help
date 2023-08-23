@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## behringer
+## Keyword: behringer
+
+### Objects:
 * [proto.xtouch_ext](../proto.xtouch_ext.html)
 
 ---

@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## follower
+## Keyword: follower
+
+### Objects:
 * [env.follow~](../env.follow~.html)
 
 ---

@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## shift
+## Keyword: shift
+
+### Objects:
 * [env.tshift](../env.tshift.html)
 * [math.sync_lshift](../math.sync_lshift.html)
 * [math.sync_rshift](../math.sync_rshift.html)

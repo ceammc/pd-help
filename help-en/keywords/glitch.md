@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## glitch
+## Keyword: glitch
+
+### Objects:
 * [fx.stutter~](../fx.stutter~.html)
 * [synth.glitch~](../synth.glitch~.html)
 

@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## velvet
+## Keyword: velvet
+
+### Objects:
 * [noise.colored~](../noise.colored~.html)
 
 ---

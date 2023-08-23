@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## stereo
+## Keyword: stereo
+
+### Objects:
 * [fx.echo2~](../fx.echo2~.html)
 
 ---

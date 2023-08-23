@@ -1,7 +1,7 @@
 [index](index.html) 
 ---
 
-# string
+# Category: string
 
 
 

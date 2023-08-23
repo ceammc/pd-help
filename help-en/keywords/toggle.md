@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## toggle
+## Keyword: toggle
+
+### Objects:
 * [seq.toggles](../seq.toggles.html)
 * [tl.toggle](../tl.toggle.html)
 * [ui.toggle](../ui.toggle.html)

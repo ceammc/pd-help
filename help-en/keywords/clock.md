@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## clock
+## Keyword: clock
+
+### Objects:
 * [midi.clock](../midi.clock.html)
 
 ---

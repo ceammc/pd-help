@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## arpeggio
+## Keyword: arpeggio
+
+### Objects:
 * [seq.arp](../seq.arp.html)
 * [synth.risset_arp~](../synth.risset_arp~.html)
 

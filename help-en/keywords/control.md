@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## control
+## Keyword: control
+
+### Objects:
 * [flow.sync](../flow.sync.html)
 * [midi.event2ctl](../midi.event2ctl.html)
 

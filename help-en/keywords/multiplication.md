@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## multiplication
+## Keyword: multiplication
+
+### Objects:
 * [math.cmul~](../math.cmul~.html)
 
 ---

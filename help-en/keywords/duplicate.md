@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## duplicate
+## Keyword: duplicate
+
+### Objects:
 * [flow.dup](../flow.dup.html)
 
 ---

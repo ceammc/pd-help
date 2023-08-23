@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## get
+## Keyword: get
+
+### Objects:
 * [dict.get](../dict.get.html)
 
 ---

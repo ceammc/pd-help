@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## hoa
+## Keyword: hoa
+
+### Objects:
 * [hoa.2d.decoder~](../hoa.2d.decoder~.html)
 * [hoa.2d.encoder~](../hoa.2d.encoder~.html)
 * [hoa.2d.map~](../hoa.2d.map~.html)

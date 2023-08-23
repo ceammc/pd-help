@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## rle
+## Keyword: rle
+
+### Objects:
 * [list.rldecode](../list.rldecode.html)
 
 ---

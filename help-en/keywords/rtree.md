@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## rtree
+## Keyword: rtree
+
+### Objects:
 * [rtree.to_list](../rtree.to_list.html)
 
 ---

@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## detector
+## Keyword: detector
+
+### Objects:
 * [conv.edge2bang](../conv.edge2bang.html)
 
 ---

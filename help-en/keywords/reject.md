@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## reject
+## Keyword: reject
+
+### Objects:
 * [dict.reject](../dict.reject.html)
 * [flow.reject](../flow.reject.html)
 * [flow.reject_if](../flow.reject_if.html)

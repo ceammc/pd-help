@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## or
+## Keyword: or
+
+### Objects:
 * [math.or](../math.or.html)
 * [math.sync_or](../math.sync_or.html)
 

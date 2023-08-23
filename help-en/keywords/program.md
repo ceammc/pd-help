@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## program
+## Keyword: program
+
+### Objects:
 * [midi.event2prg](../midi.event2prg.html)
 
 ---

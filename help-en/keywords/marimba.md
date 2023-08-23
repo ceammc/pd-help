@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## marimba
+## Keyword: marimba
+
+### Objects:
 * [synth.marimba~](../synth.marimba~.html)
 
 ---

@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## product
+## Keyword: product
+
+### Objects:
 * [list.product](../list.product.html)
 
 ---

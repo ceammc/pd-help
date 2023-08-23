@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## server
+## Keyword: server
+
+### Objects:
 * [net.osc.server](../net.osc.server.html)
 
 ---

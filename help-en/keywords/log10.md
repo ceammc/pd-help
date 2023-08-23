@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## log10
+## Keyword: log10
+
+### Objects:
 * [math.log10](../math.log10.html)
 * [math.log10~](../math.log10~.html)
 

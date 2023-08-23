@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## bpm
+## Keyword: bpm
+
+### Objects:
 * [an.tempo~](../an.tempo~.html)
 * [array.bpm](../array.bpm.html)
 

@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## tuning
+## Keyword: tuning
+
+### Objects:
 * [midi.tuning](../midi.tuning.html)
 
 ---

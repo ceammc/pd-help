@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## piecewise
+## Keyword: piecewise
+
+### Objects:
 * [random.pw_const](../random.pw_const.html)
 * [random.pw_lin](../random.pw_lin.html)
 

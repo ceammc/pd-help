@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## map
+## Keyword: map
+
+### Objects:
 * [chaos.std0](../chaos.std0.html)
 * [chaos.std0~](../chaos.std0~.html)
 * [flow.list2many](../flow.list2many.html)

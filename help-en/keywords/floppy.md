@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## floppy
+## Keyword: floppy
+
+### Objects:
 * [proto.moppy](../proto.moppy.html)
 
 ---

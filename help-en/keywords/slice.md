@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## slice
+## Keyword: slice
+
+### Objects:
 * [list.slice](../list.slice.html)
 
 ---

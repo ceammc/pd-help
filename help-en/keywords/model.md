@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## model
+## Keyword: model
+
+### Objects:
 * [synth.glass_harm~](../synth.glass_harm~.html)
 * [synth.harpsichord~](../synth.harpsichord~.html)
 * [synth.piano~](../synth.piano~.html)

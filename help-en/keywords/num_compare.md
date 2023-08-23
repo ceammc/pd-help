@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## num_compare
+## Keyword: num_compare
+
+### Objects:
 * [symbol.num_compare](../symbol.num_compare.html)
 
 ---

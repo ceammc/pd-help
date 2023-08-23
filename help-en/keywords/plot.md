@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## plot
+## Keyword: plot
+
+### Objects:
 * [array.plot](../array.plot.html)
 * [array.plot~](../array.plot~.html)
 * [flt.freqz](../flt.freqz.html)

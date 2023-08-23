@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## airwindows
+## Keyword: airwindows
+
+### Objects:
 * [fx.infrev~](../fx.infrev~.html)
 
 ---

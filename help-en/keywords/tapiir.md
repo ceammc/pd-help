@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## tapiir
+## Keyword: tapiir
+
+### Objects:
 * [fx.tapiir~](../fx.tapiir~.html)
 
 ---

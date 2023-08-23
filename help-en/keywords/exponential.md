@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## exponential
+## Keyword: exponential
+
+### Objects:
 * [conv.lin2curve](../conv.lin2curve.html)
 * [conv.lin2exp](../conv.lin2exp.html)
 

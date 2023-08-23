@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## firmata
+## Keyword: firmata
+
+### Objects:
 * [proto.firmata](../proto.firmata.html)
 
 ---

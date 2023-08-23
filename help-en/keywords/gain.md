@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## gain
+## Keyword: gain
+
+### Objects:
 * [gain~](../gain~.html)
 * [ui.gain2~](../ui.gain2~.html)
 * [ui.gain~](../ui.gain~.html)

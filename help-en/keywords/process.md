@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## process
+## Keyword: process
+
+### Objects:
 * [hoa.@process](../hoa.@process.html)
 * [hoa.process~](../hoa.process~.html)
 

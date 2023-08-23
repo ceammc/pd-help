@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## piano
+## Keyword: piano
+
+### Objects:
 * [synth.piano~](../synth.piano~.html)
 
 ---

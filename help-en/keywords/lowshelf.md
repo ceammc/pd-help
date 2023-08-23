@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## lowshelf
+## Keyword: lowshelf
+
+### Objects:
 * [flt.c_lowshelf~](../flt.c_lowshelf~.html)
 * [flt.lowshelf~](../flt.lowshelf~.html)
 * [flt.notch~](../flt.notch~.html)

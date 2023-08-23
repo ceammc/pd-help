@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## delay
+## Keyword: delay
+
+### Objects:
 * [flow.delay](../flow.delay.html)
 * [flow.seqdelay](../flow.seqdelay.html)
 * [fx.echo2~](../fx.echo2~.html)

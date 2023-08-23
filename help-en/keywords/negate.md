@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## negate
+## Keyword: negate
+
+### Objects:
 * [math.neg](../math.neg.html)
 
 ---

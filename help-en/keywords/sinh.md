@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## sinh
+## Keyword: sinh
+
+### Objects:
 * [math.sinh](../math.sinh.html)
 
 ---

@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## compressor
+## Keyword: compressor
+
+### Objects:
 * [dyn.comp2~](../dyn.comp2~.html)
 * [dyn.comp~](../dyn.comp~.html)
 

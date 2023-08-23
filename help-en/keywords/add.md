@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## add
+## Keyword: add
+
+### Objects:
 * [math.sync_add](../math.sync_add.html)
 
 ---

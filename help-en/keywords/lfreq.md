@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## lfreq
+## Keyword: lfreq
+
+### Objects:
 * [noise.lfreq~](../noise.lfreq~.html)
 
 ---

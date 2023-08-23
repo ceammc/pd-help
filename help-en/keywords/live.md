@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## live
+## Keyword: live
+
+### Objects:
 * [live.capture~](../live.capture~.html)
 
 ---

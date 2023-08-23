@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## tempo
+## Keyword: tempo
+
+### Objects:
 * [an.tempo~](../an.tempo~.html)
 
 ---

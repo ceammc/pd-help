@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## cc
+## Keyword: cc
+
+### Objects:
 * [conv.cc2amp](../conv.cc2amp.html)
 * [midi.cc](../midi.cc.html)
 

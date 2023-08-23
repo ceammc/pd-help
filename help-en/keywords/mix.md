@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## mix
+## Keyword: mix
+
+### Objects:
 * [env.mix](../env.mix.html)
 * [mix~](../mix~.html)
 

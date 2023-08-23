@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## gcd
+## Keyword: gcd
+
+### Objects:
 * [math.gcd](../math.gcd.html)
 
 ---

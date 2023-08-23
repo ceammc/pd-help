@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## rate
+## Keyword: rate
+
+### Objects:
 * [an.zero~](../an.zero~.html)
 
 ---

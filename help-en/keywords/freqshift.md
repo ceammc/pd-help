@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## freqshift
+## Keyword: freqshift
+
+### Objects:
 * [fx.freqshift~](../fx.freqshift~.html)
 
 ---

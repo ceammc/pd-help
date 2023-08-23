@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## pointer
+## Keyword: pointer
+
+### Objects:
 * [is_pointer](../is_pointer.html)
 
 ---

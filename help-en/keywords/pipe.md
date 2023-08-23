@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## pipe
+## Keyword: pipe
+
+### Objects:
 * [flow.pipe](../flow.pipe.html)
 
 ---

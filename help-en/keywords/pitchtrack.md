@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## pitchtrack
+## Keyword: pitchtrack
+
+### Objects:
 * [an.pitchtrack~](../an.pitchtrack~.html)
 
 ---

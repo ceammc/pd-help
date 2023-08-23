@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## optim
+## Keyword: optim
+
+### Objects:
 * [hoa.2d.optim~](../hoa.2d.optim~.html)
 
 ---

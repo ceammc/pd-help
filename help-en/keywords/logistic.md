@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## logistic
+## Keyword: logistic
+
+### Objects:
 * [chaos.logistic](../chaos.logistic.html)
 
 ---

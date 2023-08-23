@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## hyperbolic
+## Keyword: hyperbolic
+
+### Objects:
 * [math.acosh~](../math.acosh~.html)
 * [math.asinh~](../math.asinh~.html)
 * [math.atanh~](../math.atanh~.html)

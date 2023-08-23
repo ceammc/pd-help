@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## seq
+## Keyword: seq
+
+### Objects:
 * [flow.seqdelay](../flow.seqdelay.html)
 * [seq.arp](../seq.arp.html)
 * [seq.bangs](../seq.bangs.html)

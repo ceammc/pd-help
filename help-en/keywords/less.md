@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## less
+## Keyword: less
+
+### Objects:
 * [math.sync_le](../math.sync_le.html)
 * [math.sync_lt](../math.sync_lt.html)
 

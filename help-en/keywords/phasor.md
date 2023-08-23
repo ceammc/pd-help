@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## phasor
+## Keyword: phasor
+
+### Objects:
 * [lfo.saw~](../lfo.saw~.html)
 * [seq.phasor](../seq.phasor.html)
 

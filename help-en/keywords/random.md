@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## random
+## Keyword: random
+
+### Objects:
 * [list.choice](../list.choice.html)
 * [list.shuffle](../list.shuffle.html)
 * [metro.random](../metro.random.html)

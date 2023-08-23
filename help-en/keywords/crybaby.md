@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## crybaby
+## Keyword: crybaby
+
+### Objects:
 * [fx.wahwah~](../fx.wahwah~.html)
 
 ---

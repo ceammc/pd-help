@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## format
+## Keyword: format
+
+### Objects:
 * [string.format](../string.format.html)
 
 ---

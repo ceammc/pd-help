@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## enumerate
+## Keyword: enumerate
+
+### Objects:
 * [list.enumerate](../list.enumerate.html)
 
 ---

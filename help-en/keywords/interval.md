@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## interval
+## Keyword: interval
+
+### Objects:
 * [flow.interval](../flow.interval.html)
 
 ---

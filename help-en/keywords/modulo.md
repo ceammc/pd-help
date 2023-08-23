@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## modulo
+## Keyword: modulo
+
+### Objects:
 * [math.sync_mod](../math.sync_mod.html)
 * [seq.counter](../seq.counter.html)
 

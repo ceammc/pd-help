@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## not
+## Keyword: not
+
+### Objects:
 * [math.sync_ne](../math.sync_ne.html)
 
 ---

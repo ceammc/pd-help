@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## length
+## Keyword: length
+
+### Objects:
 * [list.length](../list.length.html)
 * [string.length](../string.length.html)
 * [symbol.length](../symbol.length.html)

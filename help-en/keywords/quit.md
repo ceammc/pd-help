@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## quit
+## Keyword: quit
+
+### Objects:
 * [system.exit](../system.exit.html)
 
 ---

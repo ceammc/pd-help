@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## decode
+## Keyword: decode
+
+### Objects:
 * [list.rldecode](../list.rldecode.html)
 
 ---

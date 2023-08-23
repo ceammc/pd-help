@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## poly
+## Keyword: poly
+
+### Objects:
 * [conv.bits2note](../conv.bits2note.html)
 
 ---

@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## pitchshift
+## Keyword: pitchshift
+
+### Objects:
 * [fx.pitchshift_s~](../fx.pitchshift_s~.html)
 * [fx.pitchshift~](../fx.pitchshift~.html)
 * [fx.rb_pitchshift~](../fx.rb_pitchshift~.html)

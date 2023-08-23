@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## decibel
+## Keyword: decibel
+
+### Objects:
 * [conv.amp2dbfs](../conv.amp2dbfs.html)
 * [conv.amp2dbfs~](../conv.amp2dbfs~.html)
 * [conv.dbfs2amp](../conv.dbfs2amp.html)

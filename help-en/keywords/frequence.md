@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## frequence
+## Keyword: frequence
+
+### Objects:
 * [flt.freqz](../flt.freqz.html)
 * [flt.freqz~](../flt.freqz~.html)
 

@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## index
+## Keyword: index
+
+### Objects:
 * [list.^search](../list.^search.html)
 
 ---

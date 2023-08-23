@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## module
+## Keyword: module
+
+### Objects:
 * [math.cabs~](../math.cabs~.html)
 * [math.cexp~](../math.cexp~.html)
 

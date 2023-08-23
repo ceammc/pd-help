@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## note
+## Keyword: note
+
+### Objects:
 * [conv.bits2note](../conv.bits2note.html)
 * [midi.split](../midi.split.html)
 

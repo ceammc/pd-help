@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## graphic
+## Keyword: graphic
+
+### Objects:
 * [flt.eq10~](../flt.eq10~.html)
 
 ---

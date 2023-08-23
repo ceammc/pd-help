@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## resample
+## Keyword: resample
+
+### Objects:
 * [array.resample](../array.resample.html)
 
 ---

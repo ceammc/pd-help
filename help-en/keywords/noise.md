@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## noise
+## Keyword: noise
+
+### Objects:
 * [noise.baker](../noise.baker.html)
 * [noise.chua~](../noise.chua~.html)
 * [noise.clifford](../noise.clifford.html)

@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## birds
+## Keyword: birds
+
+### Objects:
 * [synth.birds~](../synth.birds~.html)
 
 ---

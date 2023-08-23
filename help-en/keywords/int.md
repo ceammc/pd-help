@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## int
+## Keyword: int
+
+### Objects:
 * [conv.bits2int](../conv.bits2int.html)
 * [conv.hex2int](../conv.hex2int.html)
 * [conv.int2bits](../conv.int2bits.html)

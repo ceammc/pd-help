@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## variance
+## Keyword: variance
+
+### Objects:
 * [array.variance](../array.variance.html)
 
 ---

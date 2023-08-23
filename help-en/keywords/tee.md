@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## tee
+## Keyword: tee
+
+### Objects:
 * [flow.tee~](../flow.tee~.html)
 
 ---

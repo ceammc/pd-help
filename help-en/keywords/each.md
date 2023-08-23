@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## each
+## Keyword: each
+
+### Objects:
 * [array.each](../array.each.html)
 * [dict.each](../dict.each.html)
 

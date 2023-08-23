@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## polynomial
+## Keyword: polynomial
+
+### Objects:
 * [math.polyeval](../math.polyeval.html)
 
 ---

@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## sample
+## Keyword: sample
+
+### Objects:
 * [array.p2s](../array.p2s.html)
 * [array.s2p](../array.s2p.html)
 

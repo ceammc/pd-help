@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## transpose
+## Keyword: transpose
+
+### Objects:
 * [midi.oct](../midi.oct.html)
 
 ---

@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## key
+## Keyword: key
+
+### Objects:
 * [conv.degree2key](../conv.degree2key.html)
 * [midi.key2str](../midi.key2str.html)
 

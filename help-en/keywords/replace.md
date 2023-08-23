@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## replace
+## Keyword: replace
+
+### Objects:
 * [replace](../replace.html)
 * [string.replace](../string.replace.html)
 

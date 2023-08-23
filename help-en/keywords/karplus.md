@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## karplus
+## Keyword: karplus
+
+### Objects:
 * [synth.ks~](../synth.ks~.html)
 * [synth.sitar~](../synth.sitar~.html)
 

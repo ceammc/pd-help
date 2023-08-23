@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## sign
+## Keyword: sign
+
+### Objects:
 * [math.sign](../math.sign.html)
 
 ---

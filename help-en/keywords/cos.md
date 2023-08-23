@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## cos
+## Keyword: cos
+
+### Objects:
 * [math.cos](../math.cos.html)
 * [math.cos~](../math.cos~.html)
 

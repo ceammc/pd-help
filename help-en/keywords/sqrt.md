@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## sqrt
+## Keyword: sqrt
+
+### Objects:
 * [math.sqrt](../math.sqrt.html)
 
 ---

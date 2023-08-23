@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## shimmer
+## Keyword: shimmer
+
+### Objects:
 * [fx.shimmer~](../fx.shimmer~.html)
 
 ---

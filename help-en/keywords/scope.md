@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## scope
+## Keyword: scope
+
+### Objects:
 * [hoa.scope~](../hoa.scope~.html)
 * [ui.scope~](../ui.scope~.html)
 

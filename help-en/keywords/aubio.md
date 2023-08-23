@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## aubio
+## Keyword: aubio
+
+### Objects:
 * [an.tempo~](../an.tempo~.html)
 
 ---

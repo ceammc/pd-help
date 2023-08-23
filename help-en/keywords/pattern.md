@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## pattern
+## Keyword: pattern
+
+### Objects:
 * [metro.pattern](../metro.pattern.html)
 * [path.pattern](../path.pattern.html)
 * [rtree.to_list](../rtree.to_list.html)

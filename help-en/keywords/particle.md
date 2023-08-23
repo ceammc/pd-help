@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## particle
+## Keyword: particle
+
+### Objects:
 * [array.grainer~](../array.grainer~.html)
 
 ---

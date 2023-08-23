@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## declare
+## Keyword: declare
+
+### Objects:
 * [prop.declare](../prop.declare.html)
 
 ---

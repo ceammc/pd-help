@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## octave
+## Keyword: octave
+
+### Objects:
 * [midi.oct](../midi.oct.html)
 
 ---

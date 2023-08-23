@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## filterbank
+## Keyword: filterbank
+
+### Objects:
 * [flt.fbank5x1~](../flt.fbank5x1~.html)
 
 ---

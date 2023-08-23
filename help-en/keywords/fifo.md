@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## fifo
+## Keyword: fifo
+
+### Objects:
 * [data.fifo](../data.fifo.html)
 
 ---

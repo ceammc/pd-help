@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## exists
+## Keyword: exists
+
+### Objects:
 * [path.exists](../path.exists.html)
 
 ---

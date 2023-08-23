@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## min
+## Keyword: min
+
+### Objects:
 * [list.min](../list.min.html)
 * [list.reduce](../list.reduce.html)
 

@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## scale
+## Keyword: scale
+
+### Objects:
 * [env.tscale](../env.tscale.html)
 * [env.vscale](../env.vscale.html)
 * [plot.geomspace~](../plot.geomspace~.html)

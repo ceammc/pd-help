@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## splitter
+## Keyword: splitter
+
+### Objects:
 * [midi.split](../midi.split.html)
 
 ---

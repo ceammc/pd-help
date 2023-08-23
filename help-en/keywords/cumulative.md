@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## cumulative
+## Keyword: cumulative
+
+### Objects:
 * [list.rundiff](../list.rundiff.html)
 * [list.runsum](../list.runsum.html)
 

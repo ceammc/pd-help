@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## diminuendo
+## Keyword: diminuendo
+
+### Objects:
 * [midi.vramp](../midi.vramp.html)
 
 ---

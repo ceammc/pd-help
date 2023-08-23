@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## time
+## Keyword: time
+
+### Objects:
 * [conv.bpm2hz](../conv.bpm2hz.html)
 * [conv.bpm2ms](../conv.bpm2ms.html)
 * [conv.bpm2sec](../conv.bpm2sec.html)

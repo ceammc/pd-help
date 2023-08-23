@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## directory
+## Keyword: directory
+
+### Objects:
 * [canvas.dir](../canvas.dir.html)
 
 ---

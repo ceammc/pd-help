@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## ring
+## Keyword: ring
+
+### Objects:
 * [array.circular~](../array.circular~.html)
 * [flow.ring](../flow.ring.html)
 

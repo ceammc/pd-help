@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## rms
+## Keyword: rms
+
+### Objects:
 * [an.rms~](../an.rms~.html)
 * [array.rms](../array.rms.html)
 

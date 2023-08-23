@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## tangent
+## Keyword: tangent
+
+### Objects:
 * [math.atanh~](../math.atanh~.html)
 * [math.tanh~](../math.tanh~.html)
 

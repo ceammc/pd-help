@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## acos
+## Keyword: acos
+
+### Objects:
 * [math.acos](../math.acos.html)
 * [math.acos~](../math.acos~.html)
 

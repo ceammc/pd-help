@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## white
+## Keyword: white
+
+### Objects:
 * [noise.colored~](../noise.colored~.html)
 * [noise.lfreq0~](../noise.lfreq0~.html)
 * [noise.white~](../noise.white~.html)

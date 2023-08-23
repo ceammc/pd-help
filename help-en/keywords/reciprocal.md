@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## reciprocal
+## Keyword: reciprocal
+
+### Objects:
 * [math.reciprocal](../math.reciprocal.html)
 * [math.reciprocal~](../math.reciprocal~.html)
 

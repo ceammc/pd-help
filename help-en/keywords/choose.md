@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## choose
+## Keyword: choose
+
+### Objects:
 * [ui.colorpanel](../ui.colorpanel.html)
 
 ---

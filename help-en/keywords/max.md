@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## max
+## Keyword: max
+
+### Objects:
 * [list.max](../list.max.html)
 
 ---

@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## send
+## Keyword: send
+
+### Objects:
 * [net.osc.send](../net.osc.send.html)
 
 ---

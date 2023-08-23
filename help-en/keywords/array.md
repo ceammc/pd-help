@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## array
+## Keyword: array
+
+### Objects:
 * [array.bpm](../array.bpm.html)
 * [array.circular](../array.circular.html)
 * [array.circular~](../array.circular~.html)

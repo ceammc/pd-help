@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## spectroscope
+## Keyword: spectroscope
+
+### Objects:
 * [ui.spectroscope~](../ui.spectroscope~.html)
 
 ---

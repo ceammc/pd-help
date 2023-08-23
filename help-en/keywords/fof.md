@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## fof
+## Keyword: fof
+
+### Objects:
 * [synth.voice_fofc~](../synth.voice_fofc~.html)
 * [synth.voice_fofs~](../synth.voice_fofs~.html)
 

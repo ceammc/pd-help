@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## infinity
+## Keyword: infinity
+
+### Objects:
 * [fx.infrev~](../fx.infrev~.html)
 
 ---

@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## compare
+## Keyword: compare
+
+### Objects:
 * [list.equal](../list.equal.html)
 * [list.max](../list.max.html)
 * [list.min](../list.min.html)

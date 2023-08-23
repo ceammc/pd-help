@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## contains
+## Keyword: contains
+
+### Objects:
 * [dict.contains](../dict.contains.html)
 * [set.contains](../set.contains.html)
 * [string.contains](../string.contains.html)

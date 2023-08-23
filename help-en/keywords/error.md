@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## error
+## Keyword: error
+
+### Objects:
 * [math.erf](../math.erf.html)
 * [math.erf~](../math.erf~.html)
 

@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## path
+## Keyword: path
+
+### Objects:
 * [canvas.path](../canvas.path.html)
 * [file.size](../file.size.html)
 * [path.basename](../path.basename.html)

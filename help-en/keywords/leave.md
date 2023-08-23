@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## leave
+## Keyword: leave
+
+### Objects:
 * [list.pass_if](../list.pass_if.html)
 
 ---

@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## prepend
+## Keyword: prepend
+
+### Objects:
 * [list.prepend](../list.prepend.html)
 
 ---

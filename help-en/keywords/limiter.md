@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## limiter
+## Keyword: limiter
+
+### Objects:
 * [dyn.limit2~](../dyn.limit2~.html)
 * [dyn.limit~](../dyn.limit~.html)
 * [dyn.softclip~](../dyn.softclip~.html)

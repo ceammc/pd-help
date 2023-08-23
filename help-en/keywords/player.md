@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## player
+## Keyword: player
+
+### Objects:
 * [fluid~](../fluid~.html)
 * [modplug~](../modplug~.html)
 * [sfizz~](../sfizz~.html)

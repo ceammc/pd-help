@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## dx7
+## Keyword: dx7
+
+### Objects:
 * [synth.dx7~](../synth.dx7~.html)
 
 ---

@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## hot
+## Keyword: hot
+
+### Objects:
 * [flow.sync_pack](../flow.sync_pack.html)
 
 ---

@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## system
+## Keyword: system
+
+### Objects:
 * [system.exec](../system.exec.html)
 * [system.getenv](../system.getenv.html)
 * [system.hostname](../system.hostname.html)

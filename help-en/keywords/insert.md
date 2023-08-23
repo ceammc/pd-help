@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## insert
+## Keyword: insert
+
+### Objects:
 * [list.insert](../list.insert.html)
 
 ---

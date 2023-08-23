@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## multiplex
+## Keyword: multiplex
+
+### Objects:
 * [flow.multiplex](../flow.multiplex.html)
 * [flow.multiplex2~](../flow.multiplex2~.html)
 * [flow.multiplex~](../flow.multiplex~.html)

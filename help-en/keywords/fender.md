@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## fender
+## Keyword: fender
+
+### Objects:
 * [synth.rhodey~](../synth.rhodey~.html)
 
 ---

@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## click
+## Keyword: click
+
+### Objects:
 * [click~](../click~.html)
 
 ---

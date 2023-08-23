@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## triangle
+## Keyword: triangle
+
+### Objects:
 * [lfo.+tri~](../lfo.+tri~.html)
 * [lfo.tri~](../lfo.tri~.html)
 

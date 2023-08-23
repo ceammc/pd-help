@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## union
+## Keyword: union
+
+### Objects:
 * [set.union](../set.union.html)
 
 ---

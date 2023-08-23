@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## then
+## Keyword: then
+
+### Objects:
 * [math.sync_gt](../math.sync_gt.html)
 * [math.sync_lt](../math.sync_lt.html)
 

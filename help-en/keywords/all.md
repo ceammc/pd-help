@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## all
+## Keyword: all
+
+### Objects:
 * [list.all_of](../list.all_of.html)
 
 ---

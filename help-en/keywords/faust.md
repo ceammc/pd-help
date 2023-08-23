@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## faust
+## Keyword: faust
+
+### Objects:
 * [lang.faust~](../lang.faust~.html)
 * [ui.faust~](../ui.faust~.html)
 

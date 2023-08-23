@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## bang
+## Keyword: bang
+
+### Objects:
 * [is_bang](../is_bang.html)
 * [route.bang](../route.bang.html)
 * [seq.bangs](../seq.bangs.html)

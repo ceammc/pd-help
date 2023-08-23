@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## sequence
+## Keyword: sequence
+
+### Objects:
 * [list.seq](../list.seq.html)
 
 ---

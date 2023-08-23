@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## dubdub
+## Keyword: dubdub
+
+### Objects:
 * [synth.dubdub~](../synth.dubdub~.html)
 
 ---

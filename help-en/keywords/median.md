@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## median
+## Keyword: median
+
+### Objects:
 * [flt.median](../flt.median.html)
 
 ---

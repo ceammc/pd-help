@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## hex
+## Keyword: hex
+
+### Objects:
 * [conv.hex2int](../conv.hex2int.html)
 
 ---

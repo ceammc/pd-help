@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## comb
+## Keyword: comb
+
+### Objects:
 * [flt.fb_comb~](../flt.fb_comb~.html)
 * [flt.ff_comb~](../flt.ff_comb~.html)
 

@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## percussion
+## Keyword: percussion
+
+### Objects:
 * [synth.shakers~](../synth.shakers~.html)
 
 ---

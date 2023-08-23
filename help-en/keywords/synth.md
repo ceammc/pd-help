@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## synth
+## Keyword: synth
+
+### Objects:
 * [synth.bee3~](../synth.bee3~.html)
 * [synth.clap~](../synth.clap~.html)
 * [synth.dx7~](../synth.dx7~.html)

@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## controller
+## Keyword: controller
+
+### Objects:
 * [midi.cc](../midi.cc.html)
 * [midi.ctl2str](../midi.ctl2str.html)
 

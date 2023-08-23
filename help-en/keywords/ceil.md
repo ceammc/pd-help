@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## ceil
+## Keyword: ceil
+
+### Objects:
 * [math.ceil](../math.ceil.html)
 * [math.ceil~](../math.ceil~.html)
 

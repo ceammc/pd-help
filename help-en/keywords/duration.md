@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## duration
+## Keyword: duration
+
+### Objects:
 * [music.dur2time](../music.dur2time.html)
 
 ---

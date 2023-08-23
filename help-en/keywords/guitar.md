@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## guitar
+## Keyword: guitar
+
+### Objects:
 * [fx.wahwah~](../fx.wahwah~.html)
 * [synth.eguitar~](../synth.eguitar~.html)
 

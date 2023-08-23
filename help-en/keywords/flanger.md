@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## flanger
+## Keyword: flanger
+
+### Objects:
 * [fx.flanger~](../fx.flanger~.html)
 
 ---

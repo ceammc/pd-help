@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## cursor
+## Keyword: cursor
+
+### Objects:
 * [system.cursor](../system.cursor.html)
 
 ---

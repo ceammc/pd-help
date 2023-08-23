@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## arduino
+## Keyword: arduino
+
+### Objects:
 * [hw.arduino](../hw.arduino.html)
 * [proto.firmata](../proto.firmata.html)
 

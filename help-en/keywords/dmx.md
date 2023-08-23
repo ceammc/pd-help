@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## dmx
+## Keyword: dmx
+
+### Objects:
 * [net.artnet.send](../net.artnet.send.html)
 
 ---

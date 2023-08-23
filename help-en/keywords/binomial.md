@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## binomial
+## Keyword: binomial
+
+### Objects:
 * [math.binomial](../math.binomial.html)
 
 ---

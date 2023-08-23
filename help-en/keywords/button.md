@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## button
+## Keyword: button
+
+### Objects:
 * [ui.button](../ui.button.html)
 * [ui.icon](../ui.icon.html)
 

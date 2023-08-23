@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## nan
+## Keyword: nan
+
+### Objects:
 * [math.nan](../math.nan.html)
 * [math.nan~](../math.nan~.html)
 

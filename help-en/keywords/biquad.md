@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## biquad
+## Keyword: biquad
+
+### Objects:
 * [flt.biquad~](../flt.biquad~.html)
 * [flt.bpf12~](../flt.bpf12~.html)
 * [flt.bpf24~](../flt.bpf24~.html)

@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## sort
+## Keyword: sort
+
+### Objects:
 * [list.sort](../list.sort.html)
 * [list.unique](../list.unique.html)
 

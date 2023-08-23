@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## stk
+## Keyword: stk
+
+### Objects:
 * [synth.tube_bell~](../synth.tube_bell~.html)
 
 ---

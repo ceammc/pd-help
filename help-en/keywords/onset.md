@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## onset
+## Keyword: onset
+
+### Objects:
 * [an.onset](../an.onset.html)
 * [an.onset~](../an.onset~.html)
 

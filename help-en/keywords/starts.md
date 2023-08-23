@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## starts
+## Keyword: starts
+
+### Objects:
 * [string.starts_with](../string.starts_with.html)
 
 ---

@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## any
+## Keyword: any
+
+### Objects:
 * [is_any](../is_any.html)
 * [list.^contains](../list.^contains.html)
 * [list.any_of](../list.any_of.html)

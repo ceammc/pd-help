@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## sequencer
+## Keyword: sequencer
+
+### Objects:
 * [metro.seq](../metro.seq.html)
 * [seq.bangs](../seq.bangs.html)
 * [seq.matrix](../seq.matrix.html)

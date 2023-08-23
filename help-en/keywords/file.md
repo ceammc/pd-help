@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## file
+## Keyword: file
+
+### Objects:
 * [file.size](../file.size.html)
 * [midi.file](../midi.file.html)
 * [path.file](../path.file.html)

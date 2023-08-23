@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## sin
+## Keyword: sin
+
+### Objects:
 * [math.sin](../math.sin.html)
 * [math.sin~](../math.sin~.html)
 

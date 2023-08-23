@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## separate
+## Keyword: separate
+
+### Objects:
 * [flow.tee~](../flow.tee~.html)
 * [list.separate](../list.separate.html)
 

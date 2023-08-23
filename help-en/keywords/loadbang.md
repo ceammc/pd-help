@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## loadbang
+## Keyword: loadbang
+
+### Objects:
 * [loadexpr](../loadexpr.html)
 * [msg.onload](../msg.onload.html)
 

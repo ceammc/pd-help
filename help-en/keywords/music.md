@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## music
+## Keyword: music
+
+### Objects:
 * [music.dur2time](../music.dur2time.html)
 * [music.voice2midi](../music.voice2midi.html)
 

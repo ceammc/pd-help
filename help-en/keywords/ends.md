@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## ends
+## Keyword: ends
+
+### Objects:
 * [string.ends_with](../string.ends_with.html)
 
 ---

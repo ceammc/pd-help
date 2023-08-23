@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## harmonica
+## Keyword: harmonica
+
+### Objects:
 * [synth.glass_harm~](../synth.glass_harm~.html)
 
 ---

@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## tanh
+## Keyword: tanh
+
+### Objects:
 * [math.tanh](../math.tanh.html)
 
 ---

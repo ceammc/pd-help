@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## logic
+## Keyword: logic
+
+### Objects:
 * [math.and](../math.and.html)
 * [math.or](../math.or.html)
 

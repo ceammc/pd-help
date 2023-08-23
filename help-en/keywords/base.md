@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## base
+## Keyword: base
+
+### Objects:
 * [samp.time~](../samp.time~.html)
 * [xdac~](../xdac~.html)
 

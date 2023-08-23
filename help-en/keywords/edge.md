@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## edge
+## Keyword: edge
+
+### Objects:
 * [conv.edge2bang](../conv.edge2bang.html)
 
 ---

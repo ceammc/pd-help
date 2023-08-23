@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## mean
+## Keyword: mean
+
+### Objects:
 * [an.rms~](../an.rms~.html)
 * [array.mean](../array.mean.html)
 * [array.rms](../array.rms.html)

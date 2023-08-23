@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## gate
+## Keyword: gate
+
+### Objects:
 * [dyn.gate2~](../dyn.gate2~.html)
 * [dyn.gate~](../dyn.gate~.html)
 * [flow.gate](../flow.gate.html)

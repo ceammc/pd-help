@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## square
+## Keyword: square
+
+### Objects:
 * [an.rms~](../an.rms~.html)
 * [array.rms](../array.rms.html)
 * [lfo.+square~](../lfo.+square~.html)

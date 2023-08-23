@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## resonant
+## Keyword: resonant
+
+### Objects:
 * [flt.resonbp~](../flt.resonbp~.html)
 * [flt.resonhp~](../flt.resonhp~.html)
 * [flt.resonlp~](../flt.resonlp~.html)

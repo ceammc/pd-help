@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## matrix
+## Keyword: matrix
+
+### Objects:
 * [matrix~](../matrix~.html)
 * [seq.matrix](../seq.matrix.html)
 * [ui.matrix](../ui.matrix.html)

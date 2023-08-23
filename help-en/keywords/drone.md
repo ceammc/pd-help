@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## drone
+## Keyword: drone
+
+### Objects:
 * [fx.drone_box~](../fx.drone_box~.html)
 
 ---

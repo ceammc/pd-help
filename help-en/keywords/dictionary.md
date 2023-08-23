@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## dictionary
+## Keyword: dictionary
+
+### Objects:
 * [data.dict](../data.dict.html)
 * [dict.contains](../dict.contains.html)
 * [dict.each](../dict.each.html)

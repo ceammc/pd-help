@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## modus
+## Keyword: modus
+
+### Objects:
 * [conv.degree2key](../conv.degree2key.html)
 * [midi.modus](../midi.modus.html)
 

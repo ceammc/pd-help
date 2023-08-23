@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## bell
+## Keyword: bell
+
+### Objects:
 * [synth.church_bell~](../synth.church_bell~.html)
 * [synth.english_bell~](../synth.english_bell~.html)
 * [synth.french_bell~](../synth.french_bell~.html)

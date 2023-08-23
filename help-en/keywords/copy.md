@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## copy
+## Keyword: copy
+
+### Objects:
 * [array.copy](../array.copy.html)
 * [data.copy](../data.copy.html)
 

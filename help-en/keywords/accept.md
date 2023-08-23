@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## accept
+## Keyword: accept
+
+### Objects:
 * [list.pass_if](../list.pass_if.html)
 
 ---

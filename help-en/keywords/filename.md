@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## filename
+## Keyword: filename
+
+### Objects:
 * [path.pattern](../path.pattern.html)
 
 ---

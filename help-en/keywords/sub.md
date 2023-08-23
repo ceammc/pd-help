@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## sub
+## Keyword: sub
+
+### Objects:
 * [math.sync_sub](../math.sync_sub.html)
 
 ---

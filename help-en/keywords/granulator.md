@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## granulator
+## Keyword: granulator
+
+### Objects:
 * [fx.granulator~](../fx.granulator~.html)
 
 ---

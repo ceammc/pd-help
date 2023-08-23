@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## record
+## Keyword: record
+
+### Objects:
 * [flow.record](../flow.record.html)
 * [live.capture~](../live.capture~.html)
 

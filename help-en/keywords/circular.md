@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## circular
+## Keyword: circular
+
+### Objects:
 * [array.circular](../array.circular.html)
 * [array.circular~](../array.circular~.html)
 

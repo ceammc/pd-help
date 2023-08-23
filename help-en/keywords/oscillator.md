@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## oscillator
+## Keyword: oscillator
+
+### Objects:
 * [lfo.+pulse~](../lfo.+pulse~.html)
 * [lfo.+saw~](../lfo.+saw~.html)
 * [lfo.+square~](../lfo.+square~.html)

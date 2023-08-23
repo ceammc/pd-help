@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## dcblock
+## Keyword: dcblock
+
+### Objects:
 * [flt.dcblock2~](../flt.dcblock2~.html)
 * [flt.dcblock~](../flt.dcblock~.html)
 

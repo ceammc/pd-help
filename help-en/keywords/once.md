@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## once
+## Keyword: once
+
+### Objects:
 * [flow.once](../flow.once.html)
 
 ---

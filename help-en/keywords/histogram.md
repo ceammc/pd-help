@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## histogram
+## Keyword: histogram
+
+### Objects:
 * [array.hist](../array.hist.html)
 * [list.histogram](../list.histogram.html)
 * [plot.hist~](../plot.hist~.html)

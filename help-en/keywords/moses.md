@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## moses
+## Keyword: moses
+
+### Objects:
 * [list.split](../list.split.html)
 
 ---

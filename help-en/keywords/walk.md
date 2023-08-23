@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## walk
+## Keyword: walk
+
+### Objects:
 * [list.walk](../list.walk.html)
 
 ---

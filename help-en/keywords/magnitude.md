@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## magnitude
+## Keyword: magnitude
+
+### Objects:
 * [math.cabs~](../math.cabs~.html)
 * [math.cexp~](../math.cexp~.html)
 

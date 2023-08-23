@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## function
+## Keyword: function
+
+### Objects:
 * [function](../function.html)
 * [function.call](../function.call.html)
 

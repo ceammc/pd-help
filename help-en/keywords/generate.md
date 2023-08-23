@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## generate
+## Keyword: generate
+
+### Objects:
 * [list.gen](../list.gen.html)
 * [list.seq](../list.seq.html)
 

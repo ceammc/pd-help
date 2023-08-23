@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## hostname
+## Keyword: hostname
+
+### Objects:
 * [system.hostname](../system.hostname.html)
 
 ---

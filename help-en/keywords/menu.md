@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## menu
+## Keyword: menu
+
+### Objects:
 * [ui.menu](../ui.menu.html)
 * [ui.midi](../ui.midi.html)
 

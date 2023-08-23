@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## grain
+## Keyword: grain
+
+### Objects:
 * [array.grainer~](../array.grainer~.html)
 * [synth.fgrain~](../synth.fgrain~.html)
 

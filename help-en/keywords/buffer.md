@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## buffer
+## Keyword: buffer
+
+### Objects:
 * [flow.ring](../flow.ring.html)
 
 ---

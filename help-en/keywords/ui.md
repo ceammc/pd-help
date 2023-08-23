@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## ui
+## Keyword: ui
+
+### Objects:
 * [ui.aview](../ui.aview.html)
 * [ui.bang](../ui.bang.html)
 * [ui.button](../ui.button.html)

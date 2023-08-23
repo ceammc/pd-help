@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## equalizer
+## Keyword: equalizer
+
+### Objects:
 * [flt.c_peak~](../flt.c_peak~.html)
 * [flt.eq10~](../flt.eq10~.html)
 * [flt.eq_peak_cq~](../flt.eq_peak_cq~.html)

@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## glass
+## Keyword: glass
+
+### Objects:
 * [synth.glass_harm~](../synth.glass_harm~.html)
 
 ---

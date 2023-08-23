@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## arpeggiator
+## Keyword: arpeggiator
+
+### Objects:
 * [midi.arp](../midi.arp.html)
 
 ---

@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## shakers
+## Keyword: shakers
+
+### Objects:
 * [synth.shakers~](../synth.shakers~.html)
 
 ---

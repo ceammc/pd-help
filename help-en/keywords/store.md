@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## store
+## Keyword: store
+
+### Objects:
 * [flow.mem](../flow.mem.html)
 
 ---

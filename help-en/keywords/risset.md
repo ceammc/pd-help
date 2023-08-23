@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## risset
+## Keyword: risset
+
+### Objects:
 * [risset.gliss](../risset.gliss.html)
 * [synth.risset_arp~](../synth.risset_arp~.html)
 * [synth.risset_bell~](../synth.risset_bell~.html)

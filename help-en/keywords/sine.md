@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## sine
+## Keyword: sine
+
+### Objects:
 * [math.asinh~](../math.asinh~.html)
 * [math.sinh~](../math.sinh~.html)
 

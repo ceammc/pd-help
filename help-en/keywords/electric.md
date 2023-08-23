@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## electric
+## Keyword: electric
+
+### Objects:
 * [synth.eguitar~](../synth.eguitar~.html)
 
 ---

@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## outlet
+## Keyword: outlet
+
+### Objects:
 * [hoa.out](../hoa.out.html)
 * [hoa.out~](../hoa.out~.html)
 

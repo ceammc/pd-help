@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## global
+## Keyword: global
+
+### Objects:
 * [global.dict](../global.dict.html)
 * [global.float](../global.float.html)
 * [global.int](../global.int.html)

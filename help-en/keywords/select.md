@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## select
+## Keyword: select
+
+### Objects:
 * [flow.select](../flow.select.html)
 
 ---

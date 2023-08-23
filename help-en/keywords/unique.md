@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## unique
+## Keyword: unique
+
+### Objects:
 * [list.unique](../list.unique.html)
 
 ---

@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## repack
+## Keyword: repack
+
+### Objects:
 * [list.repack](../list.repack.html)
 
 ---

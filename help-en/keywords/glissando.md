@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## glissando
+## Keyword: glissando
+
+### Objects:
 * [risset.gliss](../risset.gliss.html)
 
 ---

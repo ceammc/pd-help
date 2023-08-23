@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## tab
+## Keyword: tab
+
+### Objects:
 * [ui.tab](../ui.tab.html)
 
 ---

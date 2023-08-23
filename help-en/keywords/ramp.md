@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## ramp
+## Keyword: ramp
+
+### Objects:
 * [midi.vramp](../midi.vramp.html)
 
 ---

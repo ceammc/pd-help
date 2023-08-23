@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## discrete
+## Keyword: discrete
+
+### Objects:
 * [random.discrete](../random.discrete.html)
 
 ---

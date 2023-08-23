@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## log
+## Keyword: log
+
+### Objects:
 * [logger](../logger.html)
 * [math.lgamma](../math.lgamma.html)
 * [math.lgamma~](../math.lgamma~.html)

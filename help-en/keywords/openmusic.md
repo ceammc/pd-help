@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## openmusic
+## Keyword: openmusic
+
+### Objects:
 * [rtree.to_list](../rtree.to_list.html)
 
 ---

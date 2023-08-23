@@ -1,7 +1,7 @@
 [index](index.html) 
 ---
 
-# synth
+# Категория: synth
 
 
 

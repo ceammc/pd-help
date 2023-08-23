@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## shuffle
+## Keyword: shuffle
+
+### Objects:
 * [list.shuffle](../list.shuffle.html)
 
 ---

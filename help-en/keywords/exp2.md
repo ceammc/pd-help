@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## exp2
+## Keyword: exp2
+
+### Objects:
 * [math.exp2](../math.exp2.html)
 * [math.exp2~](../math.exp2~.html)
 * [math.exp~](../math.exp~.html)

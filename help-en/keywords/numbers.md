@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## numbers
+## Keyword: numbers
+
+### Objects:
 * [is_even](../is_even.html)
 * [is_odd](../is_odd.html)
 

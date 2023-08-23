@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## flatten
+## Keyword: flatten
+
+### Objects:
 * [mlist.flatten](../mlist.flatten.html)
 
 ---

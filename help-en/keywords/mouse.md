@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## mouse
+## Keyword: mouse
+
+### Objects:
 * [system.cursor](../system.cursor.html)
 * [ui.mouse_filter](../ui.mouse_filter.html)
 * [ui.mouse_route](../ui.mouse_route.html)

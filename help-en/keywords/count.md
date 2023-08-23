@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## count
+## Keyword: count
+
+### Objects:
 * [an.zero~](../an.zero~.html)
 * [list.count](../list.count.html)
 * [list.count_if](../list.count_if.html)

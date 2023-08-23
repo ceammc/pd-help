@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## predicate
+## Keyword: predicate
+
+### Objects:
 * [is_any](../is_any.html)
 * [is_bang](../is_bang.html)
 * [is_data](../is_data.html)

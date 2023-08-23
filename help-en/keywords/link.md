@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## link
+## Keyword: link
+
+### Objects:
 * [ui.link](../ui.link.html)
 
 ---

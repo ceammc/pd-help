@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## remove
+## Keyword: remove
+
+### Objects:
 * [list.remove](../list.remove.html)
 * [list.remove_if](../list.remove_if.html)
 * [string.remove](../string.remove.html)

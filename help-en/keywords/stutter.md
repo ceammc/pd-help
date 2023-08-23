@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## stutter
+## Keyword: stutter
+
+### Objects:
 * [fx.stutter~](../fx.stutter~.html)
 
 ---

@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## conway
+## Keyword: conway
+
+### Objects:
 * [seq.life](../seq.life.html)
 
 ---

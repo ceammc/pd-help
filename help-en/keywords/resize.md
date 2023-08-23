@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## resize
+## Keyword: resize
+
+### Objects:
 * [list.resize](../list.resize.html)
 
 ---

@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## delta
+## Keyword: delta
+
+### Objects:
 * [list.delta](../list.delta.html)
 
 ---

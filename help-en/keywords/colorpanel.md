@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## colorpanel
+## Keyword: colorpanel
+
+### Objects:
 * [system.colorpanel](../system.colorpanel.html)
 
 ---

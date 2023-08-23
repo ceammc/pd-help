@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## number
+## Keyword: number
+
+### Objects:
 * [ui.number](../ui.number.html)
 * [ui.number~](../ui.number~.html)
 

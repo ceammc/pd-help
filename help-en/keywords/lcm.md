@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## lcm
+## Keyword: lcm
+
+### Objects:
 * [math.lcm](../math.lcm.html)
 
 ---

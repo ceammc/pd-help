@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## artnet
+## Keyword: artnet
+
+### Objects:
 * [net.artnet.send](../net.artnet.send.html)
 
 ---

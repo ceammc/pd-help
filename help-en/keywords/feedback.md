@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## feedback
+## Keyword: feedback
+
+### Objects:
 * [osc.sinfb~](../osc.sinfb~.html)
 
 ---

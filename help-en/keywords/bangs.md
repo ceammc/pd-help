@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## bangs
+## Keyword: bangs
+
+### Objects:
 * [conv.bits2bang](../conv.bits2bang.html)
 
 ---

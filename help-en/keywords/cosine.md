@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## cosine
+## Keyword: cosine
+
+### Objects:
 * [math.acosh~](../math.acosh~.html)
 
 ---

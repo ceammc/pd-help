@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## rhythm
+## Keyword: rhythm
+
+### Objects:
 * [metro.pattern](../metro.pattern.html)
 
 ---

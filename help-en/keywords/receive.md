@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## receive
+## Keyword: receive
+
+### Objects:
 * [net.osc.receive](../net.osc.receive.html)
 
 ---

@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## weight
+## Keyword: weight
+
+### Objects:
 * [flt.a-weight](../flt.a-weight.html)
 
 ---

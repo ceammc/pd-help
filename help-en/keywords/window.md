@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## window
+## Keyword: window
+
+### Objects:
 * [array.window](../array.window.html)
 * [window](../window.html)
 

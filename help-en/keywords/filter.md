@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## filter
+## Keyword: filter
+
+### Objects:
 * [flt.a-weight](../flt.a-weight.html)
 * [flt.biquad~](../flt.biquad~.html)
 * [flt.bpf12~](../flt.bpf12~.html)

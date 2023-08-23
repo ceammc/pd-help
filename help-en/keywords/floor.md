@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## floor
+## Keyword: floor
+
+### Objects:
 * [math.floor](../math.floor.html)
 * [math.floor~](../math.floor~.html)
 

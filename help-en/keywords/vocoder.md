@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## vocoder
+## Keyword: vocoder
+
+### Objects:
 * [fx.vocoder~](../fx.vocoder~.html)
 
 ---

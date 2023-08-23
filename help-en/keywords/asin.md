@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## asin
+## Keyword: asin
+
+### Objects:
 * [math.asin](../math.asin.html)
 * [math.asin~](../math.asin~.html)
 * [math.atan~](../math.atan~.html)

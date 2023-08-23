@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## until
+## Keyword: until
+
+### Objects:
 * [seq.nbangs](../seq.nbangs.html)
 
 ---

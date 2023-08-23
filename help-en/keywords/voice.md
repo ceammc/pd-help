@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## voice
+## Keyword: voice
+
+### Objects:
 * [music.voice2midi](../music.voice2midi.html)
 * [synth.voice_fofc~](../synth.voice_fofc~.html)
 * [synth.voice_fofs~](../synth.voice_fofs~.html)

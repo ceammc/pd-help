@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## symbol
+## Keyword: symbol
+
+### Objects:
 * [is_symbol](../is_symbol.html)
 * [preset.list](../preset.list.html)
 * [preset.symbol](../preset.symbol.html)

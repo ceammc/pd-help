@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## dict
+## Keyword: dict
+
+### Objects:
 * [global.dict](../global.dict.html)
 * [list.map](../list.map.html)
 * [local.dict](../local.dict.html)

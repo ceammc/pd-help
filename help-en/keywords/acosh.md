@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## acosh
+## Keyword: acosh
+
+### Objects:
 * [math.acosh](../math.acosh.html)
 
 ---

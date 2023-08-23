@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## do
+## Keyword: do
+
+### Objects:
 * [array.do](../array.do.html)
 
 ---

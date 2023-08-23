@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## split
+## Keyword: split
+
+### Objects:
 * [list.split](../list.split.html)
 * [string.split](../string.split.html)
 

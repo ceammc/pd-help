@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## atan
+## Keyword: atan
+
+### Objects:
 * [math.atan](../math.atan.html)
 
 ---

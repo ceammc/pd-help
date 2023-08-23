@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## smooth
+## Keyword: smooth
+
+### Objects:
 * [env.smooth~](../env.smooth~.html)
 
 ---

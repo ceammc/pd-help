@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## intersection
+## Keyword: intersection
+
+### Objects:
 * [set.intersect](../set.intersect.html)
 
 ---

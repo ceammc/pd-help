@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## french
+## Keyword: french
+
+### Objects:
 * [synth.french_bell~](../synth.french_bell~.html)
 
 ---

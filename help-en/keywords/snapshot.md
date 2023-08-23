@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## snapshot
+## Keyword: snapshot
+
+### Objects:
 * [conv.sig2float~](../conv.sig2float~.html)
 
 ---

@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## approx
+## Keyword: approx
+
+### Objects:
 * [math.approx](../math.approx.html)
 
 ---

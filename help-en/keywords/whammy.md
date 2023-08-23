@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## whammy
+## Keyword: whammy
+
+### Objects:
 * [proto.whammy](../proto.whammy.html)
 
 ---

@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## property
+## Keyword: property
+
+### Objects:
 * [obj.props](../obj.props.html)
 * [patch.props](../patch.props.html)
 * [prop](../prop.html)

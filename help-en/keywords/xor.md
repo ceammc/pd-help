@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## xor
+## Keyword: xor
+
+### Objects:
 * [math.sync_xor](../math.sync_xor.html)
 
 ---

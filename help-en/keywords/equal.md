@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## equal
+## Keyword: equal
+
+### Objects:
 * [flow.greater_eq](../flow.greater_eq.html)
 * [list.equal](../list.equal.html)
 * [math.approx](../math.approx.html)

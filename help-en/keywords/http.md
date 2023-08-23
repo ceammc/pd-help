@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## http
+## Keyword: http
+
+### Objects:
 * [net.http.send](../net.http.send.html)
 
 ---

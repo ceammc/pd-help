@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## keyboard
+## Keyword: keyboard
+
+### Objects:
 * [hw.kbd_light](../hw.kbd_light.html)
 * [midi.kdb](../midi.kdb.html)
 * [ui.keyboard](../ui.keyboard.html)

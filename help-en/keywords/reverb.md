@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## reverb
+## Keyword: reverb
+
+### Objects:
 * [fx.dattorro~](../fx.dattorro~.html)
 * [fx.freeverb2~](../fx.freeverb2~.html)
 * [fx.freeverb~](../fx.freeverb~.html)

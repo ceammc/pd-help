@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## ctlin
+## Keyword: ctlin
+
+### Objects:
 * [midi.cc](../midi.cc.html)
 
 ---

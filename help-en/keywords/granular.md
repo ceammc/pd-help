@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## granular
+## Keyword: granular
+
+### Objects:
 * [array.grainer~](../array.grainer~.html)
 
 ---

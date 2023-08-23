@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## tubular
+## Keyword: tubular
+
+### Objects:
 * [synth.tube_bell~](../synth.tube_bell~.html)
 
 ---

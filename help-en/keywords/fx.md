@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## fx
+## Keyword: fx
+
+### Objects:
 * [fx.bitdown~](../fx.bitdown~.html)
 * [fx.chorus~](../fx.chorus~.html)
 * [fx.dattorro~](../fx.dattorro~.html)

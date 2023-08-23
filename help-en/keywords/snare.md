@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## snare
+## Keyword: snare
+
+### Objects:
 * [synth.snare~](../synth.snare~.html)
 
 ---

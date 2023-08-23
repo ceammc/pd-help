@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## onload
+## Keyword: onload
+
+### Objects:
 * [loadexpr](../loadexpr.html)
 * [msg.after](../msg.after.html)
 * [msg.onload](../msg.onload.html)

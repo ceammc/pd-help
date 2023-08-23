@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## brightness
+## Keyword: brightness
+
+### Objects:
 * [hw.display](../hw.display.html)
 
 ---

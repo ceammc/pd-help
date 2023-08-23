@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## osc
+## Keyword: osc
+
+### Objects:
 * [net.artnet.send](../net.artnet.send.html)
 * [net.osc.receive](../net.osc.receive.html)
 * [net.osc.send](../net.osc.send.html)

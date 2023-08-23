@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## serial
+## Keyword: serial
+
+### Objects:
 * [hw.serial](../hw.serial.html)
 * [proto.moppy](../proto.moppy.html)
 

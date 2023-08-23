@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## track
+## Keyword: track
+
+### Objects:
 * [midi.event2note](../midi.event2note.html)
 * [midi.track](../midi.track.html)
 

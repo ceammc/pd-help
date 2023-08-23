@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## pulse
+## Keyword: pulse
+
+### Objects:
 * [lfo.+pulse~](../lfo.+pulse~.html)
 * [lfo.pulse~](../lfo.pulse~.html)
 

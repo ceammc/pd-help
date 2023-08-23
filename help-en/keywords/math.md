@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## math
+## Keyword: math
+
+### Objects:
 * [math.abs](../math.abs.html)
 * [math.abs~](../math.abs~.html)
 * [math.acos](../math.acos.html)

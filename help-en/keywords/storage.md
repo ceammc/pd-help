@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## storage
+## Keyword: storage
+
+### Objects:
 * [preset.float](../preset.float.html)
 * [preset.list](../preset.list.html)
 * [preset.storage](../preset.storage.html)

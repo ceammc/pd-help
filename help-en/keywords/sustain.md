@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## sustain
+## Keyword: sustain
+
+### Objects:
 * [midi.sustain](../midi.sustain.html)
 
 ---

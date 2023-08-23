@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## recomposer
+## Keyword: recomposer
+
+### Objects:
 * [hoa.2d.projector~](../hoa.2d.projector~.html)
 * [hoa.2d.recomposer~](../hoa.2d.recomposer~.html)
 

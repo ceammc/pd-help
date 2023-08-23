@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## and
+## Keyword: and
+
+### Objects:
 * [math.and](../math.and.html)
 * [math.sync_and](../math.sync_and.html)
 

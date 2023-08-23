@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## mousewheel
+## Keyword: mousewheel
+
+### Objects:
 * [system.cursor](../system.cursor.html)
 
 ---

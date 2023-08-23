@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## sort_with
+## Keyword: sort_with
+
+### Objects:
 * [list.sort_with](../list.sort_with.html)
 
 ---

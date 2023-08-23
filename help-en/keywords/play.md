@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## play
+## Keyword: play
+
+### Objects:
 * [array.play~](../array.play~.html)
 * [array.vplay](../array.vplay.html)
 

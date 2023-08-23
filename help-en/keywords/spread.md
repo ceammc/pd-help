@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## spread
+## Keyword: spread
+
+### Objects:
 * [pan.spread~](../pan.spread~.html)
 
 ---

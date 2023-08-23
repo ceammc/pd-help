@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## kick
+## Keyword: kick
+
+### Objects:
 * [synth.clap~](../synth.clap~.html)
 * [synth.hat~](../synth.hat~.html)
 * [synth.kick2~](../synth.kick2~.html)

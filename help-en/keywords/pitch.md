@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## pitch
+## Keyword: pitch
+
+### Objects:
 * [conv.pitch2midi](../conv.pitch2midi.html)
 * [midi.modus](../midi.modus.html)
 

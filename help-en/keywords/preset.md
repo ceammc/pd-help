@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## preset
+## Keyword: preset
+
+### Objects:
 * [preset.float](../preset.float.html)
 * [preset.list](../preset.list.html)
 * [preset.storage](../preset.storage.html)

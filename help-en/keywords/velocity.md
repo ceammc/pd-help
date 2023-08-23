@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## velocity
+## Keyword: velocity
+
+### Objects:
 * [midi.vrand](../midi.vrand.html)
 
 ---

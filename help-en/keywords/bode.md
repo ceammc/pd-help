@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## bode
+## Keyword: bode
+
+### Objects:
 * [flt.freqz](../flt.freqz.html)
 * [flt.freqz~](../flt.freqz~.html)
 

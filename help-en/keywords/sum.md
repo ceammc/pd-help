@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## sum
+## Keyword: sum
+
+### Objects:
 * [array.sum](../array.sum.html)
 * [array.sum2](../array.sum2.html)
 * [list.runsum](../list.runsum.html)

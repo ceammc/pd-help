@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## wahwah
+## Keyword: wahwah
+
+### Objects:
 * [fx.wahwah~](../fx.wahwah~.html)
 
 ---

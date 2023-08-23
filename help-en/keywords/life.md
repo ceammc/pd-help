@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## life
+## Keyword: life
+
+### Objects:
 * [seq.life](../seq.life.html)
 
 ---

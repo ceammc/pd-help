@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## position
+## Keyword: position
+
+### Objects:
 * [conv.bits2pos](../conv.bits2pos.html)
 
 ---

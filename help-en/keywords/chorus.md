@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## chorus
+## Keyword: chorus
+
+### Objects:
 * [fx.chorus~](../fx.chorus~.html)
 
 ---

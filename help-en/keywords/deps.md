@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## deps
+## Keyword: deps
+
+### Objects:
 * [patch.deps](../patch.deps.html)
 
 ---

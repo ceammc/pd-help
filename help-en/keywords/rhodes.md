@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## rhodes
+## Keyword: rhodes
+
+### Objects:
 * [synth.rhodey~](../synth.rhodey~.html)
 
 ---

@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## inlet
+## Keyword: inlet
+
+### Objects:
 * [hoa.in](../hoa.in.html)
 * [hoa.in~](../hoa.in~.html)
 

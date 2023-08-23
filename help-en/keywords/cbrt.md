@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## cbrt
+## Keyword: cbrt
+
+### Objects:
 * [math.cbrt](../math.cbrt.html)
 * [math.cbrt~](../math.cbrt~.html)
 

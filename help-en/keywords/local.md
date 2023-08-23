@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## local
+## Keyword: local
+
+### Objects:
 * [global.dict](../global.dict.html)
 * [global.mlist](../global.mlist.html)
 * [global.set](../global.set.html)

@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## screen
+## Keyword: screen
+
+### Objects:
 * [system.screen_size](../system.screen_size.html)
 
 ---

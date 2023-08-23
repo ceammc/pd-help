@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## sysexin
+## Keyword: sysexin
+
+### Objects:
 * [midi.sysex](../midi.sysex.html)
 
 ---

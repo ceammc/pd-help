@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## net
+## Keyword: net
+
+### Objects:
 * [net.artnet.send](../net.artnet.send.html)
 * [net.host2ip](../net.host2ip.html)
 * [net.http.send](../net.http.send.html)

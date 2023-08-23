@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## event
+## Keyword: event
+
+### Objects:
 * [midi.event2ctl](../midi.event2ctl.html)
 
 ---

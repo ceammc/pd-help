@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## wider
+## Keyword: wider
+
+### Objects:
 * [hoa.2d.wider~](../hoa.2d.wider~.html)
 
 ---

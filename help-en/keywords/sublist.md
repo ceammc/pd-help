@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## sublist
+## Keyword: sublist
+
+### Objects:
 * [list.slice](../list.slice.html)
 
 ---

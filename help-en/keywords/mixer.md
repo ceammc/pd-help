@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## mixer
+## Keyword: mixer
+
+### Objects:
 * [proto.feelworld](../proto.feelworld.html)
 
 ---

@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## environment
+## Keyword: environment
+
+### Objects:
 * [path.basename](../path.basename.html)
 * [path.dirname](../path.dirname.html)
 * [path.pattern](../path.pattern.html)

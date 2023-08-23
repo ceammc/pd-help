@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## blue
+## Keyword: blue
+
+### Objects:
 * [noise.colored~](../noise.colored~.html)
 
 ---

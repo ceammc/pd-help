@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## crackle
+## Keyword: crackle
+
+### Objects:
 * [noise.crackle~](../noise.crackle~.html)
 
 ---

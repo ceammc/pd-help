@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## clip
+## Keyword: clip
+
+### Objects:
 * [dyn.softclip~](../dyn.softclip~.html)
 
 ---

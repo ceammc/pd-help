@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## cue
+## Keyword: cue
+
+### Objects:
 * [tl.cue](../tl.cue.html)
 
 ---

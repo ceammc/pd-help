@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## rotate
+## Keyword: rotate
+
+### Objects:
 * [hoa.2d.rotate~](../hoa.2d.rotate~.html)
 * [list.rotate](../list.rotate.html)
 

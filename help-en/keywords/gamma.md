@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## gamma
+## Keyword: gamma
+
+### Objects:
 * [math.gamma](../math.gamma.html)
 * [math.gamma~](../math.gamma~.html)
 * [math.lgamma](../math.lgamma.html)

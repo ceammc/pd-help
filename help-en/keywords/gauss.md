@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## gauss
+## Keyword: gauss
+
+### Objects:
 * [math.erf](../math.erf.html)
 * [math.erf~](../math.erf~.html)
 * [random.gauss](../random.gauss.html)

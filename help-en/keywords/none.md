@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## none
+## Keyword: none
+
+### Objects:
 * [list.none_of](../list.none_of.html)
 
 ---

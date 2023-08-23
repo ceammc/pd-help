@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## color
+## Keyword: color
+
+### Objects:
 * [ui.colorpanel](../ui.colorpanel.html)
 
 ---

@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## geom
+## Keyword: geom
+
+### Objects:
 * [plot.geomspace~](../plot.geomspace~.html)
 * [plot.logspace~](../plot.logspace~.html)
 

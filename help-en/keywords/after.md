@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## after
+## Keyword: after
+
+### Objects:
 * [msg.after](../msg.after.html)
 
 ---

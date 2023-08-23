@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## linear
+## Keyword: linear
+
+### Objects:
 * [conv.lin2lin](../conv.lin2lin.html)
 * [conv.lin2lin~](../conv.lin2lin~.html)
 * [plot.linspace~](../plot.linspace~.html)

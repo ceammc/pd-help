@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## dir
+## Keyword: dir
+
+### Objects:
 * [path.is_dir](../path.is_dir.html)
 
 ---

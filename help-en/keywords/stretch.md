@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## stretch
+## Keyword: stretch
+
+### Objects:
 * [array.stretch](../array.stretch.html)
 
 ---

@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## pluck
+## Keyword: pluck
+
+### Objects:
 * [synth.sitar~](../synth.sitar~.html)
 
 ---

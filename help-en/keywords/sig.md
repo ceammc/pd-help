@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## sig
+## Keyword: sig
+
+### Objects:
 * [nsig~](../nsig~.html)
 
 ---

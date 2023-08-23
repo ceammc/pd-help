@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## apply
+## Keyword: apply
+
+### Objects:
 * [list.apply_to](../list.apply_to.html)
 
 ---

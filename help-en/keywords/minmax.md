@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## minmax
+## Keyword: minmax
+
+### Objects:
 * [array.minmax](../array.minmax.html)
 
 ---

@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## join
+## Keyword: join
+
+### Objects:
 * [string.join](../string.join.html)
 
 ---

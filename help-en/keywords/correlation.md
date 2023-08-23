@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## correlation
+## Keyword: correlation
+
+### Objects:
 * [list.correlate](../list.correlate.html)
 
 ---

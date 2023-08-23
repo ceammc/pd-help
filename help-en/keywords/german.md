@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## german
+## Keyword: german
+
+### Objects:
 * [synth.german_bell~](../synth.german_bell~.html)
 * [synth.standard_bell~](../synth.standard_bell~.html)
 

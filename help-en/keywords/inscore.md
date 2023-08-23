@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## inscore
+## Keyword: inscore
+
+### Objects:
 * [proto.inscore](../proto.inscore.html)
 
 ---

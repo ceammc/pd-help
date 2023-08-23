@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## footswitch
+## Keyword: footswitch
+
+### Objects:
 * [proto.sp.alpaca](../proto.sp.alpaca.html)
 
 ---

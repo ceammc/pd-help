@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## rubberband
+## Keyword: rubberband
+
+### Objects:
 * [fx.rb_pitchshift~](../fx.rb_pitchshift~.html)
 
 ---

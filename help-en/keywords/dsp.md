@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## dsp
+## Keyword: dsp
+
+### Objects:
 * [ui.dsp~](../ui.dsp~.html)
 
 ---

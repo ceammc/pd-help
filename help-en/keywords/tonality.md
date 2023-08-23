@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## tonality
+## Keyword: tonality
+
+### Objects:
 * [midi.modus](../midi.modus.html)
 
 ---

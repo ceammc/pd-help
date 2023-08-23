@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## events
+## Keyword: events
+
+### Objects:
 * [ui.mouse_filter](../ui.mouse_filter.html)
 * [ui.mouse_route](../ui.mouse_route.html)
 

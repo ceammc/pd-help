@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## knob
+## Keyword: knob
+
+### Objects:
 * [ui.knob](../ui.knob.html)
 
 ---

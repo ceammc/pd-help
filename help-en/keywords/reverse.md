@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## reverse
+## Keyword: reverse
+
+### Objects:
 * [list.reverse](../list.reverse.html)
 
 ---

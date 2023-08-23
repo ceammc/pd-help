@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## repeat
+## Keyword: repeat
+
+### Objects:
 * [flow.dup](../flow.dup.html)
 * [list.repeat](../list.repeat.html)
 

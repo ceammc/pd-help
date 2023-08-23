@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## train
+## Keyword: train
+
+### Objects:
 * [lfo.+pulse~](../lfo.+pulse~.html)
 * [lfo.pulse~](../lfo.pulse~.html)
 

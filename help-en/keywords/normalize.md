@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## normalize
+## Keyword: normalize
+
+### Objects:
 * [list.normalize](../list.normalize.html)
 * [path.normalize](../path.normalize.html)
 

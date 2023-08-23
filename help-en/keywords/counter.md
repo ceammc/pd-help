@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## counter
+## Keyword: counter
+
+### Objects:
 * [flow.count](../flow.count.html)
 * [flow.queue](../flow.queue.html)
 * [seq.counter](../seq.counter.html)

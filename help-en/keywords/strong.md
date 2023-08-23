@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## strong
+## Keyword: strong
+
+### Objects:
 * [synth.ks~](../synth.ks~.html)
 
 ---

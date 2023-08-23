@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## division
+## Keyword: division
+
+### Objects:
 * [math.cdiv~](../math.cdiv~.html)
 * [math.sync_div](../math.sync_div.html)
 

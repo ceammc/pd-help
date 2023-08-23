@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## curve
+## Keyword: curve
+
+### Objects:
 * [conv.lin2curve](../conv.lin2curve.html)
 
 ---

@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## looper
+## Keyword: looper
+
+### Objects:
 * [fx.looper~](../fx.looper~.html)
 
 ---

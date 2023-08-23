@@ -1,7 +1,9 @@
 [index](../index.html)
 ---
 
-## motion
+## Keyword: motion
+
+### Objects:
 * [hw.apple_smc](../hw.apple_smc.html)
 * [hw.apple_sms](../hw.apple_sms.html)
 * [hw.cpu_temp](../hw.cpu_temp.html)

@@ -1,34 +1,90 @@
-[< справка — содержание](index.html)
+[index](index.html) :: [list](category_list.html)
 ---
 
 # list.gen
 
+###### generates list of specified length via external generator
 
-Создает список указанной длины при помощи внешнего генератора
-
----
-
-Обратите внимание: длина списка ограничена 1024 элементами
-<br>
-
+*доступно с версии:* 0.1
 
 ---
 
 
-![example](examples/list.gen-example.jpg)
+## информация
+Note, that maximum length limited to 1024 elements.
 
----
-аргументы:
 
-N: длина сгенерированного символа<br>
+[![example](../examples/img/list.gen.jpg)](../examples/pd/list.gen.pd)
 
----
-свойства:
 
-@count: длина сгенерированного списка<br>
 
----
-смотрите также:<br>
-[![list.seq](img/object_list.seq.png)](list.seq.html)
-[![list.shuffle](img/object_list.shuffle.png)](list.shuffle.html)
-[![list.choice](img/object_list.choice.png)](list.choice.html)
+## аргументы:
+
+* **COUNT**
+length of generated list<br>
+_тип:_ int<br>
+
+
+
+## методы:
+
+* **dump**
+dump internal object state to Pd console window<br>
+
+
+
+
+## свойства:
+
+* **@count** 
+Запросить/установить length of generated list<br>
+_тип:_ int<br>
+_диапазон:_ 1..1024<br>
+_по умолчанию:_ 1<br>
+
+
+
+## входы:
+
+* starts list generation<br>
+_тип:_ control
+* input for generated values<br>
+_тип:_ control
+
+
+
+## выходы:
+
+* generated list<br>
+_тип:_ control
+* bang output for generator object<br>
+_тип:_ control
+
+
+
+## ключевые слова:
+
+[list](keywords/list.html)
+[generate](keywords/generate.html)
+
+
+
+**Смотрите также:**
+[\[list.seq\]](list.seq.html)
+[\[list.shuffle\]](list.shuffle.html)
+[\[list.choice\]](list.choice.html)
+
+
+
+
+**Авторы:** Serge Poltavsky
+
+
+
+
+**Лицензия:** GPL3 or later
+
+
+
+
+

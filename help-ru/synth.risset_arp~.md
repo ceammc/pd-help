@@ -104,9 +104,9 @@ _тип:_ control
 
 ## выходы:
 
-* None<br>
+*  <br>
 _тип:_ audio
-* None<br>
+*  <br>
 _тип:_ audio
 
 

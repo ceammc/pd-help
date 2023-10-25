@@ -106,7 +106,7 @@ _тип:_ control
 
 ## выходы:
 
-* None<br>
+*  <br>
 _тип:_ audio
 
 

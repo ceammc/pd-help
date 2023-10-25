@@ -51,8 +51,27 @@ _тип:_ list<br>
 
 ## методы:
 
-* **clear**
-remove all envelope points<br>
+* *****
+multiply all envelope points to specified value<br>
+  __параметры:__
+  - **VALUE** value<br>
+    тип: float <br>
+    обязательно: True <br>
+
+* **+**
+add specified value to all envelope points<br>
+  __параметры:__
+  - **VALUE** value<br>
+    тип: float <br>
+    обязательно: True <br>
+
+* **&gt;&gt;**
+shift all envelope point by specified time in milliseconds<br>
+  __параметры:__
+  - **SHIFT** value<br>
+    тип: float <br>
+    единица: ms <br>
+    обязательно: True <br>
 
 * **add_point**
 add envelope point<br>
@@ -73,6 +92,206 @@ add envelope point<br>
     тип: symbol <br>
 
   - **[CURVE=1]** exponential curve degree: 0 (linear) &lt;0 (concave, negatively curved) &gt;0 (convex, positively curved)<br>
+    тип: float <br>
+
+* **add_seg**
+add segment to the end of envelope. On empty envelope adds start point at 0ms
+and 0 value<br>
+  __параметры:__
+  - **TYPE** segment type<br>
+    тип: symbol <br>
+    обязательно: True <br>
+
+  - **LENGTH** segment length<br>
+    тип: float <br>
+    единица: ms <br>
+    обязательно: True <br>
+
+  - **VALUE** end segment value<br>
+    тип: float <br>
+    обязательно: True <br>
+
+  - **[CURVE=0]** curve (for exp and sigmoid type)<br>
+    тип: float <br>
+
+* **adsr**
+creates ADSR envelope with one stop point<br>
+  __параметры:__
+  - **ATTACK** attack time<br>
+    тип: float <br>
+    единица: ms <br>
+    обязательно: True <br>
+
+  - **DECAY** decay time<br>
+    тип: float <br>
+    единица: ms <br>
+    обязательно: True <br>
+
+  - **SUSTAIN** sustain level<br>
+    тип: float <br>
+    единица: % <br>
+    обязательно: True <br>
+
+  - **RELEASE** release time<br>
+    тип: float <br>
+    единица: ms <br>
+    обязательно: True <br>
+
+* **ar**
+creates AR envelope without stop points<br>
+  __параметры:__
+  - **ATTACK** attack time<br>
+    тип: float <br>
+    единица: ms <br>
+    обязательно: True <br>
+
+  - **RELEASE** release time<br>
+    тип: float <br>
+    единица: ms <br>
+    обязательно: True <br>
+
+* **asr**
+creates ASR envelope with one stop point<br>
+  __параметры:__
+  - **ATTACK** attack time<br>
+    тип: float <br>
+    единица: ms <br>
+    обязательно: True <br>
+
+  - **RELEASE** release time<br>
+    тип: float <br>
+    единица: ms <br>
+    обязательно: True <br>
+
+* **clear**
+remove all envelope points<br>
+
+* **eadsr**
+creates exponential ADSR envelope with one stop point<br>
+  __параметры:__
+  - **ATTACK** attack time<br>
+    тип: float <br>
+    единица: ms <br>
+    обязательно: True <br>
+
+  - **ATTACK_CURVE** attack segment curve<br>
+    тип: float <br>
+    обязательно: True <br>
+
+  - **DECAY** decay time<br>
+    тип: float <br>
+    единица: ms <br>
+    обязательно: True <br>
+
+  - **DECAY_CURVE** decay segment curve<br>
+    тип: float <br>
+    обязательно: True <br>
+
+  - **SUSTAIN** sustain level<br>
+    тип: float <br>
+    единица: % <br>
+    обязательно: True <br>
+
+  - **RELEASE** release time<br>
+    тип: float <br>
+    единица: ms <br>
+    обязательно: True <br>
+
+  - **RELEASE_CURVE** release segment curve<br>
+    тип: float <br>
+    обязательно: True <br>
+
+* **ear**
+creates exponential AR envelope without stop points<br>
+  __параметры:__
+  - **ATTACK** attack time<br>
+    тип: float <br>
+    единица: ms <br>
+    обязательно: True <br>
+
+  - **ATTACK_CURVE** attack segment curve<br>
+    тип: float <br>
+    обязательно: True <br>
+
+  - **RELEASE** release time<br>
+    тип: float <br>
+    единица: ms <br>
+    обязательно: True <br>
+
+  - **RELEASE_CURVE** release segment curve<br>
+    тип: float <br>
+    обязательно: True <br>
+
+* **easr**
+creates exponential AR envelope with one stop point<br>
+  __параметры:__
+  - **ATTACK** attack time<br>
+    тип: float <br>
+    единица: ms <br>
+    обязательно: True <br>
+
+  - **ATTACK_CURVE** attack segment curve<br>
+    тип: float <br>
+    обязательно: True <br>
+
+  - **RELEASE** release time<br>
+    тип: float <br>
+    единица: ms <br>
+    обязательно: True <br>
+
+  - **RELEASE_CURVE** release segment curve<br>
+    тип: float <br>
+    обязательно: True <br>
+
+* **exp**
+creates exponential-segmented envelope with arbitrary number of segments<br>
+  __параметры:__
+  - **VAL0** begin value<br>
+    тип: float <br>
+    обязательно: True <br>
+
+  - **LEN0** line length<br>
+    тип: float <br>
+    единица: ms <br>
+    обязательно: True <br>
+
+  - **CURVE0** segment curve<br>
+    тип: float <br>
+    обязательно: True <br>
+
+  - **VAL1** value<br>
+    тип: float <br>
+    обязательно: True <br>
+
+  - **[LEN1]** segment length<br>
+    тип: float <br>
+
+  - **[CURVE1]** segment curve<br>
+    тип: float <br>
+
+  - **[VAL2]** value<br>
+    тип: float <br>
+
+* **line**
+creates line-segmented envelope with arbitrary number of segments<br>
+  __параметры:__
+  - **VAL0** begin value<br>
+    тип: float <br>
+    обязательно: True <br>
+
+  - **LEN0** line length<br>
+    тип: float <br>
+    единица: ms <br>
+    обязательно: True <br>
+
+  - **VAL1** value<br>
+    тип: float <br>
+    обязательно: True <br>
+
+  - **[LEN1]** segment length<br>
+    тип: float <br>
+
+  - **[VAL2]** value<br>
     тип: float <br>
 
 * **remove_point**
@@ -124,59 +343,6 @@ set point time<br>
     тип: int <br>
     обязательно: True <br>
 
-* **set_stop_point**
-set stop-point<br>
-  __параметры:__
-  - **IDX** point index<br>
-    тип: int <br>
-    обязательно: True <br>
-
-  - **IS_STOP** stop point<br>
-    тип: int <br>
-    обязательно: True <br>
-
-* **+**
-add specified value to all envelope points<br>
-  __параметры:__
-  - **VALUE** value<br>
-    тип: float <br>
-    обязательно: True <br>
-
-* *****
-multiply all envelope points to specified value<br>
-  __параметры:__
-  - **VALUE** value<br>
-    тип: float <br>
-    обязательно: True <br>
-
-* **&gt;&gt;**
-shift all envelope point by specified time in milliseconds<br>
-  __параметры:__
-  - **SHIFT** value<br>
-    тип: float <br>
-    единица: ms <br>
-    обязательно: True <br>
-
-* **add_seg**
-add segment to the end of envelope. On empty envelope adds start point at 0ms
-and 0 value<br>
-  __параметры:__
-  - **TYPE** segment type<br>
-    тип: symbol <br>
-    обязательно: True <br>
-
-  - **LENGTH** segment length<br>
-    тип: float <br>
-    единица: ms <br>
-    обязательно: True <br>
-
-  - **VALUE** end segment value<br>
-    тип: float <br>
-    обязательно: True <br>
-
-  - **[CURVE=0]** curve (for exp and sigmoid type)<br>
-    тип: float <br>
-
 * **set_seg_type**
 set segment type<br>
   __параметры:__
@@ -188,156 +354,19 @@ set segment type<br>
     тип: symbol <br>
     обязательно: True <br>
 
-* **adsr**
-creates ADSR envelope with one stop point<br>
+* **set_stop_point**
+set stop-point<br>
   __параметры:__
-  - **ATTACK** attack time<br>
-    тип: float <br>
-    единица: ms <br>
+  - **IDX** point index<br>
+    тип: int <br>
     обязательно: True <br>
 
-  - **DECAY** decay time<br>
-    тип: float <br>
-    единица: ms <br>
+  - **IS_STOP** stop point<br>
+    тип: int <br>
     обязательно: True <br>
 
-  - **SUSTAIN** sustain level<br>
-    тип: float <br>
-    единица: % <br>
-    обязательно: True <br>
-
-  - **RELEASE** release time<br>
-    тип: float <br>
-    единица: ms <br>
-    обязательно: True <br>
-
-* **asr**
-creates ASR envelope with one stop point<br>
-  __параметры:__
-  - **ATTACK** attack time<br>
-    тип: float <br>
-    единица: ms <br>
-    обязательно: True <br>
-
-  - **RELEASE** release time<br>
-    тип: float <br>
-    единица: ms <br>
-    обязательно: True <br>
-
-* **ar**
-creates AR envelope without stop points<br>
-  __параметры:__
-  - **ATTACK** attack time<br>
-    тип: float <br>
-    единица: ms <br>
-    обязательно: True <br>
-
-  - **RELEASE** release time<br>
-    тип: float <br>
-    единица: ms <br>
-    обязательно: True <br>
-
-* **eadsr**
-creates exponential ADSR envelope with one stop point<br>
-  __параметры:__
-  - **ATTACK** attack time<br>
-    тип: float <br>
-    единица: ms <br>
-    обязательно: True <br>
-
-  - **ATTACK_CURVE** attack segment curve<br>
-    тип: float <br>
-    обязательно: True <br>
-
-  - **DECAY** decay time<br>
-    тип: float <br>
-    единица: ms <br>
-    обязательно: True <br>
-
-  - **DECAY_CURVE** decay segment curve<br>
-    тип: float <br>
-    обязательно: True <br>
-
-  - **SUSTAIN** sustain level<br>
-    тип: float <br>
-    единица: % <br>
-    обязательно: True <br>
-
-  - **RELEASE** release time<br>
-    тип: float <br>
-    единица: ms <br>
-    обязательно: True <br>
-
-  - **RELEASE_CURVE** release segment curve<br>
-    тип: float <br>
-    обязательно: True <br>
-
-* **easr**
-creates exponential AR envelope with one stop point<br>
-  __параметры:__
-  - **ATTACK** attack time<br>
-    тип: float <br>
-    единица: ms <br>
-    обязательно: True <br>
-
-  - **ATTACK_CURVE** attack segment curve<br>
-    тип: float <br>
-    обязательно: True <br>
-
-  - **RELEASE** release time<br>
-    тип: float <br>
-    единица: ms <br>
-    обязательно: True <br>
-
-  - **RELEASE_CURVE** release segment curve<br>
-    тип: float <br>
-    обязательно: True <br>
-
-* **ear**
-creates exponential AR envelope without stop points<br>
-  __параметры:__
-  - **ATTACK** attack time<br>
-    тип: float <br>
-    единица: ms <br>
-    обязательно: True <br>
-
-  - **ATTACK_CURVE** attack segment curve<br>
-    тип: float <br>
-    обязательно: True <br>
-
-  - **RELEASE** release time<br>
-    тип: float <br>
-    единица: ms <br>
-    обязательно: True <br>
-
-  - **RELEASE_CURVE** release segment curve<br>
-    тип: float <br>
-    обязательно: True <br>
-
-* **step**
-creates step-segmented envelope with arbitrary number of segments<br>
-  __параметры:__
-  - **VAL0** begin value<br>
-    тип: float <br>
-    обязательно: True <br>
-
-  - **LEN0** step length<br>
-    тип: float <br>
-    единица: ms <br>
-    обязательно: True <br>
-
-  - **VAL1** value<br>
-    тип: float <br>
-    обязательно: True <br>
-
-  - **[LEN1]** segment length<br>
-    тип: float <br>
-
-  - **[VAL2]** value<br>
-    тип: float <br>
-
-* **line**
-creates line-segmented envelope with arbitrary number of segments<br>
+* **sigmoid**
+creates sigmoid-segmented envelope with arbitrary number of segments<br>
   __параметры:__
   - **VAL0** begin value<br>
     тип: float <br>
@@ -348,11 +377,18 @@ creates line-segmented envelope with arbitrary number of segments<br>
     единица: ms <br>
     обязательно: True <br>
 
+  - **CURVE0** segment curve<br>
+    тип: float <br>
+    обязательно: True <br>
+
   - **VAL1** value<br>
     тип: float <br>
     обязательно: True <br>
 
   - **[LEN1]** segment length<br>
+    тип: float <br>
+
+  - **[CURVE1]** segment curve<br>
     тип: float <br>
 
   - **[VAL2]** value<br>
@@ -380,20 +416,16 @@ creates quadratic sine-segmented envelope with arbitrary number of segments<br>
   - **[VAL2]** value<br>
     тип: float <br>
 
-* **exp**
-creates exponential-segmented envelope with arbitrary number of segments<br>
+* **step**
+creates step-segmented envelope with arbitrary number of segments<br>
   __параметры:__
   - **VAL0** begin value<br>
     тип: float <br>
     обязательно: True <br>
 
-  - **LEN0** line length<br>
+  - **LEN0** step length<br>
     тип: float <br>
     единица: ms <br>
-    обязательно: True <br>
-
-  - **CURVE0** segment curve<br>
-    тип: float <br>
     обязательно: True <br>
 
   - **VAL1** value<br>
@@ -401,38 +433,6 @@ creates exponential-segmented envelope with arbitrary number of segments<br>
     обязательно: True <br>
 
   - **[LEN1]** segment length<br>
-    тип: float <br>
-
-  - **[CURVE1]** segment curve<br>
-    тип: float <br>
-
-  - **[VAL2]** value<br>
-    тип: float <br>
-
-* **sigmoid**
-creates sigmoid-segmented envelope with arbitrary number of segments<br>
-  __параметры:__
-  - **VAL0** begin value<br>
-    тип: float <br>
-    обязательно: True <br>
-
-  - **LEN0** line length<br>
-    тип: float <br>
-    единица: ms <br>
-    обязательно: True <br>
-
-  - **CURVE0** segment curve<br>
-    тип: float <br>
-    обязательно: True <br>
-
-  - **VAL1** value<br>
-    тип: float <br>
-    обязательно: True <br>
-
-  - **[LEN1]** segment length<br>
-    тип: float <br>
-
-  - **[CURVE1]** segment curve<br>
     тип: float <br>
 
   - **[VAL2]** value<br>

@@ -1,0 +1,170 @@
+[index](index.html) :: [spat](category_spat.html)
+---
+
+# hoa.3d.map~
+
+###### a 3d ambisonic multisource spatializer
+
+*доступно с версии:* 0.9.7
+
+---
+
+
+## информация
+Encodes several sources in the circular harmonics domain with distance compensation and muting system If @nsrc 1: radius, azimuth and elevation are controlled with signal values Note: source indexes are 1-based.
+
+
+[![example](../examples/img/hoa.3d.map~.jpg)](../examples/pd/hoa.3d.map~.pd)
+
+
+
+## аргументы:
+
+* **ORDER**
+the order of decomposition<br>
+_тип:_ int<br>
+
+* **NSRC**
+number of sources<br>
+_тип:_ int<br>
+
+* **MODE**
+coordinates mode<br>
+_тип:_ symbol<br>
+
+
+
+## методы:
+
+* **mute**
+mute/unmute specified source<br>
+  __параметры:__
+  - **IDX** source index. 1-based<br>
+    тип: int <br>
+    обязательно: True <br>
+
+  - **STATE** mute value<br>
+    тип: int <br>
+    обязательно: True <br>
+
+* **polar**
+set source mapping in polar coordinates<br>
+  __параметры:__
+  - **IDX** source index. 1-based<br>
+    тип: int <br>
+    обязательно: True <br>
+
+  - **RAD** radius<br>
+    тип: float <br>
+    обязательно: True <br>
+
+  - **AZIM** azimuth angle<br>
+    тип: float <br>
+    единица: rad <br>
+    обязательно: True <br>
+
+  - **ELEV** elevation<br>
+    тип: float <br>
+    единица: rad <br>
+    обязательно: True <br>
+
+* **cartesian**
+set source mapping in cartesian coordinates<br>
+  __параметры:__
+  - **IDX** source index. 1-based<br>
+    тип: int <br>
+    обязательно: True <br>
+
+  - **X** x coordinate<br>
+    тип: float <br>
+    обязательно: True <br>
+
+  - **Y** y coordinate<br>
+    тип: float <br>
+    обязательно: True <br>
+
+  - **Z** z coordinate<br>
+    тип: float <br>
+    обязательно: True <br>
+
+* **pol**
+alias to polar method<br>
+
+* **car**
+alias to cartesian method<br>
+
+
+
+
+## свойства:
+
+* **@order** (initonly)
+Запросить/установить the order of decomposition<br>
+_тип:_ int<br>
+_диапазон:_ 1..10<br>
+_по умолчанию:_ 1<br>
+
+* **@nsrc** (initonly)
+Запросить/установить number of input sources<br>
+_тип:_ int<br>
+_минимальное значение:_ 1<br>
+_по умолчанию:_ 1<br>
+
+* **@ramp** 
+Запросить/установить ramp time<br>
+_тип:_ float<br>
+_минимальное значение:_ 0<br>
+_по умолчанию:_ 100<br>
+
+* **@mode** 
+Запросить/установить coordinates mode in signal control mode (with @nsrc 1), polar or cartesian<br>
+_тип:_ symbol<br>
+_варианты:_ car, pol<br>
+_по умолчанию:_ pol<br>
+
+
+
+## входы:
+
+* first source input<br>
+_тип:_ audio
+* ... source input<br>
+_тип:_ audio
+* n-th source input<br>
+_тип:_ audio
+
+
+
+## выходы:
+
+* first harmonic output<br>
+_тип:_ audio
+* ... harmonic output<br>
+_тип:_ audio
+* n-th harmonic output<br>
+_тип:_ audio
+
+
+
+## ключевые слова:
+
+[hoa](keywords/hoa.html)
+[map](keywords/map.html)
+[3d](keywords/3d.html)
+
+
+
+
+
+
+**Авторы:** Serge Poltavsky, Pierre Guillot, Eliott Paris, Thomas Le Meur
+
+
+
+
+**Лицензия:** GPL3 or later
+
+
+
+
+

@@ -66,6 +66,15 @@ _единица:_ Hz<br>
 _диапазон:_ 400..3500<br>
 _по умолчанию:_ 3500<br>
 
+* **@osc** (initonly)
+Запросить/установить OSC server name to listen<br>
+_тип:_ symbol<br>
+
+* **@id** (initonly)
+Запросить/установить OSC address id. If specified, bind all properties to /ID/synth_clap/PROP_NAME
+osc address, if empty bind to /synth_clap/PROP_NAME.<br>
+_тип:_ symbol<br>
+
 
 
 ## входы:

@@ -31,6 +31,12 @@ _единица:_ ms<br>
 
 ## методы:
 
+* **reset**
+stop bang output and reset bang counter<br>
+
+* **rewind**
+reset all counters without stopping<br>
+
 * **start**
 start/stop<br>
   __параметры:__
@@ -39,12 +45,6 @@ start/stop<br>
 
 * **stop**
 stop bang output<br>
-
-* **reset**
-stop bang output and reset bang counter<br>
-
-* **rewind**
-reset all counters without stopping<br>
 
 * **tick**
 manually output current sequence element and move to next<br>
@@ -74,6 +74,25 @@ _тип:_ float<br>
 _единица:_ ms<br>
 _диапазон:_ 1..20000<br>
 _по умолчанию:_ 0<br>
+
+* **@div** 
+Запросить/установить beat subdivision<br>
+_тип:_ int<br>
+_диапазон:_ 1..64<br>
+_по умолчанию:_ 1<br>
+
+* **@accel** 
+Запросить/установить tempo acceleration. 1 - no acceleration, &gt;1 - speed up, &lt;1 - slow down<br>
+_тип:_ float<br>
+_диапазон:_ 0.25..4<br>
+_по умолчанию:_ 1<br>
+
+* **@curve** 
+Запросить/установить acceleration curve. Values &gt;&gt;0 - slow changes, then fast encrease. Values &lt;0 -
+fast changes, then slower<br>
+_тип:_ float<br>
+_диапазон:_ -8..8<br>
+_по умолчанию:_ 1<br>
 
 
 

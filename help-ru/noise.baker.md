@@ -28,6 +28,37 @@ _тип:_ float<br>
 
 ## методы:
 
+* **cut**
+<br>
+  __параметры:__
+  - **CUT** cut value [0..1]<br>
+    тип: float <br>
+    обязательно: True <br>
+
+* **fold**
+<br>
+  __параметры:__
+  - **FOLD** fold value [0..1]<br>
+    тип: float <br>
+    обязательно: True <br>
+
+* **fold_cut**
+<br>
+  __параметры:__
+  - **FOLD_CUT** enable fold / cut value action<br>
+    тип: int <br>
+    обязательно: True <br>
+
+* **om**
+<br>
+  __параметры:__
+  - **OM** enables output when cut or fold value is changed<br>
+    тип: int <br>
+    обязательно: True <br>
+
+* **reset**
+reset state<br>
+
 * **seed**
 <br>
   __параметры:__
@@ -40,37 +71,6 @@ _тип:_ float<br>
   __параметры:__
   - **SET** set to value<br>
     тип: float <br>
-    обязательно: True <br>
-
-* **reset**
-reset state<br>
-
-* **om**
-<br>
-  __параметры:__
-  - **OM** enables output when cut or fold value is changed<br>
-    тип: int <br>
-    обязательно: True <br>
-
-* **fold**
-<br>
-  __параметры:__
-  - **FOLD** fold value [0..1]<br>
-    тип: float <br>
-    обязательно: True <br>
-
-* **cut**
-<br>
-  __параметры:__
-  - **CUT** cut value [0..1]<br>
-    тип: float <br>
-    обязательно: True <br>
-
-* **fold_cut**
-<br>
-  __параметры:__
-  - **FOLD_CUT** enable fold / cut value action<br>
-    тип: int <br>
     обязательно: True <br>
 
 

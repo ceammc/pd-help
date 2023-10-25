@@ -18,13 +18,19 @@
 
 ## аргументы:
 
-* **VALUES**
+* **V**
 sequence elements<br>
 _тип:_ list<br>
 
 
 
 ## методы:
+
+* **reset**
+reset counters and stop<br>
+
+* **rewind**
+reset all counters without stopping<br>
 
 * **start**
 start/stop<br>
@@ -34,12 +40,6 @@ start/stop<br>
 
 * **stop**
 stop output<br>
-
-* **reset**
-reset counters and stop<br>
-
-* **rewind**
-reset all counters without stopping<br>
 
 * **tick**
 manually output current element and move to next<br>
@@ -85,12 +85,22 @@ _тип:_ alias<br>
 * **@i** (readonly)
 Запросить current sequence iteration<br>
 _тип:_ int<br>
-_минимальное значение:_ 0<br>
 _по умолчанию:_ 0<br>
 
 * **@ri** (readonly)
 Запросить current repeat iteration<br>
 _тип:_ int<br>
+_по умолчанию:_ 0<br>
+
+* **@div** 
+Запросить/установить beat subdivision<br>
+_тип:_ int<br>
+_диапазон:_ 1..64<br>
+_по умолчанию:_ 1<br>
+
+* **@upbeat** 
+Запросить/установить wait specified number of beats before sequence start<br>
+_тип:_ float<br>
 _минимальное значение:_ 0<br>
 _по умолчанию:_ 0<br>
 

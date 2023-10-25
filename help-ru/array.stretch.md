@@ -65,6 +65,7 @@ _по умолчанию:_ 1<br>
 * **@speech** 
 Запросить/установить optimize for speech sound source<br>
 _тип:_ bool<br>
+_по умолчанию:_ 0<br>
 
 * **@antialias** 
 Запросить/установить use of anti-alias filter. Anti-alias filter is used to prevent folding of high

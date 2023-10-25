@@ -20,7 +20,7 @@
 
 * **COEFFS**
 coefficient list<br>
-_тип:_ float<br>
+_тип:_ list<br>
 
 
 

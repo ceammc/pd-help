@@ -22,13 +22,6 @@ Firmata basic protocol support.
 
 ## методы:
 
-* **firmware?**
-query firmata protocol version. Returns message like: [firmware
-ARDUINO_FIRMWARE_NAME.ino MAJOR MINOR(<br>
-
-* **version?**
-query firmata protocol version. Returns message like: [version MAJOR MINOR(<br>
-
 * **apin_mapping?**
 query mapping between analog port number and digital pin. Analog messages are
 numbered 0 to 15, which traditionally refer to the Arduino pins labeled A0, A1,
@@ -42,29 +35,9 @@ sequence of messages like: [apin_mapping A# PIN#(, where # is number<br>
 query pin capabilities. Return sequence of messages like: [pin_info PIN# MODE
 RESOLUTION(, where # is pin number<br>
 
-* **pin_state?**
-query pin state. The pin state is any data written to the pin (it is important
-to note that pin state != pin value). For output modes (digital output, PWM,
-and Servo), the state is any value that has been previously written to the pin.
-For input modes, typically the state is zero. However, for digital inputs, the
-state is the status of the pull-up resistor which is 1 if enabled, 0 if
-disabled. Returns message like [pin_state PIN# MODE state(, where # is pin
-number<br>
-  __параметры:__
-  - **PIN#** pin number<br>
-    тип: int <br>
-    обязательно: True <br>
-
-* **samp_interval**
-sets sampling interval - how often analog data and i2c data is reported to the
-client. The default for the arduino implementation is 19ms. This means that
-every 19ms analog data will be reported and any i2c devices with read
-continuous mode will be read.<br>
-  __параметры:__
-  - **TIME** time<br>
-    тип: int <br>
-    единица: ms <br>
-    обязательно: True <br>
+* **firmware?**
+query firmata protocol version. Returns message like: [firmware
+ARDUINO_FIRMWARE_NAME.ino MAJOR MINOR(<br>
 
 * **pin_mode**
 sets pin mode.<br>
@@ -77,25 +50,16 @@ sets pin mode.<br>
     тип: symbol <br>
     обязательно: True <br>
 
-* **write_dpin**
-write 1 or 0 to digital pin. Pin mode should be OUTPUT.<br>
+* **pin_state?**
+query pin state. The pin state is any data written to the pin (it is important
+to note that pin state != pin value). For output modes (digital output, PWM,
+and Servo), the state is any value that has been previously written to the pin.
+For input modes, typically the state is zero. However, for digital inputs, the
+state is the status of the pull-up resistor which is 1 if enabled, 0 if
+disabled. Returns message like [pin_state PIN# MODE state(, where # is pin
+number<br>
   __параметры:__
   - **PIN#** pin number<br>
-    тип: int <br>
-    обязательно: True <br>
-
-  - **VALUE** pin value<br>
-    тип: int <br>
-    обязательно: True <br>
-
-* **write_pwm**
-writes PWM (Pulse Width Modulation) value to specified pin.<br>
-  __параметры:__
-  - **PIN#** pin number<br>
-    тип: int <br>
-    обязательно: True <br>
-
-  - **VALUE** pin value<br>
     тип: int <br>
     обязательно: True <br>
 
@@ -118,6 +82,42 @@ turns on/off digital port value reporting.<br>
     обязательно: True <br>
 
   - **VALUE** value. If 1 - activates digital port reporting, messages like [dport PORT# value( are returned only on pin value change<br>
+    тип: int <br>
+    обязательно: True <br>
+
+* **samp_interval**
+sets sampling interval - how often analog data and i2c data is reported to the
+client. The default for the arduino implementation is 19ms. This means that
+every 19ms analog data will be reported and any i2c devices with read
+continuous mode will be read.<br>
+  __параметры:__
+  - **TIME** time<br>
+    тип: int <br>
+    единица: ms <br>
+    обязательно: True <br>
+
+* **version?**
+query firmata protocol version. Returns message like: [version MAJOR MINOR(<br>
+
+* **write_dpin**
+write 1 or 0 to digital pin. Pin mode should be OUTPUT.<br>
+  __параметры:__
+  - **PIN#** pin number<br>
+    тип: int <br>
+    обязательно: True <br>
+
+  - **VALUE** pin value<br>
+    тип: int <br>
+    обязательно: True <br>
+
+* **write_pwm**
+writes PWM (Pulse Width Modulation) value to specified pin.<br>
+  __параметры:__
+  - **PIN#** pin number<br>
+    тип: int <br>
+    обязательно: True <br>
+
+  - **VALUE** pin value<br>
     тип: int <br>
     обязательно: True <br>
 

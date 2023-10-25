@@ -28,6 +28,9 @@ _тип:_ symbol<br>
 
 ## методы:
 
+* **(....)**
+sets new list without output<br>
+
 * **append**
 adds values to the end of the list<br>
   __параметры:__
@@ -35,25 +38,34 @@ adds values to the end of the list<br>
     тип: atom <br>
     обязательно: True <br>
 
-* **prepend**
-inserts values to the list beginning<br>
-  __параметры:__
-  - **VAL** prepended value<br>
-    тип: atom <br>
-    обязательно: True <br>
-
-* **front**
-output first list element<br>
-
-* **back**
-output last list element<br>
-
 * **at**
 outputs atom at the specified position<br>
   __параметры:__
   - **IDX** position (negative indexes are supported: -1 means last element)<br>
     тип: int <br>
     обязательно: True <br>
+
+* **back**
+output last list element<br>
+
+* **choose**
+choose random element in list and output it<br>
+
+* **clear**
+removes all list elements<br>
+
+* **dump**
+dump object info to Pd window<br>
+
+* **fill**
+fills with specified value<br>
+  __параметры:__
+  - **VAL** fill value<br>
+    тип: atom <br>
+    обязательно: True <br>
+
+* **front**
+output first list element<br>
 
 * **insert**
 inserts values to the specified position<br>
@@ -66,30 +78,15 @@ inserts values to the specified position<br>
     тип: atom <br>
     обязательно: True <br>
 
-* **fill**
-fills with specified value<br>
-  __параметры:__
-  - **VAL** fill value<br>
-    тип: atom <br>
-    обязательно: True <br>
-
-* **reverse**
-reverses list<br>
-
-* **choose**
-choose random element in list and output it<br>
-
-* **shuffle**
-put elements in random order<br>
-
-* **sort**
-sorts list<br>
-
-* **clear**
-removes all list elements<br>
-
 * **pop**
 removes last list element<br>
+
+* **prepend**
+inserts values to the list beginning<br>
+  __параметры:__
+  - **VAL** prepended value<br>
+    тип: atom <br>
+    обязательно: True <br>
 
 * **remove**
 removes specified element<br>
@@ -98,6 +95,9 @@ removes specified element<br>
     тип: int <br>
     обязательно: True <br>
 
+* **reverse**
+reverses list<br>
+
 * **set**
 sets new list without output<br>
   __параметры:__
@@ -105,16 +105,21 @@ sets new list without output<br>
     тип: list <br>
     обязательно: True <br>
 
-* **dump**
-dump object info to Pd window<br>
+* **shuffle**
+put elements in random order<br>
 
-* **(....)**
-sets new list without output<br>
+* **sort**
+sorts list<br>
 
 
 
 
 ## свойства:
+
+* **@id** (initonly)
+Запросить/установить local variable id<br>
+_тип:_ symbol<br>
+_по умолчанию:_ default<br>
 
 * **@empty** (readonly)
 Запросить 1 if list is empty, otherwise 0<br>

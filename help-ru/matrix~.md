@@ -18,11 +18,11 @@
 
 ## аргументы:
 
-* **INS**
+* **INPUTS**
 number of matrix inputs (columns)<br>
 _тип:_ int<br>
 
-* **OUTS**
+* **OUTPUTS**
 number of matrix outputs (rows)<br>
 _тип:_ int<br>
 
@@ -46,14 +46,14 @@ on/off matrix cell. Note argument order: row, cols.<br>
 
 ## свойства:
 
-* **@inputs** (readonly)
-Запросить number of matrix inputs<br>
+* **@inputs** (initonly)
+Запросить/установить number of matrix inputs<br>
 _тип:_ int<br>
 _диапазон:_ 2..16<br>
 _по умолчанию:_ 2<br>
 
-* **@outputs** (readonly)
-Запросить number of matrix outputs<br>
+* **@outputs** (initonly)
+Запросить/установить number of matrix outputs<br>
 _тип:_ int<br>
 _диапазон:_ 2..16<br>
 _по умолчанию:_ 2<br>

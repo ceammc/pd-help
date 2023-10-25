@@ -18,6 +18,12 @@
 
 
 
+## методы:
+
+* **reset**
+reset object<br>
+
+
 
 
 ## свойства:
@@ -62,7 +68,7 @@ _диапазон:_ 0..1<br>
 _по умолчанию:_ 1<br>
 
 * **@bypass** 
-Запросить/установить if set to 1 - bypass &#39;effected&#39; signal.<br>
+Запросить/установить bypass flag. If true: bypass &#39;effected&#39; signal.<br>
 _тип:_ bool<br>
 _по умолчанию:_ 0<br>
 
@@ -70,6 +76,15 @@ _по умолчанию:_ 0<br>
 Запросить/установить on/off dsp processing<br>
 _тип:_ bool<br>
 _по умолчанию:_ 1<br>
+
+* **@osc** (initonly)
+Запросить/установить OSC server name to listen<br>
+_тип:_ symbol<br>
+
+* **@id** (initonly)
+Запросить/установить OSC address id. If specified, bind all properties to /ID/fx_flanger/PROP_NAME
+osc address, if empty bind to /fx_flanger/PROP_NAME.<br>
+_тип:_ symbol<br>
 
 
 

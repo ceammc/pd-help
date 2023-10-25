@@ -31,7 +31,12 @@ _тип:_ int<br>
 * **@value** 
 Запросить/установить gain coefficients per each output<br>
 _тип:_ list<br>
-_по умолчанию:_ 1 0<br>
+
+* **@n** (initonly)
+Запросить/установить number of output stereo channels<br>
+_тип:_ int<br>
+_диапазон:_ 2..16<br>
+_по умолчанию:_ 2<br>
 
 
 

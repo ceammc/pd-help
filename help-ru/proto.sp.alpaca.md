@@ -20,9 +20,6 @@
 
 ## методы:
 
-* **dump**
-dumps all object info to Pd console window.<br>
-
 * **brightness**
 set LED brightness<br>
   __параметры:__
@@ -30,20 +27,48 @@ set LED brightness<br>
     тип: float <br>
     обязательно: True <br>
 
+* **char**
+draw char at specified position<br>
+  __параметры:__
+  - **CH** char symbol or int value from 0 to 9<br>
+    тип: atom <br>
+    обязательно: True <br>
+
+  - **[XOFF]** horizontal character offset<br>
+    тип: int <br>
+
+* **char**
+draw char at specified position<br>
+  __параметры:__
+  - **CH** char symbol or int value from 0 to 9<br>
+    тип: atom <br>
+    обязательно: True <br>
+
+  - **[XOFF]** horizontal character offset<br>
+    тип: int <br>
+
 * **clear**
 clear LED display<br>
+
+* **col**
+draw column pixels<br>
+  __параметры:__
+  - **N** column index<br>
+    тип: int <br>
+    обязательно: True <br>
+
+  - **BITS** list of 0 and 1<br>
+    тип: list <br>
+    обязательно: True <br>
+
+* **dump**
+dumps all object info to Pd console window.<br>
 
 * **fill**
 fill LED display<br>
 
 * **invert**
 invert LED display<br>
-
-* **sync**
-force device to send it&#39;s button and mode state<br>
-
-* **version?**
-outputs device protocol version as message: [version N]<br>
 
 * **mode**
 set device jack mode<br>
@@ -71,44 +96,6 @@ draw/clear pixel on display matrix (6x8).<br>
     тип: int <br>
     обязательно: True <br>
 
-* **char**
-draw char at specified position<br>
-  __параметры:__
-  - **CH** char symbol or int value from 0 to 9<br>
-    тип: atom <br>
-    обязательно: True <br>
-
-  - **[XOFF]** horizontal character offset<br>
-    тип: int <br>
-
-* **char**
-draw char at specified position<br>
-  __параметры:__
-  - **CH** char symbol or int value from 0 to 9<br>
-    тип: atom <br>
-    обязательно: True <br>
-
-  - **[XOFF]** horizontal character offset<br>
-    тип: int <br>
-
-* **str**
-draw string<br>
-  __параметры:__
-  - **STR** string or int value from -9 to 99<br>
-    тип: atom <br>
-    обязательно: True <br>
-
-* **col**
-draw column pixels<br>
-  __параметры:__
-  - **N** column index<br>
-    тип: int <br>
-    обязательно: True <br>
-
-  - **BITS** list of 0 and 1<br>
-    тип: list <br>
-    обязательно: True <br>
-
 * **row**
 draw row pixels<br>
   __параметры:__
@@ -119,6 +106,19 @@ draw row pixels<br>
   - **BITS** list of 0 and 1<br>
     тип: list <br>
     обязательно: True <br>
+
+* **str**
+draw string<br>
+  __параметры:__
+  - **STR** string or int value from -9 to 99<br>
+    тип: atom <br>
+    обязательно: True <br>
+
+* **sync**
+force device to send it&#39;s button and mode state<br>
+
+* **version?**
+outputs device protocol version as message: [version N]<br>
 
 
 

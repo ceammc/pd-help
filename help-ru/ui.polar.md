@@ -20,18 +20,39 @@
 
 ## методы:
 
-* **dump**
-dumps all object info to Pd console window<br>
-
-* **set**
-sets slider position without output<br>
+* **cartesian**
+sets slider position in cartesian coords and output<br>
   __параметры:__
-  - **RAD** radius<br>
+  - **X** x-coord<br>
     тип: float <br>
     обязательно: True <br>
 
-  - **ANG** angle in degrees or radians (depends on @use_degrees property)<br>
+  - **Y** y-coord<br>
     тип: float <br>
+    обязательно: True <br>
+
+* **clear**
+clears specified preset<br>
+  __параметры:__
+  - **IDX** preset index<br>
+    тип: int <br>
+    обязательно: True <br>
+
+* **dump**
+dumps all object info to Pd console window<br>
+
+* **interp**
+interplolates between presets<br>
+  __параметры:__
+  - **IDX** preset fraction index<br>
+    тип: float <br>
+    обязательно: True <br>
+
+* **load**
+loads specified preset<br>
+  __параметры:__
+  - **IDX** preset index<br>
+    тип: int <br>
     обязательно: True <br>
 
 * **polar**
@@ -45,55 +66,6 @@ sets slider position in polar coords and output<br>
     тип: float <br>
     обязательно: True <br>
 
-* **cartesian**
-sets slider position in cartesian coords and output<br>
-  __параметры:__
-  - **X** x-coord<br>
-    тип: float <br>
-    обязательно: True <br>
-
-  - **Y** y-coord<br>
-    тип: float <br>
-    обязательно: True <br>
-
-* **rotate**
-rotate slider by specified angle<br>
-  __параметры:__
-  - **A** angle in degrees or radians (depends on @use_degrees property)<br>
-    тип: float <br>
-    обязательно: True <br>
-
-* **random**
-set to random value and output<br>
-
-* **load**
-loads specified preset<br>
-  __параметры:__
-  - **IDX** preset index<br>
-    тип: int <br>
-    обязательно: True <br>
-
-* **store**
-stores specified preset<br>
-  __параметры:__
-  - **IDX** preset index<br>
-    тип: int <br>
-    обязательно: True <br>
-
-* **clear**
-clears specified preset<br>
-  __параметры:__
-  - **IDX** preset index<br>
-    тип: int <br>
-    обязательно: True <br>
-
-* **interp**
-interplolates between presets<br>
-  __параметры:__
-  - **IDX** preset fraction index<br>
-    тип: float <br>
-    обязательно: True <br>
-
 * **pos**
 set UI element position<br>
   __параметры:__
@@ -103,6 +75,34 @@ set UI element position<br>
 
   - **Y** top right y-coord<br>
     тип: float <br>
+    обязательно: True <br>
+
+* **random**
+set to random value and output<br>
+
+* **rotate**
+rotate slider by specified angle<br>
+  __параметры:__
+  - **A** angle in degrees or radians (depends on @use_degrees property)<br>
+    тип: float <br>
+    обязательно: True <br>
+
+* **set**
+sets slider position without output<br>
+  __параметры:__
+  - **RAD** radius<br>
+    тип: float <br>
+    обязательно: True <br>
+
+  - **ANG** angle in degrees or radians (depends on @use_degrees property)<br>
+    тип: float <br>
+    обязательно: True <br>
+
+* **store**
+stores specified preset<br>
+  __параметры:__
+  - **IDX** preset index<br>
+    тип: int <br>
     обязательно: True <br>
 
 

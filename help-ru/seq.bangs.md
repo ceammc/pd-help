@@ -18,7 +18,7 @@
 
 ## аргументы:
 
-* **PATTERN**
+* **P**
 sequencer pattern in beat duration units<br>
 _тип:_ list<br>
 
@@ -26,14 +26,28 @@ _тип:_ list<br>
 
 ## методы:
 
-* **start**
-start sequencer from current position<br>
+* **hexbeat**
+set hexbeat bang pattern<br>
+  __параметры:__
+  - **PATTERN** hex-string beat pattern<br>
+    тип: symbol <br>
+    обязательно: True <br>
 
 * **reset**
 reset all counters and stop<br>
 
 * **rewind**
 reset all counters without stopping<br>
+
+* **skip**
+skip specified number of steps<br>
+  __параметры:__
+  - **N** number of steps to skip<br>
+    тип: int <br>
+    обязательно: True <br>
+
+* **start**
+start sequencer from current position<br>
 
 * **stop**
 stop sequencer<br>
@@ -78,16 +92,26 @@ _единица:_ ms<br>
 _минимальное значение:_ 0<br>
 _по умолчанию:_ 0<br>
 
+* **@div** 
+Запросить/установить beat subdivision<br>
+_тип:_ int<br>
+_диапазон:_ 1..64<br>
+_по умолчанию:_ 1<br>
+
+* **@upbeat** 
+Запросить/установить wait specified number of beats before sequence start<br>
+_тип:_ float<br>
+_минимальное значение:_ 0<br>
+_по умолчанию:_ 0<br>
+
 * **@i** (readonly)
 Запросить current sequence iteration<br>
 _тип:_ int<br>
-_минимальное значение:_ 0<br>
 _по умолчанию:_ 0<br>
 
 * **@ri** (readonly)
 Запросить current repeat iteration<br>
 _тип:_ int<br>
-_минимальное значение:_ 0<br>
 _по умолчанию:_ 0<br>
 
 * **@mode** 
@@ -123,7 +147,7 @@ _тип:_ control
 [sequencer](keywords/sequencer.html)
 [bang](keywords/bang.html)
 [pattern](keywords/pattern.html)
-[rythm](keywords/rythm.html)
+[rhythm](keywords/rhythm.html)
 
 
 

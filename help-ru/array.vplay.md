@@ -29,9 +29,6 @@ _тип:_ symbol<br>
 * **play**
 start playing<br>
 
-* **stop**
-stop playing<br>
-
 * **range**
 set play range.<br>
   __параметры:__
@@ -49,6 +46,9 @@ set play range.<br>
   - **UNIT** value unit<br>
     тип: symbol <br>
     обязательно: True <br>
+
+* **stop**
+stop playing<br>
 
 
 

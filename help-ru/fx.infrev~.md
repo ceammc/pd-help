@@ -66,7 +66,7 @@ _диапазон:_ 0..1<br>
 _по умолчанию:_ 1<br>
 
 * **@bypass** 
-Запросить/установить if set to 1 - bypass &#39;effected&#39; signal<br>
+Запросить/установить bypass flag. If true: bypass &#39;effected&#39; signal.<br>
 _тип:_ bool<br>
 _по умолчанию:_ 0<br>
 

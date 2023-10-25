@@ -23,6 +23,6 @@
 [**hw.serial**](hw.serial.html): serial port device 
 
 
-**Версия:** 0.9.6
+**Версия:** 0.9.7
 
 **Лицензия:** GPL3

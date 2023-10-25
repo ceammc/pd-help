@@ -11,7 +11,7 @@
 
 
 ## информация
-Encodes several sources in the circular harmonics domain with distance compensation and muting system If nsrc==1 radius and angle controlled with signal values
+Encodes several sources in the circular harmonics domain with distance compensation and muting system If nsrc==1 radius and angle controlled with signal values Note: source indexes are 1-based.
 
 
 [![example](../examples/img/hoa.2d.map~.jpg)](../examples/pd/hoa.2d.map~.pd)
@@ -28,6 +28,10 @@ _тип:_ int<br>
 number of sources<br>
 _тип:_ int<br>
 
+* **MODE**
+mode in signal control mode (with nsrc=1)<br>
+_тип:_ symbol<br>
+
 
 
 ## методы:
@@ -35,7 +39,7 @@ _тип:_ int<br>
 * **mute**
 mute/unmute specified source<br>
   __параметры:__
-  - **IDX** source index<br>
+  - **IDX** source index. 1-based<br>
     тип: int <br>
     обязательно: True <br>
 
@@ -46,7 +50,7 @@ mute/unmute specified source<br>
 * **polar**
 set source mapping in polar coordinates<br>
   __параметры:__
-  - **IDX** source index<br>
+  - **IDX** source index. 1-based<br>
     тип: int <br>
     обязательно: True <br>
 
@@ -58,6 +62,27 @@ set source mapping in polar coordinates<br>
     тип: float <br>
     единица: rad <br>
     обязательно: True <br>
+
+* **pol**
+alias to &#39;polar&#39; method<br>
+
+* **cartesian**
+set source mapping in cartesian coordinates<br>
+  __параметры:__
+  - **IDX** source index. 1-based<br>
+    тип: int <br>
+    обязательно: True <br>
+
+  - **X** x-coord<br>
+    тип: float <br>
+    обязательно: True <br>
+
+  - **X** y-coord<br>
+    тип: float <br>
+    обязательно: True <br>
+
+* **car**
+alias to &#39;cartesian&#39; method<br>
 
 
 
@@ -81,6 +106,13 @@ _по умолчанию:_ 1<br>
 _тип:_ float<br>
 _минимальное значение:_ 0<br>
 _по умолчанию:_ 100<br>
+
+* **@mode** 
+Запросить/установить signal control mode (with nsrc=1). If &#39;pol&#39;: second and third signal inlets are
+treated as radius and angle values, if &#39;car&#39;: as X and Y coordinates<br>
+_тип:_ symbol<br>
+_варианты:_ pol, car<br>
+_по умолчанию:_ pol<br>
 
 
 

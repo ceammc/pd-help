@@ -122,6 +122,12 @@ _по умолчанию:_ +inf<br>
 _тип:_ float<br>
 _по умолчанию:_ 0<br>
 
+* **@display_only** 
+Запросить/установить interaction mode. If true: react only to received Pd messages, but do not react
+to mouse/keyboard events. If false: react to all supported events.<br>
+_тип:_ bool<br>
+_по умолчанию:_ 0<br>
+
 * **@digits** 
 Запросить/установить number of digits. If -1 - no fixed digits used<br>
 _тип:_ int<br>

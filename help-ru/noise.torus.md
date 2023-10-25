@@ -36,15 +36,12 @@ _тип:_ float<br>
 
 ## методы:
 
-* **set**
+* **cr**
 <br>
   __параметры:__
-  - **SET** set to value<br>
+  - **SEED** cr value<br>
     тип: float <br>
     обязательно: True <br>
-
-* **reset**
-reset state<br>
 
 * **om**
 <br>
@@ -53,10 +50,13 @@ reset state<br>
     тип: int <br>
     обязательно: True <br>
 
-* **cr**
+* **reset**
+reset state<br>
+
+* **set**
 <br>
   __параметры:__
-  - **SEED** cr value<br>
+  - **SET** set to value<br>
     тип: float <br>
     обязательно: True <br>
 

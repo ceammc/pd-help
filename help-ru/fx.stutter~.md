@@ -56,11 +56,15 @@ _тип:_ float<br>
 _диапазон:_ 0.25..4<br>
 _по умолчанию:_ 1<br>
 
+* **@env** 
+Запросить/установить stutter envelope<br>
+_тип:_ atom<br>
+
 
 
 ## входы:
 
-* left channel<br>
+* input signal<br>
 _тип:_ audio
 * turn on effect for 3 periods<br>
 _тип:_ control

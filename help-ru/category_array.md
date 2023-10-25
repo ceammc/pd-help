@@ -20,11 +20,13 @@
 
 [**array.each**](array.each.html): process each array elements via side-chain 
 
-[**array.fill**](array.fill.html): fill array with single value or pattern 
+[**array.fill**](array.fill.html): fill array with single value, pattern or function 
 
 [**array.grainer~**](array.grainer~.html): array granulator 
 
 [**array.hist**](array.hist.html): calculates array histogram 
+
+[**array.ltcplay~**](array.ltcplay~.html): array player controlled by LTC 
 
 [**array.mean**](array.mean.html): calculates array arithmetic mean value 
 
@@ -37,6 +39,10 @@ _псевдонимы:_ \[array.p~\]
 [**array.plot**](array.plot.html): array data plotter 
 
 [**array.plot~**](array.plot~.html): plot signal on specified array 
+
+[**array.readwrite~**](array.readwrite~.html): array reader/writer <br>
+_псевдонимы:_ \[array.rw~\]
+
 
 [**array.resample**](array.resample.html): array resampler <br>
 _псевдонимы:_ \[array.r\]
@@ -55,6 +61,8 @@ _псевдонимы:_ \[ceammc/list-&gt;array\], \[list-&gt;array\]
 [**array.sum**](array.sum.html): calculates sum of array elements 
 
 [**array.sum2**](array.sum2.html): calculates sum of squares of array elements 
+
+[**array.tramp~**](array.tramp~.html): triggered ramp generator for array 
 
 [**array.variance**](array.variance.html): calculates variance of array values 
 
@@ -75,6 +83,6 @@ _псевдонимы:_ \[ceammc/hist~\], \[hist~\]
 [**plot.response~**](plot.response~.html): output amp/phase freq response to impulse 
 
 
-**Версия:** 0.9.6
+**Версия:** 0.9.7
 
 **Лицензия:** GPL3

@@ -25,22 +25,24 @@ frequency<br>
 _тип:_ float<br>
 _единица:_ Hz<br>
 
-* **ON**
-on/off initial state<br>
-_тип:_ int<br>
-
 
 
 ## методы:
 
-* **start**
-start from current position<br>
+* **phase**
+set current phase<br>
+  __параметры:__
+  - **[VALUE]** new phase value<br>
+    тип: float <br>
 
 * **reset**
 reset phase and stop<br>
 
 * **rewind**
 reset phase without stopping<br>
+
+* **start**
+start from current position<br>
 
 * **stop**
 stop<br>

@@ -41,6 +41,10 @@ matched message to corresponding outlet.<br>
 _тип:_ bool<br>
 _по умолчанию:_ 0<br>
 
+* **@msg** 
+Запросить/установить output this message on match, instead of bang<br>
+_тип:_ list<br>
+
 
 
 ## входы:

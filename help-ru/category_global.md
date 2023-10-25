@@ -21,6 +21,6 @@ _псевдонимы:_ \[global.json\]
 [**global.set**](global.set.html): global named set object 
 
 
-**Версия:** 0.9.6
+**Версия:** 0.9.7
 
 **Лицензия:** GPL3

@@ -22,26 +22,6 @@ This is the ceammc counterpart of the vanilla toggle
 
 ## методы:
 
-* **dump**
-dumps all object info to Pd console window<br>
-
-* **set**
-sets toggle state without output<br>
-
-* **load**
-loads specified preset<br>
-  __параметры:__
-  - **IDX** preset index<br>
-    тип: int <br>
-    обязательно: True <br>
-
-* **store**
-stores specified preset<br>
-  __параметры:__
-  - **IDX** preset index<br>
-    тип: int <br>
-    обязательно: True <br>
-
 * **clear**
 clears specified preset<br>
   __параметры:__
@@ -49,8 +29,18 @@ clears specified preset<br>
     тип: int <br>
     обязательно: True <br>
 
+* **dump**
+dumps all object info to Pd console window<br>
+
 * **interp**
 for this object acts as *load*, no interpolation performed<br>
+
+* **load**
+loads specified preset<br>
+  __параметры:__
+  - **IDX** preset index<br>
+    тип: int <br>
+    обязательно: True <br>
 
 * **pos**
 set UI element position<br>
@@ -61,6 +51,16 @@ set UI element position<br>
 
   - **Y** top right y-coord<br>
     тип: float <br>
+    обязательно: True <br>
+
+* **set**
+sets toggle state without output<br>
+
+* **store**
+stores specified preset<br>
+  __параметры:__
+  - **IDX** preset index<br>
+    тип: int <br>
     обязательно: True <br>
 
 

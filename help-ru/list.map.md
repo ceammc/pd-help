@@ -34,6 +34,11 @@ _тип:_ list<br>
 _тип:_ list<br>
 _по умолчанию:_ []<br>
 
+* **@def** 
+Запросить/установить default value to replace missing keys. If empty (by default), missing keys are
+ignored.<br>
+_тип:_ list<br>
+
 
 
 ## входы:
@@ -48,6 +53,8 @@ _тип:_ control
 ## выходы:
 
 * list or data:mlist mapped list<br>
+_тип:_ control
+* atom: missing keys<br>
 _тип:_ control
 
 

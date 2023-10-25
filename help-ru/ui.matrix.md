@@ -32,8 +32,21 @@ _тип:_ int<br>
 
 ## методы:
 
-* **get cell R C**
-outputs single cell value as message [cell ROW COL VALUE(<br>
+* **clear**
+clears specified preset<br>
+  __параметры:__
+  - **IDX** preset index<br>
+    тип: int <br>
+    обязательно: True <br>
+
+* **dump**
+dumps all object info to Pd console window.<br>
+
+* **flip**
+flips all matrix cells<br>
+
+* **flip R C**
+flips single cell<br>
   __параметры:__
   - **R** row index<br>
     тип: int <br>
@@ -42,64 +55,6 @@ outputs single cell value as message [cell ROW COL VALUE(<br>
   - **C** column index<br>
     тип: int <br>
     обязательно: True <br>
-
-* **get col N**
-outputs column cells as message [col N V0 V1...(<br>
-  __параметры:__
-  - **N** column index<br>
-    тип: int <br>
-    обязательно: True <br>
-
-* **get row N**
-outputs row cells as message [row N V0 V1...(<br>
-  __параметры:__
-  - **N** row index<br>
-    тип: int <br>
-    обязательно: True <br>
-
-* **get list**
-output all cell values as list, row by raw. [0 1 1 1 0...(<br>
-
-* **get cols**
-output all columns as separate messages [col N V0 V1...(<br>
-
-* **get rows**
-output all rows as separate messages [row N V0 V1...(<br>
-
-* **get cells**
-output all cells as separate messages [cell R C VALUE(<br>
-
-* **set col N ...**
-set specified column without output<br>
-  __параметры:__
-  - **N** column index<br>
-    тип: int <br>
-    обязательно: True <br>
-
-  - **...** cell values (1 - checked, 0 - unchecked)<br>
-    тип: list <br>
-    обязательно: True <br>
-
-* **set row N ...**
-set specified row without output<br>
-  __параметры:__
-  - **N** row index<br>
-    тип: int <br>
-    обязательно: True <br>
-
-  - **...** cell values (1 - checked, 0 - unchecked)<br>
-    тип: list <br>
-    обязательно: True <br>
-
-* **set list ...**
-set matrix without output<br>
-  __параметры:__
-  - **...** cell values (1 - checked, 0 - unchecked), row by row<br>
-    тип: list <br>
-    обязательно: True <br>
-
-* **flip**
-flips all matrix cells<br>
 
 * **flip col N**
 flips cells in specified column.<br>
@@ -115,8 +70,8 @@ flips cells in specified row.<br>
     тип: int <br>
     обязательно: True <br>
 
-* **flip R C**
-flips single cell<br>
+* **get cell R C**
+outputs single cell value as message [cell ROW COL VALUE(<br>
   __параметры:__
   - **R** row index<br>
     тип: int <br>
@@ -126,26 +81,34 @@ flips single cell<br>
     тип: int <br>
     обязательно: True <br>
 
-* **random**
-fill matrix random and output<br>
+* **get cells**
+output all cells as separate messages [cell R C VALUE(<br>
 
-* **dump**
-dumps all object info to Pd console window.<br>
-
-* **reset**
-uncheck all matrix cells. No output<br>
-
-* **read**
-<br>
+* **get col N**
+outputs column cells as message [col N V0 V1...(<br>
   __параметры:__
-  - **[FNAME]** read matrix values from text file (space separated). If fname argument is not specified opens file chooser dialog<br>
-    тип: symbol <br>
+  - **N** column index<br>
+    тип: int <br>
+    обязательно: True <br>
 
-* **write**
-<br>
+* **get cols**
+output all columns as separate messages [col N V0 V1...(<br>
+
+* **get list**
+output all cell values as list, row by raw. [0 1 1 1 0...(<br>
+
+* **get row N**
+outputs row cells as message [row N V0 V1...(<br>
   __параметры:__
-  - **[FNAME]** write matrix values to text file (space separated). If fname argument is not specified opens file chooser dialog<br>
-    тип: symbol <br>
+  - **N** row index<br>
+    тип: int <br>
+    обязательно: True <br>
+
+* **get rows**
+output all rows as separate messages [row N V0 V1...(<br>
+
+* **interp**
+for this object acts as *load*, no interpolation performed<br>
 
 * **load**
 loads specified preset<br>
@@ -153,23 +116,6 @@ loads specified preset<br>
   - **IDX** preset index<br>
     тип: int <br>
     обязательно: True <br>
-
-* **store**
-stores specified preset<br>
-  __параметры:__
-  - **IDX** preset index<br>
-    тип: int <br>
-    обязательно: True <br>
-
-* **clear**
-clears specified preset<br>
-  __параметры:__
-  - **IDX** preset index<br>
-    тип: int <br>
-    обязательно: True <br>
-
-* **interp**
-for this object acts as *load*, no interpolation performed<br>
 
 * **pos**
 set UI element position<br>
@@ -181,6 +127,60 @@ set UI element position<br>
   - **Y** top right y-coord<br>
     тип: float <br>
     обязательно: True <br>
+
+* **random**
+fill matrix random and output<br>
+
+* **read**
+<br>
+  __параметры:__
+  - **[FNAME]** read matrix values from text file (space separated). If fname argument is not specified opens file chooser dialog<br>
+    тип: symbol <br>
+
+* **reset**
+uncheck all matrix cells. No output<br>
+
+* **set col N ...**
+set specified column without output<br>
+  __параметры:__
+  - **N** column index<br>
+    тип: int <br>
+    обязательно: True <br>
+
+  - **...** cell values (1 - checked, 0 - unchecked)<br>
+    тип: list <br>
+    обязательно: True <br>
+
+* **set list ...**
+set matrix without output<br>
+  __параметры:__
+  - **...** cell values (1 - checked, 0 - unchecked), row by row<br>
+    тип: list <br>
+    обязательно: True <br>
+
+* **set row N ...**
+set specified row without output<br>
+  __параметры:__
+  - **N** row index<br>
+    тип: int <br>
+    обязательно: True <br>
+
+  - **...** cell values (1 - checked, 0 - unchecked)<br>
+    тип: list <br>
+    обязательно: True <br>
+
+* **store**
+stores specified preset<br>
+  __параметры:__
+  - **IDX** preset index<br>
+    тип: int <br>
+    обязательно: True <br>
+
+* **write**
+<br>
+  __параметры:__
+  - **[FNAME]** write matrix values to text file (space separated). If fname argument is not specified opens file chooser dialog<br>
+    тип: symbol <br>
 
 
 

@@ -28,34 +28,6 @@ _тип:_ symbol<br>
 
 ## методы:
 
-* **note**
-play note<br>
-  __параметры:__
-  - **[CHAN=0]** MIDI channel, if zero or ommited play on first(!) channel<br>
-    тип: int <br>
-
-  - **NOTE** MIDI note<br>
-    тип: int <br>
-    обязательно: True <br>
-
-  - **VEL** MIDI velocity<br>
-    тип: int <br>
-    обязательно: True <br>
-
-* **cc**
-control change<br>
-  __параметры:__
-  - **[CHAN=0]** MIDI channel, if zero or ommited set on all channel<br>
-    тип: int <br>
-
-  - **CC** MIDI control number<br>
-    тип: int <br>
-    обязательно: True <br>
-
-  - **VAL** MIDI control value<br>
-    тип: int <br>
-    обязательно: True <br>
-
 * **aftertouch**
 aftertouch channel pressure<br>
   __параметры:__
@@ -63,30 +35,6 @@ aftertouch channel pressure<br>
     тип: int <br>
 
   - **VEL** MIDI velocity<br>
-    тип: int <br>
-    обязательно: True <br>
-
-* **polytouch**
-polytouch key pressure<br>
-  __параметры:__
-  - **[CHAN=0]** MIDI channel, ignored<br>
-    тип: int <br>
-
-  - **NOTE** MIDI note<br>
-    тип: int <br>
-    обязательно: True <br>
-
-  - **VEL** MIDI velocity<br>
-    тип: int <br>
-    обязательно: True <br>
-
-* **prog**
-program change<br>
-  __параметры:__
-  - **[CHAN=0]** MIDI channel, if zero or ommited set for all channels<br>
-    тип: int <br>
-
-  - **PGM** program number<br>
     тип: int <br>
     обязательно: True <br>
 
@@ -111,16 +59,6 @@ pitchband change<br>
     тип: int <br>
     обязательно: True <br>
 
-* **bend:i**
-pitchband change<br>
-  __параметры:__
-  - **[CHAN=0]** MIDI channel, if zero or ommited set for all channels<br>
-    тип: int <br>
-
-  - **VALUE** value in -0x2000..0x1fff range, with 0 center.<br>
-    тип: int <br>
-    обязательно: True <br>
-
 * **bend:f**
 pitchband change<br>
   __параметры:__
@@ -129,6 +67,16 @@ pitchband change<br>
 
   - **VALUE** value in -1..+1 range, with 0 center.<br>
     тип: float <br>
+    обязательно: True <br>
+
+* **bend:i**
+pitchband change<br>
+  __параметры:__
+  - **[CHAN=0]** MIDI channel, if zero or ommited set for all channels<br>
+    тип: int <br>
+
+  - **VALUE** value in -0x2000..0x1fff range, with 0 center.<br>
+    тип: int <br>
     обязательно: True <br>
 
 * **bendsens**
@@ -142,52 +90,17 @@ set pitchbend sensitivity<br>
     единица: semitone <br>
     обязательно: True <br>
 
-* **tune:s**
-set tuninig in semitones<br>
+* **cc**
+control change<br>
   __параметры:__
-  - **[CHAN=0]** MIDI channel, if zero or not specified apply tuning to all channels<br>
+  - **[CHAN=0]** MIDI channel, if zero or ommited set on all channel<br>
     тип: int <br>
 
-  - **SEMI** semitones (float) tuning<br>
-    тип: float <br>
-    обязательно: True <br>
-
-* **tune.**
-set fine tuninig in cents, see tune:s<br>
-
-* **tune:c**
-set fine tuning in cents<br>
-  __параметры:__
-  - **[CHAN=0]** MIDI channel, if zero or not specified apply tuning to all channels<br>
-    тип: int <br>
-
-  - **CENTS** cents (float) tuning<br>
-    тип: float <br>
-    обязательно: True <br>
-
-* **tune:12**
-set and activate octave tuning program in cents deviations<br>
-  __параметры:__
-  - **BANK** tuning bank (not related to MIDI instrument bank)<br>
+  - **CC** MIDI control number<br>
     тип: int <br>
     обязательно: True <br>
 
-  - **PRESET** tuning preset (not related to MIDI instrument program)<br>
-    тип: int <br>
-    обязательно: True <br>
-
-  - **TUNES** list of scale deviations from 12TET in cents<br>
-    тип: list <br>
-    обязательно: True <br>
-
-* **tunesel**
-select tuning bank and preset<br>
-  __параметры:__
-  - **BANK** tuning bank (not related to MIDI instrument bank)<br>
-    тип: int <br>
-    обязательно: True <br>
-
-  - **PRESET** tuning preset (not related to MIDI instrument program)<br>
+  - **VAL** MIDI control value<br>
     тип: int <br>
     обязательно: True <br>
 
@@ -195,26 +108,54 @@ select tuning bank and preset<br>
 set a SoundFont generator (effect) value on a MIDI channel in real-time
 (CHANNEL, PARAM, VALUE or PARAM, VALUE expected)<br>
 
-* **panic**
-send MIDI system reset command (big red &#39;panic&#39; button), turns off notes,
-resets controllers and restores initial basic channel configuration<br>
-
-* **reset**
-reset synth channels<br>
+* **hold**
+hold (sustain, right) pedal, ignore note release when active, release all notes
+when set to off.<br>
   __параметры:__
-  - **[CHAN=0]** MIDI channel, if zero or not specified reset all channels<br>
+  - **CHAN=0** MIDI channel, if zero or ommited sustain all channels<br>
     тип: int <br>
+    обязательно: True <br>
+
+  - **VAL** pedal state<br>
+    тип: int <br>
+    обязательно: True <br>
+
+* **legato**
+enable or disable legato/smooth transitions between consecutive notes<br>
+  __параметры:__
+  - **CHAN** MIDI channel, if zero or ommited apply to all channels<br>
+    тип: int <br>
+    обязательно: True <br>
+
+  - **VAL** pedal state<br>
+    тип: int <br>
+    обязательно: True <br>
+
+* **midi**
+send raw midi message to synth<br>
+  __параметры:__
+  - **BYTES** list of bytes<br>
+    тип: list <br>
+    обязательно: True <br>
+
+* **note**
+play note<br>
+  __параметры:__
+  - **[CHAN=0]** MIDI channel, if zero or ommited play on first(!) channel<br>
+    тип: int <br>
+
+  - **NOTE** MIDI note<br>
+    тип: int <br>
+    обязательно: True <br>
+
+  - **VEL** MIDI velocity<br>
+    тип: int <br>
+    обязательно: True <br>
 
 * **notes_off**
 turn off all notes on a MIDI channel (put them into release phase)<br>
   __параметры:__
   - **[CHAN=0]** MIDI channel, if zero or not specified turn notes on all channels<br>
-    тип: int <br>
-
-* **sounds_off**
-immediately stop all notes (skips release phase).<br>
-  __параметры:__
-  - **[CHAN=0]** MIDI channel, if zero or not specified stop notes on all channels<br>
     тип: int <br>
 
 * **pan**
@@ -247,11 +188,44 @@ set channel panning<br>
     тип: float <br>
     обязательно: True <br>
 
-* **hold**
-hold (sustain, right) pedal, ignore note release when active, release all notes
-when set to off.<br>
+* **panic**
+send MIDI system reset command (big red &#39;panic&#39; button), turns off notes,
+resets controllers and restores initial basic channel configuration<br>
+
+* **polytouch**
+polytouch key pressure<br>
   __параметры:__
-  - **CHAN=0** MIDI channel, if zero or ommited sustain all channels<br>
+  - **[CHAN=0]** MIDI channel, ignored<br>
+    тип: int <br>
+
+  - **NOTE** MIDI note<br>
+    тип: int <br>
+    обязательно: True <br>
+
+  - **VEL** MIDI velocity<br>
+    тип: int <br>
+    обязательно: True <br>
+
+* **prog**
+program change<br>
+  __параметры:__
+  - **[CHAN=0]** MIDI channel, if zero or ommited set for all channels<br>
+    тип: int <br>
+
+  - **PGM** program number<br>
+    тип: int <br>
+    обязательно: True <br>
+
+* **reset**
+reset synth channels<br>
+  __параметры:__
+  - **[CHAN=0]** MIDI channel, if zero or not specified reset all channels<br>
+    тип: int <br>
+
+* **soft**
+soft (left) pedal, activate the soft strike effect<br>
+  __параметры:__
+  - **CHAN** MIDI channel, if zero or ommited apply to all channels<br>
     тип: int <br>
     обязательно: True <br>
 
@@ -271,40 +245,66 @@ are passed untouched. Release holded notes when set to off<br>
     тип: int <br>
     обязательно: True <br>
 
-* **soft**
-soft (left) pedal, activate the soft strike effect<br>
+* **sound_off**
+immediately stop all notes (skips release phase).<br>
   __параметры:__
-  - **CHAN** MIDI channel, if zero or ommited apply to all channels<br>
+  - **[CHAN=0]** MIDI channel, if zero or not specified stop notes on all channels<br>
     тип: int <br>
-    обязательно: True <br>
-
-  - **VAL** pedal state<br>
-    тип: int <br>
-    обязательно: True <br>
-
-* **legato**
-enable or disable legato/smooth transitions between consecutive notes<br>
-  __параметры:__
-  - **CHAN** MIDI channel, if zero or ommited apply to all channels<br>
-    тип: int <br>
-    обязательно: True <br>
-
-  - **VAL** pedal state<br>
-    тип: int <br>
-    обязательно: True <br>
-
-* **midi**
-send raw midi message to synth<br>
-  __параметры:__
-  - **BYTES** list of bytes<br>
-    тип: list <br>
-    обязательно: True <br>
 
 * **sysex**
 accept SYSEX message<br>
   __параметры:__
   - **BYTES** list of bytes<br>
     тип: list <br>
+    обязательно: True <br>
+
+* **tune.**
+set fine tuninig in cents, see tune:s<br>
+
+* **tune:12**
+set and activate octave tuning program in cents deviations<br>
+  __параметры:__
+  - **BANK** tuning bank (not related to MIDI instrument bank)<br>
+    тип: int <br>
+    обязательно: True <br>
+
+  - **PRESET** tuning preset (not related to MIDI instrument program)<br>
+    тип: int <br>
+    обязательно: True <br>
+
+  - **TUNES** list of scale deviations from 12TET in cents<br>
+    тип: list <br>
+    обязательно: True <br>
+
+* **tune:c**
+set fine tuning in cents<br>
+  __параметры:__
+  - **[CHAN=0]** MIDI channel, if zero or not specified apply tuning to all channels<br>
+    тип: int <br>
+
+  - **CENTS** cents (float) tuning<br>
+    тип: float <br>
+    обязательно: True <br>
+
+* **tune:s**
+set tuninig in semitones<br>
+  __параметры:__
+  - **[CHAN=0]** MIDI channel, if zero or not specified apply tuning to all channels<br>
+    тип: int <br>
+
+  - **SEMI** semitones (float) tuning<br>
+    тип: float <br>
+    обязательно: True <br>
+
+* **tunesel**
+select tuning bank and preset<br>
+  __параметры:__
+  - **BANK** tuning bank (not related to MIDI instrument bank)<br>
+    тип: int <br>
+    обязательно: True <br>
+
+  - **PRESET** tuning preset (not related to MIDI instrument program)<br>
+    тип: int <br>
     обязательно: True <br>
 
 
@@ -319,7 +319,7 @@ _тип:_ symbol<br>
 * **@version** (readonly)
 Запросить FluidSynth version<br>
 _тип:_ symbol<br>
-_по умолчанию:_ 2.0.0<br>
+_по умолчанию:_ 2.3.2<br>
 
 * **@soundfonts** (readonly)
 Запросить list of found soundfonts<br>

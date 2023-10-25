@@ -11,7 +11,7 @@
 
 
 ## информация
-Note: no voices data in distributed with PureData-ceammc, you have to install voices manually Download language and voice datafiles and put them into ~/Documents/Pd/rhvoice directory
+Note: voices are not distributed with PureData-ceammc, you have to install voice data manually Download language and voice datafiles and put them into ~/Documents/Pd/rhvoice directory
 
 
 [![example](../examples/img/speech.rhvoice~.jpg)](../examples/pd/speech.rhvoice~.pd)
@@ -22,11 +22,21 @@ Note: no voices data in distributed with PureData-ceammc, you have to install vo
 
 ## методы:
 
-* **stop**
-stops speech and clear TTS queue<br>
-
 * **clear**
 clear TTS queue<br>
+
+* **read**
+read TTS file (text or SSML)<br>
+  __параметры:__
+  - **FILE** absolute or relative path to the file<br>
+    тип: symbol <br>
+    обязательно: True <br>
+
+* **ssml**
+speak SSML text markup<br>
+
+* **stop**
+stops speech and clear TTS queue<br>
 
 
 
@@ -56,6 +66,11 @@ _тип:_ float<br>
 _диапазон:_ 0..1<br>
 _по умолчанию:_ 1<br>
 
+* **@punct** 
+Запросить/установить punctuation for pronunciation. If &#39;all&#39; - pronounce all, otherwise pronounce
+only specified punctuation characters.<br>
+_тип:_ symbol<br>
+
 
 
 ## входы:
@@ -69,7 +84,7 @@ _тип:_ control
 
 * TTS output<br>
 _тип:_ audio
-* bang on done<br>
+* bang on done, [word 1( on word start, [word 0( on word end, [sentence 1( on sentence start, [sentence 0( on sentence end<br>
 _тип:_ control
 
 

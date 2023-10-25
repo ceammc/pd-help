@@ -49,6 +49,8 @@ _по умолчанию:_ 0<br>
 
 * starts (on 1) or stops (on 0) metro<br>
 _тип:_ control
+* set new pattern<br>
+_тип:_ control
 
 
 
@@ -56,7 +58,7 @@ _тип:_ control
 
 * outputs *bang*<br>
 _тип:_ control
-* outputs current pattern index and bang on loop return<br>
+* outputs current pattern index and bang on each cycle<br>
 _тип:_ control
 
 

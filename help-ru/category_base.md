@@ -8,6 +8,14 @@
 
 [**ceammc.search**](ceammc.search.html): ceammc library search object 
 
+[**chrono.datetime**](chrono.datetime.html): output current date and time info <br>
+_псевдонимы:_ \[ceammc/datetime\], \[datetime\]
+
+
+[**convolve~**](convolve~.html): realtime FFT convolution <br>
+_псевдонимы:_ \[ceammc/convolve~\]
+
+
 [**function**](function.html): named function <br>
 _псевдонимы:_ \[func\], \[ceammc/func\], \[ceammc/function\]
 
@@ -20,6 +28,10 @@ _псевдонимы:_ \[func.call\]
 _псевдонимы:_ \[ceammc/gain~\]
 
 
+[**gate~**](gate~.html): multislot signal gate <br>
+_псевдонимы:_ \[ceammc/gate~\]
+
+
 [**logger**](logger.html): advanced data logger <br>
 _псевдонимы:_ \[ceammc/logger\], \[log.error\], \[log.post\], \[log.debug\], \[log.verbose\], \[log.stdout\], \[log.stderr\]
 
@@ -28,11 +40,19 @@ _псевдонимы:_ \[ceammc/logger\], \[log.error\], \[log.post\], \[log.de
 _псевдонимы:_ \[ceammc/matrix~\]
 
 
+[**merge~**](merge~.html): parametrized signal merge <br>
+_псевдонимы:_ \[ceammc/merge~\]
+
+
+[**metro.choice**](metro.choice.html): metro with random choice from timeset 
+
 [**metro.pattern**](metro.pattern.html): metro with rhythmic patterns 
 
 [**metro.random**](metro.random.html): metro random bang with specified range 
 
 [**metro.seq**](metro.seq.html): metro sequencer 
+
+[**metro.wchoice**](metro.wchoice.html): metro with weighted random choice from timeset 
 
 [**mix~**](mix~.html): multislot signal mixer <br>
 _псевдонимы:_ \[ceammc/mix~\]
@@ -46,6 +66,10 @@ _псевдонимы:_ \[ceammc/nsig~\]
 
 [**radio**](radio.html): float index to outlet values as radio switch <br>
 _псевдонимы:_ \[ceammc/radio\]
+
+
+[**split~**](split~.html): parametrized signal splitter <br>
+_псевдонимы:_ \[ceammc/split~\]
 
 
 [**spring**](spring.html): float value &#34;spring&#34; <br>
@@ -77,6 +101,6 @@ _псевдонимы:_ \[ceammc/z~\]
 
 
 
-**Версия:** 0.9.6
+**Версия:** 0.9.7
 
 **Лицензия:** GPL3

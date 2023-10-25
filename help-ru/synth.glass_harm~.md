@@ -49,7 +49,7 @@ _по умолчанию:_ 48<br>
 Запросить/установить frequency<br>
 _тип:_ float<br>
 _единица:_ Hz<br>
-_по умолчанию:_ 130.813<br>
+_по умолчанию:_ 130.8128<br>
 
 * **@room_size** 
 Запросить/установить reverb room size<br>
@@ -131,6 +131,16 @@ _по умолчанию:_ 0<br>
 Запросить/установить on/off dsp processing<br>
 _тип:_ bool<br>
 _по умолчанию:_ 1<br>
+
+* **@osc** (initonly)
+Запросить/установить OSC server name to listen<br>
+_тип:_ symbol<br>
+
+* **@id** (initonly)
+Запросить/установить OSC address id. If specified, bind all properties to
+/ID/synth_glass_harm/PROP_NAME osc address, if empty bind to
+/synth_glass_harm/PROP_NAME.<br>
+_тип:_ symbol<br>
 
 
 

@@ -20,42 +20,6 @@
 
 ## методы:
 
-* **ping**
-send ping request to all devices<br>
-
-* **note**
-see noteon<br>
-
-* **noteon**
-play note<br>
-  __параметры:__
-  - **[CHAN]** optional floppy id (overrides @floppy property)<br>
-    тип: int <br>
-
-  - **NOTE** MIDI note<br>
-    тип: int <br>
-    обязательно: True <br>
-
-  - **VEL** note velocity (if 0 - turns note off, otherwise ignored)<br>
-    тип: int <br>
-    обязательно: True <br>
-
-* **noteoff**
-note off message<br>
-  __параметры:__
-  - **[CHAN]** optional floppy id (overrides @floppy property)<br>
-    тип: int <br>
-
-  - **NOTE** MIDI note<br>
-    тип: int <br>
-    обязательно: True <br>
-
-* **reset**
-reset moppy device.<br>
-  __параметры:__
-  - **[all]** reset all devices<br>
-    тип: symbol <br>
-
 * **bend:f**
 note pitchbend<br>
   __параметры:__
@@ -74,6 +38,33 @@ set floppy frequency. Note: moppy.v1 version only.<br>
     единица: Hz <br>
     обязательно: True <br>
 
+* **note**
+see noteon<br>
+
+* **noteoff**
+note off message<br>
+  __параметры:__
+  - **[CHAN]** optional floppy id (overrides @floppy property)<br>
+    тип: int <br>
+
+  - **NOTE** MIDI note<br>
+    тип: int <br>
+    обязательно: True <br>
+
+* **noteon**
+play note<br>
+  __параметры:__
+  - **[CHAN]** optional floppy id (overrides @floppy property)<br>
+    тип: int <br>
+
+  - **NOTE** MIDI note<br>
+    тип: int <br>
+    обязательно: True <br>
+
+  - **VEL** note velocity (if 0 - turns note off, otherwise ignored)<br>
+    тип: int <br>
+    обязательно: True <br>
+
 * **period**
 directly set floppy drive period. Note: moppy.v1 version only.<br>
   __параметры:__
@@ -83,6 +74,15 @@ directly set floppy drive period. Note: moppy.v1 version only.<br>
   - **TIME** period in microseconds<br>
     тип: int <br>
     обязательно: True <br>
+
+* **ping**
+send ping request to all devices<br>
+
+* **reset**
+reset moppy device.<br>
+  __параметры:__
+  - **[all]** reset all devices<br>
+    тип: symbol <br>
 
 
 

@@ -45,6 +45,19 @@ creates ADSR envelope with one stop point<br>
     единица: ms <br>
     обязательно: True <br>
 
+* **ar**
+creates AR envelope without stop points<br>
+  __параметры:__
+  - **ATTACK** attack time<br>
+    тип: float <br>
+    единица: ms <br>
+    обязательно: True <br>
+
+  - **RELEASE** release time<br>
+    тип: float <br>
+    единица: ms <br>
+    обязательно: True <br>
+
 * **asr**
 creates ASR envelope with one stop point<br>
   __параметры:__
@@ -58,17 +71,21 @@ creates ASR envelope with one stop point<br>
     единица: ms <br>
     обязательно: True <br>
 
-* **ar**
-creates AR envelope without stop points<br>
+* **at**
+output envelope value at specified position to second outlet<br>
   __параметры:__
-  - **ATTACK** attack time<br>
+  - **VAL** position (in milliseconds if unit arg is ommited )<br>
     тип: float <br>
-    единица: ms <br>
     обязательно: True <br>
 
-  - **RELEASE** release time<br>
-    тип: float <br>
-    единица: ms <br>
+  - **[UNIT]** position unit: ms, % or *(phase)<br>
+    тип: symbol <br>
+
+* **clear**
+clear specified preset<br>
+  __параметры:__
+  - **IDX** preset index<br>
+    тип: int <br>
     обязательно: True <br>
 
 * **eadsr**
@@ -106,27 +123,6 @@ creates exponential ADSR envelope with one stop point<br>
     тип: float <br>
     обязательно: True <br>
 
-* **easr**
-creates exponential AR envelope with one stop point<br>
-  __параметры:__
-  - **ATTACK** attack time<br>
-    тип: float <br>
-    единица: ms <br>
-    обязательно: True <br>
-
-  - **ATTACK_CURVE** attack segment curve<br>
-    тип: float <br>
-    обязательно: True <br>
-
-  - **RELEASE** release time<br>
-    тип: float <br>
-    единица: ms <br>
-    обязательно: True <br>
-
-  - **RELEASE_CURVE** release segment curve<br>
-    тип: float <br>
-    обязательно: True <br>
-
 * **ear**
 creates exponential AR envelope without stop points<br>
   __параметры:__
@@ -148,71 +144,26 @@ creates exponential AR envelope without stop points<br>
     тип: float <br>
     обязательно: True <br>
 
-* **step**
-creates step-segmented envelope with arbitrary number of segments<br>
+* **easr**
+creates exponential AR envelope with one stop point<br>
   __параметры:__
-  - **VAL0** begin value<br>
-    тип: float <br>
-    обязательно: True <br>
-
-  - **LEN0** step length<br>
+  - **ATTACK** attack time<br>
     тип: float <br>
     единица: ms <br>
     обязательно: True <br>
 
-  - **VAL1** value<br>
+  - **ATTACK_CURVE** attack segment curve<br>
     тип: float <br>
     обязательно: True <br>
 
-  - **[LEN1]** segment length<br>
-    тип: float <br>
-
-  - **[VAL2]** value<br>
-    тип: float <br>
-
-* **line**
-creates line-segmented envelope with arbitrary number of segments<br>
-  __параметры:__
-  - **VAL0** begin value<br>
-    тип: float <br>
-    обязательно: True <br>
-
-  - **LEN0** line length<br>
+  - **RELEASE** release time<br>
     тип: float <br>
     единица: ms <br>
     обязательно: True <br>
 
-  - **VAL1** value<br>
+  - **RELEASE_CURVE** release segment curve<br>
     тип: float <br>
     обязательно: True <br>
-
-  - **[LEN1]** segment length<br>
-    тип: float <br>
-
-  - **[VAL2]** value<br>
-    тип: float <br>
-
-* **sin2**
-creates quadratic sine-segmented envelope with arbitrary number of segments<br>
-  __параметры:__
-  - **VAL0** begin value<br>
-    тип: float <br>
-    обязательно: True <br>
-
-  - **LEN0** line length<br>
-    тип: float <br>
-    единица: ms <br>
-    обязательно: True <br>
-
-  - **VAL1** value<br>
-    тип: float <br>
-    обязательно: True <br>
-
-  - **[LEN1]** segment length<br>
-    тип: float <br>
-
-  - **[VAL2]** value<br>
-    тип: float <br>
 
 * **exp**
 creates exponential-segmented envelope with arbitrary number of segments<br>
@@ -243,6 +194,49 @@ creates exponential-segmented envelope with arbitrary number of segments<br>
   - **[VAL2]** value<br>
     тип: float <br>
 
+* **interp**
+for this object acts as *load*, no interpolation performed<br>
+
+* **line**
+creates line-segmented envelope with arbitrary number of segments<br>
+  __параметры:__
+  - **VAL0** begin value<br>
+    тип: float <br>
+    обязательно: True <br>
+
+  - **LEN0** line length<br>
+    тип: float <br>
+    единица: ms <br>
+    обязательно: True <br>
+
+  - **VAL1** value<br>
+    тип: float <br>
+    обязательно: True <br>
+
+  - **[LEN1]** segment length<br>
+    тип: float <br>
+
+  - **[VAL2]** value<br>
+    тип: float <br>
+
+* **load**
+loads specified preset<br>
+  __параметры:__
+  - **IDX** preset index<br>
+    тип: int <br>
+    обязательно: True <br>
+
+* **pos**
+set UI element position<br>
+  __параметры:__
+  - **X** top left x-coord<br>
+    тип: float <br>
+    обязательно: True <br>
+
+  - **Y** top right y-coord<br>
+    тип: float <br>
+    обязательно: True <br>
+
 * **sigmoid**
 creates sigmoid-segmented envelope with arbitrary number of segments<br>
   __параметры:__
@@ -272,49 +266,55 @@ creates sigmoid-segmented envelope with arbitrary number of segments<br>
   - **[VAL2]** value<br>
     тип: float <br>
 
-* **clear**
-clear specified preset<br>
+* **sin2**
+creates quadratic sine-segmented envelope with arbitrary number of segments<br>
   __параметры:__
-  - **IDX** preset index<br>
-    тип: int <br>
+  - **VAL0** begin value<br>
+    тип: float <br>
     обязательно: True <br>
 
-* **load**
-loads specified preset<br>
-  __параметры:__
-  - **IDX** preset index<br>
-    тип: int <br>
+  - **LEN0** line length<br>
+    тип: float <br>
+    единица: ms <br>
     обязательно: True <br>
+
+  - **VAL1** value<br>
+    тип: float <br>
+    обязательно: True <br>
+
+  - **[LEN1]** segment length<br>
+    тип: float <br>
+
+  - **[VAL2]** value<br>
+    тип: float <br>
+
+* **step**
+creates step-segmented envelope with arbitrary number of segments<br>
+  __параметры:__
+  - **VAL0** begin value<br>
+    тип: float <br>
+    обязательно: True <br>
+
+  - **LEN0** step length<br>
+    тип: float <br>
+    единица: ms <br>
+    обязательно: True <br>
+
+  - **VAL1** value<br>
+    тип: float <br>
+    обязательно: True <br>
+
+  - **[LEN1]** segment length<br>
+    тип: float <br>
+
+  - **[VAL2]** value<br>
+    тип: float <br>
 
 * **store**
 stores specified preset<br>
   __параметры:__
   - **IDX** preset index<br>
     тип: int <br>
-    обязательно: True <br>
-
-* **interp**
-for this object acts as *load*, no interpolation performed<br>
-
-* **at**
-output envelope value at specified position to second outlet<br>
-  __параметры:__
-  - **VAL** position (in milliseconds if unit arg is ommited )<br>
-    тип: float <br>
-    обязательно: True <br>
-
-  - **[UNIT]** position unit: ms, % or *(phase)<br>
-    тип: symbol <br>
-
-* **pos**
-set UI element position<br>
-  __параметры:__
-  - **X** top left x-coord<br>
-    тип: float <br>
-    обязательно: True <br>
-
-  - **Y** top right y-coord<br>
-    тип: float <br>
     обязательно: True <br>
 
 

@@ -30,8 +30,17 @@ _тип:_ bool<br>
 
 ## методы:
 
-* **toggle**
-toggle pedal on/off<br>
+* **next**
+select next preset<br>
+  __параметры:__
+  - **[N]** positive step or &#39;random&#39;<br>
+    тип: atom <br>
+
+* **prev**
+select previous preset<br>
+  __параметры:__
+  - **[N]** positive step or &#39;random&#39;<br>
+    тип: atom <br>
 
 * **random**
 choose random preset<br>
@@ -80,17 +89,8 @@ set preset by transpose range.<br>
   - **[STATE]** pedal state (on/off)<br>
     тип: int <br>
 
-* **next**
-select next preset<br>
-  __параметры:__
-  - **[N]** positive step or &#39;random&#39;<br>
-    тип: atom <br>
-
-* **prev**
-select previous preset<br>
-  __параметры:__
-  - **[N]** positive step or &#39;random&#39;<br>
-    тип: atom <br>
+* **toggle**
+toggle pedal on/off<br>
 
 
 

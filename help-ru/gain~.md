@@ -32,24 +32,6 @@ increase gain amplitude<br>
   - **[VALS]** values for each input channel<br>
     тип: list <br>
 
-* **-**
-decrease gain amplitude<br>
-  __параметры:__
-  - **[VALS]** values for each input channel<br>
-    тип: list <br>
-
-* **+db**
-increase gain in db<br>
-  __параметры:__
-  - **[VALS]** values for each input channel<br>
-    тип: list <br>
-
-* **-db**
-decrease gain in db<br>
-  __параметры:__
-  - **[VALS]** values for each input channel<br>
-    тип: list <br>
-
 * **+all**
 increase gain amplitude for all inputs<br>
   __параметры:__
@@ -57,12 +39,30 @@ increase gain amplitude for all inputs<br>
     тип: float <br>
     обязательно: True <br>
 
+* **+db**
+increase gain in db<br>
+  __параметры:__
+  - **[VALS]** values for each input channel<br>
+    тип: list <br>
+
+* **-**
+decrease gain amplitude<br>
+  __параметры:__
+  - **[VALS]** values for each input channel<br>
+    тип: list <br>
+
 * **-all**
 decrease gain amplitude for all inputs<br>
   __параметры:__
   - **V** single value for each input channel<br>
     тип: float <br>
     обязательно: True <br>
+
+* **-db**
+decrease gain in db<br>
+  __параметры:__
+  - **[VALS]** values for each input channel<br>
+    тип: list <br>
 
 * **set**
 set gain amplitude for all inputs<br>

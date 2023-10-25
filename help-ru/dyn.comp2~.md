@@ -23,7 +23,7 @@ compression ratio (1 = no compression, &gt;1 means compression)<br>
 _тип:_ float<br>
 
 * **THRESHOLD**
-level threshold above which compression kicks in (100 dB = max level)<br>
+level threshold above which compression kicks in<br>
 _тип:_ float<br>
 _единица:_ db<br>
 
@@ -39,6 +39,19 @@ _единица:_ ms<br>
 
 
 
+## методы:
+
+* **preset**
+choose predefined preset<br>
+  __параметры:__
+  - **PRESET** name<br>
+    тип: symbol <br>
+    обязательно: True <br>
+
+* **reset**
+reset to initial state<br>
+
+
 
 
 ## свойства:
@@ -46,21 +59,21 @@ _единица:_ ms<br>
 * **@ratio** 
 Запросить/установить compression ratio (1 = no compression, &gt;1 means compression)<br>
 _тип:_ float<br>
-_диапазон:_ 1..10<br>
+_диапазон:_ 1..16<br>
 _по умолчанию:_ 1<br>
 
 * **@threshold** 
-Запросить/установить level threshold above which compression kicks in (100 dB = max level)<br>
+Запросить/установить level threshold above which compression kicks in<br>
 _тип:_ float<br>
 _единица:_ db<br>
-_диапазон:_ 0..100<br>
-_по умолчанию:_ 100<br>
+_диапазон:_ -90..0<br>
+_по умолчанию:_ -10<br>
 
 * **@attack** 
 Запросить/установить time constant when level &amp; compression going up<br>
 _тип:_ float<br>
 _единица:_ ms<br>
-_диапазон:_ 1..100<br>
+_диапазон:_ 0.1..100<br>
 _по умолчанию:_ 10<br>
 
 * **@release** 
@@ -74,13 +87,40 @@ _по умолчанию:_ 50<br>
 Запросить/установить make up gain: applied to the signal after the compression takes place<br>
 _тип:_ float<br>
 _единица:_ db<br>
-_диапазон:_ -12..12<br>
+_диапазон:_ -18..18<br>
+_по умолчанию:_ 0<br>
+
+* **@bypass** 
+Запросить/установить bypass flag. If true: bypass &#39;effected&#39; signal.<br>
+_тип:_ bool<br>
+_по умолчанию:_ 0<br>
+
+* **@level** (readonly)
+Запросить current level of compression<br>
+_тип:_ float<br>
+_диапазон:_ 0..1<br>
 _по умолчанию:_ 0<br>
 
 * **@active** 
 Запросить/установить on/off dsp processing<br>
 _тип:_ bool<br>
 _по умолчанию:_ 1<br>
+
+* **@refresh** 
+Запросить/установить compression level output time interval. If 0 - no output<br>
+_тип:_ int<br>
+_единица:_ ms<br>
+_диапазон:_ 0..1000<br>
+_по умолчанию:_ 100<br>
+
+* **@osc** (initonly)
+Запросить/установить OSC server name to listen<br>
+_тип:_ symbol<br>
+
+* **@id** (initonly)
+Запросить/установить OSC address id. If specified, bind all properties to /ID/dyn_comp2/PROP_NAME
+osc address, if empty bind to /dyn_comp2/PROP_NAME.<br>
+_тип:_ symbol<br>
 
 
 
@@ -99,6 +139,8 @@ _тип:_ audio
 _тип:_ audio
 * right output signal<br>
 _тип:_ audio
+* float: output current compression level in [0..1]<br>
+_тип:_ control
 
 
 

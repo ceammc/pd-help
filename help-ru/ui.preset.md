@@ -32,12 +32,8 @@ clear specified preset<br>
 * **clearall**
 clear all existing presets<br>
 
-* **load**
-loads specified preset<br>
-  __параметры:__
-  - **IDX** preset index<br>
-    тип: int <br>
-    обязательно: True <br>
+* **duplicate**
+fill empty presets by coping exiting values<br>
 
 * **interp**
 loads linearry interpolated value between preset, for example: 1.5 means load
@@ -47,29 +43,12 @@ interpolated value between preset 1 and 2.<br>
     тип: float <br>
     обязательно: True <br>
 
-* **store**
-stores specified preset<br>
+* **load**
+loads specified preset<br>
   __параметры:__
   - **IDX** preset index<br>
     тип: int <br>
     обязательно: True <br>
-
-* **read**
-read presets from file<br>
-  __параметры:__
-  - **PATH** path to preset file<br>
-    тип: symbol <br>
-    обязательно: True <br>
-
-* **write**
-read presets from file<br>
-  __параметры:__
-  - **PATH** path to preset file<br>
-    тип: symbol <br>
-    обязательно: True <br>
-
-* **duplicate**
-fill empty presets by coping exiting values<br>
 
 * **pos**
 set UI element position<br>
@@ -80,6 +59,27 @@ set UI element position<br>
 
   - **Y** top right y-coord<br>
     тип: float <br>
+    обязательно: True <br>
+
+* **read**
+read presets from file<br>
+  __параметры:__
+  - **PATH** path to preset file<br>
+    тип: symbol <br>
+    обязательно: True <br>
+
+* **store**
+stores specified preset<br>
+  __параметры:__
+  - **IDX** preset index<br>
+    тип: int <br>
+    обязательно: True <br>
+
+* **write**
+read presets from file<br>
+  __параметры:__
+  - **PATH** path to preset file<br>
+    тип: symbol <br>
     обязательно: True <br>
 
 

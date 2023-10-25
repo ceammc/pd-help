@@ -275,6 +275,6 @@ _псевдонимы:_ \[math.^&#39;\], \[ceammc/^&#39;\], \[^&#39;\]
 [**math.trunc~**](math.trunc~.html): truncate to integer value 
 
 
-**Версия:** 0.9.6
+**Версия:** 0.9.7
 
 **Лицензия:** GPL3

@@ -28,23 +28,6 @@ _тип:_ symbol<br>
 
 ## методы:
 
-* **set**
-sets icon name<br>
-
-* **load**
-loads specified preset<br>
-  __параметры:__
-  - **IDX** preset index<br>
-    тип: int <br>
-    обязательно: True <br>
-
-* **store**
-stores specified preset<br>
-  __параметры:__
-  - **IDX** preset index<br>
-    тип: int <br>
-    обязательно: True <br>
-
 * **clear**
 clears specified preset<br>
   __параметры:__
@@ -55,6 +38,13 @@ clears specified preset<br>
 * **interp**
 for this object acts as *load*, no interpolation performed<br>
 
+* **load**
+loads specified preset<br>
+  __параметры:__
+  - **IDX** preset index<br>
+    тип: int <br>
+    обязательно: True <br>
+
 * **pos**
 set UI element position<br>
   __параметры:__
@@ -64,6 +54,16 @@ set UI element position<br>
 
   - **Y** top right y-coord<br>
     тип: float <br>
+    обязательно: True <br>
+
+* **set**
+sets icon name<br>
+
+* **store**
+stores specified preset<br>
+  __параметры:__
+  - **IDX** preset index<br>
+    тип: int <br>
     обязательно: True <br>
 
 

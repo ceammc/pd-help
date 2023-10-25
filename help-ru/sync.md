@@ -10,6 +10,8 @@
 ---
 
 
+## информация
+The value send to inlet repeated to all outlets except from the current one. This prevents infinite loops
 
 
 [![example](../examples/img/sync.jpg)](../examples/pd/sync.pd)
@@ -25,6 +27,14 @@ _тип:_ int<br>
 
 
 
+
+## свойства:
+
+* **@n** (initonly)
+Запросить/установить number of synced values<br>
+_тип:_ int<br>
+_диапазон:_ 2..8<br>
+_по умолчанию:_ 2<br>
 
 
 

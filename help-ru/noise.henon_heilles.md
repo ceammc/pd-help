@@ -44,15 +44,29 @@ _тип:_ float<br>
 
 ## методы:
 
+* **dt**
+<br>
+  __параметры:__
+  - **NY** dt value<br>
+    тип: float <br>
+    обязательно: True <br>
+
+* **e**
+<br>
+  __параметры:__
+  - **NY** e value<br>
+    тип: float <br>
+    обязательно: True <br>
+
+* **reset**
+reset state<br>
+
 * **set**
 <br>
   __параметры:__
   - **SET** set to value<br>
     тип: float <br>
     обязательно: True <br>
-
-* **reset**
-reset state<br>
 
 * **x**
 <br>
@@ -72,20 +86,6 @@ reset state<br>
 <br>
   __параметры:__
   - **NY** y&#39; value<br>
-    тип: float <br>
-    обязательно: True <br>
-
-* **e**
-<br>
-  __параметры:__
-  - **NY** e value<br>
-    тип: float <br>
-    обязательно: True <br>
-
-* **dt**
-<br>
-  __параметры:__
-  - **NY** dt value<br>
     тип: float <br>
     обязательно: True <br>
 

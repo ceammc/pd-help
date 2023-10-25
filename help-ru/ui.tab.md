@@ -20,12 +20,40 @@
 
 ## методы:
 
+* **+ STEP**
+moves several steps forward on a loop (single mode only), output newly selected
+item<br>
+
+* **- STEP**
+moves several step backwards on a loop (single mode only), output newly
+selected item<br>
+
 * **append**
 appends new tab item<br>
   __параметры:__
   - **ATOMS** item name<br>
     тип: list <br>
     обязательно: True <br>
+
+* **erase**
+clears all tab menu<br>
+
+* **clear**
+clears specified preset<br>
+  __параметры:__
+  - **IDX** preset index<br>
+    тип: int <br>
+    обязательно: True <br>
+
+* **delete**
+removes item from tab<br>
+  __параметры:__
+  - **IDX** removed item index<br>
+    тип: int <br>
+    обязательно: True <br>
+
+* **flip**
+flips radio (only in checklist mode)<br>
 
 * **insert**
 inserts new tab item before specified position<br>
@@ -38,13 +66,50 @@ inserts new tab item before specified position<br>
     тип: atom <br>
     обязательно: True <br>
 
-* **clear**
-clears all tab menu<br>
+* **interp**
+for this object acts as *load*, no preset interpolation performed<br>
 
-* **delete**
-removes item from tab<br>
+* **load**
+loads specified preset<br>
   __параметры:__
-  - **IDX** removed item index<br>
+  - **IDX** preset index<br>
+    тип: int <br>
+    обязательно: True <br>
+
+* **next**
+moves to next item until last item is reached (single mode only). Output new
+item<br>
+
+* **pos**
+set UI element position<br>
+  __параметры:__
+  - **X** top left x-coord<br>
+    тип: float <br>
+    обязательно: True <br>
+
+  - **Y** top right y-coord<br>
+    тип: float <br>
+    обязательно: True <br>
+
+* **prev**
+moves to previous item until first item is reached (single mode only). Output
+new item<br>
+
+* **random**
+select random item. If called [random move( moves to random item (excluding the
+current one)<br>
+
+* **select**
+selects specified item in tab<br>
+  __параметры:__
+  - **IDX** item index<br>
+    тип: int <br>
+    обязательно: True <br>
+
+* **set**
+silently sets tab state.<br>
+  __параметры:__
+  - **IDX** item index<br>
     тип: int <br>
     обязательно: True <br>
 
@@ -59,76 +124,11 @@ renames tab item<br>
     тип: list <br>
     обязательно: True <br>
 
-* **set**
-silently sets tab state.<br>
-  __параметры:__
-  - **IDX** item index<br>
-    тип: int <br>
-    обязательно: True <br>
-
-* **select**
-selects specified item in tab<br>
-  __параметры:__
-  - **IDX** item index<br>
-    тип: int <br>
-    обязательно: True <br>
-
-* **random**
-select random item. If called [random move( moves to random item (excluding the
-current one)<br>
-
-* **flip**
-flips radio (only in checklist mode)<br>
-
-* **next**
-moves to next item until last item is reached (single mode only). Output new
-item<br>
-
-* **prev**
-moves to previous item until first item is reached (single mode only). Output
-new item<br>
-
-* **+ STEP**
-moves several steps forward on a loop (single mode only), output newly selected
-item<br>
-
-* **- STEP**
-moves several step backwards on a loop (single mode only), output newly
-selected item<br>
-
-* **load**
-loads specified preset<br>
-  __параметры:__
-  - **IDX** preset index<br>
-    тип: int <br>
-    обязательно: True <br>
-
 * **store**
 stores specified preset<br>
   __параметры:__
   - **IDX** preset index<br>
     тип: int <br>
-    обязательно: True <br>
-
-* **clear**
-clears specified preset<br>
-  __параметры:__
-  - **IDX** preset index<br>
-    тип: int <br>
-    обязательно: True <br>
-
-* **interp**
-for this object acts as *load*, no interpolation performed<br>
-
-* **pos**
-set UI element position<br>
-  __параметры:__
-  - **X** top left x-coord<br>
-    тип: float <br>
-    обязательно: True <br>
-
-  - **Y** top right y-coord<br>
-    тип: float <br>
     обязательно: True <br>
 
 

@@ -40,15 +40,12 @@ _тип:_ float<br>
 
 ## методы:
 
-* **set**
+* **lambda**
 <br>
   __параметры:__
-  - **SET** set to value<br>
+  - **LAMBDA** lambda value<br>
     тип: float <br>
     обязательно: True <br>
-
-* **reset**
-reset state<br>
 
 * **om**
 <br>
@@ -57,17 +54,20 @@ reset state<br>
     тип: int <br>
     обязательно: True <br>
 
-* **lambda**
-<br>
-  __параметры:__
-  - **LAMBDA** lambda value<br>
-    тип: float <br>
-    обязательно: True <br>
+* **reset**
+reset state<br>
 
 * **seed**
 <br>
   __параметры:__
   - **SEED** seed value<br>
+    тип: float <br>
+    обязательно: True <br>
+
+* **set**
+<br>
+  __параметры:__
+  - **SET** set to value<br>
     тип: float <br>
     обязательно: True <br>
 

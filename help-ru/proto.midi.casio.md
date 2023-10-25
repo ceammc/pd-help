@@ -11,7 +11,7 @@
 
 
 ## информация
-Note: only PX160 model supported at this moment
+Note: only PX160 model supported at this moment Note: on PX160 instrument change done only for incoming midi signals.
 
 
 [![example](../examples/img/proto.midi.casio.jpg)](../examples/pd/proto.midi.casio.pd)
@@ -36,18 +36,67 @@ send Note On message<br>
     тип: atom <br>
     обязательно: True <br>
 
-* **rev_type**
-set reverb type<br>
-  __параметры:__
-  - **TYPE** reverb type<br>
-    тип: int <br>
-    обязательно: True <br>
-
 * **rev_time**
 set reverb time<br>
   __параметры:__
   - **AMOUNT** reverb time<br>
     тип: int <br>
+    обязательно: True <br>
+
+* **rev_type**
+set reverb type<br>
+  __параметры:__
+  - **TYPE** reverb type. For PX160 - 1: room, 2: default (hall), 3: hall2, 4: stadium<br>
+    тип: int <br>
+    обязательно: True <br>
+
+* **chorus**
+set chorus fx level<br>
+  __параметры:__
+  - **VALUE** level<br>
+    тип: float <br>
+    обязательно: True <br>
+
+* **chorus_type**
+set chorus type<br>
+  __параметры:__
+  - **TYPE** chorus type. For PX160 - 1: chorus1, 2: chorus2, 3: deep chorus, 4: flanger<br>
+    тип: int <br>
+    обязательно: True <br>
+
+* **chorus_send**
+set chorus send level<br>
+  __параметры:__
+  - **AMOUNT** level<br>
+    тип: float <br>
+    обязательно: True <br>
+
+* **chorus_fb**
+set chorus feedback level<br>
+  __параметры:__
+  - **AMOUNT** level<br>
+    тип: float <br>
+    обязательно: True <br>
+
+* **chorus_send**
+set chorus send level<br>
+  __параметры:__
+  - **AMOUNT** level<br>
+    тип: float <br>
+    обязательно: True <br>
+
+* **chorus_depth**
+set chorus depth<br>
+  __параметры:__
+  - **DEPTH** depth value<br>
+    тип: float <br>
+    обязательно: True <br>
+
+* **chorus_rate**
+set chorus rate<br>
+  __параметры:__
+  - **RATE** rate value<br>
+    тип: float <br>
     обязательно: True <br>
 
 
@@ -58,13 +107,14 @@ set reverb time<br>
 * **@model** 
 Запросить/установить device model<br>
 _тип:_ symbol<br>
+_варианты:_ px160<br>
 _по умолчанию:_ px160<br>
 
 
 
 ## входы:
 
-*  <br>
+* control messages<br>
 _тип:_ control
 
 

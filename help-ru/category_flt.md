@@ -14,6 +14,10 @@
 
 [**flt.bpf24~**](flt.bpf24~.html): Four pole band-pass butterworth filter 
 
+[**flt.bpf36e~**](flt.bpf36e~.html): elliptic band-pass filter with -36db rolloff 
+
+[**flt.bpf72e~**](flt.bpf72e~.html): elliptic band-pass filter with -72db rolloff 
+
 [**flt.c_apf**](flt.c_apf.html): Allpass filter coefficient calculator for biquad <br>
 _псевдонимы:_ \[ceammc/apf-&gt;biquad\], \[apf-&gt;biquad\]
 
@@ -92,7 +96,9 @@ _псевдонимы:_ \[ceammc/pole-&gt;biquad\], \[pole-&gt;biquad\]
 
 [**flt.resonlp~**](flt.resonlp~.html): Simple resonant lowpass filter 
 
+[**flt.speaker~**](flt.speaker~.html): speaker emulation band-pass filter 
 
-**Версия:** 0.9.6
+
+**Версия:** 0.9.7
 
 **Лицензия:** GPL3

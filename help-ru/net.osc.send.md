@@ -18,10 +18,6 @@
 
 ## аргументы:
 
-* **NAME**
-OSC server name (for using with other objects)<br>
-_тип:_ symbol<br>
-
 * **URL**
 OSC server url (like osc.udp://localhost:12345)<br>
 _тип:_ atom<br>
@@ -41,6 +37,17 @@ send input values (autotyped)<br>
     тип: list <br>
     обязательно: True <br>
 
+* **send_blob**
+send character<br>
+  __параметры:__
+  - **PATH** OSC path<br>
+    тип: symbol <br>
+    обязательно: True <br>
+
+  - **VAL** list of bytes<br>
+    тип: list <br>
+    обязательно: True <br>
+
 * **send_bool**
 send boolean value<br>
   __параметры:__
@@ -50,6 +57,39 @@ send boolean value<br>
 
   - **VAL** value<br>
     тип: int <br>
+    обязательно: True <br>
+
+* **send_char**
+send character<br>
+  __параметры:__
+  - **PATH** OSC path<br>
+    тип: symbol <br>
+    обязательно: True <br>
+
+  - **VAL** ASCII code in 0-127 range or single symbol<br>
+    тип: atom <br>
+    обязательно: True <br>
+
+* **send_double**
+send double value<br>
+  __параметры:__
+  - **PATH** OSC path<br>
+    тип: symbol <br>
+    обязательно: True <br>
+
+  - **VAL** value<br>
+    тип: float <br>
+    обязательно: True <br>
+
+* **send_float**
+send float value<br>
+  __параметры:__
+  - **PATH** OSC path<br>
+    тип: symbol <br>
+    обязательно: True <br>
+
+  - **VAL** value<br>
+    тип: float <br>
     обязательно: True <br>
 
 * **send_i32**
@@ -74,37 +114,26 @@ send int64 value<br>
     тип: int <br>
     обязательно: True <br>
 
-* **send_float**
-send float value<br>
+* **send_inf**
+send inf value<br>
   __параметры:__
   - **PATH** OSC path<br>
     тип: symbol <br>
     обязательно: True <br>
 
-  - **VAL** value<br>
-    тип: float <br>
-    обязательно: True <br>
-
-* **send_double**
-send double value<br>
+* **send_midi**
+send midi message (4 bytes)<br>
   __параметры:__
   - **PATH** OSC path<br>
     тип: symbol <br>
     обязательно: True <br>
 
-  - **VAL** value<br>
-    тип: float <br>
+  - **VAL** hex symbol (0xAAFF1122) or list of 4 bytes<br>
+    тип: list <br>
     обязательно: True <br>
 
 * **send_null**
 send null value<br>
-  __параметры:__
-  - **PATH** OSC path<br>
-    тип: symbol <br>
-    обязательно: True <br>
-
-* **send_inf**
-send inf value<br>
   __параметры:__
   - **PATH** OSC path<br>
     тип: symbol <br>
@@ -133,39 +162,6 @@ send list of typed values<br>
     обязательно: True <br>
 
   - **VAL** values<br>
-    тип: list <br>
-    обязательно: True <br>
-
-* **send_char**
-send character<br>
-  __параметры:__
-  - **PATH** OSC path<br>
-    тип: symbol <br>
-    обязательно: True <br>
-
-  - **VAL** ASCII code in 0-127 range or single symbol<br>
-    тип: atom <br>
-    обязательно: True <br>
-
-* **send_blob**
-send character<br>
-  __параметры:__
-  - **PATH** OSC path<br>
-    тип: symbol <br>
-    обязательно: True <br>
-
-  - **VAL** list of bytes<br>
-    тип: list <br>
-    обязательно: True <br>
-
-* **send_midi**
-send midi message (4 bytes)<br>
-  __параметры:__
-  - **PATH** OSC path<br>
-    тип: symbol <br>
-    обязательно: True <br>
-
-  - **VAL** hex symbol (0xAAFF1122) or list of 4 bytes<br>
     тип: list <br>
     обязательно: True <br>
 

@@ -20,18 +20,28 @@
 
 ## методы:
 
+* **clear**
+clears specified preset<br>
+  __параметры:__
+  - **IDX** preset index<br>
+    тип: int <br>
+    обязательно: True <br>
+
 * **dump**
 dumps all object info to Pd console window<br>
 
-* **set**
-sets slider position without output<br>
+* **interp**
+interplolates between presets<br>
   __параметры:__
-  - **X** x-position<br>
+  - **IDX** preset fraction index<br>
     тип: float <br>
     обязательно: True <br>
 
-  - **Y** y-position<br>
-    тип: float <br>
+* **load**
+loads specified preset<br>
+  __параметры:__
+  - **IDX** preset index<br>
+    тип: int <br>
     обязательно: True <br>
 
 * **move**
@@ -45,34 +55,6 @@ move slider by given offset<br>
     тип: float <br>
     обязательно: True <br>
 
-* **load**
-loads specified preset<br>
-  __параметры:__
-  - **IDX** preset index<br>
-    тип: int <br>
-    обязательно: True <br>
-
-* **store**
-stores specified preset<br>
-  __параметры:__
-  - **IDX** preset index<br>
-    тип: int <br>
-    обязательно: True <br>
-
-* **clear**
-clears specified preset<br>
-  __параметры:__
-  - **IDX** preset index<br>
-    тип: int <br>
-    обязательно: True <br>
-
-* **interp**
-interplolates between presets<br>
-  __параметры:__
-  - **IDX** preset fraction index<br>
-    тип: float <br>
-    обязательно: True <br>
-
 * **pos**
 set UI element position<br>
   __параметры:__
@@ -82,6 +64,24 @@ set UI element position<br>
 
   - **Y** top right y-coord<br>
     тип: float <br>
+    обязательно: True <br>
+
+* **set**
+sets slider position without output<br>
+  __параметры:__
+  - **X** x-position<br>
+    тип: float <br>
+    обязательно: True <br>
+
+  - **Y** y-position<br>
+    тип: float <br>
+    обязательно: True <br>
+
+* **store**
+stores specified preset<br>
+  __параметры:__
+  - **IDX** preset index<br>
+    тип: int <br>
     обязательно: True <br>
 
 

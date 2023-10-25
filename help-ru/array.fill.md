@@ -3,7 +3,7 @@
 
 # array.fill
 
-###### fill array with single value or pattern
+###### fill array with single value, pattern or function
 
 *доступно с версии:* 0.3
 
@@ -42,20 +42,6 @@ fill all array with specified value or pattern<br>
   - **[VAL...]** other values..<br>
     тип: float <br>
 
-* **sin**
-fill all array with sine wave<br>
-  __параметры:__
-  - **T** wave period. Should be &gt;0<br>
-    тип: float <br>
-    единица: samp <br>
-    обязательно: True <br>
-
-  - **[A=1]** amplitude<br>
-    тип: float <br>
-
-  - **[PHASE=0]** phase in 0...1 range<br>
-    тип: float <br>
-
 * **gauss**
 fill all array with random value with normal (gauss) distribution<br>
   __параметры:__
@@ -63,15 +49,6 @@ fill all array with random value with normal (gauss) distribution<br>
     тип: float <br>
 
   - **[SIGMA=1]** standard deviation<br>
-    тип: float <br>
-
-* **uniform**
-fill all array with random value with uniform distribution<br>
-  __параметры:__
-  - **[A=0]** min value<br>
-    тип: float <br>
-
-  - **[B=1]** max value<br>
     тип: float <br>
 
 * **pulse**
@@ -88,6 +65,34 @@ fill all array with pulse wave<br>
   - **[D=0.5]** duty cycle<br>
     тип: float <br>
 
+* **saw**
+fill all array with saw wave<br>
+  __параметры:__
+  - **T** wave period<br>
+    тип: float <br>
+    единица: samp <br>
+    обязательно: True <br>
+
+  - **[A=1]** wave amplitude<br>
+    тип: float <br>
+
+  - **[PHASE=0]** wave phase<br>
+    тип: float <br>
+
+* **sin**
+fill all array with sine wave<br>
+  __параметры:__
+  - **T** wave period. Should be &gt;0<br>
+    тип: float <br>
+    единица: samp <br>
+    обязательно: True <br>
+
+  - **[A=1]** amplitude<br>
+    тип: float <br>
+
+  - **[PHASE=0]** phase in 0...1 range<br>
+    тип: float <br>
+
 * **tri**
 fill all array with triangle wave<br>
   __параметры:__
@@ -99,15 +104,13 @@ fill all array with triangle wave<br>
   - **[AMP=1]** wave amplitude<br>
     тип: float <br>
 
-* **saw**
-fill all array with saw wave<br>
+* **uniform**
+fill all array with random value with uniform distribution<br>
   __параметры:__
-  - **T** wave period<br>
+  - **[A=0]** min value<br>
     тип: float <br>
-    единица: samp <br>
-    обязательно: True <br>
 
-  - **[A=1]** wave amplitude<br>
+  - **[B=1]** max value<br>
     тип: float <br>
 
 

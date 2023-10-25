@@ -52,28 +52,32 @@ _тип:_ float<br>
 
 ## методы:
 
-* **set**
+* **a**
 <br>
   __параметры:__
-  - **SET** set to value<br>
+  - **A** a value<br>
     тип: float <br>
     обязательно: True <br>
 
-* **reset**
-reset state<br>
+* **c**
+<br>
+  __параметры:__
+  - **B** b value<br>
+    тип: float <br>
+    обязательно: True <br>
+
+* **dt**
+<br>
+  __параметры:__
+  - **DT** dt value<br>
+    тип: float <br>
+    обязательно: True <br>
 
 * **om**
 <br>
   __параметры:__
   - **OM** enables output when cut or fold value is changed<br>
     тип: int <br>
-    обязательно: True <br>
-
-* **a**
-<br>
-  __параметры:__
-  - **A** a value<br>
-    тип: float <br>
     обязательно: True <br>
 
 * **r**
@@ -83,10 +87,13 @@ reset state<br>
     тип: float <br>
     обязательно: True <br>
 
-* **c**
+* **reset**
+reset state<br>
+
+* **set**
 <br>
   __параметры:__
-  - **B** b value<br>
+  - **SET** set to value<br>
     тип: float <br>
     обязательно: True <br>
 
@@ -108,13 +115,6 @@ reset state<br>
 <br>
   __параметры:__
   - **NZ** z value<br>
-    тип: float <br>
-    обязательно: True <br>
-
-* **dt**
-<br>
-  __параметры:__
-  - **DT** dt value<br>
     тип: float <br>
     обязательно: True <br>
 

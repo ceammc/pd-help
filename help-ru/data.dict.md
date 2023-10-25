@@ -22,6 +22,9 @@ Syntax: [key1: value key2 : &#34;with space&#34;]. Nested dictionaries are suppo
 
 ## методы:
 
+* **[....]**
+sets new content without output<br>
+
 * **add**
 adds entry to dictionary<br>
   __параметры:__
@@ -33,6 +36,9 @@ adds entry to dictionary<br>
     тип: list <br>
     обязательно: True <br>
 
+* **choose**
+choose random key and output it<br>
+
 * **clear**
 removes all dict values. No output<br>
 
@@ -43,8 +49,22 @@ get entry from dictionary<br>
     тип: symbol <br>
     обязательно: True <br>
 
-* **choose**
-choose random key and output it<br>
+* **read**
+read dict from JSON file<br>
+  __параметры:__
+  - **PATH** file path<br>
+    тип: symbol <br>
+    обязательно: True <br>
+
+* **remove**
+remove entry from dictionary<br>
+  __параметры:__
+  - **KEY** entry key<br>
+    тип: symbol <br>
+    обязательно: True <br>
+
+* **set**
+set dict content without output<br>
 
 * **set_key**
 change entry in dictionary. If it&#39;s not exists, do nothing.<br>
@@ -55,26 +75,6 @@ change entry in dictionary. If it&#39;s not exists, do nothing.<br>
 
   - **VAL** single value or list<br>
     тип: list <br>
-    обязательно: True <br>
-
-* **set**
-set dict content without output<br>
-
-* **remove**
-remove entry from dictionary<br>
-  __параметры:__
-  - **KEY** entry key<br>
-    тип: symbol <br>
-    обязательно: True <br>
-
-* **[....]**
-sets new content without output<br>
-
-* **read**
-read dict from JSON file<br>
-  __параметры:__
-  - **PATH** file path<br>
-    тип: symbol <br>
     обязательно: True <br>
 
 * **write**

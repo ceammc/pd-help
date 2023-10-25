@@ -20,6 +20,34 @@
 
 ## методы:
 
+* **clear**
+clears specified preset<br>
+  __параметры:__
+  - **IDX** preset index<br>
+    тип: int <br>
+    обязательно: True <br>
+
+* **interp**
+for this object acts as *load*, no interpolation performed<br>
+
+* **load**
+loads specified preset<br>
+  __параметры:__
+  - **IDX** preset index<br>
+    тип: int <br>
+    обязательно: True <br>
+
+* **pos**
+set UI element position<br>
+  __параметры:__
+  - **X** top left x-coord<br>
+    тип: float <br>
+    обязательно: True <br>
+
+  - **Y** top right y-coord<br>
+    тип: float <br>
+    обязательно: True <br>
+
 * **set**
 set widget value with no output<br>
   __параметры:__
@@ -31,39 +59,11 @@ set widget value with no output<br>
     тип: int <br>
     обязательно: True <br>
 
-* **load**
-loads specified preset<br>
-  __параметры:__
-  - **IDX** preset index<br>
-    тип: int <br>
-    обязательно: True <br>
-
 * **store**
 stores specified preset<br>
   __параметры:__
   - **IDX** preset index<br>
     тип: int <br>
-    обязательно: True <br>
-
-* **clear**
-clears specified preset<br>
-  __параметры:__
-  - **IDX** preset index<br>
-    тип: int <br>
-    обязательно: True <br>
-
-* **interp**
-for this object acts as *load*, no interpolation performed<br>
-
-* **pos**
-set UI element position<br>
-  __параметры:__
-  - **X** top left x-coord<br>
-    тип: float <br>
-    обязательно: True <br>
-
-  - **Y** top right y-coord<br>
-    тип: float <br>
     обязательно: True <br>
 
 

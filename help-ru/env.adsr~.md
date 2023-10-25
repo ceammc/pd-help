@@ -99,6 +99,15 @@ _тип:_ list<br>
 _тип:_ bool<br>
 _по умолчанию:_ 1<br>
 
+* **@osc** (initonly)
+Запросить/установить OSC server name to listen<br>
+_тип:_ symbol<br>
+
+* **@id** (initonly)
+Запросить/установить OSC address id. If specified, bind all properties to /ID/env_adsr/PROP_NAME osc
+address, if empty bind to /env_adsr/PROP_NAME.<br>
+_тип:_ symbol<br>
+
 
 
 ## входы:

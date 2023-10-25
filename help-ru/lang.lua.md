@@ -32,23 +32,6 @@ _тип:_ int<br>
 
 ## методы:
 
-* **load**
-load lua file and eval it<br>
-  __параметры:__
-  - **PATH** path to lua file<br>
-    тип: list <br>
-    обязательно: True <br>
-
-* **eval**
-eval lua code<br>
-  __параметры:__
-  - **CODE** lua code<br>
-    тип: list <br>
-    обязательно: True <br>
-
-* **quit**
-abort lua script execution<br>
-
 * **call**
 call lua function<br>
   __параметры:__
@@ -58,6 +41,23 @@ call lua function<br>
 
   - **[ARGS]** function arguments<br>
     тип: list <br>
+
+* **eval**
+eval lua code<br>
+  __параметры:__
+  - **CODE** lua code<br>
+    тип: list <br>
+    обязательно: True <br>
+
+* **load**
+load lua file and eval it<br>
+  __параметры:__
+  - **PATH** path to lua file<br>
+    тип: list <br>
+    обязательно: True <br>
+
+* **quit**
+abort lua script execution<br>
 
 
 

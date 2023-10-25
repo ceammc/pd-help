@@ -28,7 +28,7 @@ _тип:_ int<br>
 decoding mode<br>
 _тип:_ symbol<br>
 
-* **N**
+* **NCH**
 number of loud speakers (minimum 2*ORDER+1 for ambisonic mode)<br>
 _тип:_ int<br>
 
@@ -97,21 +97,13 @@ _единица:_ rad<br>
 _диапазон:_ -1..1<br>
 _по умолчанию:_ 1 0 -1 0<br>
 
-* **@pw_z** (readonly)
-Запросить list of plain wave z-coordinates (heights). -1 is the bottom of the soundfield,
-0 is the center of the soundfield and 1 is the top of the soundfield.<br>
-_тип:_ list<br>
-_единица:_ rad<br>
-_диапазон:_ -1..1<br>
-_по умолчанию:_ 0 0 0 0<br>
-
 * **@nharm** (readonly)
 Запросить number of circular harmonics.<br>
 _тип:_ int<br>
 _минимальное значение:_ 1<br>
 _по умолчанию:_ 3<br>
 
-* **@nwaves** (initonly)
+* **@nch** (initonly)
 Запросить/установить number of plain waves.<br>
 _тип:_ int<br>
 _минимальное значение:_ 1<br>

@@ -36,6 +36,7 @@ _единица:_ rad<br>
 * **@angle** 
 Запросить/установить panning position in radians<br>
 _тип:_ float<br>
+_единица:_ rad<br>
 _диапазон:_ 0..2π<br>
 _по умолчанию:_ 0<br>
 
@@ -49,6 +50,15 @@ _по умолчанию:_ 1<br>
 Запросить/установить on/off dsp processing<br>
 _тип:_ bool<br>
 _по умолчанию:_ 1<br>
+
+* **@osc** (initonly)
+Запросить/установить OSC server name to listen<br>
+_тип:_ symbol<br>
+
+* **@id** (initonly)
+Запросить/установить OSC address id. If specified, bind all properties to /ID/spat_pan4/PROP_NAME
+osc address, if empty bind to /spat_pan4/PROP_NAME.<br>
+_тип:_ symbol<br>
 
 
 

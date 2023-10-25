@@ -1,0 +1,240 @@
+[index](index.html) :: [spat](category_spat.html)
+---
+
+# hoa.2d.space
+
+###### planewaves amp control
+
+*доступно с версии:* 0.9.7
+
+---
+
+
+## информация
+The graphical user interface that facilitates the control of processing in the plane wave domain.
+
+
+[![example](../examples/img/hoa.2d.space.jpg)](../examples/pd/hoa.2d.space.pd)
+
+
+
+## аргументы:
+
+* **N**
+number of planewave channels<br>
+_тип:_ int<br>
+
+
+
+## методы:
+
+* **dump**
+dumps all object info to Pd console window.<br>
+
+* **pos**
+set UI element position<br>
+  __параметры:__
+  - **X** top left x-coord<br>
+    тип: float <br>
+    обязательно: True <br>
+
+  - **Y** top right y-coord<br>
+    тип: float <br>
+    обязательно: True <br>
+
+* **load**
+loads specified preset<br>
+  __параметры:__
+  - **IDX** preset index<br>
+    тип: int <br>
+    обязательно: True <br>
+
+* **store**
+stores specified preset<br>
+  __параметры:__
+  - **IDX** preset index<br>
+    тип: int <br>
+    обязательно: True <br>
+
+* **clear**
+clears specified preset<br>
+  __параметры:__
+  - **IDX** preset index<br>
+    тип: int <br>
+    обязательно: True <br>
+
+* **interp**
+interplolates between presets<br>
+  __параметры:__
+  - **IDX** preset fraction index<br>
+    тип: float <br>
+    обязательно: True <br>
+
+
+
+
+## свойства:
+
+* **@min** 
+Запросить/установить minimum amp value<br>
+_тип:_ float<br>
+_по умолчанию:_ 0<br>
+
+* **@max** 
+Запросить/установить maximum amp value<br>
+_тип:_ float<br>
+_по умолчанию:_ 1<br>
+
+* **@nch** 
+Запросить/установить number of channels<br>
+_тип:_ int<br>
+_диапазон:_ 1..128<br>
+_по умолчанию:_ 4<br>
+
+* **@sp_color** 
+Запросить/установить space color<br>
+_тип:_ list<br>
+_по умолчанию:_ 0.27 0.43 0.54 1<br>
+
+* **@pt_color** 
+Запросить/установить point color<br>
+_тип:_ list<br>
+_по умолчанию:_ 0 0 0 1<br>
+
+* **@size** 
+Запросить/установить element size (width, height pair)<br>
+_тип:_ list<br>
+_по умолчанию:_ 120 120<br>
+
+* **@pinned** 
+Запросить/установить pin mode. if 1 - put element to the lowest level<br>
+_тип:_ bool<br>
+_по умолчанию:_ 0<br>
+
+* **@background_color** 
+Запросить/установить element background color (list of red, green, blue values in 0-1 range)<br>
+_тип:_ list<br>
+_по умолчанию:_ 0.93 0.93 0.93 1<br>
+
+* **@border_color** 
+Запросить/установить border color (list of red, green, blue values in 0-1 range)<br>
+_тип:_ list<br>
+_по умолчанию:_ 0.6 0.6 0.6 1<br>
+
+* **@fontsize** 
+Запросить/установить fontsize<br>
+_тип:_ int<br>
+_диапазон:_ 4..100<br>
+_по умолчанию:_ 11<br>
+
+* **@fontname** 
+Запросить/установить fontname<br>
+_тип:_ symbol<br>
+_варианты:_ Courier, DejaVu, Helvetica, Monaco, Times<br>
+_по умолчанию:_ Helvetica<br>
+
+* **@fontweight** 
+Запросить/установить font weight<br>
+_тип:_ symbol<br>
+_варианты:_ normal, bold<br>
+_по умолчанию:_ normal<br>
+
+* **@fontslant** 
+Запросить/установить font slant<br>
+_тип:_ symbol<br>
+_варианты:_ roman, italic<br>
+_по умолчанию:_ roman<br>
+
+* **@presetname** 
+Запросить/установить preset name for using with [ui.preset]<br>
+_тип:_ symbol<br>
+_по умолчанию:_ (null)<br>
+
+* **@send** 
+Запросить/установить send destination<br>
+_тип:_ symbol<br>
+_по умолчанию:_ (null)<br>
+
+* **@receive** 
+Запросить/установить receive source<br>
+_тип:_ symbol<br>
+_по умолчанию:_ (null)<br>
+
+* **@label** 
+Запросить/установить label text<br>
+_тип:_ symbol<br>
+_по умолчанию:_ (null)<br>
+
+* **@label_color** 
+Запросить/установить label color in RGB format within 0-1 range, for example: 0.2 0.4 0.1<br>
+_тип:_ list<br>
+_по умолчанию:_ 0 0 0 1<br>
+
+* **@label_inner** 
+Запросить/установить label position (1 - inner, 0 - outer).<br>
+_тип:_ bool<br>
+_по умолчанию:_ 0<br>
+
+* **@label_align** 
+Запросить/установить label horizontal align<br>
+_тип:_ symbol<br>
+_варианты:_ left, center, right<br>
+_по умолчанию:_ left<br>
+
+* **@label_valign** 
+Запросить/установить label vertical align<br>
+_тип:_ symbol<br>
+_варианты:_ top, center, bottom<br>
+_по умолчанию:_ top<br>
+
+* **@label_side** 
+Запросить/установить label snap side<br>
+_тип:_ symbol<br>
+_варианты:_ left, top, right, bottom<br>
+_по умолчанию:_ top<br>
+
+* **@label_margins** 
+Запросить/установить label offset in pixels<br>
+_тип:_ list<br>
+_по умолчанию:_ 0 0<br>
+
+
+
+## входы:
+
+* list: amp values<br>
+_тип:_ control
+
+
+
+## выходы:
+
+* list: amp values<br>
+_тип:_ control
+
+
+
+## ключевые слова:
+
+[hoa](keywords/hoa.html)
+[space](keywords/space.html)
+[ui](keywords/ui.html)
+[control](keywords/control.html)
+[circular](keywords/circular.html)
+
+
+
+
+
+
+**Авторы:** Serge Poltavsky, Pierre Guillot, Eliott Paris, Thomas Le Meur
+
+
+
+
+**Лицензия:** GPL3 or later
+
+
+
+
+

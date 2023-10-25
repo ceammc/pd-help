@@ -26,8 +26,9 @@ duration can be specified - by denominator: 1 (whole), 2_. (dotted half), 8 (eig
 
 * **@bpm** 
 Запросить/установить tempo<br>
-_тип:_ list<br>
-_по умолчанию:_ 60 0.25<br>
+_тип:_ symbol<br>
+_единица:_ bpm<br>
+_по умолчанию:_ 60|4bpm<br>
 
 * **@seq** 
 Запросить/установить sequential durations<br>

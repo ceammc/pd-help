@@ -63,6 +63,18 @@ _тип:_ symbol<br>
 _варианты:_ Courier, DejaVu, Helvetica, Monaco, Times<br>
 _по умолчанию:_ Helvetica<br>
 
+* **@fontweight** 
+Запросить/установить font weight<br>
+_тип:_ symbol<br>
+_варианты:_ normal, bold<br>
+_по умолчанию:_ normal<br>
+
+* **@fontslant** 
+Запросить/установить font slant<br>
+_тип:_ symbol<br>
+_варианты:_ roman, italic<br>
+_по умолчанию:_ roman<br>
+
 
 
 

@@ -66,6 +66,15 @@ _единица:_ Hz<br>
 _диапазон:_ 10..5000<br>
 _по умолчанию:_ 50<br>
 
+* **@osc** (initonly)
+Запросить/установить OSC server name to listen<br>
+_тип:_ symbol<br>
+
+* **@id** (initonly)
+Запросить/установить OSC address id. If specified, bind all properties to /ID/synth_kick/PROP_NAME
+osc address, if empty bind to /synth_kick/PROP_NAME.<br>
+_тип:_ symbol<br>
+
 
 
 ## входы:

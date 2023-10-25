@@ -46,7 +46,7 @@ _по умолчанию:_ 48<br>
 Запросить/установить frequency<br>
 _тип:_ float<br>
 _единица:_ Hz<br>
-_по умолчанию:_ 130.813<br>
+_по умолчанию:_ 130.8128<br>
 
 * **@pos** 
 Запросить/установить pluck position (1 is on the bridge)<br>
@@ -79,10 +79,10 @@ _диапазон:_ 0.1..1<br>
 _по умолчанию:_ 1<br>
 
 * **@mode** 
-Запросить/установить excitation mode: 0 - pluck, 1 - strike<br>
+Запросить/установить excitation mode: 0 - impulse, 1 - pluck, 2 - strike<br>
 _тип:_ int<br>
-_диапазон:_ 0..1<br>
-_по умолчанию:_ 0<br>
+_диапазон:_ 0..2<br>
+_по умолчанию:_ 1<br>
 
 * **@gate** 
 Запросить/установить play trigger - 1: on, 0: off<br>
@@ -94,6 +94,15 @@ _по умолчанию:_ 0<br>
 Запросить/установить on/off dsp processing<br>
 _тип:_ bool<br>
 _по умолчанию:_ 1<br>
+
+* **@osc** (initonly)
+Запросить/установить OSC server name to listen<br>
+_тип:_ symbol<br>
+
+* **@id** (initonly)
+Запросить/установить OSC address id. If specified, bind all properties to /ID/synth_ks/PROP_NAME osc
+address, if empty bind to /synth_ks/PROP_NAME.<br>
+_тип:_ symbol<br>
 
 
 

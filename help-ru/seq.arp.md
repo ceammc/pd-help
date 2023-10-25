@@ -26,30 +26,6 @@ _тип:_ list<br>
 
 ## методы:
 
-* **reset**
-reset all notes to off without output<br>
-
-* **on**
-turn on inactive notes<br>
-  __параметры:__
-  - **[MODE]** if =first play first inactive note in chord list, if =last play last inactive note in chord list, if =all play all inactive notes<br>
-    тип: symbol <br>
-
-  - **[VEL=127]** note velocity<br>
-    тип: float <br>
-
-  - **[NUM=1]** number of notes to turn on<br>
-    тип: int <br>
-
-* **off**
-turn off active notes.<br>
-  __параметры:__
-  - **[MODE]** if =first turn off first active note in chord list, if =last turn off last inactive note in chord list, if =all turn off all active notes<br>
-    тип: symbol <br>
-
-  - **[NUM=1]** number of notes to turn on<br>
-    тип: int <br>
-
 * **asr**
 set arpeggiate mode and run<br>
   __параметры:__
@@ -69,6 +45,30 @@ set arpeggiate mode and run<br>
   - **OFF_MODE** off mode<br>
     тип: symbol <br>
     обязательно: True <br>
+
+* **off**
+turn off active notes.<br>
+  __параметры:__
+  - **[MODE]** if =first turn off first active note in chord list, if =last turn off last inactive note in chord list, if =all turn off all active notes<br>
+    тип: symbol <br>
+
+  - **[NUM=1]** number of notes to turn on<br>
+    тип: int <br>
+
+* **on**
+turn on inactive notes<br>
+  __параметры:__
+  - **[MODE]** if =first play first inactive note in chord list, if =last play last inactive note in chord list, if =all play all inactive notes<br>
+    тип: symbol <br>
+
+  - **[VEL=127]** note velocity<br>
+    тип: float <br>
+
+  - **[NUM=1]** number of notes to turn on<br>
+    тип: int <br>
+
+* **reset**
+reset all notes to off without output<br>
 
 
 

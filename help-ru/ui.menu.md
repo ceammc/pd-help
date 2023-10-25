@@ -27,6 +27,33 @@ appends new menu item<br>
     тип: list <br>
     обязательно: True <br>
 
+* **erase**
+clears all items menu<br>
+
+* **clear**
+clears specified preset<br>
+  __параметры:__
+  - **IDX** preset index<br>
+    тип: int <br>
+    обязательно: True <br>
+
+* **delete**
+removes item from menu<br>
+  __параметры:__
+  - **IDX** removed item index<br>
+    тип: int <br>
+    обязательно: True <br>
+
+* **file_glob**
+fill menu with filenames.<br>
+  __параметры:__
+  - **PATTERN** filename pattern, like * (all files), *.wav (all wav files) etc.<br>
+    тип: symbol <br>
+    обязательно: True <br>
+
+  - **[DIR]** search directory. If omitted - search in patch directory. Performs tilde (~) expansion to home directory. To elide long filenames see @max_length property.<br>
+    тип: symbol <br>
+
 * **insert**
 inserts new menu item before specified position<br>
   __параметры:__
@@ -38,13 +65,31 @@ inserts new menu item before specified position<br>
     тип: atom <br>
     обязательно: True <br>
 
-* **clear**
-clears all items menu<br>
+* **interp**
+for this object acts as *load*, no preset interpolation performed<br>
 
-* **delete**
-removes item from menu<br>
+* **load**
+loads specified preset<br>
   __параметры:__
-  - **IDX** removed item index<br>
+  - **IDX** preset index<br>
+    тип: int <br>
+    обязательно: True <br>
+
+* **pos**
+set UI element position<br>
+  __параметры:__
+  - **X** top left x-coord<br>
+    тип: float <br>
+    обязательно: True <br>
+
+  - **Y** top right y-coord<br>
+    тип: float <br>
+    обязательно: True <br>
+
+* **set**
+silently sets menu state.<br>
+  __параметры:__
+  - **IDX** item index<br>
     тип: int <br>
     обязательно: True <br>
 
@@ -59,49 +104,11 @@ renames menu item<br>
     тип: list <br>
     обязательно: True <br>
 
-* **set**
-silently sets menu state.<br>
-  __параметры:__
-  - **IDX** item index<br>
-    тип: int <br>
-    обязательно: True <br>
-
-* **file_glob**
-fill menu with filenames.<br>
-  __параметры:__
-  - **PATTERN** filename pattern, like * (all files), *.wav (all wav files) etc.<br>
-    тип: symbol <br>
-    обязательно: True <br>
-
-  - **[DIR]** search directory. If omitted - search in patch directory. Performs tilde (~) expansion to home directory. To elide long filenames see @max_length property.<br>
-    тип: symbol <br>
-
-* **load**
-loads specified preset<br>
-  __параметры:__
-  - **IDX** preset index<br>
-    тип: int <br>
-    обязательно: True <br>
-
 * **store**
 stores specified preset<br>
   __параметры:__
   - **IDX** preset index<br>
     тип: int <br>
-    обязательно: True <br>
-
-* **interp**
-for this object acts as *load*, no interpolation performed<br>
-
-* **pos**
-set UI element position<br>
-  __параметры:__
-  - **X** top left x-coord<br>
-    тип: float <br>
-    обязательно: True <br>
-
-  - **Y** top right y-coord<br>
-    тип: float <br>
     обязательно: True <br>
 
 

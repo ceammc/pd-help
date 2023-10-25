@@ -87,7 +87,7 @@ _диапазон:_ 0..1<br>
 _по умолчанию:_ 1<br>
 
 * **@bypass** 
-Запросить/установить if set to 1 - bypass &#39;effected&#39; signal.<br>
+Запросить/установить bypass flag. If true: bypass &#39;effected&#39; signal.<br>
 _тип:_ bool<br>
 _по умолчанию:_ 0<br>
 
@@ -121,6 +121,15 @@ _тип:_ float<br>
 _единица:_ ms<br>
 _диапазон:_ 0..1000<br>
 _по умолчанию:_ 100<br>
+
+* **@osc** (initonly)
+Запросить/установить OSC server name to listen<br>
+_тип:_ symbol<br>
+
+* **@id** (initonly)
+Запросить/установить OSC address id. If specified, bind all properties to /ID/fx_zita_rev1/PROP_NAME
+osc address, if empty bind to /fx_zita_rev1/PROP_NAME.<br>
+_тип:_ symbol<br>
 
 
 

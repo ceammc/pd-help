@@ -37,11 +37,11 @@ _тип:_ symbol<br>
 _тип:_ symbol<br>
 
 * **@ir** 
-Запросить/установить impulse response array<br>
+Запросить/установить impulse response source array<br>
 _тип:_ symbol<br>
 
 * **@norm** 
-Запросить/установить impulse response array<br>
+Запросить/установить impulse response normalization<br>
 _тип:_ bool<br>
 _по умолчанию:_ 0<br>
 

@@ -20,9 +20,9 @@ when pedal is on: ignore all note offs when pedal is off: output all sustained n
 
 ## аргументы:
 
-* **STATE**
+* **ON**
 initial state<br>
-_тип:_ int<br>
+_тип:_ bool<br>
 
 
 

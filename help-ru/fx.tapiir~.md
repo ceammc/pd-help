@@ -20,8 +20,17 @@
 
 ## методы:
 
-* **reset**
-reset to initial state<br>
+* **pingpong**
+set pingpong delay values<br>
+  __параметры:__
+  - **DELAY** delay time<br>
+    тип: float <br>
+    единица: ms <br>
+    обязательно: True <br>
+
+  - **FB** feedback value<br>
+    тип: float <br>
+    обязательно: True <br>
 
 * **random**
 randomize values<br>
@@ -36,17 +45,8 @@ randomize values<br>
   - **[MAX]** maximum value<br>
     тип: float <br>
 
-* **pingpong**
-set pingpong delay values<br>
-  __параметры:__
-  - **DELAY** delay time<br>
-    тип: float <br>
-    единица: ms <br>
-    обязательно: True <br>
-
-  - **FB** feedback value<br>
-    тип: float <br>
-    обязательно: True <br>
+* **reset**
+reset to initial state<br>
 
 
 
@@ -611,6 +611,15 @@ _по умолчанию:_ 0<br>
 Запросить/установить on/off dsp processing<br>
 _тип:_ bool<br>
 _по умолчанию:_ 1<br>
+
+* **@osc** (initonly)
+Запросить/установить OSC server name to listen<br>
+_тип:_ symbol<br>
+
+* **@id** (initonly)
+Запросить/установить OSC address id. If specified, bind all properties to /ID/fx_tapiir/PROP_NAME
+osc address, if empty bind to /fx_tapiir/PROP_NAME.<br>
+_тип:_ symbol<br>
 
 
 

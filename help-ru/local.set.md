@@ -35,6 +35,9 @@ add values to the set<br>
     тип: list <br>
     обязательно: True <br>
 
+* **choose**
+choose random element and output it<br>
+
 * **clear**
 removes all set elements<br>
 
@@ -52,13 +55,15 @@ sets new set content without output<br>
     тип: list <br>
     обязательно: True <br>
 
-* **choose**
-choose random element and output it<br>
-
 
 
 
 ## свойства:
+
+* **@id** (initonly)
+Запросить/установить local variable id<br>
+_тип:_ symbol<br>
+_по умолчанию:_ default<br>
 
 * **@empty** (readonly)
 Запросить 1 if list is empty, otherwise 0<br>

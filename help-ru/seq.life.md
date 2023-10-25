@@ -3,7 +3,7 @@
 
 # seq.life
 
-###### Conway gamw of life sequencer
+###### Conway game of life sequencer
 
 *доступно с версии:* 0.9.2
 
@@ -30,47 +30,8 @@ _тип:_ int<br>
 
 ## методы:
 
-* **clear**
-clear all cells<br>
-
-* **next**
-generate next state<br>
-
-* **glider**
-adds glider<br>
-  __параметры:__
-  - **ROW** row<br>
-    тип: int <br>
-    обязательно: True <br>
-
-  - **COL** column<br>
-    тип: int <br>
-    обязательно: True <br>
-
-* **hive**
-adds horizontal bee-hive<br>
-  __параметры:__
-  - **ROW** row<br>
-    тип: int <br>
-    обязательно: True <br>
-
-  - **COL** column<br>
-    тип: int <br>
-    обязательно: True <br>
-
-* **vhive**
-adds vertical bee-hive<br>
-  __параметры:__
-  - **ROW** row<br>
-    тип: int <br>
-    обязательно: True <br>
-
-  - **COL** column<br>
-    тип: int <br>
-    обязательно: True <br>
-
-* **rpent**
-adds R-pentamino<br>
+* **blinker**
+adds blinker<br>
   __параметры:__
   - **ROW** row<br>
     тип: int <br>
@@ -82,17 +43,6 @@ adds R-pentamino<br>
 
 * **block**
 adds block<br>
-  __параметры:__
-  - **ROW** row<br>
-    тип: int <br>
-    обязательно: True <br>
-
-  - **COL** column<br>
-    тип: int <br>
-    обязательно: True <br>
-
-* **oct2**
-adds octagon<br>
   __параметры:__
   - **ROW** row<br>
     тип: int <br>
@@ -117,8 +67,36 @@ sets cell value<br>
     тип: int <br>
     обязательно: True <br>
 
-* **blinker**
-adds blinker<br>
+* **clear**
+clear all cells<br>
+
+* **glider**
+adds glider<br>
+  __параметры:__
+  - **ROW** row<br>
+    тип: int <br>
+    обязательно: True <br>
+
+  - **COL** column<br>
+    тип: int <br>
+    обязательно: True <br>
+
+* **hive**
+adds horizontal bee-hive<br>
+  __параметры:__
+  - **ROW** row<br>
+    тип: int <br>
+    обязательно: True <br>
+
+  - **COL** column<br>
+    тип: int <br>
+    обязательно: True <br>
+
+* **next**
+generate next state<br>
+
+* **oct2**
+adds octagon<br>
   __параметры:__
   - **ROW** row<br>
     тип: int <br>
@@ -130,6 +108,28 @@ adds blinker<br>
 
 * **random**
 fills with random<br>
+
+* **rpent**
+adds R-pentamino<br>
+  __параметры:__
+  - **ROW** row<br>
+    тип: int <br>
+    обязательно: True <br>
+
+  - **COL** column<br>
+    тип: int <br>
+    обязательно: True <br>
+
+* **vhive**
+adds vertical bee-hive<br>
+  __параметры:__
+  - **ROW** row<br>
+    тип: int <br>
+    обязательно: True <br>
+
+  - **COL** column<br>
+    тип: int <br>
+    обязательно: True <br>
 
 
 

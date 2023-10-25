@@ -22,11 +22,11 @@ Property should be declared with [prop.declare]
 
 ## методы:
 
-* **default**
-reset all props to default value and output<br>
-
 * **@*?**
 output all patch properties as list<br>
+
+* **default**
+reset all props to default value and output<br>
 
 
 

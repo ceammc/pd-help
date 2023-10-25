@@ -29,6 +29,6 @@ _псевдонимы:_ \[random.i\]
 [**random.pw_lin**](random.pw_lin.html): piecewise linear random distribution 
 
 
-**Версия:** 0.9.6
+**Версия:** 0.9.7
 
 **Лицензия:** GPL3

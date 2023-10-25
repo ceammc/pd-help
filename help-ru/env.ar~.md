@@ -10,8 +10,6 @@
 ---
 
 
-## информация
-click on object to activate envelope
 
 
 [![example](../examples/img/env.ar~.jpg)](../examples/pd/env.ar~.pd)
@@ -78,6 +76,15 @@ _по умолчанию:_ 310<br>
 Запросить/установить on/off dsp processing<br>
 _тип:_ bool<br>
 _по умолчанию:_ 1<br>
+
+* **@osc** (initonly)
+Запросить/установить OSC server name to listen<br>
+_тип:_ symbol<br>
+
+* **@id** (initonly)
+Запросить/установить OSC address id. If specified, bind all properties to /ID/env_ar/PROP_NAME osc
+address, if empty bind to /env_ar/PROP_NAME.<br>
+_тип:_ symbol<br>
 
 
 

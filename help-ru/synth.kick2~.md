@@ -79,6 +79,15 @@ _тип:_ float<br>
 _диапазон:_ 1..10<br>
 _по умолчанию:_ 2.5<br>
 
+* **@osc** (initonly)
+Запросить/установить OSC server name to listen<br>
+_тип:_ symbol<br>
+
+* **@id** (initonly)
+Запросить/установить OSC address id. If specified, bind all properties to /ID/synth_kick2/PROP_NAME
+osc address, if empty bind to /synth_kick2/PROP_NAME.<br>
+_тип:_ symbol<br>
+
 
 
 ## входы:

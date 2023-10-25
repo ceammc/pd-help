@@ -54,26 +54,22 @@ _по умолчанию:_ 0<br>
 
 * **@mouse_down** 
 Запросить/установить internal state<br>
-_тип:_ int<br>
-_диапазон:_ 0..1<br>
+_тип:_ bool<br>
 _по умолчанию:_ 0<br>
 
 * **@mouse_up** 
 Запросить/установить internal state<br>
-_тип:_ int<br>
-_диапазон:_ 0..1<br>
+_тип:_ bool<br>
 _по умолчанию:_ 0<br>
 
 * **@mouse_move** 
 Запросить/установить internal state<br>
-_тип:_ int<br>
-_диапазон:_ 0..1<br>
+_тип:_ bool<br>
 _по умолчанию:_ 0<br>
 
 * **@mouse_drag** 
 Запросить/установить internal state<br>
-_тип:_ int<br>
-_диапазон:_ 0..1<br>
+_тип:_ bool<br>
 _по умолчанию:_ 0<br>
 
 

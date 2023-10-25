@@ -22,24 +22,12 @@ With timeline you can schedule your events and start/pause/stop/move time This t
 
 * **LENGTH**
 timeline length<br>
-_тип:_ int<br>
+_тип:_ float<br>
 _единица:_ sec<br>
 
 
 
 ## методы:
-
-* **start**
-start timeline from current position<br>
-
-* **pause**
-stops timeline at current position<br>
-
-* **stop**
-stops timeline and reset current position to the beginning<br>
-
-* **reset**
-reset timeline (call only when stopped)<br>
 
 * **add**
 add event to timeline. You can use simple syntax like [add 10.1 sec( to create
@@ -57,6 +45,12 @@ event with default name, or use advanced: [add myEvent 510ms before end(<br>
   - **[REL_EVENT]** relative event name<br>
     тип: symbol <br>
 
+* **clear**
+remove all timeline events<br>
+
+* **pause**
+stops timeline at current position<br>
+
 * **remove**
 remove event by given index or name. [remove event1( or [remove 3(<br>
   __параметры:__
@@ -69,8 +63,14 @@ remove event at specified time<br>
   - **[TIME]** time in supported format. See *info* section<br>
     тип: list <br>
 
-* **clear**
-remove all timeline events<br>
+* **reset**
+reset timeline (call only when stopped)<br>
+
+* **start**
+start timeline from current position<br>
+
+* **stop**
+stops timeline and reset current position to the beginning<br>
 
 * **to_event**
 move time to specified event<br>
@@ -94,10 +94,11 @@ move time to time<br>
 _тип:_ bool<br>
 _по умолчанию:_ 0<br>
 
-* **@length** (readonly)
-Запросить timeline length<br>
+* **@length** (initonly)
+Запросить/установить timeline length<br>
 _тип:_ float<br>
 _единица:_ sec<br>
+_минимальное значение:_ 0<br>
 _по умолчанию:_ 60<br>
 
 * **@size** (readonly)
@@ -110,6 +111,12 @@ _по умолчанию:_ 1<br>
 Запросить current time<br>
 _тип:_ float<br>
 _единица:_ ms<br>
+_по умолчанию:_ 0<br>
+
+* **@current_sec** (readonly)
+Запросить current time<br>
+_тип:_ float<br>
+_единица:_ sec<br>
 _по умолчанию:_ 0<br>
 
 * **@phase** (readonly)
@@ -147,7 +154,7 @@ _тип:_ control
 
 ## выходы:
 
-* outputs pair: event index and event name<br>
+* list: event index, event name, current event time<br>
 _тип:_ control
 
 

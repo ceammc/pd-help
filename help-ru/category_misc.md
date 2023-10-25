@@ -18,6 +18,10 @@ _псевдонимы:_ \[ceammc/fluid~\]
 _псевдонимы:_ \[ceammc/modplug~\]
 
 
+[**qrcode**](qrcode.html): QR code generator <br>
+_псевдонимы:_ \[ceammc/qrcode\]
+
+
 [**risset.gliss**](risset.gliss.html): Sheppard/Risset glissando calculator 
 
 [**sfizz~**](sfizz~.html): SFZ format sample player <br>
@@ -33,6 +37,6 @@ _псевдонимы:_ \[ceammc/rhvoice~\], \[rhvoice~\]
 
 
 
-**Версия:** 0.9.6
+**Версия:** 0.9.7
 
 **Лицензия:** GPL3

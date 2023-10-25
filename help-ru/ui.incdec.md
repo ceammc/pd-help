@@ -20,33 +20,6 @@
 
 ## методы:
 
-* **set**
-set widget value with no output<br>
-  __параметры:__
-  - **VAL** value<br>
-    тип: float <br>
-    обязательно: True <br>
-
-* **inc**
-increments widget with output<br>
-
-* **dec**
-decrements widget with output<br>
-
-* **load**
-loads specified preset<br>
-  __параметры:__
-  - **IDX** preset index<br>
-    тип: int <br>
-    обязательно: True <br>
-
-* **store**
-stores specified preset<br>
-  __параметры:__
-  - **IDX** preset index<br>
-    тип: int <br>
-    обязательно: True <br>
-
 * **clear**
 clears specified preset<br>
   __параметры:__
@@ -54,8 +27,21 @@ clears specified preset<br>
     тип: int <br>
     обязательно: True <br>
 
+* **dec**
+decrements widget with output<br>
+
+* **inc**
+increments widget with output<br>
+
 * **interp**
 for this object acts as *load*, no interpolation performed<br>
+
+* **load**
+loads specified preset<br>
+  __параметры:__
+  - **IDX** preset index<br>
+    тип: int <br>
+    обязательно: True <br>
 
 * **pos**
 set UI element position<br>
@@ -68,10 +54,34 @@ set UI element position<br>
     тип: float <br>
     обязательно: True <br>
 
+* **set**
+set widget value with no output<br>
+  __параметры:__
+  - **VAL** value<br>
+    тип: float <br>
+    обязательно: True <br>
+
+* **store**
+stores specified preset<br>
+  __параметры:__
+  - **IDX** preset index<br>
+    тип: int <br>
+    обязательно: True <br>
+
 
 
 
 ## свойства:
+
+* **@min** 
+Запросить/установить minimum inc value<br>
+_тип:_ float<br>
+_по умолчанию:_ -8192<br>
+
+* **@max** 
+Запросить/установить maximum inc value<br>
+_тип:_ float<br>
+_по умолчанию:_ 8192<br>
 
 * **@step** 
 Запросить/установить increment step<br>

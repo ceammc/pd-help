@@ -59,12 +59,25 @@ _по умолчанию:_ 2<br>
 _тип:_ bool<br>
 _по умолчанию:_ 1<br>
 
+* **@osc** (initonly)
+Запросить/установить OSC server name to listen<br>
+_тип:_ symbol<br>
+
+* **@id** (initonly)
+Запросить/установить OSC address id. If specified, bind all properties to /ID/flt_bpf12/PROP_NAME
+osc address, if empty bind to /flt_bpf12/PROP_NAME.<br>
+_тип:_ symbol<br>
+
 
 
 ## входы:
 
 * input signal<br>
 _тип:_ audio
+* set frequency<br>
+_тип:_ control
+* set Q-factor<br>
+_тип:_ control
 
 
 

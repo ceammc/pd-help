@@ -28,14 +28,14 @@ _тип:_ list<br>
 
 ## методы:
 
-* **start**
-start sequencer from current position<br>
-
 * **reset**
 reset all counters and stop<br>
 
 * **rewind**
 reset all counters without stopping<br>
+
+* **start**
+start sequencer from current position<br>
 
 * **stop**
 stop sequencer<br>
@@ -47,6 +47,12 @@ output current sequence element and move to next<br>
 
 
 ## свойства:
+
+* **@div** 
+Запросить/установить beat subdivision<br>
+_тип:_ int<br>
+_диапазон:_ 1..64<br>
+_по умолчанию:_ 1<br>
 
 * **@t** 
 Запросить/установить time between beats. Unit values like 100ms, 240bpm or 60|4bpm also can be used<br>
@@ -80,6 +86,12 @@ _единица:_ ms<br>
 _минимальное значение:_ 0<br>
 _по умолчанию:_ 0<br>
 
+* **@upbeat** 
+Запросить/установить wait specified number of beats before sequence start<br>
+_тип:_ float<br>
+_минимальное значение:_ 0<br>
+_по умолчанию:_ 0<br>
+
 * **@length** 
 Запросить/установить event length. In case of float or float wuth &#39;ms&#39; suffix - event length is
 fixed for any event duration. In case of V% - @length expected to be in 0..100
@@ -91,13 +103,11 @@ _по умолчанию:_ 75<br>
 * **@i** (readonly)
 Запросить current sequence iteration<br>
 _тип:_ int<br>
-_минимальное значение:_ 0<br>
 _по умолчанию:_ 0<br>
 
 * **@ri** (readonly)
 Запросить current repeat iteration<br>
 _тип:_ int<br>
-_минимальное значение:_ 0<br>
 _по умолчанию:_ 0<br>
 
 * **@mode** 
@@ -133,7 +143,7 @@ _тип:_ control
 [sequencer](keywords/sequencer.html)
 [toggle](keywords/toggle.html)
 [pattern](keywords/pattern.html)
-[rythm](keywords/rythm.html)
+[rhythm](keywords/rhythm.html)
 
 
 

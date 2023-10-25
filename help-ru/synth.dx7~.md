@@ -41,7 +41,7 @@ note on/off message<br>
 _тип:_ float<br>
 _единица:_ Hz<br>
 _диапазон:_ 0..480<br>
-_по умолчанию:_ 130.813<br>
+_по умолчанию:_ 130.8128<br>
 
 * **@pitch** 
 Запросить/установить midi pitch<br>
@@ -54,6 +54,15 @@ _по умолчанию:_ 48<br>
 _тип:_ float<br>
 _диапазон:_ 0..1<br>
 _по умолчанию:_ 0<br>
+
+* **@osc** (initonly)
+Запросить/установить OSC server name to listen<br>
+_тип:_ symbol<br>
+
+* **@id** (initonly)
+Запросить/установить OSC address id. If specified, bind all properties to /ID/synth_dx7/PROP_NAME
+osc address, if empty bind to /synth_dx7/PROP_NAME.<br>
+_тип:_ symbol<br>
 
 
 

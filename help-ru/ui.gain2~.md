@@ -238,7 +238,7 @@ _тип:_ audio
 
 
 
-**Авторы:** Serge Potlavsky
+**Авторы:** Serge Poltavsky
 
 
 

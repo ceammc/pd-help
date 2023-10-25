@@ -33,55 +33,14 @@ open file, updates @path property<br>
   - **[MODE]** open mode, &#39;r&#39;: open text file for reading only. &#39;w&#39;: truncate to 0 length, if existent, or create text file for writing only. &#39;a&#39;: append, open or create text file only for writing at end of file. &#39;r+&#39;: open text file for reading and writing. &#39;w+&#39;: truncate to 0 length, if existent, or create text file for reading and writing. &#39;a+&#39;: append, open or create text file for reading and writing, writing at end of file<br>
     тип: symbol <br>
 
-* **write**
-write space separated atoms to file, no newline added<br>
-  __параметры:__
-  - **ARGS** atoms to write<br>
-    тип: list <br>
-    обязательно: True <br>
-
-* **write_line**
-write space separated atoms to file, newline added<br>
-  __параметры:__
-  - **ARGS** atoms to write<br>
-    тип: list <br>
-    обязательно: True <br>
-
-* **write_bytes**
-write given bytes to file<br>
-  __параметры:__
-  - **ARGS** list of bytes: integers in 0-255 or symbols with &#39;0x&#39; prefix: 0x11, 0xFF etc..<br>
-    тип: list <br>
-    обязательно: True <br>
-
-* **seek_write**
-change writing position<br>
-  __параметры:__
-  - **POS** offset position<br>
-    тип: int <br>
-    обязательно: True <br>
-
-  - **[ORIG]** offset origin, if omitted offset from the beginning<br>
-    тип: symbol <br>
-
-* **seek_read**
-change reading position<br>
-  __параметры:__
-  - **POS** offset position<br>
-    тип: int <br>
-    обязательно: True <br>
-
-  - **[ORIG]** offset origin, if omitted offset from the beginning<br>
-    тип: symbol <br>
-
-* **read_line**
-read line from file, output as list as atoms<br>
-
 * **read_bytes**
 read bytes from file, output as list of integers<br>
   __параметры:__
   - **[N]** number of bytes to read, if omitted read all content<br>
     тип: int <br>
+
+* **read_line**
+read line from file, output as list as atoms<br>
 
 * **remove**
 remove file<br>
@@ -99,6 +58,47 @@ rename file<br>
 
   - **NEW_PATH** new file path<br>
     тип: symbol <br>
+    обязательно: True <br>
+
+* **seek_read**
+change reading position<br>
+  __параметры:__
+  - **POS** offset position<br>
+    тип: int <br>
+    обязательно: True <br>
+
+  - **[ORIG]** offset origin, if omitted offset from the beginning<br>
+    тип: symbol <br>
+
+* **seek_write**
+change writing position<br>
+  __параметры:__
+  - **POS** offset position<br>
+    тип: int <br>
+    обязательно: True <br>
+
+  - **[ORIG]** offset origin, if omitted offset from the beginning<br>
+    тип: symbol <br>
+
+* **write**
+write space separated atoms to file, no newline added<br>
+  __параметры:__
+  - **ARGS** atoms to write<br>
+    тип: list <br>
+    обязательно: True <br>
+
+* **write_bytes**
+write given bytes to file<br>
+  __параметры:__
+  - **ARGS** list of bytes: integers in 0-255 or symbols with &#39;0x&#39; prefix: 0x11, 0xFF etc..<br>
+    тип: list <br>
+    обязательно: True <br>
+
+* **write_line**
+write space separated atoms to file, newline added<br>
+  __параметры:__
+  - **ARGS** atoms to write<br>
+    тип: list <br>
     обязательно: True <br>
 
 

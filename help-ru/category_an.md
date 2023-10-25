@@ -21,6 +21,6 @@ _псевдонимы:_ \[ceammc/helmholtz~\], \[helmholtz~\]
 [**an.zero~**](an.zero~.html): zero crossing count/rate/freq calculator 
 
 
-**Версия:** 0.9.6
+**Версия:** 0.9.7
 
 **Лицензия:** GPL3

@@ -73,6 +73,15 @@ _единица:_ Hz<br>
 _диапазон:_ 800..18000<br>
 _по умолчанию:_ 6400<br>
 
+* **@osc** (initonly)
+Запросить/установить OSC server name to listen<br>
+_тип:_ symbol<br>
+
+* **@id** (initonly)
+Запросить/установить OSC address id. If specified, bind all properties to /ID/synth_hat/PROP_NAME
+osc address, if empty bind to /synth_hat/PROP_NAME.<br>
+_тип:_ symbol<br>
+
 
 
 ## входы:

@@ -25,6 +25,7 @@ _тип:_ float<br>
 * **PROBABILITY**
 whistles probability if @auto enabled<br>
 _тип:_ float<br>
+_единица:_ %<br>
 
 
 
@@ -41,6 +42,7 @@ _по умолчанию:_ 240<br>
 * **@probability** 
 Запросить/установить whistles probability if @auto enabled<br>
 _тип:_ float<br>
+_единица:_ %<br>
 _диапазон:_ 25..100<br>
 _по умолчанию:_ 50<br>
 
@@ -58,6 +60,15 @@ _по умолчанию:_ 0<br>
 Запросить/установить on/off dsp processing<br>
 _тип:_ bool<br>
 _по умолчанию:_ 1<br>
+
+* **@osc** (initonly)
+Запросить/установить OSC server name to listen<br>
+_тип:_ symbol<br>
+
+* **@id** (initonly)
+Запросить/установить OSC address id. If specified, bind all properties to /ID/synth_birds/PROP_NAME
+osc address, if empty bind to /synth_birds/PROP_NAME.<br>
+_тип:_ symbol<br>
 
 
 

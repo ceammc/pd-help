@@ -31,11 +31,11 @@ _тип:_ symbol<br>
 
 ## методы:
 
-* **open**
-connect to device<br>
-
 * **close**
 disconnect from device<br>
+
+* **open**
+connect to device<br>
 
 
 

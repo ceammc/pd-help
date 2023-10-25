@@ -75,6 +75,11 @@ _по умолчанию:_ 0<br>
 _тип:_ int<br>
 _по умолчанию:_ 0<br>
 
+* **@abs** 
+Запросить/установить if false: using toplevel canvas, if true: using abstraction canvas<br>
+_тип:_ bool<br>
+_по умолчанию:_ 1<br>
+
 
 
 ## входы:

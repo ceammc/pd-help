@@ -20,27 +20,14 @@
 
 ## методы:
 
-* **mvolume**
-set device master volume<br>
+* **id_request**
+send Identity Request SysEx message<br>
+
+* **mbal:f**
+set device master balance<br>
   __параметры:__
-  - **LEVEL** volume level<br>
+  - **PAN** balance<br>
     тип: float <br>
-    обязательно: True <br>
-
-* **mtune~**
-set device master coarse tuning in semitones<br>
-  __параметры:__
-  - **V** tuning<br>
-    тип: int <br>
-    единица: semitone <br>
-    обязательно: True <br>
-
-* **mtune.**
-set device master fine tuning in cents<br>
-  __параметры:__
-  - **V** tuning<br>
-    тип: int <br>
-    единица: cent <br>
     обязательно: True <br>
 
 * **mtune**
@@ -52,10 +39,26 @@ tune)<br>
     единица: semitone <br>
     обязательно: True <br>
 
-* **mbal:f**
-set device master balance<br>
+* **mtune.**
+set device master fine tuning in cents<br>
   __параметры:__
-  - **PAN** balance<br>
+  - **V** tuning<br>
+    тип: int <br>
+    единица: cent <br>
+    обязательно: True <br>
+
+* **mtune~**
+set device master coarse tuning in semitones<br>
+  __параметры:__
+  - **V** tuning<br>
+    тип: int <br>
+    единица: semitone <br>
+    обязательно: True <br>
+
+* **mvolume**
+set device master volume<br>
+  __параметры:__
+  - **LEVEL** volume level<br>
     тип: float <br>
     обязательно: True <br>
 

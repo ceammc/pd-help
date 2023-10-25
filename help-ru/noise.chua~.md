@@ -67,6 +67,15 @@ _тип:_ float<br>
 _диапазон:_ 6.5..7.3<br>
 _по умолчанию:_ 7.07<br>
 
+* **@osc** (initonly)
+Запросить/установить OSC server name to listen<br>
+_тип:_ symbol<br>
+
+* **@id** (initonly)
+Запросить/установить OSC address id. If specified, bind all properties to /ID/noise_chua/PROP_NAME
+osc address, if empty bind to /noise_chua/PROP_NAME.<br>
+_тип:_ symbol<br>
+
 
 
 ## входы:

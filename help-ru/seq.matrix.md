@@ -31,14 +31,14 @@ _единица:_ ms<br>
 
 ## методы:
 
-* **start**
-start sequencer from current position<br>
-
 * **reset**
 reset all counters and stop<br>
 
 * **rewind**
 reset all counters without stopping<br>
+
+* **start**
+start sequencer from current position<br>
 
 * **stop**
 stop sequencer<br>
@@ -79,16 +79,26 @@ _единица:_ ms<br>
 _минимальное значение:_ 0<br>
 _по умолчанию:_ 4000<br>
 
+* **@div** 
+Запросить/установить beat subdivision<br>
+_тип:_ int<br>
+_диапазон:_ 1..64<br>
+_по умолчанию:_ 1<br>
+
+* **@upbeat** 
+Запросить/установить wait specified number of beats before sequence start<br>
+_тип:_ float<br>
+_минимальное значение:_ 0<br>
+_по умолчанию:_ 0<br>
+
 * **@i** (readonly)
 Запросить current sequence iteration<br>
 _тип:_ int<br>
-_минимальное значение:_ 0<br>
 _по умолчанию:_ 0<br>
 
 * **@ri** (readonly)
 Запросить current repeat iteration<br>
 _тип:_ int<br>
-_минимальное значение:_ 0<br>
 _по умолчанию:_ 0<br>
 
 * **@mode** 
@@ -130,7 +140,7 @@ _тип:_ control
 [sequencer](keywords/sequencer.html)
 [bang](keywords/bang.html)
 [pattern](keywords/pattern.html)
-[rythm](keywords/rythm.html)
+[rhythm](keywords/rhythm.html)
 [matrix](keywords/matrix.html)
 
 

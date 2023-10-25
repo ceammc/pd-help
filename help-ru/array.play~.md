@@ -30,17 +30,14 @@ _тип:_ float<br>
 
 ## методы:
 
-* **play**
-start playback from current play position<br>
-
-* **stop**
-stop playback and reset play position<br>
-
 * **pause**
 pause/resume playback<br>
   __параметры:__
   - **[anonym=1]** if true: pause, else resume playing<br>
     тип: int <br>
+
+* **play**
+start playback from current play position<br>
 
 * **range**
 set @begin and @end property<br>
@@ -52,6 +49,9 @@ set @begin and @end property<br>
   - **END** end position. Value type same as for first argument<br>
     тип: atom <br>
     обязательно: True <br>
+
+* **stop**
+stop playback and reset play position<br>
 
 
 

@@ -61,6 +61,65 @@ load.<br>
   - **[@resample R?]** if R is not specified - resample from file samplerate to current Pd samplerate. But you can manually specify R as float value or integer fraction - 44100/48000<br>
     тип: property <br>
 
+* **save**
+Save arrays to specified file<br>
+  __параметры:__
+  - **ARRAYS** list of arrays<br>
+    тип: list <br>
+    обязательно: True <br>
+
+  - **@to FNAME** output filename<br>
+    тип: symbol <br>
+    обязательно: True <br>
+
+  - **[@begin X]** specify input array begin position, by default in samples, but you can use other units: 1s, 10ms, 00:01.12 (smpte). To specify value relative to array end you can use $-X syntax<br>
+    тип: property <br>
+
+  - **[@end X]** specify input array end position, by default in samples, but you can use other units: 1s, 10ms, 00:01.12 (smpte). To specify value relative to array end you can use $-X syntax<br>
+    тип: property <br>
+
+  - **[@gain V]** apply gain to saved arrays, examples: +3.1db, -6db, 0.5 etc.<br>
+    тип: property <br>
+
+  - **[@in_sr SR]** array source samplerate, if ommited using patch samplerate<br>
+    тип: property <br>
+
+  - **[@out_sr SR]** output samplerate<br>
+    тип: property <br>
+
+  - **[@norm[alize]]** normalize output<br>
+    тип: property <br>
+
+  - **[@overwrite]** overwrite existing file flag<br>
+    тип: property <br>
+
+  - **[@samp FMT]** output sample format. Supported values are: 0(use default), 8, 16, 24, 32, f<br>
+    тип: property <br>
+
+  - **[@wav]** WAV output format<br>
+    тип: property <br>
+
+  - **[@mp3]** MP3 output format<br>
+    тип: property <br>
+
+  - **[@ogg]** Ogg/Vorbis output format<br>
+    тип: property <br>
+
+  - **[@opus]** Opus output format<br>
+    тип: property <br>
+
+  - **[@aiff]** AIFF output format<br>
+    тип: property <br>
+
+  - **[@txt]** TXT output format<br>
+    тип: property <br>
+
+  - **[@raw]** RAW output format<br>
+    тип: property <br>
+
+  - **[@flac]** FLAC output format<br>
+    тип: property <br>
+
 
 
 
@@ -109,7 +168,7 @@ _тип:_ control
 
 ## выходы:
 
-* number of loaded samples<br>
+* number of loaded/saved samples or -1 on error<br>
 _тип:_ control
 
 

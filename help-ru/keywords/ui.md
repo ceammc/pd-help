@@ -4,9 +4,12 @@
 ## Ключевое слово: ui
 
 ### Объекты:
+* [hoa.2d.space](../hoa.2d.space.html)
 * [ui.aview](../ui.aview.html)
 * [ui.bang](../ui.bang.html)
 * [ui.button](../ui.button.html)
+* [ui.canvas](../ui.canvas.html)
+* [ui.cmeter~](../ui.cmeter~.html)
 * [ui.colorpanel](../ui.colorpanel.html)
 * [ui.dsp~](../ui.dsp~.html)
 * [ui.env](../ui.env.html)
@@ -19,6 +22,7 @@
 * [ui.keyboard](../ui.keyboard.html)
 * [ui.knob](../ui.knob.html)
 * [ui.label](../ui.label.html)
+* [ui.lcd](../ui.lcd.html)
 * [ui.link](../ui.link.html)
 * [ui.matrix](../ui.matrix.html)
 * [ui.menu](../ui.menu.html)
@@ -45,4 +49,4 @@
 
 **Лицензия:** GPL3
 
-**Авторы:** Albert Graef, Alex Nadzharov, André Sier, Eliott Paris, Hans-Christoph Steiner, Julian Parker, Katja Vetter, Mayank Sanganeria, Mikhail Malt, Oliver Larkin, Olli Parviainen, Paul Bourke, Pierre Cochard, Pierre Guillot, Richard Dudas, Romain Michon, Serge Poltavsky, Serge Potlavsky, Thomas Le Meur, Till Bovermann, Viacheslav Lotsmanov, Yann Orlarey, naivesound, thedrgreenthumb
+**Авторы:** Albert Graef, Alex Nadzharov, André Sier, Eliott Paris, Hans-Christoph Steiner, Julian Parker, Katja Vetter, Mayank Sanganeria, Mikhail Malt, Oliver Larkin, Olli Parviainen, Paul Bourke, Pierre Cochard, Pierre Guillot, Richard Dudas, Romain Michon, Serge Poltavsky, Thomas Le Meur, Till Bovermann, Viacheslav Lotsmanov, Yann Orlarey, naivesound, thedrgreenthumb

@@ -35,13 +35,22 @@ _единица:_ Hz<br>
 Запросить/установить noise generation freq. New random number every int(SR/freq)<br>
 _тип:_ float<br>
 _единица:_ Hz<br>
-_диапазон:_ 5..22050<br>
+_диапазон:_ 0.5..22050<br>
 _по умолчанию:_ 1000<br>
 
 * **@active** 
 Запросить/установить on/off dsp processing<br>
 _тип:_ bool<br>
 _по умолчанию:_ 1<br>
+
+* **@osc** (initonly)
+Запросить/установить OSC server name to listen<br>
+_тип:_ symbol<br>
+
+* **@id** (initonly)
+Запросить/установить OSC address id. If specified, bind all properties to /ID/noise_lfreq0/PROP_NAME
+osc address, if empty bind to /noise_lfreq0/PROP_NAME.<br>
+_тип:_ symbol<br>
 
 
 

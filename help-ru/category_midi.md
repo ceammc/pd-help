@@ -38,6 +38,10 @@ _псевдонимы:_ \[midi.key-&gt;str\]
 
 [**midi.modus**](midi.modus.html): snap/skip midi pitches according modus 
 
+[**midi.note.pass**](midi.note.pass.html): midi note pass by expression <br>
+_псевдонимы:_ \[note.pass\]
+
+
 [**midi.oct**](midi.oct.html): midi octave transpose 
 
 [**midi.prg2str**](midi.prg2str.html): convert GM Instrument number to name (string or symbol) <br>
@@ -59,6 +63,6 @@ _псевдонимы:_ \[midi.prg-&gt;str\]
 [**midi.vrand**](midi.vrand.html): midi velocity randomizer 
 
 
-**Версия:** 0.9.6
+**Версия:** 0.9.7
 
 **Лицензия:** GPL3

@@ -25,6 +25,6 @@
 [**osc.tri~**](osc.tri~.html): Bandlimited triangle wave oscillator 
 
 
-**Версия:** 0.9.6
+**Версия:** 0.9.7
 
 **Лицензия:** GPL3

@@ -22,27 +22,6 @@ By default outputs messages on mouse click, mouse up and dragging To output mess
 
 ## методы:
 
-* **set**
-sets slider value without output<br>
-  __параметры:__
-  - **V** new value<br>
-    тип: float <br>
-    обязательно: True <br>
-
-* **load**
-loads specified preset<br>
-  __параметры:__
-  - **IDX** preset index<br>
-    тип: int <br>
-    обязательно: True <br>
-
-* **store**
-stores specified preset<br>
-  __параметры:__
-  - **IDX** preset index<br>
-    тип: int <br>
-    обязательно: True <br>
-
 * **clear**
 clears specified preset<br>
   __параметры:__
@@ -57,6 +36,13 @@ interplolates between presets<br>
     тип: float <br>
     обязательно: True <br>
 
+* **load**
+loads specified preset<br>
+  __параметры:__
+  - **IDX** preset index<br>
+    тип: int <br>
+    обязательно: True <br>
+
 * **pos**
 set UI element position<br>
   __параметры:__
@@ -66,6 +52,20 @@ set UI element position<br>
 
   - **Y** top right y-coord<br>
     тип: float <br>
+    обязательно: True <br>
+
+* **set**
+sets slider value without output<br>
+  __параметры:__
+  - **V** new value<br>
+    тип: float <br>
+    обязательно: True <br>
+
+* **store**
+stores specified preset<br>
+  __параметры:__
+  - **IDX** preset index<br>
+    тип: int <br>
     обязательно: True <br>
 
 

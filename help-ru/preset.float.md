@@ -32,17 +32,17 @@ _тип:_ float<br>
 
 ## методы:
 
-* **load**
-load preset value by specified index and output it<br>
-
-* **store**
-stores preset value at specified index<br>
-
 * **clear**
 clear preset at specified index<br>
 
 * **interp**
 linearly interpolate between preset indexes and output<br>
+
+* **load**
+load preset value by specified index and output it<br>
+
+* **store**
+stores preset value at specified index<br>
 
 
 

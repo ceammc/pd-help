@@ -41,7 +41,7 @@ Get/set impulse response source array<br>
 _type:_ symbol<br>
 
 * **@norm** 
-Get/set normalize impulse response<br>
+Get/set impulse response normalization<br>
 _type:_ bool<br>
 _default:_ 0<br>
 

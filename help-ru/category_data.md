@@ -6,6 +6,18 @@
 
 
 
+[**color.mix**](color.mix.html): color mixer 
+
+[**color.scale**](color.scale.html): create color scales 
+
+[**data.bimap**](data.bimap.html): bidirectional map container <br>
+_псевдонимы:_ \[ceammc/bimap\], \[bimap\]
+
+
+[**data.color**](data.color.html): Color datatype <br>
+_псевдонимы:_ \[color\], \[ceammc/color\]
+
+
 [**data.copy**](data.copy.html): make copy for any data types: MList, Set etc... 
 
 [**data.dict**](data.dict.html): dictionary container: store values by key <br>
@@ -58,9 +70,13 @@ _псевдонимы:_ \[ceammc/dict-&gt;list\], \[dict-&gt;list\]
 
 [**dict.values**](dict.values.html): dictionary values as mlist 
 
+[**global.bimap**](global.bimap.html): Global visibility bidirectional map container 
+
+[**local.bimap**](local.bimap.html): local to patch bidirectional map container 
+
 [**mlist.flatten**](mlist.flatten.html): flatten nested mlist 
 
-[**rtree.to_list**](rtree.to_list.html): convert OpenMusic-like rythm tree to list of fractions <br>
+[**rtree.to_list**](rtree.to_list.html): convert OpenMusic-like rhythm tree to list of fractions <br>
 _псевдонимы:_ \[ceammc/rtree-&gt;list\], \[rtree-&gt;list\]
 
 
@@ -79,6 +95,6 @@ _псевдонимы:_ \[ceammc/rtree-&gt;list\], \[rtree-&gt;list\]
 [**set.union**](set.union.html): output union of given sets 
 
 
-**Версия:** 0.9.6
+**Версия:** 0.9.7
 
 **Лицензия:** GPL3

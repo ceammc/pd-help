@@ -18,7 +18,7 @@
 
 ## аргументы:
 
-* **freq**
+* **FREQ**
 frequency<br>
 _тип:_ float<br>
 _единица:_ Hz<br>

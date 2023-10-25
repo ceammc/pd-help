@@ -26,8 +26,8 @@ _тип:_ float<br>
 
 ## методы:
 
-* **set**
-sets new value without output<br>
+* *****
+multiply to, no output<br>
 
 * **+**
 add to float, no output<br>
@@ -35,11 +35,11 @@ add to float, no output<br>
 * **-**
 subtract from float, no output<br>
 
-* *****
-multiply to, no output<br>
-
 * **/**
 divide by, no output<br>
+
+* **set**
+sets new value without output<br>
 
 
 

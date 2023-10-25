@@ -18,6 +18,12 @@
 
 
 
+## методы:
+
+* **reset**
+reset object<br>
+
+
 
 
 ## свойства:
@@ -100,6 +106,16 @@ _по умолчанию:_ 0.12<br>
 Запросить/установить on/off dsp processing<br>
 _тип:_ bool<br>
 _по умолчанию:_ 1<br>
+
+* **@osc** (initonly)
+Запросить/установить OSC server name to listen<br>
+_тип:_ symbol<br>
+
+* **@id** (initonly)
+Запросить/установить OSC address id. If specified, bind all properties to
+/ID/fx_distortion2/PROP_NAME osc address, if empty bind to
+/fx_distortion2/PROP_NAME.<br>
+_тип:_ symbol<br>
 
 
 

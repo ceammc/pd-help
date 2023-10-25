@@ -28,29 +28,11 @@ _тип:_ symbol<br>
 
 ## методы:
 
-* **clear**
-remove grain(s)<br>
+* **align**
+align grain(s) to onset<br>
   __параметры:__
-  - **[SUBJ]** if &#39;*&#39; or omitted: remove all grains, if &#39;.&#39;: remove finished grains only, if float: remove grain with corresponding #id, if symbol: remove grains with corresponding tag<br>
+  - **[SUBJ]** if &#39;*&#39; or omitted: align all grains, if &#39;.&#39;: align finished grains only, if float: align grain with corresponding #id, if symbol: align grains with corresponding tag<br>
     тип: atom <br>
-
-* **set**
-set grain(s) properties<br>
-  __параметры:__
-  - **SUBJ** if &#39;*&#39;: set for all grains, if float: set for grain with specified #id, if symbol: set for grains with specified tag<br>
-    тип: atom <br>
-    обязательно: True <br>
-
-  - **PROPS** grain properties<br>
-    тип: list <br>
-    обязательно: True <br>
-
-* **grain**
-create single grain<br>
-  __параметры:__
-  - **PROPS** grain properties<br>
-    тип: list <br>
-    обязательно: True <br>
 
 * **append**
 append several grains<br>
@@ -63,6 +45,25 @@ append several grains<br>
     тип: list <br>
     обязательно: True <br>
 
+* **clear**
+remove grain(s)<br>
+  __параметры:__
+  - **[SUBJ]** if &#39;*&#39; or omitted: remove all grains, if &#39;.&#39;: remove finished grains only, if float: remove grain with corresponding #id, if symbol: remove grains with corresponding tag<br>
+    тип: atom <br>
+
+* **defer**
+defer method call until grains will finish<br>
+  __параметры:__
+  - **[N]** number of finished grains to wait before calling. If not specified, treat as 1.<br>
+    тип: int <br>
+
+  - **METHOD** method name<br>
+    тип: symbol <br>
+    обязательно: True <br>
+
+  - **[ARGS]** method arguments<br>
+    тип: list <br>
+
 * **fill**
 fill with grains (remove all existing grains before)<br>
   __параметры:__
@@ -70,6 +71,13 @@ fill with grains (remove all existing grains before)<br>
     тип: int <br>
     обязательно: True <br>
 
+  - **PROPS** grain properties<br>
+    тип: list <br>
+    обязательно: True <br>
+
+* **grain**
+create single grain<br>
+  __параметры:__
   - **PROPS** grain properties<br>
     тип: list <br>
     обязательно: True <br>
@@ -88,12 +96,6 @@ analyze source array for onsets<br>
     тип: float <br>
     единица: db <br>
 
-* **align**
-align grain(s) to onset<br>
-  __параметры:__
-  - **[SUBJ]** if &#39;*&#39; or omitted: align all grains, if &#39;.&#39;: align finished grains only, if float: align grain with corresponding #id, if symbol: align grains with corresponding tag<br>
-    тип: atom <br>
-
 * **pause**
 pause (resume) grain(s)<br>
   __параметры:__
@@ -103,6 +105,38 @@ pause (resume) grain(s)<br>
 
   - **[STATE]** on/off value<br>
     тип: int <br>
+
+* **permutate**
+permutate grain positions (@ta and @tb) values<br>
+  __параметры:__
+  - **[N]** number of permutations. If N&gt;0 results N-th next permutation, N&lt;0 - N-th previous permutation<br>
+    тип: int <br>
+
+  - **[TAG]** if &#39;*&#39; or omitted: reverse positions of all grains, if &#39;.&#39;: reverse positions of finished grains only, otherwise reverse grains with corresponding tag<br>
+    тип: symbol <br>
+
+* **reverse**
+reverse grain positions (@ta and @tb) values<br>
+  __параметры:__
+  - **[TAG]** if &#39;*&#39; or omitted: reverse positions of all grains, if &#39;.&#39;: reverse positions of finished grains only, otherwise reverse grains with corresponding tag<br>
+    тип: symbol <br>
+
+* **set**
+set grain(s) properties<br>
+  __параметры:__
+  - **SUBJ** if &#39;*&#39;: set for all grains, if float: set for grain with specified #id, if symbol: set for grains with specified tag<br>
+    тип: atom <br>
+    обязательно: True <br>
+
+  - **PROPS** grain properties<br>
+    тип: list <br>
+    обязательно: True <br>
+
+* **shuffle**
+shuffle grain positions (@ta and @tb) values<br>
+  __параметры:__
+  - **[TAG]** if &#39;*&#39; or omitted: shuffle all grains, if &#39;.&#39;: shuffle finished grains only, otherwise shuffle grains with corresponding tag<br>
+    тип: symbol <br>
 
 * **slice**
 slice specified duration to specified number of grains and add them<br>
@@ -125,40 +159,6 @@ uniformly arrange grains to fill specified time space<br>
 
   - **[TAG]** if &#39;*&#39; or omitted: spread all grains, if &#39;.&#39;: spread finished grains only, otherwise spread grains with corresponding tag<br>
     тип: symbol <br>
-
-* **shuffle**
-shuffle grain positions (@ta and @tb) values<br>
-  __параметры:__
-  - **[TAG]** if &#39;*&#39; or omitted: shuffle all grains, if &#39;.&#39;: shuffle finished grains only, otherwise shuffle grains with corresponding tag<br>
-    тип: symbol <br>
-
-* **reverse**
-reverse grain positions (@ta and @tb) values<br>
-  __параметры:__
-  - **[TAG]** if &#39;*&#39; or omitted: reverse positions of all grains, if &#39;.&#39;: reverse positions of finished grains only, otherwise reverse grains with corresponding tag<br>
-    тип: symbol <br>
-
-* **permutate**
-permutate grain positions (@ta and @tb) values<br>
-  __параметры:__
-  - **[N]** number of permutations. If N&gt;0 results N-th next permutation, N&lt;0 - N-th previous permutation<br>
-    тип: int <br>
-
-  - **[TAG]** if &#39;*&#39; or omitted: reverse positions of all grains, if &#39;.&#39;: reverse positions of finished grains only, otherwise reverse grains with corresponding tag<br>
-    тип: symbol <br>
-
-* **defer**
-defer method call until grains will finish<br>
-  __параметры:__
-  - **[N]** number of finished grains to wait before calling. If not specified, treat as 1.<br>
-    тип: int <br>
-
-  - **METHOD** method name<br>
-    тип: symbol <br>
-    обязательно: True <br>
-
-  - **[ARGS]** method arguments<br>
-    тип: list <br>
 
 
 

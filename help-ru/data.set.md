@@ -33,6 +33,9 @@ add values to the set<br>
     тип: list <br>
     обязательно: True <br>
 
+* **choose**
+choose random element and output it<br>
+
 * **clear**
 removes all set elements<br>
 
@@ -49,9 +52,6 @@ sets new set content without output<br>
   - **LIST** new set content<br>
     тип: list <br>
     обязательно: True <br>
-
-* **choose**
-choose random element and output it<br>
 
 
 

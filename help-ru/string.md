@@ -26,14 +26,14 @@ _тип:_ symbol<br>
 
 ## методы:
 
+* **append**
+append values to the end of string<br>
+
 * **clear**
 clear string without output<br>
 
 * **set**
 set string content without output<br>
-
-* **append**
-append values to the end of string<br>
 
 
 

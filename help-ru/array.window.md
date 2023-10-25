@@ -26,20 +26,14 @@ _тип:_ symbol<br>
 
 ## методы:
 
-* **resize**
-resize specified array to given size<br>
-  __параметры:__
-  - **[N]** new size<br>
-    тип: int <br>
-
-* **fit**
-fit array y-bounds to 0..1 range<br>
-
 * **blackman**
 generate blackman window<br>
 
 * **blackman-harris**
 generate blackman-harris window<br>
+
+* **fit**
+fit array y-bounds to 0..1 range<br>
 
 * **flattop**
 generate flattop window<br>
@@ -58,6 +52,12 @@ generate nuttall window<br>
 
 * **rect**
 generate rectangular window<br>
+
+* **resize**
+resize specified array to given size<br>
+  __параметры:__
+  - **[N]** new size<br>
+    тип: int <br>
 
 * **sine**
 generate sine window<br>

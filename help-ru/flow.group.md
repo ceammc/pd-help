@@ -18,7 +18,7 @@
 
 ## аргументы:
 
-* **SIZE**
+* **BY**
 group by this size<br>
 _тип:_ int<br>
 
@@ -26,11 +26,11 @@ _тип:_ int<br>
 
 ## методы:
 
-* **flush**
-outputs and clears group<br>
-
 * **clear**
 clear without output<br>
+
+* **flush**
+outputs and clears group<br>
 
 
 

@@ -11,7 +11,7 @@
 
 
 ## информация
-hoa.process~ helps the modularization of patches for ambisonic or plane waves processing. hoa.process~ is a kind of poly~ object particulary suitable for multichannel ambisonic or plane wave processing. Create a patch/effect/operator, then parallelize it with the hoa.process~
+hoa.process~ helps the modularization of patches for ambisonic or plane waves processing. hoa.process~ is a kind of poly~ object particulary suitable for multichannel ambisonic or plane wave processing. Create a patch/effect/operator, then parallelize it with the hoa.process~ Target selector examples: #* send to all instances #: send list values spreaded amoung all instances, one value per instance #:2 send list values spreaded amoung instances with id&gt;=2 #1 send to second instance #&lt;2 send to instance #0 and #1 #&gt;2 send to instances with id&gt;2 #2-4 send to instances with id in [2, 4] range
 
 
 [![example](../examples/img/hoa.process~.jpg)](../examples/pd/hoa.process~.pd)
@@ -43,16 +43,16 @@ _тип:_ list<br>
 * **dump**
 dumps all object info to Pd console window.<br>
 
+* **on**
+switch on/off DSP instance processing. Usage: on all 0|1 - turn on/off all
+instances, on IDX 0|1 - turn on/off specified instance.<br>
+
 * **open**
 open Pd window for specified instance<br>
   __параметры:__
   - **IDX** instance index<br>
     тип: int <br>
     обязательно: True <br>
-
-* **on**
-switch on/off DSP instance processing. Usage: on all 0|1 - turn on/off all
-instances, on IDX 0|1 - turn on/off specified instance.<br>
 
 
 

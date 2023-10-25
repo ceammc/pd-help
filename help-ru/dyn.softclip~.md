@@ -18,6 +18,12 @@
 
 
 
+## методы:
+
+* **reset**
+reset to initial state<br>
+
+
 
 
 ## свойства:

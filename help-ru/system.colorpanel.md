@@ -22,10 +22,14 @@
 
 ## свойства:
 
+* **@color** 
+Запросить/установить current color<br>
+_тип:_ atom<br>
+
 * **@mode** 
 Запросить/установить output mode<br>
 _тип:_ symbol<br>
-_варианты:_ float, int, hex<br>
+_варианты:_ float, int, hex, data<br>
 _по умолчанию:_ float<br>
 
 * **@f** 
@@ -38,6 +42,10 @@ _тип:_ alias<br>
 
 * **@h** 
 Запросить/установить alias for @mode hex. Output value as #RRGGBB symbol.<br>
+_тип:_ alias<br>
+
+* **@d** 
+Запросить/установить alias for @mode data. Output value Color datatype.<br>
 _тип:_ alias<br>
 
 * **@float** 
@@ -53,7 +61,7 @@ _по умолчанию:_ 255 255 255<br>
 * **@hex** 
 Запросить/установить color value as #RRGGBB symbol<br>
 _тип:_ symbol<br>
-_по умолчанию:_ #ffffff<br>
+_по умолчанию:_ #FFFFFF<br>
 
 
 

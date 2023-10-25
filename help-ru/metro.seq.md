@@ -58,6 +58,10 @@ _по умолчанию:_ 0<br>
 
 * starts (on 1) or stops (on 0) metro<br>
 _тип:_ control
+* set new step interval<br>
+_тип:_ control
+* set new pattern<br>
+_тип:_ control
 
 
 

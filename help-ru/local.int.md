@@ -28,8 +28,8 @@ _тип:_ symbol<br>
 
 ## методы:
 
-* **set**
-sets new value without output<br>
+* *****
+multiply to, no output<br>
 
 * **+**
 add to int, no output<br>
@@ -37,16 +37,21 @@ add to int, no output<br>
 * **-**
 substruct from int, no output<br>
 
-* *****
-multiply to, no output<br>
-
 * **/**
 divide by, no output<br>
+
+* **set**
+sets new value without output<br>
 
 
 
 
 ## свойства:
+
+* **@id** (initonly)
+Запросить/установить local variable id<br>
+_тип:_ symbol<br>
+_по умолчанию:_ default<br>
 
 * **@value** (readonly)
 Запросить current value<br>

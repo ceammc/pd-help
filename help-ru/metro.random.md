@@ -50,13 +50,21 @@ _единица:_ ms<br>
 _минимальное значение:_ 1<br>
 _по умолчанию:_ 200<br>
 
+* **@seed** 
+Запросить/установить generator seed<br>
+_тип:_ int<br>
+_минимальное значение:_ 0<br>
+_по умолчанию:_ 0<br>
+
 
 
 ## входы:
 
 * starts (on &gt; 0) or stops (on &lt;= 0) metro<br>
 _тип:_ control
-* set random range. min max pair expected.<br>
+* set @min property<br>
+_тип:_ control
+* set @max property<br>
 _тип:_ control
 
 

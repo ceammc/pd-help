@@ -20,15 +20,6 @@
 
 ## методы:
 
-* **start**
-starts audio processing<br>
-
-* **stop**
-stops audio processing<br>
-
-* **settings**
-opens audio settings dialog<br>
-
 * **pos**
 set UI element position<br>
   __параметры:__
@@ -39,6 +30,15 @@ set UI element position<br>
   - **Y** top right y-coord<br>
     тип: float <br>
     обязательно: True <br>
+
+* **settings**
+opens audio settings dialog<br>
+
+* **start**
+starts audio processing<br>
+
+* **stop**
+stops audio processing<br>
 
 
 

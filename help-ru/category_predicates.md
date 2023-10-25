@@ -37,6 +37,6 @@ _псевдонимы:_ \[ceammc/is_file\]
 [**is_symbol**](is_symbol.html): checks if input data has *symbol* type 
 
 
-**Версия:** 0.9.6
+**Версия:** 0.9.7
 
 **Лицензия:** GPL3

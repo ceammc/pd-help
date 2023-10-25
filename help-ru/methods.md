@@ -127,6 +127,9 @@
 [noise.navier_stokes](noise.navier_stokes.html)
 [noise.rossler](noise.rossler.html)
 
+### abc
+[ui.canvas](ui.canvas.html)
+
 ### activesense
 [proto.midi](proto.midi.html)
 
@@ -162,6 +165,7 @@
 [array.grainer~](array.grainer~.html)
 
 ### alpha
+[data.color](data.color.html)
 [proto.inscore](proto.inscore.html)
 
 ### angle
@@ -192,6 +196,12 @@
 ### ar
 [envelope](envelope.html)
 [ui.env](ui.env.html)
+
+### arc
+[ui.canvas](ui.canvas.html)
+
+### arrow
+[ui.canvas](ui.canvas.html)
 
 ### asr
 [envelope](envelope.html)
@@ -227,6 +237,9 @@
 [local.list](local.list.html)
 [local.mlist](local.mlist.html)
 
+### backlight
+[proto.arturia.minilab](proto.arturia.minilab.html)
+
 ### bank
 [fluid~](fluid~.html)
 [proto.midi.cc](proto.midi.cc.html)
@@ -258,6 +271,9 @@
 [proto.midi.cc](proto.midi.cc.html)
 [sfizz~](sfizz~.html)
 
+### bg
+[ui.canvas](ui.canvas.html)
+
 ### biquad
 [flt.freqz](flt.freqz.html)
 [ui.filter](ui.filter.html)
@@ -271,14 +287,27 @@
 [array.window](array.window.html)
 [window](window.html)
 
+### blackout
+[net.artnet.send](net.artnet.send.html)
+
 ### blinker
 [seq.life](seq.life.html)
 
 ### block
 [seq.life](seq.life.html)
 
+### blue
+[data.color](data.color.html)
+[noise.colored~](noise.colored~.html)
+
+### brighten
+[data.color](data.color.html)
+
 ### brightness
 [proto.sp.alpaca](proto.sp.alpaca.html)
+
+### brown
+[noise.colored~](noise.colored~.html)
 
 ### browse
 [proto.vlc](proto.vlc.html)
@@ -309,7 +338,13 @@
 ### capabilities?
 [proto.firmata](proto.firmata.html)
 
+### car
+[hoa.2d.map~](hoa.2d.map~.html)
+[hoa.3d.map~](hoa.3d.map~.html)
+
 ### cartesian
+[hoa.2d.map~](hoa.2d.map~.html)
+[hoa.3d.map~](hoa.3d.map~.html)
 [ui.polar](ui.polar.html)
 
 ### cc
@@ -326,6 +361,12 @@
 ### cell
 [matrix~](matrix~.html)
 [seq.life](seq.life.html)
+
+### cellsize
+[ui.radio](ui.radio.html)
+
+### channel
+[proto.arturia.minilab](proto.arturia.minilab.html)
 
 ### char
 [proto.sp.alpaca](proto.sp.alpaca.html)
@@ -344,8 +385,30 @@
 [local.mlist](local.mlist.html)
 [local.set](local.set.html)
 
+### chorus
+[proto.midi.casio](proto.midi.casio.html)
+
+### chorus_depth
+[proto.midi.casio](proto.midi.casio.html)
+
+### chorus_fb
+[proto.midi.casio](proto.midi.casio.html)
+
+### chorus_rate
+[proto.midi.casio](proto.midi.casio.html)
+
+### chorus_send
+[proto.midi.casio](proto.midi.casio.html)
+
+### chorus_type
+[proto.midi.casio](proto.midi.casio.html)
+
+### circle
+[ui.canvas](ui.canvas.html)
+
 ### clear
 [array.grainer~](array.grainer~.html)
+[data.bimap](data.bimap.html)
 [data.dict](data.dict.html)
 [data.fifo](data.fifo.html)
 [data.list](data.list.html)
@@ -354,13 +417,16 @@
 [envelope](envelope.html)
 [flow.group](flow.group.html)
 [fx.looper~](fx.looper~.html)
-[fx.sdelay~](fx.sdelay~.html)
+[global.bimap](global.bimap.html)
 [global.dict](global.dict.html)
 [global.list](global.list.html)
 [global.mlist](global.mlist.html)
 [global.set](global.set.html)
+[hoa.2d.space](hoa.2d.space.html)
+[hoa.map.ui](hoa.map.ui.html)
 [list.delta](list.delta.html)
 [list.integrator](list.integrator.html)
+[local.bimap](local.bimap.html)
 [local.dict](local.dict.html)
 [local.list](local.list.html)
 [local.mlist](local.mlist.html)
@@ -376,6 +442,7 @@
 [speech.rhvoice~](speech.rhvoice~.html)
 [string](string.html)
 [tl.timeline](tl.timeline.html)
+[ui.canvas](ui.canvas.html)
 [ui.colorpanel](ui.colorpanel.html)
 [ui.env](ui.env.html)
 [ui.filter](ui.filter.html)
@@ -386,6 +453,7 @@
 [ui.incdec](ui.incdec.html)
 [ui.knob](ui.knob.html)
 [ui.label](ui.label.html)
+[ui.lcd](ui.lcd.html)
 [ui.matrix](ui.matrix.html)
 [ui.menu](ui.menu.html)
 [ui.number](ui.number.html)
@@ -399,6 +467,9 @@
 [ui.tab](ui.tab.html)
 [ui.toggle](ui.toggle.html)
 
+### clear_all
+[hoa.map.ui](hoa.map.ui.html)
+
 ### clearall
 [ui.preset](ui.preset.html)
 
@@ -409,11 +480,15 @@
 [hw.serial](hw.serial.html)
 [path.file](path.file.html)
 
+### close_path
+[ui.canvas](ui.canvas.html)
+
 ### col
 [proto.sp.alpaca](proto.sp.alpaca.html)
 
 ### color
 [proto.inscore](proto.inscore.html)
+[ui.canvas](ui.canvas.html)
 
 ### comp_input_name
 [hw.motu.avb](hw.motu.avb.html)
@@ -430,11 +505,20 @@
 ### cr
 [noise.torus](noise.torus.html)
 
+### crestore
+[ui.canvas](ui.canvas.html)
+
+### csave
+[ui.canvas](ui.canvas.html)
+
 ### cue
 [tl.transport](tl.transport.html)
 
 ### current
 [list.walk](list.walk.html)
+
+### curve
+[ui.canvas](ui.canvas.html)
 
 ### custom
 [midi.kbd](midi.kbd.html)
@@ -446,6 +530,15 @@
 [chaos.jong](chaos.jong.html)
 [noise.clifford](noise.clifford.html)
 [noise.navier_stokes](noise.navier_stokes.html)
+
+### darken
+[data.color](data.color.html)
+
+### dash
+[ui.canvas](ui.canvas.html)
+
+### date
+[proto.ltc.out~](proto.ltc.out~.html)
 
 ### dec
 [ui.incdec](ui.incdec.html)
@@ -465,8 +558,14 @@
 [ui.menu](ui.menu.html)
 [ui.tab](ui.tab.html)
 
+### desaturate
+[data.color](data.color.html)
+
 ### disconnect
 [hw.arduino](hw.arduino.html)
+
+### div
+[live.capture~](live.capture~.html)
 
 ### dmx
 [net.artnet.send](net.artnet.send.html)
@@ -476,6 +575,24 @@
 
 ### dmx_set
 [net.artnet.send](net.artnet.send.html)
+
+### down
+[synth.metro~](synth.metro~.html)
+
+### draw down
+[ui.lcd](ui.lcd.html)
+
+### draw left
+[ui.lcd](ui.lcd.html)
+
+### draw right
+[ui.lcd](ui.lcd.html)
+
+### draw set
+[ui.lcd](ui.lcd.html)
+
+### draw up
+[ui.lcd](ui.lcd.html)
 
 ### dscale
 [proto.inscore](proto.inscore.html)
@@ -494,6 +611,9 @@
 [data.mlist](data.mlist.html)
 [global.list](global.list.html)
 [global.mlist](global.mlist.html)
+[hoa.2d.space](hoa.2d.space.html)
+[hoa.3d.scope~](hoa.3d.scope~.html)
+[hoa.map.ui](hoa.map.ui.html)
 [hoa.process~](hoa.process~.html)
 [hoa.scope~](hoa.scope~.html)
 [list.equal](list.equal.html)
@@ -506,10 +626,12 @@
 [ui.aview](ui.aview.html)
 [ui.bang](ui.bang.html)
 [ui.button](ui.button.html)
+[ui.canvas](ui.canvas.html)
 [ui.filter](ui.filter.html)
 [ui.filter~](ui.filter~.html)
 [ui.keyboard](ui.keyboard.html)
 [ui.knob](ui.knob.html)
+[ui.lcd](ui.lcd.html)
 [ui.matrix](ui.matrix.html)
 [ui.polar](ui.polar.html)
 [ui.slider2d](ui.slider2d.html)
@@ -546,9 +668,17 @@
 
 ### ellipse
 [proto.inscore](proto.inscore.html)
+[ui.canvas](ui.canvas.html)
 
 ### eof
 [system.exec](system.exec.html)
+
+### erase
+[ui.menu](ui.menu.html)
+[ui.tab](ui.tab.html)
+
+### euclid
+[ui.radio](ui.radio.html)
 
 ### eval
 [lang.lua](lang.lua.html)
@@ -578,6 +708,9 @@
 ### fader?
 [proto.xtouch_ext](proto.xtouch_ext.html)
 
+### ff
+[snd.play~](snd.play~.html)
+
 ### file
 [proto.inscore](proto.inscore.html)
 
@@ -594,6 +727,7 @@
 [local.list](local.list.html)
 [local.mlist](local.mlist.html)
 [proto.sp.alpaca](proto.sp.alpaca.html)
+[ui.canvas](ui.canvas.html)
 [ui.sliders](ui.sliders.html)
 
 ### firmware?
@@ -607,6 +741,7 @@
 [window](window.html)
 
 ### flip
+[data.color](data.color.html)
 [ui.matrix](ui.matrix.html)
 [ui.radio](ui.radio.html)
 [ui.tab](ui.tab.html)
@@ -633,8 +768,12 @@
 ### fold_cut
 [noise.baker](noise.baker.html)
 
+### font
+[ui.canvas](ui.canvas.html)
+
 ### font_size
 [proto.inscore](proto.inscore.html)
+[ui.canvas](ui.canvas.html)
 
 ### font_weight
 [proto.inscore](proto.inscore.html)
@@ -713,6 +852,15 @@
 ### grain
 [array.grainer~](array.grainer~.html)
 
+### grayscale
+[data.color](data.color.html)
+
+### green
+[data.color](data.color.html)
+
+### group
+[hoa.map.ui](hoa.map.ui.html)
+
 ### guitar-&gt;comp
 [hw.motu.avb](hw.motu.avb.html)
 
@@ -742,6 +890,13 @@
 ### height
 [proto.inscore](proto.inscore.html)
 
+### hex
+[data.color](data.color.html)
+
+### hexbeat
+[seq.bangs](seq.bangs.html)
+[ui.radio](ui.radio.html)
+
 ### hive
 [seq.life](seq.life.html)
 
@@ -750,8 +905,26 @@
 [proto.midi.cc](proto.midi.cc.html)
 [sfizz~](sfizz~.html)
 
+### hsl
+[data.color](data.color.html)
+
+### hwb
+[data.color](data.color.html)
+
+### icon
+[ui.canvas](ui.canvas.html)
+
+### id_request
+[proto.midi.sysex](proto.midi.sysex.html)
+
+### image
+[ui.canvas](ui.canvas.html)
+
 ### inc
 [ui.incdec](ui.incdec.html)
+
+### info
+[hoa.map.ui](hoa.map.ui.html)
 
 ### input
 [proto.feelworld](proto.feelworld.html)
@@ -772,18 +945,27 @@
 [hw.motu.avb](hw.motu.avb.html)
 
 ### insert
+[data.bimap](data.bimap.html)
 [data.list](data.list.html)
 [data.mlist](data.mlist.html)
+[global.bimap](global.bimap.html)
 [global.list](global.list.html)
 [global.mlist](global.mlist.html)
+[local.bimap](local.bimap.html)
 [local.list](local.list.html)
 [local.mlist](local.mlist.html)
 [ui.menu](ui.menu.html)
 [ui.tab](ui.tab.html)
 
+### instr
+[proto.midi.casio](proto.midi.casio.html)
+
 ### interp
+[hoa.2d.space](hoa.2d.space.html)
+[hoa.map.ui](hoa.map.ui.html)
 [preset.float](preset.float.html)
 [preset.storage](preset.storage.html)
+[preset.symbol](preset.symbol.html)
 [ui.colorpanel](ui.colorpanel.html)
 [ui.env](ui.env.html)
 [ui.filter](ui.filter.html)
@@ -807,7 +989,9 @@
 [ui.toggle](ui.toggle.html)
 
 ### invert
+[data.color](data.color.html)
 [proto.sp.alpaca](proto.sp.alpaca.html)
+[ui.lcd](ui.lcd.html)
 
 ### k
 [ceammc.search](ceammc.search.html)
@@ -816,10 +1000,15 @@
 [ceammc.search](ceammc.search.html)
 
 ### knob
+[proto.arturia.minilab](proto.arturia.minilab.html)
 [proto.xtouch_ext](proto.xtouch_ext.html)
 
 ### knob?
+[proto.arturia.minilab](proto.arturia.minilab.html)
 [proto.xtouch_ext](proto.xtouch_ext.html)
+
+### knobs?
+[proto.arturia.minilab](proto.arturia.minilab.html)
 
 ### lambda
 [chaos.logistic](chaos.logistic.html)
@@ -865,7 +1054,14 @@
 
 ### line
 [envelope](envelope.html)
+[ui.canvas](ui.canvas.html)
 [ui.env](ui.env.html)
+
+### line_cap
+[ui.canvas](ui.canvas.html)
+
+### line_to
+[ui.canvas](ui.canvas.html)
 
 ### linup
 [ui.sliders](ui.sliders.html)
@@ -877,6 +1073,8 @@
 [proto.xtouch_ext](proto.xtouch_ext.html)
 
 ### load
+[hoa.2d.space](hoa.2d.space.html)
+[hoa.map.ui](hoa.map.ui.html)
 [lang.lua](lang.lua.html)
 [preset.float](preset.float.html)
 [preset.list](preset.list.html)
@@ -906,6 +1104,12 @@
 [ui.tab](ui.tab.html)
 [ui.toggle](ui.toggle.html)
 
+### load_array
+[convolve~](convolve~.html)
+
+### load_file
+[convolve~](convolve~.html)
+
 ### loop
 [proto.vlc](proto.vlc.html)
 
@@ -917,6 +1121,12 @@
 
 ### make_cluster
 [proto.inscore](proto.inscore.html)
+
+### mark
+[synth.metro~](synth.metro~.html)
+
+### matrix
+[ui.canvas](ui.canvas.html)
 
 ### mbal:f
 [proto.midi.sysex](proto.midi.sysex.html)
@@ -946,6 +1156,9 @@
 [fluid~](fluid~.html)
 [sfizz~](sfizz~.html)
 
+### mix
+[data.color](data.color.html)
+
 ### mod.
 [proto.midi.cc](proto.midi.cc.html)
 
@@ -965,6 +1178,12 @@
 ### move
 [ui.slider2d](ui.slider2d.html)
 
+### move_by
+[ui.canvas](ui.canvas.html)
+
+### move_to
+[ui.canvas](ui.canvas.html)
+
 ### mtune
 [proto.midi.sysex](proto.midi.sysex.html)
 
@@ -974,8 +1193,12 @@
 ### mtune~
 [proto.midi.sysex](proto.midi.sysex.html)
 
+### musicxml
+[ui.canvas](ui.canvas.html)
+
 ### mute
 [hoa.2d.map~](hoa.2d.map~.html)
+[hoa.3d.map~](hoa.3d.map~.html)
 [mix~](mix~.html)
 [proto.xtouch_ext](proto.xtouch_ext.html)
 
@@ -987,6 +1210,12 @@
 
 ### mvolume
 [proto.midi.sysex](proto.midi.sysex.html)
+
+### new_path
+[ui.canvas](ui.canvas.html)
+
+### new_subpath
+[ui.canvas](ui.canvas.html)
 
 ### next
 [env2vline](env2vline.html)
@@ -1030,6 +1259,7 @@
 
 ### notes_off
 [fluid~](fluid~.html)
+[proto.midi](proto.midi.html)
 [proto.midi.cc](proto.midi.cc.html)
 [sfizz~](sfizz~.html)
 
@@ -1048,9 +1278,13 @@
 
 ### off
 [seq.arp](seq.arp.html)
+[synth.metro~](synth.metro~.html)
 
 ### offset
 [noise.collatz](noise.collatz.html)
+
+### oklab
+[data.color](data.color.html)
 
 ### om
 [chaos.jong](chaos.jong.html)
@@ -1074,6 +1308,7 @@
 ### on
 [hoa.process~](hoa.process~.html)
 [seq.arp](seq.arp.html)
+[synth.metro~](synth.metro~.html)
 
 ### onsets
 [array.grainer~](array.grainer~.html)
@@ -1095,6 +1330,9 @@
 ### p
 [noise.ikeda](noise.ikeda.html)
 
+### pad_color
+[proto.arturia.minilab](proto.arturia.minilab.html)
+
 ### pan
 [fluid~](fluid~.html)
 [sfizz~](sfizz~.html)
@@ -1114,6 +1352,8 @@
 
 ### panic
 [fluid~](fluid~.html)
+[proto.midi](proto.midi.html)
+[proto.midi.cc](proto.midi.cc.html)
 [sfizz~](sfizz~.html)
 
 ### pan~
@@ -1127,6 +1367,7 @@
 [modplug~](modplug~.html)
 [proto.mpv](proto.mpv.html)
 [proto.vlc](proto.vlc.html)
+[snd.play~](snd.play~.html)
 [tl.timeline](tl.timeline.html)
 
 ### period
@@ -1137,6 +1378,9 @@
 
 ### phantom
 [hw.motu.avb](hw.motu.avb.html)
+
+### phase
+[seq.phasor](seq.phasor.html)
 
 ### phones_gain
 [hw.motu.avb](hw.motu.avb.html)
@@ -1153,6 +1397,9 @@
 ### pingpong
 [fx.tapiir~](fx.tapiir~.html)
 
+### pink
+[noise.colored~](noise.colored~.html)
+
 ### pitchwheel
 [proto.midi](proto.midi.html)
 
@@ -1164,6 +1411,7 @@
 [array.vplay](array.vplay.html)
 [env.adsr~](env.adsr~.html)
 [env.ar~](env.ar~.html)
+[env.asr2~](env.asr2~.html)
 [env.asr~](env.asr~.html)
 [env.smooth~](env.smooth~.html)
 [fx.looper~](fx.looper~.html)
@@ -1179,8 +1427,14 @@
 ### plot
 [ui.plot~](ui.plot~.html)
 
+### pol
+[hoa.2d.map~](hoa.2d.map~.html)
+[hoa.3d.map~](hoa.3d.map~.html)
+
 ### polar
 [hoa.2d.map~](hoa.2d.map~.html)
+[hoa.3d.map~](hoa.3d.map~.html)
+[ui.canvas](ui.canvas.html)
 [ui.polar](ui.polar.html)
 
 ### poll
@@ -1188,6 +1442,9 @@
 
 ### polltime
 [system.cursor](system.cursor.html)
+
+### polygon
+[ui.canvas](ui.canvas.html)
 
 ### polytouch
 [fluid~](fluid~.html)
@@ -1206,12 +1463,21 @@
 ### portamento
 [proto.midi.cc](proto.midi.cc.html)
 
+### portswitch
+[proto.midi.cc](proto.midi.cc.html)
+
 ### pos
+[hoa.2d.space](hoa.2d.space.html)
+[hoa.3d.meter~](hoa.3d.meter~.html)
+[hoa.3d.scope~](hoa.3d.scope~.html)
+[hoa.map.ui](hoa.map.ui.html)
 [hoa.scope~](hoa.scope~.html)
 [tl.cue](tl.cue.html)
 [ui.aview](ui.aview.html)
 [ui.bang](ui.bang.html)
 [ui.button](ui.button.html)
+[ui.canvas](ui.canvas.html)
+[ui.cmeter~](ui.cmeter~.html)
 [ui.colorpanel](ui.colorpanel.html)
 [ui.display](ui.display.html)
 [ui.dsp~](ui.dsp~.html)
@@ -1225,6 +1491,7 @@
 [ui.keyboard](ui.keyboard.html)
 [ui.knob](ui.knob.html)
 [ui.label](ui.label.html)
+[ui.lcd](ui.lcd.html)
 [ui.link](ui.link.html)
 [ui.matrix](ui.matrix.html)
 [ui.menu](ui.menu.html)
@@ -1257,6 +1524,10 @@
 [local.mlist](local.mlist.html)
 [ui.label](ui.label.html)
 
+### preset
+[dyn.comp2~](dyn.comp2~.html)
+[dyn.comp~](dyn.comp~.html)
+
 ### prev
 [list.walk](list.walk.html)
 [proto.mpv](proto.mpv.html)
@@ -1275,6 +1546,9 @@
 
 ### pulse
 [array.fill](array.fill.html)
+
+### qrcode
+[ui.canvas](ui.canvas.html)
 
 ### quit
 [lang.lua](lang.lua.html)
@@ -1301,14 +1575,23 @@
 [array.play~](array.play~.html)
 [array.vplay](array.vplay.html)
 
+### raw
+[proto.midi](proto.midi.html)
+
 ### read
+[data.bimap](data.bimap.html)
 [data.dict](data.dict.html)
+[global.bimap](global.bimap.html)
 [global.dict](global.dict.html)
 [hw.apple_smc](hw.apple_smc.html)
+[lang.faust~](lang.faust~.html)
+[local.bimap](local.bimap.html)
 [local.dict](local.dict.html)
 [midi.file](midi.file.html)
 [preset.storage](preset.storage.html)
+[speech.rhvoice~](speech.rhvoice~.html)
 [synth.glitch~](synth.glitch~.html)
+[ui.faust~](ui.faust~.html)
 [ui.matrix](ui.matrix.html)
 [ui.preset](ui.preset.html)
 
@@ -1335,7 +1618,14 @@
 ### rect
 [array.window](array.window.html)
 [proto.inscore](proto.inscore.html)
+[ui.canvas](ui.canvas.html)
 [window](window.html)
+
+### red
+[data.color](data.color.html)
+
+### redraw
+[array.readwrite~](array.readwrite~.html)
 
 ### remove
 [data.dict](data.dict.html)
@@ -1373,40 +1663,76 @@
 [an.rms~](an.rms~.html)
 [chaos.jong](chaos.jong.html)
 [chaos.logistic](chaos.logistic.html)
+[dyn.comp2~](dyn.comp2~.html)
+[dyn.comp_peak2~](dyn.comp_peak2~.html)
+[dyn.comp_peak~](dyn.comp_peak~.html)
+[dyn.comp_up2~](dyn.comp_up2~.html)
+[dyn.comp_up~](dyn.comp_up~.html)
+[dyn.comp~](dyn.comp~.html)
+[dyn.expand2~](dyn.expand2~.html)
+[dyn.expand~](dyn.expand~.html)
+[dyn.gate2~](dyn.gate2~.html)
+[dyn.gate~](dyn.gate~.html)
+[dyn.limit2~](dyn.limit2~.html)
+[dyn.limit~](dyn.limit~.html)
+[dyn.softclip~](dyn.softclip~.html)
 [env.adsr~](env.adsr~.html)
 [env.ar~](env.ar~.html)
+[env.asr2~](env.asr2~.html)
 [env.asr~](env.asr~.html)
+[env.follow~](env.follow~.html)
 [env.smooth~](env.smooth~.html)
 [env2vline](env2vline.html)
 [flow.seqdelay](flow.seqdelay.html)
 [flt.biquad~](flt.biquad~.html)
 [flt.bpf12~](flt.bpf12~.html)
 [flt.bpf24~](flt.bpf24~.html)
+[flt.bpf36e~](flt.bpf36e~.html)
+[flt.bpf72e~](flt.bpf72e~.html)
 [flt.eq10~](flt.eq10~.html)
 [flt.fb_comb~](flt.fb_comb~.html)
 [flt.fbank5x1~](flt.fbank5x1~.html)
 [flt.ff_comb~](flt.ff_comb~.html)
+[flt.hpf12~](flt.hpf12~.html)
+[flt.hpf24~](flt.hpf24~.html)
+[flt.lpf12~](flt.lpf12~.html)
+[flt.lpf24~](flt.lpf24~.html)
 [flt.moog_vcf~](flt.moog_vcf~.html)
+[flt.speaker~](flt.speaker~.html)
 [fluid~](fluid~.html)
+[fx.bitdown~](fx.bitdown~.html)
 [fx.chorus~](fx.chorus~.html)
 [fx.dattorro~](fx.dattorro~.html)
+[fx.delay~](fx.delay~.html)
+[fx.distortion1~](fx.distortion1~.html)
+[fx.distortion2~](fx.distortion2~.html)
+[fx.distortion3~](fx.distortion3~.html)
+[fx.distortion~](fx.distortion~.html)
+[fx.drive~](fx.drive~.html)
+[fx.drone_box~](fx.drone_box~.html)
 [fx.echo2~](fx.echo2~.html)
 [fx.echo~](fx.echo~.html)
+[fx.flanger~](fx.flanger~.html)
 [fx.freeverb2~](fx.freeverb2~.html)
 [fx.freeverb~](fx.freeverb~.html)
+[fx.freqshift~](fx.freqshift~.html)
 [fx.granulator~](fx.granulator~.html)
 [fx.greyhole~](fx.greyhole~.html)
 [fx.infrev~](fx.infrev~.html)
 [fx.jcrev~](fx.jcrev~.html)
+[fx.overdrive~](fx.overdrive~.html)
 [fx.pitchshift_s~](fx.pitchshift_s~.html)
 [fx.pitchshift~](fx.pitchshift~.html)
 [fx.recho~](fx.recho~.html)
+[fx.ringmod~](fx.ringmod~.html)
 [fx.room~](fx.room~.html)
 [fx.satrev~](fx.satrev~.html)
-[fx.sdelay~](fx.sdelay~.html)
-[fx.secho~](fx.secho~.html)
+[fx.scramble~](fx.scramble~.html)
 [fx.shimmer~](fx.shimmer~.html)
 [fx.tapiir~](fx.tapiir~.html)
+[fx.tremolo~](fx.tremolo~.html)
+[fx.vocoder~](fx.vocoder~.html)
+[fx.wahwah~](fx.wahwah~.html)
 [fx.zita_rev1~](fx.zita_rev1~.html)
 [lang.faust~](lang.faust~.html)
 [lfo.+pulse~](lfo.%2Bpulse~.html)
@@ -1444,9 +1770,11 @@
 [noise.torus](noise.torus.html)
 [noise.verhulst](noise.verhulst.html)
 [proto.moppy](proto.moppy.html)
+[proto.morse](proto.morse.html)
 [proto.whammy](proto.whammy.html)
 [proto.xtouch_ext](proto.xtouch_ext.html)
 [radio](radio.html)
+[rhythm.lsystem](rhythm.lsystem.html)
 [samp.time~](samp.time~.html)
 [seq.arp](seq.arp.html)
 [seq.bangs](seq.bangs.html)
@@ -1487,6 +1815,12 @@
 [array.window](array.window.html)
 [data.fifo](data.fifo.html)
 
+### rev_time
+[proto.midi.casio](proto.midi.casio.html)
+
+### rev_type
+[proto.midi.casio](proto.midi.casio.html)
+
 ### reverse
 [array.grainer~](array.grainer~.html)
 [data.list](data.list.html)
@@ -1504,9 +1838,19 @@
 [seq.phasor](seq.phasor.html)
 [seq.toggles](seq.toggles.html)
 [sequencer](sequencer.html)
+[snd.play~](snd.play~.html)
+
+### rgb
+[data.color](data.color.html)
+
+### rgb8
+[data.color](data.color.html)
 
 ### rotate
+[data.color](data.color.html)
+[ui.canvas](ui.canvas.html)
 [ui.polar](ui.polar.html)
+[ui.radio](ui.radio.html)
 [xdac~](xdac~.html)
 
 ### row
@@ -1515,14 +1859,24 @@
 ### rpent
 [seq.life](seq.life.html)
 
+### rpolygon
+[ui.canvas](ui.canvas.html)
+
 ### samp_interval
 [proto.firmata](proto.firmata.html)
+
+### saturate
+[data.color](data.color.html)
+
+### save
+[snd.file](snd.file.html)
 
 ### saw
 [array.fill](array.fill.html)
 
 ### scale
 [proto.inscore](proto.inscore.html)
+[ui.canvas](ui.canvas.html)
 [ui.scope~](ui.scope~.html)
 
 ### seed
@@ -1534,8 +1888,10 @@
 
 ### seek
 [midi.track](midi.track.html)
+[proto.ltc.out~](proto.ltc.out~.html)
 [proto.mpv](proto.mpv.html)
 [proto.vlc](proto.vlc.html)
+[snd.play~](snd.play~.html)
 
 ### seek_read
 [path.file](path.file.html)
@@ -1598,6 +1954,9 @@
 [array.grainer~](array.grainer~.html)
 [chaos.jong](chaos.jong.html)
 [chaos.logistic](chaos.logistic.html)
+[convolve~](convolve~.html)
+[data.bimap](data.bimap.html)
+[data.color](data.color.html)
 [data.dict](data.dict.html)
 [data.float](data.float.html)
 [data.int](data.int.html)
@@ -1605,12 +1964,15 @@
 [data.mlist](data.mlist.html)
 [data.set](data.set.html)
 [gain~](gain~.html)
+[global.bimap](global.bimap.html)
 [global.dict](global.dict.html)
 [global.float](global.float.html)
 [global.int](global.int.html)
 [global.list](global.list.html)
 [global.mlist](global.mlist.html)
 [global.set](global.set.html)
+[hoa.map.ui](hoa.map.ui.html)
+[local.bimap](local.bimap.html)
 [local.dict](local.dict.html)
 [local.float](local.float.html)
 [local.int](local.int.html)
@@ -1640,6 +2002,7 @@
 [ui.incdec](ui.incdec.html)
 [ui.knob](ui.knob.html)
 [ui.label](ui.label.html)
+[ui.lcd](ui.lcd.html)
 [ui.menu](ui.menu.html)
 [ui.number](ui.number.html)
 [ui.polar](ui.polar.html)
@@ -1664,11 +2027,23 @@
 ### set UP DOWN
 [proto.whammy](proto.whammy.html)
 
+### set col
+[ui.lcd](ui.lcd.html)
+
 ### set col N ...
 [ui.matrix](ui.matrix.html)
 
+### set cursor
+[ui.lcd](ui.lcd.html)
+
 ### set list ...
 [ui.matrix](ui.matrix.html)
+
+### set pixel
+[ui.lcd](ui.lcd.html)
+
+### set row
+[ui.lcd](ui.lcd.html)
 
 ### set row N ...
 [ui.matrix](ui.matrix.html)
@@ -1740,6 +2115,9 @@
 ### size
 [ui.faust~](ui.faust~.html)
 
+### skip
+[seq.bangs](seq.bangs.html)
+
 ### slice
 [array.grainer~](array.grainer~.html)
 
@@ -1779,13 +2157,26 @@
 [proto.midi.cc](proto.midi.cc.html)
 [sfizz~](sfizz~.html)
 
-### sounds_off
+### sound_off
 [fluid~](fluid~.html)
+[proto.midi](proto.midi.html)
 [proto.midi.cc](proto.midi.cc.html)
 [sfizz~](sfizz~.html)
 
+### source
+[hoa.map.ui](hoa.map.ui.html)
+
+### speed
+[synth.glitch~](synth.glitch~.html)
+
 ### spread
 [array.grainer~](array.grainer~.html)
+
+### ssml
+[speech.rhvoice~](speech.rhvoice~.html)
+
+### star
+[ui.canvas](ui.canvas.html)
 
 ### start
 [net.osc.server](net.osc.server.html)
@@ -1797,6 +2188,7 @@
 [seq.phasor](seq.phasor.html)
 [seq.toggles](seq.toggles.html)
 [sequencer](sequencer.html)
+[snd.play~](snd.play~.html)
 [tl.timeline](tl.timeline.html)
 [ui.dsp~](ui.dsp~.html)
 
@@ -1824,6 +2216,7 @@
 [seq.phasor](seq.phasor.html)
 [seq.toggles](seq.toggles.html)
 [sequencer](sequencer.html)
+[snd.play~](snd.play~.html)
 [speech.flite~](speech.flite~.html)
 [speech.rhvoice~](speech.rhvoice~.html)
 [system.exec](system.exec.html)
@@ -1831,6 +2224,8 @@
 [ui.dsp~](ui.dsp~.html)
 
 ### store
+[hoa.2d.space](hoa.2d.space.html)
+[hoa.map.ui](hoa.map.ui.html)
 [preset.float](preset.float.html)
 [preset.list](preset.list.html)
 [preset.storage](preset.storage.html)
@@ -1860,6 +2255,9 @@
 ### str
 [proto.sp.alpaca](proto.sp.alpaca.html)
 
+### stroke
+[ui.canvas](ui.canvas.html)
+
 ### symbol
 [ui.label](ui.label.html)
 
@@ -1879,6 +2277,7 @@
 ### text
 [proto.inscore](proto.inscore.html)
 [proto.mpv](proto.mpv.html)
+[ui.canvas](ui.canvas.html)
 
 ### tick
 [proto.midi](proto.midi.html)
@@ -1888,6 +2287,9 @@
 [seq.phasor](seq.phasor.html)
 [seq.toggles](seq.toggles.html)
 [sequencer](sequencer.html)
+
+### time
+[proto.ltc.out~](proto.ltc.out~.html)
 
 ### timecode
 [proto.midi](proto.midi.html)
@@ -1900,6 +2302,9 @@
 
 ### toggle
 [proto.whammy](proto.whammy.html)
+
+### translate
+[ui.canvas](ui.canvas.html)
 
 ### tri
 [array.fill](array.fill.html)
@@ -1946,10 +2351,12 @@
 [array.fill](array.fill.html)
 
 ### update
-[lang.faust~](lang.faust~.html)
 [preset.storage](preset.storage.html)
 [ui.aview](ui.aview.html)
-[ui.faust~](ui.faust~.html)
+[ui.canvas](ui.canvas.html)
+
+### velvet
+[noise.colored~](noise.colored~.html)
 
 ### version?
 [proto.firmata](proto.firmata.html)
@@ -1983,21 +2390,30 @@
 [array.window](array.window.html)
 [window](window.html)
 
+### white
+[noise.colored~](noise.colored~.html)
+
 ### wide
 [hoa.2d.recomposer~](hoa.2d.recomposer~.html)
 
 ### width
 [proto.inscore](proto.inscore.html)
+[ui.canvas](ui.canvas.html)
 
 ### write
+[data.bimap](data.bimap.html)
 [data.dict](data.dict.html)
+[global.bimap](global.bimap.html)
 [global.dict](global.dict.html)
+[lang.faust~](lang.faust~.html)
+[local.bimap](local.bimap.html)
 [local.dict](local.dict.html)
 [midi.file](midi.file.html)
 [path.file](path.file.html)
 [preset.storage](preset.storage.html)
 [proto.inscore](proto.inscore.html)
 [system.exec](system.exec.html)
+[ui.faust~](ui.faust~.html)
 [ui.matrix](ui.matrix.html)
 [ui.preset](ui.preset.html)
 
@@ -2066,4 +2482,4 @@
 
 **Лицензия:** GPL3
 
-**Авторы:** Albert Graef, Alex Nadzharov, André Sier, Eliott Paris, Hans-Christoph Steiner, Julian Parker, Katja Vetter, Mayank Sanganeria, Mikhail Malt, Oliver Larkin, Olli Parviainen, Paul Bourke, Pierre Cochard, Pierre Guillot, Richard Dudas, Romain Michon, Serge Poltavsky, Serge Potlavsky, Thomas Le Meur, Till Bovermann, Viacheslav Lotsmanov, Yann Orlarey, naivesound, thedrgreenthumb
+**Авторы:** Albert Graef, Alex Nadzharov, André Sier, Eliott Paris, Hans-Christoph Steiner, Julian Parker, Katja Vetter, Mayank Sanganeria, Mikhail Malt, Oliver Larkin, Olli Parviainen, Paul Bourke, Pierre Cochard, Pierre Guillot, Richard Dudas, Romain Michon, Serge Poltavsky, Thomas Le Meur, Till Bovermann, Viacheslav Lotsmanov, Yann Orlarey, naivesound, thedrgreenthumb

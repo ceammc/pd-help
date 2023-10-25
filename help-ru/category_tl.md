@@ -23,6 +23,6 @@ _псевдонимы:_ \[tl.t\]
 [**tl.transport**](tl.transport.html): Timeline transport control 
 
 
-**Версия:** 0.9.6
+**Версия:** 0.9.7
 
 **Лицензия:** GPL3

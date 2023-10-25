@@ -18,8 +18,8 @@
 
 ## аргументы:
 
-* **FNAME**
-path to faust dsp file<br>
+* **LOAD**
+initial file to load after object creation<br>
 _тип:_ symbol<br>
 
 
@@ -27,31 +27,45 @@ _тип:_ symbol<br>
 ## методы:
 
 * **open**
-open faust dsp file in external editor<br>
+open editor window<br>
 
 * **reset**
 reset object state<br>
 
-* **update**
-update faust object, recompile if needed<br>
+* **read**
+read Faust code from file and compile it.<br>
+  __параметры:__
+  - **FILE** file path, absolute or relative to patch, include directories<br>
+    тип: symbol <br>
+    обязательно: True <br>
+
+* **write**
+write Faust code to file.<br>
+  __параметры:__
+  - **FILE** file path, absolute or relative to patch<br>
+    тип: symbol <br>
+    обязательно: True <br>
+
+  - **[@force]** overwrite existing files<br>
+    тип: property <br>
 
 
 
 
 ## свойства:
 
-* **@fname** 
-Запросить/установить path to faust dsp file<br>
-_тип:_ symbol<br>
-
 * **@include** 
 Запросить/установить list of faust include directories<br>
 _тип:_ list<br>
 
-* **@auto** 
-Запросить/установить auto update mode. If on - recompiles faust dsp file on change<br>
+* **@active** 
+Запросить/установить on/off dsp processing<br>
 _тип:_ bool<br>
-_по умолчанию:_ 0<br>
+_по умолчанию:_ 1<br>
+
+* **@load** (initonly)
+Запросить/установить initial file to load after object creation<br>
+_тип:_ symbol<br>
 
 
 

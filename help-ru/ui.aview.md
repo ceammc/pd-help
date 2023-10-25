@@ -20,19 +20,8 @@
 
 ## методы:
 
-* **update**
-redraws view<br>
-
-* **select**
-set selection<br>
-  __параметры:__
-  - **BEGIN** selection start in samples<br>
-    тип: int <br>
-    обязательно: True <br>
-
-  - **END** selection end in samples<br>
-    тип: int <br>
-    обязательно: True <br>
+* **dump**
+dumps all object info to Pd console window.<br>
 
 * **pos**
 set UI element position<br>
@@ -45,8 +34,19 @@ set UI element position<br>
     тип: float <br>
     обязательно: True <br>
 
-* **dump**
-dumps all object info to Pd console window.<br>
+* **select**
+set selection<br>
+  __параметры:__
+  - **BEGIN** selection start in samples<br>
+    тип: int <br>
+    обязательно: True <br>
+
+  - **END** selection end in samples<br>
+    тип: int <br>
+    обязательно: True <br>
+
+* **update**
+redraws view<br>
 
 
 

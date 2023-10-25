@@ -3,7 +3,7 @@ project(pd-help NONE)
 cmake_minimum_required(VERSION 3.6)
 
 set(PDDOC_SRC_DIR ${PROJECT_BINARY_DIR}/ceammc_src/src/ceammc/ceammc/ext/doc)
-set(CEAMMC_VERSION "2021.11")
+set(CEAMMC_VERSION "2023.10")
 
 find_program(PD_ASCII2PD NAMES pd_ascii2pd REQUIRED)
 find_program(CEAMMC_APP_BUNDLE NAMES "Pd-ceammc_${CEAMMC_VERSION}" REQUIRED)

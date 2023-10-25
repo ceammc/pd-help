@@ -1,0 +1,21 @@
+
+
+/*//control mode*/    /*//signal control mode*/
+
+  [polar 1 R A E #g(
+
+
+[ui.n #d] [ui.n #f]   [ui.n #e] [ui.n #a] [ui.n #b] [ui.n #c]
+                      |
+[hoa.3d.map~ 2 2 #y]  [hoa.3d.map~ 2 1 #x]
+
+[ui.dsp~]
+[X a->x:1] [X b->x:2] [X c->x:3] [X d->y] [X f->y:1] [X g->y]
+#a @label Radius
+#b @label Azimuth
+#c @label Elevation
+#d @label "Source 1"
+#e @label "Source 1"
+#f @label "Source 2"
+
+            

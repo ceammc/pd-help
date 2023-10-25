@@ -1,0 +1,48 @@
+
+
+[clear, matrix #a(             [image #i(
+
+[line #b(                      [qrcode #j(
+
+[circle #c(                    [star #k(
+
+[rect #d(                      [abc #l(
+
+[curve 0 0 30% 50% 70% 50% 100% 0, stroke \#FA0, update #e(
+
+[polygon 20 90 40 70 100 70 90 190, fill lime!-30, update #f(
+
+[csave, #g(
+
+
+[bg gray!+75, update #h(
+
+[ui.canvas @size 300 200 {h:200} #z]
+
+
+
+
+
+
+
+
+
+
+
+[X a->z] [X b->z] [X c->z] [X d->z] [X e->z] [X f->z] [X g->z] [X h->z]
+[X i->z] [X j->z] [X k->z] [X l->z]
+
+[ui.canvas.line]  [ui.canvas.text]   [ui.canvas.music] [ui.canvas.matrix]
+
+[ui.canvas.color] [ui.canvas.arrows] [ui.canvas.image]
+
+#b 30 50 100% 100%, stroke red, update
+#c 0 0 50, fill blue, update
+#d 80% 90% 15% 10%, fill navy, update
+#g translate 50% 50%, rotate 35, font_size 40, text 0 0 CEAM, fill gray, crestore, update
+#i 150 10 img/puredata-ceammc.png 0.13, update
+#j 220 40 3 message, fill black, update
+#k 150 160 5 30, stroke red, update
+#l 0 0 K:E L:1/4 =F4|, update
+
+            

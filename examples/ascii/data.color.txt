@@ -1,0 +1,22 @@
+
+
+[hex \#AA0055 #a( [darken 0.1 #b( [brighten 0.1 #c( [rgb8 10 255 100 #h(
+
+[red 1 #d( [green 0.5 #e( [blue 0.5 #f( [grayscale #g( [invert #i(
+
+[rotate 20 #j( [saturate 0.1 #k( [desaturate 0.1 #l(
+
+[msg.after 0 bang #x] [loadbang]
+|                     |
+[data.color \#DEF     ]
+|
+[rgb->hex]
+|
+[color $1 -1 -1(
+|
+[hsl]
+
+[X a->x] [X b->x]  [X c->x]  [X d->x]  [X e->x]  [X f->x]  [X g->x]  [X h->x]  [X i->x]
+[X j->x] [X k->x]  [X l->x]
+
+            

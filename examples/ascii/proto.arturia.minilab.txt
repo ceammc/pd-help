@@ -1,0 +1,13 @@
+
+
+[midiin]    [B]
+|           |
+|           [random.a red cyan green magenta yellow @nonrep 1]
+|           |
+| [knob? 1( [pad_color $1(
+| |         |
+[proto.arturia.minilab]
+|              ^|
+[midiout]      [ui.dt]
+
+            

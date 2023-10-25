@@ -1,0 +1,22 @@
+
+
+[osc.square~ 0.15]      [phasor~ 0.15]   [phasor~ 0.15]
+|                       |                |
+[ui.gain~ @size 120 14] [phase->rad~ #a] [phase->rad~ #b]
+|
+[hoa.3d.encoder~ 3 {w=17,i=3,o=16} #z]
+*|*
+[hoa.3d.scope~ 3 {i=16} @size 123 123]
+
+
+
+
+
+
+
+
+[ui.dsp~]
+[X a->z:1]
+[X b->z:2]
+
+            

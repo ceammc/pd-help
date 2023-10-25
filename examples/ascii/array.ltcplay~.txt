@@ -1,0 +1,26 @@
+
+
+[B]         [msg.onload symbol %CEAMMC%/guitar1.wav]
+|           |
+[openpanel] [expand_env]
+|           |
+[load $1 to  altc @resize @resample(
+|
+[snd.file]
+
+
+[T] [time 0 0 0(          [array altc 100]
+|   |
+|   |   [seek -2s(
+|   |   |
+[ltc.out~]
+|
+|
+|
+[array.ltcplay~ altc]
+|
+[ui.hgain~]
+|\
+[dac~]                    [ui.dsp~]
+
+            

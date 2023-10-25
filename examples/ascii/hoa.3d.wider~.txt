@@ -1,0 +1,27 @@
+
+
+[lfo.square~ 1]
+|
+[ui.gain~ @size 120 14] [ui.knob #a]
+|
+[hoa.3d.encoder~ 2 {w=24,i=9,o=9}]
+*|*
+[hoa.3d.wider~ 2 {w=24,i=10,o=9} #b]
+*|*
+[hoa.3d.scope~ @order 2 {i=9} @size 171 171]
+
+
+
+
+
+
+
+
+
+
+
+
+[ui.dsp~]
+[X a->b:9]
+
+            

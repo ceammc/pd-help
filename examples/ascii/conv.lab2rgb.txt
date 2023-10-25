@@ -1,0 +1,26 @@
+
+
+[ui.hsl #L]
+
+         [ui.hsl #A]
+
+ [bang(              [ui.hsl #B]
+ |
+[lab->rgb @sync @float @pack #z]
+|  |
+|  [ui.dt]
+|
+|
+[msg @background_color]
+|
+[ui.t @size 40 40 @nosave 1]
+
+[X L->z]
+[X A->z:1]
+[X B->z:2]
+
+#L @label L*  @label_inner 1 @show_value 1 @label_color 0.1 0.25 1
+#A -1 1 @label a*   @label_inner 1 @show_value 1 @label_color 0.1 0.25 1
+#B -1 1 @label b*   @label_inner 1 @show_value 1 @label_color 0.1 0.25 1
+
+            

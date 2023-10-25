@@ -10,6 +10,6 @@
 | |
 | | [remove "%PD%/test.txt"(
 | | |
-[file]
+[path.file]
 
             

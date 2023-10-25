@@ -1,0 +1,20 @@
+
+
+[open %CEAMMC%/guitar1.wav, 1 #b(
+|
+[expand_env] [ui.hsl 0 1000 @show_value 1]
+|            |
+|            |
+[readsf~ #a] |           [F]
+|            |           |
+|            [@delay $1( [@smooth $1(
+|            |           |
+[fx.delay~ @drywet 0.5   ]
+|
+[ui.gain~ @size 120 16]  [ui.dsp~]
+|\
+[dac~]
+
+[X a:1->b]
+
+            

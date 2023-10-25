@@ -1,0 +1,35 @@
+
+
+[B]
+|
+[openpanel #a]
+
+[symbol %CEAMMC%/guitar1.wav, 1 #b(
+
+ [@name %CEAMMC%/sound/loop_breakbeat.flac, 1(
+ |
+ |  [@name %CEAMMC%/sound/vla-overtones-3.mp3, 1(
+ |  |
+[expand_env #x]
+
+ [T]      [T]           [T]        [ui.hsl #c]
+ |        |             |          |
+ | [stop( [pause $1 #d( [@loop $1( [@speed $1(
+ | |                    |          |
+ | | [start(            |          |
+ | | |                  |          |
+[snd.play~ 2 @loop 1 #z            ]
+| ^|                    ^^|
+|  |                    [ui.dt]
+|  |.
+[ui.hgain2~ {i:2,o:2}] [ui.dsp~]
+*|*
+[dac~]
+
+[snd.play~.seek] [snd.play~.resamp]
+
+#c 0.25 4 @show_value 1
+
+[X a->x] [X b->x]  [X d->z]  [X x->z]
+
+            

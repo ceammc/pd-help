@@ -1,10 +1,10 @@
 
 
-[open( [symbol ex1.dsp(    [osc~ 500]
-|      |                   |
-|      [@fname faust/$1(   |
-|      |                   |.
-[ui.faust~ faust/ex0.dsp    ]
+[open( [read faust/ex1.dsp( [osc~ 500]
+|      |                    |
+|      |                    |
+|      |                    |.
+[ui.faust~ faust/ex0.dsp     ]
 |
 |
 |

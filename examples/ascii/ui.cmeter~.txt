@@ -1,0 +1,22 @@
+
+
+[nsig~ 5 0 0.06 0.15 0.5 0.9 {o=5}] [T] [ui.n #n1]  [ui.knob #k1]
+*|*                                 |   |
+[ui.cmeter~ {i=5} #z] [ui.dsp~]     |   [@offset $1 #a(
+                                    |
+                                    [@clockwise $1( [@rotation $1 #b(
+                                    |
+                                    | [@angles 0 45 110 202.5 295(
+                                    | |
+                                    [s \$0-cm #x]
+
+
+
+#z @nch 5 @size 193 193 @receive $0-cm @nosave 1
+#n1 @step 0 @min -5 @max 5
+#k1 @min -90 @max 90 @show_value 1
+[X a->x] [X b->x] [X k1->b]
+
+/*...*/
+
+            

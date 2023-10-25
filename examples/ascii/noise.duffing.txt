@@ -1,6 +1,5 @@
 
 
-
 [T]
 |
 [metro 50 #metro]
@@ -27,6 +26,5 @@
 [X reset:0->noise-obj:0]
 
 [X metro->noise-obj]
-
 
             

@@ -1,9 +1,10 @@
 
 
-[F]  [set 2(         [flip( [reset( [1 1 0 1 0 0 1(
+[F]  [set 2(         [flip( [reset( [1 1 0 1 0 0 1( [euclid 3 1 #a(
 |    |               |      |       |
-|    |               |      |       |
-[ui.radio ]          [ui.radio @mode 1]
+|    |               |      |       |  [rotate 1(   [hexbeat BE #b(
+|    |               |      |       |  |
+[ui.radio ]          [ui.radio*         #x]
 |                    |
 [F]                  [ui.dt]
 
@@ -13,5 +14,8 @@
 [ui.radio 4                        ]
 |
 [ui.dt]
+
+[X a->x]
+[X b->x]
 
             

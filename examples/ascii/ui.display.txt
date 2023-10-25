@@ -1,6 +1,5 @@
 
 
-
 [list a b c( [1( [symbol X( [any msg( [bang(
 |            |   |          |         |
 |            |   |          |         |
@@ -15,7 +14,5 @@
 |            |   |          |         |
 |            |   |          |         |
 [ui.dt                                ]
-
-
 
             

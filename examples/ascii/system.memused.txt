@@ -9,5 +9,4 @@
 |                     |
 [floatatom digits=12] [floatatom digits=12]
 
-                
             

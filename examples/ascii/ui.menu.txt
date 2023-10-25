@@ -1,6 +1,6 @@
 
 
-[clear, file_glob * %DOC%/sound, 0(
+[erase, file_glob * %DOC%/sound, 0(
 |
 [expand_env]
 |

@@ -1,0 +1,23 @@
+
+
+[open %CEAMMC%/guitar1.wav, 1(
+|
+[expand_env]
+|
+[readsf~]     [ui.tab mod osc noise]
+|             |
+|             |         [F]  [20(
+|             |         |    |
+|             [@src $1( [@freq $1 #a(  [osc.tri~ 400 #b]
+|             |
+|             |
+[fx.ringmod~ 0.75        #x]
+|
+[ui.gain~ @size 120 14] [ui.dsp~]
+|\
+[dac~]
+
+[X a->x]
+[X b->x:1]
+
+            

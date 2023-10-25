@@ -1,17 +1,19 @@
 
 
-[osc~ 440] [F]
-|          |
-|     [dbtorms]
-|     |.
-[*~    ]      [F]
-|             |
-|             [@threshold $1(
-|             |
-[dyn.gate~ 90 ]
+[osc~ 440]     [ui.hsl -60 0 @show_value 1]
+|              |
+|              [dbfs->amp #a]
 |
-[ui.hgain~    ] [ui.dsp~]
+[gain~     #b] [ui.hsl -60 0 @show_value 1]
+|              |
+|              [@threshold $1(
+|              |
+[dyn.gate~  -10]
+|
+[ui.hgain~   ] [ui.dsp~]
 |\
 [dac~]
+
+[X a->b:1]
 
             

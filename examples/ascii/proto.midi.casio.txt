@@ -1,17 +1,21 @@
 
 
+[ui.midi]          /*choose CASIO output device!*/
+
 [ui.tab piano epiano strings bass organ vibr harps @size 310 15]
 |
-|      [ui.hrd 6]
-|      |.
-[sync 2 ]
-|
-[pack f f]
-|
-[msg instr]
-|
-[proto.midi.casio]
-|
-[midiout]
+[$2(   [ui.hrd 6]   [T]
+|      |.           |
+[flow.pack' 2]      [metro.wchoice 120 85% 240 15%]
+|                   |
+[msg instr 0]       [random.a 58 56 46 53 41 @nonrep 1]
+|                   |
+[proto.midi.casio]  [makenote 100 90]
+|                   | ^|.
+[midiout]           [noteout #z]
+
+[proto.midi.casio.rev]
+
+[proto.midi.casio.chorus]
 
             

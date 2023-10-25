@@ -1,5 +1,5 @@
 
- 
+
 [loadbang]
 |
 [symbol voice.wav( [symbol bell.aiff( [array A1 w=100] [array A2 w=100]

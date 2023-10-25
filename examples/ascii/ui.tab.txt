@@ -4,7 +4,7 @@
 |                |
 | [insert 0 saw( | [delete 1(  [+ 1 #c(     [random move #e(
 | |              | |
-| | [clear( [F]  | | [B] [tri( [T]          [random #a(
+| | [erase( [F]  | | [B] [tri( [T]          [random #a(
 | | |       |    | | |   |     |
 | | |       |    | | |   |     [@toggle $1( [flip #b(
 | | |       |    | | |   |     |

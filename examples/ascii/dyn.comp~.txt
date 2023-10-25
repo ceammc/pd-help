@@ -1,18 +1,24 @@
 
 
-[lfo.impulse~ 10] [tgl]
-|  .______________/
-[*~]
-|         [floatatom] [floatatom]
-[*~ 4]    |           |
-|         |           |
-|         [@ratio $1( [@threshold $1(
-|         |           |
-|         |           |
-[dyn.comp~ 3 40 10 100]  [ui.dsp~]
-*|*
-[ui.hgain~]
-|\
-[dac~]
+[ui.hsl -60 20 @show_value 1] [ui.dsp~]
+|
+[dbfs->amp]
+|
+[sig~]    [ui.hsl #a]   [ui.hsl #b]
+|         |             |
+|         |             |
+|         [@ratio $1(   [@threshold $1(
+|         |             |
+|         |             |
+[dyn.comp~ 3 -60 10 100 ]
+|               ^|
+[env~]          [ui.hsl @active_scale 1]
+|
+[- 100]
+|
+[F]
+
+#a 1 16 @show_value 1
+#b -60 0 @show_value 1
 
             

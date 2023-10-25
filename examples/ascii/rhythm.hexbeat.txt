@@ -1,0 +1,21 @@
+
+
+[B] [S digits=10]               [T]
+|   |                           |
+|   |                           [metro.pattern 100] [r hexpat]
+|   |                           |                   |
+[rhythm.hexbeat \#D1]           [list.walk @wrap    ]
+|                               |
+[t l l]                         [sel 1]
+|   ^|                          |
+|   [list.size]                 [click~]
+|   |                           |
+|   [@nitems $1, @size 150 15(  [flt.resonlp~ 1000 40]
+|   |                           |
+[ui.hrd* @nosave 1]             [ui.hgain~]
+|                               |\
+[s hexpat]                      [dac~]
+
+[rhythm.hexbeat.list]
+
+            

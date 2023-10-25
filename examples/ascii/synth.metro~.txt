@@ -1,0 +1,17 @@
+
+
+[T] [down #a( [on #b( [off #c( [mark #d(
+|
+|   [F]
+|   |
+|   [@tempo $1( [1( [2( [3( [4(     [F]
+|   |           | .  |.  |.  |.     |..
+[synth.metro~ 120|8bpm |5/4+3/16| #z  ]
+|                          ^|
+[ui.hgain~]                [print BEAT]
+|\
+[dac~]
+
+[X a->z] [X b->z] [X c->z] [X d->z]
+
+            

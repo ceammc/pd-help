@@ -1,0 +1,17 @@
+
+
+[L]
+|
+| [reset(
+| |
+[proto.morse]
+|
+[lop~ 10] [osc~ 1000]
+|         |.
+[*~        ]
+|
+[ui.hgain~]      [ui.dsp~]
+|\
+[dac~]
+
+            

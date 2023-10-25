@@ -1,0 +1,17 @@
+
+
+[B] [3 5 1(  [L]
+|   |        |
+|   [msg.after bang]
+|   |
+[rhythm.euclid 3 7]
+|
+[t l l]
+|   ^|
+|   [list.size]
+|   |
+|   [@nitems $1, @size 150 15(
+|   |
+[ui.hrd* @nosave 1]
+
+            

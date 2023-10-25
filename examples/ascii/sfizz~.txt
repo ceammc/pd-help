@@ -15,7 +15,7 @@
 
 [sfizz~.freq]     [sfizz~.pan]     [sfizz~.pedals]
 
-[sfizz~.bend]     [sfizz~.tune-12] [sfizz~.soundsoff]
+[sfizz~.bend]     [sfizz~.tune-12] [sfizz~.soundoff]
 
 [sfizz~.notesoff] [sfizz~.sfz]
 

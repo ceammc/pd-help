@@ -1,0 +1,20 @@
+
+
+[S digits=12]
+|
+[qrcode     ]
+|          ^|
+[msg set]  [@cols $1, @rows $1, @size 120 120(
+|          |
+|          |  [invert( [clear(
+|          |  |        |
+[ui.lcd @size 120 120 @nosave 1]
+
+
+
+
+
+
+/* */
+
+            

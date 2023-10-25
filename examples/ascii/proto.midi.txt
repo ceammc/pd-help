@@ -1,19 +1,21 @@
 
 
-[midiin]  [S digits=20]
+[midiin]  [S digits=16] [cc 0 23 121 #a( [note 1 60 90 #c(
 |         |
-|         [sym->any]
+|         [sym->any]    [start #b(       [sound_off #d(
 |         |
-[proto.midi]
+|         |
+|         |
+|         |
+[proto.midi         #x]
+|         ^|
+|         [ui.dt]
 |
-[route.float]
-|  |       ^|
-|  [print] [ui.dt]
-|
-|     [T]
-|     |.
-[gate 0]
-|
-[midiout]
+[print MIDI]
+
+[X a->x]
+[X b->x]
+[X c->x]
+[X d->x]
 
             

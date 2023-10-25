@@ -1,0 +1,23 @@
+
+
+[info(
+|
+[hoa.map.ui @size 150 150 #z]
+
+
+
+
+
+
+
+
+
+
+
+[print SRC #a] [print GRP #b] [print INF #c]
+
+[X z->a]
+[X z:1->b]
+[X z:2->c]
+
+            

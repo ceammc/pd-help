@@ -1,0 +1,24 @@
+
+
+[loadmsg load guitar1.wav to ARAMP @resize]  [table ARAMP 44100]
+|
+[snd.file]
+
+
+[B]   [ui.rslider]
+|     |
+|     [msg @range]
+|     |
+[array.tramp~ ARAMP]
+|                ^|
+|                [B]
+|
+[tabread4~ ARAMP]
+|
+[flt.dcblock~]
+|
+[ui.hgain2~]     [ui.dsp~]
+*|*
+[dac~]
+
+            

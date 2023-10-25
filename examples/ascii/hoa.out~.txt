@@ -1,6 +1,6 @@
 
 
-    [open 0 #a( [open 1 #b(
+[open 0 #a( [open 1 #b(
 
 [sig~ 0.5]                       [sig~ 1]
 |                                |.

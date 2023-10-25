@@ -1,0 +1,15 @@
+
+
+[ui.hsl @show_value 1]     [ui.tab none short long inc dec @size 200 15]
+|                          |
+|                          [@interp $2(
+|                          |
+[color.scale Color(red) Color(blue) Color(yellow)]
+|
+[color->rgba @pack @float]
+|
+[@background_color $1 $2 $3(
+|
+[ui.hsl @nosave 1]
+
+            

@@ -1,0 +1,30 @@
+
+
+[L]
+|                             [bang #a( /*plot response*/
+|                             |
+[@f1 $1, @f2 $2(              [click~]
+|                             |
+[flt.speaker~ 1000 4000       ]
+|
+[plot.response~ @sr 1 @db 1 #b]
+|                          ^^|.
+[ui.plot~ @xlabels 1 @ylabels 1 @ymin -60 @ymax 0 @ymin_ticks 0 @ymaj_ticks 0 @size 400 200]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[ui.dsp~]
+[X a->b:1]
+
+            

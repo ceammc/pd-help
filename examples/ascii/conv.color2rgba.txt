@@ -1,0 +1,21 @@
+
+
+[ui.menu black blue cyan gold gray green lime magenta navy olive orange pink purple red white yellow]
+|
+| [\#FF3399 #a( [\#39F #b( [\#444A #c(
+|
+|    [L]                        [symbol green(
+|    |                          |
+[$2( [$1( [@float #d( [@int #e( [S digits=10]
+|    |                          |
+[color->rgba @float #x]         [color->rgba @pack]
+|    ^|   ^^| ^^^|              |
+[F]  [F]  [F]  [F]              [ui.dt]
+
+[X a->x]
+[X b->x]
+[X c->x]
+[X d->x]
+[X e->x]
+
+            

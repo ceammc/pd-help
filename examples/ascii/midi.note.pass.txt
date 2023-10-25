@@ -1,0 +1,23 @@
+
+
+[T]              [ui.keyboard]
+|                |
+[metro 100]      |
+|                |
+[random.i 40 80] |
+|                |
+[makenote 120 95 ]
+*|*
+[pack f f]  [dump(
+|           |
+[note.pass white($N) && $N>=60]
+|
+[msg note]
+|
+[sfizz~ \#tri @volume 6]   [ui.dsp~]
+*|*
+[ui.hgain2~]
+*|*
+[dac~]
+
+            

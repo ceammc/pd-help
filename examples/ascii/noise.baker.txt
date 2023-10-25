@@ -1,6 +1,5 @@
 
 
-
 [T]
 |
 [metro 50]
@@ -25,6 +24,5 @@
 [noise.baker 0.85                                                ]
 |
 [ui.display {i=1,o=0}]
-
 
             

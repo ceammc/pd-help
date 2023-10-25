@@ -1,0 +1,23 @@
+
+
+[ui.hsl #a]              [ui.dsp~]
+|
+[dbfs->amp]
+|
+[sig~]  [ui.hsl #a]
+|       |
+|       |
+|       [@threshold $1(  [ui.knob @label STRENGTH @show_value 1]
+|       |                |
+|       |                |.
+[dyn.comp_up~ 0 -60 10 100]
+|                     ^|
+[env~]                [ui.hsl 0 32 @active_scale 1 @show_value 1]
+|
+[- 100]
+|
+[F]
+
+#a -60 0 @show_value 1
+
+            

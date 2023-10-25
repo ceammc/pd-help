@@ -1,0 +1,11 @@
+
+
+[L]                        [L]
+|                          |
+| [F]                      |  [S]
+| |                        |. |.
+[data.bimap 0 C 1 D 2 E 3 F 4 G 5 A 6 B]
+|                          ^|
+[ui.dt]                    [ui.dt]
+
+            

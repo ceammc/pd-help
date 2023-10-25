@@ -1,0 +1,42 @@
+
+
+[T]
+|
+[metro 150]
+|
+| [bang(
+| |
+[route.cycle 4 #r]
+
+
+
+[click~ #ca] [click~ #cb] [click~ #cc] [click~ #cd]
+
+[flt.resonlp~ 400 #a]
+
+    [flt.resonlp~ 600 #b]
+
+        [flt.resonlp~ 800 #c]
+
+            [flt.resonlp~ 1200 #d]
+
+[pan.spread~ 4 #p]
+*|*
+[ui.hgain2~]           [ui.dsp~]
+*|*
+[dac~]
+
+[X a->p:0]
+[X b->p:1]
+[X c->p:2]
+[X d->p:3]
+[X r:0->ca]
+[X r:1->cb]
+[X r:2->cc]
+[X r:3->cd]
+[X ca->a]
+[X cb->b]
+[X cc->c]
+[X cd->d]
+
+            

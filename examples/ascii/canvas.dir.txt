@@ -1,9 +1,17 @@
 
 
-[B]                         [B]
-|                           |
-[canvas.dir]                [canvas.dir.sp]
-|                           |
-[ui.dt]                     [ui.dt]
+[B]
+|
+[canvas.dir #a {i=1,o=2}]
+|
+[ui.dt @auto_size 0 @size 400 45]
+
+
+
+        [F #b]
+
+[canvas.dir.abs0] [canvas.dir.abs1]
+
+[X a:1->b]
 
             

@@ -1,0 +1,26 @@
+
+
+[ui.hsl #h]
+
+         [ui.hsl #s]
+
+ [bang(              [ui.hsl #l]
+ |
+[hsl->rgb @sync @float @pack #z]
+|  |
+|  [ui.dt]
+|
+|
+[msg @background_color]
+|
+[ui.t @size 40 40 @nosave 1]
+
+[X h->z]
+[X s->z:1]
+[X l->z:2]
+
+#h 0 360 @label HUE  @label_inner 1 @show_value 1 @label_color 0.1 0.25 1
+#s @label SAT        @label_inner 1 @show_value 1 @label_color 0.1 0.25 1
+#l @label LIGHT      @label_inner 1 @show_value 1 @label_color 0.1 0.25 1
+
+            

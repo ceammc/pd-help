@@ -1,0 +1,33 @@
+
+
+[B]         [msg.onload symbol %CEAMMC%/guitar1.wav] [array arw 100]
+|           |
+[openpanel] [expand_env]
+|           |
+[load $1 to  arw @resize @resample(
+|
+[snd.file]            [T]
+                      |
+[phasor~ 0.22]        [metro.random 1000 1500]
+|                     |
+[expr~ $v1*120000]    [t b b b  #b]
+|                     |          ^|
+| [r~ arw]            [random.f] [random.i 400 1000]
+| |                   |          |.
+| |                   [pack f f #a]
+| |
+| |                   [vline~ #x] [random.i 120000 #c]
+| |                   |
+| |  [redraw(         [*~ #y]
+| |. |                |..
+[array.rw~ arw          ]
+| |
+| [s~ arw]
+|
+[ui.hgain~]
+|\
+[dac~]                    [ui.dsp~]
+
+[X a->x] [X b:2->c] [X c->y:1]
+
+            

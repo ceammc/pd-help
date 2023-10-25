@@ -1,6 +1,6 @@
 
 
-[T]          [speech.rhvoice~.voices] /*<-- see here*/
+[T]          [speech.rhvoice~.voices]/*<-- see here*/
 |
 [metro 1000]
 |
@@ -8,13 +8,17 @@
 |            |               |
 |            [@pitch $1(     [@rate $1(
 |            |               |
+|            |      [L]      |
+|            |      |        |
 [speech.rhvoice~             ]
 |          ^|
-|          [B]
+|          [print RHVOICE]
 |
 [ui.gain~ @size 120 16]   [ui.dsp~]
 |\
 [dac~]
+
+[speech.rhvoice~.extra]
 
 #a -1 1 @show_value 1
 

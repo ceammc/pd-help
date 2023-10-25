@@ -5,10 +5,10 @@
 |       |            |
 |       [@amp $1 #a( [@freq $1 #f(
 |
-| [@fname faust/ex2.dsp( [osc.square~ 300]
+| [read faust/ex2.dsp(   [osc.square~ 300]
 | |                      |
-| | [update(             |
-| | |                    |.
+| |                      |
+| |                      |.
 [lang.faust~ faust/ex0.dsp #z]
 |
 [ui.hgain~]       [ui.dsp~]

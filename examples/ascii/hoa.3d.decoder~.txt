@@ -1,0 +1,15 @@
+
+
+[hoa/hoa.soundgrain]               [lfo.saw~ 0.15]
+|                                  |
+[ui.gain~ @size 120 14]            [phase->rad~]
+|                              .___/ |
+[hoa.3d.encoder~ 3 {w=36,i=3,o=16}]  [ui.n~]
+*|*
+[hoa.3d.decoder~ 3 binaural {w=36,i=16,o=2}]
+*|*
+[xdac~ 1:2 {w=36,i=2}]
+
+[ui.dsp~]
+
+            

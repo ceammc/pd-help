@@ -1,6 +1,5 @@
 
 
-
 [blackman(  [blackman-harris(    [flattop, bang(
 |           |                    |
 | [hamming( | [hann(  [nuttall(  | [rect, bang(
@@ -15,10 +14,5 @@
 
 
 [array array-window size=512 w=100 h=100 yr=0..1]
-
-
-
-
-
 
             

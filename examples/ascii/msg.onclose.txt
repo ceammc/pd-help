@@ -1,0 +1,7 @@
+
+
+[msg.onclose MESSAGE]
+|
+[print onclose]
+
+            

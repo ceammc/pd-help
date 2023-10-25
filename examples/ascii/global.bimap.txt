@@ -1,0 +1,15 @@
+
+
+[loadmsg 1 2 3 4 5 6]
+|
+[L]
+|
+[msg set] [@size?(
+|         |
+[global.bimap GBM]
+|
+[ui.dt]
+
+[global.bimap.sp] /*open subpatch*/
+
+            

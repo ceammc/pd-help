@@ -2,6 +2,8 @@
 
 [10( [15( [2(         [ui.dsp~]
 |    |    |
+|    |    | [@div 2(
+|    |    | |
 [seq.nbangs @t 110]
 |            ^|
 |            [route done i]
@@ -13,5 +15,7 @@
 [ui.hgain~]
 |\
 [dac~]
+
+[seq.nbangs.accel]
 
             

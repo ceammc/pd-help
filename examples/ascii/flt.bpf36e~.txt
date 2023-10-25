@@ -1,0 +1,43 @@
+
+
+[bang #a(/*plot response*/
+|
+[click~ #d]
+
+
+
+[flt.bpf36e~ #e]     [flt.bpf12~ #f]
+|
+[plot.response~ #g]  [plot.response~ #h]
+
+
+[ui.plot~ #z]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[ui.dsp~]
+[X a->g:1]
+[X a->h:1]
+[X d->f] [X d->e]
+[X f->h]
+[X g->z] [X h->z:1] [X h:2->z:2]
+#b $1
+#c $1
+#g @sr 1
+#h @sr 1
+#z @xlabels 1 @ylabels 1 @ymin 0 @ymax 1 @ymin_ticks 0 @ymaj_ticks 0 @n 2 @size 400 200
+#e 5000
+#f 5000
+
+            

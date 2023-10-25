@@ -1,0 +1,11 @@
+
+
+[S digits=5] [T]
+|            |
+|            [@sym $1(
+|            |
+[conv.char2morse]
+|
+[ui.dt]
+
+            

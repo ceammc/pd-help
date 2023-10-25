@@ -1,6 +1,6 @@
 
 
-/*default OSC server: osc.udp://:9000*/
+/*default receive OSC server: osc.udp://:9000*/
 
 [tgl]
 |

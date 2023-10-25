@@ -1,0 +1,15 @@
+
+
+[T]        [L]              [L]
+|          |.               |..
+[metro.wchoice 100 20% 200 80%]
+|
+[click~]
+|
+[flt.resonbp~ 1000 40] [ui.dsp~]
+|
+[ui.hgain~]
+|\
+[dac~]
+
+            

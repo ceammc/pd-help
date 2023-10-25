@@ -2,16 +2,20 @@
 
 [1 0 1 1 0 1 0 1(
 |
-[ui.radio @mode 1]
+[ui.radio*]
 |
 [msg @pattern]
 |
-|  [T]
-|  |
+|  [T]  [F]        [1 0 1(
+|  |    |.         |..
 [metro.seq 100 1 0 0 1]
 |
 [click~]
 |
+[flt.resonbp~ 440 80]  [ui.dsp~]
+|
+[ui.hgain~]
+|\
 [dac~]
 
             

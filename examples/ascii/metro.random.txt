@@ -1,6 +1,8 @@
 
 
 [T]  [ui.rsl @min 50 @max 1000]
+|    |
+|    |
 |    |.
 [metro.random 100 140]
 |

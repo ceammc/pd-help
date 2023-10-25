@@ -1,0 +1,19 @@
+
+
+[noise~ #w]     [ui.dsp~]
+|
+[flt.bpf72e~ 300 1 #x]
+
+                [flt.bpf72e~ 320 1.5 #z]
+
+        [flt.bpf72e~ 280 0.25 #y]
+
+[pan.spread~ 3 #s {w=22}]
+*|*
+[ui.hgain2~]
+*|*
+[dac~]
+
+[X w->y] [X w->z] [X x->s] [X y->s:1] [X z->s:2]
+
+            

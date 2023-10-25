@@ -1,0 +1,15 @@
+
+
+[open %CEAMMC%/guitar1.wav, 1(
+|
+[expand_env]
+|
+[readsf~]  [msg.onload load_file ir/ir_church1_wide.wav]
+|          |
+[convolve~ ]    [ui.dsp~]
+|
+[ui.hgain~]
+|\
+[dac~]
+
+            

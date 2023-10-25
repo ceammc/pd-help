@@ -266,7 +266,7 @@ _type:_ control
 
 
 
-**Authors:** Serge Poltavski
+**Authors:** Serge Poltavsky
 
 
 

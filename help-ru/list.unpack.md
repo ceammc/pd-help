@@ -39,7 +39,7 @@ _тип:_ control
 
 * outlet for first atom in list<br>
 _тип:_ control
-* None<br>
+*  <br>
 _тип:_ control
 * outlet for Nth atom in list<br>
 _тип:_ control

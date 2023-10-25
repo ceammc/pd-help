@@ -11,7 +11,7 @@
 
 
 ## информация
-[list.rotate] and [list.&gt; rotates right.
+[list.rotate] and [list.&lt;&lt;] rotate list left. [list.&gt;&gt; rotates right.
 
 
 [![example](../examples/img/list.rotate.jpg)](../examples/pd/list.rotate.pd)

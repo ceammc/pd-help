@@ -21,6 +21,6 @@ _aliases:_ \[global.json\]
 [**global.set**](global.set.html): global named set object 
 
 
-**Version:** 0.9.6
+**Version:** 0.9.7
 
 **License:** GPL3

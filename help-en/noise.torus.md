@@ -36,15 +36,12 @@ _type:_ float<br>
 
 ## methods:
 
-* **set**
+* **cr**
 <br>
   __parameters:__
-  - **SET** set to value<br>
+  - **SEED** cr value<br>
     type: float <br>
     required: True <br>
-
-* **reset**
-reset state<br>
 
 * **om**
 <br>
@@ -53,10 +50,13 @@ reset state<br>
     type: int <br>
     required: True <br>
 
-* **cr**
+* **reset**
+reset state<br>
+
+* **set**
 <br>
   __parameters:__
-  - **SEED** cr value<br>
+  - **SET** set to value<br>
     type: float <br>
     required: True <br>
 

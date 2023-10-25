@@ -63,6 +63,18 @@ _type:_ symbol<br>
 _enum:_ Courier, DejaVu, Helvetica, Monaco, Times<br>
 _default:_ Helvetica<br>
 
+* **@fontweight** 
+Get/set font weight<br>
+_type:_ symbol<br>
+_enum:_ normal, bold<br>
+_default:_ normal<br>
+
+* **@fontslant** 
+Get/set font slant<br>
+_type:_ symbol<br>
+_enum:_ roman, italic<br>
+_default:_ roman<br>
+
 
 
 

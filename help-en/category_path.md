@@ -35,6 +35,6 @@ _aliases:_ \[path.norm\]
 [**path.split**](path.split.html): file path split 
 
 
-**Version:** 0.9.6
+**Version:** 0.9.7
 
 **License:** GPL3

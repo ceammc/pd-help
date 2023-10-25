@@ -20,17 +20,17 @@
 
 ## methods:
 
-* **keywords**
-search in keywords<br>
-
 * **k**
 alias to keywords method<br>
 
-* **objects**
-search in objects names<br>
+* **keywords**
+search in keywords<br>
 
 * **o**
 alias to objects method<br>
+
+* **objects**
+search in objects names<br>
 
 
 

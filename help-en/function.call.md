@@ -28,6 +28,12 @@ _type:_ symbol<br>
 
 
 
+## properties:
+
+* **@name** 
+Get/set function name<br>
+_type:_ symbol<br>
+
 
 
 ## inlets:

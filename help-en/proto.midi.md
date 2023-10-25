@@ -20,32 +20,13 @@
 
 ## methods:
 
-* **note**
-alias to [noteon(<br>
+* **activesense**
+send Active Sense realtime message (0xFE)<br>
 
-* **noteon**
-send Note On message<br>
+* **aftertouch**
+send After Touch (Mono) message<br>
   __parameters:__
   - **CH** midi channel<br>
-    type: int <br>
-    required: True <br>
-
-  - **NOTE** midi note<br>
-    type: int <br>
-    required: True <br>
-
-  - **VEL** velocity<br>
-    type: int <br>
-    required: True <br>
-
-* **noteoff**
-send Note Off message<br>
-  __parameters:__
-  - **CH** midi channel<br>
-    type: int <br>
-    required: True <br>
-
-  - **NOTE** midi note<br>
     type: int <br>
     required: True <br>
 
@@ -68,25 +49,65 @@ send Control Change message<br>
     type: int <br>
     required: True <br>
 
-* **program**
-send Program Change message<br>
+* **clock**
+send Timing Clock realtime message (0xF8)<br>
+
+* **continue**
+send Continue realtime message (0xFB)<br>
+
+* **note**
+alias to [noteon(<br>
+
+* **noteoff**
+send Note Off message<br>
   __parameters:__
   - **CH** midi channel<br>
     type: int <br>
     required: True <br>
 
-  - **N** program number<br>
-    type: int <br>
-    required: True <br>
-
-* **aftertouch**
-send After Touch (Mono) message<br>
-  __parameters:__
-  - **CH** midi channel<br>
+  - **NOTE** midi note<br>
     type: int <br>
     required: True <br>
 
   - **VEL** velocity<br>
+    type: int <br>
+    required: True <br>
+
+* **noteon**
+send Note On message<br>
+  __parameters:__
+  - **CH** midi channel<br>
+    type: int <br>
+    required: True <br>
+
+  - **NOTE** midi note<br>
+    type: int <br>
+    required: True <br>
+
+  - **VEL** velocity<br>
+    type: int <br>
+    required: True <br>
+
+* **notes_off**
+send All Notes Off message<br>
+  __parameters:__
+  - **[CH]** midi channel. if missing or -1: send to all channels<br>
+    type: int <br>
+
+* **panic**
+send All Notes Off message<br>
+  __parameters:__
+  - **[CH]** midi channel. if missing or -1: send to all channels<br>
+    type: int <br>
+
+* **pitchwheel**
+send Pitch Wheel message<br>
+  __parameters:__
+  - **CH** midi channel<br>
+    type: int <br>
+    required: True <br>
+
+  - **VAL** value<br>
     type: int <br>
     required: True <br>
 
@@ -105,33 +126,22 @@ send After Touch (Poly) message<br>
     type: int <br>
     required: True <br>
 
-* **pitchwheel**
-send Pitch Wheel message<br>
+* **program**
+send Program Change message<br>
   __parameters:__
   - **CH** midi channel<br>
     type: int <br>
     required: True <br>
 
-  - **VAL** value<br>
+  - **N** program number<br>
     type: int <br>
     required: True <br>
 
-* **sysex**
-send SysEx message (0xF0)<br>
+* **raw**
+send raw midi bytes<br>
   __parameters:__
-  - **BYTES** sysex message body<br>
+  - **DATA** raw midi data: integers in [0-127] range or hex values: Ox3F etc.<br>
     type: list <br>
-    required: True <br>
-
-* **timecode**
-send midi timecode as series of MTC quarter frame messages (0xF1)<br>
-  __parameters:__
-  - **TIME** time value. Various formats can be used: 100sec, 1h, 20.5min or 01:12:34.11.<br>
-    type: atom <br>
-    required: True <br>
-
-  - **FPS** framerate<br>
-    type: float <br>
     required: True <br>
 
 * **songpos**
@@ -151,14 +161,11 @@ send Song Select message (0xF3)<br>
     type: int <br>
     required: True <br>
 
-* **tunerequest**
-send Tune Request message (0xF6)<br>
-
-* **clock**
-send Timing Clock realtime message (0xF8)<br>
-
-* **tick**
-send Timing Tick realtime message (0xF9)<br>
+* **sound_off**
+send All Sound Off message<br>
+  __parameters:__
+  - **[CH]** midi channel. if missing or -1: send to all channels<br>
+    type: int <br>
 
 * **start**
 send Start realtime message (0xFA)<br>
@@ -166,14 +173,32 @@ send Start realtime message (0xFA)<br>
 * **stop**
 send Stop realtime message (0xFC)<br>
 
-* **continue**
-send Continue realtime message (0xFB)<br>
-
-* **activesense**
-send Active Sense realtime message (0xFE)<br>
+* **sysex**
+send SysEx message (0xF0)<br>
+  __parameters:__
+  - **BYTES** sysex message body<br>
+    type: list <br>
+    required: True <br>
 
 * **sysreset**
 send System Reset realtime message (0xFF)<br>
+
+* **tick**
+send Timing Tick realtime message (0xF9)<br>
+
+* **timecode**
+send midi timecode as series of MTC quarter frame messages (0xF1)<br>
+  __parameters:__
+  - **TIME** time value. Various formats can be used: 100sec, 1h, 20.5min or 01:12:34.11.<br>
+    type: atom <br>
+    required: True <br>
+
+  - **FPS** framerate<br>
+    type: float <br>
+    required: True <br>
+
+* **tunerequest**
+send Tune Request message (0xF6)<br>
 
 
 
@@ -189,7 +214,9 @@ _type:_ control
 
 ## outlets:
 
-* float: raw midi output or parsed messages with selector (output format same as for corresponding methods)<br>
+* float: raw midi bytes<br>
+_type:_ control
+* parsed messages with selector (output format same as for corresponding methods)<br>
 _type:_ control
 
 

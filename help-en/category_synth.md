@@ -46,6 +46,8 @@
 
 [**synth.marimba\~**](synth.marimba~.html): simple marimba physical model implementing a single tone bar connected to tube 
 
+[**synth.metro\~**](synth.metro~.html): ready to use metronome synth 
+
 [**synth.piano\~**](synth.piano~.html): waveguide commuted piano 
 
 [**synth.rhodey\~**](synth.rhodey~.html): STK Fender Rhodes electric piano FM synthesis instrument 
@@ -75,6 +77,6 @@
 [**synth.wurley\~**](synth.wurley~.html): Wurlitzer electric piano FM synthesis instrument 
 
 
-**Version:** 0.9.6
+**Version:** 0.9.7
 
 **License:** GPL3

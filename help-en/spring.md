@@ -56,26 +56,22 @@ _default:_ 0<br>
 
 * **@mouse_down** 
 Get/set internal state<br>
-_type:_ int<br>
-_range:_ 0..1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 * **@mouse_up** 
 Get/set internal state<br>
-_type:_ int<br>
-_range:_ 0..1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 * **@mouse_move** 
 Get/set internal state<br>
-_type:_ int<br>
-_range:_ 0..1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 * **@mouse_drag** 
 Get/set internal state<br>
-_type:_ int<br>
-_range:_ 0..1<br>
+_type:_ bool<br>
 _default:_ 0<br>
 
 

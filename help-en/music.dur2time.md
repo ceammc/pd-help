@@ -28,8 +28,9 @@ duration can be specified - by denominator: 1 (whole), 2_. (dotted half), 8 (eig
 
 * **@bpm** 
 Get/set tempo<br>
-_type:_ list<br>
-_default:_ 60 0.25<br>
+_type:_ symbol<br>
+_units:_ bpm<br>
+_default:_ 60|4bpm<br>
 
 * **@seq** 
 Get/set sequential durations<br>

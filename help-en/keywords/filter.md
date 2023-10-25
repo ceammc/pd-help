@@ -8,6 +8,8 @@
 * [flt.biquad~](../flt.biquad~.html)
 * [flt.bpf12~](../flt.bpf12~.html)
 * [flt.bpf24~](../flt.bpf24~.html)
+* [flt.bpf36e~](../flt.bpf36e~.html)
+* [flt.bpf72e~](../flt.bpf72e~.html)
 * [flt.c_apf](../flt.c_apf.html)
 * [flt.c_bpf~](../flt.c_bpf~.html)
 * [flt.c_highshelf~](../flt.c_highshelf~.html)
@@ -41,6 +43,7 @@
 * [flt.resonbp~](../flt.resonbp~.html)
 * [flt.resonhp~](../flt.resonhp~.html)
 * [flt.resonlp~](../flt.resonlp~.html)
+* [flt.speaker~](../flt.speaker~.html)
 * [list.pass](../list.pass.html)
 * [ui.filter](../ui.filter.html)
 * [ui.filter~](../ui.filter~.html)
@@ -52,4 +55,4 @@
 
 **License:** GPL3
 
-**Authors:** Albert Graef, Alex Nadzharov, André Sier, Eliott Paris, Hans-Christoph Steiner, Julian Parker, Katja Vetter, Mayank Sanganeria, Mikhail Malt, Oliver Larkin, Olli Parviainen, Paul Bourke, Pierre Cochard, Pierre Guillot, Richard Dudas, Romain Michon, Serge Poltavsky, Serge Potlavsky, Thomas Le Meur, Till Bovermann, Viacheslav Lotsmanov, Yann Orlarey, naivesound, thedrgreenthumb
+**Authors:** Albert Graef, Alex Nadzharov, André Sier, Eliott Paris, Hans-Christoph Steiner, Julian Parker, Katja Vetter, Mayank Sanganeria, Mikhail Malt, Oliver Larkin, Olli Parviainen, Paul Bourke, Pierre Cochard, Pierre Guillot, Richard Dudas, Romain Michon, Serge Poltavski, Serge Poltavsky, Thomas Le Meur, Till Bovermann, Viacheslav Lotsmanov, Yann Orlarey, naivesound, thedrgreenthumb

@@ -27,6 +27,6 @@
 [**lfo.tri\~**](lfo.tri~.html): Zero-mean unit-amplitude low frequency triangle wave 
 
 
-**Version:** 0.9.6
+**Version:** 0.9.7
 
 **License:** GPL3

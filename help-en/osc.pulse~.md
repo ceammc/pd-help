@@ -44,6 +44,15 @@ _type:_ float<br>
 _range:_ 0..1<br>
 _default:_ 0.5<br>
 
+* **@osc** (initonly)
+Get/set OSC server name to listen<br>
+_type:_ symbol<br>
+
+* **@id** (initonly)
+Get/set OSC address id. If specified, bind all properties to /ID/osc_pulse/PROP_NAME
+osc address, if empty bind to /osc_pulse/PROP_NAME.<br>
+_type:_ symbol<br>
+
 
 
 ## inlets:

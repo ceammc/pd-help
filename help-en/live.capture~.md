@@ -23,11 +23,17 @@
 * **record**
 start record<br>
 
+* **reset**
+reset recorded data<br>
+
 * **stop**
 stop record<br>
 
-* **reset**
-reset recorded data<br>
+* **div**
+set rec division<br>
+  __parameters:__
+  - **[N]** value<br>
+    type: int <br>
 
 
 
@@ -39,17 +45,47 @@ Get/set start/stop recording<br>
 _type:_ bool<br>
 _default:_ 0<br>
 
-* **@fade** 
-Get/set intput crossfade time<br>
+* **@gain** 
+Get/set playing gain<br>
+_type:_ float<br>
+_units:_ db<br>
+_range:_ -60..12<br>
+_default:_ 0<br>
+
+* **@attack** 
+Get/set rec envelope attack time<br>
 _type:_ float<br>
 _units:_ ms<br>
-_range:_ 0..200<br>
-_default:_ 70<br>
+_range:_ 0..100000<br>
+_default:_ 50<br>
+
+* **@sustain** 
+Get/set rec envelope sustain level - percent from trigger signal<br>
+_type:_ float<br>
+_units:_ %<br>
+_range:_ 0..100<br>
+_default:_ 100<br>
+
+* **@release** 
+Get/set rec envelope release time<br>
+_type:_ float<br>
+_units:_ ms<br>
+_range:_ 0..100000<br>
+_default:_ 50<br>
 
 * **@active** 
 Get/set on/off dsp processing<br>
 _type:_ bool<br>
 _default:_ 1<br>
+
+* **@osc** (initonly)
+Get/set OSC server name to listen<br>
+_type:_ symbol<br>
+
+* **@id** (initonly)
+Get/set OSC address id. If specified, bind all properties to /ID/live_capture/PROP_NAME
+osc address, if empty bind to /live_capture/PROP_NAME.<br>
+_type:_ symbol<br>
 
 
 

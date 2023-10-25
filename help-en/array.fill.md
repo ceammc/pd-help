@@ -3,7 +3,7 @@
 
 # array.fill
 
-###### fill array with single value or pattern
+###### fill array with single value, pattern or function
 
 *available since version:* 0.3
 
@@ -42,20 +42,6 @@ fill all array with specified value or pattern<br>
   - **[VAL...]** other values..<br>
     type: float <br>
 
-* **sin**
-fill all array with sine wave<br>
-  __parameters:__
-  - **T** wave period. Should be &gt;0<br>
-    type: float <br>
-    units: samp <br>
-    required: True <br>
-
-  - **[A=1]** amplitude<br>
-    type: float <br>
-
-  - **[PHASE=0]** phase in 0...1 range<br>
-    type: float <br>
-
 * **gauss**
 fill all array with random value with normal (gauss) distribution<br>
   __parameters:__
@@ -63,15 +49,6 @@ fill all array with random value with normal (gauss) distribution<br>
     type: float <br>
 
   - **[SIGMA=1]** standard deviation<br>
-    type: float <br>
-
-* **uniform**
-fill all array with random value with uniform distribution<br>
-  __parameters:__
-  - **[A=0]** min value<br>
-    type: float <br>
-
-  - **[B=1]** max value<br>
     type: float <br>
 
 * **pulse**
@@ -88,6 +65,34 @@ fill all array with pulse wave<br>
   - **[D=0.5]** duty cycle<br>
     type: float <br>
 
+* **saw**
+fill all array with saw wave<br>
+  __parameters:__
+  - **T** wave period<br>
+    type: float <br>
+    units: samp <br>
+    required: True <br>
+
+  - **[A=1]** wave amplitude<br>
+    type: float <br>
+
+  - **[PHASE=0]** wave phase<br>
+    type: float <br>
+
+* **sin**
+fill all array with sine wave<br>
+  __parameters:__
+  - **T** wave period. Should be &gt;0<br>
+    type: float <br>
+    units: samp <br>
+    required: True <br>
+
+  - **[A=1]** amplitude<br>
+    type: float <br>
+
+  - **[PHASE=0]** phase in 0...1 range<br>
+    type: float <br>
+
 * **tri**
 fill all array with triangle wave<br>
   __parameters:__
@@ -99,15 +104,13 @@ fill all array with triangle wave<br>
   - **[AMP=1]** wave amplitude<br>
     type: float <br>
 
-* **saw**
-fill all array with saw wave<br>
+* **uniform**
+fill all array with random value with uniform distribution<br>
   __parameters:__
-  - **T** wave period<br>
+  - **[A=0]** min value<br>
     type: float <br>
-    units: samp <br>
-    required: True <br>
 
-  - **[A=1]** wave amplitude<br>
+  - **[B=1]** max value<br>
     type: float <br>
 
 

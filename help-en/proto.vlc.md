@@ -28,6 +28,23 @@ _type:_ symbol<br>
 
 ## methods:
 
+* **add**
+add URI to playlist<br>
+  __parameters:__
+  - **URI** resource URI (file:// or http:// or camera://)<br>
+    type: symbol <br>
+    required: True <br>
+
+* **browse**
+browse resource<br>
+  __parameters:__
+  - **URI** resource URI (file:///path)<br>
+    type: symbol <br>
+    required: True <br>
+
+* **clear**
+clear playlist<br>
+
 * **delete**
 delete item from playlist<br>
   __parameters:__
@@ -37,21 +54,23 @@ delete item from playlist<br>
 * **fs**
 toggle VLC fullscreen mode<br>
 
-* **clear**
-clear playlist<br>
-
-* **volume**
-set playing volume<br>
-  __parameters:__
-  - **VAL** absolute value in percent or relative change +VOL or -VOL<br>
-    type: atom <br>
-    required: True <br>
-
 * **loop**
 toggle loop<br>
 
 * **next**
 go to the next entry on the playlist<br>
+
+* **pause**
+pause/resume playback<br>
+  __parameters:__
+  - **[VAL]** 1 or omitted: pause, 0: resume<br>
+    type: int <br>
+
+* **play**
+start playback<br>
+
+* **playlist**
+request playlist. Output as dict to second outlet<br>
 
 * **prev**
 go to the previous entry on the playlist<br>
@@ -63,36 +82,17 @@ seek playback position<br>
     type: atom <br>
     required: True <br>
 
-* **play**
-start playback<br>
+* **status**
+request playback status. Output as dict to second outlet<br>
 
 * **stop**
 stop playback<br>
 
-* **pause**
-pause/resume playback<br>
+* **volume**
+set playing volume<br>
   __parameters:__
-  - **[VAL]** 1 or omitted: pause, 0: resume<br>
-    type: int <br>
-
-* **add**
-add URI to playlist<br>
-  __parameters:__
-  - **URI** resource URI (file:// or http:// or camera://)<br>
-    type: symbol <br>
-    required: True <br>
-
-* **status**
-request playback status. Output as dict to second outlet<br>
-
-* **playlist**
-request playlist. Output as dict to second outlet<br>
-
-* **browse**
-browse resource<br>
-  __parameters:__
-  - **URI** resource URI (file:///path)<br>
-    type: symbol <br>
+  - **VAL** absolute value in percent or relative change +VOL or -VOL<br>
+    type: atom <br>
     required: True <br>
 
 

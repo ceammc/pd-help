@@ -56,11 +56,15 @@ _type:_ float<br>
 _range:_ 0.25..4<br>
 _default:_ 1<br>
 
+* **@env** 
+Get/set stutter envelope<br>
+_type:_ atom<br>
+
 
 
 ## inlets:
 
-* left channel<br>
+* input signal<br>
 _type:_ audio
 * turn on effect for 3 periods<br>
 _type:_ control

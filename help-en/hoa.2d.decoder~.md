@@ -30,7 +30,7 @@ _type:_ int<br>
 decoding mode<br>
 _type:_ symbol<br>
 
-* **N**
+* **NCH**
 number of loud speakers (minimum 2*ORDER+1 for ambisonic mode)<br>
 _type:_ int<br>
 
@@ -99,21 +99,13 @@ _units:_ rad<br>
 _range:_ -1..1<br>
 _default:_ 1 0 -1 0<br>
 
-* **@pw_z** (readonly)
-Get list of plain wave z-coordinates (heights). -1 is the bottom of the soundfield,
-0 is the center of the soundfield and 1 is the top of the soundfield.<br>
-_type:_ list<br>
-_units:_ rad<br>
-_range:_ -1..1<br>
-_default:_ 0 0 0 0<br>
-
 * **@nharm** (readonly)
 Get number of circular harmonics.<br>
 _type:_ int<br>
 _min value:_ 1<br>
 _default:_ 3<br>
 
-* **@nwaves** (initonly)
+* **@nch** (initonly)
 Get/set number of plain waves.<br>
 _type:_ int<br>
 _min value:_ 1<br>

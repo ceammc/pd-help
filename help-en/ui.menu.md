@@ -27,6 +27,33 @@ appends new menu item<br>
     type: list <br>
     required: True <br>
 
+* **erase**
+clears all items menu<br>
+
+* **clear**
+clears specified preset<br>
+  __parameters:__
+  - **IDX** preset index<br>
+    type: int <br>
+    required: True <br>
+
+* **delete**
+removes item from menu<br>
+  __parameters:__
+  - **IDX** removed item index<br>
+    type: int <br>
+    required: True <br>
+
+* **file_glob**
+fill menu with filenames.<br>
+  __parameters:__
+  - **PATTERN** filename pattern, like * (all files), *.wav (all wav files) etc.<br>
+    type: symbol <br>
+    required: True <br>
+
+  - **[DIR]** search directory. If omitted - search in patch directory. Performs tilde (~) expansion to home directory. To elide long filenames see @max_length property.<br>
+    type: symbol <br>
+
 * **insert**
 inserts new menu item before specified position<br>
   __parameters:__
@@ -38,13 +65,31 @@ inserts new menu item before specified position<br>
     type: atom <br>
     required: True <br>
 
-* **clear**
-clears all items menu<br>
+* **interp**
+for this object acts as *load*, no preset interpolation performed<br>
 
-* **delete**
-removes item from menu<br>
+* **load**
+loads specified preset<br>
   __parameters:__
-  - **IDX** removed item index<br>
+  - **IDX** preset index<br>
+    type: int <br>
+    required: True <br>
+
+* **pos**
+set UI element position<br>
+  __parameters:__
+  - **X** top left x-coord<br>
+    type: float <br>
+    required: True <br>
+
+  - **Y** top right y-coord<br>
+    type: float <br>
+    required: True <br>
+
+* **set**
+silently sets menu state.<br>
+  __parameters:__
+  - **IDX** item index<br>
     type: int <br>
     required: True <br>
 
@@ -59,49 +104,11 @@ renames menu item<br>
     type: list <br>
     required: True <br>
 
-* **set**
-silently sets menu state.<br>
-  __parameters:__
-  - **IDX** item index<br>
-    type: int <br>
-    required: True <br>
-
-* **file_glob**
-fill menu with filenames.<br>
-  __parameters:__
-  - **PATTERN** filename pattern, like * (all files), *.wav (all wav files) etc.<br>
-    type: symbol <br>
-    required: True <br>
-
-  - **[DIR]** search directory. If omitted - search in patch directory. Performs tilde (~) expansion to home directory. To elide long filenames see @max_length property.<br>
-    type: symbol <br>
-
-* **load**
-loads specified preset<br>
-  __parameters:__
-  - **IDX** preset index<br>
-    type: int <br>
-    required: True <br>
-
 * **store**
 stores specified preset<br>
   __parameters:__
   - **IDX** preset index<br>
     type: int <br>
-    required: True <br>
-
-* **interp**
-for this object acts as *load*, no interpolation performed<br>
-
-* **pos**
-set UI element position<br>
-  __parameters:__
-  - **X** top left x-coord<br>
-    type: float <br>
-    required: True <br>
-
-  - **Y** top right y-coord<br>
-    type: float <br>
     required: True <br>
 
 

@@ -35,6 +35,9 @@ add values to the set<br>
     type: list <br>
     required: True <br>
 
+* **choose**
+choose random element and output it<br>
+
 * **clear**
 removes all set elements<br>
 
@@ -52,13 +55,15 @@ sets new set content without output<br>
     type: list <br>
     required: True <br>
 
-* **choose**
-choose random element and output it<br>
-
 
 
 
 ## properties:
+
+* **@id** (initonly)
+Get/set global variable id<br>
+_type:_ symbol<br>
+_default:_ default<br>
 
 * **@empty** (readonly)
 Get 1 if list is empty, otherwise 0<br>

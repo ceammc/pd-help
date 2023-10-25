@@ -20,13 +20,19 @@
 
 ## arguments:
 
-* **VALUES**
+* **V**
 sequence elements<br>
 _type:_ list<br>
 
 
 
 ## methods:
+
+* **reset**
+reset counters and stop<br>
+
+* **rewind**
+reset all counters without stopping<br>
 
 * **start**
 start/stop<br>
@@ -36,12 +42,6 @@ start/stop<br>
 
 * **stop**
 stop output<br>
-
-* **reset**
-reset counters and stop<br>
-
-* **rewind**
-reset all counters without stopping<br>
 
 * **tick**
 manually output current element and move to next<br>
@@ -87,12 +87,22 @@ _type:_ alias<br>
 * **@i** (readonly)
 Get current sequence iteration<br>
 _type:_ int<br>
-_min value:_ 0<br>
 _default:_ 0<br>
 
 * **@ri** (readonly)
 Get current repeat iteration<br>
 _type:_ int<br>
+_default:_ 0<br>
+
+* **@div** 
+Get/set beat subdivision<br>
+_type:_ int<br>
+_range:_ 1..64<br>
+_default:_ 1<br>
+
+* **@upbeat** 
+Get/set wait specified number of beats before sequence start<br>
+_type:_ float<br>
 _min value:_ 0<br>
 _default:_ 0<br>
 

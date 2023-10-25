@@ -20,11 +20,11 @@
 
 ## arguments:
 
-* **INS**
+* **INPUTS**
 number of matrix inputs (columns)<br>
 _type:_ int<br>
 
-* **OUTS**
+* **OUTPUTS**
 number of matrix outputs (rows)<br>
 _type:_ int<br>
 
@@ -48,14 +48,14 @@ on/off matrix cell. Note argument order: row, cols.<br>
 
 ## properties:
 
-* **@inputs** (readonly)
-Get number of matrix inputs<br>
+* **@inputs** (initonly)
+Get/set number of matrix inputs<br>
 _type:_ int<br>
 _range:_ 2..16<br>
 _default:_ 2<br>
 
-* **@outputs** (readonly)
-Get number of matrix outputs<br>
+* **@outputs** (initonly)
+Get/set number of matrix outputs<br>
 _type:_ int<br>
 _range:_ 2..16<br>
 _default:_ 2<br>

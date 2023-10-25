@@ -28,23 +28,6 @@ _type:_ symbol<br>
 
 ## methods:
 
-* **set**
-sets icon name<br>
-
-* **load**
-loads specified preset<br>
-  __parameters:__
-  - **IDX** preset index<br>
-    type: int <br>
-    required: True <br>
-
-* **store**
-stores specified preset<br>
-  __parameters:__
-  - **IDX** preset index<br>
-    type: int <br>
-    required: True <br>
-
 * **clear**
 clears specified preset<br>
   __parameters:__
@@ -55,6 +38,13 @@ clears specified preset<br>
 * **interp**
 for this object acts as *load*, no interpolation performed<br>
 
+* **load**
+loads specified preset<br>
+  __parameters:__
+  - **IDX** preset index<br>
+    type: int <br>
+    required: True <br>
+
 * **pos**
 set UI element position<br>
   __parameters:__
@@ -64,6 +54,16 @@ set UI element position<br>
 
   - **Y** top right y-coord<br>
     type: float <br>
+    required: True <br>
+
+* **set**
+sets icon name<br>
+
+* **store**
+stores specified preset<br>
+  __parameters:__
+  - **IDX** preset index<br>
+    type: int <br>
     required: True <br>
 
 

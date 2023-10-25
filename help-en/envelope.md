@@ -53,8 +53,27 @@ _type:_ list<br>
 
 ## methods:
 
-* **clear**
-remove all envelope points<br>
+* *****
+multiply all envelope points to specified value<br>
+  __parameters:__
+  - **VALUE** value<br>
+    type: float <br>
+    required: True <br>
+
+* **+**
+add specified value to all envelope points<br>
+  __parameters:__
+  - **VALUE** value<br>
+    type: float <br>
+    required: True <br>
+
+* **&gt;&gt;**
+shift all envelope point by specified time in milliseconds<br>
+  __parameters:__
+  - **SHIFT** value<br>
+    type: float <br>
+    units: ms <br>
+    required: True <br>
 
 * **add_point**
 add envelope point<br>
@@ -75,6 +94,206 @@ add envelope point<br>
     type: symbol <br>
 
   - **[CURVE=1]** exponential curve degree: 0 (linear) &lt;0 (concave, negatively curved) &gt;0 (convex, positively curved)<br>
+    type: float <br>
+
+* **add_seg**
+add segment to the end of envelope. On empty envelope adds start point at 0ms
+and 0 value<br>
+  __parameters:__
+  - **TYPE** segment type<br>
+    type: symbol <br>
+    required: True <br>
+
+  - **LENGTH** segment length<br>
+    type: float <br>
+    units: ms <br>
+    required: True <br>
+
+  - **VALUE** end segment value<br>
+    type: float <br>
+    required: True <br>
+
+  - **[CURVE=0]** curve (for exp and sigmoid type)<br>
+    type: float <br>
+
+* **adsr**
+creates ADSR envelope with one stop point<br>
+  __parameters:__
+  - **ATTACK** attack time<br>
+    type: float <br>
+    units: ms <br>
+    required: True <br>
+
+  - **DECAY** decay time<br>
+    type: float <br>
+    units: ms <br>
+    required: True <br>
+
+  - **SUSTAIN** sustain level<br>
+    type: float <br>
+    units: % <br>
+    required: True <br>
+
+  - **RELEASE** release time<br>
+    type: float <br>
+    units: ms <br>
+    required: True <br>
+
+* **ar**
+creates AR envelope without stop points<br>
+  __parameters:__
+  - **ATTACK** attack time<br>
+    type: float <br>
+    units: ms <br>
+    required: True <br>
+
+  - **RELEASE** release time<br>
+    type: float <br>
+    units: ms <br>
+    required: True <br>
+
+* **asr**
+creates ASR envelope with one stop point<br>
+  __parameters:__
+  - **ATTACK** attack time<br>
+    type: float <br>
+    units: ms <br>
+    required: True <br>
+
+  - **RELEASE** release time<br>
+    type: float <br>
+    units: ms <br>
+    required: True <br>
+
+* **clear**
+remove all envelope points<br>
+
+* **eadsr**
+creates exponential ADSR envelope with one stop point<br>
+  __parameters:__
+  - **ATTACK** attack time<br>
+    type: float <br>
+    units: ms <br>
+    required: True <br>
+
+  - **ATTACK_CURVE** attack segment curve<br>
+    type: float <br>
+    required: True <br>
+
+  - **DECAY** decay time<br>
+    type: float <br>
+    units: ms <br>
+    required: True <br>
+
+  - **DECAY_CURVE** decay segment curve<br>
+    type: float <br>
+    required: True <br>
+
+  - **SUSTAIN** sustain level<br>
+    type: float <br>
+    units: % <br>
+    required: True <br>
+
+  - **RELEASE** release time<br>
+    type: float <br>
+    units: ms <br>
+    required: True <br>
+
+  - **RELEASE_CURVE** release segment curve<br>
+    type: float <br>
+    required: True <br>
+
+* **ear**
+creates exponential AR envelope without stop points<br>
+  __parameters:__
+  - **ATTACK** attack time<br>
+    type: float <br>
+    units: ms <br>
+    required: True <br>
+
+  - **ATTACK_CURVE** attack segment curve<br>
+    type: float <br>
+    required: True <br>
+
+  - **RELEASE** release time<br>
+    type: float <br>
+    units: ms <br>
+    required: True <br>
+
+  - **RELEASE_CURVE** release segment curve<br>
+    type: float <br>
+    required: True <br>
+
+* **easr**
+creates exponential AR envelope with one stop point<br>
+  __parameters:__
+  - **ATTACK** attack time<br>
+    type: float <br>
+    units: ms <br>
+    required: True <br>
+
+  - **ATTACK_CURVE** attack segment curve<br>
+    type: float <br>
+    required: True <br>
+
+  - **RELEASE** release time<br>
+    type: float <br>
+    units: ms <br>
+    required: True <br>
+
+  - **RELEASE_CURVE** release segment curve<br>
+    type: float <br>
+    required: True <br>
+
+* **exp**
+creates exponential-segmented envelope with arbitrary number of segments<br>
+  __parameters:__
+  - **VAL0** begin value<br>
+    type: float <br>
+    required: True <br>
+
+  - **LEN0** line length<br>
+    type: float <br>
+    units: ms <br>
+    required: True <br>
+
+  - **CURVE0** segment curve<br>
+    type: float <br>
+    required: True <br>
+
+  - **VAL1** value<br>
+    type: float <br>
+    required: True <br>
+
+  - **[LEN1]** segment length<br>
+    type: float <br>
+
+  - **[CURVE1]** segment curve<br>
+    type: float <br>
+
+  - **[VAL2]** value<br>
+    type: float <br>
+
+* **line**
+creates line-segmented envelope with arbitrary number of segments<br>
+  __parameters:__
+  - **VAL0** begin value<br>
+    type: float <br>
+    required: True <br>
+
+  - **LEN0** line length<br>
+    type: float <br>
+    units: ms <br>
+    required: True <br>
+
+  - **VAL1** value<br>
+    type: float <br>
+    required: True <br>
+
+  - **[LEN1]** segment length<br>
+    type: float <br>
+
+  - **[VAL2]** value<br>
     type: float <br>
 
 * **remove_point**
@@ -126,59 +345,6 @@ set point time<br>
     type: int <br>
     required: True <br>
 
-* **set_stop_point**
-set stop-point<br>
-  __parameters:__
-  - **IDX** point index<br>
-    type: int <br>
-    required: True <br>
-
-  - **IS_STOP** stop point<br>
-    type: int <br>
-    required: True <br>
-
-* **+**
-add specified value to all envelope points<br>
-  __parameters:__
-  - **VALUE** value<br>
-    type: float <br>
-    required: True <br>
-
-* *****
-multiply all envelope points to specified value<br>
-  __parameters:__
-  - **VALUE** value<br>
-    type: float <br>
-    required: True <br>
-
-* **&gt;&gt;**
-shift all envelope point by specified time in milliseconds<br>
-  __parameters:__
-  - **SHIFT** value<br>
-    type: float <br>
-    units: ms <br>
-    required: True <br>
-
-* **add_seg**
-add segment to the end of envelope. On empty envelope adds start point at 0ms
-and 0 value<br>
-  __parameters:__
-  - **TYPE** segment type<br>
-    type: symbol <br>
-    required: True <br>
-
-  - **LENGTH** segment length<br>
-    type: float <br>
-    units: ms <br>
-    required: True <br>
-
-  - **VALUE** end segment value<br>
-    type: float <br>
-    required: True <br>
-
-  - **[CURVE=0]** curve (for exp and sigmoid type)<br>
-    type: float <br>
-
 * **set_seg_type**
 set segment type<br>
   __parameters:__
@@ -190,156 +356,19 @@ set segment type<br>
     type: symbol <br>
     required: True <br>
 
-* **adsr**
-creates ADSR envelope with one stop point<br>
+* **set_stop_point**
+set stop-point<br>
   __parameters:__
-  - **ATTACK** attack time<br>
-    type: float <br>
-    units: ms <br>
+  - **IDX** point index<br>
+    type: int <br>
     required: True <br>
 
-  - **DECAY** decay time<br>
-    type: float <br>
-    units: ms <br>
+  - **IS_STOP** stop point<br>
+    type: int <br>
     required: True <br>
 
-  - **SUSTAIN** sustain level<br>
-    type: float <br>
-    units: % <br>
-    required: True <br>
-
-  - **RELEASE** release time<br>
-    type: float <br>
-    units: ms <br>
-    required: True <br>
-
-* **asr**
-creates ASR envelope with one stop point<br>
-  __parameters:__
-  - **ATTACK** attack time<br>
-    type: float <br>
-    units: ms <br>
-    required: True <br>
-
-  - **RELEASE** release time<br>
-    type: float <br>
-    units: ms <br>
-    required: True <br>
-
-* **ar**
-creates AR envelope without stop points<br>
-  __parameters:__
-  - **ATTACK** attack time<br>
-    type: float <br>
-    units: ms <br>
-    required: True <br>
-
-  - **RELEASE** release time<br>
-    type: float <br>
-    units: ms <br>
-    required: True <br>
-
-* **eadsr**
-creates exponential ADSR envelope with one stop point<br>
-  __parameters:__
-  - **ATTACK** attack time<br>
-    type: float <br>
-    units: ms <br>
-    required: True <br>
-
-  - **ATTACK_CURVE** attack segment curve<br>
-    type: float <br>
-    required: True <br>
-
-  - **DECAY** decay time<br>
-    type: float <br>
-    units: ms <br>
-    required: True <br>
-
-  - **DECAY_CURVE** decay segment curve<br>
-    type: float <br>
-    required: True <br>
-
-  - **SUSTAIN** sustain level<br>
-    type: float <br>
-    units: % <br>
-    required: True <br>
-
-  - **RELEASE** release time<br>
-    type: float <br>
-    units: ms <br>
-    required: True <br>
-
-  - **RELEASE_CURVE** release segment curve<br>
-    type: float <br>
-    required: True <br>
-
-* **easr**
-creates exponential AR envelope with one stop point<br>
-  __parameters:__
-  - **ATTACK** attack time<br>
-    type: float <br>
-    units: ms <br>
-    required: True <br>
-
-  - **ATTACK_CURVE** attack segment curve<br>
-    type: float <br>
-    required: True <br>
-
-  - **RELEASE** release time<br>
-    type: float <br>
-    units: ms <br>
-    required: True <br>
-
-  - **RELEASE_CURVE** release segment curve<br>
-    type: float <br>
-    required: True <br>
-
-* **ear**
-creates exponential AR envelope without stop points<br>
-  __parameters:__
-  - **ATTACK** attack time<br>
-    type: float <br>
-    units: ms <br>
-    required: True <br>
-
-  - **ATTACK_CURVE** attack segment curve<br>
-    type: float <br>
-    required: True <br>
-
-  - **RELEASE** release time<br>
-    type: float <br>
-    units: ms <br>
-    required: True <br>
-
-  - **RELEASE_CURVE** release segment curve<br>
-    type: float <br>
-    required: True <br>
-
-* **step**
-creates step-segmented envelope with arbitrary number of segments<br>
-  __parameters:__
-  - **VAL0** begin value<br>
-    type: float <br>
-    required: True <br>
-
-  - **LEN0** step length<br>
-    type: float <br>
-    units: ms <br>
-    required: True <br>
-
-  - **VAL1** value<br>
-    type: float <br>
-    required: True <br>
-
-  - **[LEN1]** segment length<br>
-    type: float <br>
-
-  - **[VAL2]** value<br>
-    type: float <br>
-
-* **line**
-creates line-segmented envelope with arbitrary number of segments<br>
+* **sigmoid**
+creates sigmoid-segmented envelope with arbitrary number of segments<br>
   __parameters:__
   - **VAL0** begin value<br>
     type: float <br>
@@ -350,11 +379,18 @@ creates line-segmented envelope with arbitrary number of segments<br>
     units: ms <br>
     required: True <br>
 
+  - **CURVE0** segment curve<br>
+    type: float <br>
+    required: True <br>
+
   - **VAL1** value<br>
     type: float <br>
     required: True <br>
 
   - **[LEN1]** segment length<br>
+    type: float <br>
+
+  - **[CURVE1]** segment curve<br>
     type: float <br>
 
   - **[VAL2]** value<br>
@@ -382,20 +418,16 @@ creates quadratic sine-segmented envelope with arbitrary number of segments<br>
   - **[VAL2]** value<br>
     type: float <br>
 
-* **exp**
-creates exponential-segmented envelope with arbitrary number of segments<br>
+* **step**
+creates step-segmented envelope with arbitrary number of segments<br>
   __parameters:__
   - **VAL0** begin value<br>
     type: float <br>
     required: True <br>
 
-  - **LEN0** line length<br>
+  - **LEN0** step length<br>
     type: float <br>
     units: ms <br>
-    required: True <br>
-
-  - **CURVE0** segment curve<br>
-    type: float <br>
     required: True <br>
 
   - **VAL1** value<br>
@@ -403,38 +435,6 @@ creates exponential-segmented envelope with arbitrary number of segments<br>
     required: True <br>
 
   - **[LEN1]** segment length<br>
-    type: float <br>
-
-  - **[CURVE1]** segment curve<br>
-    type: float <br>
-
-  - **[VAL2]** value<br>
-    type: float <br>
-
-* **sigmoid**
-creates sigmoid-segmented envelope with arbitrary number of segments<br>
-  __parameters:__
-  - **VAL0** begin value<br>
-    type: float <br>
-    required: True <br>
-
-  - **LEN0** line length<br>
-    type: float <br>
-    units: ms <br>
-    required: True <br>
-
-  - **CURVE0** segment curve<br>
-    type: float <br>
-    required: True <br>
-
-  - **VAL1** value<br>
-    type: float <br>
-    required: True <br>
-
-  - **[LEN1]** segment length<br>
-    type: float <br>
-
-  - **[CURVE1]** segment curve<br>
     type: float <br>
 
   - **[VAL2]** value<br>

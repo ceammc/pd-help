@@ -6,6 +6,7 @@
 ### Objects:
 * [conv.amp2dbfs](../conv.amp2dbfs.html)
 * [conv.amp2dbfs~](../conv.amp2dbfs~.html)
+* [conv.bar2ms](../conv.bar2ms.html)
 * [conv.bits2bang](../conv.bits2bang.html)
 * [conv.bits2int](../conv.bits2int.html)
 * [conv.bits2note](../conv.bits2note.html)
@@ -15,17 +16,22 @@
 * [conv.bpm2sec](../conv.bpm2sec.html)
 * [conv.car2pol](../conv.car2pol.html)
 * [conv.cc2amp](../conv.cc2amp.html)
+* [conv.char2morse](../conv.char2morse.html)
+* [conv.color2rgba](../conv.color2rgba.html)
 * [conv.dbfs2amp](../conv.dbfs2amp.html)
 * [conv.dbfs2amp~](../conv.dbfs2amp~.html)
 * [conv.degree2key](../conv.degree2key.html)
 * [conv.edge2bang](../conv.edge2bang.html)
 * [conv.hex2int](../conv.hex2int.html)
+* [conv.hsl2rgb](../conv.hsl2rgb.html)
 * [conv.int2bits](../conv.int2bits.html)
+* [conv.lab2rgb](../conv.lab2rgb.html)
 * [conv.list2props](../conv.list2props.html)
 * [conv.midi2freq](../conv.midi2freq.html)
 * [conv.ms2bpm](../conv.ms2bpm.html)
 * [conv.ms2samp](../conv.ms2samp.html)
 * [conv.ms2samp~](../conv.ms2samp~.html)
+* [conv.ms2str](../conv.ms2str.html)
 * [conv.note2guido](../conv.note2guido.html)
 * [conv.phase2rad](../conv.phase2rad.html)
 * [conv.phase2rad~](../conv.phase2rad~.html)
@@ -33,21 +39,26 @@
 * [conv.pol2car](../conv.pol2car.html)
 * [conv.rad2phase](../conv.rad2phase.html)
 * [conv.rad2phase~](../conv.rad2phase~.html)
+* [conv.rgb2hex](../conv.rgb2hex.html)
 * [conv.samp2ms](../conv.samp2ms.html)
 * [conv.samp2ms~](../conv.samp2ms~.html)
 * [conv.samp2sec](../conv.samp2sec.html)
 * [conv.sec2bpm](../conv.sec2bpm.html)
 * [conv.sec2samp](../conv.sec2samp.html)
 * [conv.sec2str](../conv.sec2str.html)
+* [conv.semi2ratio](../conv.semi2ratio.html)
 * [conv.sig2float~](../conv.sig2float~.html)
 * [conv.str2sec](../conv.str2sec.html)
 * [flow.list2many](../flow.list2many.html)
 * [music.dur2time](../music.dur2time.html)
 * [music.voice2midi](../music.voice2midi.html)
+* [rhythm.euclid](../rhythm.euclid.html)
+* [rhythm.hexbeat](../rhythm.hexbeat.html)
+* [rhythm.lsystem](../rhythm.lsystem.html)
 
 ---
 **Website:** [https://github.com/uliss/pure-data](https://github.com/uliss/pure-data)
 
 **License:** GPL3
 
-**Authors:** Albert Graef, Alex Nadzharov, André Sier, Eliott Paris, Hans-Christoph Steiner, Julian Parker, Katja Vetter, Mayank Sanganeria, Mikhail Malt, Oliver Larkin, Olli Parviainen, Paul Bourke, Pierre Cochard, Pierre Guillot, Richard Dudas, Romain Michon, Serge Poltavsky, Serge Potlavsky, Thomas Le Meur, Till Bovermann, Viacheslav Lotsmanov, Yann Orlarey, naivesound, thedrgreenthumb
+**Authors:** Albert Graef, Alex Nadzharov, André Sier, Eliott Paris, Hans-Christoph Steiner, Julian Parker, Katja Vetter, Mayank Sanganeria, Mikhail Malt, Oliver Larkin, Olli Parviainen, Paul Bourke, Pierre Cochard, Pierre Guillot, Richard Dudas, Romain Michon, Serge Poltavski, Serge Poltavsky, Thomas Le Meur, Till Bovermann, Viacheslav Lotsmanov, Yann Orlarey, naivesound, thedrgreenthumb

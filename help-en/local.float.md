@@ -28,8 +28,8 @@ _type:_ symbol<br>
 
 ## methods:
 
-* **set**
-sets new value without output<br>
+* *****
+multiply to, no output<br>
 
 * **+**
 add to float, no output<br>
@@ -37,16 +37,21 @@ add to float, no output<br>
 * **-**
 subtract from float, no output<br>
 
-* *****
-multiply to, no output<br>
-
 * **/**
 divide by, no output<br>
+
+* **set**
+sets new value without output<br>
 
 
 
 
 ## properties:
+
+* **@id** (initonly)
+Get/set local variable id<br>
+_type:_ symbol<br>
+_default:_ default<br>
 
 * **@value** (readonly)
 Get current value<br>

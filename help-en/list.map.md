@@ -34,6 +34,11 @@ Get/set mapping dictionary, the syntax is [KEY: VALUES...], for example: [1: &#3
 _type:_ list<br>
 _default:_ []<br>
 
+* **@def** 
+Get/set default value to replace missing keys. If empty (by default), missing keys are
+ignored.<br>
+_type:_ list<br>
+
 
 
 ## inlets:
@@ -48,6 +53,8 @@ _type:_ control
 ## outlets:
 
 * list or data:mlist mapped list<br>
+_type:_ control
+* atom: missing keys<br>
 _type:_ control
 
 

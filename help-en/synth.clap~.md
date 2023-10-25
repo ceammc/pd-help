@@ -66,6 +66,15 @@ _units:_ Hz<br>
 _range:_ 400..3500<br>
 _default:_ 3500<br>
 
+* **@osc** (initonly)
+Get/set OSC server name to listen<br>
+_type:_ symbol<br>
+
+* **@id** (initonly)
+Get/set OSC address id. If specified, bind all properties to /ID/synth_clap/PROP_NAME
+osc address, if empty bind to /synth_clap/PROP_NAME.<br>
+_type:_ symbol<br>
+
 
 
 ## inlets:

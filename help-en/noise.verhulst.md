@@ -40,15 +40,12 @@ _type:_ float<br>
 
 ## methods:
 
-* **set**
+* **lambda**
 <br>
   __parameters:__
-  - **SET** set to value<br>
+  - **LAMBDA** lambda value<br>
     type: float <br>
     required: True <br>
-
-* **reset**
-reset state<br>
 
 * **om**
 <br>
@@ -57,17 +54,20 @@ reset state<br>
     type: int <br>
     required: True <br>
 
-* **lambda**
-<br>
-  __parameters:__
-  - **LAMBDA** lambda value<br>
-    type: float <br>
-    required: True <br>
+* **reset**
+reset state<br>
 
 * **seed**
 <br>
   __parameters:__
   - **SEED** seed value<br>
+    type: float <br>
+    required: True <br>
+
+* **set**
+<br>
+  __parameters:__
+  - **SET** set to value<br>
     type: float <br>
     required: True <br>
 

@@ -30,7 +30,7 @@ _range:_ 1..65536<br>
 _default:_ 1024<br>
 
 * **@mode** 
-Get/set calculation mode: if &#39;count&#39; - output number of zero crossing occured in a
+Get/set calculation mode: if &#39;count&#39; - output number of zero crossing occurred in a
 period of current block size, if &#39;rate&#39; - output zero crossing rate (zero
 crossing number / block size), if &#39;freq&#39; - output zero crossing frequency in
 hertz.<br>

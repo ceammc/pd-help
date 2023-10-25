@@ -104,6 +104,8 @@ _aliases:_ \[ceammc/pass_if\], \[pass_if\]
 
 [**flow.pipe**](flow.pipe.html): enhanced version on vanilla pipe object 
 
+[**flow.prepend**](flow.prepend.html): prepend message before received one 
+
 [**flow.queue**](flow.queue.html): multi-channel control flow sync queue (or FIFO) 
 
 [**flow.record**](flow.record.html): flow stream recorder/player <br>
@@ -166,6 +168,8 @@ _aliases:_ \[ceammc/replace\]
 _aliases:_ \[route.b\]
 
 
+[**route.cycle**](route.cycle.html): cyclic message router 
+
 [**route.float**](route.float.html): separate float messages from other types <br>
 _aliases:_ \[route.f\]
 
@@ -185,6 +189,6 @@ _aliases:_ \[route.s\]
 
 
 
-**Version:** 0.9.6
+**Version:** 0.9.7
 
 **License:** GPL3

@@ -22,18 +22,18 @@ Collatz conjecture output
 
 ## methods:
 
-* **offset**
-<br>
-  __parameters:__
-  - **OFFSET** offset value<br>
-    type: float <br>
-    required: True <br>
-
 * **mode**
 <br>
   __parameters:__
   - **MODE** mode value. 0 for Collatz, 1 for Terras<br>
     type: int <br>
+    required: True <br>
+
+* **offset**
+<br>
+  __parameters:__
+  - **OFFSET** offset value<br>
+    type: float <br>
     required: True <br>
 
 * **om**

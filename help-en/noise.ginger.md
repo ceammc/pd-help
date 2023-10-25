@@ -36,6 +36,12 @@ _type:_ float<br>
 
 ## methods:
 
+* **reset**
+reset seed, x and y values to defaults<br>
+
+* **seed**
+set seed value and update default<br>
+
 * **set**
 set seed, x and y values, updates defaults<br>
 
@@ -44,12 +50,6 @@ set x value and update default<br>
 
 * **y**
 set y value and update default<br>
-
-* **seed**
-set seed value and update default<br>
-
-* **reset**
-reset seed, x and y values to defaults<br>
 
 
 

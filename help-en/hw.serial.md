@@ -31,11 +31,11 @@ _type:_ symbol<br>
 
 ## methods:
 
-* **open**
-connect to device<br>
-
 * **close**
 disconnect from device<br>
+
+* **open**
+connect to device<br>
 
 
 

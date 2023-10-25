@@ -38,6 +38,7 @@ _units:_ rad<br>
 * **@angle** 
 Get/set panning position in radians<br>
 _type:_ float<br>
+_units:_ rad<br>
 _range:_ 0..2π<br>
 _default:_ 0<br>
 
@@ -51,6 +52,15 @@ _default:_ 1<br>
 Get/set on/off dsp processing<br>
 _type:_ bool<br>
 _default:_ 1<br>
+
+* **@osc** (initonly)
+Get/set OSC server name to listen<br>
+_type:_ symbol<br>
+
+* **@id** (initonly)
+Get/set OSC address id. If specified, bind all properties to /ID/spat_pan8/PROP_NAME
+osc address, if empty bind to /spat_pan8/PROP_NAME.<br>
+_type:_ symbol<br>
 
 
 

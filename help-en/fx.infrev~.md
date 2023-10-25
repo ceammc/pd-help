@@ -66,7 +66,7 @@ _range:_ 0..1<br>
 _default:_ 1<br>
 
 * **@bypass** 
-Get/set if set to 1 - bypass &#39;effected&#39; signal<br>
+Get/set bypass flag. If true: bypass &#39;effected&#39; signal.<br>
 _type:_ bool<br>
 _default:_ 0<br>
 

@@ -26,14 +26,14 @@ _type:_ symbol<br>
 
 ## methods:
 
+* **clear**
+removes all midi file content<br>
+
 * **read**
 read specified midi file. No output<br>
 
 * **write**
 write to specified midi file<br>
-
-* **clear**
-removes all midi file content<br>
 
 
 

@@ -32,17 +32,14 @@ _type:_ float<br>
 
 ## methods:
 
-* **play**
-start playback from current play position<br>
-
-* **stop**
-stop playback and reset play position<br>
-
 * **pause**
 pause/resume playback<br>
   __parameters:__
   - **[anonym=1]** if true: pause, else resume playing<br>
     type: int <br>
+
+* **play**
+start playback from current play position<br>
 
 * **range**
 set @begin and @end property<br>
@@ -54,6 +51,9 @@ set @begin and @end property<br>
   - **END** end position. Value type same as for first argument<br>
     type: atom <br>
     required: True <br>
+
+* **stop**
+stop playback and reset play position<br>
 
 
 

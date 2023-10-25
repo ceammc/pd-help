@@ -124,6 +124,12 @@ Get/set widget value<br>
 _type:_ float<br>
 _default:_ 0<br>
 
+* **@display_only** 
+Get/set interaction mode. If true: react only to received Pd messages, but do not react
+to mouse/keyboard events. If false: react to all supported events.<br>
+_type:_ bool<br>
+_default:_ 0<br>
+
 * **@digits** 
 Get/set number of digits. If -1 - no fixed digits used<br>
 _type:_ int<br>

@@ -38,6 +38,12 @@ _type:_ int<br>
 _min value:_ 0<br>
 _default:_ 0<br>
 
+* **@n** (initonly)
+Get/set number of outlets<br>
+_type:_ int<br>
+_range:_ 2..24<br>
+_default:_ 2<br>
+
 
 
 ## inlets:

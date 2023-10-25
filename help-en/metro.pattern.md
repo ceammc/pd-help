@@ -49,6 +49,8 @@ _default:_ 0<br>
 
 * starts (on 1) or stops (on 0) metro<br>
 _type:_ control
+* set new pattern<br>
+_type:_ control
 
 
 
@@ -56,7 +58,7 @@ _type:_ control
 
 * outputs *bang*<br>
 _type:_ control
-* outputs current pattern index and bang on loop return<br>
+* outputs current pattern index and bang on each cycle<br>
 _type:_ control
 
 

@@ -20,7 +20,7 @@
 
 ## arguments:
 
-* **PATTERN**
+* **P**
 sequencer pattern in beat duration units<br>
 _type:_ list<br>
 
@@ -28,14 +28,28 @@ _type:_ list<br>
 
 ## methods:
 
-* **start**
-start sequencer from current position<br>
+* **hexbeat**
+set hexbeat bang pattern<br>
+  __parameters:__
+  - **PATTERN** hex-string beat pattern<br>
+    type: symbol <br>
+    required: True <br>
 
 * **reset**
 reset all counters and stop<br>
 
 * **rewind**
 reset all counters without stopping<br>
+
+* **skip**
+skip specified number of steps<br>
+  __parameters:__
+  - **N** number of steps to skip<br>
+    type: int <br>
+    required: True <br>
+
+* **start**
+start sequencer from current position<br>
 
 * **stop**
 stop sequencer<br>
@@ -80,16 +94,26 @@ _units:_ ms<br>
 _min value:_ 0<br>
 _default:_ 0<br>
 
+* **@div** 
+Get/set beat subdivision<br>
+_type:_ int<br>
+_range:_ 1..64<br>
+_default:_ 1<br>
+
+* **@upbeat** 
+Get/set wait specified number of beats before sequence start<br>
+_type:_ float<br>
+_min value:_ 0<br>
+_default:_ 0<br>
+
 * **@i** (readonly)
 Get current sequence iteration<br>
 _type:_ int<br>
-_min value:_ 0<br>
 _default:_ 0<br>
 
 * **@ri** (readonly)
 Get current repeat iteration<br>
 _type:_ int<br>
-_min value:_ 0<br>
 _default:_ 0<br>
 
 * **@mode** 
@@ -125,7 +149,7 @@ _type:_ control
 [sequencer](keywords/sequencer.html)
 [bang](keywords/bang.html)
 [pattern](keywords/pattern.html)
-[rythm](keywords/rythm.html)
+[rhythm](keywords/rhythm.html)
 
 
 

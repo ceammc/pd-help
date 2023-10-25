@@ -18,8 +18,8 @@
 
 ## arguments:
 
-* **FNAME**
-path to faust dsp file<br>
+* **LOAD**
+initial file to load after object creation<br>
 _type:_ symbol<br>
 
 
@@ -32,9 +32,6 @@ open faust dsp file in external editor<br>
 * **reset**
 reset object state<br>
 
-* **update**
-update faust object, recompile if needed<br>
-
 * **size**
 resize object<br>
   __parameters:__
@@ -46,28 +43,50 @@ resize object<br>
     type: int <br>
     required: True <br>
 
+* **read**
+read Faust code from file and compile it.<br>
+  __parameters:__
+  - **FILE** file path, absolute or relative to patch, include directories<br>
+    type: symbol <br>
+    required: True <br>
+
+* **write**
+write Faust code to file.<br>
+  __parameters:__
+  - **FILE** file path, absolute or relative to patch<br>
+    type: symbol <br>
+    required: True <br>
+
+  - **[@force]** overwrite existing files<br>
+    type: property <br>
+
 
 
 
 ## properties:
 
-* **@fname** 
-Get/set path to faust dsp file<br>
+* **@load** (initonly)
+Get/set initial file to load after object creation<br>
 _type:_ symbol<br>
 
 * **@include** 
 Get/set list of faust include directories<br>
 _type:_ list<br>
 
-* **@auto** 
-Get/set auto update mode. If on - recompiles faust dsp file on change<br>
+* **@active** 
+Get/set on/off dsp processing<br>
 _type:_ bool<br>
-_default:_ 0<br>
+_default:_ 1<br>
 
 * **@size** 
 Get/set object size<br>
 _type:_ list<br>
 _default:_ 10 10<br>
+
+* **@style** 
+Get/set view style<br>
+_type:_ int<br>
+_default:_ 0<br>
 
 
 

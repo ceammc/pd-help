@@ -10,6 +10,8 @@
 
 [**env.ar\~**](env.ar~.html): Attack/Release envelope generator 
 
+[**env.asr2\~**](env.asr2~.html): stereo Attack/Sustain/Release envelope generator 
+
 [**env.asr\~**](env.asr~.html): Attack/Sustain/Release envelope generator 
 
 [**env.concat**](env.concat.html): Envelope concatenation 
@@ -43,6 +45,6 @@ _aliases:_ \[ceammc/vline2env\], \[ceammc/vline-&gt;env\], \[vline-&gt;env\]
 
 
 
-**Version:** 0.9.6
+**Version:** 0.9.7
 
 **License:** GPL3

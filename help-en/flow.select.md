@@ -43,6 +43,10 @@ matched message to corresponding outlet.<br>
 _type:_ bool<br>
 _default:_ 0<br>
 
+* **@msg** 
+Get/set output this message on match, instead of bang<br>
+_type:_ list<br>
+
 
 
 ## inlets:

@@ -30,34 +30,6 @@ _type:_ symbol<br>
 
 ## methods:
 
-* **note**
-play note<br>
-  __parameters:__
-  - **[CHAN=0]** MIDI channel, if zero or ommited play on first(!) channel<br>
-    type: int <br>
-
-  - **NOTE** MIDI note<br>
-    type: int <br>
-    required: True <br>
-
-  - **VEL** MIDI velocity<br>
-    type: int <br>
-    required: True <br>
-
-* **cc**
-control change<br>
-  __parameters:__
-  - **[CHAN=0]** MIDI channel, if zero or ommited set on all channel<br>
-    type: int <br>
-
-  - **CC** MIDI control number<br>
-    type: int <br>
-    required: True <br>
-
-  - **VAL** MIDI control value<br>
-    type: int <br>
-    required: True <br>
-
 * **aftertouch**
 aftertouch channel pressure<br>
   __parameters:__
@@ -65,30 +37,6 @@ aftertouch channel pressure<br>
     type: int <br>
 
   - **VEL** MIDI velocity<br>
-    type: int <br>
-    required: True <br>
-
-* **polytouch**
-polytouch key pressure<br>
-  __parameters:__
-  - **[CHAN=0]** MIDI channel, ignored<br>
-    type: int <br>
-
-  - **NOTE** MIDI note<br>
-    type: int <br>
-    required: True <br>
-
-  - **VEL** MIDI velocity<br>
-    type: int <br>
-    required: True <br>
-
-* **prog**
-program change<br>
-  __parameters:__
-  - **[CHAN=0]** MIDI channel, if zero or ommited set for all channels<br>
-    type: int <br>
-
-  - **PGM** program number<br>
     type: int <br>
     required: True <br>
 
@@ -113,16 +61,6 @@ pitchband change<br>
     type: int <br>
     required: True <br>
 
-* **bend:i**
-pitchband change<br>
-  __parameters:__
-  - **[CHAN=0]** MIDI channel, if zero or ommited set for all channels<br>
-    type: int <br>
-
-  - **VALUE** value in -0x2000..0x1fff range, with 0 center.<br>
-    type: int <br>
-    required: True <br>
-
 * **bend:f**
 pitchband change<br>
   __parameters:__
@@ -131,6 +69,16 @@ pitchband change<br>
 
   - **VALUE** value in -1..+1 range, with 0 center.<br>
     type: float <br>
+    required: True <br>
+
+* **bend:i**
+pitchband change<br>
+  __parameters:__
+  - **[CHAN=0]** MIDI channel, if zero or ommited set for all channels<br>
+    type: int <br>
+
+  - **VALUE** value in -0x2000..0x1fff range, with 0 center.<br>
+    type: int <br>
     required: True <br>
 
 * **bendsens**
@@ -144,52 +92,17 @@ set pitchbend sensitivity<br>
     units: semitone <br>
     required: True <br>
 
-* **tune:s**
-set tuninig in semitones<br>
+* **cc**
+control change<br>
   __parameters:__
-  - **[CHAN=0]** MIDI channel, if zero or not specified apply tuning to all channels<br>
+  - **[CHAN=0]** MIDI channel, if zero or ommited set on all channel<br>
     type: int <br>
 
-  - **SEMI** semitones (float) tuning<br>
-    type: float <br>
-    required: True <br>
-
-* **tune.**
-set fine tuninig in cents, see tune:s<br>
-
-* **tune:c**
-set fine tuning in cents<br>
-  __parameters:__
-  - **[CHAN=0]** MIDI channel, if zero or not specified apply tuning to all channels<br>
-    type: int <br>
-
-  - **CENTS** cents (float) tuning<br>
-    type: float <br>
-    required: True <br>
-
-* **tune:12**
-set and activate octave tuning program in cents deviations<br>
-  __parameters:__
-  - **BANK** tuning bank (not related to MIDI instrument bank)<br>
+  - **CC** MIDI control number<br>
     type: int <br>
     required: True <br>
 
-  - **PRESET** tuning preset (not related to MIDI instrument program)<br>
-    type: int <br>
-    required: True <br>
-
-  - **TUNES** list of scale deviations from 12TET in cents<br>
-    type: list <br>
-    required: True <br>
-
-* **tunesel**
-select tuning bank and preset<br>
-  __parameters:__
-  - **BANK** tuning bank (not related to MIDI instrument bank)<br>
-    type: int <br>
-    required: True <br>
-
-  - **PRESET** tuning preset (not related to MIDI instrument program)<br>
+  - **VAL** MIDI control value<br>
     type: int <br>
     required: True <br>
 
@@ -197,26 +110,54 @@ select tuning bank and preset<br>
 set a SoundFont generator (effect) value on a MIDI channel in real-time
 (CHANNEL, PARAM, VALUE or PARAM, VALUE expected)<br>
 
-* **panic**
-send MIDI system reset command (big red &#39;panic&#39; button), turns off notes,
-resets controllers and restores initial basic channel configuration<br>
-
-* **reset**
-reset synth channels<br>
+* **hold**
+hold (sustain, right) pedal, ignore note release when active, release all notes
+when set to off.<br>
   __parameters:__
-  - **[CHAN=0]** MIDI channel, if zero or not specified reset all channels<br>
+  - **CHAN=0** MIDI channel, if zero or ommited sustain all channels<br>
     type: int <br>
+    required: True <br>
+
+  - **VAL** pedal state<br>
+    type: int <br>
+    required: True <br>
+
+* **legato**
+enable or disable legato/smooth transitions between consecutive notes<br>
+  __parameters:__
+  - **CHAN** MIDI channel, if zero or ommited apply to all channels<br>
+    type: int <br>
+    required: True <br>
+
+  - **VAL** pedal state<br>
+    type: int <br>
+    required: True <br>
+
+* **midi**
+send raw midi message to synth<br>
+  __parameters:__
+  - **BYTES** list of bytes<br>
+    type: list <br>
+    required: True <br>
+
+* **note**
+play note<br>
+  __parameters:__
+  - **[CHAN=0]** MIDI channel, if zero or ommited play on first(!) channel<br>
+    type: int <br>
+
+  - **NOTE** MIDI note<br>
+    type: int <br>
+    required: True <br>
+
+  - **VEL** MIDI velocity<br>
+    type: int <br>
+    required: True <br>
 
 * **notes_off**
 turn off all notes on a MIDI channel (put them into release phase)<br>
   __parameters:__
   - **[CHAN=0]** MIDI channel, if zero or not specified turn notes on all channels<br>
-    type: int <br>
-
-* **sounds_off**
-immediately stop all notes (skips release phase).<br>
-  __parameters:__
-  - **[CHAN=0]** MIDI channel, if zero or not specified stop notes on all channels<br>
     type: int <br>
 
 * **pan**
@@ -249,11 +190,44 @@ set channel panning<br>
     type: float <br>
     required: True <br>
 
-* **hold**
-hold (sustain, right) pedal, ignore note release when active, release all notes
-when set to off.<br>
+* **panic**
+send MIDI system reset command (big red &#39;panic&#39; button), turns off notes,
+resets controllers and restores initial basic channel configuration<br>
+
+* **polytouch**
+polytouch key pressure<br>
   __parameters:__
-  - **CHAN=0** MIDI channel, if zero or ommited sustain all channels<br>
+  - **[CHAN=0]** MIDI channel, ignored<br>
+    type: int <br>
+
+  - **NOTE** MIDI note<br>
+    type: int <br>
+    required: True <br>
+
+  - **VEL** MIDI velocity<br>
+    type: int <br>
+    required: True <br>
+
+* **prog**
+program change<br>
+  __parameters:__
+  - **[CHAN=0]** MIDI channel, if zero or ommited set for all channels<br>
+    type: int <br>
+
+  - **PGM** program number<br>
+    type: int <br>
+    required: True <br>
+
+* **reset**
+reset synth channels<br>
+  __parameters:__
+  - **[CHAN=0]** MIDI channel, if zero or not specified reset all channels<br>
+    type: int <br>
+
+* **soft**
+soft (left) pedal, activate the soft strike effect<br>
+  __parameters:__
+  - **CHAN** MIDI channel, if zero or ommited apply to all channels<br>
     type: int <br>
     required: True <br>
 
@@ -273,40 +247,66 @@ are passed untouched. Release holded notes when set to off<br>
     type: int <br>
     required: True <br>
 
-* **soft**
-soft (left) pedal, activate the soft strike effect<br>
+* **sound_off**
+immediately stop all notes (skips release phase).<br>
   __parameters:__
-  - **CHAN** MIDI channel, if zero or ommited apply to all channels<br>
+  - **[CHAN=0]** MIDI channel, if zero or not specified stop notes on all channels<br>
     type: int <br>
-    required: True <br>
-
-  - **VAL** pedal state<br>
-    type: int <br>
-    required: True <br>
-
-* **legato**
-enable or disable legato/smooth transitions between consecutive notes<br>
-  __parameters:__
-  - **CHAN** MIDI channel, if zero or ommited apply to all channels<br>
-    type: int <br>
-    required: True <br>
-
-  - **VAL** pedal state<br>
-    type: int <br>
-    required: True <br>
-
-* **midi**
-send raw midi message to synth<br>
-  __parameters:__
-  - **BYTES** list of bytes<br>
-    type: list <br>
-    required: True <br>
 
 * **sysex**
 accept SYSEX message<br>
   __parameters:__
   - **BYTES** list of bytes<br>
     type: list <br>
+    required: True <br>
+
+* **tune.**
+set fine tuninig in cents, see tune:s<br>
+
+* **tune:12**
+set and activate octave tuning program in cents deviations<br>
+  __parameters:__
+  - **BANK** tuning bank (not related to MIDI instrument bank)<br>
+    type: int <br>
+    required: True <br>
+
+  - **PRESET** tuning preset (not related to MIDI instrument program)<br>
+    type: int <br>
+    required: True <br>
+
+  - **TUNES** list of scale deviations from 12TET in cents<br>
+    type: list <br>
+    required: True <br>
+
+* **tune:c**
+set fine tuning in cents<br>
+  __parameters:__
+  - **[CHAN=0]** MIDI channel, if zero or not specified apply tuning to all channels<br>
+    type: int <br>
+
+  - **CENTS** cents (float) tuning<br>
+    type: float <br>
+    required: True <br>
+
+* **tune:s**
+set tuninig in semitones<br>
+  __parameters:__
+  - **[CHAN=0]** MIDI channel, if zero or not specified apply tuning to all channels<br>
+    type: int <br>
+
+  - **SEMI** semitones (float) tuning<br>
+    type: float <br>
+    required: True <br>
+
+* **tunesel**
+select tuning bank and preset<br>
+  __parameters:__
+  - **BANK** tuning bank (not related to MIDI instrument bank)<br>
+    type: int <br>
+    required: True <br>
+
+  - **PRESET** tuning preset (not related to MIDI instrument program)<br>
+    type: int <br>
     required: True <br>
 
 
@@ -321,7 +321,7 @@ _type:_ symbol<br>
 * **@version** (readonly)
 Get FluidSynth version<br>
 _type:_ symbol<br>
-_default:_ 2.0.0<br>
+_default:_ 2.3.2<br>
 
 * **@soundfonts** (readonly)
 Get list of found soundfonts<br>

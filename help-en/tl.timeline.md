@@ -24,24 +24,12 @@ With timeline you can schedule your events and start/pause/stop/move time This t
 
 * **LENGTH**
 timeline length<br>
-_type:_ int<br>
+_type:_ float<br>
 _units:_ sec<br>
 
 
 
 ## methods:
-
-* **start**
-start timeline from current position<br>
-
-* **pause**
-stops timeline at current position<br>
-
-* **stop**
-stops timeline and reset current position to the beginning<br>
-
-* **reset**
-reset timeline (call only when stopped)<br>
 
 * **add**
 add event to timeline. You can use simple syntax like [add 10.1 sec( to create
@@ -59,6 +47,12 @@ event with default name, or use advanced: [add myEvent 510ms before end(<br>
   - **[REL_EVENT]** relative event name<br>
     type: symbol <br>
 
+* **clear**
+remove all timeline events<br>
+
+* **pause**
+stops timeline at current position<br>
+
 * **remove**
 remove event by given index or name. [remove event1( or [remove 3(<br>
   __parameters:__
@@ -71,8 +65,14 @@ remove event at specified time<br>
   - **[TIME]** time in supported format. See *info* section<br>
     type: list <br>
 
-* **clear**
-remove all timeline events<br>
+* **reset**
+reset timeline (call only when stopped)<br>
+
+* **start**
+start timeline from current position<br>
+
+* **stop**
+stops timeline and reset current position to the beginning<br>
 
 * **to_event**
 move time to specified event<br>
@@ -96,10 +96,11 @@ Get if timeline is running<br>
 _type:_ bool<br>
 _default:_ 0<br>
 
-* **@length** (readonly)
-Get timeline length<br>
+* **@length** (initonly)
+Get/set timeline length<br>
 _type:_ float<br>
 _units:_ sec<br>
+_min value:_ 0<br>
 _default:_ 60<br>
 
 * **@size** (readonly)
@@ -112,6 +113,12 @@ _default:_ 1<br>
 Get current time<br>
 _type:_ float<br>
 _units:_ ms<br>
+_default:_ 0<br>
+
+* **@current_sec** (readonly)
+Get current time<br>
+_type:_ float<br>
+_units:_ sec<br>
 _default:_ 0<br>
 
 * **@phase** (readonly)
@@ -149,7 +156,7 @@ _type:_ control
 
 ## outlets:
 
-* outputs pair: event index and event name<br>
+* list: event index, event name, current event time<br>
 _type:_ control
 
 

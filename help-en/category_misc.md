@@ -18,6 +18,10 @@ _aliases:_ \[ceammc/fluid\~\]
 _aliases:_ \[ceammc/modplug\~\]
 
 
+[**qrcode**](qrcode.html): QR code generator <br>
+_aliases:_ \[ceammc/qrcode\]
+
+
 [**risset.gliss**](risset.gliss.html): Sheppard/Risset glissando calculator 
 
 [**sfizz\~**](sfizz~.html): SFZ format sample player <br>
@@ -33,6 +37,6 @@ _aliases:_ \[ceammc/rhvoice\~\], \[rhvoice\~\]
 
 
 
-**Version:** 0.9.6
+**Version:** 0.9.7
 
 **License:** GPL3

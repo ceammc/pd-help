@@ -44,15 +44,29 @@ _type:_ float<br>
 
 ## methods:
 
+* **dt**
+<br>
+  __parameters:__
+  - **NY** dt value<br>
+    type: float <br>
+    required: True <br>
+
+* **e**
+<br>
+  __parameters:__
+  - **NY** e value<br>
+    type: float <br>
+    required: True <br>
+
+* **reset**
+reset state<br>
+
 * **set**
 <br>
   __parameters:__
   - **SET** set to value<br>
     type: float <br>
     required: True <br>
-
-* **reset**
-reset state<br>
 
 * **x**
 <br>
@@ -72,20 +86,6 @@ reset state<br>
 <br>
   __parameters:__
   - **NY** y&#39; value<br>
-    type: float <br>
-    required: True <br>
-
-* **e**
-<br>
-  __parameters:__
-  - **NY** e value<br>
-    type: float <br>
-    required: True <br>
-
-* **dt**
-<br>
-  __parameters:__
-  - **NY** dt value<br>
     type: float <br>
     required: True <br>
 

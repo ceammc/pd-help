@@ -52,23 +52,6 @@ _type:_ float<br>
 
 ## methods:
 
-* **set**
-<br>
-  __parameters:__
-  - **SET** set to value<br>
-    type: float <br>
-    required: True <br>
-
-* **reset**
-reset state<br>
-
-* **om**
-<br>
-  __parameters:__
-  - **OM** enables output when cut or fold value is changed<br>
-    type: int <br>
-    required: True <br>
-
 * **a**
 <br>
   __parameters:__
@@ -94,6 +77,23 @@ reset state<br>
 <br>
   __parameters:__
   - **D** dt value<br>
+    type: float <br>
+    required: True <br>
+
+* **om**
+<br>
+  __parameters:__
+  - **OM** enables output when cut or fold value is changed<br>
+    type: int <br>
+    required: True <br>
+
+* **reset**
+reset state<br>
+
+* **set**
+<br>
+  __parameters:__
+  - **SET** set to value<br>
     type: float <br>
     required: True <br>
 

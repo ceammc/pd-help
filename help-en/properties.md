@@ -55,6 +55,8 @@
 
 ### @abs
 [canvas.active](canvas.active.html)
+[canvas.dir](canvas.dir.html)
+[canvas.top](canvas.top.html)
 
 ### @abs_begin
 [array.vplay](array.vplay.html)
@@ -66,6 +68,7 @@
 [canvas.current](canvas.current.html)
 
 ### @accel
+[seq.nbangs](seq.nbangs.html)
 [spring](spring.html)
 
 ### @active
@@ -73,7 +76,13 @@
 [an.rms~](an.rms~.html)
 [an.tempo~](an.tempo~.html)
 [dyn.comp2~](dyn.comp2~.html)
+[dyn.comp_peak2~](dyn.comp_peak2~.html)
+[dyn.comp_peak~](dyn.comp_peak~.html)
+[dyn.comp_up2~](dyn.comp_up2~.html)
+[dyn.comp_up~](dyn.comp_up~.html)
 [dyn.comp~](dyn.comp~.html)
+[dyn.expand2~](dyn.expand2~.html)
+[dyn.expand~](dyn.expand~.html)
 [dyn.gate2~](dyn.gate2~.html)
 [dyn.gate~](dyn.gate~.html)
 [dyn.limit2~](dyn.limit2~.html)
@@ -81,12 +90,15 @@
 [dyn.softclip~](dyn.softclip~.html)
 [env.adsr~](env.adsr~.html)
 [env.ar~](env.ar~.html)
+[env.asr2~](env.asr2~.html)
 [env.asr~](env.asr~.html)
 [env.follow~](env.follow~.html)
 [env.smooth~](env.smooth~.html)
 [flt.biquad~](flt.biquad~.html)
 [flt.bpf12~](flt.bpf12~.html)
 [flt.bpf24~](flt.bpf24~.html)
+[flt.bpf36e~](flt.bpf36e~.html)
+[flt.bpf72e~](flt.bpf72e~.html)
 [flt.c_bpf~](flt.c_bpf~.html)
 [flt.c_highshelf~](flt.c_highshelf~.html)
 [flt.c_hpf~](flt.c_hpf~.html)
@@ -113,9 +125,11 @@
 [flt.resonbp~](flt.resonbp~.html)
 [flt.resonhp~](flt.resonhp~.html)
 [flt.resonlp~](flt.resonlp~.html)
+[flt.speaker~](flt.speaker~.html)
 [fx.bitdown~](fx.bitdown~.html)
 [fx.chorus~](fx.chorus~.html)
 [fx.dattorro~](fx.dattorro~.html)
+[fx.delay~](fx.delay~.html)
 [fx.distortion1~](fx.distortion1~.html)
 [fx.distortion2~](fx.distortion2~.html)
 [fx.distortion3~](fx.distortion3~.html)
@@ -131,18 +145,21 @@
 [fx.granulator~](fx.granulator~.html)
 [fx.greyhole~](fx.greyhole~.html)
 [fx.jcrev~](fx.jcrev~.html)
+[fx.overdrive~](fx.overdrive~.html)
 [fx.pitchshift_s~](fx.pitchshift_s~.html)
 [fx.pitchshift~](fx.pitchshift~.html)
 [fx.recho~](fx.recho~.html)
+[fx.ringmod~](fx.ringmod~.html)
 [fx.room~](fx.room~.html)
 [fx.satrev~](fx.satrev~.html)
-[fx.sdelay~](fx.sdelay~.html)
-[fx.secho~](fx.secho~.html)
+[fx.scramble~](fx.scramble~.html)
 [fx.shimmer~](fx.shimmer~.html)
 [fx.tapiir~](fx.tapiir~.html)
+[fx.tremolo~](fx.tremolo~.html)
 [fx.vocoder~](fx.vocoder~.html)
 [fx.wahwah~](fx.wahwah~.html)
 [fx.zita_rev1~](fx.zita_rev1~.html)
+[lang.faust~](lang.faust~.html)
 [lfo.+pulse~](lfo.%2Bpulse~.html)
 [lfo.+saw~](lfo.%2Bsaw~.html)
 [lfo.+square~](lfo.%2Bsquare~.html)
@@ -190,6 +207,7 @@
 [synth.kick~](synth.kick~.html)
 [synth.ks~](synth.ks~.html)
 [synth.marimba~](synth.marimba~.html)
+[synth.metro~](synth.metro~.html)
 [synth.piano~](synth.piano~.html)
 [synth.risset_arp~](synth.risset_arp~.html)
 [synth.risset_bell~](synth.risset_bell~.html)
@@ -199,6 +217,7 @@
 [synth.standard_bell~](synth.standard_bell~.html)
 [synth.voice_fofc~](synth.voice_fofc~.html)
 [synth.voice_fofs~](synth.voice_fofs~.html)
+[ui.faust~](ui.faust~.html)
 
 ### @active_color
 [ui.bang](ui.bang.html)
@@ -265,6 +284,9 @@
 
 ### @angles
 [hoa.2d.decoder~](hoa.2d.decoder~.html)
+[hoa.3d.decoder~](hoa.3d.decoder~.html)
+[hoa.3d.meter~](hoa.3d.meter~.html)
+[ui.cmeter~](ui.cmeter~.html)
 
 ### @antialias
 [array.stretch](array.stretch.html)
@@ -301,18 +323,21 @@
 [array.fill](array.fill.html)
 [array.grainer~](array.grainer~.html)
 [array.hist](array.hist.html)
+[array.ltcplay~](array.ltcplay~.html)
 [array.mean](array.mean.html)
 [array.minmax](array.minmax.html)
 [array.p2s](array.p2s.html)
 [array.play~](array.play~.html)
 [array.plot](array.plot.html)
 [array.plot~](array.plot~.html)
+[array.readwrite~](array.readwrite~.html)
 [array.rms](array.rms.html)
 [array.s2p](array.s2p.html)
 [array.set](array.set.html)
 [array.stddev](array.stddev.html)
 [array.sum](array.sum.html)
 [array.sum2](array.sum2.html)
+[array.tramp~](array.tramp~.html)
 [array.variance](array.variance.html)
 [array.vplay](array.vplay.html)
 [array.window](array.window.html)
@@ -328,6 +353,7 @@
 [list.route](list.route.html)
 
 ### @asr
+[env.asr2~](env.asr2~.html)
 [env.asr~](env.asr~.html)
 
 ### @assign
@@ -342,14 +368,22 @@
 
 ### @attack
 [dyn.comp2~](dyn.comp2~.html)
+[dyn.comp_peak2~](dyn.comp_peak2~.html)
+[dyn.comp_peak~](dyn.comp_peak~.html)
+[dyn.comp_up2~](dyn.comp_up2~.html)
+[dyn.comp_up~](dyn.comp_up~.html)
 [dyn.comp~](dyn.comp~.html)
+[dyn.expand2~](dyn.expand2~.html)
+[dyn.expand~](dyn.expand~.html)
 [dyn.gate2~](dyn.gate2~.html)
 [dyn.gate~](dyn.gate~.html)
 [env.adsr~](env.adsr~.html)
 [env.ar~](env.ar~.html)
+[env.asr2~](env.asr2~.html)
 [env.asr~](env.asr~.html)
 [env.follow~](env.follow~.html)
 [fx.vocoder~](fx.vocoder~.html)
+[live.capture~](live.capture~.html)
 [synth.clap~](synth.clap~.html)
 [synth.hat~](synth.hat~.html)
 [synth.kick2~](synth.kick2~.html)
@@ -360,11 +394,9 @@
 
 ### @auto
 [flow.record](flow.record.html)
-[lang.faust~](lang.faust~.html)
 [midi.vramp](midi.vramp.html)
 [synth.birds~](synth.birds~.html)
 [system.exit](system.exit.html)
-[ui.faust~](ui.faust~.html)
 
 ### @auto_count
 [ui.sliders](ui.sliders.html)
@@ -397,11 +429,17 @@
 [prop.declare](prop.declare.html)
 
 ### @background_color
+[hoa.2d.space](hoa.2d.space.html)
+[hoa.3d.meter~](hoa.3d.meter~.html)
+[hoa.3d.scope~](hoa.3d.scope~.html)
+[hoa.map.ui](hoa.map.ui.html)
 [hoa.scope~](hoa.scope~.html)
 [tl.cue](tl.cue.html)
 [ui.aview](ui.aview.html)
 [ui.bang](ui.bang.html)
 [ui.button](ui.button.html)
+[ui.canvas](ui.canvas.html)
+[ui.cmeter~](ui.cmeter~.html)
 [ui.colorpanel](ui.colorpanel.html)
 [ui.display](ui.display.html)
 [ui.dsp~](ui.dsp~.html)
@@ -414,6 +452,7 @@
 [ui.incdec](ui.incdec.html)
 [ui.knob](ui.knob.html)
 [ui.label](ui.label.html)
+[ui.lcd](ui.lcd.html)
 [ui.matrix](ui.matrix.html)
 [ui.menu](ui.menu.html)
 [ui.meter~](ui.meter~.html)
@@ -445,10 +484,15 @@
 
 ### @basic
 [hoa.2d.optim~](hoa.2d.optim~.html)
+[hoa.3d.optim~](hoa.3d.optim~.html)
+
+### @beats
+[rhythm.euclid](rhythm.euclid.html)
 
 ### @begin
 [array.play~](array.play~.html)
 [array.vplay](array.vplay.html)
+[snd.play~](snd.play~.html)
 
 ### @best
 [array.resample](array.resample.html)
@@ -458,6 +502,7 @@
 
 ### @binaural
 [hoa.2d.decoder~](hoa.2d.decoder~.html)
+[hoa.3d.decoder~](hoa.3d.decoder~.html)
 
 ### @bins
 [array.hist](array.hist.html)
@@ -471,11 +516,17 @@
 [flow.seqdelay](flow.seqdelay.html)
 
 ### @border_color
+[hoa.2d.space](hoa.2d.space.html)
+[hoa.3d.meter~](hoa.3d.meter~.html)
+[hoa.3d.scope~](hoa.3d.scope~.html)
+[hoa.map.ui](hoa.map.ui.html)
 [hoa.scope~](hoa.scope~.html)
 [tl.cue](tl.cue.html)
 [ui.aview](ui.aview.html)
 [ui.bang](ui.bang.html)
 [ui.button](ui.button.html)
+[ui.canvas](ui.canvas.html)
+[ui.cmeter~](ui.cmeter~.html)
 [ui.colorpanel](ui.colorpanel.html)
 [ui.display](ui.display.html)
 [ui.dsp~](ui.dsp~.html)
@@ -488,6 +539,7 @@
 [ui.incdec](ui.incdec.html)
 [ui.keyboard](ui.keyboard.html)
 [ui.knob](ui.knob.html)
+[ui.lcd](ui.lcd.html)
 [ui.matrix](ui.matrix.html)
 [ui.menu](ui.menu.html)
 [ui.meter~](ui.meter~.html)
@@ -518,6 +570,7 @@
 [synth.glass_harm~](synth.glass_harm~.html)
 
 ### @bpm
+[conv.bar2ms](conv.bar2ms.html)
 [music.dur2time](music.dur2time.html)
 
 ### @brightness
@@ -544,9 +597,21 @@
 [list.normalize](list.normalize.html)
 
 ### @bypass
+[dyn.comp2~](dyn.comp2~.html)
+[dyn.comp_peak2~](dyn.comp_peak2~.html)
+[dyn.comp_peak~](dyn.comp_peak~.html)
+[dyn.comp_up2~](dyn.comp_up2~.html)
+[dyn.comp_up~](dyn.comp_up~.html)
+[dyn.comp~](dyn.comp~.html)
+[dyn.expand2~](dyn.expand2~.html)
+[dyn.expand~](dyn.expand~.html)
+[dyn.gate2~](dyn.gate2~.html)
+[dyn.gate~](dyn.gate~.html)
+[flt.speaker~](flt.speaker~.html)
 [fx.bitdown~](fx.bitdown~.html)
 [fx.chorus~](fx.chorus~.html)
 [fx.dattorro~](fx.dattorro~.html)
+[fx.delay~](fx.delay~.html)
 [fx.distortion3~](fx.distortion3~.html)
 [fx.distortion~](fx.distortion~.html)
 [fx.drive~](fx.drive~.html)
@@ -559,16 +624,39 @@
 [fx.greyhole~](fx.greyhole~.html)
 [fx.infrev~](fx.infrev~.html)
 [fx.jcrev~](fx.jcrev~.html)
+[fx.overdrive~](fx.overdrive~.html)
 [fx.pitchshift_s~](fx.pitchshift_s~.html)
 [fx.pitchshift~](fx.pitchshift~.html)
 [fx.recho~](fx.recho~.html)
+[fx.ringmod~](fx.ringmod~.html)
 [fx.room~](fx.room~.html)
 [fx.satrev~](fx.satrev~.html)
-[fx.sdelay~](fx.sdelay~.html)
-[fx.secho~](fx.secho~.html)
+[fx.scramble~](fx.scramble~.html)
 [fx.shimmer~](fx.shimmer~.html)
+[fx.tremolo~](fx.tremolo~.html)
 [fx.wahwah~](fx.wahwah~.html)
 [fx.zita_rev1~](fx.zita_rev1~.html)
+
+### @c0
+[color.mix](color.mix.html)
+
+### @c1
+[color.mix](color.mix.html)
+
+### @c_attack
+[fx.delay~](fx.delay~.html)
+[fx.echo~](fx.echo~.html)
+
+### @c_release
+[fx.delay~](fx.delay~.html)
+[fx.echo~](fx.echo~.html)
+
+### @c_thresh
+[fx.delay~](fx.delay~.html)
+[fx.echo~](fx.echo~.html)
+
+### @calc_w
+[metro.wchoice](metro.wchoice.html)
 
 ### @capacity
 [fx.looper~](fx.looper~.html)
@@ -596,6 +684,7 @@
 [proto.whammy](proto.whammy.html)
 
 ### @channels
+[hoa.3d.meter~](hoa.3d.meter~.html)
 [snd.file](snd.file.html)
 [xdac~](xdac~.html)
 
@@ -632,6 +721,8 @@
 [array.play~](array.play~.html)
 
 ### @clockwise
+[hoa.3d.meter~](hoa.3d.meter~.html)
+[ui.cmeter~](ui.cmeter~.html)
 [ui.polar](ui.polar.html)
 
 ### @closed
@@ -642,10 +733,17 @@
 [pan.spread~](pan.spread~.html)
 
 ### @cold_color
+[hoa.3d.meter~](hoa.3d.meter~.html)
+[ui.cmeter~](ui.cmeter~.html)
 [ui.meter~](ui.meter~.html)
+
+### @color
+[color.scale](color.scale.html)
+[system.colorpanel](system.colorpanel.html)
 
 ### @cols
 [seq.life](seq.life.html)
+[ui.lcd](ui.lcd.html)
 [ui.matrix](ui.matrix.html)
 
 ### @compensate
@@ -655,6 +753,10 @@
 [an.onset](an.onset.html)
 [an.onset~](an.onset~.html)
 [an.tempo~](an.tempo~.html)
+
+### @compress
+[fx.delay~](fx.delay~.html)
+[fx.echo~](fx.echo~.html)
 
 ### @compression
 [an.onset](an.onset.html)
@@ -702,6 +804,9 @@
 ### @current_row
 [ui.matrix](ui.matrix.html)
 
+### @current_sec
+[tl.timeline](tl.timeline.html)
+
 ### @cursor_color
 [ui.aview](ui.aview.html)
 
@@ -724,6 +829,7 @@
 ### @curve
 [conv.lin2curve](conv.lin2curve.html)
 [midi.cc](midi.cc.html)
+[seq.nbangs](seq.nbangs.html)
 
 ### @custom
 [midi.kbd](midi.kbd.html)
@@ -741,6 +847,9 @@
 [synth.marimba~](synth.marimba~.html)
 [synth.russian_bell~](synth.russian_bell~.html)
 [synth.standard_bell~](synth.standard_bell~.html)
+
+### @d
+[system.colorpanel](system.colorpanel.html)
 
 ### @damp
 [fx.dattorro~](fx.dattorro~.html)
@@ -803,6 +912,9 @@
 [synth.russian_bell~](synth.russian_bell~.html)
 [synth.standard_bell~](synth.standard_bell~.html)
 
+### @def
+[list.map](list.map.html)
+
 ### @default
 [dict.get](dict.get.html)
 [list.^at](list.%5Eat.html)
@@ -818,13 +930,12 @@
 [flow.pipe](flow.pipe.html)
 [flow.space](flow.space.html)
 [fx.chorus~](fx.chorus~.html)
+[fx.delay~](fx.delay~.html)
 [fx.echo2~](fx.echo2~.html)
 [fx.echo~](fx.echo~.html)
 [fx.flanger~](fx.flanger~.html)
 [fx.granulator~](fx.granulator~.html)
 [fx.recho~](fx.recho~.html)
-[fx.sdelay~](fx.sdelay~.html)
-[fx.secho~](fx.secho~.html)
 [spat.zita8~](spat.zita8~.html)
 [system.exit](system.exit.html)
 [tl.bang](tl.bang.html)
@@ -841,6 +952,7 @@
 ### @depth
 [fx.chorus~](fx.chorus~.html)
 [fx.shimmer~](fx.shimmer~.html)
+[fx.tremolo~](fx.tremolo~.html)
 [path.search](path.search.html)
 
 ### @dest
@@ -858,6 +970,7 @@
 
 ### @dev
 [flow.space](flow.space.html)
+[fx.scramble~](fx.scramble~.html)
 [hw.motu.avb](hw.motu.avb.html)
 [midi.tuning](midi.tuning.html)
 
@@ -888,6 +1001,9 @@
 ### @display_events
 [ui.display](ui.display.html)
 
+### @display_only
+[ui.number](ui.number.html)
+
 ### @display_type
 [ui.display](ui.display.html)
 
@@ -897,6 +1013,11 @@
 ### @div
 [math.div](math.div.html)
 [midi.clock](midi.clock.html)
+[seq.bangs](seq.bangs.html)
+[seq.matrix](seq.matrix.html)
+[seq.nbangs](seq.nbangs.html)
+[seq.toggles](seq.toggles.html)
+[sequencer](sequencer.html)
 
 ### @domain
 [hoa.process~](hoa.process~.html)
@@ -905,10 +1026,22 @@
 [flow.space](flow.space.html)
 [modplug~](modplug~.html)
 
+### @dot
+[proto.morse](proto.morse.html)
+
 ### @down
 [conv.edge2bang](conv.edge2bang.html)
 [ui.mouse_filter](ui.mouse_filter.html)
 [ui.mouse_route](ui.mouse_route.html)
+
+### @down.freq
+[synth.metro~](synth.metro~.html)
+
+### @down.gain
+[synth.metro~](synth.metro~.html)
+
+### @down.reson
+[synth.metro~](synth.metro~.html)
 
 ### @downsamp
 [fx.bitdown~](fx.bitdown~.html)
@@ -923,6 +1056,7 @@
 [fx.distortion3~](fx.distortion3~.html)
 [fx.distortion~](fx.distortion~.html)
 [fx.drive~](fx.drive~.html)
+[fx.ringmod~](fx.ringmod~.html)
 [synth.kick2~](synth.kick2~.html)
 
 ### @dry0
@@ -944,8 +1078,10 @@
 [spat.zita6x8~](spat.zita6x8~.html)
 
 ### @drywet
+[flt.speaker~](flt.speaker~.html)
 [fx.chorus~](fx.chorus~.html)
 [fx.dattorro~](fx.dattorro~.html)
+[fx.delay~](fx.delay~.html)
 [fx.distortion3~](fx.distortion3~.html)
 [fx.distortion~](fx.distortion~.html)
 [fx.drone_box~](fx.drone_box~.html)
@@ -957,14 +1093,16 @@
 [fx.greyhole~](fx.greyhole~.html)
 [fx.infrev~](fx.infrev~.html)
 [fx.jcrev~](fx.jcrev~.html)
+[fx.overdrive~](fx.overdrive~.html)
 [fx.pitchshift_s~](fx.pitchshift_s~.html)
 [fx.pitchshift~](fx.pitchshift~.html)
 [fx.recho~](fx.recho~.html)
+[fx.ringmod~](fx.ringmod~.html)
 [fx.room~](fx.room~.html)
 [fx.satrev~](fx.satrev~.html)
-[fx.sdelay~](fx.sdelay~.html)
-[fx.secho~](fx.secho~.html)
+[fx.scramble~](fx.scramble~.html)
 [fx.shimmer~](fx.shimmer~.html)
+[fx.tremolo~](fx.tremolo~.html)
 [fx.wahwah~](fx.wahwah~.html)
 [fx.zita_rev1~](fx.zita_rev1~.html)
 
@@ -1003,6 +1141,7 @@
 [plot.logspace~](plot.logspace~.html)
 
 ### @empty
+[data.bimap](data.bimap.html)
 [data.dict](data.dict.html)
 [data.fifo](data.fifo.html)
 [data.list](data.list.html)
@@ -1010,10 +1149,12 @@
 [data.set](data.set.html)
 [flow.pipe](flow.pipe.html)
 [flow.stack](flow.stack.html)
+[global.bimap](global.bimap.html)
 [global.dict](global.dict.html)
 [global.list](global.list.html)
 [global.mlist](global.mlist.html)
 [global.set](global.set.html)
+[local.bimap](local.bimap.html)
 [local.dict](local.dict.html)
 [local.list](local.list.html)
 [local.mlist](local.mlist.html)
@@ -1029,6 +1170,7 @@
 [array.play~](array.play~.html)
 [array.vplay](array.vplay.html)
 [list.^search](list.%5Esearch.html)
+[snd.play~](snd.play~.html)
 
 ### @endpoint
 [plot.geomspace~](plot.geomspace~.html)
@@ -1040,6 +1182,9 @@
 [an.onset~](an.onset~.html)
 [an.tempo~](an.tempo~.html)
 
+### @energy_color
+[hoa.3d.meter~](hoa.3d.meter~.html)
+
 ### @enter
 [ui.mouse_filter](ui.mouse_filter.html)
 [ui.mouse_route](ui.mouse_route.html)
@@ -1049,6 +1194,9 @@
 
 ### @enumerate
 [list.separate](list.separate.html)
+
+### @env
+[fx.stutter~](fx.stutter~.html)
 
 ### @envelope
 [fx.shimmer~](fx.shimmer~.html)
@@ -1070,10 +1218,12 @@
 
 ### @expr
 [math.expr](math.expr.html)
+[midi.note.pass](midi.note.pass.html)
 [synth.glitch~](synth.glitch~.html)
 
 ### @external
 [midi.arp](midi.arp.html)
+[proto.morse](proto.morse.html)
 
 ### @extra
 [hoa.in~](hoa.in~.html)
@@ -1084,6 +1234,9 @@
 [prop.declare](prop.declare.html)
 [system.colorpanel](system.colorpanel.html)
 
+### @f1
+[flt.speaker~](flt.speaker~.html)
+
 ### @f1000
 [flt.eq10~](flt.eq10~.html)
 [flt.fbank5x1~](flt.fbank5x1~.html)
@@ -1093,6 +1246,9 @@
 
 ### @f16000
 [flt.eq10~](flt.eq10~.html)
+
+### @f2
+[flt.speaker~](flt.speaker~.html)
 
 ### @f2000
 [flt.eq10~](flt.eq10~.html)
@@ -1119,10 +1275,17 @@
 ### @f8000
 [flt.eq10~](flt.eq10~.html)
 
+### @f_hpf
+[fx.delay~](fx.delay~.html)
+[fx.echo~](fx.echo~.html)
+
+### @f_lpf
+[fx.delay~](fx.delay~.html)
+[fx.echo~](fx.echo~.html)
+
 ### @fade
 [fx.pitchshift_s~](fx.pitchshift_s~.html)
 [fx.pitchshift~](fx.pitchshift~.html)
-[live.capture~](live.capture~.html)
 
 ### @family
 [midi.prg2str](midi.prg2str.html)
@@ -1152,13 +1315,13 @@
 [fx.tapiir~](fx.tapiir~.html)
 
 ### @feedback
+[fx.delay~](fx.delay~.html)
 [fx.echo2~](fx.echo2~.html)
 [fx.echo~](fx.echo~.html)
 [fx.flanger~](fx.flanger~.html)
 [fx.greyhole~](fx.greyhole~.html)
 [fx.recho~](fx.recho~.html)
-[fx.sdelay~](fx.sdelay~.html)
-[fx.secho~](fx.secho~.html)
+[fx.scramble~](fx.scramble~.html)
 [osc.sinfb~](osc.sinfb~.html)
 
 ### @fidthr
@@ -1175,7 +1338,10 @@
 [data.fifo](data.fifo.html)
 
 ### @filter
+[fx.delay~](fx.delay~.html)
+[fx.echo~](fx.echo~.html)
 [fx.infrev~](fx.infrev~.html)
+[proto.ltc.out~](proto.ltc.out~.html)
 
 ### @first
 [string.remove](string.remove.html)
@@ -1191,6 +1357,10 @@
 [hoa.2d.recomposer~](hoa.2d.recomposer~.html)
 
 ### @float
+[conv.color2rgba](conv.color2rgba.html)
+[conv.hsl2rgb](conv.hsl2rgb.html)
+[conv.lab2rgb](conv.lab2rgb.html)
+[conv.rgb2hex](conv.rgb2hex.html)
 [list.max](list.max.html)
 [list.min](list.min.html)
 [system.colorpanel](system.colorpanel.html)
@@ -1204,10 +1374,6 @@
 ### @flt_on_off
 [fx.distortion1~](fx.distortion1~.html)
 [fx.distortion2~](fx.distortion2~.html)
-
-### @fname
-[lang.faust~](lang.faust~.html)
-[ui.faust~](ui.faust~.html)
 
 ### @fold
 [list.^at](list.%5Eat.html)
@@ -1224,11 +1390,17 @@
 [canvas.top](canvas.top.html)
 
 ### @fontname
+[hoa.2d.space](hoa.2d.space.html)
+[hoa.3d.meter~](hoa.3d.meter~.html)
+[hoa.3d.scope~](hoa.3d.scope~.html)
+[hoa.map.ui](hoa.map.ui.html)
 [hoa.scope~](hoa.scope~.html)
 [tl.cue](tl.cue.html)
 [ui.aview](ui.aview.html)
 [ui.bang](ui.bang.html)
 [ui.button](ui.button.html)
+[ui.canvas](ui.canvas.html)
+[ui.cmeter~](ui.cmeter~.html)
 [ui.colorpanel](ui.colorpanel.html)
 [ui.display](ui.display.html)
 [ui.dsp~](ui.dsp~.html)
@@ -1242,6 +1414,7 @@
 [ui.keyboard](ui.keyboard.html)
 [ui.knob](ui.knob.html)
 [ui.label](ui.label.html)
+[ui.lcd](ui.lcd.html)
 [ui.link](ui.link.html)
 [ui.matrix](ui.matrix.html)
 [ui.menu](ui.menu.html)
@@ -1263,11 +1436,17 @@
 [ui.toggle](ui.toggle.html)
 
 ### @fontsize
+[hoa.2d.space](hoa.2d.space.html)
+[hoa.3d.meter~](hoa.3d.meter~.html)
+[hoa.3d.scope~](hoa.3d.scope~.html)
+[hoa.map.ui](hoa.map.ui.html)
 [hoa.scope~](hoa.scope~.html)
 [tl.cue](tl.cue.html)
 [ui.aview](ui.aview.html)
 [ui.bang](ui.bang.html)
 [ui.button](ui.button.html)
+[ui.canvas](ui.canvas.html)
+[ui.cmeter~](ui.cmeter~.html)
 [ui.colorpanel](ui.colorpanel.html)
 [ui.display](ui.display.html)
 [ui.dsp~](ui.dsp~.html)
@@ -1281,6 +1460,7 @@
 [ui.keyboard](ui.keyboard.html)
 [ui.knob](ui.knob.html)
 [ui.label](ui.label.html)
+[ui.lcd](ui.lcd.html)
 [ui.link](ui.link.html)
 [ui.matrix](ui.matrix.html)
 [ui.menu](ui.menu.html)
@@ -1302,10 +1482,17 @@
 [ui.toggle](ui.toggle.html)
 
 ### @fontslant
+[hoa.2d.space](hoa.2d.space.html)
+[hoa.3d.meter~](hoa.3d.meter~.html)
+[hoa.3d.scope~](hoa.3d.scope~.html)
+[hoa.map.ui](hoa.map.ui.html)
 [hoa.scope~](hoa.scope~.html)
+[tl.cue](tl.cue.html)
 [ui.aview](ui.aview.html)
 [ui.bang](ui.bang.html)
 [ui.button](ui.button.html)
+[ui.canvas](ui.canvas.html)
+[ui.cmeter~](ui.cmeter~.html)
 [ui.colorpanel](ui.colorpanel.html)
 [ui.display](ui.display.html)
 [ui.dsp~](ui.dsp~.html)
@@ -1319,6 +1506,7 @@
 [ui.keyboard](ui.keyboard.html)
 [ui.knob](ui.knob.html)
 [ui.label](ui.label.html)
+[ui.lcd](ui.lcd.html)
 [ui.link](ui.link.html)
 [ui.matrix](ui.matrix.html)
 [ui.menu](ui.menu.html)
@@ -1340,10 +1528,17 @@
 [ui.toggle](ui.toggle.html)
 
 ### @fontweight
+[hoa.2d.space](hoa.2d.space.html)
+[hoa.3d.meter~](hoa.3d.meter~.html)
+[hoa.3d.scope~](hoa.3d.scope~.html)
+[hoa.map.ui](hoa.map.ui.html)
 [hoa.scope~](hoa.scope~.html)
+[tl.cue](tl.cue.html)
 [ui.aview](ui.aview.html)
 [ui.bang](ui.bang.html)
 [ui.button](ui.button.html)
+[ui.canvas](ui.canvas.html)
+[ui.cmeter~](ui.cmeter~.html)
 [ui.colorpanel](ui.colorpanel.html)
 [ui.display](ui.display.html)
 [ui.dsp~](ui.dsp~.html)
@@ -1357,6 +1552,7 @@
 [ui.keyboard](ui.keyboard.html)
 [ui.knob](ui.knob.html)
 [ui.label](ui.label.html)
+[ui.lcd](ui.lcd.html)
 [ui.link](ui.link.html)
 [ui.matrix](ui.matrix.html)
 [ui.menu](ui.menu.html)
@@ -1385,6 +1581,11 @@
 
 ### @formats
 [snd.file](snd.file.html)
+
+### @fps
+[array.ltcplay~](array.ltcplay~.html)
+[proto.ltc.in~](proto.ltc.in~.html)
+[proto.ltc.out~](proto.ltc.out~.html)
 
 ### @fr_damp
 [fx.freeverb2~](fx.freeverb2~.html)
@@ -1422,6 +1623,8 @@
 ### @freq
 [flt.bpf12~](flt.bpf12~.html)
 [flt.bpf24~](flt.bpf24~.html)
+[flt.bpf36e~](flt.bpf36e~.html)
+[flt.bpf72e~](flt.bpf72e~.html)
 [flt.c_apf](flt.c_apf.html)
 [flt.c_bpf~](flt.c_bpf~.html)
 [flt.c_highshelf~](flt.c_highshelf~.html)
@@ -1447,6 +1650,8 @@
 [flt.resonhp~](flt.resonhp~.html)
 [flt.resonlp~](flt.resonlp~.html)
 [fx.chorus~](fx.chorus~.html)
+[fx.ringmod~](fx.ringmod~.html)
+[fx.tremolo~](fx.tremolo~.html)
 [noise.crackle~](noise.crackle~.html)
 [noise.lfreq0~](noise.lfreq0~.html)
 [noise.lfreq~](noise.lfreq~.html)
@@ -1475,12 +1680,19 @@
 [ui.filter](ui.filter.html)
 [ui.filter~](ui.filter~.html)
 
+### @freq1
+[fx.scramble~](fx.scramble~.html)
+
+### @freq2
+[fx.scramble~](fx.scramble~.html)
+
 ### @freq_low
 [fx.shimmer~](fx.shimmer~.html)
 [fx.zita_rev1~](fx.zita_rev1~.html)
 [spat.zita8~](spat.zita8~.html)
 
 ### @from
+[array.tramp~](array.tramp~.html)
 [conv.cc2amp](conv.cc2amp.html)
 [list.enumerate](list.enumerate.html)
 [list.separate](list.separate.html)
@@ -1493,6 +1705,13 @@
 [string.replace](string.replace.html)
 [string.substr](string.substr.html)
 
+### @fromB
+[hoa.2d.exchanger~](hoa.2d.exchanger~.html)
+[hoa.3d.exchanger~](hoa.3d.exchanger~.html)
+
+### @fromDaniel
+[hoa.3d.exchanger~](hoa.3d.exchanger~.html)
+
 ### @full
 [list.convolve](list.convolve.html)
 [list.correlate](list.correlate.html)
@@ -1503,6 +1722,8 @@
 
 ### @gain
 [dyn.comp2~](dyn.comp2~.html)
+[dyn.comp_peak2~](dyn.comp_peak2~.html)
+[dyn.comp_peak~](dyn.comp_peak~.html)
 [dyn.comp~](dyn.comp~.html)
 [flt.c_highshelf~](flt.c_highshelf~.html)
 [flt.c_lowshelf~](flt.c_lowshelf~.html)
@@ -1511,11 +1732,15 @@
 [flt.eq_peak~](flt.eq_peak~.html)
 [flt.highshelf~](flt.highshelf~.html)
 [flt.lowshelf~](flt.lowshelf~.html)
+[flt.speaker~](flt.speaker~.html)
 [fluid~](fluid~.html)
 [fx.distortion1~](fx.distortion1~.html)
 [fx.distortion2~](fx.distortion2~.html)
 [fx.distortion3~](fx.distortion3~.html)
+[fx.overdrive~](fx.overdrive~.html)
+[hoa.3d.scope~](hoa.3d.scope~.html)
 [hoa.scope~](hoa.scope~.html)
+[live.capture~](live.capture~.html)
 [sfizz~](sfizz~.html)
 [synth.church_bell~](synth.church_bell~.html)
 [synth.eguitar~](synth.eguitar~.html)
@@ -1525,6 +1750,7 @@
 [synth.glass_harm~](synth.glass_harm~.html)
 [synth.ks~](synth.ks~.html)
 [synth.marimba~](synth.marimba~.html)
+[synth.metro~](synth.metro~.html)
 [synth.russian_bell~](synth.russian_bell~.html)
 [synth.standard_bell~](synth.standard_bell~.html)
 [ui.filter](ui.filter.html)
@@ -1536,6 +1762,7 @@
 ### @gate
 [env.adsr~](env.adsr~.html)
 [env.ar~](env.ar~.html)
+[env.asr2~](env.asr2~.html)
 [env.asr~](env.asr~.html)
 [env.smooth~](env.smooth~.html)
 [live.capture~](live.capture~.html)
@@ -1632,6 +1859,8 @@
 [canvas.top](canvas.top.html)
 
 ### @hex
+[color.scale](color.scale.html)
+[rhythm.hexbeat](rhythm.hexbeat.html)
 [system.colorpanel](system.colorpanel.html)
 [ui.colorpanel](ui.colorpanel.html)
 [ui.display](ui.display.html)
@@ -1650,6 +1879,7 @@
 
 ### @high
 [array.resample](array.resample.html)
+[qrcode](qrcode.html)
 [ui.rslider](ui.rslider.html)
 
 ### @high_drive
@@ -1659,6 +1889,10 @@
 [fx.distortion1~](fx.distortion1~.html)
 
 ### @hold
+[dyn.comp_up2~](dyn.comp_up2~.html)
+[dyn.comp_up~](dyn.comp_up~.html)
+[dyn.expand2~](dyn.expand2~.html)
+[dyn.expand~](dyn.expand~.html)
 [dyn.gate2~](dyn.gate2~.html)
 [dyn.gate~](dyn.gate~.html)
 
@@ -1676,6 +1910,8 @@
 [proto.vlc](proto.vlc.html)
 
 ### @hot_color
+[hoa.3d.meter~](hoa.3d.meter~.html)
+[ui.cmeter~](ui.cmeter~.html)
 [ui.meter~](ui.meter~.html)
 
 ### @hover_color
@@ -1717,9 +1953,149 @@
 [ui.icon](ui.icon.html)
 
 ### @id
+[an.rms~](an.rms~.html)
+[dyn.comp2~](dyn.comp2~.html)
+[dyn.comp_peak2~](dyn.comp_peak2~.html)
+[dyn.comp_peak~](dyn.comp_peak~.html)
+[dyn.comp_up2~](dyn.comp_up2~.html)
+[dyn.comp_up~](dyn.comp_up~.html)
+[dyn.comp~](dyn.comp~.html)
+[dyn.expand2~](dyn.expand2~.html)
+[dyn.expand~](dyn.expand~.html)
+[dyn.gate2~](dyn.gate2~.html)
+[dyn.gate~](dyn.gate~.html)
+[env.adsr~](env.adsr~.html)
+[env.ar~](env.ar~.html)
+[env.asr2~](env.asr2~.html)
+[env.asr~](env.asr~.html)
+[env.follow~](env.follow~.html)
+[env.smooth~](env.smooth~.html)
+[flt.bpf12~](flt.bpf12~.html)
+[flt.bpf24~](flt.bpf24~.html)
+[flt.bpf36e~](flt.bpf36e~.html)
+[flt.bpf72e~](flt.bpf72e~.html)
+[flt.c_bpf~](flt.c_bpf~.html)
+[flt.c_highshelf~](flt.c_highshelf~.html)
+[flt.c_hpf~](flt.c_hpf~.html)
+[flt.c_lowshelf~](flt.c_lowshelf~.html)
+[flt.c_lpf~](flt.c_lpf~.html)
+[flt.c_notch~](flt.c_notch~.html)
+[flt.c_peak~](flt.c_peak~.html)
+[flt.eq10~](flt.eq10~.html)
+[flt.eq_peak_cq~](flt.eq_peak_cq~.html)
+[flt.eq_peak~](flt.eq_peak~.html)
+[flt.fb_comb~](flt.fb_comb~.html)
+[flt.fbank5x1~](flt.fbank5x1~.html)
+[flt.ff_comb~](flt.ff_comb~.html)
+[flt.highshelf~](flt.highshelf~.html)
+[flt.hpf12~](flt.hpf12~.html)
+[flt.hpf24~](flt.hpf24~.html)
+[flt.lowshelf~](flt.lowshelf~.html)
+[flt.lpf12~](flt.lpf12~.html)
+[flt.lpf24~](flt.lpf24~.html)
+[flt.moog_vcf~](flt.moog_vcf~.html)
+[flt.notch~](flt.notch~.html)
+[flt.resonbp~](flt.resonbp~.html)
+[flt.resonhp~](flt.resonhp~.html)
+[flt.resonlp~](flt.resonlp~.html)
+[flt.speaker~](flt.speaker~.html)
+[fx.bitdown~](fx.bitdown~.html)
+[fx.chorus~](fx.chorus~.html)
+[fx.dattorro~](fx.dattorro~.html)
+[fx.delay~](fx.delay~.html)
+[fx.distortion1~](fx.distortion1~.html)
+[fx.distortion2~](fx.distortion2~.html)
+[fx.distortion3~](fx.distortion3~.html)
+[fx.distortion~](fx.distortion~.html)
+[fx.drive~](fx.drive~.html)
+[fx.drone_box~](fx.drone_box~.html)
+[fx.echo2~](fx.echo2~.html)
+[fx.echo~](fx.echo~.html)
+[fx.flanger~](fx.flanger~.html)
+[fx.freeverb2~](fx.freeverb2~.html)
+[fx.freeverb~](fx.freeverb~.html)
+[fx.granulator~](fx.granulator~.html)
+[fx.greyhole~](fx.greyhole~.html)
+[fx.jcrev~](fx.jcrev~.html)
+[fx.overdrive~](fx.overdrive~.html)
+[fx.pitchshift_s~](fx.pitchshift_s~.html)
+[fx.pitchshift~](fx.pitchshift~.html)
+[fx.recho~](fx.recho~.html)
+[fx.ringmod~](fx.ringmod~.html)
+[fx.room~](fx.room~.html)
+[fx.satrev~](fx.satrev~.html)
+[fx.scramble~](fx.scramble~.html)
+[fx.shimmer~](fx.shimmer~.html)
+[fx.tapiir~](fx.tapiir~.html)
+[fx.tremolo~](fx.tremolo~.html)
+[fx.vocoder~](fx.vocoder~.html)
+[fx.wahwah~](fx.wahwah~.html)
+[fx.zita_rev1~](fx.zita_rev1~.html)
+[global.bimap](global.bimap.html)
+[global.dict](global.dict.html)
+[global.float](global.float.html)
+[global.int](global.int.html)
+[global.list](global.list.html)
+[global.mlist](global.mlist.html)
+[global.set](global.set.html)
+[lfo.+pulse~](lfo.%2Bpulse~.html)
+[lfo.+saw~](lfo.%2Bsaw~.html)
+[lfo.+square~](lfo.%2Bsquare~.html)
+[lfo.+tri~](lfo.%2Btri~.html)
+[lfo.mosc~](lfo.mosc~.html)
+[lfo.pulse~](lfo.pulse~.html)
+[lfo.saw~](lfo.saw~.html)
+[lfo.square~](lfo.square~.html)
+[lfo.tri~](lfo.tri~.html)
+[live.capture~](live.capture~.html)
+[local.bimap](local.bimap.html)
+[local.dict](local.dict.html)
+[local.float](local.float.html)
+[local.int](local.int.html)
+[local.list](local.list.html)
+[local.mlist](local.mlist.html)
+[local.set](local.set.html)
+[noise.chua~](noise.chua~.html)
+[noise.colored~](noise.colored~.html)
+[noise.crackle~](noise.crackle~.html)
+[noise.lfreq0~](noise.lfreq0~.html)
+[noise.lfreq~](noise.lfreq~.html)
+[osc.pulse~](osc.pulse~.html)
+[osc.saw4~](osc.saw4~.html)
+[osc.sinfb~](osc.sinfb~.html)
 [preset.float](preset.float.html)
 [preset.list](preset.list.html)
 [preset.symbol](preset.symbol.html)
+[spat.pan4~](spat.pan4~.html)
+[spat.pan8~](spat.pan8~.html)
+[spat.zita6x8~](spat.zita6x8~.html)
+[spat.zita8~](spat.zita8~.html)
+[synth.birds~](synth.birds~.html)
+[synth.church_bell~](synth.church_bell~.html)
+[synth.clap~](synth.clap~.html)
+[synth.dubdub~](synth.dubdub~.html)
+[synth.dx7~](synth.dx7~.html)
+[synth.eguitar~](synth.eguitar~.html)
+[synth.english_bell~](synth.english_bell~.html)
+[synth.french_bell~](synth.french_bell~.html)
+[synth.german_bell~](synth.german_bell~.html)
+[synth.glass_harm~](synth.glass_harm~.html)
+[synth.harpsichord~](synth.harpsichord~.html)
+[synth.hat~](synth.hat~.html)
+[synth.kick2~](synth.kick2~.html)
+[synth.kick~](synth.kick~.html)
+[synth.ks~](synth.ks~.html)
+[synth.marimba~](synth.marimba~.html)
+[synth.metro~](synth.metro~.html)
+[synth.piano~](synth.piano~.html)
+[synth.risset_arp~](synth.risset_arp~.html)
+[synth.risset_bell~](synth.risset_bell~.html)
+[synth.risset_tone~](synth.risset_tone~.html)
+[synth.russian_bell~](synth.russian_bell~.html)
+[synth.snare~](synth.snare~.html)
+[synth.standard_bell~](synth.standard_bell~.html)
+[synth.voice_fofc~](synth.voice_fofc~.html)
+[synth.voice_fofs~](synth.voice_fofs~.html)
 
 ### @idiff1
 [fx.dattorro~](fx.dattorro~.html)
@@ -1759,6 +2135,7 @@
 [list.insert](list.insert.html)
 [list.set](list.set.html)
 [list.walk](list.walk.html)
+[route.cycle](route.cycle.html)
 [ui.colorpanel](ui.colorpanel.html)
 [ui.menu](ui.menu.html)
 
@@ -1776,15 +2153,19 @@
 ### @init
 [flow.pack](flow.pack.html)
 [flow.sync_pack](flow.sync_pack.html)
+[gate~](gate~.html)
+[metro.wchoice](metro.wchoice.html)
 [preset.float](preset.float.html)
 [preset.list](preset.list.html)
 [preset.symbol](preset.symbol.html)
+[rhythm.lsystem](rhythm.lsystem.html)
 
 ### @initfreq
 [lfo.pulse~](lfo.pulse~.html)
 
 ### @inphase
 [hoa.2d.optim~](hoa.2d.optim~.html)
+[hoa.3d.optim~](hoa.3d.optim~.html)
 
 ### @inputs
 [matrix~](matrix~.html)
@@ -1796,6 +2177,10 @@
 [fx.tapiir~](fx.tapiir~.html)
 
 ### @int
+[conv.color2rgba](conv.color2rgba.html)
+[conv.hsl2rgb](conv.hsl2rgb.html)
+[conv.lab2rgb](conv.lab2rgb.html)
+[conv.rgb2hex](conv.rgb2hex.html)
 [math.sync_add](math.sync_add.html)
 [math.sync_div](math.sync_div.html)
 [math.sync_mod](math.sync_mod.html)
@@ -1810,14 +2195,14 @@
 ### @interp
 [array.circular~](array.circular~.html)
 [array.play~](array.play~.html)
-
-### @interpolation
-[fx.sdelay~](fx.sdelay~.html)
+[color.scale](color.scale.html)
 
 ### @interval
 [conv.sig2float~](conv.sig2float~.html)
+[hoa.3d.meter~](hoa.3d.meter~.html)
 [metro.seq](metro.seq.html)
 [risset.gliss](risset.gliss.html)
+[ui.cmeter~](ui.cmeter~.html)
 [ui.meter~](ui.meter~.html)
 [ui.number~](ui.number~.html)
 
@@ -1826,6 +2211,9 @@
 [lfo.+saw~](lfo.%2Bsaw~.html)
 [lfo.saw~](lfo.saw~.html)
 [seq.phasor](seq.phasor.html)
+
+### @ip
+[net.artnet.send](net.artnet.send.html)
 
 ### @ipc
 [proto.mpv](proto.mpv.html)
@@ -1876,10 +2264,28 @@
 [preset.storage](preset.storage.html)
 [ui.keyboard](ui.keyboard.html)
 
+### @keys_left
+[data.bimap](data.bimap.html)
+[global.bimap](global.bimap.html)
+[local.bimap](local.bimap.html)
+
+### @keys_right
+[data.bimap](data.bimap.html)
+[global.bimap](global.bimap.html)
+[local.bimap](local.bimap.html)
+
 ### @kl
 [an.onset](an.onset.html)
 [an.onset~](an.onset~.html)
 [an.tempo~](an.tempo~.html)
+
+### @knee
+[dyn.comp_peak2~](dyn.comp_peak2~.html)
+[dyn.comp_peak~](dyn.comp_peak~.html)
+[dyn.comp_up2~](dyn.comp_up2~.html)
+[dyn.comp_up~](dyn.comp_up~.html)
+[dyn.expand2~](dyn.expand2~.html)
+[dyn.expand~](dyn.expand~.html)
 
 ### @knob_color
 [ui.filter](ui.filter.html)
@@ -1895,11 +2301,17 @@
 [prop.declare](prop.declare.html)
 
 ### @label
+[hoa.2d.space](hoa.2d.space.html)
+[hoa.3d.meter~](hoa.3d.meter~.html)
+[hoa.3d.scope~](hoa.3d.scope~.html)
+[hoa.map.ui](hoa.map.ui.html)
 [hoa.scope~](hoa.scope~.html)
 [ui.bang](ui.bang.html)
+[ui.canvas](ui.canvas.html)
 [ui.filter](ui.filter.html)
 [ui.filter~](ui.filter~.html)
 [ui.knob](ui.knob.html)
+[ui.lcd](ui.lcd.html)
 [ui.polar](ui.polar.html)
 [ui.rslider](ui.rslider.html)
 [ui.slider](ui.slider.html)
@@ -1907,11 +2319,17 @@
 [ui.sliders](ui.sliders.html)
 
 ### @label_align
+[hoa.2d.space](hoa.2d.space.html)
+[hoa.3d.meter~](hoa.3d.meter~.html)
+[hoa.3d.scope~](hoa.3d.scope~.html)
+[hoa.map.ui](hoa.map.ui.html)
 [hoa.scope~](hoa.scope~.html)
 [ui.bang](ui.bang.html)
+[ui.canvas](ui.canvas.html)
 [ui.filter](ui.filter.html)
 [ui.filter~](ui.filter~.html)
 [ui.knob](ui.knob.html)
+[ui.lcd](ui.lcd.html)
 [ui.polar](ui.polar.html)
 [ui.rslider](ui.rslider.html)
 [ui.slider](ui.slider.html)
@@ -1922,11 +2340,17 @@
 [ui.aview](ui.aview.html)
 
 ### @label_color
+[hoa.2d.space](hoa.2d.space.html)
+[hoa.3d.meter~](hoa.3d.meter~.html)
+[hoa.3d.scope~](hoa.3d.scope~.html)
+[hoa.map.ui](hoa.map.ui.html)
 [hoa.scope~](hoa.scope~.html)
 [ui.bang](ui.bang.html)
+[ui.canvas](ui.canvas.html)
 [ui.filter](ui.filter.html)
 [ui.filter~](ui.filter~.html)
 [ui.knob](ui.knob.html)
+[ui.lcd](ui.lcd.html)
 [ui.polar](ui.polar.html)
 [ui.rslider](ui.rslider.html)
 [ui.slider](ui.slider.html)
@@ -1935,9 +2359,15 @@
 [ui.spectroscope~](ui.spectroscope~.html)
 
 ### @label_inner
+[hoa.2d.space](hoa.2d.space.html)
+[hoa.3d.meter~](hoa.3d.meter~.html)
+[hoa.3d.scope~](hoa.3d.scope~.html)
+[hoa.map.ui](hoa.map.ui.html)
 [hoa.scope~](hoa.scope~.html)
 [ui.bang](ui.bang.html)
+[ui.canvas](ui.canvas.html)
 [ui.knob](ui.knob.html)
+[ui.lcd](ui.lcd.html)
 [ui.polar](ui.polar.html)
 [ui.rslider](ui.rslider.html)
 [ui.slider](ui.slider.html)
@@ -1945,11 +2375,17 @@
 [ui.sliders](ui.sliders.html)
 
 ### @label_margins
+[hoa.2d.space](hoa.2d.space.html)
+[hoa.3d.meter~](hoa.3d.meter~.html)
+[hoa.3d.scope~](hoa.3d.scope~.html)
+[hoa.map.ui](hoa.map.ui.html)
 [hoa.scope~](hoa.scope~.html)
 [ui.bang](ui.bang.html)
+[ui.canvas](ui.canvas.html)
 [ui.filter](ui.filter.html)
 [ui.filter~](ui.filter~.html)
 [ui.knob](ui.knob.html)
+[ui.lcd](ui.lcd.html)
 [ui.polar](ui.polar.html)
 [ui.rslider](ui.rslider.html)
 [ui.slider](ui.slider.html)
@@ -1957,11 +2393,17 @@
 [ui.sliders](ui.sliders.html)
 
 ### @label_side
+[hoa.2d.space](hoa.2d.space.html)
+[hoa.3d.meter~](hoa.3d.meter~.html)
+[hoa.3d.scope~](hoa.3d.scope~.html)
+[hoa.map.ui](hoa.map.ui.html)
 [hoa.scope~](hoa.scope~.html)
 [ui.bang](ui.bang.html)
+[ui.canvas](ui.canvas.html)
 [ui.filter](ui.filter.html)
 [ui.filter~](ui.filter~.html)
 [ui.knob](ui.knob.html)
+[ui.lcd](ui.lcd.html)
 [ui.polar](ui.polar.html)
 [ui.rslider](ui.rslider.html)
 [ui.slider](ui.slider.html)
@@ -1972,11 +2414,17 @@
 [ui.aview](ui.aview.html)
 
 ### @label_valign
+[hoa.2d.space](hoa.2d.space.html)
+[hoa.3d.meter~](hoa.3d.meter~.html)
+[hoa.3d.scope~](hoa.3d.scope~.html)
+[hoa.map.ui](hoa.map.ui.html)
 [hoa.scope~](hoa.scope~.html)
 [ui.bang](ui.bang.html)
+[ui.canvas](ui.canvas.html)
 [ui.filter](ui.filter.html)
 [ui.filter~](ui.filter~.html)
 [ui.knob](ui.knob.html)
+[ui.lcd](ui.lcd.html)
 [ui.polar](ui.polar.html)
 [ui.rslider](ui.rslider.html)
 [ui.slider](ui.slider.html)
@@ -2021,9 +2469,25 @@
 ### @length_tick
 [midi.file](midi.file.html)
 
+### @letter
+[proto.morse](proto.morse.html)
+
 ### @level
+[dyn.comp2~](dyn.comp2~.html)
+[dyn.comp_peak~](dyn.comp_peak~.html)
+[dyn.comp_up2~](dyn.comp_up2~.html)
+[dyn.comp_up~](dyn.comp_up~.html)
+[dyn.comp~](dyn.comp~.html)
+[dyn.expand2~](dyn.expand2~.html)
+[dyn.expand~](dyn.expand~.html)
 [fx.distortion1~](fx.distortion1~.html)
 [fx.distortion2~](fx.distortion2~.html)
+
+### @level0
+[dyn.comp_peak2~](dyn.comp_peak2~.html)
+
+### @level1
+[dyn.comp_peak2~](dyn.comp_peak2~.html)
 
 ### @lfo_depth
 [synth.bee3~](synth.bee3~.html)
@@ -2050,6 +2514,11 @@
 ### @line_color
 [ui.env](ui.env.html)
 
+### @link
+[dyn.comp_peak2~](dyn.comp_peak2~.html)
+[dyn.comp_up2~](dyn.comp_up2~.html)
+[dyn.expand2~](dyn.expand2~.html)
+
 ### @link_color
 [ui.link](ui.link.html)
 
@@ -2059,12 +2528,17 @@
 ### @lists
 [list.zip](list.zip.html)
 
+### @load
+[lang.faust~](lang.faust~.html)
+[ui.faust~](ui.faust~.html)
+
 ### @log_scale
 [ui.spectroscope~](ui.spectroscope~.html)
 
 ### @loop
 [array.play~](array.play~.html)
 [list.walk](list.walk.html)
+[snd.play~](snd.play~.html)
 [tl.timeline](tl.timeline.html)
 
 ### @loop_bang
@@ -2075,6 +2549,7 @@
 
 ### @low
 [array.resample](array.resample.html)
+[qrcode](qrcode.html)
 [system.exec](system.exec.html)
 [ui.rslider](ui.rslider.html)
 
@@ -2092,6 +2567,9 @@
 ### @lpf
 [flt.c_pole](flt.c_pole.html)
 
+### @mapname
+[hoa.map.ui](hoa.map.ui.html)
+
 ### @margin_bottom
 [ui.label](ui.label.html)
 
@@ -2103,6 +2581,15 @@
 
 ### @margin_top
 [ui.label](ui.label.html)
+
+### @mark.freq
+[synth.metro~](synth.metro~.html)
+
+### @mark.gain
+[synth.metro~](synth.metro~.html)
+
+### @mark.reson
+[synth.metro~](synth.metro~.html)
 
 ### @match
 [path.lsdir](path.lsdir.html)
@@ -2118,6 +2605,7 @@
 [conv.lin2lin](conv.lin2lin.html)
 [conv.lin2lin~](conv.lin2lin~.html)
 [flow.record](flow.record.html)
+[hoa.2d.space](hoa.2d.space.html)
 [metro.random](metro.random.html)
 [midi.cc](midi.cc.html)
 [midi.vrand](midi.vrand.html)
@@ -2125,8 +2613,10 @@
 [prop.declare](prop.declare.html)
 [random.float](random.float.html)
 [random.int](random.int.html)
+[rhythm.lsystem](rhythm.lsystem.html)
 [ui.gain2~](ui.gain2~.html)
 [ui.gain~](ui.gain~.html)
+[ui.incdec](ui.incdec.html)
 [ui.knob](ui.knob.html)
 [ui.number](ui.number.html)
 [ui.rslider](ui.rslider.html)
@@ -2146,12 +2636,15 @@
 
 ### @maxre
 [hoa.2d.optim~](hoa.2d.optim~.html)
+[hoa.3d.optim~](hoa.3d.optim~.html)
 
 ### @maxsize
+[convolve~](convolve~.html)
 [fx.stutter~](fx.stutter~.html)
 
 ### @medium
 [array.resample](array.resample.html)
+[qrcode](qrcode.html)
 
 ### @method
 [an.onset](an.onset.html)
@@ -2201,6 +2694,7 @@
 [conv.lin2exp](conv.lin2exp.html)
 [conv.lin2lin](conv.lin2lin.html)
 [conv.lin2lin~](conv.lin2lin~.html)
+[hoa.2d.space](hoa.2d.space.html)
 [list.delta](list.delta.html)
 [list.integrator](list.integrator.html)
 [list.unzip](list.unzip.html)
@@ -2214,6 +2708,7 @@
 [random.int](random.int.html)
 [ui.gain2~](ui.gain2~.html)
 [ui.gain~](ui.gain~.html)
+[ui.incdec](ui.incdec.html)
 [ui.knob](ui.knob.html)
 [ui.number](ui.number.html)
 [ui.rslider](ui.rslider.html)
@@ -2230,6 +2725,9 @@
 [conv.lin2lin](conv.lin2lin.html)
 [conv.lin2lin~](conv.lin2lin~.html)
 
+### @mix
+[array.readwrite~](array.readwrite~.html)
+
 ### @mkl
 [an.onset](an.onset.html)
 [an.onset~](an.onset~.html)
@@ -2245,15 +2743,24 @@
 
 ### @mode
 [an.zero~](an.zero~.html)
+[color.scale](color.scale.html)
 [conv.bits2note](conv.bits2note.html)
+[conv.color2rgba](conv.color2rgba.html)
 [conv.edge2bang](conv.edge2bang.html)
+[conv.hsl2rgb](conv.hsl2rgb.html)
+[conv.lab2rgb](conv.lab2rgb.html)
+[conv.rgb2hex](conv.rgb2hex.html)
 [env2array](env2array.html)
 [flt.c_pole](flt.c_pole.html)
 [fx.shimmer~](fx.shimmer~.html)
 [fx.stutter~](fx.stutter~.html)
 [hoa.2d.decoder~](hoa.2d.decoder~.html)
+[hoa.2d.map~](hoa.2d.map~.html)
 [hoa.2d.optim~](hoa.2d.optim~.html)
 [hoa.2d.recomposer~](hoa.2d.recomposer~.html)
+[hoa.3d.decoder~](hoa.3d.decoder~.html)
+[hoa.3d.map~](hoa.3d.map~.html)
+[hoa.3d.optim~](hoa.3d.optim~.html)
 [list.convolve](list.convolve.html)
 [list.correlate](list.correlate.html)
 [list.walk](list.walk.html)
@@ -2276,6 +2783,9 @@
 [ui.plot~](ui.plot~.html)
 [ui.radio](ui.radio.html)
 [ui.slider](ui.slider.html)
+
+### @model
+[proto.midi.casio](proto.midi.casio.html)
 
 ### @modfreq
 [fx.greyhole~](fx.greyhole~.html)
@@ -2334,7 +2844,14 @@
 [ui.mouse_route](ui.mouse_route.html)
 
 ### @ms
+[conv.ms2str](conv.ms2str.html)
 [conv.sec2str](conv.sec2str.html)
+
+### @msg
+[flow.append](flow.append.html)
+[flow.prepend](flow.prepend.html)
+[flow.select](flow.select.html)
+[msg.pack](msg.pack.html)
 
 ### @mu
 [random.gauss](random.gauss.html)
@@ -2349,12 +2866,16 @@
 
 ### @n
 [conv.bits2bang](conv.bits2bang.html)
+[flow.demultiplex](flow.demultiplex.html)
+[flow.demultiplex2~](flow.demultiplex2~.html)
+[flow.demultiplex~](flow.demultiplex~.html)
 [flow.dup](flow.dup.html)
 [flow.mem](flow.mem.html)
 [flow.pack](flow.pack.html)
 [flow.sync_pack](flow.sync_pack.html)
 [flt.freqz](flt.freqz.html)
 [fluid~](fluid~.html)
+[gate~](gate~.html)
 [hoa.2d.projector~](hoa.2d.projector~.html)
 [hoa.2d.recomposer~](hoa.2d.recomposer~.html)
 [hoa.process~](hoa.process~.html)
@@ -2362,7 +2883,9 @@
 [list.zip](list.zip.html)
 [math.and](math.and.html)
 [math.or](math.or.html)
+[merge~](merge~.html)
 [midi.vramp](midi.vramp.html)
+[msg.pack](msg.pack.html)
 [nsig~](nsig~.html)
 [pan.spread~](pan.spread~.html)
 [plot.geomspace~](plot.geomspace~.html)
@@ -2371,17 +2894,24 @@
 [plot.response~](plot.response~.html)
 [proto.xtouch_ext](proto.xtouch_ext.html)
 [radio](radio.html)
+[rhythm.euclid](rhythm.euclid.html)
 [risset.gliss](risset.gliss.html)
+[route.cycle](route.cycle.html)
 [route.random](route.random.html)
 [seq.matrix](seq.matrix.html)
 [seq.nbangs](seq.nbangs.html)
+[snd.play~](snd.play~.html)
+[split~](split~.html)
+[sync](sync.html)
 [ui.plot~](ui.plot~.html)
 
 ### @name
 [canvas.current](canvas.current.html)
 [canvas.top](canvas.top.html)
+[function.call](function.call.html)
 [modplug~](modplug~.html)
 [net.osc.server](net.osc.server.html)
+[snd.play~](snd.play~.html)
 [system.getenv](system.getenv.html)
 
 ### @nan
@@ -2390,14 +2920,22 @@
 ### @nbins
 [plot.hist~](plot.hist~.html)
 
+### @nch
+[hoa.2d.decoder~](hoa.2d.decoder~.html)
+[hoa.2d.space](hoa.2d.space.html)
+[hoa.3d.decoder~](hoa.3d.decoder~.html)
+[ui.cmeter~](ui.cmeter~.html)
+
 ### @nevents
 [midi.track](midi.track.html)
 
 ### @nh_color
+[hoa.3d.scope~](hoa.3d.scope~.html)
 [hoa.scope~](hoa.scope~.html)
 
 ### @nharm
 [hoa.2d.decoder~](hoa.2d.decoder~.html)
+[hoa.3d.decoder~](hoa.3d.decoder~.html)
 
 ### @nitems
 [ui.radio](ui.radio.html)
@@ -2426,6 +2964,9 @@
 
 ### @norm
 [array.convolve](array.convolve.html)
+[convolve~](convolve~.html)
+[hoa.2d.exchanger~](hoa.2d.exchanger~.html)
+[hoa.3d.exchanger~](hoa.3d.exchanger~.html)
 [system.cursor](system.cursor.html)
 [ui.env](ui.env.html)
 
@@ -2447,9 +2988,11 @@
 
 ### @nsrc
 [hoa.2d.map~](hoa.2d.map~.html)
+[hoa.3d.map~](hoa.3d.map~.html)
 
-### @nwaves
-[hoa.2d.decoder~](hoa.2d.decoder~.html)
+### @num
+[hoa.2d.exchanger~](hoa.2d.exchanger~.html)
+[hoa.3d.exchanger~](hoa.3d.exchanger~.html)
 
 ### @oct
 [midi.oct](midi.oct.html)
@@ -2457,23 +3000,49 @@
 ### @octave
 [midi.kbd](midi.kbd.html)
 
+### @off.freq
+[synth.metro~](synth.metro~.html)
+
+### @off.gain
+[synth.metro~](synth.metro~.html)
+
+### @off.reson
+[synth.metro~](synth.metro~.html)
+
 ### @off_value
 [ui.button](ui.button.html)
 [ui.toggle](ui.toggle.html)
 
 ### @offset
 [conv.sig2float~](conv.sig2float~.html)
+[convolve~](convolve~.html)
 [fx.distortion~](fx.distortion~.html)
 [fx.flanger~](fx.flanger~.html)
+[fx.ringmod~](fx.ringmod~.html)
 [hoa.2d.decoder~](hoa.2d.decoder~.html)
+[hoa.3d.decoder~](hoa.3d.decoder~.html)
+[hoa.3d.meter~](hoa.3d.meter~.html)
 [net.artnet.send](net.artnet.send.html)
+[rhythm.euclid](rhythm.euclid.html)
+[route.cycle](route.cycle.html)
+[ui.cmeter~](ui.cmeter~.html)
 
 ### @on
 [array.circular~](array.circular~.html)
 [midi.arp](midi.arp.html)
 [midi.kbd](midi.kbd.html)
 [midi.sustain](midi.sustain.html)
+[proto.ltc.out~](proto.ltc.out~.html)
 [seq.phasor](seq.phasor.html)
+
+### @on.freq
+[synth.metro~](synth.metro~.html)
+
+### @on.gain
+[synth.metro~](synth.metro~.html)
+
+### @on.reson
+[synth.metro~](synth.metro~.html)
 
 ### @on_connect
 [hw.arduino](hw.arduino.html)
@@ -2514,17 +3083,153 @@
 ### @order
 [hoa.2d.decoder~](hoa.2d.decoder~.html)
 [hoa.2d.encoder~](hoa.2d.encoder~.html)
+[hoa.2d.exchanger~](hoa.2d.exchanger~.html)
 [hoa.2d.map~](hoa.2d.map~.html)
 [hoa.2d.optim~](hoa.2d.optim~.html)
 [hoa.2d.projector~](hoa.2d.projector~.html)
 [hoa.2d.recomposer~](hoa.2d.recomposer~.html)
 [hoa.2d.rotate~](hoa.2d.rotate~.html)
 [hoa.2d.wider~](hoa.2d.wider~.html)
+[hoa.3d.decoder~](hoa.3d.decoder~.html)
+[hoa.3d.encoder~](hoa.3d.encoder~.html)
+[hoa.3d.exchanger~](hoa.3d.exchanger~.html)
+[hoa.3d.map~](hoa.3d.map~.html)
+[hoa.3d.optim~](hoa.3d.optim~.html)
+[hoa.3d.scope~](hoa.3d.scope~.html)
+[hoa.3d.wider~](hoa.3d.wider~.html)
 [hoa.@process](hoa.%40process.html)
 [hoa.scope~](hoa.scope~.html)
 
 ### @orientation
 [ui.tab](ui.tab.html)
+
+### @osc
+[an.rms~](an.rms~.html)
+[dyn.comp2~](dyn.comp2~.html)
+[dyn.comp_peak2~](dyn.comp_peak2~.html)
+[dyn.comp_peak~](dyn.comp_peak~.html)
+[dyn.comp_up2~](dyn.comp_up2~.html)
+[dyn.comp_up~](dyn.comp_up~.html)
+[dyn.comp~](dyn.comp~.html)
+[dyn.expand2~](dyn.expand2~.html)
+[dyn.expand~](dyn.expand~.html)
+[dyn.gate2~](dyn.gate2~.html)
+[dyn.gate~](dyn.gate~.html)
+[env.adsr~](env.adsr~.html)
+[env.ar~](env.ar~.html)
+[env.asr2~](env.asr2~.html)
+[env.asr~](env.asr~.html)
+[env.follow~](env.follow~.html)
+[env.smooth~](env.smooth~.html)
+[flt.bpf12~](flt.bpf12~.html)
+[flt.bpf24~](flt.bpf24~.html)
+[flt.bpf36e~](flt.bpf36e~.html)
+[flt.bpf72e~](flt.bpf72e~.html)
+[flt.c_bpf~](flt.c_bpf~.html)
+[flt.c_highshelf~](flt.c_highshelf~.html)
+[flt.c_hpf~](flt.c_hpf~.html)
+[flt.c_lowshelf~](flt.c_lowshelf~.html)
+[flt.c_lpf~](flt.c_lpf~.html)
+[flt.c_notch~](flt.c_notch~.html)
+[flt.c_peak~](flt.c_peak~.html)
+[flt.eq10~](flt.eq10~.html)
+[flt.eq_peak_cq~](flt.eq_peak_cq~.html)
+[flt.eq_peak~](flt.eq_peak~.html)
+[flt.fb_comb~](flt.fb_comb~.html)
+[flt.fbank5x1~](flt.fbank5x1~.html)
+[flt.ff_comb~](flt.ff_comb~.html)
+[flt.highshelf~](flt.highshelf~.html)
+[flt.hpf12~](flt.hpf12~.html)
+[flt.hpf24~](flt.hpf24~.html)
+[flt.lowshelf~](flt.lowshelf~.html)
+[flt.lpf12~](flt.lpf12~.html)
+[flt.lpf24~](flt.lpf24~.html)
+[flt.moog_vcf~](flt.moog_vcf~.html)
+[flt.notch~](flt.notch~.html)
+[flt.resonbp~](flt.resonbp~.html)
+[flt.resonhp~](flt.resonhp~.html)
+[flt.resonlp~](flt.resonlp~.html)
+[flt.speaker~](flt.speaker~.html)
+[fx.bitdown~](fx.bitdown~.html)
+[fx.chorus~](fx.chorus~.html)
+[fx.dattorro~](fx.dattorro~.html)
+[fx.delay~](fx.delay~.html)
+[fx.distortion1~](fx.distortion1~.html)
+[fx.distortion2~](fx.distortion2~.html)
+[fx.distortion3~](fx.distortion3~.html)
+[fx.distortion~](fx.distortion~.html)
+[fx.drive~](fx.drive~.html)
+[fx.drone_box~](fx.drone_box~.html)
+[fx.echo2~](fx.echo2~.html)
+[fx.echo~](fx.echo~.html)
+[fx.flanger~](fx.flanger~.html)
+[fx.freeverb2~](fx.freeverb2~.html)
+[fx.freeverb~](fx.freeverb~.html)
+[fx.granulator~](fx.granulator~.html)
+[fx.greyhole~](fx.greyhole~.html)
+[fx.jcrev~](fx.jcrev~.html)
+[fx.overdrive~](fx.overdrive~.html)
+[fx.pitchshift_s~](fx.pitchshift_s~.html)
+[fx.pitchshift~](fx.pitchshift~.html)
+[fx.recho~](fx.recho~.html)
+[fx.ringmod~](fx.ringmod~.html)
+[fx.room~](fx.room~.html)
+[fx.satrev~](fx.satrev~.html)
+[fx.scramble~](fx.scramble~.html)
+[fx.shimmer~](fx.shimmer~.html)
+[fx.tapiir~](fx.tapiir~.html)
+[fx.tremolo~](fx.tremolo~.html)
+[fx.vocoder~](fx.vocoder~.html)
+[fx.wahwah~](fx.wahwah~.html)
+[fx.zita_rev1~](fx.zita_rev1~.html)
+[lfo.+pulse~](lfo.%2Bpulse~.html)
+[lfo.+saw~](lfo.%2Bsaw~.html)
+[lfo.+square~](lfo.%2Bsquare~.html)
+[lfo.+tri~](lfo.%2Btri~.html)
+[lfo.mosc~](lfo.mosc~.html)
+[lfo.pulse~](lfo.pulse~.html)
+[lfo.saw~](lfo.saw~.html)
+[lfo.square~](lfo.square~.html)
+[lfo.tri~](lfo.tri~.html)
+[live.capture~](live.capture~.html)
+[noise.chua~](noise.chua~.html)
+[noise.colored~](noise.colored~.html)
+[noise.crackle~](noise.crackle~.html)
+[noise.lfreq0~](noise.lfreq0~.html)
+[noise.lfreq~](noise.lfreq~.html)
+[osc.pulse~](osc.pulse~.html)
+[osc.saw4~](osc.saw4~.html)
+[osc.sinfb~](osc.sinfb~.html)
+[spat.pan4~](spat.pan4~.html)
+[spat.pan8~](spat.pan8~.html)
+[spat.zita6x8~](spat.zita6x8~.html)
+[spat.zita8~](spat.zita8~.html)
+[synth.birds~](synth.birds~.html)
+[synth.church_bell~](synth.church_bell~.html)
+[synth.clap~](synth.clap~.html)
+[synth.dubdub~](synth.dubdub~.html)
+[synth.dx7~](synth.dx7~.html)
+[synth.eguitar~](synth.eguitar~.html)
+[synth.english_bell~](synth.english_bell~.html)
+[synth.french_bell~](synth.french_bell~.html)
+[synth.german_bell~](synth.german_bell~.html)
+[synth.glass_harm~](synth.glass_harm~.html)
+[synth.harpsichord~](synth.harpsichord~.html)
+[synth.hat~](synth.hat~.html)
+[synth.kick2~](synth.kick2~.html)
+[synth.kick~](synth.kick~.html)
+[synth.ks~](synth.ks~.html)
+[synth.marimba~](synth.marimba~.html)
+[synth.metro~](synth.metro~.html)
+[synth.piano~](synth.piano~.html)
+[synth.risset_arp~](synth.risset_arp~.html)
+[synth.risset_bell~](synth.risset_bell~.html)
+[synth.risset_tone~](synth.risset_tone~.html)
+[synth.russian_bell~](synth.russian_bell~.html)
+[synth.snare~](synth.snare~.html)
+[synth.standard_bell~](synth.standard_bell~.html)
+[synth.voice_fofc~](synth.voice_fofc~.html)
+[synth.voice_fofs~](synth.voice_fofs~.html)
 
 ### @out
 [lang.lua](lang.lua.html)
@@ -2602,6 +3307,9 @@
 [ui.gain2~](ui.gain2~.html)
 [ui.gain~](ui.gain~.html)
 
+### @outputmode
+[hoa.map.ui](hoa.map.ui.html)
+
 ### @outputs
 [matrix~](matrix~.html)
 
@@ -2612,6 +3320,8 @@
 [fx.tapiir~](fx.tapiir~.html)
 
 ### @over_color
+[hoa.3d.meter~](hoa.3d.meter~.html)
+[ui.cmeter~](ui.cmeter~.html)
 [ui.meter~](ui.meter~.html)
 
 ### @overlap
@@ -2631,6 +3341,11 @@
 
 ### @p1
 [random.linear](random.linear.html)
+
+### @pack
+[conv.color2rgba](conv.color2rgba.html)
+[conv.hsl2rgb](conv.hsl2rgb.html)
+[conv.lab2rgb](conv.lab2rgb.html)
 
 ### @pad
 [list.resize](list.resize.html)
@@ -2676,6 +3391,7 @@
 [metro.pattern](metro.pattern.html)
 [metro.seq](metro.seq.html)
 [path.pattern](path.pattern.html)
+[rhythm.hexbeat](rhythm.hexbeat.html)
 
 ### @patterns
 [flow.match](flow.match.html)
@@ -2701,6 +3417,7 @@
 [synth.risset_bell~](synth.risset_bell~.html)
 
 ### @ph_color
+[hoa.3d.scope~](hoa.3d.scope~.html)
 [hoa.scope~](hoa.scope~.html)
 
 ### @phase
@@ -2724,11 +3441,17 @@
 [plot.linspace~](plot.linspace~.html)
 
 ### @pinned
+[hoa.2d.space](hoa.2d.space.html)
+[hoa.3d.meter~](hoa.3d.meter~.html)
+[hoa.3d.scope~](hoa.3d.scope~.html)
+[hoa.map.ui](hoa.map.ui.html)
 [hoa.scope~](hoa.scope~.html)
 [tl.cue](tl.cue.html)
 [ui.aview](ui.aview.html)
 [ui.bang](ui.bang.html)
 [ui.button](ui.button.html)
+[ui.canvas](ui.canvas.html)
+[ui.cmeter~](ui.cmeter~.html)
 [ui.colorpanel](ui.colorpanel.html)
 [ui.display](ui.display.html)
 [ui.dsp~](ui.dsp~.html)
@@ -2742,6 +3465,7 @@
 [ui.keyboard](ui.keyboard.html)
 [ui.knob](ui.knob.html)
 [ui.label](ui.label.html)
+[ui.lcd](ui.lcd.html)
 [ui.link](ui.link.html)
 [ui.matrix](ui.matrix.html)
 [ui.menu](ui.menu.html)
@@ -2766,6 +3490,7 @@
 [array.stretch](array.stretch.html)
 [fx.drone_box~](fx.drone_box~.html)
 [fx.pitchshift~](fx.pitchshift~.html)
+[snd.play~](snd.play~.html)
 [speech.flite](speech.flite.html)
 [speech.flite~](speech.flite~.html)
 [speech.rhvoice~](speech.rhvoice~.html)
@@ -2785,6 +3510,9 @@
 
 ### @pitchwheel
 [ui.midi](ui.midi.html)
+
+### @pixels
+[ui.lcd](ui.lcd.html)
 
 ### @play
 [modplug~](modplug~.html)
@@ -2879,6 +3607,8 @@
 [string.starts_with](string.starts_with.html)
 
 ### @presetname
+[hoa.2d.space](hoa.2d.space.html)
+[hoa.map.ui](hoa.map.ui.html)
 [ui.colorpanel](ui.colorpanel.html)
 [ui.env](ui.env.html)
 [ui.filter](ui.filter.html)
@@ -2923,21 +3653,31 @@
 ### @ps_drywet
 [fx.shimmer~](fx.shimmer~.html)
 
+### @pt_color
+[hoa.2d.space](hoa.2d.space.html)
+
 ### @ptype
 [hoa.@process](hoa.%40process.html)
 
+### @punct
+[speech.rhvoice~](speech.rhvoice~.html)
+
 ### @pw_x
 [hoa.2d.decoder~](hoa.2d.decoder~.html)
+[hoa.3d.decoder~](hoa.3d.decoder~.html)
 
 ### @pw_y
 [hoa.2d.decoder~](hoa.2d.decoder~.html)
+[hoa.3d.decoder~](hoa.3d.decoder~.html)
 
 ### @pw_z
-[hoa.2d.decoder~](hoa.2d.decoder~.html)
+[hoa.3d.decoder~](hoa.3d.decoder~.html)
 
 ### @q
 [flt.bpf12~](flt.bpf12~.html)
 [flt.bpf24~](flt.bpf24~.html)
+[flt.bpf36e~](flt.bpf36e~.html)
+[flt.bpf72e~](flt.bpf72e~.html)
 [flt.c_apf](flt.c_apf.html)
 [flt.c_bpf~](flt.c_bpf~.html)
 [flt.c_hpf](flt.c_hpf.html)
@@ -2958,6 +3698,10 @@
 ### @quality
 [array.resample](array.resample.html)
 [fx.rb_pitchshift~](fx.rb_pitchshift~.html)
+[qrcode](qrcode.html)
+
+### @quartile
+[qrcode](qrcode.html)
 
 ### @quiet
 [math.nan](math.nan.html)
@@ -3008,12 +3752,19 @@
 ### @ramp
 [hoa.2d.map~](hoa.2d.map~.html)
 [hoa.2d.recomposer~](hoa.2d.recomposer~.html)
+[hoa.3d.map~](hoa.3d.map~.html)
 
 ### @random
 [midi.oct](midi.oct.html)
 [synth.fgrain~](synth.fgrain~.html)
 
 ### @range
+[array.tramp~](array.tramp~.html)
+[dyn.comp_up2~](dyn.comp_up2~.html)
+[dyn.comp_up~](dyn.comp_up~.html)
+[dyn.expand2~](dyn.expand2~.html)
+[dyn.expand~](dyn.expand~.html)
+[fx.scramble~](fx.scramble~.html)
 [list.normalize](list.normalize.html)
 [synth.risset_tone~](synth.risset_tone~.html)
 [ui.rslider](ui.rslider.html)
@@ -3023,6 +3774,7 @@
 [array.stretch](array.stretch.html)
 [hw.arduino](hw.arduino.html)
 [hw.serial](hw.serial.html)
+[net.artnet.send](net.artnet.send.html)
 [speech.rhvoice~](speech.rhvoice~.html)
 [synth.risset_tone~](synth.risset_tone~.html)
 
@@ -3046,9 +3798,14 @@
 [fx.looper~](fx.looper~.html)
 
 ### @receive
+[hoa.2d.space](hoa.2d.space.html)
+[hoa.3d.meter~](hoa.3d.meter~.html)
+[hoa.map.ui](hoa.map.ui.html)
 [ui.aview](ui.aview.html)
 [ui.bang](ui.bang.html)
 [ui.button](ui.button.html)
+[ui.canvas](ui.canvas.html)
+[ui.cmeter~](ui.cmeter~.html)
 [ui.colorpanel](ui.colorpanel.html)
 [ui.display](ui.display.html)
 [ui.dsp~](ui.dsp~.html)
@@ -3062,6 +3819,7 @@
 [ui.keyboard](ui.keyboard.html)
 [ui.knob](ui.knob.html)
 [ui.label](ui.label.html)
+[ui.lcd](ui.lcd.html)
 [ui.matrix](ui.matrix.html)
 [ui.menu](ui.menu.html)
 [ui.meter~](ui.meter~.html)
@@ -3093,12 +3851,22 @@
 [env2array](env2array.html)
 
 ### @refresh
+[dyn.comp2~](dyn.comp2~.html)
+[dyn.comp_peak2~](dyn.comp_peak2~.html)
+[dyn.comp_peak~](dyn.comp_peak~.html)
+[dyn.comp_up2~](dyn.comp_up2~.html)
+[dyn.comp_up~](dyn.comp_up~.html)
+[dyn.comp~](dyn.comp~.html)
+[dyn.expand2~](dyn.expand2~.html)
+[dyn.expand~](dyn.expand~.html)
+[hoa.3d.scope~](hoa.3d.scope~.html)
 [hoa.scope~](hoa.scope~.html)
 [ui.scope~](ui.scope~.html)
 [ui.spectroscope~](ui.spectroscope~.html)
 
 ### @regular
 [hoa.2d.decoder~](hoa.2d.decoder~.html)
+[hoa.3d.decoder~](hoa.3d.decoder~.html)
 
 ### @rel
 [list.^at](list.%5Eat.html)
@@ -3111,14 +3879,22 @@
 
 ### @release
 [dyn.comp2~](dyn.comp2~.html)
+[dyn.comp_peak2~](dyn.comp_peak2~.html)
+[dyn.comp_peak~](dyn.comp_peak~.html)
+[dyn.comp_up2~](dyn.comp_up2~.html)
+[dyn.comp_up~](dyn.comp_up~.html)
 [dyn.comp~](dyn.comp~.html)
+[dyn.expand2~](dyn.expand2~.html)
+[dyn.expand~](dyn.expand~.html)
 [dyn.gate2~](dyn.gate2~.html)
 [dyn.gate~](dyn.gate~.html)
 [env.adsr~](env.adsr~.html)
 [env.ar~](env.ar~.html)
+[env.asr2~](env.asr2~.html)
 [env.asr~](env.asr~.html)
 [env.follow~](env.follow~.html)
 [fx.vocoder~](fx.vocoder~.html)
+[live.capture~](live.capture~.html)
 [synth.clap~](synth.clap~.html)
 [synth.hat~](synth.hat~.html)
 [synth.kick2~](synth.kick2~.html)
@@ -3168,6 +3944,7 @@
 [array.vplay](array.vplay.html)
 
 ### @rgb
+[color.scale](color.scale.html)
 [ui.colorpanel](ui.colorpanel.html)
 
 ### @ri
@@ -3190,11 +3967,15 @@
 [canvas.current](canvas.current.html)
 [midi.modus](midi.modus.html)
 
+### @rotation
+[ui.cmeter~](ui.cmeter~.html)
+
 ### @round
 [fx.looper~](fx.looper~.html)
 
 ### @rows
 [seq.life](seq.life.html)
+[ui.lcd](ui.lcd.html)
 [ui.matrix](ui.matrix.html)
 
 ### @rpos
@@ -3202,6 +3983,9 @@
 
 ### @rtree
 [rtree.to_list](rtree.to_list.html)
+
+### @rule
+[rhythm.lsystem](rhythm.lsystem.html)
 
 ### @s
 [list.range](list.range.html)
@@ -3218,6 +4002,7 @@
 [ui.colorpanel](ui.colorpanel.html)
 
 ### @scale
+[color.scale](color.scale.html)
 [conv.degree2key](conv.degree2key.html)
 [env.tscale](env.tscale.html)
 [env.vscale](env.vscale.html)
@@ -3237,6 +4022,9 @@
 [proto.xtouch_ext](proto.xtouch_ext.html)
 
 ### @seed
+[metro.choice](metro.choice.html)
+[metro.random](metro.random.html)
+[metro.wchoice](metro.wchoice.html)
 [midi.arp](midi.arp.html)
 [midi.vrand](midi.vrand.html)
 [prop.random](prop.random.html)
@@ -3277,12 +4065,18 @@
 [ui.tab](ui.tab.html)
 
 ### @selection_color
+[hoa.map.ui](hoa.map.ui.html)
 [ui.aview](ui.aview.html)
 
 ### @send
+[hoa.2d.space](hoa.2d.space.html)
+[hoa.3d.meter~](hoa.3d.meter~.html)
+[hoa.map.ui](hoa.map.ui.html)
 [ui.aview](ui.aview.html)
 [ui.bang](ui.bang.html)
 [ui.button](ui.button.html)
+[ui.canvas](ui.canvas.html)
+[ui.cmeter~](ui.cmeter~.html)
 [ui.colorpanel](ui.colorpanel.html)
 [ui.dsp~](ui.dsp~.html)
 [ui.env](ui.env.html)
@@ -3294,6 +4088,7 @@
 [ui.incdec](ui.incdec.html)
 [ui.keyboard](ui.keyboard.html)
 [ui.knob](ui.knob.html)
+[ui.lcd](ui.lcd.html)
 [ui.matrix](ui.matrix.html)
 [ui.menu](ui.menu.html)
 [ui.meter~](ui.meter~.html)
@@ -3393,6 +4188,7 @@
 [canvas.current](canvas.current.html)
 [canvas.top](canvas.top.html)
 [conv.int2bits](conv.int2bits.html)
+[data.bimap](data.bimap.html)
 [data.dict](data.dict.html)
 [data.fifo](data.fifo.html)
 [data.list](data.list.html)
@@ -3404,15 +4200,21 @@
 [fx.greyhole~](fx.greyhole~.html)
 [fx.infrev~](fx.infrev~.html)
 [fx.room~](fx.room~.html)
+[global.bimap](global.bimap.html)
 [global.dict](global.dict.html)
 [global.list](global.list.html)
 [global.mlist](global.mlist.html)
 [global.set](global.set.html)
+[hoa.2d.space](hoa.2d.space.html)
+[hoa.3d.meter~](hoa.3d.meter~.html)
+[hoa.3d.scope~](hoa.3d.scope~.html)
+[hoa.map.ui](hoa.map.ui.html)
 [hoa.scope~](hoa.scope~.html)
 [list.repack](list.repack.html)
 [list.resize](list.resize.html)
 [list.stretch](list.stretch.html)
 [list.walk](list.walk.html)
+[local.bimap](local.bimap.html)
 [local.dict](local.dict.html)
 [local.list](local.list.html)
 [local.mlist](local.mlist.html)
@@ -3422,6 +4224,8 @@
 [ui.aview](ui.aview.html)
 [ui.bang](ui.bang.html)
 [ui.button](ui.button.html)
+[ui.canvas](ui.canvas.html)
+[ui.cmeter~](ui.cmeter~.html)
 [ui.colorpanel](ui.colorpanel.html)
 [ui.display](ui.display.html)
 [ui.dsp~](ui.dsp~.html)
@@ -3435,6 +4239,7 @@
 [ui.keyboard](ui.keyboard.html)
 [ui.knob](ui.knob.html)
 [ui.label](ui.label.html)
+[ui.lcd](ui.lcd.html)
 [ui.matrix](ui.matrix.html)
 [ui.menu](ui.menu.html)
 [ui.meter~](ui.meter~.html)
@@ -3468,7 +4273,10 @@
 [ui.sliders](ui.sliders.html)
 
 ### @smooth
+[fx.delay~](fx.delay~.html)
+[fx.echo~](fx.echo~.html)
 [fx.rb_pitchshift~](fx.rb_pitchshift~.html)
+[gate~](gate~.html)
 [pan.cos~](pan.cos~.html)
 [pan.lin~](pan.lin~.html)
 [pan.sqrt~](pan.sqrt~.html)
@@ -3489,6 +4297,9 @@
 
 ### @soundfonts
 [fluid~](fluid~.html)
+
+### @sp_color
+[hoa.2d.space](hoa.2d.space.html)
 
 ### @sp_high_freq
 [fx.distortion1~](fx.distortion1~.html)
@@ -3517,6 +4328,7 @@
 
 ### @speed
 [array.play~](array.play~.html)
+[array.tramp~](array.tramp~.html)
 [array.vplay](array.vplay.html)
 [flow.record](flow.record.html)
 [fx.flanger~](fx.flanger~.html)
@@ -3524,6 +4336,8 @@
 [fx.stutter~](fx.stutter~.html)
 [fx.wahwah~](fx.wahwah~.html)
 [midi.track](midi.track.html)
+[proto.ltc.out~](proto.ltc.out~.html)
+[snd.play~](snd.play~.html)
 [speech.flite](speech.flite.html)
 [speech.flite~](speech.flite~.html)
 [synth.birds~](synth.birds~.html)
@@ -3554,6 +4368,8 @@
 ### @src
 [array.resample](array.resample.html)
 [array.stretch](array.stretch.html)
+[fx.ringmod~](fx.ringmod~.html)
+[fx.tremolo~](fx.tremolo~.html)
 
 ### @stable
 [list.unique](list.unique.html)
@@ -3583,6 +4399,7 @@
 [list.rotate](list.rotate.html)
 [list.seq](list.seq.html)
 [list.slice](list.slice.html)
+[route.cycle](route.cycle.html)
 [ui.incdec](ui.incdec.html)
 
 ### @steps
@@ -3611,7 +4428,16 @@
 ### @str
 [string.remove](string.remove.html)
 
+### @strength
+[dyn.comp_peak2~](dyn.comp_peak2~.html)
+[dyn.comp_peak~](dyn.comp_peak~.html)
+[dyn.comp_up2~](dyn.comp_up2~.html)
+[dyn.comp_up~](dyn.comp_up~.html)
+[dyn.expand2~](dyn.expand2~.html)
+[dyn.expand~](dyn.expand~.html)
+
 ### @stretch
+[snd.play~](snd.play~.html)
 [synth.fgrain~](synth.fgrain~.html)
 
 ### @strict
@@ -3621,6 +4447,9 @@
 
 ### @strike
 [synth.glass_harm~](synth.glass_harm~.html)
+
+### @style
+[ui.faust~](ui.faust~.html)
 
 ### @sub
 [midi.vrand](midi.vrand.html)
@@ -3633,6 +4462,9 @@
 
 ### @sublist
 [list.contains](list.contains.html)
+
+### @subnet
+[net.artnet.send](net.artnet.send.html)
 
 ### @subpatch
 [preset.float](preset.float.html)
@@ -3647,12 +4479,16 @@
 
 ### @sustain
 [env.adsr~](env.adsr~.html)
+[env.asr2~](env.asr2~.html)
 [env.asr~](env.asr~.html)
+[live.capture~](live.capture~.html)
 
 ### @sym
+[conv.char2morse](conv.char2morse.html)
 [string.split](string.split.html)
 
 ### @symbol
+[conv.ms2str](conv.ms2str.html)
 [conv.sec2str](conv.sec2str.html)
 [list.max](list.max.html)
 [list.min](list.min.html)
@@ -3662,13 +4498,19 @@
 
 ### @sync
 [array.grainer~](array.grainer~.html)
+[conv.hsl2rgb](conv.hsl2rgb.html)
+[conv.lab2rgb](conv.lab2rgb.html)
+[conv.rgb2hex](conv.rgb2hex.html)
 [env2vline](env2vline.html)
 [file.size](file.size.html)
 [flow.record](flow.record.html)
 [math.and](math.and.html)
 [math.or](math.or.html)
 [metro.pattern](metro.pattern.html)
+[msg.pack](msg.pack.html)
+[net.artnet.send](net.artnet.send.html)
 [path.search](path.search.html)
+[snd.play~](snd.play~.html)
 
 ### @sysex
 [ui.midi](ui.midi.html)
@@ -3677,6 +4519,7 @@
 [conv.midi2freq](conv.midi2freq.html)
 [flow.seqdelay](flow.seqdelay.html)
 [fx.stutter~](fx.stutter~.html)
+[metro.wchoice](metro.wchoice.html)
 [midi.arp](midi.arp.html)
 [seq.bangs](seq.bangs.html)
 [seq.matrix](seq.matrix.html)
@@ -3894,8 +4737,11 @@
 [array.stretch](array.stretch.html)
 [midi.file](midi.file.html)
 [midi.track](midi.track.html)
+[synth.metro~](synth.metro~.html)
 
 ### @tepid_color
+[hoa.3d.meter~](hoa.3d.meter~.html)
+[ui.cmeter~](ui.cmeter~.html)
 [ui.meter~](ui.meter~.html)
 
 ### @text
@@ -3917,7 +4763,13 @@
 [an.onset~](an.onset~.html)
 [an.tempo~](an.tempo~.html)
 [dyn.comp2~](dyn.comp2~.html)
+[dyn.comp_peak2~](dyn.comp_peak2~.html)
+[dyn.comp_peak~](dyn.comp_peak~.html)
+[dyn.comp_up2~](dyn.comp_up2~.html)
+[dyn.comp_up~](dyn.comp_up~.html)
 [dyn.comp~](dyn.comp~.html)
+[dyn.expand2~](dyn.expand2~.html)
+[dyn.expand~](dyn.expand~.html)
 [dyn.gate2~](dyn.gate2~.html)
 [dyn.gate~](dyn.gate~.html)
 
@@ -3927,11 +4779,15 @@
 ### @timeout
 [net.http.send](net.http.send.html)
 
+### @timeset
+[metro.choice](metro.choice.html)
+
 ### @title
 [ui.link](ui.link.html)
 [ui.menu](ui.menu.html)
 
 ### @to
+[array.tramp~](array.tramp~.html)
 [conv.cc2amp](conv.cc2amp.html)
 [list.seq](list.seq.html)
 [list.slice](list.slice.html)
@@ -3939,6 +4795,13 @@
 [replace](replace.html)
 [seq.counter](seq.counter.html)
 [string.replace](string.replace.html)
+
+### @toB
+[hoa.2d.exchanger~](hoa.2d.exchanger~.html)
+[hoa.3d.exchanger~](hoa.3d.exchanger~.html)
+
+### @toDaniel
+[hoa.3d.exchanger~](hoa.3d.exchanger~.html)
 
 ### @toggle
 [ui.tab](ui.tab.html)
@@ -3976,6 +4839,10 @@
 ### @trim
 [list.route](list.route.html)
 
+### @tsig
+[conv.bar2ms](conv.bar2ms.html)
+[synth.metro~](synth.metro~.html)
+
 ### @tsync
 [array.grainer~](array.grainer~.html)
 
@@ -4010,13 +4877,25 @@
 [ui.mouse_filter](ui.mouse_filter.html)
 [ui.mouse_route](ui.mouse_route.html)
 
+### @upbeat
+[seq.bangs](seq.bangs.html)
+[seq.matrix](seq.matrix.html)
+[seq.toggles](seq.toggles.html)
+[sequencer](sequencer.html)
+
 ### @url
 [net.osc.send](net.osc.send.html)
 [net.osc.server](net.osc.server.html)
 [ui.link](ui.link.html)
 
+### @use_date
+[proto.ltc.in~](proto.ltc.in~.html)
+
 ### @user
 [net.http.send](net.http.send.html)
+
+### @utc
+[chrono.datetime](chrono.datetime.html)
 
 ### @v
 [flow.select](flow.select.html)
@@ -4036,15 +4915,19 @@
 [list.correlate](list.correlate.html)
 
 ### @value
+[data.bimap](data.bimap.html)
+[data.color](data.color.html)
 [data.float](data.float.html)
 [data.int](data.int.html)
 [data.list](data.list.html)
+[data.mlist](data.mlist.html)
 [flow.count](flow.count.html)
 [flow.demultiplex2~](flow.demultiplex2~.html)
 [flow.demultiplex~](flow.demultiplex~.html)
 [flow.multiplex2~](flow.multiplex2~.html)
 [flow.multiplex~](flow.multiplex~.html)
 [gain~](gain~.html)
+[global.bimap](global.bimap.html)
 [global.float](global.float.html)
 [global.int](global.int.html)
 [global.list](global.list.html)
@@ -4056,12 +4939,15 @@
 [list.prepend](list.prepend.html)
 [list.set](list.set.html)
 [list.walk](list.walk.html)
+[local.bimap](local.bimap.html)
 [local.float](local.float.html)
 [local.int](local.int.html)
 [local.list](local.list.html)
 [math.approx](math.approx.html)
 [mix~](mix~.html)
+[qrcode](qrcode.html)
 [random.atom](random.atom.html)
+[rhythm.lsystem](rhythm.lsystem.html)
 [seq.counter](seq.counter.html)
 [spring](spring.html)
 [string](string.html)
@@ -4091,9 +4977,15 @@
 [flow.reject](flow.reject.html)
 [nsig~](nsig~.html)
 
+### @vectors
+[hoa.3d.meter~](hoa.3d.meter~.html)
+
 ### @vel
 [conv.bits2note](conv.bits2note.html)
 [midi.kbd](midi.kbd.html)
+
+### @velocity_color
+[hoa.3d.meter~](hoa.3d.meter~.html)
 
 ### @vendor_id
 [hw.arduino](hw.arduino.html)
@@ -4117,6 +5009,9 @@
 [fx.distortion2~](fx.distortion2~.html)
 
 ### @view
+[hoa.3d.meter~](hoa.3d.meter~.html)
+[hoa.3d.scope~](hoa.3d.scope~.html)
+[hoa.map.ui](hoa.map.ui.html)
 [hoa.scope~](hoa.scope~.html)
 
 ### @voice
@@ -4131,6 +5026,8 @@
 
 ### @volume
 [fluid~](fluid~.html)
+[proto.ltc.in~](proto.ltc.in~.html)
+[proto.ltc.out~](proto.ltc.out~.html)
 [sfizz~](sfizz~.html)
 [speech.rhvoice~](speech.rhvoice~.html)
 
@@ -4139,9 +5036,12 @@
 [synth.voice_fofs~](synth.voice_fofs~.html)
 
 ### @w
+[metro.wchoice](metro.wchoice.html)
 [random.atom](random.atom.html)
 
 ### @warm_color
+[hoa.3d.meter~](hoa.3d.meter~.html)
+[ui.cmeter~](ui.cmeter~.html)
 [ui.meter~](ui.meter~.html)
 
 ### @wave
@@ -4192,6 +5092,9 @@
 
 ### @with
 [symbol.num_compare](symbol.num_compare.html)
+
+### @word
+[proto.morse](proto.morse.html)
 
 ### @wphase
 [an.onset](an.onset.html)
@@ -4302,10 +5205,13 @@
 ### @z
 [z~](z~.html)
 
+### @zoom
+[hoa.map.ui](hoa.map.ui.html)
+
 
 ---
 **Website:** [https://github.com/uliss/pure-data](https://github.com/uliss/pure-data)
 
 **License:** GPL3
 
-**Authors:** Albert Graef, Alex Nadzharov, André Sier, Eliott Paris, Hans-Christoph Steiner, Julian Parker, Katja Vetter, Mayank Sanganeria, Mikhail Malt, Oliver Larkin, Olli Parviainen, Paul Bourke, Pierre Cochard, Pierre Guillot, Richard Dudas, Romain Michon, Serge Poltavsky, Serge Potlavsky, Thomas Le Meur, Till Bovermann, Viacheslav Lotsmanov, Yann Orlarey, naivesound, thedrgreenthumb
+**Authors:** Albert Graef, Alex Nadzharov, André Sier, Eliott Paris, Hans-Christoph Steiner, Julian Parker, Katja Vetter, Mayank Sanganeria, Mikhail Malt, Oliver Larkin, Olli Parviainen, Paul Bourke, Pierre Cochard, Pierre Guillot, Richard Dudas, Romain Michon, Serge Poltavski, Serge Poltavsky, Thomas Le Meur, Till Bovermann, Viacheslav Lotsmanov, Yann Orlarey, naivesound, thedrgreenthumb

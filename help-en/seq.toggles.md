@@ -30,14 +30,14 @@ _type:_ list<br>
 
 ## methods:
 
-* **start**
-start sequencer from current position<br>
-
 * **reset**
 reset all counters and stop<br>
 
 * **rewind**
 reset all counters without stopping<br>
+
+* **start**
+start sequencer from current position<br>
 
 * **stop**
 stop sequencer<br>
@@ -49,6 +49,12 @@ output current sequence element and move to next<br>
 
 
 ## properties:
+
+* **@div** 
+Get/set beat subdivision<br>
+_type:_ int<br>
+_range:_ 1..64<br>
+_default:_ 1<br>
 
 * **@t** 
 Get/set time between beats. Unit values like 100ms, 240bpm or 60|4bpm also can be used<br>
@@ -82,6 +88,12 @@ _units:_ ms<br>
 _min value:_ 0<br>
 _default:_ 0<br>
 
+* **@upbeat** 
+Get/set wait specified number of beats before sequence start<br>
+_type:_ float<br>
+_min value:_ 0<br>
+_default:_ 0<br>
+
 * **@length** 
 Get/set event length. In case of float or float wuth &#39;ms&#39; suffix - event length is
 fixed for any event duration. In case of V% - @length expected to be in 0..100
@@ -93,13 +105,11 @@ _default:_ 75<br>
 * **@i** (readonly)
 Get current sequence iteration<br>
 _type:_ int<br>
-_min value:_ 0<br>
 _default:_ 0<br>
 
 * **@ri** (readonly)
 Get current repeat iteration<br>
 _type:_ int<br>
-_min value:_ 0<br>
 _default:_ 0<br>
 
 * **@mode** 
@@ -135,7 +145,7 @@ _type:_ control
 [sequencer](keywords/sequencer.html)
 [toggle](keywords/toggle.html)
 [pattern](keywords/pattern.html)
-[rythm](keywords/rythm.html)
+[rhythm](keywords/rhythm.html)
 
 
 

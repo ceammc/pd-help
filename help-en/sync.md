@@ -12,6 +12,8 @@
 ---
 
 
+## information
+The value send to inlet repeated to all outlets except from the current one. This prevents infinite loops
 
 
 [![example](../examples/img/sync.jpg)](../examples/pd/sync.pd)
@@ -27,6 +29,14 @@ _type:_ int<br>
 
 
 
+
+## properties:
+
+* **@n** (initonly)
+Get/set number of synced values<br>
+_type:_ int<br>
+_range:_ 2..8<br>
+_default:_ 2<br>
 
 
 

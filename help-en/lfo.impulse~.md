@@ -18,7 +18,7 @@
 
 ## arguments:
 
-* **freq**
+* **FREQ**
 frequency<br>
 _type:_ float<br>
 _units:_ Hz<br>

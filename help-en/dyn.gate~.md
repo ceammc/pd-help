@@ -19,7 +19,7 @@
 ## arguments:
 
 * **THRESHOLD**
-dB level threshold above which gate opens (e.g., 40 dB)<br>
+dB level threshold above which gate opens<br>
 _type:_ float<br>
 _units:_ db<br>
 
@@ -40,6 +40,12 @@ _units:_ ms<br>
 
 
 
+## methods:
+
+* **reset**
+reset to initial state<br>
+
+
 
 
 ## properties:
@@ -48,8 +54,8 @@ _units:_ ms<br>
 Get/set dB level threshold above which gate opens<br>
 _type:_ float<br>
 _units:_ db<br>
-_range:_ 0..100<br>
-_default:_ 40<br>
+_range:_ -90..0<br>
+_default:_ -60<br>
 
 * **@attack** 
 Get/set attack time = time constant (ms) for gate to open<br>
@@ -72,10 +78,24 @@ _units:_ ms<br>
 _range:_ 1..500<br>
 _default:_ 20<br>
 
+* **@bypass** 
+Get/set bypass flag. If true: bypass &#39;effected&#39; signal.<br>
+_type:_ bool<br>
+_default:_ 0<br>
+
 * **@active** 
 Get/set on/off dsp processing<br>
 _type:_ bool<br>
 _default:_ 1<br>
+
+* **@osc** (initonly)
+Get/set OSC server name to listen<br>
+_type:_ symbol<br>
+
+* **@id** (initonly)
+Get/set OSC address id. If specified, bind all properties to /ID/dyn_gate/PROP_NAME osc
+address, if empty bind to /dyn_gate/PROP_NAME.<br>
+_type:_ symbol<br>
 
 
 
@@ -83,6 +103,8 @@ _default:_ 1<br>
 
 * input signal<br>
 _type:_ audio
+* set threshold<br>
+_type:_ control
 
 
 

@@ -13,6 +13,6 @@
 [**ui.faust\~**](ui.faust~.html): faust compiled ui object 
 
 
-**Version:** 0.9.6
+**Version:** 0.9.7
 
 **License:** GPL3

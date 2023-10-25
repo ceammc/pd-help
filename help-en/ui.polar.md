@@ -20,18 +20,39 @@
 
 ## methods:
 
-* **dump**
-dumps all object info to Pd console window<br>
-
-* **set**
-sets slider position without output<br>
+* **cartesian**
+sets slider position in cartesian coords and output<br>
   __parameters:__
-  - **RAD** radius<br>
+  - **X** x-coord<br>
     type: float <br>
     required: True <br>
 
-  - **ANG** angle in degrees or radians (depends on @use_degrees property)<br>
+  - **Y** y-coord<br>
     type: float <br>
+    required: True <br>
+
+* **clear**
+clears specified preset<br>
+  __parameters:__
+  - **IDX** preset index<br>
+    type: int <br>
+    required: True <br>
+
+* **dump**
+dumps all object info to Pd console window<br>
+
+* **interp**
+interplolates between presets<br>
+  __parameters:__
+  - **IDX** preset fraction index<br>
+    type: float <br>
+    required: True <br>
+
+* **load**
+loads specified preset<br>
+  __parameters:__
+  - **IDX** preset index<br>
+    type: int <br>
     required: True <br>
 
 * **polar**
@@ -45,55 +66,6 @@ sets slider position in polar coords and output<br>
     type: float <br>
     required: True <br>
 
-* **cartesian**
-sets slider position in cartesian coords and output<br>
-  __parameters:__
-  - **X** x-coord<br>
-    type: float <br>
-    required: True <br>
-
-  - **Y** y-coord<br>
-    type: float <br>
-    required: True <br>
-
-* **rotate**
-rotate slider by specified angle<br>
-  __parameters:__
-  - **A** angle in degrees or radians (depends on @use_degrees property)<br>
-    type: float <br>
-    required: True <br>
-
-* **random**
-set to random value and output<br>
-
-* **load**
-loads specified preset<br>
-  __parameters:__
-  - **IDX** preset index<br>
-    type: int <br>
-    required: True <br>
-
-* **store**
-stores specified preset<br>
-  __parameters:__
-  - **IDX** preset index<br>
-    type: int <br>
-    required: True <br>
-
-* **clear**
-clears specified preset<br>
-  __parameters:__
-  - **IDX** preset index<br>
-    type: int <br>
-    required: True <br>
-
-* **interp**
-interplolates between presets<br>
-  __parameters:__
-  - **IDX** preset fraction index<br>
-    type: float <br>
-    required: True <br>
-
 * **pos**
 set UI element position<br>
   __parameters:__
@@ -103,6 +75,34 @@ set UI element position<br>
 
   - **Y** top right y-coord<br>
     type: float <br>
+    required: True <br>
+
+* **random**
+set to random value and output<br>
+
+* **rotate**
+rotate slider by specified angle<br>
+  __parameters:__
+  - **A** angle in degrees or radians (depends on @use_degrees property)<br>
+    type: float <br>
+    required: True <br>
+
+* **set**
+sets slider position without output<br>
+  __parameters:__
+  - **RAD** radius<br>
+    type: float <br>
+    required: True <br>
+
+  - **ANG** angle in degrees or radians (depends on @use_degrees property)<br>
+    type: float <br>
+    required: True <br>
+
+* **store**
+stores specified preset<br>
+  __parameters:__
+  - **IDX** preset index<br>
+    type: int <br>
     required: True <br>
 
 

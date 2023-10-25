@@ -14,7 +14,7 @@ _aliases:_ \[seq.b\]
 
 [**seq.counter**](seq.counter.html): sequencer counter 
 
-[**seq.life**](seq.life.html): Conway gamw of life sequencer 
+[**seq.life**](seq.life.html): Conway game of life sequencer 
 
 [**seq.matrix**](seq.matrix.html): sequencer control for ui.matrix 
 
@@ -33,6 +33,6 @@ _aliases:_ \[ceammc/sequencer\], \[ceammc/seq\], \[seq\]
 
 
 
-**Version:** 0.9.6
+**Version:** 0.9.7
 
 **License:** GPL3

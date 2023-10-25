@@ -3,7 +3,7 @@
 
 # canvas.dir
 
-###### current canvas directory
+###### current canvas directory and nesting level
 
 *available since version:* 0.8
 
@@ -20,6 +20,16 @@
 
 
 
+## properties:
+
+* **@abs** 
+Get/set abstraction mode. If true: output topmost parent canvas directory if this
+object was not created inside an abstraction, and abstraction directory if it
+was. If false: output topmost parent canvas directory even this object was
+create inside the abstrction subpatch.<br>
+_type:_ bool<br>
+_default:_ 1<br>
+
 
 
 ## inlets:
@@ -31,7 +41,9 @@ _type:_ control
 
 ## outlets:
 
-* current canvas directory as symbol<br>
+* symbol: current canvas directory<br>
+_type:_ control
+* int: nesting level<br>
 _type:_ control
 
 

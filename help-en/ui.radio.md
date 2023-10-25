@@ -30,46 +30,16 @@ _type:_ float<br>
 
 ## methods:
 
-* **set**
-sets radio without output<br>
-  __parameters:__
-  - **V** new value<br>
-    type: float <br>
-    required: True <br>
-
-* **reset**
-reset radio (only in checklist mode)<br>
-
-* **random**
-select random cells. If called as [random move( moves to another random cell
-(excluding the current one)<br>
-
-* **flip**
-flips radio (only in checklist mode)<br>
-
-* **next**
-moves to next position until last cell is reached (single mode only)<br>
-
-* **prev**
-moves to previous position until first cell is reached (single mode only)<br>
-
 * **+ STEP**
 moves several steps forward on a loop (single mode only)<br>
 
 * **- STEP**
 moves several step backwards on a loop (single mode only)<br>
 
-* **load**
-loads specified preset<br>
+* **cellsize**
+set cell size (resize widget)<br>
   __parameters:__
-  - **IDX** preset index<br>
-    type: int <br>
-    required: True <br>
-
-* **store**
-stores specified preset<br>
-  __parameters:__
-  - **IDX** preset index<br>
+  - **X** cell size in pixels<br>
     type: int <br>
     required: True <br>
 
@@ -80,8 +50,38 @@ clears specified preset<br>
     type: int <br>
     required: True <br>
 
+* **euclid**
+set euclid pattern (checklist mode only)<br>
+  __parameters:__
+  - **BEATS** requested number of beats<br>
+    type: int <br>
+    required: True <br>
+
+  - **[OFFSET]** pattern offset (rotation to the right)<br>
+    type: int <br>
+
+* **flip**
+flips radio (only in checklist mode)<br>
+
+* **hexbeat**
+set hexbeat pattern (checklist mode only)<br>
+  __parameters:__
+  - **HEXSTR** hex string. For example, 0xF1 will set 1 1 1 1 0 0 0 1 pattern<br>
+    type: symbol <br>
+    required: True <br>
+
 * **interp**
 for this object acts as *load*, no interpolation performed<br>
+
+* **load**
+loads specified preset<br>
+  __parameters:__
+  - **IDX** preset index<br>
+    type: int <br>
+    required: True <br>
+
+* **next**
+moves to next position until last cell is reached (single mode only)<br>
 
 * **pos**
 set UI element position<br>
@@ -92,6 +92,37 @@ set UI element position<br>
 
   - **Y** top right y-coord<br>
     type: float <br>
+    required: True <br>
+
+* **prev**
+moves to previous position until first cell is reached (single mode only)<br>
+
+* **random**
+select random cells. If called as [random move( moves to another random cell
+(excluding the current one)<br>
+
+* **reset**
+reset radio (only in checklist mode)<br>
+
+* **rotate**
+left rotate (checklist mode only)<br>
+  __parameters:__
+  - **STEPS** number of steps<br>
+    type: int <br>
+    required: True <br>
+
+* **set**
+sets radio without output<br>
+  __parameters:__
+  - **V** new value<br>
+    type: float <br>
+    required: True <br>
+
+* **store**
+stores specified preset<br>
+  __parameters:__
+  - **IDX** preset index<br>
+    type: int <br>
     required: True <br>
 
 

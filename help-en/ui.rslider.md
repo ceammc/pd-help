@@ -24,27 +24,6 @@ By default outputs messages on mouse click, mouse up and dragging To output mess
 
 ## methods:
 
-* **set**
-sets slider value without output<br>
-  __parameters:__
-  - **V** new value<br>
-    type: float <br>
-    required: True <br>
-
-* **load**
-loads specified preset<br>
-  __parameters:__
-  - **IDX** preset index<br>
-    type: int <br>
-    required: True <br>
-
-* **store**
-stores specified preset<br>
-  __parameters:__
-  - **IDX** preset index<br>
-    type: int <br>
-    required: True <br>
-
 * **clear**
 clears specified preset<br>
   __parameters:__
@@ -59,6 +38,13 @@ interplolates between presets<br>
     type: float <br>
     required: True <br>
 
+* **load**
+loads specified preset<br>
+  __parameters:__
+  - **IDX** preset index<br>
+    type: int <br>
+    required: True <br>
+
 * **pos**
 set UI element position<br>
   __parameters:__
@@ -68,6 +54,20 @@ set UI element position<br>
 
   - **Y** top right y-coord<br>
     type: float <br>
+    required: True <br>
+
+* **set**
+sets slider value without output<br>
+  __parameters:__
+  - **V** new value<br>
+    type: float <br>
+    required: True <br>
+
+* **store**
+stores specified preset<br>
+  __parameters:__
+  - **IDX** preset index<br>
+    type: int <br>
     required: True <br>
 
 

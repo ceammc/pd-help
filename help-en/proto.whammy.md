@@ -30,8 +30,17 @@ _type:_ bool<br>
 
 ## methods:
 
-* **toggle**
-toggle pedal on/off<br>
+* **next**
+select next preset<br>
+  __parameters:__
+  - **[N]** positive step or &#39;random&#39;<br>
+    type: atom <br>
+
+* **prev**
+select previous preset<br>
+  __parameters:__
+  - **[N]** positive step or &#39;random&#39;<br>
+    type: atom <br>
 
 * **random**
 choose random preset<br>
@@ -80,17 +89,8 @@ set preset by transpose range.<br>
   - **[STATE]** pedal state (on/off)<br>
     type: int <br>
 
-* **next**
-select next preset<br>
-  __parameters:__
-  - **[N]** positive step or &#39;random&#39;<br>
-    type: atom <br>
-
-* **prev**
-select previous preset<br>
-  __parameters:__
-  - **[N]** positive step or &#39;random&#39;<br>
-    type: atom <br>
+* **toggle**
+toggle pedal on/off<br>
 
 
 

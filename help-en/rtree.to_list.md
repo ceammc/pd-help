@@ -5,7 +5,7 @@
 **aliases:** [ceammc/rtree-&gt;list], [rtree-&gt;list]
 
 
-###### convert OpenMusic-like rythm tree to list of fractions
+###### convert OpenMusic-like rhythm tree to list of fractions
 
 *available since version:* 0.9.1
 
@@ -13,7 +13,7 @@
 
 
 ## information
-Rythm tree is structure to define complex rythmic patterns Examples: (1 1 1) - triplet, (2 1) - swing
+rhythm tree is structure to define complex rhythmic patterns Examples: (1 1 1) - triplet, (2 1) - swing
 
 
 [![example](../examples/img/rtree.to_list.jpg)](../examples/pd/rtree.to_list.pd)
@@ -27,7 +27,7 @@ total pattern duration<br>
 _type:_ float<br>
 
 * **RTREE**
-rythm tree<br>
+rhythm tree<br>
 _type:_ atom<br>
 
 
@@ -42,7 +42,7 @@ _type:_ float<br>
 _default:_ 1<br>
 
 * **@rtree** 
-Get/set rythm tree. (MList)<br>
+Get/set rhythm tree. (MList)<br>
 _type:_ atom<br>
 _default:_ ()<br>
 
@@ -64,7 +64,7 @@ _type:_ control
 
 ## keywords:
 
-[rythm](keywords/rythm.html)
+[rhythm](keywords/rhythm.html)
 [rtree](keywords/rtree.html)
 [openmusic](keywords/openmusic.html)
 [pattern](keywords/pattern.html)

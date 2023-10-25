@@ -13,7 +13,7 @@
 
 
 ## information
-Recomposes a plane wave decomposition into circular harmonics. There&#39;s three modes, fixe (default), fisheye and free. The hoa.2d.recomposer~ can be controlled either by message or with the help of its dedicated graphical user interface hoa.2d.recomposer.
+Recomposes a plane wave decomposition into circular harmonics. There&#39;s three modes, fixe (default), fisheye and free.
 
 
 [![example](../examples/img/hoa.2d.recomposer~.jpg)](../examples/pd/hoa.2d.recomposer~.pd)
@@ -23,11 +23,11 @@ Recomposes a plane wave decomposition into circular harmonics. There&#39;s three
 ## arguments:
 
 * **ORDER**
-the order of decomposition<br>
+the order of decomposition.<br>
 _type:_ int<br>
 
-* **NCH**
-number of channels<br>
+* **N**
+number of channels. &#39;0&#39; means auto-calculation.<br>
 _type:_ int<br>
 
 * **MODE**
@@ -70,9 +70,9 @@ _range:_ 1..63<br>
 _default:_ 1<br>
 
 * **@n** (initonly)
-Get/set number of channels (planewaves)<br>
+Get/set number of channels (planewaves). &#39;0&#39; means auto-calculation.<br>
 _type:_ int<br>
-_range:_ 0..63<br>
+_range:_ 0..128<br>
 _default:_ 0<br>
 
 * **@mode** (initonly)

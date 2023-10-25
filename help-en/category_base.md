@@ -8,6 +8,14 @@
 
 [**ceammc.search**](ceammc.search.html): ceammc library search object 
 
+[**chrono.datetime**](chrono.datetime.html): output current date and time info <br>
+_aliases:_ \[ceammc/datetime\], \[datetime\]
+
+
+[**convolve\~**](convolve~.html): realtime FFT convolution <br>
+_aliases:_ \[ceammc/convolve\~\]
+
+
 [**function**](function.html): named function <br>
 _aliases:_ \[func\], \[ceammc/func\], \[ceammc/function\]
 
@@ -20,6 +28,10 @@ _aliases:_ \[func.call\]
 _aliases:_ \[ceammc/gain\~\]
 
 
+[**gate\~**](gate~.html): multislot signal gate <br>
+_aliases:_ \[ceammc/gate\~\]
+
+
 [**logger**](logger.html): advanced data logger <br>
 _aliases:_ \[ceammc/logger\], \[log.error\], \[log.post\], \[log.debug\], \[log.verbose\], \[log.stdout\], \[log.stderr\]
 
@@ -28,11 +40,19 @@ _aliases:_ \[ceammc/logger\], \[log.error\], \[log.post\], \[log.debug\], \[log.
 _aliases:_ \[ceammc/matrix\~\]
 
 
+[**merge\~**](merge~.html): parametrized signal merge <br>
+_aliases:_ \[ceammc/merge\~\]
+
+
+[**metro.choice**](metro.choice.html): metro with random choice from timeset 
+
 [**metro.pattern**](metro.pattern.html): metro with rhythmic patterns 
 
 [**metro.random**](metro.random.html): metro random bang with specified range 
 
 [**metro.seq**](metro.seq.html): metro sequencer 
+
+[**metro.wchoice**](metro.wchoice.html): metro with weighted random choice from timeset 
 
 [**mix\~**](mix~.html): multislot signal mixer <br>
 _aliases:_ \[ceammc/mix\~\]
@@ -46,6 +66,10 @@ _aliases:_ \[ceammc/nsig\~\]
 
 [**radio**](radio.html): float index to outlet values as radio switch <br>
 _aliases:_ \[ceammc/radio\]
+
+
+[**split\~**](split~.html): parametrized signal splitter <br>
+_aliases:_ \[ceammc/split\~\]
 
 
 [**spring**](spring.html): float value &#34;spring&#34; <br>
@@ -77,6 +101,6 @@ _aliases:_ \[ceammc/z\~\]
 
 
 
-**Version:** 0.9.6
+**Version:** 0.9.7
 
 **License:** GPL3

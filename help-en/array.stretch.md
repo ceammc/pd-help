@@ -65,6 +65,7 @@ _default:_ 1<br>
 * **@speech** 
 Get/set optimize for speech sound source<br>
 _type:_ bool<br>
+_default:_ 0<br>
 
 * **@antialias** 
 Get/set use of anti-alias filter. Anti-alias filter is used to prevent folding of high

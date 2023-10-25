@@ -34,14 +34,14 @@ _type:_ list<br>
 
 ## methods:
 
+* **clear**
+clear preset at specified index<br>
+
 * **load**
 load preset value by specified index and output it<br>
 
 * **store**
 stores preset value at specified index<br>
-
-* **clear**
-clear preset at specified index<br>
 
 
 

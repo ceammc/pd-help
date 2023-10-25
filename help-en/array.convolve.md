@@ -37,11 +37,11 @@ Get/set target array<br>
 _type:_ symbol<br>
 
 * **@ir** 
-Get/set impulse response array<br>
+Get/set impulse response source array<br>
 _type:_ symbol<br>
 
 * **@norm** 
-Get/set impulse response array<br>
+Get/set normalize impulse response<br>
 _type:_ bool<br>
 _default:_ 0<br>
 

@@ -50,12 +50,6 @@ _type:_ float<br>
 
 ## methods:
 
-* **reset**
-set to initial state<br>
-
-* **set**
-set A B C D E X Y values. Also updates init state vars.<br>
-
 * **a**
 set a-value, does not not change init state value<br>
 
@@ -68,12 +62,6 @@ set c-value, does not not change init state value<br>
 * **d**
 set d-value, does not not change init state value<br>
 
-* **x**
-set current x-value, does not not change init state value<br>
-
-* **y**
-set current y-value, does not not change init state value<br>
-
 * **om**
 turn on/off method output mode. If true (1) outputs new generated value after
 each a,b,d,e,x,y method call, if 0 - change values without output. Default is
@@ -82,6 +70,18 @@ each a,b,d,e,x,y method call, if 0 - change values without output. Default is
   - **BOOL** output mode<br>
     type: int <br>
     required: True <br>
+
+* **reset**
+set to initial state<br>
+
+* **set**
+set A B C D E X Y values. Also updates init state vars.<br>
+
+* **x**
+set current x-value, does not not change init state value<br>
+
+* **y**
+set current y-value, does not not change init state value<br>
 
 
 

@@ -33,6 +33,12 @@ _units:_ ms<br>
 
 ## methods:
 
+* **reset**
+stop bang output and reset bang counter<br>
+
+* **rewind**
+reset all counters without stopping<br>
+
 * **start**
 start/stop<br>
   __parameters:__
@@ -41,12 +47,6 @@ start/stop<br>
 
 * **stop**
 stop bang output<br>
-
-* **reset**
-stop bang output and reset bang counter<br>
-
-* **rewind**
-reset all counters without stopping<br>
 
 * **tick**
 manually output current sequence element and move to next<br>
@@ -76,6 +76,25 @@ _type:_ float<br>
 _units:_ ms<br>
 _range:_ 1..20000<br>
 _default:_ 0<br>
+
+* **@div** 
+Get/set beat subdivision<br>
+_type:_ int<br>
+_range:_ 1..64<br>
+_default:_ 1<br>
+
+* **@accel** 
+Get/set tempo acceleration. 1 - no acceleration, &gt;1 - speed up, &lt;1 - slow down<br>
+_type:_ float<br>
+_range:_ 0.25..4<br>
+_default:_ 1<br>
+
+* **@curve** 
+Get/set acceleration curve. Values &gt;&gt;0 - slow changes, then fast encrease. Values &lt;0 -
+fast changes, then slower<br>
+_type:_ float<br>
+_range:_ -8..8<br>
+_default:_ 1<br>
 
 
 

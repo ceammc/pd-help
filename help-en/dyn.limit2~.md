@@ -18,6 +18,12 @@
 
 
 
+## methods:
+
+* **reset**
+reset to initial state<br>
+
+
 
 
 ## properties:

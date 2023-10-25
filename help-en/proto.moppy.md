@@ -20,42 +20,6 @@
 
 ## methods:
 
-* **ping**
-send ping request to all devices<br>
-
-* **note**
-see noteon<br>
-
-* **noteon**
-play note<br>
-  __parameters:__
-  - **[CHAN]** optional floppy id (overrides @floppy property)<br>
-    type: int <br>
-
-  - **NOTE** MIDI note<br>
-    type: int <br>
-    required: True <br>
-
-  - **VEL** note velocity (if 0 - turns note off, otherwise ignored)<br>
-    type: int <br>
-    required: True <br>
-
-* **noteoff**
-note off message<br>
-  __parameters:__
-  - **[CHAN]** optional floppy id (overrides @floppy property)<br>
-    type: int <br>
-
-  - **NOTE** MIDI note<br>
-    type: int <br>
-    required: True <br>
-
-* **reset**
-reset moppy device.<br>
-  __parameters:__
-  - **[all]** reset all devices<br>
-    type: symbol <br>
-
 * **bend:f**
 note pitchbend<br>
   __parameters:__
@@ -74,6 +38,33 @@ set floppy frequency. Note: moppy.v1 version only.<br>
     units: Hz <br>
     required: True <br>
 
+* **note**
+see noteon<br>
+
+* **noteoff**
+note off message<br>
+  __parameters:__
+  - **[CHAN]** optional floppy id (overrides @floppy property)<br>
+    type: int <br>
+
+  - **NOTE** MIDI note<br>
+    type: int <br>
+    required: True <br>
+
+* **noteon**
+play note<br>
+  __parameters:__
+  - **[CHAN]** optional floppy id (overrides @floppy property)<br>
+    type: int <br>
+
+  - **NOTE** MIDI note<br>
+    type: int <br>
+    required: True <br>
+
+  - **VEL** note velocity (if 0 - turns note off, otherwise ignored)<br>
+    type: int <br>
+    required: True <br>
+
 * **period**
 directly set floppy drive period. Note: moppy.v1 version only.<br>
   __parameters:__
@@ -83,6 +74,15 @@ directly set floppy drive period. Note: moppy.v1 version only.<br>
   - **TIME** period in microseconds<br>
     type: int <br>
     required: True <br>
+
+* **ping**
+send ping request to all devices<br>
+
+* **reset**
+reset moppy device.<br>
+  __parameters:__
+  - **[all]** reset all devices<br>
+    type: symbol <br>
 
 
 

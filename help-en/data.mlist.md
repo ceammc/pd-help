@@ -13,7 +13,7 @@
 
 
 ## information
-Syntax: values are separated by spaces: (1 2 3) - list of 1, 2 and 3 Nested lists: (1 2 3 (nested liat values)) Symbols with spaces: (&#34;single item list&#34;)
+Syntax: values are separated by spaces: (1 2 3) - list of 1, 2 and 3 Nested lists: (1 2 3 (nested list values)) Symbols with spaces: (&#34;single item list&#34;)
 
 
 [![example](../examples/img/data.mlist.jpg)](../examples/pd/data.mlist.pd)
@@ -22,13 +22,16 @@ Syntax: values are separated by spaces: (1 2 3) - list of 1, 2 and 3 Nested list
 
 ## arguments:
 
-* **X**
+* **VALUE**
 initial list values in (). For example: (1 2 3 (1 2) 4)<br>
-_type:_ any<br>
+_type:_ atom<br>
 
 
 
 ## methods:
+
+* **(....)**
+sets new list without output<br>
 
 * **append**
 adds values to the end of the list<br>
@@ -37,25 +40,34 @@ adds values to the end of the list<br>
     type: atom <br>
     required: True <br>
 
-* **prepend**
-inserts values to the list beginning<br>
-  __parameters:__
-  - **VAL** prepended value<br>
-    type: atom <br>
-    required: True <br>
-
-* **front**
-output first list element<br>
-
-* **back**
-output last list element<br>
-
 * **at**
 outputs atom at the specified position<br>
   __parameters:__
   - **IDX** position (negative indexes are supported: -1 means last element)<br>
     type: int <br>
     required: True <br>
+
+* **back**
+output last list element<br>
+
+* **choose**
+choose random element in list and output it<br>
+
+* **clear**
+removes all list elements<br>
+
+* **dump**
+dump object info to Pd window<br>
+
+* **fill**
+fills with specified value<br>
+  __parameters:__
+  - **VAL** fill value<br>
+    type: atom <br>
+    required: True <br>
+
+* **front**
+output first list element<br>
 
 * **insert**
 inserts values to the specified position<br>
@@ -68,30 +80,15 @@ inserts values to the specified position<br>
     type: atom <br>
     required: True <br>
 
-* **fill**
-fills with specified value<br>
-  __parameters:__
-  - **VAL** fill value<br>
-    type: atom <br>
-    required: True <br>
-
-* **reverse**
-reverses list<br>
-
-* **choose**
-choose random element in list and output it<br>
-
-* **shuffle**
-put elements in random order<br>
-
-* **sort**
-sorts list<br>
-
-* **clear**
-removes all list elements<br>
-
 * **pop**
 removes last list element<br>
+
+* **prepend**
+inserts values to the list beginning<br>
+  __parameters:__
+  - **VAL** prepended value<br>
+    type: atom <br>
+    required: True <br>
 
 * **remove**
 removes specified element<br>
@@ -100,6 +97,9 @@ removes specified element<br>
     type: int <br>
     required: True <br>
 
+* **reverse**
+reverses list<br>
+
 * **set**
 sets new list without output<br>
   __parameters:__
@@ -107,11 +107,11 @@ sets new list without output<br>
     type: list <br>
     required: True <br>
 
-* **dump**
-dump object info to Pd window<br>
+* **shuffle**
+put elements in random order<br>
 
-* **(....)**
-sets new list without output<br>
+* **sort**
+sorts list<br>
 
 
 
@@ -128,6 +128,11 @@ Get number of elements in list<br>
 _type:_ int<br>
 _min value:_ 0<br>
 _default:_ 0<br>
+
+* **@value** 
+Get/set mlist value<br>
+_type:_ atom<br>
+_default:_ []<br>
 
 
 

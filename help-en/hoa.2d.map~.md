@@ -13,7 +13,7 @@
 
 
 ## information
-Encodes several sources in the circular harmonics domain with distance compensation and muting system If nsrc==1 radius and angle controlled with signal values
+Encodes several sources in the circular harmonics domain with distance compensation and muting system If nsrc==1 radius and angle controlled with signal values Note: source indexes are 1-based.
 
 
 [![example](../examples/img/hoa.2d.map~.jpg)](../examples/pd/hoa.2d.map~.pd)
@@ -30,6 +30,10 @@ _type:_ int<br>
 number of sources<br>
 _type:_ int<br>
 
+* **MODE**
+mode in signal control mode (with nsrc=1)<br>
+_type:_ symbol<br>
+
 
 
 ## methods:
@@ -37,7 +41,7 @@ _type:_ int<br>
 * **mute**
 mute/unmute specified source<br>
   __parameters:__
-  - **IDX** source index<br>
+  - **IDX** source index. 1-based<br>
     type: int <br>
     required: True <br>
 
@@ -48,7 +52,7 @@ mute/unmute specified source<br>
 * **polar**
 set source mapping in polar coordinates<br>
   __parameters:__
-  - **IDX** source index<br>
+  - **IDX** source index. 1-based<br>
     type: int <br>
     required: True <br>
 
@@ -60,6 +64,27 @@ set source mapping in polar coordinates<br>
     type: float <br>
     units: rad <br>
     required: True <br>
+
+* **pol**
+alias to &#39;polar&#39; method<br>
+
+* **cartesian**
+set source mapping in cartesian coordinates<br>
+  __parameters:__
+  - **IDX** source index. 1-based<br>
+    type: int <br>
+    required: True <br>
+
+  - **X** x-coord<br>
+    type: float <br>
+    required: True <br>
+
+  - **X** y-coord<br>
+    type: float <br>
+    required: True <br>
+
+* **car**
+alias to &#39;cartesian&#39; method<br>
 
 
 
@@ -83,6 +108,13 @@ Get/set ramp time<br>
 _type:_ float<br>
 _min value:_ 0<br>
 _default:_ 100<br>
+
+* **@mode** 
+Get/set signal control mode (with nsrc=1). If &#39;pol&#39;: second and third signal inlets are
+treated as radius and angle values, if &#39;car&#39;: as X and Y coordinates<br>
+_type:_ symbol<br>
+_enum:_ pol, car<br>
+_default:_ pol<br>
 
 
 

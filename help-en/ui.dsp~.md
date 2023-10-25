@@ -20,15 +20,6 @@
 
 ## methods:
 
-* **start**
-starts audio processing<br>
-
-* **stop**
-stops audio processing<br>
-
-* **settings**
-opens audio settings dialog<br>
-
 * **pos**
 set UI element position<br>
   __parameters:__
@@ -39,6 +30,15 @@ set UI element position<br>
   - **Y** top right y-coord<br>
     type: float <br>
     required: True <br>
+
+* **settings**
+opens audio settings dialog<br>
+
+* **start**
+starts audio processing<br>
+
+* **stop**
+stops audio processing<br>
 
 
 

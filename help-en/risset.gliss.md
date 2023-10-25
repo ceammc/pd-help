@@ -18,7 +18,7 @@
 
 ## arguments:
 
-* **PITCH**
+* **BASE**
 base pitch<br>
 _type:_ float<br>
 _units:_ semitone<br>

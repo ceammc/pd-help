@@ -52,28 +52,32 @@ _type:_ float<br>
 
 ## methods:
 
-* **set**
+* **a**
 <br>
   __parameters:__
-  - **SET** set to value<br>
+  - **A** a value<br>
     type: float <br>
     required: True <br>
 
-* **reset**
-reset state<br>
+* **c**
+<br>
+  __parameters:__
+  - **B** b value<br>
+    type: float <br>
+    required: True <br>
+
+* **dt**
+<br>
+  __parameters:__
+  - **DT** dt value<br>
+    type: float <br>
+    required: True <br>
 
 * **om**
 <br>
   __parameters:__
   - **OM** enables output when cut or fold value is changed<br>
     type: int <br>
-    required: True <br>
-
-* **a**
-<br>
-  __parameters:__
-  - **A** a value<br>
-    type: float <br>
     required: True <br>
 
 * **r**
@@ -83,10 +87,13 @@ reset state<br>
     type: float <br>
     required: True <br>
 
-* **c**
+* **reset**
+reset state<br>
+
+* **set**
 <br>
   __parameters:__
-  - **B** b value<br>
+  - **SET** set to value<br>
     type: float <br>
     required: True <br>
 
@@ -108,13 +115,6 @@ reset state<br>
 <br>
   __parameters:__
   - **NZ** z value<br>
-    type: float <br>
-    required: True <br>
-
-* **dt**
-<br>
-  __parameters:__
-  - **DT** dt value<br>
     type: float <br>
     required: True <br>
 

@@ -28,8 +28,8 @@ _type:_ int<br>
 
 ## methods:
 
-* **set**
-sets new value without output<br>
+* *****
+multiply to, no output<br>
 
 * **+**
 add to int, no output<br>
@@ -37,11 +37,11 @@ add to int, no output<br>
 * **-**
 subtract from int, no output<br>
 
-* *****
-multiply to, no output<br>
-
 * **/**
 divide by, no output<br>
+
+* **set**
+sets new value without output<br>
 
 
 

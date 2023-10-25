@@ -20,6 +20,34 @@
 
 ## methods:
 
+* **clear**
+clears specified preset<br>
+  __parameters:__
+  - **IDX** preset index<br>
+    type: int <br>
+    required: True <br>
+
+* **interp**
+for this object acts as *load*, no interpolation performed<br>
+
+* **load**
+loads specified preset<br>
+  __parameters:__
+  - **IDX** preset index<br>
+    type: int <br>
+    required: True <br>
+
+* **pos**
+set UI element position<br>
+  __parameters:__
+  - **X** top left x-coord<br>
+    type: float <br>
+    required: True <br>
+
+  - **Y** top right y-coord<br>
+    type: float <br>
+    required: True <br>
+
 * **set**
 set widget value with no output<br>
   __parameters:__
@@ -31,39 +59,11 @@ set widget value with no output<br>
     type: int <br>
     required: True <br>
 
-* **load**
-loads specified preset<br>
-  __parameters:__
-  - **IDX** preset index<br>
-    type: int <br>
-    required: True <br>
-
 * **store**
 stores specified preset<br>
   __parameters:__
   - **IDX** preset index<br>
     type: int <br>
-    required: True <br>
-
-* **clear**
-clears specified preset<br>
-  __parameters:__
-  - **IDX** preset index<br>
-    type: int <br>
-    required: True <br>
-
-* **interp**
-for this object acts as *load*, no interpolation performed<br>
-
-* **pos**
-set UI element position<br>
-  __parameters:__
-  - **X** top left x-coord<br>
-    type: float <br>
-    required: True <br>
-
-  - **Y** top right y-coord<br>
-    type: float <br>
     required: True <br>
 
 

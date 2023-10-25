@@ -20,27 +20,14 @@
 
 ## methods:
 
-* **mvolume**
-set device master volume<br>
+* **id_request**
+send Identity Request SysEx message<br>
+
+* **mbal:f**
+set device master balance<br>
   __parameters:__
-  - **LEVEL** volume level<br>
+  - **PAN** balance<br>
     type: float <br>
-    required: True <br>
-
-* **mtune~**
-set device master coarse tuning in semitones<br>
-  __parameters:__
-  - **V** tuning<br>
-    type: int <br>
-    units: semitone <br>
-    required: True <br>
-
-* **mtune.**
-set device master fine tuning in cents<br>
-  __parameters:__
-  - **V** tuning<br>
-    type: int <br>
-    units: cent <br>
     required: True <br>
 
 * **mtune**
@@ -52,10 +39,26 @@ tune)<br>
     units: semitone <br>
     required: True <br>
 
-* **mbal:f**
-set device master balance<br>
+* **mtune.**
+set device master fine tuning in cents<br>
   __parameters:__
-  - **PAN** balance<br>
+  - **V** tuning<br>
+    type: int <br>
+    units: cent <br>
+    required: True <br>
+
+* **mtune~**
+set device master coarse tuning in semitones<br>
+  __parameters:__
+  - **V** tuning<br>
+    type: int <br>
+    units: semitone <br>
+    required: True <br>
+
+* **mvolume**
+set device master volume<br>
+  __parameters:__
+  - **LEVEL** volume level<br>
     type: float <br>
     required: True <br>
 

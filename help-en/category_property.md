@@ -37,6 +37,6 @@ _aliases:_ \[prop-&gt;\], \[@-&gt;\], \[ceammc/prop-&gt;\], \[ceammc/@-&gt;\]
 
 
 
-**Version:** 0.9.6
+**Version:** 0.9.7
 
 **License:** GPL3

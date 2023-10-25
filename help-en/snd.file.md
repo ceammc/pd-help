@@ -61,6 +61,65 @@ load.<br>
   - **[@resample R?]** if R is not specified - resample from file samplerate to current Pd samplerate. But you can manually specify R as float value or integer fraction - 44100/48000<br>
     type: property <br>
 
+* **save**
+Save arrays to specified file<br>
+  __parameters:__
+  - **ARRAYS** list of arrays<br>
+    type: list <br>
+    required: True <br>
+
+  - **@to FNAME** output filename<br>
+    type: symbol <br>
+    required: True <br>
+
+  - **[@begin X]** specify input array begin position, by default in samples, but you can use other units: 1s, 10ms, 00:01.12 (smpte). To specify value relative to array end you can use $-X syntax<br>
+    type: property <br>
+
+  - **[@end X]** specify input array end position, by default in samples, but you can use other units: 1s, 10ms, 00:01.12 (smpte). To specify value relative to array end you can use $-X syntax<br>
+    type: property <br>
+
+  - **[@gain V]** apply gain to saved arrays, examples: +3.1db, -6db, 0.5 etc.<br>
+    type: property <br>
+
+  - **[@in_sr SR]** array source samplerate, if ommited using patch samplerate<br>
+    type: property <br>
+
+  - **[@out_sr SR]** output samplerate<br>
+    type: property <br>
+
+  - **[@norm[alize]]** normalize output<br>
+    type: property <br>
+
+  - **[@overwrite]** overwrite existing file flag<br>
+    type: property <br>
+
+  - **[@samp FMT]** output sample format. Supported values are: 0(use default), 8, 16, 24, 32, f<br>
+    type: property <br>
+
+  - **[@wav]** WAV output format<br>
+    type: property <br>
+
+  - **[@mp3]** MP3 output format<br>
+    type: property <br>
+
+  - **[@ogg]** Ogg/Vorbis output format<br>
+    type: property <br>
+
+  - **[@opus]** Opus output format<br>
+    type: property <br>
+
+  - **[@aiff]** AIFF output format<br>
+    type: property <br>
+
+  - **[@txt]** TXT output format<br>
+    type: property <br>
+
+  - **[@raw]** RAW output format<br>
+    type: property <br>
+
+  - **[@flac]** FLAC output format<br>
+    type: property <br>
+
 
 
 
@@ -109,7 +168,7 @@ _type:_ control
 
 ## outlets:
 
-* number of loaded samples<br>
+* number of loaded/saved samples or -1 on error<br>
 _type:_ control
 
 

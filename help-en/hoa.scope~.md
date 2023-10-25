@@ -2,6 +2,8 @@
 ---
 
 # hoa.scope~
+**aliases:** [hoa.2d.scope\~]
+
 
 ###### a 2d ambisonic harmonic scope
 

@@ -36,7 +36,7 @@ include(ExternalProject)
 ExternalProject_Add(
     ceammc
     PREFIX "ceammc_src"
-    URL https://github.com/uliss/pure-data/archive/refs/heads/ceammc.zip
+    URL https://github.com/uliss/pd-ceammc/archive/refs/heads/devel.zip
     CONFIGURE_COMMAND ""
     BUILD_COMMAND ""
     INSTALL_COMMAND ""

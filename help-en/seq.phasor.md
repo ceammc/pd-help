@@ -25,22 +25,24 @@ frequency<br>
 _type:_ float<br>
 _units:_ Hz<br>
 
-* **ON**
-on/off initial state<br>
-_type:_ int<br>
-
 
 
 ## methods:
 
-* **start**
-start from current position<br>
+* **phase**
+set current phase<br>
+  __parameters:__
+  - **[VALUE]** new phase value<br>
+    type: float <br>
 
 * **reset**
 reset phase and stop<br>
 
 * **rewind**
 reset phase without stopping<br>
+
+* **start**
+start from current position<br>
 
 * **stop**
 stop<br>

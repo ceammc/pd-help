@@ -20,7 +20,7 @@
 
 ## arguments:
 
-* **SIZE**
+* **BY**
 group by this size<br>
 _type:_ int<br>
 
@@ -28,11 +28,11 @@ _type:_ int<br>
 
 ## methods:
 
-* **flush**
-outputs and clears group<br>
-
 * **clear**
 clear without output<br>
+
+* **flush**
+outputs and clears group<br>
 
 
 

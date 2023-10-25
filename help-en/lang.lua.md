@@ -32,23 +32,6 @@ _type:_ int<br>
 
 ## methods:
 
-* **load**
-load lua file and eval it<br>
-  __parameters:__
-  - **PATH** path to lua file<br>
-    type: list <br>
-    required: True <br>
-
-* **eval**
-eval lua code<br>
-  __parameters:__
-  - **CODE** lua code<br>
-    type: list <br>
-    required: True <br>
-
-* **quit**
-abort lua script execution<br>
-
 * **call**
 call lua function<br>
   __parameters:__
@@ -58,6 +41,23 @@ call lua function<br>
 
   - **[ARGS]** function arguments<br>
     type: list <br>
+
+* **eval**
+eval lua code<br>
+  __parameters:__
+  - **CODE** lua code<br>
+    type: list <br>
+    required: True <br>
+
+* **load**
+load lua file and eval it<br>
+  __parameters:__
+  - **PATH** path to lua file<br>
+    type: list <br>
+    required: True <br>
+
+* **quit**
+abort lua script execution<br>
 
 
 

@@ -34,14 +34,17 @@ _type:_ symbol<br>
 
 ## methods:
 
+* **clear**
+clear preset at specified index<br>
+
 * **load**
 load preset value by specified index and output it<br>
 
 * **store**
 stores preset value at specified index<br>
 
-* **clear**
-clear preset at specified index<br>
+* **interp**
+do nothing<br>
 
 
 

@@ -20,8 +20,17 @@
 
 ## methods:
 
-* **reset**
-reset to initial state<br>
+* **pingpong**
+set pingpong delay values<br>
+  __parameters:__
+  - **DELAY** delay time<br>
+    type: float <br>
+    units: ms <br>
+    required: True <br>
+
+  - **FB** feedback value<br>
+    type: float <br>
+    required: True <br>
 
 * **random**
 randomize values<br>
@@ -36,17 +45,8 @@ randomize values<br>
   - **[MAX]** maximum value<br>
     type: float <br>
 
-* **pingpong**
-set pingpong delay values<br>
-  __parameters:__
-  - **DELAY** delay time<br>
-    type: float <br>
-    units: ms <br>
-    required: True <br>
-
-  - **FB** feedback value<br>
-    type: float <br>
-    required: True <br>
+* **reset**
+reset to initial state<br>
 
 
 
@@ -611,6 +611,15 @@ _default:_ 0<br>
 Get/set on/off dsp processing<br>
 _type:_ bool<br>
 _default:_ 1<br>
+
+* **@osc** (initonly)
+Get/set OSC server name to listen<br>
+_type:_ symbol<br>
+
+* **@id** (initonly)
+Get/set OSC address id. If specified, bind all properties to /ID/fx_tapiir/PROP_NAME
+osc address, if empty bind to /fx_tapiir/PROP_NAME.<br>
+_type:_ symbol<br>
 
 
 

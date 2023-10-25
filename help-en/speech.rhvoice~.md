@@ -13,7 +13,7 @@
 
 
 ## information
-Note: no voices data in distributed with PureData-ceammc, you have to install voices manually Download language and voice datafiles and put them into ~/Documents/Pd/rhvoice directory
+Note: voices are not distributed with PureData-ceammc, you have to install voice data manually Download language and voice datafiles and put them into ~/Documents/Pd/rhvoice directory
 
 
 [![example](../examples/img/speech.rhvoice~.jpg)](../examples/pd/speech.rhvoice~.pd)
@@ -24,11 +24,21 @@ Note: no voices data in distributed with PureData-ceammc, you have to install vo
 
 ## methods:
 
-* **stop**
-stops speech and clear TTS queue<br>
-
 * **clear**
 clear TTS queue<br>
+
+* **read**
+read TTS file (text or SSML)<br>
+  __parameters:__
+  - **FILE** absolute or relative path to the file<br>
+    type: symbol <br>
+    required: True <br>
+
+* **ssml**
+speak SSML text markup<br>
+
+* **stop**
+stops speech and clear TTS queue<br>
 
 
 
@@ -58,6 +68,11 @@ _type:_ float<br>
 _range:_ 0..1<br>
 _default:_ 1<br>
 
+* **@punct** 
+Get/set punctuation for pronunciation. If &#39;all&#39; - pronounce all, otherwise pronounce
+only specified punctuation characters.<br>
+_type:_ symbol<br>
+
 
 
 ## inlets:
@@ -71,7 +86,7 @@ _type:_ control
 
 * TTS output<br>
 _type:_ audio
-* bang on done<br>
+* bang on done, [word 1( on word start, [word 0( on word end, [sentence 1( on sentence start, [sentence 0( on sentence end<br>
 _type:_ control
 
 

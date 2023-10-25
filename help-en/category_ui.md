@@ -16,6 +16,14 @@ _aliases:_ \[ui.b\]
 _aliases:_ \[ui.btn\]
 
 
+[**ui.canvas**](ui.canvas.html): UI canvas for drawing <br>
+_aliases:_ \[ui.cnv\]
+
+
+[**ui.cmeter\~**](ui.cmeter~.html): Multichannel circular peak and rms signal meter <br>
+_aliases:_ \[ui.cm\~\], \[hoa.2d.meter\~\]
+
+
 [**ui.colorpanel**](ui.colorpanel.html): colorchooser widget 
 
 [**ui.display**](ui.display.html): Display GUI object <br>
@@ -51,6 +59,8 @@ _aliases:_ \[ui.k\]
 
 
 [**ui.label**](ui.label.html): simple label widget 
+
+[**ui.lcd**](ui.lcd.html): black and white bitmap display 
 
 [**ui.link**](ui.link.html): Hyperlink widget 
 
@@ -119,6 +129,6 @@ _aliases:_ \[ui.t\]
 
 
 
-**Version:** 0.9.6
+**Version:** 0.9.7
 
 **License:** GPL3

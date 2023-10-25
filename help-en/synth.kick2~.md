@@ -79,6 +79,15 @@ _type:_ float<br>
 _range:_ 1..10<br>
 _default:_ 2.5<br>
 
+* **@osc** (initonly)
+Get/set OSC server name to listen<br>
+_type:_ symbol<br>
+
+* **@id** (initonly)
+Get/set OSC address id. If specified, bind all properties to /ID/synth_kick2/PROP_NAME
+osc address, if empty bind to /synth_kick2/PROP_NAME.<br>
+_type:_ symbol<br>
+
 
 
 ## inlets:

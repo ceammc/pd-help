@@ -26,7 +26,7 @@ Warning: in v0.9 extra inlet added to select input Set @index property only via 
 number of multiplexed inputs<br>
 _type:_ int<br>
 
-* **N**
+* **INDEX**
 default input index<br>
 _type:_ int<br>
 

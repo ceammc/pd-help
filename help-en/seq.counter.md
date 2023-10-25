@@ -34,14 +34,14 @@ _type:_ int<br>
 
 ## methods:
 
-* **reset**
-reset counter to start value and repeat counter to 0<br>
-
 * **next**
 increment counter then output<br>
 
 * **prev**
 decrement counter then output<br>
+
+* **reset**
+reset counter to start value and repeat counter to 0<br>
 
 
 

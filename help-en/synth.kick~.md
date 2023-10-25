@@ -66,6 +66,15 @@ _units:_ Hz<br>
 _range:_ 10..5000<br>
 _default:_ 50<br>
 
+* **@osc** (initonly)
+Get/set OSC server name to listen<br>
+_type:_ symbol<br>
+
+* **@id** (initonly)
+Get/set OSC address id. If specified, bind all properties to /ID/synth_kick/PROP_NAME
+osc address, if empty bind to /synth_kick/PROP_NAME.<br>
+_type:_ symbol<br>
+
 
 
 ## inlets:

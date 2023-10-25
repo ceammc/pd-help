@@ -22,31 +22,22 @@ With spaces, text-align, font customization and word wrap
 
 ## methods:
 
-* **float**
-set label text to given float, but do not change @text property<br>
-
-* **symbol**
-set label text to given symbol, but do not change @text property<br>
-
-* **list**
-set label text to given list separated by spaces, but do not change @text
-property<br>
-
 * **any**
 set label text to given message separated by spaces, but do not change @text
 property<br>
 
-* **clear**
-clear label text and clear @text property<br>
-
 * **append**
 appends to @text end<br>
 
-* **set**
-set label text and update @text property, so it would be saved in patch<br>
+* **clear**
+clear label text and clear @text property<br>
 
-* **prepend**
-insert into beginning of @text<br>
+* **float**
+set label text to given float, but do not change @text property<br>
+
+* **list**
+set label text to given list separated by spaces, but do not change @text
+property<br>
 
 * **pos**
 set UI element position<br>
@@ -58,6 +49,15 @@ set UI element position<br>
   - **Y** top right y-coord<br>
     type: float <br>
     required: True <br>
+
+* **prepend**
+insert into beginning of @text<br>
+
+* **set**
+set label text and update @text property, so it would be saved in patch<br>
+
+* **symbol**
+set label text to given symbol, but do not change @text property<br>
 
 
 

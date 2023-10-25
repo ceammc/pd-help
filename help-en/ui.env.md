@@ -45,6 +45,19 @@ creates ADSR envelope with one stop point<br>
     units: ms <br>
     required: True <br>
 
+* **ar**
+creates AR envelope without stop points<br>
+  __parameters:__
+  - **ATTACK** attack time<br>
+    type: float <br>
+    units: ms <br>
+    required: True <br>
+
+  - **RELEASE** release time<br>
+    type: float <br>
+    units: ms <br>
+    required: True <br>
+
 * **asr**
 creates ASR envelope with one stop point<br>
   __parameters:__
@@ -58,17 +71,21 @@ creates ASR envelope with one stop point<br>
     units: ms <br>
     required: True <br>
 
-* **ar**
-creates AR envelope without stop points<br>
+* **at**
+output envelope value at specified position to second outlet<br>
   __parameters:__
-  - **ATTACK** attack time<br>
+  - **VAL** position (in milliseconds if unit arg is ommited )<br>
     type: float <br>
-    units: ms <br>
     required: True <br>
 
-  - **RELEASE** release time<br>
-    type: float <br>
-    units: ms <br>
+  - **[UNIT]** position unit: ms, % or *(phase)<br>
+    type: symbol <br>
+
+* **clear**
+clear specified preset<br>
+  __parameters:__
+  - **IDX** preset index<br>
+    type: int <br>
     required: True <br>
 
 * **eadsr**
@@ -106,27 +123,6 @@ creates exponential ADSR envelope with one stop point<br>
     type: float <br>
     required: True <br>
 
-* **easr**
-creates exponential AR envelope with one stop point<br>
-  __parameters:__
-  - **ATTACK** attack time<br>
-    type: float <br>
-    units: ms <br>
-    required: True <br>
-
-  - **ATTACK_CURVE** attack segment curve<br>
-    type: float <br>
-    required: True <br>
-
-  - **RELEASE** release time<br>
-    type: float <br>
-    units: ms <br>
-    required: True <br>
-
-  - **RELEASE_CURVE** release segment curve<br>
-    type: float <br>
-    required: True <br>
-
 * **ear**
 creates exponential AR envelope without stop points<br>
   __parameters:__
@@ -148,71 +144,26 @@ creates exponential AR envelope without stop points<br>
     type: float <br>
     required: True <br>
 
-* **step**
-creates step-segmented envelope with arbitrary number of segments<br>
+* **easr**
+creates exponential AR envelope with one stop point<br>
   __parameters:__
-  - **VAL0** begin value<br>
-    type: float <br>
-    required: True <br>
-
-  - **LEN0** step length<br>
+  - **ATTACK** attack time<br>
     type: float <br>
     units: ms <br>
     required: True <br>
 
-  - **VAL1** value<br>
+  - **ATTACK_CURVE** attack segment curve<br>
     type: float <br>
     required: True <br>
 
-  - **[LEN1]** segment length<br>
-    type: float <br>
-
-  - **[VAL2]** value<br>
-    type: float <br>
-
-* **line**
-creates line-segmented envelope with arbitrary number of segments<br>
-  __parameters:__
-  - **VAL0** begin value<br>
-    type: float <br>
-    required: True <br>
-
-  - **LEN0** line length<br>
+  - **RELEASE** release time<br>
     type: float <br>
     units: ms <br>
     required: True <br>
 
-  - **VAL1** value<br>
+  - **RELEASE_CURVE** release segment curve<br>
     type: float <br>
     required: True <br>
-
-  - **[LEN1]** segment length<br>
-    type: float <br>
-
-  - **[VAL2]** value<br>
-    type: float <br>
-
-* **sin2**
-creates quadratic sine-segmented envelope with arbitrary number of segments<br>
-  __parameters:__
-  - **VAL0** begin value<br>
-    type: float <br>
-    required: True <br>
-
-  - **LEN0** line length<br>
-    type: float <br>
-    units: ms <br>
-    required: True <br>
-
-  - **VAL1** value<br>
-    type: float <br>
-    required: True <br>
-
-  - **[LEN1]** segment length<br>
-    type: float <br>
-
-  - **[VAL2]** value<br>
-    type: float <br>
 
 * **exp**
 creates exponential-segmented envelope with arbitrary number of segments<br>
@@ -243,6 +194,49 @@ creates exponential-segmented envelope with arbitrary number of segments<br>
   - **[VAL2]** value<br>
     type: float <br>
 
+* **interp**
+for this object acts as *load*, no interpolation performed<br>
+
+* **line**
+creates line-segmented envelope with arbitrary number of segments<br>
+  __parameters:__
+  - **VAL0** begin value<br>
+    type: float <br>
+    required: True <br>
+
+  - **LEN0** line length<br>
+    type: float <br>
+    units: ms <br>
+    required: True <br>
+
+  - **VAL1** value<br>
+    type: float <br>
+    required: True <br>
+
+  - **[LEN1]** segment length<br>
+    type: float <br>
+
+  - **[VAL2]** value<br>
+    type: float <br>
+
+* **load**
+loads specified preset<br>
+  __parameters:__
+  - **IDX** preset index<br>
+    type: int <br>
+    required: True <br>
+
+* **pos**
+set UI element position<br>
+  __parameters:__
+  - **X** top left x-coord<br>
+    type: float <br>
+    required: True <br>
+
+  - **Y** top right y-coord<br>
+    type: float <br>
+    required: True <br>
+
 * **sigmoid**
 creates sigmoid-segmented envelope with arbitrary number of segments<br>
   __parameters:__
@@ -272,49 +266,55 @@ creates sigmoid-segmented envelope with arbitrary number of segments<br>
   - **[VAL2]** value<br>
     type: float <br>
 
-* **clear**
-clear specified preset<br>
+* **sin2**
+creates quadratic sine-segmented envelope with arbitrary number of segments<br>
   __parameters:__
-  - **IDX** preset index<br>
-    type: int <br>
+  - **VAL0** begin value<br>
+    type: float <br>
     required: True <br>
 
-* **load**
-loads specified preset<br>
-  __parameters:__
-  - **IDX** preset index<br>
-    type: int <br>
+  - **LEN0** line length<br>
+    type: float <br>
+    units: ms <br>
     required: True <br>
+
+  - **VAL1** value<br>
+    type: float <br>
+    required: True <br>
+
+  - **[LEN1]** segment length<br>
+    type: float <br>
+
+  - **[VAL2]** value<br>
+    type: float <br>
+
+* **step**
+creates step-segmented envelope with arbitrary number of segments<br>
+  __parameters:__
+  - **VAL0** begin value<br>
+    type: float <br>
+    required: True <br>
+
+  - **LEN0** step length<br>
+    type: float <br>
+    units: ms <br>
+    required: True <br>
+
+  - **VAL1** value<br>
+    type: float <br>
+    required: True <br>
+
+  - **[LEN1]** segment length<br>
+    type: float <br>
+
+  - **[VAL2]** value<br>
+    type: float <br>
 
 * **store**
 stores specified preset<br>
   __parameters:__
   - **IDX** preset index<br>
     type: int <br>
-    required: True <br>
-
-* **interp**
-for this object acts as *load*, no interpolation performed<br>
-
-* **at**
-output envelope value at specified position to second outlet<br>
-  __parameters:__
-  - **VAL** position (in milliseconds if unit arg is ommited )<br>
-    type: float <br>
-    required: True <br>
-
-  - **[UNIT]** position unit: ms, % or *(phase)<br>
-    type: symbol <br>
-
-* **pos**
-set UI element position<br>
-  __parameters:__
-  - **X** top left x-coord<br>
-    type: float <br>
-    required: True <br>
-
-  - **Y** top right y-coord<br>
-    type: float <br>
     required: True <br>
 
 

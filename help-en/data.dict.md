@@ -24,6 +24,9 @@ Syntax: [key1: value key2 : &#34;with space&#34;]. Nested dictionaries are suppo
 
 ## methods:
 
+* **[....]**
+sets new content without output<br>
+
 * **add**
 adds entry to dictionary<br>
   __parameters:__
@@ -35,6 +38,9 @@ adds entry to dictionary<br>
     type: list <br>
     required: True <br>
 
+* **choose**
+choose random key and output it<br>
+
 * **clear**
 removes all dict values. No output<br>
 
@@ -45,8 +51,22 @@ get entry from dictionary<br>
     type: symbol <br>
     required: True <br>
 
-* **choose**
-choose random key and output it<br>
+* **read**
+read dict from JSON file<br>
+  __parameters:__
+  - **PATH** file path<br>
+    type: symbol <br>
+    required: True <br>
+
+* **remove**
+remove entry from dictionary<br>
+  __parameters:__
+  - **KEY** entry key<br>
+    type: symbol <br>
+    required: True <br>
+
+* **set**
+set dict content without output<br>
 
 * **set_key**
 change entry in dictionary. If it&#39;s not exists, do nothing.<br>
@@ -57,26 +77,6 @@ change entry in dictionary. If it&#39;s not exists, do nothing.<br>
 
   - **VAL** single value or list<br>
     type: list <br>
-    required: True <br>
-
-* **set**
-set dict content without output<br>
-
-* **remove**
-remove entry from dictionary<br>
-  __parameters:__
-  - **KEY** entry key<br>
-    type: symbol <br>
-    required: True <br>
-
-* **[....]**
-sets new content without output<br>
-
-* **read**
-read dict from JSON file<br>
-  __parameters:__
-  - **PATH** file path<br>
-    type: symbol <br>
     required: True <br>
 
 * **write**

@@ -24,26 +24,6 @@ This is the ceammc counterpart of the vanilla toggle
 
 ## methods:
 
-* **dump**
-dumps all object info to Pd console window<br>
-
-* **set**
-sets toggle state without output<br>
-
-* **load**
-loads specified preset<br>
-  __parameters:__
-  - **IDX** preset index<br>
-    type: int <br>
-    required: True <br>
-
-* **store**
-stores specified preset<br>
-  __parameters:__
-  - **IDX** preset index<br>
-    type: int <br>
-    required: True <br>
-
 * **clear**
 clears specified preset<br>
   __parameters:__
@@ -51,8 +31,18 @@ clears specified preset<br>
     type: int <br>
     required: True <br>
 
+* **dump**
+dumps all object info to Pd console window<br>
+
 * **interp**
 for this object acts as *load*, no interpolation performed<br>
+
+* **load**
+loads specified preset<br>
+  __parameters:__
+  - **IDX** preset index<br>
+    type: int <br>
+    required: True <br>
 
 * **pos**
 set UI element position<br>
@@ -63,6 +53,16 @@ set UI element position<br>
 
   - **Y** top right y-coord<br>
     type: float <br>
+    required: True <br>
+
+* **set**
+sets toggle state without output<br>
+
+* **store**
+stores specified preset<br>
+  __parameters:__
+  - **IDX** preset index<br>
+    type: int <br>
     required: True <br>
 
 

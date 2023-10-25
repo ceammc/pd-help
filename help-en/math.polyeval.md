@@ -20,7 +20,7 @@
 
 * **COEFFS**
 coefficient list<br>
-_type:_ float<br>
+_type:_ list<br>
 
 
 

@@ -26,30 +26,6 @@ _type:_ list<br>
 
 ## methods:
 
-* **reset**
-reset all notes to off without output<br>
-
-* **on**
-turn on inactive notes<br>
-  __parameters:__
-  - **[MODE]** if =first play first inactive note in chord list, if =last play last inactive note in chord list, if =all play all inactive notes<br>
-    type: symbol <br>
-
-  - **[VEL=127]** note velocity<br>
-    type: float <br>
-
-  - **[NUM=1]** number of notes to turn on<br>
-    type: int <br>
-
-* **off**
-turn off active notes.<br>
-  __parameters:__
-  - **[MODE]** if =first turn off first active note in chord list, if =last turn off last inactive note in chord list, if =all turn off all active notes<br>
-    type: symbol <br>
-
-  - **[NUM=1]** number of notes to turn on<br>
-    type: int <br>
-
 * **asr**
 set arpeggiate mode and run<br>
   __parameters:__
@@ -69,6 +45,30 @@ set arpeggiate mode and run<br>
   - **OFF_MODE** off mode<br>
     type: symbol <br>
     required: True <br>
+
+* **off**
+turn off active notes.<br>
+  __parameters:__
+  - **[MODE]** if =first turn off first active note in chord list, if =last turn off last inactive note in chord list, if =all turn off all active notes<br>
+    type: symbol <br>
+
+  - **[NUM=1]** number of notes to turn on<br>
+    type: int <br>
+
+* **on**
+turn on inactive notes<br>
+  __parameters:__
+  - **[MODE]** if =first play first inactive note in chord list, if =last play last inactive note in chord list, if =all play all inactive notes<br>
+    type: symbol <br>
+
+  - **[VEL=127]** note velocity<br>
+    type: float <br>
+
+  - **[NUM=1]** number of notes to turn on<br>
+    type: int <br>
+
+* **reset**
+reset all notes to off without output<br>
 
 
 

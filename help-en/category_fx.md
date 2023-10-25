@@ -12,6 +12,10 @@
 
 [**fx.dattorro\~**](fx.dattorro~.html): dattorro reverb 
 
+[**fx.delay\~**](fx.delay~.html): smooth delay with a feedback control <br>
+_aliases:_ \[fx.sdelay\~\]
+
+
 [**fx.distortion1\~**](fx.distortion1~.html): distortion #1 from Guitarix effects set 
 
 [**fx.distortion2\~**](fx.distortion2~.html): distortion #2 from Guitarix effects set 
@@ -26,7 +30,9 @@
 
 [**fx.echo2\~**](fx.echo2~.html): stereo echo effect 
 
-[**fx.echo\~**](fx.echo~.html): simple echo effect 
+[**fx.echo\~**](fx.echo~.html): enhanced echo effect <br>
+_aliases:_ \[fx.secho\~\]
+
 
 [**fx.flanger\~**](fx.flanger~.html): mono flanging effect 
 
@@ -46,6 +52,8 @@
 
 [**fx.looper\~**](fx.looper~.html): One track looper 
 
+[**fx.overdrive\~**](fx.overdrive~.html): overdrive effect 
+
 [**fx.pitchshift_s\~**](fx.pitchshift_s~.html): signal version of fx.pitchshift~ 
 
 [**fx.pitchshift\~**](fx.pitchshift~.html): simple pitch shifter based on 2 delay lines 
@@ -54,19 +62,21 @@
 
 [**fx.recho\~**](fx.recho~.html): reversed echo effect 
 
+[**fx.ringmod\~**](fx.ringmod~.html): ring modulator effect 
+
 [**fx.room\~**](fx.room~.html): Gardners room emulation algorithms 
 
 [**fx.satrev\~**](fx.satrev~.html): Schroeder reverberator from 1971 
 
-[**fx.sdelay\~**](fx.sdelay~.html): smooth delay with a feedback control 
-
-[**fx.secho\~**](fx.secho~.html): enchanced echo effect that does not click on delay change 
+[**fx.scramble\~**](fx.scramble~.html): scramble delayed sound fragments 
 
 [**fx.shimmer\~**](fx.shimmer~.html): shimmer reverb effect effect 
 
 [**fx.stutter\~**](fx.stutter~.html): stutter effect 
 
 [**fx.tapiir\~**](fx.tapiir~.html): multi-tap delay 
+
+[**fx.tremolo\~**](fx.tremolo~.html): tremolo effect from guitarix project 
 
 [**fx.vocoder\~**](fx.vocoder~.html): very simple vocoder where the spectrum of the modulation signal is analyzed using a 32-band filter bank 
 
@@ -75,6 +85,6 @@
 [**fx.zita_rev1\~**](fx.zita_rev1~.html): Zita stereo reverb 
 
 
-**Version:** 0.9.6
+**Version:** 0.9.7
 
 **License:** GPL3

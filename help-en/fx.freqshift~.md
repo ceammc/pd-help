@@ -18,6 +18,12 @@
 
 
 
+## methods:
+
+* **reset**
+reset object<br>
+
+
 
 
 ## properties:

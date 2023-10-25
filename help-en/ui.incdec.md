@@ -20,33 +20,6 @@
 
 ## methods:
 
-* **set**
-set widget value with no output<br>
-  __parameters:__
-  - **VAL** value<br>
-    type: float <br>
-    required: True <br>
-
-* **inc**
-increments widget with output<br>
-
-* **dec**
-decrements widget with output<br>
-
-* **load**
-loads specified preset<br>
-  __parameters:__
-  - **IDX** preset index<br>
-    type: int <br>
-    required: True <br>
-
-* **store**
-stores specified preset<br>
-  __parameters:__
-  - **IDX** preset index<br>
-    type: int <br>
-    required: True <br>
-
 * **clear**
 clears specified preset<br>
   __parameters:__
@@ -54,8 +27,21 @@ clears specified preset<br>
     type: int <br>
     required: True <br>
 
+* **dec**
+decrements widget with output<br>
+
+* **inc**
+increments widget with output<br>
+
 * **interp**
 for this object acts as *load*, no interpolation performed<br>
+
+* **load**
+loads specified preset<br>
+  __parameters:__
+  - **IDX** preset index<br>
+    type: int <br>
+    required: True <br>
 
 * **pos**
 set UI element position<br>
@@ -68,10 +54,34 @@ set UI element position<br>
     type: float <br>
     required: True <br>
 
+* **set**
+set widget value with no output<br>
+  __parameters:__
+  - **VAL** value<br>
+    type: float <br>
+    required: True <br>
+
+* **store**
+stores specified preset<br>
+  __parameters:__
+  - **IDX** preset index<br>
+    type: int <br>
+    required: True <br>
+
 
 
 
 ## properties:
+
+* **@min** 
+Get/set minimum inc value<br>
+_type:_ float<br>
+_default:_ -8192<br>
+
+* **@max** 
+Get/set maximum inc value<br>
+_type:_ float<br>
+_default:_ 8192<br>
 
 * **@step** 
 Get/set increment step<br>

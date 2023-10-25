@@ -75,6 +75,11 @@ Get window y-pos<br>
 _type:_ int<br>
 _default:_ 0<br>
 
+* **@abs** 
+Get/set if false: using toplevel canvas, if true: using abstraction canvas<br>
+_type:_ bool<br>
+_default:_ 1<br>
+
 
 
 ## inlets:

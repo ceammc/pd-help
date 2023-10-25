@@ -26,12 +26,6 @@ stop/start processing<br>
   - **[V]** 1 - freeze, 0 - unfreeze<br>
     type: int <br>
 
-* **scale**
-sets widget scale<br>
-  __parameters:__
-  - **[N]** 1 - normal scale, 2 - range from -2..2 (zoomout), 0.1 - range from -0.1..0.1 (zoomin)<br>
-    type: float <br>
-
 * **pos**
 set UI element position<br>
   __parameters:__
@@ -42,6 +36,12 @@ set UI element position<br>
   - **Y** top right y-coord<br>
     type: float <br>
     required: True <br>
+
+* **scale**
+sets widget scale<br>
+  __parameters:__
+  - **[N]** 1 - normal scale, 2 - range from -2..2 (zoomout), 0.1 - range from -0.1..0.1 (zoomin)<br>
+    type: float <br>
 
 
 

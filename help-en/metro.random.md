@@ -50,13 +50,21 @@ _units:_ ms<br>
 _min value:_ 1<br>
 _default:_ 200<br>
 
+* **@seed** 
+Get/set generator seed<br>
+_type:_ int<br>
+_min value:_ 0<br>
+_default:_ 0<br>
+
 
 
 ## inlets:
 
 * starts (on &gt; 0) or stops (on &lt;= 0) metro<br>
 _type:_ control
-* set random range. min max pair expected.<br>
+* set @min property<br>
+_type:_ control
+* set @max property<br>
 _type:_ control
 
 

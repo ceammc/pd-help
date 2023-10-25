@@ -20,10 +20,6 @@
 
 ## arguments:
 
-* **NAME**
-OSC server name (for using with other objects)<br>
-_type:_ symbol<br>
-
 * **URL**
 OSC server url (like osc.udp://localhost:12345)<br>
 _type:_ atom<br>
@@ -43,6 +39,17 @@ send input values (autotyped)<br>
     type: list <br>
     required: True <br>
 
+* **send_blob**
+send character<br>
+  __parameters:__
+  - **PATH** OSC path<br>
+    type: symbol <br>
+    required: True <br>
+
+  - **VAL** list of bytes<br>
+    type: list <br>
+    required: True <br>
+
 * **send_bool**
 send boolean value<br>
   __parameters:__
@@ -52,6 +59,39 @@ send boolean value<br>
 
   - **VAL** value<br>
     type: int <br>
+    required: True <br>
+
+* **send_char**
+send character<br>
+  __parameters:__
+  - **PATH** OSC path<br>
+    type: symbol <br>
+    required: True <br>
+
+  - **VAL** ASCII code in 0-127 range or single symbol<br>
+    type: atom <br>
+    required: True <br>
+
+* **send_double**
+send double value<br>
+  __parameters:__
+  - **PATH** OSC path<br>
+    type: symbol <br>
+    required: True <br>
+
+  - **VAL** value<br>
+    type: float <br>
+    required: True <br>
+
+* **send_float**
+send float value<br>
+  __parameters:__
+  - **PATH** OSC path<br>
+    type: symbol <br>
+    required: True <br>
+
+  - **VAL** value<br>
+    type: float <br>
     required: True <br>
 
 * **send_i32**
@@ -76,37 +116,26 @@ send int64 value<br>
     type: int <br>
     required: True <br>
 
-* **send_float**
-send float value<br>
+* **send_inf**
+send inf value<br>
   __parameters:__
   - **PATH** OSC path<br>
     type: symbol <br>
     required: True <br>
 
-  - **VAL** value<br>
-    type: float <br>
-    required: True <br>
-
-* **send_double**
-send double value<br>
+* **send_midi**
+send midi message (4 bytes)<br>
   __parameters:__
   - **PATH** OSC path<br>
     type: symbol <br>
     required: True <br>
 
-  - **VAL** value<br>
-    type: float <br>
+  - **VAL** hex symbol (0xAAFF1122) or list of 4 bytes<br>
+    type: list <br>
     required: True <br>
 
 * **send_null**
 send null value<br>
-  __parameters:__
-  - **PATH** OSC path<br>
-    type: symbol <br>
-    required: True <br>
-
-* **send_inf**
-send inf value<br>
   __parameters:__
   - **PATH** OSC path<br>
     type: symbol <br>
@@ -135,39 +164,6 @@ send list of typed values<br>
     required: True <br>
 
   - **VAL** values<br>
-    type: list <br>
-    required: True <br>
-
-* **send_char**
-send character<br>
-  __parameters:__
-  - **PATH** OSC path<br>
-    type: symbol <br>
-    required: True <br>
-
-  - **VAL** ASCII code in 0-127 range or single symbol<br>
-    type: atom <br>
-    required: True <br>
-
-* **send_blob**
-send character<br>
-  __parameters:__
-  - **PATH** OSC path<br>
-    type: symbol <br>
-    required: True <br>
-
-  - **VAL** list of bytes<br>
-    type: list <br>
-    required: True <br>
-
-* **send_midi**
-send midi message (4 bytes)<br>
-  __parameters:__
-  - **PATH** OSC path<br>
-    type: symbol <br>
-    required: True <br>
-
-  - **VAL** hex symbol (0xAAFF1122) or list of 4 bytes<br>
     type: list <br>
     required: True <br>
 

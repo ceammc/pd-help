@@ -13,7 +13,7 @@
 
 
 ## information
-Convert Scientific Pitch Notation to MIDI note numbers. SPN consist of pitch class (C, C#, D, Eb etc.) and octave (0-9). C4 is middle C (MIDI: 60). The rest symtol is R (-1 output)
+Convert Scientific Pitch Notation to MIDI note numbers. SPN consist of pitch class (C, C#, D, Eb etc.) and octave (0-9). C4 is middle C (MIDI: 60). The rest symbol is R (-1 output)
 
 
 [![example](../examples/img/conv.pitch2midi.jpg)](../examples/pd/conv.pitch2midi.pd)

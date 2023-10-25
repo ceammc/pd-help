@@ -30,6 +30,9 @@ _type:_ symbol<br>
 
 ## methods:
 
+* **[....]**
+sets new content without output<br>
+
 * **add**
 adds entry to dictionary<br>
   __parameters:__
@@ -41,11 +44,11 @@ adds entry to dictionary<br>
     type: list <br>
     required: True <br>
 
-* **clear**
-removes all dict values. No output<br>
-
 * **choose**
 choose random key and output it<br>
+
+* **clear**
+removes all dict values. No output<br>
 
 * **get_key**
 get entry from dictionary<br>
@@ -53,6 +56,23 @@ get entry from dictionary<br>
   - **KEY** entry key<br>
     type: atom <br>
     required: True <br>
+
+* **read**
+read dict from JSON file<br>
+  __parameters:__
+  - **PATH** file path<br>
+    type: symbol <br>
+    required: True <br>
+
+* **remove**
+remove entry from dictionary<br>
+  __parameters:__
+  - **KEY** entry key<br>
+    type: atom <br>
+    required: True <br>
+
+* **set**
+set dict content without output<br>
 
 * **set_key**
 change entry in dictionary. If it&#39;s not exists, do nothing.<br>
@@ -63,26 +83,6 @@ change entry in dictionary. If it&#39;s not exists, do nothing.<br>
 
   - **VAL** single value or list<br>
     type: list <br>
-    required: True <br>
-
-* **set**
-set dict content without output<br>
-
-* **remove**
-remove entry from dictionary<br>
-  __parameters:__
-  - **KEY** entry key<br>
-    type: atom <br>
-    required: True <br>
-
-* **[....]**
-sets new content without output<br>
-
-* **read**
-read dict from JSON file<br>
-  __parameters:__
-  - **PATH** file path<br>
-    type: symbol <br>
     required: True <br>
 
 * **write**
@@ -96,6 +96,11 @@ write dict as JSON file<br>
 
 
 ## properties:
+
+* **@id** (initonly)
+Get/set local variable id<br>
+_type:_ symbol<br>
+_default:_ default<br>
 
 * **@keys** (readonly)
 Get keys of dictionary<br>

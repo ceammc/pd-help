@@ -33,25 +33,34 @@ adds values to the end of the list<br>
     type: atom <br>
     required: True <br>
 
-* **prepend**
-inserts values to the list beginning<br>
-  __parameters:__
-  - **VAL** prepended value<br>
-    type: atom <br>
-    required: True <br>
-
-* **front**
-output first list element<br>
-
-* **back**
-output last list element<br>
-
 * **at**
 outputs atom at the specified position<br>
   __parameters:__
   - **IDX** position (negative indexes are supported: -1 means last element)<br>
     type: int <br>
     required: True <br>
+
+* **back**
+output last list element<br>
+
+* **choose**
+choose random element in list and output it<br>
+
+* **clear**
+removes all list elements<br>
+
+* **dump**
+dump object info to Pd window<br>
+
+* **fill**
+fills with specified value<br>
+  __parameters:__
+  - **VAL** fill value<br>
+    type: atom <br>
+    required: True <br>
+
+* **front**
+output first list element<br>
 
 * **insert**
 inserts values to the specified position<br>
@@ -64,30 +73,15 @@ inserts values to the specified position<br>
     type: atom <br>
     required: True <br>
 
-* **fill**
-fills with specified value<br>
-  __parameters:__
-  - **VAL** fill value<br>
-    type: atom <br>
-    required: True <br>
-
-* **reverse**
-reverses list<br>
-
-* **choose**
-choose random element in list and output it<br>
-
-* **shuffle**
-put elements in random order<br>
-
-* **sort**
-sorts list<br>
-
-* **clear**
-removes all list elements<br>
-
 * **pop**
 removes last list element<br>
+
+* **prepend**
+inserts values to the list beginning<br>
+  __parameters:__
+  - **VAL** prepended value<br>
+    type: atom <br>
+    required: True <br>
 
 * **remove**
 removes specified element<br>
@@ -96,6 +90,9 @@ removes specified element<br>
     type: int <br>
     required: True <br>
 
+* **reverse**
+reverses list<br>
+
 * **set**
 sets new list without output<br>
   __parameters:__
@@ -103,8 +100,11 @@ sets new list without output<br>
     type: list <br>
     required: True <br>
 
-* **dump**
-dump object info to Pd window<br>
+* **shuffle**
+put elements in random order<br>
+
+* **sort**
+sorts list<br>
 
 
 

@@ -41,6 +41,13 @@ read glitch synth file<br>
 * **reset**
 reset synth<br>
 
+* **speed**
+set global playing speed for all synth.glitch~ objects<br>
+  __parameters:__
+  - **SPEED** speed<br>
+    type: float <br>
+    required: True <br>
+
 
 
 

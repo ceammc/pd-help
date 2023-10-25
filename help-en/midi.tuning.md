@@ -18,7 +18,7 @@
 
 ## arguments:
 
-* **LIST**
+* **DEV**
 if symbol - set named temperament deviations, valid names are: &#34;eq&#34;, &#34;just&#34;,
 &#34;ganassi&#34;, &#34;meantone&#34;, &#34;kirnberger3&#34;, &#34;pythagorean&#34;, &#34;rameau&#34;, &#34;valotti&#34; or
 &#34;zarlino&#34;. If list: set deviation in cents per pitch<br>

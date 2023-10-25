@@ -26,7 +26,7 @@ Discretizes the ambisonic sound field into the plane waves domain.
 the order of decomposition<br>
 _type:_ int<br>
 
-* **NCH**
+* **N**
 number of channels<br>
 _type:_ int<br>
 

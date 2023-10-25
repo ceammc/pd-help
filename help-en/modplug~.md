@@ -22,11 +22,11 @@
 
 ## methods:
 
-* **play**
-play mod file<br>
-
 * **pause**
 pause playing<br>
+
+* **play**
+play mod file<br>
 
 * **stop**
 stop playing and move play position to the end of file<br>

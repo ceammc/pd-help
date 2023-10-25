@@ -11,7 +11,7 @@
 
 
 ## information
-Note: only PX160 model supported at this moment
+Note: only PX160 model supported at this moment Note: on PX160 instrument change done only for incoming midi signals.
 
 
 [![example](../examples/img/proto.midi.casio.jpg)](../examples/pd/proto.midi.casio.pd)
@@ -36,18 +36,67 @@ send Note On message<br>
     type: atom <br>
     required: True <br>
 
-* **rev_type**
-set reverb type<br>
-  __parameters:__
-  - **TYPE** reverb type<br>
-    type: int <br>
-    required: True <br>
-
 * **rev_time**
 set reverb time<br>
   __parameters:__
   - **AMOUNT** reverb time<br>
     type: int <br>
+    required: True <br>
+
+* **rev_type**
+set reverb type<br>
+  __parameters:__
+  - **TYPE** reverb type. For PX160 - 1: room, 2: default (hall), 3: hall2, 4: stadium<br>
+    type: int <br>
+    required: True <br>
+
+* **chorus**
+set chorus fx level<br>
+  __parameters:__
+  - **VALUE** level<br>
+    type: float <br>
+    required: True <br>
+
+* **chorus_type**
+set chorus type<br>
+  __parameters:__
+  - **TYPE** chorus type. For PX160 - 1: chorus1, 2: chorus2, 3: deep chorus, 4: flanger<br>
+    type: int <br>
+    required: True <br>
+
+* **chorus_send**
+set chorus send level<br>
+  __parameters:__
+  - **AMOUNT** level<br>
+    type: float <br>
+    required: True <br>
+
+* **chorus_fb**
+set chorus feedback level<br>
+  __parameters:__
+  - **AMOUNT** level<br>
+    type: float <br>
+    required: True <br>
+
+* **chorus_send**
+set chorus send level<br>
+  __parameters:__
+  - **AMOUNT** level<br>
+    type: float <br>
+    required: True <br>
+
+* **chorus_depth**
+set chorus depth<br>
+  __parameters:__
+  - **DEPTH** depth value<br>
+    type: float <br>
+    required: True <br>
+
+* **chorus_rate**
+set chorus rate<br>
+  __parameters:__
+  - **RATE** rate value<br>
+    type: float <br>
     required: True <br>
 
 
@@ -58,13 +107,14 @@ set reverb time<br>
 * **@model** 
 Get/set device model<br>
 _type:_ symbol<br>
+_enum:_ px160<br>
 _default:_ px160<br>
 
 
 
 ## inlets:
 
-*  <br>
+* control messages<br>
 _type:_ control
 
 

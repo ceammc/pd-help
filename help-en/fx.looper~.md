@@ -27,12 +27,6 @@ _units:_ sec<br>
 
 ## methods:
 
-* **record**
-start loop record<br>
-
-* **rec**
-same as record<br>
-
 * **adjust**
 increase loop length<br>
   __parameters:__
@@ -40,20 +34,23 @@ increase loop length<br>
     type: float <br>
     units: samp <br>
 
-* **play**
-play recorded or stopped loop<br>
+* **clear**
+clear loop data and stops playing<br>
 
 * **overdub**
 start loop overdubbing while keeping it playing<br>
 
-* **stop**
-stop played loop<br>
-
 * **pause**
 loop pause<br>
 
-* **clear**
-clear loop data and stops playing<br>
+* **play**
+play recorded or stopped loop<br>
+
+* **rec**
+same as record<br>
+
+* **record**
+start loop record<br>
 
 * **smooth**
 <br>
@@ -61,6 +58,9 @@ clear loop data and stops playing<br>
   - **[TIME]** apply linear fadein/fadeout to loop<br>
     type: float <br>
     units: ms <br>
+
+* **stop**
+stop played loop<br>
 
 
 

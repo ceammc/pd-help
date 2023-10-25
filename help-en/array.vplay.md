@@ -29,9 +29,6 @@ _type:_ symbol<br>
 * **play**
 start playing<br>
 
-* **stop**
-stop playing<br>
-
 * **range**
 set play range.<br>
   __parameters:__
@@ -49,6 +46,9 @@ set play range.<br>
   - **UNIT** value unit<br>
     type: symbol <br>
     required: True <br>
+
+* **stop**
+stop playing<br>
 
 
 

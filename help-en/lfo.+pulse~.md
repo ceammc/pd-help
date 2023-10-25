@@ -61,6 +61,15 @@ Get/set on/off dsp processing<br>
 _type:_ bool<br>
 _default:_ 1<br>
 
+* **@osc** (initonly)
+Get/set OSC server name to listen<br>
+_type:_ symbol<br>
+
+* **@id** (initonly)
+Get/set OSC address id. If specified, bind all properties to /ID/lfo_+pulse/PROP_NAME
+osc address, if empty bind to /lfo_+pulse/PROP_NAME.<br>
+_type:_ symbol<br>
+
 
 
 ## inlets:

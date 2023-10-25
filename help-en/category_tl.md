@@ -23,6 +23,6 @@ _aliases:_ \[tl.t\]
 [**tl.transport**](tl.transport.html): Timeline transport control 
 
 
-**Version:** 0.9.6
+**Version:** 0.9.7
 
 **License:** GPL3

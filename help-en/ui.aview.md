@@ -20,19 +20,8 @@
 
 ## methods:
 
-* **update**
-redraws view<br>
-
-* **select**
-set selection<br>
-  __parameters:__
-  - **BEGIN** selection start in samples<br>
-    type: int <br>
-    required: True <br>
-
-  - **END** selection end in samples<br>
-    type: int <br>
-    required: True <br>
+* **dump**
+dumps all object info to Pd console window.<br>
 
 * **pos**
 set UI element position<br>
@@ -45,8 +34,19 @@ set UI element position<br>
     type: float <br>
     required: True <br>
 
-* **dump**
-dumps all object info to Pd console window.<br>
+* **select**
+set selection<br>
+  __parameters:__
+  - **BEGIN** selection start in samples<br>
+    type: int <br>
+    required: True <br>
+
+  - **END** selection end in samples<br>
+    type: int <br>
+    required: True <br>
+
+* **update**
+redraws view<br>
 
 
 

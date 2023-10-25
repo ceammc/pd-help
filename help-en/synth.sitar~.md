@@ -22,17 +22,6 @@ Implements a sitar plucked string physical model based on the Karplus-Strong alg
 
 ## methods:
 
-* **note**
-note on/off message<br>
-  __parameters:__
-  - **NOTE** midi note<br>
-    type: float <br>
-    required: True <br>
-
-  - **VEL** velocity<br>
-    type: float <br>
-    required: True <br>
-
 * **cc**
 control change message<br>
   __parameters:__
@@ -41,6 +30,17 @@ control change message<br>
     required: True <br>
 
   - **VAL** value<br>
+    type: float <br>
+    required: True <br>
+
+* **note**
+note on/off message<br>
+  __parameters:__
+  - **NOTE** midi note<br>
+    type: float <br>
+    required: True <br>
+
+  - **VEL** velocity<br>
     type: float <br>
     required: True <br>
 

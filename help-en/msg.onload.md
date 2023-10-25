@@ -13,7 +13,7 @@
 
 
 ## information
-like [loadbang], but with message and click support. Click on object sends message again.
+like [loadbang], but with message and click support.
 
 
 [![example](../examples/img/msg.onload.jpg)](../examples/pd/msg.onload.pd)
@@ -48,6 +48,9 @@ _type:_ control
 [onload](keywords/onload.html)
 
 
+
+**See also:**
+[\[msg.onclose\]](msg.onclose.html)
 
 
 

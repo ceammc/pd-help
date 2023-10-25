@@ -22,10 +22,14 @@
 
 ## properties:
 
+* **@color** 
+Get/set current color<br>
+_type:_ atom<br>
+
 * **@mode** 
 Get/set output mode<br>
 _type:_ symbol<br>
-_enum:_ float, int, hex<br>
+_enum:_ float, int, hex, data<br>
 _default:_ float<br>
 
 * **@f** 
@@ -38,6 +42,10 @@ _type:_ alias<br>
 
 * **@h** 
 Get/set alias for @mode hex. Output value as #RRGGBB symbol.<br>
+_type:_ alias<br>
+
+* **@d** 
+Get/set alias for @mode data. Output value Color datatype.<br>
 _type:_ alias<br>
 
 * **@float** 
@@ -53,7 +61,7 @@ _default:_ 255 255 255<br>
 * **@hex** 
 Get/set color value as #RRGGBB symbol<br>
 _type:_ symbol<br>
-_default:_ #ffffff<br>
+_default:_ #FFFFFF<br>
 
 
 

@@ -27,6 +27,24 @@ _type:_ float<br>
 
 
 
+## methods:
+
+* **blue**
+set to blue noise (roll-off factor 0.5)<br>
+
+* **brown**
+set to brown/red noise (roll-off factor -1)<br>
+
+* **pink**
+set to pink noise (roll-off factor -0.5)<br>
+
+* **velvet**
+set to velvet noise (roll-off factor 1)<br>
+
+* **white**
+set to white noise (roll-off factor 0)<br>
+
+
 
 
 ## properties:
@@ -42,6 +60,16 @@ _default:_ 0<br>
 Get/set on/off dsp processing<br>
 _type:_ bool<br>
 _default:_ 1<br>
+
+* **@osc** (initonly)
+Get/set OSC server name to listen<br>
+_type:_ symbol<br>
+
+* **@id** (initonly)
+Get/set OSC address id. If specified, bind all properties to
+/ID/noise_colored/PROP_NAME osc address, if empty bind to
+/noise_colored/PROP_NAME.<br>
+_type:_ symbol<br>
 
 
 

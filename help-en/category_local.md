@@ -21,6 +21,6 @@ _aliases:_ \[local.json\]
 [**local.set**](local.set.html): local named set object 
 
 
-**Version:** 0.9.6
+**Version:** 0.9.7
 
 **License:** GPL3

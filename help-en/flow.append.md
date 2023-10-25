@@ -10,11 +10,19 @@
 ---
 
 
+## information
+Note: if you want to specify property message in the init argument, you have to quote it with double-quotes
 
 
 [![example](../examples/img/flow.append.jpg)](../examples/pd/flow.append.pd)
 
 
+
+## arguments:
+
+* **MSG**
+init value for appended message<br>
+_type:_ list<br>
 
 
 
@@ -29,6 +37,10 @@ _type:_ float<br>
 _units:_ ms<br>
 _min value:_ -1<br>
 _default:_ -1<br>
+
+* **@msg** 
+Get/set appended message<br>
+_type:_ list<br>
 
 
 
@@ -54,6 +66,9 @@ _type:_ control
 [append](keywords/append.html)
 
 
+
+**See also:**
+[\[flow.prepend\]](flow.prepend.html)
 
 
 

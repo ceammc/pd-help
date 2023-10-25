@@ -2,6 +2,8 @@
 ---
 
 # canvas.active
+**aliases:** [ceammc/canvas.active]
+
 
 ###### checks if canvas window is on top and active
 

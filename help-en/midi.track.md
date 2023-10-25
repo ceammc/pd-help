@@ -26,23 +26,23 @@ _type:_ int<br>
 
 ## methods:
 
-* **play**
-start playing<br>
+* **next**
+moves playing position to next event. No output<br>
 
 * **pause**
 pause playing<br>
 
-* **stop**
-stop playing and send All Notes Off event<br>
-
-* **next**
-moves playing position to next event. No output<br>
+* **play**
+start playing<br>
 
 * **reset**
 set current event index to zero and send All Notes Off event<br>
 
 * **seek**
 seek to specified tick<br>
+
+* **stop**
+stop playing and send All Notes Off event<br>
 
 
 

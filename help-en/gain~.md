@@ -34,24 +34,6 @@ increase gain amplitude<br>
   - **[VALS]** values for each input channel<br>
     type: list <br>
 
-* **-**
-decrease gain amplitude<br>
-  __parameters:__
-  - **[VALS]** values for each input channel<br>
-    type: list <br>
-
-* **+db**
-increase gain in db<br>
-  __parameters:__
-  - **[VALS]** values for each input channel<br>
-    type: list <br>
-
-* **-db**
-decrease gain in db<br>
-  __parameters:__
-  - **[VALS]** values for each input channel<br>
-    type: list <br>
-
 * **+all**
 increase gain amplitude for all inputs<br>
   __parameters:__
@@ -59,12 +41,30 @@ increase gain amplitude for all inputs<br>
     type: float <br>
     required: True <br>
 
+* **+db**
+increase gain in db<br>
+  __parameters:__
+  - **[VALS]** values for each input channel<br>
+    type: list <br>
+
+* **-**
+decrease gain amplitude<br>
+  __parameters:__
+  - **[VALS]** values for each input channel<br>
+    type: list <br>
+
 * **-all**
 decrease gain amplitude for all inputs<br>
   __parameters:__
   - **V** single value for each input channel<br>
     type: float <br>
     required: True <br>
+
+* **-db**
+decrease gain in db<br>
+  __parameters:__
+  - **[VALS]** values for each input channel<br>
+    type: list <br>
 
 * **set**
 set gain amplitude for all inputs<br>

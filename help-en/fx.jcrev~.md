@@ -42,7 +42,7 @@ _range:_ 0..1<br>
 _default:_ 0.4<br>
 
 * **@bypass** 
-Get/set if set to 1 - bypass &#39;effected&#39; signal<br>
+Get/set bypass flag. If true: bypass &#39;effected&#39; signal.<br>
 _type:_ bool<br>
 _default:_ 0<br>
 
@@ -50,6 +50,15 @@ _default:_ 0<br>
 Get/set on/off dsp processing<br>
 _type:_ bool<br>
 _default:_ 1<br>
+
+* **@osc** (initonly)
+Get/set OSC server name to listen<br>
+_type:_ symbol<br>
+
+* **@id** (initonly)
+Get/set OSC address id. If specified, bind all properties to /ID/fx_jcrev/PROP_NAME osc
+address, if empty bind to /fx_jcrev/PROP_NAME.<br>
+_type:_ symbol<br>
 
 
 

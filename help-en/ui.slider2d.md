@@ -22,18 +22,28 @@
 
 ## methods:
 
+* **clear**
+clears specified preset<br>
+  __parameters:__
+  - **IDX** preset index<br>
+    type: int <br>
+    required: True <br>
+
 * **dump**
 dumps all object info to Pd console window<br>
 
-* **set**
-sets slider position without output<br>
+* **interp**
+interplolates between presets<br>
   __parameters:__
-  - **X** x-position<br>
+  - **IDX** preset fraction index<br>
     type: float <br>
     required: True <br>
 
-  - **Y** y-position<br>
-    type: float <br>
+* **load**
+loads specified preset<br>
+  __parameters:__
+  - **IDX** preset index<br>
+    type: int <br>
     required: True <br>
 
 * **move**
@@ -47,34 +57,6 @@ move slider by given offset<br>
     type: float <br>
     required: True <br>
 
-* **load**
-loads specified preset<br>
-  __parameters:__
-  - **IDX** preset index<br>
-    type: int <br>
-    required: True <br>
-
-* **store**
-stores specified preset<br>
-  __parameters:__
-  - **IDX** preset index<br>
-    type: int <br>
-    required: True <br>
-
-* **clear**
-clears specified preset<br>
-  __parameters:__
-  - **IDX** preset index<br>
-    type: int <br>
-    required: True <br>
-
-* **interp**
-interplolates between presets<br>
-  __parameters:__
-  - **IDX** preset fraction index<br>
-    type: float <br>
-    required: True <br>
-
 * **pos**
 set UI element position<br>
   __parameters:__
@@ -84,6 +66,24 @@ set UI element position<br>
 
   - **Y** top right y-coord<br>
     type: float <br>
+    required: True <br>
+
+* **set**
+sets slider position without output<br>
+  __parameters:__
+  - **X** x-position<br>
+    type: float <br>
+    required: True <br>
+
+  - **Y** y-position<br>
+    type: float <br>
+    required: True <br>
+
+* **store**
+stores specified preset<br>
+  __parameters:__
+  - **IDX** preset index<br>
+    type: int <br>
     required: True <br>
 
 

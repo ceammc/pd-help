@@ -6,11 +6,13 @@
 
 
 
-[**canvas.active**](canvas.active.html): checks if canvas window is on top and active 
+[**canvas.active**](canvas.active.html): checks if canvas window is on top and active <br>
+_aliases:_ \[ceammc/canvas.active\]
+
 
 [**canvas.current**](canvas.current.html): verbose information about current canvas 
 
-[**canvas.dir**](canvas.dir.html): current canvas directory 
+[**canvas.dir**](canvas.dir.html): current canvas directory and nesting level 
 
 [**canvas.name**](canvas.name.html): current canvas name 
 
@@ -25,6 +27,6 @@
 [**patch.tree**](patch.tree.html): patch tree 
 
 
-**Version:** 0.9.6
+**Version:** 0.9.7
 
 **License:** GPL3

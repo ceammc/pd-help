@@ -44,7 +44,7 @@ especially for large pitch shifts. &#39;quality&#39; method has a CPU cost
 approximately proportional to the required frequency shift. &#39;consistency&#39; gives
 greatest consistency when used to create small variations in pitch around the
 1.0-ratio level. Unlike the previous two options, this avoids discontinuities
-when moving across the 1.0 pitch scale in real-time; it also consumes more CPU
+when moving across the 1.0 pitch scale in real-time. It also consumes more CPU
 than the others in the case where the pitch scale is exactly 1.0.<br>
 _type:_ symbol<br>
 _enum:_ speed, quality, consistency<br>
@@ -101,7 +101,7 @@ Get/set control the component frequency phase-reset mechanism that may be used a
 transient points to provide clarity and realism to percussion and other
 significant transient sounds. &#39;crisp&#39; reset component phases at the peak of
 each transient (the start of a significant note or percussive event). This
-usually results in a clear-sounding output; but it is not always consistent,
+usually results in a clear-sounding output, but it is not always consistent,
 and may cause interruptions in stable sounds present at the same time as
 transient events. The @detector property can be used to tune this to some
 extent. &#39;mixed&#39; reset component phases at the peak of each transient, outside a

@@ -3,7 +3,7 @@
 
 # seq.life
 
-###### Conway gamw of life sequencer
+###### Conway game of life sequencer
 
 *available since version:* 0.9.2
 
@@ -30,47 +30,8 @@ _type:_ int<br>
 
 ## methods:
 
-* **clear**
-clear all cells<br>
-
-* **next**
-generate next state<br>
-
-* **glider**
-adds glider<br>
-  __parameters:__
-  - **ROW** row<br>
-    type: int <br>
-    required: True <br>
-
-  - **COL** column<br>
-    type: int <br>
-    required: True <br>
-
-* **hive**
-adds horizontal bee-hive<br>
-  __parameters:__
-  - **ROW** row<br>
-    type: int <br>
-    required: True <br>
-
-  - **COL** column<br>
-    type: int <br>
-    required: True <br>
-
-* **vhive**
-adds vertical bee-hive<br>
-  __parameters:__
-  - **ROW** row<br>
-    type: int <br>
-    required: True <br>
-
-  - **COL** column<br>
-    type: int <br>
-    required: True <br>
-
-* **rpent**
-adds R-pentamino<br>
+* **blinker**
+adds blinker<br>
   __parameters:__
   - **ROW** row<br>
     type: int <br>
@@ -82,17 +43,6 @@ adds R-pentamino<br>
 
 * **block**
 adds block<br>
-  __parameters:__
-  - **ROW** row<br>
-    type: int <br>
-    required: True <br>
-
-  - **COL** column<br>
-    type: int <br>
-    required: True <br>
-
-* **oct2**
-adds octagon<br>
   __parameters:__
   - **ROW** row<br>
     type: int <br>
@@ -117,8 +67,36 @@ sets cell value<br>
     type: int <br>
     required: True <br>
 
-* **blinker**
-adds blinker<br>
+* **clear**
+clear all cells<br>
+
+* **glider**
+adds glider<br>
+  __parameters:__
+  - **ROW** row<br>
+    type: int <br>
+    required: True <br>
+
+  - **COL** column<br>
+    type: int <br>
+    required: True <br>
+
+* **hive**
+adds horizontal bee-hive<br>
+  __parameters:__
+  - **ROW** row<br>
+    type: int <br>
+    required: True <br>
+
+  - **COL** column<br>
+    type: int <br>
+    required: True <br>
+
+* **next**
+generate next state<br>
+
+* **oct2**
+adds octagon<br>
   __parameters:__
   - **ROW** row<br>
     type: int <br>
@@ -130,6 +108,28 @@ adds blinker<br>
 
 * **random**
 fills with random<br>
+
+* **rpent**
+adds R-pentamino<br>
+  __parameters:__
+  - **ROW** row<br>
+    type: int <br>
+    required: True <br>
+
+  - **COL** column<br>
+    type: int <br>
+    required: True <br>
+
+* **vhive**
+adds vertical bee-hive<br>
+  __parameters:__
+  - **ROW** row<br>
+    type: int <br>
+    required: True <br>
+
+  - **COL** column<br>
+    type: int <br>
+    required: True <br>
 
 
 

@@ -23,6 +23,6 @@ _aliases:_ \[noise.logistic\]
 [**chaos.std0\~**](chaos.std0~.html): Standard map chaotic generator 
 
 
-**Version:** 0.9.6
+**Version:** 0.9.7
 
 **License:** GPL3

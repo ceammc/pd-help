@@ -94,7 +94,7 @@ _type:_ control
 
 ## outlets:
 
-* None<br>
+*  <br>
 _type:_ audio
 
 

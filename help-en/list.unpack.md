@@ -39,7 +39,7 @@ _type:_ control
 
 * outlet for first atom in list<br>
 _type:_ control
-* None<br>
+*  <br>
 _type:_ control
 * outlet for Nth atom in list<br>
 _type:_ control

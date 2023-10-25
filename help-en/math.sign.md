@@ -11,7 +11,7 @@
 
 
 ## information
-Returns *-1* if x 0.
+Returns *-1* if x &lt; 0, *0* if x == 0 and *1* if x &gt; 0.
 
 
 [![example](../examples/img/math.sign.jpg)](../examples/pd/math.sign.pd)

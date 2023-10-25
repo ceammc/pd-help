@@ -6,7 +6,7 @@
 #X msg 191 80 delete 1;
 #X msg 299 80 + 1;
 #X msg 416 80 random move;
-#X msg 56 110 clear;
+#X msg 56 110 erase;
 #X floatatom 128 110 5 0 0 0 - - -;
 #X obj 209 110 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;

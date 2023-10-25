@@ -1,0 +1,20 @@
+#N canvas 0 0 317 267 12;
+#X obj 20 50 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X msg 56 50 3 5 1;
+#X listbox 137 50 20 0 0 0 - - -;
+#X obj 56 80 msg.after bang;
+#X obj 20 110 rhythm.euclid 3 7;
+#X obj 20 140 t l l;
+#X obj 56 170 list.size;
+#X msg 56 200 @nitems \$1 \, @size 150 15;
+#X obj 20 230 ui.hrd* @nosave 1;
+#X connect 1 0 3 0;
+#X connect 2 0 3 0;
+#X connect 0 0 4 0;
+#X connect 3 0 4 0;
+#X connect 4 0 5 0;
+#X connect 5 1 6 0;
+#X connect 6 0 7 0;
+#X connect 5 0 8 0;
+#X connect 7 0 8 0;

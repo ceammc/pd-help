@@ -1,6 +1,6 @@
 #N canvas 0 0 405 177 12;
-#X msg 56 50 open 0;
-#X msg 164 50 open 1;
+#X msg 20 50 open 0;
+#X msg 128 50 open 1;
 #X obj 20 80 sig~ 0.5;
 #X obj 317 80 sig~ 1;
 #X obj 20 110 hoa.process~ 2 hoa/hoa_out_example3 planewaves;

@@ -1,5 +1,5 @@
-#N canvas 0 0 482 200 12;
-#X text 20 65 [ui.link @url vu-help.pd @title VU-help];
-#X obj 20 95 ui.link @title VU-help @url vu-help.pd;
-#X text 20 125 [ui.link @url http://puredata.info @title puredata.info];
-#X obj 20 155 ui.link @title puredata.info @url http://puredata.info;
+#N canvas 0 0 482 185 12;
+#X text 20 50 [ui.link @url vu-help.pd @title VU-help];
+#X obj 20 80 ui.link @title VU-help @url vu-help.pd;
+#X text 20 110 [ui.link @url http://puredata.info @title puredata.info];
+#X obj 20 140 ui.link @title puredata.info @url http://puredata.info;

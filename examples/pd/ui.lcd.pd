@@ -1,0 +1,16 @@
+#N canvas 0 0 407 295 12;
+#X symbolatom 20 50 12 0 0 0 - - -;
+#X obj 20 80 qrcode;
+#X obj 20 110 msg set;
+#X msg 119 110 @cols \$1 \, @rows \$1 \, @size 120 120;
+#X msg 146 140 invert;
+#X msg 227 140 clear;
+#X obj 20 170 ui.lcd @size 120 120 @nosave 1;
+#X text 20 275;
+#X connect 0 0 1 0;
+#X connect 1 0 2 0;
+#X connect 1 1 3 0;
+#X connect 2 0 6 0;
+#X connect 3 0 6 0;
+#X connect 4 0 6 0;
+#X connect 5 0 6 0;

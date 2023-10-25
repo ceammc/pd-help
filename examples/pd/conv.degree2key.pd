@@ -6,7 +6,7 @@
 #X obj 38 140 ui.dt;
 #X obj 20 185 msg @v;
 #X obj 110 185 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0 1;
-#X obj 20 215 seq @t 120|4_bpm @inf;
+#X obj 20 215 seq @t 120bpm @inf;
 #X obj 20 245 + 72;
 #X obj 20 275 mtof;
 #X obj 20 305 osc~;

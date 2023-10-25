@@ -4,7 +4,7 @@
 #X msg 155 50 @dur 1000;
 #X obj 272 50 ui.tab inc dec tri;
 #X msg 272 80 @mode \$1;
-#X obj 20 110 sequencer mtof(seq(56 90 3)) @t 360bpm @inf;
+#X obj 20 110 sequencer mtof(seq(56 90 3)) @t 120bpm @div 3 @inf;
 #X obj 20 140 t b f;
 #X obj 281 140 route done i ri;
 #X obj 20 170 click~;

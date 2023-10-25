@@ -7,7 +7,7 @@
 #X msg 38 185 dump;
 #X msg 155 200 @sf sf2/VintageDreamsWaves-v2.sf2;
 #X obj 20 230 fluid~;
-#X obj 20 260 ui.hgain~;
+#X obj 20 260 ui.hgain2~;
 #X obj 155 260 ui.dsp~;
 #X obj 20 290 dac~;
 #X obj 20 320 fluid~.bend;
@@ -19,7 +19,7 @@
 #X obj 317 350 fluid~.prog;
 #X obj 443 350 fluid~.notesoff;
 #X obj 20 380 fluid~.pedals;
-#X obj 164 380 fluid~.soundsoff;
+#X obj 164 380 fluid~.soundoff;
 #X connect 0 0 2 0;
 #X connect 1 0 3 0;
 #X connect 2 0 6 0;
@@ -27,6 +27,6 @@
 #X connect 3 0 6 0;
 #X connect 5 0 6 0;
 #X connect 6 0 7 0;
-#X connect 6 1 7 0;
+#X connect 6 1 7 1;
 #X connect 7 0 9 0;
-#X connect 7 0 9 1;
+#X connect 7 1 9 1;

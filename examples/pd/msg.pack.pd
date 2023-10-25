@@ -1,0 +1,8 @@
+#N canvas 0 0 232 147 12;
+#X floatatom 20 50 5 0 0 0 - - -;
+#X floatatom 146 50 5 0 0 0 - - -;
+#X obj 20 80 msg.pack 2 the @message;
+#X obj 20 110 ui.dt;
+#X connect 0 0 2 0;
+#X connect 1 0 2 1;
+#X connect 2 0 3 0;

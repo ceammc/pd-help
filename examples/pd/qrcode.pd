@@ -1,0 +1,14 @@
+#N canvas 0 0 748 237 12;
+#X symbolatom 20 50 15 0 0 0 - - -;
+#X msg 20 80 symbol https://github.com/uliss/pure-data/releases;
+#X obj 20 110 qrcode;
+#X obj 371 110 ui.lcd @receive qrcode @size 125 125 @nosave 1;
+#X msg 74 140 @cols \$1 \, @rows \$1 \, @size 125 125;
+#X obj 20 170 msg set;
+#X obj 20 200 s qrcode;
+#X connect 1 0 2 0;
+#X connect 2 1 4 0;
+#X connect 2 0 5 0;
+#X connect 5 0 6 0;
+#X connect 4 0 6 0;
+#X connect 0 0 2 0;

@@ -1,0 +1,19 @@
+#N canvas 0 0 715 447 12;
+#X listbox 20 50 20 0 0 0 - - -;
+#X msg 290 65 bang;
+#X text 380 65 plot response;
+#X msg 20 95 @f1 \$1 \, @f2 \$2;
+#X obj 290 95 click~;
+#X obj 20 125 flt.speaker~ 1000 4000;
+#X obj 20 155 plot.response~ @sr 1 @db 1;
+#X obj 20 185 ui.plot~ @xlabels 1 @ylabels 1 @ymin -60 @ymax 0
+@ymin_ticks 0 @ymaj_ticks 0 @size 400 200;
+#X obj 20 410 ui.dsp~;
+#X connect 0 0 3 0;
+#X connect 1 0 4 0;
+#X connect 3 0 5 0;
+#X connect 4 0 5 0;
+#X connect 5 0 6 0;
+#X connect 6 0 7 0;
+#X connect 6 2 7 1;
+#X connect 1 0 6 1;

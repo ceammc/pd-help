@@ -1,0 +1,10 @@
+#N canvas 0 0 267 207 12;
+#X obj 20 50 ui.hsl @show_value 1;
+#X obj 20 80 color.mix Color(orange) \#0AF;
+#X obj 20 110 color->rgba @pack @float;
+#X msg 20 140 @background_color \$1 \$2 \$3;
+#X obj 20 170 ui.hsl @nosave 1;
+#X connect 0 0 1 0;
+#X connect 1 0 2 0;
+#X connect 2 0 3 0;
+#X connect 3 0 4 0;

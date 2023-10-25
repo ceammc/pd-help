@@ -1,0 +1,13 @@
+#N canvas 0 0 282 207 12;
+#X floatatom 20 50 5 0 0 0 - - -;
+#X obj 20 80 sig~ 1;
+#X obj 20 110 split~ 3, f 28;
+#X obj 20 140 ui.n~;
+#X obj 110 140 ui.n~;
+#X obj 200 140 ui.n~;
+#X obj 20 170 ui.dsp~;
+#X connect 0 0 1 0;
+#X connect 1 0 2 0;
+#X connect 2 0 3 0;
+#X connect 2 1 4 0;
+#X connect 2 2 5 0;

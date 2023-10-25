@@ -1,0 +1,26 @@
+#N canvas 0 0 593 372 12;
+#X obj 20 50 loadmsg load guitar1.wav to ARAMP @resize;
+#X obj 425 50 table ARAMP 44100;
+#X obj 20 80 snd.file;
+#X obj 20 125 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 74 125 ui.rslider;
+#X obj 74 155 msg @range;
+#X obj 20 185 array.tramp~ ARAMP;
+#X obj 173 215 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 20 245 tabread4~ ARAMP;
+#X obj 20 275 flt.dcblock~;
+#X obj 20 305 ui.hgain2~;
+#X obj 173 305 ui.dsp~;
+#X obj 20 335 dac~;
+#X connect 0 0 2 0;
+#X connect 4 0 5 0;
+#X connect 3 0 6 0;
+#X connect 5 0 6 0;
+#X connect 6 1 7 0;
+#X connect 6 0 8 0;
+#X connect 8 0 9 0;
+#X connect 9 0 10 0;
+#X connect 10 0 12 0;
+#X connect 10 1 12 1;

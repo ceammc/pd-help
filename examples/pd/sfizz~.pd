@@ -1,4 +1,4 @@
-#N canvas 0 0 495 342 12;
+#N canvas 0 0 488 342 12;
 #X obj 20 50 ui.keyboard;
 #X obj 20 125 msg note;
 #X obj 20 155 sfizz~ \#sine;
@@ -10,7 +10,7 @@
 #X obj 335 245 sfizz~.pedals;
 #X obj 20 275 sfizz~.bend;
 #X obj 182 275 sfizz~.tune-12;
-#X obj 335 275 sfizz~.soundsoff;
+#X obj 335 275 sfizz~.soundoff;
 #X obj 20 305 sfizz~.notesoff;
 #X obj 182 305 sfizz~.sfz;
 #X connect 0 0 1 0;

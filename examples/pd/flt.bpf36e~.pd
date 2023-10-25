@@ -1,0 +1,21 @@
+#N canvas 0 0 737 477 12;
+#X msg 20 50 bang;
+#X text 101 50 plot response;
+#X obj 20 80 click~;
+#X obj 20 140 flt.bpf36e~ 5000;
+#X obj 209 140 flt.bpf12~ 5000;
+#X obj 20 170 plot.response~ @sr 1;
+#X obj 209 170 plot.response~ @sr 1;
+#X obj 20 215 ui.plot~ @xlabels 1 @ylabels 1 @ymin 0 @ymax 1
+@ymin_ticks 0 @ymaj_ticks 0 @n 2 @size 400 200;
+#X obj 20 440 ui.dsp~;
+#X connect 0 0 2 0;
+#X connect 3 0 5 0;
+#X connect 0 0 5 1;
+#X connect 0 0 6 1;
+#X connect 2 0 4 0;
+#X connect 2 0 3 0;
+#X connect 4 0 6 0;
+#X connect 5 0 7 0;
+#X connect 6 0 7 1;
+#X connect 6 2 7 2;

@@ -1,0 +1,17 @@
+#N canvas 0 0 373 207 12;
+#X obj 20 50 sig~ 1;
+#X obj 101 50 sig~ 2;
+#X obj 182 50 sig~ 3;
+#X obj 263 50 ui.hrd* 3;
+#X obj 20 80 gate~ 3, f 30;
+#X obj 20 110 merge~ 3, f 30;
+#X obj 20 140 ui.n~;
+#X obj 20 170 ui.dsp~;
+#X connect 0 0 4 0;
+#X connect 1 0 4 1;
+#X connect 2 0 4 2;
+#X connect 3 0 4 3;
+#X connect 4 0 5 0;
+#X connect 4 1 5 1;
+#X connect 4 2 5 2;
+#X connect 5 0 6 0;

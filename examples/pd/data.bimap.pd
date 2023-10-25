@@ -1,0 +1,14 @@
+#N canvas 0 0 443 177 12;
+#X listbox 20 50 20 0 0 0 - - -;
+#X listbox 263 50 20 0 0 0 - - -;
+#X floatatom 38 80 5 0 0 0 - - -;
+#X symbolatom 290 80 5 0 0 0 - - -;
+#X obj 20 110 data.bimap 0 C 1 D 2 E 3 F 4 G 5 A 6 B;
+#X obj 20 140 ui.dt;
+#X obj 263 140 ui.dt;
+#X connect 0 0 4 0;
+#X connect 2 0 4 0;
+#X connect 1 0 4 1;
+#X connect 3 0 4 1;
+#X connect 4 0 5 0;
+#X connect 4 1 6 0;

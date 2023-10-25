@@ -1,4 +1,4 @@
-#N canvas 0 0 326 207 12;
+#N canvas 0 0 326 237 12;
 #X msg 20 50 @name?;
 #X msg 128 50 @dir?;
 #X msg 200 50 @width?;
@@ -8,7 +8,8 @@
 -1;
 #X msg 146 110 @y?;
 #X obj 20 140 canvas.top;
-#X obj 20 170 ui.display @display_type 1;
+#X obj 20 170 ui.dt;
+#X obj 20 200 canvas.top.abs;
 #X connect 0 0 7 0;
 #X connect 4 0 7 0;
 #X connect 5 0 7 0;

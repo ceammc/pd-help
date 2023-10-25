@@ -1,0 +1,26 @@
+#N canvas 0 0 460 282 12;
+#X obj 20 50 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0 1;
+#X msg 74 50 date 83 1 11;
+#X obj 227 50 ui.hsl 0.5 4 @show_value 1;
+#X msg 92 95 time 0 4 15;
+#X msg 227 95 @speed \$1;
+#X obj 362 95 ui.dsp~;
+#X obj 38 110 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X msg 110 125 seek 10sec;
+#X obj 20 155 ltc.out~;
+#X obj 74 185 ui.dt;
+#X obj 20 215 ltc.in~;
+#X obj 20 245 ui.dt;
+#X obj 146 245 ui.dt;
+#X connect 2 0 4 0;
+#X connect 0 0 8 0;
+#X connect 6 0 8 0;
+#X connect 1 0 8 0;
+#X connect 3 0 8 0;
+#X connect 7 0 8 0;
+#X connect 4 0 8 0;
+#X connect 8 1 9 0;
+#X connect 8 0 10 0;
+#X connect 10 0 11 0;
+#X connect 10 1 12 0;

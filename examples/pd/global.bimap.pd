@@ -1,0 +1,14 @@
+#N canvas 0 0 319 237 12;
+#X obj 20 50 loadmsg 1 2 3 4 5 6;
+#X listbox 20 80 20 0 0 0 - - -;
+#X obj 20 110 msg set;
+#X msg 110 110 @size?;
+#X obj 20 140 global.bimap GBM;
+#X obj 20 170 ui.dt;
+#X obj 20 200 global.bimap.sp;
+#X text 182 200 open subpatch;
+#X connect 0 0 1 0;
+#X connect 1 0 2 0;
+#X connect 2 0 4 0;
+#X connect 3 0 4 0;
+#X connect 4 0 5 0;

@@ -1,0 +1,4 @@
+#N canvas 0 0 203 117 12;
+#X obj 20 50 msg.onclose MESSAGE;
+#X obj 20 80 print onclose;
+#X connect 0 0 1 0;

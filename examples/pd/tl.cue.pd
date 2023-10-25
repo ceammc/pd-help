@@ -1,7 +1,7 @@
 #N canvas 0 0 635 177 12;
-#X obj 146 50 tl.cue;
-#X obj 344 50 tl.cue;
-#X obj 515 50 tl.cue;
+#X obj 92 50 tl.cue;
+#X obj 290 50 tl.cue;
+#X obj 461 50 tl.cue;
 #X obj 20 80 hradio 15 1 0 3 empty empty empty 17 7 0 10 -262144 -1 -1
 0;
 #X obj 155 80 tl.bang @delay 500;

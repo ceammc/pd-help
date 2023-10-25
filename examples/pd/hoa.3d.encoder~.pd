@@ -1,0 +1,15 @@
+#N canvas 0 0 503 372 12;
+#X obj 20 50 lfo.square~ 1;
+#X obj 236 50 phasor~ 0.15;
+#X obj 371 50 phasor~ 0.07;
+#X obj 20 80 ui.gain~ @size 120 14;
+#X obj 236 80 phase->rad~;
+#X obj 371 80 phase->rad~;
+#X obj 20 110 hoa.3d.encoder~ 3, f 24;
+#X obj 20 335 ui.dsp~;
+#X connect 0 0 3 0;
+#X connect 1 0 4 0;
+#X connect 2 0 5 0;
+#X connect 3 0 6 0;
+#X connect 4 0 6 1;
+#X connect 5 0 6 2;

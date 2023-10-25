@@ -1,0 +1,12 @@
+#N canvas 0 0 212 147 12;
+#X msg 20 50 12;
+#X msg 65 50 0;
+#X msg 101 50 1;
+#X floatatom 137 50 5 0 0 0 - - -;
+#X obj 20 80 semi->ratio;
+#X obj 20 110 ui.dt;
+#X connect 0 0 4 0;
+#X connect 1 0 4 0;
+#X connect 2 0 4 0;
+#X connect 3 0 4 0;
+#X connect 4 0 5 0;

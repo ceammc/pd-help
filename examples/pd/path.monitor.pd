@@ -4,5 +4,8 @@
 #X msg 20 110 open "%PD%/test.txt" w;
 #X msg 38 140 write 1 2 3 \, close;
 #X msg 56 170 remove "%PD%/test.txt";
-#X obj 20 200 file;
+#X obj 20 200 path.file;
 #X connect 0 0 1 0;
+#X connect 2 0 5 0;
+#X connect 3 0 5 0;
+#X connect 4 0 5 0;

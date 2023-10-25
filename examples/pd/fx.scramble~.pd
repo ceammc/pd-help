@@ -1,0 +1,15 @@
+#N canvas 0 0 350 237 12;
+#X msg 20 50 open %CEAMMC%/guitar1.wav \, 1;
+#X obj 20 80 expand_env;
+#X obj 20 110 readsf~;
+#X obj 20 140 fx.scramble~;
+#X obj 20 170 ui.gain2~ @size 120 16;
+#X obj 254 170 ui.dsp~;
+#X obj 20 200 dac~;
+#X connect 0 0 1 0;
+#X connect 1 0 2 0;
+#X connect 2 0 3 0;
+#X connect 3 0 4 0;
+#X connect 3 1 4 1;
+#X connect 4 0 6 0;
+#X connect 4 1 6 1;

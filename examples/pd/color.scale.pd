@@ -1,0 +1,14 @@
+#N canvas 0 0 619 237 12;
+#X obj 20 50 ui.hsl @show_value 1;
+#X obj 263 50 ui.tab none short long inc dec @size 200 15;
+#X msg 263 80 @interp \$2;
+#X obj 20 110 color.scale Color(red) Color(blue) Color(yellow);
+#X obj 20 140 color->rgba @pack @float;
+#X msg 20 170 @background_color \$1 \$2 \$3;
+#X obj 20 200 ui.hsl @nosave 1;
+#X connect 1 0 2 0;
+#X connect 0 0 3 0;
+#X connect 2 0 3 0;
+#X connect 3 0 4 0;
+#X connect 4 0 5 0;
+#X connect 5 0 6 0;

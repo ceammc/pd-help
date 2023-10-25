@@ -1,0 +1,16 @@
+#N canvas 0 0 475 237 12;
+#X msg 20 50 open %CEAMMC%/guitar1.wav \, 1;
+#X obj 20 80 expand_env;
+#X obj 20 110 readsf~;
+#X obj 119 110 msg.onload load_file ir/ir_church1_wide.wav;
+#X obj 20 140 convolve~;
+#X obj 164 140 ui.dsp~;
+#X obj 20 170 ui.hgain~;
+#X obj 20 200 dac~;
+#X connect 0 0 1 0;
+#X connect 1 0 2 0;
+#X connect 2 0 4 0;
+#X connect 3 0 4 0;
+#X connect 4 0 6 0;
+#X connect 6 0 7 0;
+#X connect 6 0 7 1;

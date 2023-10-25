@@ -1,0 +1,19 @@
+#N canvas 0 0 774 282 12;
+#X obj 20 50 ui.hsl 0 360 @label HUE @label_inner 1 @show_value 1
+@label_color 0.1 0.25 1;
+#X obj 101 80 ui.hsl @label SAT @label_inner 1 @show_value 1
+@label_color 0.1 0.25 1;
+#X msg 29 110 bang;
+#X obj 209 110 ui.hsl @label LIGHT @label_inner 1 @show_value 1
+@label_color 0.1 0.25 1;
+#X obj 20 140 hsl->rgb @sync @float @pack;
+#X obj 47 170 ui.dt;
+#X obj 20 215 msg @background_color;
+#X obj 20 245 ui.t @size 40 40 @nosave 1;
+#X connect 2 0 4 0;
+#X connect 4 0 5 0;
+#X connect 4 0 6 0;
+#X connect 6 0 7 0;
+#X connect 0 0 4 0;
+#X connect 1 0 4 1;
+#X connect 3 0 4 2;

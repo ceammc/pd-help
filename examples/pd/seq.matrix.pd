@@ -4,8 +4,8 @@
 #X obj 146 50 ui.tab inc dec tri;
 #X obj 353 50 ui.dsp~;
 #X msg 146 80 @mode \$1;
-#X obj 20 110 seq.matrix 16 120|16bpm;
-#X obj 254 110 loadmsg random;
+#X obj 20 110 seq.matrix 16 120bpm @div 4;
+#X obj 227 110 loadmsg random;
 #X obj 20 140 ui.matrix 3 16 @size 320 51;
 #X obj 20 200 route col;
 #X obj 20 230 unpack f f f f;

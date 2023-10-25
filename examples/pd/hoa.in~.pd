@@ -1,6 +1,6 @@
 #N canvas 0 0 414 177 12;
-#X msg 47 50 open 0;
-#X msg 155 50 open 1;
+#X msg 20 50 open 0;
+#X msg 128 50 open 1;
 #X floatatom 326 50 5 0 0 0 - - -;
 #X obj 20 80 sig~ 0.5;
 #X obj 173 80 sig~ 1;

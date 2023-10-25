@@ -10,8 +10,8 @@
 #X obj 398 80 flow.split.sound;
 #X floatatom 20 110 5 0 0 0 - - -;
 #X floatatom 65 110 5 0 0 0 - - -;
-#X obj 281 110 ui.d @display_type 1;
-#X obj 227 140 ui.d @display_type 1;
+#X obj 281 110 ui.dt;
+#X obj 227 140 ui.dt;
 #X connect 0 0 4 0;
 #X connect 1 0 6 0;
 #X connect 2 0 6 0;

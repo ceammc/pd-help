@@ -1,19 +1,19 @@
-#N canvas 0 0 482 380 12;
-#X msg 20 65 blackman;
-#X msg 128 65 blackman-harris;
-#X msg 317 65 flattop \, bang;
-#X msg 38 95 hamming;
-#X msg 146 95 hann;
-#X msg 218 95 nuttall;
-#X msg 335 95 rect \, bang;
-#X msg 56 125 sine;
-#X msg 164 125 tri;
-#X msg 245 125 welch;
-#X msg 353 125 gauss \, bang;
-#X obj 74 155 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#N canvas 0 0 482 365 12;
+#X msg 20 50 blackman;
+#X msg 128 50 blackman-harris;
+#X msg 317 50 flattop \, bang;
+#X msg 38 80 hamming;
+#X msg 146 80 hann;
+#X msg 218 80 nuttall;
+#X msg 335 80 rect \, bang;
+#X msg 56 110 sine;
+#X msg 164 110 tri;
+#X msg 245 110 welch;
+#X msg 353 110 gauss \, bang;
+#X obj 74 140 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X obj 20 185 window gauss 512;
-#X obj 20 215 array.set array-window;
+#X obj 20 170 window gauss 512;
+#X obj 20 200 array.set array-window;
 #N canvas 0 22 450 300 (subpatch) 0;
 #X array array-window 512 float 1;
 #A 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
@@ -32,7 +32,7 @@
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
 #X coords 0 1 512 0 100 100 1;
-#X restore 20 260 graph;
+#X restore 20 245 graph;
 #X connect 0 0 12 0;
 #X connect 3 0 12 0;
 #X connect 7 0 12 0;

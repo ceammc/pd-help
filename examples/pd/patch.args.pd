@@ -8,3 +8,7 @@
 #X text 56 140 @from 2;
 #X obj 20 170 patch.args.ex2 1 2 3 4 5;
 #X obj 20 200 ui.dt;
+#X connect 0 0 1 0;
+#X connect 1 0 2 0;
+#X connect 3 0 5 0;
+#X connect 5 0 6 0;

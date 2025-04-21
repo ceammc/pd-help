@@ -1,9 +1,3 @@
----
-layout:     default
-title:      xdac~
-categories: [base]
-tags:       [base]
----
 [index](index.html) :: [base](category_base.html)
 ---
 
@@ -34,7 +28,33 @@ _type:_ list<br>
 
 
 
+## methods:
 
+* **reverse**
+reverse output channels order<br>
+
+* **rotate**
+rotate output channels counter clockwise<br>
+  __parameters:__
+  - **N** number of rotation steps, can be negative<br>
+    type: int <br>
+    required: True <br>
+
+* **shuffle**
+shuffle output channels order<br>
+
+* **side2circle**
+map left/right side pairs to counter clockwise layout<br>
+
+
+
+
+## properties:
+
+* **@channels** 
+Get/set list of mapped channels<br>
+_type:_ list<br>
+_default:_ 1 2<br>
 
 
 

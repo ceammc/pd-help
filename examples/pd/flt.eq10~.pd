@@ -1,8 +1,8 @@
-#N canvas 0 0 576 402 12;
+#N canvas 0 0 592 403 12;
 #X msg 20 50 fill 0.5 \, bang;
 #X obj 236 50 r~ ssc;
 #X obj 20 80 ui.sliders @count 10;
-#X obj 236 80 ui.spectroscope~ @log_scale 1 @size 300 100;
+#X obj 236 80 ui.spectroscope~ @size 300 100 @log_scale 1;
 #X obj 20 200 lin->lin 0 1 -10 10;
 #X floatatom 182 245 5 0 0 0 - - -;
 #X obj 47 275 noise.white~;

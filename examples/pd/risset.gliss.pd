@@ -1,4 +1,4 @@
-#N canvas 0 0 423 312 12;
+#N canvas 0 0 424 313 12;
 #X msg 20 50 0 \, 1 10000;
 #X floatatom 146 50 5 0 0 0 - - -;
 #X floatatom 308 50 5 0 0 0 - - -;
@@ -8,7 +8,7 @@
 #X obj 20 140 risset.gliss 60;
 #X obj 20 170 msg \#:0;
 #X obj 119 170 msg \#:0;
-#X obj 20 200 hoa.process~ 5 risset.gliss.osc~ planewaves;
+#X obj 20 200 hoa.process~ 5 risset.gliss-osc~ planewaves;
 #X obj 20 245 ui.hgain~;
 #X obj 308 245 ui.dsp~;
 #X obj 20 275 dac~ 1 2;

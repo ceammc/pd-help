@@ -1,9 +1,6 @@
-#N canvas 0 0 595 417 12;
+#N canvas 0 0 596 418 12;
 #N canvas 0 22 450 300 (subpatch) 0;
-#X array arr_flite 100 float 1;
-#A 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+#X array arr_flite 100 float 0;
 #X coords 0 1 100 -1 500 80 1;
 #X restore 20 50 graph;
 #X obj 20 140 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0 1;

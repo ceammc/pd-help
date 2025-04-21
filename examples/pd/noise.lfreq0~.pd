@@ -1,4 +1,4 @@
-#N canvas 0 0 360 342 12;
+#N canvas 0 0 360 343 12;
 #X msg 20 50 @freq 200;
 #X msg 128 50 @freq 2000;
 #X obj 20 80 noise.lfreq0~ 400;

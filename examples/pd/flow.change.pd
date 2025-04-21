@@ -1,4 +1,4 @@
-#N canvas 0 0 360 207 12;
+#N canvas 0 0 360 208 12;
 #X msg 20 50 1;
 #X msg 92 50 list a b;
 #X msg 245 50 @prop 123;
@@ -8,7 +8,7 @@
 #X msg 245 80 reset;
 #X obj 20 110 flow.change;
 #X obj 20 140 ui.dt;
-#X obj 20 170 flow.change.repeats;
+#X obj 20 170 flow.change-repeats;
 #X connect 3 0 6 0;
 #X connect 6 0 7 0;
 #X connect 0 0 6 0;

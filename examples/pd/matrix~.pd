@@ -1,4 +1,4 @@
-#N canvas 0 0 558 222 12;
+#N canvas 0 0 558 205 12;
 #X obj 20 50 sig~ 0.25;
 #X obj 128 50 sig~ 0.5;
 #X obj 245 50 ui.matrix @size 37 69 @cols 2 @rows 4;

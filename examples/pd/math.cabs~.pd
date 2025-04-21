@@ -1,4 +1,4 @@
-#N canvas 0 0 242 297 12;
+#N canvas 0 0 340 298 12;
 #X obj 20 50 ui.slider2d @show_grid 1 @size 100 100;
 #X obj 20 170 unpack f f;
 #X obj 20 200 sig~;

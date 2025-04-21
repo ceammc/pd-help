@@ -1,4 +1,4 @@
-#N canvas 0 0 527 282 12;
+#N canvas 0 0 527 283 12;
 #X obj 20 50 ui.dsp~;
 #X obj 20 95 noise.pink~;
 #X obj 20 125 ui.gain~ @size 120 16;

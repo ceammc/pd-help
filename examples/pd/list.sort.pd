@@ -1,4 +1,4 @@
-#N canvas 0 0 320 147 12;
+#N canvas 0 0 320 148 12;
 #X msg 20 50 2 -2 4 1 2.0;
 #X msg 155 50 1 a -2 b 4 1 2.0;
 #X obj 20 80 list.sort;

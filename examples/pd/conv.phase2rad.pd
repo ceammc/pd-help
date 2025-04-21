@@ -1,4 +1,4 @@
-#N canvas 0 0 137 267 12;
+#N canvas 0 0 138 268 12;
 #X obj 20 50 ui.knob;
 #X floatatom 20 110 5 0 0 0 - - -;
 #X obj 20 140 phase->rad;

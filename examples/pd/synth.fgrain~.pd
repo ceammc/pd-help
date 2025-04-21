@@ -1,4 +1,4 @@
-#N canvas 0 0 458 387 12;
+#N canvas 0 0 458 388 12;
 #X obj 20 50 loadbang;
 #X msg 20 80 open %CEAMMC%/guitar1.wav;
 #X obj 20 110 expand_env;

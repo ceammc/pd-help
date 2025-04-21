@@ -1,0 +1,27 @@
+#N canvas 0 0 507 335 12;
+#X obj 20 50 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X msg 227 50 set_range 4 4 255 0 0 \, bang;
+#X obj 20 80 system.colorpanel @i;
+#X msg 227 80 set_slice 1 15 3 0 127 255 \, bang;
+#X obj 20 110 msg fill;
+#X msg 227 110 fx rainbow 0.5 \, bang;
+#X obj 20 140 msg.after 0 bang;
+#X floatatom 227 140 5 0 0 0 - - -;
+#X msg 29 170 brightness 8 \, bang;
+#X msg 227 170 set \$1 0 0 255 \, bang;
+#X msg 29 215 clear;
+#X obj 20 245 hw.rpi.spi.ws2812 @size 16;
+#X obj 20 290 ui.link @title 'Connection_Scheme' @url
+ceammc://img/conn_ws2812.png;
+#X connect 0 0 2 0;
+#X connect 2 0 4 0;
+#X connect 4 0 6 0;
+#X connect 7 0 9 0;
+#X connect 10 0 11 0;
+#X connect 6 0 11 0;
+#X connect 1 0 11 0;
+#X connect 3 0 11 0;
+#X connect 5 0 11 0;
+#X connect 8 0 11 0;
+#X connect 9 0 11 0;

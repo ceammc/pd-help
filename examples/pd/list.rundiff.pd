@@ -1,4 +1,4 @@
-#N canvas 0 0 231 207 12;
+#N canvas 0 0 232 208 12;
 #X obj 20 50 ui.sliders @size 150 80;
 #X obj 20 140 list.rundiff;
 #X obj 20 170 ui.dt;

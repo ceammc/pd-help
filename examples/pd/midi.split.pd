@@ -1,4 +1,4 @@
-#N canvas 0 0 263 282 12;
+#N canvas 0 0 263 283 12;
 #X obj 20 50 ui.keyboard;
 #X obj 20 125 midi.split 40 60 80;
 #X obj 20 155 ui.dt;

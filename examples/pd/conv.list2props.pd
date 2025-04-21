@@ -1,4 +1,4 @@
-#N canvas 0 0 365 177 12;
+#N canvas 0 0 365 160 12;
 #X msg 20 50 list 1 2 3 @prop1 100 @prop2 A B C @prop3;
 #X obj 20 80 list->props, f 20;
 #X obj 20 110 route @prop1;

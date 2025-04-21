@@ -1,4 +1,4 @@
-#N canvas 0 0 279 177 12;
+#N canvas 0 0 280 178 12;
 #X msg 20 50 traverse pd-pointer \, bang;
 #N canvas 308 50 200 100 pointer 0;
 #X restore 308 50 pd pointer;

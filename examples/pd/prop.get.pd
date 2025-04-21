@@ -1,9 +1,9 @@
-#N canvas 0 0 415 177 12;
+#N canvas 0 0 263 178 12;
 #X msg 20 50 bang;
 #X obj 20 80 prop.get @size @value;
-#X obj 182 110 ui.display @display_type 1;
+#X obj 182 110 ui.dt;
 #X obj 20 140 ui.knob;
-#X obj 119 140 ui.display @display_type 1;
+#X obj 119 140 ui.dt;
 #X connect 0 0 1 0;
 #X connect 1 2 2 0;
 #X connect 1 0 3 0;

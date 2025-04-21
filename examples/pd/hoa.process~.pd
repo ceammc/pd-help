@@ -1,4 +1,4 @@
-#N canvas 0 0 788 777 12;
+#N canvas 0 0 788 778 12;
 #X obj 20 50 hoa/hoa.soundrone;
 #X obj 236 50 phasor~ 0.15;
 #X obj 389 50 ui.sliders @count 11 @min -60 @max 0 @size 200 55;
@@ -13,7 +13,7 @@
 #X obj 20 410 hoa.decoder~ 5 binaural @crop 32, f 35;
 #X obj 20 440 dac~, f 35;
 #X text 20 470 multiple [osc~];
-#X obj 362 470 hoa.process~.dsp;
+#X obj 362 470 hoa.process~-dsp;
 #X msg 20 500 60 90 2.1;
 #X msg 128 500 50 120 4.1;
 #X obj 20 530 list.seq;

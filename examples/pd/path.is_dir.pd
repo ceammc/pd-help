@@ -1,4 +1,4 @@
-#N canvas 0 0 240 145 12;
+#N canvas 0 0 240 130 12;
 #X msg 20 50 symbol ~;
 #X msg 119 50 symbol abc;
 #X obj 20 80 path.is_dir;

@@ -1,4 +1,4 @@
-#N canvas 0 0 538 267 12;
+#N canvas 0 0 539 268 12;
 #X obj 20 50 ui.sliders 3 @size 100 60;
 #X text 308 50 vanilla analogue;
 #X msg 308 80 1 2 3;

@@ -1,4 +1,4 @@
-#N canvas 0 0 394 177 12;
+#N canvas 0 0 395 178 12;
 #X msg 20 50 list a b c d e f g h j k;
 #X obj 20 110 list->dict;
 #X obj 263 110 list->dict 3;

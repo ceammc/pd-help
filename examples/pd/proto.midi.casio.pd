@@ -1,4 +1,4 @@
-#N canvas 0 0 513 327 12;
+#N canvas 0 0 513 328 12;
 #X obj 20 50 ui.midi;
 #X text 191 50 choose CASIO output device!;
 #X obj 20 80 ui.tab piano epiano strings bass organ vibr harps @size
@@ -14,8 +14,8 @@
 #X obj 200 200 makenote 100 90;
 #X obj 20 230 midiout;
 #X obj 200 230 noteout;
-#X obj 20 260 proto.midi.casio.rev;
-#X obj 20 290 proto.midi.casio.chorus;
+#X obj 20 260 proto.midi.casio-rev;
+#X obj 20 290 proto.midi.casio-chorus;
 #X connect 2 0 3 0;
 #X connect 3 0 6 0;
 #X connect 4 0 6 1;

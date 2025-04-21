@@ -1,4 +1,4 @@
-#N canvas 0 0 312 357 12;
+#N canvas 0 0 312 358 12;
 #X floatatom 20 50 5 0 0 0 - - -;
 #X msg 65 50 0 \, 30 2000;
 #X obj 65 80 line;

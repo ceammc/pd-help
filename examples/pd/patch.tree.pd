@@ -1,4 +1,4 @@
-#N canvas 0 0 137 147 12;
+#N canvas 0 0 138 148 12;
 #X msg 20 50 bang;
 #X obj 20 80 patch.tree;
 #X obj 20 110 print TREE;

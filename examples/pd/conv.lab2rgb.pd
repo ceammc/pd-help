@@ -1,4 +1,4 @@
-#N canvas 0 0 789 282 12;
+#N canvas 0 0 789 283 12;
 #X obj 20 50 ui.hsl @label L* @label_inner 1 @show_value 1
 @label_color 0.1 0.25 1;
 #X obj 101 80 ui.hsl -1 1 @label a* @label_inner 1 @show_value 1

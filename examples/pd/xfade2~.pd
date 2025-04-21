@@ -1,4 +1,4 @@
-#N canvas 0 0 368 267 12;
+#N canvas 0 0 368 268 12;
 #X obj 20 50 osc~ 440;
 #X obj 146 50 osc~ 1000;
 #X obj 272 50 ui.knob;

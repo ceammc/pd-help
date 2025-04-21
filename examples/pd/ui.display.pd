@@ -1,4 +1,4 @@
-#N canvas 0 0 440 282 12;
+#N canvas 0 0 440 313 12;
 #X msg 20 50 list a b c;
 #X msg 137 50 1;
 #X msg 173 50 symbol X;
@@ -12,6 +12,7 @@
 #X msg 272 185 any msg;
 #X msg 362 185 bang;
 #X obj 20 245 ui.dt;
+#X obj 20 275 ui.display-spec;
 #X connect 0 0 5 0;
 #X connect 1 0 5 0;
 #X connect 2 0 5 0;

@@ -1,4 +1,4 @@
-#N canvas 0 0 690 372 12;
+#N canvas 0 0 691 373 12;
 #X msg 20 50 1 2 3 4 5;
 #X floatatom 173 50 5 0 0 0 - - -;
 #X obj 308 50 ui.tab none both min max @size 140 15;
@@ -12,11 +12,11 @@
 #X msg 56 140 set slider 4 \$1;
 #X msg 227 140 @auto_count \$1;
 #X msg 407 140 select \$1;
-#X obj 20 185 ui.sliders @max 10 @presetname sl-help;
+#X obj 20 185 ui.sliders @max 10 @presetname sl-help @nosave 1;
 #X text 479 185 vertical sliders;
 #X obj 479 215 ui.sliders @size 60 100;
 #X obj 20 305 ui.dt;
-#X obj 20 335 ui.sliders.1;
+#X obj 20 335 ui.sliders-1;
 #X connect 1 0 4 0;
 #X connect 2 0 5 0;
 #X connect 3 0 7 0;

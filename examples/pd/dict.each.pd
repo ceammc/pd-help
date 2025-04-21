@@ -1,4 +1,4 @@
-#N canvas 0 0 228 177 12;
+#N canvas 0 0 228 178 12;
 #X msg 20 50 [a: 1 c: 2 e: 3] \, bang;
 #X obj 20 80 dict;
 #X obj 20 110 dict.each;

@@ -1,4 +1,4 @@
-#N canvas 0 0 251 132 12;
+#N canvas 0 0 252 133 12;
 #X obj 20 50 phasor~ 0.1;
 #X obj 155 50 ui.dsp~;
 #X obj 20 95 ui.number~;

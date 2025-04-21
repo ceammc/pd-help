@@ -1,4 +1,4 @@
-#N canvas 0 0 489 297 12;
+#N canvas 0 0 490 298 12;
 #X msg 20 50 open %CEAMMC%/guitar1.wav \, 1;
 #X obj 20 80 expand_env;
 #X obj 119 110 ui.tab speed quality consistency @size 200 16;

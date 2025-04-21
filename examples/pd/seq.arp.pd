@@ -1,4 +1,4 @@
-#N canvas 0 0 377 327 12;
+#N canvas 0 0 378 328 12;
 #X msg 20 50 asr 100 first 10 last;
 #X obj 281 50 ui.dsp~;
 #X msg 38 80 asr 200 first 10 first;

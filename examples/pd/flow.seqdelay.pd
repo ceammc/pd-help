@@ -1,4 +1,4 @@
-#N canvas 0 0 549 387 12;
+#N canvas 0 0 550 388 12;
 #X msg 20 50 bang;
 #X msg 200 50 list 0 500 120 110;
 #X text 389 50 - change pattern;

@@ -1,4 +1,4 @@
-#N canvas 0 0 242 147 12;
+#N canvas 0 0 243 148 12;
 #X obj 20 50 phasor~ 0.5;
 #X msg 146 50 bang;
 #X obj 20 80 sig->float~ 500;

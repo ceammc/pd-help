@@ -1,0 +1,26 @@
+#N canvas 0 0 1012 455 12;
+#X obj 20 50 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0 1;
+#X msg 20 80 poll \$1;
+#X msg 38 110 measure 0;
+#X msg 56 140 measure;
+#X obj 20 170 hw.rpi.adc.ads1115 @i2c_bus default @i2c_addr default
+@mode single @fsr 4096mv @norm 1 @in_min 0 @in_max 3300 @out_min 0
+@out_max 1;
+#X obj 20 230 route ch;
+#X obj 20 260 route 0 1 2 3, f 30;
+#X obj 20 290 ui.hsl @show_value 1;
+#X obj 56 320 ui.hsl @show_value 1;
+#X obj 92 350 ui.hsl @show_value 1;
+#X obj 128 380 ui.hsl @show_value 1;
+#X obj 20 410 ui.link @title 'Connection_Scheme' @url
+ceammc://img/conn_ads1115.png;
+#X connect 0 0 1 0;
+#X connect 1 0 4 0;
+#X connect 2 0 4 0;
+#X connect 3 0 4 0;
+#X connect 4 0 5 0;
+#X connect 5 0 6 0;
+#X connect 6 0 7 0;
+#X connect 6 1 8 0;
+#X connect 6 2 9 0;
+#X connect 6 3 10 0;

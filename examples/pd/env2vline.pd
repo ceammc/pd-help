@@ -1,4 +1,4 @@
-#N canvas 0 0 661 582 12;
+#N canvas 0 0 661 583 12;
 #X obj 20 50 loadbang;
 #X obj 362 50 r a1;
 #X obj 20 80 envelope easr 20 -4 1000 -8;
@@ -8,10 +8,7 @@
 #X obj 164 110 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0 1;
 #X obj 20 140 env->vline;
 #N canvas 0 22 450 300 (subpatch) 0;
-#X array env_a1 100 float 1;
-#A 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+#X array env_a1 100 float 0;
 #X coords 0 1 100 0 110 80 1;
 #X restore 362 140 graph;
 #X obj 20 170 vline~;
@@ -31,10 +28,7 @@
 #X obj 20 455 vline~;
 #X obj 101 455 osc~ 1200;
 #N canvas 0 22 450 300 (subpatch) 0;
-#X array env_b1 100 float 1;
-#A 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+#X array env_b1 100 float 0;
 #X coords 0 1 100 0 110 80 1;
 #X restore 362 455 graph;
 #X obj 20 485 *~;

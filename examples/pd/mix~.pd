@@ -1,4 +1,4 @@
-#N canvas 0 0 766 312 12;
+#N canvas 0 0 766 313 12;
 #X obj 20 50 ui.sliders @count 4;
 #X obj 254 50 ui.dsp~;
 #X obj 407 140 ui.radio @nitems 4 @mode 1;

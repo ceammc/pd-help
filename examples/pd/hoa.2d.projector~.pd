@@ -1,4 +1,4 @@
-#N canvas 0 0 696 387 12;
+#N canvas 0 0 696 388 12;
 #X obj 20 50 sig~ 1;
 #X obj 218 50 lfo.saw~ 0.05;
 #X obj 218 80 phase->rad~;

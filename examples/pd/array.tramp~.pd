@@ -1,4 +1,4 @@
-#N canvas 0 0 593 372 12;
+#N canvas 0 0 594 373 12;
 #X obj 20 50 loadmsg load guitar1.wav to ARAMP @resize;
 #X obj 425 50 table ARAMP 44100;
 #X obj 20 80 snd.file;

@@ -1,4 +1,4 @@
-#N canvas 0 0 257 177 12;
+#N canvas 0 0 222 160 12;
 #X floatatom 20 50 5 0 0 0 - - -;
 #X obj 20 110 flow.>= 100 10 1;
 #X floatatom 20 140 5 0 0 0 - - -;

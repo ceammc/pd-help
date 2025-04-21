@@ -1,4 +1,4 @@
-#N canvas 0 0 484 207 12;
+#N canvas 0 0 485 208 12;
 #X floatatom 20 50 5 0 0 0 - - -;
 #X floatatom 74 80 5 0 0 0 - - -;
 #X obj 74 110 prop.set @delay;

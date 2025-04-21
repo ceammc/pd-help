@@ -1,0 +1,8 @@
+#N canvas 0 0 145 193 12;
+#X msg 20 50 temp;
+#X msg 38 80 cpu;
+#X obj 20 125 system.info;
+#X obj 20 155 print INFO;
+#X connect 0 0 2 0;
+#X connect 1 0 2 0;
+#X connect 2 0 3 0;

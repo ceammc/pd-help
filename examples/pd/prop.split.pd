@@ -1,4 +1,4 @@
-#N canvas 0 0 436 297 12;
+#N canvas 0 0 436 298 12;
 #X msg 110 50 any value;
 #X floatatom 20 80 5 0 0 0 - - -;
 #X msg 146 80 @prop1 a b c;

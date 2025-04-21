@@ -1,4 +1,4 @@
-#N canvas 0 0 685 222 12;
+#N canvas 0 0 685 223 12;
 #X text 20 50 //control mode;
 #X text 218 50 //signal control mode;
 #X msg 38 80 polar 1 R A E;

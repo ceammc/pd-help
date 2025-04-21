@@ -1,4 +1,4 @@
-#N canvas 0 0 269 312 12;
+#N canvas 0 0 270 313 12;
 #X obj 20 50 gnoise.chua~;
 #X obj 20 245 ui.hgain2~;
 #X obj 173 245 ui.dsp~;

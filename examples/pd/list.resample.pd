@@ -1,4 +1,4 @@
-#N canvas 0 0 382 237 12;
+#N canvas 0 0 383 238 12;
 #X obj 20 50 ui.sliders;
 #X obj 164 50 ui.sliders @auto_count 1;
 #X obj 137 170 ui.hrd;

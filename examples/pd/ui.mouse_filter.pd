@@ -1,4 +1,4 @@
-#N canvas 0 0 514 237 12;
+#N canvas 0 0 514 238 12;
 #X obj 20 50 ui.rslider @mouse_events 1;
 #X obj 281 50 ui.rslider @mouse_events 1;
 #X obj 20 80 ui.mouse_filter @up;

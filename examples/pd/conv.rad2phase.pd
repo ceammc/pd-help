@@ -1,5 +1,5 @@
-#N canvas 0 0 209 237 12;
-#X obj 20 50 ui.hsl @min 0 @max 7;
+#N canvas 0 0 311 220 12;
+#X obj 20 50 ui.hsl @min 0 @max 7 @show_value 1;
 #X obj 20 80 rad->phase;
 #X obj 20 110 ui.knob;
 #X obj 20 170 phase->rad;

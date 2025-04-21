@@ -1,4 +1,4 @@
-#N canvas 0 0 494 522 12;
+#N canvas 0 0 495 523 12;
 #X obj 20 50 hoa/hoa.soundgrain;
 #X obj 20 80 ui.gain~ @size 120 14;
 #X obj 20 110 hoa.2d.encoder~ 7 16, f 46;

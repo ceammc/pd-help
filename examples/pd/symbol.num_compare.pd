@@ -1,4 +1,4 @@
-#N canvas 0 0 415 297 12;
+#N canvas 0 0 416 298 12;
 #X text 20 50 common sort;
 #X msg 20 80 list 10.txt 1.txt 14.txt 2.txt 6.txt 7.txt 9.txt;
 #X obj 20 110 list.sort;

@@ -1,4 +1,4 @@
-#N canvas 0 0 494 247 12;
+#N canvas 0 0 495 247 12;
 #X text 20 50 change value;
 #X floatatom 20 80 5 0 0 0 - - -;
 #X obj 74 80 preset.float f1;

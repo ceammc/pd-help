@@ -1,9 +1,9 @@
-#N canvas 0 0 407 267 12;
+#N canvas 0 0 407 268 12;
 #X obj 263 50 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0 1;
 #X msg 20 80 set 0 0;
 #X msg 119 80 move 0.1 -0.1;
 #X msg 263 80 @show_grid \$1;
-#X obj 20 110 ui.slider2d @size 100 100;
+#X obj 20 110 ui.slider2d @nosave 1;
 #X obj 20 230 ui.dt;
 #X connect 0 0 3 0;
 #X connect 1 0 4 0;

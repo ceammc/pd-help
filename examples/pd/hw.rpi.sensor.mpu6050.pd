@@ -1,0 +1,26 @@
+#N canvas 0 0 496 410 12;
+#X obj 20 50 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0 1;
+#X msg 20 80 poll \$1;
+#X obj 20 125 hw.rpi.sensor.mpu6050 @i2c_bus default;
+#X obj 20 155 route ypr gyro accel temp, f 30;
+#X obj 83 215 ui.dt @label Gyro;
+#X obj 209 215 ui.dt @label Accel;
+#X obj 335 215 ui.dt @label tÂº;
+#X obj 38 245 unpack f f f, f 45;
+#X floatatom 38 275 5 0 0 0 yaw - -;
+#X floatatom 191 275 5 0 0 0 pitch - -;
+#X floatatom 362 275 5 0 0 0 roll - -;
+#X obj 20 320 print YPR;
+#X obj 20 365 ui.link @title Connection_Scheme @url
+ceammc://img/conn_mpu6050.png;
+#X connect 0 0 1 0;
+#X connect 1 0 2 0;
+#X connect 2 0 3 0;
+#X connect 3 0 11 0;
+#X connect 3 3 6 0;
+#X connect 3 0 7 0;
+#X connect 7 0 8 0;
+#X connect 7 1 9 0;
+#X connect 7 2 10 0;
+#X connect 3 1 4 0;
+#X connect 3 2 5 0;

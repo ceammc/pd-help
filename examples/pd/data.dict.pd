@@ -1,4 +1,4 @@
-#N canvas 0 0 584 267 12;
+#N canvas 0 0 585 268 12;
 #X msg 20 50 bang;
 #X msg 83 50 [a: [K0: 1 2 3 K2: "a symbol"]] \, bang;
 #X msg 470 50 get_key a;

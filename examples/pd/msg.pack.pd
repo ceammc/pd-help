@@ -1,8 +1,12 @@
-#N canvas 0 0 232 147 12;
+#N canvas 0 0 347 178 12;
 #X floatatom 20 50 5 0 0 0 - - -;
 #X floatatom 146 50 5 0 0 0 - - -;
-#X obj 20 80 msg.pack 2 the @message;
-#X obj 20 110 ui.dt;
-#X connect 0 0 2 0;
-#X connect 1 0 2 1;
+#X obj 200 50 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0 1;
+#X obj 200 80 prop.set @sync;
+#X obj 20 110 msg.pack 2 the @msg;
+#X obj 20 140 ui.dt;
 #X connect 2 0 3 0;
+#X connect 0 0 4 0;
+#X connect 1 0 4 1;
+#X connect 3 0 4 1;
+#X connect 4 0 5 0;

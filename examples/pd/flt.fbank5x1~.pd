@@ -1,4 +1,4 @@
-#N canvas 0 0 708 417 12;
+#N canvas 0 0 709 418 12;
 #X msg 20 50 bang;
 #X obj 191 50 msg.onload fill 0;
 #X obj 20 80 click~;

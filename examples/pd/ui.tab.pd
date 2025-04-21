@@ -1,4 +1,4 @@
-#N canvas 0 0 544 237 12;
+#N canvas 0 0 544 238 12;
 #X msg 20 50 append sqrt;
 #X msg 146 50 set_item 0 white_noise;
 #X msg 416 50 next;
@@ -15,7 +15,7 @@
 #X msg 416 110 random;
 #X msg 299 140 @toggle \$1;
 #X msg 416 140 flip;
-#X obj 20 170 ui.tab @items sin tri @size 350 15;
+#X obj 20 170 ui.tab @items sin tri @size 350 15 @nosave 1;
 #X obj 20 200 print;
 #X obj 92 200 ui.dt;
 #X connect 11 0 13 0;

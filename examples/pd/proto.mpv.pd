@@ -1,4 +1,4 @@
-#N canvas 0 0 878 387 12;
+#N canvas 0 0 878 388 12;
 #X text 20 50 start mpv player;
 #X msg 20 80 list mpv --player-operation-mode=pseudo-gui --input-ipc-server=/tmp/mpvsocket --pause --no-audio --idle --no-osc;
 #X obj 20 140 system.exec;

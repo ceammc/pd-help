@@ -1,4 +1,4 @@
-#N canvas 0 0 630 3912 12;
+#N canvas 0 0 631 3913 12;
 #X text 20 50 @mode bang;
 #X text 236 50 @mode toggle;
 #X text 488 50 @mode button;

@@ -1,4 +1,4 @@
-#N canvas 0 0 426 177 12;
+#N canvas 0 0 427 160 12;
 #X obj 20 50 prop.declare freq @min 20 @max 20000 @default 1000;
 #X obj 20 80 prop.declare gain @min -60 @max 12 @default 3;
 #X obj 20 110 prop @freq;

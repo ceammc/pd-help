@@ -1,4 +1,4 @@
-#N canvas 0 0 613 342 12;
+#N canvas 0 0 614 325 12;
 #X msg 20 50 5;
 #X msg 56 50 50;
 #X msg 101 50 set 100;

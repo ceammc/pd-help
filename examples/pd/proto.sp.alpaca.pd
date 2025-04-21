@@ -1,4 +1,4 @@
-#N canvas 0 0 660 387 12;
+#N canvas 0 0 660 370 12;
 #X obj 20 50 ui.knob;
 #X msg 110 50 version?;
 #X msg 110 80 clear;

@@ -1,4 +1,4 @@
-#N canvas 0 0 423 627 12;
+#N canvas 0 0 423 628 12;
 #X obj 20 50 loadbang;
 #X obj 119 50 table array_view;
 #X msg 20 80 load %DOC%/sound/voice.wav @to array_view @resize;

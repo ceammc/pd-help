@@ -1,4 +1,4 @@
-#N canvas 0 0 498 222 12;
+#N canvas 0 0 529 553 12;
 #X floatatom 20 50 5 0 0 0 - - -;
 #X msg 74 50 + 2 \, bang;
 #X msg 209 50 * 3 \, bang;
@@ -10,6 +10,21 @@
 #X obj 344 155 global.float f1;
 #X floatatom 20 185 5 0 0 0 - - -;
 #X floatatom 344 185 5 0 0 0 - - -;
+#X obj 20 215 loadmsg 12345;
+#X obj 20 245 global.float f2;
+#X text 20 275 get current;
+#X msg 20 305 get;
+#X text 74 305 get f1;
+#X msg 74 335 get f1;
+#X text 155 335 get f2;
+#X msg 155 365 get f2;
+#X msg 236 365 get f3;
+#X obj 20 395 global.float;
+#X text 254 395 default anonymouse global float;
+#X obj 20 425 ui.dt;
+#X text 20 455 global dispatch name binding;
+#X msg 20 485 123;
+#X obj 20 515 s f1;
 #X connect 0 0 7 0;
 #X connect 1 0 7 0;
 #X connect 4 0 7 0;
@@ -19,3 +34,10 @@
 #X connect 3 0 8 0;
 #X connect 7 0 9 0;
 #X connect 8 0 10 0;
+#X connect 11 0 12 0;
+#X connect 14 0 20 0;
+#X connect 16 0 20 0;
+#X connect 18 0 20 0;
+#X connect 19 0 20 0;
+#X connect 20 0 22 0;
+#X connect 24 0 25 0;

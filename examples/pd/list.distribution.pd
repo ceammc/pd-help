@@ -1,9 +1,8 @@
-#N canvas 0 0 548 327 12;
+#N canvas 0 0 548 328 12;
 #X obj 20 50 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #N canvas 0 22 450 300 (subpatch) 0;
-#X array distrib 20 float 1;
-#A 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+#X array distrib 20 float 0;
 #X coords 0 1 20 0 200 140 1;
 #X restore 308 50 graph;
 #X obj 20 80 t b b;

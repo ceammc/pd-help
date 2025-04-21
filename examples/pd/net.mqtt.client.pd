@@ -1,0 +1,33 @@
+#N canvas 0 0 505 403 12;
+#X text 20 50 you can start testing mqtt server with command: 'nanomq
+-start';
+#X msg 38 95 connect tcp://test.mosquitto.org:1883;
+#X msg 29 125 connect mqtt://ro:readonly@test.mosquitto.org:1884;
+#X msg 20 155 connect mqtt://localhost:1883;
+#X msg 317 155 subscribe topic/1;
+#X msg 38 185 close;
+#X msg 317 185 subscribe topic/2;
+#X msg 38 215 publish topic/1 MSG1;
+#X msg 317 215 subscribe topic/#;
+#X msg 38 245 publish topic/2 MSG2;
+#X msg 317 245 unsubscribe topic/1;
+#X msg 317 275 unsubscribe topic/2;
+#X msg 317 305 unsubscribe topic/#;
+#X obj 20 335 net.mqtt.client;
+#X obj 20 365 ui.dt;
+#X obj 191 365 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X connect 3 0 13 0;
+#X connect 13 0 14 0;
+#X connect 13 1 15 0;
+#X connect 5 0 13 0;
+#X connect 7 0 13 0;
+#X connect 9 0 13 0;
+#X connect 1 0 13 0;
+#X connect 2 0 13 0;
+#X connect 4 0 13 0;
+#X connect 6 0 13 0;
+#X connect 8 0 13 0;
+#X connect 10 0 13 0;
+#X connect 11 0 13 0;
+#X connect 12 0 13 0;

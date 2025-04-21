@@ -1,4 +1,4 @@
-#N canvas 0 0 443 312 12;
+#N canvas 0 0 443 313 12;
 #X obj 20 50 noise~;
 #X floatatom 101 50 5 0 0 0 - - -;
 #X floatatom 200 50 5 0 0 0 - - -;

@@ -1,4 +1,4 @@
-#N canvas 0 0 590 297 12;
+#N canvas 0 0 591 298 12;
 #X obj 20 50 loadmsg load %CEAMMC%/guitar1.wav to ARR @resize;
 #X obj 479 50 table ARR;
 #X obj 20 80 expand_env;

@@ -1,4 +1,4 @@
-#N canvas 0 0 236 177 12;
+#N canvas 0 0 236 178 12;
 #X msg 20 50 1 2 3 4 5;
 #X msg 137 50 @at 3;
 #X obj 20 110 list.split 2;

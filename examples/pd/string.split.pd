@@ -1,4 +1,4 @@
-#N canvas 0 0 540 372 12;
+#N canvas 0 0 540 355 12;
 #X msg 20 50 symbol A/B/C;
 #X msg 200 50 symbol Sample;
 #X msg 380 50 bang;

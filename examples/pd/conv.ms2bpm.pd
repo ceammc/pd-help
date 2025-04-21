@@ -1,4 +1,4 @@
-#N canvas 0 0 154 147 12;
+#N canvas 0 0 155 130 12;
 #X msg 20 50 1000;
 #X msg 83 50 500;
 #X obj 20 80 ms->bpm;

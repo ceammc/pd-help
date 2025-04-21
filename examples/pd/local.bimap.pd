@@ -1,4 +1,4 @@
-#N canvas 0 0 564 177 12;
+#N canvas 0 0 564 178 12;
 #X obj 20 50 loadmsg 1 2 3 4 5 6;
 #X listbox 20 80 20 0 0 0 - - -;
 #X msg 218 80 1;

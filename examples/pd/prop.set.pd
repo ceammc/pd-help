@@ -1,4 +1,4 @@
-#N canvas 0 0 530 402 12;
+#N canvas 0 0 530 403 12;
 #X msg 20 50 @delay 400;
 #X text 128 50 passed thru;
 #X msg 281 50 400;
@@ -15,7 +15,7 @@
 #X floatatom 20 305 5 0 0 0 - - -;
 #X text 56 305 abstraction property;
 #X obj 20 335 prop.set @p1;
-#X obj 20 365 prop.set.patch;
+#X obj 20 365 prop.set-patch;
 #X connect 2 0 5 0;
 #X connect 3 0 5 0;
 #X connect 0 0 6 0;

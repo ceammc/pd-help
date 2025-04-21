@@ -1,0 +1,22 @@
+#N canvas 0 0 512 253 12;
+#X msg 20 50 exists;
+#X msg 101 50 info;
+#X msg 191 50 type;
+#X msg 281 50 permissions;
+#X msg 434 50 size;
+#X obj 47 80 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 47 110 openpanel;
+#X obj 74 140 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 20 170 data.path Path(.);
+#X obj 20 215 ui.dt;
+#X connect 5 0 6 0;
+#X connect 0 0 8 0;
+#X connect 6 0 8 0;
+#X connect 7 0 8 0;
+#X connect 8 0 9 0;
+#X connect 1 0 8 0;
+#X connect 2 0 8 0;
+#X connect 3 0 8 0;
+#X connect 4 0 8 0;

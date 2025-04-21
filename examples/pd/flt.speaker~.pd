@@ -1,4 +1,4 @@
-#N canvas 0 0 715 447 12;
+#N canvas 0 0 716 448 12;
 #X listbox 20 50 20 0 0 0 - - -;
 #X msg 290 65 bang;
 #X text 380 65 plot response;

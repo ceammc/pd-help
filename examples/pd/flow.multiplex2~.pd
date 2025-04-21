@@ -1,4 +1,4 @@
-#N canvas 0 0 512 282 12;
+#N canvas 0 0 513 283 12;
 #X obj 20 50 osc~ 440;
 #X obj 227 50 ui.radio @nitems 2;
 #X obj 416 50 ui.dsp~;

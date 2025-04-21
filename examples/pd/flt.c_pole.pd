@@ -1,4 +1,4 @@
-#N canvas 0 0 506 282 12;
+#N canvas 0 0 507 283 12;
 #X obj 20 50 ui.hsl;
 #X obj 317 50 ui.hsl;
 #X floatatom 20 80 5 0 0 0 - - -;
@@ -9,7 +9,7 @@
 #X obj 317 140 flt.c_pole @rad @hpf;
 #X obj 20 170 ui.dt @float_width 5;
 #X obj 317 170 ui.dt @float_width 5;
-#X obj 20 245 flt.c_pole.plot;
+#X obj 20 245 flt.c_pole-plot;
 #X connect 0 0 2 0;
 #X connect 1 0 3 0;
 #X connect 2 0 4 0;

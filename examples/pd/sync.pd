@@ -1,4 +1,4 @@
-#N canvas 0 0 266 207 12;
+#N canvas 0 0 231 208 12;
 #X text 20 50 simple example;
 #X floatatom 20 80 5 0 0 0 - - -;
 #X obj 101 80 sync;

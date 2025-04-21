@@ -1,4 +1,4 @@
-#N canvas 0 0 638 207 12;
+#N canvas 0 0 639 208 12;
 #X obj 20 50 midi.clock 8;
 #X text 155 50 bang every eight note;
 #X obj 20 80 click~;

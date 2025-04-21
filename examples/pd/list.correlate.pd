@@ -1,4 +1,4 @@
-#N canvas 0 0 238 310 12;
+#N canvas 0 0 239 310 12;
 #X msg 20 50 1 2 3 1 2 3 1 2 3;
 #X obj 101 80 ui.hrd 4;
 #X obj 20 110 list.>> 0;

@@ -1,0 +1,37 @@
+#N canvas 0 0 608 440 12;
+#X text 20 50 IÂ²C connection example:;
+#X obj 20 80 ui.hrd @nitems 4;
+#X text 164 80 click several times!;
+#X msg 20 110 brightness \$1;
+#X msg 164 110 write bytes 255 127 63 31 15 7 3 1 \, flush;
+#X msg 29 140 flush;
+#X obj 128 140 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0 1;
+#X msg 164 140 text HELLO\ Ð¦Ð­ÐÐ! 3 10 \, flush;
+#X msg 29 170 clear 1;
+#X msg 128 170 invert \$1;
+#X msg 290 170 clear \, line 0 0 127 31 \, bang;
+#X obj 128 200 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0 1;
+#X msg 299 200 load img/test_image_128x32.png \, bang;
+#X msg 128 230 mirror \$1;
+#X obj 290 230 bitmap 128 32;
+#X obj 290 260 msg write bitmap 0 0 128;
+#X text 290 290 call flush!;
+#X obj 20 320 hw.rpi.display.ssd1306 @mode i2c @i2c_bus default;
+#X obj 20 365 ui.link @title 'I2C_connection' @url
+ceammc://img/conn_i2c_ssd1306.png;
+#X obj 20 395 ui.link @title 'SPI_connection' @url
+ceammc://img/conn_spi_ssd1306.png;
+#X connect 1 0 3 0;
+#X connect 6 0 9 0;
+#X connect 11 0 13 0;
+#X connect 12 0 14 0;
+#X connect 14 0 15 0;
+#X connect 5 0 17 0;
+#X connect 8 0 17 0;
+#X connect 9 0 17 0;
+#X connect 7 0 17 0;
+#X connect 13 0 17 0;
+#X connect 3 0 17 0;
+#X connect 4 0 17 0;
+#X connect 15 0 17 0;
+#X connect 10 0 14 0;

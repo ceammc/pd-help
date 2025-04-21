@@ -1,4 +1,4 @@
-#N canvas 0 0 518 477 12;
+#N canvas 0 0 518 478 12;
 #X msg 20 50 random;
 #X obj 20 80 ui.hrd* @nitems 4;
 #X obj 20 110 bits->bang 4;
@@ -16,7 +16,7 @@
 #X text 20 290 Poly version;
 #X obj 20 320 ui.hrd* 4;
 #X obj 20 350 bits->bang @poly;
-#X obj 20 380 clone conv.bits2bang.osc~ 4 400 800 1200 1600;
+#X obj 20 380 clone conv.bits2bang-osc~ 4 400 800 1200 1600;
 #X obj 20 410 ui.hgain~;
 #X obj 20 440 dac~;
 #X connect 0 0 1 0;

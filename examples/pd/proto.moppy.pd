@@ -1,4 +1,4 @@
-#N canvas 0 0 381 297 12;
+#N canvas 0 0 381 298 12;
 #X obj 20 50 ui.keyboard 60 12;
 #X msg 191 140 choose;
 #X obj 20 170 msg note;

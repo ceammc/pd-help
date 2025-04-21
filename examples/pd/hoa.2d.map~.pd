@@ -1,4 +1,4 @@
-#N canvas 0 0 657 852 12;
+#N canvas 0 0 657 853 12;
 #X text 20 50 single source: signal controlled;
 #X obj 20 80 sig~ 1;
 #X floatatom 110 80 5 0 0 0 - - -;

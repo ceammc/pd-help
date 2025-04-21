@@ -1,13 +1,13 @@
-#N canvas 0 0 260 342 12;
+#N canvas 0 0 261 343 12;
 #X obj 20 50 ui.keyboard;
 #X obj 38 125 flow.pipe 1000;
 #X obj 20 155 poly 3;
 #X obj 20 185 pack f f f;
-#X obj 20 215 clone -s 1 flow.pipe.osc~ 3;
+#X obj 20 215 clone -s 1 flow.pipe-osc~ 3;
 #X obj 20 245 ui.hgain~;
 #X obj 155 245 ui.dsp~;
 #X obj 20 275 dac~;
-#X obj 20 305 flow.pipe.superdirt;
+#X obj 20 305 flow.pipe-superdirt;
 #X connect 0 0 1 0;
 #X connect 0 0 2 0;
 #X connect 1 0 2 0;

@@ -1,4 +1,4 @@
-#N canvas 0 0 449 237 12;
+#N canvas 0 0 450 238 12;
 #X msg 20 50 play;
 #X msg 137 50 playlist;
 #X msg 281 50 next;

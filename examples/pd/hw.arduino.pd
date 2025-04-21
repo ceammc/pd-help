@@ -1,4 +1,4 @@
-#N canvas 0 0 361 312 12;
+#N canvas 0 0 362 295 12;
 #X msg 20 50 249;
 #X text 83 50 firmata version request;
 #X msg 38 80 1 2 3 4 5;

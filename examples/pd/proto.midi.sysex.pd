@@ -1,5 +1,5 @@
-#N canvas 0 0 224 177 12;
-#X obj 20 50 proto.midi.sysex.mvol;
-#X obj 20 80 proto.midi.sysex.mbal;
-#X obj 20 110 proto.midi.sysex.mtune;
-#X obj 20 140 proto.midi.sysex.idreq;
+#N canvas 0 0 225 178 12;
+#X obj 20 50 proto.midi.sysex-mvol;
+#X obj 20 80 proto.midi.sysex-mbal;
+#X obj 20 110 proto.midi.sysex-mtune;
+#X obj 20 140 proto.midi.sysex-idreq;

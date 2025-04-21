@@ -1,4 +1,4 @@
-#N canvas 0 0 332 402 12;
+#N canvas 0 0 332 403 12;
 #X obj 20 50 lfo.square~ 1;
 #X obj 20 80 ui.gain~ @size 120 14;
 #X obj 236 80 ui.knob;

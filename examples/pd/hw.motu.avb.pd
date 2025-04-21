@@ -1,4 +1,4 @@
-#N canvas 0 0 415 252 12;
+#N canvas 0 0 415 253 12;
 #X text 20 50 Enter device ID;
 #X symbolatom 20 80 20 0 0 0 - - -;
 #X msg 20 110 @dev \$1;

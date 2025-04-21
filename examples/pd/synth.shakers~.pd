@@ -1,4 +1,4 @@
-#N canvas 0 0 389 387 12;
+#N canvas 0 0 389 388 12;
 #X obj 20 50 ui.icon get_app;
 #X obj 182 50 loadbang;
 #X obj 281 50 r menu;

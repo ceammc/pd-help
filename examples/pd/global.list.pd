@@ -1,4 +1,4 @@
-#N canvas 0 0 409 207 12;
+#N canvas 0 0 410 208 12;
 #X msg 20 50 list a b c;
 #X msg 146 50 set 3 2 1;
 #X msg 47 80 1 2 3;
@@ -8,7 +8,7 @@
 #X obj 263 110 global.list id;
 #X obj 20 140 ui.dt;
 #X obj 263 140 ui.dt;
-#X obj 20 170 global.list.pd;
+#X obj 20 170 global.list-pd;
 #X connect 0 0 4 0;
 #X connect 2 0 4 0;
 #X connect 1 0 4 0;

@@ -1,4 +1,4 @@
-#N canvas 0 0 346 177 12;
+#N canvas 0 0 347 160 12;
 #X text 20 50 Note: @mouse_events property is *on*;
 #X obj 20 80 loadmsg 0.5;
 #X obj 20 110 ui.k @mouse_events 1 @show_value 1;

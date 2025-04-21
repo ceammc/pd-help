@@ -1,4 +1,4 @@
-#N canvas 0 0 527 357 12;
+#N canvas 0 0 527 358 12;
 #X obj 20 50 ui.k -1 1 @show_value 1;
 #X obj 38 110 ui.tab brown pink white blue velvet @size 200 16;
 #X msg 38 140 \$2;

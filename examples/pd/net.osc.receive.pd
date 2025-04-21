@@ -1,4 +1,4 @@
-#N canvas 0 0 671 222 12;
+#N canvas 0 0 671 223 12;
 #X text 20 50 default OSC server: osc.udp://:9000;
 #X obj 380 50 net.osc.server TCP osc.tcp://:9001;
 #X obj 20 80 net.osc.receive /x;

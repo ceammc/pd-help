@@ -1,4 +1,4 @@
-#N canvas 0 0 365 312 12;
+#N canvas 0 0 365 313 12;
 #X obj 20 50 ui.keyboard;
 #X msg 281 125 reset;
 #X obj 20 155 midi.vramp 30 127 12 @auto 1;

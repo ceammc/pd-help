@@ -1,11 +1,8 @@
-#N canvas 0 0 579 522 12;
+#N canvas 0 0 579 523 12;
 #X msg 20 50 bell.aiff;
 #X msg 128 50 voice.wav;
 #N canvas 0 22 450 300 (subpatch) 0;
-#X array array1 100 float 1;
-#A 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+#X array array1 100 float 0;
 #X coords 0 1 100 -1 150 100 1;
 #X restore 389 50 graph;
 #X obj 20 80 symbol;

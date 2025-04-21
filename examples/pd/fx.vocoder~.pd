@@ -1,4 +1,4 @@
-#N canvas 0 0 343 267 12;
+#N canvas 0 0 344 268 12;
 #X msg 20 50 open %DOC%/sound/voice.wav \, 1;
 #X obj 20 80 expand_env @any;
 #X obj 20 110 readsf~;

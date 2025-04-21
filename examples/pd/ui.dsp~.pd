@@ -1,4 +1,4 @@
-#N canvas 0 0 261 132 12;
+#N canvas 0 0 262 133 12;
 #X msg 20 50 start;
 #X msg 92 50 stop;
 #X msg 155 50 settings;

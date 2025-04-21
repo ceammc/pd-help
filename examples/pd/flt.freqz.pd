@@ -1,10 +1,7 @@
-#N canvas 0 0 672 297 12;
+#N canvas 0 0 672 298 12;
 #X obj 20 50 ui.hsl @min 0 @max 20000 @show_value 1;
 #N canvas 0 22 450 300 (subpatch) 0;
-#X array AMPFZ 100 float 1;
-#A 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+#X array AMPFZ 100 float 0;
 #X coords 0 1 100 -1 360 90 1;
 #X restore 272 50 graph;
 #X obj 20 80 lpf->biquad;
@@ -14,10 +11,7 @@
 #X obj 38 170 msg biquad;
 #X msg 173 170 @db \$1;
 #N canvas 0 22 450 300 (subpatch) 0;
-#X array PHFZ 100 float 1;
-#A 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+#X array PHFZ 100 float 0;
 #X coords 0 1 100 -1 360 90 1;
 #X restore 272 170 graph;
 #X obj 20 200 flt.freqz 128;

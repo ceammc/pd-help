@@ -1,4 +1,4 @@
-#N canvas 0 0 464 402 12;
+#N canvas 0 0 464 403 12;
 #X text 20 50 use [ui.hgain~] to create horizontal control];
 #X obj 20 80 ui.hgain~;
 #X obj 20 110 osc~ 440;

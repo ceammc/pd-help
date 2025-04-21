@@ -1,4 +1,4 @@
-#N canvas 0 0 320 177 12;
+#N canvas 0 0 285 160 12;
 #X floatatom 20 50 5 0 0 0 - - -;
 #X obj 20 110 flow.less_eq 0 10 20 30;
 #X floatatom 20 140 5 0 0 0 - - -;

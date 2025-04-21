@@ -1,4 +1,4 @@
-#N canvas 0 0 489 267 12;
+#N canvas 0 0 478 268 12;
 #X msg 20 50 symbol stargazing.mod;
 #X obj 245 50 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0 1;
 #X msg 38 80 play;

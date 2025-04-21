@@ -1,4 +1,4 @@
-#N canvas 0 0 323 327 12;
+#N canvas 0 0 324 328 12;
 #X msg 20 50 1 0 1 1 0 1 0 1;
 #X obj 20 80 ui.radio*;
 #X obj 20 110 msg @pattern;

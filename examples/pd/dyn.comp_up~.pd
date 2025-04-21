@@ -1,4 +1,4 @@
-#N canvas 0 0 559 327 12;
+#N canvas 0 0 560 310 12;
 #X obj 20 50 ui.hsl -60 0 @show_value 1;
 #X obj 245 50 ui.dsp~;
 #X obj 20 80 dbfs->amp;

@@ -1,4 +1,4 @@
-#N canvas 0 0 237 205 12;
+#N canvas 0 0 222 190 12;
 #X obj 20 50 ui.radio @nitems 4;
 #X msg 47 110 reset;
 #X obj 20 140 radio 4;

@@ -1,4 +1,4 @@
-#N canvas 0 0 399 252 12;
+#N canvas 0 0 399 253 12;
 #X msg 20 50 open guitar1.wav \, 1;
 #X obj 245 50 table AC1 44100;
 #X obj 20 95 readsf~;

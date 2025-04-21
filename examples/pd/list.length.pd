@@ -1,4 +1,4 @@
-#N canvas 0 0 538 177 12;
+#N canvas 0 0 539 160 12;
 #X msg 74 50 a b c d e;
 #X msg 245 50 ("a list" "of two elements") \, bang;
 #X msg 20 80 1 2;

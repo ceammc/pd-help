@@ -1,4 +1,4 @@
-#N canvas 0 0 305 177 12;
+#N canvas 0 0 306 178 12;
 #X obj 20 50 math.nan~ @quiet;
 #X obj 209 50 ui.dsp~;
 #X obj 20 80 ui.n~;

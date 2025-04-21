@@ -1,4 +1,4 @@
-#N canvas 0 0 228 175 12;
+#N canvas 0 0 228 160 12;
 #X msg 20 50 symbol is_file-help.pd;
 #X msg 56 80 symbol not-exists;
 #X obj 20 110 is_file;

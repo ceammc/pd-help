@@ -1,4 +1,4 @@
-#N canvas 0 0 306 237 12;
+#N canvas 0 0 307 238 12;
 #X obj 20 50 sig~ 1;
 #X obj 110 50 osc~ 440;
 #X obj 146 80 ui.hrd @nitems 2;

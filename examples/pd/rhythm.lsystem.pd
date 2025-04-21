@@ -1,4 +1,4 @@
-#N canvas 0 0 638 387 12;
+#N canvas 0 0 639 388 12;
 #X text 20 50 1: bang;
 #X text 20 65 2: turn metro on;
 #X text 20 80 3: bang again;

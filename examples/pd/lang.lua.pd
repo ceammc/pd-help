@@ -1,4 +1,4 @@
-#N canvas 0 0 382 192 12;
+#N canvas 0 0 383 193 12;
 #X obj 20 50 loadmsg load lua/basic.lua;
 #X obj 38 80 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;

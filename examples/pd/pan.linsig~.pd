@@ -1,4 +1,4 @@
-#N canvas 0 0 341 207 12;
+#N canvas 0 0 342 208 12;
 #X obj 20 50 osc.pulse~ 100;
 #X obj 20 80 ui.gain~ @size 120 14;
 #X obj 245 80 ui.dsp~;

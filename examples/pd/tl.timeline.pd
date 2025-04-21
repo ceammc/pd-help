@@ -1,4 +1,4 @@
-#N canvas 0 0 561 387 12;
+#N canvas 0 0 562 370 12;
 #X msg 20 50 add 5.4 sec;
 #X msg 173 50 add middle 10s;
 #X msg 353 50 add last 5s before end;

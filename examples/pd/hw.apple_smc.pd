@@ -1,4 +1,4 @@
-#N canvas 0 0 239 267 12;
+#N canvas 0 0 240 268 12;
 #X msg 20 50 TC0P;
 #X text 74 50 cpu temp;
 #X obj 20 80 symbol;

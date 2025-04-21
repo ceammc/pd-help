@@ -1,11 +1,12 @@
-#N canvas 0 0 327 237 12;
+#N canvas 0 0 327 283 12;
 #X msg 20 50 [a: b @prop: val 1: 100] \, bang;
 #X obj 20 110 data.dict;
-#X obj 20 140 dict.get "@prop" "1" a "?";
+#X obj 20 140 dict.get "@prop" "1" a /*;
 #X symbolatom 20 200 5 0 0 0 - - -;
 #X floatatom 83 200 5 0 0 0 - - -;
 #X symbolatom 146 200 5 0 0 0 - - -;
 #X obj 209 200 ui.display;
+#X obj 20 245 dict.get-paths;
 #X connect 0 0 1 0;
 #X connect 1 0 2 0;
 #X connect 2 0 3 0;

@@ -1,4 +1,4 @@
-#N canvas 0 0 510 237 12;
+#N canvas 0 0 511 238 12;
 #X obj 20 50 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0 1;
 #X obj 200 50 ui.k 20 2000 @show_value 1;
 #X obj 299 50 ui.k 1 50 @show_value 1;

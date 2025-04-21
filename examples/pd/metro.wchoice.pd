@@ -1,4 +1,4 @@
-#N canvas 0 0 452 237 12;
+#N canvas 0 0 324 238 12;
 #X obj 20 50 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0 1;
 #X listbox 119 50 20 0 0 0 - - -;
 #X listbox 272 50 20 0 0 0 - - -;

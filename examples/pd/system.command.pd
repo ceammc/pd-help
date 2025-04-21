@@ -1,0 +1,18 @@
+#N canvas 0 0 489 238 12;
+#X msg 20 50 open /System/Applications/Utilities/Audio\ MIDI\ Setup.app;
+#X msg 20 80 ls | sort -r | tail;
+#X msg 47 110 du -h | cut -f1;
+#X msg 227 110 winver.exe;
+#X msg 74 140 bang;
+#X msg 137 140 @args cat \, stdin 1 2 3 4 5;
+#X obj 20 170 system.command pwd;
+#X floatatom 20 200 5 0 0 0 - - -;
+#X obj 128 200 print EXEC;
+#X connect 1 0 6 0;
+#X connect 2 0 6 0;
+#X connect 4 0 6 0;
+#X connect 5 0 6 0;
+#X connect 6 0 7 0;
+#X connect 6 1 8 0;
+#X connect 0 0 6 0;
+#X connect 3 0 6 0;

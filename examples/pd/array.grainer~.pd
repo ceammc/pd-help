@@ -1,4 +1,4 @@
-#N canvas 0 0 929 462 12;
+#N canvas 0 0 929 463 12;
 #X msg 20 50 fill 80 @l 300ms @at rand()*1s @at ondone +=100ms @pan ondone rand() @s ondone choice(1\ \,-0.5) @tb rand()*400ms @w hann;
 #X obj 110 125 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0 1;
 #X msg 38 155 clear;

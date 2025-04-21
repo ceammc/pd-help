@@ -1,4 +1,4 @@
-#N canvas 0 0 277 402 12;
+#N canvas 0 0 277 403 12;
 #X msg 20 50 bang;
 #X obj 20 80 list.gen 11;
 #X obj 146 80 random.i 0 7;

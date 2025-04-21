@@ -1,8 +1,8 @@
-#N canvas 0 0 300 207 12;
+#N canvas 0 0 300 208 12;
 #X msg 20 50 list 2_. 4 8 8 16 16 16 1/16 3/2;
 #X obj 65 80 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0 1;
 #X msg 65 110 @seq \$1;
-#X obj 20 140 music.d->t @bpm 60 1 @seq 0;
+#X obj 20 140 music.d->t @bpm 120|4bpm @seq 0;
 #X obj 20 170 ui.dt;
 #X connect 1 0 2 0;
 #X connect 0 0 3 0;

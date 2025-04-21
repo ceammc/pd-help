@@ -1,4 +1,4 @@
-#N canvas 0 0 262 237 12;
+#N canvas 0 0 263 238 12;
 #X obj 20 50 path.monitor "%PD%";
 #X obj 20 80 ui.dt;
 #X msg 20 110 open "%PD%/test.txt" w;

@@ -1,20 +1,14 @@
-#N canvas 0 0 655 507 12;
+#N canvas 0 0 705 508 12;
 #X obj 20 50 loadbang;
 #X msg 20 80 symbol voice.wav;
 #X msg 191 80 symbol bell.aiff;
 #N canvas 0 22 450 300 (subpatch) 0;
-#X array A1 100 float 1;
-#A 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
-#X coords 0 1 100 -1 100 140 1;
+#X array A1 100 float 0;
+#X coords 0 1 100 -1 150 140 1;
 #X restore 362 80 graph;
 #N canvas 0 22 450 300 (subpatch) 0;
-#X array A2 100 float 1;
-#A 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
-#X coords 0 1 100 -1 100 140 1;
+#X array A2 100 float 0;
+#X coords 0 1 100 -1 150 140 1;
 #X restore 515 80 graph;
 #X msg 20 110 load %DOC%/sound/\$1 @to A1 @resize;
 #X obj 20 140 expand_env;
@@ -30,7 +24,7 @@
 -1;
 #X text 353 260 timestretch;
 #X obj 20 290 array.stretch A1 A2 @rate 1.5;
-#X obj 308 290 array.stretch A1 A2 @tempo -30 @speech;
+#X obj 308 290 array.stretch A1 A2 @tempo -30 @speech 1;
 #X text 20 320 Play;
 #X obj 20 350 ui.tab @items A1 A2;
 #X msg 20 380 set \$2 \, bang;

@@ -1,4 +1,4 @@
-#N canvas 0 0 410 207 12;
+#N canvas 0 0 411 208 12;
 #X msg 20 50 ls;
 #X msg 65 50 ls -l;
 #X msg 137 50 open /Applications/TextEdit.app;

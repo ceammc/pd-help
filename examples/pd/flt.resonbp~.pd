@@ -1,4 +1,4 @@
-#N canvas 0 0 332 237 12;
+#N canvas 0 0 333 238 12;
 #X obj 20 50 lfo.impulse~ 2;
 #X floatatom 47 80 5 0 0 0 - - -;
 #X floatatom 146 80 5 0 0 0 - - -;

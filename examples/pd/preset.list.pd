@@ -1,4 +1,4 @@
-#N canvas 0 0 345 237 12;
+#N canvas 0 0 345 238 12;
 #X msg 119 50 store 0;
 #X msg 245 50 store 1;
 #X msg 20 80 load 0;

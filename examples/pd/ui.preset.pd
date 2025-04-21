@@ -5,7 +5,7 @@
 #X obj 20 140 ui.rslider @presetname P-rslider;
 #X floatatom 20 170 5 0 0 0 - - -;
 #X msg 20 200 load \$1;
-#X obj 254 200 ui.hsl @min 0 @max 2;
+#X obj 254 200 ui.hsl @min 0 @max 2 @show_value 1;
 #X msg 38 230 clear 1;
 #X msg 146 230 clearall;
 #X msg 254 230 interp \$1;

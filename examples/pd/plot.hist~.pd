@@ -1,4 +1,4 @@
-#N canvas 0 0 1170 372 12;
+#N canvas 0 0 1171 373 12;
 #X obj 20 50 noise.white~;
 #X obj 155 50 osc~ 40;
 #X obj 155 80 ui.hrd @nitems 2;

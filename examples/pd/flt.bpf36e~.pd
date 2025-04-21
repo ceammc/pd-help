@@ -1,4 +1,4 @@
-#N canvas 0 0 737 477 12;
+#N canvas 0 0 737 478 12;
 #X msg 20 50 bang;
 #X text 101 50 plot response;
 #X obj 20 80 click~;

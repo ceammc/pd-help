@@ -1,4 +1,4 @@
-#N canvas 0 0 279 267 12;
+#N canvas 0 0 280 268 12;
 #X obj 20 50 noise.lfreq0~ 10;
 #X obj 20 80 fx.drone_box~;
 #X obj 164 80 ui.hsl;

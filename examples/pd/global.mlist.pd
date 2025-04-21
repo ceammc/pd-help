@@ -1,11 +1,11 @@
-#N canvas 0 0 505 177 12;
+#N canvas 0 0 426 178 12;
 #X msg 20 50 (1 2 3 (a b c)) \, bang;
 #X msg 272 50 bang;
 #X obj 20 80 ml;
 #X obj 272 80 global.mlist l1;
 #X obj 20 110 global.mlist l1;
-#X obj 272 110 ui.display @display_type 1;
-#X obj 20 140 ui.display @display_type 1;
+#X obj 272 110 ui.dt;
+#X obj 20 140 ui.dt;
 #X connect 0 0 2 0;
 #X connect 1 0 3 0;
 #X connect 2 0 4 0;

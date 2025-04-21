@@ -1,0 +1,25 @@
+#N canvas 0 0 507 395 12;
+#X obj 20 50 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0 1;
+#X msg 20 80 enable \$1;
+#X obj 38 125 ui.hsl @show_value 1 @min 50 @max 500;
+#X obj 209 125 ui.hsl @show_value 1 @min 0 @max 20;
+#X msg 38 155 freq \$1 0.5;
+#X msg 209 155 pwm 20 \$1;
+#X obj 20 200 hw.rpi.pwm @pwm_ch 0;
+#X obj 20 245 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0 1;
+#X obj 209 245 ui.hsl @show_value 1 @min 1 @max 2;
+#X msg 20 275 enable \$1;
+#X msg 209 275 pwm 20 \$1;
+#X obj 20 320 hw.rpi.pwm @pwm_ch 1;
+#X obj 20 350 ui.link @title 'Connection_scheme' @url
+ceammc://img/conn_pwm.png;
+#X connect 0 0 1 0;
+#X connect 2 0 4 0;
+#X connect 3 0 5 0;
+#X connect 7 0 9 0;
+#X connect 8 0 10 0;
+#X connect 9 0 11 0;
+#X connect 1 0 6 0;
+#X connect 4 0 6 0;
+#X connect 5 0 6 0;
+#X connect 10 0 11 0;

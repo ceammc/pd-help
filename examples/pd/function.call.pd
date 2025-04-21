@@ -1,4 +1,4 @@
-#N canvas 0 0 296 207 12;
+#N canvas 0 0 296 190 12;
 #X obj 20 50 function f1;
 #X obj 146 50 sin;
 #X obj 20 80 function f2;

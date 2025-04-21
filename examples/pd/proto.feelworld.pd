@@ -1,4 +1,4 @@
-#N canvas 0 0 218 295 12;
+#N canvas 0 0 196 280 12;
 #X obj 20 50 ui.hrd 4;
 #X msg 20 80 input \$1;
 #X obj 20 110 proto.feelworld;

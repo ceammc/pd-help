@@ -1,4 +1,4 @@
-#N canvas 0 0 997 492 12;
+#N canvas 0 0 998 493 12;
 #X text 20 50 Plot FIR frequency response: |H(w)| = 0.5 + 0.5e^-jw;
 #X msg 20 80 bang;
 #X obj 20 110 plot.linspace~ 0 3.141592 @pi;

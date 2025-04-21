@@ -1,4 +1,4 @@
-#N canvas 0 0 341 252 12;
+#N canvas 0 0 342 253 12;
 #X obj 20 50 ui.keyboard;
 #X msg 20 125 note \$1 \$2;
 #X msg 137 125 dump;

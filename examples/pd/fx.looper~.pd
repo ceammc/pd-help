@@ -1,4 +1,4 @@
-#N canvas 0 0 421 237 12;
+#N canvas 0 0 421 238 12;
 #X obj 20 50 adc~ 1;
 #X msg 38 80 record;
 #X msg 119 80 play;

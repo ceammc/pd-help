@@ -1,4 +1,4 @@
-#N canvas 0 0 357 192 12;
+#N canvas 0 0 358 175 12;
 #X floatatom 20 50 5 0 0 0 - - -;
 #X obj 182 80 ui.radio @nitems 4;
 #X obj 20 125 flow.demultiplex 4;

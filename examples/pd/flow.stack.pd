@@ -1,4 +1,4 @@
-#N canvas 0 0 520 207 12;
+#N canvas 0 0 520 208 12;
 #X msg 20 50 bang;
 #X msg 83 50 1024;
 #X msg 146 50 symbol ABC;
@@ -8,7 +8,7 @@
 #X msg 434 80 clear;
 #X obj 20 110 flow.stack, f 53;
 #X obj 20 140 print STACK;
-#X obj 20 170 flow.stack.1;
+#X obj 20 170 flow.stack-1;
 #X connect 0 0 7 0;
 #X connect 1 0 7 0;
 #X connect 2 0 7 0;

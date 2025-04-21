@@ -1,4 +1,4 @@
-#N canvas 0 0 551 387 12;
+#N canvas 0 0 552 388 12;
 #X obj 20 50 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0 1;
 #X obj 128 50 ui.dsp~;
 #X obj 326 50 r~ gbman~;

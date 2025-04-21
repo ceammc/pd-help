@@ -1,10 +1,7 @@
-#N canvas 0 0 622 372 12;
+#N canvas 0 0 622 373 12;
 #X msg 20 50 load %DOC%/sound/voice.wav @to vplay @resize;
 #N canvas 0 22 450 300 (subpatch) 0;
-#X array vplay 100 float 1;
-#A 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+#X array vplay 100 float 0;
 #X coords 0 1 100 -1 120 80 1;
 #X restore 389 65 graph;
 #X obj 20 80 expand_env;

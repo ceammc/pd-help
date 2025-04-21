@@ -1,4 +1,4 @@
-#N canvas 0 0 503 237 12;
+#N canvas 0 0 503 238 12;
 #X obj 20 50 midiin;
 #X symbolatom 119 50 25 0 0 0 - - -;
 #X obj 317 50 r oxt;

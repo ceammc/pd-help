@@ -1,4 +1,4 @@
-#N canvas 0 0 395 320 12;
+#N canvas 0 0 396 320 12;
 #X obj 20 50 osc~ 440;
 #X msg 119 50 @db?;
 #X msg 182 50 @size?;

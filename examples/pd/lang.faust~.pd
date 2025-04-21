@@ -1,4 +1,4 @@
-#N canvas 0 0 413 282 12;
+#N canvas 0 0 414 283 12;
 #X msg 20 50 open;
 #X obj 92 50 ui.knob @min 0 @max 0.5;
 #X obj 209 50 ui.knob @min 0 @max 10;

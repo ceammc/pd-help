@@ -1,4 +1,4 @@
-#N canvas 0 0 340 177 12;
+#N canvas 0 0 334 178 12;
 #X text 20 50 enter some words separated by spaces;
 #X symbolatom 20 80 40 0 0 0 - - -;
 #X obj 20 110 sym->any;

@@ -1,8 +1,8 @@
-#N canvas 0 0 356 417 12;
+#N canvas 0 0 356 418 12;
 #X msg 20 50 7 \, 2 \, 1 \, 2 \, 0 \, 2 \, 1 \, 2;
 #X msg 272 50 reset;
 #X obj 56 80 ui.hsl @show_value 1;
-#X msg 56 110 @dev \$1;
+#X obj 56 110 prop.set @dev;
 #X obj 20 140 flow.space 110;
 #X obj 20 170 degree->key minor;
 #X obj 20 200 + 60;
@@ -13,7 +13,7 @@
 #X obj 20 320 ui.hgain~;
 #X obj 155 320 ui.dsp~;
 #X obj 20 350 dac~;
-#X obj 20 380 flow.space.done;
+#X obj 20 380 flow.space-done;
 #X connect 2 0 3 0;
 #X connect 0 0 4 0;
 #X connect 3 0 4 0;

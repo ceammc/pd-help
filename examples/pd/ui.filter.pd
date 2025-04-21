@@ -1,4 +1,4 @@
-#N canvas 0 0 514 267 12;
+#N canvas 0 0 514 268 12;
 #X obj 20 50 ui.tab lin log rad;
 #X obj 209 50 ui.tab lpf hpf bpf bpfq @size 160 15;
 #X msg 20 80 @scale \$2;

@@ -1,4 +1,4 @@
-#N canvas 0 0 623 432 12;
+#N canvas 0 0 623 433 12;
 #X obj 20 50 notein;
 #X obj 155 50 ui.dsp~;
 #X obj 20 80 pack f f;

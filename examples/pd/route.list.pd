@@ -1,4 +1,4 @@
-#N canvas 0 0 295 267 12;
+#N canvas 0 0 295 268 12;
 #X floatatom 20 50 5 0 0 0 - - -;
 #X msg 65 50 bang;
 #X msg 128 50 symbol ABC;

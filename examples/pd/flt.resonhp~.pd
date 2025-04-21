@@ -1,4 +1,4 @@
-#N canvas 0 0 536 417 12;
+#N canvas 0 0 536 418 12;
 #X obj 20 50 osc.saw~ 15;
 #X obj 146 50 noise~;
 #X obj 245 50 ui.dsp~;

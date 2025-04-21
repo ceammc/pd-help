@@ -1,4 +1,4 @@
-#N canvas 0 0 661 417 12;
+#N canvas 0 0 661 418 12;
 #X msg 20 50 @expr sin(440);
 #X obj 461 50 r~ \$0-gl;
 #X msg 20 80 byte (t>>6|t|t>>(t>>16))*10+((t>>11)&7);

@@ -1,4 +1,4 @@
-#N canvas 0 0 494 402 12;
+#N canvas 0 0 494 403 12;
 #X obj 20 50 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 128 50 msg.onload symbol %CEAMMC%/guitar1.wav;
@@ -9,10 +9,7 @@
 #X obj 20 185 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0 1;
 #X msg 56 185 time 0 0 0;
 #N canvas 0 22 450 300 (subpatch) 0;
-#X array altc 100 float 1;
-#A 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+#X array altc 100 float 0;
 #X coords 0 1 100 -1 200 140 1;
 #X restore 254 185 graph;
 #X msg 92 215 seek -2s;

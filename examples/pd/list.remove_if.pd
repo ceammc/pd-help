@@ -1,4 +1,4 @@
-#N canvas 0 0 474 207 12;
+#N canvas 0 0 475 208 12;
 #X msg 20 50 10;
 #X msg 254 50 10;
 #X obj 20 80 list.seq;

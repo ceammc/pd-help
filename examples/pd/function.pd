@@ -1,4 +1,4 @@
-#N canvas 0 0 426 177 12;
+#N canvas 0 0 427 160 12;
 #X obj 20 50 function f1-$0;
 #X obj 209 50 expr sqrt($f1 * $f1 - 1);
 #X floatatom 20 80 5 0 0 0 - - -;

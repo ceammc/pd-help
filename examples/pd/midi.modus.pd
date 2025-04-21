@@ -1,4 +1,4 @@
-#N canvas 0 0 332 297 12;
+#N canvas 0 0 333 298 12;
 #X obj 20 50 ui.keyboard;
 #X obj 20 140 midi.modus @scale minor_pentatonic;
 #X obj 20 170 msg note 1;

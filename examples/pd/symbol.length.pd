@@ -1,4 +1,4 @@
-#N canvas 0 0 263 177 12;
+#N canvas 0 0 171 160 12;
 #X msg 20 50 symbol example;
 #X symbolatom 83 80 20 0 0 0 - - -;
 #X obj 20 110 symbol.length;

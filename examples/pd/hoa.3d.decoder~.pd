@@ -1,4 +1,4 @@
-#N canvas 0 0 474 237 12;
+#N canvas 0 0 474 238 12;
 #X obj 20 50 hoa/hoa.soundgrain;
 #X obj 335 50 lfo.saw~ 0.15;
 #X obj 20 80 ui.gain~ @size 120 14;

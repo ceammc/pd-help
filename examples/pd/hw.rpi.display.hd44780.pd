@@ -1,0 +1,31 @@
+#N canvas 0 0 513 350 12;
+#X obj 20 50 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0 1;
+#X msg 191 50 clear;
+#X msg 20 80 backlight \$1;
+#X msg 191 80 cursor_pos 0 0;
+#X obj 29 110 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0 1;
+#X msg 191 110 cursor_pos 1 0;
+#X msg 29 140 cursor_on \$1;
+#X msg 191 140 move_cursor 1;
+#X obj 29 170 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0 1;
+#X msg 191 170 move_cursor -1;
+#X msg 29 200 cursor_blink \$1;
+#X listbox 227 200 20 0 0 0 - - -;
+#X obj 227 230 msg write;
+#X obj 20 260 hw.rpi.display.hd44780 @i2c_bus default @i2c_addr auto
+@rows 2;
+#X obj 20 305 ui.link @title 'Connection_Scheme' @url
+ceammc://img/conn_ws2812.png;
+#X connect 0 0 2 0;
+#X connect 4 0 6 0;
+#X connect 8 0 10 0;
+#X connect 11 0 12 0;
+#X connect 2 0 13 0;
+#X connect 6 0 13 0;
+#X connect 10 0 13 0;
+#X connect 1 0 13 0;
+#X connect 3 0 13 0;
+#X connect 5 0 13 0;
+#X connect 7 0 13 0;
+#X connect 9 0 13 0;
+#X connect 12 0 13 0;

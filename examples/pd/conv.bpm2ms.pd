@@ -1,4 +1,4 @@
-#N canvas 0 0 368 327 12;
+#N canvas 0 0 368 328 12;
 #X floatatom 92 50 5 0 0 0 - - -;
 #X text 164 50 tempo;
 #X obj 92 80 * 8;

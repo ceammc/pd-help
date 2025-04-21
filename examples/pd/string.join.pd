@@ -1,4 +1,4 @@
-#N canvas 0 0 412 177 12;
+#N canvas 0 0 413 178 12;
 #X msg 20 50 list A B C 1 2 3;
 #X msg 164 80 symbol ":::";
 #X msg 299 80 symbol "";

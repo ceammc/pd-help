@@ -1,4 +1,4 @@
-#N canvas 0 0 443 177 12;
+#N canvas 0 0 344 178 12;
 #X listbox 20 50 20 0 0 0 - - -;
 #X listbox 263 50 20 0 0 0 - - -;
 #X floatatom 38 80 5 0 0 0 - - -;

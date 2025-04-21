@@ -1,4 +1,4 @@
-#N canvas 0 0 559 327 12;
+#N canvas 0 0 559 310 12;
 #X obj 20 50 ui.hsl -60 20 @show_value 1;
 #X obj 137 50 ui.hsl -60 20 @show_value 1;
 #X obj 326 50 ui.dsp~;

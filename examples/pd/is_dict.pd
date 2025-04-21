@@ -1,4 +1,4 @@
-#N canvas 0 0 320 177 12;
+#N canvas 0 0 313 178 12;
 #X msg 20 50 [a: b] [@prop: val] [1: 100] \, bang;
 #X obj 20 80 data.dict;
 #X msg 128 80 list 1 2 3;

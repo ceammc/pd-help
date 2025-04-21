@@ -5,9 +5,7 @@
 
 ##### Версия 0.9.8
 
-The general purpose Pd library used for work and educational process in the
-Centre of ElectroAcoustic Music of Moscow Conservatory (CEAM).
-
+Библиотека расширений общего назначения, используемая для рабочего и образовательного процесса в Центре Электроакустической Музыки Московской Консерватории (ЦЭАМ). 
 
 ## категории
 [an](#cat_an)
@@ -74,7 +72,7 @@ Centre of ElectroAcoustic Music of Moscow Conservatory (CEAM).
 
 
 ### <a id="cat_array" href="category_array.html">array</a>
-
+###### объекты для работы со звуковыми массивами и таблицами
 ---
 
 
@@ -878,7 +876,7 @@ Centre of ElectroAcoustic Music of Moscow Conservatory (CEAM).
 
 
 ### <a id="cat_list" href="category_list.html">list</a>
-###### objects for list processing
+###### объекты для работы со списками
 ---
 
 
@@ -1050,7 +1048,7 @@ Centre of ElectroAcoustic Music of Moscow Conservatory (CEAM).
 
 
 ### <a id="cat_math" href="category_math.html">math</a>
-###### math objects. can operate with list of numbers.
+###### различные математические объекты, которые могут работать в том числе и со списками чисел
 ---
 
 

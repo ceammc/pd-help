@@ -3,7 +3,7 @@
 
 # hw.rpi.adc.ads1115
 
-###### driver for 16-bit ADC on ads1115 chip for Raspberry Pi
+###### драйвер для 16-битного АЦП на чипе ads1115 для Raspberry Pi
 
 *доступно с версии:* 0.9.8
 

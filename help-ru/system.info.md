@@ -3,7 +3,7 @@
 
 # system.info
 
-###### retrieve system information: CPU and temperature
+###### получение информации о системе: ЦПУ и температура
 
 *доступно с версии:* 0.9.8
 

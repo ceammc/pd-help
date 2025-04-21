@@ -3,7 +3,7 @@
 
 # hw.rpi.display.hd44780
 
-###### LCD display driver for Raspberry Pi (1602 or 2004 module)
+###### драйвер для ЖКИ дисплея (1602 или 2004 модуль) для Raspberry Pi
 
 *доступно с версии:* 0.9.8
 

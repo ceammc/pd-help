@@ -3,7 +3,7 @@
 
 # hw.rpi.rotenc
 
-###### rotary encoder for Raspberry Pi
+###### поворотный энкодер для Raspberry Pi
 
 *доступно с версии:* 0.9.8
 

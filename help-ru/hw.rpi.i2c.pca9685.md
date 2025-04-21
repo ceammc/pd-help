@@ -3,7 +3,7 @@
 
 # hw.rpi.i2c.pca9685
 
-###### driver for 16-channel 12-bit PWM module on PCA9685 chip for Raspberry Pi
+###### драйвер для 16-канального 12-битного ШИМ модуля на чипе PCA9685 для Raspberry Pi
 
 *доступно с версии:* 0.9.8
 

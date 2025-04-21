@@ -3,7 +3,7 @@
 
 # net.ws.server
 
-###### WebSocket server
+###### WebSocket сервер
 
 *доступно с версии:* 0.9.8
 

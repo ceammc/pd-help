@@ -3,7 +3,7 @@
 
 # system.command
 
-###### run commands with pipes on Unix and Windows
+###### запуск цепочек команд с перенаправлением вывода в Unix и Windows
 
 *доступно с версии:* 0.9.8
 

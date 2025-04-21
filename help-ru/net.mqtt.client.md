@@ -3,7 +3,7 @@
 
 # net.mqtt.client
 
-###### MQTT client
+###### MQTT клиент
 
 *доступно с версии:* 0.9.8
 

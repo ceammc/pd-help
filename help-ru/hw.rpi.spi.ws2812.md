@@ -3,7 +3,7 @@
 
 # hw.rpi.spi.ws2812
 
-###### ws2812 LED strip driver for Raspberry Pi
+###### драйвер для светодиодной ленты ws2812 для Raspberry Pi
 
 *доступно с версии:* 0.9.8
 

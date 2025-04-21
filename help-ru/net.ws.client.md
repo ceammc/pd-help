@@ -3,7 +3,7 @@
 
 # net.ws.client
 
-###### WebSocket client
+###### WebSocket клиент
 
 *доступно с версии:* 0.9.8
 

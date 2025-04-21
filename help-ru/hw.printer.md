@@ -3,7 +3,7 @@
 
 # hw.printer
 
-###### basic document printing support
+###### базовая поддержка печати документов
 
 *доступно с версии:* 0.9.8
 

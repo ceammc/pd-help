@@ -3,7 +3,7 @@
 
 # flow.histogram
 
-###### histogram for numeric control flow
+###### гисторамма для числового потока управления
 
 *доступно с версии:* 0.9.8
 

@@ -3,7 +3,7 @@
 
 # msg.unpack
 
-###### message unpack to selector and arguments
+###### распаковка сообщения на селектор и аргументы
 
 *доступно с версии:* 0.9.8
 

@@ -3,7 +3,7 @@
 
 # conv.guido2note
 
-###### convert Guido notation into MIDI and duration
+###### конвертер из Guido-нотации в MIDI ноту и длительность
 
 *доступно с версии:* 0.9.8
 

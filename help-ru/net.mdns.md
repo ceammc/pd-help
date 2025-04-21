@@ -3,7 +3,7 @@
 
 # net.mdns
 
-###### MDNS service discovery
+###### обнаружение служб MDNS
 
 *доступно с версии:* 0.9.8
 

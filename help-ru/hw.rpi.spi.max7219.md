@@ -3,7 +3,7 @@
 
 # hw.rpi.spi.max7219
 
-###### LED matrix driver based on max7219 chip for Raspberry Pi
+###### драйвер для LED матрицы на чипе max7219 для Raspberry Pi
 
 *доступно с версии:* 0.9.8
 

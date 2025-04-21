@@ -3,7 +3,7 @@
 
 # hw.rpi.sensor.ir
 
-###### IR (infrared) sensors and protocols for Raspberry Pi
+###### ИК (инфракрасные) датчики и протоколы для Raspberry Pi
 
 *доступно с версии:* 0.9.8
 

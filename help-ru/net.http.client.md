@@ -3,7 +3,7 @@
 
 # net.http.client
 
-###### HTTP client
+###### HTTP клиент
 
 *доступно с версии:* 0.9.8
 

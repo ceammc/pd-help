@@ -3,7 +3,7 @@
 
 # hw.rpi.sensor.dht11
 
-###### digital humidity and temperature sensor (DHT11) for Raspberry Pi
+###### цифровой датчик влажности и температуры (DHT11) для Raspberry Pi
 
 *доступно с версии:* 0.9.8
 

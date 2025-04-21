@@ -3,7 +3,7 @@
 
 # hw.rpi.pwm
 
-###### hardware PWM output for RaspberryPi
+###### аппаратный ШИМ (PWM) для RaspberryPi
 
 *доступно с версии:* 0.9.8
 

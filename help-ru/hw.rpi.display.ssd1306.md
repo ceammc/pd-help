@@ -3,7 +3,7 @@
 
 # hw.rpi.display.ssd1306
 
-###### driver for OLED display on ssd1306 chip for Raspberry Pi
+###### драйвер для OLED дисплея на чипе ssd1306 для Raspberry Pi
 
 *доступно с версии:* 0.9.8
 

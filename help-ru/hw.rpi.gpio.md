@@ -3,7 +3,7 @@
 
 # hw.rpi.gpio
 
-###### GPIO control for Raspberry Pi
+###### управление GPIO на Raspberry Pi
 
 *доступно с версии:* 0.9.8
 

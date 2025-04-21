@@ -3,7 +3,7 @@
 
 # hw.rpi.sensor.mpu6050
 
-###### MPU-6050 gyroscope and accelerometer for Raspberry Pi
+###### MPU-6050 гироскоп и датчик ускорения для Raspberry Pi
 
 *доступно с версии:* 0.9.8
 

@@ -3,7 +3,7 @@
 
 # proto.obs
 
-###### WebSocket client to control OBS studio
+###### WebSocket клиент для управления OBS studio
 
 *доступно с версии:* 0.9.8
 

@@ -3,7 +3,7 @@
 
 # hw.rpi.sensor.sr04
 
-###### HC-SR04 ultrasonic ranging module for Raspberry Pi
+###### HC-SR04 ультразвуковой датчик расстояния для Raspberry Pi
 
 *доступно с версии:* 0.9.8
 

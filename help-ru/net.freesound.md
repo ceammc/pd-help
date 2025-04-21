@@ -3,7 +3,7 @@
 
 # net.freesound
 
-###### Freesound API v2 client
+###### клиент для Freesound API v2
 
 *доступно с версии:* 0.9.8
 

@@ -3,7 +3,7 @@
 
 # hw.rpi.sensor.vl53l0x
 
-###### time-of-flight (ToF) laser-ranging sensor on VL53L0X chip for Raspberry Pi
+###### лазерный дальномер на чипе VL53L0X для Raspberry Pi
 
 *доступно с версии:* 0.9.8
 

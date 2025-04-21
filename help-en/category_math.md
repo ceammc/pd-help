@@ -3,7 +3,7 @@
 
 # Category: math
 
-
+math objects. can operate with list of numbers
 
 
 [**math.abs**](math.abs.html): absolute value function 

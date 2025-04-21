@@ -3,7 +3,7 @@
 
 # Категория: array
 
-
+объекты для работы со звуковыми массивами и таблицами
 
 
 [**array.bpm**](array.bpm.html): BPM calculator 

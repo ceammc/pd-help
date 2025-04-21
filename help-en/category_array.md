@@ -3,7 +3,7 @@
 
 # Category: array
 
-
+objects for working with arrays and tables
 
 
 [**array.bpm**](array.bpm.html): BPM calculator 

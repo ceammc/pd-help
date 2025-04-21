@@ -29,17 +29,13 @@
 [global.int](global.int.html)
 [local.float](local.float.html)
 [local.int](local.int.html)
-[ui.knob](ui.knob.html)
-[ui.number](ui.number.html)
-[ui.slider](ui.slider.html)
-[ui.sliders](ui.sliders.html)
-
-### + N
 [ui.gain2~](ui.gain2~.html)
 [ui.gain~](ui.gain~.html)
-
-### + STEP
+[ui.knob](ui.knob.html)
+[ui.number](ui.number.html)
 [ui.radio](ui.radio.html)
+[ui.slider](ui.slider.html)
+[ui.sliders](ui.sliders.html)
 [ui.tab](ui.tab.html)
 
 ### ++
@@ -64,17 +60,13 @@
 [global.int](global.int.html)
 [local.float](local.float.html)
 [local.int](local.int.html)
-[ui.knob](ui.knob.html)
-[ui.number](ui.number.html)
-[ui.slider](ui.slider.html)
-[ui.sliders](ui.sliders.html)
-
-### - N
 [ui.gain2~](ui.gain2~.html)
 [ui.gain~](ui.gain~.html)
-
-### - STEP
+[ui.knob](ui.knob.html)
+[ui.number](ui.number.html)
 [ui.radio](ui.radio.html)
+[ui.slider](ui.slider.html)
+[ui.sliders](ui.sliders.html)
 [ui.tab](ui.tab.html)
 
 ### --
@@ -554,16 +546,7 @@
 ### continue
 [proto.midi](proto.midi.html)
 
-### copy . .
-[array.copy](array.copy.html)
-
-### copy . . .
-[array.copy](array.copy.html)
-
-### copy . . . .
-[array.copy](array.copy.html)
-
-### copy . . . . .
+### copy
 [array.copy](array.copy.html)
 
 ### cpu
@@ -854,13 +837,10 @@
 [ui.radio](ui.radio.html)
 [ui.tab](ui.tab.html)
 
-### flip R C
+### flip col
 [ui.matrix](ui.matrix.html)
 
-### flip col N
-[ui.matrix](ui.matrix.html)
-
-### flip row N
+### flip row
 [ui.matrix](ui.matrix.html)
 
 ### flush
@@ -930,13 +910,13 @@
 [net.http.client](net.http.client.html)
 [net.http.send](net.http.send.html)
 
-### get cell R C
+### get cell
 [ui.matrix](ui.matrix.html)
 
 ### get cells
 [ui.matrix](ui.matrix.html)
 
-### get col N
+### get col
 [ui.matrix](ui.matrix.html)
 
 ### get cols
@@ -950,13 +930,13 @@
 [bitmap](bitmap.html)
 [ui.matrix](ui.matrix.html)
 
-### get row N
+### get row
 [ui.matrix](ui.matrix.html)
 
 ### get rows
 [ui.matrix](ui.matrix.html)
 
-### get slider N
+### get slider
 [ui.sliders](ui.sliders.html)
 
 ### get submatrix
@@ -2289,9 +2269,12 @@
 [noise.stein](noise.stein.html)
 [noise.torus](noise.torus.html)
 [noise.verhulst](noise.verhulst.html)
+[proto.whammy](proto.whammy.html)
 [samp.time~](samp.time~.html)
 [string](string.html)
 [ui.colorpanel](ui.colorpanel.html)
+[ui.gain2~](ui.gain2~.html)
+[ui.gain~](ui.gain~.html)
 [ui.icon](ui.icon.html)
 [ui.incdec](ui.incdec.html)
 [ui.knob](ui.knob.html)
@@ -2307,23 +2290,10 @@
 [ui.tab](ui.tab.html)
 [ui.toggle](ui.toggle.html)
 
-### set IDX
-[proto.whammy](proto.whammy.html)
-
-### set N
-[ui.gain2~](ui.gain2~.html)
-[ui.gain~](ui.gain~.html)
-
-### set NAME
-[proto.whammy](proto.whammy.html)
-
-### set UP DOWN
-[proto.whammy](proto.whammy.html)
-
 ### set col
 [ui.lcd](ui.lcd.html)
 
-### set col N ...
+### set col ...
 [ui.matrix](ui.matrix.html)
 
 ### set cursor
@@ -2339,7 +2309,7 @@
 [bitmap](bitmap.html)
 [ui.lcd](ui.lcd.html)
 
-### set matrix R C ...
+### set matrix ...
 [ui.matrix](ui.matrix.html)
 
 ### set matrix_at
@@ -2351,10 +2321,10 @@
 ### set row
 [ui.lcd](ui.lcd.html)
 
-### set row N ...
+### set row ...
 [ui.matrix](ui.matrix.html)
 
-### set slider N V
+### set slider
 [ui.sliders](ui.sliders.html)
 
 ### set_db

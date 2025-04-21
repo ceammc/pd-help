@@ -20,7 +20,7 @@
 
 ## methods:
 
-* **copy . .**
+* **copy SRC DEST**
 copy the whole array content<br>
   __parameters:__
   - **SRC** the source array<br>
@@ -31,7 +31,7 @@ copy the whole array content<br>
     type: symbol <br>
     required: True <br>
 
-* **copy . . .**
+* **copy SRC FROM DEST**
 copy the array content from the specified position till the end<br>
   __parameters:__
   - **SRC** the source array<br>
@@ -46,7 +46,7 @@ copy the array content from the specified position till the end<br>
     type: symbol <br>
     required: True <br>
 
-* **copy . . . .**
+* **copy SRC FROM TO DEST**
 copy the array content from the specified range<br>
   __parameters:__
   - **SRC** the source array<br>
@@ -65,7 +65,7 @@ copy the array content from the specified range<br>
     type: symbol <br>
     required: True <br>
 
-* **copy . . . . .**
+* **copy SRC FROM TO DEST DEST_START**
 copy the array content from the specified range and to the specified
 destination position<br>
   __parameters:__

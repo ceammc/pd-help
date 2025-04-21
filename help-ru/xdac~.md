@@ -26,7 +26,33 @@ _тип:_ list<br>
 
 
 
+## методы:
 
+* **reverse**
+reverse output channels order<br>
+
+* **rotate**
+rotate output channels counter clockwise<br>
+  __параметры:__
+  - **N** number of rotation steps, can be negative<br>
+    тип: int <br>
+    обязательно: True <br>
+
+* **shuffle**
+shuffle output channels order<br>
+
+* **side2circle**
+map left/right side pairs to counter clockwise layout<br>
+
+
+
+
+## свойства:
+
+* **@channels** 
+Запросить/установить list of mapped channels<br>
+_тип:_ list<br>
+_по умолчанию:_ 1 2<br>
 
 
 

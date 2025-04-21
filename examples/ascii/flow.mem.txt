@@ -11,7 +11,7 @@
 |            |.         |.
 [flow.mem          @ttl 4]
 |
-[flow.mem.osc~]
+[flow.mem-osc~]
 |
 [pan~ {i=1,o=2}]
 *|*
@@ -19,6 +19,6 @@
 *|*
 [dac~]
 
-[flow.mem.more]
+[flow.mem-more]
 
             

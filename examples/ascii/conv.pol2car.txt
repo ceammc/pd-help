@@ -12,6 +12,11 @@
 |
 [pol->car]
 |
-[ui.slider2d]
+[ui.slider2d @size 100 100]
+
+
+
+
+/*.*/
 
             

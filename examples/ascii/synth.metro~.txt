@@ -5,10 +5,10 @@
 |   [F]
 |   |
 |   [@tempo $1( [1( [2( [3( [4(     [F]
-|   |           | .  |.  |.  |.     |..
+|   |           |.  |.  |.  |.      |..
 [synth.metro~ 120|8bpm |5/4+3/16| #z  ]
 |                          ^|
-[ui.hgain~]                [print BEAT]
+[ui.hgain~]                [print BEAT] [ui.dsp~]
 |\
 [dac~]
 

@@ -2,10 +2,16 @@
 
 [\[a: b c: d e f\], bang(
 |
-[data.dict]
+[data.dict #a]
 |
-[dict->list]
-|
-[ui.d]
+[dict->list]       [dict->list @props #x]
+|                  |           |
+|                  [list trim] [ui.dt]
+|                  |
+|                  [@->        @a @c]
+|                    ^|       ^^|
+[ui.d]               [ui.dt]  [ui.dt]
+
+[X a->x]
 
             

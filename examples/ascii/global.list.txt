@@ -8,6 +8,6 @@
 |                          |
 [ui.dt]                    [ui.dt]
 
-[global.list.pd]
+[global.list-pd]
 
             

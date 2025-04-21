@@ -1,0 +1,29 @@
+
+
+/*you can start testing websocket server with command: 'websocat -s 8000 -t -v'*/
+
+
+[connect ws://localhost:8000(         [array WS-CLI size=50 w=150 h=100 yr=0..100]
+|
+| [close #b(   [write MSG1 #e(
+|
+| [ping #c(    [write MSG2 #f(
+|
+| [latency #d( [flush #g(
+|
+| [send MESSAGE( [send_json 1 2 A #h(
+| |
+| | [send_array WS-CLI #i(
+| | |
+[net.ws.client #x]
+|
+[t a a #z]
+|
+[print]
+
+    [ui.dt #a]
+
+[X z:1->a] [X b->x] [X c->x] [X d->x]
+[X e->x] [X f->x] [X g->x] [X h->x]
+
+            

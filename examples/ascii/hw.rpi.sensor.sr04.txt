@@ -1,0 +1,18 @@
+
+
+[T]
+|
+[poll $1(  [bang #a(
+|
+|
+|
+|
+[hw.rpi.sensor.sr04 23 24 #x]
+|         ^|
+[F]       [B]
+
+
+[ui.link @url=ceammc://img/hc_sr04.png @title='Connection_scheme']
+[X a->x]
+
+            

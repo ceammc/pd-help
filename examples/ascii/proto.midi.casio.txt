@@ -14,8 +14,8 @@
 |                   | ^|.
 [midiout]           [noteout #z]
 
-[proto.midi.casio.rev]
+[proto.midi.casio-rev]
 
-[proto.midi.casio.chorus]
+[proto.midi.casio-chorus]
 
             

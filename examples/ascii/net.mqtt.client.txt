@@ -1,0 +1,29 @@
+
+
+/*you can start testing mqtt server with command: 'nanomq -start'*/
+
+
+  [connect tcp://test.mosquitto.org:1883 #k(
+
+ [connect mqtt://ro:readonly@test.mosquitto.org:1884 #l(
+
+[connect mqtt://localhost:1883(  [subscribe topic/1 #e(
+|
+| [close #b(                     [subscribe topic/2 #f(
+|
+| [publish topic/1 MSG1 #c(      [subscribe topic/# #g(
+|
+| [publish topic/2 MSG2 #d(      [unsubscribe topic/1 #h(
+|
+|                                [unsubscribe topic/2 #i(
+|
+|                                [unsubscribe topic/# #j(
+|
+[net.mqtt.client #x ]
+|                  ^|
+[ui.dt]            [B]
+
+[X b->x] [X c->x] [X d->x] [X k->x] [X l->x]
+[X e->x] [X f->x] [X g->x] [X h->x] [X i->x] [X j->x]
+
+            

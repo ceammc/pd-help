@@ -1,6 +1,6 @@
 
 
-[ui.hsl @min 0 @max 7]
+[ui.hsl @min 0 @max 7 @show_value 1]
 |
 [rad->phase]
 |

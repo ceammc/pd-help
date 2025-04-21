@@ -4,7 +4,7 @@
 |
 [openpanel #a]
 
-[symbol %CEAMMC%/guitar1.wav, 1 #b(
+ [open %CEAMMC%/guitar1.wav, 1 #b(
 
  [@name %CEAMMC%/sound/loop_breakbeat.flac, 1(
  |
@@ -26,7 +26,7 @@
 *|*
 [dac~]
 
-[snd.play~.seek] [snd.play~.resamp]
+[snd.play~-seek] [snd.play~-resamp] [snd.play~-err]
 
 #c 0.25 4 @show_value 1
 

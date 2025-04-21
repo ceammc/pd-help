@@ -15,4 +15,6 @@
 |            |   |          |         |
 [ui.dt                                ]
 
+[ui.display-spec]
+
             

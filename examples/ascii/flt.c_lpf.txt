@@ -13,6 +13,6 @@
 
 
 
-[flt.c_lpf.plot]
+[flt.c_lpf-plot]
 
             

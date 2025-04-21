@@ -1,0 +1,23 @@
+
+
+[B]                    [set_range 4 4 255 0 0, bang #b(
+|
+[system.colorpanel @i] [set_slice 1 15 3 0 127 255, bang #c(
+|
+[msg fill]             [fx rainbow 0.5, bang #d(
+|
+[msg.after 0 bang #a]  [F]
+                       |
+ [brightness #e(       [set $1 0 0 255, bang #f(
+
+
+ [clear(
+ |
+[hw.rpi.spi.ws2812 @size 16 #x]
+
+
+[ui.link @url=ceammc://img/conn_ws2812.png @title='Connection_Scheme']
+[X a->x] [X b->x] [X c->x] [X d->x] [X e->x] [X f->x]
+#e 8, bang
+
+            

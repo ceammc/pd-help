@@ -6,10 +6,13 @@
 |
 [data.dict]
 |
-[dict.get "@prop" "1" a "?"]
+[dict.get "@prop" "1" a /*]
 |     ^|    ^^|   ^^^|
 |      |      |      |
 |      |      |      |
 [S]    [F]    [S]    [ui.display]
+
+
+[dict.get-paths]
 
             

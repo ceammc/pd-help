@@ -10,6 +10,6 @@
 |
 [T]
 
-[set.equal.data]
+[set.equal-data]
 
             

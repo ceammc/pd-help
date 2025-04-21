@@ -4,10 +4,10 @@
 [dump(    |            |
 |         [get row $1( [get col $1(
 | [reset( |            |
-| |       | [bang(     | [flip( [get list(
+| |       | [bang(     | [flip( [get list( [set matrix 2 2 1 0 0 1 #a(
 | |       | |          | |      |
 | |       | |          | |      |
-[ui.matrix                      ]
+[ui.matrix                      #x]
 |
 |
 |
@@ -21,5 +21,6 @@
 |     [ui.d]
 |
 [ui.d]
+[X a->x]
 
             

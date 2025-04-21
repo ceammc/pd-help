@@ -1,0 +1,17 @@
+
+
+[get http://puredata.info/ @css title text @strip_ws(
+|
+| [get https://github.com/uliss/pd-ceammc/releases @css a\[href$=".dmg"\] href #a(
+|
+|
+|
+|   [get http://ip.jsontest.com/ @json(
+|   |
+[net.http.client #z]
+|            ^|
+[F]          [print]
+
+[X a->z]
+
+            

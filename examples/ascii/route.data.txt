@@ -1,0 +1,21 @@
+
+
+[B]                       [route.data-datatype]
+|
+[data.dict \[a: 1\] #a]
+
+ [bang #b( [L #e]
+
+  [1 #c(
+
+   [S #d]
+
+[route.data  #z]
+|       ^|
+[ui.dt]  |
+         |
+         [ui.dt]
+
+[X a->z] [X b->z] [X c->z] [X d->z] [X e->z]
+
+            

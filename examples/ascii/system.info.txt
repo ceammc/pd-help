@@ -1,0 +1,12 @@
+
+
+[temp(
+|
+| [cpu(
+| |
+| |
+[system.info]
+|
+[print INFO]
+
+            

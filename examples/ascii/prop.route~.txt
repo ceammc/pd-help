@@ -1,0 +1,19 @@
+
+
+[osc~ 440] [@db?( [@size?( [@amp?(
+|          |      |        |
+[ui.gain~ @size 160 16     ]   [ui.dsp~]
+|
+[prop~> @db  ]
+|    ^|   ^^|
+|    |      [ui.dt]
+|    |
+|   [ui.dt]
+|
+[ui.scope~ @size 200 40]
+
+
+
+/*...*/
+
+            

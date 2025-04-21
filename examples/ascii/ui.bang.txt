@@ -6,6 +6,6 @@
 |
 |      [B]
 |      |
-[B]    [s b_in]
+[B]    [s b_in]           [ui.bang-bind]
 
             

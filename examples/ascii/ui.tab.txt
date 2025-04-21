@@ -8,7 +8,7 @@
 | | |       |    | | |   |     |
 | | |       |    | | |   |     [@toggle $1( [flip #b(
 | | |       |    | | |   |     |
-[ui.tab      @items sin tri @size 350 15 #x]
+[ui.tab      @items sin tri @size 350 15 @nosave 1 #x]
 |       |
 [print] [ui.dt]
 [X a->x]

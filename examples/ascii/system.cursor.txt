@@ -1,8 +1,8 @@
 
 
-[T]       [T]            [T]        [T]         [system.cursor.abs]
+[T]       [T]            [T]        [T]         [system.cursor-abs]
 |         |              |          |
-|  [bang( [@relative $1( [@norm $1( [@clip $1(  [system.cursor.osc~]
+|  [bang( [@relative $1( [@norm $1( [@clip $1(  [system.cursor-osc~]
 |  |      |              |          |
 |  |      |              |          |
 |  |      |              |          |

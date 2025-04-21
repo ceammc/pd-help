@@ -16,6 +16,6 @@
 |\
 [dac~]
 
-[seq.nbangs.accel]
+[seq.nbangs-accel]
 
             

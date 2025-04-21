@@ -2,6 +2,8 @@
 
 /*[ui.label test label]*/
 
+[hidden inlet(
+|
 [ui.label test label @receive lbl1]
 
 

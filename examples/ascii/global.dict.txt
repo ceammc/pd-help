@@ -8,6 +8,6 @@
 |
 [ui.dt]
 
-[global.dict.subpatch]
+[global.dict-subpatch]
 
             

@@ -10,6 +10,6 @@
 |
 [ui.dt]
 
-[global.bimap.sp] /*open subpatch*/
+[global.bimap-sp] /*open subpatch*/
 
             

@@ -1,0 +1,29 @@
+
+
+/*you can start testing websocket client with command: 'websocat ws://127.0.0.1:8000'*/
+
+
+[listen 8000(   [stop #a(             [send CLI #i( [send_binary 1 2 3 #j(
+|
+| [ping all #b( [close * #e(          [connect ws://127.0.0.1:8000 #f(
+|
+| [send last MSG #c(                  [close #g( [ping #h(
+|
+| [send != 2 MSG #d(                  [net.ws.client #xx]
+|                                     |
+|  [clients #k(                       [ui.dt]
+|
+|   [send_json all 1 2 3 #l(
+|
+|
+[net.ws.server #x]
+|
+[ui.dt]          [ui.dt #z]
+
+[print SRV #y]
+
+[X x->y] [X x:1->z]
+[X a->x] [X b->x] [X c->x] [X d->x] [X e->x] [X k->x] [X l->x]
+[X f->xx] [X g->xx] [X h->xx] [X i->xx] [X j->xx]
+
+            

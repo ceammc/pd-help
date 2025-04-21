@@ -1,0 +1,33 @@
+
+
+[loadbang]
+|
+[input 17, pull_up 17, output 18(
+|
+| [read 17 #a(        [T] [toggle 18 #f(
+|                     |
+| [T]                 [write 18 $1 #e(
+| |
+| [poll 17 $1 #c(     [read 18 #g(
+|
+| [reset 17 #d(       [soft_pwm 18 500 100 #j( [soft_pwm_freq 18 4 0.5 #k(
+|
+|                     [clear_pwm 18 #l(
+|
+|                     [reset 18 #h(
+|
+[hw.rpi.gpio #x]
+|
+[route pin]
+|
+[ui.dt]
+
+[ui.link @url=ceammc://img/conn_gpio1.png @title='Connection_Scheme']
+
+[ui.link @url=ceammc://hw.rpi.gpio-example.pd @title='GPIO_control']
+
+[X a->x] [X b->x] [X c->x] [X d->x]
+[X e->x] [X f->x] [X g->x] [X h->x]
+[X j->x] [X k->x] [X l->x]
+
+            

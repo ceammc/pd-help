@@ -1,14 +1,14 @@
 
 
-[S digits=12]
-|
-[qrcode     ]
-|          ^|
-[msg set]  [@cols $1, @rows $1, @size 120 120(
-|          |
-|          |  [invert( [clear(
-|          |  |        |
-[ui.lcd @size 120 120 @nosave 1]
+[S digits=12]                               [clear, text 1 7 TEST, get matrix(
+|                                           |
+[qrcode         ]                           [bitmap 21 21]
+|              ^|                           |
+[msg set list] [@cols #b(                   [msg set #a]
+|              |
+|              |   [invert( [clear(
+|              |   |        |
+[ui.lcd @size 120 120 @nosave 1 #x]
 
 
 
@@ -16,5 +16,7 @@
 
 
 /* */
+[X a->x]
+#b $1, @rows $1, @size 120 120
 
             

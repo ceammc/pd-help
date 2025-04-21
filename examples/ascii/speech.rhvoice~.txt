@@ -1,6 +1,6 @@
 
 
-[T]          [speech.rhvoice~.voices]/*<-- see here*/
+[T]          [speech.rhvoice~-voices]/*<-- see here*/
 |
 [metro 1000]
 |
@@ -18,7 +18,7 @@
 |\
 [dac~]
 
-[speech.rhvoice~.extra]
+[speech.rhvoice~-extra]
 
 #a -1 1 @show_value 1
 

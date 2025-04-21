@@ -8,7 +8,7 @@
 |    |   |  |
 |    |   |  | [@any( [other(
 |    |   |  | |      |
-[route.list        #z]
+[route.any         #z]
 |       ^|
 [ui.dt]  |
          |

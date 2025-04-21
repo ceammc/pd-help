@@ -1,0 +1,13 @@
+
+
+[devices(  [B]
+|          |
+| [choose( [openpanel]
+| |        |
+| |        [print $1 @landscape 0(
+| |        |
+[hw.printer]/*using default printer*/
+|
+[print]
+
+            

@@ -1,0 +1,22 @@
+
+
+[T]
+|
+[metro 25]
+|
+[random.gauss 0 1] [clear(
+|                  |
+[flow.hist -4 4 32 @norm 1 @sync 1]
+|
+[ui.sliders @auto_count 1]
+
+
+
+
+
+
+
+
+[flow.histogram-bins]
+
+            

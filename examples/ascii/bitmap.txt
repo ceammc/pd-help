@@ -1,0 +1,42 @@
+
+
+[clear #a(            [rect 1 2 10 5 #f(  [mirror x #b1(
+
+  [fill 1 #b(         [clear, ellipse 1 2 10 5 #g(
+
+  [invert #c(         [clear, text 1 6 Hi! #h(
+
+  [fill_color 1 #d(   [clear, line 0 7 15 0 #i(
+
+  [fill_color 0 #e(   [pixel 15 7 #l(
+
+  [stroke_width 1 #j( [triangle 0 0 8 0 4 7 #m(
+
+  [stroke_width 2 #k( [arc 1 1 6 0 270 #n(
+
+  [font FONT_4x6 #o(  [set list 0 1 0 1 0 1 1 #t(
+
+  [font FONT_5x7 #p(  [set matrix 3 3 1 0 1 0 1 0 1 0 1 #u(
+
+  [hshift 1 #r(       [set matrix_at 2 2 6 10 1 0 0 1 #v(
+
+  [hshift -1 #s(      [row 1 10 1 #a1(  [save ~/bitmap.png #c1(
+
+
+
+
+[msg.after bang #x]
+|
+[bitmap 16 8]
+|
+[ui.matrix 8 16]
+
+
+/* ... */
+[X a->x] [X b->x] [X c->x] [X d->x] [X e->x]
+[X f->x] [X g->x] [X h->x] [X i->x] [X j->x] [X k->x]
+[X l->x] [X m->x] [X n->x] [X o->x] [X p->x]
+[X r->x] [X s->x] [X t->x] [X u->x] [X v->x]
+[X a1->x] [X b1->x] [X c1->x]
+
+            

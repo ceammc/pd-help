@@ -11,4 +11,26 @@
 |                                   |
 [F]                                 [F]
 
+[loadmsg 12345]
+|
+[global.float f2]
+
+/*get current*/
+
+[get( /*get f1*/
+|
+|     [get f1( /*get f2*/
+|     |
+|     |        [get f2( [get f3(
+|     |        |        |
+[global.float           ] /*default anonymouse global float*/
+|
+[ui.dt]
+
+/*global dispatch name binding*/
+
+[123(
+|
+[s f1]
+
             

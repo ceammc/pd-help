@@ -1,6 +1,5 @@
 
 
-[ui.dsp~]
          [F]             [F]
          |               |
 [noise~] [osc.saw~ 1000] [osc~ 5000]
@@ -10,6 +9,17 @@
 [*~]     [*~]            [*~]   [@log_scale $1(
 |        |               |      |
 |        |               |      |
-[ui.spectroscope~   @size=500x150]
+[ui.spectroscope~   @size 500 150 @nosave 1]
+
+
+
+
+
+
+
+
+
+
+[ui.dsp~]
 
             

@@ -1,6 +1,6 @@
 
 
-[ui.colorpanel]          [ui.colorpanel @size 193 14]
+[ui.colorpanel #a]       [ui.colorpanel @size 193 14]
 |                        |
 |                        |
 |                        [route @rgb]
@@ -9,10 +9,12 @@
 |                        |
 |                        [ui.radio]
 |
-[route @pd]
+[route @pd] [print COLOR #x]
 |
 [color $1(
 |
 [tgl]
+
+[X a->x]
 
             

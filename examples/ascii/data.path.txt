@@ -1,0 +1,18 @@
+
+
+[exists( [info #a( [type #b( [permissions #c( [size #d(
+|
+|  [B]
+|  |
+|  [openpanel]
+|  |
+|  |  [B]
+|  |  |
+[data.path Path(.) #x]
+|
+|
+[ui.dt]
+
+[X a->x] [X b->x] [X c->x] [X d->x]
+
+            

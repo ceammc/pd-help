@@ -11,7 +11,7 @@
 |
 [msg note]
 |
-| [notesoff(
+| [notes_off(
 | |
 [fluid~]          [ui.dsp~]
 *|*
@@ -19,8 +19,8 @@
 *|*
 [dac~]
 
-[flow.record.speed]    [flow.record.qlist]
+[flow.record-speed]    [flow.record-qlist]
 
-[flow.record.sync]
+[flow.record-sync]
 
             

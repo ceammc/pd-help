@@ -8,6 +8,6 @@
 |                          |
 [ui.dt]                    [ui.dt]
 
-[local.list.nonlocal]
+[local.list-nonlocal]
 
             

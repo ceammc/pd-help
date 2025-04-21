@@ -8,8 +8,8 @@
 |
 [ui.dt]
 
-[music.voice2midi.notes] [music.voice2midi.oct]   [music.voice2midi.dur]
+[music.voice2midi-notes] [music.voice2midi-oct]   [music.voice2midi-dur]
 
-[music.voice2midi.alt]   [music.voice2midi.micro]
+[music.voice2midi-alt]   [music.voice2midi-micro]
 
             

@@ -21,6 +21,6 @@
 |
 [prop.set @p1]
 |
-[prop.set.patch {i=1}]
+[prop.set-patch {i=1}]
 
             

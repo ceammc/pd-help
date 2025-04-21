@@ -1,6 +1,6 @@
 
 
-[ui.button]
+[ui.button @size 50 50 @nosave 1]
 |
 |
 |

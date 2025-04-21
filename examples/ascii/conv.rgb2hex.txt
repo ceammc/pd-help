@@ -1,10 +1,10 @@
 
 
-[ui.hsl]
+[ui.hsl @show_value 1]
 |
-|       [ui.hsl]
+|       [ui.hsl @show_value 1]
 |       |
-|       |      [ui.hsl]
+|       |      [ui.hsl @show_value 1]
 |       |.     |..
 [rgb->hex @sync @float]
 |

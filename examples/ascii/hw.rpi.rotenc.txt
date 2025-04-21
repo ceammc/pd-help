@@ -1,0 +1,17 @@
+
+
+[@step 0.5 #a(
+
+  [B]  [set 50( [reset(
+  |    |        |
+[hw.rpi.rotenc @dt 22 @clk 23 @btn 27 #x]
+|                         ^|
+|                         [route btn dir ]
+|                         |             ^|
+[F digit=4]               [T]          [F]
+
+
+[ui.link @url=ceammc://img/conn_rotenc.png @title='Connection_scheme']
+[X a->x]
+
+            

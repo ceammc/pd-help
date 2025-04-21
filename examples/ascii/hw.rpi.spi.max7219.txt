@@ -1,0 +1,33 @@
+
+
+/*#7-segment only*/       /*#both*/     [clear #a(   [get matrix(
+                                                     |
+[F]                       [T]           [T]          [ui.matrix 8 8 #o]
+|                         |             |
+[write int $1 #b(         [power $1 #e( [test $1 #f 0(
+
+[write float -10.25 3 #c( [write reg 2 15 0 #h(
+
+[write hex 355 #d(        [write bytes -1 255 0 255 #g(
+
+[write str DSP 0 left #j(      [F min=0 max=15]      [route matrix #p0]
+                               |                     |
+[write str DSP 255 center #k(  [intensity $1 #m(     [msg write matrix #p]
+
+[write str DSP 1 right #l(     /*matrix only*/
+
+                               [font FONT_4x6, text 1 6 Ð¦Ð­ÐÐ, get matrix(
+                               |
+                               [bitmap 32 8]
+                               |
+                               [msg write #q]
+
+
+
+[hw.rpi.spi.max7219 4 #x]
+[X a->x] [X b->x] [X c->x] [X d->x] [X e->x] [X f->x]  [X g->x] [X h->x]
+[X j->x] [X k->x] [X l->x] [X m->x] [X o->p0] [X p->x]
+[X q->x]
+[hw.rpi.spi.max7219-spi]
+
+            

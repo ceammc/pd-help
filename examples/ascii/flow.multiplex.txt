@@ -1,15 +1,17 @@
 
 
-[hradio]             [flow.multiplex.bang]
+[ui.hrd #a]          [flow.multiplex-bang]
 |
-[prop.set @index]    [flow.multiplex.list]
+[prop.set @index]    [flow.multiplex-list]
 |
-|                    [flow.multiplex.any]
+|                    [flow.multiplex-any]
 |
-| [F]  [F]  [F]  [F]  /*select*/
+| [F]  [F]  [F]  [ui.hrd #a]
 | |    |.   |..  |...
 [flow.multiplex 3   ]
 |
 [F]
+
+#a @nitems 4 @label select
 
             

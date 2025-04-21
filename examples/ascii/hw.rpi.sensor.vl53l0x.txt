@@ -1,0 +1,16 @@
+
+
+[T]
+|
+[poll $1(
+|
+|  [B]
+|  |
+[hw.rpi.sensor.vl53l0x @i2c_bus default]
+|
+[print]
+
+
+[ui.link @url=ceammc://img/conn_vl53l0x.png @title=Connection_Scheme]
+
+            

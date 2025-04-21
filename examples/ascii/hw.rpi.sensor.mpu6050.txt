@@ -1,0 +1,31 @@
+
+
+[T]
+|
+[poll $1(
+|
+|
+[hw.rpi.sensor.mpu6050 @i2c_bus default]
+|
+[route ypr gyro accel temp {w=30} #r]
+|
+|
+|
+|      [ui.dt #g]    [ui.dt #a]    [ui.dt #t]
+|
+| [unpack f f f {w=45} #u]
+|
+| [F label=yaw #y] [F label=pitch #p] [F label=roll #x]
+|
+|
+[print YPR]
+
+
+[ui.link @url=ceammc://img/conn_mpu6050.png @title=Connection_Scheme]
+
+[X r:3->t] [X r->u] [X u->y] [X u:1->p] [X u:2->x] [X r:1->g] [X r:2->a]
+#g @label Gyro
+#a @label Accel
+#t @label tÂº
+
+            

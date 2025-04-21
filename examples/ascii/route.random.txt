@@ -16,6 +16,6 @@
 |
 [ui.dt]
 
-[route.random.chord]
+[route.random-chord]
 
             

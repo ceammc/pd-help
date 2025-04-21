@@ -1,0 +1,16 @@
+
+
+[T]
+|
+[poll $1(
+|
+|  [B]
+|  |
+[hw.rpi.sensor.dht11 @pin 17]
+|
+[print]
+
+
+[ui.link @url=ceammc://img/conn_dht11.png @title=Connection_Scheme]
+
+            

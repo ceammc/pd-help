@@ -1,0 +1,24 @@
+
+
+[connect SECRET #a(  [scene list #d(        [collection list #h(
+
+ [disconnect #b(     [scene current get #e( [collection current get #i(
+
+ [info #c(           [scene next #f(        [S digits=15]
+                                            |
+  [monitor list #k(  [scene prev #g(        [collection current set $1 #j(
+
+                     [scene first #l(
+
+                     [scene last #m(
+
+[proto.obs #z]
+|
+[print OBS]
+
+[X a->z] [X b->z] [X c->z]
+[X d->z] [X e->z] [X f->z] [X g->z]
+[X h->z] [X i->z] [X j->z] [X k->z]
+[X l->z] [X m->z]
+
+            

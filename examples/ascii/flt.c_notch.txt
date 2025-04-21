@@ -13,6 +13,6 @@
 
 
 
-[flt.c_notch.plot]
+[flt.c_notch-plot]
 
             

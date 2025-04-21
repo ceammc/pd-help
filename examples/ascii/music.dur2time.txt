@@ -6,7 +6,7 @@
 |    |
 |    [@seq $1(
 |    |
-[music.d->t @bpm 60 1 @seq 0]
+[music.d->t @bpm 120|4bpm @seq 0]
 |
 [ui.dt]
 

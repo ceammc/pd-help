@@ -8,7 +8,7 @@
 |
 [ui.dt]
 
-[flow.change.repeats]
+[flow.change-repeats]
 
 [X a->z]
 [X b->z]

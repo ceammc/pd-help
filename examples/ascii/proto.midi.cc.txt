@@ -1,7 +1,7 @@
 
 
-[proto.midi.cc.pan]
+[proto.midi.cc-pan]
 
-[proto.midi.cc.vol]
+[proto.midi.cc-vol]
 
             

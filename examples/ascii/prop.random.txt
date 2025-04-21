@@ -12,8 +12,8 @@
 |\
 [dac~]
 
-[prop.random.1]   [prop.random.2]
+[prop.random-1]   [prop.random-2]
 
-[prop.random.3]
+[prop.random-3]
 
             

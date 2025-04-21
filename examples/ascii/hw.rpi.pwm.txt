@@ -1,0 +1,29 @@
+
+
+[T]
+|
+[enable $1 #a(
+
+
+  [ui.hsl #b]        [ui.hsl #d]
+  |                  |
+  [freq $1 0.5 #c(   [pwm 20 $1 #e(
+
+
+[hw.rpi.pwm @pwm_ch 0 #x]
+
+
+[T]                  [ui.hsl #f]
+|                    |
+[enable $1 #a(       [pwm 20 $1 #g(
+|
+|
+[hw.rpi.pwm @pwm_ch 1 #y]
+
+[ui.link @url=ceammc://img/conn_pwm.png @title='Connection_scheme']
+[X a->x] [X c->x] [X e->x] [X g->y]
+#b @show_value 1 @min 50 @max 500
+#d @show_value 1 @min 0 @max 20
+#f @show_value 1 @min 1 @max 2
+
+            

@@ -1,0 +1,22 @@
+
+
+[bang #a(  [1 2 3 4 #d(  [L]
+                         |
+ [12.3 #b( [msg A 2 #e(  [msg #g]
+
+   [symbol ABC #c(
+
+ [1 2(     [msg A B 1 2 #f(
+ |
+[msg.unpack 3 #x]
+|
+[ui.dt #k]
+
+     [ui.dt #l]
+
+          [ui.dt #m]
+
+[X a->x] [X b->x] [X c->x] [X d->x] [X g->x]
+[X x:1->l] [X x:2->m] [X e->x] [X f->x]
+
+            

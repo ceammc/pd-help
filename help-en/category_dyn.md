@@ -41,6 +41,6 @@ _aliases:_ \[comp.up\~\]
 [**dyn.softclip\~**](dyn.softclip~.html): soft signal clip 
 
 
-**Version:** 0.9.7
+**Version:** 0.9.8
 
 **License:** GPL3

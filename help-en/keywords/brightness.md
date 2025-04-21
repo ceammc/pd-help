@@ -5,6 +5,7 @@
 
 ### Objects:
 * [hw.display](../hw.display.html)
+* [hw.printer](../hw.printer.html)
 
 ---
 **Website:** [https://github.com/uliss/pure-data](https://github.com/uliss/pure-data)

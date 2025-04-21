@@ -20,11 +20,11 @@
 
 ## аргументы:
 
-* **min**
+* **MIN**
 min value<br>
 _тип:_ float<br>
 
-* **max**
+* **MAX**
 max value<br>
 _тип:_ float<br>
 

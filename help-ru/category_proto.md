@@ -36,6 +36,8 @@ _псевдонимы:_ \[ltc.out~\]
 
 [**proto.mpv**](proto.mpv.html): mpv video player control 
 
+[**proto.obs**](proto.obs.html): WebSocket клиент для управления OBS studio 
+
 [**proto.sp.alpaca**](proto.sp.alpaca.html): protocol parser for Arduino-based CEAMMC footswitch 
 
 [**proto.vlc**](proto.vlc.html): VLC video player control over HTTP 
@@ -45,6 +47,6 @@ _псевдонимы:_ \[ltc.out~\]
 [**proto.xtouch_ext**](proto.xtouch_ext.html): Behringer XTouch Extender XMidi protocol 
 
 
-**Версия:** 0.9.7
+**Версия:** 0.9.8
 
 **Лицензия:** GPL3

@@ -35,24 +35,10 @@ set alpha channel value<br>
     type: float <br>
     required: True <br>
 
-* **alpha**
-set alpha channel<br>
-  __parameters:__
-  - **ALPHA** alpha value<br>
-    type: float <br>
-    required: True <br>
-
 * **blue**
 set blue channel value<br>
   __parameters:__
   - **BLUE** value<br>
-    type: float <br>
-    required: True <br>
-
-* **blue**
-set blue channel<br>
-  __parameters:__
-  - **BLUE** blue value<br>
     type: float <br>
     required: True <br>
 
@@ -90,13 +76,6 @@ convert color to grayscale<br>
 set green channel value<br>
   __parameters:__
   - **GREEN** value<br>
-    type: float <br>
-    required: True <br>
-
-* **green**
-set green channel<br>
-  __parameters:__
-  - **GREEN** green value<br>
     type: float <br>
     required: True <br>
 
@@ -179,13 +158,6 @@ set color in OkLab colorspace<br>
 set red channel value<br>
   __parameters:__
   - **RED** value<br>
-    type: float <br>
-    required: True <br>
-
-* **red**
-set red channel<br>
-  __parameters:__
-  - **RED** red value<br>
     type: float <br>
     required: True <br>
 

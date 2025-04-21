@@ -4,9 +4,11 @@
 ## Ключевое слово: system
 
 ### Объекты:
+* [system.command](../system.command.html)
 * [system.exec](../system.exec.html)
 * [system.getenv](../system.getenv.html)
 * [system.hostname](../system.hostname.html)
+* [system.info](../system.info.html)
 * [system.memsize](../system.memsize.html)
 * [system.memused](../system.memused.html)
 

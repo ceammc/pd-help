@@ -91,6 +91,14 @@ stores specified preset<br>
 
 ## properties:
 
+* **@bind_x** 
+Get/set MIDI/keyboard bind expression for x-axis movement<br>
+_type:_ list<br>
+
+* **@bind_y** 
+Get/set MIDI/keyboard bind expression for y-axis movement<br>
+_type:_ list<br>
+
 * **@x_left** 
 Get/set leftmost x-value<br>
 _type:_ float<br>

@@ -192,7 +192,7 @@ _по умолчанию:_ roman<br>
 * **@midi_channel** 
 Запросить/установить binded MIDI channel. 0 means listen to all channels<br>
 _тип:_ int<br>
-_диапазон:_ 0..16<br>
+_диапазон:_ 0..255<br>
 _по умолчанию:_ 0<br>
 
 * **@midi_control** 

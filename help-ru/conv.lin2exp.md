@@ -70,19 +70,19 @@ _по умолчанию:_ minmax<br>
 
 * **@noclip** 
 Запросить/установить alias to @clip noclip<br>
-_тип:_ symbol<br>
+_тип:_ alias<br>
 
 * **@min** 
 Запросить/установить alias to @clip min<br>
-_тип:_ symbol<br>
+_тип:_ alias<br>
 
 * **@max** 
 Запросить/установить alias to @clip max<br>
-_тип:_ symbol<br>
+_тип:_ alias<br>
 
 * **@minmax** 
 Запросить/установить alias to @clip minmax<br>
-_тип:_ symbol<br>
+_тип:_ alias<br>
 
 
 

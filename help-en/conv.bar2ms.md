@@ -24,7 +24,7 @@ Example tempo values: 60, 120bpm, 90|4bpm, 80|3/8bpm Example time signature valu
 
 * **BPM**
 init tempo BPM value<br>
-_type:_ symbol<br>
+_type:_ atom<br>
 _units:_ bpm<br>
 
 * **TSIG**
@@ -39,7 +39,7 @@ _type:_ symbol<br>
 
 * **@bpm** 
 Get/set tempo bpm value<br>
-_type:_ symbol<br>
+_type:_ atom<br>
 _units:_ bpm<br>
 _default:_ 60|4bpm<br>
 

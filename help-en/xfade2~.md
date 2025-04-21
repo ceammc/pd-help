@@ -23,7 +23,7 @@ control float value in range [0-1) controls xfade between first and second signa
 ## arguments:
 
 * **N**
-number of signal inputs (multiplied 2)<br>
+number of signal inputs stereo pairs<br>
 _type:_ int<br>
 
 * **X**
@@ -60,8 +60,13 @@ _type:_ alias<br>
 * **@x** 
 Get/set crossfade property. Valid value in [0..N-1] range.<br>
 _type:_ float<br>
-_range:_ 0..1<br>
 _default:_ 0<br>
+
+* **@n** (initonly)
+Get/set number of xfade inputs stereo pairs<br>
+_type:_ int<br>
+_range:_ 2..16<br>
+_default:_ 2<br>
 
 
 

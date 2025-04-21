@@ -18,25 +18,25 @@ _псевдонимы:_ \[ceammc/prop\]
 _псевдонимы:_ \[p.get\]
 
 
-[**prop.get~**](prop.get~.html): Property extractor from sound stream <br>
-_псевдонимы:_ \[prop~&gt;\], \[@~&gt;\], \[ceammc/prop~&gt;\], \[ceammc/@~&gt;\]
-
-
 [**prop.join**](prop.join.html): join property to main data flow <br>
 _псевдонимы:_ \[prop&lt;-\]
 
 
 [**prop.random**](prop.random.html): property randomizer 
 
+[**prop.route**](prop.route.html): separate properties from dataflow <br>
+_псевдонимы:_ \[prop-&gt;\], \[@-&gt;\], \[ceammc/prop-&gt;\], \[ceammc/@-&gt;\], \[prop.split\]
+
+
+[**prop.route~**](prop.route~.html): Property extractor from audio streams <br>
+_псевдонимы:_ \[prop~&gt;\], \[@~&gt;\], \[ceammc/prop~&gt;\], \[ceammc/@~&gt;\], \[prop.get~\]
+
+
 [**prop.set**](prop.set.html): set property for connected object/subpatch/abstraction <br>
 _псевдонимы:_ \[p.set\]
 
 
-[**prop.split**](prop.split.html): separate properties from dataflow <br>
-_псевдонимы:_ \[prop-&gt;\], \[@-&gt;\], \[ceammc/prop-&gt;\], \[ceammc/@-&gt;\]
 
-
-
-**Версия:** 0.9.7
+**Версия:** 0.9.8
 
 **Лицензия:** GPL3

@@ -85,6 +85,6 @@ _псевдонимы:_ \[fx.secho~\]
 [**fx.zita_rev1~**](fx.zita_rev1~.html): Zita stereo reverb 
 
 
-**Версия:** 0.9.7
+**Версия:** 0.9.8
 
 **Лицензия:** GPL3

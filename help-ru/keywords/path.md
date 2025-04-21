@@ -5,6 +5,7 @@
 
 ### Объекты:
 * [canvas.path](../canvas.path.html)
+* [data.path](../data.path.html)
 * [file.size](../file.size.html)
 * [path.basename](../path.basename.html)
 * [path.dirname](../path.dirname.html)

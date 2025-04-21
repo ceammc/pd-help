@@ -11,6 +11,6 @@
 [**snd.play~**](snd.play~.html): Sound file player on steriods 
 
 
-**Версия:** 0.9.7
+**Версия:** 0.9.8
 
 **Лицензия:** GPL3

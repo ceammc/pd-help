@@ -20,7 +20,7 @@
 
 * **SUBJ**
 right set elements<br>
-_тип:_ any<br>
+_тип:_ list<br>
 
 
 

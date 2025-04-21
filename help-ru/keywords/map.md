@@ -7,6 +7,7 @@
 * [chaos.std0](../chaos.std0.html)
 * [chaos.std0~](../chaos.std0~.html)
 * [data.bimap](../data.bimap.html)
+* [data.path](../data.path.html)
 * [flow.list2many](../flow.list2many.html)
 * [global.bimap](../global.bimap.html)
 * [hoa.2d.map~](../hoa.2d.map~.html)

@@ -58,6 +58,10 @@ _псевдонимы:_ \[flow.&gt;=\]
 _псевдонимы:_ \[ceammc/group\], \[group\]
 
 
+[**flow.histogram**](flow.histogram.html): гисторамма для числового потока управления <br>
+_псевдонимы:_ \[flow.hist\]
+
+
 [**flow.interval**](flow.interval.html): measure time between flow events 
 
 [**flow.less**](flow.less.html): numeric stream router, like many [moses] <br>
@@ -170,6 +174,10 @@ _псевдонимы:_ \[route.b\]
 
 [**route.cycle**](route.cycle.html): cyclic message router 
 
+[**route.data**](route.data.html): separate any messages from bangs, floats, symbols and lists <br>
+_псевдонимы:_ \[route.d\]
+
+
 [**route.float**](route.float.html): separate float messages from other types <br>
 _псевдонимы:_ \[route.f\]
 
@@ -189,6 +197,6 @@ _псевдонимы:_ \[route.s\]
 
 
 
-**Версия:** 0.9.7
+**Версия:** 0.9.8
 
 **Лицензия:** GPL3

@@ -53,6 +53,6 @@
 [**noise.white~**](noise.white~.html): White noise generator 
 
 
-**Версия:** 0.9.7
+**Версия:** 0.9.8
 
 **Лицензия:** GPL3

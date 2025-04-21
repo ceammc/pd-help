@@ -6,7 +6,6 @@
 ### Объекты:
 * [hw.apple_smc](../hw.apple_smc.html)
 * [hw.apple_sms](../hw.apple_sms.html)
-* [hw.cpu_temp](../hw.cpu_temp.html)
 
 ---
 **Сайт:** [https://github.com/uliss/pure-data](https://github.com/uliss/pure-data)

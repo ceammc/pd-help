@@ -139,13 +139,13 @@ adds vertical bee-hive<br>
 * **@rows** 
 Get/set number of rows<br>
 _type:_ int<br>
-_range:_ 1..32<br>
+_range:_ 1..64<br>
 _default:_ 16<br>
 
 * **@cols** 
 Get/set number of columns<br>
 _type:_ int<br>
-_range:_ 1..32<br>
+_range:_ 1..64<br>
 _default:_ 16<br>
 
 * **@size** (readonly)
@@ -164,7 +164,7 @@ _type:_ control
 
 ## outlets:
 
-* list: pitch vel<br>
+* list of all cells in row by row order<br>
 _type:_ control
 
 

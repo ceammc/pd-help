@@ -15,6 +15,7 @@
 * [data.int](../data.int.html)
 * [data.list](../data.list.html)
 * [data.mlist](../data.mlist.html)
+* [data.path](../data.path.html)
 * [data.set](../data.set.html)
 * [data.set2list](../data.set2list.html)
 * [global.bimap](../global.bimap.html)

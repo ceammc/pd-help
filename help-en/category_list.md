@@ -52,7 +52,9 @@ _aliases:_ \[list.conv\]
 
 [**list.gen**](list.gen.html): generates list of specified length via external generator 
 
-[**list.histogram**](list.histogram.html): outputs distribution histogram 
+[**list.histogram**](list.histogram.html): outputs distribution histogram <br>
+_aliases:_ \[list.hist\]
+
 
 [**list.insert**](list.insert.html): insert atom or list to the specified position of input list 
 
@@ -173,6 +175,6 @@ _aliases:_ \[list.interleave\]
 
 
 
-**Version:** 0.9.7
+**Version:** 0.9.8
 
 **License:** GPL3

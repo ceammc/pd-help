@@ -11,33 +11,28 @@
 
 
 ## информация
-With spaces, text-align, font customization and word wrap
+Label object with spaces, text-align, font customization and word-wrap
 
 
 [![example](../examples/img/ui.label.jpg)](../examples/pd/ui.label.pd)
 
 
 
+## аргументы:
+
+* **TEXT**
+label text<br>
+_тип:_ list<br>
+
 
 
 ## методы:
-
-* **any**
-set label text to given message separated by spaces, but do not change @text
-property<br>
 
 * **append**
 appends to @text end<br>
 
 * **clear**
 clear label text and clear @text property<br>
-
-* **float**
-set label text to given float, but do not change @text property<br>
-
-* **list**
-set label text to given list separated by spaces, but do not change @text
-property<br>
 
 * **pos**
 set UI element position<br>
@@ -53,12 +48,6 @@ set UI element position<br>
 * **prepend**
 insert into beginning of @text<br>
 
-* **set**
-set label text and update @text property, so it would be saved in patch<br>
-
-* **symbol**
-set label text to given symbol, but do not change @text property<br>
-
 
 
 
@@ -66,7 +55,7 @@ set label text to given symbol, but do not change @text property<br>
 
 * **@text** 
 Запросить/установить label text<br>
-_тип:_ symbol<br>
+_тип:_ list<br>
 _по умолчанию:_ Label<br>
 
 * **@align** 
@@ -145,6 +134,11 @@ _варианты:_ roman, italic<br>
 _по умолчанию:_ roman<br>
 
 
+
+## входы:
+
+* [hidden inlet] set the label text to the given float without changing @text property<br>
+_тип:_ control
 
 
 

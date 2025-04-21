@@ -39,9 +39,22 @@ subtract from float, no output<br>
 
 * **/**
 divide by, no output<br>
+  __parameters:__
+  - **[DIV]** divider value<br>
+    type: float <br>
+
+* **get**
+get the value of global float variable (not only for connected object)<br>
+  __parameters:__
+  - **[NAME]** requested variable name. If ommitted: request the value from the current connected object, if specified: output value from found global variable<br>
+    type: symbol <br>
 
 * **set**
 sets new value without output<br>
+  __parameters:__
+  - **VALUE** new value<br>
+    type: float <br>
+    required: True <br>
 
 
 

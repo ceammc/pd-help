@@ -194,7 +194,7 @@ _default:_ roman<br>
 * **@midi_channel** 
 Get/set binded MIDI channel. 0 means listen to all channels<br>
 _type:_ int<br>
-_range:_ 0..16<br>
+_range:_ 0..255<br>
 _default:_ 0<br>
 
 * **@midi_control** 

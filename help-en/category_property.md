@@ -18,25 +18,25 @@ _aliases:_ \[ceammc/prop\]
 _aliases:_ \[p.get\]
 
 
-[**prop.get\~**](prop.get~.html): Property extractor from sound stream <br>
-_aliases:_ \[prop\~&gt;\], \[@\~&gt;\], \[ceammc/prop\~&gt;\], \[ceammc/@\~&gt;\]
-
-
 [**prop.join**](prop.join.html): join property to main data flow <br>
 _aliases:_ \[prop&lt;-\]
 
 
 [**prop.random**](prop.random.html): property randomizer 
 
+[**prop.route**](prop.route.html): separate properties from dataflow <br>
+_aliases:_ \[prop-&gt;\], \[@-&gt;\], \[ceammc/prop-&gt;\], \[ceammc/@-&gt;\], \[prop.split\]
+
+
+[**prop.route\~**](prop.route~.html): Property extractor from audio streams <br>
+_aliases:_ \[prop\~&gt;\], \[@\~&gt;\], \[ceammc/prop\~&gt;\], \[ceammc/@\~&gt;\], \[prop.get\~\]
+
+
 [**prop.set**](prop.set.html): set property for connected object/subpatch/abstraction <br>
 _aliases:_ \[p.set\]
 
 
-[**prop.split**](prop.split.html): separate properties from dataflow <br>
-_aliases:_ \[prop-&gt;\], \[@-&gt;\], \[ceammc/prop-&gt;\], \[ceammc/@-&gt;\]
 
-
-
-**Version:** 0.9.7
+**Version:** 0.9.8
 
 **License:** GPL3

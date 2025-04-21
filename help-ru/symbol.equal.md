@@ -16,9 +16,21 @@
 
 
 
+## аргументы:
+
+* **CMP**
+compare symbol<br>
+_тип:_ symbol<br>
 
 
 
+
+
+## свойства:
+
+* **@cmp** 
+Запросить/установить symbol to compare with<br>
+_тип:_ symbol<br>
 
 
 

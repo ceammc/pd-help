@@ -41,7 +41,7 @@ _по умолчанию:_ 0<br>
 * **@len** 
 Запросить/установить substring length. If equal to -1, substring to the end of string<br>
 _тип:_ int<br>
-_минимальное значение:_ 0<br>
+_минимальное значение:_ -1<br>
 _по умолчанию:_ -1<br>
 
 

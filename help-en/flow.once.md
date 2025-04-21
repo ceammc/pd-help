@@ -20,13 +20,20 @@
 
 ## arguments:
 
-* **OPENED**
+* **PASS**
 set init state<br>
-_type:_ int<br>
+_type:_ bool<br>
 
 
 
 
+
+## properties:
+
+* **@pass** 
+Get/set open state<br>
+_type:_ bool<br>
+_default:_ 1<br>
 
 
 

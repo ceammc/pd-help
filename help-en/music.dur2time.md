@@ -28,7 +28,7 @@ duration can be specified - by denominator: 1 (whole), 2_. (dotted half), 8 (eig
 
 * **@bpm** 
 Get/set tempo<br>
-_type:_ symbol<br>
+_type:_ atom<br>
 _units:_ bpm<br>
 _default:_ 60|4bpm<br>
 

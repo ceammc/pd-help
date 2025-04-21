@@ -22,6 +22,7 @@
 * [conv.dbfs2amp~](../conv.dbfs2amp~.html)
 * [conv.degree2key](../conv.degree2key.html)
 * [conv.edge2bang](../conv.edge2bang.html)
+* [conv.guido2note](../conv.guido2note.html)
 * [conv.hex2int](../conv.hex2int.html)
 * [conv.hsl2rgb](../conv.hsl2rgb.html)
 * [conv.int2bits](../conv.int2bits.html)

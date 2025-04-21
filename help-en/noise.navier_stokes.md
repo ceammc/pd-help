@@ -90,13 +90,6 @@ _type:_ float<br>
     type: int <br>
     required: True <br>
 
-* **om**
-<br>
-  __parameters:__
-  - **OM** enables output when cut or fold value is changed<br>
-    type: int <br>
-    required: True <br>
-
 * **r**
 <br>
   __parameters:__

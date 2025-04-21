@@ -13,7 +13,7 @@
 
 
 ## information
-[ui.dt] is alias for [ui.display @display_type 1]
+[ui.dt] is the alias for [ui.display @display_type 1]
 
 
 [![example](../examples/img/ui.display.jpg)](../examples/pd/ui.display.pd)

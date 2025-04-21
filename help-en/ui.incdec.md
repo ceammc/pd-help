@@ -73,6 +73,14 @@ stores specified preset<br>
 
 ## properties:
 
+* **@bind_up** 
+Get/set MIDI/keyboard bind expression for up action<br>
+_type:_ list<br>
+
+* **@bind_down** 
+Get/set MIDI/keyboard bind expression for down action<br>
+_type:_ list<br>
+
 * **@min** 
 Get/set minimum inc value<br>
 _type:_ float<br>

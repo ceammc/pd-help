@@ -22,11 +22,11 @@
 
 ## arguments:
 
-* **min**
+* **MIN**
 min value<br>
 _type:_ float<br>
 
-* **max**
+* **MAX**
 max value<br>
 _type:_ float<br>
 

@@ -5,11 +5,17 @@
 
 ### Объекты:
 * [net.artnet.send](../net.artnet.send.html)
+* [net.freesound](../net.freesound.html)
 * [net.host2ip](../net.host2ip.html)
+* [net.http.client](../net.http.client.html)
 * [net.http.send](../net.http.send.html)
+* [net.mdns](../net.mdns.html)
+* [net.mqtt.client](../net.mqtt.client.html)
 * [net.osc.receive](../net.osc.receive.html)
 * [net.osc.send](../net.osc.send.html)
 * [net.osc.server](../net.osc.server.html)
+* [net.ws.client](../net.ws.client.html)
+* [net.ws.server](../net.ws.server.html)
 
 ---
 **Сайт:** [https://github.com/uliss/pure-data](https://github.com/uliss/pure-data)

@@ -4,6 +4,7 @@
 ## Keyword: range
 
 ### Objects:
+* [hw.rpi.sensor.sr04](../hw.rpi.sensor.sr04.html)
 * [list.range](../list.range.html)
 * [ui.rslider](../ui.rslider.html)
 

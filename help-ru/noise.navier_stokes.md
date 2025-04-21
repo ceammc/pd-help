@@ -90,13 +90,6 @@ _тип:_ float<br>
     тип: int <br>
     обязательно: True <br>
 
-* **om**
-<br>
-  __параметры:__
-  - **OM** enables output when cut or fold value is changed<br>
-    тип: int <br>
-    обязательно: True <br>
-
 * **r**
 <br>
   __параметры:__

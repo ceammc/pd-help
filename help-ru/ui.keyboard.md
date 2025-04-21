@@ -20,7 +20,7 @@ Piano keyboard widget [ui.vkeyboard] and [ui.vk] - aliases for vertical keyboard
 
 ## аргументы:
 
-* **NKEYS**
+* **KEYS**
 number of keys<br>
 _тип:_ int<br>
 

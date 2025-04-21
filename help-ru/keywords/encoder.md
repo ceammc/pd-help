@@ -6,6 +6,7 @@
 ### Объекты:
 * [hoa.2d.encoder~](../hoa.2d.encoder~.html)
 * [hoa.3d.encoder~](../hoa.3d.encoder~.html)
+* [hw.rpi.rotenc](../hw.rpi.rotenc.html)
 
 ---
 **Сайт:** [https://github.com/uliss/pure-data](https://github.com/uliss/pure-data)

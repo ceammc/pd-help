@@ -37,16 +37,6 @@ draw char at specified position<br>
   - **[XOFF]** horizontal character offset<br>
     type: int <br>
 
-* **char**
-draw char at specified position<br>
-  __parameters:__
-  - **CH** char symbol or int value from 0 to 9<br>
-    type: atom <br>
-    required: True <br>
-
-  - **[XOFF]** horizontal character offset<br>
-    type: int <br>
-
 * **clear**
 clear LED display<br>
 

@@ -99,6 +99,6 @@ _псевдонимы:_ \[ceammc/pole-&gt;biquad\], \[pole-&gt;biquad\]
 [**flt.speaker~**](flt.speaker~.html): speaker emulation band-pass filter 
 
 
-**Версия:** 0.9.7
+**Версия:** 0.9.8
 
 **Лицензия:** GPL3

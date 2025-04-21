@@ -22,7 +22,7 @@ Example tempo values: 60, 120bpm, 90|4bpm, 80|3/8bpm Example time signature valu
 
 * **BPM**
 init tempo BPM value<br>
-_тип:_ symbol<br>
+_тип:_ atom<br>
 _единица:_ bpm<br>
 
 * **TSIG**
@@ -37,7 +37,7 @@ _тип:_ symbol<br>
 
 * **@bpm** 
 Запросить/установить tempo bpm value<br>
-_тип:_ symbol<br>
+_тип:_ atom<br>
 _единица:_ bpm<br>
 _по умолчанию:_ 60|4bpm<br>
 

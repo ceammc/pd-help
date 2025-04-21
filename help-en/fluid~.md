@@ -309,6 +309,20 @@ select tuning bank and preset<br>
     type: int <br>
     required: True <br>
 
+* **set_preset**
+set soundfont preset for midi channel<br>
+  __parameters:__
+  - **CHAN** MIDI channel<br>
+    type: int <br>
+    required: True <br>
+
+  - **PRESET** preset name or index<br>
+    type: atom <br>
+    required: True <br>
+
+  - **[SFONT]** soundfont index. See @soundfonts property.<br>
+    type: int <br>
+
 
 
 
@@ -317,6 +331,7 @@ select tuning bank and preset<br>
 * **@sf** 
 Get/set soundfont path, you can use **default** value to load default soundfont<br>
 _type:_ symbol<br>
+_default:_ default<br>
 
 * **@version** (readonly)
 Get FluidSynth version<br>
@@ -337,7 +352,7 @@ _default:_ 0<br>
 Get/set output volume (same as @gain but in db)<br>
 _type:_ float<br>
 _units:_ db<br>
-_range:_ -60..10<br>
+_range:_ -60..20<br>
 _default:_ 0<br>
 
 * **@reverb_level** 
@@ -386,6 +401,10 @@ Get internal buffer size<br>
 _type:_ float<br>
 _units:_ samp<br>
 _default:_ 0<br>
+
+* **@presets** (readonly)
+Get presets name for current soundfont<br>
+_type:_ list<br>
 
 
 

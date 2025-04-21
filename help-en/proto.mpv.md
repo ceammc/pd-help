@@ -78,7 +78,7 @@ exit the player<br>
 * **seek**
 change the playback position. By default, seeks by a relative amount of seconds<br>
   __parameters:__
-  - **[time]** *rel*: relative (default), seek relative to current position (a negative value seeks backwards). *abs*: absolute, seek to a given time (a negative value starts from the end of the file). *percent* or *%*: seek to a given percent position.<br>
+  - **[time]** *rel*: relative (default), seek relative to current position (a negative value seeks backwards). *abs*: absolute, seek to a given time (a negative value starts from the end of the file). *perc*: seek to a given percent position.<br>
     type: symbol <br>
 
 * **stop**

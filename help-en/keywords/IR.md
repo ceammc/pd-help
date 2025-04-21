@@ -1,10 +1,10 @@
 [index](../index.html)
 ---
 
-## Keyword: IR
+## Keyword: ir
 
 ### Objects:
-* [convolve~](../convolve~.html)
+* [hw.rpi.sensor.ir](../hw.rpi.sensor.ir.html)
 
 ---
 **Website:** [https://github.com/uliss/pure-data](https://github.com/uliss/pure-data)

@@ -669,6 +669,11 @@ _type:_ control
 
 
 
+## outlets:
+
+* message: mouse ACTION(down|up|drag) X Y MOD_CTL MOD_ALT MOD_SHIFT MOD_CMD<br>
+_type:_ control
+
 
 
 ## keywords:

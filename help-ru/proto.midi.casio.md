@@ -78,13 +78,6 @@ set chorus feedback level<br>
     тип: float <br>
     обязательно: True <br>
 
-* **chorus_send**
-set chorus send level<br>
-  __параметры:__
-  - **AMOUNT** level<br>
-    тип: float <br>
-    обязательно: True <br>
-
 * **chorus_depth**
 set chorus depth<br>
   __параметры:__

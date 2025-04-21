@@ -5,6 +5,7 @@
 
 ### Объекты:
 * [data.bimap](../data.bimap.html)
+* [data.path](../data.path.html)
 * [global.bimap](../global.bimap.html)
 * [local.bimap](../local.bimap.html)
 

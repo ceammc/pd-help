@@ -20,7 +20,7 @@
 
 * **TEMPO**
 tempo in beats per minute<br>
-_type:_ symbol<br>
+_type:_ atom<br>
 _units:_ bpm<br>
 
 * **TSIG**
@@ -43,6 +43,9 @@ manually play offbeat sound<br>
 * **mark**
 manually play mark sound<br>
 
+* **reset**
+reset metro to the beginning<br>
+
 
 
 
@@ -50,7 +53,7 @@ manually play mark sound<br>
 
 * **@tempo** 
 Get/set tempo. If beat division is ommitted, using 1/4<br>
-_type:_ symbol<br>
+_type:_ atom<br>
 _units:_ bpm<br>
 _default:_ 60|4bpm<br>
 

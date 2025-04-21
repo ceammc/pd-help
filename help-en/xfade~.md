@@ -60,8 +60,13 @@ _type:_ alias<br>
 * **@x** 
 Get/set crossfade property. Valid value in [0..N-1] range.<br>
 _type:_ float<br>
-_range:_ 0..1<br>
 _default:_ 0<br>
+
+* **@n** (initonly)
+Get/set number of xfade inputs<br>
+_type:_ int<br>
+_range:_ 2..16<br>
+_default:_ 2<br>
 
 
 

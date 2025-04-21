@@ -16,9 +16,21 @@
 
 
 
+## arguments:
+
+* **CMP**
+compare symbol<br>
+_type:_ symbol<br>
 
 
 
+
+
+## properties:
+
+* **@cmp** 
+Get/set symbol to compare with<br>
+_type:_ symbol<br>
 
 
 

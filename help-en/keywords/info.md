@@ -4,6 +4,7 @@
 ## Keyword: info
 
 ### Objects:
+* [system.info](../system.info.html)
 * [system.screen_size](../system.screen_size.html)
 
 ---

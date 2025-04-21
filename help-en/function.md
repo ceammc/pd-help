@@ -28,13 +28,19 @@ _type:_ symbol<br>
 
 
 
+## properties:
+
+* **@name** (initonly)
+Get/set function name, should be unique and non-empty<br>
+_type:_ symbol<br>
+
 
 
 ## inlets:
 
-* input value<br>
+* input values<br>
 _type:_ control
-* value from side-chain<br>
+* value from the side-chain<br>
 _type:_ control
 
 
@@ -43,7 +49,7 @@ _type:_ control
 
 * result value<br>
 _type:_ control
-* value to side-chain<br>
+* value to the side-chain<br>
 _type:_ control
 
 

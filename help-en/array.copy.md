@@ -20,21 +20,21 @@
 
 ## methods:
 
-* **copy**
-copy whole array content<br>
+* **copy . .**
+copy the whole array content<br>
   __parameters:__
-  - **SRC** name of source array<br>
+  - **SRC** the source array<br>
     type: symbol <br>
     required: True <br>
 
-  - **DEST** name of destination array<br>
+  - **DST** the destination array<br>
     type: symbol <br>
     required: True <br>
 
-* **copy**
-copy array content from specified position till end<br>
+* **copy . . .**
+copy the array content from the specified position till the end<br>
   __parameters:__
-  - **SRC** name of source array<br>
+  - **SRC** the source array<br>
     type: symbol <br>
     required: True <br>
 
@@ -42,49 +42,50 @@ copy array content from specified position till end<br>
     type: int <br>
     required: True <br>
 
-  - **DEST** name of destination array<br>
+  - **DEST** the destination array<br>
     type: symbol <br>
     required: True <br>
 
-* **copy**
-copy array content from specified range<br>
+* **copy . . . .**
+copy the array content from the specified range<br>
   __parameters:__
-  - **SRC** name of source array<br>
+  - **SRC** the source array<br>
     type: symbol <br>
     required: True <br>
 
-  - **FROM** source start range<br>
+  - **FROM** the source start range<br>
     type: int <br>
     required: True <br>
 
-  - **TO** source end range<br>
+  - **TO** the source end range<br>
     type: int <br>
     required: True <br>
 
-  - **DEST** name of destination array<br>
+  - **DEST** the destination array<br>
     type: symbol <br>
     required: True <br>
 
-* **copy**
-copy array content from specified range and to specified destination position<br>
+* **copy . . . . .**
+copy the array content from the specified range and to the specified
+destination position<br>
   __parameters:__
-  - **SRC** name of source array<br>
+  - **SRC** the source array<br>
     type: symbol <br>
     required: True <br>
 
-  - **FROM** source start range<br>
+  - **FROM** the source start range<br>
     type: int <br>
     required: True <br>
 
-  - **TO** source end range<br>
+  - **TO** the source end range<br>
     type: int <br>
     required: True <br>
 
-  - **DEST** name of destination array<br>
+  - **DEST** the destination array<br>
     type: symbol <br>
     required: True <br>
 
-  - **DEST_FROM** destination start position<br>
+  - **DEST_FROM** the destination start position<br>
     type: int <br>
     required: True <br>
 
@@ -94,7 +95,7 @@ copy array content from specified range and to specified destination position<br
 ## properties:
 
 * **@resize** 
-Get/set resize of destination array on overflow<br>
+Get/set resizing of destination array on overflow<br>
 _type:_ bool<br>
 _default:_ 0<br>
 
@@ -102,7 +103,7 @@ _default:_ 0<br>
 
 ## inlets:
 
-* FROM, TO - copy data from one array to another<br>
+* FROM TO - copy data from the one array to another<br>
 _type:_ control
 
 

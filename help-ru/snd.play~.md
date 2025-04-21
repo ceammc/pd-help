@@ -32,6 +32,13 @@ _тип:_ symbol<br>
 
 ## методы:
 
+* **open**
+sets @name property<br>
+  __параметры:__
+  - **FILENAME** absolute or relative to patch soundfile name<br>
+    тип: symbol <br>
+    обязательно: True <br>
+
 * **start**
 start playing<br>
   __параметры:__
@@ -126,6 +133,11 @@ can only change speed (without pitch change) only on the next playing cycle<br>
 _тип:_ float<br>
 _диапазон:_ 0.25..4<br>
 _по умолчанию:_ 1<br>
+
+* **@on_err** 
+Запросить/установить the error send destination. For example, if soundfile was not found, the
+message [not_found( will be send to this global name<br>
+_тип:_ symbol<br>
 
 
 

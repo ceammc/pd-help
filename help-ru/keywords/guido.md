@@ -4,6 +4,7 @@
 ## Ключевое слово: guido
 
 ### Объекты:
+* [conv.guido2note](../conv.guido2note.html)
 * [conv.note2guido](../conv.note2guido.html)
 
 ---

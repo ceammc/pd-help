@@ -10,8 +10,6 @@
 ---
 
 
-## информация
-Warning: in v0.9 extra inlet added to select input Set @index property only via [prop.set]
 
 
 [![example](../examples/img/flow.multiplex.jpg)](../examples/pd/flow.multiplex.pd)
@@ -35,7 +33,7 @@ _тип:_ int<br>
 ## свойства:
 
 * **@index** 
-Запросить/установить input index<br>
+Запросить/установить input index, can be set only with [prop.set] object or via rightmost inlet<br>
 _тип:_ int<br>
 _диапазон:_ 0..23<br>
 _по умолчанию:_ 0<br>

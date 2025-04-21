@@ -89,6 +89,14 @@ stores specified preset<br>
 
 ## свойства:
 
+* **@bind_x** 
+Запросить/установить MIDI/keyboard bind expression for x-axis movement<br>
+_тип:_ list<br>
+
+* **@bind_y** 
+Запросить/установить MIDI/keyboard bind expression for y-axis movement<br>
+_тип:_ list<br>
+
 * **@x_left** 
 Запросить/установить leftmost x-value<br>
 _тип:_ float<br>

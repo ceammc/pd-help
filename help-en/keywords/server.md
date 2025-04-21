@@ -5,6 +5,7 @@
 
 ### Objects:
 * [net.osc.server](../net.osc.server.html)
+* [net.ws.server](../net.ws.server.html)
 
 ---
 **Website:** [https://github.com/uliss/pure-data](https://github.com/uliss/pure-data)

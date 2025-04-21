@@ -58,6 +58,10 @@ _aliases:_ \[flow.&gt;=\]
 _aliases:_ \[ceammc/group\], \[group\]
 
 
+[**flow.histogram**](flow.histogram.html): histogram for numeric control flow <br>
+_aliases:_ \[flow.hist\]
+
+
 [**flow.interval**](flow.interval.html): measure time between flow events 
 
 [**flow.less**](flow.less.html): numeric stream router, like many [moses] <br>
@@ -170,6 +174,10 @@ _aliases:_ \[route.b\]
 
 [**route.cycle**](route.cycle.html): cyclic message router 
 
+[**route.data**](route.data.html): separate any messages from bangs, floats, symbols and lists <br>
+_aliases:_ \[route.d\]
+
+
 [**route.float**](route.float.html): separate float messages from other types <br>
 _aliases:_ \[route.f\]
 
@@ -189,6 +197,6 @@ _aliases:_ \[route.s\]
 
 
 
-**Version:** 0.9.7
+**Version:** 0.9.8
 
 **License:** GPL3

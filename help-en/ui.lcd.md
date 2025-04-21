@@ -115,6 +115,21 @@ set single pixel<br>
     type: bool <br>
     required: True <br>
 
+* **set matrix**
+set matrix data<br>
+  __parameters:__
+  - **NROWS** matrix row number<br>
+    type: int <br>
+    required: True <br>
+
+  - **NCOLS** matrix column numbers<br>
+    type: int <br>
+    required: True <br>
+
+  - **VALUES** pixel values<br>
+    type: list <br>
+    required: True <br>
+
 * **set row**
 set row content<br>
   __parameters:__

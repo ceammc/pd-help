@@ -275,6 +275,6 @@ _aliases:_ \[math.^&#39;\], \[ceammc/^&#39;\], \[^&#39;\]
 [**math.trunc\~**](math.trunc~.html): truncate to integer value 
 
 
-**Version:** 0.9.7
+**Version:** 0.9.8
 
 **License:** GPL3

@@ -86,6 +86,10 @@ _псевдонимы:_ \[ceammc/degree-&gt;key\], \[degree-&gt;key\]
 _псевдонимы:_ \[ceammc/edge-&gt;bang\], \[edge-&gt;bang\]
 
 
+[**conv.guido2note**](conv.guido2note.html): конвертер из Guido-нотации в MIDI ноту и длительность <br>
+_псевдонимы:_ \[ceammc/guido-&gt;note\], \[guido-&gt;note\]
+
+
 [**conv.hex2int**](conv.hex2int.html): hex symbol to int value <br>
 _псевдонимы:_ \[ceammc/hex-&gt;int\], \[hex-&gt;int\]
 
@@ -219,6 +223,6 @@ _псевдонимы:_ \[music.v-&gt;m\]
 
 
 
-**Версия:** 0.9.7
+**Версия:** 0.9.8
 
 **Лицензия:** GPL3

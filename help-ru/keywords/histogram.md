@@ -5,6 +5,7 @@
 
 ### Объекты:
 * [array.hist](../array.hist.html)
+* [flow.histogram](../flow.histogram.html)
 * [list.histogram](../list.histogram.html)
 * [plot.hist~](../plot.hist~.html)
 * [plot.response~](../plot.response~.html)

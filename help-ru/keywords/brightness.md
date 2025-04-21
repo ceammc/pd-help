@@ -5,6 +5,7 @@
 
 ### Объекты:
 * [hw.display](../hw.display.html)
+* [hw.printer](../hw.printer.html)
 
 ---
 **Сайт:** [https://github.com/uliss/pure-data](https://github.com/uliss/pure-data)

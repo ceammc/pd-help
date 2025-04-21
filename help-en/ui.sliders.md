@@ -20,9 +20,9 @@
 
 ## arguments:
 
-* **N**
+* **COUNT**
 number of sliders<br>
-_type:_ float<br>
+_type:_ int<br>
 
 
 

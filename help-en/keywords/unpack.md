@@ -5,6 +5,7 @@
 
 ### Objects:
 * [list.unpack](../list.unpack.html)
+* [msg.unpack](../msg.unpack.html)
 
 ---
 **Website:** [https://github.com/uliss/pure-data](https://github.com/uliss/pure-data)

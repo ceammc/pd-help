@@ -26,7 +26,9 @@ _aliases:_ \[ceammc/loadmsg\], \[loadmsg\]
 
 [**msg.sched**](msg.sched.html): message scheduler 
 
+[**msg.unpack**](msg.unpack.html): message unpack to selector and arguments 
 
-**Version:** 0.9.7
+
+**Version:** 0.9.8
 
 **License:** GPL3

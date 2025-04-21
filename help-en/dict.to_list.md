@@ -22,6 +22,12 @@
 
 
 
+## properties:
+
+* **@props** (initonly)
+Get/set output as list of properties: @key1 vals.. @key2 vals2...<br>
+_type:_ flag<br>
+
 
 
 ## inlets:

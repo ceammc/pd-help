@@ -86,6 +86,10 @@ _aliases:_ \[ceammc/degree-&gt;key\], \[degree-&gt;key\]
 _aliases:_ \[ceammc/edge-&gt;bang\], \[edge-&gt;bang\]
 
 
+[**conv.guido2note**](conv.guido2note.html): convert Guido notation into MIDI and duration <br>
+_aliases:_ \[ceammc/guido-&gt;note\], \[guido-&gt;note\]
+
+
 [**conv.hex2int**](conv.hex2int.html): hex symbol to int value <br>
 _aliases:_ \[ceammc/hex-&gt;int\], \[hex-&gt;int\]
 
@@ -219,6 +223,6 @@ _aliases:_ \[music.v-&gt;m\]
 
 
 
-**Version:** 0.9.7
+**Version:** 0.9.8
 
 **License:** GPL3

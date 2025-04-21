@@ -107,6 +107,9 @@ outputs row cells as message [row N V0 V1...(<br>
 * **get rows**
 output all rows as separate messages [row N V0 V1...(<br>
 
+* **get matrix**
+output as matrix [matrix NROWS NCOLS DATA...(<br>
+
 * **interp**
 for this object acts as *load*, no interpolation performed<br>
 
@@ -152,7 +155,7 @@ set specified column without output<br>
     required: True <br>
 
 * **set list ...**
-set matrix without output<br>
+set matrix data without output<br>
   __parameters:__
   - **...** cell values (1 - checked, 0 - unchecked), row by row<br>
     type: list <br>
@@ -162,6 +165,21 @@ set matrix without output<br>
 set specified row without output<br>
   __parameters:__
   - **N** row index<br>
+    type: int <br>
+    required: True <br>
+
+  - **...** cell values (1 - checked, 0 - unchecked)<br>
+    type: list <br>
+    required: True <br>
+
+* **set matrix R C ...**
+set matrix without output<br>
+  __parameters:__
+  - **R** number of rows in matrix<br>
+    type: int <br>
+    required: True <br>
+
+  - **C** number of columns in matrix<br>
     type: int <br>
     required: True <br>
 

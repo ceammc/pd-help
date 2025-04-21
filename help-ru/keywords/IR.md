@@ -1,10 +1,10 @@
 [index](../index.html)
 ---
 
-## Ключевое слово: IR
+## Ключевое слово: ir
 
 ### Объекты:
-* [convolve~](../convolve~.html)
+* [hw.rpi.sensor.ir](../hw.rpi.sensor.ir.html)
 
 ---
 **Сайт:** [https://github.com/uliss/pure-data](https://github.com/uliss/pure-data)

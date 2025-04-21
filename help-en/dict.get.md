@@ -10,6 +10,8 @@
 ---
 
 
+## information
+You can use path-like expression, to get nested keys: /x/y/foo.
 
 
 [![example](../examples/img/dict.get.jpg)](../examples/pd/dict.get.pd)
@@ -53,7 +55,7 @@ _type:_ control
 _type:_ control
 * ... key output<br>
 _type:_ control
-* nth key output<br>
+* n-th key output<br>
 _type:_ control
 
 

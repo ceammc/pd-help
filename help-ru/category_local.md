@@ -21,6 +21,6 @@ _псевдонимы:_ \[local.json\]
 [**local.set**](local.set.html): local named set object 
 
 
-**Версия:** 0.9.7
+**Версия:** 0.9.8
 
 **Лицензия:** GPL3

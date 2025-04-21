@@ -27,6 +27,6 @@ _aliases:_ \[ceammc/canvas.active\]
 [**patch.tree**](patch.tree.html): patch tree 
 
 
-**Version:** 0.9.7
+**Version:** 0.9.8
 
 **License:** GPL3

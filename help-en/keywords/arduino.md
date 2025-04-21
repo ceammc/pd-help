@@ -5,6 +5,8 @@
 
 ### Objects:
 * [hw.arduino](../hw.arduino.html)
+* [hw.rpi.sensor.sr04](../hw.rpi.sensor.sr04.html)
+* [hw.rpi.spi.max7219](../hw.rpi.spi.max7219.html)
 * [proto.firmata](../proto.firmata.html)
 
 ---

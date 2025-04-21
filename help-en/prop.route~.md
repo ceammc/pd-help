@@ -1,0 +1,71 @@
+[index](index.html) :: [property](category_property.html)
+---
+
+# prop.route~
+**aliases:** [prop\~&gt;], [@\~&gt;], [ceammc/prop\~&gt;], [ceammc/@\~&gt;], [prop.get\~]
+
+
+###### Property extractor from audio streams
+
+*available since version:* 0.6
+
+---
+
+
+## information
+Extracts properties from audio stream with matching. Non property values are passed untouched.
+
+
+[![example](../examples/img/prop.route~.jpg)](../examples/pd/prop.route~.pd)
+
+
+
+
+
+
+
+
+
+## inlets:
+
+* input values and sound<br>
+_type:_ audio
+
+
+
+## outlets:
+
+* passed values and sound<br>
+_type:_ audio
+* first matched property output<br>
+_type:_ control
+* others matched property output<br>
+_type:_ control
+* unmatched property output<br>
+_type:_ control
+
+
+
+## keywords:
+
+[property](keywords/property.html)
+
+
+
+**See also:**
+[\[prop-&gt;\]](prop-%3E.html)
+
+
+
+
+**Authors:** Serge Poltavsky
+
+
+
+
+**License:** GPL3 or later
+
+
+
+
+

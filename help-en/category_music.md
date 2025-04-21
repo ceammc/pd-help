@@ -13,6 +13,6 @@
 [**rhythm.lsystem**](rhythm.lsystem.html): L-system pattern generator 
 
 
-**Version:** 0.9.7
+**Version:** 0.9.8
 
 **License:** GPL3

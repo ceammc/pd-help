@@ -26,7 +26,7 @@ _type:_ symbol<br>
 
 * **TITLE**
 @title property value<br>
-_type:_ list<br>
+_type:_ symbol<br>
 
 
 

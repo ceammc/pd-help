@@ -6,7 +6,10 @@
 ### Объекты:
 * [hw.apple_smc](../hw.apple_smc.html)
 * [hw.apple_sms](../hw.apple_sms.html)
-* [hw.cpu_temp](../hw.cpu_temp.html)
+* [hw.rpi.sensor.dht11](../hw.rpi.sensor.dht11.html)
+* [hw.rpi.sensor.ir](../hw.rpi.sensor.ir.html)
+* [hw.rpi.sensor.sr04](../hw.rpi.sensor.sr04.html)
+* [hw.rpi.sensor.vl53l0x](../hw.rpi.sensor.vl53l0x.html)
 
 ---
 **Сайт:** [https://github.com/uliss/pure-data](https://github.com/uliss/pure-data)

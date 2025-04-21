@@ -29,6 +29,6 @@ _aliases:_ \[random.i\]
 [**random.pw_lin**](random.pw_lin.html): piecewise linear random distribution 
 
 
-**Version:** 0.9.7
+**Version:** 0.9.8
 
 **License:** GPL3

@@ -76,6 +76,7 @@ _тип:_ control
 
 **Смотрите также:**
 [\[msg\]](msg.html)
+[\[msg.unpack\]](msg.unpack.html)
 
 
 

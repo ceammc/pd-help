@@ -20,7 +20,7 @@
 
 * **VALUE**
 initial string<br>
-_тип:_ symbol<br>
+_тип:_ list<br>
 
 
 

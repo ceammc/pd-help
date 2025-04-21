@@ -77,6 +77,6 @@
 [**synth.wurley\~**](synth.wurley~.html): Wurlitzer electric piano FM synthesis instrument 
 
 
-**Version:** 0.9.7
+**Version:** 0.9.8
 
 **License:** GPL3

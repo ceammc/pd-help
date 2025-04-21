@@ -5,6 +5,7 @@
 
 ### Объекты:
 * [flow.pipe](../flow.pipe.html)
+* [system.command](../system.command.html)
 
 ---
 **Сайт:** [https://github.com/uliss/pure-data](https://github.com/uliss/pure-data)

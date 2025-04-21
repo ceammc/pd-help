@@ -41,12 +41,13 @@ _тип:_ control
 ## ключевые слова:
 
 [route](keywords/route.html)
-[list](keywords/list.html)
+[any](keywords/any.html)
 
 
 
 **Смотрите также:**
 [\[route.float\]](route.float.html)
+[\[route.list\]](route.list.html)
 [\[route.random\]](route.random.html)
 [\[route.prop\]](route.prop.html)
 

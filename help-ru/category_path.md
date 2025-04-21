@@ -35,6 +35,6 @@ _псевдонимы:_ \[path.norm\]
 [**path.split**](path.split.html): file path split 
 
 
-**Версия:** 0.9.7
+**Версия:** 0.9.8
 
 **Лицензия:** GPL3

@@ -72,7 +72,7 @@ stores specified preset<br>
 
 * **@value** 
 Get/set widget logical value<br>
-_type:_ float<br>
+_type:_ int<br>
 _enum:_ 0, 1<br>
 _default:_ 0<br>
 

@@ -22,7 +22,7 @@
 
 * **VALUE**
 initial string<br>
-_type:_ symbol<br>
+_type:_ list<br>
 
 
 

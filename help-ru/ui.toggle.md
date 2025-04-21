@@ -70,7 +70,7 @@ stores specified preset<br>
 
 * **@value** 
 Запросить/установить widget logical value<br>
-_тип:_ float<br>
+_тип:_ int<br>
 _варианты:_ 0, 1<br>
 _по умолчанию:_ 0<br>
 

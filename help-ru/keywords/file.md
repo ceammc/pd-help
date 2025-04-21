@@ -4,6 +4,7 @@
 ## Ключевое слово: file
 
 ### Объекты:
+* [data.path](../data.path.html)
 * [file.size](../file.size.html)
 * [midi.file](../midi.file.html)
 * [path.file](../path.file.html)

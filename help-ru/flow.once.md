@@ -18,13 +18,20 @@
 
 ## аргументы:
 
-* **OPENED**
+* **PASS**
 set init state<br>
-_тип:_ int<br>
+_тип:_ bool<br>
 
 
 
 
+
+## свойства:
+
+* **@pass** 
+Запросить/установить open state<br>
+_тип:_ bool<br>
+_по умолчанию:_ 1<br>
 
 
 

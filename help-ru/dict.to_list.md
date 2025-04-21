@@ -20,6 +20,12 @@
 
 
 
+## свойства:
+
+* **@props** (initonly)
+Запросить/установить output as list of properties: @key1 vals.. @key2 vals2...<br>
+_тип:_ flag<br>
+
 
 
 ## входы:

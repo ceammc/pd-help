@@ -18,9 +18,9 @@
 
 ## аргументы:
 
-* **N**
+* **COUNT**
 number of sliders<br>
-_тип:_ float<br>
+_тип:_ int<br>
 
 
 

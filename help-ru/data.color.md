@@ -33,24 +33,10 @@ set alpha channel value<br>
     тип: float <br>
     обязательно: True <br>
 
-* **alpha**
-set alpha channel<br>
-  __параметры:__
-  - **ALPHA** alpha value<br>
-    тип: float <br>
-    обязательно: True <br>
-
 * **blue**
 set blue channel value<br>
   __параметры:__
   - **BLUE** value<br>
-    тип: float <br>
-    обязательно: True <br>
-
-* **blue**
-set blue channel<br>
-  __параметры:__
-  - **BLUE** blue value<br>
     тип: float <br>
     обязательно: True <br>
 
@@ -88,13 +74,6 @@ convert color to grayscale<br>
 set green channel value<br>
   __параметры:__
   - **GREEN** value<br>
-    тип: float <br>
-    обязательно: True <br>
-
-* **green**
-set green channel<br>
-  __параметры:__
-  - **GREEN** green value<br>
     тип: float <br>
     обязательно: True <br>
 
@@ -177,13 +156,6 @@ set color in OkLab colorspace<br>
 set red channel value<br>
   __параметры:__
   - **RED** value<br>
-    тип: float <br>
-    обязательно: True <br>
-
-* **red**
-set red channel<br>
-  __параметры:__
-  - **RED** red value<br>
     тип: float <br>
     обязательно: True <br>
 

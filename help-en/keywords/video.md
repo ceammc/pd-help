@@ -5,6 +5,7 @@
 
 ### Objects:
 * [proto.feelworld](../proto.feelworld.html)
+* [proto.obs](../proto.obs.html)
 
 ---
 **Website:** [https://github.com/uliss/pure-data](https://github.com/uliss/pure-data)

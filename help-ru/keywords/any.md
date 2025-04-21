@@ -8,6 +8,8 @@
 * [list.^contains](../list.^contains.html)
 * [list.any_of](../list.any_of.html)
 * [list.contains](../list.contains.html)
+* [route.any](../route.any.html)
+* [route.data](../route.data.html)
 * [symbol2any](../symbol2any.html)
 
 ---

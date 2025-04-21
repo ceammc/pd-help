@@ -37,16 +37,6 @@ draw char at specified position<br>
   - **[XOFF]** horizontal character offset<br>
     тип: int <br>
 
-* **char**
-draw char at specified position<br>
-  __параметры:__
-  - **CH** char symbol or int value from 0 to 9<br>
-    тип: atom <br>
-    обязательно: True <br>
-
-  - **[XOFF]** horizontal character offset<br>
-    тип: int <br>
-
 * **clear**
 clear LED display<br>
 

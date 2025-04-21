@@ -84,7 +84,6 @@
 * [mlist.flatten](../mlist.flatten.html)
 * [nsig~](../nsig~.html)
 * [path.lsdir](../path.lsdir.html)
-* [route.any](../route.any.html)
 * [route.list](../route.list.html)
 
 ---

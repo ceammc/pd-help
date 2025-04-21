@@ -40,6 +40,8 @@ _псевдонимы:_ \[.int\], \[.i\]
 _псевдонимы:_ \[ceammc/mlist\], \[mlist\], \[ceammc/ml\], \[ml\]
 
 
+[**data.path**](data.path.html): тип данных: путь в файловой системе 
+
 [**data.set**](data.set.html): container that store unique elements 
 
 [**data.set2list**](data.set2list.html): converts set to list <br>
@@ -95,6 +97,6 @@ _псевдонимы:_ \[ceammc/rtree-&gt;list\], \[rtree-&gt;list\]
 [**set.union**](set.union.html): output union of given sets 
 
 
-**Версия:** 0.9.7
+**Версия:** 0.9.8
 
 **Лицензия:** GPL3

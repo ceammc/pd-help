@@ -107,6 +107,6 @@ _псевдонимы:_ \[ceammc/pan8~\], \[pan8~\]
 [**spat.zita8~**](spat.zita8~.html): 8 channel reverb spatializer 
 
 
-**Версия:** 0.9.7
+**Версия:** 0.9.8
 
 **Лицензия:** GPL3

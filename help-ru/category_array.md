@@ -24,7 +24,9 @@
 
 [**array.grainer~**](array.grainer~.html): array granulator 
 
-[**array.hist**](array.hist.html): calculates array histogram 
+[**array.hist**](array.hist.html): calculates array histogram <br>
+_псевдонимы:_ \[array.histogram\]
+
 
 [**array.ltcplay~**](array.ltcplay~.html): array player controlled by LTC 
 
@@ -83,6 +85,6 @@ _псевдонимы:_ \[ceammc/hist~\], \[hist~\]
 [**plot.response~**](plot.response~.html): output amp/phase freq response to impulse 
 
 
-**Версия:** 0.9.7
+**Версия:** 0.9.8
 
 **Лицензия:** GPL3

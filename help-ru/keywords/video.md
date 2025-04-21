@@ -5,6 +5,7 @@
 
 ### Объекты:
 * [proto.feelworld](../proto.feelworld.html)
+* [proto.obs](../proto.obs.html)
 
 ---
 **Сайт:** [https://github.com/uliss/pure-data](https://github.com/uliss/pure-data)

@@ -4,6 +4,7 @@
 ## Ключевое слово: midi
 
 ### Объекты:
+* [conv.guido2note](../conv.guido2note.html)
 * [conv.midi2freq](../conv.midi2freq.html)
 * [conv.note2guido](../conv.note2guido.html)
 * [conv.pitch2midi](../conv.pitch2midi.html)

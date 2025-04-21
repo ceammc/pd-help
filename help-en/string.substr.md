@@ -43,7 +43,7 @@ _default:_ 0<br>
 * **@len** 
 Get/set substring length. If equal to -1, substring to the end of string<br>
 _type:_ int<br>
-_min value:_ 0<br>
+_min value:_ -1<br>
 _default:_ -1<br>
 
 

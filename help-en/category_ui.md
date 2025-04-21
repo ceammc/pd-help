@@ -129,6 +129,6 @@ _aliases:_ \[ui.t\]
 
 
 
-**Version:** 0.9.7
+**Version:** 0.9.8
 
 **License:** GPL3

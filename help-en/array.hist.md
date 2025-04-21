@@ -2,6 +2,8 @@
 ---
 
 # array.hist
+**aliases:** [array.histogram]
+
 
 ###### calculates array histogram
 

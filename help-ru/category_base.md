@@ -6,6 +6,10 @@
 
 
 
+[**bitmap**](bitmap.html): бинарное изображение (битовая 2D-матрица) <br>
+_псевдонимы:_ \[ceammc/bitmap\]
+
+
 [**ceammc.search**](ceammc.search.html): ceammc library search object 
 
 [**chrono.datetime**](chrono.datetime.html): output current date and time info <br>
@@ -101,6 +105,6 @@ _псевдонимы:_ \[ceammc/z~\]
 
 
 
-**Версия:** 0.9.7
+**Версия:** 0.9.8
 
 **Лицензия:** GPL3

@@ -4,6 +4,7 @@
 ## Ключевое слово: info
 
 ### Объекты:
+* [system.info](../system.info.html)
 * [system.screen_size](../system.screen_size.html)
 
 ---

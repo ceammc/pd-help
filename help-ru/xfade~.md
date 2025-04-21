@@ -58,8 +58,13 @@ _тип:_ alias<br>
 * **@x** 
 Запросить/установить crossfade property. Valid value in [0..N-1] range.<br>
 _тип:_ float<br>
-_диапазон:_ 0..1<br>
 _по умолчанию:_ 0<br>
+
+* **@n** (initonly)
+Запросить/установить number of xfade inputs<br>
+_тип:_ int<br>
+_диапазон:_ 2..16<br>
+_по умолчанию:_ 2<br>
 
 
 

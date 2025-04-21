@@ -63,6 +63,6 @@ _aliases:_ \[midi.prg-&gt;str\]
 [**midi.vrand**](midi.vrand.html): midi velocity randomizer 
 
 
-**Version:** 0.9.7
+**Version:** 0.9.8
 
 **License:** GPL3

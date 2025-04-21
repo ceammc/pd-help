@@ -9,6 +9,7 @@
 * [route.any](../route.any.html)
 * [route.bang](../route.bang.html)
 * [route.cycle](../route.cycle.html)
+* [route.data](../route.data.html)
 * [route.float](../route.float.html)
 * [route.list](../route.list.html)
 * [route.prop](../route.prop.html)

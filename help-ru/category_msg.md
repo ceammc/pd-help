@@ -26,7 +26,9 @@ _псевдонимы:_ \[ceammc/loadmsg\], \[loadmsg\]
 
 [**msg.sched**](msg.sched.html): message scheduler 
 
+[**msg.unpack**](msg.unpack.html): распаковка сообщения на селектор и аргументы 
 
-**Версия:** 0.9.7
+
+**Версия:** 0.9.8
 
 **Лицензия:** GPL3

@@ -5,6 +5,7 @@
 
 ### Объекты:
 * [net.osc.server](../net.osc.server.html)
+* [net.ws.server](../net.ws.server.html)
 
 ---
 **Сайт:** [https://github.com/uliss/pure-data](https://github.com/uliss/pure-data)

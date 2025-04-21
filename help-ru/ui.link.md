@@ -26,7 +26,7 @@ _тип:_ symbol<br>
 
 * **TITLE**
 @title property value<br>
-_тип:_ list<br>
+_тип:_ symbol<br>
 
 
 

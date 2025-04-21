@@ -20,21 +20,21 @@
 
 ## методы:
 
-* **copy**
-copy whole array content<br>
+* **copy . .**
+copy the whole array content<br>
   __параметры:__
-  - **SRC** name of source array<br>
+  - **SRC** the source array<br>
     тип: symbol <br>
     обязательно: True <br>
 
-  - **DEST** name of destination array<br>
+  - **DST** the destination array<br>
     тип: symbol <br>
     обязательно: True <br>
 
-* **copy**
-copy array content from specified position till end<br>
+* **copy . . .**
+copy the array content from the specified position till the end<br>
   __параметры:__
-  - **SRC** name of source array<br>
+  - **SRC** the source array<br>
     тип: symbol <br>
     обязательно: True <br>
 
@@ -42,49 +42,50 @@ copy array content from specified position till end<br>
     тип: int <br>
     обязательно: True <br>
 
-  - **DEST** name of destination array<br>
+  - **DEST** the destination array<br>
     тип: symbol <br>
     обязательно: True <br>
 
-* **copy**
-copy array content from specified range<br>
+* **copy . . . .**
+copy the array content from the specified range<br>
   __параметры:__
-  - **SRC** name of source array<br>
+  - **SRC** the source array<br>
     тип: symbol <br>
     обязательно: True <br>
 
-  - **FROM** source start range<br>
+  - **FROM** the source start range<br>
     тип: int <br>
     обязательно: True <br>
 
-  - **TO** source end range<br>
+  - **TO** the source end range<br>
     тип: int <br>
     обязательно: True <br>
 
-  - **DEST** name of destination array<br>
+  - **DEST** the destination array<br>
     тип: symbol <br>
     обязательно: True <br>
 
-* **copy**
-copy array content from specified range and to specified destination position<br>
+* **copy . . . . .**
+copy the array content from the specified range and to the specified
+destination position<br>
   __параметры:__
-  - **SRC** name of source array<br>
+  - **SRC** the source array<br>
     тип: symbol <br>
     обязательно: True <br>
 
-  - **FROM** source start range<br>
+  - **FROM** the source start range<br>
     тип: int <br>
     обязательно: True <br>
 
-  - **TO** source end range<br>
+  - **TO** the source end range<br>
     тип: int <br>
     обязательно: True <br>
 
-  - **DEST** name of destination array<br>
+  - **DEST** the destination array<br>
     тип: symbol <br>
     обязательно: True <br>
 
-  - **DEST_FROM** destination start position<br>
+  - **DEST_FROM** the destination start position<br>
     тип: int <br>
     обязательно: True <br>
 
@@ -94,7 +95,7 @@ copy array content from specified range and to specified destination position<br
 ## свойства:
 
 * **@resize** 
-Запросить/установить resize of destination array on overflow<br>
+Запросить/установить resizing of destination array on overflow<br>
 _тип:_ bool<br>
 _по умолчанию:_ 0<br>
 
@@ -102,7 +103,7 @@ _по умолчанию:_ 0<br>
 
 ## входы:
 
-* FROM, TO - copy data from one array to another<br>
+* FROM TO - copy data from the one array to another<br>
 _тип:_ control
 
 

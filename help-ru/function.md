@@ -26,13 +26,19 @@ _тип:_ symbol<br>
 
 
 
+## свойства:
+
+* **@name** (initonly)
+Запросить/установить function name, should be unique and non-empty<br>
+_тип:_ symbol<br>
+
 
 
 ## входы:
 
-* input value<br>
+* input values<br>
 _тип:_ control
-* value from side-chain<br>
+* value from the side-chain<br>
 _тип:_ control
 
 
@@ -41,7 +47,7 @@ _тип:_ control
 
 * result value<br>
 _тип:_ control
-* value to side-chain<br>
+* value to the side-chain<br>
 _тип:_ control
 
 

@@ -20,7 +20,7 @@
 
 * **SUBJ**
 right set elements<br>
-_type:_ any<br>
+_type:_ list<br>
 
 
 

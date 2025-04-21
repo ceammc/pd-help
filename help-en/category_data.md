@@ -40,6 +40,8 @@ _aliases:_ \[.int\], \[.i\]
 _aliases:_ \[ceammc/mlist\], \[mlist\], \[ceammc/ml\], \[ml\]
 
 
+[**data.path**](data.path.html): filesystem path datatype 
+
 [**data.set**](data.set.html): container that store unique elements 
 
 [**data.set2list**](data.set2list.html): converts set to list <br>
@@ -95,6 +97,6 @@ _aliases:_ \[ceammc/rtree-&gt;list\], \[rtree-&gt;list\]
 [**set.union**](set.union.html): output union of given sets 
 
 
-**Version:** 0.9.7
+**Version:** 0.9.8
 
 **License:** GPL3

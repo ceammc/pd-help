@@ -2,6 +2,8 @@
 ---
 
 # list.histogram
+**aliases:** [list.hist]
+
 
 ###### outputs distribution histogram
 
@@ -60,6 +62,9 @@ _type:_ control
 [histogram](keywords/histogram.html)
 
 
+
+**See also:**
+[\[array.hist\]](array.hist.html)
 
 
 

@@ -5,6 +5,7 @@
 
 ### Objects:
 * [flow.pipe](../flow.pipe.html)
+* [system.command](../system.command.html)
 
 ---
 **Website:** [https://github.com/uliss/pure-data](https://github.com/uliss/pure-data)

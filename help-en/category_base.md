@@ -6,6 +6,10 @@
 
 
 
+[**bitmap**](bitmap.html): binary image (2D bit matrix) <br>
+_aliases:_ \[ceammc/bitmap\]
+
+
 [**ceammc.search**](ceammc.search.html): ceammc library search object 
 
 [**chrono.datetime**](chrono.datetime.html): output current date and time info <br>
@@ -101,6 +105,6 @@ _aliases:_ \[ceammc/z\~\]
 
 
 
-**Version:** 0.9.7
+**Version:** 0.9.8
 
 **License:** GPL3

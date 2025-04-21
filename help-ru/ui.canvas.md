@@ -667,6 +667,11 @@ _тип:_ control
 
 
 
+## выходы:
+
+* message: mouse ACTION(down|up|drag) X Y MOD_CTL MOD_ALT MOD_SHIFT MOD_CMD<br>
+_тип:_ control
+
 
 
 ## ключевые слова:

@@ -130,6 +130,18 @@
 ### abc
 [ui.canvas](ui.canvas.html)
 
+### access auth
+[net.freesound](net.freesound.html)
+
+### access code
+[net.freesound](net.freesound.html)
+
+### access load
+[net.freesound](net.freesound.html)
+
+### access store
+[net.freesound](net.freesound.html)
+
 ### activesense
 [proto.midi](proto.midi.html)
 
@@ -148,6 +160,9 @@
 
 ### add_seg
 [envelope](envelope.html)
+
+### address
+[hw.rpi.sensor.vl53l0x](hw.rpi.sensor.vl53l0x.html)
 
 ### adjust
 [fx.looper~](fx.looper~.html)
@@ -174,9 +189,6 @@
 ### angles
 [hoa.2d.recomposer~](hoa.2d.recomposer~.html)
 
-### any
-[ui.label](ui.label.html)
-
 ### apin_mapping?
 [proto.firmata](proto.firmata.html)
 
@@ -198,6 +210,7 @@
 [ui.env](ui.env.html)
 
 ### arc
+[bitmap](bitmap.html)
 [ui.canvas](ui.canvas.html)
 
 ### arrow
@@ -238,6 +251,7 @@
 [local.mlist](local.mlist.html)
 
 ### backlight
+[hw.rpi.display.hd44780](hw.rpi.display.hd44780.html)
 [proto.arturia.minilab](proto.arturia.minilab.html)
 
 ### bank
@@ -304,6 +318,8 @@
 [data.color](data.color.html)
 
 ### brightness
+[hw.rpi.display.ssd1306](hw.rpi.display.ssd1306.html)
+[hw.rpi.spi.ws2812](hw.rpi.spi.ws2812.html)
 [proto.sp.alpaca](proto.sp.alpaca.html)
 
 ### brown
@@ -328,6 +344,9 @@
 [noise.lorenz](noise.lorenz.html)
 [noise.navier_stokes](noise.navier_stokes.html)
 [noise.rossler](noise.rossler.html)
+
+### calibrate
+[hw.rpi.sensor.mpu6050](hw.rpi.sensor.mpu6050.html)
 
 ### call
 [lang.lua](lang.lua.html)
@@ -369,6 +388,7 @@
 [proto.arturia.minilab](proto.arturia.minilab.html)
 
 ### char
+[hw.rpi.display.hd44780](hw.rpi.display.hd44780.html)
 [proto.sp.alpaca](proto.sp.alpaca.html)
 
 ### choose
@@ -380,6 +400,7 @@
 [global.list](global.list.html)
 [global.mlist](global.mlist.html)
 [global.set](global.set.html)
+[hw.printer](hw.printer.html)
 [local.dict](local.dict.html)
 [local.list](local.list.html)
 [local.mlist](local.mlist.html)
@@ -404,10 +425,12 @@
 [proto.midi.casio](proto.midi.casio.html)
 
 ### circle
+[bitmap](bitmap.html)
 [ui.canvas](ui.canvas.html)
 
 ### clear
 [array.grainer~](array.grainer~.html)
+[bitmap](bitmap.html)
 [data.bimap](data.bimap.html)
 [data.dict](data.dict.html)
 [data.fifo](data.fifo.html)
@@ -416,6 +439,7 @@
 [data.set](data.set.html)
 [envelope](envelope.html)
 [flow.group](flow.group.html)
+[flow.histogram](flow.histogram.html)
 [fx.looper~](fx.looper~.html)
 [global.bimap](global.bimap.html)
 [global.dict](global.dict.html)
@@ -424,6 +448,10 @@
 [global.set](global.set.html)
 [hoa.2d.space](hoa.2d.space.html)
 [hoa.map.ui](hoa.map.ui.html)
+[hw.rpi.display.hd44780](hw.rpi.display.hd44780.html)
+[hw.rpi.display.ssd1306](hw.rpi.display.ssd1306.html)
+[hw.rpi.spi.max7219](hw.rpi.spi.max7219.html)
+[hw.rpi.spi.ws2812](hw.rpi.spi.ws2812.html)
 [list.delta](list.delta.html)
 [list.integrator](list.integrator.html)
 [local.bimap](local.bimap.html)
@@ -470,14 +498,23 @@
 ### clear_all
 [hoa.map.ui](hoa.map.ui.html)
 
+### clear_pwm
+[hw.rpi.gpio](hw.rpi.gpio.html)
+
 ### clearall
 [ui.preset](ui.preset.html)
+
+### clients
+[net.ws.server](net.ws.server.html)
 
 ### clock
 [proto.midi](proto.midi.html)
 
 ### close
 [hw.serial](hw.serial.html)
+[net.mqtt.client](net.mqtt.client.html)
+[net.ws.client](net.ws.client.html)
+[net.ws.server](net.ws.server.html)
 [path.file](path.file.html)
 
 ### close_path
@@ -486,21 +523,51 @@
 ### col
 [proto.sp.alpaca](proto.sp.alpaca.html)
 
+### collection current get
+[proto.obs](proto.obs.html)
+
+### collection current set
+[proto.obs](proto.obs.html)
+
+### collection list
+[proto.obs](proto.obs.html)
+
 ### color
 [proto.inscore](proto.inscore.html)
 [ui.canvas](ui.canvas.html)
+
+### column
+[bitmap](bitmap.html)
 
 ### comp_input_name
 [hw.motu.avb](hw.motu.avb.html)
 
 ### connect
 [hw.arduino](hw.arduino.html)
+[net.mqtt.client](net.mqtt.client.html)
+[net.ws.client](net.ws.client.html)
+[proto.obs](proto.obs.html)
+
+### const
+[hw.rpi.i2c.pca9685](hw.rpi.i2c.pca9685.html)
 
 ### continue
 [proto.midi](proto.midi.html)
 
-### copy
+### copy . .
 [array.copy](array.copy.html)
+
+### copy . . .
+[array.copy](array.copy.html)
+
+### copy . . . .
+[array.copy](array.copy.html)
+
+### copy . . . . .
+[array.copy](array.copy.html)
+
+### cpu
+[system.info](system.info.html)
 
 ### cr
 [noise.torus](noise.torus.html)
@@ -516,6 +583,15 @@
 
 ### current
 [list.walk](list.walk.html)
+
+### cursor_blink
+[hw.rpi.display.hd44780](hw.rpi.display.hd44780.html)
+
+### cursor_on
+[hw.rpi.display.hd44780](hw.rpi.display.hd44780.html)
+
+### cursor_pos
+[hw.rpi.display.hd44780](hw.rpi.display.hd44780.html)
 
 ### curve
 [ui.canvas](ui.canvas.html)
@@ -561,8 +637,16 @@
 ### desaturate
 [data.color](data.color.html)
 
+### devices
+[hw.gamepad](hw.gamepad.html)
+[hw.printer](hw.printer.html)
+
+### disable_prog_addr
+[hw.rpi.i2c.pca9685](hw.rpi.i2c.pca9685.html)
+
 ### disconnect
 [hw.arduino](hw.arduino.html)
+[proto.obs](proto.obs.html)
 
 ### div
 [live.capture~](live.capture~.html)
@@ -578,6 +662,10 @@
 
 ### down
 [synth.metro~](synth.metro~.html)
+
+### download
+[net.freesound](net.freesound.html)
+[net.http.client](net.http.client.html)
 
 ### draw down
 [ui.lcd](ui.lcd.html)
@@ -642,6 +730,10 @@
 [preset.storage](preset.storage.html)
 [ui.preset](ui.preset.html)
 
+### duty
+[hw.rpi.i2c.pca9685](hw.rpi.i2c.pca9685.html)
+[hw.rpi.pwm](hw.rpi.pwm.html)
+
 ### dx
 [proto.inscore](proto.inscore.html)
 
@@ -667,8 +759,16 @@
 [ui.env](ui.env.html)
 
 ### ellipse
+[bitmap](bitmap.html)
 [proto.inscore](proto.inscore.html)
 [ui.canvas](ui.canvas.html)
+
+### enable
+[hw.rpi.i2c.pca9685](hw.rpi.i2c.pca9685.html)
+[hw.rpi.pwm](hw.rpi.pwm.html)
+
+### enable_restart_and_disable
+[hw.rpi.i2c.pca9685](hw.rpi.i2c.pca9685.html)
 
 ### eof
 [system.exec](system.exec.html)
@@ -682,6 +782,9 @@
 
 ### eval
 [lang.lua](lang.lua.html)
+
+### exists
+[data.path](data.path.html)
 
 ### exit
 [system.exit](system.exit.html)
@@ -720,15 +823,20 @@
 ### fill
 [array.fill](array.fill.html)
 [array.grainer~](array.grainer~.html)
+[bitmap](bitmap.html)
 [data.list](data.list.html)
 [data.mlist](data.mlist.html)
 [global.list](global.list.html)
 [global.mlist](global.mlist.html)
+[hw.rpi.spi.ws2812](hw.rpi.spi.ws2812.html)
 [local.list](local.list.html)
 [local.mlist](local.mlist.html)
 [proto.sp.alpaca](proto.sp.alpaca.html)
 [ui.canvas](ui.canvas.html)
 [ui.sliders](ui.sliders.html)
+
+### fill_color
+[bitmap](bitmap.html)
 
 ### firmware?
 [proto.firmata](proto.firmata.html)
@@ -755,12 +863,12 @@
 ### flip row N
 [ui.matrix](ui.matrix.html)
 
-### float
-[ui.label](ui.label.html)
-
 ### flush
 [data.fifo](data.fifo.html)
 [flow.group](flow.group.html)
+[hw.rpi.display.ssd1306](hw.rpi.display.ssd1306.html)
+[hw.rpi.spi.ws2812](hw.rpi.spi.ws2812.html)
+[net.ws.client](net.ws.client.html)
 
 ### fold
 [noise.baker](noise.baker.html)
@@ -769,6 +877,9 @@
 [noise.baker](noise.baker.html)
 
 ### font
+[bitmap](bitmap.html)
+[hw.rpi.display.hd44780](hw.rpi.display.hd44780.html)
+[hw.rpi.display.ssd1306](hw.rpi.display.ssd1306.html)
 [ui.canvas](ui.canvas.html)
 
 ### font_size
@@ -782,6 +893,8 @@
 [ui.scope~](ui.scope~.html)
 
 ### freq
+[hw.rpi.i2c.pca9685](hw.rpi.i2c.pca9685.html)
+[hw.rpi.pwm](hw.rpi.pwm.html)
 [proto.moppy](proto.moppy.html)
 
 ### front
@@ -798,6 +911,9 @@
 ### fullscreen
 [proto.mpv](proto.mpv.html)
 
+### fx
+[hw.rpi.spi.ws2812](hw.rpi.spi.ws2812.html)
+
 ### gauss
 [array.fill](array.fill.html)
 [array.window](array.window.html)
@@ -809,6 +925,9 @@
 [random.int](random.int.html)
 
 ### get
+[global.float](global.float.html)
+[hw.rpi.rotenc](hw.rpi.rotenc.html)
+[net.http.client](net.http.client.html)
 [net.http.send](net.http.send.html)
 
 ### get cell R C
@@ -824,6 +943,11 @@
 [ui.matrix](ui.matrix.html)
 
 ### get list
+[bitmap](bitmap.html)
+[ui.matrix](ui.matrix.html)
+
+### get matrix
+[bitmap](bitmap.html)
 [ui.matrix](ui.matrix.html)
 
 ### get row N
@@ -834,6 +958,9 @@
 
 ### get slider N
 [ui.sliders](ui.sliders.html)
+
+### get submatrix
+[bitmap](bitmap.html)
 
 ### get_key
 [data.dict](data.dict.html)
@@ -905,6 +1032,9 @@
 [proto.midi.cc](proto.midi.cc.html)
 [sfizz~](sfizz~.html)
 
+### hshift
+[bitmap](bitmap.html)
+
 ### hsl
 [data.color](data.color.html)
 
@@ -917,16 +1047,25 @@
 ### id_request
 [proto.midi.sysex](proto.midi.sysex.html)
 
+### ifaces
+[net.mdns](net.mdns.html)
+
 ### image
 [ui.canvas](ui.canvas.html)
+
+### impulse
+[hw.rpi.gpio](hw.rpi.gpio.html)
 
 ### inc
 [ui.incdec](ui.incdec.html)
 
 ### info
+[data.path](data.path.html)
 [hoa.map.ui](hoa.map.ui.html)
+[proto.obs](proto.obs.html)
 
 ### input
+[hw.rpi.gpio](hw.rpi.gpio.html)
 [proto.feelworld](proto.feelworld.html)
 
 ### input-&gt;comp
@@ -960,6 +1099,9 @@
 ### instr
 [proto.midi.casio](proto.midi.casio.html)
 
+### intensity
+[hw.rpi.spi.max7219](hw.rpi.spi.max7219.html)
+
 ### interp
 [hoa.2d.space](hoa.2d.space.html)
 [hoa.map.ui](hoa.map.ui.html)
@@ -989,9 +1131,20 @@
 [ui.toggle](ui.toggle.html)
 
 ### invert
+[bitmap](bitmap.html)
 [data.color](data.color.html)
+[hw.rpi.display.ssd1306](hw.rpi.display.ssd1306.html)
 [proto.sp.alpaca](proto.sp.alpaca.html)
 [ui.lcd](ui.lcd.html)
+
+### item enable
+[proto.obs](proto.obs.html)
+
+### item list
+[proto.obs](proto.obs.html)
+
+### item remove
+[proto.obs](proto.obs.html)
 
 ### k
 [ceammc.search](ceammc.search.html)
@@ -1014,6 +1167,9 @@
 [chaos.logistic](chaos.logistic.html)
 [noise.stein](noise.stein.html)
 [noise.verhulst](noise.verhulst.html)
+
+### latency
+[net.ws.client](net.ws.client.html)
 
 ### lcd
 [proto.xtouch_ext](proto.xtouch_ext.html)
@@ -1053,6 +1209,7 @@
 [ui.sliders](ui.sliders.html)
 
 ### line
+[bitmap](bitmap.html)
 [envelope](envelope.html)
 [ui.canvas](ui.canvas.html)
 [ui.env](ui.env.html)
@@ -1066,16 +1223,18 @@
 ### linup
 [ui.sliders](ui.sliders.html)
 
-### list
-[ui.label](ui.label.html)
+### listen
+[net.ws.server](net.ws.server.html)
 
 ### llcd
 [proto.xtouch_ext](proto.xtouch_ext.html)
 
 ### load
+[bitmap](bitmap.html)
 [hoa.2d.space](hoa.2d.space.html)
 [hoa.map.ui](hoa.map.ui.html)
 [lang.lua](lang.lua.html)
+[net.freesound](net.freesound.html)
 [preset.float](preset.float.html)
 [preset.list](preset.list.html)
 [preset.storage](preset.storage.html)
@@ -1131,6 +1290,12 @@
 ### mbal:f
 [proto.midi.sysex](proto.midi.sysex.html)
 
+### me
+[net.freesound](net.freesound.html)
+
+### measure
+[hw.rpi.adc.ads1115](hw.rpi.adc.ads1115.html)
+
 ### mic-&gt;comp
 [hw.motu.avb](hw.motu.avb.html)
 
@@ -1156,6 +1321,10 @@
 [fluid~](fluid~.html)
 [sfizz~](sfizz~.html)
 
+### mirror
+[bitmap](bitmap.html)
+[hw.rpi.display.ssd1306](hw.rpi.display.ssd1306.html)
+
 ### mix
 [data.color](data.color.html)
 
@@ -1175,11 +1344,20 @@
 ### mod~
 [proto.midi.cc](proto.midi.cc.html)
 
+### monitor list
+[proto.obs](proto.obs.html)
+
 ### move
 [ui.slider2d](ui.slider2d.html)
 
 ### move_by
 [ui.canvas](ui.canvas.html)
+
+### move_cursor
+[hw.rpi.display.hd44780](hw.rpi.display.hd44780.html)
+
+### move_display
+[hw.rpi.display.hd44780](hw.rpi.display.hd44780.html)
 
 ### move_to
 [ui.canvas](ui.canvas.html)
@@ -1318,8 +1496,12 @@
 [hw.serial](hw.serial.html)
 [lang.faust~](lang.faust~.html)
 [path.file](path.file.html)
+[snd.play~](snd.play~.html)
 [synth.fgrain~](synth.fgrain~.html)
 [ui.faust~](ui.faust~.html)
+
+### output
+[hw.rpi.gpio](hw.rpi.gpio.html)
 
 ### output_gain
 [hw.motu.avb](hw.motu.avb.html)
@@ -1371,7 +1553,12 @@
 [tl.timeline](tl.timeline.html)
 
 ### period
+[hw.rpi.i2c.pca9685](hw.rpi.i2c.pca9685.html)
+[hw.rpi.pwm](hw.rpi.pwm.html)
 [proto.moppy](proto.moppy.html)
+
+### permissions
+[data.path](data.path.html)
 
 ### permutate
 [array.grainer~](array.grainer~.html)
@@ -1392,6 +1579,8 @@
 [proto.firmata](proto.firmata.html)
 
 ### ping
+[net.ws.client](net.ws.client.html)
+[net.ws.server](net.ws.server.html)
 [proto.moppy](proto.moppy.html)
 
 ### pingpong
@@ -1404,6 +1593,8 @@
 [proto.midi](proto.midi.html)
 
 ### pixel
+[bitmap](bitmap.html)
+[hw.rpi.display.ssd1306](hw.rpi.display.ssd1306.html)
 [proto.sp.alpaca](proto.sp.alpaca.html)
 
 ### play
@@ -1437,7 +1628,18 @@
 [ui.canvas](ui.canvas.html)
 [ui.polar](ui.polar.html)
 
+### polarity
+[hw.rpi.i2c.pca9685](hw.rpi.i2c.pca9685.html)
+[hw.rpi.pwm](hw.rpi.pwm.html)
+
 ### poll
+[hw.rpi.adc.ads1115](hw.rpi.adc.ads1115.html)
+[hw.rpi.gpio](hw.rpi.gpio.html)
+[hw.rpi.sensor.dht11](hw.rpi.sensor.dht11.html)
+[hw.rpi.sensor.ir](hw.rpi.sensor.ir.html)
+[hw.rpi.sensor.mpu6050](hw.rpi.sensor.mpu6050.html)
+[hw.rpi.sensor.sr04](hw.rpi.sensor.sr04.html)
+[hw.rpi.sensor.vl53l0x](hw.rpi.sensor.vl53l0x.html)
 [net.artnet.send](net.artnet.send.html)
 
 ### polltime
@@ -1512,8 +1714,14 @@
 [ui.tab](ui.tab.html)
 [ui.toggle](ui.toggle.html)
 
+### post
+[net.http.client](net.http.client.html)
+
 ### postscript
 [canvas.top](canvas.top.html)
+
+### power
+[hw.rpi.spi.max7219](hw.rpi.spi.max7219.html)
 
 ### prepend
 [data.list](data.list.html)
@@ -1537,6 +1745,9 @@
 [ui.radio](ui.radio.html)
 [ui.tab](ui.tab.html)
 
+### print
+[hw.printer](hw.printer.html)
+
 ### prog
 [fluid~](fluid~.html)
 [sfizz~](sfizz~.html)
@@ -1544,8 +1755,23 @@
 ### program
 [proto.midi](proto.midi.html)
 
+### publish
+[net.mqtt.client](net.mqtt.client.html)
+
+### pull_down
+[hw.rpi.gpio](hw.rpi.gpio.html)
+
+### pull_up
+[hw.rpi.gpio](hw.rpi.gpio.html)
+
 ### pulse
 [array.fill](array.fill.html)
+
+### pwidth
+[hw.rpi.i2c.pca9685](hw.rpi.i2c.pca9685.html)
+
+### pwm
+[hw.rpi.pwm](hw.rpi.pwm.html)
 
 ### qrcode
 [ui.canvas](ui.canvas.html)
@@ -1584,6 +1810,7 @@
 [global.bimap](global.bimap.html)
 [global.dict](global.dict.html)
 [hw.apple_smc](hw.apple_smc.html)
+[hw.rpi.gpio](hw.rpi.gpio.html)
 [lang.faust~](lang.faust~.html)
 [local.bimap](local.bimap.html)
 [local.dict](local.dict.html)
@@ -1617,6 +1844,7 @@
 
 ### rect
 [array.window](array.window.html)
+[bitmap](bitmap.html)
 [proto.inscore](proto.inscore.html)
 [ui.canvas](ui.canvas.html)
 [window](window.html)
@@ -1626,6 +1854,9 @@
 
 ### redraw
 [array.readwrite~](array.readwrite~.html)
+
+### register
+[net.mdns](net.mdns.html)
 
 ### remove
 [data.dict](data.dict.html)
@@ -1734,6 +1965,8 @@
 [fx.vocoder~](fx.vocoder~.html)
 [fx.wahwah~](fx.wahwah~.html)
 [fx.zita_rev1~](fx.zita_rev1~.html)
+[hw.rpi.gpio](hw.rpi.gpio.html)
+[hw.rpi.rotenc](hw.rpi.rotenc.html)
 [lang.faust~](lang.faust~.html)
 [lfo.+pulse~](lfo.%2Bpulse~.html)
 [lfo.+saw~](lfo.%2Bsaw~.html)
@@ -1799,6 +2032,7 @@
 [synth.hat~](synth.hat~.html)
 [synth.kick2~](synth.kick2~.html)
 [synth.kick~](synth.kick~.html)
+[synth.metro~](synth.metro~.html)
 [synth.piano~](synth.piano~.html)
 [synth.risset_bell~](synth.risset_bell~.html)
 [synth.risset_tone~](synth.risset_tone~.html)
@@ -1814,6 +2048,12 @@
 [array.circular~](array.circular~.html)
 [array.window](array.window.html)
 [data.fifo](data.fifo.html)
+
+### resolve
+[net.mdns](net.mdns.html)
+
+### restart
+[hw.rpi.i2c.pca9685](hw.rpi.i2c.pca9685.html)
 
 ### rev_time
 [proto.midi.casio](proto.midi.casio.html)
@@ -1848,12 +2088,17 @@
 
 ### rotate
 [data.color](data.color.html)
+[hw.rpi.spi.ws2812](hw.rpi.spi.ws2812.html)
 [ui.canvas](ui.canvas.html)
 [ui.polar](ui.polar.html)
 [ui.radio](ui.radio.html)
 [xdac~](xdac~.html)
 
+### rotation
+[hw.rpi.display.ssd1306](hw.rpi.display.ssd1306.html)
+
 ### row
+[bitmap](bitmap.html)
 [proto.sp.alpaca](proto.sp.alpaca.html)
 
 ### rpent
@@ -1869,6 +2114,7 @@
 [data.color](data.color.html)
 
 ### save
+[bitmap](bitmap.html)
 [snd.file](snd.file.html)
 
 ### saw
@@ -1878,6 +2124,39 @@
 [proto.inscore](proto.inscore.html)
 [ui.canvas](ui.canvas.html)
 [ui.scope~](ui.scope~.html)
+
+### scene create
+[proto.obs](proto.obs.html)
+
+### scene current get
+[proto.obs](proto.obs.html)
+
+### scene current set
+[proto.obs](proto.obs.html)
+
+### scene first
+[proto.obs](proto.obs.html)
+
+### scene last
+[proto.obs](proto.obs.html)
+
+### scene list
+[proto.obs](proto.obs.html)
+
+### scene next
+[proto.obs](proto.obs.html)
+
+### scene prev
+[proto.obs](proto.obs.html)
+
+### scene remove
+[proto.obs](proto.obs.html)
+
+### search
+[net.freesound](net.freesound.html)
+
+### sector
+[bitmap](bitmap.html)
 
 ### seed
 [chaos.logistic](chaos.logistic.html)
@@ -1913,6 +2192,15 @@
 
 ### send
 [net.osc.send](net.osc.send.html)
+[net.ws.client](net.ws.client.html)
+[net.ws.server](net.ws.server.html)
+
+### send_array
+[net.ws.client](net.ws.client.html)
+
+### send_binary
+[net.ws.client](net.ws.client.html)
+[net.ws.server](net.ws.server.html)
 
 ### send_blob
 [net.osc.send](net.osc.send.html)
@@ -1937,6 +2225,10 @@
 
 ### send_inf
 [net.osc.send](net.osc.send.html)
+
+### send_json
+[net.ws.client](net.ws.client.html)
+[net.ws.server](net.ws.server.html)
 
 ### send_midi
 [net.osc.send](net.osc.send.html)
@@ -1972,6 +2264,8 @@
 [global.mlist](global.mlist.html)
 [global.set](global.set.html)
 [hoa.map.ui](hoa.map.ui.html)
+[hw.rpi.rotenc](hw.rpi.rotenc.html)
+[hw.rpi.spi.ws2812](hw.rpi.spi.ws2812.html)
 [local.bimap](local.bimap.html)
 [local.dict](local.dict.html)
 [local.float](local.float.html)
@@ -2001,7 +2295,6 @@
 [ui.icon](ui.icon.html)
 [ui.incdec](ui.incdec.html)
 [ui.knob](ui.knob.html)
-[ui.label](ui.label.html)
 [ui.lcd](ui.lcd.html)
 [ui.menu](ui.menu.html)
 [ui.number](ui.number.html)
@@ -2036,8 +2329,21 @@
 ### set cursor
 [ui.lcd](ui.lcd.html)
 
+### set list
+[bitmap](bitmap.html)
+
 ### set list ...
 [ui.matrix](ui.matrix.html)
+
+### set matrix
+[bitmap](bitmap.html)
+[ui.lcd](ui.lcd.html)
+
+### set matrix R C ...
+[ui.matrix](ui.matrix.html)
+
+### set matrix_at
+[bitmap](bitmap.html)
 
 ### set pixel
 [ui.lcd](ui.lcd.html)
@@ -2072,8 +2378,20 @@
 ### set_point_value
 [envelope](envelope.html)
 
+### set_preset
+[fluid~](fluid~.html)
+
+### set_range
+[hw.rpi.spi.ws2812](hw.rpi.spi.ws2812.html)
+
+### set_raw
+[hw.rpi.i2c.pca9685](hw.rpi.i2c.pca9685.html)
+
 ### set_seg_type
 [envelope](envelope.html)
+
+### set_slice
+[hw.rpi.spi.ws2812](hw.rpi.spi.ws2812.html)
 
 ### set_stop_point
 [envelope](envelope.html)
@@ -2094,6 +2412,9 @@
 [local.mlist](local.mlist.html)
 [xdac~](xdac~.html)
 
+### shutdown
+[net.ws.server](net.ws.server.html)
+
 ### side2circle
 [xdac~](xdac~.html)
 
@@ -2113,6 +2434,7 @@
 [window](window.html)
 
 ### size
+[data.path](data.path.html)
 [ui.faust~](ui.faust~.html)
 
 ### skip
@@ -2127,6 +2449,12 @@
 ### soft
 [fluid~](fluid~.html)
 [sfizz~](sfizz~.html)
+
+### soft_pwm
+[hw.rpi.gpio](hw.rpi.gpio.html)
+
+### soft_pwm_freq
+[hw.rpi.gpio](hw.rpi.gpio.html)
 
 ### solo
 [mix~](mix~.html)
@@ -2195,6 +2523,9 @@
 ### status
 [proto.vlc](proto.vlc.html)
 
+### stdin
+[system.command](system.command.html)
+
 ### step
 [envelope](envelope.html)
 [ui.env](ui.env.html)
@@ -2207,6 +2538,7 @@
 [midi.track](midi.track.html)
 [modplug~](modplug~.html)
 [net.osc.server](net.osc.server.html)
+[net.ws.server](net.ws.server.html)
 [proto.midi](proto.midi.html)
 [proto.mpv](proto.mpv.html)
 [proto.vlc](proto.vlc.html)
@@ -2258,8 +2590,18 @@
 ### stroke
 [ui.canvas](ui.canvas.html)
 
-### symbol
-[ui.label](ui.label.html)
+### stroke_color
+[bitmap](bitmap.html)
+
+### stroke_width
+[bitmap](bitmap.html)
+
+### subscribe
+[net.mdns](net.mdns.html)
+[net.mqtt.client](net.mqtt.client.html)
+
+### switch_on
+[hw.rpi.display.ssd1306](hw.rpi.display.ssd1306.html)
 
 ### sync
 [proto.sp.alpaca](proto.sp.alpaca.html)
@@ -2271,13 +2613,25 @@
 ### sysreset
 [proto.midi](proto.midi.html)
 
+### temp
+[system.info](system.info.html)
+
 ### terminate
+[system.command](system.command.html)
 [system.exec](system.exec.html)
 
+### test
+[hw.rpi.spi.max7219](hw.rpi.spi.max7219.html)
+
 ### text
+[bitmap](bitmap.html)
+[hw.rpi.display.ssd1306](hw.rpi.display.ssd1306.html)
 [proto.inscore](proto.inscore.html)
 [proto.mpv](proto.mpv.html)
 [ui.canvas](ui.canvas.html)
+
+### text_color
+[bitmap](bitmap.html)
 
 ### tick
 [proto.midi](proto.midi.html)
@@ -2301,6 +2655,7 @@
 [tl.timeline](tl.timeline.html)
 
 ### toggle
+[hw.rpi.gpio](hw.rpi.gpio.html)
 [proto.whammy](proto.whammy.html)
 
 ### translate
@@ -2310,6 +2665,9 @@
 [array.fill](array.fill.html)
 [array.window](array.window.html)
 [window](window.html)
+
+### triangle
+[bitmap](bitmap.html)
 
 ### tune.
 [fluid~](fluid~.html)
@@ -2344,16 +2702,35 @@
 ### tune~
 [proto.midi.cc](proto.midi.cc.html)
 
+### type
+[data.path](data.path.html)
+
 ### ulcd
 [proto.xtouch_ext](proto.xtouch_ext.html)
 
 ### uniform
 [array.fill](array.fill.html)
 
+### unregister
+[net.mdns](net.mdns.html)
+
+### unsubscribe
+[net.mdns](net.mdns.html)
+[net.mqtt.client](net.mqtt.client.html)
+
 ### update
 [preset.storage](preset.storage.html)
 [ui.aview](ui.aview.html)
 [ui.canvas](ui.canvas.html)
+
+### upload
+[net.http.client](net.http.client.html)
+
+### use_prog_addr
+[hw.rpi.i2c.pca9685](hw.rpi.i2c.pca9685.html)
+
+### used_pins
+[hw.rpi.gpio](hw.rpi.gpio.html)
 
 ### velvet
 [noise.colored~](noise.colored~.html)
@@ -2364,6 +2741,9 @@
 
 ### vhive
 [seq.life](seq.life.html)
+
+### view
+[bitmap](bitmap.html)
 
 ### volume
 [proto.vlc](proto.vlc.html)
@@ -2379,6 +2759,9 @@
 
 ### volume~
 [proto.midi.cc](proto.midi.cc.html)
+
+### vshift
+[bitmap](bitmap.html)
 
 ### vu
 [proto.xtouch_ext](proto.xtouch_ext.html)
@@ -2397,6 +2780,7 @@
 [hoa.2d.recomposer~](hoa.2d.recomposer~.html)
 
 ### width
+[hw.rpi.pwm](hw.rpi.pwm.html)
 [proto.inscore](proto.inscore.html)
 [ui.canvas](ui.canvas.html)
 
@@ -2405,10 +2789,13 @@
 [data.dict](data.dict.html)
 [global.bimap](global.bimap.html)
 [global.dict](global.dict.html)
+[hw.rpi.display.hd44780](hw.rpi.display.hd44780.html)
+[hw.rpi.gpio](hw.rpi.gpio.html)
 [lang.faust~](lang.faust~.html)
 [local.bimap](local.bimap.html)
 [local.dict](local.dict.html)
 [midi.file](midi.file.html)
+[net.ws.client](net.ws.client.html)
 [path.file](path.file.html)
 [preset.storage](preset.storage.html)
 [proto.inscore](proto.inscore.html)
@@ -2416,6 +2803,34 @@
 [ui.faust~](ui.faust~.html)
 [ui.matrix](ui.matrix.html)
 [ui.preset](ui.preset.html)
+
+### write bitmap
+[hw.rpi.display.ssd1306](hw.rpi.display.ssd1306.html)
+
+### write bits
+[hw.rpi.spi.max7219](hw.rpi.spi.max7219.html)
+
+### write bytes
+[hw.rpi.display.ssd1306](hw.rpi.display.ssd1306.html)
+[hw.rpi.spi.max7219](hw.rpi.spi.max7219.html)
+
+### write float
+[hw.rpi.spi.max7219](hw.rpi.spi.max7219.html)
+
+### write hex
+[hw.rpi.spi.max7219](hw.rpi.spi.max7219.html)
+
+### write int
+[hw.rpi.spi.max7219](hw.rpi.spi.max7219.html)
+
+### write reg
+[hw.rpi.spi.max7219](hw.rpi.spi.max7219.html)
+
+### write str
+[hw.rpi.spi.max7219](hw.rpi.spi.max7219.html)
+
+### write_binary
+[net.ws.client](net.ws.client.html)
 
 ### write_bytes
 [path.file](path.file.html)
@@ -2425,6 +2840,9 @@
 
 ### write_dpin
 [proto.firmata](proto.firmata.html)
+
+### write_json
+[net.ws.client](net.ws.client.html)
 
 ### write_line
 [path.file](path.file.html)

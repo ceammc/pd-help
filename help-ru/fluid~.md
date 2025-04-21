@@ -307,6 +307,20 @@ select tuning bank and preset<br>
     тип: int <br>
     обязательно: True <br>
 
+* **set_preset**
+set soundfont preset for midi channel<br>
+  __параметры:__
+  - **CHAN** MIDI channel<br>
+    тип: int <br>
+    обязательно: True <br>
+
+  - **PRESET** preset name or index<br>
+    тип: atom <br>
+    обязательно: True <br>
+
+  - **[SFONT]** soundfont index. See @soundfonts property.<br>
+    тип: int <br>
+
 
 
 
@@ -315,6 +329,7 @@ select tuning bank and preset<br>
 * **@sf** 
 Запросить/установить soundfont path, you can use **default** value to load default soundfont<br>
 _тип:_ symbol<br>
+_по умолчанию:_ default<br>
 
 * **@version** (readonly)
 Запросить FluidSynth version<br>
@@ -335,7 +350,7 @@ _по умолчанию:_ 0<br>
 Запросить/установить output volume (same as @gain but in db)<br>
 _тип:_ float<br>
 _единица:_ db<br>
-_диапазон:_ -60..10<br>
+_диапазон:_ -60..20<br>
 _по умолчанию:_ 0<br>
 
 * **@reverb_level** 
@@ -384,6 +399,10 @@ _по умолчанию:_ 0<br>
 _тип:_ float<br>
 _единица:_ samp<br>
 _по умолчанию:_ 0<br>
+
+* **@presets** (readonly)
+Запросить presets name for current soundfont<br>
+_тип:_ list<br>
 
 
 

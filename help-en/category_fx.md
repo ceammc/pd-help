@@ -85,6 +85,6 @@ _aliases:_ \[fx.secho\~\]
 [**fx.zita_rev1\~**](fx.zita_rev1~.html): Zita stereo reverb 
 
 
-**Version:** 0.9.7
+**Version:** 0.9.8
 
 **License:** GPL3

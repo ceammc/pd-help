@@ -81,19 +81,19 @@ _default:_ minmax<br>
 
 * **@noclip** 
 Get/set alias to @clip noclip<br>
-_type:_ symbol<br>
+_type:_ alias<br>
 
 * **@min** 
 Get/set alias to @clip min<br>
-_type:_ symbol<br>
+_type:_ alias<br>
 
 * **@max** 
 Get/set alias to @clip max<br>
-_type:_ symbol<br>
+_type:_ alias<br>
 
 * **@minmax** 
 Get/set alias to @clip minmax<br>
-_type:_ symbol<br>
+_type:_ alias<br>
 
 
 

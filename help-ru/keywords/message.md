@@ -11,6 +11,7 @@
 * [msg.onload](../msg.onload.html)
 * [msg.pack](../msg.pack.html)
 * [msg.sched](../msg.sched.html)
+* [msg.unpack](../msg.unpack.html)
 
 ---
 **Сайт:** [https://github.com/uliss/pure-data](https://github.com/uliss/pure-data)

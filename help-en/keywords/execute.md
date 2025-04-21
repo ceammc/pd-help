@@ -4,6 +4,7 @@
 ## Keyword: execute
 
 ### Objects:
+* [system.command](../system.command.html)
 * [system.exec](../system.exec.html)
 
 ---

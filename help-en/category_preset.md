@@ -21,6 +21,6 @@ _aliases:_ \[preset.s\]
 
 
 
-**Version:** 0.9.7
+**Version:** 0.9.8
 
 **License:** GPL3

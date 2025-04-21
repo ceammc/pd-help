@@ -115,6 +115,21 @@ set single pixel<br>
     тип: bool <br>
     обязательно: True <br>
 
+* **set matrix**
+set matrix data<br>
+  __параметры:__
+  - **NROWS** matrix row number<br>
+    тип: int <br>
+    обязательно: True <br>
+
+  - **NCOLS** matrix column numbers<br>
+    тип: int <br>
+    обязательно: True <br>
+
+  - **VALUES** pixel values<br>
+    тип: list <br>
+    обязательно: True <br>
+
 * **set row**
 set row content<br>
   __параметры:__

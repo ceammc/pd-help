@@ -13,7 +13,7 @@
 
 
 ## information
-do nothing more than vanilla bang for the moment...
+Bang on steroids: bind to MIDI and keyboard
 
 
 [![example](../examples/img/ui.bang.jpg)](../examples/pd/ui.bang.pd)
@@ -42,6 +42,10 @@ set UI element position<br>
 
 
 ## properties:
+
+* **@bind** 
+Get/set MIDI/keyboard bind expression<br>
+_type:_ list<br>
 
 * **@send** 
 Get/set send destination<br>

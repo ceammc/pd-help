@@ -311,6 +311,7 @@
 [list.pass](list.pass.html)
 [list.reject](list.reject.html)
 [list.route](list.route.html)
+[system.command](system.command.html)
 
 ### @array
 [an.onset](an.onset.html)
@@ -360,6 +361,7 @@
 [midi.vrand](midi.vrand.html)
 
 ### @async
+[data.path](data.path.html)
 [file.size](file.size.html)
 [path.search](path.search.html)
 
@@ -504,8 +506,24 @@
 [hoa.2d.decoder~](hoa.2d.decoder~.html)
 [hoa.3d.decoder~](hoa.3d.decoder~.html)
 
+### @bind
+[ui.bang](ui.bang.html)
+
+### @bind_down
+[ui.incdec](ui.incdec.html)
+
+### @bind_up
+[ui.incdec](ui.incdec.html)
+
+### @bind_x
+[ui.slider2d](ui.slider2d.html)
+
+### @bind_y
+[ui.slider2d](ui.slider2d.html)
+
 ### @bins
 [array.hist](array.hist.html)
+[flow.histogram](flow.histogram.html)
 [list.histogram](list.histogram.html)
 
 ### @bits
@@ -582,6 +600,9 @@
 [an.onset~](an.onset~.html)
 [an.tempo~](an.tempo~.html)
 [an.zero~](an.zero~.html)
+
+### @btn
+[hw.rpi.rotenc](hw.rpi.rotenc.html)
 
 ### @bufsize
 [fluid~](fluid~.html)
@@ -697,6 +718,9 @@
 ### @classic
 [proto.whammy](proto.whammy.html)
 
+### @clear
+[hw.rpi.spi.ws2812](hw.rpi.spi.ws2812.html)
+
 ### @click
 [synth.kick2~](synth.kick2~.html)
 
@@ -716,6 +740,9 @@
 [synth.glitch~](synth.glitch~.html)
 [system.cursor](system.cursor.html)
 
+### @clk
+[hw.rpi.rotenc](hw.rpi.rotenc.html)
+
 ### @clock
 [an.zero~](an.zero~.html)
 [array.play~](array.play~.html)
@@ -727,6 +754,9 @@
 
 ### @closed
 [list.seq](list.seq.html)
+
+### @cmp
+[symbol.equal](symbol.equal.html)
 
 ### @coeffs
 [math.polyeval](math.polyeval.html)
@@ -779,6 +809,9 @@
 
 ### @crop
 [hoa.2d.decoder~](hoa.2d.decoder~.html)
+
+### @cs
+[hw.rpi.spi.max7219](hw.rpi.spi.max7219.html)
 
 ### @ctlin
 [midi.sustain](midi.sustain.html)
@@ -1007,6 +1040,9 @@
 ### @display_type
 [ui.display](ui.display.html)
 
+### @displays
+[hw.rpi.spi.max7219](hw.rpi.spi.max7219.html)
+
 ### @dist
 [midi.vrand](midi.vrand.html)
 
@@ -1106,6 +1142,9 @@
 [fx.wahwah~](fx.wahwah~.html)
 [fx.zita_rev1~](fx.zita_rev1~.html)
 
+### @dt
+[hw.rpi.rotenc](hw.rpi.rotenc.html)
+
 ### @dub_to_play_time
 [fx.looper~](fx.looper~.html)
 
@@ -1139,6 +1178,9 @@
 ### @e
 [plot.geomspace~](plot.geomspace~.html)
 [plot.logspace~](plot.logspace~.html)
+
+### @echo_pin
+[hw.rpi.sensor.sr04](hw.rpi.sensor.sr04.html)
 
 ### @empty
 [data.bimap](data.bimap.html)
@@ -1712,9 +1754,15 @@
 ### @fromDaniel
 [hoa.3d.exchanger~](hoa.3d.exchanger~.html)
 
+### @fsr
+[hw.rpi.adc.ads1115](hw.rpi.adc.ads1115.html)
+
 ### @full
 [list.convolve](list.convolve.html)
 [list.correlate](list.correlate.html)
+
+### @fullname
+[net.mdns](net.mdns.html)
 
 ### @fvowel
 [synth.voice_fofc~](synth.voice_fofc~.html)
@@ -1819,6 +1867,7 @@
 [ui.filter~](ui.filter~.html)
 
 ### @h
+[bitmap](bitmap.html)
 [system.colorpanel](system.colorpanel.html)
 
 ### @hammer_hardness
@@ -1907,6 +1956,7 @@
 [net.http.send](net.http.send.html)
 [net.osc.send](net.osc.send.html)
 [net.osc.server](net.osc.server.html)
+[proto.obs](proto.obs.html)
 [proto.vlc](proto.vlc.html)
 
 ### @hot_color
@@ -1945,6 +1995,22 @@
 [seq.toggles](seq.toggles.html)
 [sequencer](sequencer.html)
 [system.colorpanel](system.colorpanel.html)
+
+### @i2c_addr
+[hw.rpi.adc.ads1115](hw.rpi.adc.ads1115.html)
+[hw.rpi.display.hd44780](hw.rpi.display.hd44780.html)
+[hw.rpi.display.ssd1306](hw.rpi.display.ssd1306.html)
+[hw.rpi.i2c.pca9685](hw.rpi.i2c.pca9685.html)
+[hw.rpi.sensor.mpu6050](hw.rpi.sensor.mpu6050.html)
+[hw.rpi.sensor.vl53l0x](hw.rpi.sensor.vl53l0x.html)
+
+### @i2c_bus
+[hw.rpi.adc.ads1115](hw.rpi.adc.ads1115.html)
+[hw.rpi.display.hd44780](hw.rpi.display.hd44780.html)
+[hw.rpi.display.ssd1306](hw.rpi.display.ssd1306.html)
+[hw.rpi.i2c.pca9685](hw.rpi.i2c.pca9685.html)
+[hw.rpi.sensor.mpu6050](hw.rpi.sensor.mpu6050.html)
+[hw.rpi.sensor.vl53l0x](hw.rpi.sensor.vl53l0x.html)
 
 ### @icon
 [ui.icon](ui.icon.html)
@@ -2055,6 +2121,7 @@
 [local.list](local.list.html)
 [local.mlist](local.mlist.html)
 [local.set](local.set.html)
+[net.mqtt.client](net.mqtt.client.html)
 [noise.chua~](noise.chua~.html)
 [noise.colored~](noise.colored~.html)
 [noise.crackle~](noise.crackle~.html)
@@ -2115,6 +2182,12 @@
 ### @in_list
 [is_data](is_data.html)
 
+### @in_max
+[hw.rpi.adc.ads1115](hw.rpi.adc.ads1115.html)
+
+### @in_min
+[hw.rpi.adc.ads1115](hw.rpi.adc.ads1115.html)
+
 ### @in_to
 [conv.lin2curve](conv.lin2curve.html)
 [conv.lin2exp](conv.lin2exp.html)
@@ -2154,6 +2227,7 @@
 [flow.pack](flow.pack.html)
 [flow.sync_pack](flow.sync_pack.html)
 [gate~](gate~.html)
+[hw.rpi.rotenc](hw.rpi.rotenc.html)
 [metro.wchoice](metro.wchoice.html)
 [preset.float](preset.float.html)
 [preset.list](preset.list.html)
@@ -2162,6 +2236,9 @@
 
 ### @initfreq
 [lfo.pulse~](lfo.pulse~.html)
+
+### @inner_bins
+[flow.histogram](flow.histogram.html)
 
 ### @inphase
 [hoa.2d.optim~](hoa.2d.optim~.html)
@@ -2214,6 +2291,7 @@
 
 ### @ip
 [net.artnet.send](net.artnet.send.html)
+[net.mdns](net.mdns.html)
 
 ### @ipc
 [proto.mpv](proto.mpv.html)
@@ -2606,6 +2684,7 @@
 [conv.lin2lin~](conv.lin2lin~.html)
 [flow.record](flow.record.html)
 [hoa.2d.space](hoa.2d.space.html)
+[hw.rpi.rotenc](hw.rpi.rotenc.html)
 [metro.random](metro.random.html)
 [midi.cc](midi.cc.html)
 [midi.vrand](midi.vrand.html)
@@ -2695,6 +2774,7 @@
 [conv.lin2lin](conv.lin2lin.html)
 [conv.lin2lin~](conv.lin2lin~.html)
 [hoa.2d.space](hoa.2d.space.html)
+[hw.rpi.rotenc](hw.rpi.rotenc.html)
 [list.delta](list.delta.html)
 [list.integrator](list.integrator.html)
 [list.unzip](list.unzip.html)
@@ -2761,6 +2841,8 @@
 [hoa.3d.decoder~](hoa.3d.decoder~.html)
 [hoa.3d.map~](hoa.3d.map~.html)
 [hoa.3d.optim~](hoa.3d.optim~.html)
+[hw.rpi.adc.ads1115](hw.rpi.adc.ads1115.html)
+[hw.rpi.display.ssd1306](hw.rpi.display.ssd1306.html)
 [list.convolve](list.convolve.html)
 [list.correlate](list.correlate.html)
 [list.walk](list.walk.html)
@@ -2768,6 +2850,9 @@
 [midi.modus](midi.modus.html)
 [midi.oct](midi.oct.html)
 [midi.vrand](midi.vrand.html)
+[net.mqtt.client](net.mqtt.client.html)
+[net.ws.client](net.ws.client.html)
+[net.ws.server](net.ws.server.html)
 [proto.whammy](proto.whammy.html)
 [seq.bangs](seq.bangs.html)
 [seq.counter](seq.counter.html)
@@ -2778,6 +2863,7 @@
 [string.replace](string.replace.html)
 [synth.ks~](synth.ks~.html)
 [system.colorpanel](system.colorpanel.html)
+[system.command](system.command.html)
 [tl.timeline](tl.timeline.html)
 [ui.icon](ui.icon.html)
 [ui.plot~](ui.plot~.html)
@@ -2886,6 +2972,7 @@
 [merge~](merge~.html)
 [midi.vramp](midi.vramp.html)
 [msg.pack](msg.pack.html)
+[msg.unpack](msg.unpack.html)
 [nsig~](nsig~.html)
 [pan.spread~](pan.spread~.html)
 [plot.geomspace~](plot.geomspace~.html)
@@ -2904,11 +2991,15 @@
 [split~](split~.html)
 [sync](sync.html)
 [ui.plot~](ui.plot~.html)
+[xfade2~](xfade2~.html)
+[xfade~](xfade~.html)
 
 ### @name
 [canvas.current](canvas.current.html)
 [canvas.top](canvas.top.html)
+[function](function.html)
 [function.call](function.call.html)
+[hw.printer](hw.printer.html)
 [modplug~](modplug~.html)
 [net.osc.server](net.osc.server.html)
 [snd.play~](snd.play~.html)
@@ -2965,8 +3056,11 @@
 ### @norm
 [array.convolve](array.convolve.html)
 [convolve~](convolve~.html)
+[data.path](data.path.html)
+[flow.histogram](flow.histogram.html)
 [hoa.2d.exchanger~](hoa.2d.exchanger~.html)
 [hoa.3d.exchanger~](hoa.3d.exchanger~.html)
+[hw.rpi.adc.ads1115](hw.rpi.adc.ads1115.html)
 [system.cursor](system.cursor.html)
 [ui.env](ui.env.html)
 
@@ -2993,6 +3087,15 @@
 ### @num
 [hoa.2d.exchanger~](hoa.2d.exchanger~.html)
 [hoa.3d.exchanger~](hoa.3d.exchanger~.html)
+
+### @oauth_file
+[net.freesound](net.freesound.html)
+
+### @oauth_id
+[net.freesound](net.freesound.html)
+
+### @oauth_secret
+[net.freesound](net.freesound.html)
 
 ### @oct
 [midi.oct](midi.oct.html)
@@ -3052,6 +3155,7 @@
 
 ### @on_err
 [conv.str2sec](conv.str2sec.html)
+[snd.play~](snd.play~.html)
 
 ### @on_full
 [flow.stack](flow.stack.html)
@@ -3294,6 +3398,12 @@
 [conv.lin2lin](conv.lin2lin.html)
 [conv.lin2lin~](conv.lin2lin~.html)
 
+### @out_max
+[hw.rpi.adc.ads1115](hw.rpi.adc.ads1115.html)
+
+### @out_min
+[hw.rpi.adc.ads1115](hw.rpi.adc.ads1115.html)
+
 ### @out_to
 [conv.lin2curve](conv.lin2curve.html)
 [conv.lin2exp](conv.lin2exp.html)
@@ -3362,14 +3472,19 @@
 [synth.piano~](synth.piano~.html)
 
 ### @pass
+[flow.once](flow.once.html)
 [midi.arp](midi.arp.html)
 [net.http.send](net.http.send.html)
 [proto.vlc](proto.vlc.html)
+
+### @passwd
+[proto.obs](proto.obs.html)
 
 ### @patch
 [hoa.process~](hoa.process~.html)
 
 ### @path
+[data.path](data.path.html)
 [net.osc.receive](net.osc.receive.html)
 [net.osc.send](net.osc.send.html)
 [net.osc.server](net.osc.server.html)
@@ -3439,6 +3554,10 @@
 
 ### @pi
 [plot.linspace~](plot.linspace~.html)
+
+### @pin
+[hw.rpi.sensor.dht11](hw.rpi.sensor.dht11.html)
+[hw.rpi.sensor.ir](hw.rpi.sensor.ir.html)
 
 ### @pinned
 [hoa.2d.space](hoa.2d.space.html)
@@ -3552,6 +3671,12 @@
 [envelope](envelope.html)
 [midi.split](midi.split.html)
 
+### @poll_interval
+[hw.rpi.sensor.sr04](hw.rpi.sensor.sr04.html)
+
+### @poll_time
+[hw.rpi.adc.ads1115](hw.rpi.adc.ads1115.html)
+
 ### @poly
 [conv.bits2bang](conv.bits2bang.html)
 [conv.bits2note](conv.bits2note.html)
@@ -3565,6 +3690,7 @@
 [net.http.send](net.http.send.html)
 [net.osc.send](net.osc.send.html)
 [net.osc.server](net.osc.server.html)
+[proto.obs](proto.obs.html)
 [proto.vlc](proto.vlc.html)
 
 ### @portamento
@@ -3630,6 +3756,9 @@
 [ui.tab](ui.tab.html)
 [ui.toggle](ui.toggle.html)
 
+### @presets
+[fluid~](fluid~.html)
+
 ### @priority
 [system.exec](system.exec.html)
 
@@ -3645,7 +3774,11 @@
 ### @program
 [ui.midi](ui.midi.html)
 
+### @props
+[dict.to_list](dict.to_list.html)
+
 ### @proto
+[hw.rpi.sensor.ir](hw.rpi.sensor.ir.html)
 [net.osc.send](net.osc.send.html)
 [net.osc.server](net.osc.server.html)
 [proto.xtouch_ext](proto.xtouch_ext.html)
@@ -3673,6 +3806,12 @@
 ### @pw_z
 [hoa.3d.decoder~](hoa.3d.decoder~.html)
 
+### @pwd
+[system.command](system.command.html)
+
+### @pwm_ch
+[hw.rpi.pwm](hw.rpi.pwm.html)
+
 ### @q
 [flt.bpf12~](flt.bpf12~.html)
 [flt.bpf24~](flt.bpf24~.html)
@@ -3694,6 +3833,9 @@
 [synth.dubdub~](synth.dubdub~.html)
 [ui.filter](ui.filter.html)
 [ui.filter~](ui.filter~.html)
+
+### @qos
+[net.mqtt.client](net.mqtt.client.html)
 
 ### @quality
 [array.resample](array.resample.html)
@@ -3914,6 +4056,9 @@
 [array.copy](array.copy.html)
 [env2array](env2array.html)
 
+### @retain
+[net.mqtt.client](net.mqtt.client.html)
+
 ### @rev
 [conv.bits2bang](conv.bits2bang.html)
 [conv.bits2int](conv.bits2int.html)
@@ -3974,6 +4119,7 @@
 [fx.looper~](fx.looper~.html)
 
 ### @rows
+[hw.rpi.display.hd44780](hw.rpi.display.hd44780.html)
 [seq.life](seq.life.html)
 [ui.lcd](ui.lcd.html)
 [ui.matrix](ui.matrix.html)
@@ -4210,6 +4356,8 @@
 [hoa.3d.scope~](hoa.3d.scope~.html)
 [hoa.map.ui](hoa.map.ui.html)
 [hoa.scope~](hoa.scope~.html)
+[hw.rpi.display.ssd1306](hw.rpi.display.ssd1306.html)
+[hw.rpi.spi.ws2812](hw.rpi.spi.ws2812.html)
 [list.repack](list.repack.html)
 [list.resize](list.resize.html)
 [list.stretch](list.stretch.html)
@@ -4346,6 +4494,26 @@
 [an.onset](an.onset.html)
 [an.onset~](an.onset~.html)
 
+### @spi
+[hw.rpi.spi.max7219](hw.rpi.spi.max7219.html)
+
+### @spi_bus
+[hw.rpi.display.ssd1306](hw.rpi.display.ssd1306.html)
+[hw.rpi.spi.ws2812](hw.rpi.spi.ws2812.html)
+
+### @spi_cs
+[hw.rpi.display.ssd1306](hw.rpi.display.ssd1306.html)
+[hw.rpi.spi.ws2812](hw.rpi.spi.ws2812.html)
+
+### @spi_dc
+[hw.rpi.display.ssd1306](hw.rpi.display.ssd1306.html)
+
+### @spi_freq
+[hw.rpi.display.ssd1306](hw.rpi.display.ssd1306.html)
+
+### @spi_rs
+[hw.rpi.display.ssd1306](hw.rpi.display.ssd1306.html)
+
 ### @split_high_freq
 [fx.distortion1~](fx.distortion1~.html)
 
@@ -4393,8 +4561,15 @@
 ### @std
 [path.search](path.search.html)
 
+### @stderr
+[system.command](system.command.html)
+
+### @stdout
+[system.command](system.command.html)
+
 ### @step
 [dict.from_list](dict.from_list.html)
+[hw.rpi.rotenc](hw.rpi.rotenc.html)
 [list.each](list.each.html)
 [list.rotate](list.rotate.html)
 [list.seq](list.seq.html)
@@ -4503,6 +4678,7 @@
 [conv.rgb2hex](conv.rgb2hex.html)
 [env2vline](env2vline.html)
 [file.size](file.size.html)
+[flow.histogram](flow.histogram.html)
 [flow.record](flow.record.html)
 [math.and](math.and.html)
 [math.or](math.or.html)
@@ -4526,6 +4702,7 @@
 [seq.nbangs](seq.nbangs.html)
 [seq.toggles](seq.toggles.html)
 [sequencer](sequencer.html)
+[system.command](system.command.html)
 
 ### @t0
 [spat.zita6x8~](spat.zita6x8~.html)
@@ -4735,6 +4912,7 @@
 
 ### @tempo
 [array.stretch](array.stretch.html)
+[conv.guido2note](conv.guido2note.html)
 [midi.file](midi.file.html)
 [midi.track](midi.track.html)
 [synth.metro~](synth.metro~.html)
@@ -4832,6 +5010,9 @@
 [fx.rb_pitchshift~](fx.rb_pitchshift~.html)
 [midi.oct](midi.oct.html)
 
+### @trig_pin
+[hw.rpi.sensor.sr04](hw.rpi.sensor.sr04.html)
+
 ### @trigger
 [fx.distortion1~](fx.distortion1~.html)
 [fx.distortion2~](fx.distortion2~.html)
@@ -4858,6 +5039,7 @@
 [math.nan~](math.nan~.html)
 [net.host2ip](net.host2ip.html)
 [prop.declare](prop.declare.html)
+[route.data](route.data.html)
 [synth.shakers~](synth.shakers~.html)
 [ui.filter](ui.filter.html)
 [ui.filter~](ui.filter~.html)
@@ -5036,6 +5218,7 @@
 [synth.voice_fofs~](synth.voice_fofs~.html)
 
 ### @w
+[bitmap](bitmap.html)
 [metro.wchoice](metro.wchoice.html)
 [random.atom](random.atom.html)
 

@@ -61,6 +61,9 @@ _тип:_ control
 
 
 
+**Смотрите также:**
+[\[array.hist\]](array.hist.html)
+
 
 
 

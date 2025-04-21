@@ -4,6 +4,7 @@
 ## Ключевое слово: execute
 
 ### Объекты:
+* [system.command](../system.command.html)
 * [system.exec](../system.exec.html)
 
 ---

@@ -4,6 +4,7 @@
 ## Keyword: http
 
 ### Objects:
+* [net.http.client](../net.http.client.html)
 * [net.http.send](../net.http.send.html)
 
 ---

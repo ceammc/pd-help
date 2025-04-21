@@ -52,7 +52,9 @@ _псевдонимы:_ \[list.conv\]
 
 [**list.gen**](list.gen.html): generates list of specified length via external generator 
 
-[**list.histogram**](list.histogram.html): outputs distribution histogram 
+[**list.histogram**](list.histogram.html): outputs distribution histogram <br>
+_псевдонимы:_ \[list.hist\]
+
 
 [**list.insert**](list.insert.html): insert atom or list to the specified position of input list 
 
@@ -173,6 +175,6 @@ _псевдонимы:_ \[list.interleave\]
 
 
 
-**Версия:** 0.9.7
+**Версия:** 0.9.8
 
 **Лицензия:** GPL3

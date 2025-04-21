@@ -11,6 +11,6 @@ _aliases:_ \[samp.t\~\]
 
 
 
-**Version:** 0.9.7
+**Version:** 0.9.8
 
 **License:** GPL3

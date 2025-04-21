@@ -11,7 +11,7 @@
 
 
 ## информация
-Alt+Click outputs all possible icon names to Pd window. Can be in bang, button and toggle modes. Button mode is default: outputs 1 on mouse down, 0 on mouse up. See @mode property for more information.
+The object can be in bang, button and toggle modes. The button mode is default: outputs 1 on mouse down, 0 on mouse up. See @mode property for more information.
 
 
 [![example](../examples/img/ui.icon.jpg)](../examples/pd/ui.icon.pd)
@@ -20,8 +20,8 @@ Alt+Click outputs all possible icon names to Pd window. Can be in bang, button a
 
 ## аргументы:
 
-* **NAME**
-icon name from list<br>
+* **ICON**
+icon name from the list<br>
 _тип:_ symbol<br>
 
 
@@ -72,9 +72,9 @@ stores specified preset<br>
 ## свойства:
 
 * **@mode** 
-Запросить/установить output mode. In bang mode - outputs bang on mouse down. In button mode outputs
-1 on mouse down and 0 on mouse up. In toggle mode outputs 1/0 on mouse down,
-like vanilla toggle object.<br>
+Запросить/установить the output mode. In the bang mode - outputs the bang on mouse down. In the
+button mode outputs 1 on mouse down and 0 on mouse up. In the toggle mode
+outputs 1/0 on mouse down, like vanilla toggle object.<br>
 _тип:_ symbol<br>
 _варианты:_ toggle, button, bang<br>
 _по умолчанию:_ button<br>

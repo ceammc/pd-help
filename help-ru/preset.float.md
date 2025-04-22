@@ -1,3 +1,6 @@
+---
+layout: default_ru
+---
 [index](index.html) :: [preset](category_preset.html)
 ---
 

@@ -1,3 +1,6 @@
+---
+layout: default_ru
+---
 [index](index.html) :: [math](category_math.html)
 ---
 

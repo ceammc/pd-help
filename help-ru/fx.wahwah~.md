@@ -1,3 +1,6 @@
+---
+layout: default_ru
+---
 [index](index.html) :: [fx](category_fx.html)
 ---
 

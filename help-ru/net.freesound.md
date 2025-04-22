@@ -1,3 +1,6 @@
+---
+layout: default_ru
+---
 [index](index.html) :: [net](category_net.html)
 ---
 

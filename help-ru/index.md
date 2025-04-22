@@ -1,3 +1,6 @@
+---
+layout: default_ru
+---
 [Главная](https://ceammc.github.io/pd-help/) 
 ---
 
@@ -55,6 +58,7 @@
 
 ### <a id="cat_an" href="category_an.html">an</a>
 
+
 ---
 
 
@@ -72,7 +76,8 @@
 
 
 ### <a id="cat_array" href="category_array.html">array</a>
-###### объекты для работы со звуковыми массивами и таблицами
+объекты для работы со звуковыми массивами и таблицами
+
 ---
 
 
@@ -145,6 +150,7 @@
 
 ### <a id="cat_base" href="category_base.html">base</a>
 
+
 ---
 
 
@@ -207,6 +213,7 @@
 
 ### <a id="cat_chaos" href="category_chaos.html">chaos</a>
 
+
 ---
 
 
@@ -224,6 +231,7 @@
 
 
 ### <a id="cat_conv" href="category_conv.html">conv</a>
+
 
 ---
 
@@ -339,6 +347,7 @@
 
 ### <a id="cat_data" href="category_data.html">data</a>
 
+
 ---
 
 
@@ -415,6 +424,7 @@
 
 ### <a id="cat_dyn" href="category_dyn.html">dyn</a>
 
+
 ---
 
 
@@ -446,6 +456,7 @@
 
 
 ### <a id="cat_env" href="category_env.html">env</a>
+
 
 ---
 
@@ -482,6 +493,7 @@
 
 
 ### <a id="cat_flow" href="category_flow.html">flow</a>
+
 
 ---
 
@@ -601,6 +613,7 @@
 
 ### <a id="cat_flt" href="category_flt.html">flt</a>
 
+
 ---
 
 
@@ -689,6 +702,7 @@
 
 ### <a id="cat_fx" href="category_fx.html">fx</a>
 
+
 ---
 
 
@@ -769,6 +783,7 @@
 
 ### <a id="cat_global" href="category_global.html">global</a>
 
+
 ---
 
 
@@ -786,6 +801,7 @@
 
 
 ### <a id="cat_hw" href="category_hw.html">hw</a>
+
 
 ---
 
@@ -839,6 +855,7 @@
 
 ### <a id="cat_lang" href="category_lang.html">lang</a>
 
+
 ---
 
 
@@ -850,6 +867,7 @@
 
 
 ### <a id="cat_lfo" href="category_lfo.html">lfo</a>
+
 
 ---
 
@@ -876,7 +894,8 @@
 
 
 ### <a id="cat_list" href="category_list.html">list</a>
-###### объекты для работы со списками
+объекты для работы со списками
+
 ---
 
 
@@ -1023,6 +1042,7 @@
 
 ### <a id="cat_live" href="category_live.html">live</a>
 
+
 ---
 
 
@@ -1030,6 +1050,7 @@
 
 
 ### <a id="cat_local" href="category_local.html">local</a>
+
 
 ---
 
@@ -1048,7 +1069,8 @@
 
 
 ### <a id="cat_math" href="category_math.html">math</a>
-###### различные математические объекты, которые могут работать в том числе и со списками чисел
+различные математические объекты, которые могут работать в том числе и со списками чисел
+
 ---
 
 
@@ -1251,6 +1273,7 @@
 
 ### <a id="cat_midi" href="category_midi.html">midi</a>
 
+
 ---
 
 
@@ -1299,6 +1322,7 @@
 
 ### <a id="cat_misc" href="category_misc.html">misc</a>
 
+
 ---
 
 
@@ -1323,6 +1347,7 @@
 
 ### <a id="cat_msg" href="category_msg.html">msg</a>
 
+
 ---
 
 
@@ -1345,6 +1370,7 @@
 
 ### <a id="cat_music" href="category_music.html">music</a>
 
+
 ---
 
 
@@ -1356,6 +1382,7 @@
 
 
 ### <a id="cat_net" href="category_net.html">net</a>
+
 
 ---
 
@@ -1386,6 +1413,7 @@
 
 
 ### <a id="cat_noise" href="category_noise.html">noise</a>
+
 
 ---
 
@@ -1439,6 +1467,7 @@
 
 ### <a id="cat_osc" href="category_osc.html">osc</a>
 
+
 ---
 
 
@@ -1463,6 +1492,7 @@
 
 ### <a id="cat_patch" href="category_patch.html">patch</a>
 
+
 ---
 
 
@@ -1486,6 +1516,7 @@
 
 
 ### <a id="cat_path" href="category_path.html">path</a>
+
 
 ---
 
@@ -1517,6 +1548,7 @@
 
 ### <a id="cat_predicates" href="category_predicates.html">predicates</a>
 
+
 ---
 
 
@@ -1547,6 +1579,7 @@
 
 ### <a id="cat_preset" href="category_preset.html">preset</a>
 
+
 ---
 
 
@@ -1560,6 +1593,7 @@
 
 
 ### <a id="cat_property" href="category_property.html">property</a>
+
 
 ---
 
@@ -1584,6 +1618,7 @@
 
 
 ### <a id="cat_proto" href="category_proto.html">proto</a>
+
 
 ---
 
@@ -1627,6 +1662,7 @@
 
 ### <a id="cat_random" href="category_random.html">random</a>
 
+
 ---
 
 
@@ -1649,6 +1685,7 @@
 
 ### <a id="cat_samp" href="category_samp.html">samp</a>
 
+
 ---
 
 
@@ -1656,6 +1693,7 @@
 
 
 ### <a id="cat_seq" href="category_seq.html">seq</a>
+
 
 ---
 
@@ -1681,6 +1719,7 @@
 
 ### <a id="cat_snd" href="category_snd.html">snd</a>
 
+
 ---
 
 
@@ -1690,6 +1729,7 @@
 
 
 ### <a id="cat_spat" href="category_spat.html">spat</a>
+
 
 ---
 
@@ -1767,6 +1807,7 @@
 
 ### <a id="cat_string" href="category_string.html">string</a>
 
+
 ---
 
 
@@ -1801,6 +1842,7 @@
 
 ### <a id="cat_symbol" href="category_symbol.html">symbol</a>
 
+
 ---
 
 
@@ -1816,6 +1858,7 @@
 
 
 ### <a id="cat_synth" href="category_synth.html">synth</a>
+
 
 ---
 
@@ -1893,6 +1936,7 @@
 
 ### <a id="cat_system" href="category_system.html">system</a>
 
+
 ---
 
 
@@ -1921,6 +1965,7 @@
 
 ### <a id="cat_tl" href="category_tl.html">tl</a>
 
+
 ---
 
 
@@ -1936,6 +1981,7 @@
 
 
 ### <a id="cat_ui" href="category_ui.html">ui</a>
+
 
 ---
 

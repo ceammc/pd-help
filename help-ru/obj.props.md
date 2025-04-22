@@ -1,3 +1,6 @@
+---
+layout: default_ru
+---
 [index](index.html) :: [base](category_base.html)
 ---
 

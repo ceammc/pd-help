@@ -1,3 +1,6 @@
+---
+layout: default_ru
+---
 [index](index.html) :: [noise](category_noise.html)
 ---
 

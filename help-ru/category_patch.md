@@ -1,8 +1,12 @@
-[index](index.html) 
+---
+layout: default_ru
+---
+[index](index.html)
 ---
 
-# Категория: patch
+## Категория: patch
 
+---
 
 
 

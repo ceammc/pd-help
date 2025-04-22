@@ -1,3 +1,6 @@
+---
+layout: default_ru
+---
 [index](index.html) :: [spat](category_spat.html)
 ---
 

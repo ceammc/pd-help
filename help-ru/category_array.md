@@ -1,8 +1,12 @@
-[index](index.html) 
+---
+layout: default_ru
+---
+[index](index.html)
 ---
 
-# Категория: array
+## Категория: array
 
+---
 объекты для работы со звуковыми массивами и таблицами
 
 

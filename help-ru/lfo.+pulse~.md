@@ -1,3 +1,6 @@
+---
+layout: default_ru
+---
 [index](index.html) :: [lfo](category_lfo.html)
 ---
 

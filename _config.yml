@@ -1,5 +1,5 @@
 theme: jekyll-theme-minimal
-exclude: [src-en, src-ru, src-vanilla-ru, src-vanilla-en, help-vanilla-en,  help-vanilla-ru, build, examples/ascii, help-en, scripts, config.sh, CMakeLists.txt]
+exclude: [src-en, src-ru, src-vanilla-ru, src-vanilla-en, help-vanilla-en, help-vanilla-ru, build, examples/ascii, scripts, config.sh, CMakeLists.txt]
 show_downloads: true
 title: "PureData CEAMMC web documentation"
 title_ru: "PureData CEAMMC веб-документация"

@@ -34,6 +34,11 @@ _type:_ bool<br>
 
 ## properties:
 
+* **@init** (initonly)
+Get/set init state for all slots. If true: all slots are open.<br>
+_type:_ bool<br>
+_default:_ true<br>
+
 * **@n** (initonly)
 Get/set number of [in|out]puts.<br>
 _type:_ int<br>
@@ -46,11 +51,6 @@ _type:_ float<br>
 _units:_ ms<br>
 _range:_ 0..1000<br>
 _default:_ 50<br>
-
-* **@init** (initonly)
-Get/set init state for all slots. If true: all slots are open.<br>
-_type:_ bool<br>
-_default:_ true<br>
 
 
 

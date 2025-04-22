@@ -32,10 +32,6 @@ _type:_ list<br>
 
 ## properties:
 
-* **@v** 
-Get/set alias to @keep_value 1<br>
-_type:_ alias<br>
-
 * **@keep_value** 
 Get/set value output mode. If false (by default) acts like vanilla select: output bang
 on match or full unmatched message to last outlet. If true always outputs full
@@ -46,6 +42,10 @@ _default:_ 0<br>
 * **@msg** 
 Get/set output this message on match, instead of bang<br>
 _type:_ list<br>
+
+* **@v** 
+Get/set alias to @keep_value 1<br>
+_type:_ alias<br>
 
 
 

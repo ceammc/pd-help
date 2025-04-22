@@ -32,15 +32,15 @@ _type:_ int<br>
 
 ## properties:
 
+* **@free** 
+Get/set clear cell mode. If on - clear cell counter after zero was reached.<br>
+_type:_ bool<br>
+_default:_ 1<br>
+
 * **@n** 
 Get/set number of memory cells<br>
 _type:_ int<br>
 _range:_ 1..32<br>
-_default:_ 1<br>
-
-* **@free** 
-Get/set clear cell mode. If on - clear cell counter after zero was reached.<br>
-_type:_ bool<br>
 _default:_ 1<br>
 
 * **@ttl** 

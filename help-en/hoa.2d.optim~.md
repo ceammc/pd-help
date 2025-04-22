@@ -36,11 +36,17 @@ _type:_ symbol<br>
 
 ## properties:
 
-* **@order** (initonly)
-Get/set the order of decomposition<br>
-_type:_ int<br>
-_range:_ 1..63<br>
-_default:_ 1<br>
+* **@basic** 
+Get/set alias for @mode basic (no optimization)<br>
+_type:_ alias<br>
+
+* **@inphase** 
+Get/set alias for @mode inphase.<br>
+_type:_ alias<br>
+
+* **@maxre** 
+Get/set alias for @mode maxre.<br>
+_type:_ alias<br>
 
 * **@mode** 
 Get/set optimization mode<br>
@@ -48,17 +54,11 @@ _type:_ symbol<br>
 _enum:_ basic, maxre, inphase<br>
 _default:_ basic<br>
 
-* **@basic** 
-Get/set alias for @mode basic (no optimization)<br>
-_type:_ alias<br>
-
-* **@maxre** 
-Get/set alias for @mode maxre.<br>
-_type:_ alias<br>
-
-* **@inphase** 
-Get/set alias for @mode inphase.<br>
-_type:_ alias<br>
+* **@order** (initonly)
+Get/set the order of decomposition<br>
+_type:_ int<br>
+_range:_ 1..63<br>
+_default:_ 1<br>
 
 
 

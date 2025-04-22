@@ -38,6 +38,24 @@ _type:_ symbol<br>
 
 ## methods:
 
+* **car**
+alias to &#39;cartesian&#39; method<br>
+
+* **cartesian**
+set source mapping in cartesian coordinates<br>
+  __parameters:__
+  - **IDX** source index. 1-based<br>
+    type: int <br>
+    required: True <br>
+
+  - **X** x-coord<br>
+    type: float <br>
+    required: True <br>
+
+  - **X** y-coord<br>
+    type: float <br>
+    required: True <br>
+
 * **mute**
 mute/unmute specified source<br>
   __parameters:__
@@ -48,6 +66,9 @@ mute/unmute specified source<br>
   - **STATE** mute value<br>
     type: int <br>
     required: True <br>
+
+* **pol**
+alias to &#39;polar&#39; method<br>
 
 * **polar**
 set source mapping in polar coordinates<br>
@@ -65,49 +86,10 @@ set source mapping in polar coordinates<br>
     units: rad <br>
     required: True <br>
 
-* **pol**
-alias to &#39;polar&#39; method<br>
-
-* **cartesian**
-set source mapping in cartesian coordinates<br>
-  __parameters:__
-  - **IDX** source index. 1-based<br>
-    type: int <br>
-    required: True <br>
-
-  - **X** x-coord<br>
-    type: float <br>
-    required: True <br>
-
-  - **X** y-coord<br>
-    type: float <br>
-    required: True <br>
-
-* **car**
-alias to &#39;cartesian&#39; method<br>
-
 
 
 
 ## properties:
-
-* **@order** (initonly)
-Get/set the order of decomposition<br>
-_type:_ int<br>
-_range:_ 1..63<br>
-_default:_ 1<br>
-
-* **@nsrc** (initonly)
-Get/set number of input sources<br>
-_type:_ int<br>
-_min value:_ 1<br>
-_default:_ 1<br>
-
-* **@ramp** 
-Get/set ramp time<br>
-_type:_ float<br>
-_min value:_ 0<br>
-_default:_ 100<br>
 
 * **@mode** 
 Get/set signal control mode (with nsrc=1). If &#39;pol&#39;: second and third signal inlets are
@@ -115,6 +97,24 @@ treated as radius and angle values, if &#39;car&#39;: as X and Y coordinates<br>
 _type:_ symbol<br>
 _enum:_ pol, car<br>
 _default:_ pol<br>
+
+* **@nsrc** (initonly)
+Get/set number of input sources<br>
+_type:_ int<br>
+_min value:_ 1<br>
+_default:_ 1<br>
+
+* **@order** (initonly)
+Get/set the order of decomposition<br>
+_type:_ int<br>
+_range:_ 1..63<br>
+_default:_ 1<br>
+
+* **@ramp** 
+Get/set ramp time<br>
+_type:_ float<br>
+_min value:_ 0<br>
+_default:_ 100<br>
 
 
 

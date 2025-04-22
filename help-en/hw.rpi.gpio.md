@@ -20,6 +20,21 @@
 
 ## methods:
 
+* **clear_pwm**
+clear PWM settings for pin<br>
+  __parameters:__
+  - **PIN** pin number<br>
+    type: int <br>
+    required: True <br>
+
+* **impulse**
+send impulse of specified length<br>
+  __parameters:__
+  - **LENGTH** impulse length<br>
+    type: int <br>
+    units: ms <br>
+    required: True <br>
+
 * **input**
 config pin into input mode<br>
   __parameters:__
@@ -29,38 +44,6 @@ config pin into input mode<br>
 
 * **output**
 config pin into output mode<br>
-  __parameters:__
-  - **PIN** pin number<br>
-    type: int <br>
-    required: True <br>
-
-* **read**
-read current pin value<br>
-  __parameters:__
-  - **PIN** pin number<br>
-    type: int <br>
-    required: True <br>
-
-* **reset**
-reset current pin to initial state<br>
-  __parameters:__
-  - **PIN** pin number<br>
-    type: int <br>
-    required: True <br>
-
-* **write**
-write value to the pin<br>
-  __parameters:__
-  - **PIN** pin number<br>
-    type: int <br>
-    required: True <br>
-
-  - **VALUE** value<br>
-    type: bool <br>
-    required: True <br>
-
-* **toggle**
-toggle output pin current value<br>
   __parameters:__
   - **PIN** pin number<br>
     type: int <br>
@@ -81,6 +64,13 @@ start/stop pin value polling<br>
     type: float <br>
     units: ms <br>
 
+* **pull_down**
+pull internal pin resistors to low level<br>
+  __parameters:__
+  - **PIN** pin number<br>
+    type: int <br>
+    required: True <br>
+
 * **pull_up**
 pull internal pin resistors to high level<br>
   __parameters:__
@@ -88,8 +78,15 @@ pull internal pin resistors to high level<br>
     type: int <br>
     required: True <br>
 
-* **pull_down**
-pull internal pin resistors to low level<br>
+* **read**
+read current pin value<br>
+  __parameters:__
+  - **PIN** pin number<br>
+    type: int <br>
+    required: True <br>
+
+* **reset**
+reset current pin to initial state<br>
   __parameters:__
   - **PIN** pin number<br>
     type: int <br>
@@ -128,8 +125,8 @@ set software PWM frequency for pin<br>
     type: float <br>
     required: True <br>
 
-* **clear_pwm**
-clear PWM settings for pin<br>
+* **toggle**
+toggle output pin current value<br>
   __parameters:__
   - **PIN** pin number<br>
     type: int <br>
@@ -138,12 +135,15 @@ clear PWM settings for pin<br>
 * **used_pins**
 list used GPIO pins. Outputs [pins PIN...( message<br>
 
-* **impulse**
-send impulse of specified length<br>
+* **write**
+write value to the pin<br>
   __parameters:__
-  - **LENGTH** impulse length<br>
+  - **PIN** pin number<br>
     type: int <br>
-    units: ms <br>
+    required: True <br>
+
+  - **VALUE** value<br>
+    type: bool <br>
     required: True <br>
 
 

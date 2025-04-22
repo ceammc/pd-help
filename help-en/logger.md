@@ -30,14 +30,14 @@ _type:_ list<br>
 
 ## properties:
 
-* **@prefix** 
-Get/set log message prefix<br>
-_type:_ list<br>
-
 * **@active** 
 Get/set enabled/disabled logging state<br>
 _type:_ bool<br>
 _default:_ 1<br>
+
+* **@prefix** 
+Get/set log message prefix<br>
+_type:_ list<br>
 
 
 

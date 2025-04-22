@@ -24,11 +24,10 @@
 
 ## properties:
 
-* **@r** 
-Get/set number of repeats in play mode. If -1: repeat infinitely<br>
-_type:_ int<br>
-_min value:_ -1<br>
-_default:_ 1<br>
+* **@auto** 
+Get/set autostart record on first input atom<br>
+_type:_ bool<br>
+_default:_ 0<br>
 
 * **@max** 
 Get/set max number of events, if 0: no max size check. If @auto is set - starts
@@ -37,16 +36,17 @@ _type:_ int<br>
 _range:_ 0..65536<br>
 _default:_ 256<br>
 
+* **@r** 
+Get/set number of repeats in play mode. If -1: repeat infinitely<br>
+_type:_ int<br>
+_min value:_ -1<br>
+_default:_ 1<br>
+
 * **@speed** 
 Get/set play speed<br>
 _type:_ float<br>
 _range:_ 0.0156..64<br>
 _default:_ 1<br>
-
-* **@auto** 
-Get/set autostart record on first input atom<br>
-_type:_ bool<br>
-_default:_ 0<br>
 
 * **@sync** 
 Get/set use external bang pulse to sync recorded events with.<br>

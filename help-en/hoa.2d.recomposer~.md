@@ -63,17 +63,17 @@ set the widening value of channels. Widening value is clipped between 0.
 
 ## properties:
 
-* **@order** (initonly)
-Get/set the order of decomposition<br>
-_type:_ int<br>
-_range:_ 1..63<br>
-_default:_ 1<br>
+* **@fisheye** (initonly)
+Get/set alias for @mode fisheye<br>
+_type:_ alias<br>
 
-* **@n** (initonly)
-Get/set number of channels (planewaves). &#39;0&#39; means auto-calculation.<br>
-_type:_ int<br>
-_range:_ 0..128<br>
-_default:_ 0<br>
+* **@fixe** (initonly)
+Get/set alias for @mode fixe<br>
+_type:_ alias<br>
+
+* **@free** (initonly)
+Get/set alias for @mode free<br>
+_type:_ alias<br>
 
 * **@mode** (initonly)
 Get/set recomposition mode. There is three modes: *fixe* - simply recomposes a plane
@@ -85,17 +85,17 @@ _type:_ symbol<br>
 _enum:_ fixe, fisheye, free<br>
 _default:_ free<br>
 
-* **@fixe** (initonly)
-Get/set alias for @mode fixe<br>
-_type:_ alias<br>
+* **@n** (initonly)
+Get/set number of channels (planewaves). &#39;0&#39; means auto-calculation.<br>
+_type:_ int<br>
+_range:_ 0..128<br>
+_default:_ 0<br>
 
-* **@fisheye** (initonly)
-Get/set alias for @mode fisheye<br>
-_type:_ alias<br>
-
-* **@free** (initonly)
-Get/set alias for @mode free<br>
-_type:_ alias<br>
+* **@order** (initonly)
+Get/set the order of decomposition<br>
+_type:_ int<br>
+_range:_ 1..63<br>
+_default:_ 1<br>
 
 * **@ramp** 
 Get/set ramp time<br>

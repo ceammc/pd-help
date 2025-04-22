@@ -42,6 +42,10 @@ connect to device<br>
 
 ## properties:
 
+* **@devices** (readonly)
+Get list of found serial devices<br>
+_type:_ list<br>
+
 * **@port** 
 Get/set name of serial port, eg.: COM3 on Windows, /dev/ttyACM0 on Linux and
 /dev/cu.usbmodem411 on MacOSX<br>
@@ -52,10 +56,6 @@ Get/set serial baud rate<br>
 _type:_ int<br>
 _enum:_ 110, 300, 600, 1200, 2400, 4800, 9600, 14400, 19200, 38400, 56000, 57600, 115200, 128000, 256000<br>
 _default:_ 57600<br>
-
-* **@devices** (readonly)
-Get list of found serial devices<br>
-_type:_ list<br>
 
 
 

@@ -28,21 +28,16 @@ _type:_ int<br>
 
 ## properties:
 
+* **@empty** (readonly)
+Get if stack is empty<br>
+_type:_ bool<br>
+_default:_ 1<br>
+
 * **@max_size** 
 Get/set maximum stack grow size<br>
 _type:_ int<br>
 _min value:_ 1<br>
 _default:_ 100<br>
-
-* **@size** (readonly)
-Get current number of elements in stack<br>
-_type:_ int<br>
-_default:_ 0<br>
-
-* **@empty** (readonly)
-Get if stack is empty<br>
-_type:_ bool<br>
-_default:_ 1<br>
 
 * **@on_empty** 
 Get/set message send to destination address when stack becomes empty. First list
@@ -55,6 +50,11 @@ Get/set message send to destination address when stack becomes full. First list 
 is address to send, other additional elements treated as message or bang if not
 specified.<br>
 _type:_ list<br>
+
+* **@size** (readonly)
+Get current number of elements in stack<br>
+_type:_ int<br>
+_default:_ 0<br>
 
 
 

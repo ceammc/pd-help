@@ -28,11 +28,28 @@ _type:_ symbol<br>
 
 ## methods:
 
-* **rotation**
-set display rotation<br>
+* **brightness**
+set display brightness<br>
   __parameters:__
-  - **[ANGLE]** rotation angle<br>
+  - **LEVEL** brightness level from 0 (lowest) to 4 (brightest). Normal level is 2.<br>
     type: int <br>
+    required: True <br>
+
+* **clear**
+clear display and optionally flush internal buffer<br>
+  __parameters:__
+  - **[FLUSH=0]** flush internal buffer to the device<br>
+    type: bool <br>
+
+* **flush**
+flush internal buffer to the device<br>
+
+* **font**
+set current font<br>
+  __parameters:__
+  - **FONT** font name<br>
+    type: symbol <br>
+    required: True <br>
 
 * **invert**
 invert display<br>
@@ -48,18 +65,47 @@ mirror display<br>
     type: bool <br>
     required: True <br>
 
-* **font**
-set current font<br>
+* **pixel**
+draw pixel<br>
   __parameters:__
-  - **FONT** font name<br>
+  - **X** X coord (from the left)<br>
+    type: int <br>
+    required: True <br>
+
+  - **Y** Y coord (from the top)<br>
+    type: int <br>
+    required: True <br>
+
+  - **VALUE** pixel value<br>
+    type: bool <br>
+    required: True <br>
+
+* **rotation**
+set display rotation<br>
+  __parameters:__
+  - **[ANGLE]** rotation angle<br>
+    type: int <br>
+
+* **switch_on**
+switch on display (needed for SPI connection)<br>
+  __parameters:__
+  - **VALUE** value<br>
+    type: bool <br>
+    required: True <br>
+
+* **text**
+draw text on the display<br>
+  __parameters:__
+  - **TXT** text<br>
     type: symbol <br>
     required: True <br>
 
-* **write bytes**
-write raw byte list to the display buffer and move internal cursor position<br>
-  __parameters:__
-  - **BYTES** list of bytes (integers in 0..255 range). Each byte describes a single column of 8 pixels in height<br>
-    type: list <br>
+  - **X** left text X coordinate<br>
+    type: int <br>
+    required: True <br>
+
+  - **Y** top text Y coordinate<br>
+    type: int <br>
     required: True <br>
 
 * **write bitmap**
@@ -81,63 +127,30 @@ write bitmap to the display buffer<br>
     type: list <br>
     required: True <br>
 
-* **clear**
-clear display and optionally flush internal buffer<br>
+* **write bytes**
+write raw byte list to the display buffer and move internal cursor position<br>
   __parameters:__
-  - **[FLUSH=0]** flush internal buffer to the device<br>
-    type: bool <br>
-
-* **brightness**
-set display brightness<br>
-  __parameters:__
-  - **LEVEL** brightness level from 0 (lowest) to 4 (brightest). Normal level is 2.<br>
-    type: int <br>
-    required: True <br>
-
-* **switch_on**
-switch on display (needed for SPI connection)<br>
-  __parameters:__
-  - **VALUE** value<br>
-    type: bool <br>
-    required: True <br>
-
-* **flush**
-flush internal buffer to the device<br>
-
-* **text**
-draw text on the display<br>
-  __parameters:__
-  - **TXT** text<br>
-    type: symbol <br>
-    required: True <br>
-
-  - **X** left text X coordinate<br>
-    type: int <br>
-    required: True <br>
-
-  - **Y** top text Y coordinate<br>
-    type: int <br>
-    required: True <br>
-
-* **pixel**
-draw pixel<br>
-  __parameters:__
-  - **X** X coord (from the left)<br>
-    type: int <br>
-    required: True <br>
-
-  - **Y** Y coord (from the top)<br>
-    type: int <br>
-    required: True <br>
-
-  - **VALUE** pixel value<br>
-    type: bool <br>
+  - **BYTES** list of bytes (integers in 0..255 range). Each byte describes a single column of 8 pixels in height<br>
+    type: list <br>
     required: True <br>
 
 
 
 
 ## properties:
+
+* **@i2c_addr** (initonly)
+Get/set I²C address. Also &#39;default&#39; value is accepted (for addr 0x3c) and &#39;alt&#39; (for
+addr 0x3d)<br>
+_type:_ int<br>
+_range:_ -4..119<br>
+_default:_ -1<br>
+
+* **@i2c_bus** (initonly)
+Get/set I²C bus<br>
+_type:_ atom<br>
+_enum:_ 1, 2, 3, 4, 5, 6, default, none<br>
+_default:_ none<br>
 
 * **@mode** (initonly)
 Get/set display connection<br>
@@ -150,25 +163,11 @@ Get/set display size<br>
 _type:_ list<br>
 _default:_ 128 64<br>
 
-* **@i2c_bus** (initonly)
-Get/set I²C bus<br>
-_type:_ atom<br>
-_enum:_ 1, 2, 3, 4, 5, 6, default, none<br>
-_default:_ none<br>
-
-* **@i2c_addr** (initonly)
-Get/set I²C address. Also &#39;default&#39; value is accepted (for addr 0x3c) and &#39;alt&#39; (for
-addr 0x3d)<br>
+* **@spi_bus** (initonly)
+Get/set SPI bus<br>
 _type:_ int<br>
-_range:_ -4..119<br>
-_default:_ -1<br>
-
-* **@spi_freq** (initonly)
-Get/set SPI frequency<br>
-_type:_ int<br>
-_units:_ Hz<br>
-_range:_ 100000..10000000<br>
-_default:_ 1000000<br>
+_range:_ 0..6<br>
+_default:_ 0<br>
 
 * **@spi_cs** (initonly)
 Get/set CS (chip select) GPIO pin<br>
@@ -182,17 +181,18 @@ _type:_ int<br>
 _range:_ -1..127<br>
 _default:_ -1<br>
 
+* **@spi_freq** (initonly)
+Get/set SPI frequency<br>
+_type:_ int<br>
+_units:_ Hz<br>
+_range:_ 100000..10000000<br>
+_default:_ 1000000<br>
+
 * **@spi_rs** (initonly)
 Get/set RS (reset) GPIO pin<br>
 _type:_ int<br>
 _range:_ -1..127<br>
 _default:_ -1<br>
-
-* **@spi_bus** (initonly)
-Get/set SPI bus<br>
-_type:_ int<br>
-_range:_ 0..6<br>
-_default:_ 0<br>
 
 
 

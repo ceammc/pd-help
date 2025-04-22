@@ -41,13 +41,13 @@ Get/set bins border values<br>
 _type:_ list<br>
 _default:_ 0<br>
 
-* **@norm** 
-Get/set do the histogram normalization<br>
+* **@inner_bins** 
+Get/set output histogram inner bins only<br>
 _type:_ bool<br>
 _default:_ 1<br>
 
-* **@inner_bins** 
-Get/set output histogram inner bins only<br>
+* **@norm** 
+Get/set do the histogram normalization<br>
 _type:_ bool<br>
 _default:_ 1<br>
 

@@ -40,25 +40,11 @@ _type:_ int<br>
 
 ## properties:
 
-* **@order** (initonly)
-Get/set the order of decomposition<br>
-_type:_ int<br>
-_range:_ 1..63<br>
-_default:_ 1<br>
-
-* **@mode** 
-Get/set decoding mode<br>
-_type:_ symbol<br>
-_enum:_ regular, irregular, binaural<br>
-_default:_ regular<br>
-
-* **@regular** 
-Get/set alias for @mode regular<br>
-_type:_ alias<br>
-
-* **@irregular** 
-Get/set alias for @mode irregular<br>
-_type:_ alias<br>
+* **@angles** 
+Get/set angles of loudspeakers. Only available for @irregular mode.<br>
+_type:_ list<br>
+_units:_ deg<br>
+_default:_ 0 90 180 270<br>
 
 * **@binaural** 
 Get/set alias for @mode binaural<br>
@@ -71,17 +57,39 @@ _units:_ samp<br>
 _range:_ 0..512<br>
 _default:_ 16<br>
 
+* **@irregular** 
+Get/set alias for @mode irregular<br>
+_type:_ alias<br>
+
+* **@mode** 
+Get/set decoding mode<br>
+_type:_ symbol<br>
+_enum:_ regular, irregular, binaural<br>
+_default:_ regular<br>
+
+* **@nch** (initonly)
+Get/set number of plain waves.<br>
+_type:_ int<br>
+_min value:_ 1<br>
+_default:_ 0<br>
+
+* **@nharm** (readonly)
+Get number of circular harmonics.<br>
+_type:_ int<br>
+_min value:_ 1<br>
+_default:_ 3<br>
+
 * **@offset** 
 Get/set rotation of loudspeakers. Only available for @regular and @irregular mode.<br>
 _type:_ float<br>
 _units:_ deg<br>
 _default:_ 0<br>
 
-* **@angles** 
-Get/set angles of loudspeakers. Only available for @irregular mode.<br>
-_type:_ list<br>
-_units:_ deg<br>
-_default:_ 0 90 180 270<br>
+* **@order** (initonly)
+Get/set the order of decomposition<br>
+_type:_ int<br>
+_range:_ 1..63<br>
+_default:_ 1<br>
 
 * **@pw_x** (readonly)
 Get list of plain wave x-coordinates (abscissas). -1 is the left of the soundfield,
@@ -99,17 +107,9 @@ _units:_ rad<br>
 _range:_ -1..1<br>
 _default:_ 1 0 -1 0<br>
 
-* **@nharm** (readonly)
-Get number of circular harmonics.<br>
-_type:_ int<br>
-_min value:_ 1<br>
-_default:_ 3<br>
-
-* **@nch** (initonly)
-Get/set number of plain waves.<br>
-_type:_ int<br>
-_min value:_ 1<br>
-_default:_ 0<br>
+* **@regular** 
+Get/set alias for @mode regular<br>
+_type:_ alias<br>
 
 
 

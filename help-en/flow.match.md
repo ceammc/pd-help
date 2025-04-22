@@ -30,14 +30,14 @@ _type:_ list<br>
 
 ## properties:
 
-* **@patterns** (initonly)
-Get/set list of regular expressions<br>
-_type:_ list<br>
-
 * **@cut** 
 Get/set cut or pass message selector<br>
 _type:_ bool<br>
 _default:_ 0<br>
+
+* **@patterns** (initonly)
+Get/set list of regular expressions<br>
+_type:_ list<br>
 
 
 

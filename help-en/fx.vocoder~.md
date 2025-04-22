@@ -28,15 +28,22 @@ reset object<br>
 
 ## properties:
 
+* **@osc** (initonly)
+Get/set OSC server name to listen<br>
+_type:_ symbol<br>
+
+* **@id** (initonly)
+Get/set OSC address id. If specified, bind all properties to /ID/fx_vocoder/PROP_NAME
+osc address, if empty bind to /fx_vocoder/PROP_NAME.<br>
+_type:_ symbol<br>
+
+* **@active** 
+Get/set on/off dsp processing<br>
+_type:_ bool<br>
+_default:_ 1<br>
+
 * **@attack** 
 Get/set attack time<br>
-_type:_ float<br>
-_units:_ ms<br>
-_range:_ 0.1..100<br>
-_default:_ 5<br>
-
-* **@release** 
-Get/set release time<br>
 _type:_ float<br>
 _units:_ ms<br>
 _range:_ 0.1..100<br>
@@ -48,19 +55,12 @@ _type:_ float<br>
 _range:_ 0.1..2<br>
 _default:_ 0.5<br>
 
-* **@active** 
-Get/set on/off dsp processing<br>
-_type:_ bool<br>
-_default:_ 1<br>
-
-* **@osc** (initonly)
-Get/set OSC server name to listen<br>
-_type:_ symbol<br>
-
-* **@id** (initonly)
-Get/set OSC address id. If specified, bind all properties to /ID/fx_vocoder/PROP_NAME
-osc address, if empty bind to /fx_vocoder/PROP_NAME.<br>
-_type:_ symbol<br>
+* **@release** 
+Get/set release time<br>
+_type:_ float<br>
+_units:_ ms<br>
+_range:_ 0.1..100<br>
+_default:_ 5<br>
 
 
 

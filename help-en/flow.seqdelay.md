@@ -39,17 +39,17 @@ reset all scheduled delays<br>
 
 ## properties:
 
-* **@t** 
-Get/set delay time list<br>
-_type:_ list<br>
-_units:_ ms<br>
-_min value:_ 0<br>
-
 * **@block** 
 Get/set blocking mode. If true, discards incoming messages until scheduled message will
 output, after that is ready to accept the new one.<br>
 _type:_ bool<br>
 _default:_ 0<br>
+
+* **@t** 
+Get/set delay time list<br>
+_type:_ list<br>
+_units:_ ms<br>
+_min value:_ 0<br>
 
 
 

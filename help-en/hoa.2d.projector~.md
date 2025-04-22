@@ -36,17 +36,17 @@ _type:_ int<br>
 
 ## properties:
 
-* **@order** (initonly)
-Get/set the order of decomposition<br>
-_type:_ int<br>
-_range:_ 1..63<br>
-_default:_ 1<br>
-
 * **@n** (initonly)
 Get/set number of channels (planewaves)<br>
 _type:_ int<br>
 _range:_ 0..63<br>
 _default:_ 0<br>
+
+* **@order** (initonly)
+Get/set the order of decomposition<br>
+_type:_ int<br>
+_range:_ 1..63<br>
+_default:_ 1<br>
 
 
 

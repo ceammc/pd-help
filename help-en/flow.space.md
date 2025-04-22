@@ -42,18 +42,18 @@ _units:_ ms<br>
 _min value:_ 1<br>
 _default:_ 1<br>
 
+* **@dev** 
+Get/set random deviation<br>
+_type:_ float<br>
+_range:_ 0..1<br>
+_default:_ 0<br>
+
 * **@done** 
 Get/set time space (=@done*@delay) after last outputted message. After that delay
 output bang to second outlet<br>
 _type:_ int<br>
 _min value:_ 0<br>
 _default:_ 1<br>
-
-* **@dev** 
-Get/set random deviation<br>
-_type:_ float<br>
-_range:_ 0..1<br>
-_default:_ 0<br>
 
 
 

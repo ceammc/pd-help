@@ -28,14 +28,14 @@ _type:_ int<br>
 
 ## properties:
 
-* **@from** 
-Get/set enumeration start index<br>
-_type:_ int<br>
-_default:_ 0<br>
-
 * **@append** (initonly)
 Get/set put element index after element value<br>
 _type:_ flag<br>
+_default:_ 0<br>
+
+* **@from** 
+Get/set enumeration start index<br>
+_type:_ int<br>
 _default:_ 0<br>
 
 

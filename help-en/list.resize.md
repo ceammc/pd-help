@@ -28,11 +28,13 @@ _type:_ int<br>
 
 ## properties:
 
-* **@size** 
-Get/set output list size<br>
-_type:_ int<br>
-_min value:_ 0<br>
-_default:_ 0<br>
+* **@clip** 
+Get/set alias for @method clip<br>
+_type:_ alias<br>
+
+* **@fold** 
+Get/set alias for @method fold<br>
+_type:_ alias<br>
 
 * **@method** 
 Get/set method of resizing, if new size is longer then current<br>
@@ -45,16 +47,14 @@ Get/set pad value for pad method of resizing<br>
 _type:_ atom<br>
 _default:_ 0<br>
 
-* **@clip** 
-Get/set alias for @method clip<br>
-_type:_ alias<br>
+* **@size** 
+Get/set output list size<br>
+_type:_ int<br>
+_min value:_ 0<br>
+_default:_ 0<br>
 
 * **@wrap** 
 Get/set alias for @method wrap<br>
-_type:_ alias<br>
-
-* **@fold** 
-Get/set alias for @method fold<br>
 _type:_ alias<br>
 
 

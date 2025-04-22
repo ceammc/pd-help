@@ -40,17 +40,10 @@ reset reverb<br>
 
 ## properties:
 
-* **@size** 
-Get/set room size<br>
-_type:_ float<br>
-_range:_ 0..1<br>
-_default:_ 0.5<br>
-
-* **@filter** 
-Get/set filter coefficient<br>
-_type:_ float<br>
-_range:_ 0..1<br>
-_default:_ 1<br>
+* **@bypass** 
+Get/set bypass flag. If true: bypass &#39;effected&#39; signal.<br>
+_type:_ bool<br>
+_default:_ 0<br>
 
 * **@damp** 
 Get/set damping of the lowpass comb filter<br>
@@ -65,10 +58,17 @@ _type:_ float<br>
 _range:_ 0..1<br>
 _default:_ 1<br>
 
-* **@bypass** 
-Get/set bypass flag. If true: bypass &#39;effected&#39; signal.<br>
-_type:_ bool<br>
-_default:_ 0<br>
+* **@filter** 
+Get/set filter coefficient<br>
+_type:_ float<br>
+_range:_ 0..1<br>
+_default:_ 1<br>
+
+* **@size** 
+Get/set room size<br>
+_type:_ float<br>
+_range:_ 0..1<br>
+_default:_ 0.5<br>
 
 
 

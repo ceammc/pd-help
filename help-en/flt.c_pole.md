@@ -40,9 +40,13 @@ _units:_ Hz<br>
 _range:_ 0..22050<br>
 _default:_ 1000<br>
 
-* **@rad** (initonly)
-Get/set use angular frequency<br>
-_type:_ flag<br>
+* **@hpf** 
+Get/set ti @mode hpf<br>
+_type:_ alias<br>
+
+* **@lpf** 
+Get/set to @mode lpf<br>
+_type:_ alias<br>
 
 * **@mode** 
 Get/set filter modey<br>
@@ -50,13 +54,9 @@ _type:_ symbol<br>
 _enum:_ hpf, lpf<br>
 _default:_ lpf<br>
 
-* **@lpf** 
-Get/set to @mode lpf<br>
-_type:_ alias<br>
-
-* **@hpf** 
-Get/set ti @mode hpf<br>
-_type:_ alias<br>
+* **@rad** (initonly)
+Get/set use angular frequency<br>
+_type:_ flag<br>
 
 
 

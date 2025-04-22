@@ -36,6 +36,20 @@ _units:_ Hz<br>
 
 ## properties:
 
+* **@osc** (initonly)
+Get/set OSC server name to listen<br>
+_type:_ symbol<br>
+
+* **@id** (initonly)
+Get/set OSC address id. If specified, bind all properties to /ID/flt_notch/PROP_NAME
+osc address, if empty bind to /flt_notch/PROP_NAME.<br>
+_type:_ symbol<br>
+
+* **@active** 
+Get/set on/off dsp processing<br>
+_type:_ bool<br>
+_default:_ 1<br>
+
 * **@freq** 
 Get/set center frequency<br>
 _type:_ float<br>
@@ -49,20 +63,6 @@ _type:_ float<br>
 _units:_ Hz<br>
 _range:_ 1..10000<br>
 _default:_ 50<br>
-
-* **@active** 
-Get/set on/off dsp processing<br>
-_type:_ bool<br>
-_default:_ 1<br>
-
-* **@osc** (initonly)
-Get/set OSC server name to listen<br>
-_type:_ symbol<br>
-
-* **@id** (initonly)
-Get/set OSC address id. If specified, bind all properties to /ID/flt_notch/PROP_NAME
-osc address, if empty bind to /flt_notch/PROP_NAME.<br>
-_type:_ symbol<br>
 
 
 

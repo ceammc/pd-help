@@ -30,9 +30,11 @@ _type:_ list<br>
 
 ## properties:
 
-* **@value** 
-Get/set list contents<br>
-_type:_ list<br>
+* **@end** 
+Get/set search end index position (-1 means end of list)<br>
+_type:_ int<br>
+_min value:_ -1<br>
+_default:_ -1<br>
 
 * **@start** 
 Get/set search start index position<br>
@@ -40,11 +42,9 @@ _type:_ int<br>
 _min value:_ 0<br>
 _default:_ 0<br>
 
-* **@end** 
-Get/set search end index position (-1 means end of list)<br>
-_type:_ int<br>
-_min value:_ -1<br>
-_default:_ -1<br>
+* **@value** 
+Get/set list contents<br>
+_type:_ list<br>
 
 
 

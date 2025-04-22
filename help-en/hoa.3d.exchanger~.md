@@ -38,17 +38,13 @@ _type:_ symbol<br>
 
 ## properties:
 
-* **@order** (initonly)
-Get/set the order of decomposition<br>
-_type:_ int<br>
-_range:_ 1..10<br>
-_default:_ 1<br>
+* **@fromB** 
+Get/set alias to @num fromFurseMalham and @norm fromMaxN<br>
+_type:_ alias<br>
 
-* **@num** 
-Get/set numbering scheme<br>
-_type:_ symbol<br>
-_enum:_ ACN, fromFurseMalham, fromSID, toFurseMalham, toSID<br>
-_default:_ ACN<br>
+* **@fromDaniel** 
+Get/set alias to @num fromSID and @norm fromN3D<br>
+_type:_ alias<br>
 
 * **@norm** 
 Get/set normalization<br>
@@ -56,20 +52,24 @@ _type:_ symbol<br>
 _enum:_ SN3D, fromMaxN, fromN3D, toMaxN, toN3D<br>
 _default:_ SN3D<br>
 
+* **@num** 
+Get/set numbering scheme<br>
+_type:_ symbol<br>
+_enum:_ ACN, fromFurseMalham, fromSID, toFurseMalham, toSID<br>
+_default:_ ACN<br>
+
+* **@order** (initonly)
+Get/set the order of decomposition<br>
+_type:_ int<br>
+_range:_ 1..10<br>
+_default:_ 1<br>
+
 * **@toB** 
 Get/set alias to @num toFurseMalham and @norm toMaxN<br>
 _type:_ alias<br>
 
 * **@toDaniel** 
 Get/set alias to @num toSID and @norm toN3D<br>
-_type:_ alias<br>
-
-* **@fromB** 
-Get/set alias to @num fromFurseMalham and @norm fromMaxN<br>
-_type:_ alias<br>
-
-* **@fromDaniel** 
-Get/set alias to @num fromSID and @norm fromN3D<br>
 _type:_ alias<br>
 
 

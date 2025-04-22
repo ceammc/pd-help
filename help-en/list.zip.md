@@ -30,6 +30,20 @@ _type:_ int<br>
 
 ## properties:
 
+* **@clip** 
+Get/set alias for &#34;@oversize clip&#34; property. Pad shortest list with last element to
+conform longest list<br>
+_type:_ alias<br>
+
+* **@fold** 
+Get/set alias for &#34;@oversize fold&#34; property. Pad shortest list with repeated values
+from the end to the beginning, then back and so on.<br>
+_type:_ alias<br>
+
+* **@lists** (readonly)
+Get input data list: list of data:mlist<br>
+_type:_ list<br>
+
 * **@method** 
 Get/set behavior, if list have different sizes<br>
 _type:_ symbol<br>
@@ -40,35 +54,21 @@ _default:_ min<br>
 Get/set alias for &#34;@oversize min&#34; property. Truncates lists to minimal common size<br>
 _type:_ alias<br>
 
-* **@clip** 
-Get/set alias for &#34;@oversize clip&#34; property. Pad shortest list with last element to
-conform longest list<br>
-_type:_ alias<br>
-
-* **@wrap** 
-Get/set alias for &#34;@oversize wrap&#34; property. Pad shortest list with repeated values
-from the beginning.<br>
-_type:_ alias<br>
-
-* **@fold** 
-Get/set alias for &#34;@oversize fold&#34; property. Pad shortest list with repeated values
-from the end to the beginning, then back and so on.<br>
-_type:_ alias<br>
-
-* **@pad** 
-Get/set pad value for pad method of resizing<br>
-_type:_ atom<br>
-_default:_ 0<br>
-
 * **@n** (initonly)
 Get/set number of inputs<br>
 _type:_ int<br>
 _range:_ 2..20<br>
 _default:_ 2<br>
 
-* **@lists** (readonly)
-Get input data list: list of data:mlist<br>
-_type:_ list<br>
+* **@pad** 
+Get/set pad value for pad method of resizing<br>
+_type:_ atom<br>
+_default:_ 0<br>
+
+* **@wrap** 
+Get/set alias for &#34;@oversize wrap&#34; property. Pad shortest list with repeated values
+from the beginning.<br>
+_type:_ alias<br>
 
 
 

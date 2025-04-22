@@ -42,17 +42,17 @@ turn the sensor polling on/off<br>
 
 ## properties:
 
-* **@i2c_bus** (initonly)
-Get/set I²C bus<br>
-_type:_ atom<br>
-_enum:_ 1, 2, 3, 4, 5, 6, default, none<br>
-_default:_ none<br>
-
 * **@i2c_addr** (initonly)
 Get/set I²C address. The value &#39;default&#39; means default device I²C address (0x29)<br>
 _type:_ int<br>
 _range:_ -4..119<br>
 _default:_ -1<br>
+
+* **@i2c_bus** (initonly)
+Get/set I²C bus<br>
+_type:_ atom<br>
+_enum:_ 1, 2, 3, 4, 5, 6, default, none<br>
+_default:_ none<br>
 
 
 

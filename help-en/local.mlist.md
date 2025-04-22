@@ -116,15 +116,15 @@ sorts list<br>
 
 ## properties:
 
-* **@id** (initonly)
-Get/set local variable id<br>
-_type:_ symbol<br>
-_default:_ default<br>
-
 * **@empty** (readonly)
 Get 1 if list is empty, otherwise 0<br>
 _type:_ bool<br>
 _default:_ 1<br>
+
+* **@id** (initonly)
+Get/set local variable id<br>
+_type:_ symbol<br>
+_default:_ default<br>
 
 * **@size** (readonly)
 Get number of elements in list<br>

@@ -30,12 +30,12 @@ _type:_ symbol<br>
 _enum:_ sum, range<br>
 _default:_ sum<br>
 
-* **@sum** 
-Get/set alias to @by sum<br>
-_type:_ alias<br>
-
 * **@range** 
 Get/set alias to @by range<br>
+_type:_ alias<br>
+
+* **@sum** 
+Get/set alias to @by sum<br>
 _type:_ alias<br>
 
 

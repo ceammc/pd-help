@@ -44,42 +44,6 @@ disconnect from device<br>
 
 ## properties:
 
-* **@port** (initonly)
-Get/set name of arduino serial port, eg.: COM3 on Windows, /dev/ttyACM0 on Linux and
-/dev/cu.usbmodem411 on MacOSX. If specified on creation tries to connect to
-this device only<br>
-_type:_ symbol<br>
-
-* **@serial** 
-Get/set USB device serial number. If specified at creation, tries to connect to devices
-only with such serial number<br>
-_type:_ symbol<br>
-
-* **@rate** 
-Get/set serial baud rate. Standard value supported by most serial ports: 110, 300, 600,
-1200, 2400, 4800, 9600, 14400, 19200, 28800, 38400, 56000, 57600, 115200<br>
-_type:_ int<br>
-_enum:_ 57600, 110, 300, 600, 1200, 2400, 4800, 9600, 14400, 19200, 38400, 56000, 115200, 128000, 256000<br>
-_default:_ 57600<br>
-
-* **@vendor_id** 
-Get/set USB device vendor id. If specified at creation, tries to connect to devices
-only with such vendor. Note: vendor id is specified in decimal mode, not in hex<br>
-_type:_ int<br>
-_default:_ 0<br>
-
-* **@product_id** 
-Get/set USB device product id. If vendor and product ids are specified at creation,
-tries to connect to devices only with such properties. Note: product id is
-specified in decimal mode, not in hex<br>
-_type:_ int<br>
-_default:_ 0<br>
-
-* **@reconnect** (initonly)
-Get/set enables hot-pluggin<br>
-_type:_ flag<br>
-_default:_ 0<br>
-
 * **@connected** (readonly)
 Get state of connection to device<br>
 _type:_ bool<br>
@@ -92,6 +56,42 @@ _type:_ list<br>
 * **@on_connect** 
 Get/set function called every time on connect<br>
 _type:_ symbol<br>
+
+* **@port** (initonly)
+Get/set name of arduino serial port, eg.: COM3 on Windows, /dev/ttyACM0 on Linux and
+/dev/cu.usbmodem411 on MacOSX. If specified on creation tries to connect to
+this device only<br>
+_type:_ symbol<br>
+
+* **@product_id** 
+Get/set USB device product id. If vendor and product ids are specified at creation,
+tries to connect to devices only with such properties. Note: product id is
+specified in decimal mode, not in hex<br>
+_type:_ int<br>
+_default:_ 0<br>
+
+* **@rate** 
+Get/set serial baud rate. Standard value supported by most serial ports: 110, 300, 600,
+1200, 2400, 4800, 9600, 14400, 19200, 28800, 38400, 56000, 57600, 115200<br>
+_type:_ int<br>
+_enum:_ 57600, 110, 300, 600, 1200, 2400, 4800, 9600, 14400, 19200, 38400, 56000, 115200, 128000, 256000<br>
+_default:_ 57600<br>
+
+* **@reconnect** (initonly)
+Get/set enables hot-pluggin<br>
+_type:_ flag<br>
+_default:_ 0<br>
+
+* **@serial** 
+Get/set USB device serial number. If specified at creation, tries to connect to devices
+only with such serial number<br>
+_type:_ symbol<br>
+
+* **@vendor_id** 
+Get/set USB device vendor id. If specified at creation, tries to connect to devices
+only with such vendor. Note: vendor id is specified in decimal mode, not in hex<br>
+_type:_ int<br>
+_default:_ 0<br>
 
 
 

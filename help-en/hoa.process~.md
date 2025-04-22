@@ -61,6 +61,16 @@ open Pd window for specified instance<br>
 
 ## properties:
 
+* **@args** (initonly)
+Get/set arguments passed to instances<br>
+_type:_ list<br>
+
+* **@domain** (initonly)
+Get/set process domain: harmonics or planewaves<br>
+_type:_ symbol<br>
+_enum:_ harmonics, planewaves<br>
+_default:_ harmonics<br>
+
 * **@n** (initonly)
 Get/set the order of decomposition/number of planewaves<br>
 _type:_ int<br>
@@ -70,16 +80,6 @@ _default:_ 0<br>
 * **@patch** (initonly)
 Get/set patch name<br>
 _type:_ symbol<br>
-
-* **@domain** (initonly)
-Get/set process domain: harmonics or planewaves<br>
-_type:_ symbol<br>
-_enum:_ harmonics, planewaves<br>
-_default:_ harmonics<br>
-
-* **@args** (initonly)
-Get/set arguments passed to instances<br>
-_type:_ list<br>
 
 
 

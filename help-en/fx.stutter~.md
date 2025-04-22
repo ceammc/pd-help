@@ -29,12 +29,9 @@ _units:_ ms<br>
 
 ## properties:
 
-* **@t** 
-Get/set stutter period<br>
-_type:_ float<br>
-_units:_ ms<br>
-_range:_ 1..1000<br>
-_default:_ 50<br>
+* **@env** 
+Get/set stutter envelope<br>
+_type:_ atom<br>
 
 * **@maxsize** (initonly)
 Get/set max stutter period<br>
@@ -56,9 +53,12 @@ _type:_ float<br>
 _range:_ 0.25..4<br>
 _default:_ 1<br>
 
-* **@env** 
-Get/set stutter envelope<br>
-_type:_ atom<br>
+* **@t** 
+Get/set stutter period<br>
+_type:_ float<br>
+_units:_ ms<br>
+_range:_ 1..1000<br>
+_default:_ 50<br>
 
 
 

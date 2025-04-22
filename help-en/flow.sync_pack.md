@@ -34,15 +34,15 @@ _type:_ list<br>
 
 ## properties:
 
+* **@init** (initonly)
+Get/set default init values<br>
+_type:_ list<br>
+
 * **@n** (initonly)
 Get/set number of inlets<br>
 _type:_ int<br>
 _range:_ 1..255<br>
 _default:_ 1<br>
-
-* **@init** (initonly)
-Get/set default init values<br>
-_type:_ list<br>
 
 
 

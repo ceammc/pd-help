@@ -36,6 +36,28 @@ _type:_ symbol<br>
 
 ## methods:
 
+* **car**
+alias to cartesian method<br>
+
+* **cartesian**
+set source mapping in cartesian coordinates<br>
+  __parameters:__
+  - **IDX** source index. 1-based<br>
+    type: int <br>
+    required: True <br>
+
+  - **X** x coordinate<br>
+    type: float <br>
+    required: True <br>
+
+  - **Y** y coordinate<br>
+    type: float <br>
+    required: True <br>
+
+  - **Z** z coordinate<br>
+    type: float <br>
+    required: True <br>
+
 * **mute**
 mute/unmute specified source<br>
   __parameters:__
@@ -46,6 +68,9 @@ mute/unmute specified source<br>
   - **STATE** mute value<br>
     type: int <br>
     required: True <br>
+
+* **pol**
+alias to polar method<br>
 
 * **polar**
 set source mapping in polar coordinates<br>
@@ -68,41 +93,16 @@ set source mapping in polar coordinates<br>
     units: rad <br>
     required: True <br>
 
-* **cartesian**
-set source mapping in cartesian coordinates<br>
-  __parameters:__
-  - **IDX** source index. 1-based<br>
-    type: int <br>
-    required: True <br>
-
-  - **X** x coordinate<br>
-    type: float <br>
-    required: True <br>
-
-  - **Y** y coordinate<br>
-    type: float <br>
-    required: True <br>
-
-  - **Z** z coordinate<br>
-    type: float <br>
-    required: True <br>
-
-* **pol**
-alias to polar method<br>
-
-* **car**
-alias to cartesian method<br>
-
 
 
 
 ## properties:
 
-* **@order** (initonly)
-Get/set the order of decomposition<br>
-_type:_ int<br>
-_range:_ 1..10<br>
-_default:_ 1<br>
+* **@mode** 
+Get/set coordinates mode in signal control mode (with @nsrc 1), polar or cartesian<br>
+_type:_ symbol<br>
+_enum:_ car, pol<br>
+_default:_ pol<br>
 
 * **@nsrc** (initonly)
 Get/set number of input sources<br>
@@ -110,17 +110,17 @@ _type:_ int<br>
 _min value:_ 1<br>
 _default:_ 1<br>
 
+* **@order** (initonly)
+Get/set the order of decomposition<br>
+_type:_ int<br>
+_range:_ 1..10<br>
+_default:_ 1<br>
+
 * **@ramp** 
 Get/set ramp time<br>
 _type:_ float<br>
 _min value:_ 0<br>
 _default:_ 100<br>
-
-* **@mode** 
-Get/set coordinates mode in signal control mode (with @nsrc 1), polar or cartesian<br>
-_type:_ symbol<br>
-_enum:_ car, pol<br>
-_default:_ pol<br>
 
 
 

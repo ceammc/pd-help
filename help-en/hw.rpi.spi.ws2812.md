@@ -22,11 +22,18 @@ Note: you should **flush** (with bang or [flush( message) after almost all pixel
 
 ## methods:
 
+* **brightness**
+set pixel brightness<br>
+  __parameters:__
+  - **LEVEL** brightness level<br>
+    type: int <br>
+    required: True <br>
+
 * **clear**
 turn off all pixels<br>
 
-* **set**
-set single pixel color<br>
+* **fill**
+fill all pixels with the RGB color<br>
   __parameters:__
   - **R** red color component<br>
     type: int <br>
@@ -39,6 +46,9 @@ set single pixel color<br>
   - **B** blue color component<br>
     type: int <br>
     required: True <br>
+
+* **flush**
+flush all pixels to the strip<br>
 
 * **fx**
 apply color generator function<br>
@@ -56,31 +66,6 @@ apply color generator function<br>
   - **[LENGTH]** range length<br>
     type: int <br>
 
-* **flush**
-flush all pixels to the strip<br>
-
-* **brightness**
-set pixel brightness<br>
-  __parameters:__
-  - **LEVEL** brightness level<br>
-    type: int <br>
-    required: True <br>
-
-* **fill**
-fill all pixels with the RGB color<br>
-  __parameters:__
-  - **R** red color component<br>
-    type: int <br>
-    required: True <br>
-
-  - **G** greed color component<br>
-    type: int <br>
-    required: True <br>
-
-  - **B** blue color component<br>
-    type: int <br>
-    required: True <br>
-
 * **rotate**
 shift all pixel by specified amount<br>
   __parameters:__
@@ -88,21 +73,9 @@ shift all pixel by specified amount<br>
     type: int <br>
     required: True <br>
 
-* **set_slice**
-set pixel slice to the specified color<br>
+* **set**
+set single pixel color<br>
   __parameters:__
-  - **BEGIN** range start<br>
-    type: int <br>
-    required: True <br>
-
-  - **END** range end<br>
-    type: int <br>
-    required: True <br>
-
-  - **STEP** slice step<br>
-    type: int <br>
-    required: True <br>
-
   - **R** red color component<br>
     type: int <br>
     required: True <br>
@@ -138,10 +111,48 @@ set pixel range to the specified color<br>
     type: int <br>
     required: True <br>
 
+* **set_slice**
+set pixel slice to the specified color<br>
+  __parameters:__
+  - **BEGIN** range start<br>
+    type: int <br>
+    required: True <br>
+
+  - **END** range end<br>
+    type: int <br>
+    required: True <br>
+
+  - **STEP** slice step<br>
+    type: int <br>
+    required: True <br>
+
+  - **R** red color component<br>
+    type: int <br>
+    required: True <br>
+
+  - **G** greed color component<br>
+    type: int <br>
+    required: True <br>
+
+  - **B** blue color component<br>
+    type: int <br>
+    required: True <br>
+
 
 
 
 ## properties:
+
+* **@clear** 
+Get/set turn off all pixels when the object is deleted<br>
+_type:_ bool<br>
+_default:_ 1<br>
+
+* **@size** (initonly)
+Get/set number of leds in the strip<br>
+_type:_ int<br>
+_range:_ 1..4096<br>
+_default:_ 16<br>
 
 * **@spi_bus** (initonly)
 Get/set spi bus number<br>
@@ -155,17 +166,6 @@ because LED strips are not using CS pin.<br>
 _type:_ int<br>
 _range:_ 0..3<br>
 _default:_ 0<br>
-
-* **@clear** 
-Get/set turn off all pixels when the object is deleted<br>
-_type:_ bool<br>
-_default:_ 1<br>
-
-* **@size** (initonly)
-Get/set number of leds in the strip<br>
-_type:_ int<br>
-_range:_ 1..4096<br>
-_default:_ 16<br>
 
 
 

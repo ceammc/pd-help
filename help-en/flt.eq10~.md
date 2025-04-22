@@ -30,15 +30,22 @@ reset filter state to default<br>
 
 ## properties:
 
-* **@f31** 
-Get/set gain at 31.25Hz<br>
-_type:_ float<br>
-_units:_ db<br>
-_range:_ -70..10<br>
-_default:_ 0<br>
+* **@osc** (initonly)
+Get/set OSC server name to listen<br>
+_type:_ symbol<br>
 
-* **@f62** 
-Get/set gain at 62.5Hz<br>
+* **@id** (initonly)
+Get/set OSC address id. If specified, bind all properties to /ID/flt_eq10/PROP_NAME osc
+address, if empty bind to /flt_eq10/PROP_NAME.<br>
+_type:_ symbol<br>
+
+* **@active** 
+Get/set on/off dsp processing<br>
+_type:_ bool<br>
+_default:_ 1<br>
+
+* **@f1000** 
+Get/set gain at 1000Hz<br>
 _type:_ float<br>
 _units:_ db<br>
 _range:_ -70..10<br>
@@ -51,22 +58,8 @@ _units:_ db<br>
 _range:_ -70..10<br>
 _default:_ 0<br>
 
-* **@f250** 
-Get/set gain at 250Hz<br>
-_type:_ float<br>
-_units:_ db<br>
-_range:_ -70..10<br>
-_default:_ 0<br>
-
-* **@f500** 
-Get/set gain at 500Hz<br>
-_type:_ float<br>
-_units:_ db<br>
-_range:_ -70..10<br>
-_default:_ 0<br>
-
-* **@f1000** 
-Get/set gain at 1000Hz<br>
+* **@f16000** 
+Get/set gain at 16000Hz<br>
 _type:_ float<br>
 _units:_ db<br>
 _range:_ -70..10<br>
@@ -79,8 +72,36 @@ _units:_ db<br>
 _range:_ -70..10<br>
 _default:_ 0<br>
 
+* **@f250** 
+Get/set gain at 250Hz<br>
+_type:_ float<br>
+_units:_ db<br>
+_range:_ -70..10<br>
+_default:_ 0<br>
+
+* **@f31** 
+Get/set gain at 31.25Hz<br>
+_type:_ float<br>
+_units:_ db<br>
+_range:_ -70..10<br>
+_default:_ 0<br>
+
 * **@f4000** 
 Get/set gain at 4000Hz<br>
+_type:_ float<br>
+_units:_ db<br>
+_range:_ -70..10<br>
+_default:_ 0<br>
+
+* **@f500** 
+Get/set gain at 500Hz<br>
+_type:_ float<br>
+_units:_ db<br>
+_range:_ -70..10<br>
+_default:_ 0<br>
+
+* **@f62** 
+Get/set gain at 62.5Hz<br>
 _type:_ float<br>
 _units:_ db<br>
 _range:_ -70..10<br>
@@ -92,27 +113,6 @@ _type:_ float<br>
 _units:_ db<br>
 _range:_ -70..10<br>
 _default:_ 0<br>
-
-* **@f16000** 
-Get/set gain at 16000Hz<br>
-_type:_ float<br>
-_units:_ db<br>
-_range:_ -70..10<br>
-_default:_ 0<br>
-
-* **@active** 
-Get/set on/off dsp processing<br>
-_type:_ bool<br>
-_default:_ 1<br>
-
-* **@osc** (initonly)
-Get/set OSC server name to listen<br>
-_type:_ symbol<br>
-
-* **@id** (initonly)
-Get/set OSC address id. If specified, bind all properties to /ID/flt_eq10/PROP_NAME osc
-address, if empty bind to /flt_eq10/PROP_NAME.<br>
-_type:_ symbol<br>
 
 
 

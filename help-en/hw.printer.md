@@ -28,6 +28,12 @@ _type:_ symbol<br>
 
 ## methods:
 
+* **choose**
+choose printer by index<br>
+  __parameters:__
+  - **[IDX]** printer index in device list<br>
+    type: int <br>
+
 * **devices**
 list printers<br>
 
@@ -40,12 +46,6 @@ print file<br>
 
   - **[@landscape]** print in landscape mode<br>
     type: bool <br>
-
-* **choose**
-choose printer by index<br>
-  __parameters:__
-  - **[IDX]** printer index in device list<br>
-    type: int <br>
 
 
 

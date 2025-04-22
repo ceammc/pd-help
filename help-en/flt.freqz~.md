@@ -34,13 +34,13 @@ Get/set numerator (zeros) coefficients<br>
 _type:_ list<br>
 _default:_ 1<br>
 
-* **@sr** 
-Get/set normalize using current samplerate<br>
+* **@db** 
+Get/set output amp response in db scale<br>
 _type:_ bool<br>
 _default:_ 0<br>
 
-* **@db** 
-Get/set output amp response in db scale<br>
+* **@sr** 
+Get/set normalize using current samplerate<br>
 _type:_ bool<br>
 _default:_ 0<br>
 

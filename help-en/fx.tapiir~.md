@@ -53,40 +53,24 @@ reset to initial state<br>
 
 ## properties:
 
+* **@osc** (initonly)
+Get/set OSC server name to listen<br>
+_type:_ symbol<br>
+
+* **@id** (initonly)
+Get/set OSC address id. If specified, bind all properties to /ID/fx_tapiir/PROP_NAME
+osc address, if empty bind to /fx_tapiir/PROP_NAME.<br>
+_type:_ symbol<br>
+
+* **@active** 
+Get/set on/off dsp processing<br>
+_type:_ bool<br>
+_default:_ 1<br>
+
 * **@delays** 
 Get/set list of all tap delays<br>
 _type:_ list<br>
 _units:_ ms<br>
-_default:_ 0 0 0 0 0 0<br>
-
-* **@gains** 
-Get/set list of all tap gains<br>
-_type:_ list<br>
-_units:_ db<br>
-_default:_ 0 0 0 0 0 0<br>
-
-* **@ins0** 
-Get/set list of all taps left channel input levels<br>
-_type:_ list<br>
-_range:_ 0..1<br>
-_default:_ 1 1 1 1 1 1<br>
-
-* **@ins1** 
-Get/set list of all taps right channel input levels<br>
-_type:_ list<br>
-_range:_ 0..1<br>
-_default:_ 1 1 1 1 1 1<br>
-
-* **@outs0** 
-Get/set list of all tap output levels to left channel<br>
-_type:_ list<br>
-_range:_ 0..1<br>
-_default:_ 0 0 0 0 0 0<br>
-
-* **@outs1** 
-Get/set list of all tap output levels to right channel<br>
-_type:_ list<br>
-_range:_ 0..1<br>
 _default:_ 0 0 0 0 0 0<br>
 
 * **@fbs0** 
@@ -125,160 +109,29 @@ _type:_ list<br>
 _range:_ 0..1<br>
 _default:_ 0 0 0 0 0 0<br>
 
-* **@tap0.in0** 
-Get/set left input level to tap0<br>
-_type:_ float<br>
-_range:_ 0..1<br>
-_default:_ 1<br>
+* **@gains** 
+Get/set list of all tap gains<br>
+_type:_ list<br>
+_units:_ db<br>
+_default:_ 0 0 0 0 0 0<br>
 
-* **@tap0.in1** 
-Get/set right input level to tap0<br>
-_type:_ float<br>
+* **@ins0** 
+Get/set list of all taps left channel input levels<br>
+_type:_ list<br>
 _range:_ 0..1<br>
-_default:_ 1<br>
+_default:_ 1 1 1 1 1 1<br>
 
-* **@tap1.in0** 
-Get/set left input level to tap1<br>
-_type:_ float<br>
+* **@ins1** 
+Get/set list of all taps right channel input levels<br>
+_type:_ list<br>
 _range:_ 0..1<br>
-_default:_ 1<br>
+_default:_ 1 1 1 1 1 1<br>
 
-* **@tap1.in1** 
-Get/set right input level to tap1<br>
-_type:_ float<br>
-_range:_ 0..1<br>
-_default:_ 1<br>
-
-* **@tap2.in0** 
-Get/set left input level to tap2<br>
-_type:_ float<br>
-_range:_ 0..1<br>
-_default:_ 1<br>
-
-* **@tap2.in1** 
-Get/set right input level to tap2<br>
-_type:_ float<br>
-_range:_ 0..1<br>
-_default:_ 1<br>
-
-* **@tap3.in0** 
-Get/set left input level to tap3<br>
-_type:_ float<br>
-_range:_ 0..1<br>
-_default:_ 1<br>
-
-* **@tap3.in1** 
-Get/set right input level to tap3<br>
-_type:_ float<br>
-_range:_ 0..1<br>
-_default:_ 1<br>
-
-* **@tap4.in0** 
-Get/set left input level to tap4<br>
-_type:_ float<br>
-_range:_ 0..1<br>
-_default:_ 1<br>
-
-* **@tap4.in1** 
-Get/set right input level to tap4<br>
-_type:_ float<br>
-_range:_ 0..1<br>
-_default:_ 1<br>
-
-* **@tap5.in0** 
-Get/set left input level to tap5<br>
-_type:_ float<br>
-_range:_ 0..1<br>
-_default:_ 1<br>
-
-* **@tap5.in1** 
-Get/set right input level to tap5<br>
-_type:_ float<br>
-_range:_ 0..1<br>
-_default:_ 1<br>
-
-* **@tap0.gain** 
-Get/set tap0 common level<br>
+* **@out0.gain** 
+Get/set left channel output gain<br>
 _type:_ float<br>
 _units:_ db<br>
 _range:_ -60..0<br>
-_default:_ 0<br>
-
-* **@tap1.gain** 
-Get/set tap1 common level<br>
-_type:_ float<br>
-_units:_ db<br>
-_range:_ -60..0<br>
-_default:_ 0<br>
-
-* **@tap2.gain** 
-Get/set tap2 common level<br>
-_type:_ float<br>
-_units:_ db<br>
-_range:_ -60..0<br>
-_default:_ 0<br>
-
-* **@tap3.gain** 
-Get/set tap3 common level<br>
-_type:_ float<br>
-_units:_ db<br>
-_range:_ -60..0<br>
-_default:_ 0<br>
-
-* **@tap4.gain** 
-Get/set tap4 common level<br>
-_type:_ float<br>
-_units:_ db<br>
-_range:_ -60..0<br>
-_default:_ 0<br>
-
-* **@tap5.gain** 
-Get/set tap5 common level<br>
-_type:_ float<br>
-_units:_ db<br>
-_range:_ -60..0<br>
-_default:_ 0<br>
-
-* **@tap0.delay** 
-Get/set tap0 delay time<br>
-_type:_ float<br>
-_units:_ ms<br>
-_range:_ 0..5000<br>
-_default:_ 0<br>
-
-* **@tap1.delay** 
-Get/set tap1 delay time<br>
-_type:_ float<br>
-_units:_ ms<br>
-_range:_ 0..5000<br>
-_default:_ 0<br>
-
-* **@tap2.delay** 
-Get/set tap2 delay time<br>
-_type:_ float<br>
-_units:_ ms<br>
-_range:_ 0..5000<br>
-_default:_ 0<br>
-
-* **@tap3.delay** 
-Get/set tap3 delay time<br>
-_type:_ float<br>
-_units:_ ms<br>
-_range:_ 0..5000<br>
-_default:_ 0<br>
-
-* **@tap4.delay** 
-Get/set tap4 delay time<br>
-_type:_ float<br>
-_units:_ ms<br>
-_range:_ 0..5000<br>
-_default:_ 0<br>
-
-* **@tap5.delay** 
-Get/set tap5 delay time<br>
-_type:_ float<br>
-_units:_ ms<br>
-_range:_ 0..5000<br>
 _default:_ 0<br>
 
 * **@out0.in0** 
@@ -329,8 +182,8 @@ _type:_ float<br>
 _range:_ 0..1<br>
 _default:_ 0<br>
 
-* **@out0.gain** 
-Get/set left channel output gain<br>
+* **@out1.gain** 
+Get/set right channel output gain<br>
 _type:_ float<br>
 _units:_ db<br>
 _range:_ -60..0<br>
@@ -384,11 +237,23 @@ _type:_ float<br>
 _range:_ 0..1<br>
 _default:_ 0<br>
 
-* **@out1.gain** 
-Get/set right channel output gain<br>
+* **@outs0** 
+Get/set list of all tap output levels to left channel<br>
+_type:_ list<br>
+_range:_ 0..1<br>
+_default:_ 0 0 0 0 0 0<br>
+
+* **@outs1** 
+Get/set list of all tap output levels to right channel<br>
+_type:_ list<br>
+_range:_ 0..1<br>
+_default:_ 0 0 0 0 0 0<br>
+
+* **@tap0.delay** 
+Get/set tap0 delay time<br>
 _type:_ float<br>
-_units:_ db<br>
-_range:_ -60..0<br>
+_units:_ ms<br>
+_range:_ 0..5000<br>
 _default:_ 0<br>
 
 * **@tap0.fb0** 
@@ -427,6 +292,32 @@ _type:_ float<br>
 _range:_ 0..1<br>
 _default:_ 0<br>
 
+* **@tap0.gain** 
+Get/set tap0 common level<br>
+_type:_ float<br>
+_units:_ db<br>
+_range:_ -60..0<br>
+_default:_ 0<br>
+
+* **@tap0.in0** 
+Get/set left input level to tap0<br>
+_type:_ float<br>
+_range:_ 0..1<br>
+_default:_ 1<br>
+
+* **@tap0.in1** 
+Get/set right input level to tap0<br>
+_type:_ float<br>
+_range:_ 0..1<br>
+_default:_ 1<br>
+
+* **@tap1.delay** 
+Get/set tap1 delay time<br>
+_type:_ float<br>
+_units:_ ms<br>
+_range:_ 0..5000<br>
+_default:_ 0<br>
+
 * **@tap1.fb0** 
 Get/set tap0 feedback to tap1<br>
 _type:_ float<br>
@@ -461,6 +352,32 @@ _default:_ 0<br>
 Get/set tap5 feedback to tap1<br>
 _type:_ float<br>
 _range:_ 0..1<br>
+_default:_ 0<br>
+
+* **@tap1.gain** 
+Get/set tap1 common level<br>
+_type:_ float<br>
+_units:_ db<br>
+_range:_ -60..0<br>
+_default:_ 0<br>
+
+* **@tap1.in0** 
+Get/set left input level to tap1<br>
+_type:_ float<br>
+_range:_ 0..1<br>
+_default:_ 1<br>
+
+* **@tap1.in1** 
+Get/set right input level to tap1<br>
+_type:_ float<br>
+_range:_ 0..1<br>
+_default:_ 1<br>
+
+* **@tap2.delay** 
+Get/set tap2 delay time<br>
+_type:_ float<br>
+_units:_ ms<br>
+_range:_ 0..5000<br>
 _default:_ 0<br>
 
 * **@tap2.fb0** 
@@ -499,6 +416,32 @@ _type:_ float<br>
 _range:_ 0..1<br>
 _default:_ 0<br>
 
+* **@tap2.gain** 
+Get/set tap2 common level<br>
+_type:_ float<br>
+_units:_ db<br>
+_range:_ -60..0<br>
+_default:_ 0<br>
+
+* **@tap2.in0** 
+Get/set left input level to tap2<br>
+_type:_ float<br>
+_range:_ 0..1<br>
+_default:_ 1<br>
+
+* **@tap2.in1** 
+Get/set right input level to tap2<br>
+_type:_ float<br>
+_range:_ 0..1<br>
+_default:_ 1<br>
+
+* **@tap3.delay** 
+Get/set tap3 delay time<br>
+_type:_ float<br>
+_units:_ ms<br>
+_range:_ 0..5000<br>
+_default:_ 0<br>
+
 * **@tap3.fb0** 
 Get/set tap0 feedback to tap3<br>
 _type:_ float<br>
@@ -533,6 +476,32 @@ _default:_ 0<br>
 Get/set tap5 feedback to tap3<br>
 _type:_ float<br>
 _range:_ 0..1<br>
+_default:_ 0<br>
+
+* **@tap3.gain** 
+Get/set tap3 common level<br>
+_type:_ float<br>
+_units:_ db<br>
+_range:_ -60..0<br>
+_default:_ 0<br>
+
+* **@tap3.in0** 
+Get/set left input level to tap3<br>
+_type:_ float<br>
+_range:_ 0..1<br>
+_default:_ 1<br>
+
+* **@tap3.in1** 
+Get/set right input level to tap3<br>
+_type:_ float<br>
+_range:_ 0..1<br>
+_default:_ 1<br>
+
+* **@tap4.delay** 
+Get/set tap4 delay time<br>
+_type:_ float<br>
+_units:_ ms<br>
+_range:_ 0..5000<br>
 _default:_ 0<br>
 
 * **@tap4.fb0** 
@@ -571,6 +540,32 @@ _type:_ float<br>
 _range:_ 0..1<br>
 _default:_ 0<br>
 
+* **@tap4.gain** 
+Get/set tap4 common level<br>
+_type:_ float<br>
+_units:_ db<br>
+_range:_ -60..0<br>
+_default:_ 0<br>
+
+* **@tap4.in0** 
+Get/set left input level to tap4<br>
+_type:_ float<br>
+_range:_ 0..1<br>
+_default:_ 1<br>
+
+* **@tap4.in1** 
+Get/set right input level to tap4<br>
+_type:_ float<br>
+_range:_ 0..1<br>
+_default:_ 1<br>
+
+* **@tap5.delay** 
+Get/set tap5 delay time<br>
+_type:_ float<br>
+_units:_ ms<br>
+_range:_ 0..5000<br>
+_default:_ 0<br>
+
 * **@tap5.fb0** 
 Get/set tap0 feedback to tap5<br>
 _type:_ float<br>
@@ -607,19 +602,24 @@ _type:_ float<br>
 _range:_ 0..1<br>
 _default:_ 0<br>
 
-* **@active** 
-Get/set on/off dsp processing<br>
-_type:_ bool<br>
+* **@tap5.gain** 
+Get/set tap5 common level<br>
+_type:_ float<br>
+_units:_ db<br>
+_range:_ -60..0<br>
+_default:_ 0<br>
+
+* **@tap5.in0** 
+Get/set left input level to tap5<br>
+_type:_ float<br>
+_range:_ 0..1<br>
 _default:_ 1<br>
 
-* **@osc** (initonly)
-Get/set OSC server name to listen<br>
-_type:_ symbol<br>
-
-* **@id** (initonly)
-Get/set OSC address id. If specified, bind all properties to /ID/fx_tapiir/PROP_NAME
-osc address, if empty bind to /fx_tapiir/PROP_NAME.<br>
-_type:_ symbol<br>
+* **@tap5.in1** 
+Get/set right input level to tap5<br>
+_type:_ float<br>
+_range:_ 0..1<br>
+_default:_ 1<br>
 
 
 

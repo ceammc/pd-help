@@ -42,13 +42,13 @@ _type:_ int<br>
 _range:_ 3..16<br>
 _default:_ 3<br>
 
-* **@sync** (initonly)
-Get/set if specified - all inlets are &#39;hot&#39;<br>
-_type:_ flag<br>
-
 * **@state** (readonly)
 Get internal logic state as list of 1 and 0<br>
 _type:_ list<br>
+
+* **@sync** (initonly)
+Get/set if specified - all inlets are &#39;hot&#39;<br>
+_type:_ flag<br>
 
 
 

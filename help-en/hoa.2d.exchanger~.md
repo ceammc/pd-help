@@ -40,17 +40,9 @@ _type:_ symbol<br>
 
 ## properties:
 
-* **@order** (initonly)
-Get/set the order of decomposition<br>
-_type:_ int<br>
-_range:_ 1..63<br>
-_default:_ 1<br>
-
-* **@num** 
-Get/set numbering scheme<br>
-_type:_ symbol<br>
-_enum:_ ACN, fromFurseMalham, fromSID, toFurseMalham, toSID<br>
-_default:_ ACN<br>
+* **@fromB** 
+Get/set alias to @num fromFurseMalham and @norm fromMaxN<br>
+_type:_ alias<br>
 
 * **@norm** 
 Get/set normalization<br>
@@ -58,12 +50,20 @@ _type:_ symbol<br>
 _enum:_ SN2D, fromMaxN, toMaxN<br>
 _default:_ SN2D<br>
 
+* **@num** 
+Get/set numbering scheme<br>
+_type:_ symbol<br>
+_enum:_ ACN, fromFurseMalham, fromSID, toFurseMalham, toSID<br>
+_default:_ ACN<br>
+
+* **@order** (initonly)
+Get/set the order of decomposition<br>
+_type:_ int<br>
+_range:_ 1..63<br>
+_default:_ 1<br>
+
 * **@toB** 
 Get/set alias to @num toFurseMalham and @norm toMaxN<br>
-_type:_ alias<br>
-
-* **@fromB** 
-Get/set alias to @num fromFurseMalham and @norm fromMaxN<br>
 _type:_ alias<br>
 
 

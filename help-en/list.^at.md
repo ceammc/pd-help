@@ -28,14 +28,20 @@ _type:_ list<br>
 
 ## properties:
 
-* **@value** 
-Get/set list contents<br>
-_type:_ list<br>
+* **@clip** 
+Get/set alias to @method clip. If index &lt; 0 - return first element. If index greater or
+equal list size - return last element<br>
+_type:_ alias<br>
 
 * **@default** 
 Get/set default output value if element was not found<br>
 _type:_ atom<br>
 _default:_ None<br>
+
+* **@fold** 
+Get/set alias to @method fold. In range [0, LIST_SIZE) ordinal elements are returned.
+[LIST_SIZE, 2*LIST_SIZE) - returned in negative order etc.<br>
+_type:_ alias<br>
 
 * **@method** 
 Get/set methods of processing of negative/invalid indexes<br>
@@ -47,15 +53,9 @@ _default:_ rel<br>
 Get/set alias to @method rel. Negative index means position from the end of the list<br>
 _type:_ alias<br>
 
-* **@clip** 
-Get/set alias to @method clip. If index &lt; 0 - return first element. If index greater or
-equal list size - return last element<br>
-_type:_ alias<br>
-
-* **@fold** 
-Get/set alias to @method fold. In range [0, LIST_SIZE) ordinal elements are returned.
-[LIST_SIZE, 2*LIST_SIZE) - returned in negative order etc.<br>
-_type:_ alias<br>
+* **@value** 
+Get/set list contents<br>
+_type:_ list<br>
 
 * **@wrap** 
 Get/set alias to @method wrap. In range [0, LIST_SIZE) ordinal elements are returned.

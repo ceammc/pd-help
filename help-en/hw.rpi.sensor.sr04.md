@@ -44,12 +44,6 @@ turn the sensor polling on/off<br>
 
 ## properties:
 
-* **@trig_pin** (initonly)
-Get/set a trigger pin GPIO number<br>
-_type:_ int<br>
-_range:_ 0..255<br>
-_default:_ 17<br>
-
 * **@echo_pin** (initonly)
 Get/set an echo pin GPIO number<br>
 _type:_ int<br>
@@ -62,6 +56,12 @@ _type:_ int<br>
 _units:_ ms<br>
 _range:_ 10..1000<br>
 _default:_ 20<br>
+
+* **@trig_pin** (initonly)
+Get/set a trigger pin GPIO number<br>
+_type:_ int<br>
+_range:_ 0..255<br>
+_default:_ 17<br>
 
 
 

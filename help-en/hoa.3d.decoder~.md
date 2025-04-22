@@ -38,11 +38,15 @@ _type:_ int<br>
 
 ## properties:
 
-* **@order** (initonly)
-Get/set the order of decomposition<br>
-_type:_ int<br>
-_range:_ 1..10<br>
-_default:_ 1<br>
+* **@angles** 
+Get/set angles of loudspeakers.<br>
+_type:_ list<br>
+_units:_ deg<br>
+_default:_ 0 90 0 340.5288 120 340.5288 240 340.5288<br>
+
+* **@binaural** 
+Get/set alias for @mode binaural<br>
+_type:_ alias<br>
 
 * **@mode** 
 Get/set decoding mode<br>
@@ -50,13 +54,17 @@ _type:_ symbol<br>
 _enum:_ regular, binaural<br>
 _default:_ regular<br>
 
-* **@regular** 
-Get/set alias for @mode regular<br>
-_type:_ alias<br>
+* **@nch** (initonly)
+Get/set number of plain waves.<br>
+_type:_ int<br>
+_min value:_ 1<br>
+_default:_ 0<br>
 
-* **@binaural** 
-Get/set alias for @mode binaural<br>
-_type:_ alias<br>
+* **@nharm** (readonly)
+Get number of circular harmonics.<br>
+_type:_ int<br>
+_min value:_ 1<br>
+_default:_ 4<br>
 
 * **@offset** 
 Get/set rotation of loudspeakers. Only available for @regular and @irregular mode.<br>
@@ -64,11 +72,11 @@ _type:_ list<br>
 _units:_ deg<br>
 _default:_ 0 0 0<br>
 
-* **@angles** 
-Get/set angles of loudspeakers.<br>
-_type:_ list<br>
-_units:_ deg<br>
-_default:_ 0 90 0 340.5288 120 340.5288 240 340.5288<br>
+* **@order** (initonly)
+Get/set the order of decomposition<br>
+_type:_ int<br>
+_range:_ 1..10<br>
+_default:_ 1<br>
 
 * **@pw_x** (readonly)
 Get list of plain wave x-coordinates (abscissas). -1 is the left of the soundfield,
@@ -94,17 +102,9 @@ _units:_ rad<br>
 _range:_ -1..1<br>
 _default:_ 1 -0.3333 -0.3333 -0.3333<br>
 
-* **@nharm** (readonly)
-Get number of circular harmonics.<br>
-_type:_ int<br>
-_min value:_ 1<br>
-_default:_ 4<br>
-
-* **@nch** (initonly)
-Get/set number of plain waves.<br>
-_type:_ int<br>
-_min value:_ 1<br>
-_default:_ 0<br>
+* **@regular** 
+Get/set alias for @mode regular<br>
+_type:_ alias<br>
 
 
 

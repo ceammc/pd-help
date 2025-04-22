@@ -36,15 +36,15 @@ _type:_ float<br>
 
 ## properties:
 
-* **@value** 
-Get/set compare pattern<br>
-_type:_ float<br>
-_default:_ 0<br>
-
 * **@epsilon** 
 Get/set compare epsilon<br>
 _type:_ float<br>
 _default:_ 0.01<br>
+
+* **@value** 
+Get/set compare pattern<br>
+_type:_ float<br>
+_default:_ 0<br>
 
 
 

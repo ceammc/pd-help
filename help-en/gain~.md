@@ -85,12 +85,6 @@ set gain in db for all inputs<br>
 
 ## properties:
 
-* **@value** 
-Get/set gain amplitude values<br>
-_type:_ list<br>
-_min value:_ 0<br>
-_default:_ 0<br>
-
 * **@db** 
 Get/set gain decibel (dbfs) values<br>
 _type:_ list<br>
@@ -103,6 +97,12 @@ _type:_ float<br>
 _units:_ ms<br>
 _min value:_ 1<br>
 _default:_ 20<br>
+
+* **@value** 
+Get/set gain amplitude values<br>
+_type:_ list<br>
+_min value:_ 0<br>
+_default:_ 0<br>
 
 
 

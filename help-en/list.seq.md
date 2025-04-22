@@ -36,25 +36,25 @@ _type:_ float<br>
 
 ## properties:
 
+* **@closed** (initonly)
+Get/set generate closed range sequence<br>
+_type:_ flag<br>
+_default:_ 0<br>
+
 * **@from** 
 Get/set start value<br>
 _type:_ float<br>
 _default:_ 0<br>
-
-* **@to** 
-Get/set end value<br>
-_type:_ float<br>
-_default:_ 1<br>
 
 * **@step** 
 Get/set sequence step (always positive)<br>
 _type:_ float<br>
 _default:_ 1<br>
 
-* **@closed** (initonly)
-Get/set generate closed range sequence<br>
-_type:_ flag<br>
-_default:_ 0<br>
+* **@to** 
+Get/set end value<br>
+_type:_ float<br>
+_default:_ 1<br>
 
 
 

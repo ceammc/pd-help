@@ -28,10 +28,17 @@ _type:_ int<br>
 
 ## methods:
 
-* **polarity**
-set output polarity<br>
+* **duty**
+set duty cycle<br>
   __parameters:__
-  - **INVERTED** new value. If true: polarity is inverted<br>
+  - **DUTY** duty cycle<br>
+    type: float <br>
+    required: True <br>
+
+* **enable**
+enable PWM. By default it is disabled.<br>
+  __parameters:__
+  - **ENABLE** value<br>
     type: bool <br>
     required: True <br>
 
@@ -47,6 +54,21 @@ set frequency<br>
     type: float <br>
     required: True <br>
 
+* **period**
+set period. Expected width&lt;=pulse.<br>
+  __parameters:__
+  - **PERIOD** the whole cycle period<br>
+    type: float <br>
+    units: ms <br>
+    required: True <br>
+
+* **polarity**
+set output polarity<br>
+  __parameters:__
+  - **INVERTED** new value. If true: polarity is inverted<br>
+    type: bool <br>
+    required: True <br>
+
 * **pwm**
 set period and pulse width. Expected width&lt;=pulse.<br>
   __parameters:__
@@ -60,34 +82,12 @@ set period and pulse width. Expected width&lt;=pulse.<br>
     units: ms <br>
     required: True <br>
 
-* **period**
-set period. Expected width&lt;=pulse.<br>
-  __parameters:__
-  - **PERIOD** the whole cycle period<br>
-    type: float <br>
-    units: ms <br>
-    required: True <br>
-
 * **width**
 set pulse width. Expected width&lt;=pulse.<br>
   __parameters:__
   - **WIDTH** pulse width<br>
     type: float <br>
     units: ms <br>
-    required: True <br>
-
-* **enable**
-enable PWM. By default it is disabled.<br>
-  __parameters:__
-  - **ENABLE** value<br>
-    type: bool <br>
-    required: True <br>
-
-* **duty**
-set duty cycle<br>
-  __parameters:__
-  - **DUTY** duty cycle<br>
-    type: float <br>
     required: True <br>
 
 

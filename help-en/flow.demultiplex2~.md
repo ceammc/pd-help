@@ -30,15 +30,15 @@ _type:_ int<br>
 
 ## properties:
 
-* **@value** 
-Get/set gain coefficients per each output<br>
-_type:_ list<br>
-
 * **@n** (initonly)
 Get/set number of output stereo channels<br>
 _type:_ int<br>
 _range:_ 2..16<br>
 _default:_ 2<br>
+
+* **@value** 
+Get/set gain coefficients per each output<br>
+_type:_ list<br>
 
 
 

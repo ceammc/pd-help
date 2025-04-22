@@ -66,16 +66,16 @@ Get/set numerator (zeros) coefficients<br>
 _type:_ list<br>
 _default:_ 1<br>
 
+* **@db** 
+Get/set output amp response in db scale<br>
+_type:_ bool<br>
+_default:_ 0<br>
+
 * **@n** 
 Get/set number of points<br>
 _type:_ int<br>
 _range:_ 4..1024<br>
 _default:_ 256<br>
-
-* **@db** 
-Get/set output amp response in db scale<br>
-_type:_ bool<br>
-_default:_ 0<br>
 
 
 

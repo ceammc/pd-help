@@ -23,6 +23,9 @@
 * **get**
 request current value output<br>
 
+* **reset**
+reset current value to @init<br>
+
 * **set**
 set current value without output<br>
   __parameters:__
@@ -30,35 +33,10 @@ set current value without output<br>
     type: float <br>
     required: True <br>
 
-* **reset**
-reset current value to @init<br>
-
 
 
 
 ## properties:
-
-* **@init** (initonly)
-Get/set init encoder value<br>
-_type:_ float<br>
-_default:_ 0<br>
-
-* **@dt** (initonly)
-Get/set DT GPIO pin<br>
-_type:_ int<br>
-_range:_ -1..127<br>
-_default:_ -1<br>
-
-* **@min** 
-Get/set min encoder value<br>
-_type:_ float<br>
-_default:_ -100<br>
-
-* **@clk** (initonly)
-Get/set CLK GPIO pin<br>
-_type:_ int<br>
-_range:_ -1..127<br>
-_default:_ -1<br>
 
 * **@btn** (initonly)
 Get/set BTN GPIO pin<br>
@@ -66,15 +44,37 @@ _type:_ int<br>
 _range:_ -1..127<br>
 _default:_ -1<br>
 
-* **@step** 
-Get/set encoder step<br>
+* **@clk** (initonly)
+Get/set CLK GPIO pin<br>
+_type:_ int<br>
+_range:_ -1..127<br>
+_default:_ -1<br>
+
+* **@dt** (initonly)
+Get/set DT GPIO pin<br>
+_type:_ int<br>
+_range:_ -1..127<br>
+_default:_ -1<br>
+
+* **@init** (initonly)
+Get/set init encoder value<br>
 _type:_ float<br>
-_default:_ 1<br>
+_default:_ 0<br>
 
 * **@max** 
 Get/set max encoder value<br>
 _type:_ float<br>
 _default:_ 100<br>
+
+* **@min** 
+Get/set min encoder value<br>
+_type:_ float<br>
+_default:_ -100<br>
+
+* **@step** 
+Get/set encoder step<br>
+_type:_ float<br>
+_default:_ 1<br>
 
 
 

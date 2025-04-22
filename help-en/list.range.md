@@ -26,11 +26,9 @@ Note: if @type = any, numbers are smaller then symbols
 
 ## properties:
 
-* **@type** 
-Get/set type of accepted atoms<br>
-_type:_ symbol<br>
-_enum:_ float, symbol, any<br>
-_default:_ float<br>
+* **@a** 
+Get/set alias to @type any, accept all<br>
+_type:_ alias<br>
 
 * **@f** 
 Get/set alias to @type float, accept only floats<br>
@@ -40,9 +38,11 @@ _type:_ alias<br>
 Get/set alias to @type symbol, accept only symbols<br>
 _type:_ alias<br>
 
-* **@a** 
-Get/set alias to @type any, accept all<br>
-_type:_ alias<br>
+* **@type** 
+Get/set type of accepted atoms<br>
+_type:_ symbol<br>
+_enum:_ float, symbol, any<br>
+_default:_ float<br>
 
 
 

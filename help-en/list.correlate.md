@@ -38,6 +38,10 @@ _type:_ list<br>
 Get/set second argument<br>
 _type:_ list<br>
 
+* **@full** 
+Get/set alias to @mode full<br>
+_type:_ alias<br>
+
 * **@mode** 
 Get/set output mode. &#39;full&#39; - output the cross-correlation at each point of overlap,
 with an output length of (M+N-1). At the end-points of the cross-correlation,
@@ -50,16 +54,12 @@ _type:_ symbol<br>
 _enum:_ valid, same, full<br>
 _default:_ valid<br>
 
-* **@valid** 
-Get/set alias to @mode valid<br>
-_type:_ alias<br>
-
 * **@same** 
 Get/set alias to @mode same<br>
 _type:_ alias<br>
 
-* **@full** 
-Get/set alias to @mode full<br>
+* **@valid** 
+Get/set alias to @mode valid<br>
 _type:_ alias<br>
 
 

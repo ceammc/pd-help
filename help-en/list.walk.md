@@ -54,38 +54,19 @@ sets current position to 0<br>
 
 ## properties:
 
-* **@mode** 
-Get/set pass mode. See properties below for detailed information.<br>
-_type:_ symbol<br>
-_enum:_ single, clip, wrap, fold<br>
-_default:_ single<br>
-
 * **@clip** 
 Get/set clipped pass mode. When the list bounds are reached - min/max value repeats
 perpetually.<br>
-_type:_ alias<br>
-
-* **@single** 
-Get/set single pass mode. When the list bounds are reached - no output any more until
-reset.<br>
-_type:_ alias<br>
-
-* **@loop** 
-Get/set @wrap alias<br>
-_type:_ alias<br>
-
-* **@wrap** 
-Get/set wrap pass mode. List values are repeated in a loop<br>
-_type:_ alias<br>
-
-* **@fold** 
-Get/set fold pass mode. List values are repeated in a loop with folding<br>
 _type:_ alias<br>
 
 * **@direction** 
 Get/set walking direction. &#34;1&#34; - forwards, &#34;0&#34; - backwards.<br>
 _type:_ bool<br>
 _default:_ 1<br>
+
+* **@fold** 
+Get/set fold pass mode. List values are repeated in a loop with folding<br>
+_type:_ alias<br>
 
 * **@index** 
 Get/set current position<br>
@@ -99,6 +80,21 @@ _type:_ int<br>
 _min value:_ 1<br>
 _default:_ 1<br>
 
+* **@loop** 
+Get/set @wrap alias<br>
+_type:_ alias<br>
+
+* **@mode** 
+Get/set pass mode. See properties below for detailed information.<br>
+_type:_ symbol<br>
+_enum:_ single, clip, wrap, fold<br>
+_default:_ single<br>
+
+* **@single** 
+Get/set single pass mode. When the list bounds are reached - no output any more until
+reset.<br>
+_type:_ alias<br>
+
 * **@size** (readonly)
 Get current list size<br>
 _type:_ int<br>
@@ -108,6 +104,10 @@ _default:_ 0<br>
 * **@value** 
 Get/set current list<br>
 _type:_ list<br>
+
+* **@wrap** 
+Get/set wrap pass mode. List values are repeated in a loop<br>
+_type:_ alias<br>
 
 
 

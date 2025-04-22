@@ -11,7 +11,7 @@
 
 
 ## information
-Only Raspberry Pi support Handles communication with the MAX7219 chip for 7-segmented or 8x8 LED dot matrix displays. Each display can be connected in series with another and controlled via a single connection. Note: in case of LED dot matrix disaply only write_bits and write_reg commands will work as expected Note: 7-segment LED display supports only this charset: -_0123456789ABCDEFGHIJLOPSUbcdhnoqrtu Note: if the device address argument is -1 or ommited, requested action is aplied for all devices in a chain.
+Only Raspberry Pi support Handles communication with the MAX7219 chip for 7-segmented or 8x8 LED dot matrix displays. Each display can be connected in series with another and controlled via a single connection. Note: in case of LED dot matrix display only write_bits and write_reg commands will work as expected Note: 7-segment LED display supports only this charset: -_0123456789ABCDEFGHIJLOPSUbcdhnoqrtu Note: if the device address argument is -1 or omitted, requested action is applied for all devices in a chain.
 
 
 [![example](../examples/img/hw.rpi.spi.max7219.jpg)](../examples/pd/hw.rpi.spi.max7219.pd)
@@ -34,54 +34,14 @@ clear display<br>
   - **[ADDR=0]** display address in chain<br>
     type: int <br>
 
-* **write int**
-write signed integer value into 7-segment display (no led matrix support!)<br>
+* **intensity**
+set intensity level on the display<br>
   __parameters:__
-  - **INT** value<br>
+  - **LEVEL** intensity level<br>
     type: int <br>
     required: True <br>
 
-  - **[ADDR]** display address in the chain. If ommited or -1: write to all displays<br>
-    type: int <br>
-
-* **write str**
-write string into 7-segment display (no led matrix support!)<br>
-  __parameters:__
-  - **STR** string. maxlength: 8 chars<br>
-    type: symbol <br>
-    required: True <br>
-
-  - **[DOTS]** dots as bit value. For ex.: 0b00000011 turn on a two leftmost dots<br>
-    type: int <br>
-
-  - **[ALIGN=right]** string align<br>
-    type: symbol <br>
-
-  - **[ADDR=0]** display address in the chain<br>
-    type: int <br>
-
-* **write float**
-write float value into 7-segment display (no led matrix support!)<br>
-  __parameters:__
-  - **VAL** value<br>
-    type: float <br>
-    required: True <br>
-
-  - **[PRECISION]** precision after the dot<br>
-    type: int <br>
-
-  - **[ADDR]** display address in the chain. If ommited or -1: write to all displays<br>
-    type: int <br>
-
-* **write hex**
-write hex unsigned integer value into 7-segment display (no led matrix
-support!)<br>
-  __parameters:__
-  - **INT** value<br>
-    type: int <br>
-    required: True <br>
-
-  - **[ADDR=0]** display address in the chain<br>
+  - **[ADDR=-1]** target display address in the chain<br>
     type: int <br>
 
 * **power**
@@ -94,16 +54,6 @@ power on/off display<br>
 * **test**
 test display by turning all led on<br>
   __parameters:__
-  - **[ADDR=-1]** target display address in the chain<br>
-    type: int <br>
-
-* **intensity**
-set intensity level on the display<br>
-  __parameters:__
-  - **LEVEL** intencity level<br>
-    type: int <br>
-    required: True <br>
-
   - **[ADDR=-1]** target display address in the chain<br>
     type: int <br>
 
@@ -129,6 +79,40 @@ write raw bytes into the display<br>
     type: list <br>
     required: True <br>
 
+* **write float**
+write float value into 7-segment display (no led matrix support!)<br>
+  __parameters:__
+  - **VAL** value<br>
+    type: float <br>
+    required: True <br>
+
+  - **[PRECISION]** precision after the dot<br>
+    type: int <br>
+
+  - **[ADDR]** display address in the chain. If omitted or -1: write to all displays<br>
+    type: int <br>
+
+* **write hex**
+write hex unsigned integer value into 7-segment display (no led matrix
+support!)<br>
+  __parameters:__
+  - **INT** value<br>
+    type: int <br>
+    required: True <br>
+
+  - **[ADDR=0]** display address in the chain<br>
+    type: int <br>
+
+* **write int**
+write signed integer value into 7-segment display (no led matrix support!)<br>
+  __parameters:__
+  - **INT** value<br>
+    type: int <br>
+    required: True <br>
+
+  - **[ADDR]** display address in the chain. If omitted or -1: write to all displays<br>
+    type: int <br>
+
 * **write reg**
 write the max7219 register data. Lowest level of communication<br>
   __parameters:__
@@ -143,22 +127,38 @@ write the max7219 register data. Lowest level of communication<br>
   - **[ADDR=0]** target display address in the chain<br>
     type: int <br>
 
+* **write str**
+write string into 7-segment display (no led matrix support!)<br>
+  __parameters:__
+  - **STR** string. maxlength: 8 chars<br>
+    type: symbol <br>
+    required: True <br>
+
+  - **[DOTS]** dots as bit value. For ex.: 0b00000011 turn on a two leftmost dots<br>
+    type: int <br>
+
+  - **[ALIGN=right]** string align<br>
+    type: symbol <br>
+
+  - **[ADDR=0]** display address in the chain<br>
+    type: int <br>
+
 
 
 
 ## properties:
-
-* **@displays** (initonly)
-Get/set number of displays connected into the chain<br>
-_type:_ int<br>
-_range:_ 1..8<br>
-_default:_ 1<br>
 
 * **@cs** (initonly)
 Get/set CS (ChipSelect, SlaveSelect or ChipEnable) index<br>
 _type:_ int<br>
 _range:_ 0..3<br>
 _default:_ 0<br>
+
+* **@displays** (initonly)
+Get/set number of displays connected into the chain<br>
+_type:_ int<br>
+_range:_ 1..8<br>
+_default:_ 1<br>
 
 * **@spi** (initonly)
 Get/set SPI bus number.<br>

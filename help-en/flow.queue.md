@@ -32,16 +32,16 @@ _type:_ int<br>
 
 ## properties:
 
+* **@auto_pop** 
+Get/set auto pop mode. If true automatically pops oldest elements when queue is full<br>
+_type:_ bool<br>
+_default:_ 0<br>
+
 * **@max_size** 
 Get/set max queue size<br>
 _type:_ int<br>
 _range:_ 1..1024<br>
 _default:_ 32<br>
-
-* **@auto_pop** 
-Get/set auto pop mode. If true automatically pops oldest elements when queue is full<br>
-_type:_ bool<br>
-_default:_ 0<br>
 
 
 

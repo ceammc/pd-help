@@ -22,6 +22,9 @@ The MPU-6050 is a 6-axis (combines 3-axis Gyroscope, 3-axis Accelerometer) motio
 
 ## methods:
 
+* **calibrate**
+calibrate the sensor. Place it still so that the Z axis is pointing down.<br>
+
 * **poll**
 start/stop sensor polling<br>
   __parameters:__
@@ -29,19 +32,10 @@ start/stop sensor polling<br>
     type: bool <br>
     required: True <br>
 
-* **calibrate**
-calibrate the sensor. Place it still so that the Z axis is pointing down.<br>
-
 
 
 
 ## properties:
-
-* **@i2c_bus** (initonly)
-Get/set I²C bus<br>
-_type:_ atom<br>
-_enum:_ 1, 2, 3, 4, 5, 6, default, none<br>
-_default:_ none<br>
 
 * **@i2c_addr** (initonly)
 Get/set I2C address. The value &#39;default&#39; means default device I²C address (0x68), value
@@ -49,6 +43,12 @@ Get/set I2C address. The value &#39;default&#39; means default device I²C addre
 _type:_ int<br>
 _range:_ -4..119<br>
 _default:_ -1<br>
+
+* **@i2c_bus** (initonly)
+Get/set I²C bus<br>
+_type:_ atom<br>
+_enum:_ 1, 2, 3, 4, 5, 6, default, none<br>
+_default:_ none<br>
 
 
 

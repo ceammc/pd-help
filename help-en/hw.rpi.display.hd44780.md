@@ -31,6 +31,13 @@ turn on/off the display backlight<br>
     type: bool <br>
     required: True <br>
 
+* **char**
+write character to the display and move cursor to the next position<br>
+  __parameters:__
+  - **CHAR** char code<br>
+    type: int <br>
+    required: True <br>
+
 * **clear**
 clear all display data and set cursor position to 0, 0<br>
 
@@ -59,12 +66,8 @@ set cursor potision<br>
     type: int <br>
     required: True <br>
 
-* **move_display**
-move display content horizontally<br>
-  __parameters:__
-  - **SHIFT** relative display move, not altering the display content<br>
-    type: int <br>
-    required: True <br>
+* **font**
+choose font<br>
 
 * **move_cursor**
 move cursor horizontally<br>
@@ -73,10 +76,10 @@ move cursor horizontally<br>
     type: int <br>
     required: True <br>
 
-* **char**
-write character to the display and move cursor to the next position<br>
+* **move_display**
+move display content horizontally<br>
   __parameters:__
-  - **CHAR** char code<br>
+  - **SHIFT** relative display move, not altering the display content<br>
     type: int <br>
     required: True <br>
 
@@ -88,19 +91,10 @@ the next position after last written character<br>
     type: list <br>
     required: True <br>
 
-* **font**
-choose font<br>
-
 
 
 
 ## properties:
-
-* **@i2c_bus** (initonly)
-Get/set I²C bus<br>
-_type:_ atom<br>
-_enum:_ 1, 2, 3, 4, 5, 6, default, none<br>
-_default:_ none<br>
 
 * **@i2c_addr** (initonly)
 Get/set I²C address. Values &#39;default&#39; (for addr 0x27), &#39;alt&#39; (for addr 0x3f) are also
@@ -108,6 +102,12 @@ accepted<br>
 _type:_ int<br>
 _range:_ -4..119<br>
 _default:_ -1<br>
+
+* **@i2c_bus** (initonly)
+Get/set I²C bus<br>
+_type:_ atom<br>
+_enum:_ 1, 2, 3, 4, 5, 6, default, none<br>
+_default:_ none<br>
 
 * **@rows** (initonly)
 Get/set number of display rows<br>

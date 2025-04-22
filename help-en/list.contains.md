@@ -28,11 +28,6 @@ _type:_ list<br>
 
 ## properties:
 
-* **@sublist** 
-Get/set sublist mode, output 1 if input list contains this property value as sublist,
-otherwise 0<br>
-_type:_ list<br>
-
 * **@all_of** 
 Get/set all_of mode, output 1 is input list contains all of this property values<br>
 _type:_ list<br>
@@ -44,6 +39,11 @@ _type:_ list<br>
 
 * **@none_of** 
 Get/set none_of mode, output 1 is input list contains none of this property values<br>
+_type:_ list<br>
+
+* **@sublist** 
+Get/set sublist mode, output 1 if input list contains this property value as sublist,
+otherwise 0<br>
 _type:_ list<br>
 
 

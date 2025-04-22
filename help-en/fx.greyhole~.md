@@ -30,11 +30,24 @@ reset to initial state<br>
 
 ## properties:
 
-* **@feedback** 
-Get/set amount of feedback for the delay line<br>
-_type:_ float<br>
-_range:_ 0..1<br>
-_default:_ 0.9<br>
+* **@osc** (initonly)
+Get/set OSC server name to listen<br>
+_type:_ symbol<br>
+
+* **@id** (initonly)
+Get/set OSC address id. If specified, bind all properties to /ID/fx_greyhole/PROP_NAME
+osc address, if empty bind to /fx_greyhole/PROP_NAME.<br>
+_type:_ symbol<br>
+
+* **@active** 
+Get/set on/off dsp processing<br>
+_type:_ bool<br>
+_default:_ 1<br>
+
+* **@bypass** 
+Get/set bypass flag. If true: bypass &#39;effected&#39; signal.<br>
+_type:_ bool<br>
+_default:_ 0<br>
 
 * **@damping** 
 Get/set controls damping of high-frequencies as the delay decays. 0 is no damping, 1 is
@@ -57,6 +70,19 @@ _type:_ float<br>
 _range:_ 0..0.99<br>
 _default:_ 0.5<br>
 
+* **@drywet** 
+Get/set proportion of mix between the original (dry) and &#39;effected&#39; (wet) signals. 0 -
+dry signal, 1 - wet.<br>
+_type:_ float<br>
+_range:_ 0..1<br>
+_default:_ 1<br>
+
+* **@feedback** 
+Get/set amount of feedback for the delay line<br>
+_type:_ float<br>
+_range:_ 0..1<br>
+_default:_ 0.9<br>
+
 * **@moddepth** 
 Get/set depth of delay-line modulation. Use in combination with *@modfreq* to set
 amount of chorusing within the structure<br>
@@ -77,32 +103,6 @@ larger or smaller space. Values below 1 can sound quite metallic.<br>
 _type:_ float<br>
 _range:_ 0.5..3<br>
 _default:_ 1<br>
-
-* **@drywet** 
-Get/set proportion of mix between the original (dry) and &#39;effected&#39; (wet) signals. 0 -
-dry signal, 1 - wet.<br>
-_type:_ float<br>
-_range:_ 0..1<br>
-_default:_ 1<br>
-
-* **@bypass** 
-Get/set bypass flag. If true: bypass &#39;effected&#39; signal.<br>
-_type:_ bool<br>
-_default:_ 0<br>
-
-* **@active** 
-Get/set on/off dsp processing<br>
-_type:_ bool<br>
-_default:_ 1<br>
-
-* **@osc** (initonly)
-Get/set OSC server name to listen<br>
-_type:_ symbol<br>
-
-* **@id** (initonly)
-Get/set OSC address id. If specified, bind all properties to /ID/fx_greyhole/PROP_NAME
-osc address, if empty bind to /fx_greyhole/PROP_NAME.<br>
-_type:_ symbol<br>
 
 
 

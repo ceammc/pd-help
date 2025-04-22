@@ -24,11 +24,10 @@ By default returns smallest float in list, this equal to using @float property. 
 
 ## properties:
 
-* **@type** 
-Get/set type of largest element<br>
-_type:_ symbol<br>
-_enum:_ float, symbol, any<br>
-_default:_ float<br>
+* **@any** 
+Get/set alias for @type any. Find greatest atom of any type. Note: symbols are greater
+then numbers<br>
+_type:_ alias<br>
 
 * **@float** 
 Get/set alias for @type float. Find max float element in list<br>
@@ -38,10 +37,11 @@ _type:_ alias<br>
 Get/set alias for @type symbol. Find greatest symbol element<br>
 _type:_ alias<br>
 
-* **@any** 
-Get/set alias for @type any. Find greatest atom of any type. Note: symbols are greater
-then numbers<br>
-_type:_ alias<br>
+* **@type** 
+Get/set type of largest element<br>
+_type:_ symbol<br>
+_enum:_ float, symbol, any<br>
+_default:_ float<br>
 
 
 

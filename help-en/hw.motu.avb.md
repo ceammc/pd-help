@@ -320,6 +320,10 @@ set phones output gain<br>
 
 ## properties:
 
+* **@dev** 
+Get/set Motu device id<br>
+_type:_ symbol<br>
+
 * **@host** 
 Get/set Motu HTTP host<br>
 _type:_ symbol<br>
@@ -329,10 +333,6 @@ _default:_ localhost<br>
 Get/set Motu HTTP port<br>
 _type:_ int<br>
 _default:_ 1280<br>
-
-* **@dev** 
-Get/set Motu device id<br>
-_type:_ symbol<br>
 
 
 

@@ -42,16 +42,16 @@ end<br>
 _type:_ int<br>
 _default:_ 0<br>
 
-* **@to** 
-Get/set end slice position. You can use negative index to address elements from the end<br>
-_type:_ int<br>
-_default:_ -1<br>
-
 * **@step** 
 Get/set slice step<br>
 _type:_ int<br>
 _min value:_ 0<br>
 _default:_ 1<br>
+
+* **@to** 
+Get/set end slice position. You can use negative index to address elements from the end<br>
+_type:_ int<br>
+_default:_ -1<br>
 
 
 

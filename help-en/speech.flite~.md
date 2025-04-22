@@ -30,11 +30,10 @@ stops speech and clear speech queue<br>
 
 ## properties:
 
-* **@voice** 
-Get/set default voice<br>
-_type:_ symbol<br>
-_enum:_ kal16, slt, rms, awb<br>
-_default:_ kal16<br>
+* **@pitch** 
+Get/set voice pitch (-1 - default value)<br>
+_type:_ float<br>
+_default:_ -1<br>
 
 * **@speed** 
 Get/set speaking speed<br>
@@ -42,10 +41,11 @@ _type:_ float<br>
 _range:_ 0.5..4<br>
 _default:_ 1<br>
 
-* **@pitch** 
-Get/set voice pitch (-1 - default value)<br>
-_type:_ float<br>
-_default:_ -1<br>
+* **@voice** 
+Get/set default voice<br>
+_type:_ symbol<br>
+_enum:_ kal16, slt, rms, awb<br>
+_default:_ kal16<br>
 
 
 

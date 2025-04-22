@@ -42,15 +42,15 @@ generate list of random floats with specified length<br>
 
 ## properties:
 
-* **@min** 
-Get/set random range lower bound<br>
-_type:_ float<br>
-_default:_ 0<br>
-
 * **@max** 
 Get/set random range upper bound<br>
 _type:_ float<br>
 _default:_ 1<br>
+
+* **@min** 
+Get/set random range lower bound<br>
+_type:_ float<br>
+_default:_ 0<br>
 
 * **@seed** 
 Get/set generator seed<br>

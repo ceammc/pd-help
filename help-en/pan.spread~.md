@@ -28,6 +28,21 @@ _type:_ int<br>
 
 ## properties:
 
+* **@center** 
+Get/set shift the centre of the distribution<br>
+_type:_ float<br>
+_range:_ -0.5..0.5<br>
+_default:_ 0<br>
+
+* **@coeffs** (readonly)
+Get list of gain pairs<br>
+_type:_ list<br>
+
+* **@compensate** 
+Get/set compensate output level: divide amplitude to number of input channels<br>
+_type:_ bool<br>
+_default:_ 0<br>
+
 * **@n** (initonly)
 Get/set number of input channels<br>
 _type:_ int<br>
@@ -40,21 +55,6 @@ distribution<br>
 _type:_ float<br>
 _range:_ 0..1<br>
 _default:_ 1<br>
-
-* **@center** 
-Get/set shift the centre of the distribution<br>
-_type:_ float<br>
-_range:_ -0.5..0.5<br>
-_default:_ 0<br>
-
-* **@compensate** 
-Get/set compensate output level: divide amplitude to number of input channels<br>
-_type:_ bool<br>
-_default:_ 0<br>
-
-* **@coeffs** (readonly)
-Get list of gain pairs<br>
-_type:_ list<br>
 
 
 

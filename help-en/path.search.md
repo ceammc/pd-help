@@ -41,27 +41,14 @@ Get/set perform async search in separate thread<br>
 _type:_ bool<br>
 _default:_ 1<br>
 
-* **@sync** 
-Get/set alias to @async 0<br>
-_type:_ alias<br>
-
 * **@depth** 
 Get/set search recursion depth (-1: infinite)<br>
 _type:_ int<br>
 _min value:_ -1<br>
 _default:_ 0<br>
 
-* **@paths** 
-Get/set user defined search paths<br>
-_type:_ list<br>
-
 * **@home** 
 Get/set search in home directory<br>
-_type:_ bool<br>
-_default:_ 1<br>
-
-* **@std** 
-Get/set search in PureData standard directory<br>
 _type:_ bool<br>
 _default:_ 1<br>
 
@@ -71,6 +58,19 @@ _type:_ alias<br>
 
 * **@nostd** 
 Get/set alias to @std 0, do not search in standard dirs<br>
+_type:_ alias<br>
+
+* **@paths** 
+Get/set user defined search paths<br>
+_type:_ list<br>
+
+* **@std** 
+Get/set search in PureData standard directory<br>
+_type:_ bool<br>
+_default:_ 1<br>
+
+* **@sync** 
+Get/set alias to @async 0<br>
 _type:_ alias<br>
 
 

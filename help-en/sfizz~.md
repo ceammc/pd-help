@@ -39,7 +39,7 @@ aftertouch channel pressure<br>
     required: True <br>
 
 * **bend**
-pitchband change<br>
+pitchbend change<br>
   __parameters:__
   - **[CHAN=0]** MIDI channel, ignored<br>
     type: int <br>
@@ -49,7 +49,7 @@ pitchband change<br>
     required: True <br>
 
 * **bend:f**
-pitchband change<br>
+pitchbend change<br>
   __parameters:__
   - **[CHAN=0]** MIDI channel, ignored<br>
     type: int <br>
@@ -59,7 +59,7 @@ pitchband change<br>
     required: True <br>
 
 * **bend:i**
-pitchband change<br>
+pitchbend change<br>
   __parameters:__
   - **[CHAN=0]** MIDI channel, ignored<br>
     type: int <br>
@@ -159,7 +159,7 @@ set channel panning<br>
   - **[CHAN]** MIDI channel, ignored<br>
     type: int <br>
 
-  - **PAN** pan value, -1: left, 0: center, 1): right<br>
+  - **PAN** pan value, -1: left, 0: center, 1: right<br>
     type: float <br>
     required: True <br>
 
@@ -194,7 +194,7 @@ polytouch key pressure<br>
 * **prog**
 program change<br>
   __parameters:__
-  - **[CHAN=0]** MIDI channel, if zero or ommited set for all channels<br>
+  - **[CHAN=0]** MIDI channel, if zero or omitted set for all channels<br>
     type: int <br>
 
   - **PGM** program number<br>
@@ -264,20 +264,15 @@ select tuning bank and preset<br>
 
 ## properties:
 
-* **@sf** 
-Get/set soundfont path or builtin waveform name: #sine, #tri, #saw, #square, #noise<br>
-_type:_ symbol<br>
-
-* **@poly** 
-Get/set max number of voices<br>
-_type:_ int<br>
-_range:_ 1..256<br>
-_default:_ 64<br>
-
 * **@avoices** (readonly)
 Get number midi channels<br>
 _type:_ int<br>
 _default:_ 0<br>
+
+* **@cc_labels** (readonly)
+Get dict of controller labels<br>
+_type:_ atom<br>
+_default:_ []<br>
 
 * **@freq** 
 Get/set A4 standard tuning<br>
@@ -285,21 +280,26 @@ _type:_ float<br>
 _units:_ Hz<br>
 _default:_ 440<br>
 
-* **@key_labels** (readonly)
-Get dict of control key labels<br>
-_type:_ atom<br>
-_default:_ []<br>
-
-* **@cc_labels** (readonly)
-Get dict of controller labels<br>
-_type:_ atom<br>
-_default:_ []<br>
-
 * **@gain** 
 Get/set output gain (same as @value but in amp units)<br>
 _type:_ float<br>
 _range:_ 0..16<br>
 _default:_ 0.429<br>
+
+* **@key_labels** (readonly)
+Get dict of control key labels<br>
+_type:_ atom<br>
+_default:_ []<br>
+
+* **@poly** 
+Get/set max number of voices<br>
+_type:_ int<br>
+_range:_ 1..256<br>
+_default:_ 64<br>
+
+* **@sf** 
+Get/set soundfont path or builtin waveform name: #sine, #tri, #saw, #square, #noise<br>
+_type:_ symbol<br>
 
 * **@volume** 
 Get/set output volume (same as @gain but in db)<br>

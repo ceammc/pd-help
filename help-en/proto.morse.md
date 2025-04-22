@@ -42,6 +42,11 @@ _units:_ ms<br>
 _range:_ 5..1000<br>
 _default:_ 100<br>
 
+* **@external** 
+Get/set use external clock<br>
+_type:_ bool<br>
+_default:_ 0<br>
+
 * **@letter** 
 Get/set space between letters in dot units<br>
 _type:_ int<br>
@@ -53,11 +58,6 @@ Get/set space between words in dot units<br>
 _type:_ int<br>
 _range:_ 2..20<br>
 _default:_ 5<br>
-
-* **@external** 
-Get/set use external clock<br>
-_type:_ bool<br>
-_default:_ 0<br>
 
 
 

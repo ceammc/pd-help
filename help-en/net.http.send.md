@@ -53,19 +53,15 @@ Get/set destination host<br>
 _type:_ symbol<br>
 _default:_ localhost<br>
 
+* **@pass** 
+Get/set Basic Auth password<br>
+_type:_ atom<br>
+
 * **@port** 
 Get/set destination port<br>
 _type:_ int<br>
 _range:_ 1..32768<br>
 _default:_ 80<br>
-
-* **@user** 
-Get/set Basic Auth user name<br>
-_type:_ symbol<br>
-
-* **@pass** 
-Get/set Basic Auth password<br>
-_type:_ atom<br>
 
 * **@timeout** 
 Get/set TCP connection timeout<br>
@@ -73,6 +69,10 @@ _type:_ int<br>
 _units:_ sec<br>
 _range:_ 1..10<br>
 _default:_ 1<br>
+
+* **@user** 
+Get/set Basic Auth user name<br>
+_type:_ symbol<br>
 
 
 

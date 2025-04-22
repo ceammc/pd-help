@@ -36,6 +36,20 @@ _type:_ float<br>
 
 ## properties:
 
+* **@lin** 
+Get/set alias to @type lin<br>
+_type:_ alias<br>
+
+* **@n** (initonly)
+Get/set number of xfade inputs stereo pairs<br>
+_type:_ int<br>
+_range:_ 2..16<br>
+_default:_ 2<br>
+
+* **@pow** 
+Get/set alias to @type pow<br>
+_type:_ alias<br>
+
 * **@smooth** 
 Get/set signal change smooth time<br>
 _type:_ float<br>
@@ -49,24 +63,10 @@ _type:_ symbol<br>
 _enum:_ lin, pow<br>
 _default:_ pow<br>
 
-* **@lin** 
-Get/set alias to @type lin<br>
-_type:_ alias<br>
-
-* **@pow** 
-Get/set alias to @type pow<br>
-_type:_ alias<br>
-
 * **@x** 
 Get/set crossfade property. Valid value in [0..N-1] range.<br>
 _type:_ float<br>
 _default:_ 0<br>
-
-* **@n** (initonly)
-Get/set number of xfade inputs stereo pairs<br>
-_type:_ int<br>
-_range:_ 2..16<br>
-_default:_ 2<br>
 
 
 

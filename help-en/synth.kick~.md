@@ -28,12 +28,14 @@ reset synth<br>
 
 ## properties:
 
-* **@gate** 
-Get/set play trigger &gt;0: on, 0: off. To set output gain to 0.5 you can 0.5 as trigger
-value<br>
-_type:_ float<br>
-_range:_ 0..1<br>
-_default:_ 0<br>
+* **@osc** (initonly)
+Get/set OSC server name to listen<br>
+_type:_ symbol<br>
+
+* **@id** (initonly)
+Get/set OSC address id. If specified, bind all properties to /ID/synth_kick/PROP_NAME
+osc address, if empty bind to /synth_kick/PROP_NAME.<br>
+_type:_ symbol<br>
 
 * **@active** 
 Get/set on/off dsp processing<br>
@@ -47,13 +49,6 @@ _units:_ ms<br>
 _range:_ 1..50<br>
 _default:_ 10<br>
 
-* **@release** 
-Get/set release time<br>
-_type:_ float<br>
-_units:_ ms<br>
-_range:_ 10..8000<br>
-_default:_ 1000<br>
-
 * **@envwait** 
 Get/set ignore new notes until previous note is not finished release time<br>
 _type:_ bool<br>
@@ -66,14 +61,19 @@ _units:_ Hz<br>
 _range:_ 10..5000<br>
 _default:_ 50<br>
 
-* **@osc** (initonly)
-Get/set OSC server name to listen<br>
-_type:_ symbol<br>
+* **@gate** 
+Get/set play trigger &gt;0: on, 0: off. To set output gain to 0.5 you can 0.5 as trigger
+value<br>
+_type:_ float<br>
+_range:_ 0..1<br>
+_default:_ 0<br>
 
-* **@id** (initonly)
-Get/set OSC address id. If specified, bind all properties to /ID/synth_kick/PROP_NAME
-osc address, if empty bind to /synth_kick/PROP_NAME.<br>
-_type:_ symbol<br>
+* **@release** 
+Get/set release time<br>
+_type:_ float<br>
+_units:_ ms<br>
+_range:_ 10..8000<br>
+_default:_ 1000<br>
 
 
 

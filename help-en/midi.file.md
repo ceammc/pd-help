@@ -44,15 +44,10 @@ write to specified midi file<br>
 Get/set current filename<br>
 _type:_ symbol<br>
 
-* **@tracks** (readonly)
-Get number of tracks<br>
-_type:_ int<br>
-_default:_ 1<br>
-
-* **@tempo** (readonly)
-Get midi tempo in ticks per quarter<br>
-_type:_ int<br>
-_default:_ 120<br>
+* **@length_beat** (readonly)
+Get file length in quarters<br>
+_type:_ float<br>
+_default:_ 0<br>
 
 * **@length_sec** (readonly)
 Get file length<br>
@@ -65,10 +60,15 @@ Get file length in ticks<br>
 _type:_ int<br>
 _default:_ 0<br>
 
-* **@length_beat** (readonly)
-Get file length in quarters<br>
-_type:_ float<br>
-_default:_ 0<br>
+* **@tempo** (readonly)
+Get midi tempo in ticks per quarter<br>
+_type:_ int<br>
+_default:_ 120<br>
+
+* **@tracks** (readonly)
+Get number of tracks<br>
+_type:_ int<br>
+_default:_ 1<br>
 
 
 

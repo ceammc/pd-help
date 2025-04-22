@@ -34,20 +34,6 @@ _type:_ symbol<br>
 
 ## properties:
 
-* **@from** 
-Get/set replace from<br>
-_type:_ symbol<br>
-
-* **@to** 
-Get/set replace to<br>
-_type:_ symbol<br>
-
-* **@mode** 
-Get/set replace mode<br>
-_type:_ symbol<br>
-_enum:_ all, first, last<br>
-_default:_ all<br>
-
 * **@all** 
 Get/set alias to @mode all - replace all occurences in input string<br>
 _type:_ alias<br>
@@ -56,9 +42,23 @@ _type:_ alias<br>
 Get/set alias to @mode first - replace first occurence in input string<br>
 _type:_ alias<br>
 
+* **@from** 
+Get/set replace from<br>
+_type:_ symbol<br>
+
 * **@last** 
 Get/set alias to @mode last - replace last occurence in input string<br>
 _type:_ alias<br>
+
+* **@mode** 
+Get/set replace mode<br>
+_type:_ symbol<br>
+_enum:_ all, first, last<br>
+_default:_ all<br>
+
+* **@to** 
+Get/set replace to<br>
+_type:_ symbol<br>
 
 
 

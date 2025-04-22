@@ -38,19 +38,19 @@ reset to init state<br>
 Get/set init pattern value<br>
 _type:_ list<br>
 
-* **@value** (readonly)
-Get current pattern value<br>
-_type:_ list<br>
-
-* **@rule** 
-Get/set generation rule dict<br>
-_type:_ atom<br>
-
 * **@max** 
 Get/set max generated pattern length<br>
 _type:_ int<br>
 _range:_ 1..32768<br>
 _default:_ 256<br>
+
+* **@rule** 
+Get/set generation rule dict<br>
+_type:_ atom<br>
+
+* **@value** (readonly)
+Get current pattern value<br>
+_type:_ list<br>
 
 
 

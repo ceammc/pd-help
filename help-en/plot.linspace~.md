@@ -36,6 +36,27 @@ _type:_ int<br>
 
 ## properties:
 
+* **@base** 
+Get/set x-axis scale base<br>
+_type:_ atom<br>
+_enum:_ 0, pi<br>
+_default:_ 0<br>
+
+* **@endpoint** 
+Get/set include @stop to interval<br>
+_type:_ bool<br>
+_default:_ 1<br>
+
+* **@n** 
+Get/set number of points<br>
+_type:_ int<br>
+_range:_ 4..1024<br>
+_default:_ 256<br>
+
+* **@pi** 
+Get/set alias to @base pi<br>
+_type:_ atom<br>
+
 * **@start** 
 Get/set the starting value of the sequence<br>
 _type:_ float<br>
@@ -47,27 +68,6 @@ Get/set the final value of the sequence, unless @endpoint is false. In that case
 (a sequence of length @n) are returned.<br>
 _type:_ float<br>
 _default:_ 255<br>
-
-* **@n** 
-Get/set number of points<br>
-_type:_ int<br>
-_range:_ 4..1024<br>
-_default:_ 256<br>
-
-* **@base** 
-Get/set x-axis scale base<br>
-_type:_ atom<br>
-_enum:_ 0, pi<br>
-_default:_ 0<br>
-
-* **@pi** 
-Get/set alias to @base pi<br>
-_type:_ atom<br>
-
-* **@endpoint** 
-Get/set include @stop to interval<br>
-_type:_ bool<br>
-_default:_ 1<br>
 
 
 

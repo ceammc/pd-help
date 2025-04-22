@@ -51,15 +51,48 @@ manually output current element and move to next<br>
 
 ## properties:
 
-* **@v** 
-Get/set sequence elements<br>
-_type:_ list<br>
+* **@div** 
+Get/set beat subdivision<br>
+_type:_ int<br>
+_range:_ 1..64<br>
+_default:_ 1<br>
 
 * **@dur** 
 Get/set whole sequence duration. Changing this property also changes @t interval
 between bangs.<br>
 _type:_ float<br>
 _min value:_ 0<br>
+_default:_ 0<br>
+
+* **@i** (readonly)
+Get current sequence iteration<br>
+_type:_ int<br>
+_default:_ 0<br>
+
+* **@inf** 
+Get/set alias to @r -1<br>
+_type:_ alias<br>
+
+* **@mode** 
+Get/set sequencer mode. &#39;inc&#39;: from first to last, &#39;dec&#39;: from last to first, &#39;tri&#39;:
+from first to last, then back<br>
+_type:_ symbol<br>
+_enum:_ inc, dec, tri<br>
+_default:_ inc<br>
+
+* **@once** 
+Get/set alias to @r 1<br>
+_type:_ alias<br>
+
+* **@r** 
+Get/set number of whole sequence repeats. If -1: output infinitly.<br>
+_type:_ int<br>
+_min value:_ -1<br>
+_default:_ 1<br>
+
+* **@ri** (readonly)
+Get current repeat iteration<br>
+_type:_ int<br>
 _default:_ 0<br>
 
 * **@t** 
@@ -70,48 +103,15 @@ _units:_ ms<br>
 _range:_ 1..20000<br>
 _default:_ 20<br>
 
-* **@r** 
-Get/set number of whole sequence repeats. If -1: output infinitly.<br>
-_type:_ int<br>
-_min value:_ -1<br>
-_default:_ 1<br>
-
-* **@once** 
-Get/set alias to @r 1<br>
-_type:_ alias<br>
-
-* **@inf** 
-Get/set alias to @r -1<br>
-_type:_ alias<br>
-
-* **@i** (readonly)
-Get current sequence iteration<br>
-_type:_ int<br>
-_default:_ 0<br>
-
-* **@ri** (readonly)
-Get current repeat iteration<br>
-_type:_ int<br>
-_default:_ 0<br>
-
-* **@div** 
-Get/set beat subdivision<br>
-_type:_ int<br>
-_range:_ 1..64<br>
-_default:_ 1<br>
-
 * **@upbeat** 
 Get/set wait specified number of beats before sequence start<br>
 _type:_ float<br>
 _min value:_ 0<br>
 _default:_ 0<br>
 
-* **@mode** 
-Get/set sequencer mode. &#39;inc&#39;: from first to last, &#39;dec&#39;: from last to first, &#39;tri&#39;:
-from first to last, then back<br>
-_type:_ symbol<br>
-_enum:_ inc, dec, tri<br>
-_default:_ inc<br>
+* **@v** 
+Get/set sequence elements<br>
+_type:_ list<br>
 
 
 

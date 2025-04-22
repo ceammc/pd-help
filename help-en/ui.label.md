@@ -53,19 +53,43 @@ insert into beginning of @text<br>
 
 ## properties:
 
-* **@text** 
-Get/set label text<br>
-_type:_ list<br>
-_default:_ Label<br>
-
 * **@align** 
 Get/set text align<br>
 _type:_ symbol<br>
 _enum:_ left, center, right<br>
 _default:_ left<br>
 
-* **@margin_top** 
-Get/set text top margin<br>
+* **@background_color** 
+Get/set element background color (list of red, green, blue values in 0-1 range)<br>
+_type:_ list<br>
+_default:_ 1 1 1 1<br>
+
+* **@fontname** 
+Get/set fontname<br>
+_type:_ symbol<br>
+_enum:_ Courier, DejaVu, Helvetica, Monaco, Times<br>
+_default:_ Helvetica<br>
+
+* **@fontsize** 
+Get/set fontsize<br>
+_type:_ int<br>
+_range:_ 4..100<br>
+_default:_ 32<br>
+
+* **@fontslant** 
+Get/set font slant<br>
+_type:_ symbol<br>
+_enum:_ roman, italic<br>
+_default:_ roman<br>
+
+* **@fontweight** 
+Get/set font weight<br>
+_type:_ symbol<br>
+_enum:_ normal, bold<br>
+_default:_ normal<br>
+
+* **@margin_bottom** 
+Get/set text bottom margin<br>
 _type:_ int<br>
 _default:_ 5<br>
 
@@ -79,10 +103,15 @@ Get/set text right margin<br>
 _type:_ int<br>
 _default:_ 5<br>
 
-* **@margin_bottom** 
-Get/set text bottom margin<br>
+* **@margin_top** 
+Get/set text top margin<br>
 _type:_ int<br>
 _default:_ 5<br>
+
+* **@pinned** 
+Get/set pin mode. if 1 - put element to the lowest level<br>
+_type:_ bool<br>
+_default:_ 1<br>
 
 * **@receive** 
 Get/set receive source<br>
@@ -94,44 +123,15 @@ Get/set element size (width, height pair)<br>
 _type:_ list<br>
 _default:_ 300 47<br>
 
-* **@pinned** 
-Get/set pin mode. if 1 - put element to the lowest level<br>
-_type:_ bool<br>
-_default:_ 1<br>
+* **@text** 
+Get/set label text<br>
+_type:_ list<br>
+_default:_ Label<br>
 
 * **@text_color** 
 Get/set text color (list of red, green, blue values in 0-1 range)<br>
 _type:_ list<br>
 _default:_ 0 0 0 1<br>
-
-* **@background_color** 
-Get/set element background color (list of red, green, blue values in 0-1 range)<br>
-_type:_ list<br>
-_default:_ 1 1 1 1<br>
-
-* **@fontsize** 
-Get/set fontsize<br>
-_type:_ int<br>
-_range:_ 4..100<br>
-_default:_ 32<br>
-
-* **@fontname** 
-Get/set fontname<br>
-_type:_ symbol<br>
-_enum:_ Courier, DejaVu, Helvetica, Monaco, Times<br>
-_default:_ Helvetica<br>
-
-* **@fontweight** 
-Get/set font weight<br>
-_type:_ symbol<br>
-_enum:_ normal, bold<br>
-_default:_ normal<br>
-
-* **@fontslant** 
-Get/set font slant<br>
-_type:_ symbol<br>
-_enum:_ roman, italic<br>
-_default:_ roman<br>
 
 
 

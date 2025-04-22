@@ -28,12 +28,14 @@ reset synth<br>
 
 ## properties:
 
-* **@gate** 
-Get/set play trigger &gt;0: on, 0: off. To set output gain to 0.5 you can 0.5 as trigger
-value<br>
-_type:_ float<br>
-_range:_ 0..1<br>
-_default:_ 0<br>
+* **@osc** (initonly)
+Get/set OSC server name to listen<br>
+_type:_ symbol<br>
+
+* **@id** (initonly)
+Get/set OSC address id. If specified, bind all properties to /ID/synth_hat/PROP_NAME
+osc address, if empty bind to /synth_hat/PROP_NAME.<br>
+_type:_ symbol<br>
 
 * **@active** 
 Get/set on/off dsp processing<br>
@@ -47,13 +49,6 @@ _units:_ ms<br>
 _range:_ 5..400<br>
 _default:_ 20<br>
 
-* **@release** 
-Get/set release time<br>
-_type:_ float<br>
-_units:_ ms<br>
-_range:_ 5..4000<br>
-_default:_ 100<br>
-
 * **@envwait** 
 Get/set ignore new notes until previous note is not finished release time<br>
 _type:_ bool<br>
@@ -66,21 +61,26 @@ _units:_ Hz<br>
 _range:_ 300..4000<br>
 _default:_ 317<br>
 
+* **@gate** 
+Get/set play trigger &gt;0: on, 0: off. To set output gain to 0.5 you can 0.5 as trigger
+value<br>
+_type:_ float<br>
+_range:_ 0..1<br>
+_default:_ 0<br>
+
+* **@release** 
+Get/set release time<br>
+_type:_ float<br>
+_units:_ ms<br>
+_range:_ 5..4000<br>
+_default:_ 100<br>
+
 * **@tone** 
 Get/set bandpass filter cutoff frequency<br>
 _type:_ float<br>
 _units:_ Hz<br>
 _range:_ 800..18000<br>
 _default:_ 6400<br>
-
-* **@osc** (initonly)
-Get/set OSC server name to listen<br>
-_type:_ symbol<br>
-
-* **@id** (initonly)
-Get/set OSC address id. If specified, bind all properties to /ID/synth_hat/PROP_NAME
-osc address, if empty bind to /synth_hat/PROP_NAME.<br>
-_type:_ symbol<br>
 
 
 

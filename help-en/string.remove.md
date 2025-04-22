@@ -30,12 +30,6 @@ _type:_ symbol<br>
 
 ## properties:
 
-* **@mode** 
-Get/set remove mode<br>
-_type:_ symbol<br>
-_enum:_ all, first, last<br>
-_default:_ all<br>
-
 * **@all** 
 Get/set alias to @mode all - remove all occurences in input string<br>
 _type:_ alias<br>
@@ -47,6 +41,12 @@ _type:_ alias<br>
 * **@last** 
 Get/set alias to @mode last - remove last occurence in input string<br>
 _type:_ alias<br>
+
+* **@mode** 
+Get/set remove mode<br>
+_type:_ symbol<br>
+_enum:_ all, first, last<br>
+_default:_ all<br>
 
 * **@str** 
 Get/set removed string<br>

@@ -31,25 +31,6 @@ _units:_ ms<br>
 
 ## properties:
 
-* **@t** 
-Get/set time between arpeggio<br>
-_type:_ float<br>
-_units:_ ms<br>
-_range:_ 1..1000<br>
-_default:_ 100<br>
-
-* **@mode** 
-Get/set argpeggiator mode<br>
-_type:_ symbol<br>
-_enum:_ up, down, tri, up1, down1, tri1, random, random1<br>
-_default:_ up<br>
-
-* **@seed** 
-Get/set random seed value (to get reproducible random series)<br>
-_type:_ int<br>
-_min value:_ 0<br>
-_default:_ 0<br>
-
 * **@external** 
 Get/set use external clock<br>
 _type:_ bool<br>
@@ -61,6 +42,12 @@ _type:_ int<br>
 _min value:_ 1<br>
 _default:_ 1<br>
 
+* **@mode** 
+Get/set argpeggiator mode<br>
+_type:_ symbol<br>
+_enum:_ up, down, tri, up1, down1, tri1, random, random1<br>
+_default:_ up<br>
+
 * **@on** 
 Get/set arpeggiator state: on/off<br>
 _type:_ bool<br>
@@ -70,6 +57,19 @@ _default:_ 1<br>
 Get/set bypass arpeggiator<br>
 _type:_ bool<br>
 _default:_ 0<br>
+
+* **@seed** 
+Get/set random seed value (to get reproducible random series)<br>
+_type:_ int<br>
+_min value:_ 0<br>
+_default:_ 0<br>
+
+* **@t** 
+Get/set time between arpeggio<br>
+_type:_ float<br>
+_units:_ ms<br>
+_range:_ 1..1000<br>
+_default:_ 100<br>
 
 
 

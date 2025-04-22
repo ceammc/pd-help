@@ -72,17 +72,17 @@ Sets Welch window type<br>
 
 ## properties:
 
-* **@type** 
-Get/set window type. See argument description<br>
-_type:_ symbol<br>
-_default:_ hann<br>
-
 * **@size** 
 Get/set window size<br>
 _type:_ int<br>
 _units:_ samp<br>
 _min value:_ 16<br>
 _default:_ 512<br>
+
+* **@type** 
+Get/set window type. See argument description<br>
+_type:_ symbol<br>
+_default:_ hann<br>
 
 
 

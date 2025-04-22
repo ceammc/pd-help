@@ -53,15 +53,15 @@ set global playing speed for all synth.glitch~ objects<br>
 
 ## properties:
 
-* **@expr** 
-Get/set expression<br>
-_type:_ list<br>
-
 * **@clip** 
 Get/set clip output to -1..+1 range. Use false value only when you are know what are
 you doing and at your own risk!<br>
 _type:_ bool<br>
 _default:_ 1<br>
+
+* **@expr** 
+Get/set expression<br>
+_type:_ list<br>
 
 
 

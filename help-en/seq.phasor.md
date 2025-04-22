@@ -62,13 +62,18 @@ _units:_ Hz<br>
 _range:_ 0..100<br>
 _default:_ 0<br>
 
+* **@invert** 
+Get/set saw inversion mode. If true, outputs descreasing waveform<br>
+_type:_ bool<br>
+_default:_ 0<br>
+
 * **@on** 
 Get/set on/off state<br>
 _type:_ bool<br>
 _default:_ 0<br>
 
-* **@invert** 
-Get/set saw inversion mode. If true, outputs descreasing waveform<br>
+* **@open** 
+Get/set output in open [0..1) range, otherwise output range is [0..1]<br>
 _type:_ bool<br>
 _default:_ 0<br>
 
@@ -77,11 +82,6 @@ Get/set numbers of steps<br>
 _type:_ int<br>
 _min value:_ 3<br>
 _default:_ 128<br>
-
-* **@open** 
-Get/set output in open [0..1) range, otherwise output range is [0..1]<br>
-_type:_ bool<br>
-_default:_ 0<br>
 
 
 

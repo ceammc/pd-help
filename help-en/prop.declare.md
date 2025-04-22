@@ -28,11 +28,17 @@ _type:_ symbol<br>
 
 ## properties:
 
-* **@type** 
-Get/set property type<br>
-_type:_ symbol<br>
-_enum:_ float, int, bool, enum, symbol, list<br>
-_default:_ float<br>
+* **@b** 
+Get/set alias to @type bool<br>
+_type:_ alias<br>
+
+* **@default** (initonly)
+Get/set default property value<br>
+_type:_ list<br>
+
+* **@enum** (initonly)
+Get/set allowed values (without default value) (for symbol properties only)<br>
+_type:_ list<br>
 
 * **@f** 
 Get/set alias to @type float<br>
@@ -42,35 +48,29 @@ _type:_ alias<br>
 Get/set alias to @type int<br>
 _type:_ alias<br>
 
-* **@b** 
-Get/set alias to @type bool<br>
-_type:_ alias<br>
-
-* **@s** 
-Get/set alias to @type symbol<br>
-_type:_ alias<br>
-
 * **@l** 
 Get/set alias to @type list<br>
 _type:_ alias<br>
-
-* **@default** (initonly)
-Get/set default property value<br>
-_type:_ list<br>
-
-* **@min** (initonly)
-Get/set minimal value (for float and int properties only)<br>
-_type:_ float<br>
-_default:_ -inf<br>
 
 * **@max** (initonly)
 Get/set maximum value (for float and int properties only)<br>
 _type:_ float<br>
 _default:_ +inf<br>
 
-* **@enum** (initonly)
-Get/set allowed values (without default value) (for symbol properties only)<br>
-_type:_ list<br>
+* **@min** (initonly)
+Get/set minimal value (for float and int properties only)<br>
+_type:_ float<br>
+_default:_ -inf<br>
+
+* **@s** 
+Get/set alias to @type symbol<br>
+_type:_ alias<br>
+
+* **@type** 
+Get/set property type<br>
+_type:_ symbol<br>
+_enum:_ float, int, bool, enum, symbol, list<br>
+_default:_ float<br>
 
 
 

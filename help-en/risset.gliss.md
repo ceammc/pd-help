@@ -29,6 +29,11 @@ _units:_ semitone<br>
 
 ## properties:
 
+* **@ampexp** 
+Get/set amplitude exponent<br>
+_type:_ float<br>
+_default:_ 2<br>
+
 * **@base** 
 Get/set base pitch<br>
 _type:_ float<br>
@@ -36,26 +41,21 @@ _units:_ semitone<br>
 _range:_ 10..100<br>
 _default:_ 60<br>
 
-* **@n** (initonly)
-Get/set number of bands<br>
-_type:_ int<br>
-_default:_ 5<br>
-
 * **@interval** 
 Get/set interval between bands<br>
 _type:_ float<br>
 _units:_ semitone<br>
 _default:_ 12<br>
 
+* **@n** (initonly)
+Get/set number of bands<br>
+_type:_ int<br>
+_default:_ 5<br>
+
 * **@shift** 
 Get/set band shift in octaves<br>
 _type:_ float<br>
 _default:_ 0<br>
-
-* **@ampexp** 
-Get/set amplitude exponent<br>
-_type:_ float<br>
-_default:_ 2<br>
 
 
 

@@ -33,9 +33,10 @@ sets global cursor polling time<br>
 
 ## properties:
 
-* **@relative** 
-Get/set relative output mode: if on output coords relative to the root window,
-otherwise output screen coordinates<br>
+* **@clip** 
+Get/set clip mode. If true clip a cursor XY values to the [0..1] range in normalized
+mode, to the window width/height relative mode, otherwise to the screen
+width/height<br>
 _type:_ bool<br>
 _default:_ 0<br>
 
@@ -44,10 +45,9 @@ Get/set cursor x/y coordinates normalization by screen (or window) width/height<
 _type:_ bool<br>
 _default:_ 0<br>
 
-* **@clip** 
-Get/set clip mode. If true clip a cursor XY values to the [0..1] range in normalized
-mode, to the window width/height relative mode, otherwise to the screen
-width/height<br>
+* **@relative** 
+Get/set relative output mode: if on output coords relative to the root window,
+otherwise output screen coordinates<br>
 _type:_ bool<br>
 _default:_ 0<br>
 

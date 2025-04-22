@@ -102,22 +102,10 @@ Get/set pedal state<br>
 _type:_ bool<br>
 _default:_ 1<br>
 
-* **@mode** 
-Get/set pedal mode (should correspond to hardware switch on pedal)<br>
-_type:_ symbol<br>
-_enum:_ chords, classic<br>
-_default:_ classic<br>
-
 * **@chan** 
 Get/set output Midi channel<br>
 _type:_ int<br>
 _range:_ 0..15<br>
-_default:_ 0<br>
-
-* **@seed** 
-Get/set random seed<br>
-_type:_ int<br>
-_min value:_ 0<br>
 _default:_ 0<br>
 
 * **@chords** 
@@ -127,6 +115,18 @@ _type:_ alias<br>
 * **@classic** 
 Get/set alias for @mode classic<br>
 _type:_ alias<br>
+
+* **@mode** 
+Get/set pedal mode (should correspond to hardware switch on pedal)<br>
+_type:_ symbol<br>
+_enum:_ chords, classic<br>
+_default:_ classic<br>
+
+* **@seed** 
+Get/set random seed<br>
+_type:_ int<br>
+_min value:_ 0<br>
+_default:_ 0<br>
 
 
 

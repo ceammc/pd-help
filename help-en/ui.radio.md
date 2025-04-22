@@ -130,46 +130,6 @@ stores specified preset<br>
 
 ## properties:
 
-* **@nitems** 
-Get/set number of items<br>
-_type:_ int<br>
-_range:_ 2..128<br>
-_default:_ 8<br>
-
-* **@mode** 
-Get/set check list mode. If true acts as checklist<br>
-_type:_ bool<br>
-_default:_ 0<br>
-
-* **@value** 
-Get/set widget value (float or list)<br>
-_type:_ list<br>
-
-* **@presetname** 
-Get/set preset name for using with [ui.preset]<br>
-_type:_ symbol<br>
-_default:_ (null)<br>
-
-* **@send** 
-Get/set send destination<br>
-_type:_ symbol<br>
-_default:_ (null)<br>
-
-* **@receive** 
-Get/set receive source<br>
-_type:_ symbol<br>
-_default:_ (null)<br>
-
-* **@size** 
-Get/set element size (width, height pair)<br>
-_type:_ list<br>
-_default:_ 120 15<br>
-
-* **@pinned** 
-Get/set pin mode. if 1 - put element to the lowest level<br>
-_type:_ bool<br>
-_default:_ 0<br>
-
 * **@active_color** 
 Get/set active color (list of red, green, blue values in 0-1 range)<br>
 _type:_ list<br>
@@ -185,23 +145,17 @@ Get/set border color (list of red, green, blue values in 0-1 range)<br>
 _type:_ list<br>
 _default:_ 0.6 0.6 0.6 1<br>
 
-* **@fontsize** 
-Get/set fontsize<br>
-_type:_ int<br>
-_range:_ 4..100<br>
-_default:_ 11<br>
-
 * **@fontname** 
 Get/set fontname<br>
 _type:_ symbol<br>
 _enum:_ Courier, DejaVu, Helvetica, Monaco, Times<br>
 _default:_ Helvetica<br>
 
-* **@fontweight** 
-Get/set font weight<br>
-_type:_ symbol<br>
-_enum:_ normal, bold<br>
-_default:_ normal<br>
+* **@fontsize** 
+Get/set fontsize<br>
+_type:_ int<br>
+_range:_ 4..100<br>
+_default:_ 11<br>
 
 * **@fontslant** 
 Get/set font slant<br>
@@ -209,10 +163,56 @@ _type:_ symbol<br>
 _enum:_ roman, italic<br>
 _default:_ roman<br>
 
+* **@fontweight** 
+Get/set font weight<br>
+_type:_ symbol<br>
+_enum:_ normal, bold<br>
+_default:_ normal<br>
+
+* **@mode** 
+Get/set check list mode. If true acts as checklist<br>
+_type:_ bool<br>
+_default:_ 0<br>
+
 * **@mouse_events** 
 Get/set mouse events output mode. If on outputs @mouse_down and @mouse_drag events<br>
 _type:_ bool<br>
 _default:_ 0<br>
+
+* **@nitems** 
+Get/set number of items<br>
+_type:_ int<br>
+_range:_ 2..128<br>
+_default:_ 8<br>
+
+* **@pinned** 
+Get/set pin mode. if 1 - put element to the lowest level<br>
+_type:_ bool<br>
+_default:_ 0<br>
+
+* **@presetname** 
+Get/set preset name for using with [ui.preset]<br>
+_type:_ symbol<br>
+_default:_ (null)<br>
+
+* **@receive** 
+Get/set receive source<br>
+_type:_ symbol<br>
+_default:_ (null)<br>
+
+* **@send** 
+Get/set send destination<br>
+_type:_ symbol<br>
+_default:_ (null)<br>
+
+* **@size** 
+Get/set element size (width, height pair)<br>
+_type:_ list<br>
+_default:_ 120 15<br>
+
+* **@value** 
+Get/set widget value (float or list)<br>
+_type:_ list<br>
 
 
 

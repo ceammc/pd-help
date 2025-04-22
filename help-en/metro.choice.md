@@ -31,16 +31,16 @@ _units:_ ms<br>
 
 ## properties:
 
-* **@timeset** 
-Get/set timeset (&gt;0)<br>
-_type:_ list<br>
-_units:_ ms<br>
-
 * **@seed** 
 Get/set generator seed<br>
 _type:_ int<br>
 _min value:_ 0<br>
 _default:_ 0<br>
+
+* **@timeset** 
+Get/set timeset (&gt;0)<br>
+_type:_ list<br>
+_units:_ ms<br>
 
 
 

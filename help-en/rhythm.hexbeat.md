@@ -28,13 +28,13 @@ _type:_ symbol<br>
 
 ## properties:
 
-* **@pattern** (readonly)
-Get list pattern<br>
-_type:_ list<br>
-
 * **@hex** 
 Get/set hex pattern<br>
 _type:_ symbol<br>
+
+* **@pattern** (readonly)
+Get list pattern<br>
+_type:_ list<br>
 
 
 

@@ -51,10 +51,10 @@ stores preset value at specified index<br>
 
 ## properties:
 
-* **@path** (readonly)
-Get property OSC-like path that includes id, abstraction name and may be subpatch
-name separated by slashes.<br>
-_type:_ symbol<br>
+* **@global** (initonly)
+Get/set use global path like /ID<br>
+_type:_ flag<br>
+_default:_ 0<br>
 
 * **@id** (initonly)
 Get/set preset id<br>
@@ -65,10 +65,10 @@ Get/set init float value<br>
 _type:_ float<br>
 _default:_ 0<br>
 
-* **@global** (initonly)
-Get/set use global path like /ID<br>
-_type:_ flag<br>
-_default:_ 0<br>
+* **@path** (readonly)
+Get property OSC-like path that includes id, abstraction name and may be subpatch
+name separated by slashes.<br>
+_type:_ symbol<br>
 
 * **@subpatch** (initonly)
 Get/set include subpatch name to path<br>

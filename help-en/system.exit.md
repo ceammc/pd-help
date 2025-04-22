@@ -38,6 +38,11 @@ exit PureData<br>
 
 ## properties:
 
+* **@auto** 
+Get/set close automatically, without incoming call<br>
+_type:_ bool<br>
+_default:_ 0<br>
+
 * **@delay** 
 Get/set exit PureData after specified delay time<br>
 _type:_ float<br>
@@ -48,11 +53,6 @@ _default:_ 0<br>
 * **@rc** 
 Get/set exit code<br>
 _type:_ int<br>
-_default:_ 0<br>
-
-* **@auto** 
-Get/set close automatically, without incoming call<br>
-_type:_ bool<br>
 _default:_ 0<br>
 
 

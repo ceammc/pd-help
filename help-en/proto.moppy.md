@@ -89,12 +89,6 @@ reset moppy device.<br>
 
 ## properties:
 
-* **@v** 
-Get/set MOPPY protocol version<br>
-_type:_ int<br>
-_enum:_ 2, 1<br>
-_default:_ 2<br>
-
 * **@device** 
 Get/set moppy device ID<br>
 _type:_ int<br>
@@ -106,6 +100,12 @@ Get/set floppy ID on moppy device<br>
 _type:_ int<br>
 _range:_ 1..16<br>
 _default:_ 1<br>
+
+* **@v** 
+Get/set MOPPY protocol version<br>
+_type:_ int<br>
+_enum:_ 2, 1<br>
+_default:_ 2<br>
 
 
 

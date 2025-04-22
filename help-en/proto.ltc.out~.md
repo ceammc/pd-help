@@ -70,10 +70,27 @@ set current time<br>
 
 ## properties:
 
+* **@filter** 
+Get/set output signal filtering. LTC should have a rise time of 40us+/-10 us. If you
+want a perfect square wave, set to 0<br>
+_type:_ float<br>
+_range:_ 0..500<br>
+_default:_ 0<br>
+
+* **@fps** 
+Get/set frames per second rate. Supported values are: 24, 25, 29.97, 30.<br>
+_type:_ float<br>
+_default:_ 25<br>
+
 * **@on** 
 Get/set encoder state<br>
 _type:_ bool<br>
 _default:_ 0<br>
+
+* **@speed** 
+Get/set playing speed<br>
+_type:_ float<br>
+_default:_ 1<br>
 
 * **@volume** 
 Get/set output signal level<br>
@@ -81,23 +98,6 @@ _type:_ float<br>
 _units:_ db<br>
 _range:_ -42..0<br>
 _default:_ -3<br>
-
-* **@fps** 
-Get/set frames per second rate. Supported values are: 24, 25, 29.97, 30.<br>
-_type:_ float<br>
-_default:_ 25<br>
-
-* **@speed** 
-Get/set playing speed<br>
-_type:_ float<br>
-_default:_ 1<br>
-
-* **@filter** 
-Get/set output signal filtering. LTC should have a rise time of 40us+/-10 us. If you
-want a perfect square wave, set to 0<br>
-_type:_ float<br>
-_range:_ 0..500<br>
-_default:_ 0<br>
 
 
 

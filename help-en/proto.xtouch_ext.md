@@ -335,17 +335,17 @@ _type:_ int<br>
 _range:_ 1..32<br>
 _default:_ 2<br>
 
-* **@scene** 
-Get/set current scene<br>
-_type:_ int<br>
-_min value:_ 0<br>
-_default:_ 0<br>
-
 * **@proto** 
 Get/set connection protocol<br>
 _type:_ symbol<br>
 _enum:_ hui, mcu, xmidi<br>
 _default:_ xmidi<br>
+
+* **@scene** 
+Get/set current scene<br>
+_type:_ int<br>
+_min value:_ 0<br>
+_default:_ 0<br>
 
 
 

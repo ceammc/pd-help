@@ -35,34 +35,13 @@ get another application authorization code from Freesite site.<br>
     type: symbol <br>
     required: True <br>
 
-* **access store**
-store temp *access* token (not OAuth id/secret!) into the special file in the
-current patch directory<br>
-
 * **access load**
 load temp *access* token (not OAuth id/secret!) from the special file from the
 current patch directory<br>
 
-* **me**
-get and output user information<br>
-
-* **search**
-perform search<br>
-  __parameters:__
-  - **[@p]** search page number<br>
-    type: int <br>
-
-  - **[@n]** number of results<br>
-    type: int <br>
-
-  - **[@fields]** requested fields<br>
-    type: symbol <br>
-
-  - **[@sort]** sort methods: &#34;score&#34;, &#34;duration_desc&#34;, &#34;duration_asc&#34;, &#34;created_desc&#34;, &#34;created_asc&#34;, &#34;downloads_desc&#34;, &#34;downloads_asc&#34;, &#34;rating_desc&#34;, &#34;rating_asc&#34;<br>
-    type: symbol <br>
-
-  - **[@filter]** filter expression, for example: @filter type mp3. See https://freesound.org/docs/api/resources_apiv2.html<br>
-    type: symbol <br>
+* **access store**
+store temp *access* token (not OAuth id/secret!) into the special file in the
+current patch directory<br>
 
 * **download**
 download Freesound file<br>
@@ -85,10 +64,35 @@ load Freesound file into Pd arrays<br>
   - **[@norm]** normalize sound<br>
     type: bool <br>
 
+* **me**
+get and output user information<br>
+
+* **search**
+perform search<br>
+  __parameters:__
+  - **[@p]** search page number<br>
+    type: int <br>
+
+  - **[@n]** number of results<br>
+    type: int <br>
+
+  - **[@fields]** requested fields<br>
+    type: symbol <br>
+
+  - **[@sort]** sort methods: &#34;score&#34;, &#34;duration_desc&#34;, &#34;duration_asc&#34;, &#34;created_desc&#34;, &#34;created_asc&#34;, &#34;downloads_desc&#34;, &#34;downloads_asc&#34;, &#34;rating_desc&#34;, &#34;rating_asc&#34;<br>
+    type: symbol <br>
+
+  - **[@filter]** filter expression, for example: @filter type mp3. See https://freesound.org/docs/api/resources_apiv2.html<br>
+    type: symbol <br>
+
 
 
 
 ## properties:
+
+* **@oauth_file** (initonly)
+Get/set path to file with OAuth2 ID/secret, one per line<br>
+_type:_ symbol<br>
 
 * **@oauth_id** (initonly)
 Get/set Freesound OAuth2 ID<br>
@@ -96,10 +100,6 @@ _type:_ symbol<br>
 
 * **@oauth_secret** (initonly)
 Get/set Freesound OAuth2 secret<br>
-_type:_ symbol<br>
-
-* **@oauth_file** (initonly)
-Get/set path to file with OAuth2 ID/secret, one per line<br>
 _type:_ symbol<br>
 
 

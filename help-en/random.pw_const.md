@@ -32,16 +32,8 @@ _type:_ list<br>
 
 ## properties:
 
-* **@v** 
-Get/set interleaved interval boundaries and boundary propabilities.<br>
-_type:_ list<br>
-
 * **@bounds** (readonly)
 Get list of boundaries<br>
-_type:_ list<br>
-
-* **@weights** (readonly)
-Get list of weights<br>
 _type:_ list<br>
 
 * **@seed** 
@@ -49,6 +41,14 @@ Get/set generator seed<br>
 _type:_ int<br>
 _min value:_ 0<br>
 _default:_ 0<br>
+
+* **@v** 
+Get/set interleaved interval boundaries and boundary propabilities.<br>
+_type:_ list<br>
+
+* **@weights** (readonly)
+Get list of weights<br>
+_type:_ list<br>
 
 
 

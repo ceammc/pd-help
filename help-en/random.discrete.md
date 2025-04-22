@@ -30,15 +30,15 @@ _type:_ list<br>
 
 ## properties:
 
-* **@weights** 
-Get/set list of weights (non-negative floats)<br>
-_type:_ list<br>
-
 * **@seed** 
 Get/set generator seed<br>
 _type:_ int<br>
 _min value:_ 0<br>
 _default:_ 0<br>
+
+* **@weights** 
+Get/set list of weights (non-negative floats)<br>
+_type:_ list<br>
 
 
 

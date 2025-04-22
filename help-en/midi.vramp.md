@@ -42,14 +42,13 @@ reset to start value<br>
 
 ## properties:
 
+* **@auto** 
+Get/set auto reset mode. If true: reset to @start value after ramp is finished<br>
+_type:_ bool<br>
+_default:_ 0<br>
+
 * **@from** 
 Get/set start value<br>
-_type:_ int<br>
-_range:_ 0..127<br>
-_default:_ 127<br>
-
-* **@to** 
-Get/set end value<br>
 _type:_ int<br>
 _range:_ 0..127<br>
 _default:_ 127<br>
@@ -60,10 +59,11 @@ _type:_ int<br>
 _min value:_ 0<br>
 _default:_ 0<br>
 
-* **@auto** 
-Get/set auto reset mode. If true: reset to @start value after ramp is finished<br>
-_type:_ bool<br>
-_default:_ 0<br>
+* **@to** 
+Get/set end value<br>
+_type:_ int<br>
+_range:_ 0..127<br>
+_default:_ 127<br>
 
 
 

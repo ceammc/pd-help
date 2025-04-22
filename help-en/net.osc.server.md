@@ -49,44 +49,44 @@ stop OSC server<br>
 
 ## properties:
 
-* **@dump** 
-Get/set dump incoming messages to Pd window<br>
-_type:_ bool<br>
-_default:_ 0<br>
-
 * **@auto_start** 
 Get/set automatically start on creation<br>
 _type:_ bool<br>
 _default:_ 1<br>
 
-* **@url** (initonly)
-Get/set OSC server url in form: PROTO:PORT (udp:12345) or just PORT, or
-osc.PROTO://:PORT (for ex. osc.tcp://:9001)<br>
-_type:_ atom<br>
-_default:_ udp:9000<br>
+* **@dump** 
+Get/set dump incoming messages to Pd window<br>
+_type:_ bool<br>
+_default:_ 0<br>
+
+* **@host** (readonly)
+Get OSC server host<br>
+_type:_ symbol<br>
 
 * **@name** (initonly)
 Get/set OSC server name<br>
 _type:_ symbol<br>
 _default:_ default<br>
 
+* **@path** (readonly)
+Get OSC server local socket path<br>
+_type:_ symbol<br>
+
 * **@port** (readonly)
 Get OSC server port<br>
 _type:_ int<br>
 _default:_ 9000<br>
-
-* **@path** (readonly)
-Get OSC server local socket path<br>
-_type:_ symbol<br>
 
 * **@proto** (readonly)
 Get OSC server proto (udp or tcp)<br>
 _type:_ symbol<br>
 _default:_ udp<br>
 
-* **@host** (readonly)
-Get OSC server host<br>
-_type:_ symbol<br>
+* **@url** (initonly)
+Get/set OSC server url in form: PROTO:PORT (udp:12345) or just PORT, or
+osc.PROTO://:PORT (for ex. osc.tcp://:9001)<br>
+_type:_ atom<br>
+_default:_ udp:9000<br>
 
 
 

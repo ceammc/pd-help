@@ -38,14 +38,14 @@ _type:_ symbol<br>
 
 ## properties:
 
+* **@path** 
+Get/set OSC listen path<br>
+_type:_ symbol<br>
+
 * **@server** 
 Get/set OSC server name<br>
 _type:_ symbol<br>
 _default:_ default<br>
-
-* **@path** 
-Get/set OSC listen path<br>
-_type:_ symbol<br>
 
 * **@types** 
 Get/set expected OSC type string<br>

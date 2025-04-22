@@ -38,11 +38,20 @@ reset to start position<br>
 
 ## properties:
 
-* **@rate** 
-Get/set glissanso speed<br>
-_type:_ float<br>
-_range:_ -2..2<br>
-_default:_ 0.01<br>
+* **@osc** (initonly)
+Get/set OSC server name to listen<br>
+_type:_ symbol<br>
+
+* **@id** (initonly)
+Get/set OSC address id. If specified, bind all properties to
+/ID/synth_risset_tone/PROP_NAME osc address, if empty bind to
+/synth_risset_tone/PROP_NAME.<br>
+_type:_ symbol<br>
+
+* **@active** 
+Get/set on/off dsp processing<br>
+_type:_ bool<br>
+_default:_ 1<br>
 
 * **@centroid** 
 Get/set main frequency. Units: MIDI note<br>
@@ -56,20 +65,11 @@ _type:_ float<br>
 _range:_ 1..120<br>
 _default:_ 120<br>
 
-* **@active** 
-Get/set on/off dsp processing<br>
-_type:_ bool<br>
-_default:_ 1<br>
-
-* **@osc** (initonly)
-Get/set OSC server name to listen<br>
-_type:_ symbol<br>
-
-* **@id** (initonly)
-Get/set OSC address id. If specified, bind all properties to
-/ID/synth_risset_tone/PROP_NAME osc address, if empty bind to
-/synth_risset_tone/PROP_NAME.<br>
-_type:_ symbol<br>
+* **@rate** 
+Get/set glissanso speed<br>
+_type:_ float<br>
+_range:_ -2..2<br>
+_default:_ 0.01<br>
 
 
 

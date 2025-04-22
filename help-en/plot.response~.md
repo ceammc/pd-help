@@ -28,16 +28,16 @@ _type:_ int<br>
 
 ## properties:
 
+* **@db** 
+Get/set decibel mode. It true outputs amplitude in decibels<br>
+_type:_ bool<br>
+_default:_ 0<br>
+
 * **@n** 
 Get/set number of processed samples<br>
 _type:_ int<br>
 _range:_ 32..8192<br>
 _default:_ 512<br>
-
-* **@db** 
-Get/set decibel mode. It true outputs amplitude in decibels<br>
-_type:_ bool<br>
-_default:_ 0<br>
 
 * **@sr** 
 Get/set using samplerate. If true output in [0..SR/2] instead of [0..pi]<br>

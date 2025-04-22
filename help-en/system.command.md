@@ -30,14 +30,14 @@ _type:_ list<br>
 
 ## methods:
 
-* **terminate**
-terminate the running process<br>
-
 * **stdin**
 run the program with given input values<br>
   __parameters:__
   - **[ARGS]** the input values<br>
     type: list <br>
+
+* **terminate**
+terminate the running process<br>
 
 
 

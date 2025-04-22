@@ -44,17 +44,10 @@ set custom<br>
 
 ## properties:
 
-* **@octave** 
-Get/set output octave<br>
-_type:_ int<br>
-_range:_ 0..8<br>
-_default:_ 4<br>
-
-* **@vel** 
-Get/set output velocity<br>
-_type:_ float<br>
-_range:_ 0..127<br>
-_default:_ 100<br>
+* **@custom** 
+Get/set custom layout (Dict data type)<br>
+_type:_ atom<br>
+_default:_ []<br>
 
 * **@layout** 
 Get/set current layout<br>
@@ -62,15 +55,22 @@ _type:_ symbol<br>
 _enum:_ qwerty, names, custom<br>
 _default:_ qwerty<br>
 
-* **@custom** 
-Get/set custom layout (Dict data type)<br>
-_type:_ atom<br>
-_default:_ []<br>
+* **@octave** 
+Get/set output octave<br>
+_type:_ int<br>
+_range:_ 0..8<br>
+_default:_ 4<br>
 
 * **@on** 
 Get/set on/off state<br>
 _type:_ bool<br>
 _default:_ 1<br>
+
+* **@vel** 
+Get/set output velocity<br>
+_type:_ float<br>
+_range:_ 0..127<br>
+_default:_ 100<br>
 
 
 

@@ -30,13 +30,13 @@ _type:_ bool<br>
 
 ## properties:
 
-* **@on** 
-Get/set pedal state<br>
+* **@ctlin** 
+Get/set listen to CTL64 from MIDI controller<br>
 _type:_ bool<br>
 _default:_ 0<br>
 
-* **@ctlin** 
-Get/set listen to CTL64 from MIDI controller<br>
+* **@on** 
+Get/set pedal state<br>
 _type:_ bool<br>
 _default:_ 0<br>
 

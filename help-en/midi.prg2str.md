@@ -24,13 +24,13 @@
 
 ## properties:
 
-* **@symbol** (initonly)
-Get/set output as symbol instead of string by default<br>
+* **@family** (initonly)
+Get/set output family name instead of instrument name<br>
 _type:_ flag<br>
 _default:_ 0<br>
 
-* **@family** (initonly)
-Get/set output family name instead of instrument name<br>
+* **@symbol** (initonly)
+Get/set output as symbol instead of string by default<br>
 _type:_ flag<br>
 _default:_ 0<br>
 

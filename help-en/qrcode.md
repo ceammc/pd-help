@@ -30,15 +30,9 @@ _type:_ symbol<br>
 
 ## properties:
 
-* **@value** 
-Get/set string value<br>
-_type:_ symbol<br>
-
-* **@quality** 
-Get/set encoding quality<br>
-_type:_ symbol<br>
-_enum:_ low, medium, quartile, high<br>
-_default:_ low<br>
+* **@high** 
+Get/set alias to @quality high<br>
+_type:_ alias<br>
 
 * **@low** 
 Get/set alias to @quality low<br>
@@ -48,13 +42,19 @@ _type:_ alias<br>
 Get/set alias to @quality medium<br>
 _type:_ alias<br>
 
+* **@quality** 
+Get/set encoding quality<br>
+_type:_ symbol<br>
+_enum:_ low, medium, quartile, high<br>
+_default:_ low<br>
+
 * **@quartile** 
 Get/set alias to @quality quartile<br>
 _type:_ alias<br>
 
-* **@high** 
-Get/set alias to @quality high<br>
-_type:_ alias<br>
+* **@value** 
+Get/set string value<br>
+_type:_ symbol<br>
 
 
 

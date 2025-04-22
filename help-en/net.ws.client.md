@@ -20,20 +20,30 @@
 
 ## methods:
 
+* **close**
+gracefully close connection (with websocket handshake)<br>
+
+* **connect**
+connect to websocket server<br>
+  __parameters:__
+  - **URL** url - ws://HOST:PORT/, for ex.: ws://127.0.0.1:9000/path<br>
+    type: symbol <br>
+    required: True <br>
+
+* **flush**
+flush output stream: sends all buffered messages.<br>
+
+* **latency**
+measure rountrip latency. Outputs: latency TIME_MSEC<br>
+
+* **ping**
+send ping message to server (on server answer outputs: pong DATA)<br>
+  __parameters:__
+  - **[DATA]** list of integers in [0..255] range<br>
+    type: list <br>
+
 * **send**
 send as text message<br>
-  __parameters:__
-  - **[ARGS]** arguments<br>
-    type: list <br>
-
-* **send_binary**
-send as binary bytes<br>
-  __parameters:__
-  - **[ARGS]** list of integers in [0..255] range<br>
-    type: list <br>
-
-* **send_json**
-send as encoded json<br>
   __parameters:__
   - **[ARGS]** arguments<br>
     type: list <br>
@@ -52,6 +62,18 @@ send as Pd array content as json array<br>
   - **[LENGTH]** read length. If not specified - read until array end.<br>
     type: int <br>
     units: samp <br>
+
+* **send_binary**
+send as binary bytes<br>
+  __parameters:__
+  - **[ARGS]** list of integers in [0..255] range<br>
+    type: list <br>
+
+* **send_json**
+send as encoded json<br>
+  __parameters:__
+  - **[ARGS]** arguments<br>
+    type: list <br>
 
 * **write**
 write as text message to output buffer. You have to call [flush( method for
@@ -73,28 +95,6 @@ sending.<br>
   __parameters:__
   - **[ARGS]** arguments<br>
     type: list <br>
-
-* **latency**
-measure rountrip latency. Outputs: latency TIME_MSEC<br>
-
-* **flush**
-flush output stream: sends all buffered messages.<br>
-
-* **close**
-gracefully close connection (with websocket handshake)<br>
-
-* **ping**
-send ping message to server (on server answer outputs: pong DATA)<br>
-  __parameters:__
-  - **[DATA]** list of integers in [0..255] range<br>
-    type: list <br>
-
-* **connect**
-connect to websocket server<br>
-  __parameters:__
-  - **URL** url - ws://HOST:PORT/, for ex.: ws://127.0.0.1:9000/path<br>
-    type: symbol <br>
-    required: True <br>
 
 
 

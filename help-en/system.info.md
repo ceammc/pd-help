@@ -20,12 +20,12 @@
 
 ## methods:
 
+* **cpu**
+request information about system cpus<br>
+
 * **temp**
 request system temperature information. Output in format: temp SENSOR_NAME
 VALUE<br>
-
-* **cpu**
-request information about system cpus<br>
 
 
 

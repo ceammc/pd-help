@@ -45,10 +45,16 @@ stops speech and clear TTS queue<br>
 
 ## properties:
 
-* **@voice** 
-Get/set voice<br>
+* **@pitch** 
+Get/set voice pitch<br>
+_type:_ float<br>
+_range:_ -1..1<br>
+_default:_ 0<br>
+
+* **@punct** 
+Get/set punctuation for pronunciation. If &#39;all&#39; - pronounce all, otherwise pronounce
+only specified punctuation characters.<br>
 _type:_ symbol<br>
-_default:_ Anna<br>
 
 * **@rate** 
 Get/set speaking rate<br>
@@ -56,22 +62,16 @@ _type:_ float<br>
 _range:_ -1..1<br>
 _default:_ 0<br>
 
-* **@pitch** 
-Get/set voice pitch<br>
-_type:_ float<br>
-_range:_ -1..1<br>
-_default:_ 0<br>
+* **@voice** 
+Get/set voice<br>
+_type:_ symbol<br>
+_default:_ Anna<br>
 
 * **@volume** 
 Get/set voice volume<br>
 _type:_ float<br>
 _range:_ 0..1<br>
 _default:_ 1<br>
-
-* **@punct** 
-Get/set punctuation for pronunciation. If &#39;all&#39; - pronounce all, otherwise pronounce
-only specified punctuation characters.<br>
-_type:_ symbol<br>
 
 
 

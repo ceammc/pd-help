@@ -38,17 +38,25 @@ reset spat and reverb<br>
 
 ## properties:
 
+* **@osc** (initonly)
+Get/set OSC server name to listen<br>
+_type:_ symbol<br>
+
+* **@id** (initonly)
+Get/set OSC address id. If specified, bind all properties to /ID/spat_zita8/PROP_NAME
+osc address, if empty bind to /spat_zita8/PROP_NAME.<br>
+_type:_ symbol<br>
+
+* **@active** 
+Get/set on/off dsp processing<br>
+_type:_ bool<br>
+_default:_ 1<br>
+
 * **@angle** 
 Get/set source panning position<br>
 _type:_ float<br>
 _range:_ 0..1<br>
 _default:_ 0<br>
-
-* **@radius** 
-Get/set source distance from circle center<br>
-_type:_ float<br>
-_range:_ 0..1<br>
-_default:_ 1<br>
 
 * **@decay_low** 
 Get/set time (in seconds) to decay 60dB in low-frequency band<br>
@@ -72,13 +80,6 @@ _units:_ ms<br>
 _range:_ 20..100<br>
 _default:_ 60<br>
 
-* **@freq_low** 
-Get/set Crossover frequency (Hz) separating low and middle frequencies<br>
-_type:_ float<br>
-_units:_ Hz<br>
-_range:_ 50..1000<br>
-_default:_ 200<br>
-
 * **@dump_hf** 
 Get/set Frequency (Hz) at which the high-frequency T60 is half the middle-band&#39;s T60<br>
 _type:_ float<br>
@@ -86,19 +87,18 @@ _units:_ Hz<br>
 _range:_ 1500..47040<br>
 _default:_ 6000<br>
 
-* **@active** 
-Get/set on/off dsp processing<br>
-_type:_ bool<br>
+* **@freq_low** 
+Get/set Crossover frequency (Hz) separating low and middle frequencies<br>
+_type:_ float<br>
+_units:_ Hz<br>
+_range:_ 50..1000<br>
+_default:_ 200<br>
+
+* **@radius** 
+Get/set source distance from circle center<br>
+_type:_ float<br>
+_range:_ 0..1<br>
 _default:_ 1<br>
-
-* **@osc** (initonly)
-Get/set OSC server name to listen<br>
-_type:_ symbol<br>
-
-* **@id** (initonly)
-Get/set OSC address id. If specified, bind all properties to /ID/spat_zita8/PROP_NAME
-osc address, if empty bind to /spat_zita8/PROP_NAME.<br>
-_type:_ symbol<br>
 
 
 

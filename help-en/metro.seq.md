@@ -35,9 +35,11 @@ _type:_ list<br>
 
 ## properties:
 
-* **@pattern** 
-Get/set list of 1 and 0. Where 1 means output bang on this beat<br>
-_type:_ list<br>
+* **@current** 
+Get/set current pattern index<br>
+_type:_ int<br>
+_min value:_ 0<br>
+_default:_ 0<br>
 
 * **@interval** 
 Get/set interval between beats<br>
@@ -46,11 +48,9 @@ _units:_ ms<br>
 _min value:_ 0<br>
 _default:_ 0<br>
 
-* **@current** 
-Get/set current pattern index<br>
-_type:_ int<br>
-_min value:_ 0<br>
-_default:_ 0<br>
+* **@pattern** 
+Get/set list of 1 and 0. Where 1 means output bang on this beat<br>
+_type:_ list<br>
 
 
 

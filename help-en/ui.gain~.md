@@ -25,31 +25,14 @@
 * **+ N**
 increase current gain by N db<br>
 
-* **- N**
-decrease current gain by N db<br>
-
 * **++**
 decrease current gain by 1 db<br>
 
+* **- N**
+decrease current gain by N db<br>
+
 * **--**
 decrease current gain by 1 db<br>
-
-* **set N**
-set current gain to N db<br>
-
-* **load**
-loads specified preset<br>
-  __parameters:__
-  - **IDX** preset index<br>
-    type: int <br>
-    required: True <br>
-
-* **store**
-stores specified preset<br>
-  __parameters:__
-  - **IDX** preset index<br>
-    type: int <br>
-    required: True <br>
 
 * **clear**
 clears specified preset<br>
@@ -65,6 +48,13 @@ interplolates between presets<br>
     type: float <br>
     required: True <br>
 
+* **load**
+loads specified preset<br>
+  __parameters:__
+  - **IDX** preset index<br>
+    type: int <br>
+    required: True <br>
+
 * **pos**
 set UI element position<br>
   __parameters:__
@@ -76,86 +66,25 @@ set UI element position<br>
     type: float <br>
     required: True <br>
 
+* **set N**
+set current gain to N db<br>
+
+* **store**
+stores specified preset<br>
+  __parameters:__
+  - **IDX** preset index<br>
+    type: int <br>
+    required: True <br>
+
 
 
 
 ## properties:
 
-* **@max** 
-Get/set maximum gain value<br>
-_type:_ int<br>
-_units:_ db<br>
-_range:_ -12..12<br>
-_default:_ 0<br>
-
-* **@min** 
-Get/set minimal gain value<br>
-_type:_ int<br>
-_units:_ db<br>
-_range:_ -90..-15<br>
-_default:_ -60<br>
-
-* **@db** 
-Get/set gain in dbfs scale<br>
-_type:_ float<br>
-_units:_ db<br>
-_default:_ -60<br>
-
 * **@amp** 
 Get/set gain as amplitude ratio<br>
 _type:_ float<br>
 _default:_ 0<br>
-
-* **@output_value** 
-Get/set flag to output @db property after each knob move<br>
-_type:_ bool<br>
-_default:_ 0<br>
-
-* **@relative** 
-Get/set relative input mode. When set do not jump to value on click<br>
-_type:_ bool<br>
-_default:_ 1<br>
-
-* **@presetname** 
-Get/set preset name for using with [ui.preset]<br>
-_type:_ symbol<br>
-_default:_ (null)<br>
-
-* **@show_range** 
-Get/set if show slider range<br>
-_type:_ bool<br>
-_default:_ 1<br>
-
-* **@mouse_events** 
-Get/set mouse events output mode. If on outputs @mouse_down, @mouse_up and @mouse_drag
-events<br>
-_type:_ bool<br>
-_default:_ 0<br>
-
-* **@send** 
-Get/set send destination<br>
-_type:_ symbol<br>
-_default:_ (null)<br>
-
-* **@receive** 
-Get/set receive source<br>
-_type:_ symbol<br>
-_default:_ (null)<br>
-
-* **@size** 
-Get/set element size (width, height pair)<br>
-_type:_ list<br>
-_default:_ 15 120<br>
-
-* **@pinned** 
-Get/set pin mode. if 1 - put element to the lowest level<br>
-_type:_ bool<br>
-_default:_ 0<br>
-
-* **@knob_color** 
-Get/set knob color (list of red, green, blue values in 0-1 range)<br>
-_type:_ list<br>
-_default:_ 0 0.75 1 1<br>
 
 * **@background_color** 
 Get/set element background color (list of red, green, blue values in 0-1 range)<br>
@@ -167,11 +96,11 @@ Get/set border color (list of red, green, blue values in 0-1 range)<br>
 _type:_ list<br>
 _default:_ 0.6 0.6 0.6 1<br>
 
-* **@fontsize** 
-Get/set fontsize<br>
-_type:_ int<br>
-_range:_ 4..100<br>
-_default:_ 11<br>
+* **@db** 
+Get/set gain in dbfs scale<br>
+_type:_ float<br>
+_units:_ db<br>
+_default:_ -60<br>
 
 * **@fontname** 
 Get/set fontname<br>
@@ -179,17 +108,35 @@ _type:_ symbol<br>
 _enum:_ Courier, DejaVu, Helvetica, Monaco, Times<br>
 _default:_ Helvetica<br>
 
-* **@fontweight** 
-Get/set font weight<br>
-_type:_ symbol<br>
-_enum:_ normal, bold<br>
-_default:_ normal<br>
+* **@fontsize** 
+Get/set fontsize<br>
+_type:_ int<br>
+_range:_ 4..100<br>
+_default:_ 11<br>
 
 * **@fontslant** 
 Get/set font slant<br>
 _type:_ symbol<br>
 _enum:_ roman, italic<br>
 _default:_ roman<br>
+
+* **@fontweight** 
+Get/set font weight<br>
+_type:_ symbol<br>
+_enum:_ normal, bold<br>
+_default:_ normal<br>
+
+* **@knob_color** 
+Get/set knob color (list of red, green, blue values in 0-1 range)<br>
+_type:_ list<br>
+_default:_ 0 0.75 1 1<br>
+
+* **@max** 
+Get/set maximum gain value<br>
+_type:_ int<br>
+_units:_ db<br>
+_range:_ -12..12<br>
+_default:_ 0<br>
 
 * **@midi_channel** 
 Get/set binded MIDI channel. 0 means listen to all channels<br>
@@ -209,6 +156,59 @@ over this value to make binding. It prevents from sudden value change on first
 control change<br>
 _type:_ bool<br>
 _default:_ 1<br>
+
+* **@min** 
+Get/set minimal gain value<br>
+_type:_ int<br>
+_units:_ db<br>
+_range:_ -90..-15<br>
+_default:_ -60<br>
+
+* **@mouse_events** 
+Get/set mouse events output mode. If on outputs @mouse_down, @mouse_up and @mouse_drag
+events<br>
+_type:_ bool<br>
+_default:_ 0<br>
+
+* **@output_value** 
+Get/set flag to output @db property after each knob move<br>
+_type:_ bool<br>
+_default:_ 0<br>
+
+* **@pinned** 
+Get/set pin mode. if 1 - put element to the lowest level<br>
+_type:_ bool<br>
+_default:_ 0<br>
+
+* **@presetname** 
+Get/set preset name for using with [ui.preset]<br>
+_type:_ symbol<br>
+_default:_ (null)<br>
+
+* **@receive** 
+Get/set receive source<br>
+_type:_ symbol<br>
+_default:_ (null)<br>
+
+* **@relative** 
+Get/set relative input mode. When set do not jump to value on click<br>
+_type:_ bool<br>
+_default:_ 1<br>
+
+* **@send** 
+Get/set send destination<br>
+_type:_ symbol<br>
+_default:_ (null)<br>
+
+* **@show_range** 
+Get/set if show slider range<br>
+_type:_ bool<br>
+_default:_ 1<br>
+
+* **@size** 
+Get/set element size (width, height pair)<br>
+_type:_ list<br>
+_default:_ 15 120<br>
 
 
 

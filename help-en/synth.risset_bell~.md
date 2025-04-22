@@ -40,37 +40,6 @@ reset synth<br>
 
 ## properties:
 
-* **@freq** 
-Get/set base frequency<br>
-_type:_ float<br>
-_units:_ Hz<br>
-_range:_ 1..10000<br>
-_default:_ 440<br>
-
-* **@pfreq** 
-Get/set freq multiplication coefficient<br>
-_type:_ float<br>
-_range:_ 0..10<br>
-_default:_ 1<br>
-
-* **@dur** 
-Get/set duration<br>
-_type:_ float<br>
-_units:_ ms<br>
-_range:_ 10..600000<br>
-_default:_ 5000<br>
-
-* **@gate** 
-Get/set play trigger - 1: on, 0: off<br>
-_type:_ float<br>
-_range:_ 0..1<br>
-_default:_ 0<br>
-
-* **@active** 
-Get/set on/off dsp processing<br>
-_type:_ bool<br>
-_default:_ 1<br>
-
 * **@osc** (initonly)
 Get/set OSC server name to listen<br>
 _type:_ symbol<br>
@@ -80,6 +49,37 @@ Get/set OSC address id. If specified, bind all properties to
 /ID/synth_risset_bell/PROP_NAME osc address, if empty bind to
 /synth_risset_bell/PROP_NAME.<br>
 _type:_ symbol<br>
+
+* **@active** 
+Get/set on/off dsp processing<br>
+_type:_ bool<br>
+_default:_ 1<br>
+
+* **@dur** 
+Get/set duration<br>
+_type:_ float<br>
+_units:_ ms<br>
+_range:_ 10..600000<br>
+_default:_ 5000<br>
+
+* **@freq** 
+Get/set base frequency<br>
+_type:_ float<br>
+_units:_ Hz<br>
+_range:_ 1..10000<br>
+_default:_ 440<br>
+
+* **@gate** 
+Get/set play trigger - 1: on, 0: off<br>
+_type:_ float<br>
+_range:_ 0..1<br>
+_default:_ 0<br>
+
+* **@pfreq** 
+Get/set freq multiplication coefficient<br>
+_type:_ float<br>
+_range:_ 0..10<br>
+_default:_ 1<br>
 
 
 

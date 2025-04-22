@@ -50,6 +50,11 @@ _default:_ 0<br>
 Get mod name<br>
 _type:_ symbol<br>
 
+* **@play** 
+Get/set play state<br>
+_type:_ bool<br>
+_default:_ 0<br>
+
 * **@pos** 
 Get/set position in mod file<br>
 _type:_ float<br>
@@ -60,11 +65,6 @@ _default:_ -1<br>
 Get/set relative position in mod file<br>
 _type:_ float<br>
 _range:_ 0..1<br>
-_default:_ 0<br>
-
-* **@play** 
-Get/set play state<br>
-_type:_ bool<br>
 _default:_ 0<br>
 
 

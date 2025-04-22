@@ -30,23 +30,20 @@ reset synth<br>
 
 ## properties:
 
-* **@pos** 
-Get/set strike position (0 is on the bottom)<br>
-_type:_ int<br>
-_range:_ 0..6<br>
-_default:_ 0<br>
+* **@osc** (initonly)
+Get/set OSC server name to listen<br>
+_type:_ symbol<br>
 
-* **@gain** 
-Get/set strike gain<br>
-_type:_ float<br>
-_range:_ 0..1<br>
+* **@id** (initonly)
+Get/set OSC address id. If specified, bind all properties to
+/ID/synth_standard_bell/PROP_NAME osc address, if empty bind to
+/synth_standard_bell/PROP_NAME.<br>
+_type:_ symbol<br>
+
+* **@active** 
+Get/set on/off dsp processing<br>
+_type:_ bool<br>
 _default:_ 1<br>
-
-* **@sharp** 
-Get/set strike sharpness<br>
-_type:_ float<br>
-_range:_ 0.01..5<br>
-_default:_ 0.25<br>
 
 * **@cutoff** 
 Get/set strike cutoff frequency<br>
@@ -54,13 +51,6 @@ _type:_ float<br>
 _units:_ Hz<br>
 _range:_ 20..20000<br>
 _default:_ 4000<br>
-
-* **@t60** 
-Get/set time to decay to -60db level<br>
-_type:_ float<br>
-_units:_ sec<br>
-_range:_ 0.1..30<br>
-_default:_ 20<br>
 
 * **@decay_ratio** 
 Get/set decay ratio<br>
@@ -74,26 +64,36 @@ _type:_ float<br>
 _range:_ 0..10<br>
 _default:_ 3<br>
 
+* **@gain** 
+Get/set strike gain<br>
+_type:_ float<br>
+_range:_ 0..1<br>
+_default:_ 1<br>
+
 * **@gate** 
 Get/set play trigger - 1: on, 0: off<br>
 _type:_ float<br>
 _range:_ 0..1<br>
 _default:_ 0<br>
 
-* **@active** 
-Get/set on/off dsp processing<br>
-_type:_ bool<br>
-_default:_ 1<br>
+* **@pos** 
+Get/set strike position (0 is on the bottom)<br>
+_type:_ int<br>
+_range:_ 0..6<br>
+_default:_ 0<br>
 
-* **@osc** (initonly)
-Get/set OSC server name to listen<br>
-_type:_ symbol<br>
+* **@sharp** 
+Get/set strike sharpness<br>
+_type:_ float<br>
+_range:_ 0.01..5<br>
+_default:_ 0.25<br>
 
-* **@id** (initonly)
-Get/set OSC address id. If specified, bind all properties to
-/ID/synth_standard_bell/PROP_NAME osc address, if empty bind to
-/synth_standard_bell/PROP_NAME.<br>
-_type:_ symbol<br>
+* **@t60** 
+Get/set time to decay to -60db level<br>
+_type:_ float<br>
+_units:_ sec<br>
+_range:_ 0.1..30<br>
+_default:_ 20<br>
 
 
 

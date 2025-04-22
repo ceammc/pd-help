@@ -38,27 +38,27 @@ _type:_ int<br>
 
 ## properties:
 
+* **@index** 
+Get/set current outlet index<br>
+_type:_ int<br>
+_default:_ 0<br>
+
 * **@n** (initonly)
 Get/set number of outlets<br>
 _type:_ int<br>
 _range:_ 1..64<br>
 _default:_ 2<br>
 
-* **@index** 
-Get/set current outlet index<br>
+* **@offset** 
+Get/set init cycle offset<br>
 _type:_ int<br>
+_range:_ -64..64<br>
 _default:_ 0<br>
 
 * **@step** 
 Get/set cycle step<br>
 _type:_ int<br>
 _default:_ 1<br>
-
-* **@offset** 
-Get/set init cycle offset<br>
-_type:_ int<br>
-_range:_ -64..64<br>
-_default:_ 0<br>
 
 
 

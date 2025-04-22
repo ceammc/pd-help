@@ -36,19 +36,19 @@ _units:_ ms<br>
 
 ## properties:
 
-* **@min** 
-Get/set minimal bang interval<br>
-_type:_ int<br>
-_units:_ ms<br>
-_min value:_ 1<br>
-_default:_ 100<br>
-
 * **@max** 
 Get/set maximum bang interval<br>
 _type:_ int<br>
 _units:_ ms<br>
 _min value:_ 1<br>
 _default:_ 200<br>
+
+* **@min** 
+Get/set minimal bang interval<br>
+_type:_ int<br>
+_units:_ ms<br>
+_min value:_ 1<br>
+_default:_ 100<br>
 
 * **@seed** 
 Get/set generator seed<br>

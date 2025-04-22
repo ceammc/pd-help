@@ -30,12 +30,6 @@ _type:_ symbol<br>
 
 ## properties:
 
-* **@type** 
-Get/set result IP type<br>
-_type:_ symbol<br>
-_enum:_ ipv4, ipv6<br>
-_default:_ ipv4<br>
-
 * **@ipv4** 
 Get/set shortcut for @type ipv4<br>
 _type:_ alias<br>
@@ -43,6 +37,12 @@ _type:_ alias<br>
 * **@ipv6** 
 Get/set shortcut for @type ipv6<br>
 _type:_ alias<br>
+
+* **@type** 
+Get/set result IP type<br>
+_type:_ symbol<br>
+_enum:_ ipv4, ipv6<br>
+_default:_ ipv4<br>
 
 
 

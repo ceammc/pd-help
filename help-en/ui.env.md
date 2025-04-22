@@ -74,7 +74,7 @@ creates ASR envelope with one stop point<br>
 * **at**
 output envelope value at specified position to second outlet<br>
   __parameters:__
-  - **VAL** position (in milliseconds if unit arg is ommited )<br>
+  - **VAL** position (in milliseconds if unit arg is omitted)<br>
     type: float <br>
     required: True <br>
 
@@ -322,52 +322,10 @@ stores specified preset<br>
 
 ## properties:
 
-* **@length** 
-Get/set envelope time length<br>
-_type:_ float<br>
-_units:_ ms<br>
-_min value:_ 10<br>
-_default:_ 400<br>
-
-* **@presetname** 
-Get/set preset name for using with [ui.preset]<br>
-_type:_ symbol<br>
-_default:_ (null)<br>
-
-* **@send** 
-Get/set send destination<br>
-_type:_ symbol<br>
-_default:_ (null)<br>
-
-* **@receive** 
-Get/set receive source<br>
-_type:_ symbol<br>
-_default:_ (null)<br>
-
-* **@size** 
-Get/set element size (width, height pair)<br>
-_type:_ list<br>
-_default:_ 200 150<br>
-
-* **@pinned** 
-Get/set pin mode. if 1 - put element to the lowest level<br>
-_type:_ bool<br>
-_default:_ 0<br>
-
-* **@norm** 
-Get/set normalize input values<br>
-_type:_ bool<br>
-_default:_ 1<br>
-
 * **@active_color** 
 Get/set element active color (list of red, green, blue values in 0-1 range)<br>
 _type:_ list<br>
 _default:_ 0 0.75 1 1<br>
-
-* **@line_color** 
-Get/set line color (list of red, green, blue values in 0-1 range)<br>
-_type:_ list<br>
-_default:_ 0.1 0.1 0.1 1<br>
 
 * **@background_color** 
 Get/set element background color (list of red, green, blue values in 0-1 range)<br>
@@ -379,23 +337,17 @@ Get/set border color (list of red, green, blue values in 0-1 range)<br>
 _type:_ list<br>
 _default:_ 0.6 0.6 0.6 1<br>
 
-* **@fontsize** 
-Get/set fontsize<br>
-_type:_ int<br>
-_range:_ 4..100<br>
-_default:_ 11<br>
-
 * **@fontname** 
 Get/set fontname<br>
 _type:_ symbol<br>
 _enum:_ Courier, DejaVu, Helvetica, Monaco, Times<br>
 _default:_ Helvetica<br>
 
-* **@fontweight** 
-Get/set font weight<br>
-_type:_ symbol<br>
-_enum:_ normal, bold<br>
-_default:_ normal<br>
+* **@fontsize** 
+Get/set fontsize<br>
+_type:_ int<br>
+_range:_ 4..100<br>
+_default:_ 11<br>
 
 * **@fontslant** 
 Get/set font slant<br>
@@ -403,19 +355,67 @@ _type:_ symbol<br>
 _enum:_ roman, italic<br>
 _default:_ roman<br>
 
+* **@fontweight** 
+Get/set font weight<br>
+_type:_ symbol<br>
+_enum:_ normal, bold<br>
+_default:_ normal<br>
+
+* **@length** 
+Get/set envelope time length<br>
+_type:_ float<br>
+_units:_ ms<br>
+_min value:_ 10<br>
+_default:_ 400<br>
+
+* **@line_color** 
+Get/set line color (list of red, green, blue values in 0-1 range)<br>
+_type:_ list<br>
+_default:_ 0.1 0.1 0.1 1<br>
+
 * **@mouse_events** 
 Get/set mouse events output mode. If on outputs @mouse_down, @mouse_up and @mouse_drag
 events<br>
 _type:_ bool<br>
 _default:_ 0<br>
 
+* **@norm** 
+Get/set normalize input values<br>
+_type:_ bool<br>
+_default:_ 1<br>
+
 * **@output_mode** 
 Get/set output envelope mode. If set to &#34;mouse_up&#34; - output envelope on mouse up if
 Ctrl/Cmd key not pressed. If set to &#34;drag&#34; - output envelope on every change.
-Note: in any mode you can output evenlope with Ctrl/Cmd + mouse down.<br>
+Note: in any mode you can output envelope with Ctrl/Cmd + mouse down.<br>
 _type:_ symbol<br>
 _enum:_ mouse_up, drag<br>
 _default:_ mouse_up<br>
+
+* **@pinned** 
+Get/set pin mode. If 1 - put element to the lowest level<br>
+_type:_ bool<br>
+_default:_ 0<br>
+
+* **@presetname** 
+Get/set preset name for using with [ui.preset]<br>
+_type:_ symbol<br>
+_default:_ (null)<br>
+
+* **@receive** 
+Get/set receive source<br>
+_type:_ symbol<br>
+_default:_ (null)<br>
+
+* **@send** 
+Get/set send destination<br>
+_type:_ symbol<br>
+_default:_ (null)<br>
+
+* **@size** 
+Get/set element size (width, height pair)<br>
+_type:_ list<br>
+_default:_ 200 150<br>
 
 
 

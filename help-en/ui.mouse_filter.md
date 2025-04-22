@@ -26,48 +26,13 @@ pass only specified mouse events from ui.* objects
 
 ## properties:
 
-* **@mouse_up** 
-Get/set passing a @mouse_up events<br>
-_type:_ bool<br>
-_default:_ 0<br>
-
-* **@mouse_down** 
-Get/set passing a @mouse_down events<br>
-_type:_ bool<br>
-_default:_ 0<br>
-
-* **@mouse_leave** 
-Get/set passing a @mouse_leave events<br>
-_type:_ bool<br>
-_default:_ 0<br>
-
-* **@mouse_enter** 
-Get/set passing a @mouse_enter events<br>
-_type:_ bool<br>
-_default:_ 0<br>
-
-* **@mouse_move** 
-Get/set passing a @mouse_move events<br>
-_type:_ bool<br>
-_default:_ 0<br>
-
-* **@mouse_drag** 
-Get/set passing a @mouse_drag events<br>
-_type:_ bool<br>
-_default:_ 0<br>
-
-* **@up** 
-Get/set alias to @mouse_up 1 property<br>
-_type:_ alias<br>
-_default:_ 0<br>
-
 * **@down** 
 Get/set alias to @mouse_down 1 property<br>
 _type:_ alias<br>
 _default:_ 0<br>
 
-* **@leave** 
-Get/set alias to @mouse_leave 1 property<br>
+* **@drag** 
+Get/set alias to @mouse_drag 1 property<br>
 _type:_ alias<br>
 _default:_ 0<br>
 
@@ -76,13 +41,48 @@ Get/set alias to @mouse_enter 1 property<br>
 _type:_ alias<br>
 _default:_ 0<br>
 
+* **@leave** 
+Get/set alias to @mouse_leave 1 property<br>
+_type:_ alias<br>
+_default:_ 0<br>
+
+* **@mouse_down** 
+Get/set passing a @mouse_down events<br>
+_type:_ bool<br>
+_default:_ 0<br>
+
+* **@mouse_drag** 
+Get/set passing a @mouse_drag events<br>
+_type:_ bool<br>
+_default:_ 0<br>
+
+* **@mouse_enter** 
+Get/set passing a @mouse_enter events<br>
+_type:_ bool<br>
+_default:_ 0<br>
+
+* **@mouse_leave** 
+Get/set passing a @mouse_leave events<br>
+_type:_ bool<br>
+_default:_ 0<br>
+
+* **@mouse_move** 
+Get/set passing a @mouse_move events<br>
+_type:_ bool<br>
+_default:_ 0<br>
+
+* **@mouse_up** 
+Get/set passing a @mouse_up events<br>
+_type:_ bool<br>
+_default:_ 0<br>
+
 * **@move** 
 Get/set alias to @mouse_move 1 property<br>
 _type:_ alias<br>
 _default:_ 0<br>
 
-* **@drag** 
-Get/set alias to @mouse_drag 1 property<br>
+* **@up** 
+Get/set alias to @mouse_up 1 property<br>
 _type:_ alias<br>
 _default:_ 0<br>
 

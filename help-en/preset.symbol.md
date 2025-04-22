@@ -37,24 +37,24 @@ _type:_ symbol<br>
 * **clear**
 clear preset at specified index<br>
 
+* **interp**
+do nothing<br>
+
 * **load**
 load preset value by specified index and output it<br>
 
 * **store**
 stores preset value at specified index<br>
 
-* **interp**
-do nothing<br>
-
 
 
 
 ## properties:
 
-* **@path** (readonly)
-Get property OSC-like path that includes id, abstraction name and may be subpatch
-name separated by slashes.<br>
-_type:_ symbol<br>
+* **@global** (initonly)
+Get/set use global path like /ID<br>
+_type:_ flag<br>
+_default:_ 0<br>
 
 * **@id** (initonly)
 Get/set preset id<br>
@@ -64,10 +64,10 @@ _type:_ symbol<br>
 Get/set init symbol value<br>
 _type:_ symbol<br>
 
-* **@global** (initonly)
-Get/set use global path like /ID<br>
-_type:_ flag<br>
-_default:_ 0<br>
+* **@path** (readonly)
+Get property OSC-like path that includes id, abstraction name and may be subpatch
+name separated by slashes.<br>
+_type:_ symbol<br>
 
 * **@subpatch** (initonly)
 Get/set include subpatch name to path<br>

@@ -29,6 +29,13 @@ _type:_ symbol<br>
 * **open**
 open faust dsp file in external editor<br>
 
+* **read**
+read Faust code from file and compile it.<br>
+  __parameters:__
+  - **FILE** file path, absolute or relative to patch, include directories<br>
+    type: symbol <br>
+    required: True <br>
+
 * **reset**
 reset object state<br>
 
@@ -41,13 +48,6 @@ resize object<br>
 
   - **H** new height<br>
     type: int <br>
-    required: True <br>
-
-* **read**
-read Faust code from file and compile it.<br>
-  __parameters:__
-  - **FILE** file path, absolute or relative to patch, include directories<br>
-    type: symbol <br>
     required: True <br>
 
 * **write**
@@ -65,18 +65,18 @@ write Faust code to file.<br>
 
 ## properties:
 
-* **@load** (initonly)
-Get/set initial file to load after object creation<br>
-_type:_ symbol<br>
+* **@active** 
+Get/set on/off dsp processing<br>
+_type:_ bool<br>
+_default:_ 1<br>
 
 * **@include** 
 Get/set list of faust include directories<br>
 _type:_ list<br>
 
-* **@active** 
-Get/set on/off dsp processing<br>
-_type:_ bool<br>
-_default:_ 1<br>
+* **@load** (initonly)
+Get/set initial file to load after object creation<br>
+_type:_ symbol<br>
 
 * **@size** 
 Get/set object size<br>

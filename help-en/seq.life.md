@@ -136,14 +136,14 @@ adds vertical bee-hive<br>
 
 ## properties:
 
-* **@rows** 
-Get/set number of rows<br>
+* **@cols** 
+Get/set number of columns<br>
 _type:_ int<br>
 _range:_ 1..64<br>
 _default:_ 16<br>
 
-* **@cols** 
-Get/set number of columns<br>
+* **@rows** 
+Get/set number of rows<br>
 _type:_ int<br>
 _range:_ 1..64<br>
 _default:_ 16<br>

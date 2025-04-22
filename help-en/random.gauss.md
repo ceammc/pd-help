@@ -39,15 +39,15 @@ Get/set the mean<br>
 _type:_ float<br>
 _default:_ 0<br>
 
-* **@sigma** 
-Get/set the standard deviation<br>
-_type:_ float<br>
-_min value:_ 0<br>
-_default:_ 0<br>
-
 * **@seed** 
 Get/set generator seed<br>
 _type:_ int<br>
+_min value:_ 0<br>
+_default:_ 0<br>
+
+* **@sigma** 
+Get/set the standard deviation<br>
+_type:_ float<br>
 _min value:_ 0<br>
 _default:_ 0<br>
 

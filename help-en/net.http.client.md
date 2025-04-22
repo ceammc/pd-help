@@ -22,6 +22,19 @@
 
 ## methods:
 
+* **download**
+download file<br>
+  __parameters:__
+  - **URL** download URL<br>
+    type: symbol <br>
+    required: True <br>
+
+  - **[FILE]** save filename. If not specified, use HTTP document filename<br>
+    type: symbol <br>
+
+  - **[@PARAMS]** see get method parameters<br>
+    type: list <br>
+
 * **get**
 send GET request<br>
   __parameters:__
@@ -47,6 +60,16 @@ send GET request<br>
   - **[@json]** parse result as Json and output it as data:Dict()<br>
     type: symbol <br>
 
+* **post**
+send POST request<br>
+  __parameters:__
+  - **URL** request URL<br>
+    type: symbol <br>
+    required: True <br>
+
+  - **[@PARAMS]** see get method parameters<br>
+    type: list <br>
+
 * **upload**
 updload file for the form<br>
   __parameters:__
@@ -59,29 +82,6 @@ updload file for the form<br>
     required: True <br>
 
   - **FORM_KEY** form entry key<br>
-    type: symbol <br>
-    required: True <br>
-
-  - **[@PARAMS]** see get method parameters<br>
-    type: list <br>
-
-* **download**
-download file<br>
-  __parameters:__
-  - **URL** download URL<br>
-    type: symbol <br>
-    required: True <br>
-
-  - **[FILE]** save filename. If not specified, use HTTP document filename<br>
-    type: symbol <br>
-
-  - **[@PARAMS]** see get method parameters<br>
-    type: list <br>
-
-* **post**
-send POST request<br>
-  __parameters:__
-  - **URL** request URL<br>
     type: symbol <br>
     required: True <br>
 

@@ -32,13 +32,10 @@ _type:_ list<br>
 
 ## properties:
 
-* **@value** 
-Get/set list of atoms<br>
-_type:_ list<br>
-
-* **@w** 
-Get/set list of atom weights<br>
-_type:_ list<br>
+* **@nonrep** 
+Get/set generate non-repeated adjacent values (note: distribution will changed!)<br>
+_type:_ bool<br>
+_default:_ 0<br>
 
 * **@seed** 
 Get/set generator seed<br>
@@ -46,10 +43,13 @@ _type:_ int<br>
 _min value:_ 0<br>
 _default:_ 0<br>
 
-* **@nonrep** 
-Get/set generate non-repeated adjacent values (note: distribution will changed!)<br>
-_type:_ bool<br>
-_default:_ 0<br>
+* **@value** 
+Get/set list of atoms<br>
+_type:_ list<br>
+
+* **@w** 
+Get/set list of atom weights<br>
+_type:_ list<br>
 
 
 

@@ -172,27 +172,27 @@ send list of typed values<br>
 
 ## properties:
 
-* **@proto** (readonly)
-Get sending protocol<br>
+* **@host** (readonly)
+Get destination host<br>
 _type:_ symbol<br>
-_default:_ udp<br>
+
+* **@path** (readonly)
+Get socket filesystem path (if using unix proto)<br>
+_type:_ symbol<br>
 
 * **@port** (readonly)
 Get destination port<br>
 _type:_ int<br>
 _default:_ 0<br>
 
-* **@host** (readonly)
-Get destination host<br>
+* **@proto** (readonly)
+Get sending protocol<br>
 _type:_ symbol<br>
+_default:_ udp<br>
 
 * **@url** 
 Get/set destination url<br>
 _type:_ atom<br>
-
-* **@path** (readonly)
-Get socket filesystem path (if using unix proto)<br>
-_type:_ symbol<br>
 
 
 

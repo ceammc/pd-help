@@ -56,6 +56,12 @@ note on/off message<br>
 
 ## properties:
 
+* **@adsr** 
+Get/set ADSR 2 &amp; 4 Target<br>
+_type:_ int<br>
+_range:_ 0..127<br>
+_default:_ 0<br>
+
 * **@freq** 
 Get/set frequency<br>
 _type:_ float<br>
@@ -63,26 +69,14 @@ _units:_ Hz<br>
 _range:_ 0..10000<br>
 _default:_ 220<br>
 
-* **@pitch** 
-Get/set midi pitch<br>
-_type:_ float<br>
-_range:_ 36..84<br>
-_default:_ 57<br>
-
 * **@gate** 
 Get/set play trigger - 1: on, 0: off<br>
 _type:_ float<br>
 _range:_ 0..1<br>
 _default:_ 0<br>
 
-* **@mod** 
-Get/set modulator index one<br>
-_type:_ int<br>
-_range:_ 0..127<br>
-_default:_ 0<br>
-
-* **@xfade** 
-Get/set crossfade of outputs<br>
+* **@lfo_depth** 
+Get/set LFO delth<br>
 _type:_ int<br>
 _range:_ 0..127<br>
 _default:_ 0<br>
@@ -93,14 +87,20 @@ _type:_ int<br>
 _range:_ 0..127<br>
 _default:_ 0<br>
 
-* **@lfo_depth** 
-Get/set LFO delth<br>
+* **@mod** 
+Get/set modulator index one<br>
 _type:_ int<br>
 _range:_ 0..127<br>
 _default:_ 0<br>
 
-* **@adsr** 
-Get/set ADSR 2 &amp; 4 Target<br>
+* **@pitch** 
+Get/set midi pitch<br>
+_type:_ float<br>
+_range:_ 36..84<br>
+_default:_ 57<br>
+
+* **@xfade** 
+Get/set crossfade of outputs<br>
 _type:_ int<br>
 _range:_ 0..127<br>
 _default:_ 0<br>

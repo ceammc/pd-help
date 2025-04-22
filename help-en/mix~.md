@@ -54,19 +54,6 @@ solo (mute all others that not solo) specified channel<br>
 
 ## properties:
 
-* **@xfade_time** 
-Get/set smooth time<br>
-_type:_ float<br>
-_units:_ ms<br>
-_min value:_ 1<br>
-_default:_ 20<br>
-
-* **@value** 
-Get/set linear amplitude values<br>
-_type:_ list<br>
-_min value:_ 0<br>
-_default:_ 0 0<br>
-
 * **@db** 
 Get/set amplitude values in decibels<br>
 _type:_ list<br>
@@ -83,6 +70,19 @@ _default:_ 0 0<br>
 Get/set solo channel list, allowed values: 0, 1<br>
 _type:_ list<br>
 _default:_ 0 0<br>
+
+* **@value** 
+Get/set linear amplitude values<br>
+_type:_ list<br>
+_min value:_ 0<br>
+_default:_ 0 0<br>
+
+* **@xfade_time** 
+Get/set smooth time<br>
+_type:_ float<br>
+_units:_ ms<br>
+_min value:_ 1<br>
+_default:_ 20<br>
 
 
 

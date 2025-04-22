@@ -48,8 +48,9 @@ _type:_ int<br>
 _range:_ 0..16<br>
 _default:_ 0<br>
 
-* **@min** 
-Get/set output value at midi input == 0<br>
+* **@curve** 
+Get/set output curve. If @curve&lt;0: fast begin, slow end, else if @curve&gt;0: slow begin,
+fast end, if @curve==0: linear speed<br>
 _type:_ float<br>
 _default:_ 0<br>
 
@@ -58,9 +59,8 @@ Get/set output value at midi input == 127<br>
 _type:_ float<br>
 _default:_ 127<br>
 
-* **@curve** 
-Get/set output curve. If @curve&lt;0: fast begin, slow end, else if @curve&gt;0: slow begin,
-fast end, if @curve==0: linear speed<br>
+* **@min** 
+Get/set output value at midi input == 0<br>
 _type:_ float<br>
 _default:_ 0<br>
 

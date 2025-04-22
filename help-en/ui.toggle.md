@@ -70,59 +70,6 @@ stores specified preset<br>
 
 ## properties:
 
-* **@value** 
-Get/set widget logical value<br>
-_type:_ int<br>
-_enum:_ 0, 1<br>
-_default:_ 0<br>
-
-* **@on_value** 
-Get/set output on value<br>
-_type:_ float<br>
-_default:_ 1<br>
-
-* **@off_value** 
-Get/set output off value<br>
-_type:_ float<br>
-_default:_ 0<br>
-
-* **@midi_channel** 
-Get/set binded MIDI channel. 0 means listen to all channels<br>
-_type:_ int<br>
-_range:_ 0..16<br>
-_default:_ 0<br>
-
-* **@midi_control** 
-Get/set binded MIDI controller number. -1 means not binded to any controller.<br>
-_type:_ int<br>
-_range:_ -1..127<br>
-_default:_ -1<br>
-
-* **@presetname** 
-Get/set preset name for using with [ui.preset]<br>
-_type:_ symbol<br>
-_default:_ (null)<br>
-
-* **@send** 
-Get/set send destination<br>
-_type:_ symbol<br>
-_default:_ (null)<br>
-
-* **@receive** 
-Get/set receive source<br>
-_type:_ symbol<br>
-_default:_ (null)<br>
-
-* **@size** 
-Get/set element size (width, height pair)<br>
-_type:_ list<br>
-_default:_ 15 15<br>
-
-* **@pinned** 
-Get/set pin mode. if 1 - put element to the lowest level<br>
-_type:_ bool<br>
-_default:_ 0<br>
-
 * **@active_color** 
 Get/set active color (list of red, green, blue values in 0-1 range)<br>
 _type:_ list<br>
@@ -138,17 +85,23 @@ Get/set border color (list of red, green, blue values in 0-1 range)<br>
 _type:_ list<br>
 _default:_ 0.6 0.6 0.6 1<br>
 
+* **@fontname** 
+Get/set fontname<br>
+_type:_ symbol<br>
+_enum:_ Courier, DejaVu, Helvetica, Monaco, Times<br>
+_default:_ Helvetica<br>
+
 * **@fontsize** 
 Get/set fontsize<br>
 _type:_ int<br>
 _range:_ 4..100<br>
 _default:_ 11<br>
 
-* **@fontname** 
-Get/set fontname<br>
+* **@fontslant** 
+Get/set font slant<br>
 _type:_ symbol<br>
-_enum:_ Courier, DejaVu, Helvetica, Monaco, Times<br>
-_default:_ Helvetica<br>
+_enum:_ roman, italic<br>
+_default:_ roman<br>
 
 * **@fontweight** 
 Get/set font weight<br>
@@ -156,11 +109,58 @@ _type:_ symbol<br>
 _enum:_ normal, bold<br>
 _default:_ normal<br>
 
-* **@fontslant** 
-Get/set font slant<br>
+* **@midi_channel** 
+Get/set binded MIDI channel. 0 means listen to all channels<br>
+_type:_ int<br>
+_range:_ 0..16<br>
+_default:_ 0<br>
+
+* **@midi_control** 
+Get/set binded MIDI controller number. -1 means not binded to any controller.<br>
+_type:_ int<br>
+_range:_ -1..127<br>
+_default:_ -1<br>
+
+* **@off_value** 
+Get/set output off value<br>
+_type:_ float<br>
+_default:_ 0<br>
+
+* **@on_value** 
+Get/set output on value<br>
+_type:_ float<br>
+_default:_ 1<br>
+
+* **@pinned** 
+Get/set pin mode. if 1 - put element to the lowest level<br>
+_type:_ bool<br>
+_default:_ 0<br>
+
+* **@presetname** 
+Get/set preset name for using with [ui.preset]<br>
 _type:_ symbol<br>
-_enum:_ roman, italic<br>
-_default:_ roman<br>
+_default:_ (null)<br>
+
+* **@receive** 
+Get/set receive source<br>
+_type:_ symbol<br>
+_default:_ (null)<br>
+
+* **@send** 
+Get/set send destination<br>
+_type:_ symbol<br>
+_default:_ (null)<br>
+
+* **@size** 
+Get/set element size (width, height pair)<br>
+_type:_ list<br>
+_default:_ 15 15<br>
+
+* **@value** 
+Get/set widget logical value<br>
+_type:_ int<br>
+_enum:_ 0, 1<br>
+_default:_ 0<br>
 
 
 

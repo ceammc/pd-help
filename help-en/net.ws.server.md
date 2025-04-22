@@ -20,6 +20,42 @@
 
 ## methods:
 
+* **clients**
+output connected clients as list CLIENT_ID CLIENT_ADDR... etc.<br>
+
+* **close**
+gracefully close connection with specified client(s)<br>
+  __parameters:__
+  - **TARGET** client selector. If &#39;*&#39; or &#39;all&#39; - send message to all clients. If &#39;first&#39; - send message to first connected client. If &#39;last&#39; - send message to last connected client. If &#39;id&#39; or &#39;==&#39; - send message to client with specified ID. If &#39;except&#39; or &#39;!=&#39; - send message to all client except specified.<br>
+    type: symbol <br>
+    required: True <br>
+
+  - **[ID]** client ID. Required, if client selector is one of: &#39;id&#39;, &#39;==&#39;, &#39;!=&#39; or &#39;except&#39;.<br>
+    type: int <br>
+
+* **listen**
+starts/stop websocket server<br>
+  __parameters:__
+  - **PORT** listening port. If 0 - stops server.<br>
+    type: int <br>
+    required: True <br>
+
+  - **[ADDR]** listening address. If not specified - using 0.0.0.0 (all network interfaces)<br>
+    type: symbol <br>
+
+* **ping**
+send ping message to specified client(s)<br>
+  __parameters:__
+  - **TARGET** client selector. If &#39;*&#39; or &#39;all&#39; - send message to all clients. If &#39;first&#39; - send message to first connected client. If &#39;last&#39; - send message to last connected client. If &#39;id&#39; or &#39;==&#39; - send message to client with specified ID. If &#39;except&#39; or &#39;!=&#39; - send message to all client except specified.<br>
+    type: symbol <br>
+    required: True <br>
+
+  - **[ID]** client ID. Required, if client selector is one of: &#39;id&#39;, &#39;==&#39;, &#39;!=&#39; or &#39;except&#39;.<br>
+    type: int <br>
+
+  - **[DATA]** list of integers in [0..255] range<br>
+    type: list <br>
+
 * **send**
 send as text message to specified client(s)<br>
   __parameters:__
@@ -59,45 +95,6 @@ send as encoded json to specified client(s)<br>
   - **[ARGS]** arguments<br>
     type: list <br>
 
-* **close**
-gracefully close connection with specified client(s)<br>
-  __parameters:__
-  - **TARGET** client selector. If &#39;*&#39; or &#39;all&#39; - send message to all clients. If &#39;first&#39; - send message to first connected client. If &#39;last&#39; - send message to last connected client. If &#39;id&#39; or &#39;==&#39; - send message to client with specified ID. If &#39;except&#39; or &#39;!=&#39; - send message to all client except specified.<br>
-    type: symbol <br>
-    required: True <br>
-
-  - **[ID]** client ID. Required, if client selector is one of: &#39;id&#39;, &#39;==&#39;, &#39;!=&#39; or &#39;except&#39;.<br>
-    type: int <br>
-
-* **ping**
-send ping message to specified client(s)<br>
-  __parameters:__
-  - **TARGET** client selector. If &#39;*&#39; or &#39;all&#39; - send message to all clients. If &#39;first&#39; - send message to first connected client. If &#39;last&#39; - send message to last connected client. If &#39;id&#39; or &#39;==&#39; - send message to client with specified ID. If &#39;except&#39; or &#39;!=&#39; - send message to all client except specified.<br>
-    type: symbol <br>
-    required: True <br>
-
-  - **[ID]** client ID. Required, if client selector is one of: &#39;id&#39;, &#39;==&#39;, &#39;!=&#39; or &#39;except&#39;.<br>
-    type: int <br>
-
-  - **[DATA]** list of integers in [0..255] range<br>
-    type: list <br>
-
-* **listen**
-starts/stop websocket server<br>
-  __parameters:__
-  - **PORT** listening port. If 0 - stops server.<br>
-    type: int <br>
-    required: True <br>
-
-  - **[ADDR]** listening address. If not specified - using 0.0.0.0 (all network interfaces)<br>
-    type: symbol <br>
-
-* **clients**
-output connected clients as list CLIENT_ID CLIENT_ADDR... etc.<br>
-
-* **stop**
-stops server, equal to [listen 0( message<br>
-
 * **shutdown**
 abort connection with specified client(s)<br>
   __parameters:__
@@ -107,6 +104,9 @@ abort connection with specified client(s)<br>
 
   - **[ID]** client ID. Required, if client selector is one of: &#39;id&#39;, &#39;==&#39;, &#39;!=&#39; or &#39;except&#39;.<br>
     type: int <br>
+
+* **stop**
+stops server, equal to [listen 0( message<br>
 
 
 

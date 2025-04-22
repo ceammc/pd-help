@@ -73,23 +73,87 @@ stores specified preset<br>
 
 ## properties:
 
-* **@bind_up** 
-Get/set MIDI/keyboard bind expression for up action<br>
+* **@arrow_color** 
+Get/set arrow color (list of red, green, blue values in 0-1 range)<br>
 _type:_ list<br>
+_default:_ 0.6 0.6 0.6 1<br>
+
+* **@background_color** 
+Get/set element background color (list of red, green, blue values in 0-1 range)<br>
+_type:_ list<br>
+_default:_ 0.93 0.93 0.93 1<br>
 
 * **@bind_down** 
 Get/set MIDI/keyboard bind expression for down action<br>
 _type:_ list<br>
+
+* **@bind_up** 
+Get/set MIDI/keyboard bind expression for up action<br>
+_type:_ list<br>
+
+* **@border_color** 
+Get/set border color (list of red, green, blue values in 0-1 range)<br>
+_type:_ list<br>
+_default:_ 0.6 0.6 0.6 1<br>
+
+* **@fontname** 
+Get/set fontname<br>
+_type:_ symbol<br>
+_enum:_ Courier, DejaVu, Helvetica, Monaco, Times<br>
+_default:_ Helvetica<br>
+
+* **@fontsize** 
+Get/set fontsize<br>
+_type:_ int<br>
+_range:_ 4..100<br>
+_default:_ 11<br>
+
+* **@fontslant** 
+Get/set font slant<br>
+_type:_ symbol<br>
+_enum:_ roman, italic<br>
+_default:_ roman<br>
+
+* **@fontweight** 
+Get/set font weight<br>
+_type:_ symbol<br>
+_enum:_ normal, bold<br>
+_default:_ normal<br>
+
+* **@max** 
+Get/set maximum inc value<br>
+_type:_ float<br>
+_default:_ 8192<br>
 
 * **@min** 
 Get/set minimum inc value<br>
 _type:_ float<br>
 _default:_ -8192<br>
 
-* **@max** 
-Get/set maximum inc value<br>
-_type:_ float<br>
-_default:_ 8192<br>
+* **@pinned** 
+Get/set pin mode. if 1 - put element to the lowest level<br>
+_type:_ bool<br>
+_default:_ 0<br>
+
+* **@presetname** 
+Get/set preset name for using with [ui.preset]<br>
+_type:_ symbol<br>
+_default:_ (null)<br>
+
+* **@receive** 
+Get/set receive source<br>
+_type:_ symbol<br>
+_default:_ (null)<br>
+
+* **@send** 
+Get/set send destination<br>
+_type:_ symbol<br>
+_default:_ (null)<br>
+
+* **@size** 
+Get/set element size (width, height pair)<br>
+_type:_ list<br>
+_default:_ 15 20<br>
 
 * **@step** 
 Get/set increment step<br>
@@ -101,70 +165,6 @@ _default:_ 1<br>
 Get/set current widget value<br>
 _type:_ float<br>
 _default:_ 0<br>
-
-* **@presetname** 
-Get/set preset name for using with [ui.preset]<br>
-_type:_ symbol<br>
-_default:_ (null)<br>
-
-* **@send** 
-Get/set send destination<br>
-_type:_ symbol<br>
-_default:_ (null)<br>
-
-* **@receive** 
-Get/set receive source<br>
-_type:_ symbol<br>
-_default:_ (null)<br>
-
-* **@size** 
-Get/set element size (width, height pair)<br>
-_type:_ list<br>
-_default:_ 15 20<br>
-
-* **@pinned** 
-Get/set pin mode. if 1 - put element to the lowest level<br>
-_type:_ bool<br>
-_default:_ 0<br>
-
-* **@arrow_color** 
-Get/set arrow color (list of red, green, blue values in 0-1 range)<br>
-_type:_ list<br>
-_default:_ 0.6 0.6 0.6 1<br>
-
-* **@background_color** 
-Get/set element background color (list of red, green, blue values in 0-1 range)<br>
-_type:_ list<br>
-_default:_ 0.93 0.93 0.93 1<br>
-
-* **@border_color** 
-Get/set border color (list of red, green, blue values in 0-1 range)<br>
-_type:_ list<br>
-_default:_ 0.6 0.6 0.6 1<br>
-
-* **@fontsize** 
-Get/set fontsize<br>
-_type:_ int<br>
-_range:_ 4..100<br>
-_default:_ 11<br>
-
-* **@fontname** 
-Get/set fontname<br>
-_type:_ symbol<br>
-_enum:_ Courier, DejaVu, Helvetica, Monaco, Times<br>
-_default:_ Helvetica<br>
-
-* **@fontweight** 
-Get/set font weight<br>
-_type:_ symbol<br>
-_enum:_ normal, bold<br>
-_default:_ normal<br>
-
-* **@fontslant** 
-Get/set font slant<br>
-_type:_ symbol<br>
-_enum:_ roman, italic<br>
-_default:_ roman<br>
 
 
 

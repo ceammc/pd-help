@@ -28,13 +28,13 @@ _type:_ list<br>
 
 ## properties:
 
-* **@t** 
-Get/set timeset (&gt;0)<br>
+* **@calc_w** (readonly)
+Get normalized list of probabilities<br>
 _type:_ list<br>
-_units:_ ms<br>
+_default:_ 1<br>
 
-* **@w** 
-Get/set weight list, float or percent values<br>
+* **@init** (initonly)
+Get/set intermixed list of time and weights values<br>
 _type:_ list<br>
 
 * **@seed** 
@@ -43,14 +43,14 @@ _type:_ int<br>
 _min value:_ 0<br>
 _default:_ 0<br>
 
-* **@init** (initonly)
-Get/set intermixed list of time and weights values<br>
+* **@t** 
+Get/set timeset (&gt;0)<br>
 _type:_ list<br>
+_units:_ ms<br>
 
-* **@calc_w** (readonly)
-Get normalized list of probabilities<br>
+* **@w** 
+Get/set weight list, float or percent values<br>
 _type:_ list<br>
-_default:_ 1<br>
 
 
 

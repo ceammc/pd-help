@@ -45,26 +45,6 @@ stops audio processing<br>
 
 ## properties:
 
-* **@send** 
-Get/set send destination<br>
-_type:_ symbol<br>
-_default:_ (null)<br>
-
-* **@receive** 
-Get/set receive source<br>
-_type:_ symbol<br>
-_default:_ (null)<br>
-
-* **@size** 
-Get/set element size (width, height pair)<br>
-_type:_ list<br>
-_default:_ 30 30<br>
-
-* **@pinned** 
-Get/set pin mode. if 1 - put element to the lowest level<br>
-_type:_ bool<br>
-_default:_ 0<br>
-
 * **@active_color** 
 Get/set element active color (list of red, green, blue values in 0-1 range)<br>
 _type:_ list<br>
@@ -80,17 +60,23 @@ Get/set border color (list of red, green, blue values in 0-1 range)<br>
 _type:_ list<br>
 _default:_ 0.6 0.6 0.6 1<br>
 
+* **@fontname** 
+Get/set fontname<br>
+_type:_ symbol<br>
+_enum:_ Courier, DejaVu, Helvetica, Monaco, Times<br>
+_default:_ Helvetica<br>
+
 * **@fontsize** 
 Get/set fontsize<br>
 _type:_ int<br>
 _range:_ 4..100<br>
 _default:_ 11<br>
 
-* **@fontname** 
-Get/set fontname<br>
+* **@fontslant** 
+Get/set font slant<br>
 _type:_ symbol<br>
-_enum:_ Courier, DejaVu, Helvetica, Monaco, Times<br>
-_default:_ Helvetica<br>
+_enum:_ roman, italic<br>
+_default:_ roman<br>
 
 * **@fontweight** 
 Get/set font weight<br>
@@ -98,11 +84,25 @@ _type:_ symbol<br>
 _enum:_ normal, bold<br>
 _default:_ normal<br>
 
-* **@fontslant** 
-Get/set font slant<br>
+* **@pinned** 
+Get/set pin mode. if 1 - put element to the lowest level<br>
+_type:_ bool<br>
+_default:_ 0<br>
+
+* **@receive** 
+Get/set receive source<br>
 _type:_ symbol<br>
-_enum:_ roman, italic<br>
-_default:_ roman<br>
+_default:_ (null)<br>
+
+* **@send** 
+Get/set send destination<br>
+_type:_ symbol<br>
+_default:_ (null)<br>
+
+* **@size** 
+Get/set element size (width, height pair)<br>
+_type:_ list<br>
+_default:_ 30 30<br>
 
 
 

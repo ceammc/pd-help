@@ -39,11 +39,20 @@ reset synth<br>
 
 ## properties:
 
-* **@pitch** 
-Get/set midi pitch<br>
-_type:_ float<br>
-_range:_ 12..96<br>
-_default:_ 48<br>
+* **@osc** (initonly)
+Get/set OSC server name to listen<br>
+_type:_ symbol<br>
+
+* **@id** (initonly)
+Get/set OSC address id. If specified, bind all properties to
+/ID/synth_harpsichord/PROP_NAME osc address, if empty bind to
+/synth_harpsichord/PROP_NAME.<br>
+_type:_ symbol<br>
+
+* **@active** 
+Get/set on/off dsp processing<br>
+_type:_ bool<br>
+_default:_ 1<br>
 
 * **@freq** 
 Get/set frequency<br>
@@ -51,17 +60,18 @@ _type:_ float<br>
 _units:_ Hz<br>
 _default:_ 130.8128<br>
 
-* **@room_size** 
-Get/set reverb room size<br>
-_type:_ float<br>
-_range:_ 0.005..1<br>
-_default:_ 0.36<br>
-
-* **@nonlin** 
-Get/set nonlinearity factor<br>
+* **@gate** 
+Get/set play trigger - 1: on, 0: off<br>
 _type:_ float<br>
 _range:_ 0..1<br>
 _default:_ 0<br>
+
+* **@modfreq** 
+Get/set frequency of the sine wave for the modulation of theta (works if @modetype=3)<br>
+_type:_ float<br>
+_units:_ Hz<br>
+_range:_ 20..1000<br>
+_default:_ 220<br>
 
 * **@modtype** 
 Get/set modulation type. 0=theta is modulated by the incoming signal. 1=theta is
@@ -72,24 +82,11 @@ _type:_ int<br>
 _range:_ 0..4<br>
 _default:_ 0<br>
 
-* **@modfreq** 
-Get/set frequency of the sine wave for the modulation of theta (works if @modetype=3)<br>
-_type:_ float<br>
-_units:_ Hz<br>
-_range:_ 20..1000<br>
-_default:_ 220<br>
-
-* **@reverb_gain** 
-Get/set reverb gain<br>
+* **@nonlin** 
+Get/set nonlinearity factor<br>
 _type:_ float<br>
 _range:_ 0..1<br>
-_default:_ 0.137<br>
-
-* **@width** 
-Get/set spatialization width<br>
-_type:_ float<br>
-_range:_ 0..1<br>
-_default:_ 0.5<br>
+_default:_ 0<br>
 
 * **@pan** 
 Get/set pan angle<br>
@@ -97,26 +94,29 @@ _type:_ float<br>
 _range:_ 0..1<br>
 _default:_ 0.6<br>
 
-* **@gate** 
-Get/set play trigger - 1: on, 0: off<br>
+* **@pitch** 
+Get/set midi pitch<br>
+_type:_ float<br>
+_range:_ 12..96<br>
+_default:_ 48<br>
+
+* **@reverb_gain** 
+Get/set reverb gain<br>
 _type:_ float<br>
 _range:_ 0..1<br>
-_default:_ 0<br>
+_default:_ 0.137<br>
 
-* **@active** 
-Get/set on/off dsp processing<br>
-_type:_ bool<br>
-_default:_ 1<br>
+* **@room_size** 
+Get/set reverb room size<br>
+_type:_ float<br>
+_range:_ 0.005..1<br>
+_default:_ 0.36<br>
 
-* **@osc** (initonly)
-Get/set OSC server name to listen<br>
-_type:_ symbol<br>
-
-* **@id** (initonly)
-Get/set OSC address id. If specified, bind all properties to
-/ID/synth_harpsichord/PROP_NAME osc address, if empty bind to
-/synth_harpsichord/PROP_NAME.<br>
-_type:_ symbol<br>
+* **@width** 
+Get/set spatialization width<br>
+_type:_ float<br>
+_range:_ 0..1<br>
+_default:_ 0.5<br>
 
 
 

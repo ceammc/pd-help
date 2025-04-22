@@ -48,20 +48,29 @@ set UI element position<br>
 
 ## properties:
 
-* **@url** 
-Get/set destination url<br>
+* **@fontname** 
+Get/set fontname<br>
 _type:_ symbol<br>
-_default:_ &lt;no url&gt;<br>
+_enum:_ Courier, DejaVu, Helvetica, Monaco, Times<br>
+_default:_ Helvetica<br>
 
-* **@title** 
-Get/set link title<br>
+* **@fontsize** 
+Get/set fontsize<br>
+_type:_ int<br>
+_range:_ 4..100<br>
+_default:_ 11<br>
+
+* **@fontslant** 
+Get/set font slant<br>
 _type:_ symbol<br>
-_default:_ &lt;no title&gt;<br>
+_enum:_ roman, italic<br>
+_default:_ roman<br>
 
-* **@pinned** 
-Get/set pin mode. if 1 - put element to the lowest level<br>
-_type:_ bool<br>
-_default:_ 0<br>
+* **@fontweight** 
+Get/set font weight<br>
+_type:_ symbol<br>
+_enum:_ normal, bold<br>
+_default:_ normal<br>
 
 * **@hover_color** 
 Get/set color when mouse pointer is over element (list of red, green, blue values in
@@ -74,29 +83,20 @@ Get/set link color (list of red, green, blue values in 0-1 range)<br>
 _type:_ list<br>
 _default:_ 0 0.625 0.75 1<br>
 
-* **@fontsize** 
-Get/set fontsize<br>
-_type:_ int<br>
-_range:_ 4..100<br>
-_default:_ 11<br>
+* **@pinned** 
+Get/set pin mode. if 1 - put element to the lowest level<br>
+_type:_ bool<br>
+_default:_ 0<br>
 
-* **@fontname** 
-Get/set fontname<br>
+* **@title** 
+Get/set link title<br>
 _type:_ symbol<br>
-_enum:_ Courier, DejaVu, Helvetica, Monaco, Times<br>
-_default:_ Helvetica<br>
+_default:_ &lt;no title&gt;<br>
 
-* **@fontweight** 
-Get/set font weight<br>
+* **@url** 
+Get/set destination url<br>
 _type:_ symbol<br>
-_enum:_ normal, bold<br>
-_default:_ normal<br>
-
-* **@fontslant** 
-Get/set font slant<br>
-_type:_ symbol<br>
-_enum:_ roman, italic<br>
-_default:_ roman<br>
+_default:_ &lt;no url&gt;<br>
 
 
 

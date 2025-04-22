@@ -26,26 +26,12 @@
 Get/set current color<br>
 _type:_ atom<br>
 
-* **@mode** 
-Get/set output mode<br>
-_type:_ symbol<br>
-_enum:_ float, int, hex, data<br>
-_default:_ float<br>
+* **@d** 
+Get/set alias for @mode data. Output value Color datatype.<br>
+_type:_ alias<br>
 
 * **@f** 
 Get/set alias for @mode float. Output values as RGB list in 0-1 range.<br>
-_type:_ alias<br>
-
-* **@i** 
-Get/set alias for @mode int. Output values as RGB list in 0-255 range.<br>
-_type:_ alias<br>
-
-* **@h** 
-Get/set alias for @mode hex. Output value as #RRGGBB symbol.<br>
-_type:_ alias<br>
-
-* **@d** 
-Get/set alias for @mode data. Output value Color datatype.<br>
 _type:_ alias<br>
 
 * **@float** 
@@ -53,15 +39,29 @@ Get/set RGB color value in float range (0-1)<br>
 _type:_ list<br>
 _default:_ 1 1 1<br>
 
-* **@int** 
-Get/set RGB color value in int range (0-255)<br>
-_type:_ list<br>
-_default:_ 255 255 255<br>
+* **@h** 
+Get/set alias for @mode hex. Output value as #RRGGBB symbol.<br>
+_type:_ alias<br>
 
 * **@hex** 
 Get/set color value as #RRGGBB symbol<br>
 _type:_ symbol<br>
 _default:_ #FFFFFF<br>
+
+* **@i** 
+Get/set alias for @mode int. Output values as RGB list in 0-255 range.<br>
+_type:_ alias<br>
+
+* **@int** 
+Get/set RGB color value in int range (0-255)<br>
+_type:_ list<br>
+_default:_ 255 255 255<br>
+
+* **@mode** 
+Get/set output mode<br>
+_type:_ symbol<br>
+_enum:_ float, int, hex, data<br>
+_default:_ float<br>
 
 
 

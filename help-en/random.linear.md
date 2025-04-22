@@ -24,16 +24,6 @@ Generates random number in interval [@v0, @v1) with linear distribution [@p0, @p
 
 ## properties:
 
-* **@v0** 
-Get/set begin of value interval<br>
-_type:_ float<br>
-_default:_ 0<br>
-
-* **@v1** 
-Get/set end of value interval<br>
-_type:_ float<br>
-_default:_ 1<br>
-
 * **@p0** 
 Get/set probability at begin<br>
 _type:_ float<br>
@@ -49,6 +39,16 @@ Get/set generator seed<br>
 _type:_ int<br>
 _min value:_ 0<br>
 _default:_ 0<br>
+
+* **@v0** 
+Get/set begin of value interval<br>
+_type:_ float<br>
+_default:_ 0<br>
+
+* **@v1** 
+Get/set end of value interval<br>
+_type:_ float<br>
+_default:_ 1<br>
 
 
 

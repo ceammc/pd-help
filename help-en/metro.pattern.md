@@ -28,15 +28,15 @@ _type:_ list<br>
 
 ## properties:
 
-* **@pattern** 
-Get/set time intervals (in ms) performed in a loop<br>
-_type:_ list<br>
-
 * **@current** 
 Get/set current pattern index<br>
 _type:_ int<br>
 _min value:_ 0<br>
 _default:_ 0<br>
+
+* **@pattern** 
+Get/set time intervals (in ms) performed in a loop<br>
+_type:_ list<br>
 
 * **@sync** 
 Get/set sync mode - change pattern after full cycle<br>

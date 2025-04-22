@@ -49,12 +49,6 @@ note on/off message<br>
 
 ## properties:
 
-* **@pitch** 
-Get/set midi pitch<br>
-_type:_ float<br>
-_range:_ 36..84<br>
-_default:_ 57<br>
-
 * **@freq** 
 Get/set maximum speed of whistles<br>
 _type:_ float<br>
@@ -67,6 +61,12 @@ Get/set synth gate (&gt;0 - play)<br>
 _type:_ float<br>
 _range:_ 0..1<br>
 _default:_ 0<br>
+
+* **@pitch** 
+Get/set midi pitch<br>
+_type:_ float<br>
+_range:_ 36..84<br>
+_default:_ 57<br>
 
 
 

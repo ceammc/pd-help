@@ -33,16 +33,16 @@ _units:_ ms<br>
 
 ## properties:
 
+* **@cue** (readonly)
+Get related cue<br>
+_type:_ symbol<br>
+
 * **@delay** 
 Get/set bang delay after cue activation<br>
 _type:_ float<br>
 _units:_ ms<br>
 _min value:_ 0<br>
 _default:_ 0<br>
-
-* **@cue** (readonly)
-Get related cue<br>
-_type:_ symbol<br>
 
 
 

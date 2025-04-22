@@ -97,6 +97,9 @@ output all columns as separate messages [col N V0 V1...(<br>
 * **get list**
 output all cell values as list, row by raw. [0 1 1 1 0...(<br>
 
+* **get matrix**
+output as matrix [matrix NROWS NCOLS DATA...(<br>
+
 * **get row N**
 outputs row cells as message [row N V0 V1...(<br>
   __parameters:__
@@ -106,9 +109,6 @@ outputs row cells as message [row N V0 V1...(<br>
 
 * **get rows**
 output all rows as separate messages [row N V0 V1...(<br>
-
-* **get matrix**
-output as matrix [matrix NROWS NCOLS DATA...(<br>
 
 * **interp**
 for this object acts as *load*, no interpolation performed<br>
@@ -161,17 +161,6 @@ set matrix data without output<br>
     type: list <br>
     required: True <br>
 
-* **set row N ...**
-set specified row without output<br>
-  __parameters:__
-  - **N** row index<br>
-    type: int <br>
-    required: True <br>
-
-  - **...** cell values (1 - checked, 0 - unchecked)<br>
-    type: list <br>
-    required: True <br>
-
 * **set matrix R C ...**
 set matrix without output<br>
   __parameters:__
@@ -180,6 +169,17 @@ set matrix without output<br>
     required: True <br>
 
   - **C** number of columns in matrix<br>
+    type: int <br>
+    required: True <br>
+
+  - **...** cell values (1 - checked, 0 - unchecked)<br>
+    type: list <br>
+    required: True <br>
+
+* **set row N ...**
+set specified row without output<br>
+  __parameters:__
+  - **N** row index<br>
     type: int <br>
     required: True <br>
 
@@ -205,64 +205,10 @@ stores specified preset<br>
 
 ## properties:
 
-* **@rows** 
-Get/set number of matrix rows<br>
-_type:_ int<br>
-_range:_ 1..64<br>
-_default:_ 4<br>
-
-* **@cols** 
-Get/set number of matrix columns<br>
-_type:_ int<br>
-_range:_ 1..64<br>
-_default:_ 8<br>
-
-* **@current_row** 
-Get/set current row index. -1 if not specified. This property is not saved in patch<br>
-_type:_ int<br>
-_min value:_ -1<br>
-_default:_ -1<br>
-
-* **@current_col** 
-Get/set current column index. -1 if not specified. This property is not saved in patch<br>
-_type:_ int<br>
-_min value:_ -1<br>
-_default:_ -1<br>
-
-* **@presetname** 
-Get/set preset name for using with [ui.preset]<br>
-_type:_ symbol<br>
-_default:_ (null)<br>
-
-* **@send** 
-Get/set send destination<br>
-_type:_ symbol<br>
-_default:_ (null)<br>
-
-* **@receive** 
-Get/set receive source<br>
-_type:_ symbol<br>
-_default:_ (null)<br>
-
-* **@size** 
-Get/set element size (width, height pair)<br>
-_type:_ list<br>
-_default:_ 105 53<br>
-
-* **@pinned** 
-Get/set pin mode. if 1 - put element to the lowest level<br>
-_type:_ bool<br>
-_default:_ 0<br>
-
 * **@active_color** 
 Get/set active color (list of red, green, blue values in 0-1 range)<br>
 _type:_ list<br>
 _default:_ 0 0.75 1 1<br>
-
-* **@current_color** 
-Get/set current col/row color (list of red, green, blue values in 0-1 range)<br>
-_type:_ list<br>
-_default:_ 1 0.75 0 1<br>
 
 * **@background_color** 
 Get/set element background color (list of red, green, blue values in 0-1 range)<br>
@@ -274,11 +220,28 @@ Get/set border color (list of red, green, blue values in 0-1 range)<br>
 _type:_ list<br>
 _default:_ 0.6 0.6 0.6 1<br>
 
-* **@fontsize** 
-Get/set fontsize<br>
+* **@cols** 
+Get/set number of matrix columns<br>
 _type:_ int<br>
-_range:_ 4..100<br>
-_default:_ 11<br>
+_range:_ 1..64<br>
+_default:_ 8<br>
+
+* **@current_col** 
+Get/set current column index. -1 if not specified. This property is not saved in patch<br>
+_type:_ int<br>
+_min value:_ -1<br>
+_default:_ -1<br>
+
+* **@current_color** 
+Get/set current col/row color (list of red, green, blue values in 0-1 range)<br>
+_type:_ list<br>
+_default:_ 1 0.75 0 1<br>
+
+* **@current_row** 
+Get/set current row index. -1 if not specified. This property is not saved in patch<br>
+_type:_ int<br>
+_min value:_ -1<br>
+_default:_ -1<br>
 
 * **@fontname** 
 Get/set fontname<br>
@@ -286,17 +249,54 @@ _type:_ symbol<br>
 _enum:_ Courier, DejaVu, Helvetica, Monaco, Times<br>
 _default:_ Helvetica<br>
 
-* **@fontweight** 
-Get/set font weight<br>
-_type:_ symbol<br>
-_enum:_ normal, bold<br>
-_default:_ normal<br>
+* **@fontsize** 
+Get/set fontsize<br>
+_type:_ int<br>
+_range:_ 4..100<br>
+_default:_ 11<br>
 
 * **@fontslant** 
 Get/set font slant<br>
 _type:_ symbol<br>
 _enum:_ roman, italic<br>
 _default:_ roman<br>
+
+* **@fontweight** 
+Get/set font weight<br>
+_type:_ symbol<br>
+_enum:_ normal, bold<br>
+_default:_ normal<br>
+
+* **@pinned** 
+Get/set pin mode. if 1 - put element to the lowest level<br>
+_type:_ bool<br>
+_default:_ 0<br>
+
+* **@presetname** 
+Get/set preset name for using with [ui.preset]<br>
+_type:_ symbol<br>
+_default:_ (null)<br>
+
+* **@receive** 
+Get/set receive source<br>
+_type:_ symbol<br>
+_default:_ (null)<br>
+
+* **@rows** 
+Get/set number of matrix rows<br>
+_type:_ int<br>
+_range:_ 1..64<br>
+_default:_ 4<br>
+
+* **@send** 
+Get/set send destination<br>
+_type:_ symbol<br>
+_default:_ (null)<br>
+
+* **@size** 
+Get/set element size (width, height pair)<br>
+_type:_ list<br>
+_default:_ 105 53<br>
 
 
 

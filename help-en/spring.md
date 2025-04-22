@@ -35,18 +35,6 @@ _units:_ ms<br>
 
 ## properties:
 
-* **@value** 
-Get/set target value<br>
-_type:_ float<br>
-_default:_ 0<br>
-
-* **@time** 
-Get/set time to reach target value<br>
-_type:_ float<br>
-_units:_ ms<br>
-_range:_ 50..5000<br>
-_default:_ 500<br>
-
 * **@accel** 
 Get/set acceleration factor, 0: means linear motion (no acceleration), &gt;0: begin fast,
 then slow down, &lt;0: begin slow, then speed up<br>
@@ -59,7 +47,7 @@ Get/set internal state<br>
 _type:_ bool<br>
 _default:_ 0<br>
 
-* **@mouse_up** 
+* **@mouse_drag** 
 Get/set internal state<br>
 _type:_ bool<br>
 _default:_ 0<br>
@@ -69,9 +57,21 @@ Get/set internal state<br>
 _type:_ bool<br>
 _default:_ 0<br>
 
-* **@mouse_drag** 
+* **@mouse_up** 
 Get/set internal state<br>
 _type:_ bool<br>
+_default:_ 0<br>
+
+* **@time** 
+Get/set time to reach target value<br>
+_type:_ float<br>
+_units:_ ms<br>
+_range:_ 50..5000<br>
+_default:_ 500<br>
+
+* **@value** 
+Get/set target value<br>
+_type:_ float<br>
 _default:_ 0<br>
 
 

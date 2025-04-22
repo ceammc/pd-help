@@ -49,15 +49,19 @@ stop playing and send All Notes Off event<br>
 
 ## properties:
 
-* **@track** 
-Get/set track number<br>
+* **@current** (readonly)
+Get current event tick index<br>
 _type:_ int<br>
-_min value:_ 0<br>
 _default:_ 0<br>
 
 * **@join** (initonly)
 Get/set join all tracks into one<br>
 _type:_ flag<br>
+_default:_ 0<br>
+
+* **@nevents** (readonly)
+Get number of events in track<br>
+_type:_ int<br>
 _default:_ 0<br>
 
 * **@speed** 
@@ -66,25 +70,21 @@ _type:_ float<br>
 _min value:_ 0.01<br>
 _default:_ 1<br>
 
+* **@state** (readonly)
+Get current state. 0: stopped, 1: playing, 2: paused<br>
+_type:_ int<br>
+_enum:_ 0, 1, 2<br>
+_default:_ 0<br>
+
 * **@tempo** (readonly)
 Get current tempo in TPQ<br>
 _type:_ int<br>
 _default:_ 120<br>
 
-* **@current** (readonly)
-Get current event tick index<br>
+* **@track** 
+Get/set track number<br>
 _type:_ int<br>
-_default:_ 0<br>
-
-* **@nevents** (readonly)
-Get number of events in track<br>
-_type:_ int<br>
-_default:_ 0<br>
-
-* **@state** (readonly)
-Get current state. 0: stopped, 1: playing, 2: paused<br>
-_type:_ int<br>
-_enum:_ 0, 1, 2<br>
+_min value:_ 0<br>
 _default:_ 0<br>
 
 

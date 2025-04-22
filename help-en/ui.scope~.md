@@ -48,44 +48,6 @@ sets widget scale<br>
 
 ## properties:
 
-* **@max** 
-Get/set maximum (top) graph value<br>
-_type:_ float<br>
-_default:_ 1<br>
-
-* **@min** 
-Get/set minimum (bottom) graph value<br>
-_type:_ float<br>
-_default:_ -1<br>
-
-* **@window** 
-Get/set window size<br>
-_type:_ int<br>
-_range:_ 512..4096<br>
-_default:_ 2048<br>
-
-* **@refresh** 
-Get/set approximate refresh rate<br>
-_type:_ int<br>
-_units:_ ms<br>
-_range:_ 10..1000<br>
-_default:_ 40<br>
-
-* **@receive** 
-Get/set receive source<br>
-_type:_ symbol<br>
-_default:_ (null)<br>
-
-* **@size** 
-Get/set element size (width, height pair)<br>
-_type:_ list<br>
-_default:_ 150 100<br>
-
-* **@pinned** 
-Get/set pin mode. if 1 - put element to the lowest level<br>
-_type:_ bool<br>
-_default:_ 0<br>
-
 * **@active_color** 
 Get/set active color (list of red, green, blue values in 0-1 range)<br>
 _type:_ list<br>
@@ -101,17 +63,23 @@ Get/set border color (list of red, green, blue values in 0-1 range)<br>
 _type:_ list<br>
 _default:_ 0.6 0.6 0.6 1<br>
 
+* **@fontname** 
+Get/set fontname<br>
+_type:_ symbol<br>
+_enum:_ Courier, DejaVu, Helvetica, Monaco, Times<br>
+_default:_ Helvetica<br>
+
 * **@fontsize** 
 Get/set fontsize<br>
 _type:_ int<br>
 _range:_ 4..100<br>
 _default:_ 11<br>
 
-* **@fontname** 
-Get/set fontname<br>
+* **@fontslant** 
+Get/set font slant<br>
 _type:_ symbol<br>
-_enum:_ Courier, DejaVu, Helvetica, Monaco, Times<br>
-_default:_ Helvetica<br>
+_enum:_ roman, italic<br>
+_default:_ roman<br>
 
 * **@fontweight** 
 Get/set font weight<br>
@@ -119,11 +87,43 @@ _type:_ symbol<br>
 _enum:_ normal, bold<br>
 _default:_ normal<br>
 
-* **@fontslant** 
-Get/set font slant<br>
+* **@max** 
+Get/set maximum (top) graph value<br>
+_type:_ float<br>
+_default:_ 1<br>
+
+* **@min** 
+Get/set minimum (bottom) graph value<br>
+_type:_ float<br>
+_default:_ -1<br>
+
+* **@pinned** 
+Get/set pin mode. if 1 - put element to the lowest level<br>
+_type:_ bool<br>
+_default:_ 0<br>
+
+* **@receive** 
+Get/set receive source<br>
 _type:_ symbol<br>
-_enum:_ roman, italic<br>
-_default:_ roman<br>
+_default:_ (null)<br>
+
+* **@refresh** 
+Get/set approximate refresh rate<br>
+_type:_ int<br>
+_units:_ ms<br>
+_range:_ 10..1000<br>
+_default:_ 40<br>
+
+* **@size** 
+Get/set element size (width, height pair)<br>
+_type:_ list<br>
+_default:_ 150 100<br>
+
+* **@window** 
+Get/set window size<br>
+_type:_ int<br>
+_range:_ 512..4096<br>
+_default:_ 2048<br>
 
 
 

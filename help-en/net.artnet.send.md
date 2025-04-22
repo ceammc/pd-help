@@ -68,27 +68,15 @@ send poll request, dump response to Pd window<br>
 
 ## properties:
 
-* **@universe** 
-Get/set ArtNet universe<br>
-_type:_ int<br>
-_range:_ 0..15<br>
-_default:_ 0<br>
-
-* **@subnet** 
-Get/set ArtNet subnet<br>
-_type:_ int<br>
-_range:_ 0..15<br>
-_default:_ 0<br>
+* **@ip** (initonly)
+Get/set bind interface IP address. If empty - use first available interface.<br>
+_type:_ symbol<br>
 
 * **@offset** 
 Get/set DMX channel offset<br>
 _type:_ int<br>
 _range:_ 0..511<br>
 _default:_ 0<br>
-
-* **@ip** (initonly)
-Get/set bind interface IP address. If empty - use first available interface.<br>
-_type:_ symbol<br>
 
 * **@rate** 
 Get/set send framerate<br>
@@ -97,10 +85,22 @@ _units:_ Hz<br>
 _range:_ 1..100<br>
 _default:_ 44<br>
 
+* **@subnet** 
+Get/set ArtNet subnet<br>
+_type:_ int<br>
+_range:_ 0..15<br>
+_default:_ 0<br>
+
 * **@sync** 
 Get/set send mode. If true: send frame only when bang is received, otherwise send
 frames with @rate speed with internal clock<br>
 _type:_ bool<br>
+_default:_ 0<br>
+
+* **@universe** 
+Get/set ArtNet universe<br>
+_type:_ int<br>
+_range:_ 0..15<br>
 _default:_ 0<br>
 
 

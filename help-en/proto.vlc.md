@@ -105,15 +105,15 @@ Get/set hostname on that VLC player is running on<br>
 _type:_ symbol<br>
 _default:_ localhost<br>
 
+* **@pass** 
+Get/set VLC http password<br>
+_type:_ atom<br>
+
 * **@port** 
 Get/set hostname on that VLC player is running on<br>
 _type:_ int<br>
 _range:_ 1..32768<br>
 _default:_ 8080<br>
-
-* **@pass** 
-Get/set VLC http password<br>
-_type:_ atom<br>
 
 
 

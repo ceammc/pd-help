@@ -24,12 +24,6 @@ In computing, NaN, standing for not a number, is a numeric data type value repre
 
 ## properties:
 
-* **@type** 
-Get/set type of outputed NaN: quiet or signal<br>
-_type:_ symbol<br>
-_enum:_ quiet, signal<br>
-_default:_ quiet<br>
-
 * **@quiet** 
 Get/set alias to @type quiet<br>
 _type:_ alias<br>
@@ -37,6 +31,12 @@ _type:_ alias<br>
 * **@signal** 
 Get/set alias to @type signal<br>
 _type:_ alias<br>
+
+* **@type** 
+Get/set type of outputed NaN: quiet or signal<br>
+_type:_ symbol<br>
+_enum:_ quiet, signal<br>
+_default:_ quiet<br>
 
 
 

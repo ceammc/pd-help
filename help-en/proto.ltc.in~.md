@@ -24,6 +24,11 @@
 
 ## properties:
 
+* **@fps** (readonly)
+Get current fpt rate<br>
+_type:_ int<br>
+_default:_ 25<br>
+
 * **@use_date** 
 Get/set decode date<br>
 _type:_ bool<br>
@@ -35,11 +40,6 @@ _type:_ float<br>
 _units:_ db<br>
 _range:_ -60..0<br>
 _default:_ 0<br>
-
-* **@fps** (readonly)
-Get current fpt rate<br>
-_type:_ int<br>
-_default:_ 25<br>
 
 
 

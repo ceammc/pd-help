@@ -32,6 +32,10 @@ _type:_ list<br>
 
 ## properties:
 
+* **@msg** 
+Get/set message prefix. Change value via [prop.set] object<br>
+_type:_ list<br>
+
 * **@n** (initonly)
 Get/set number of inlets<br>
 _type:_ int<br>
@@ -42,10 +46,6 @@ _default:_ 2<br>
 Get/set sync mode. If true: output value on each inlet value change<br>
 _type:_ bool<br>
 _default:_ 0<br>
-
-* **@msg** 
-Get/set message prefix. Change value via [prop.set] object<br>
-_type:_ list<br>
 
 
 

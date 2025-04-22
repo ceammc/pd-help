@@ -22,6 +22,48 @@ Note: only PX160 model supported at this moment Note: on PX160 instrument change
 
 ## methods:
 
+* **chorus**
+set chorus fx level<br>
+  __parameters:__
+  - **VALUE** level<br>
+    type: float <br>
+    required: True <br>
+
+* **chorus_depth**
+set chorus depth<br>
+  __parameters:__
+  - **DEPTH** depth value<br>
+    type: float <br>
+    required: True <br>
+
+* **chorus_fb**
+set chorus feedback level<br>
+  __parameters:__
+  - **AMOUNT** level<br>
+    type: float <br>
+    required: True <br>
+
+* **chorus_rate**
+set chorus rate<br>
+  __parameters:__
+  - **RATE** rate value<br>
+    type: float <br>
+    required: True <br>
+
+* **chorus_send**
+set chorus send level<br>
+  __parameters:__
+  - **AMOUNT** level<br>
+    type: float <br>
+    required: True <br>
+
+* **chorus_type**
+set chorus type<br>
+  __parameters:__
+  - **TYPE** chorus type. For PX160 - 1: chorus1, 2: chorus2, 3: deep chorus, 4: flanger<br>
+    type: int <br>
+    required: True <br>
+
 * **instr**
 send Note On message<br>
   __parameters:__
@@ -48,48 +90,6 @@ set reverb type<br>
   __parameters:__
   - **TYPE** reverb type. For PX160 - 1: room, 2: default (hall), 3: hall2, 4: stadium<br>
     type: int <br>
-    required: True <br>
-
-* **chorus**
-set chorus fx level<br>
-  __parameters:__
-  - **VALUE** level<br>
-    type: float <br>
-    required: True <br>
-
-* **chorus_type**
-set chorus type<br>
-  __parameters:__
-  - **TYPE** chorus type. For PX160 - 1: chorus1, 2: chorus2, 3: deep chorus, 4: flanger<br>
-    type: int <br>
-    required: True <br>
-
-* **chorus_send**
-set chorus send level<br>
-  __parameters:__
-  - **AMOUNT** level<br>
-    type: float <br>
-    required: True <br>
-
-* **chorus_fb**
-set chorus feedback level<br>
-  __parameters:__
-  - **AMOUNT** level<br>
-    type: float <br>
-    required: True <br>
-
-* **chorus_depth**
-set chorus depth<br>
-  __parameters:__
-  - **DEPTH** depth value<br>
-    type: float <br>
-    required: True <br>
-
-* **chorus_rate**
-set chorus rate<br>
-  __parameters:__
-  - **RATE** rate value<br>
-    type: float <br>
     required: True <br>
 
 

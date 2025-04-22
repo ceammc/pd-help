@@ -3,7 +3,7 @@
 
 # snd.play~
 
-###### Sound file player on steriods
+###### Sound file player on steroids
 
 *available since version:* 0.9.7
 
@@ -25,12 +25,18 @@ number of output channels<br>
 _type:_ int<br>
 
 * **NAME**
-absolute or relative to patch soundfile name<br>
+absolute or relative to patch sound file name<br>
 _type:_ symbol<br>
 
 
 
 ## methods:
+
+* **ff**
+fast forward by specified amount of time<br>
+  __parameters:__
+  - **[TIME]** time amount. Can&#39;t be in seconds, milliseconds, samples, SMPTE. If the time unit is not specified treat float values as samples. If argument is not specified: jump one second forward.<br>
+    type: atom <br>
 
 * **open**
 sets @name property<br>
@@ -39,29 +45,11 @@ sets @name property<br>
     type: symbol <br>
     required: True <br>
 
-* **start**
-start playing<br>
-  __parameters:__
-  - **[FLAG]** start/stop flag. If true or ommited: start, if false: stop.<br>
-    type: bool <br>
-
-* **stop**
-stop playing<br>
-  __parameters:__
-  - **[FLAG]** start/stop flag. If true or ommited: stop, if false: start.<br>
-    type: bool <br>
-
 * **pause**
 pause<br>
   __parameters:__
-  - **[FLAG]** pause/resume flag. If true or ommited: pause, if false: resume.<br>
+  - **[FLAG]** pause/resume flag. If true or omitted: pause, if false: resume.<br>
     type: bool <br>
-
-* **ff**
-fast forward by specified amount of timne<br>
-  __parameters:__
-  - **[TIME]** time amount. Can&#39;t be in seconds, milliseconds, samples, SMPTE. If the time unit is not specified treat float values as samples. If argument is not specified: jump one second forward.<br>
-    type: atom <br>
 
 * **rewind**
 move backwards by specified amount of time (relative value)<br>
@@ -75,20 +63,22 @@ move to specified time (absolute value)<br>
   - **[TIME]** Time position. Can&#39;t be in seconds, milliseconds, samples, SMPTE. If the time unit is not specified treat float values as milliseconds. If arguments is not specified jump: seek to the beginning<br>
     type: atom <br>
 
+* **start**
+start playing<br>
+  __parameters:__
+  - **[FLAG]** start/stop flag. If true or omitted: start, if false: stop.<br>
+    type: bool <br>
+
+* **stop**
+stop playing<br>
+  __parameters:__
+  - **[FLAG]** start/stop flag. If true or omitted: stop, if false: start.<br>
+    type: bool <br>
+
 
 
 
 ## properties:
-
-* **@n** (initonly)
-Get/set number of output channels<br>
-_type:_ int<br>
-_range:_ 1..32<br>
-_default:_ 2<br>
-
-* **@name** 
-Get/set absolute or relative to patch soundfile name<br>
-_type:_ symbol<br>
 
 * **@begin** 
 Get/set start playing position<br>
@@ -107,18 +97,20 @@ Get/set play in the loop<br>
 _type:_ bool<br>
 _default:_ 0<br>
 
-* **@sync** 
-Get/set sync mode. &#39;now&#39;: immidiately starts playing (abort previous) after receving
-start message. &#39;defer&#39;: wait until previous playing will be done, that starts
-new. &#39;wait&#39;: do not playing until previous playing will not finished<br>
-_type:_ symbol<br>
-_enum:_ now, defer, wait<br>
-_default:_ now<br>
+* **@n** (initonly)
+Get/set number of output channels<br>
+_type:_ int<br>
+_range:_ 1..32<br>
+_default:_ 2<br>
 
-* **@stretch** 
-Get/set stretch mode. If true: use timestretch and pitch-shifting<br>
-_type:_ bool<br>
-_default:_ 0<br>
+* **@name** 
+Get/set absolute or relative to patch soundfile name<br>
+_type:_ symbol<br>
+
+* **@on_err** 
+Get/set the error send destination. For example, if soundfile was not found, the
+message [not_found( will be send to this global name<br>
+_type:_ symbol<br>
 
 * **@pitch** 
 Get/set pitch-shift correction. Used only if @stretch mode enabled.<br>
@@ -128,16 +120,25 @@ _default:_ 1<br>
 
 * **@speed** 
 Get/set playing speed. If @stretch mode is disabled (default): changes playing speed
-(also with pitch change respectively) in realtime. If @stretch mode is enabled:
-can only change speed (without pitch change) only on the next playing cycle<br>
+(also with pitch change respectively) in real time. If @stretch mode is
+enabled: can only change speed (without pitch change) only on the next playing
+cycle<br>
 _type:_ float<br>
 _range:_ 0.25..4<br>
 _default:_ 1<br>
 
-* **@on_err** 
-Get/set the error send destination. For example, if soundfile was not found, the
-message [not_found( will be send to this global name<br>
+* **@stretch** 
+Get/set stretch mode. If true: use timestretch and pitch-shifting<br>
+_type:_ bool<br>
+_default:_ 0<br>
+
+* **@sync** 
+Get/set sync mode. &#39;now&#39;: immediately starts playing (abort previous) after receiving
+start message. &#39;defer&#39;: wait until previous playing will be done, that starts
+new. &#39;wait&#39;: do not playing until previous playing will not finished<br>
 _type:_ symbol<br>
+_enum:_ now, defer, wait<br>
+_default:_ now<br>
 
 
 

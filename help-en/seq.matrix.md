@@ -51,26 +51,11 @@ output current sequence element and move to next<br>
 
 ## properties:
 
-* **@t** 
-Get/set time between beats. Unit values like 100ms or 240bpm also can be used<br>
-_type:_ float<br>
-_units:_ ms<br>
-_range:_ 1..20000<br>
-_default:_ 250<br>
-
-* **@r** 
-Get/set number of whole sequence repeats. If -1: repeat infinitely<br>
+* **@div** 
+Get/set beat subdivision<br>
 _type:_ int<br>
-_min value:_ -1<br>
-_default:_ -1<br>
-
-* **@inf** 
-Get/set alias to @r -1, repeats infinitely<br>
-_type:_ alias<br>
-
-* **@once** 
-Get/set alias to @r 1, play once<br>
-_type:_ alias<br>
+_range:_ 1..64<br>
+_default:_ 1<br>
 
 * **@dur** 
 Get/set whole sequence duration. (Recalculates @t property accordingly)<br>
@@ -79,27 +64,14 @@ _units:_ ms<br>
 _min value:_ 0<br>
 _default:_ 4000<br>
 
-* **@div** 
-Get/set beat subdivision<br>
-_type:_ int<br>
-_range:_ 1..64<br>
-_default:_ 1<br>
-
-* **@upbeat** 
-Get/set wait specified number of beats before sequence start<br>
-_type:_ float<br>
-_min value:_ 0<br>
-_default:_ 0<br>
-
 * **@i** (readonly)
 Get current sequence iteration<br>
 _type:_ int<br>
 _default:_ 0<br>
 
-* **@ri** (readonly)
-Get current repeat iteration<br>
-_type:_ int<br>
-_default:_ 0<br>
+* **@inf** 
+Get/set alias to @r -1, repeats infinitely<br>
+_type:_ alias<br>
 
 * **@mode** 
 Get/set sequencer mode. &#39;inc&#39;: from first to last, &#39;dec&#39;: from last to first, &#39;tri&#39;:
@@ -113,6 +85,34 @@ Get/set number of cols in matrix<br>
 _type:_ int<br>
 _min value:_ 0<br>
 _default:_ 16<br>
+
+* **@once** 
+Get/set alias to @r 1, play once<br>
+_type:_ alias<br>
+
+* **@r** 
+Get/set number of whole sequence repeats. If -1: repeat infinitely<br>
+_type:_ int<br>
+_min value:_ -1<br>
+_default:_ -1<br>
+
+* **@ri** (readonly)
+Get current repeat iteration<br>
+_type:_ int<br>
+_default:_ 0<br>
+
+* **@t** 
+Get/set time between beats. Unit values like 100ms or 240bpm also can be used<br>
+_type:_ float<br>
+_units:_ ms<br>
+_range:_ 1..20000<br>
+_default:_ 250<br>
+
+* **@upbeat** 
+Get/set wait specified number of beats before sequence start<br>
+_type:_ float<br>
+_min value:_ 0<br>
+_default:_ 0<br>
 
 
 

@@ -22,6 +22,16 @@
 
 ## methods:
 
+* **close**
+close MQTT connection<br>
+
+* **connect**
+connect to websocket server<br>
+  __parameters:__
+  - **URL** mqtt server url, for ex.: mqtt://127.0.0.1:9000, tcp://user:pass@127.0.0.1:9000, ssl://user:pass@127.0.0.1 etc.<br>
+    type: symbol <br>
+    required: True <br>
+
 * **publish**
 publish message to topic<br>
   __parameters:__
@@ -46,20 +56,15 @@ unsubscribe from topic<br>
     type: symbol <br>
     required: True <br>
 
-* **close**
-close MQTT connection<br>
-
-* **connect**
-connect to websocket server<br>
-  __parameters:__
-  - **URL** mqtt server url, for ex.: mqtt://127.0.0.1:9000, tcp://user:pass@127.0.0.1:9000, ssl://user:pass@127.0.0.1 etc.<br>
-    type: symbol <br>
-    required: True <br>
-
 
 
 
 ## properties:
+
+* **@id** 
+Get/set client id<br>
+_type:_ symbol<br>
+_default:_ pd_mqtt_client_0<br>
 
 * **@mode** 
 Get/set parsing mode for incoming/outcoming messages. If &#39;fudi&#39; - interpret data as Pd
@@ -68,11 +73,6 @@ messages, if &#39;sym&#39; - always interpret as symbols, &#39;data&#39; - parse
 _type:_ symbol<br>
 _enum:_ data, fudi, json, sym, bytes<br>
 _default:_ fudi<br>
-
-* **@id** 
-Get/set client id<br>
-_type:_ symbol<br>
-_default:_ pd_mqtt_client_0<br>
 
 * **@qos** 
 Get/set quality of service<br>

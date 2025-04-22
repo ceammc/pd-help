@@ -40,60 +40,6 @@ set UI element position<br>
 
 ## properties:
 
-* **@interval** 
-Get/set refresh interval<br>
-_type:_ int<br>
-_units:_ ms<br>
-_min value:_ 20<br>
-_default:_ 50<br>
-
-* **@send** 
-Get/set send destination<br>
-_type:_ symbol<br>
-_default:_ (null)<br>
-
-* **@receive** 
-Get/set receive source<br>
-_type:_ symbol<br>
-_default:_ (null)<br>
-
-* **@size** 
-Get/set element size (width, height pair)<br>
-_type:_ list<br>
-_default:_ 15 120<br>
-
-* **@pinned** 
-Get/set pin mode. if 1 - put element to the lowest level<br>
-_type:_ bool<br>
-_default:_ 0<br>
-
-* **@cold_color** 
-Get/set extra low-level signal color &lt;-31db (list of red, green, blue values in 0-1
-range)<br>
-_type:_ list<br>
-_default:_ 0 0.6 0 1<br>
-
-* **@tepid_color** 
-Get/set low-level signal color &lt;-21db (list of red, green, blue values in 0-1 range)<br>
-_type:_ list<br>
-_default:_ 0.6 0.73 0 1<br>
-
-* **@warm_color** 
-Get/set normal level signal color &lt;-9db (list of red, green, blue values in 0-1 range)<br>
-_type:_ list<br>
-_default:_ 0.85 0.85 0 1<br>
-
-* **@hot_color** 
-Get/set loud level signal color &lt;-3db (list of red, green, blue values in 0-1 range)<br>
-_type:_ list<br>
-_default:_ 1 0.6 0 1<br>
-
-* **@over_color** 
-Get/set extra-loud level signal color &gt;-3db (list of red, green, blue values in 0-1
-range)<br>
-_type:_ list<br>
-_default:_ 1 0 0 1<br>
-
 * **@background_color** 
 Get/set element background color (list of red, green, blue values in 0-1 range)<br>
 _type:_ list<br>
@@ -104,11 +50,11 @@ Get/set border color (list of red, green, blue values in 0-1 range)<br>
 _type:_ list<br>
 _default:_ 0.6 0.6 0.6 1<br>
 
-* **@fontsize** 
-Get/set fontsize<br>
-_type:_ int<br>
-_range:_ 4..100<br>
-_default:_ 11<br>
+* **@cold_color** 
+Get/set extra low-level signal color &lt;-31db (list of red, green, blue values in 0-1
+range)<br>
+_type:_ list<br>
+_default:_ 0 0.6 0 1<br>
 
 * **@fontname** 
 Get/set fontname<br>
@@ -116,17 +62,71 @@ _type:_ symbol<br>
 _enum:_ Courier, DejaVu, Helvetica, Monaco, Times<br>
 _default:_ Helvetica<br>
 
-* **@fontweight** 
-Get/set font weight<br>
-_type:_ symbol<br>
-_enum:_ normal, bold<br>
-_default:_ normal<br>
+* **@fontsize** 
+Get/set fontsize<br>
+_type:_ int<br>
+_range:_ 4..100<br>
+_default:_ 11<br>
 
 * **@fontslant** 
 Get/set font slant<br>
 _type:_ symbol<br>
 _enum:_ roman, italic<br>
 _default:_ roman<br>
+
+* **@fontweight** 
+Get/set font weight<br>
+_type:_ symbol<br>
+_enum:_ normal, bold<br>
+_default:_ normal<br>
+
+* **@hot_color** 
+Get/set loud level signal color &lt;-3db (list of red, green, blue values in 0-1 range)<br>
+_type:_ list<br>
+_default:_ 1 0.6 0 1<br>
+
+* **@interval** 
+Get/set refresh interval<br>
+_type:_ int<br>
+_units:_ ms<br>
+_min value:_ 20<br>
+_default:_ 50<br>
+
+* **@over_color** 
+Get/set extra-loud level signal color &gt;-3db (list of red, green, blue values in 0-1
+range)<br>
+_type:_ list<br>
+_default:_ 1 0 0 1<br>
+
+* **@pinned** 
+Get/set pin mode. if 1 - put element to the lowest level<br>
+_type:_ bool<br>
+_default:_ 0<br>
+
+* **@receive** 
+Get/set receive source<br>
+_type:_ symbol<br>
+_default:_ (null)<br>
+
+* **@send** 
+Get/set send destination<br>
+_type:_ symbol<br>
+_default:_ (null)<br>
+
+* **@size** 
+Get/set element size (width, height pair)<br>
+_type:_ list<br>
+_default:_ 15 120<br>
+
+* **@tepid_color** 
+Get/set low-level signal color &lt;-21db (list of red, green, blue values in 0-1 range)<br>
+_type:_ list<br>
+_default:_ 0.6 0.73 0 1<br>
+
+* **@warm_color** 
+Get/set normal level signal color &lt;-9db (list of red, green, blue values in 0-1 range)<br>
+_type:_ list<br>
+_default:_ 0.85 0.85 0 1<br>
 
 
 

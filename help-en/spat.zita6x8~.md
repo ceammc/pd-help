@@ -28,6 +28,15 @@ reset reverb<br>
 
 ## properties:
 
+* **@osc** (initonly)
+Get/set OSC server name to listen<br>
+_type:_ symbol<br>
+
+* **@id** (initonly)
+Get/set OSC address id. If specified, bind all properties to /ID/spat_zita6x8/PROP_NAME
+osc address, if empty bind to /spat_zita6x8/PROP_NAME.<br>
+_type:_ symbol<br>
+
 * **@a0** 
 Get/set 1st source panning position<br>
 _type:_ float<br>
@@ -63,6 +72,53 @@ Get/set 6th source panning position<br>
 _type:_ float<br>
 _range:_ 0..1<br>
 _default:_ 0<br>
+
+* **@active** 
+Get/set on/off dsp processing<br>
+_type:_ bool<br>
+_default:_ 1<br>
+
+* **@dry0** 
+Get/set 1st source direct sound level<br>
+_type:_ float<br>
+_units:_ db<br>
+_range:_ -60..0<br>
+_default:_ -3<br>
+
+* **@dry1** 
+Get/set 2nd source direct sound level<br>
+_type:_ float<br>
+_units:_ db<br>
+_range:_ -60..0<br>
+_default:_ -3<br>
+
+* **@dry2** 
+Get/set 3rd source direct sound level<br>
+_type:_ float<br>
+_units:_ db<br>
+_range:_ -60..0<br>
+_default:_ -3<br>
+
+* **@dry3** 
+Get/set 4th source direct sound level<br>
+_type:_ float<br>
+_units:_ db<br>
+_range:_ -60..0<br>
+_default:_ -3<br>
+
+* **@dry4** 
+Get/set 5th source direct sound level<br>
+_type:_ float<br>
+_units:_ db<br>
+_range:_ -60..0<br>
+_default:_ -3<br>
+
+* **@dry5** 
+Get/set 6th source direct sound level<br>
+_type:_ float<br>
+_units:_ db<br>
+_range:_ -60..0<br>
+_default:_ -3<br>
 
 * **@r0** 
 Get/set 1st source distance from circle center<br>
@@ -142,48 +198,6 @@ _units:_ sec<br>
 _range:_ 0..90<br>
 _default:_ 2<br>
 
-* **@dry0** 
-Get/set 1st source direct sound level<br>
-_type:_ float<br>
-_units:_ db<br>
-_range:_ -60..0<br>
-_default:_ -3<br>
-
-* **@dry1** 
-Get/set 2nd source direct sound level<br>
-_type:_ float<br>
-_units:_ db<br>
-_range:_ -60..0<br>
-_default:_ -3<br>
-
-* **@dry2** 
-Get/set 3rd source direct sound level<br>
-_type:_ float<br>
-_units:_ db<br>
-_range:_ -60..0<br>
-_default:_ -3<br>
-
-* **@dry3** 
-Get/set 4th source direct sound level<br>
-_type:_ float<br>
-_units:_ db<br>
-_range:_ -60..0<br>
-_default:_ -3<br>
-
-* **@dry4** 
-Get/set 5th source direct sound level<br>
-_type:_ float<br>
-_units:_ db<br>
-_range:_ -60..0<br>
-_default:_ -3<br>
-
-* **@dry5** 
-Get/set 6th source direct sound level<br>
-_type:_ float<br>
-_units:_ db<br>
-_range:_ -60..0<br>
-_default:_ -3<br>
-
 * **@wet0** 
 Get/set 1st source reverb sound level<br>
 _type:_ float<br>
@@ -225,20 +239,6 @@ _type:_ float<br>
 _units:_ db<br>
 _range:_ -60..0<br>
 _default:_ -8<br>
-
-* **@active** 
-Get/set on/off dsp processing<br>
-_type:_ bool<br>
-_default:_ 1<br>
-
-* **@osc** (initonly)
-Get/set OSC server name to listen<br>
-_type:_ symbol<br>
-
-* **@id** (initonly)
-Get/set OSC address id. If specified, bind all properties to /ID/spat_zita6x8/PROP_NAME
-osc address, if empty bind to /spat_zita6x8/PROP_NAME.<br>
-_type:_ symbol<br>
 
 
 

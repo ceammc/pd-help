@@ -20,6 +20,19 @@
 
 ## methods:
 
+* **collection current get**
+request current collection<br>
+
+* **collection current set**
+set current collection<br>
+  __parameters:__
+  - **NAME** collection name<br>
+    type: symbol <br>
+    required: True <br>
+
+* **collection list**
+request collection list<br>
+
 * **connect**
 connect to OBS studio. Message [connected 1( is send to output on success,
 [connected 0( - on error.<br>
@@ -34,68 +47,6 @@ disconnect from OBS studio. Message [connected 0( is send to output<br>
 request OBS studio information: OBS version, web-socket version, RPC version
 and list of supported image formats. This info is outputted as messages to
 first outlet.<br>
-
-* **scene list**
-request scene list<br>
-
-* **scene current get**
-request current scene<br>
-
-* **scene current set**
-set current scene<br>
-  __parameters:__
-  - **SCENE** scene name<br>
-    type: symbol <br>
-    required: True <br>
-
-* **scene next**
-change to next scene<br>
-
-* **scene prev**
-change to prev scene<br>
-
-* **scene first**
-change to first scene<br>
-
-* **scene last**
-change to last scene<br>
-
-* **scene create**
-create new scene<br>
-  __parameters:__
-  - **SCENE** scene name<br>
-    type: symbol <br>
-    required: True <br>
-
-* **scene remove**
-remove scene<br>
-  __parameters:__
-  - **SCENE** scene name<br>
-    type: symbol <br>
-    required: True <br>
-
-* **collection list**
-request collection list<br>
-
-* **collection current get**
-request current collection<br>
-
-* **collection current set**
-set current collection<br>
-  __parameters:__
-  - **NAME** collection name<br>
-    type: symbol <br>
-    required: True <br>
-
-* **monitor list**
-request monitor list<br>
-
-* **item list**
-request list of scene items<br>
-  __parameters:__
-  - **SCENE** scene name<br>
-    type: symbol <br>
-    required: True <br>
 
 * **item enable**
 enable/disable scene item<br>
@@ -112,6 +63,13 @@ enable/disable scene item<br>
     type: bool <br>
     required: True <br>
 
+* **item list**
+request list of scene items<br>
+  __parameters:__
+  - **SCENE** scene name<br>
+    type: symbol <br>
+    required: True <br>
+
 * **item remove**
 remove scene item<br>
   __parameters:__
@@ -121,6 +79,48 @@ remove scene item<br>
 
   - **IDX** item pos<br>
     type: int <br>
+    required: True <br>
+
+* **monitor list**
+request monitor list<br>
+
+* **scene create**
+create new scene<br>
+  __parameters:__
+  - **SCENE** scene name<br>
+    type: symbol <br>
+    required: True <br>
+
+* **scene current get**
+request current scene<br>
+
+* **scene current set**
+set current scene<br>
+  __parameters:__
+  - **SCENE** scene name<br>
+    type: symbol <br>
+    required: True <br>
+
+* **scene first**
+change to first scene<br>
+
+* **scene last**
+change to last scene<br>
+
+* **scene list**
+request scene list<br>
+
+* **scene next**
+change to next scene<br>
+
+* **scene prev**
+change to prev scene<br>
+
+* **scene remove**
+remove scene<br>
+  __parameters:__
+  - **SCENE** scene name<br>
+    type: symbol <br>
     required: True <br>
 
 

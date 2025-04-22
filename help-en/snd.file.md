@@ -81,7 +81,7 @@ Save arrays to specified file<br>
   - **[@gain V]** apply gain to saved arrays, examples: +3.1db, -6db, 0.5 etc.<br>
     type: property <br>
 
-  - **[@in_sr SR]** array source samplerate, if ommited using patch samplerate<br>
+  - **[@in_sr SR]** array source samplerate, if omitted using patch samplerate<br>
     type: property <br>
 
   - **[@out_sr SR]** output samplerate<br>
@@ -125,25 +125,21 @@ Save arrays to specified file<br>
 
 ## properties:
 
-* **@formats** (readonly)
-Get list of supported formats<br>
-_type:_ list<br>
-_default:_ AAC AIFF ALAC AU AVR CAF FLAC HTK IFF MACE3:1 MACE6:1 MAT4 MAT5 MP3 MP4 MPC OGG PAF PVF RAW RF64 SD2 SDS SF VOC W64 WAV WAVEX WVE XI<br>
-
-* **@sr** (readonly)
-Get source file samplerate<br>
+* **@channels** (readonly)
+Get list of loaded channels into each array<br>
 _type:_ list<br>
 
 * **@filename** (readonly)
 Get filename<br>
 _type:_ list<br>
 
+* **@formats** (readonly)
+Get list of supported formats<br>
+_type:_ list<br>
+_default:_ AAC AIFF ALAC AU AVR CAF FLAC HTK IFF MACE3:1 MACE6:1 MAT4 MAT5 MP3 MP4 MPC OGG PAF PVF RAW RF64 SD2 SDS SF VOC W64 WAV WAVEX WVE XI<br>
+
 * **@samples** (readonly)
 Get list of number of loaded samples into each array<br>
-_type:_ list<br>
-
-* **@channels** (readonly)
-Get list of loaded channels into each array<br>
 _type:_ list<br>
 
 * **@smpte_fr** 
@@ -151,6 +147,10 @@ Get/set SMPTE framerate for SMPTE offset calculations<br>
 _type:_ float<br>
 _range:_ 1..99<br>
 _default:_ 30<br>
+
+* **@sr** (readonly)
+Get source file samplerate<br>
+_type:_ list<br>
 
 * **@verbose** (initonly)
 Get/set verbose output to Pd window<br>

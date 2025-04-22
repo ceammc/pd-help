@@ -1,4 +1,4 @@
-[index](index.html) :: [synth](category_synth.html)
+[index](index.html) :: [noise](category_noise.html)
 ---
 
 # noise.chua~
@@ -31,17 +31,14 @@ start generator<br>
 
 ## properties:
 
-* **@gate** 
-Get/set play trigger &gt;0: on, 0: off. To set output gain to 0.5 you can 0.5 as trigger
-value<br>
-_type:_ float<br>
-_range:_ 0..1<br>
-_default:_ 0<br>
+* **@osc** (initonly)
+Get/set OSC server name to listen<br>
+_type:_ symbol<br>
 
-* **@active** 
-Get/set on/off dsp processing<br>
-_type:_ bool<br>
-_default:_ 1<br>
+* **@id** (initonly)
+Get/set OSC address id. If specified, bind all properties to /ID/noise_chua/PROP_NAME
+osc address, if empty bind to /noise_chua/PROP_NAME.<br>
+_type:_ symbol<br>
 
 * **@C1** 
 Get/set C1 capacity in nF<br>
@@ -55,26 +52,29 @@ _type:_ float<br>
 _range:_ 40..60<br>
 _default:_ 49.5<br>
 
-* **@R** 
-Get/set R resistance in kOhm<br>
-_type:_ float<br>
-_range:_ 1.252..1.7<br>
-_default:_ 1.6<br>
-
 * **@L** 
 Get/set L in mH<br>
 _type:_ float<br>
 _range:_ 6.5..7.3<br>
 _default:_ 7.07<br>
 
-* **@osc** (initonly)
-Get/set OSC server name to listen<br>
-_type:_ symbol<br>
+* **@R** 
+Get/set R resistance in kOhm<br>
+_type:_ float<br>
+_range:_ 1.252..1.7<br>
+_default:_ 1.6<br>
 
-* **@id** (initonly)
-Get/set OSC address id. If specified, bind all properties to /ID/noise_chua/PROP_NAME
-osc address, if empty bind to /noise_chua/PROP_NAME.<br>
-_type:_ symbol<br>
+* **@active** 
+Get/set on/off dsp processing<br>
+_type:_ bool<br>
+_default:_ 1<br>
+
+* **@gate** 
+Get/set play trigger &gt;0: on, 0: off. To set output gain to 0.5 you can 0.5 as trigger
+value<br>
+_type:_ float<br>
+_range:_ 0..1<br>
+_default:_ 0<br>
 
 
 

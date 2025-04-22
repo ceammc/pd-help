@@ -39,88 +39,39 @@ set UI element position<br>
 
 ## properties:
 
-* **@n** 
-Get/set number of inputs<br>
+* **@background_color** 
+Get/set element background color (list of red, green, blue values in 0-1 range)<br>
+_type:_ list<br>
+_default:_ 0.93 0.93 0.93 1<br>
+
+* **@border_color** 
+Get/set border color (list of red, green, blue values in 0-1 range)<br>
+_type:_ list<br>
+_default:_ 0.6 0.6 0.6 1<br>
+
+* **@fontname** 
+Get/set fontname<br>
+_type:_ symbol<br>
+_enum:_ Courier, DejaVu, Helvetica, Monaco, Times<br>
+_default:_ Helvetica<br>
+
+* **@fontsize** 
+Get/set fontsize<br>
 _type:_ int<br>
-_range:_ 1..4<br>
-_default:_ 1<br>
+_range:_ 4..100<br>
+_default:_ 11<br>
 
-* **@ymin** 
-Get/set minimal y-axis value<br>
-_type:_ float<br>
-_range:_ -1024..1024<br>
-_default:_ -1<br>
+* **@fontslant** 
+Get/set font slant<br>
+_type:_ symbol<br>
+_enum:_ roman, italic<br>
+_default:_ roman<br>
 
-* **@ymax** 
-Get/set minimal y-axis value<br>
-_type:_ float<br>
-_range:_ -1024..1024<br>
-_default:_ 1<br>
-
-* **@yauto** 
-Get/set calculate y-axis range automatically<br>
-_type:_ bool<br>
-_default:_ 0<br>
-
-* **@xlabels** 
-Get/set draw labels on x-axis<br>
-_type:_ bool<br>
-_default:_ 0<br>
-
-* **@ylabels** 
-Get/set draw labels on y-axis<br>
-_type:_ bool<br>
-_default:_ 0<br>
-
-* **@xmaj_grid** 
-Get/set draw major grid lines on x-axis<br>
-_type:_ bool<br>
-_default:_ 1<br>
-
-* **@xmin_grid** 
-Get/set draw minor grid lines on x-axis<br>
-_type:_ bool<br>
-_default:_ 0<br>
-
-* **@xmaj_ticks** 
-Get/set draw minor ticks on x-axis<br>
-_type:_ bool<br>
-_default:_ 1<br>
-
-* **@xmin_ticks** 
-Get/set draw minor ticks on x-axis<br>
-_type:_ bool<br>
-_default:_ 1<br>
-
-* **@ymaj_grid** 
-Get/set draw major grid lines on y-axis<br>
-_type:_ bool<br>
-_default:_ 1<br>
-
-* **@ymin_grid** 
-Get/set draw minor grid lines on y-axis<br>
-_type:_ bool<br>
-_default:_ 0<br>
-
-* **@ymaj_ticks** 
-Get/set draw minor ticks on y-axis<br>
-_type:_ bool<br>
-_default:_ 1<br>
-
-* **@ymin_ticks** 
-Get/set draw minor ticks on y-axis<br>
-_type:_ bool<br>
-_default:_ 1<br>
-
-* **@xlabels** 
-Get/set draw labels on x-axis<br>
-_type:_ bool<br>
-_default:_ 0<br>
-
-* **@xlabels** 
-Get/set draw labels on x-axis<br>
-_type:_ bool<br>
-_default:_ 0<br>
+* **@fontweight** 
+Get/set font weight<br>
+_type:_ symbol<br>
+_enum:_ normal, bold<br>
+_default:_ normal<br>
 
 * **@mode** 
 Get/set draw mode<br>
@@ -128,15 +79,11 @@ _type:_ symbol<br>
 _enum:_ lines, bars<br>
 _default:_ lines<br>
 
-* **@receive** 
-Get/set receive source<br>
-_type:_ symbol<br>
-_default:_ (null)<br>
-
-* **@size** 
-Get/set element size (width, height pair)<br>
-_type:_ list<br>
-_default:_ 200 200<br>
+* **@n** 
+Get/set number of inputs<br>
+_type:_ int<br>
+_range:_ 1..4<br>
+_default:_ 1<br>
 
 * **@pinned** 
 Get/set pin mode. if 1 - put element to the lowest level<br>
@@ -163,39 +110,92 @@ Get/set fourth color (list of red, green, blue values in 0-1 range)<br>
 _type:_ list<br>
 _default:_ 1 0.75 0 1<br>
 
-* **@background_color** 
-Get/set element background color (list of red, green, blue values in 0-1 range)<br>
+* **@receive** 
+Get/set receive source<br>
+_type:_ symbol<br>
+_default:_ (null)<br>
+
+* **@size** 
+Get/set element size (width, height pair)<br>
 _type:_ list<br>
-_default:_ 0.93 0.93 0.93 1<br>
+_default:_ 200 200<br>
 
-* **@border_color** 
-Get/set border color (list of red, green, blue values in 0-1 range)<br>
-_type:_ list<br>
-_default:_ 0.6 0.6 0.6 1<br>
+* **@xlabels** 
+Get/set draw labels on x-axis<br>
+_type:_ bool<br>
+_default:_ 0<br>
 
-* **@fontsize** 
-Get/set fontsize<br>
-_type:_ int<br>
-_range:_ 4..100<br>
-_default:_ 11<br>
+* **@xlabels** 
+Get/set draw labels on x-axis<br>
+_type:_ bool<br>
+_default:_ 0<br>
 
-* **@fontname** 
-Get/set fontname<br>
-_type:_ symbol<br>
-_enum:_ Courier, DejaVu, Helvetica, Monaco, Times<br>
-_default:_ Helvetica<br>
+* **@xlabels** 
+Get/set draw labels on x-axis<br>
+_type:_ bool<br>
+_default:_ 0<br>
 
-* **@fontweight** 
-Get/set font weight<br>
-_type:_ symbol<br>
-_enum:_ normal, bold<br>
-_default:_ normal<br>
+* **@xmaj_grid** 
+Get/set draw major grid lines on x-axis<br>
+_type:_ bool<br>
+_default:_ 1<br>
 
-* **@fontslant** 
-Get/set font slant<br>
-_type:_ symbol<br>
-_enum:_ roman, italic<br>
-_default:_ roman<br>
+* **@xmaj_ticks** 
+Get/set draw minor ticks on x-axis<br>
+_type:_ bool<br>
+_default:_ 1<br>
+
+* **@xmin_grid** 
+Get/set draw minor grid lines on x-axis<br>
+_type:_ bool<br>
+_default:_ 0<br>
+
+* **@xmin_ticks** 
+Get/set draw minor ticks on x-axis<br>
+_type:_ bool<br>
+_default:_ 1<br>
+
+* **@yauto** 
+Get/set calculate y-axis range automatically<br>
+_type:_ bool<br>
+_default:_ 0<br>
+
+* **@ylabels** 
+Get/set draw labels on y-axis<br>
+_type:_ bool<br>
+_default:_ 0<br>
+
+* **@ymaj_grid** 
+Get/set draw major grid lines on y-axis<br>
+_type:_ bool<br>
+_default:_ 1<br>
+
+* **@ymaj_ticks** 
+Get/set draw minor ticks on y-axis<br>
+_type:_ bool<br>
+_default:_ 1<br>
+
+* **@ymax** 
+Get/set minimal y-axis value<br>
+_type:_ float<br>
+_range:_ -1024..1024<br>
+_default:_ 1<br>
+
+* **@ymin** 
+Get/set minimal y-axis value<br>
+_type:_ float<br>
+_range:_ -1024..1024<br>
+_default:_ -1<br>
+
+* **@ymin_grid** 
+Get/set draw minor grid lines on y-axis<br>
+_type:_ bool<br>
+_default:_ 0<br>
+
+* **@ymin_ticks** 
+Get/set draw minor ticks on y-axis<br>
+_type:_ bool<br>
+_default:_ 1<br>
 
 
 

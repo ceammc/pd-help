@@ -798,7 +798,7 @@ objects for working with arrays and tables
 
 
 ### <a id="cat_hw" href="category_hw.html">hw</a>
-
+objects for working with various hardware
 
 ---
 

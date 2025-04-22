@@ -3,7 +3,7 @@
 
 # Category: hw
 
-
+objects for working with various hardware
 
 
 [**hw.apple_smc**](hw.apple_smc.html): query the system management control in Apples 

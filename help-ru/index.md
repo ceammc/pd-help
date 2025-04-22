@@ -801,7 +801,7 @@ layout: default_ru
 
 
 ### <a id="cat_hw" href="category_hw.html">hw</a>
-
+объекты для работы с различными аппаратными устройствами
 
 ---
 

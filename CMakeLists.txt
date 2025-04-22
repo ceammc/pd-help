@@ -3,29 +3,36 @@ project(pd-help NONE)
 
 if(NOT PD_BUILD_DIR)
   message(
-    FATAL_ERROR
-      "PD_BUILD_DIR source directory is not defined. Specify it with:
+    FATAL_ERROR "PD_BUILD_DIR source directory is not defined. Specify it with:
   ${CMAKE_COMMAND} -DPD_BUILD_DIR=path_to_pd_build_dir")
 endif()
 
 execute_process(
-  COMMAND bash -c "grep puredata_SOURCE_DIR \"${PD_BUILD_DIR}/CMakeCache.txt\" | cut -d= -f2"
-  OUTPUT_VARIABLE PD_SRC_DIR    
+  COMMAND
+    bash -c
+    "grep puredata_SOURCE_DIR \"${PD_BUILD_DIR}/CMakeCache.txt\" | cut -d= -f2"
+  OUTPUT_VARIABLE PD_SRC_DIR
   OUTPUT_STRIP_TRAILING_WHITESPACE)
 
 if(NOT PD_SRC_DIR)
-  message(FATAL_ERROR "PureData source directory not found with build dir: ${PD_BUILD_DIR}")
+  message(
+    FATAL_ERROR
+      "PureData source directory not found with build dir: ${PD_BUILD_DIR}")
 else()
   message(STATUS "PureData source directory: '${PD_SRC_DIR}'")
 endif()
 
 execute_process(
-  COMMAND bash -c "grep 'set\(CEAMMC_DISTRIB_VERSION' \"${PD_SRC_DIR}/cmake/version.cmake\" |  cut -d' ' -f2 | tr -d '\")'"
-  OUTPUT_VARIABLE CEAMMC_VERSION   
+  COMMAND
+    bash -c
+    "grep 'set\(CEAMMC_DISTRIB_VERSION' \"${PD_SRC_DIR}/cmake/version.cmake\" |  cut -d' ' -f2 | tr -d '\")'"
+  OUTPUT_VARIABLE CEAMMC_VERSION
   OUTPUT_STRIP_TRAILING_WHITESPACE)
 
 if(NOT CEAMMC_VERSION)
-  message(FATAL_ERROR "PureData source directory not found with build dir: ${PD_BUILD_DIR}")
+  message(
+    FATAL_ERROR
+      "PureData source directory not found with build dir: ${PD_BUILD_DIR}")
 else()
   message(STATUS "PureData ceammc version: ${CEAMMC_VERSION}")
 endif()

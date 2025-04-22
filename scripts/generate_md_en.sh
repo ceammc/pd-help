@@ -26,6 +26,5 @@ do
       --xlet-db ${XLET_DB} \
       --example-img "../examples/img/" \
       --example-pd "../examples/pd/" \
-      --no-images \
       "$f" "${OUT_DIR}/${md}"
 done

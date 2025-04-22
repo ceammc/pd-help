@@ -339,7 +339,7 @@ objects for working with arrays and tables
 
 [**music.dur2time**](music.dur2time.html): convert duration list to time 
 
-[**music.voice2midi**](music.voice2midi.html): convert voice music list of midi pitches 
+[**music.voice2midi**](music.voice2midi.html): convert single voice music to list of MIDI pitches 
 
 
 ### <a id="cat_data" href="category_data.html">data</a>

@@ -5,7 +5,7 @@
 **aliases:** [music.v-&gt;m]
 
 
-###### convert voice music list of midi pitches
+###### convert single voice music to list of MIDI pitches
 
 *available since version:* 0.9.4
 

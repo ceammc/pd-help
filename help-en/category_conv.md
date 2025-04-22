@@ -218,7 +218,7 @@ _aliases:_ \[ceammc/str-&gt;sec\], \[str-&gt;sec\]
 _aliases:_ \[music.d-&gt;t\]
 
 
-[**music.voice2midi**](music.voice2midi.html): convert voice music list of midi pitches <br>
+[**music.voice2midi**](music.voice2midi.html): convert single voice music to list of MIDI pitches <br>
 _aliases:_ \[music.v-&gt;m\]
 
 

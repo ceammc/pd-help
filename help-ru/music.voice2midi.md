@@ -6,7 +6,7 @@ layout: default_ru
 
 # music.voice2midi
 
-###### convert voice music list of midi pitches
+###### конвертирует одноголосную музыкальную нотацию в список нот MIDI
 
 *доступно с версии:* 0.9.4
 

@@ -222,7 +222,7 @@ _псевдонимы:_ \[ceammc/str-&gt;sec\], \[str-&gt;sec\]
 _псевдонимы:_ \[music.d-&gt;t\]
 
 
-[**music.voice2midi**](music.voice2midi.html): convert voice music list of midi pitches <br>
+[**music.voice2midi**](music.voice2midi.html): конвертирует одноголосную музыкальную нотацию в список нот MIDI <br>
 _псевдонимы:_ \[music.v-&gt;m\]
 
 

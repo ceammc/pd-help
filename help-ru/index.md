@@ -342,7 +342,7 @@ layout: default_ru
 
 [**music.dur2time**](music.dur2time.html): convert duration list to time 
 
-[**music.voice2midi**](music.voice2midi.html): convert voice music list of midi pitches 
+[**music.voice2midi**](music.voice2midi.html): конвертирует одноголосную музыкальную нотацию в список нот MIDI 
 
 
 ### <a id="cat_data" href="category_data.html">data</a>

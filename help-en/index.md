@@ -54,6 +54,7 @@ The general purpose Pd library used for work and educational process in the Cent
 
 
 ### <a id="cat_an" href="category_an.html">an</a>
+objects to analyse sounds properties
 
 ---
 
@@ -72,7 +73,8 @@ The general purpose Pd library used for work and educational process in the Cent
 
 
 ### <a id="cat_array" href="category_array.html">array</a>
-###### objects for working with arrays and tables
+objects for working with arrays and tables
+
 ---
 
 
@@ -145,6 +147,7 @@ The general purpose Pd library used for work and educational process in the Cent
 
 ### <a id="cat_base" href="category_base.html">base</a>
 
+
 ---
 
 
@@ -207,6 +210,7 @@ The general purpose Pd library used for work and educational process in the Cent
 
 ### <a id="cat_chaos" href="category_chaos.html">chaos</a>
 
+
 ---
 
 
@@ -224,6 +228,7 @@ The general purpose Pd library used for work and educational process in the Cent
 
 
 ### <a id="cat_conv" href="category_conv.html">conv</a>
+
 
 ---
 
@@ -339,6 +344,7 @@ The general purpose Pd library used for work and educational process in the Cent
 
 ### <a id="cat_data" href="category_data.html">data</a>
 
+
 ---
 
 
@@ -415,6 +421,7 @@ The general purpose Pd library used for work and educational process in the Cent
 
 ### <a id="cat_dyn" href="category_dyn.html">dyn</a>
 
+
 ---
 
 
@@ -446,6 +453,7 @@ The general purpose Pd library used for work and educational process in the Cent
 
 
 ### <a id="cat_env" href="category_env.html">env</a>
+
 
 ---
 
@@ -482,6 +490,7 @@ The general purpose Pd library used for work and educational process in the Cent
 
 
 ### <a id="cat_flow" href="category_flow.html">flow</a>
+
 
 ---
 
@@ -601,6 +610,7 @@ The general purpose Pd library used for work and educational process in the Cent
 
 ### <a id="cat_flt" href="category_flt.html">flt</a>
 
+
 ---
 
 
@@ -689,6 +699,7 @@ The general purpose Pd library used for work and educational process in the Cent
 
 ### <a id="cat_fx" href="category_fx.html">fx</a>
 
+
 ---
 
 
@@ -769,6 +780,7 @@ The general purpose Pd library used for work and educational process in the Cent
 
 ### <a id="cat_global" href="category_global.html">global</a>
 
+
 ---
 
 
@@ -786,6 +798,7 @@ The general purpose Pd library used for work and educational process in the Cent
 
 
 ### <a id="cat_hw" href="category_hw.html">hw</a>
+
 
 ---
 
@@ -839,6 +852,7 @@ The general purpose Pd library used for work and educational process in the Cent
 
 ### <a id="cat_lang" href="category_lang.html">lang</a>
 
+
 ---
 
 
@@ -850,6 +864,7 @@ The general purpose Pd library used for work and educational process in the Cent
 
 
 ### <a id="cat_lfo" href="category_lfo.html">lfo</a>
+
 
 ---
 
@@ -876,7 +891,8 @@ The general purpose Pd library used for work and educational process in the Cent
 
 
 ### <a id="cat_list" href="category_list.html">list</a>
-###### objects for list processing
+objects for list processing
+
 ---
 
 
@@ -1023,6 +1039,7 @@ The general purpose Pd library used for work and educational process in the Cent
 
 ### <a id="cat_live" href="category_live.html">live</a>
 
+
 ---
 
 
@@ -1030,6 +1047,7 @@ The general purpose Pd library used for work and educational process in the Cent
 
 
 ### <a id="cat_local" href="category_local.html">local</a>
+
 
 ---
 
@@ -1048,7 +1066,8 @@ The general purpose Pd library used for work and educational process in the Cent
 
 
 ### <a id="cat_math" href="category_math.html">math</a>
-###### math objects. can operate with list of numbers
+math objects. can operate with list of numbers
+
 ---
 
 
@@ -1251,6 +1270,7 @@ The general purpose Pd library used for work and educational process in the Cent
 
 ### <a id="cat_midi" href="category_midi.html">midi</a>
 
+
 ---
 
 
@@ -1299,6 +1319,7 @@ The general purpose Pd library used for work and educational process in the Cent
 
 ### <a id="cat_misc" href="category_misc.html">misc</a>
 
+
 ---
 
 
@@ -1323,6 +1344,7 @@ The general purpose Pd library used for work and educational process in the Cent
 
 ### <a id="cat_msg" href="category_msg.html">msg</a>
 
+
 ---
 
 
@@ -1345,6 +1367,7 @@ The general purpose Pd library used for work and educational process in the Cent
 
 ### <a id="cat_music" href="category_music.html">music</a>
 
+
 ---
 
 
@@ -1356,6 +1379,7 @@ The general purpose Pd library used for work and educational process in the Cent
 
 
 ### <a id="cat_net" href="category_net.html">net</a>
+
 
 ---
 
@@ -1386,6 +1410,7 @@ The general purpose Pd library used for work and educational process in the Cent
 
 
 ### <a id="cat_noise" href="category_noise.html">noise</a>
+
 
 ---
 
@@ -1439,6 +1464,7 @@ The general purpose Pd library used for work and educational process in the Cent
 
 ### <a id="cat_osc" href="category_osc.html">osc</a>
 
+
 ---
 
 
@@ -1463,6 +1489,7 @@ The general purpose Pd library used for work and educational process in the Cent
 
 ### <a id="cat_patch" href="category_patch.html">patch</a>
 
+
 ---
 
 
@@ -1486,6 +1513,7 @@ The general purpose Pd library used for work and educational process in the Cent
 
 
 ### <a id="cat_path" href="category_path.html">path</a>
+
 
 ---
 
@@ -1517,6 +1545,7 @@ The general purpose Pd library used for work and educational process in the Cent
 
 ### <a id="cat_predicates" href="category_predicates.html">predicates</a>
 
+
 ---
 
 
@@ -1547,6 +1576,7 @@ The general purpose Pd library used for work and educational process in the Cent
 
 ### <a id="cat_preset" href="category_preset.html">preset</a>
 
+
 ---
 
 
@@ -1560,6 +1590,7 @@ The general purpose Pd library used for work and educational process in the Cent
 
 
 ### <a id="cat_property" href="category_property.html">property</a>
+
 
 ---
 
@@ -1584,6 +1615,7 @@ The general purpose Pd library used for work and educational process in the Cent
 
 
 ### <a id="cat_proto" href="category_proto.html">proto</a>
+
 
 ---
 
@@ -1627,6 +1659,7 @@ The general purpose Pd library used for work and educational process in the Cent
 
 ### <a id="cat_random" href="category_random.html">random</a>
 
+
 ---
 
 
@@ -1649,6 +1682,7 @@ The general purpose Pd library used for work and educational process in the Cent
 
 ### <a id="cat_samp" href="category_samp.html">samp</a>
 
+
 ---
 
 
@@ -1656,6 +1690,7 @@ The general purpose Pd library used for work and educational process in the Cent
 
 
 ### <a id="cat_seq" href="category_seq.html">seq</a>
+
 
 ---
 
@@ -1681,6 +1716,7 @@ The general purpose Pd library used for work and educational process in the Cent
 
 ### <a id="cat_snd" href="category_snd.html">snd</a>
 
+
 ---
 
 
@@ -1690,6 +1726,7 @@ The general purpose Pd library used for work and educational process in the Cent
 
 
 ### <a id="cat_spat" href="category_spat.html">spat</a>
+
 
 ---
 
@@ -1767,6 +1804,7 @@ The general purpose Pd library used for work and educational process in the Cent
 
 ### <a id="cat_string" href="category_string.html">string</a>
 
+
 ---
 
 
@@ -1801,6 +1839,7 @@ The general purpose Pd library used for work and educational process in the Cent
 
 ### <a id="cat_symbol" href="category_symbol.html">symbol</a>
 
+
 ---
 
 
@@ -1816,6 +1855,7 @@ The general purpose Pd library used for work and educational process in the Cent
 
 
 ### <a id="cat_synth" href="category_synth.html">synth</a>
+
 
 ---
 
@@ -1893,6 +1933,7 @@ The general purpose Pd library used for work and educational process in the Cent
 
 ### <a id="cat_system" href="category_system.html">system</a>
 
+
 ---
 
 
@@ -1921,6 +1962,7 @@ The general purpose Pd library used for work and educational process in the Cent
 
 ### <a id="cat_tl" href="category_tl.html">tl</a>
 
+
 ---
 
 
@@ -1936,6 +1978,7 @@ The general purpose Pd library used for work and educational process in the Cent
 
 
 ### <a id="cat_ui" href="category_ui.html">ui</a>
+
 
 ---
 

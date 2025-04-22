@@ -3,7 +3,7 @@
 
 # Category: an
 
-
+objects to analyse sounds properties
 
 
 [**an.onset**](an.onset.html): onset detector for arrays 

@@ -1,7 +1,7 @@
 ---
 layout: default_ru
 ---
-[index](index.html) :: [synth](category_synth.html)
+[index](index.html) :: [noise](category_noise.html)
 ---
 
 # noise.chua~

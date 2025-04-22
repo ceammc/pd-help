@@ -3,10 +3,8 @@
 
 # Category: synth
 
+sound synthesis
 
-
-
-[**noise.chua\~**](noise.chua~.html): Chua&#39;s diode circuit 
 
 [**synth.bee3\~**](synth.bee3~.html): Hammond-oid organ FM synthesis instrument 
 

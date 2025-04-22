@@ -493,7 +493,7 @@ layout: default_ru
 
 
 ### <a id="cat_flow" href="category_flow.html">flow</a>
-
+управление потоками данных
 
 ---
 
@@ -1420,6 +1420,8 @@ layout: default_ru
 
 [**noise.baker**](noise.baker.html): Part of a-chaos library 
 
+[**noise.chua~**](noise.chua~.html): Chua&#39;s diode circuit 
+
 [**noise.clifford**](noise.clifford.html): clifford attractor 
 
 [**noise.collatz**](noise.collatz.html): collatz conjecture output 
@@ -1858,12 +1860,10 @@ layout: default_ru
 
 
 ### <a id="cat_synth" href="category_synth.html">synth</a>
-
+звуковой синтез
 
 ---
 
-
-[**noise.chua~**](noise.chua~.html): Chua&#39;s diode circuit 
 
 [**synth.bee3~**](synth.bee3~.html): Hammond-oid organ FM synthesis instrument 
 

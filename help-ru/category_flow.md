@@ -7,7 +7,7 @@ layout: default_ru
 ## Категория: flow
 
 ---
-
+управление потоками данных
 
 
 [**expand_env**](expand_env.html): Substitute environment variables in data stream <br>

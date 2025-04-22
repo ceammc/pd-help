@@ -490,7 +490,7 @@ objects for working with sound dynamic range
 
 
 ### <a id="cat_flow" href="category_flow.html">flow</a>
-
+dataflow control
 
 ---
 
@@ -1417,6 +1417,8 @@ math objects. can operate with list of numbers
 
 [**noise.baker**](noise.baker.html): Part of a-chaos library 
 
+[**noise.chua\~**](noise.chua~.html): Chua&#39;s diode circuit 
+
 [**noise.clifford**](noise.clifford.html): clifford attractor 
 
 [**noise.collatz**](noise.collatz.html): collatz conjecture output 
@@ -1855,12 +1857,10 @@ math objects. can operate with list of numbers
 
 
 ### <a id="cat_synth" href="category_synth.html">synth</a>
-
+sound synthesis
 
 ---
 
-
-[**noise.chua\~**](noise.chua~.html): Chua&#39;s diode circuit 
 
 [**synth.bee3\~**](synth.bee3~.html): Hammond-oid organ FM synthesis instrument 
 

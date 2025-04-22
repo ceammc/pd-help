@@ -7,10 +7,8 @@ layout: default_ru
 ## Категория: synth
 
 ---
+звуковой синтез
 
-
-
-[**noise.chua~**](noise.chua~.html): Chua&#39;s diode circuit 
 
 [**synth.bee3~**](synth.bee3~.html): Hammond-oid organ FM synthesis instrument 
 

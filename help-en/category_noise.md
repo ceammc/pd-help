@@ -8,6 +8,8 @@
 
 [**noise.baker**](noise.baker.html): Part of a-chaos library 
 
+[**noise.chua\~**](noise.chua~.html): Chua&#39;s diode circuit 
+
 [**noise.clifford**](noise.clifford.html): clifford attractor 
 
 [**noise.collatz**](noise.collatz.html): collatz conjecture output 

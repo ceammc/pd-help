@@ -7,7 +7,7 @@ layout: default_ru
 ## Категория: dyn
 
 ---
-
+объекты для работы с динамическим диапазоном звука
 
 
 [**dyn.comp2~**](dyn.comp2~.html): stereo dynamic range compressor 

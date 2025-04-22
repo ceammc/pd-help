@@ -420,7 +420,7 @@ objects for working with arrays and tables
 
 
 ### <a id="cat_dyn" href="category_dyn.html">dyn</a>
-
+objects for working with sound dynamic range
 
 ---
 

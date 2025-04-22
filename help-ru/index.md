@@ -423,7 +423,7 @@ layout: default_ru
 
 
 ### <a id="cat_dyn" href="category_dyn.html">dyn</a>
-
+объекты для работы с динамическим диапазоном звука
 
 ---
 

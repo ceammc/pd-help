@@ -34,20 +34,31 @@ _type:_ symbol<br>
 
 ## properties:
 
-* **@src** 
-Get/set source array<br>
-_type:_ symbol<br>
+* **@aalength** 
+Get/set pitch transposer anti-alias filter length<br>
+_type:_ int<br>
+_range:_ 8..128<br>
+_default:_ 64<br>
+
+* **@antialias** 
+Get/set use of anti-alias filter. Anti-alias filter is used to prevent folding of high
+frequencies when transposing the sample rate with interpolation.<br>
+_type:_ bool<br>
+_default:_ 0<br>
 
 * **@dest** 
 Get/set destination array<br>
 _type:_ symbol<br>
 
-* **@tempo** 
-Get/set relative tempo change without affecting the sound pitch<br>
-_type:_ float<br>
-_units:_ %<br>
-_range:_ -50..100<br>
-_default:_ 0<br>
+* **@overlap** 
+Get/set Overlap length in milliseconds. When the chopped sound sequences are mixed back
+together, to form a continuous sound stream, this parameter defines over how
+long period the two consecutive sequences are let to overlap each other.
+Increasing this value increases computational burden &amp; vice versa.<br>
+_type:_ int<br>
+_units:_ ms<br>
+_range:_ 0..100<br>
+_default:_ 8<br>
 
 * **@pitch** 
 Get/set relative pitch change while keeping the original tempo<br>
@@ -61,36 +72,6 @@ played at different RPM rate<br>
 _type:_ float<br>
 _range:_ 0.1..2<br>
 _default:_ 1<br>
-
-* **@speech** 
-Get/set optimize for speech sound source<br>
-_type:_ bool<br>
-_default:_ 0<br>
-
-* **@antialias** 
-Get/set use of anti-alias filter. Anti-alias filter is used to prevent folding of high
-frequencies when transposing the sample rate with interpolation.<br>
-_type:_ bool<br>
-_default:_ 0<br>
-
-* **@aalength** 
-Get/set pitch transposer anti-alias filter length<br>
-_type:_ int<br>
-_range:_ 8..128<br>
-_default:_ 64<br>
-
-* **@sequence** 
-Get/set Default length of a single processing sequence, in milliseconds. This
-determines to how long sequences the original sound is chopped in the time-
-stretch algorithm. The larger this value is, the lesser sequences are used in
-processing. In principle a bigger value sounds better when slowing down tempo,
-but worse when increasing tempo and vice versa. Increasing this value reduces
-computational burden &amp; vice versa. Giving *0* value for the sequence length
-sets automatic parameter value according to tempo setting (recommended).<br>
-_type:_ int<br>
-_units:_ ms<br>
-_range:_ 0..100<br>
-_default:_ 0<br>
 
 * **@seekwindow** 
 Get/set Seeking window default length in milliseconds for algorithm that finds the best
@@ -109,15 +90,34 @@ _units:_ ms<br>
 _range:_ 0..100<br>
 _default:_ 0<br>
 
-* **@overlap** 
-Get/set Overlap length in milliseconds. When the chopped sound sequences are mixed back
-together, to form a continuous sound stream, this parameter defines over how
-long period the two consecutive sequences are let to overlap each other.
-Increasing this value increases computational burden &amp; vice versa.<br>
+* **@sequence** 
+Get/set Default length of a single processing sequence, in milliseconds. This
+determines to how long sequences the original sound is chopped in the time-
+stretch algorithm. The larger this value is, the lesser sequences are used in
+processing. In principle a bigger value sounds better when slowing down tempo,
+but worse when increasing tempo and vice versa. Increasing this value reduces
+computational burden &amp; vice versa. Giving *0* value for the sequence length
+sets automatic parameter value according to tempo setting (recommended).<br>
 _type:_ int<br>
 _units:_ ms<br>
 _range:_ 0..100<br>
-_default:_ 8<br>
+_default:_ 0<br>
+
+* **@speech** 
+Get/set optimize for speech sound source<br>
+_type:_ bool<br>
+_default:_ 0<br>
+
+* **@src** 
+Get/set source array<br>
+_type:_ symbol<br>
+
+* **@tempo** 
+Get/set relative tempo change without affecting the sound pitch<br>
+_type:_ float<br>
+_units:_ %<br>
+_range:_ -50..100<br>
+_default:_ 0<br>
 
 
 

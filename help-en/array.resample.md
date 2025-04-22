@@ -34,32 +34,20 @@ _type:_ symbol<br>
 
 ## properties:
 
-* **@src** 
-Get/set source array<br>
-_type:_ symbol<br>
+* **@best** 
+Get/set alias to @quality best<br>
+_type:_ alias<br>
 
 * **@dest** 
 Get/set destination array<br>
 _type:_ symbol<br>
 
-* **@ratio** 
-Get/set resample ratio (src/dest)<br>
-_type:_ float<br>
-_min value:_ 0<br>
-_default:_ 0<br>
-
-* **@quality** 
-Get/set resample quality<br>
-_type:_ symbol<br>
-_enum:_ high, fast, low, medium, best<br>
-_default:_ high<br>
+* **@fast** 
+Get/set alias to @quality fast<br>
+_type:_ alias<br>
 
 * **@high** 
 Get/set alias to @quality high<br>
-_type:_ alias<br>
-
-* **@fast** 
-Get/set alias to @quality fast<br>
 _type:_ alias<br>
 
 * **@low** 
@@ -70,9 +58,21 @@ _type:_ alias<br>
 Get/set alias to @quality medium<br>
 _type:_ alias<br>
 
-* **@best** 
-Get/set alias to @quality best<br>
-_type:_ alias<br>
+* **@quality** 
+Get/set resample quality<br>
+_type:_ symbol<br>
+_enum:_ high, fast, low, medium, best<br>
+_default:_ high<br>
+
+* **@ratio** 
+Get/set resample ratio (src/dest)<br>
+_type:_ float<br>
+_min value:_ 0<br>
+_default:_ 0<br>
+
+* **@src** 
+Get/set source array<br>
+_type:_ symbol<br>
 
 
 

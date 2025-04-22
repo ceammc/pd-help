@@ -40,11 +40,15 @@ _type:_ float<br>
 Get/set array name<br>
 _type:_ symbol<br>
 
-* **@ymin** 
-Get/set minimal y-axis value<br>
+* **@nan** 
+Get/set value to replace nan on plot<br>
 _type:_ float<br>
-_range:_ -2048..2048<br>
-_default:_ -1<br>
+_default:_ +inf<br>
+
+* **@yauto** 
+Get/set calculate y-axis range automatically<br>
+_type:_ bool<br>
+_default:_ 1<br>
 
 * **@ymax** 
 Get/set maximum y-axis value<br>
@@ -52,15 +56,11 @@ _type:_ float<br>
 _range:_ -2048..2048<br>
 _default:_ 1<br>
 
-* **@yauto** 
-Get/set calculate y-axis range automatically<br>
-_type:_ bool<br>
-_default:_ 1<br>
-
-* **@nan** 
-Get/set value to replace nan on plot<br>
+* **@ymin** 
+Get/set minimal y-axis value<br>
 _type:_ float<br>
-_default:_ +inf<br>
+_range:_ -2048..2048<br>
+_default:_ -1<br>
 
 
 

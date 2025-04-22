@@ -1724,7 +1724,7 @@ math objects. can operate with list of numbers
 
 [**snd.file**](snd.file.html): Sound file loader on steroids 
 
-[**snd.play\~**](snd.play~.html): Sound file player on steriods 
+[**snd.play\~**](snd.play~.html): Sound file player on steroids 
 
 
 ### <a id="cat_spat" href="category_spat.html">spat</a>

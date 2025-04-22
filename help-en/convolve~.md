@@ -22,19 +22,19 @@
 
 ## methods:
 
+* **load_array**
+load IR from array<br>
+  __parameters:__
+  - **ARRAY** array name<br>
+    type: symbol <br>
+    required: True <br>
+
 * **load_file**
 load IR from specified file (resamples if required from file samplerate to
 runtime samplerate)<br>
   __parameters:__
   - **FILE** file name, relative or absolute<br>
     type: atom <br>
-    required: True <br>
-
-* **load_array**
-load IR from array<br>
-  __parameters:__
-  - **ARRAY** array name<br>
-    type: symbol <br>
     required: True <br>
 
 * **set**
@@ -49,13 +49,6 @@ set IR from list<br>
 
 ## properties:
 
-* **@offset** 
-Get/set impulse response (IR) offset<br>
-_type:_ int<br>
-_units:_ samp<br>
-_min value:_ 0<br>
-_default:_ 0<br>
-
 * **@maxsize** 
 Get/set max impulse response size<br>
 _type:_ int<br>
@@ -67,6 +60,13 @@ _default:_ 50000<br>
 Get/set normalize impulse response<br>
 _type:_ bool<br>
 _default:_ 1<br>
+
+* **@offset** 
+Get/set impulse response (IR) offset<br>
+_type:_ int<br>
+_units:_ samp<br>
+_min value:_ 0<br>
+_default:_ 0<br>
 
 
 

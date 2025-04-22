@@ -54,15 +54,15 @@ _type:_ int<br>
 _range:_ 2..1000<br>
 _default:_ 100<br>
 
-* **@min** 
-Get/set minimal value<br>
-_type:_ float<br>
-_default:_ -1<br>
-
 * **@max** 
 Get/set maximum value<br>
 _type:_ float<br>
 _default:_ 1<br>
+
+* **@min** 
+Get/set minimal value<br>
+_type:_ float<br>
+_default:_ -1<br>
 
 
 

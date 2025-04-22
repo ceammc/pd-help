@@ -191,6 +191,23 @@ draw line<br>
     type: int <br>
     required: True <br>
 
+* **load**
+load image to bitmap<br>
+  __parameters:__
+  - **FILE** image path, relative, or absolute<br>
+    type: symbol <br>
+    required: True <br>
+
+  - **[SCALE=1]** image scale<br>
+    type: float <br>
+
+* **mirror**
+mirror bitmap<br>
+  __parameters:__
+  - **AXIS** mirror axis<br>
+    type: symbol <br>
+    required: True <br>
+
 * **pixel**
 set pixel<br>
   __parameters:__
@@ -241,6 +258,12 @@ draw draw<br>
   - **DX** x offset<br>
     type: int <br>
     required: True <br>
+
+* **save**
+save bitmap to PNG file<br>
+  __parameters:__
+  - **[PATH]** file name, absolute, or relative<br>
+    type: symbol <br>
 
 * **sector**
 draw sector<br>
@@ -321,6 +344,13 @@ set stroke color<br>
   - **[COLOR]** stroke color (0 or 1)<br>
     type: int <br>
 
+* **stroke_width**
+set stroke width<br>
+  __parameters:__
+  - **W** new width<br>
+    type: int <br>
+    required: True <br>
+
 * **text**
 draw text<br>
   __parameters:__
@@ -341,12 +371,6 @@ set text color<br>
   __parameters:__
   - **[COLOR]** fill color (0, 1 or -1 if no color)<br>
     type: int <br>
-
-* **save**
-save bitmap to PNG file<br>
-  __parameters:__
-  - **[PATH]** file name, absolute or relative<br>
-    type: symbol <br>
 
 * **triangle**
 draw triangle<br>
@@ -375,6 +399,9 @@ draw triangle<br>
     type: int <br>
     required: True <br>
 
+* **view**
+opens bitmap view window<br>
+
 * **vshift**
 vertical shift<br>
   __parameters:__
@@ -382,46 +409,19 @@ vertical shift<br>
     type: int <br>
     required: True <br>
 
-* **stroke_width**
-set stroke width<br>
-  __parameters:__
-  - **W** new width<br>
-    type: int <br>
-    required: True <br>
-
-* **mirror**
-mirror bitmap<br>
-  __parameters:__
-  - **AXIS** mirror axis<br>
-    type: symbol <br>
-    required: True <br>
-
-* **load**
-load image to bitmap<br>
-  __parameters:__
-  - **FILE** image path, relative or absolute<br>
-    type: symbol <br>
-    required: True <br>
-
-  - **[SCALE=1]** image scale<br>
-    type: float <br>
-
-* **view**
-opens bitmap view window<br>
-
 
 
 
 ## properties:
 
-* **@w** (initonly)
-Get/set bitmap width in pixels<br>
+* **@h** (initonly)
+Get/set bitmap height in pixels<br>
 _type:_ int<br>
 _range:_ 1..256<br>
 _default:_ 8<br>
 
-* **@h** (initonly)
-Get/set bitmap height in pixels<br>
+* **@w** (initonly)
+Get/set bitmap width in pixels<br>
 _type:_ int<br>
 _range:_ 1..256<br>
 _default:_ 8<br>

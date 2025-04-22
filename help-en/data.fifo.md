@@ -59,16 +59,16 @@ _type:_ int<br>
 _min value:_ 0<br>
 _default:_ 0<br>
 
-* **@size** 
-Get/set size of queue<br>
-_type:_ int<br>
-_range:_ 1..1024<br>
-_default:_ 32<br>
-
 * **@free** (readonly)
 Get number of elements you can add to queue until it full<br>
 _type:_ int<br>
 _min value:_ 0<br>
+_default:_ 32<br>
+
+* **@size** 
+Get/set size of queue<br>
+_type:_ int<br>
+_range:_ 1..1024<br>
 _default:_ 32<br>
 
 

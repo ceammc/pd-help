@@ -30,15 +30,15 @@ _type:_ list<br>
 
 ## properties:
 
-* **@keys** (initonly)
-Get/set extracted keys<br>
-_type:_ list<br>
-
 * **@default** 
 Get/set default value when key is not found in dictionary. If not specified no output
 is performed.<br>
 _type:_ atom<br>
 _default:_ null<br>
+
+* **@keys** (initonly)
+Get/set extracted keys<br>
+_type:_ list<br>
 
 
 

@@ -31,15 +31,34 @@ save patch to postscript<br>
 
 ## properties:
 
-* **@name** (readonly)
-Get canvas name<br>
-_type:_ symbol<br>
-_default:_ test_canvas<br>
+* **@abs** 
+Get/set if false: using toplevel canvas, if true: using abstraction canvas<br>
+_type:_ bool<br>
+_default:_ 1<br>
 
 * **@dir** (readonly)
 Get canvas directory<br>
 _type:_ symbol<br>
 _default:_ /<br>
+
+* **@font** (readonly)
+Get window font<br>
+_type:_ int<br>
+_default:_ 10<br>
+
+* **@height** (readonly)
+Get window height<br>
+_type:_ int<br>
+_default:_ 400<br>
+
+* **@name** (readonly)
+Get canvas name<br>
+_type:_ symbol<br>
+_default:_ test_canvas<br>
+
+* **@paths** (readonly)
+Get search paths<br>
+_type:_ list<br>
 
 * **@size** (readonly)
 Get window size<br>
@@ -51,20 +70,6 @@ Get window width<br>
 _type:_ int<br>
 _default:_ 600<br>
 
-* **@height** (readonly)
-Get window height<br>
-_type:_ int<br>
-_default:_ 400<br>
-
-* **@font** (readonly)
-Get window font<br>
-_type:_ int<br>
-_default:_ 10<br>
-
-* **@paths** (readonly)
-Get search paths<br>
-_type:_ list<br>
-
 * **@x** (readonly)
 Get window x-pos<br>
 _type:_ int<br>
@@ -74,11 +79,6 @@ _default:_ 0<br>
 Get window y-pos<br>
 _type:_ int<br>
 _default:_ 0<br>
-
-* **@abs** 
-Get/set if false: using toplevel canvas, if true: using abstraction canvas<br>
-_type:_ bool<br>
-_default:_ 1<br>
 
 
 

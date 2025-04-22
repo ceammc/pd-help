@@ -29,6 +29,11 @@ _units:_ samp<br>
 _range:_ 1..65536<br>
 _default:_ 1024<br>
 
+* **@clock** (initonly)
+Get/set alias for @mode count @bs 1. Output impulse at each zero crossing.<br>
+_type:_ list<br>
+_default:_ 0<br>
+
 * **@mode** 
 Get/set calculation mode: if &#39;count&#39; - output number of zero crossing occurred in a
 period of current block size, if &#39;rate&#39; - output zero crossing rate (zero
@@ -37,11 +42,6 @@ hertz.<br>
 _type:_ symbol<br>
 _enum:_ count, rate, freq<br>
 _default:_ count<br>
-
-* **@clock** (initonly)
-Get/set alias for @mode count @bs 1. Output impulse at each zero crossing.<br>
-_type:_ list<br>
-_default:_ 0<br>
 
 
 

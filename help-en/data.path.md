@@ -29,23 +29,28 @@ _type:_ atom<br>
 * **exists**
 checks if path exists. Output [exists VALUE( message<br>
 
-* **type**
-request path type. Output [type TYPE( message, where type is one of: regular,
-dir, symlink, char, block, fifo, socket<br>
-
 * **info**
 request path information. Output [info DICT(<br>
+
+* **permissions**
+request path permissions. Output [permissions VALUE(<br>
 
 * **size**
 request file size in bytes. Output [size BYTES(<br>
 
-* **permissions**
-request path permissions. Output [permissions VALUE(<br>
+* **type**
+request path type. Output [type TYPE( message, where type is one of: regular,
+dir, symlink, char, block, fifo, socket<br>
 
 
 
 
 ## properties:
+
+* **@async** 
+Get/set use async operations<br>
+_type:_ bool<br>
+_default:_ 1<br>
 
 * **@norm** 
 Get/set normalize path<br>
@@ -55,11 +60,6 @@ _default:_ 1<br>
 * **@path** 
 Get/set current path value<br>
 _type:_ atom<br>
-
-* **@async** 
-Get/set use async operations<br>
-_type:_ bool<br>
-_default:_ 1<br>
 
 
 

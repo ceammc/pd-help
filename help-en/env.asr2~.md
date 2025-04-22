@@ -51,42 +51,6 @@ reset envelope to initial state<br>
 
 ## properties:
 
-* **@attack** 
-Get/set attack time<br>
-_type:_ float<br>
-_units:_ ms<br>
-_range:_ 0..100000<br>
-_default:_ 10<br>
-
-* **@sustain** 
-Get/set sustain level - percent from trigger signal<br>
-_type:_ float<br>
-_units:_ %<br>
-_range:_ 0..100<br>
-_default:_ 100<br>
-
-* **@release** 
-Get/set release time<br>
-_type:_ float<br>
-_units:_ ms<br>
-_range:_ 0..100000<br>
-_default:_ 300<br>
-
-* **@gate** 
-Get/set trigger. If &gt; 0 - starts envelope.<br>
-_type:_ float<br>
-_range:_ 0..1<br>
-_default:_ 0<br>
-
-* **@asr** (readonly)
-Get attack sustain release triplet<br>
-_type:_ list<br>
-
-* **@active** 
-Get/set on/off dsp processing<br>
-_type:_ bool<br>
-_default:_ 1<br>
-
 * **@osc** (initonly)
 Get/set OSC server name to listen<br>
 _type:_ symbol<br>
@@ -95,6 +59,42 @@ _type:_ symbol<br>
 Get/set OSC address id. If specified, bind all properties to /ID/env_asr2/PROP_NAME osc
 address, if empty bind to /env_asr2/PROP_NAME.<br>
 _type:_ symbol<br>
+
+* **@active** 
+Get/set on/off dsp processing<br>
+_type:_ bool<br>
+_default:_ 1<br>
+
+* **@asr** (readonly)
+Get attack sustain release triplet<br>
+_type:_ list<br>
+
+* **@attack** 
+Get/set attack time<br>
+_type:_ float<br>
+_units:_ ms<br>
+_range:_ 0..100000<br>
+_default:_ 10<br>
+
+* **@gate** 
+Get/set trigger. If &gt; 0 - starts envelope.<br>
+_type:_ float<br>
+_range:_ 0..1<br>
+_default:_ 0<br>
+
+* **@release** 
+Get/set release time<br>
+_type:_ float<br>
+_units:_ ms<br>
+_range:_ 0..100000<br>
+_default:_ 300<br>
+
+* **@sustain** 
+Get/set sustain level - percent from trigger signal<br>
+_type:_ float<br>
+_units:_ %<br>
+_range:_ 0..100<br>
+_default:_ 100<br>
 
 
 

@@ -24,13 +24,13 @@
 
 ## properties:
 
-* **@sync** (initonly)
-Get/set output at any inlet change<br>
-_type:_ flag<br>
+* **@float** 
+Get/set alias to @mode float. Output float values in [0-1] range<br>
+_type:_ alias<br>
 
-* **@pack** (initonly)
-Get/set output as list (creates single outlet object)<br>
-_type:_ flag<br>
+* **@int** 
+Get/set alias to @mode int. Output integer values in [0-255] range<br>
+_type:_ alias<br>
 
 * **@mode** 
 Get/set output mode<br>
@@ -38,13 +38,13 @@ _type:_ symbol<br>
 _enum:_ int, float<br>
 _default:_ int<br>
 
-* **@int** 
-Get/set alias to @mode int. Output integer values in [0-255] range<br>
-_type:_ alias<br>
+* **@pack** (initonly)
+Get/set output as list (creates single outlet object)<br>
+_type:_ flag<br>
 
-* **@float** 
-Get/set alias to @mode float. Output float values in [0-1] range<br>
-_type:_ alias<br>
+* **@sync** (initonly)
+Get/set output at any inlet change<br>
+_type:_ flag<br>
 
 
 

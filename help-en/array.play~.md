@@ -60,6 +60,12 @@ stop playback and reset play position<br>
 
 ## properties:
 
+* **@amp** 
+Get/set playback amplitude<br>
+_type:_ float<br>
+_min value:_ 0<br>
+_default:_ 1<br>
+
 * **@array** 
 Get/set array name<br>
 _type:_ symbol<br>
@@ -71,34 +77,11 @@ _type:_ float<br>
 _units:_ samp<br>
 _default:_ 0<br>
 
-* **@end** 
-Get/set playback end position. Negative value means position relative to the end of the
-array<br>
-_type:_ float<br>
-_units:_ samp<br>
-_default:_ -1<br>
-
-* **@speed** 
-Get/set playback speed. Negative value means reversed playback<br>
-_type:_ float<br>
-_default:_ 1<br>
-
-* **@amp** 
-Get/set playback amplitude<br>
-_type:_ float<br>
-_min value:_ 0<br>
-_default:_ 1<br>
-
-* **@loop** 
-Get/set samplewise loop playing mode<br>
-_type:_ bool<br>
-_default:_ 0<br>
-
-* **@interp** 
-Get/set interpolation type. 0: no interpolation 1: linear, 3: cubic.<br>
-_type:_ int<br>
-_enum:_ 0, 1, 3<br>
-_default:_ 1<br>
+* **@cfmt** 
+Get/set clock output format<br>
+_type:_ symbol<br>
+_enum:_ sec, ms, samp, phase<br>
+_default:_ sec<br>
 
 * **@clock** 
 Get/set clock output period. Zero means: no clock output (by default).<br>
@@ -107,27 +90,10 @@ _units:_ sec<br>
 _range:_ 0..20<br>
 _default:_ 0<br>
 
-* **@cfmt** 
-Get/set clock output format<br>
-_type:_ symbol<br>
-_enum:_ sec, ms, samp, phase<br>
-_default:_ sec<br>
-
-* **@state** (readonly)
-Get playing state. 0: stopped, 1: playing, 2: paused.<br>
-_type:_ int<br>
-_default:_ 0<br>
-
 * **@cursor_ms** 
 Get/set current play position<br>
 _type:_ float<br>
 _units:_ ms<br>
-_default:_ 0<br>
-
-* **@cursor_sec** 
-Get/set current play position<br>
-_type:_ float<br>
-_units:_ sec<br>
 _default:_ 0<br>
 
 * **@cursor_phase** 
@@ -141,16 +107,45 @@ _type:_ float<br>
 _units:_ samp<br>
 _default:_ 0<br>
 
-* **@select_samp** 
-Get/set selection range<br>
-_type:_ list<br>
+* **@cursor_sec** 
+Get/set current play position<br>
+_type:_ float<br>
+_units:_ sec<br>
+_default:_ 0<br>
+
+* **@end** 
+Get/set playback end position. Negative value means position relative to the end of the
+array<br>
+_type:_ float<br>
 _units:_ samp<br>
-_default:_ 0 0<br>
+_default:_ -1<br>
+
+* **@interp** 
+Get/set interpolation type. 0: no interpolation 1: linear, 3: cubic.<br>
+_type:_ int<br>
+_enum:_ 0, 1, 3<br>
+_default:_ 1<br>
+
+* **@loop** 
+Get/set samplewise loop playing mode<br>
+_type:_ bool<br>
+_default:_ 0<br>
 
 * **@select_ms** 
 Get/set selection range<br>
 _type:_ list<br>
 _units:_ ms<br>
+_default:_ 0 0<br>
+
+* **@select_phase** 
+Get/set selection range in [0, 1] range<br>
+_type:_ list<br>
+_default:_ 0 0<br>
+
+* **@select_samp** 
+Get/set selection range<br>
+_type:_ list<br>
+_units:_ samp<br>
 _default:_ 0 0<br>
 
 * **@select_sec** 
@@ -159,10 +154,15 @@ _type:_ list<br>
 _units:_ sec<br>
 _default:_ 0 0<br>
 
-* **@select_phase** 
-Get/set selection range in [0, 1] range<br>
-_type:_ list<br>
-_default:_ 0 0<br>
+* **@speed** 
+Get/set playback speed. Negative value means reversed playback<br>
+_type:_ float<br>
+_default:_ 1<br>
+
+* **@state** (readonly)
+Get playing state. 0: stopped, 1: playing, 2: paused.<br>
+_type:_ int<br>
+_default:_ 0<br>
 
 
 

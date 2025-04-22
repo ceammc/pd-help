@@ -33,19 +33,6 @@ _units:_ samp<br>
 
 ## properties:
 
-* **@framesize** 
-Get/set frame size in samples<br>
-_type:_ int<br>
-_units:_ samp<br>
-_enum:_ 128, 256, 512, 1024, 2048<br>
-_default:_ 1024<br>
-
-* **@overlap** 
-Get/set overlap of analysis frames<br>
-_type:_ int<br>
-_enum:_ 1, 2, 4, 8<br>
-_default:_ 1<br>
-
 * **@bias** 
 Get/set bias which favours small lags over large lags in the period detection, thereby
 avoiding low-octave jumps<br>
@@ -59,12 +46,25 @@ _type:_ float<br>
 _range:_ 0..1<br>
 _default:_ 0.95<br>
 
+* **@framesize** 
+Get/set frame size in samples<br>
+_type:_ int<br>
+_units:_ samp<br>
+_enum:_ 128, 256, 512, 1024, 2048<br>
+_default:_ 1024<br>
+
 * **@maxfreq** 
 Get/set max tracked frequency<br>
 _type:_ float<br>
 _units:_ Hz<br>
 _range:_ 10..10000<br>
 _default:_ 1500<br>
+
+* **@overlap** 
+Get/set overlap of analysis frames<br>
+_type:_ int<br>
+_enum:_ 1, 2, 4, 8<br>
+_default:_ 1<br>
 
 
 

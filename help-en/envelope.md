@@ -445,12 +445,6 @@ creates step-segmented envelope with arbitrary number of segments<br>
 
 ## properties:
 
-* **@npoints** (readonly)
-Get number of points<br>
-_type:_ int<br>
-_min value:_ 0<br>
-_default:_ 0<br>
-
 * **@length** (readonly)
 Get total envelope time length<br>
 _type:_ float<br>
@@ -458,16 +452,22 @@ _units:_ ms<br>
 _min value:_ 0<br>
 _default:_ 0<br>
 
+* **@npoints** (readonly)
+Get number of points<br>
+_type:_ int<br>
+_min value:_ 0<br>
+_default:_ 0<br>
+
 * **@points** (readonly)
 Get list of point times (ms)<br>
 _type:_ list<br>
 
-* **@values** (readonly)
-Get list of point values<br>
-_type:_ list<br>
-
 * **@stops** (readonly)
 Get list of stop points<br>
+_type:_ list<br>
+
+* **@values** (readonly)
+Get list of point values<br>
 _type:_ list<br>
 
 

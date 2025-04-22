@@ -48,6 +48,17 @@ _type:_ float<br>
 
 ## properties:
 
+* **@clip** 
+Get/set noclip (don&#39;t clip) max (clip ceiling) min (clip floor) minmax (clip both).<br>
+_type:_ symbol<br>
+_enum:_ noclip, min, max, minmax<br>
+_default:_ minmax<br>
+
+* **@curve** 
+Get/set 0 (linear) &lt;0 (concave, negatively curved) &gt;0 (convex, positively curved)<br>
+_type:_ float<br>
+_default:_ -4<br>
+
 * **@in_from** 
 Get/set begin of input range<br>
 _type:_ float<br>
@@ -58,6 +69,22 @@ Get/set end of input range<br>
 _type:_ float<br>
 _default:_ 127<br>
 
+* **@max** 
+Get/set alias to @clip max<br>
+_type:_ alias<br>
+
+* **@min** 
+Get/set alias to @clip min<br>
+_type:_ alias<br>
+
+* **@minmax** 
+Get/set alias to @clip minmax<br>
+_type:_ alias<br>
+
+* **@noclip** 
+Get/set alias to @clip noclip<br>
+_type:_ alias<br>
+
 * **@out_from** 
 Get/set begin of output range<br>
 _type:_ float<br>
@@ -67,33 +94,6 @@ _default:_ 0<br>
 Get/set end of output range<br>
 _type:_ float<br>
 _default:_ 1<br>
-
-* **@curve** 
-Get/set 0 (linear) &lt;0 (concave, negatively curved) &gt;0 (convex, positively curved)<br>
-_type:_ float<br>
-_default:_ -4<br>
-
-* **@clip** 
-Get/set noclip (don&#39;t clip) max (clip ceiling) min (clip floor) minmax (clip both).<br>
-_type:_ symbol<br>
-_enum:_ noclip, min, max, minmax<br>
-_default:_ minmax<br>
-
-* **@noclip** 
-Get/set alias to @clip noclip<br>
-_type:_ alias<br>
-
-* **@min** 
-Get/set alias to @clip min<br>
-_type:_ alias<br>
-
-* **@max** 
-Get/set alias to @clip max<br>
-_type:_ alias<br>
-
-* **@minmax** 
-Get/set alias to @clip minmax<br>
-_type:_ alias<br>
 
 
 

@@ -34,10 +34,9 @@ _type:_ symbol<br>
 Get/set target array name<br>
 _type:_ symbol<br>
 
-* **@redraw** 
-Get/set redraw after array change<br>
-_type:_ bool<br>
-_default:_ 1<br>
+* **@fit** 
+Get/set alias to @mode fit property<br>
+_type:_ alias<br>
 
 * **@mode** 
 Get/set rendering mode: *fit* to array size, *resize* array to envelope length or *raw*
@@ -46,16 +45,17 @@ _type:_ symbol<br>
 _enum:_ fit, resize, raw<br>
 _default:_ fit<br>
 
-* **@fit** 
-Get/set alias to @mode fit property<br>
+* **@raw** 
+Get/set alias to @mode raw property<br>
 _type:_ alias<br>
+
+* **@redraw** 
+Get/set redraw after array change<br>
+_type:_ bool<br>
+_default:_ 1<br>
 
 * **@resize** 
 Get/set alias to @mode resize property<br>
-_type:_ alias<br>
-
-* **@raw** 
-Get/set alias to @mode raw property<br>
 _type:_ alias<br>
 
 

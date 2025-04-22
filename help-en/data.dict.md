@@ -91,14 +91,14 @@ write dict as JSON file<br>
 
 ## properties:
 
-* **@keys** (readonly)
-Get keys of dictionary<br>
-_type:_ list<br>
-
 * **@empty** (readonly)
 Get 1 if dict is empty, otherwise 0<br>
 _type:_ bool<br>
 _default:_ 1<br>
+
+* **@keys** (readonly)
+Get keys of dictionary<br>
+_type:_ list<br>
 
 * **@size** (readonly)
 Get number of entries in dictionary<br>

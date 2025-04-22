@@ -36,27 +36,27 @@ _type:_ float<br>
 Get/set array name<br>
 _type:_ symbol<br>
 
-* **@speed** 
-Get/set ramp speed<br>
-_type:_ float<br>
-_default:_ 1<br>
-
 * **@from** 
 Get/set normalized to [0-1] range ramp start<br>
 _type:_ float<br>
 _range:_ 0..1<br>
 _default:_ 0<br>
 
+* **@range** 
+Get/set ramp range<br>
+_type:_ list<br>
+_default:_ 0 1<br>
+
+* **@speed** 
+Get/set ramp speed<br>
+_type:_ float<br>
+_default:_ 1<br>
+
 * **@to** 
 Get/set normalized to [0-1] range ramp end<br>
 _type:_ float<br>
 _range:_ 0..1<br>
 _default:_ 1<br>
-
-* **@range** 
-Get/set ramp range<br>
-_type:_ list<br>
-_default:_ 0 1<br>
 
 
 

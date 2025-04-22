@@ -55,21 +55,21 @@ stop playing<br>
 
 ## properties:
 
+* **@abs_begin** (readonly)
+Get absolute start position in samples<br>
+_type:_ int<br>
+_units:_ samp<br>
+_default:_ 0<br>
+
+* **@abs_end** (readonly)
+Get absolute stop position in samples<br>
+_type:_ int<br>
+_units:_ samp<br>
+_default:_ 0<br>
+
 * **@array** 
 Get/set array name<br>
 _type:_ symbol<br>
-
-* **@state** (readonly)
-Get player state<br>
-_type:_ symbol<br>
-_enum:_ play, stop<br>
-_default:_ stop<br>
-
-* **@speed** 
-Get/set play speed<br>
-_type:_ float<br>
-_min value:_ 0.1<br>
-_default:_ 1<br>
 
 * **@begin** 
 Get/set begin position in samples<br>
@@ -83,22 +83,22 @@ _type:_ int<br>
 _units:_ samp<br>
 _default:_ -1<br>
 
-* **@abs_begin** (readonly)
-Get absolute start position in samples<br>
-_type:_ int<br>
-_units:_ samp<br>
-_default:_ 0<br>
-
-* **@abs_end** (readonly)
-Get absolute stop position in samples<br>
-_type:_ int<br>
-_units:_ samp<br>
-_default:_ 0<br>
-
 * **@reversed** 
 Get/set playing backwards (if set to 1)<br>
 _type:_ bool<br>
 _default:_ 0<br>
+
+* **@speed** 
+Get/set play speed<br>
+_type:_ float<br>
+_min value:_ 0.1<br>
+_default:_ 1<br>
+
+* **@state** (readonly)
+Get player state<br>
+_type:_ symbol<br>
+_enum:_ play, stop<br>
+_default:_ stop<br>
 
 
 

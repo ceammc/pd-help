@@ -32,16 +32,16 @@ _type:_ int<br>
 
 ## properties:
 
+* **@rev** 
+Get/set reversed bit order<br>
+_type:_ bool<br>
+_default:_ 0<br>
+
 * **@size** 
 Get/set output bit-length<br>
 _type:_ int<br>
 _range:_ 1..32<br>
 _default:_ 32<br>
-
-* **@rev** 
-Get/set reversed bit order<br>
-_type:_ bool<br>
-_default:_ 0<br>
 
 
 

@@ -1,6 +1,6 @@
 # puredata
 
-Github Pages repository for CEAMMC Puredata documentation
+GitHub Pages repository for CEAMMC Puredata documentation
 
 
 run from root folder:<br>

@@ -24,6 +24,14 @@
 
 ## properties:
 
+* **@both** 
+Get/set alias to @mode both<br>
+_type:_ alias<br>
+
+* **@down** 
+Get/set alias to @mode down<br>
+_type:_ alias<br>
+
 * **@mode** 
 Get/set edge detection mode<br>
 _type:_ symbol<br>
@@ -32,14 +40,6 @@ _default:_ up<br>
 
 * **@up** 
 Get/set alias to @mode up<br>
-_type:_ alias<br>
-
-* **@down** 
-Get/set alias to @mode down<br>
-_type:_ alias<br>
-
-* **@both** 
-Get/set alias to @mode both<br>
 _type:_ alias<br>
 
 

@@ -47,16 +47,16 @@ resize target array<br>
 Get/set array name<br>
 _type:_ symbol<br>
 
-* **@on** 
-Get/set write mode<br>
-_type:_ bool<br>
-_default:_ 1<br>
-
 * **@interp** 
 Get/set interpolation mode<br>
 _type:_ int<br>
 _enum:_ 0, 1, 3<br>
 _default:_ 0<br>
+
+* **@on** 
+Get/set write mode<br>
+_type:_ bool<br>
+_default:_ 1<br>
 
 
 

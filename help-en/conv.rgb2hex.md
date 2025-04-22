@@ -24,19 +24,19 @@
 
 ## properties:
 
-* **@mode** 
-Get/set input mode<br>
-_type:_ symbol<br>
-_enum:_ int, float<br>
-_default:_ int<br>
+* **@float** 
+Get/set alias to @mode float. Expected input values are in [0-1] range<br>
+_type:_ alias<br>
 
 * **@int** 
 Get/set alias to @mode int. Expected input values are in [0-255] range<br>
 _type:_ alias<br>
 
-* **@float** 
-Get/set alias to @mode float. Expected input values are in [0-1] range<br>
-_type:_ alias<br>
+* **@mode** 
+Get/set input mode<br>
+_type:_ symbol<br>
+_enum:_ int, float<br>
+_default:_ int<br>
 
 * **@sync** (initonly)
 Get/set output value on any inlet change<br>

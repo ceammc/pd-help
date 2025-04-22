@@ -38,14 +38,14 @@ _type:_ int<br>
 _range:_ 1..64<br>
 _default:_ 8<br>
 
+* **@poly** (initonly)
+Get/set polyphonic mode for using with [clone] object<br>
+_type:_ flag<br>
+
 * **@rev** 
 Get/set reversed bit order<br>
 _type:_ bool<br>
 _default:_ 0<br>
-
-* **@poly** (initonly)
-Get/set polyphonic mode for using with [clone] object<br>
-_type:_ flag<br>
 
 
 

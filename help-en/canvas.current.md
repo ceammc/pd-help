@@ -22,27 +22,41 @@
 
 ## properties:
 
-* **@name** (readonly)
-Get canvas name<br>
-_type:_ symbol<br>
-_default:_ test_canvas<br>
+* **@abstraction** (readonly)
+Get 1 if canvas is abstraction<br>
+_type:_ bool<br>
+_default:_ 1<br>
+
+* **@args** (readonly)
+Get canvas creation arguments<br>
+_type:_ list<br>
 
 * **@dir** (readonly)
 Get canvas directory (only if top level or abstraction)<br>
 _type:_ symbol<br>
 _default:_ /<br>
 
-* **@args** (readonly)
-Get canvas creation arguments<br>
+* **@font** (readonly)
+Get canvas font size<br>
+_type:_ int<br>
+_default:_ 10<br>
+
+* **@height** (readonly)
+Get canvas height (window or GOP)<br>
+_type:_ int<br>
+_default:_ 400<br>
+
+* **@name** (readonly)
+Get canvas name<br>
+_type:_ symbol<br>
+_default:_ test_canvas<br>
+
+* **@paths** (readonly)
+Get canvas search paths<br>
 _type:_ list<br>
 
 * **@root** (readonly)
 Get 1 if canvas is top-level (window)<br>
-_type:_ bool<br>
-_default:_ 1<br>
-
-* **@abstraction** (readonly)
-Get 1 if canvas is abstraction<br>
 _type:_ bool<br>
 _default:_ 1<br>
 
@@ -52,24 +66,10 @@ return Graph on Parent size<br>
 _type:_ list<br>
 _default:_ 600 400<br>
 
-* **@font** (readonly)
-Get canvas font size<br>
-_type:_ int<br>
-_default:_ 10<br>
-
-* **@paths** (readonly)
-Get canvas search paths<br>
-_type:_ list<br>
-
 * **@width** (readonly)
 Get canvas width (window or GOP)<br>
 _type:_ int<br>
 _default:_ 600<br>
-
-* **@height** (readonly)
-Get canvas height (window or GOP)<br>
-_type:_ int<br>
-_default:_ 400<br>
 
 * **@x** (readonly)
 Get canvas x-pos (window or GOP)<br>

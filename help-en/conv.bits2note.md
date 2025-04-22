@@ -32,10 +32,9 @@ _type:_ list<br>
 
 ## properties:
 
-* **@poly** (initonly)
-Get/set polyphonic mode. (for using with [clone] object)<br>
-_type:_ flag<br>
-_default:_ 0<br>
+* **@keys** (initonly)
+Get/set list of mapped keys<br>
+_type:_ list<br>
 
 * **@mode** 
 Get/set mode for repeated notes. If &#39;off&#39; - send note off before retriggering, if &#39;tie&#39;
@@ -44,9 +43,10 @@ _type:_ symbol<br>
 _enum:_ off, tie, raw<br>
 _default:_ off<br>
 
-* **@keys** (initonly)
-Get/set list of mapped keys<br>
-_type:_ list<br>
+* **@poly** (initonly)
+Get/set polyphonic mode. (for using with [clone] object)<br>
+_type:_ flag<br>
+_default:_ 0<br>
 
 * **@vel** 
 Get/set output velocity<br>

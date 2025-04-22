@@ -169,6 +169,12 @@ uniformly arrange grains to fill specified time space<br>
 Get/set array name<br>
 _type:_ symbol<br>
 
+* **@prob** 
+Get/set grain start probability in internal or external sync mode. (&#39;int&#39; or &#39;ext&#39;)<br>
+_type:_ float<br>
+_range:_ 0..1<br>
+_default:_ 1<br>
+
 * **@sync** 
 Get/set grain sync mode. If &#39;none&#39;: start grains right after they are finished, if
 &#39;int&#39;: start grains after specified interval (@tsync).<br>
@@ -182,12 +188,6 @@ _type:_ float<br>
 _units:_ ms<br>
 _min value:_ 1<br>
 _default:_ 50<br>
-
-* **@prob** 
-Get/set grain start probability in internal or external sync mode. (&#39;int&#39; or &#39;ext&#39;)<br>
-_type:_ float<br>
-_range:_ 0..1<br>
-_default:_ 1<br>
 
 
 

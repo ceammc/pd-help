@@ -7,7 +7,7 @@ layout: default_ru
 ## Категория: an
 
 ---
-
+объекты для анализа свойств звука
 
 
 [**an.onset**](an.onset.html): onset detector for arrays 

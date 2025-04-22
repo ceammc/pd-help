@@ -57,7 +57,7 @@ layout: default_ru
 
 
 ### <a id="cat_an" href="category_an.html">an</a>
-
+объекты для анализа свойств звука
 
 ---
 

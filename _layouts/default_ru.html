@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="{{ site.lang | default: "ru" }}">
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,7 +15,7 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+        <h1><a href="{{ "/" | absolute_url }}">{{ site.title_ru | default: site.github.repository_name }}</a></h1>
 
         {% if site.logo %}
           <!-- <a href="{{ "/" | absolute_url }}">
@@ -23,21 +23,21 @@
           </a> -->
         {% endif %}
 
-        <p>{{ site.description | default: site.github.project_tagline }}</p>
+        <p>{{ site.description_ru | default: site.github.project_tagline }}</p>
 
         {% if site.github.repository_url %}
-        <p class="view"><a href="{{ site.github.repository_url }}">View on GitHub</a></p>
+        <p class="view"><a href="{{ site.github.repository_url }}">Перейти на Git</a></p>
         {% endif %}
 
         {% if site.show_downloads %}
-        <h3>Distribution download</h3>
+        <h3>Загрузка дистрибутива</h3>
         {% assign macos_x86 = site.data.ceammc.distrib.macos.download_x86 %}
         {% assign macos_arm = site.data.ceammc.distrib.macos.download_arm %}
-        {% assign win_x86   = site.data.ceammc.distrib.win.download_x86 %}
+        {% assign win_x86 = site.data.ceammc.distrib.win.download_x86 %}
         <ul class="downloads">
-          <li><a href="{{macos_x86}}">Download <strong>Mac x86</strong></a></li>
-          <li><a href="{{macos_arm}}">Download <strong>Mac ARM</strong></a></li>
-          <li><a href="{{win_x86}}">Download <strong>Windows</strong></a></li>
+          <li><a href="{{macos_x86}}">Загрузка <strong>Mac(x86)</strong></a></li>
+          <li><a href="{{macos_arm}}">Загрузка <strong>Mac(arm)</strong></a></li>
+          <li><a href="{{win_x86}}">Загрузка <strong>Windows</strong></a></li>
         </ul>
       {% endif %}
       </header>
@@ -48,9 +48,9 @@
       </section>
       <footer>
         {% if site.github.is_project_page %}
-        <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+        <p>Проект разрабатывается <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
         {% endif %}
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+        <p><small>Hosted on GitHub Pages &mdash; тема <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>

@@ -2,3 +2,9 @@ external:
   version: 0.9.8
 distrib:
   version: 2025.04
+  macos:
+    download_x86: https://github.com/uliss/pd-ceammc/releases/download/v2025.04/Pd-ceammc_2025.04-macos-10.15-x86_64.dmg
+    download_arm: https://github.com/uliss/pd-ceammc/releases/download/v2025.04/Pd-ceammc_2025.04-macos-12.7-arm64.dmg
+  win:
+    download_x86: https://github.com/uliss/pd-ceammc/releases/download/v2025.04/PureData-ceammc-2025.04-x86_64-float-setup.exe
+    

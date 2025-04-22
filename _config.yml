@@ -1,11 +1,13 @@
 theme: jekyll-theme-minimal
-exclude: [src-en, src-ru, build, examples/ascii, scripts, config.sh, CMakeLists.txt]
+exclude: [src-en, src-ru, src-vanilla-ru, src-vanilla-en, help-vanilla-en,  help-vanilla-ru, build, examples/ascii, help-en, scripts, config.sh, CMakeLists.txt]
 show_downloads: true
 title: "PureData CEAMMC web documentation"
+title_ru: "PureData CEAMMC веб-документация"
 description: "PureData CEAMMC library web documentation"
+description_ru: "Веб-документация библиотеки расширений PureData CEAMMC"
 
 social-network-links:
-  facebook: ceammc
+  # facebook: ceammc
   github: ceammc
 
 # Add a search button to the navbar
@@ -15,7 +17,7 @@ post_search: true
 keywords: "ceammc,puredata,music,center,electroacoustic,library"
 
 github:
-  repository_url: https://github.com/uliss/pure-data
+  repository_url: https://github.com/uliss/pd-ceammc
 
 snapcraft:
   url: https://snapcraft.io/pd-ceammc

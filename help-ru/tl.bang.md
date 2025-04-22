@@ -34,16 +34,16 @@ _единица:_ ms<br>
 
 ## свойства:
 
+* **@cue** (readonly)
+Запросить related cue<br>
+_тип:_ symbol<br>
+
 * **@delay** 
 Запросить/установить bang delay after cue activation<br>
 _тип:_ float<br>
 _единица:_ ms<br>
 _минимальное значение:_ 0<br>
 _по умолчанию:_ 0<br>
-
-* **@cue** (readonly)
-Запросить related cue<br>
-_тип:_ symbol<br>
 
 
 

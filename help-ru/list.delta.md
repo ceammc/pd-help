@@ -31,22 +31,8 @@ sets to empty list current state<br>
 
 ## свойства:
 
-* **@oversize** 
-Запросить/установить behavior, if list have different sizes<br>
-_тип:_ symbol<br>
-_варианты:_ min, padz, clip, wrap, fold<br>
-_по умолчанию:_ padz<br>
-
-* **@min** 
-Запросить/установить alias for &#34;@oversize min&#34; property. Truncates lists to minimal common size<br>
-_тип:_ alias<br>
-
 * **@clip** 
 Запросить/установить alias for &#34;@oversize min&#34; property. Truncates lists to minimal common size.<br>
-_тип:_ alias<br>
-
-* **@padz** 
-Запросить/установить alias for &#34;@oversize padz&#34; property. Pad shortest list with zeroes.<br>
 _тип:_ alias<br>
 
 * **@clip** 
@@ -54,14 +40,28 @@ _тип:_ alias<br>
 conform longest list<br>
 _тип:_ alias<br>
 
-* **@wrap** 
-Запросить/установить alias for &#34;@oversize wrap&#34; property. Pad shortest list with repeated values
-from the beginning.<br>
-_тип:_ alias<br>
-
 * **@fold** 
 Запросить/установить alias for &#34;@oversize fold&#34; property. Pad shortest list with repeated values
 from the end to the beginning, then back and so on.<br>
+_тип:_ alias<br>
+
+* **@min** 
+Запросить/установить alias for &#34;@oversize min&#34; property. Truncates lists to minimal common size<br>
+_тип:_ alias<br>
+
+* **@oversize** 
+Запросить/установить behavior, if list have different sizes<br>
+_тип:_ symbol<br>
+_варианты:_ min, padz, clip, wrap, fold<br>
+_по умолчанию:_ padz<br>
+
+* **@padz** 
+Запросить/установить alias for &#34;@oversize padz&#34; property. Pad shortest list with zeroes.<br>
+_тип:_ alias<br>
+
+* **@wrap** 
+Запросить/установить alias for &#34;@oversize wrap&#34; property. Pad shortest list with repeated values
+from the beginning.<br>
 _тип:_ alias<br>
 
 

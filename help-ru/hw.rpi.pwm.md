@@ -31,10 +31,17 @@ _тип:_ int<br>
 
 ## методы:
 
-* **polarity**
-set output polarity<br>
+* **duty**
+set duty cycle<br>
   __параметры:__
-  - **INVERTED** new value. If true: polarity is inverted<br>
+  - **DUTY** duty cycle<br>
+    тип: float <br>
+    обязательно: True <br>
+
+* **enable**
+enable PWM. By default it is disabled.<br>
+  __параметры:__
+  - **ENABLE** value<br>
     тип: bool <br>
     обязательно: True <br>
 
@@ -50,6 +57,21 @@ set frequency<br>
     тип: float <br>
     обязательно: True <br>
 
+* **period**
+set period. Expected width&lt;=pulse.<br>
+  __параметры:__
+  - **PERIOD** the whole cycle period<br>
+    тип: float <br>
+    единица: ms <br>
+    обязательно: True <br>
+
+* **polarity**
+set output polarity<br>
+  __параметры:__
+  - **INVERTED** new value. If true: polarity is inverted<br>
+    тип: bool <br>
+    обязательно: True <br>
+
 * **pwm**
 set period and pulse width. Expected width&lt;=pulse.<br>
   __параметры:__
@@ -63,34 +85,12 @@ set period and pulse width. Expected width&lt;=pulse.<br>
     единица: ms <br>
     обязательно: True <br>
 
-* **period**
-set period. Expected width&lt;=pulse.<br>
-  __параметры:__
-  - **PERIOD** the whole cycle period<br>
-    тип: float <br>
-    единица: ms <br>
-    обязательно: True <br>
-
 * **width**
 set pulse width. Expected width&lt;=pulse.<br>
   __параметры:__
   - **WIDTH** pulse width<br>
     тип: float <br>
     единица: ms <br>
-    обязательно: True <br>
-
-* **enable**
-enable PWM. By default it is disabled.<br>
-  __параметры:__
-  - **ENABLE** value<br>
-    тип: bool <br>
-    обязательно: True <br>
-
-* **duty**
-set duty cycle<br>
-  __параметры:__
-  - **DUTY** duty cycle<br>
-    тип: float <br>
     обязательно: True <br>
 
 

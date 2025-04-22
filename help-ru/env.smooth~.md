@@ -45,6 +45,20 @@ reset envelope to initial state<br>
 
 ## свойства:
 
+* **@osc** (initonly)
+Запросить/установить OSC server name to listen<br>
+_тип:_ symbol<br>
+
+* **@id** (initonly)
+Запросить/установить OSC address id. If specified, bind all properties to /ID/env_smooth/PROP_NAME
+osc address, if empty bind to /env_smooth/PROP_NAME.<br>
+_тип:_ symbol<br>
+
+* **@active** 
+Запросить/установить on/off dsp processing<br>
+_тип:_ bool<br>
+_по умолчанию:_ 1<br>
+
 * **@duration** 
 Запросить/установить attack/release time (time to get -60db level)<br>
 _тип:_ float<br>
@@ -56,20 +70,6 @@ _по умолчанию:_ 100<br>
 Запросить/установить trigger signal<br>
 _тип:_ bool<br>
 _по умолчанию:_ 0<br>
-
-* **@active** 
-Запросить/установить on/off dsp processing<br>
-_тип:_ bool<br>
-_по умолчанию:_ 1<br>
-
-* **@osc** (initonly)
-Запросить/установить OSC server name to listen<br>
-_тип:_ symbol<br>
-
-* **@id** (initonly)
-Запросить/установить OSC address id. If specified, bind all properties to /ID/env_smooth/PROP_NAME
-osc address, if empty bind to /env_smooth/PROP_NAME.<br>
-_тип:_ symbol<br>
 
 
 

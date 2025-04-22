@@ -54,19 +54,15 @@ send GET request<br>
 _тип:_ symbol<br>
 _по умолчанию:_ localhost<br>
 
+* **@pass** 
+Запросить/установить Basic Auth password<br>
+_тип:_ atom<br>
+
 * **@port** 
 Запросить/установить destination port<br>
 _тип:_ int<br>
 _диапазон:_ 1..32768<br>
 _по умолчанию:_ 80<br>
-
-* **@user** 
-Запросить/установить Basic Auth user name<br>
-_тип:_ symbol<br>
-
-* **@pass** 
-Запросить/установить Basic Auth password<br>
-_тип:_ atom<br>
 
 * **@timeout** 
 Запросить/установить TCP connection timeout<br>
@@ -74,6 +70,10 @@ _тип:_ int<br>
 _единица:_ sec<br>
 _диапазон:_ 1..10<br>
 _по умолчанию:_ 1<br>
+
+* **@user** 
+Запросить/установить Basic Auth user name<br>
+_тип:_ symbol<br>
 
 
 

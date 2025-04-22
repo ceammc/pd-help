@@ -60,19 +60,19 @@ reset filter state<br>
 
 ## свойства:
 
-* **@f250** 
-Запросить/установить first filter (lowpass) gain at 250Hz<br>
-_тип:_ float<br>
-_единица:_ db<br>
-_диапазон:_ -6..6<br>
-_по умолчанию:_ 0<br>
+* **@osc** (initonly)
+Запросить/установить OSC server name to listen<br>
+_тип:_ symbol<br>
 
-* **@f500** 
-Запросить/установить second filter (bandpass) gain at 500Hz<br>
-_тип:_ float<br>
-_единица:_ db<br>
-_диапазон:_ -6..6<br>
-_по умолчанию:_ 0<br>
+* **@id** (initonly)
+Запросить/установить OSC address id. If specified, bind all properties to /ID/flt_fbank5x1/PROP_NAME
+osc address, if empty bind to /flt_fbank5x1/PROP_NAME.<br>
+_тип:_ symbol<br>
+
+* **@active** 
+Запросить/установить on/off dsp processing<br>
+_тип:_ bool<br>
+_по умолчанию:_ 1<br>
 
 * **@f1000** 
 Запросить/установить third filter (bandpass) gain at 1000Hz<br>
@@ -88,6 +88,13 @@ _единица:_ db<br>
 _диапазон:_ -6..6<br>
 _по умолчанию:_ 0<br>
 
+* **@f250** 
+Запросить/установить first filter (lowpass) gain at 250Hz<br>
+_тип:_ float<br>
+_единица:_ db<br>
+_диапазон:_ -6..6<br>
+_по умолчанию:_ 0<br>
+
 * **@f4000** 
 Запросить/установить fifth filter (highpass) gain at 4000Hz<br>
 _тип:_ float<br>
@@ -95,19 +102,12 @@ _единица:_ db<br>
 _диапазон:_ -6..6<br>
 _по умолчанию:_ 0<br>
 
-* **@active** 
-Запросить/установить on/off dsp processing<br>
-_тип:_ bool<br>
-_по умолчанию:_ 1<br>
-
-* **@osc** (initonly)
-Запросить/установить OSC server name to listen<br>
-_тип:_ symbol<br>
-
-* **@id** (initonly)
-Запросить/установить OSC address id. If specified, bind all properties to /ID/flt_fbank5x1/PROP_NAME
-osc address, if empty bind to /flt_fbank5x1/PROP_NAME.<br>
-_тип:_ symbol<br>
+* **@f500** 
+Запросить/установить second filter (bandpass) gain at 500Hz<br>
+_тип:_ float<br>
+_единица:_ db<br>
+_диапазон:_ -6..6<br>
+_по умолчанию:_ 0<br>
 
 
 

@@ -31,11 +31,6 @@ _тип:_ list<br>
 
 ## свойства:
 
-* **@sublist** 
-Запросить/установить sublist mode, output 1 if input list contains this property value as sublist,
-otherwise 0<br>
-_тип:_ list<br>
-
 * **@all_of** 
 Запросить/установить all_of mode, output 1 is input list contains all of this property values<br>
 _тип:_ list<br>
@@ -47,6 +42,11 @@ _тип:_ list<br>
 
 * **@none_of** 
 Запросить/установить none_of mode, output 1 is input list contains none of this property values<br>
+_тип:_ list<br>
+
+* **@sublist** 
+Запросить/установить sublist mode, output 1 if input list contains this property value as sublist,
+otherwise 0<br>
 _тип:_ list<br>
 
 

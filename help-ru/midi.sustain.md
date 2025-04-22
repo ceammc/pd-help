@@ -33,13 +33,13 @@ _тип:_ bool<br>
 
 ## свойства:
 
-* **@on** 
-Запросить/установить pedal state<br>
+* **@ctlin** 
+Запросить/установить listen to CTL64 from MIDI controller<br>
 _тип:_ bool<br>
 _по умолчанию:_ 0<br>
 
-* **@ctlin** 
-Запросить/установить listen to CTL64 from MIDI controller<br>
+* **@on** 
+Запросить/установить pedal state<br>
 _тип:_ bool<br>
 _по умолчанию:_ 0<br>
 

@@ -41,11 +41,20 @@ reset to start position<br>
 
 ## свойства:
 
-* **@rate** 
-Запросить/установить glissanso speed<br>
-_тип:_ float<br>
-_диапазон:_ -2..2<br>
-_по умолчанию:_ 0.01<br>
+* **@osc** (initonly)
+Запросить/установить OSC server name to listen<br>
+_тип:_ symbol<br>
+
+* **@id** (initonly)
+Запросить/установить OSC address id. If specified, bind all properties to
+/ID/synth_risset_tone/PROP_NAME osc address, if empty bind to
+/synth_risset_tone/PROP_NAME.<br>
+_тип:_ symbol<br>
+
+* **@active** 
+Запросить/установить on/off dsp processing<br>
+_тип:_ bool<br>
+_по умолчанию:_ 1<br>
 
 * **@centroid** 
 Запросить/установить main frequency. Units: MIDI note<br>
@@ -59,20 +68,11 @@ _тип:_ float<br>
 _диапазон:_ 1..120<br>
 _по умолчанию:_ 120<br>
 
-* **@active** 
-Запросить/установить on/off dsp processing<br>
-_тип:_ bool<br>
-_по умолчанию:_ 1<br>
-
-* **@osc** (initonly)
-Запросить/установить OSC server name to listen<br>
-_тип:_ symbol<br>
-
-* **@id** (initonly)
-Запросить/установить OSC address id. If specified, bind all properties to
-/ID/synth_risset_tone/PROP_NAME osc address, if empty bind to
-/synth_risset_tone/PROP_NAME.<br>
-_тип:_ symbol<br>
+* **@rate** 
+Запросить/установить glissanso speed<br>
+_тип:_ float<br>
+_диапазон:_ -2..2<br>
+_по умолчанию:_ 0.01<br>
 
 
 

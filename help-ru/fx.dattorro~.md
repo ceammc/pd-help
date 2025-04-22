@@ -43,54 +43,36 @@ reset reverb<br>
 
 ## свойства:
 
-* **@decay** 
-Запросить/установить decay rate. Infinite decay = 1.0<br>
+* **@osc** (initonly)
+Запросить/установить OSC server name to listen<br>
+_тип:_ symbol<br>
+
+* **@id** (initonly)
+Запросить/установить OSC address id. If specified, bind all properties to /ID/fx_dattorro/PROP_NAME
+osc address, if empty bind to /fx_dattorro/PROP_NAME.<br>
+_тип:_ symbol<br>
+
+* **@active** 
+Запросить/установить on/off dsp processing<br>
+_тип:_ bool<br>
+_по умолчанию:_ 1<br>
+
+* **@bw** 
+Запросить/установить band-width filter (pre filtering)<br>
 _тип:_ float<br>
 _диапазон:_ 0..1<br>
-_по умолчанию:_ 0.5<br>
-
-* **@damp** 
-Запросить/установить high-frequency damping. No damping = 0.0<br>
-_тип:_ float<br>
-_диапазон:_ 0..1<br>
-_по умолчанию:_ 0.0005<br>
-
-* **@drywet** 
-Запросить/установить proportion of mix between the original (dry) and &#39;effected&#39; (wet) signals. 0 -
-dry signal, 1 - wet<br>
-_тип:_ float<br>
-_диапазон:_ 0..1<br>
-_по умолчанию:_ 0.33<br>
-
-* **@predelay** 
-Запросить/установить a delay operating on the &#39;wet&#39; signal. Large values will provide the impression
-of a larger room<br>
-_тип:_ float<br>
-_единица:_ ms<br>
-_диапазон:_ 0..100<br>
-_по умолчанию:_ 40<br>
-
-* **@idiff1** 
-Запросить/установить input diffusion factor 1<br>
-_тип:_ float<br>
-_диапазон:_ 0..1<br>
-_по умолчанию:_ 0.625<br>
-
-* **@idiff2** 
-Запросить/установить input diffusion factor 2<br>
-_тип:_ float<br>
-_диапазон:_ 0..1<br>
-_по умолчанию:_ 0.75<br>
+_по умолчанию:_ 0.9995<br>
 
 * **@bypass** 
 Запросить/установить bypass flag. If true: bypass &#39;effected&#39; signal.<br>
 _тип:_ bool<br>
 _по умолчанию:_ 0<br>
 
-* **@active** 
-Запросить/установить on/off dsp processing<br>
-_тип:_ bool<br>
-_по умолчанию:_ 1<br>
+* **@damp** 
+Запросить/установить high-frequency damping. No damping = 0.0<br>
+_тип:_ float<br>
+_диапазон:_ 0..1<br>
+_по умолчанию:_ 0.0005<br>
 
 * **@ddiff1** 
 Запросить/установить decay diffusion factor 1<br>
@@ -104,20 +86,38 @@ _тип:_ float<br>
 _диапазон:_ 0..1<br>
 _по умолчанию:_ 0.7<br>
 
-* **@bw** 
-Запросить/установить band-width filter (pre filtering)<br>
+* **@decay** 
+Запросить/установить decay rate. Infinite decay = 1.0<br>
 _тип:_ float<br>
 _диапазон:_ 0..1<br>
-_по умолчанию:_ 0.9995<br>
+_по умолчанию:_ 0.5<br>
 
-* **@osc** (initonly)
-Запросить/установить OSC server name to listen<br>
-_тип:_ symbol<br>
+* **@drywet** 
+Запросить/установить proportion of mix between the original (dry) and &#39;effected&#39; (wet) signals. 0 -
+dry signal, 1 - wet<br>
+_тип:_ float<br>
+_диапазон:_ 0..1<br>
+_по умолчанию:_ 0.33<br>
 
-* **@id** (initonly)
-Запросить/установить OSC address id. If specified, bind all properties to /ID/fx_dattorro/PROP_NAME
-osc address, if empty bind to /fx_dattorro/PROP_NAME.<br>
-_тип:_ symbol<br>
+* **@idiff1** 
+Запросить/установить input diffusion factor 1<br>
+_тип:_ float<br>
+_диапазон:_ 0..1<br>
+_по умолчанию:_ 0.625<br>
+
+* **@idiff2** 
+Запросить/установить input diffusion factor 2<br>
+_тип:_ float<br>
+_диапазон:_ 0..1<br>
+_по умолчанию:_ 0.75<br>
+
+* **@predelay** 
+Запросить/установить a delay operating on the &#39;wet&#39; signal. Large values will provide the impression
+of a larger room<br>
+_тип:_ float<br>
+_единица:_ ms<br>
+_диапазон:_ 0..100<br>
+_по умолчанию:_ 40<br>
 
 
 

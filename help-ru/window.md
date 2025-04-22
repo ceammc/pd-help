@@ -73,17 +73,17 @@ Sets Welch window type<br>
 
 ## свойства:
 
-* **@type** 
-Запросить/установить window type. See argument description<br>
-_тип:_ symbol<br>
-_по умолчанию:_ hann<br>
-
 * **@size** 
 Запросить/установить window size<br>
 _тип:_ int<br>
 _единица:_ samp<br>
 _минимальное значение:_ 16<br>
 _по умолчанию:_ 512<br>
+
+* **@type** 
+Запросить/установить window type. See argument description<br>
+_тип:_ symbol<br>
+_по умолчанию:_ hann<br>
 
 
 

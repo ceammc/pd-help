@@ -23,6 +23,21 @@ layout: default_ru
 
 ## методы:
 
+* **clear_pwm**
+clear PWM settings for pin<br>
+  __параметры:__
+  - **PIN** pin number<br>
+    тип: int <br>
+    обязательно: True <br>
+
+* **impulse**
+send impulse of specified length<br>
+  __параметры:__
+  - **LENGTH** impulse length<br>
+    тип: int <br>
+    единица: ms <br>
+    обязательно: True <br>
+
 * **input**
 config pin into input mode<br>
   __параметры:__
@@ -32,38 +47,6 @@ config pin into input mode<br>
 
 * **output**
 config pin into output mode<br>
-  __параметры:__
-  - **PIN** pin number<br>
-    тип: int <br>
-    обязательно: True <br>
-
-* **read**
-read current pin value<br>
-  __параметры:__
-  - **PIN** pin number<br>
-    тип: int <br>
-    обязательно: True <br>
-
-* **reset**
-reset current pin to initial state<br>
-  __параметры:__
-  - **PIN** pin number<br>
-    тип: int <br>
-    обязательно: True <br>
-
-* **write**
-write value to the pin<br>
-  __параметры:__
-  - **PIN** pin number<br>
-    тип: int <br>
-    обязательно: True <br>
-
-  - **VALUE** value<br>
-    тип: bool <br>
-    обязательно: True <br>
-
-* **toggle**
-toggle output pin current value<br>
   __параметры:__
   - **PIN** pin number<br>
     тип: int <br>
@@ -84,6 +67,13 @@ start/stop pin value polling<br>
     тип: float <br>
     единица: ms <br>
 
+* **pull_down**
+pull internal pin resistors to low level<br>
+  __параметры:__
+  - **PIN** pin number<br>
+    тип: int <br>
+    обязательно: True <br>
+
 * **pull_up**
 pull internal pin resistors to high level<br>
   __параметры:__
@@ -91,8 +81,15 @@ pull internal pin resistors to high level<br>
     тип: int <br>
     обязательно: True <br>
 
-* **pull_down**
-pull internal pin resistors to low level<br>
+* **read**
+read current pin value<br>
+  __параметры:__
+  - **PIN** pin number<br>
+    тип: int <br>
+    обязательно: True <br>
+
+* **reset**
+reset current pin to initial state<br>
   __параметры:__
   - **PIN** pin number<br>
     тип: int <br>
@@ -131,8 +128,8 @@ set software PWM frequency for pin<br>
     тип: float <br>
     обязательно: True <br>
 
-* **clear_pwm**
-clear PWM settings for pin<br>
+* **toggle**
+toggle output pin current value<br>
   __параметры:__
   - **PIN** pin number<br>
     тип: int <br>
@@ -141,12 +138,15 @@ clear PWM settings for pin<br>
 * **used_pins**
 list used GPIO pins. Outputs [pins PIN...( message<br>
 
-* **impulse**
-send impulse of specified length<br>
+* **write**
+write value to the pin<br>
   __параметры:__
-  - **LENGTH** impulse length<br>
+  - **PIN** pin number<br>
     тип: int <br>
-    единица: ms <br>
+    обязательно: True <br>
+
+  - **VALUE** value<br>
+    тип: bool <br>
     обязательно: True <br>
 
 

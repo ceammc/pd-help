@@ -38,24 +38,24 @@ _тип:_ symbol<br>
 * **clear**
 clear preset at specified index<br>
 
+* **interp**
+do nothing<br>
+
 * **load**
 load preset value by specified index and output it<br>
 
 * **store**
 stores preset value at specified index<br>
 
-* **interp**
-do nothing<br>
-
 
 
 
 ## свойства:
 
-* **@path** (readonly)
-Запросить property OSC-like path that includes id, abstraction name and may be subpatch
-name separated by slashes.<br>
-_тип:_ symbol<br>
+* **@global** (initonly)
+Запросить/установить use global path like /ID<br>
+_тип:_ flag<br>
+_по умолчанию:_ 0<br>
 
 * **@id** (initonly)
 Запросить/установить preset id<br>
@@ -65,10 +65,10 @@ _тип:_ symbol<br>
 Запросить/установить init symbol value<br>
 _тип:_ symbol<br>
 
-* **@global** (initonly)
-Запросить/установить use global path like /ID<br>
-_тип:_ flag<br>
-_по умолчанию:_ 0<br>
+* **@path** (readonly)
+Запросить property OSC-like path that includes id, abstraction name and may be subpatch
+name separated by slashes.<br>
+_тип:_ symbol<br>
 
 * **@subpatch** (initonly)
 Запросить/установить include subpatch name to path<br>

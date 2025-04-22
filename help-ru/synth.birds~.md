@@ -36,34 +36,6 @@ _единица:_ %<br>
 
 ## свойства:
 
-* **@speed** 
-Запросить/установить maximum speed of whistles if @auto enabled<br>
-_тип:_ float<br>
-_диапазон:_ 120..480<br>
-_по умолчанию:_ 240<br>
-
-* **@probability** 
-Запросить/установить whistles probability if @auto enabled<br>
-_тип:_ float<br>
-_единица:_ %<br>
-_диапазон:_ 25..100<br>
-_по умолчанию:_ 50<br>
-
-* **@gate** 
-Запросить/установить play trigger. Starts playing on release<br>
-_тип:_ bool<br>
-_по умолчанию:_ 0<br>
-
-* **@auto** 
-Запросить/установить auto playing mode<br>
-_тип:_ bool<br>
-_по умолчанию:_ 0<br>
-
-* **@active** 
-Запросить/установить on/off dsp processing<br>
-_тип:_ bool<br>
-_по умолчанию:_ 1<br>
-
 * **@osc** (initonly)
 Запросить/установить OSC server name to listen<br>
 _тип:_ symbol<br>
@@ -72,6 +44,34 @@ _тип:_ symbol<br>
 Запросить/установить OSC address id. If specified, bind all properties to /ID/synth_birds/PROP_NAME
 osc address, if empty bind to /synth_birds/PROP_NAME.<br>
 _тип:_ symbol<br>
+
+* **@active** 
+Запросить/установить on/off dsp processing<br>
+_тип:_ bool<br>
+_по умолчанию:_ 1<br>
+
+* **@auto** 
+Запросить/установить auto playing mode<br>
+_тип:_ bool<br>
+_по умолчанию:_ 0<br>
+
+* **@gate** 
+Запросить/установить play trigger. Starts playing on release<br>
+_тип:_ bool<br>
+_по умолчанию:_ 0<br>
+
+* **@probability** 
+Запросить/установить whistles probability if @auto enabled<br>
+_тип:_ float<br>
+_единица:_ %<br>
+_диапазон:_ 25..100<br>
+_по умолчанию:_ 50<br>
+
+* **@speed** 
+Запросить/установить maximum speed of whistles if @auto enabled<br>
+_тип:_ float<br>
+_диапазон:_ 120..480<br>
+_по умолчанию:_ 240<br>
 
 
 

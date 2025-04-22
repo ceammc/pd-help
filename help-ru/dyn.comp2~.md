@@ -59,18 +59,19 @@ reset to initial state<br>
 
 ## свойства:
 
-* **@ratio** 
-Запросить/установить compression ratio (1 = no compression, &gt;1 means compression)<br>
-_тип:_ float<br>
-_диапазон:_ 1..16<br>
-_по умолчанию:_ 1<br>
+* **@osc** (initonly)
+Запросить/установить OSC server name to listen<br>
+_тип:_ symbol<br>
 
-* **@threshold** 
-Запросить/установить level threshold above which compression kicks in<br>
-_тип:_ float<br>
-_единица:_ db<br>
-_диапазон:_ -90..0<br>
-_по умолчанию:_ -10<br>
+* **@id** (initonly)
+Запросить/установить OSC address id. If specified, bind all properties to /ID/dyn_comp2/PROP_NAME
+osc address, if empty bind to /dyn_comp2/PROP_NAME.<br>
+_тип:_ symbol<br>
+
+* **@active** 
+Запросить/установить on/off dsp processing<br>
+_тип:_ bool<br>
+_по умолчанию:_ 1<br>
 
 * **@attack** 
 Запросить/установить time constant when level &amp; compression going up<br>
@@ -79,12 +80,10 @@ _единица:_ ms<br>
 _диапазон:_ 0.1..100<br>
 _по умолчанию:_ 10<br>
 
-* **@release** 
-Запросить/установить release time = time constant coming out of compression<br>
-_тип:_ float<br>
-_единица:_ ms<br>
-_диапазон:_ 1..500<br>
-_по умолчанию:_ 50<br>
+* **@bypass** 
+Запросить/установить bypass flag. If true: bypass &#39;effected&#39; signal.<br>
+_тип:_ bool<br>
+_по умолчанию:_ 0<br>
 
 * **@gain** 
 Запросить/установить make up gain: applied to the signal after the compression takes place<br>
@@ -93,20 +92,16 @@ _единица:_ db<br>
 _диапазон:_ -18..18<br>
 _по умолчанию:_ 0<br>
 
-* **@bypass** 
-Запросить/установить bypass flag. If true: bypass &#39;effected&#39; signal.<br>
-_тип:_ bool<br>
-_по умолчанию:_ 0<br>
-
 * **@level** (readonly)
 Запросить current level of compression<br>
 _тип:_ float<br>
 _диапазон:_ 0..1<br>
 _по умолчанию:_ 0<br>
 
-* **@active** 
-Запросить/установить on/off dsp processing<br>
-_тип:_ bool<br>
+* **@ratio** 
+Запросить/установить compression ratio (1 = no compression, &gt;1 means compression)<br>
+_тип:_ float<br>
+_диапазон:_ 1..16<br>
 _по умолчанию:_ 1<br>
 
 * **@refresh** 
@@ -116,14 +111,19 @@ _единица:_ ms<br>
 _диапазон:_ 0..1000<br>
 _по умолчанию:_ 100<br>
 
-* **@osc** (initonly)
-Запросить/установить OSC server name to listen<br>
-_тип:_ symbol<br>
+* **@release** 
+Запросить/установить release time = time constant coming out of compression<br>
+_тип:_ float<br>
+_единица:_ ms<br>
+_диапазон:_ 1..500<br>
+_по умолчанию:_ 50<br>
 
-* **@id** (initonly)
-Запросить/установить OSC address id. If specified, bind all properties to /ID/dyn_comp2/PROP_NAME
-osc address, if empty bind to /dyn_comp2/PROP_NAME.<br>
-_тип:_ symbol<br>
+* **@threshold** 
+Запросить/установить level threshold above which compression kicks in<br>
+_тип:_ float<br>
+_единица:_ db<br>
+_диапазон:_ -90..0<br>
+_по умолчанию:_ -10<br>
 
 
 

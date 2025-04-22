@@ -47,12 +47,6 @@ turn the sensor polling on/off<br>
 
 ## свойства:
 
-* **@trig_pin** (initonly)
-Запросить/установить a trigger pin GPIO number<br>
-_тип:_ int<br>
-_диапазон:_ 0..255<br>
-_по умолчанию:_ 17<br>
-
 * **@echo_pin** (initonly)
 Запросить/установить an echo pin GPIO number<br>
 _тип:_ int<br>
@@ -65,6 +59,12 @@ _тип:_ int<br>
 _единица:_ ms<br>
 _диапазон:_ 10..1000<br>
 _по умолчанию:_ 20<br>
+
+* **@trig_pin** (initonly)
+Запросить/установить a trigger pin GPIO number<br>
+_тип:_ int<br>
+_диапазон:_ 0..255<br>
+_по умолчанию:_ 17<br>
 
 
 

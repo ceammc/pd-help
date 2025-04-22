@@ -41,25 +41,11 @@ _тип:_ int<br>
 
 ## свойства:
 
-* **@order** (initonly)
-Запросить/установить the order of decomposition<br>
-_тип:_ int<br>
-_диапазон:_ 1..63<br>
-_по умолчанию:_ 1<br>
-
-* **@mode** 
-Запросить/установить decoding mode<br>
-_тип:_ symbol<br>
-_варианты:_ regular, irregular, binaural<br>
-_по умолчанию:_ regular<br>
-
-* **@regular** 
-Запросить/установить alias for @mode regular<br>
-_тип:_ alias<br>
-
-* **@irregular** 
-Запросить/установить alias for @mode irregular<br>
-_тип:_ alias<br>
+* **@angles** 
+Запросить/установить angles of loudspeakers. Only available for @irregular mode.<br>
+_тип:_ list<br>
+_единица:_ deg<br>
+_по умолчанию:_ 0 90 180 270<br>
 
 * **@binaural** 
 Запросить/установить alias for @mode binaural<br>
@@ -72,17 +58,39 @@ _единица:_ samp<br>
 _диапазон:_ 0..512<br>
 _по умолчанию:_ 16<br>
 
+* **@irregular** 
+Запросить/установить alias for @mode irregular<br>
+_тип:_ alias<br>
+
+* **@mode** 
+Запросить/установить decoding mode<br>
+_тип:_ symbol<br>
+_варианты:_ regular, irregular, binaural<br>
+_по умолчанию:_ regular<br>
+
+* **@nch** (initonly)
+Запросить/установить number of plain waves.<br>
+_тип:_ int<br>
+_минимальное значение:_ 1<br>
+_по умолчанию:_ 0<br>
+
+* **@nharm** (readonly)
+Запросить number of circular harmonics.<br>
+_тип:_ int<br>
+_минимальное значение:_ 1<br>
+_по умолчанию:_ 3<br>
+
 * **@offset** 
 Запросить/установить rotation of loudspeakers. Only available for @regular and @irregular mode.<br>
 _тип:_ float<br>
 _единица:_ deg<br>
 _по умолчанию:_ 0<br>
 
-* **@angles** 
-Запросить/установить angles of loudspeakers. Only available for @irregular mode.<br>
-_тип:_ list<br>
-_единица:_ deg<br>
-_по умолчанию:_ 0 90 180 270<br>
+* **@order** (initonly)
+Запросить/установить the order of decomposition<br>
+_тип:_ int<br>
+_диапазон:_ 1..63<br>
+_по умолчанию:_ 1<br>
 
 * **@pw_x** (readonly)
 Запросить list of plain wave x-coordinates (abscissas). -1 is the left of the soundfield,
@@ -100,17 +108,9 @@ _единица:_ rad<br>
 _диапазон:_ -1..1<br>
 _по умолчанию:_ 1 0 -1 0<br>
 
-* **@nharm** (readonly)
-Запросить number of circular harmonics.<br>
-_тип:_ int<br>
-_минимальное значение:_ 1<br>
-_по умолчанию:_ 3<br>
-
-* **@nch** (initonly)
-Запросить/установить number of plain waves.<br>
-_тип:_ int<br>
-_минимальное значение:_ 1<br>
-_по умолчанию:_ 0<br>
+* **@regular** 
+Запросить/установить alias for @mode regular<br>
+_тип:_ alias<br>
 
 
 

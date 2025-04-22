@@ -45,17 +45,17 @@ turn the sensor polling on/off<br>
 
 ## свойства:
 
-* **@i2c_bus** (initonly)
-Запросить/установить I²C bus<br>
-_тип:_ atom<br>
-_варианты:_ 1, 2, 3, 4, 5, 6, default, none<br>
-_по умолчанию:_ none<br>
-
 * **@i2c_addr** (initonly)
 Запросить/установить I²C address. The value &#39;default&#39; means default device I²C address (0x29)<br>
 _тип:_ int<br>
 _диапазон:_ -4..119<br>
 _по умолчанию:_ -1<br>
+
+* **@i2c_bus** (initonly)
+Запросить/установить I²C bus<br>
+_тип:_ atom<br>
+_варианты:_ 1, 2, 3, 4, 5, 6, default, none<br>
+_по умолчанию:_ none<br>
 
 
 

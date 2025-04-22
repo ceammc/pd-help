@@ -323,6 +323,10 @@ set phones output gain<br>
 
 ## свойства:
 
+* **@dev** 
+Запросить/установить Motu device id<br>
+_тип:_ symbol<br>
+
 * **@host** 
 Запросить/установить Motu HTTP host<br>
 _тип:_ symbol<br>
@@ -332,10 +336,6 @@ _по умолчанию:_ localhost<br>
 Запросить/установить Motu HTTP port<br>
 _тип:_ int<br>
 _по умолчанию:_ 1280<br>
-
-* **@dev** 
-Запросить/установить Motu device id<br>
-_тип:_ symbol<br>
 
 
 

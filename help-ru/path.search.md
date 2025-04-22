@@ -44,27 +44,14 @@ cancel search process<br>
 _тип:_ bool<br>
 _по умолчанию:_ 1<br>
 
-* **@sync** 
-Запросить/установить alias to @async 0<br>
-_тип:_ alias<br>
-
 * **@depth** 
 Запросить/установить search recursion depth (-1: infinite)<br>
 _тип:_ int<br>
 _минимальное значение:_ -1<br>
 _по умолчанию:_ 0<br>
 
-* **@paths** 
-Запросить/установить user defined search paths<br>
-_тип:_ list<br>
-
 * **@home** 
 Запросить/установить search in home directory<br>
-_тип:_ bool<br>
-_по умолчанию:_ 1<br>
-
-* **@std** 
-Запросить/установить search in PureData standard directory<br>
 _тип:_ bool<br>
 _по умолчанию:_ 1<br>
 
@@ -74,6 +61,19 @@ _тип:_ alias<br>
 
 * **@nostd** 
 Запросить/установить alias to @std 0, do not search in standard dirs<br>
+_тип:_ alias<br>
+
+* **@paths** 
+Запросить/установить user defined search paths<br>
+_тип:_ list<br>
+
+* **@std** 
+Запросить/установить search in PureData standard directory<br>
+_тип:_ bool<br>
+_по умолчанию:_ 1<br>
+
+* **@sync** 
+Запросить/установить alias to @async 0<br>
 _тип:_ alias<br>
 
 

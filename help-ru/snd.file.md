@@ -84,7 +84,7 @@ Save arrays to specified file<br>
   - **[@gain V]** apply gain to saved arrays, examples: +3.1db, -6db, 0.5 etc.<br>
     тип: property <br>
 
-  - **[@in_sr SR]** array source samplerate, if ommited using patch samplerate<br>
+  - **[@in_sr SR]** array source samplerate, if omitted using patch samplerate<br>
     тип: property <br>
 
   - **[@out_sr SR]** output samplerate<br>
@@ -128,25 +128,21 @@ Save arrays to specified file<br>
 
 ## свойства:
 
-* **@formats** (readonly)
-Запросить list of supported formats<br>
-_тип:_ list<br>
-_по умолчанию:_ AAC AIFF ALAC AU AVR CAF FLAC HTK IFF MACE3:1 MACE6:1 MAT4 MAT5 MP3 MP4 MPC OGG PAF PVF RAW RF64 SD2 SDS SF VOC W64 WAV WAVEX WVE XI<br>
-
-* **@sr** (readonly)
-Запросить source file samplerate<br>
+* **@channels** (readonly)
+Запросить list of loaded channels into each array<br>
 _тип:_ list<br>
 
 * **@filename** (readonly)
 Запросить filename<br>
 _тип:_ list<br>
 
+* **@formats** (readonly)
+Запросить list of supported formats<br>
+_тип:_ list<br>
+_по умолчанию:_ AAC AIFF ALAC AU AVR CAF FLAC HTK IFF MACE3:1 MACE6:1 MAT4 MAT5 MP3 MP4 MPC OGG PAF PVF RAW RF64 SD2 SDS SF VOC W64 WAV WAVEX WVE XI<br>
+
 * **@samples** (readonly)
 Запросить list of number of loaded samples into each array<br>
-_тип:_ list<br>
-
-* **@channels** (readonly)
-Запросить list of loaded channels into each array<br>
 _тип:_ list<br>
 
 * **@smpte_fr** 
@@ -154,6 +150,10 @@ _тип:_ list<br>
 _тип:_ float<br>
 _диапазон:_ 1..99<br>
 _по умолчанию:_ 30<br>
+
+* **@sr** (readonly)
+Запросить source file samplerate<br>
+_тип:_ list<br>
 
 * **@verbose** (initonly)
 Запросить/установить verbose output to Pd window<br>

@@ -39,14 +39,14 @@ _тип:_ int<br>
 _диапазон:_ 1..64<br>
 _по умолчанию:_ 8<br>
 
+* **@poly** (initonly)
+Запросить/установить polyphonic mode for using with [clone] object<br>
+_тип:_ flag<br>
+
 * **@rev** 
 Запросить/установить reversed bit order<br>
 _тип:_ bool<br>
 _по умолчанию:_ 0<br>
-
-* **@poly** (initonly)
-Запросить/установить polyphonic mode for using with [clone] object<br>
-_тип:_ flag<br>
 
 
 

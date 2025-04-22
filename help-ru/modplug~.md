@@ -51,6 +51,11 @@ _по умолчанию:_ 0<br>
 Запросить mod name<br>
 _тип:_ symbol<br>
 
+* **@play** 
+Запросить/установить play state<br>
+_тип:_ bool<br>
+_по умолчанию:_ 0<br>
+
 * **@pos** 
 Запросить/установить position in mod file<br>
 _тип:_ float<br>
@@ -61,11 +66,6 @@ _по умолчанию:_ -1<br>
 Запросить/установить relative position in mod file<br>
 _тип:_ float<br>
 _диапазон:_ 0..1<br>
-_по умолчанию:_ 0<br>
-
-* **@play** 
-Запросить/установить play state<br>
-_тип:_ bool<br>
 _по умолчанию:_ 0<br>
 
 

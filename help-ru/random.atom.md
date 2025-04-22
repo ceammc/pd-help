@@ -33,13 +33,10 @@ _тип:_ list<br>
 
 ## свойства:
 
-* **@value** 
-Запросить/установить list of atoms<br>
-_тип:_ list<br>
-
-* **@w** 
-Запросить/установить list of atom weights<br>
-_тип:_ list<br>
+* **@nonrep** 
+Запросить/установить generate non-repeated adjacent values (note: distribution will changed!)<br>
+_тип:_ bool<br>
+_по умолчанию:_ 0<br>
 
 * **@seed** 
 Запросить/установить generator seed<br>
@@ -47,10 +44,13 @@ _тип:_ int<br>
 _минимальное значение:_ 0<br>
 _по умолчанию:_ 0<br>
 
-* **@nonrep** 
-Запросить/установить generate non-repeated adjacent values (note: distribution will changed!)<br>
-_тип:_ bool<br>
-_по умолчанию:_ 0<br>
+* **@value** 
+Запросить/установить list of atoms<br>
+_тип:_ list<br>
+
+* **@w** 
+Запросить/установить list of atom weights<br>
+_тип:_ list<br>
 
 
 

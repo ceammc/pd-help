@@ -38,34 +38,13 @@ get another application authorization code from Freesite site.<br>
     тип: symbol <br>
     обязательно: True <br>
 
-* **access store**
-store temp *access* token (not OAuth id/secret!) into the special file in the
-current patch directory<br>
-
 * **access load**
 load temp *access* token (not OAuth id/secret!) from the special file from the
 current patch directory<br>
 
-* **me**
-get and output user information<br>
-
-* **search**
-perform search<br>
-  __параметры:__
-  - **[@p]** search page number<br>
-    тип: int <br>
-
-  - **[@n]** number of results<br>
-    тип: int <br>
-
-  - **[@fields]** requested fields<br>
-    тип: symbol <br>
-
-  - **[@sort]** sort methods: &#34;score&#34;, &#34;duration_desc&#34;, &#34;duration_asc&#34;, &#34;created_desc&#34;, &#34;created_asc&#34;, &#34;downloads_desc&#34;, &#34;downloads_asc&#34;, &#34;rating_desc&#34;, &#34;rating_asc&#34;<br>
-    тип: symbol <br>
-
-  - **[@filter]** filter expression, for example: @filter type mp3. See https://freesound.org/docs/api/resources_apiv2.html<br>
-    тип: symbol <br>
+* **access store**
+store temp *access* token (not OAuth id/secret!) into the special file in the
+current patch directory<br>
 
 * **download**
 download Freesound file<br>
@@ -88,10 +67,35 @@ load Freesound file into Pd arrays<br>
   - **[@norm]** normalize sound<br>
     тип: bool <br>
 
+* **me**
+get and output user information<br>
+
+* **search**
+perform search<br>
+  __параметры:__
+  - **[@p]** search page number<br>
+    тип: int <br>
+
+  - **[@n]** number of results<br>
+    тип: int <br>
+
+  - **[@fields]** requested fields<br>
+    тип: symbol <br>
+
+  - **[@sort]** sort methods: &#34;score&#34;, &#34;duration_desc&#34;, &#34;duration_asc&#34;, &#34;created_desc&#34;, &#34;created_asc&#34;, &#34;downloads_desc&#34;, &#34;downloads_asc&#34;, &#34;rating_desc&#34;, &#34;rating_asc&#34;<br>
+    тип: symbol <br>
+
+  - **[@filter]** filter expression, for example: @filter type mp3. See https://freesound.org/docs/api/resources_apiv2.html<br>
+    тип: symbol <br>
+
 
 
 
 ## свойства:
+
+* **@oauth_file** (initonly)
+Запросить/установить path to file with OAuth2 ID/secret, one per line<br>
+_тип:_ symbol<br>
 
 * **@oauth_id** (initonly)
 Запросить/установить Freesound OAuth2 ID<br>
@@ -99,10 +103,6 @@ _тип:_ symbol<br>
 
 * **@oauth_secret** (initonly)
 Запросить/установить Freesound OAuth2 secret<br>
-_тип:_ symbol<br>
-
-* **@oauth_file** (initonly)
-Запросить/установить path to file with OAuth2 ID/secret, one per line<br>
 _тип:_ symbol<br>
 
 

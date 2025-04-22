@@ -35,6 +35,11 @@ _тип:_ bool<br>
 
 ## свойства:
 
+* **@init** (initonly)
+Запросить/установить init state for all slots. If true: all slots are open.<br>
+_тип:_ bool<br>
+_по умолчанию:_ true<br>
+
 * **@n** (initonly)
 Запросить/установить number of [in|out]puts.<br>
 _тип:_ int<br>
@@ -47,11 +52,6 @@ _тип:_ float<br>
 _единица:_ ms<br>
 _диапазон:_ 0..1000<br>
 _по умолчанию:_ 50<br>
-
-* **@init** (initonly)
-Запросить/установить init state for all slots. If true: all slots are open.<br>
-_тип:_ bool<br>
-_по умолчанию:_ true<br>
 
 
 

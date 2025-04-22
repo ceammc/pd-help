@@ -100,6 +100,9 @@ output all columns as separate messages [col N V0 V1...(<br>
 * **get list**
 output all cell values as list, row by raw. [0 1 1 1 0...(<br>
 
+* **get matrix**
+output as matrix [matrix NROWS NCOLS DATA...(<br>
+
 * **get row N**
 outputs row cells as message [row N V0 V1...(<br>
   __параметры:__
@@ -109,9 +112,6 @@ outputs row cells as message [row N V0 V1...(<br>
 
 * **get rows**
 output all rows as separate messages [row N V0 V1...(<br>
-
-* **get matrix**
-output as matrix [matrix NROWS NCOLS DATA...(<br>
 
 * **interp**
 for this object acts as *load*, no interpolation performed<br>
@@ -164,17 +164,6 @@ set matrix data without output<br>
     тип: list <br>
     обязательно: True <br>
 
-* **set row N ...**
-set specified row without output<br>
-  __параметры:__
-  - **N** row index<br>
-    тип: int <br>
-    обязательно: True <br>
-
-  - **...** cell values (1 - checked, 0 - unchecked)<br>
-    тип: list <br>
-    обязательно: True <br>
-
 * **set matrix R C ...**
 set matrix without output<br>
   __параметры:__
@@ -183,6 +172,17 @@ set matrix without output<br>
     обязательно: True <br>
 
   - **C** number of columns in matrix<br>
+    тип: int <br>
+    обязательно: True <br>
+
+  - **...** cell values (1 - checked, 0 - unchecked)<br>
+    тип: list <br>
+    обязательно: True <br>
+
+* **set row N ...**
+set specified row without output<br>
+  __параметры:__
+  - **N** row index<br>
     тип: int <br>
     обязательно: True <br>
 
@@ -208,64 +208,10 @@ stores specified preset<br>
 
 ## свойства:
 
-* **@rows** 
-Запросить/установить number of matrix rows<br>
-_тип:_ int<br>
-_диапазон:_ 1..64<br>
-_по умолчанию:_ 4<br>
-
-* **@cols** 
-Запросить/установить number of matrix columns<br>
-_тип:_ int<br>
-_диапазон:_ 1..64<br>
-_по умолчанию:_ 8<br>
-
-* **@current_row** 
-Запросить/установить current row index. -1 if not specified. This property is not saved in patch<br>
-_тип:_ int<br>
-_минимальное значение:_ -1<br>
-_по умолчанию:_ -1<br>
-
-* **@current_col** 
-Запросить/установить current column index. -1 if not specified. This property is not saved in patch<br>
-_тип:_ int<br>
-_минимальное значение:_ -1<br>
-_по умолчанию:_ -1<br>
-
-* **@presetname** 
-Запросить/установить preset name for using with [ui.preset]<br>
-_тип:_ symbol<br>
-_по умолчанию:_ (null)<br>
-
-* **@send** 
-Запросить/установить send destination<br>
-_тип:_ symbol<br>
-_по умолчанию:_ (null)<br>
-
-* **@receive** 
-Запросить/установить receive source<br>
-_тип:_ symbol<br>
-_по умолчанию:_ (null)<br>
-
-* **@size** 
-Запросить/установить element size (width, height pair)<br>
-_тип:_ list<br>
-_по умолчанию:_ 105 53<br>
-
-* **@pinned** 
-Запросить/установить pin mode. if 1 - put element to the lowest level<br>
-_тип:_ bool<br>
-_по умолчанию:_ 0<br>
-
 * **@active_color** 
 Запросить/установить active color (list of red, green, blue values in 0-1 range)<br>
 _тип:_ list<br>
 _по умолчанию:_ 0 0.75 1 1<br>
-
-* **@current_color** 
-Запросить/установить current col/row color (list of red, green, blue values in 0-1 range)<br>
-_тип:_ list<br>
-_по умолчанию:_ 1 0.75 0 1<br>
 
 * **@background_color** 
 Запросить/установить element background color (list of red, green, blue values in 0-1 range)<br>
@@ -277,11 +223,28 @@ _по умолчанию:_ 0.93 0.93 0.93 1<br>
 _тип:_ list<br>
 _по умолчанию:_ 0.6 0.6 0.6 1<br>
 
-* **@fontsize** 
-Запросить/установить fontsize<br>
+* **@cols** 
+Запросить/установить number of matrix columns<br>
 _тип:_ int<br>
-_диапазон:_ 4..100<br>
-_по умолчанию:_ 11<br>
+_диапазон:_ 1..64<br>
+_по умолчанию:_ 8<br>
+
+* **@current_col** 
+Запросить/установить current column index. -1 if not specified. This property is not saved in patch<br>
+_тип:_ int<br>
+_минимальное значение:_ -1<br>
+_по умолчанию:_ -1<br>
+
+* **@current_color** 
+Запросить/установить current col/row color (list of red, green, blue values in 0-1 range)<br>
+_тип:_ list<br>
+_по умолчанию:_ 1 0.75 0 1<br>
+
+* **@current_row** 
+Запросить/установить current row index. -1 if not specified. This property is not saved in patch<br>
+_тип:_ int<br>
+_минимальное значение:_ -1<br>
+_по умолчанию:_ -1<br>
 
 * **@fontname** 
 Запросить/установить fontname<br>
@@ -289,17 +252,54 @@ _тип:_ symbol<br>
 _варианты:_ Courier, DejaVu, Helvetica, Monaco, Times<br>
 _по умолчанию:_ Helvetica<br>
 
-* **@fontweight** 
-Запросить/установить font weight<br>
-_тип:_ symbol<br>
-_варианты:_ normal, bold<br>
-_по умолчанию:_ normal<br>
+* **@fontsize** 
+Запросить/установить fontsize<br>
+_тип:_ int<br>
+_диапазон:_ 4..100<br>
+_по умолчанию:_ 11<br>
 
 * **@fontslant** 
 Запросить/установить font slant<br>
 _тип:_ symbol<br>
 _варианты:_ roman, italic<br>
 _по умолчанию:_ roman<br>
+
+* **@fontweight** 
+Запросить/установить font weight<br>
+_тип:_ symbol<br>
+_варианты:_ normal, bold<br>
+_по умолчанию:_ normal<br>
+
+* **@pinned** 
+Запросить/установить pin mode. if 1 - put element to the lowest level<br>
+_тип:_ bool<br>
+_по умолчанию:_ 0<br>
+
+* **@presetname** 
+Запросить/установить preset name for using with [ui.preset]<br>
+_тип:_ symbol<br>
+_по умолчанию:_ (null)<br>
+
+* **@receive** 
+Запросить/установить receive source<br>
+_тип:_ symbol<br>
+_по умолчанию:_ (null)<br>
+
+* **@rows** 
+Запросить/установить number of matrix rows<br>
+_тип:_ int<br>
+_диапазон:_ 1..64<br>
+_по умолчанию:_ 4<br>
+
+* **@send** 
+Запросить/установить send destination<br>
+_тип:_ symbol<br>
+_по умолчанию:_ (null)<br>
+
+* **@size** 
+Запросить/установить element size (width, height pair)<br>
+_тип:_ list<br>
+_по умолчанию:_ 105 53<br>
 
 
 

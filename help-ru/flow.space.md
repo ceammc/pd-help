@@ -45,18 +45,18 @@ _единица:_ ms<br>
 _минимальное значение:_ 1<br>
 _по умолчанию:_ 1<br>
 
+* **@dev** 
+Запросить/установить random deviation<br>
+_тип:_ float<br>
+_диапазон:_ 0..1<br>
+_по умолчанию:_ 0<br>
+
 * **@done** 
 Запросить/установить time space (=@done*@delay) after last outputted message. After that delay
 output bang to second outlet<br>
 _тип:_ int<br>
 _минимальное значение:_ 0<br>
 _по умолчанию:_ 1<br>
-
-* **@dev** 
-Запросить/установить random deviation<br>
-_тип:_ float<br>
-_диапазон:_ 0..1<br>
-_по умолчанию:_ 0<br>
 
 
 

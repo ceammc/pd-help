@@ -69,27 +69,15 @@ send poll request, dump response to Pd window<br>
 
 ## свойства:
 
-* **@universe** 
-Запросить/установить ArtNet universe<br>
-_тип:_ int<br>
-_диапазон:_ 0..15<br>
-_по умолчанию:_ 0<br>
-
-* **@subnet** 
-Запросить/установить ArtNet subnet<br>
-_тип:_ int<br>
-_диапазон:_ 0..15<br>
-_по умолчанию:_ 0<br>
+* **@ip** (initonly)
+Запросить/установить bind interface IP address. If empty - use first available interface.<br>
+_тип:_ symbol<br>
 
 * **@offset** 
 Запросить/установить DMX channel offset<br>
 _тип:_ int<br>
 _диапазон:_ 0..511<br>
 _по умолчанию:_ 0<br>
-
-* **@ip** (initonly)
-Запросить/установить bind interface IP address. If empty - use first available interface.<br>
-_тип:_ symbol<br>
 
 * **@rate** 
 Запросить/установить send framerate<br>
@@ -98,10 +86,22 @@ _единица:_ Hz<br>
 _диапазон:_ 1..100<br>
 _по умолчанию:_ 44<br>
 
+* **@subnet** 
+Запросить/установить ArtNet subnet<br>
+_тип:_ int<br>
+_диапазон:_ 0..15<br>
+_по умолчанию:_ 0<br>
+
 * **@sync** 
 Запросить/установить send mode. If true: send frame only when bang is received, otherwise send
 frames with @rate speed with internal clock<br>
 _тип:_ bool<br>
+_по умолчанию:_ 0<br>
+
+* **@universe** 
+Запросить/установить ArtNet universe<br>
+_тип:_ int<br>
+_диапазон:_ 0..15<br>
 _по умолчанию:_ 0<br>
 
 

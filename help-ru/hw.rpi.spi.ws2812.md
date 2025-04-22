@@ -25,11 +25,18 @@ Note: you should **flush** (with bang or [flush( message) after almost all pixel
 
 ## методы:
 
+* **brightness**
+set pixel brightness<br>
+  __параметры:__
+  - **LEVEL** brightness level<br>
+    тип: int <br>
+    обязательно: True <br>
+
 * **clear**
 turn off all pixels<br>
 
-* **set**
-set single pixel color<br>
+* **fill**
+fill all pixels with the RGB color<br>
   __параметры:__
   - **R** red color component<br>
     тип: int <br>
@@ -42,6 +49,9 @@ set single pixel color<br>
   - **B** blue color component<br>
     тип: int <br>
     обязательно: True <br>
+
+* **flush**
+flush all pixels to the strip<br>
 
 * **fx**
 apply color generator function<br>
@@ -59,31 +69,6 @@ apply color generator function<br>
   - **[LENGTH]** range length<br>
     тип: int <br>
 
-* **flush**
-flush all pixels to the strip<br>
-
-* **brightness**
-set pixel brightness<br>
-  __параметры:__
-  - **LEVEL** brightness level<br>
-    тип: int <br>
-    обязательно: True <br>
-
-* **fill**
-fill all pixels with the RGB color<br>
-  __параметры:__
-  - **R** red color component<br>
-    тип: int <br>
-    обязательно: True <br>
-
-  - **G** greed color component<br>
-    тип: int <br>
-    обязательно: True <br>
-
-  - **B** blue color component<br>
-    тип: int <br>
-    обязательно: True <br>
-
 * **rotate**
 shift all pixel by specified amount<br>
   __параметры:__
@@ -91,21 +76,9 @@ shift all pixel by specified amount<br>
     тип: int <br>
     обязательно: True <br>
 
-* **set_slice**
-set pixel slice to the specified color<br>
+* **set**
+set single pixel color<br>
   __параметры:__
-  - **BEGIN** range start<br>
-    тип: int <br>
-    обязательно: True <br>
-
-  - **END** range end<br>
-    тип: int <br>
-    обязательно: True <br>
-
-  - **STEP** slice step<br>
-    тип: int <br>
-    обязательно: True <br>
-
   - **R** red color component<br>
     тип: int <br>
     обязательно: True <br>
@@ -141,10 +114,48 @@ set pixel range to the specified color<br>
     тип: int <br>
     обязательно: True <br>
 
+* **set_slice**
+set pixel slice to the specified color<br>
+  __параметры:__
+  - **BEGIN** range start<br>
+    тип: int <br>
+    обязательно: True <br>
+
+  - **END** range end<br>
+    тип: int <br>
+    обязательно: True <br>
+
+  - **STEP** slice step<br>
+    тип: int <br>
+    обязательно: True <br>
+
+  - **R** red color component<br>
+    тип: int <br>
+    обязательно: True <br>
+
+  - **G** greed color component<br>
+    тип: int <br>
+    обязательно: True <br>
+
+  - **B** blue color component<br>
+    тип: int <br>
+    обязательно: True <br>
+
 
 
 
 ## свойства:
+
+* **@clear** 
+Запросить/установить turn off all pixels when the object is deleted<br>
+_тип:_ bool<br>
+_по умолчанию:_ 1<br>
+
+* **@size** (initonly)
+Запросить/установить number of leds in the strip<br>
+_тип:_ int<br>
+_диапазон:_ 1..4096<br>
+_по умолчанию:_ 16<br>
 
 * **@spi_bus** (initonly)
 Запросить/установить spi bus number<br>
@@ -158,17 +169,6 @@ because LED strips are not using CS pin.<br>
 _тип:_ int<br>
 _диапазон:_ 0..3<br>
 _по умолчанию:_ 0<br>
-
-* **@clear** 
-Запросить/установить turn off all pixels when the object is deleted<br>
-_тип:_ bool<br>
-_по умолчанию:_ 1<br>
-
-* **@size** (initonly)
-Запросить/установить number of leds in the strip<br>
-_тип:_ int<br>
-_диапазон:_ 1..4096<br>
-_по умолчанию:_ 16<br>
 
 
 

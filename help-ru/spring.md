@@ -36,18 +36,6 @@ _единица:_ ms<br>
 
 ## свойства:
 
-* **@value** 
-Запросить/установить target value<br>
-_тип:_ float<br>
-_по умолчанию:_ 0<br>
-
-* **@time** 
-Запросить/установить time to reach target value<br>
-_тип:_ float<br>
-_единица:_ ms<br>
-_диапазон:_ 50..5000<br>
-_по умолчанию:_ 500<br>
-
 * **@accel** 
 Запросить/установить acceleration factor, 0: means linear motion (no acceleration), &gt;0: begin fast,
 then slow down, &lt;0: begin slow, then speed up<br>
@@ -60,7 +48,7 @@ _по умолчанию:_ 0<br>
 _тип:_ bool<br>
 _по умолчанию:_ 0<br>
 
-* **@mouse_up** 
+* **@mouse_drag** 
 Запросить/установить internal state<br>
 _тип:_ bool<br>
 _по умолчанию:_ 0<br>
@@ -70,9 +58,21 @@ _по умолчанию:_ 0<br>
 _тип:_ bool<br>
 _по умолчанию:_ 0<br>
 
-* **@mouse_drag** 
+* **@mouse_up** 
 Запросить/установить internal state<br>
 _тип:_ bool<br>
+_по умолчанию:_ 0<br>
+
+* **@time** 
+Запросить/установить time to reach target value<br>
+_тип:_ float<br>
+_единица:_ ms<br>
+_диапазон:_ 50..5000<br>
+_по умолчанию:_ 500<br>
+
+* **@value** 
+Запросить/установить target value<br>
+_тип:_ float<br>
 _по умолчанию:_ 0<br>
 
 

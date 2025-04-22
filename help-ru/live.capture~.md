@@ -23,6 +23,12 @@ layout: default_ru
 
 ## методы:
 
+* **div**
+set rec division<br>
+  __параметры:__
+  - **[N]** value<br>
+    тип: int <br>
+
 * **record**
 start record<br>
 
@@ -32,21 +38,31 @@ reset recorded data<br>
 * **stop**
 stop record<br>
 
-* **div**
-set rec division<br>
-  __параметры:__
-  - **[N]** value<br>
-    тип: int <br>
-
 
 
 
 ## свойства:
 
-* **@gate** 
-Запросить/установить start/stop recording<br>
+* **@osc** (initonly)
+Запросить/установить OSC server name to listen<br>
+_тип:_ symbol<br>
+
+* **@id** (initonly)
+Запросить/установить OSC address id. If specified, bind all properties to /ID/live_capture/PROP_NAME
+osc address, if empty bind to /live_capture/PROP_NAME.<br>
+_тип:_ symbol<br>
+
+* **@active** 
+Запросить/установить on/off dsp processing<br>
 _тип:_ bool<br>
-_по умолчанию:_ 0<br>
+_по умолчанию:_ 1<br>
+
+* **@attack** 
+Запросить/установить rec envelope attack time<br>
+_тип:_ float<br>
+_единица:_ ms<br>
+_диапазон:_ 0..100000<br>
+_по умолчанию:_ 50<br>
 
 * **@gain** 
 Запросить/установить playing gain<br>
@@ -55,8 +71,13 @@ _единица:_ db<br>
 _диапазон:_ -60..12<br>
 _по умолчанию:_ 0<br>
 
-* **@attack** 
-Запросить/установить rec envelope attack time<br>
+* **@gate** 
+Запросить/установить start/stop recording<br>
+_тип:_ bool<br>
+_по умолчанию:_ 0<br>
+
+* **@release** 
+Запросить/установить rec envelope release time<br>
 _тип:_ float<br>
 _единица:_ ms<br>
 _диапазон:_ 0..100000<br>
@@ -68,27 +89,6 @@ _тип:_ float<br>
 _единица:_ %<br>
 _диапазон:_ 0..100<br>
 _по умолчанию:_ 100<br>
-
-* **@release** 
-Запросить/установить rec envelope release time<br>
-_тип:_ float<br>
-_единица:_ ms<br>
-_диапазон:_ 0..100000<br>
-_по умолчанию:_ 50<br>
-
-* **@active** 
-Запросить/установить on/off dsp processing<br>
-_тип:_ bool<br>
-_по умолчанию:_ 1<br>
-
-* **@osc** (initonly)
-Запросить/установить OSC server name to listen<br>
-_тип:_ symbol<br>
-
-* **@id** (initonly)
-Запросить/установить OSC address id. If specified, bind all properties to /ID/live_capture/PROP_NAME
-osc address, if empty bind to /live_capture/PROP_NAME.<br>
-_тип:_ symbol<br>
 
 
 

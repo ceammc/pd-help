@@ -108,15 +108,15 @@ set playing volume<br>
 _тип:_ symbol<br>
 _по умолчанию:_ localhost<br>
 
+* **@pass** 
+Запросить/установить VLC http password<br>
+_тип:_ atom<br>
+
 * **@port** 
 Запросить/установить hostname on that VLC player is running on<br>
 _тип:_ int<br>
 _диапазон:_ 1..32768<br>
 _по умолчанию:_ 8080<br>
-
-* **@pass** 
-Запросить/установить VLC http password<br>
-_тип:_ atom<br>
 
 
 

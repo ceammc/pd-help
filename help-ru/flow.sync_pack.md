@@ -35,15 +35,15 @@ _тип:_ list<br>
 
 ## свойства:
 
+* **@init** (initonly)
+Запросить/установить default init values<br>
+_тип:_ list<br>
+
 * **@n** (initonly)
 Запросить/установить number of inlets<br>
 _тип:_ int<br>
 _диапазон:_ 1..255<br>
 _по умолчанию:_ 1<br>
-
-* **@init** (initonly)
-Запросить/установить default init values<br>
-_тип:_ list<br>
 
 
 

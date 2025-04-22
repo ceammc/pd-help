@@ -35,17 +35,8 @@ _тип:_ list<br>
 
 ## свойства:
 
-* **@v** 
-Запросить/установить interleaved interval boundaries and boundary propabilities. For example: values
-0 0 0.5 0 1 0 produce triangle distribution<br>
-_тип:_ list<br>
-
 * **@bounds** (readonly)
 Запросить list of boundaries<br>
-_тип:_ list<br>
-
-* **@weights** (readonly)
-Запросить list of weights<br>
 _тип:_ list<br>
 
 * **@seed** 
@@ -53,6 +44,15 @@ _тип:_ list<br>
 _тип:_ int<br>
 _минимальное значение:_ 0<br>
 _по умолчанию:_ 0<br>
+
+* **@v** 
+Запросить/установить interleaved interval boundaries and boundary propabilities. For example: values
+0 0 0.5 0 1 0 produce triangle distribution<br>
+_тип:_ list<br>
+
+* **@weights** (readonly)
+Запросить list of weights<br>
+_тип:_ list<br>
 
 
 

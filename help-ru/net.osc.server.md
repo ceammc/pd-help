@@ -50,44 +50,44 @@ stop OSC server<br>
 
 ## свойства:
 
-* **@dump** 
-Запросить/установить dump incoming messages to Pd window<br>
-_тип:_ bool<br>
-_по умолчанию:_ 0<br>
-
 * **@auto_start** 
 Запросить/установить automatically start on creation<br>
 _тип:_ bool<br>
 _по умолчанию:_ 1<br>
 
-* **@url** (initonly)
-Запросить/установить OSC server url in form: PROTO:PORT (udp:12345) or just PORT, or
-osc.PROTO://:PORT (for ex. osc.tcp://:9001)<br>
-_тип:_ atom<br>
-_по умолчанию:_ udp:9000<br>
+* **@dump** 
+Запросить/установить dump incoming messages to Pd window<br>
+_тип:_ bool<br>
+_по умолчанию:_ 0<br>
+
+* **@host** (readonly)
+Запросить OSC server host<br>
+_тип:_ symbol<br>
 
 * **@name** (initonly)
 Запросить/установить OSC server name<br>
 _тип:_ symbol<br>
 _по умолчанию:_ default<br>
 
+* **@path** (readonly)
+Запросить OSC server local socket path<br>
+_тип:_ symbol<br>
+
 * **@port** (readonly)
 Запросить OSC server port<br>
 _тип:_ int<br>
 _по умолчанию:_ 9000<br>
-
-* **@path** (readonly)
-Запросить OSC server local socket path<br>
-_тип:_ symbol<br>
 
 * **@proto** (readonly)
 Запросить OSC server proto (udp or tcp)<br>
 _тип:_ symbol<br>
 _по умолчанию:_ udp<br>
 
-* **@host** (readonly)
-Запросить OSC server host<br>
-_тип:_ symbol<br>
+* **@url** (initonly)
+Запросить/установить OSC server url in form: PROTO:PORT (udp:12345) or just PORT, or
+osc.PROTO://:PORT (for ex. osc.tcp://:9001)<br>
+_тип:_ atom<br>
+_по умолчанию:_ udp:9000<br>
 
 
 

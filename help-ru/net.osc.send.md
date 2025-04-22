@@ -173,27 +173,27 @@ send list of typed values<br>
 
 ## свойства:
 
-* **@proto** (readonly)
-Запросить sending protocol<br>
+* **@host** (readonly)
+Запросить destination host<br>
 _тип:_ symbol<br>
-_по умолчанию:_ udp<br>
+
+* **@path** (readonly)
+Запросить socket filesystem path (if using unix proto)<br>
+_тип:_ symbol<br>
 
 * **@port** (readonly)
 Запросить destination port<br>
 _тип:_ int<br>
 _по умолчанию:_ 0<br>
 
-* **@host** (readonly)
-Запросить destination host<br>
+* **@proto** (readonly)
+Запросить sending protocol<br>
 _тип:_ symbol<br>
+_по умолчанию:_ udp<br>
 
 * **@url** 
 Запросить/установить destination url<br>
 _тип:_ atom<br>
-
-* **@path** (readonly)
-Запросить socket filesystem path (if using unix proto)<br>
-_тип:_ symbol<br>
 
 
 

@@ -44,49 +44,23 @@ reset to initial state<br>
 
 ## свойства:
 
-* **@delay** 
-Запросить/установить echo time<br>
-_тип:_ float<br>
-_единица:_ ms<br>
-_диапазон:_ 10..10000<br>
-_по умолчанию:_ 500<br>
+* **@osc** (initonly)
+Запросить/установить OSC server name to listen<br>
+_тип:_ symbol<br>
 
-* **@feedback** 
-Запросить/установить feedback coefficient<br>
-_тип:_ float<br>
-_диапазон:_ 0..0.99<br>
-_по умолчанию:_ 0.3<br>
+* **@id** (initonly)
+Запросить/установить OSC address id. If specified, bind all properties to /ID/fx_echo/PROP_NAME osc
+address, if empty bind to /fx_echo/PROP_NAME.<br>
+_тип:_ symbol<br>
 
-* **@filter** 
-Запросить/установить if true - apply filter to feedback signal<br>
+* **@active** 
+Запросить/установить on/off dsp processing<br>
 _тип:_ bool<br>
-_по умолчанию:_ 0<br>
+_по умолчанию:_ 1<br>
 
-* **@f_lpf** 
-Запросить/установить feedback low-pass filter cutoff frequency<br>
-_тип:_ float<br>
-_единица:_ Hz<br>
-_диапазон:_ 20..20000<br>
-_по умолчанию:_ 9000<br>
-
-* **@f_hpf** 
-Запросить/установить feedback high-pass filter cutoff frequency<br>
-_тип:_ float<br>
-_единица:_ Hz<br>
-_диапазон:_ 20..20000<br>
-_по умолчанию:_ 300<br>
-
-* **@compress** 
-Запросить/установить feedback compression factor. 0: means no compression, 1: limit feedback level.<br>
-_тип:_ float<br>
-_диапазон:_ 0..1<br>
-_по умолчанию:_ 0.5<br>
-
-* **@c_thresh** 
-Запросить/установить feedback compression threshold level<br>
-_тип:_ float<br>
-_единица:_ db<br>
-_диапазон:_ -60..0<br>
+* **@bypass** 
+Запросить/установить bypass flag. If true: bypass &#39;effected&#39; signal.<br>
+_тип:_ bool<br>
 _по умолчанию:_ 0<br>
 
 * **@c_attack** 
@@ -103,13 +77,25 @@ _единица:_ ms<br>
 _диапазон:_ 1..500<br>
 _по умолчанию:_ 50<br>
 
-* **@smooth** 
-Запросить/установить interpolation time on delay time change, that prevents click and transpose, if
-equal to 0 produces artifacts on delay change<br>
+* **@c_thresh** 
+Запросить/установить feedback compression threshold level<br>
+_тип:_ float<br>
+_единица:_ db<br>
+_диапазон:_ -60..0<br>
+_по умолчанию:_ 0<br>
+
+* **@compress** 
+Запросить/установить feedback compression factor. 0: means no compression, 1: limit feedback level.<br>
+_тип:_ float<br>
+_диапазон:_ 0..1<br>
+_по умолчанию:_ 0.5<br>
+
+* **@delay** 
+Запросить/установить echo time<br>
 _тип:_ float<br>
 _единица:_ ms<br>
-_диапазон:_ 0..500<br>
-_по умолчанию:_ 50<br>
+_диапазон:_ 10..10000<br>
+_по умолчанию:_ 500<br>
 
 * **@drywet** 
 Запросить/установить proportion of mix between the original (dry) and &#39;effected&#39; (wet) signals. 0 -
@@ -118,24 +104,38 @@ _тип:_ float<br>
 _диапазон:_ 0..1<br>
 _по умолчанию:_ 1<br>
 
-* **@bypass** 
-Запросить/установить bypass flag. If true: bypass &#39;effected&#39; signal.<br>
+* **@f_hpf** 
+Запросить/установить feedback high-pass filter cutoff frequency<br>
+_тип:_ float<br>
+_единица:_ Hz<br>
+_диапазон:_ 20..20000<br>
+_по умолчанию:_ 300<br>
+
+* **@f_lpf** 
+Запросить/установить feedback low-pass filter cutoff frequency<br>
+_тип:_ float<br>
+_единица:_ Hz<br>
+_диапазон:_ 20..20000<br>
+_по умолчанию:_ 9000<br>
+
+* **@feedback** 
+Запросить/установить feedback coefficient<br>
+_тип:_ float<br>
+_диапазон:_ 0..0.99<br>
+_по умолчанию:_ 0.3<br>
+
+* **@filter** 
+Запросить/установить if true - apply filter to feedback signal<br>
 _тип:_ bool<br>
 _по умолчанию:_ 0<br>
 
-* **@osc** (initonly)
-Запросить/установить OSC server name to listen<br>
-_тип:_ symbol<br>
-
-* **@id** (initonly)
-Запросить/установить OSC address id. If specified, bind all properties to /ID/fx_echo/PROP_NAME osc
-address, if empty bind to /fx_echo/PROP_NAME.<br>
-_тип:_ symbol<br>
-
-* **@active** 
-Запросить/установить on/off dsp processing<br>
-_тип:_ bool<br>
-_по умолчанию:_ 1<br>
+* **@smooth** 
+Запросить/установить interpolation time on delay time change, that prevents click and transpose, if
+equal to 0 produces artifacts on delay change<br>
+_тип:_ float<br>
+_единица:_ ms<br>
+_диапазон:_ 0..500<br>
+_по умолчанию:_ 50<br>
 
 
 

@@ -56,40 +56,24 @@ reset to initial state<br>
 
 ## свойства:
 
+* **@osc** (initonly)
+Запросить/установить OSC server name to listen<br>
+_тип:_ symbol<br>
+
+* **@id** (initonly)
+Запросить/установить OSC address id. If specified, bind all properties to /ID/fx_tapiir/PROP_NAME
+osc address, if empty bind to /fx_tapiir/PROP_NAME.<br>
+_тип:_ symbol<br>
+
+* **@active** 
+Запросить/установить on/off dsp processing<br>
+_тип:_ bool<br>
+_по умолчанию:_ 1<br>
+
 * **@delays** 
 Запросить/установить list of all tap delays<br>
 _тип:_ list<br>
 _единица:_ ms<br>
-_по умолчанию:_ 0 0 0 0 0 0<br>
-
-* **@gains** 
-Запросить/установить list of all tap gains<br>
-_тип:_ list<br>
-_единица:_ db<br>
-_по умолчанию:_ 0 0 0 0 0 0<br>
-
-* **@ins0** 
-Запросить/установить list of all taps left channel input levels<br>
-_тип:_ list<br>
-_диапазон:_ 0..1<br>
-_по умолчанию:_ 1 1 1 1 1 1<br>
-
-* **@ins1** 
-Запросить/установить list of all taps right channel input levels<br>
-_тип:_ list<br>
-_диапазон:_ 0..1<br>
-_по умолчанию:_ 1 1 1 1 1 1<br>
-
-* **@outs0** 
-Запросить/установить list of all tap output levels to left channel<br>
-_тип:_ list<br>
-_диапазон:_ 0..1<br>
-_по умолчанию:_ 0 0 0 0 0 0<br>
-
-* **@outs1** 
-Запросить/установить list of all tap output levels to right channel<br>
-_тип:_ list<br>
-_диапазон:_ 0..1<br>
 _по умолчанию:_ 0 0 0 0 0 0<br>
 
 * **@fbs0** 
@@ -128,160 +112,29 @@ _тип:_ list<br>
 _диапазон:_ 0..1<br>
 _по умолчанию:_ 0 0 0 0 0 0<br>
 
-* **@tap0.in0** 
-Запросить/установить left input level to tap0<br>
-_тип:_ float<br>
-_диапазон:_ 0..1<br>
-_по умолчанию:_ 1<br>
+* **@gains** 
+Запросить/установить list of all tap gains<br>
+_тип:_ list<br>
+_единица:_ db<br>
+_по умолчанию:_ 0 0 0 0 0 0<br>
 
-* **@tap0.in1** 
-Запросить/установить right input level to tap0<br>
-_тип:_ float<br>
+* **@ins0** 
+Запросить/установить list of all taps left channel input levels<br>
+_тип:_ list<br>
 _диапазон:_ 0..1<br>
-_по умолчанию:_ 1<br>
+_по умолчанию:_ 1 1 1 1 1 1<br>
 
-* **@tap1.in0** 
-Запросить/установить left input level to tap1<br>
-_тип:_ float<br>
+* **@ins1** 
+Запросить/установить list of all taps right channel input levels<br>
+_тип:_ list<br>
 _диапазон:_ 0..1<br>
-_по умолчанию:_ 1<br>
+_по умолчанию:_ 1 1 1 1 1 1<br>
 
-* **@tap1.in1** 
-Запросить/установить right input level to tap1<br>
-_тип:_ float<br>
-_диапазон:_ 0..1<br>
-_по умолчанию:_ 1<br>
-
-* **@tap2.in0** 
-Запросить/установить left input level to tap2<br>
-_тип:_ float<br>
-_диапазон:_ 0..1<br>
-_по умолчанию:_ 1<br>
-
-* **@tap2.in1** 
-Запросить/установить right input level to tap2<br>
-_тип:_ float<br>
-_диапазон:_ 0..1<br>
-_по умолчанию:_ 1<br>
-
-* **@tap3.in0** 
-Запросить/установить left input level to tap3<br>
-_тип:_ float<br>
-_диапазон:_ 0..1<br>
-_по умолчанию:_ 1<br>
-
-* **@tap3.in1** 
-Запросить/установить right input level to tap3<br>
-_тип:_ float<br>
-_диапазон:_ 0..1<br>
-_по умолчанию:_ 1<br>
-
-* **@tap4.in0** 
-Запросить/установить left input level to tap4<br>
-_тип:_ float<br>
-_диапазон:_ 0..1<br>
-_по умолчанию:_ 1<br>
-
-* **@tap4.in1** 
-Запросить/установить right input level to tap4<br>
-_тип:_ float<br>
-_диапазон:_ 0..1<br>
-_по умолчанию:_ 1<br>
-
-* **@tap5.in0** 
-Запросить/установить left input level to tap5<br>
-_тип:_ float<br>
-_диапазон:_ 0..1<br>
-_по умолчанию:_ 1<br>
-
-* **@tap5.in1** 
-Запросить/установить right input level to tap5<br>
-_тип:_ float<br>
-_диапазон:_ 0..1<br>
-_по умолчанию:_ 1<br>
-
-* **@tap0.gain** 
-Запросить/установить tap0 common level<br>
+* **@out0.gain** 
+Запросить/установить left channel output gain<br>
 _тип:_ float<br>
 _единица:_ db<br>
 _диапазон:_ -60..0<br>
-_по умолчанию:_ 0<br>
-
-* **@tap1.gain** 
-Запросить/установить tap1 common level<br>
-_тип:_ float<br>
-_единица:_ db<br>
-_диапазон:_ -60..0<br>
-_по умолчанию:_ 0<br>
-
-* **@tap2.gain** 
-Запросить/установить tap2 common level<br>
-_тип:_ float<br>
-_единица:_ db<br>
-_диапазон:_ -60..0<br>
-_по умолчанию:_ 0<br>
-
-* **@tap3.gain** 
-Запросить/установить tap3 common level<br>
-_тип:_ float<br>
-_единица:_ db<br>
-_диапазон:_ -60..0<br>
-_по умолчанию:_ 0<br>
-
-* **@tap4.gain** 
-Запросить/установить tap4 common level<br>
-_тип:_ float<br>
-_единица:_ db<br>
-_диапазон:_ -60..0<br>
-_по умолчанию:_ 0<br>
-
-* **@tap5.gain** 
-Запросить/установить tap5 common level<br>
-_тип:_ float<br>
-_единица:_ db<br>
-_диапазон:_ -60..0<br>
-_по умолчанию:_ 0<br>
-
-* **@tap0.delay** 
-Запросить/установить tap0 delay time<br>
-_тип:_ float<br>
-_единица:_ ms<br>
-_диапазон:_ 0..5000<br>
-_по умолчанию:_ 0<br>
-
-* **@tap1.delay** 
-Запросить/установить tap1 delay time<br>
-_тип:_ float<br>
-_единица:_ ms<br>
-_диапазон:_ 0..5000<br>
-_по умолчанию:_ 0<br>
-
-* **@tap2.delay** 
-Запросить/установить tap2 delay time<br>
-_тип:_ float<br>
-_единица:_ ms<br>
-_диапазон:_ 0..5000<br>
-_по умолчанию:_ 0<br>
-
-* **@tap3.delay** 
-Запросить/установить tap3 delay time<br>
-_тип:_ float<br>
-_единица:_ ms<br>
-_диапазон:_ 0..5000<br>
-_по умолчанию:_ 0<br>
-
-* **@tap4.delay** 
-Запросить/установить tap4 delay time<br>
-_тип:_ float<br>
-_единица:_ ms<br>
-_диапазон:_ 0..5000<br>
-_по умолчанию:_ 0<br>
-
-* **@tap5.delay** 
-Запросить/установить tap5 delay time<br>
-_тип:_ float<br>
-_единица:_ ms<br>
-_диапазон:_ 0..5000<br>
 _по умолчанию:_ 0<br>
 
 * **@out0.in0** 
@@ -332,8 +185,8 @@ _тип:_ float<br>
 _диапазон:_ 0..1<br>
 _по умолчанию:_ 0<br>
 
-* **@out0.gain** 
-Запросить/установить left channel output gain<br>
+* **@out1.gain** 
+Запросить/установить right channel output gain<br>
 _тип:_ float<br>
 _единица:_ db<br>
 _диапазон:_ -60..0<br>
@@ -387,11 +240,23 @@ _тип:_ float<br>
 _диапазон:_ 0..1<br>
 _по умолчанию:_ 0<br>
 
-* **@out1.gain** 
-Запросить/установить right channel output gain<br>
+* **@outs0** 
+Запросить/установить list of all tap output levels to left channel<br>
+_тип:_ list<br>
+_диапазон:_ 0..1<br>
+_по умолчанию:_ 0 0 0 0 0 0<br>
+
+* **@outs1** 
+Запросить/установить list of all tap output levels to right channel<br>
+_тип:_ list<br>
+_диапазон:_ 0..1<br>
+_по умолчанию:_ 0 0 0 0 0 0<br>
+
+* **@tap0.delay** 
+Запросить/установить tap0 delay time<br>
 _тип:_ float<br>
-_единица:_ db<br>
-_диапазон:_ -60..0<br>
+_единица:_ ms<br>
+_диапазон:_ 0..5000<br>
 _по умолчанию:_ 0<br>
 
 * **@tap0.fb0** 
@@ -430,6 +295,32 @@ _тип:_ float<br>
 _диапазон:_ 0..1<br>
 _по умолчанию:_ 0<br>
 
+* **@tap0.gain** 
+Запросить/установить tap0 common level<br>
+_тип:_ float<br>
+_единица:_ db<br>
+_диапазон:_ -60..0<br>
+_по умолчанию:_ 0<br>
+
+* **@tap0.in0** 
+Запросить/установить left input level to tap0<br>
+_тип:_ float<br>
+_диапазон:_ 0..1<br>
+_по умолчанию:_ 1<br>
+
+* **@tap0.in1** 
+Запросить/установить right input level to tap0<br>
+_тип:_ float<br>
+_диапазон:_ 0..1<br>
+_по умолчанию:_ 1<br>
+
+* **@tap1.delay** 
+Запросить/установить tap1 delay time<br>
+_тип:_ float<br>
+_единица:_ ms<br>
+_диапазон:_ 0..5000<br>
+_по умолчанию:_ 0<br>
+
 * **@tap1.fb0** 
 Запросить/установить tap0 feedback to tap1<br>
 _тип:_ float<br>
@@ -464,6 +355,32 @@ _по умолчанию:_ 0<br>
 Запросить/установить tap5 feedback to tap1<br>
 _тип:_ float<br>
 _диапазон:_ 0..1<br>
+_по умолчанию:_ 0<br>
+
+* **@tap1.gain** 
+Запросить/установить tap1 common level<br>
+_тип:_ float<br>
+_единица:_ db<br>
+_диапазон:_ -60..0<br>
+_по умолчанию:_ 0<br>
+
+* **@tap1.in0** 
+Запросить/установить left input level to tap1<br>
+_тип:_ float<br>
+_диапазон:_ 0..1<br>
+_по умолчанию:_ 1<br>
+
+* **@tap1.in1** 
+Запросить/установить right input level to tap1<br>
+_тип:_ float<br>
+_диапазон:_ 0..1<br>
+_по умолчанию:_ 1<br>
+
+* **@tap2.delay** 
+Запросить/установить tap2 delay time<br>
+_тип:_ float<br>
+_единица:_ ms<br>
+_диапазон:_ 0..5000<br>
 _по умолчанию:_ 0<br>
 
 * **@tap2.fb0** 
@@ -502,6 +419,32 @@ _тип:_ float<br>
 _диапазон:_ 0..1<br>
 _по умолчанию:_ 0<br>
 
+* **@tap2.gain** 
+Запросить/установить tap2 common level<br>
+_тип:_ float<br>
+_единица:_ db<br>
+_диапазон:_ -60..0<br>
+_по умолчанию:_ 0<br>
+
+* **@tap2.in0** 
+Запросить/установить left input level to tap2<br>
+_тип:_ float<br>
+_диапазон:_ 0..1<br>
+_по умолчанию:_ 1<br>
+
+* **@tap2.in1** 
+Запросить/установить right input level to tap2<br>
+_тип:_ float<br>
+_диапазон:_ 0..1<br>
+_по умолчанию:_ 1<br>
+
+* **@tap3.delay** 
+Запросить/установить tap3 delay time<br>
+_тип:_ float<br>
+_единица:_ ms<br>
+_диапазон:_ 0..5000<br>
+_по умолчанию:_ 0<br>
+
 * **@tap3.fb0** 
 Запросить/установить tap0 feedback to tap3<br>
 _тип:_ float<br>
@@ -536,6 +479,32 @@ _по умолчанию:_ 0<br>
 Запросить/установить tap5 feedback to tap3<br>
 _тип:_ float<br>
 _диапазон:_ 0..1<br>
+_по умолчанию:_ 0<br>
+
+* **@tap3.gain** 
+Запросить/установить tap3 common level<br>
+_тип:_ float<br>
+_единица:_ db<br>
+_диапазон:_ -60..0<br>
+_по умолчанию:_ 0<br>
+
+* **@tap3.in0** 
+Запросить/установить left input level to tap3<br>
+_тип:_ float<br>
+_диапазон:_ 0..1<br>
+_по умолчанию:_ 1<br>
+
+* **@tap3.in1** 
+Запросить/установить right input level to tap3<br>
+_тип:_ float<br>
+_диапазон:_ 0..1<br>
+_по умолчанию:_ 1<br>
+
+* **@tap4.delay** 
+Запросить/установить tap4 delay time<br>
+_тип:_ float<br>
+_единица:_ ms<br>
+_диапазон:_ 0..5000<br>
 _по умолчанию:_ 0<br>
 
 * **@tap4.fb0** 
@@ -574,6 +543,32 @@ _тип:_ float<br>
 _диапазон:_ 0..1<br>
 _по умолчанию:_ 0<br>
 
+* **@tap4.gain** 
+Запросить/установить tap4 common level<br>
+_тип:_ float<br>
+_единица:_ db<br>
+_диапазон:_ -60..0<br>
+_по умолчанию:_ 0<br>
+
+* **@tap4.in0** 
+Запросить/установить left input level to tap4<br>
+_тип:_ float<br>
+_диапазон:_ 0..1<br>
+_по умолчанию:_ 1<br>
+
+* **@tap4.in1** 
+Запросить/установить right input level to tap4<br>
+_тип:_ float<br>
+_диапазон:_ 0..1<br>
+_по умолчанию:_ 1<br>
+
+* **@tap5.delay** 
+Запросить/установить tap5 delay time<br>
+_тип:_ float<br>
+_единица:_ ms<br>
+_диапазон:_ 0..5000<br>
+_по умолчанию:_ 0<br>
+
 * **@tap5.fb0** 
 Запросить/установить tap0 feedback to tap5<br>
 _тип:_ float<br>
@@ -610,19 +605,24 @@ _тип:_ float<br>
 _диапазон:_ 0..1<br>
 _по умолчанию:_ 0<br>
 
-* **@active** 
-Запросить/установить on/off dsp processing<br>
-_тип:_ bool<br>
+* **@tap5.gain** 
+Запросить/установить tap5 common level<br>
+_тип:_ float<br>
+_единица:_ db<br>
+_диапазон:_ -60..0<br>
+_по умолчанию:_ 0<br>
+
+* **@tap5.in0** 
+Запросить/установить left input level to tap5<br>
+_тип:_ float<br>
+_диапазон:_ 0..1<br>
 _по умолчанию:_ 1<br>
 
-* **@osc** (initonly)
-Запросить/установить OSC server name to listen<br>
-_тип:_ symbol<br>
-
-* **@id** (initonly)
-Запросить/установить OSC address id. If specified, bind all properties to /ID/fx_tapiir/PROP_NAME
-osc address, if empty bind to /fx_tapiir/PROP_NAME.<br>
-_тип:_ symbol<br>
+* **@tap5.in1** 
+Запросить/установить right input level to tap5<br>
+_тип:_ float<br>
+_диапазон:_ 0..1<br>
+_по умолчанию:_ 1<br>
 
 
 

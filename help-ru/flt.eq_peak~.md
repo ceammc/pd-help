@@ -42,6 +42,27 @@ _единица:_ Hz<br>
 
 ## свойства:
 
+* **@osc** (initonly)
+Запросить/установить OSC server name to listen<br>
+_тип:_ symbol<br>
+
+* **@id** (initonly)
+Запросить/установить OSC address id. If specified, bind all properties to /ID/flt_eq_peak/PROP_NAME
+osc address, if empty bind to /flt_eq_peak/PROP_NAME.<br>
+_тип:_ symbol<br>
+
+* **@active** 
+Запросить/установить on/off dsp processing<br>
+_тип:_ bool<br>
+_по умолчанию:_ 1<br>
+
+* **@bandwidth** 
+Запросить/установить bandwidth of peak<br>
+_тип:_ float<br>
+_единица:_ Hz<br>
+_диапазон:_ 1..5000<br>
+_по умолчанию:_ 100<br>
+
 * **@freq** 
 Запросить/установить peak frequency<br>
 _тип:_ float<br>
@@ -55,27 +76,6 @@ _тип:_ float<br>
 _единица:_ db<br>
 _диапазон:_ -15..15<br>
 _по умолчанию:_ 0<br>
-
-* **@bandwidth** 
-Запросить/установить bandwidth of peak<br>
-_тип:_ float<br>
-_единица:_ Hz<br>
-_диапазон:_ 1..5000<br>
-_по умолчанию:_ 100<br>
-
-* **@active** 
-Запросить/установить on/off dsp processing<br>
-_тип:_ bool<br>
-_по умолчанию:_ 1<br>
-
-* **@osc** (initonly)
-Запросить/установить OSC server name to listen<br>
-_тип:_ symbol<br>
-
-* **@id** (initonly)
-Запросить/установить OSC address id. If specified, bind all properties to /ID/flt_eq_peak/PROP_NAME
-osc address, if empty bind to /flt_eq_peak/PROP_NAME.<br>
-_тип:_ symbol<br>
 
 
 

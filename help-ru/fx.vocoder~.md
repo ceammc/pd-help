@@ -31,15 +31,22 @@ reset object<br>
 
 ## свойства:
 
+* **@osc** (initonly)
+Запросить/установить OSC server name to listen<br>
+_тип:_ symbol<br>
+
+* **@id** (initonly)
+Запросить/установить OSC address id. If specified, bind all properties to /ID/fx_vocoder/PROP_NAME
+osc address, if empty bind to /fx_vocoder/PROP_NAME.<br>
+_тип:_ symbol<br>
+
+* **@active** 
+Запросить/установить on/off dsp processing<br>
+_тип:_ bool<br>
+_по умолчанию:_ 1<br>
+
 * **@attack** 
 Запросить/установить attack time<br>
-_тип:_ float<br>
-_единица:_ ms<br>
-_диапазон:_ 0.1..100<br>
-_по умолчанию:_ 5<br>
-
-* **@release** 
-Запросить/установить release time<br>
 _тип:_ float<br>
 _единица:_ ms<br>
 _диапазон:_ 0.1..100<br>
@@ -51,19 +58,12 @@ _тип:_ float<br>
 _диапазон:_ 0.1..2<br>
 _по умолчанию:_ 0.5<br>
 
-* **@active** 
-Запросить/установить on/off dsp processing<br>
-_тип:_ bool<br>
-_по умолчанию:_ 1<br>
-
-* **@osc** (initonly)
-Запросить/установить OSC server name to listen<br>
-_тип:_ symbol<br>
-
-* **@id** (initonly)
-Запросить/установить OSC address id. If specified, bind all properties to /ID/fx_vocoder/PROP_NAME
-osc address, if empty bind to /fx_vocoder/PROP_NAME.<br>
-_тип:_ symbol<br>
+* **@release** 
+Запросить/установить release time<br>
+_тип:_ float<br>
+_единица:_ ms<br>
+_диапазон:_ 0.1..100<br>
+_по умолчанию:_ 5<br>
 
 
 

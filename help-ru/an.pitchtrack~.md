@@ -34,19 +34,6 @@ _единица:_ samp<br>
 
 ## свойства:
 
-* **@framesize** 
-Запросить/установить frame size in samples<br>
-_тип:_ int<br>
-_единица:_ samp<br>
-_варианты:_ 128, 256, 512, 1024, 2048<br>
-_по умолчанию:_ 1024<br>
-
-* **@overlap** 
-Запросить/установить overlap of analysis frames<br>
-_тип:_ int<br>
-_варианты:_ 1, 2, 4, 8<br>
-_по умолчанию:_ 1<br>
-
 * **@bias** 
 Запросить/установить bias which favours small lags over large lags in the period detection, thereby
 avoiding low-octave jumps<br>
@@ -60,12 +47,25 @@ _тип:_ float<br>
 _диапазон:_ 0..1<br>
 _по умолчанию:_ 0.95<br>
 
+* **@framesize** 
+Запросить/установить frame size in samples<br>
+_тип:_ int<br>
+_единица:_ samp<br>
+_варианты:_ 128, 256, 512, 1024, 2048<br>
+_по умолчанию:_ 1024<br>
+
 * **@maxfreq** 
 Запросить/установить max tracked frequency<br>
 _тип:_ float<br>
 _единица:_ Hz<br>
 _диапазон:_ 10..10000<br>
 _по умолчанию:_ 1500<br>
+
+* **@overlap** 
+Запросить/установить overlap of analysis frames<br>
+_тип:_ int<br>
+_варианты:_ 1, 2, 4, 8<br>
+_по умолчанию:_ 1<br>
 
 
 

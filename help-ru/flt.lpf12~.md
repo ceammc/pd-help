@@ -40,18 +40,6 @@ reset filter state<br>
 
 ## свойства:
 
-* **@freq** 
-Запросить/установить cutoff frequency<br>
-_тип:_ float<br>
-_единица:_ Hz<br>
-_диапазон:_ 20..20000<br>
-_по умолчанию:_ 1000<br>
-
-* **@active** 
-Запросить/установить on/off dsp processing<br>
-_тип:_ bool<br>
-_по умолчанию:_ 1<br>
-
 * **@osc** (initonly)
 Запросить/установить OSC server name to listen<br>
 _тип:_ symbol<br>
@@ -60,6 +48,18 @@ _тип:_ symbol<br>
 Запросить/установить OSC address id. If specified, bind all properties to /ID/flt_lpf12/PROP_NAME
 osc address, if empty bind to /flt_lpf12/PROP_NAME.<br>
 _тип:_ symbol<br>
+
+* **@active** 
+Запросить/установить on/off dsp processing<br>
+_тип:_ bool<br>
+_по умолчанию:_ 1<br>
+
+* **@freq** 
+Запросить/установить cutoff frequency<br>
+_тип:_ float<br>
+_единица:_ Hz<br>
+_диапазон:_ 20..20000<br>
+_по умолчанию:_ 1000<br>
 
 
 

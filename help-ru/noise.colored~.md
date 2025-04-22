@@ -52,18 +52,6 @@ set to white noise (roll-off factor 0)<br>
 
 ## свойства:
 
-* **@alpha** 
-Запросить/установить slope of roll-off, between -1 and 1. -1 corresponds to brown/red noise, -1/2
-pink noise, 0 white noise, 1/2 blue noise, and 1 violet/azure noise.<br>
-_тип:_ float<br>
-_диапазон:_ -1..1<br>
-_по умолчанию:_ 0<br>
-
-* **@active** 
-Запросить/установить on/off dsp processing<br>
-_тип:_ bool<br>
-_по умолчанию:_ 1<br>
-
 * **@osc** (initonly)
 Запросить/установить OSC server name to listen<br>
 _тип:_ symbol<br>
@@ -73,6 +61,18 @@ _тип:_ symbol<br>
 /ID/noise_colored/PROP_NAME osc address, if empty bind to
 /noise_colored/PROP_NAME.<br>
 _тип:_ symbol<br>
+
+* **@active** 
+Запросить/установить on/off dsp processing<br>
+_тип:_ bool<br>
+_по умолчанию:_ 1<br>
+
+* **@alpha** 
+Запросить/установить slope of roll-off, between -1 and 1. -1 corresponds to brown/red noise, -1/2
+pink noise, 0 white noise, 1/2 blue noise, and 1 violet/azure noise.<br>
+_тип:_ float<br>
+_диапазон:_ -1..1<br>
+_по умолчанию:_ 0<br>
 
 
 

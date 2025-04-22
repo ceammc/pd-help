@@ -58,21 +58,21 @@ stop playing<br>
 
 ## свойства:
 
+* **@abs_begin** (readonly)
+Запросить absolute start position in samples<br>
+_тип:_ int<br>
+_единица:_ samp<br>
+_по умолчанию:_ 0<br>
+
+* **@abs_end** (readonly)
+Запросить absolute stop position in samples<br>
+_тип:_ int<br>
+_единица:_ samp<br>
+_по умолчанию:_ 0<br>
+
 * **@array** 
 Запросить/установить array name<br>
 _тип:_ symbol<br>
-
-* **@state** (readonly)
-Запросить player state<br>
-_тип:_ symbol<br>
-_варианты:_ play, stop<br>
-_по умолчанию:_ stop<br>
-
-* **@speed** 
-Запросить/установить play speed<br>
-_тип:_ float<br>
-_минимальное значение:_ 0.1<br>
-_по умолчанию:_ 1<br>
 
 * **@begin** 
 Запросить/установить begin position in samples<br>
@@ -86,22 +86,22 @@ _тип:_ int<br>
 _единица:_ samp<br>
 _по умолчанию:_ -1<br>
 
-* **@abs_begin** (readonly)
-Запросить absolute start position in samples<br>
-_тип:_ int<br>
-_единица:_ samp<br>
-_по умолчанию:_ 0<br>
-
-* **@abs_end** (readonly)
-Запросить absolute stop position in samples<br>
-_тип:_ int<br>
-_единица:_ samp<br>
-_по умолчанию:_ 0<br>
-
 * **@reversed** 
 Запросить/установить playing backwards (if set to 1)<br>
 _тип:_ bool<br>
 _по умолчанию:_ 0<br>
+
+* **@speed** 
+Запросить/установить play speed<br>
+_тип:_ float<br>
+_минимальное значение:_ 0.1<br>
+_по умолчанию:_ 1<br>
+
+* **@state** (readonly)
+Запросить player state<br>
+_тип:_ symbol<br>
+_варианты:_ play, stop<br>
+_по умолчанию:_ stop<br>
 
 
 

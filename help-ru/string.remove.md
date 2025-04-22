@@ -31,12 +31,6 @@ _тип:_ symbol<br>
 
 ## свойства:
 
-* **@mode** 
-Запросить/установить remove mode<br>
-_тип:_ symbol<br>
-_варианты:_ all, first, last<br>
-_по умолчанию:_ all<br>
-
 * **@all** 
 Запросить/установить alias to @mode all - remove all occurences in input string<br>
 _тип:_ alias<br>
@@ -48,6 +42,12 @@ _тип:_ alias<br>
 * **@last** 
 Запросить/установить alias to @mode last - remove last occurence in input string<br>
 _тип:_ alias<br>
+
+* **@mode** 
+Запросить/установить remove mode<br>
+_тип:_ symbol<br>
+_варианты:_ all, first, last<br>
+_по умолчанию:_ all<br>
 
 * **@str** 
 Запросить/установить removed string<br>

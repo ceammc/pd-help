@@ -59,6 +59,24 @@ reset envelope to initial state<br>
 
 ## свойства:
 
+* **@osc** (initonly)
+Запросить/установить OSC server name to listen<br>
+_тип:_ symbol<br>
+
+* **@id** (initonly)
+Запросить/установить OSC address id. If specified, bind all properties to /ID/env_adsr/PROP_NAME osc
+address, if empty bind to /env_adsr/PROP_NAME.<br>
+_тип:_ symbol<br>
+
+* **@active** 
+Запросить/установить on/off dsp processing<br>
+_тип:_ bool<br>
+_по умолчанию:_ 1<br>
+
+* **@adsr** (readonly)
+Запросить attack decay sustain release tuple<br>
+_тип:_ list<br>
+
 * **@attack** 
 Запросить/установить attack time<br>
 _тип:_ float<br>
@@ -73,12 +91,11 @@ _единица:_ ms<br>
 _диапазон:_ 0..100000<br>
 _по умолчанию:_ 10<br>
 
-* **@sustain** 
-Запросить/установить sustain level - percent from trigger signal<br>
+* **@gate** 
+Запросить/установить trigger. If &gt; 0 - starts envelope.<br>
 _тип:_ float<br>
-_единица:_ %<br>
-_диапазон:_ 0..100<br>
-_по умолчанию:_ 50<br>
+_диапазон:_ 0..1<br>
+_по умолчанию:_ 0<br>
 
 * **@release** 
 Запросить/установить release time<br>
@@ -87,29 +104,12 @@ _единица:_ ms<br>
 _диапазон:_ 0..100000<br>
 _по умолчанию:_ 300<br>
 
-* **@gate** 
-Запросить/установить trigger. If &gt; 0 - starts envelope.<br>
+* **@sustain** 
+Запросить/установить sustain level - percent from trigger signal<br>
 _тип:_ float<br>
-_диапазон:_ 0..1<br>
-_по умолчанию:_ 0<br>
-
-* **@adsr** (readonly)
-Запросить attack decay sustain release tuple<br>
-_тип:_ list<br>
-
-* **@active** 
-Запросить/установить on/off dsp processing<br>
-_тип:_ bool<br>
-_по умолчанию:_ 1<br>
-
-* **@osc** (initonly)
-Запросить/установить OSC server name to listen<br>
-_тип:_ symbol<br>
-
-* **@id** (initonly)
-Запросить/установить OSC address id. If specified, bind all properties to /ID/env_adsr/PROP_NAME osc
-address, if empty bind to /env_adsr/PROP_NAME.<br>
-_тип:_ symbol<br>
+_единица:_ %<br>
+_диапазон:_ 0..100<br>
+_по умолчанию:_ 50<br>
 
 
 

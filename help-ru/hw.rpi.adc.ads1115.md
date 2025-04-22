@@ -14,7 +14,7 @@ layout: default_ru
 
 
 ## информация
-Fullscale range settings: - @fsr 6144mv, range +-6.144V, 1-bit: 0.1875mV - @fsr 4096mv, range +-4.096V, 1-bit: 0.125mV - @fsr 2048mv, range +-2.048V, 1-bit: 0.0625mV - @fsr 1024mv, range +-1.024V, 1-bit: 0.03125mV - @fsr 512mv, range +-0.512V, 1-bit: 0.015625mV - @fsr 256mv, range +-0.256V, 1-bit: 0.0078125mV
+Full-scale range settings: - @fsr 6144mv, range +-6.144V, 1-bit: 0.1875mV - @fsr 4096mv, range +-4.096V, 1-bit: 0.125mV - @fsr 2048mv, range +-2.048V, 1-bit: 0.0625mV - @fsr 1024mv, range +-1.024V, 1-bit: 0.03125mV - @fsr 512mv, range +-0.512V, 1-bit: 0.015625mV - @fsr 256mv, range +-0.256V, 1-bit: 0.0078125mV
 
 
 [![example](../examples/img/hw.rpi.adc.ads1115.jpg)](../examples/pd/hw.rpi.adc.ads1115.pd)
@@ -34,7 +34,7 @@ _тип:_ symbol<br>
 * **measure**
 single measure request<br>
   __параметры:__
-  - **[CHAN]** the channel to measure. If ommited: perform measure on all channels<br>
+  - **[CHAN]** the channel to measure. If omitted: perform measure on all channels<br>
     тип: int <br>
 
 * **poll**
@@ -50,16 +50,10 @@ set polling turn on/off<br>
 ## свойства:
 
 * **@fsr** (initonly)
-Запросить/установить fullscale input range<br>
+Запросить/установить full-scale input range<br>
 _тип:_ symbol<br>
 _варианты:_ 1024mv, 2048mv, 256mv, 4096mv, 512mv, 6144mv<br>
 _по умолчанию:_ 6144mv<br>
-
-* **@i2c_bus** (initonly)
-Запросить/установить I²C bus<br>
-_тип:_ atom<br>
-_варианты:_ 1, 2, 3, 4, 5, 6, default, none<br>
-_по умолчанию:_ none<br>
 
 * **@i2c_addr** (initonly)
 Запросить/установить I²C address. Also &#39;default&#39; value is accepted (for addr ???) and &#39;alt&#39; (for
@@ -67,6 +61,12 @@ addr ???)<br>
 _тип:_ int<br>
 _диапазон:_ -4..119<br>
 _по умолчанию:_ -1<br>
+
+* **@i2c_bus** (initonly)
+Запросить/установить I²C bus<br>
+_тип:_ atom<br>
+_варианты:_ 1, 2, 3, 4, 5, 6, default, none<br>
+_по умолчанию:_ none<br>
 
 * **@in_max** 
 Запросить/установить input maximum value in millivolts<br>
@@ -99,7 +99,7 @@ _тип:_ float<br>
 _по умолчанию:_ 1.0<br>
 
 * **@out_min** 
-Запросить/установить output min value<br>
+Запросить/установить output minimum value<br>
 _тип:_ float<br>
 _по умолчанию:_ 0.0<br>
 

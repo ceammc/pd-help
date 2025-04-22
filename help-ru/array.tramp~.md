@@ -39,27 +39,27 @@ _тип:_ float<br>
 Запросить/установить array name<br>
 _тип:_ symbol<br>
 
-* **@speed** 
-Запросить/установить ramp speed<br>
-_тип:_ float<br>
-_по умолчанию:_ 1<br>
-
 * **@from** 
 Запросить/установить normalized to [0-1] range ramp start<br>
 _тип:_ float<br>
 _диапазон:_ 0..1<br>
 _по умолчанию:_ 0<br>
 
+* **@range** 
+Запросить/установить ramp range<br>
+_тип:_ list<br>
+_по умолчанию:_ 0 1<br>
+
+* **@speed** 
+Запросить/установить ramp speed<br>
+_тип:_ float<br>
+_по умолчанию:_ 1<br>
+
 * **@to** 
 Запросить/установить normalized to [0-1] range ramp end<br>
 _тип:_ float<br>
 _диапазон:_ 0..1<br>
 _по умолчанию:_ 1<br>
-
-* **@range** 
-Запросить/установить ramp range<br>
-_тип:_ list<br>
-_по умолчанию:_ 0 1<br>
 
 
 

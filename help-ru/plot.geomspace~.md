@@ -43,6 +43,35 @@ _тип:_ atom<br>
 
 ## свойства:
 
+* **@10** 
+Запросить/установить alias to @base 10<br>
+_тип:_ atom<br>
+
+* **@2** 
+Запросить/установить alias to @base 2<br>
+_тип:_ atom<br>
+
+* **@base** 
+Запросить/установить x-axis scale base<br>
+_тип:_ atom<br>
+_варианты:_ 10, 2, e<br>
+_по умолчанию:_ 10<br>
+
+* **@e** 
+Запросить/установить alias to @base e<br>
+_тип:_ atom<br>
+
+* **@endpoint** 
+Запросить/установить include @stop to interval<br>
+_тип:_ bool<br>
+_по умолчанию:_ 1<br>
+
+* **@n** 
+Запросить/установить number of points<br>
+_тип:_ int<br>
+_диапазон:_ 4..1024<br>
+_по умолчанию:_ 100<br>
+
 * **@start** 
 Запросить/установить the starting value of the sequence<br>
 _тип:_ float<br>
@@ -56,35 +85,6 @@ _по умолчанию:_ 0.1<br>
 _тип:_ float<br>
 _минимальное значение:_ 0<br>
 _по умолчанию:_ 100<br>
-
-* **@n** 
-Запросить/установить number of points<br>
-_тип:_ int<br>
-_диапазон:_ 4..1024<br>
-_по умолчанию:_ 100<br>
-
-* **@base** 
-Запросить/установить x-axis scale base<br>
-_тип:_ atom<br>
-_варианты:_ 10, 2, e<br>
-_по умолчанию:_ 10<br>
-
-* **@2** 
-Запросить/установить alias to @base 2<br>
-_тип:_ atom<br>
-
-* **@10** 
-Запросить/установить alias to @base 10<br>
-_тип:_ atom<br>
-
-* **@e** 
-Запросить/установить alias to @base e<br>
-_тип:_ atom<br>
-
-* **@endpoint** 
-Запросить/установить include @stop to interval<br>
-_тип:_ bool<br>
-_по умолчанию:_ 1<br>
 
 
 

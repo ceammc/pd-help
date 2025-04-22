@@ -35,32 +35,20 @@ _тип:_ symbol<br>
 
 ## свойства:
 
-* **@src** 
-Запросить/установить source array<br>
-_тип:_ symbol<br>
+* **@best** 
+Запросить/установить alias to @quality best<br>
+_тип:_ alias<br>
 
 * **@dest** 
 Запросить/установить destination array<br>
 _тип:_ symbol<br>
 
-* **@ratio** 
-Запросить/установить resample ratio (src/dest)<br>
-_тип:_ float<br>
-_минимальное значение:_ 0<br>
-_по умолчанию:_ 0<br>
-
-* **@quality** 
-Запросить/установить resample quality<br>
-_тип:_ symbol<br>
-_варианты:_ high, fast, low, medium, best<br>
-_по умолчанию:_ high<br>
+* **@fast** 
+Запросить/установить alias to @quality fast<br>
+_тип:_ alias<br>
 
 * **@high** 
 Запросить/установить alias to @quality high<br>
-_тип:_ alias<br>
-
-* **@fast** 
-Запросить/установить alias to @quality fast<br>
 _тип:_ alias<br>
 
 * **@low** 
@@ -71,9 +59,21 @@ _тип:_ alias<br>
 Запросить/установить alias to @quality medium<br>
 _тип:_ alias<br>
 
-* **@best** 
-Запросить/установить alias to @quality best<br>
-_тип:_ alias<br>
+* **@quality** 
+Запросить/установить resample quality<br>
+_тип:_ symbol<br>
+_варианты:_ high, fast, low, medium, best<br>
+_по умолчанию:_ high<br>
+
+* **@ratio** 
+Запросить/установить resample ratio (src/dest)<br>
+_тип:_ float<br>
+_минимальное значение:_ 0<br>
+_по умолчанию:_ 0<br>
+
+* **@src** 
+Запросить/установить source array<br>
+_тип:_ symbol<br>
 
 
 

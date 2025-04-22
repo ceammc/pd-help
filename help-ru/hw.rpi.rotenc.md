@@ -26,6 +26,9 @@ layout: default_ru
 * **get**
 request current value output<br>
 
+* **reset**
+reset current value to @init<br>
+
 * **set**
 set current value without output<br>
   __параметры:__
@@ -33,35 +36,10 @@ set current value without output<br>
     тип: float <br>
     обязательно: True <br>
 
-* **reset**
-reset current value to @init<br>
-
 
 
 
 ## свойства:
-
-* **@init** (initonly)
-Запросить/установить init encoder value<br>
-_тип:_ float<br>
-_по умолчанию:_ 0<br>
-
-* **@dt** (initonly)
-Запросить/установить DT GPIO pin<br>
-_тип:_ int<br>
-_диапазон:_ -1..127<br>
-_по умолчанию:_ -1<br>
-
-* **@min** 
-Запросить/установить min encoder value<br>
-_тип:_ float<br>
-_по умолчанию:_ -100<br>
-
-* **@clk** (initonly)
-Запросить/установить CLK GPIO pin<br>
-_тип:_ int<br>
-_диапазон:_ -1..127<br>
-_по умолчанию:_ -1<br>
 
 * **@btn** (initonly)
 Запросить/установить BTN GPIO pin<br>
@@ -69,15 +47,37 @@ _тип:_ int<br>
 _диапазон:_ -1..127<br>
 _по умолчанию:_ -1<br>
 
-* **@step** 
-Запросить/установить encoder step<br>
+* **@clk** (initonly)
+Запросить/установить CLK GPIO pin<br>
+_тип:_ int<br>
+_диапазон:_ -1..127<br>
+_по умолчанию:_ -1<br>
+
+* **@dt** (initonly)
+Запросить/установить DT GPIO pin<br>
+_тип:_ int<br>
+_диапазон:_ -1..127<br>
+_по умолчанию:_ -1<br>
+
+* **@init** (initonly)
+Запросить/установить init encoder value<br>
 _тип:_ float<br>
-_по умолчанию:_ 1<br>
+_по умолчанию:_ 0<br>
 
 * **@max** 
 Запросить/установить max encoder value<br>
 _тип:_ float<br>
 _по умолчанию:_ 100<br>
+
+* **@min** 
+Запросить/установить min encoder value<br>
+_тип:_ float<br>
+_по умолчанию:_ -100<br>
+
+* **@step** 
+Запросить/установить encoder step<br>
+_тип:_ float<br>
+_по умолчанию:_ 1<br>
 
 
 

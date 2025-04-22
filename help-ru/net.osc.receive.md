@@ -39,14 +39,14 @@ _тип:_ symbol<br>
 
 ## свойства:
 
+* **@path** 
+Запросить/установить OSC listen path<br>
+_тип:_ symbol<br>
+
 * **@server** 
 Запросить/установить OSC server name<br>
 _тип:_ symbol<br>
 _по умолчанию:_ default<br>
-
-* **@path** 
-Запросить/установить OSC listen path<br>
-_тип:_ symbol<br>
 
 * **@types** 
 Запросить/установить expected OSC type string<br>

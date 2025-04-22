@@ -33,10 +33,9 @@ _тип:_ list<br>
 
 ## свойства:
 
-* **@poly** (initonly)
-Запросить/установить polyphonic mode. (for using with [clone] object)<br>
-_тип:_ flag<br>
-_по умолчанию:_ 0<br>
+* **@keys** (initonly)
+Запросить/установить list of mapped keys<br>
+_тип:_ list<br>
 
 * **@mode** 
 Запросить/установить mode for repeated notes. If &#39;off&#39; - send note off before retriggering, if &#39;tie&#39;
@@ -45,9 +44,10 @@ _тип:_ symbol<br>
 _варианты:_ off, tie, raw<br>
 _по умолчанию:_ off<br>
 
-* **@keys** (initonly)
-Запросить/установить list of mapped keys<br>
-_тип:_ list<br>
+* **@poly** (initonly)
+Запросить/установить polyphonic mode. (for using with [clone] object)<br>
+_тип:_ flag<br>
+_по умолчанию:_ 0<br>
 
 * **@vel** 
 Запросить/установить output velocity<br>

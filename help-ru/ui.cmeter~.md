@@ -41,17 +41,66 @@ set UI element position<br>
 
 ## свойства:
 
+* **@angles** 
+Запросить/установить channel angle positions<br>
+_тип:_ list<br>
+
+* **@background_color** 
+Запросить/установить element background color (list of red, green, blue values in 0-1 range)<br>
+_тип:_ list<br>
+_по умолчанию:_ 0.93 0.93 0.93 1<br>
+
+* **@border_color** 
+Запросить/установить border color (list of red, green, blue values in 0-1 range)<br>
+_тип:_ list<br>
+_по умолчанию:_ 0.6 0.6 0.6 1<br>
+
+* **@clockwise** 
+Запросить/установить clockwise channel numbering<br>
+_тип:_ bool<br>
+_по умолчанию:_ 0<br>
+
+* **@cold_color** 
+Запросить/установить extra low-level signal color &lt;-31db (list of red, green, blue values in 0-1
+range)<br>
+_тип:_ list<br>
+_по умолчанию:_ 0 0.6 0 1<br>
+
+* **@fontname** 
+Запросить/установить fontname<br>
+_тип:_ symbol<br>
+_варианты:_ Courier, DejaVu, Helvetica, Monaco, Times<br>
+_по умолчанию:_ Helvetica<br>
+
+* **@fontsize** 
+Запросить/установить fontsize<br>
+_тип:_ int<br>
+_диапазон:_ 4..100<br>
+_по умолчанию:_ 11<br>
+
+* **@fontslant** 
+Запросить/установить font slant<br>
+_тип:_ symbol<br>
+_варианты:_ roman, italic<br>
+_по умолчанию:_ roman<br>
+
+* **@fontweight** 
+Запросить/установить font weight<br>
+_тип:_ symbol<br>
+_варианты:_ normal, bold<br>
+_по умолчанию:_ normal<br>
+
+* **@hot_color** 
+Запросить/установить loud level signal color &lt;-3db (list of red, green, blue values in 0-1 range)<br>
+_тип:_ list<br>
+_по умолчанию:_ 1 0.6 0 1<br>
+
 * **@interval** 
 Запросить/установить refresh interval<br>
 _тип:_ int<br>
 _единица:_ ms<br>
 _минимальное значение:_ 20<br>
 _по умолчанию:_ 100<br>
-
-* **@clockwise** 
-Запросить/установить clockwise channel numbering<br>
-_тип:_ bool<br>
-_по умолчанию:_ 0<br>
 
 * **@nch** 
 Запросить/установить number of channels<br>
@@ -65,9 +114,21 @@ _тип:_ int<br>
 _диапазон:_ -63..63<br>
 _по умолчанию:_ 0<br>
 
-* **@angles** 
-Запросить/установить channel angle positions<br>
+* **@over_color** 
+Запросить/установить extra-loud level signal color &gt;-3db (list of red, green, blue values in 0-1
+range)<br>
 _тип:_ list<br>
+_по умолчанию:_ 1 0 0 1<br>
+
+* **@pinned** 
+Запросить/установить pin mode. if 1 - put element to the lowest level<br>
+_тип:_ bool<br>
+_по умолчанию:_ 0<br>
+
+* **@receive** 
+Запросить/установить receive source<br>
+_тип:_ symbol<br>
+_по умолчанию:_ (null)<br>
 
 * **@rotation** 
 Запросить/установить source channels rotation (anticlockwise)<br>
@@ -81,26 +142,10 @@ _по умолчанию:_ 0<br>
 _тип:_ symbol<br>
 _по умолчанию:_ (null)<br>
 
-* **@receive** 
-Запросить/установить receive source<br>
-_тип:_ symbol<br>
-_по умолчанию:_ (null)<br>
-
 * **@size** 
 Запросить/установить element size (width, height pair)<br>
 _тип:_ list<br>
 _по умолчанию:_ 120 120<br>
-
-* **@pinned** 
-Запросить/установить pin mode. if 1 - put element to the lowest level<br>
-_тип:_ bool<br>
-_по умолчанию:_ 0<br>
-
-* **@cold_color** 
-Запросить/установить extra low-level signal color &lt;-31db (list of red, green, blue values in 0-1
-range)<br>
-_тип:_ list<br>
-_по умолчанию:_ 0 0.6 0 1<br>
 
 * **@tepid_color** 
 Запросить/установить low-level signal color &lt;-21db (list of red, green, blue values in 0-1 range)<br>
@@ -111,51 +156,6 @@ _по умолчанию:_ 0.6 0.73 0 1<br>
 Запросить/установить normal level signal color &lt;-9db (list of red, green, blue values in 0-1 range)<br>
 _тип:_ list<br>
 _по умолчанию:_ 0.85 0.85 0 1<br>
-
-* **@hot_color** 
-Запросить/установить loud level signal color &lt;-3db (list of red, green, blue values in 0-1 range)<br>
-_тип:_ list<br>
-_по умолчанию:_ 1 0.6 0 1<br>
-
-* **@over_color** 
-Запросить/установить extra-loud level signal color &gt;-3db (list of red, green, blue values in 0-1
-range)<br>
-_тип:_ list<br>
-_по умолчанию:_ 1 0 0 1<br>
-
-* **@background_color** 
-Запросить/установить element background color (list of red, green, blue values in 0-1 range)<br>
-_тип:_ list<br>
-_по умолчанию:_ 0.93 0.93 0.93 1<br>
-
-* **@border_color** 
-Запросить/установить border color (list of red, green, blue values in 0-1 range)<br>
-_тип:_ list<br>
-_по умолчанию:_ 0.6 0.6 0.6 1<br>
-
-* **@fontsize** 
-Запросить/установить fontsize<br>
-_тип:_ int<br>
-_диапазон:_ 4..100<br>
-_по умолчанию:_ 11<br>
-
-* **@fontname** 
-Запросить/установить fontname<br>
-_тип:_ symbol<br>
-_варианты:_ Courier, DejaVu, Helvetica, Monaco, Times<br>
-_по умолчанию:_ Helvetica<br>
-
-* **@fontweight** 
-Запросить/установить font weight<br>
-_тип:_ symbol<br>
-_варианты:_ normal, bold<br>
-_по умолчанию:_ normal<br>
-
-* **@fontslant** 
-Запросить/установить font slant<br>
-_тип:_ symbol<br>
-_варианты:_ roman, italic<br>
-_по умолчанию:_ roman<br>
 
 
 

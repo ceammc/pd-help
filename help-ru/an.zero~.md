@@ -32,6 +32,11 @@ _единица:_ samp<br>
 _диапазон:_ 1..65536<br>
 _по умолчанию:_ 1024<br>
 
+* **@clock** (initonly)
+Запросить/установить alias for @mode count @bs 1. Output impulse at each zero crossing.<br>
+_тип:_ list<br>
+_по умолчанию:_ 0<br>
+
 * **@mode** 
 Запросить/установить calculation mode: if &#39;count&#39; - output number of zero crossing occurred in a
 period of current block size, if &#39;rate&#39; - output zero crossing rate (zero
@@ -40,11 +45,6 @@ hertz.<br>
 _тип:_ symbol<br>
 _варианты:_ count, rate, freq<br>
 _по умолчанию:_ count<br>
-
-* **@clock** (initonly)
-Запросить/установить alias for @mode count @bs 1. Output impulse at each zero crossing.<br>
-_тип:_ list<br>
-_по умолчанию:_ 0<br>
 
 
 

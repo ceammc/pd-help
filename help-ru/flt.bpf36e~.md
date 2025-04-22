@@ -44,6 +44,20 @@ reset filter state<br>
 
 ## свойства:
 
+* **@osc** (initonly)
+Запросить/установить OSC server name to listen<br>
+_тип:_ symbol<br>
+
+* **@id** (initonly)
+Запросить/установить OSC address id. If specified, bind all properties to /ID/flt_bpf36e/PROP_NAME
+osc address, if empty bind to /flt_bpf36e/PROP_NAME.<br>
+_тип:_ symbol<br>
+
+* **@active** 
+Запросить/установить on/off dsp processing<br>
+_тип:_ bool<br>
+_по умолчанию:_ 1<br>
+
 * **@freq** (initonly)
 Запросить/установить cutoff frequency<br>
 _тип:_ float<br>
@@ -56,20 +70,6 @@ _по умолчанию:_ 1000<br>
 _тип:_ float<br>
 _диапазон:_ 0.25..32<br>
 _по умолчанию:_ 2<br>
-
-* **@active** 
-Запросить/установить on/off dsp processing<br>
-_тип:_ bool<br>
-_по умолчанию:_ 1<br>
-
-* **@osc** (initonly)
-Запросить/установить OSC server name to listen<br>
-_тип:_ symbol<br>
-
-* **@id** (initonly)
-Запросить/установить OSC address id. If specified, bind all properties to /ID/flt_bpf36e/PROP_NAME
-osc address, if empty bind to /flt_bpf36e/PROP_NAME.<br>
-_тип:_ symbol<br>
 
 
 

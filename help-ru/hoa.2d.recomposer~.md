@@ -64,17 +64,17 @@ set the widening value of channels. Widening value is clipped between 0.
 
 ## свойства:
 
-* **@order** (initonly)
-Запросить/установить the order of decomposition<br>
-_тип:_ int<br>
-_диапазон:_ 1..63<br>
-_по умолчанию:_ 1<br>
+* **@fisheye** (initonly)
+Запросить/установить alias for @mode fisheye<br>
+_тип:_ alias<br>
 
-* **@n** (initonly)
-Запросить/установить number of channels (planewaves). &#39;0&#39; means auto-calculation.<br>
-_тип:_ int<br>
-_диапазон:_ 0..128<br>
-_по умолчанию:_ 0<br>
+* **@fixe** (initonly)
+Запросить/установить alias for @mode fixe<br>
+_тип:_ alias<br>
+
+* **@free** (initonly)
+Запросить/установить alias for @mode free<br>
+_тип:_ alias<br>
 
 * **@mode** (initonly)
 Запросить/установить recomposition mode. There is three modes: *fixe* - simply recomposes a plane
@@ -86,17 +86,17 @@ _тип:_ symbol<br>
 _варианты:_ fixe, fisheye, free<br>
 _по умолчанию:_ free<br>
 
-* **@fixe** (initonly)
-Запросить/установить alias for @mode fixe<br>
-_тип:_ alias<br>
+* **@n** (initonly)
+Запросить/установить number of channels (planewaves). &#39;0&#39; means auto-calculation.<br>
+_тип:_ int<br>
+_диапазон:_ 0..128<br>
+_по умолчанию:_ 0<br>
 
-* **@fisheye** (initonly)
-Запросить/установить alias for @mode fisheye<br>
-_тип:_ alias<br>
-
-* **@free** (initonly)
-Запросить/установить alias for @mode free<br>
-_тип:_ alias<br>
+* **@order** (initonly)
+Запросить/установить the order of decomposition<br>
+_тип:_ int<br>
+_диапазон:_ 1..63<br>
+_по умолчанию:_ 1<br>
 
 * **@ramp** 
 Запросить/установить ramp time<br>

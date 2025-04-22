@@ -25,6 +25,14 @@ layout: default_ru
 
 ## свойства:
 
+* **@both** 
+Запросить/установить alias to @mode both<br>
+_тип:_ alias<br>
+
+* **@down** 
+Запросить/установить alias to @mode down<br>
+_тип:_ alias<br>
+
 * **@mode** 
 Запросить/установить edge detection mode<br>
 _тип:_ symbol<br>
@@ -33,14 +41,6 @@ _по умолчанию:_ up<br>
 
 * **@up** 
 Запросить/установить alias to @mode up<br>
-_тип:_ alias<br>
-
-* **@down** 
-Запросить/установить alias to @mode down<br>
-_тип:_ alias<br>
-
-* **@both** 
-Запросить/установить alias to @mode both<br>
 _тип:_ alias<br>
 
 

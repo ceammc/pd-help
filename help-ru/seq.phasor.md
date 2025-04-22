@@ -65,13 +65,18 @@ _единица:_ Hz<br>
 _диапазон:_ 0..100<br>
 _по умолчанию:_ 0<br>
 
+* **@invert** 
+Запросить/установить saw inversion mode. If true, outputs descreasing waveform<br>
+_тип:_ bool<br>
+_по умолчанию:_ 0<br>
+
 * **@on** 
 Запросить/установить on/off state<br>
 _тип:_ bool<br>
 _по умолчанию:_ 0<br>
 
-* **@invert** 
-Запросить/установить saw inversion mode. If true, outputs descreasing waveform<br>
+* **@open** 
+Запросить/установить output in open [0..1) range, otherwise output range is [0..1]<br>
 _тип:_ bool<br>
 _по умолчанию:_ 0<br>
 
@@ -80,11 +85,6 @@ _по умолчанию:_ 0<br>
 _тип:_ int<br>
 _минимальное значение:_ 3<br>
 _по умолчанию:_ 128<br>
-
-* **@open** 
-Запросить/установить output in open [0..1) range, otherwise output range is [0..1]<br>
-_тип:_ bool<br>
-_по умолчанию:_ 0<br>
 
 
 

@@ -50,16 +50,16 @@ resize target array<br>
 Запросить/установить array name<br>
 _тип:_ symbol<br>
 
-* **@on** 
-Запросить/установить write mode<br>
-_тип:_ bool<br>
-_по умолчанию:_ 1<br>
-
 * **@interp** 
 Запросить/установить interpolation mode<br>
 _тип:_ int<br>
 _варианты:_ 0, 1, 3<br>
 _по умолчанию:_ 0<br>
+
+* **@on** 
+Запросить/установить write mode<br>
+_тип:_ bool<br>
+_по умолчанию:_ 1<br>
 
 
 

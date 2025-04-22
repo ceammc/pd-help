@@ -192,6 +192,23 @@ draw line<br>
     тип: int <br>
     обязательно: True <br>
 
+* **load**
+load image to bitmap<br>
+  __параметры:__
+  - **FILE** image path, relative, or absolute<br>
+    тип: symbol <br>
+    обязательно: True <br>
+
+  - **[SCALE=1]** image scale<br>
+    тип: float <br>
+
+* **mirror**
+mirror bitmap<br>
+  __параметры:__
+  - **AXIS** mirror axis<br>
+    тип: symbol <br>
+    обязательно: True <br>
+
 * **pixel**
 set pixel<br>
   __параметры:__
@@ -242,6 +259,12 @@ draw draw<br>
   - **DX** x offset<br>
     тип: int <br>
     обязательно: True <br>
+
+* **save**
+save bitmap to PNG file<br>
+  __параметры:__
+  - **[PATH]** file name, absolute, or relative<br>
+    тип: symbol <br>
 
 * **sector**
 draw sector<br>
@@ -322,6 +345,13 @@ set stroke color<br>
   - **[COLOR]** stroke color (0 or 1)<br>
     тип: int <br>
 
+* **stroke_width**
+set stroke width<br>
+  __параметры:__
+  - **W** new width<br>
+    тип: int <br>
+    обязательно: True <br>
+
 * **text**
 draw text<br>
   __параметры:__
@@ -342,12 +372,6 @@ set text color<br>
   __параметры:__
   - **[COLOR]** fill color (0, 1 or -1 if no color)<br>
     тип: int <br>
-
-* **save**
-save bitmap to PNG file<br>
-  __параметры:__
-  - **[PATH]** file name, absolute or relative<br>
-    тип: symbol <br>
 
 * **triangle**
 draw triangle<br>
@@ -376,6 +400,9 @@ draw triangle<br>
     тип: int <br>
     обязательно: True <br>
 
+* **view**
+opens bitmap view window<br>
+
 * **vshift**
 vertical shift<br>
   __параметры:__
@@ -383,46 +410,19 @@ vertical shift<br>
     тип: int <br>
     обязательно: True <br>
 
-* **stroke_width**
-set stroke width<br>
-  __параметры:__
-  - **W** new width<br>
-    тип: int <br>
-    обязательно: True <br>
-
-* **mirror**
-mirror bitmap<br>
-  __параметры:__
-  - **AXIS** mirror axis<br>
-    тип: symbol <br>
-    обязательно: True <br>
-
-* **load**
-load image to bitmap<br>
-  __параметры:__
-  - **FILE** image path, relative or absolute<br>
-    тип: symbol <br>
-    обязательно: True <br>
-
-  - **[SCALE=1]** image scale<br>
-    тип: float <br>
-
-* **view**
-opens bitmap view window<br>
-
 
 
 
 ## свойства:
 
-* **@w** (initonly)
-Запросить/установить bitmap width in pixels<br>
+* **@h** (initonly)
+Запросить/установить bitmap height in pixels<br>
 _тип:_ int<br>
 _диапазон:_ 1..256<br>
 _по умолчанию:_ 8<br>
 
-* **@h** (initonly)
-Запросить/установить bitmap height in pixels<br>
+* **@w** (initonly)
+Запросить/установить bitmap width in pixels<br>
 _тип:_ int<br>
 _диапазон:_ 1..256<br>
 _по умолчанию:_ 8<br>

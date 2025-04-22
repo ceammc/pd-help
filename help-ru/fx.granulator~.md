@@ -31,6 +31,28 @@ reset object state<br>
 
 ## свойства:
 
+* **@osc** (initonly)
+Запросить/установить OSC server name to listen<br>
+_тип:_ symbol<br>
+
+* **@id** (initonly)
+Запросить/установить OSC address id. If specified, bind all properties to
+/ID/fx_granulator/PROP_NAME osc address, if empty bind to
+/fx_granulator/PROP_NAME.<br>
+_тип:_ symbol<br>
+
+* **@active** 
+Запросить/установить on/off dsp processing<br>
+_тип:_ bool<br>
+_по умолчанию:_ 1<br>
+
+* **@delay** 
+Запросить/установить grain total area length<br>
+_тип:_ float<br>
+_единица:_ sec<br>
+_диапазон:_ 0.5..10<br>
+_по умолчанию:_ 10<br>
+
 * **@density** 
 Запросить/установить number of grains<br>
 _тип:_ int<br>
@@ -43,28 +65,6 @@ _тип:_ float<br>
 _единица:_ ms<br>
 _диапазон:_ 10..500<br>
 _по умолчанию:_ 100<br>
-
-* **@delay** 
-Запросить/установить grain total area length<br>
-_тип:_ float<br>
-_единица:_ sec<br>
-_диапазон:_ 0.5..10<br>
-_по умолчанию:_ 10<br>
-
-* **@active** 
-Запросить/установить on/off dsp processing<br>
-_тип:_ bool<br>
-_по умолчанию:_ 1<br>
-
-* **@osc** (initonly)
-Запросить/установить OSC server name to listen<br>
-_тип:_ symbol<br>
-
-* **@id** (initonly)
-Запросить/установить OSC address id. If specified, bind all properties to
-/ID/fx_granulator/PROP_NAME osc address, if empty bind to
-/fx_granulator/PROP_NAME.<br>
-_тип:_ symbol<br>
 
 
 

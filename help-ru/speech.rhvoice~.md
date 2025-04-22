@@ -46,10 +46,16 @@ stops speech and clear TTS queue<br>
 
 ## свойства:
 
-* **@voice** 
-Запросить/установить voice<br>
+* **@pitch** 
+Запросить/установить voice pitch<br>
+_тип:_ float<br>
+_диапазон:_ -1..1<br>
+_по умолчанию:_ 0<br>
+
+* **@punct** 
+Запросить/установить punctuation for pronunciation. If &#39;all&#39; - pronounce all, otherwise pronounce
+only specified punctuation characters.<br>
 _тип:_ symbol<br>
-_по умолчанию:_ Anna<br>
 
 * **@rate** 
 Запросить/установить speaking rate<br>
@@ -57,22 +63,16 @@ _тип:_ float<br>
 _диапазон:_ -1..1<br>
 _по умолчанию:_ 0<br>
 
-* **@pitch** 
-Запросить/установить voice pitch<br>
-_тип:_ float<br>
-_диапазон:_ -1..1<br>
-_по умолчанию:_ 0<br>
+* **@voice** 
+Запросить/установить voice<br>
+_тип:_ symbol<br>
+_по умолчанию:_ Anna<br>
 
 * **@volume** 
 Запросить/установить voice volume<br>
 _тип:_ float<br>
 _диапазон:_ 0..1<br>
 _по умолчанию:_ 1<br>
-
-* **@punct** 
-Запросить/установить punctuation for pronunciation. If &#39;all&#39; - pronounce all, otherwise pronounce
-only specified punctuation characters.<br>
-_тип:_ symbol<br>
 
 
 

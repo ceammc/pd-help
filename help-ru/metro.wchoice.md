@@ -31,13 +31,13 @@ _тип:_ list<br>
 
 ## свойства:
 
-* **@t** 
-Запросить/установить timeset (&gt;0)<br>
+* **@calc_w** (readonly)
+Запросить normalized list of probabilities<br>
 _тип:_ list<br>
-_единица:_ ms<br>
+_по умолчанию:_ 1<br>
 
-* **@w** 
-Запросить/установить weight list, float or percent values<br>
+* **@init** (initonly)
+Запросить/установить intermixed list of time and weights values<br>
 _тип:_ list<br>
 
 * **@seed** 
@@ -46,14 +46,14 @@ _тип:_ int<br>
 _минимальное значение:_ 0<br>
 _по умолчанию:_ 0<br>
 
-* **@init** (initonly)
-Запросить/установить intermixed list of time and weights values<br>
+* **@t** 
+Запросить/установить timeset (&gt;0)<br>
 _тип:_ list<br>
+_единица:_ ms<br>
 
-* **@calc_w** (readonly)
-Запросить normalized list of probabilities<br>
+* **@w** 
+Запросить/установить weight list, float or percent values<br>
 _тип:_ list<br>
-_по умолчанию:_ 1<br>
 
 
 

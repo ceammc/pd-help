@@ -25,6 +25,11 @@ layout: default_ru
 
 ## свойства:
 
+* **@fps** (readonly)
+Запросить current fpt rate<br>
+_тип:_ int<br>
+_по умолчанию:_ 25<br>
+
 * **@use_date** 
 Запросить/установить decode date<br>
 _тип:_ bool<br>
@@ -36,11 +41,6 @@ _тип:_ float<br>
 _единица:_ db<br>
 _диапазон:_ -60..0<br>
 _по умолчанию:_ 0<br>
-
-* **@fps** (readonly)
-Запросить current fpt rate<br>
-_тип:_ int<br>
-_по умолчанию:_ 25<br>
 
 
 

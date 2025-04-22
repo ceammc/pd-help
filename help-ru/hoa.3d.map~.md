@@ -39,6 +39,28 @@ _тип:_ symbol<br>
 
 ## методы:
 
+* **car**
+alias to cartesian method<br>
+
+* **cartesian**
+set source mapping in cartesian coordinates<br>
+  __параметры:__
+  - **IDX** source index. 1-based<br>
+    тип: int <br>
+    обязательно: True <br>
+
+  - **X** x coordinate<br>
+    тип: float <br>
+    обязательно: True <br>
+
+  - **Y** y coordinate<br>
+    тип: float <br>
+    обязательно: True <br>
+
+  - **Z** z coordinate<br>
+    тип: float <br>
+    обязательно: True <br>
+
 * **mute**
 mute/unmute specified source<br>
   __параметры:__
@@ -49,6 +71,9 @@ mute/unmute specified source<br>
   - **STATE** mute value<br>
     тип: int <br>
     обязательно: True <br>
+
+* **pol**
+alias to polar method<br>
 
 * **polar**
 set source mapping in polar coordinates<br>
@@ -71,41 +96,16 @@ set source mapping in polar coordinates<br>
     единица: rad <br>
     обязательно: True <br>
 
-* **cartesian**
-set source mapping in cartesian coordinates<br>
-  __параметры:__
-  - **IDX** source index. 1-based<br>
-    тип: int <br>
-    обязательно: True <br>
-
-  - **X** x coordinate<br>
-    тип: float <br>
-    обязательно: True <br>
-
-  - **Y** y coordinate<br>
-    тип: float <br>
-    обязательно: True <br>
-
-  - **Z** z coordinate<br>
-    тип: float <br>
-    обязательно: True <br>
-
-* **pol**
-alias to polar method<br>
-
-* **car**
-alias to cartesian method<br>
-
 
 
 
 ## свойства:
 
-* **@order** (initonly)
-Запросить/установить the order of decomposition<br>
-_тип:_ int<br>
-_диапазон:_ 1..10<br>
-_по умолчанию:_ 1<br>
+* **@mode** 
+Запросить/установить coordinates mode in signal control mode (with @nsrc 1), polar or cartesian<br>
+_тип:_ symbol<br>
+_варианты:_ car, pol<br>
+_по умолчанию:_ pol<br>
 
 * **@nsrc** (initonly)
 Запросить/установить number of input sources<br>
@@ -113,17 +113,17 @@ _тип:_ int<br>
 _минимальное значение:_ 1<br>
 _по умолчанию:_ 1<br>
 
+* **@order** (initonly)
+Запросить/установить the order of decomposition<br>
+_тип:_ int<br>
+_диапазон:_ 1..10<br>
+_по умолчанию:_ 1<br>
+
 * **@ramp** 
 Запросить/установить ramp time<br>
 _тип:_ float<br>
 _минимальное значение:_ 0<br>
 _по умолчанию:_ 100<br>
-
-* **@mode** 
-Запросить/установить coordinates mode in signal control mode (with @nsrc 1), polar or cartesian<br>
-_тип:_ symbol<br>
-_варианты:_ car, pol<br>
-_по умолчанию:_ pol<br>
 
 
 

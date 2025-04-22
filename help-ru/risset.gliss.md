@@ -32,6 +32,11 @@ _единица:_ semitone<br>
 
 ## свойства:
 
+* **@ampexp** 
+Запросить/установить amplitude exponent<br>
+_тип:_ float<br>
+_по умолчанию:_ 2<br>
+
 * **@base** 
 Запросить/установить base pitch<br>
 _тип:_ float<br>
@@ -39,26 +44,21 @@ _единица:_ semitone<br>
 _диапазон:_ 10..100<br>
 _по умолчанию:_ 60<br>
 
-* **@n** (initonly)
-Запросить/установить number of bands<br>
-_тип:_ int<br>
-_по умолчанию:_ 5<br>
-
 * **@interval** 
 Запросить/установить interval between bands<br>
 _тип:_ float<br>
 _единица:_ semitone<br>
 _по умолчанию:_ 12<br>
 
+* **@n** (initonly)
+Запросить/установить number of bands<br>
+_тип:_ int<br>
+_по умолчанию:_ 5<br>
+
 * **@shift** 
 Запросить/установить band shift in octaves<br>
 _тип:_ float<br>
 _по умолчанию:_ 0<br>
-
-* **@ampexp** 
-Запросить/установить amplitude exponent<br>
-_тип:_ float<br>
-_по умолчанию:_ 2<br>
 
 
 

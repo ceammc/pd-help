@@ -45,14 +45,13 @@ reset to start value<br>
 
 ## свойства:
 
+* **@auto** 
+Запросить/установить auto reset mode. If true: reset to @start value after ramp is finished<br>
+_тип:_ bool<br>
+_по умолчанию:_ 0<br>
+
 * **@from** 
 Запросить/установить start value<br>
-_тип:_ int<br>
-_диапазон:_ 0..127<br>
-_по умолчанию:_ 127<br>
-
-* **@to** 
-Запросить/установить end value<br>
 _тип:_ int<br>
 _диапазон:_ 0..127<br>
 _по умолчанию:_ 127<br>
@@ -63,10 +62,11 @@ _тип:_ int<br>
 _минимальное значение:_ 0<br>
 _по умолчанию:_ 0<br>
 
-* **@auto** 
-Запросить/установить auto reset mode. If true: reset to @start value after ramp is finished<br>
-_тип:_ bool<br>
-_по умолчанию:_ 0<br>
+* **@to** 
+Запросить/установить end value<br>
+_тип:_ int<br>
+_диапазон:_ 0..127<br>
+_по умолчанию:_ 127<br>
 
 
 

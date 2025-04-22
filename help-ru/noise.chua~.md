@@ -34,17 +34,14 @@ start generator<br>
 
 ## свойства:
 
-* **@gate** 
-Запросить/установить play trigger &gt;0: on, 0: off. To set output gain to 0.5 you can 0.5 as trigger
-value<br>
-_тип:_ float<br>
-_диапазон:_ 0..1<br>
-_по умолчанию:_ 0<br>
+* **@osc** (initonly)
+Запросить/установить OSC server name to listen<br>
+_тип:_ symbol<br>
 
-* **@active** 
-Запросить/установить on/off dsp processing<br>
-_тип:_ bool<br>
-_по умолчанию:_ 1<br>
+* **@id** (initonly)
+Запросить/установить OSC address id. If specified, bind all properties to /ID/noise_chua/PROP_NAME
+osc address, if empty bind to /noise_chua/PROP_NAME.<br>
+_тип:_ symbol<br>
 
 * **@C1** 
 Запросить/установить C1 capacity in nF<br>
@@ -58,26 +55,29 @@ _тип:_ float<br>
 _диапазон:_ 40..60<br>
 _по умолчанию:_ 49.5<br>
 
-* **@R** 
-Запросить/установить R resistance in kOhm<br>
-_тип:_ float<br>
-_диапазон:_ 1.252..1.7<br>
-_по умолчанию:_ 1.6<br>
-
 * **@L** 
 Запросить/установить L in mH<br>
 _тип:_ float<br>
 _диапазон:_ 6.5..7.3<br>
 _по умолчанию:_ 7.07<br>
 
-* **@osc** (initonly)
-Запросить/установить OSC server name to listen<br>
-_тип:_ symbol<br>
+* **@R** 
+Запросить/установить R resistance in kOhm<br>
+_тип:_ float<br>
+_диапазон:_ 1.252..1.7<br>
+_по умолчанию:_ 1.6<br>
 
-* **@id** (initonly)
-Запросить/установить OSC address id. If specified, bind all properties to /ID/noise_chua/PROP_NAME
-osc address, if empty bind to /noise_chua/PROP_NAME.<br>
-_тип:_ symbol<br>
+* **@active** 
+Запросить/установить on/off dsp processing<br>
+_тип:_ bool<br>
+_по умолчанию:_ 1<br>
+
+* **@gate** 
+Запросить/установить play trigger &gt;0: on, 0: off. To set output gain to 0.5 you can 0.5 as trigger
+value<br>
+_тип:_ float<br>
+_диапазон:_ 0..1<br>
+_по умолчанию:_ 0<br>
 
 
 

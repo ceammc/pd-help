@@ -34,15 +34,34 @@ save patch to postscript<br>
 
 ## свойства:
 
-* **@name** (readonly)
-Запросить canvas name<br>
-_тип:_ symbol<br>
-_по умолчанию:_ test_canvas<br>
+* **@abs** 
+Запросить/установить if false: using toplevel canvas, if true: using abstraction canvas<br>
+_тип:_ bool<br>
+_по умолчанию:_ 1<br>
 
 * **@dir** (readonly)
 Запросить canvas directory<br>
 _тип:_ symbol<br>
 _по умолчанию:_ /<br>
+
+* **@font** (readonly)
+Запросить window font<br>
+_тип:_ int<br>
+_по умолчанию:_ 10<br>
+
+* **@height** (readonly)
+Запросить window height<br>
+_тип:_ int<br>
+_по умолчанию:_ 400<br>
+
+* **@name** (readonly)
+Запросить canvas name<br>
+_тип:_ symbol<br>
+_по умолчанию:_ test_canvas<br>
+
+* **@paths** (readonly)
+Запросить search paths<br>
+_тип:_ list<br>
 
 * **@size** (readonly)
 Запросить window size<br>
@@ -54,20 +73,6 @@ _по умолчанию:_ 600 400<br>
 _тип:_ int<br>
 _по умолчанию:_ 600<br>
 
-* **@height** (readonly)
-Запросить window height<br>
-_тип:_ int<br>
-_по умолчанию:_ 400<br>
-
-* **@font** (readonly)
-Запросить window font<br>
-_тип:_ int<br>
-_по умолчанию:_ 10<br>
-
-* **@paths** (readonly)
-Запросить search paths<br>
-_тип:_ list<br>
-
 * **@x** (readonly)
 Запросить window x-pos<br>
 _тип:_ int<br>
@@ -77,11 +82,6 @@ _по умолчанию:_ 0<br>
 Запросить window y-pos<br>
 _тип:_ int<br>
 _по умолчанию:_ 0<br>
-
-* **@abs** 
-Запросить/установить if false: using toplevel canvas, if true: using abstraction canvas<br>
-_тип:_ bool<br>
-_по умолчанию:_ 1<br>
 
 
 

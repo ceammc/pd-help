@@ -31,14 +31,14 @@ _тип:_ list<br>
 
 ## методы:
 
-* **terminate**
-terminate the running process<br>
-
 * **stdin**
 run the program with given input values<br>
   __параметры:__
   - **[ARGS]** the input values<br>
     тип: list <br>
+
+* **terminate**
+terminate the running process<br>
 
 
 

@@ -41,19 +41,19 @@ reset to init state<br>
 Запросить/установить init pattern value<br>
 _тип:_ list<br>
 
-* **@value** (readonly)
-Запросить current pattern value<br>
-_тип:_ list<br>
-
-* **@rule** 
-Запросить/установить generation rule dict<br>
-_тип:_ atom<br>
-
 * **@max** 
 Запросить/установить max generated pattern length<br>
 _тип:_ int<br>
 _диапазон:_ 1..32768<br>
 _по умолчанию:_ 256<br>
+
+* **@rule** 
+Запросить/установить generation rule dict<br>
+_тип:_ atom<br>
+
+* **@value** (readonly)
+Запросить current pattern value<br>
+_тип:_ list<br>
 
 
 

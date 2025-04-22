@@ -25,27 +25,41 @@ layout: default_ru
 
 ## свойства:
 
-* **@name** (readonly)
-Запросить canvas name<br>
-_тип:_ symbol<br>
-_по умолчанию:_ test_canvas<br>
+* **@abstraction** (readonly)
+Запросить 1 if canvas is abstraction<br>
+_тип:_ bool<br>
+_по умолчанию:_ 1<br>
+
+* **@args** (readonly)
+Запросить canvas creation arguments<br>
+_тип:_ list<br>
 
 * **@dir** (readonly)
 Запросить canvas directory (only if top level or abstraction)<br>
 _тип:_ symbol<br>
 _по умолчанию:_ /<br>
 
-* **@args** (readonly)
-Запросить canvas creation arguments<br>
+* **@font** (readonly)
+Запросить canvas font size<br>
+_тип:_ int<br>
+_по умолчанию:_ 10<br>
+
+* **@height** (readonly)
+Запросить canvas height (window or GOP)<br>
+_тип:_ int<br>
+_по умолчанию:_ 400<br>
+
+* **@name** (readonly)
+Запросить canvas name<br>
+_тип:_ symbol<br>
+_по умолчанию:_ test_canvas<br>
+
+* **@paths** (readonly)
+Запросить canvas search paths<br>
 _тип:_ list<br>
 
 * **@root** (readonly)
 Запросить 1 if canvas is top-level (window)<br>
-_тип:_ bool<br>
-_по умолчанию:_ 1<br>
-
-* **@abstraction** (readonly)
-Запросить 1 if canvas is abstraction<br>
 _тип:_ bool<br>
 _по умолчанию:_ 1<br>
 
@@ -55,24 +69,10 @@ return Graph on Parent size<br>
 _тип:_ list<br>
 _по умолчанию:_ 600 400<br>
 
-* **@font** (readonly)
-Запросить canvas font size<br>
-_тип:_ int<br>
-_по умолчанию:_ 10<br>
-
-* **@paths** (readonly)
-Запросить canvas search paths<br>
-_тип:_ list<br>
-
 * **@width** (readonly)
 Запросить canvas width (window or GOP)<br>
 _тип:_ int<br>
 _по умолчанию:_ 600<br>
-
-* **@height** (readonly)
-Запросить canvas height (window or GOP)<br>
-_тип:_ int<br>
-_по умолчанию:_ 400<br>
 
 * **@x** (readonly)
 Запросить canvas x-pos (window or GOP)<br>

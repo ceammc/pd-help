@@ -98,6 +98,11 @@ write dict as JSON file<br>
 
 ## свойства:
 
+* **@empty** (readonly)
+Запросить 1 if dict is empty, otherwise 0<br>
+_тип:_ bool<br>
+_по умолчанию:_ 1<br>
+
 * **@id** (initonly)
 Запросить/установить local variable id<br>
 _тип:_ symbol<br>
@@ -106,11 +111,6 @@ _по умолчанию:_ default<br>
 * **@keys** (readonly)
 Запросить keys of dictionary<br>
 _тип:_ list<br>
-
-* **@empty** (readonly)
-Запросить 1 if dict is empty, otherwise 0<br>
-_тип:_ bool<br>
-_по умолчанию:_ 1<br>
 
 * **@size** (readonly)
 Запросить number of entries in dictionary<br>

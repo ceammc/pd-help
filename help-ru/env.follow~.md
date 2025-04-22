@@ -43,6 +43,20 @@ reset envelope follower to initial state<br>
 
 ## свойства:
 
+* **@osc** (initonly)
+Запросить/установить OSC server name to listen<br>
+_тип:_ symbol<br>
+
+* **@id** (initonly)
+Запросить/установить OSC address id. If specified, bind all properties to /ID/env_follow/PROP_NAME
+osc address, if empty bind to /env_follow/PROP_NAME.<br>
+_тип:_ symbol<br>
+
+* **@active** 
+Запросить/установить on/off dsp processing<br>
+_тип:_ bool<br>
+_по умолчанию:_ 1<br>
+
 * **@attack** 
 Запросить/установить attack time<br>
 _тип:_ float<br>
@@ -56,20 +70,6 @@ _тип:_ float<br>
 _единица:_ ms<br>
 _диапазон:_ 1..1000<br>
 _по умолчанию:_ 200<br>
-
-* **@active** 
-Запросить/установить on/off dsp processing<br>
-_тип:_ bool<br>
-_по умолчанию:_ 1<br>
-
-* **@osc** (initonly)
-Запросить/установить OSC server name to listen<br>
-_тип:_ symbol<br>
-
-* **@id** (initonly)
-Запросить/установить OSC address id. If specified, bind all properties to /ID/env_follow/PROP_NAME
-osc address, if empty bind to /env_follow/PROP_NAME.<br>
-_тип:_ symbol<br>
 
 
 

@@ -51,20 +51,29 @@ set UI element position<br>
 
 ## свойства:
 
-* **@url** 
-Запросить/установить destination url<br>
+* **@fontname** 
+Запросить/установить fontname<br>
 _тип:_ symbol<br>
-_по умолчанию:_ &lt;no url&gt;<br>
+_варианты:_ Courier, DejaVu, Helvetica, Monaco, Times<br>
+_по умолчанию:_ Helvetica<br>
 
-* **@title** 
-Запросить/установить link title<br>
+* **@fontsize** 
+Запросить/установить fontsize<br>
+_тип:_ int<br>
+_диапазон:_ 4..100<br>
+_по умолчанию:_ 11<br>
+
+* **@fontslant** 
+Запросить/установить font slant<br>
 _тип:_ symbol<br>
-_по умолчанию:_ &lt;no title&gt;<br>
+_варианты:_ roman, italic<br>
+_по умолчанию:_ roman<br>
 
-* **@pinned** 
-Запросить/установить pin mode. if 1 - put element to the lowest level<br>
-_тип:_ bool<br>
-_по умолчанию:_ 0<br>
+* **@fontweight** 
+Запросить/установить font weight<br>
+_тип:_ symbol<br>
+_варианты:_ normal, bold<br>
+_по умолчанию:_ normal<br>
 
 * **@hover_color** 
 Запросить/установить color when mouse pointer is over element (list of red, green, blue values in
@@ -77,29 +86,20 @@ _по умолчанию:_ 1 0 0.5 1<br>
 _тип:_ list<br>
 _по умолчанию:_ 0 0.625 0.75 1<br>
 
-* **@fontsize** 
-Запросить/установить fontsize<br>
-_тип:_ int<br>
-_диапазон:_ 4..100<br>
-_по умолчанию:_ 11<br>
+* **@pinned** 
+Запросить/установить pin mode. if 1 - put element to the lowest level<br>
+_тип:_ bool<br>
+_по умолчанию:_ 0<br>
 
-* **@fontname** 
-Запросить/установить fontname<br>
+* **@title** 
+Запросить/установить link title<br>
 _тип:_ symbol<br>
-_варианты:_ Courier, DejaVu, Helvetica, Monaco, Times<br>
-_по умолчанию:_ Helvetica<br>
+_по умолчанию:_ &lt;no title&gt;<br>
 
-* **@fontweight** 
-Запросить/установить font weight<br>
+* **@url** 
+Запросить/установить destination url<br>
 _тип:_ symbol<br>
-_варианты:_ normal, bold<br>
-_по умолчанию:_ normal<br>
-
-* **@fontslant** 
-Запросить/установить font slant<br>
-_тип:_ symbol<br>
-_варианты:_ roman, italic<br>
-_по умолчанию:_ roman<br>
+_по умолчанию:_ &lt;no url&gt;<br>
 
 
 

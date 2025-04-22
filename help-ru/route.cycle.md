@@ -41,27 +41,27 @@ _тип:_ int<br>
 
 ## свойства:
 
+* **@index** 
+Запросить/установить current outlet index<br>
+_тип:_ int<br>
+_по умолчанию:_ 0<br>
+
 * **@n** (initonly)
 Запросить/установить number of outlets<br>
 _тип:_ int<br>
 _диапазон:_ 1..64<br>
 _по умолчанию:_ 2<br>
 
-* **@index** 
-Запросить/установить current outlet index<br>
+* **@offset** 
+Запросить/установить init cycle offset<br>
 _тип:_ int<br>
+_диапазон:_ -64..64<br>
 _по умолчанию:_ 0<br>
 
 * **@step** 
 Запросить/установить cycle step<br>
 _тип:_ int<br>
 _по умолчанию:_ 1<br>
-
-* **@offset** 
-Запросить/установить init cycle offset<br>
-_тип:_ int<br>
-_диапазон:_ -64..64<br>
-_по умолчанию:_ 0<br>
 
 
 

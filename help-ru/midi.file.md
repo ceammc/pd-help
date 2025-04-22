@@ -47,15 +47,10 @@ write to specified midi file<br>
 Запросить/установить current filename<br>
 _тип:_ symbol<br>
 
-* **@tracks** (readonly)
-Запросить number of tracks<br>
-_тип:_ int<br>
-_по умолчанию:_ 1<br>
-
-* **@tempo** (readonly)
-Запросить midi tempo in ticks per quarter<br>
-_тип:_ int<br>
-_по умолчанию:_ 120<br>
+* **@length_beat** (readonly)
+Запросить file length in quarters<br>
+_тип:_ float<br>
+_по умолчанию:_ 0<br>
 
 * **@length_sec** (readonly)
 Запросить file length<br>
@@ -68,10 +63,15 @@ _по умолчанию:_ 0<br>
 _тип:_ int<br>
 _по умолчанию:_ 0<br>
 
-* **@length_beat** (readonly)
-Запросить file length in quarters<br>
-_тип:_ float<br>
-_по умолчанию:_ 0<br>
+* **@tempo** (readonly)
+Запросить midi tempo in ticks per quarter<br>
+_тип:_ int<br>
+_по умолчанию:_ 120<br>
+
+* **@tracks** (readonly)
+Запросить number of tracks<br>
+_тип:_ int<br>
+_по умолчанию:_ 1<br>
 
 
 

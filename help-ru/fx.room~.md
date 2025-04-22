@@ -41,12 +41,31 @@ reset to initial state<br>
 
 ## свойства:
 
-* **@predelay** 
-Запросить/установить pre delay<br>
+* **@osc** (initonly)
+Запросить/установить OSC server name to listen<br>
+_тип:_ symbol<br>
+
+* **@id** (initonly)
+Запросить/установить OSC address id. If specified, bind all properties to /ID/fx_room/PROP_NAME osc
+address, if empty bind to /fx_room/PROP_NAME.<br>
+_тип:_ symbol<br>
+
+* **@active** 
+Запросить/установить on/off dsp processing<br>
+_тип:_ bool<br>
+_по умолчанию:_ 1<br>
+
+* **@bypass** 
+Запросить/установить bypass flag. If true: bypass &#39;effected&#39; signal.<br>
+_тип:_ bool<br>
+_по умолчанию:_ 0<br>
+
+* **@drywet** 
+Запросить/установить proportion of mix between the original (dry) and &#39;effected&#39; (wet) signals. 0 -
+dry signal, 1 - wet<br>
 _тип:_ float<br>
-_единица:_ ms<br>
-_диапазон:_ 1..200<br>
-_по умолчанию:_ 20<br>
+_диапазон:_ 0..1<br>
+_по умолчанию:_ 0.5<br>
 
 * **@fb** 
 Запросить/установить feedback coefficient<br>
@@ -60,6 +79,13 @@ _тип:_ float<br>
 _диапазон:_ 0..1<br>
 _по умолчанию:_ 1<br>
 
+* **@predelay** 
+Запросить/установить pre delay<br>
+_тип:_ float<br>
+_единица:_ ms<br>
+_диапазон:_ 1..200<br>
+_по умолчанию:_ 20<br>
+
 * **@size** 
 Запросить/установить room size (0: no room, 1: small, 2: medium, 3: large). Non-integer values are
 interpolated betweed neighbours, for example 1.3 is interpoltation between
@@ -67,32 +93,6 @@ first and second room size with 0.3 ratio.<br>
 _тип:_ float<br>
 _диапазон:_ 0..3<br>
 _по умолчанию:_ 1<br>
-
-* **@drywet** 
-Запросить/установить proportion of mix between the original (dry) and &#39;effected&#39; (wet) signals. 0 -
-dry signal, 1 - wet<br>
-_тип:_ float<br>
-_диапазон:_ 0..1<br>
-_по умолчанию:_ 0.5<br>
-
-* **@bypass** 
-Запросить/установить bypass flag. If true: bypass &#39;effected&#39; signal.<br>
-_тип:_ bool<br>
-_по умолчанию:_ 0<br>
-
-* **@active** 
-Запросить/установить on/off dsp processing<br>
-_тип:_ bool<br>
-_по умолчанию:_ 1<br>
-
-* **@osc** (initonly)
-Запросить/установить OSC server name to listen<br>
-_тип:_ symbol<br>
-
-* **@id** (initonly)
-Запросить/установить OSC address id. If specified, bind all properties to /ID/fx_room/PROP_NAME osc
-address, if empty bind to /fx_room/PROP_NAME.<br>
-_тип:_ symbol<br>
 
 
 

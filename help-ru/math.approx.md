@@ -37,15 +37,15 @@ _тип:_ float<br>
 
 ## свойства:
 
-* **@value** 
-Запросить/установить compare pattern<br>
-_тип:_ float<br>
-_по умолчанию:_ 0<br>
-
 * **@epsilon** 
 Запросить/установить compare epsilon<br>
 _тип:_ float<br>
 _по умолчанию:_ 0.01<br>
+
+* **@value** 
+Запросить/установить compare pattern<br>
+_тип:_ float<br>
+_по умолчанию:_ 0<br>
 
 
 

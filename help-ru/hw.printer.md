@@ -31,6 +31,12 @@ _тип:_ symbol<br>
 
 ## методы:
 
+* **choose**
+choose printer by index<br>
+  __параметры:__
+  - **[IDX]** printer index in device list<br>
+    тип: int <br>
+
 * **devices**
 list printers<br>
 
@@ -43,12 +49,6 @@ print file<br>
 
   - **[@landscape]** print in landscape mode<br>
     тип: bool <br>
-
-* **choose**
-choose printer by index<br>
-  __параметры:__
-  - **[IDX]** printer index in device list<br>
-    тип: int <br>
 
 
 

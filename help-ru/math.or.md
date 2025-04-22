@@ -43,14 +43,14 @@ _тип:_ int<br>
 _диапазон:_ 3..16<br>
 _по умолчанию:_ 3<br>
 
+* **@state** (readonly)
+Запросить internal logic state as list of 1 and 0<br>
+_тип:_ list<br>
+
 * **@sync** (initonly)
 Запросить/установить if specified - all inlets are &#39;hot&#39;<br>
 _тип:_ flag<br>
 _по умолчанию:_ 0<br>
-
-* **@state** (readonly)
-Запросить internal logic state as list of 1 and 0<br>
-_тип:_ list<br>
 
 
 

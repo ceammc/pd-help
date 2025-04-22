@@ -33,23 +33,20 @@ reset synth<br>
 
 ## свойства:
 
-* **@pos** 
-Запросить/установить strike position (0 is on the bottom)<br>
-_тип:_ int<br>
-_диапазон:_ 0..6<br>
-_по умолчанию:_ 0<br>
+* **@osc** (initonly)
+Запросить/установить OSC server name to listen<br>
+_тип:_ symbol<br>
 
-* **@gain** 
-Запросить/установить strike gain<br>
-_тип:_ float<br>
-_диапазон:_ 0..1<br>
+* **@id** (initonly)
+Запросить/установить OSC address id. If specified, bind all properties to
+/ID/synth_german_bell/PROP_NAME osc address, if empty bind to
+/synth_german_bell/PROP_NAME.<br>
+_тип:_ symbol<br>
+
+* **@active** 
+Запросить/установить on/off dsp processing<br>
+_тип:_ bool<br>
 _по умолчанию:_ 1<br>
-
-* **@sharp** 
-Запросить/установить strike sharpness<br>
-_тип:_ float<br>
-_диапазон:_ 0.01..5<br>
-_по умолчанию:_ 0.25<br>
 
 * **@cutoff** 
 Запросить/установить strike cutoff frequency<br>
@@ -57,13 +54,6 @@ _тип:_ float<br>
 _единица:_ Hz<br>
 _диапазон:_ 20..20000<br>
 _по умолчанию:_ 4000<br>
-
-* **@t60** 
-Запросить/установить time to decay to -60db level<br>
-_тип:_ float<br>
-_единица:_ sec<br>
-_диапазон:_ 0.1..30<br>
-_по умолчанию:_ 20<br>
 
 * **@decay_ratio** 
 Запросить/установить decay ratio<br>
@@ -77,26 +67,36 @@ _тип:_ float<br>
 _диапазон:_ 0..10<br>
 _по умолчанию:_ 3<br>
 
+* **@gain** 
+Запросить/установить strike gain<br>
+_тип:_ float<br>
+_диапазон:_ 0..1<br>
+_по умолчанию:_ 1<br>
+
 * **@gate** 
 Запросить/установить play trigger - 1: on, 0: off<br>
 _тип:_ float<br>
 _диапазон:_ 0..1<br>
 _по умолчанию:_ 0<br>
 
-* **@active** 
-Запросить/установить on/off dsp processing<br>
-_тип:_ bool<br>
-_по умолчанию:_ 1<br>
+* **@pos** 
+Запросить/установить strike position (0 is on the bottom)<br>
+_тип:_ int<br>
+_диапазон:_ 0..6<br>
+_по умолчанию:_ 0<br>
 
-* **@osc** (initonly)
-Запросить/установить OSC server name to listen<br>
-_тип:_ symbol<br>
+* **@sharp** 
+Запросить/установить strike sharpness<br>
+_тип:_ float<br>
+_диапазон:_ 0.01..5<br>
+_по умолчанию:_ 0.25<br>
 
-* **@id** (initonly)
-Запросить/установить OSC address id. If specified, bind all properties to
-/ID/synth_german_bell/PROP_NAME osc address, if empty bind to
-/synth_german_bell/PROP_NAME.<br>
-_тип:_ symbol<br>
+* **@t60** 
+Запросить/установить time to decay to -60db level<br>
+_тип:_ float<br>
+_единица:_ sec<br>
+_диапазон:_ 0.1..30<br>
+_по умолчанию:_ 20<br>
 
 
 

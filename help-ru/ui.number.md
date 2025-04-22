@@ -25,18 +25,12 @@ Display mode: keys &#39;-&#39;(Down) and &#39;+&#39;(Up) increment value. Mouse 
 
 ## методы:
 
-* **set**
-sets slider value without output<br>
+* *****
+multiply slider value without output<br>
   __параметры:__
-  - **V** new value<br>
+  - **V** multiplied value<br>
     тип: float <br>
     обязательно: True <br>
-
-* **++**
-increment slider value without output<br>
-
-* **--**
-decrement slider value without output<br>
 
 * **+**
 add value to slider without output<br>
@@ -45,6 +39,9 @@ add value to slider without output<br>
     тип: float <br>
     обязательно: True <br>
 
+* **++**
+increment slider value without output<br>
+
 * **-**
 subtract value from slider without output<br>
   __параметры:__
@@ -52,32 +49,14 @@ subtract value from slider without output<br>
     тип: float <br>
     обязательно: True <br>
 
-* *****
-multiply slider value without output<br>
-  __параметры:__
-  - **V** multiplied value<br>
-    тип: float <br>
-    обязательно: True <br>
+* **--**
+decrement slider value without output<br>
 
 * **/**
 divide slider value without output<br>
   __параметры:__
   - **V** denominator value<br>
     тип: float <br>
-    обязательно: True <br>
-
-* **load**
-loads specified preset<br>
-  __параметры:__
-  - **IDX** preset index<br>
-    тип: int <br>
-    обязательно: True <br>
-
-* **store**
-stores specified preset<br>
-  __параметры:__
-  - **IDX** preset index<br>
-    тип: int <br>
     обязательно: True <br>
 
 * **clear**
@@ -94,6 +73,13 @@ interplolates between presets<br>
     тип: float <br>
     обязательно: True <br>
 
+* **load**
+loads specified preset<br>
+  __параметры:__
+  - **IDX** preset index<br>
+    тип: int <br>
+    обязательно: True <br>
+
 * **pos**
 set UI element position<br>
   __параметры:__
@@ -105,72 +91,29 @@ set UI element position<br>
     тип: float <br>
     обязательно: True <br>
 
+* **set**
+sets slider value without output<br>
+  __параметры:__
+  - **V** new value<br>
+    тип: float <br>
+    обязательно: True <br>
+
+* **store**
+stores specified preset<br>
+  __параметры:__
+  - **IDX** preset index<br>
+    тип: int <br>
+    обязательно: True <br>
+
 
 
 
 ## свойства:
 
-* **@min** 
-Запросить/установить minimum value<br>
-_тип:_ float<br>
-_по умолчанию:_ -inf<br>
-
-* **@max** 
-Запросить/установить maximum value<br>
-_тип:_ float<br>
-_по умолчанию:_ +inf<br>
-
-* **@value** 
-Запросить/установить widget value<br>
-_тип:_ float<br>
-_по умолчанию:_ 0<br>
-
-* **@display_only** 
-Запросить/установить interaction mode. If true: react only to received Pd messages, but do not react
-to mouse/keyboard events. If false: react to all supported events.<br>
-_тип:_ bool<br>
-_по умолчанию:_ 0<br>
-
-* **@digits** 
-Запросить/установить number of digits. If -1 - no fixed digits used<br>
-_тип:_ int<br>
-_диапазон:_ -1..9<br>
-_по умолчанию:_ -1<br>
-
-* **@presetname** 
-Запросить/установить preset name for using with [ui.preset]<br>
-_тип:_ symbol<br>
-_по умолчанию:_ (null)<br>
-
-* **@send** 
-Запросить/установить send destination<br>
-_тип:_ symbol<br>
-_по умолчанию:_ (null)<br>
-
-* **@receive** 
-Запросить/установить receive source<br>
-_тип:_ symbol<br>
-_по умолчанию:_ (null)<br>
-
-* **@size** 
-Запросить/установить element size (width, height pair)<br>
-_тип:_ list<br>
-_по умолчанию:_ 53 15<br>
-
-* **@pinned** 
-Запросить/установить pin mode. if 1 - put element to the lowest level<br>
-_тип:_ bool<br>
-_по умолчанию:_ 0<br>
-
 * **@active_color** 
 Запросить/установить active color (list of red, green, blue values in 0-1 range)<br>
 _тип:_ list<br>
 _по умолчанию:_ 0 0.75 1 1<br>
-
-* **@text_color** 
-Запросить/установить text color (list of red, green, blue values in 0-1 range)<br>
-_тип:_ list<br>
-_по умолчанию:_ 0 0 0 1<br>
 
 * **@background_color** 
 Запросить/установить element background color (list of red, green, blue values in 0-1 range)<br>
@@ -182,11 +125,17 @@ _по умолчанию:_ 0.93 0.93 0.93 1<br>
 _тип:_ list<br>
 _по умолчанию:_ 0.6 0.6 0.6 1<br>
 
-* **@fontsize** 
-Запросить/установить fontsize<br>
+* **@digits** 
+Запросить/установить number of digits. If -1 - no fixed digits used<br>
 _тип:_ int<br>
-_диапазон:_ 4..100<br>
-_по умолчанию:_ 11<br>
+_диапазон:_ -1..9<br>
+_по умолчанию:_ -1<br>
+
+* **@display_only** 
+Запросить/установить interaction mode. If true: react only to received Pd messages, but do not react
+to mouse/keyboard events. If false: react to all supported events.<br>
+_тип:_ bool<br>
+_по умолчанию:_ 0<br>
 
 * **@fontname** 
 Запросить/установить fontname<br>
@@ -194,17 +143,68 @@ _тип:_ symbol<br>
 _варианты:_ Courier, DejaVu, Helvetica, Monaco, Times<br>
 _по умолчанию:_ Helvetica<br>
 
-* **@fontweight** 
-Запросить/установить font weight<br>
-_тип:_ symbol<br>
-_варианты:_ normal, bold<br>
-_по умолчанию:_ normal<br>
+* **@fontsize** 
+Запросить/установить fontsize<br>
+_тип:_ int<br>
+_диапазон:_ 4..100<br>
+_по умолчанию:_ 11<br>
 
 * **@fontslant** 
 Запросить/установить font slant<br>
 _тип:_ symbol<br>
 _варианты:_ roman, italic<br>
 _по умолчанию:_ roman<br>
+
+* **@fontweight** 
+Запросить/установить font weight<br>
+_тип:_ symbol<br>
+_варианты:_ normal, bold<br>
+_по умолчанию:_ normal<br>
+
+* **@max** 
+Запросить/установить maximum value<br>
+_тип:_ float<br>
+_по умолчанию:_ +inf<br>
+
+* **@min** 
+Запросить/установить minimum value<br>
+_тип:_ float<br>
+_по умолчанию:_ -inf<br>
+
+* **@pinned** 
+Запросить/установить pin mode. if 1 - put element to the lowest level<br>
+_тип:_ bool<br>
+_по умолчанию:_ 0<br>
+
+* **@presetname** 
+Запросить/установить preset name for using with [ui.preset]<br>
+_тип:_ symbol<br>
+_по умолчанию:_ (null)<br>
+
+* **@receive** 
+Запросить/установить receive source<br>
+_тип:_ symbol<br>
+_по умолчанию:_ (null)<br>
+
+* **@send** 
+Запросить/установить send destination<br>
+_тип:_ symbol<br>
+_по умолчанию:_ (null)<br>
+
+* **@size** 
+Запросить/установить element size (width, height pair)<br>
+_тип:_ list<br>
+_по умолчанию:_ 53 15<br>
+
+* **@text_color** 
+Запросить/установить text color (list of red, green, blue values in 0-1 range)<br>
+_тип:_ list<br>
+_по умолчанию:_ 0 0 0 1<br>
+
+* **@value** 
+Запросить/установить widget value<br>
+_тип:_ float<br>
+_по умолчанию:_ 0<br>
 
 
 

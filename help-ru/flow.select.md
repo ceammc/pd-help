@@ -33,10 +33,6 @@ _тип:_ list<br>
 
 ## свойства:
 
-* **@v** 
-Запросить/установить alias to @keep_value 1<br>
-_тип:_ alias<br>
-
 * **@keep_value** 
 Запросить/установить value output mode. If false (by default) acts like vanilla select: output bang
 on match or full unmatched message to last outlet. If true always outputs full
@@ -47,6 +43,10 @@ _по умолчанию:_ 0<br>
 * **@msg** 
 Запросить/установить output this message on match, instead of bang<br>
 _тип:_ list<br>
+
+* **@v** 
+Запросить/установить alias to @keep_value 1<br>
+_тип:_ alias<br>
 
 
 

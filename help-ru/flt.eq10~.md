@@ -33,15 +33,22 @@ reset filter state to default<br>
 
 ## свойства:
 
-* **@f31** 
-Запросить/установить gain at 31.25Hz<br>
-_тип:_ float<br>
-_единица:_ db<br>
-_диапазон:_ -70..10<br>
-_по умолчанию:_ 0<br>
+* **@osc** (initonly)
+Запросить/установить OSC server name to listen<br>
+_тип:_ symbol<br>
 
-* **@f62** 
-Запросить/установить gain at 62.5Hz<br>
+* **@id** (initonly)
+Запросить/установить OSC address id. If specified, bind all properties to /ID/flt_eq10/PROP_NAME osc
+address, if empty bind to /flt_eq10/PROP_NAME.<br>
+_тип:_ symbol<br>
+
+* **@active** 
+Запросить/установить on/off dsp processing<br>
+_тип:_ bool<br>
+_по умолчанию:_ 1<br>
+
+* **@f1000** 
+Запросить/установить gain at 1000Hz<br>
 _тип:_ float<br>
 _единица:_ db<br>
 _диапазон:_ -70..10<br>
@@ -54,22 +61,8 @@ _единица:_ db<br>
 _диапазон:_ -70..10<br>
 _по умолчанию:_ 0<br>
 
-* **@f250** 
-Запросить/установить gain at 250Hz<br>
-_тип:_ float<br>
-_единица:_ db<br>
-_диапазон:_ -70..10<br>
-_по умолчанию:_ 0<br>
-
-* **@f500** 
-Запросить/установить gain at 500Hz<br>
-_тип:_ float<br>
-_единица:_ db<br>
-_диапазон:_ -70..10<br>
-_по умолчанию:_ 0<br>
-
-* **@f1000** 
-Запросить/установить gain at 1000Hz<br>
+* **@f16000** 
+Запросить/установить gain at 16000Hz<br>
 _тип:_ float<br>
 _единица:_ db<br>
 _диапазон:_ -70..10<br>
@@ -82,8 +75,36 @@ _единица:_ db<br>
 _диапазон:_ -70..10<br>
 _по умолчанию:_ 0<br>
 
+* **@f250** 
+Запросить/установить gain at 250Hz<br>
+_тип:_ float<br>
+_единица:_ db<br>
+_диапазон:_ -70..10<br>
+_по умолчанию:_ 0<br>
+
+* **@f31** 
+Запросить/установить gain at 31.25Hz<br>
+_тип:_ float<br>
+_единица:_ db<br>
+_диапазон:_ -70..10<br>
+_по умолчанию:_ 0<br>
+
 * **@f4000** 
 Запросить/установить gain at 4000Hz<br>
+_тип:_ float<br>
+_единица:_ db<br>
+_диапазон:_ -70..10<br>
+_по умолчанию:_ 0<br>
+
+* **@f500** 
+Запросить/установить gain at 500Hz<br>
+_тип:_ float<br>
+_единица:_ db<br>
+_диапазон:_ -70..10<br>
+_по умолчанию:_ 0<br>
+
+* **@f62** 
+Запросить/установить gain at 62.5Hz<br>
 _тип:_ float<br>
 _единица:_ db<br>
 _диапазон:_ -70..10<br>
@@ -95,27 +116,6 @@ _тип:_ float<br>
 _единица:_ db<br>
 _диапазон:_ -70..10<br>
 _по умолчанию:_ 0<br>
-
-* **@f16000** 
-Запросить/установить gain at 16000Hz<br>
-_тип:_ float<br>
-_единица:_ db<br>
-_диапазон:_ -70..10<br>
-_по умолчанию:_ 0<br>
-
-* **@active** 
-Запросить/установить on/off dsp processing<br>
-_тип:_ bool<br>
-_по умолчанию:_ 1<br>
-
-* **@osc** (initonly)
-Запросить/установить OSC server name to listen<br>
-_тип:_ symbol<br>
-
-* **@id** (initonly)
-Запросить/установить OSC address id. If specified, bind all properties to /ID/flt_eq10/PROP_NAME osc
-address, if empty bind to /flt_eq10/PROP_NAME.<br>
-_тип:_ symbol<br>
 
 
 

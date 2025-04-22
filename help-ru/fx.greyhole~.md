@@ -33,11 +33,24 @@ reset to initial state<br>
 
 ## свойства:
 
-* **@feedback** 
-Запросить/установить amount of feedback for the delay line<br>
-_тип:_ float<br>
-_диапазон:_ 0..1<br>
-_по умолчанию:_ 0.9<br>
+* **@osc** (initonly)
+Запросить/установить OSC server name to listen<br>
+_тип:_ symbol<br>
+
+* **@id** (initonly)
+Запросить/установить OSC address id. If specified, bind all properties to /ID/fx_greyhole/PROP_NAME
+osc address, if empty bind to /fx_greyhole/PROP_NAME.<br>
+_тип:_ symbol<br>
+
+* **@active** 
+Запросить/установить on/off dsp processing<br>
+_тип:_ bool<br>
+_по умолчанию:_ 1<br>
+
+* **@bypass** 
+Запросить/установить bypass flag. If true: bypass &#39;effected&#39; signal.<br>
+_тип:_ bool<br>
+_по умолчанию:_ 0<br>
 
 * **@damping** 
 Запросить/установить controls damping of high-frequencies as the delay decays. 0 is no damping, 1 is
@@ -60,6 +73,19 @@ _тип:_ float<br>
 _диапазон:_ 0..0.99<br>
 _по умолчанию:_ 0.5<br>
 
+* **@drywet** 
+Запросить/установить proportion of mix between the original (dry) and &#39;effected&#39; (wet) signals. 0 -
+dry signal, 1 - wet.<br>
+_тип:_ float<br>
+_диапазон:_ 0..1<br>
+_по умолчанию:_ 1<br>
+
+* **@feedback** 
+Запросить/установить amount of feedback for the delay line<br>
+_тип:_ float<br>
+_диапазон:_ 0..1<br>
+_по умолчанию:_ 0.9<br>
+
 * **@moddepth** 
 Запросить/установить depth of delay-line modulation. Use in combination with *@modfreq* to set
 amount of chorusing within the structure<br>
@@ -80,32 +106,6 @@ larger or smaller space. Values below 1 can sound quite metallic.<br>
 _тип:_ float<br>
 _диапазон:_ 0.5..3<br>
 _по умолчанию:_ 1<br>
-
-* **@drywet** 
-Запросить/установить proportion of mix between the original (dry) and &#39;effected&#39; (wet) signals. 0 -
-dry signal, 1 - wet.<br>
-_тип:_ float<br>
-_диапазон:_ 0..1<br>
-_по умолчанию:_ 1<br>
-
-* **@bypass** 
-Запросить/установить bypass flag. If true: bypass &#39;effected&#39; signal.<br>
-_тип:_ bool<br>
-_по умолчанию:_ 0<br>
-
-* **@active** 
-Запросить/установить on/off dsp processing<br>
-_тип:_ bool<br>
-_по умолчанию:_ 1<br>
-
-* **@osc** (initonly)
-Запросить/установить OSC server name to listen<br>
-_тип:_ symbol<br>
-
-* **@id** (initonly)
-Запросить/установить OSC address id. If specified, bind all properties to /ID/fx_greyhole/PROP_NAME
-osc address, if empty bind to /fx_greyhole/PROP_NAME.<br>
-_тип:_ symbol<br>
 
 
 

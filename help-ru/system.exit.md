@@ -41,6 +41,11 @@ exit PureData<br>
 
 ## свойства:
 
+* **@auto** 
+Запросить/установить close automatically, without incoming call<br>
+_тип:_ bool<br>
+_по умолчанию:_ 0<br>
+
 * **@delay** 
 Запросить/установить exit PureData after specified delay time<br>
 _тип:_ float<br>
@@ -51,11 +56,6 @@ _по умолчанию:_ 0<br>
 * **@rc** 
 Запросить/установить exit code<br>
 _тип:_ int<br>
-_по умолчанию:_ 0<br>
-
-* **@auto** 
-Запросить/установить close automatically, without incoming call<br>
-_тип:_ bool<br>
 _по умолчанию:_ 0<br>
 
 

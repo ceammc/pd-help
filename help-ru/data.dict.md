@@ -92,14 +92,14 @@ write dict as JSON file<br>
 
 ## свойства:
 
-* **@keys** (readonly)
-Запросить keys of dictionary<br>
-_тип:_ list<br>
-
 * **@empty** (readonly)
 Запросить 1 if dict is empty, otherwise 0<br>
 _тип:_ bool<br>
 _по умолчанию:_ 1<br>
+
+* **@keys** (readonly)
+Запросить keys of dictionary<br>
+_тип:_ list<br>
 
 * **@size** (readonly)
 Запросить number of entries in dictionary<br>

@@ -37,28 +37,6 @@ reset object<br>
 
 ## свойства:
 
-* **@drywet** 
-Запросить/установить Ratio between processed signal (wet) and source signal<br>
-_тип:_ float<br>
-_диапазон:_ 0..1<br>
-_по умолчанию:_ 1<br>
-
-* **@bypass** 
-Запросить/установить bypass flag. If true: bypass &#39;effected&#39; signal.<br>
-_тип:_ bool<br>
-_по умолчанию:_ 0<br>
-
-* **@gain** 
-Запросить/установить input gain<br>
-_тип:_ float<br>
-_диапазон:_ 1..5<br>
-_по умолчанию:_ 1<br>
-
-* **@active** 
-Запросить/установить on/off dsp processing<br>
-_тип:_ bool<br>
-_по умолчанию:_ 1<br>
-
 * **@osc** (initonly)
 Запросить/установить OSC server name to listen<br>
 _тип:_ symbol<br>
@@ -67,6 +45,28 @@ _тип:_ symbol<br>
 Запросить/установить OSC address id. If specified, bind all properties to /ID/fx_overdrive/PROP_NAME
 osc address, if empty bind to /fx_overdrive/PROP_NAME.<br>
 _тип:_ symbol<br>
+
+* **@active** 
+Запросить/установить on/off dsp processing<br>
+_тип:_ bool<br>
+_по умолчанию:_ 1<br>
+
+* **@bypass** 
+Запросить/установить bypass flag. If true: bypass &#39;effected&#39; signal.<br>
+_тип:_ bool<br>
+_по умолчанию:_ 0<br>
+
+* **@drywet** 
+Запросить/установить Ratio between processed signal (wet) and source signal<br>
+_тип:_ float<br>
+_диапазон:_ 0..1<br>
+_по умолчанию:_ 1<br>
+
+* **@gain** 
+Запросить/установить input gain<br>
+_тип:_ float<br>
+_диапазон:_ 1..5<br>
+_по умолчанию:_ 1<br>
 
 
 

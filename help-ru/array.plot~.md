@@ -43,11 +43,10 @@ _тип:_ float<br>
 Запросить/установить array name<br>
 _тип:_ symbol<br>
 
-* **@ymin** 
-Запросить/установить minimal y-axis value<br>
-_тип:_ float<br>
-_диапазон:_ -1024..1024<br>
-_по умолчанию:_ -1<br>
+* **@yauto** 
+Запросить/установить calculate y-axis range automatically<br>
+_тип:_ bool<br>
+_по умолчанию:_ 0<br>
 
 * **@ymax** 
 Запросить/установить minimal y-axis value<br>
@@ -55,10 +54,11 @@ _тип:_ float<br>
 _диапазон:_ -1024..1024<br>
 _по умолчанию:_ 1<br>
 
-* **@yauto** 
-Запросить/установить calculate y-axis range automatically<br>
-_тип:_ bool<br>
-_по умолчанию:_ 0<br>
+* **@ymin** 
+Запросить/установить minimal y-axis value<br>
+_тип:_ float<br>
+_диапазон:_ -1024..1024<br>
+_по умолчанию:_ -1<br>
 
 
 

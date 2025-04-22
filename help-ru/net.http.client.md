@@ -23,6 +23,19 @@ layout: default_ru
 
 ## методы:
 
+* **download**
+download file<br>
+  __параметры:__
+  - **URL** download URL<br>
+    тип: symbol <br>
+    обязательно: True <br>
+
+  - **[FILE]** save filename. If not specified, use HTTP document filename<br>
+    тип: symbol <br>
+
+  - **[@PARAMS]** see get method parameters<br>
+    тип: list <br>
+
 * **get**
 send GET request<br>
   __параметры:__
@@ -48,6 +61,16 @@ send GET request<br>
   - **[@json]** parse result as Json and output it as data:Dict()<br>
     тип: symbol <br>
 
+* **post**
+send POST request<br>
+  __параметры:__
+  - **URL** request URL<br>
+    тип: symbol <br>
+    обязательно: True <br>
+
+  - **[@PARAMS]** see get method parameters<br>
+    тип: list <br>
+
 * **upload**
 updload file for the form<br>
   __параметры:__
@@ -60,29 +83,6 @@ updload file for the form<br>
     обязательно: True <br>
 
   - **FORM_KEY** form entry key<br>
-    тип: symbol <br>
-    обязательно: True <br>
-
-  - **[@PARAMS]** see get method parameters<br>
-    тип: list <br>
-
-* **download**
-download file<br>
-  __параметры:__
-  - **URL** download URL<br>
-    тип: symbol <br>
-    обязательно: True <br>
-
-  - **[FILE]** save filename. If not specified, use HTTP document filename<br>
-    тип: symbol <br>
-
-  - **[@PARAMS]** see get method parameters<br>
-    тип: list <br>
-
-* **post**
-send POST request<br>
-  __параметры:__
-  - **URL** request URL<br>
     тип: symbol <br>
     обязательно: True <br>
 

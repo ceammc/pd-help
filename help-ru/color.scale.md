@@ -31,23 +31,8 @@ _тип:_ list<br>
 
 ## свойства:
 
-* **@scale** 
-Запросить/установить color list<br>
-_тип:_ list<br>
-
-* **@mode** 
-Запросить/установить output mode: if &#39;color&#39; - output as data:color type, if &#39;hex&#39; - output as hex
-value, if &#39;rgb&#39; - RGB list<br>
-_тип:_ symbol<br>
-_варианты:_ color, hex, rgb<br>
-_по умолчанию:_ color<br>
-
 * **@color** 
 Запросить/установить alias to @mode color<br>
-_тип:_ alias<br>
-
-* **@rgb** 
-Запросить/установить alias to @mode rgb<br>
 _тип:_ alias<br>
 
 * **@hex** 
@@ -59,6 +44,21 @@ _тип:_ alias<br>
 _тип:_ symbol<br>
 _варианты:_ none, short, long, inc, dec<br>
 _по умолчанию:_ none<br>
+
+* **@mode** 
+Запросить/установить output mode: if &#39;color&#39; - output as data:color type, if &#39;hex&#39; - output as hex
+value, if &#39;rgb&#39; - RGB list<br>
+_тип:_ symbol<br>
+_варианты:_ color, hex, rgb<br>
+_по умолчанию:_ color<br>
+
+* **@rgb** 
+Запросить/установить alias to @mode rgb<br>
+_тип:_ alias<br>
+
+* **@scale** 
+Запросить/установить color list<br>
+_тип:_ list<br>
 
 
 

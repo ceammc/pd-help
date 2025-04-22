@@ -92,24 +92,6 @@ move time to time<br>
 
 ## свойства:
 
-* **@is_running** (readonly)
-Запросить if timeline is running<br>
-_тип:_ bool<br>
-_по умолчанию:_ 0<br>
-
-* **@length** (initonly)
-Запросить/установить timeline length<br>
-_тип:_ float<br>
-_единица:_ sec<br>
-_минимальное значение:_ 0<br>
-_по умолчанию:_ 60<br>
-
-* **@size** (readonly)
-Запросить number of events in timeline<br>
-_тип:_ int<br>
-_минимальное значение:_ 0<br>
-_по умолчанию:_ 1<br>
-
 * **@current** (readonly)
 Запросить current time<br>
 _тип:_ float<br>
@@ -122,16 +104,22 @@ _тип:_ float<br>
 _единица:_ sec<br>
 _по умолчанию:_ 0<br>
 
-* **@phase** (readonly)
-Запросить current phase in [0-1) range<br>
-_тип:_ float<br>
-_диапазон:_ 0..1<br>
-_по умолчанию:_ 0<br>
-
 * **@events** (readonly)
 Запросить list of event names in chronological order<br>
 _тип:_ list<br>
 _по умолчанию:_ end<br>
+
+* **@is_running** (readonly)
+Запросить if timeline is running<br>
+_тип:_ bool<br>
+_по умолчанию:_ 0<br>
+
+* **@length** (initonly)
+Запросить/установить timeline length<br>
+_тип:_ float<br>
+_единица:_ sec<br>
+_минимальное значение:_ 0<br>
+_по умолчанию:_ 60<br>
 
 * **@loop** 
 Запросить/установить loop mode<br>
@@ -145,6 +133,18 @@ have @loop property for repeats<br>
 _тип:_ symbol<br>
 _варианты:_ fixed, inf<br>
 _по умолчанию:_ fixed<br>
+
+* **@phase** (readonly)
+Запросить current phase in [0-1) range<br>
+_тип:_ float<br>
+_диапазон:_ 0..1<br>
+_по умолчанию:_ 0<br>
+
+* **@size** (readonly)
+Запросить number of events in timeline<br>
+_тип:_ int<br>
+_минимальное значение:_ 0<br>
+_по умолчанию:_ 1<br>
 
 
 

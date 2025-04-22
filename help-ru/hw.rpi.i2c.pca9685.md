@@ -45,6 +45,13 @@ set channel constant value<br>
   - **[DELAY]** the setting is delayed by the given phase value.<br>
     тип: float <br>
 
+* **disable_prog_addr**
+disable of using programmable address<br>
+  __параметры:__
+  - **TYPE** prog address type<br>
+    тип: atom <br>
+    обязательно: True <br>
+
 * **duty**
 set channel PWM duty cycle<br>
   __параметры:__
@@ -65,6 +72,10 @@ keeping all current PWM setting, but just not responds to the new settings.<br>
   __параметры:__
   - **[STATE=1]** new state<br>
     тип: bool <br>
+
+* **enable_restart_and_disable**
+put the controller to sleep while keeping the PWM register contents in
+preparation for a future restart<br>
 
 * **freq**
 set PWM frequency<br>
@@ -89,21 +100,6 @@ set PWM inversed polarity. Applicable when OE = 0.<br>
     тип: bool <br>
     обязательно: True <br>
 
-* **set_raw**
-set channel raw PWM frequency<br>
-  __параметры:__
-  - **CHAN** device PWM channel. If equals to 16 means all channels<br>
-    тип: int <br>
-    обязательно: True <br>
-
-  - **ON** ON counter time value<br>
-    тип: int <br>
-    обязательно: True <br>
-
-  - **OFF** OFF counter time value<br>
-    тип: int <br>
-    обязательно: True <br>
-
 * **pwidth**
 set channel PWM pulse width<br>
   __параметры:__
@@ -119,6 +115,25 @@ set channel PWM pulse width<br>
   - **[PHASE]** phase offset<br>
     тип: float <br>
 
+* **restart**
+re-enable the controller after a sleep with restart enabled so that previously
+active PWM channels are restarted<br>
+
+* **set_raw**
+set channel raw PWM frequency<br>
+  __параметры:__
+  - **CHAN** device PWM channel. If equals to 16 means all channels<br>
+    тип: int <br>
+    обязательно: True <br>
+
+  - **ON** ON counter time value<br>
+    тип: int <br>
+    обязательно: True <br>
+
+  - **OFF** OFF counter time value<br>
+    тип: int <br>
+    обязательно: True <br>
+
 * **use_prog_addr**
 set and use programmable address<br>
   __параметры:__
@@ -130,37 +145,22 @@ set and use programmable address<br>
     тип: int <br>
     обязательно: True <br>
 
-* **disable_prog_addr**
-disable of using programmable address<br>
-  __параметры:__
-  - **TYPE** prog address type<br>
-    тип: atom <br>
-    обязательно: True <br>
-
-* **restart**
-re-enable the controller after a sleep with restart enabled so that previously
-active PWM channels are restarted<br>
-
-* **enable_restart_and_disable**
-put the controller to sleep while keeping the PWM register contents in
-preparation for a future restart<br>
-
 
 
 
 ## свойства:
-
-* **@i2c_bus** (initonly)
-Запросить/установить I²C bus<br>
-_тип:_ atom<br>
-_варианты:_ 1, 2, 3, 4, 5, 6, default, none<br>
-_по умолчанию:_ none<br>
 
 * **@i2c_addr** (initonly)
 Запросить/установить I²C address. Also &#39;default&#39; value is accepted (for addr 0x40)<br>
 _тип:_ int<br>
 _диапазон:_ -4..119<br>
 _по умолчанию:_ -1<br>
+
+* **@i2c_bus** (initonly)
+Запросить/установить I²C bus<br>
+_тип:_ atom<br>
+_варианты:_ 1, 2, 3, 4, 5, 6, default, none<br>
+_по умолчанию:_ none<br>
 
 
 

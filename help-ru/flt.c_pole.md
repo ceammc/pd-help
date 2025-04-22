@@ -41,9 +41,13 @@ _единица:_ Hz<br>
 _диапазон:_ 0..22050<br>
 _по умолчанию:_ 1000<br>
 
-* **@rad** (initonly)
-Запросить/установить use angular frequency<br>
-_тип:_ flag<br>
+* **@hpf** 
+Запросить/установить ti @mode hpf<br>
+_тип:_ alias<br>
+
+* **@lpf** 
+Запросить/установить to @mode lpf<br>
+_тип:_ alias<br>
 
 * **@mode** 
 Запросить/установить filter modey<br>
@@ -51,13 +55,9 @@ _тип:_ symbol<br>
 _варианты:_ hpf, lpf<br>
 _по умолчанию:_ lpf<br>
 
-* **@lpf** 
-Запросить/установить to @mode lpf<br>
-_тип:_ alias<br>
-
-* **@hpf** 
-Запросить/установить ti @mode hpf<br>
-_тип:_ alias<br>
+* **@rad** (initonly)
+Запросить/установить use angular frequency<br>
+_тип:_ flag<br>
 
 
 

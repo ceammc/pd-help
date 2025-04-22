@@ -69,16 +69,16 @@ _тип:_ list<br>
 _тип:_ list<br>
 _по умолчанию:_ 1<br>
 
+* **@db** 
+Запросить/установить output amp response in db scale<br>
+_тип:_ bool<br>
+_по умолчанию:_ 0<br>
+
 * **@n** 
 Запросить/установить number of points<br>
 _тип:_ int<br>
 _диапазон:_ 4..1024<br>
 _по умолчанию:_ 256<br>
-
-* **@db** 
-Запросить/установить output amp response in db scale<br>
-_тип:_ bool<br>
-_по умолчанию:_ 0<br>
 
 
 

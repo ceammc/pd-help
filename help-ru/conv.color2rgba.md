@@ -27,9 +27,13 @@ Supported named colors are: black blue cyan gold gray green lime magenta navy ol
 
 ## свойства:
 
-* **@pack** (initonly)
-Запросить/установить output as list to first outlet<br>
-_тип:_ flag<br>
+* **@float** 
+Запросить/установить alias to @mode float. Output values in [0-1] range<br>
+_тип:_ alias<br>
+
+* **@int** 
+Запросить/установить alias to @mode int. Output values in [0-255] range<br>
+_тип:_ alias<br>
 
 * **@mode** 
 Запросить/установить output mode<br>
@@ -37,13 +41,9 @@ _тип:_ symbol<br>
 _варианты:_ int, float<br>
 _по умолчанию:_ int<br>
 
-* **@int** 
-Запросить/установить alias to @mode int. Output values in [0-255] range<br>
-_тип:_ alias<br>
-
-* **@float** 
-Запросить/установить alias to @mode float. Output values in [0-1] range<br>
-_тип:_ alias<br>
+* **@pack** (initonly)
+Запросить/установить output as list to first outlet<br>
+_тип:_ flag<br>
 
 
 

@@ -39,6 +39,24 @@ _тип:_ symbol<br>
 
 ## методы:
 
+* **car**
+alias to &#39;cartesian&#39; method<br>
+
+* **cartesian**
+set source mapping in cartesian coordinates<br>
+  __параметры:__
+  - **IDX** source index. 1-based<br>
+    тип: int <br>
+    обязательно: True <br>
+
+  - **X** x-coord<br>
+    тип: float <br>
+    обязательно: True <br>
+
+  - **X** y-coord<br>
+    тип: float <br>
+    обязательно: True <br>
+
 * **mute**
 mute/unmute specified source<br>
   __параметры:__
@@ -49,6 +67,9 @@ mute/unmute specified source<br>
   - **STATE** mute value<br>
     тип: int <br>
     обязательно: True <br>
+
+* **pol**
+alias to &#39;polar&#39; method<br>
 
 * **polar**
 set source mapping in polar coordinates<br>
@@ -66,49 +87,10 @@ set source mapping in polar coordinates<br>
     единица: rad <br>
     обязательно: True <br>
 
-* **pol**
-alias to &#39;polar&#39; method<br>
-
-* **cartesian**
-set source mapping in cartesian coordinates<br>
-  __параметры:__
-  - **IDX** source index. 1-based<br>
-    тип: int <br>
-    обязательно: True <br>
-
-  - **X** x-coord<br>
-    тип: float <br>
-    обязательно: True <br>
-
-  - **X** y-coord<br>
-    тип: float <br>
-    обязательно: True <br>
-
-* **car**
-alias to &#39;cartesian&#39; method<br>
-
 
 
 
 ## свойства:
-
-* **@order** (initonly)
-Запросить/установить the order of decomposition<br>
-_тип:_ int<br>
-_диапазон:_ 1..63<br>
-_по умолчанию:_ 1<br>
-
-* **@nsrc** (initonly)
-Запросить/установить number of input sources<br>
-_тип:_ int<br>
-_минимальное значение:_ 1<br>
-_по умолчанию:_ 1<br>
-
-* **@ramp** 
-Запросить/установить ramp time<br>
-_тип:_ float<br>
-_минимальное значение:_ 0<br>
-_по умолчанию:_ 100<br>
 
 * **@mode** 
 Запросить/установить signal control mode (with nsrc=1). If &#39;pol&#39;: second and third signal inlets are
@@ -116,6 +98,24 @@ treated as radius and angle values, if &#39;car&#39;: as X and Y coordinates<br>
 _тип:_ symbol<br>
 _варианты:_ pol, car<br>
 _по умолчанию:_ pol<br>
+
+* **@nsrc** (initonly)
+Запросить/установить number of input sources<br>
+_тип:_ int<br>
+_минимальное значение:_ 1<br>
+_по умолчанию:_ 1<br>
+
+* **@order** (initonly)
+Запросить/установить the order of decomposition<br>
+_тип:_ int<br>
+_диапазон:_ 1..63<br>
+_по умолчанию:_ 1<br>
+
+* **@ramp** 
+Запросить/установить ramp time<br>
+_тип:_ float<br>
+_минимальное значение:_ 0<br>
+_по умолчанию:_ 100<br>
 
 
 

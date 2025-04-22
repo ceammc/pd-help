@@ -23,20 +23,30 @@ layout: default_ru
 
 ## методы:
 
+* **close**
+gracefully close connection (with websocket handshake)<br>
+
+* **connect**
+connect to websocket server<br>
+  __параметры:__
+  - **URL** url - ws://HOST:PORT/, for ex.: ws://127.0.0.1:9000/path<br>
+    тип: symbol <br>
+    обязательно: True <br>
+
+* **flush**
+flush output stream: sends all buffered messages.<br>
+
+* **latency**
+measure rountrip latency. Outputs: latency TIME_MSEC<br>
+
+* **ping**
+send ping message to server (on server answer outputs: pong DATA)<br>
+  __параметры:__
+  - **[DATA]** list of integers in [0..255] range<br>
+    тип: list <br>
+
 * **send**
 send as text message<br>
-  __параметры:__
-  - **[ARGS]** arguments<br>
-    тип: list <br>
-
-* **send_binary**
-send as binary bytes<br>
-  __параметры:__
-  - **[ARGS]** list of integers in [0..255] range<br>
-    тип: list <br>
-
-* **send_json**
-send as encoded json<br>
   __параметры:__
   - **[ARGS]** arguments<br>
     тип: list <br>
@@ -55,6 +65,18 @@ send as Pd array content as json array<br>
   - **[LENGTH]** read length. If not specified - read until array end.<br>
     тип: int <br>
     единица: samp <br>
+
+* **send_binary**
+send as binary bytes<br>
+  __параметры:__
+  - **[ARGS]** list of integers in [0..255] range<br>
+    тип: list <br>
+
+* **send_json**
+send as encoded json<br>
+  __параметры:__
+  - **[ARGS]** arguments<br>
+    тип: list <br>
 
 * **write**
 write as text message to output buffer. You have to call [flush( method for
@@ -76,28 +98,6 @@ sending.<br>
   __параметры:__
   - **[ARGS]** arguments<br>
     тип: list <br>
-
-* **latency**
-measure rountrip latency. Outputs: latency TIME_MSEC<br>
-
-* **flush**
-flush output stream: sends all buffered messages.<br>
-
-* **close**
-gracefully close connection (with websocket handshake)<br>
-
-* **ping**
-send ping message to server (on server answer outputs: pong DATA)<br>
-  __параметры:__
-  - **[DATA]** list of integers in [0..255] range<br>
-    тип: list <br>
-
-* **connect**
-connect to websocket server<br>
-  __параметры:__
-  - **URL** url - ws://HOST:PORT/, for ex.: ws://127.0.0.1:9000/path<br>
-    тип: symbol <br>
-    обязательно: True <br>
 
 
 

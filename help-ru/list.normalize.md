@@ -33,12 +33,12 @@ _тип:_ symbol<br>
 _варианты:_ sum, range<br>
 _по умолчанию:_ sum<br>
 
-* **@sum** 
-Запросить/установить alias to @by sum<br>
-_тип:_ alias<br>
-
 * **@range** 
 Запросить/установить alias to @by range<br>
+_тип:_ alias<br>
+
+* **@sum** 
+Запросить/установить alias to @by sum<br>
 _тип:_ alias<br>
 
 

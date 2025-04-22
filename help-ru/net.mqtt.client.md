@@ -23,6 +23,16 @@ layout: default_ru
 
 ## методы:
 
+* **close**
+close MQTT connection<br>
+
+* **connect**
+connect to websocket server<br>
+  __параметры:__
+  - **URL** mqtt server url, for ex.: mqtt://127.0.0.1:9000, tcp://user:pass@127.0.0.1:9000, ssl://user:pass@127.0.0.1 etc.<br>
+    тип: symbol <br>
+    обязательно: True <br>
+
 * **publish**
 publish message to topic<br>
   __параметры:__
@@ -47,20 +57,15 @@ unsubscribe from topic<br>
     тип: symbol <br>
     обязательно: True <br>
 
-* **close**
-close MQTT connection<br>
-
-* **connect**
-connect to websocket server<br>
-  __параметры:__
-  - **URL** mqtt server url, for ex.: mqtt://127.0.0.1:9000, tcp://user:pass@127.0.0.1:9000, ssl://user:pass@127.0.0.1 etc.<br>
-    тип: symbol <br>
-    обязательно: True <br>
-
 
 
 
 ## свойства:
+
+* **@id** 
+Запросить/установить client id<br>
+_тип:_ symbol<br>
+_по умолчанию:_ pd_mqtt_client_0<br>
 
 * **@mode** 
 Запросить/установить parsing mode for incoming/outcoming messages. If &#39;fudi&#39; - interpret data as Pd
@@ -69,11 +74,6 @@ messages, if &#39;sym&#39; - always interpret as symbols, &#39;data&#39; - parse
 _тип:_ symbol<br>
 _варианты:_ data, fudi, json, sym, bytes<br>
 _по умолчанию:_ fudi<br>
-
-* **@id** 
-Запросить/установить client id<br>
-_тип:_ symbol<br>
-_по умолчанию:_ pd_mqtt_client_0<br>
 
 * **@qos** 
 Запросить/установить quality of service<br>

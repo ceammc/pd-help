@@ -51,8 +51,9 @@ _тип:_ int<br>
 _диапазон:_ 0..16<br>
 _по умолчанию:_ 0<br>
 
-* **@min** 
-Запросить/установить output value at midi input == 0<br>
+* **@curve** 
+Запросить/установить output curve. If @curve&lt;0: fast begin, slow end, else if @curve&gt;0: slow begin,
+fast end, if @curve==0: linear speed<br>
 _тип:_ float<br>
 _по умолчанию:_ 0<br>
 
@@ -61,9 +62,8 @@ _по умолчанию:_ 0<br>
 _тип:_ float<br>
 _по умолчанию:_ 127<br>
 
-* **@curve** 
-Запросить/установить output curve. If @curve&lt;0: fast begin, slow end, else if @curve&gt;0: slow begin,
-fast end, if @curve==0: linear speed<br>
+* **@min** 
+Запросить/установить output value at midi input == 0<br>
 _тип:_ float<br>
 _по умолчанию:_ 0<br>
 

@@ -52,10 +52,10 @@ stores preset value at specified index<br>
 
 ## свойства:
 
-* **@path** (readonly)
-Запросить property OSC-like path that includes id, abstraction name and may be subpatch
-name separated by slashes.<br>
-_тип:_ symbol<br>
+* **@global** (initonly)
+Запросить/установить use global path like /ID<br>
+_тип:_ flag<br>
+_по умолчанию:_ 0<br>
 
 * **@id** (initonly)
 Запросить/установить preset id<br>
@@ -66,10 +66,10 @@ _тип:_ symbol<br>
 _тип:_ float<br>
 _по умолчанию:_ 0<br>
 
-* **@global** (initonly)
-Запросить/установить use global path like /ID<br>
-_тип:_ flag<br>
-_по умолчанию:_ 0<br>
+* **@path** (readonly)
+Запросить property OSC-like path that includes id, abstraction name and may be subpatch
+name separated by slashes.<br>
+_тип:_ symbol<br>
 
 * **@subpatch** (initonly)
 Запросить/установить include subpatch name to path<br>

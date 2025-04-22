@@ -39,6 +39,21 @@ _единица:_ db<br>
 
 ## свойства:
 
+* **@osc** (initonly)
+Запросить/установить OSC server name to listen<br>
+_тип:_ symbol<br>
+
+* **@id** (initonly)
+Запросить/установить OSC address id. If specified, bind all properties to
+/ID/flt_c_highshelf/PROP_NAME osc address, if empty bind to
+/flt_c_highshelf/PROP_NAME.<br>
+_тип:_ symbol<br>
+
+* **@active** 
+Запросить/установить on/off dsp processing<br>
+_тип:_ bool<br>
+_по умолчанию:_ 1<br>
+
 * **@freq** 
 Запросить/установить center frequency<br>
 _тип:_ float<br>
@@ -52,21 +67,6 @@ _тип:_ float<br>
 _единица:_ db<br>
 _диапазон:_ -15..15<br>
 _по умолчанию:_ 0<br>
-
-* **@active** 
-Запросить/установить on/off dsp processing<br>
-_тип:_ bool<br>
-_по умолчанию:_ 1<br>
-
-* **@osc** (initonly)
-Запросить/установить OSC server name to listen<br>
-_тип:_ symbol<br>
-
-* **@id** (initonly)
-Запросить/установить OSC address id. If specified, bind all properties to
-/ID/flt_c_highshelf/PROP_NAME osc address, if empty bind to
-/flt_c_highshelf/PROP_NAME.<br>
-_тип:_ symbol<br>
 
 
 

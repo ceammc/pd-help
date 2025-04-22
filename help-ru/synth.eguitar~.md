@@ -39,29 +39,26 @@ note on/off message<br>
 
 ## свойства:
 
-* **@pitch** 
-Запросить/установить midi pitch<br>
-_тип:_ float<br>
-_диапазон:_ 36..84<br>
-_по умолчанию:_ 48<br>
+* **@osc** (initonly)
+Запросить/установить OSC server name to listen<br>
+_тип:_ symbol<br>
+
+* **@id** (initonly)
+Запросить/установить OSC address id. If specified, bind all properties to
+/ID/synth_eguitar/PROP_NAME osc address, if empty bind to
+/synth_eguitar/PROP_NAME.<br>
+_тип:_ symbol<br>
+
+* **@active** 
+Запросить/установить on/off dsp processing<br>
+_тип:_ bool<br>
+_по умолчанию:_ 1<br>
 
 * **@freq** 
 Запросить/установить frequency<br>
 _тип:_ float<br>
 _единица:_ Hz<br>
 _по умолчанию:_ 130.8128<br>
-
-* **@pos** 
-Запросить/установить pluck position (1 is on the bridge)<br>
-_тип:_ float<br>
-_диапазон:_ 0..1<br>
-_по умолчанию:_ 0.5<br>
-
-* **@mute** 
-Запросить/установить mute coefficient (0 for no mute and 1 for instant mute)<br>
-_тип:_ float<br>
-_диапазон:_ 0..1<br>
-_по умолчанию:_ 0<br>
 
 * **@gain** 
 Запросить/установить pluck gain<br>
@@ -75,20 +72,23 @@ _тип:_ float<br>
 _диапазон:_ 0..1<br>
 _по умолчанию:_ 0<br>
 
-* **@active** 
-Запросить/установить on/off dsp processing<br>
-_тип:_ bool<br>
-_по умолчанию:_ 1<br>
+* **@mute** 
+Запросить/установить mute coefficient (0 for no mute and 1 for instant mute)<br>
+_тип:_ float<br>
+_диапазон:_ 0..1<br>
+_по умолчанию:_ 0<br>
 
-* **@osc** (initonly)
-Запросить/установить OSC server name to listen<br>
-_тип:_ symbol<br>
+* **@pitch** 
+Запросить/установить midi pitch<br>
+_тип:_ float<br>
+_диапазон:_ 36..84<br>
+_по умолчанию:_ 48<br>
 
-* **@id** (initonly)
-Запросить/установить OSC address id. If specified, bind all properties to
-/ID/synth_eguitar/PROP_NAME osc address, if empty bind to
-/synth_eguitar/PROP_NAME.<br>
-_тип:_ symbol<br>
+* **@pos** 
+Запросить/установить pluck position (1 is on the bridge)<br>
+_тип:_ float<br>
+_диапазон:_ 0..1<br>
+_по умолчанию:_ 0.5<br>
 
 
 

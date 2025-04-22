@@ -57,38 +57,19 @@ sets current position to 0<br>
 
 ## свойства:
 
-* **@mode** 
-Запросить/установить pass mode. See properties below for detailed information.<br>
-_тип:_ symbol<br>
-_варианты:_ single, clip, wrap, fold<br>
-_по умолчанию:_ single<br>
-
 * **@clip** 
 Запросить/установить clipped pass mode. When the list bounds are reached - min/max value repeats
 perpetually.<br>
-_тип:_ alias<br>
-
-* **@single** 
-Запросить/установить single pass mode. When the list bounds are reached - no output any more until
-reset.<br>
-_тип:_ alias<br>
-
-* **@loop** 
-Запросить/установить @wrap alias<br>
-_тип:_ alias<br>
-
-* **@wrap** 
-Запросить/установить wrap pass mode. List values are repeated in a loop<br>
-_тип:_ alias<br>
-
-* **@fold** 
-Запросить/установить fold pass mode. List values are repeated in a loop with folding<br>
 _тип:_ alias<br>
 
 * **@direction** 
 Запросить/установить walking direction. &#34;1&#34; - forwards, &#34;0&#34; - backwards.<br>
 _тип:_ bool<br>
 _по умолчанию:_ 1<br>
+
+* **@fold** 
+Запросить/установить fold pass mode. List values are repeated in a loop with folding<br>
+_тип:_ alias<br>
 
 * **@index** 
 Запросить/установить current position<br>
@@ -102,6 +83,21 @@ _тип:_ int<br>
 _минимальное значение:_ 1<br>
 _по умолчанию:_ 1<br>
 
+* **@loop** 
+Запросить/установить @wrap alias<br>
+_тип:_ alias<br>
+
+* **@mode** 
+Запросить/установить pass mode. See properties below for detailed information.<br>
+_тип:_ symbol<br>
+_варианты:_ single, clip, wrap, fold<br>
+_по умолчанию:_ single<br>
+
+* **@single** 
+Запросить/установить single pass mode. When the list bounds are reached - no output any more until
+reset.<br>
+_тип:_ alias<br>
+
 * **@size** (readonly)
 Запросить current list size<br>
 _тип:_ int<br>
@@ -111,6 +107,10 @@ _по умолчанию:_ 0<br>
 * **@value** 
 Запросить/установить current list<br>
 _тип:_ list<br>
+
+* **@wrap** 
+Запросить/установить wrap pass mode. List values are repeated in a loop<br>
+_тип:_ alias<br>
 
 
 

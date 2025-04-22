@@ -60,16 +60,25 @@ redraws view<br>
 Запросить/установить array name<br>
 _тип:_ symbol<br>
 
-* **@mouse_events** 
-Запросить/установить mouse events output mode. If on outputs @mouse_down, @mouse_up and @mouse_drag
-events<br>
-_тип:_ bool<br>
-_по умолчанию:_ 1<br>
+* **@background_color** 
+Запросить/установить element background color (list of red, green, blue values in 0-1 range)<br>
+_тип:_ list<br>
+_по умолчанию:_ 0.93 0.93 0.93 1<br>
 
-* **@cursor_samp** 
-Запросить/установить cursor position in samples<br>
-_тип:_ int<br>
-_единица:_ samp<br>
+* **@border_color** 
+Запросить/установить border color (list of red, green, blue values in 0-1 range)<br>
+_тип:_ list<br>
+_по умолчанию:_ 0.6 0.6 0.6 1<br>
+
+* **@cursor_color** 
+Запросить/установить cursor color (list of red, green, blue values in 0-1 range)<br>
+_тип:_ list<br>
+_по умолчанию:_ 0 0.75 1 1<br>
+
+* **@cursor_ms** 
+Запросить/установить cursor position in milliseconds<br>
+_тип:_ float<br>
+_единица:_ ms<br>
 _по умолчанию:_ 0<br>
 
 * **@cursor_phase** 
@@ -78,17 +87,74 @@ _тип:_ float<br>
 _диапазон:_ 0..1<br>
 _по умолчанию:_ 0<br>
 
+* **@cursor_samp** 
+Запросить/установить cursor position in samples<br>
+_тип:_ int<br>
+_единица:_ samp<br>
+_по умолчанию:_ 0<br>
+
 * **@cursor_sec** 
 Запросить/установить cursor position in seconds<br>
 _тип:_ float<br>
 _единица:_ sec<br>
 _по умолчанию:_ 0<br>
 
-* **@cursor_ms** 
-Запросить/установить cursor position in milliseconds<br>
-_тип:_ float<br>
-_единица:_ ms<br>
+* **@fontname** 
+Запросить/установить fontname<br>
+_тип:_ symbol<br>
+_варианты:_ Courier, DejaVu, Helvetica, Monaco, Times<br>
+_по умолчанию:_ Helvetica<br>
+
+* **@fontsize** 
+Запросить/установить fontsize<br>
+_тип:_ int<br>
+_диапазон:_ 4..100<br>
+_по умолчанию:_ 11<br>
+
+* **@fontslant** 
+Запросить/установить font slant<br>
+_тип:_ symbol<br>
+_варианты:_ roman, italic<br>
+_по умолчанию:_ roman<br>
+
+* **@fontweight** 
+Запросить/установить font weight<br>
+_тип:_ symbol<br>
+_варианты:_ normal, bold<br>
+_по умолчанию:_ normal<br>
+
+* **@label_bottom** 
+Запросить/установить bottom right label if @show_labels is on<br>
+_тип:_ symbol<br>
+
+* **@label_top** 
+Запросить/установить top right label if @show_labels is on<br>
+_тип:_ symbol<br>
+
+* **@mouse_events** 
+Запросить/установить mouse events output mode. If on outputs @mouse_down, @mouse_up and @mouse_drag
+events<br>
+_тип:_ bool<br>
+_по умолчанию:_ 1<br>
+
+* **@pinned** 
+Запросить/установить pin mode. if 1 - put element to the lowest level<br>
+_тип:_ bool<br>
 _по умолчанию:_ 0<br>
+
+* **@receive** 
+Запросить/установить receive source<br>
+_тип:_ symbol<br>
+_по умолчанию:_ (null)<br>
+
+* **@select_ms** 
+Запросить/установить selection range in milliseconds, pair of values: begin, end<br>
+_тип:_ list<br>
+_единица:_ ms<br>
+
+* **@select_phase** 
+Запросить/установить selection range noramlized to 0-1 range, pair of values: begin, end<br>
+_тип:_ list<br>
 
 * **@select_samp** 
 Запросить/установить selection range in samples, pair of values: begin, end<br>
@@ -100,32 +166,37 @@ _единица:_ samp<br>
 _тип:_ list<br>
 _единица:_ sec<br>
 
-* **@select_ms** 
-Запросить/установить selection range in milliseconds, pair of values: begin, end<br>
+* **@selection_color** 
+Запросить/установить selection color (list of red, green, blue values in 0-1 range)<br>
 _тип:_ list<br>
-_единица:_ ms<br>
+_по умолчанию:_ 0 0.75 1 1<br>
 
-* **@select_phase** 
-Запросить/установить selection range noramlized to 0-1 range, pair of values: begin, end<br>
-_тип:_ list<br>
-
-* **@show_rms** 
-Запросить/установить show RMS graph<br>
-_тип:_ bool<br>
-_по умолчанию:_ 0<br>
+* **@send** 
+Запросить/установить send destination<br>
+_тип:_ symbol<br>
+_по умолчанию:_ (null)<br>
 
 * **@show_labels** 
 Запросить/установить if show corner labels<br>
 _тип:_ bool<br>
 _по умолчанию:_ 0<br>
 
-* **@label_top** 
-Запросить/установить top right label if @show_labels is on<br>
-_тип:_ symbol<br>
+* **@show_rms** 
+Запросить/установить show RMS graph<br>
+_тип:_ bool<br>
+_по умолчанию:_ 0<br>
 
-* **@label_bottom** 
-Запросить/установить bottom right label if @show_labels is on<br>
-_тип:_ symbol<br>
+* **@size** 
+Запросить/установить element size (width, height pair)<br>
+_тип:_ list<br>
+_по умолчанию:_ 300 100<br>
+
+* **@size_ms** (readonly)
+Запросить array size in milliseconds<br>
+_тип:_ float<br>
+_единица:_ ms<br>
+_минимальное значение:_ 0<br>
+_по умолчанию:_ 0<br>
 
 * **@size_samp** (readonly)
 Запросить array size in samples<br>
@@ -141,81 +212,10 @@ _единица:_ sec<br>
 _минимальное значение:_ 0<br>
 _по умолчанию:_ 0<br>
 
-* **@size_ms** (readonly)
-Запросить array size in milliseconds<br>
-_тип:_ float<br>
-_единица:_ ms<br>
-_минимальное значение:_ 0<br>
-_по умолчанию:_ 0<br>
-
-* **@send** 
-Запросить/установить send destination<br>
-_тип:_ symbol<br>
-_по умолчанию:_ (null)<br>
-
-* **@receive** 
-Запросить/установить receive source<br>
-_тип:_ symbol<br>
-_по умолчанию:_ (null)<br>
-
-* **@size** 
-Запросить/установить element size (width, height pair)<br>
-_тип:_ list<br>
-_по умолчанию:_ 300 100<br>
-
-* **@pinned** 
-Запросить/установить pin mode. if 1 - put element to the lowest level<br>
-_тип:_ bool<br>
-_по умолчанию:_ 0<br>
-
-* **@selection_color** 
-Запросить/установить selection color (list of red, green, blue values in 0-1 range)<br>
-_тип:_ list<br>
-_по умолчанию:_ 0 0.75 1 1<br>
-
-* **@cursor_color** 
-Запросить/установить cursor color (list of red, green, blue values in 0-1 range)<br>
-_тип:_ list<br>
-_по умолчанию:_ 0 0.75 1 1<br>
-
 * **@wave_color** 
 Запросить/установить wave color (list of red, green, blue values in 0-1 range)<br>
 _тип:_ list<br>
 _по умолчанию:_ 0.3 0.3 0.3 1<br>
-
-* **@background_color** 
-Запросить/установить element background color (list of red, green, blue values in 0-1 range)<br>
-_тип:_ list<br>
-_по умолчанию:_ 0.93 0.93 0.93 1<br>
-
-* **@border_color** 
-Запросить/установить border color (list of red, green, blue values in 0-1 range)<br>
-_тип:_ list<br>
-_по умолчанию:_ 0.6 0.6 0.6 1<br>
-
-* **@fontsize** 
-Запросить/установить fontsize<br>
-_тип:_ int<br>
-_диапазон:_ 4..100<br>
-_по умолчанию:_ 11<br>
-
-* **@fontname** 
-Запросить/установить fontname<br>
-_тип:_ symbol<br>
-_варианты:_ Courier, DejaVu, Helvetica, Monaco, Times<br>
-_по умолчанию:_ Helvetica<br>
-
-* **@fontweight** 
-Запросить/установить font weight<br>
-_тип:_ symbol<br>
-_варианты:_ normal, bold<br>
-_по умолчанию:_ normal<br>
-
-* **@fontslant** 
-Запросить/установить font slant<br>
-_тип:_ symbol<br>
-_варианты:_ roman, italic<br>
-_по умолчанию:_ roman<br>
 
 
 

@@ -25,13 +25,13 @@ layout: default_ru
 
 ## свойства:
 
-* **@sync** (initonly)
-Запросить/установить output at any inlet change<br>
-_тип:_ flag<br>
+* **@float** 
+Запросить/установить alias to @mode float. Output float values in [0-1] range<br>
+_тип:_ alias<br>
 
-* **@pack** (initonly)
-Запросить/установить output as list (creates single outlet object)<br>
-_тип:_ flag<br>
+* **@int** 
+Запросить/установить alias to @mode int. Output integer values in [0-255] range<br>
+_тип:_ alias<br>
 
 * **@mode** 
 Запросить/установить output mode<br>
@@ -39,13 +39,13 @@ _тип:_ symbol<br>
 _варианты:_ int, float<br>
 _по умолчанию:_ int<br>
 
-* **@int** 
-Запросить/установить alias to @mode int. Output integer values in [0-255] range<br>
-_тип:_ alias<br>
+* **@pack** (initonly)
+Запросить/установить output as list (creates single outlet object)<br>
+_тип:_ flag<br>
 
-* **@float** 
-Запросить/установить alias to @mode float. Output float values in [0-1] range<br>
-_тип:_ alias<br>
+* **@sync** (initonly)
+Запросить/установить output at any inlet change<br>
+_тип:_ flag<br>
 
 
 

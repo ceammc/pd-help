@@ -41,17 +41,9 @@ _тип:_ symbol<br>
 
 ## свойства:
 
-* **@order** (initonly)
-Запросить/установить the order of decomposition<br>
-_тип:_ int<br>
-_диапазон:_ 1..63<br>
-_по умолчанию:_ 1<br>
-
-* **@num** 
-Запросить/установить numbering scheme<br>
-_тип:_ symbol<br>
-_варианты:_ ACN, fromFurseMalham, fromSID, toFurseMalham, toSID<br>
-_по умолчанию:_ ACN<br>
+* **@fromB** 
+Запросить/установить alias to @num fromFurseMalham and @norm fromMaxN<br>
+_тип:_ alias<br>
 
 * **@norm** 
 Запросить/установить normalization<br>
@@ -59,12 +51,20 @@ _тип:_ symbol<br>
 _варианты:_ SN2D, fromMaxN, toMaxN<br>
 _по умолчанию:_ SN2D<br>
 
+* **@num** 
+Запросить/установить numbering scheme<br>
+_тип:_ symbol<br>
+_варианты:_ ACN, fromFurseMalham, fromSID, toFurseMalham, toSID<br>
+_по умолчанию:_ ACN<br>
+
+* **@order** (initonly)
+Запросить/установить the order of decomposition<br>
+_тип:_ int<br>
+_диапазон:_ 1..63<br>
+_по умолчанию:_ 1<br>
+
 * **@toB** 
 Запросить/установить alias to @num toFurseMalham and @norm toMaxN<br>
-_тип:_ alias<br>
-
-* **@fromB** 
-Запросить/установить alias to @num fromFurseMalham and @norm fromMaxN<br>
 _тип:_ alias<br>
 
 

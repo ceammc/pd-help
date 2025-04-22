@@ -31,12 +31,6 @@ _тип:_ symbol<br>
 
 ## свойства:
 
-* **@type** 
-Запросить/установить result IP type<br>
-_тип:_ symbol<br>
-_варианты:_ ipv4, ipv6<br>
-_по умолчанию:_ ipv4<br>
-
 * **@ipv4** 
 Запросить/установить shortcut for @type ipv4<br>
 _тип:_ alias<br>
@@ -44,6 +38,12 @@ _тип:_ alias<br>
 * **@ipv6** 
 Запросить/установить shortcut for @type ipv6<br>
 _тип:_ alias<br>
+
+* **@type** 
+Запросить/установить result IP type<br>
+_тип:_ symbol<br>
+_варианты:_ ipv4, ipv6<br>
+_по умолчанию:_ ipv4<br>
 
 
 

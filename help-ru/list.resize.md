@@ -31,11 +31,13 @@ _тип:_ int<br>
 
 ## свойства:
 
-* **@size** 
-Запросить/установить output list size<br>
-_тип:_ int<br>
-_минимальное значение:_ 0<br>
-_по умолчанию:_ 0<br>
+* **@clip** 
+Запросить/установить alias for @method clip<br>
+_тип:_ alias<br>
+
+* **@fold** 
+Запросить/установить alias for @method fold<br>
+_тип:_ alias<br>
 
 * **@method** 
 Запросить/установить method of resizing, if new size is longer then current<br>
@@ -48,16 +50,14 @@ _по умолчанию:_ pad<br>
 _тип:_ atom<br>
 _по умолчанию:_ 0<br>
 
-* **@clip** 
-Запросить/установить alias for @method clip<br>
-_тип:_ alias<br>
+* **@size** 
+Запросить/установить output list size<br>
+_тип:_ int<br>
+_минимальное значение:_ 0<br>
+_по умолчанию:_ 0<br>
 
 * **@wrap** 
 Запросить/установить alias for @method wrap<br>
-_тип:_ alias<br>
-
-* **@fold** 
-Запросить/установить alias for @method fold<br>
 _тип:_ alias<br>
 
 

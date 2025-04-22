@@ -32,6 +32,13 @@ turn on/off the display backlight<br>
     тип: bool <br>
     обязательно: True <br>
 
+* **char**
+write character to the display and move cursor to the next position<br>
+  __параметры:__
+  - **CHAR** char code<br>
+    тип: int <br>
+    обязательно: True <br>
+
 * **clear**
 clear all display data and set cursor position to 0, 0<br>
 
@@ -60,12 +67,8 @@ set cursor potision<br>
     тип: int <br>
     обязательно: True <br>
 
-* **move_display**
-move display content horizontally<br>
-  __параметры:__
-  - **SHIFT** relative display move, not altering the display content<br>
-    тип: int <br>
-    обязательно: True <br>
+* **font**
+choose font<br>
 
 * **move_cursor**
 move cursor horizontally<br>
@@ -74,10 +77,10 @@ move cursor horizontally<br>
     тип: int <br>
     обязательно: True <br>
 
-* **char**
-write character to the display and move cursor to the next position<br>
+* **move_display**
+move display content horizontally<br>
   __параметры:__
-  - **CHAR** char code<br>
+  - **SHIFT** relative display move, not altering the display content<br>
     тип: int <br>
     обязательно: True <br>
 
@@ -89,19 +92,10 @@ the next position after last written character<br>
     тип: list <br>
     обязательно: True <br>
 
-* **font**
-choose font<br>
-
 
 
 
 ## свойства:
-
-* **@i2c_bus** (initonly)
-Запросить/установить I²C bus<br>
-_тип:_ atom<br>
-_варианты:_ 1, 2, 3, 4, 5, 6, default, none<br>
-_по умолчанию:_ none<br>
 
 * **@i2c_addr** (initonly)
 Запросить/установить I²C address. Values &#39;default&#39; (for addr 0x27), &#39;alt&#39; (for addr 0x3f) are also
@@ -109,6 +103,12 @@ accepted<br>
 _тип:_ int<br>
 _диапазон:_ -4..119<br>
 _по умолчанию:_ -1<br>
+
+* **@i2c_bus** (initonly)
+Запросить/установить I²C bus<br>
+_тип:_ atom<br>
+_варианты:_ 1, 2, 3, 4, 5, 6, default, none<br>
+_по умолчанию:_ none<br>
 
 * **@rows** (initonly)
 Запросить/установить number of display rows<br>

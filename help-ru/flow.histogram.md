@@ -42,13 +42,13 @@ clear all histogram data<br>
 _тип:_ list<br>
 _по умолчанию:_ 0<br>
 
-* **@norm** 
-Запросить/установить do the histogram normalization<br>
+* **@inner_bins** 
+Запросить/установить output histogram inner bins only<br>
 _тип:_ bool<br>
 _по умолчанию:_ 1<br>
 
-* **@inner_bins** 
-Запросить/установить output histogram inner bins only<br>
+* **@norm** 
+Запросить/установить do the histogram normalization<br>
 _тип:_ bool<br>
 _по умолчанию:_ 1<br>
 

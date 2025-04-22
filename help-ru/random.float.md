@@ -43,15 +43,15 @@ generate list of random floats with specified length<br>
 
 ## свойства:
 
-* **@min** 
-Запросить/установить random range lower bound<br>
-_тип:_ float<br>
-_по умолчанию:_ 0<br>
-
 * **@max** 
 Запросить/установить random range upper bound<br>
 _тип:_ float<br>
 _по умолчанию:_ 1<br>
+
+* **@min** 
+Запросить/установить random range lower bound<br>
+_тип:_ float<br>
+_по умолчанию:_ 0<br>
 
 * **@seed** 
 Запросить/установить generator seed<br>

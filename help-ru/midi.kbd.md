@@ -47,17 +47,10 @@ set custom<br>
 
 ## свойства:
 
-* **@octave** 
-Запросить/установить output octave<br>
-_тип:_ int<br>
-_диапазон:_ 0..8<br>
-_по умолчанию:_ 4<br>
-
-* **@vel** 
-Запросить/установить output velocity<br>
-_тип:_ float<br>
-_диапазон:_ 0..127<br>
-_по умолчанию:_ 100<br>
+* **@custom** 
+Запросить/установить custom layout (Dict data type)<br>
+_тип:_ atom<br>
+_по умолчанию:_ []<br>
 
 * **@layout** 
 Запросить/установить current layout<br>
@@ -65,15 +58,22 @@ _тип:_ symbol<br>
 _варианты:_ qwerty, names, custom<br>
 _по умолчанию:_ qwerty<br>
 
-* **@custom** 
-Запросить/установить custom layout (Dict data type)<br>
-_тип:_ atom<br>
-_по умолчанию:_ []<br>
+* **@octave** 
+Запросить/установить output octave<br>
+_тип:_ int<br>
+_диапазон:_ 0..8<br>
+_по умолчанию:_ 4<br>
 
 * **@on** 
 Запросить/установить on/off state<br>
 _тип:_ bool<br>
 _по умолчанию:_ 1<br>
+
+* **@vel** 
+Запросить/установить output velocity<br>
+_тип:_ float<br>
+_диапазон:_ 0..127<br>
+_по умолчанию:_ 100<br>
 
 
 

@@ -37,6 +37,28 @@ _тип:_ symbol<br>
 
 ## свойства:
 
+* **@osc** (initonly)
+Запросить/установить OSC server name to listen<br>
+_тип:_ symbol<br>
+
+* **@id** (initonly)
+Запросить/установить OSC address id. If specified, bind all properties to
+/ID/synth_voice_fofc/PROP_NAME osc address, if empty bind to
+/synth_voice_fofc/PROP_NAME.<br>
+_тип:_ symbol<br>
+
+* **@active** 
+Запросить/установить on/off dsp processing<br>
+_тип:_ bool<br>
+_по умолчанию:_ 1<br>
+
+* **@attack** 
+Запросить/установить attack time<br>
+_тип:_ float<br>
+_единица:_ ms<br>
+_диапазон:_ 0..1000<br>
+_по умолчанию:_ 30<br>
+
 * **@freq** 
 Запросить/установить frequency<br>
 _тип:_ float<br>
@@ -44,10 +66,30 @@ _единица:_ Hz<br>
 _диапазон:_ 20..20000.0<br>
 _по умолчанию:_ 440<br>
 
+* **@fvowel** 
+Запросить/установить vowel index: 0=a, 1=e, 2=i, 3=o, 4=u. Float values can be interpoltaed.<br>
+_тип:_ float<br>
+_диапазон:_ 0..4<br>
+_по умолчанию:_ 0<br>
+
 * **@gate** 
 Запросить/установить synth gate (&gt;0 - play)<br>
 _тип:_ bool<br>
 _по умолчанию:_ 0<br>
+
+* **@portamento** 
+Запросить/установить portamento time<br>
+_тип:_ float<br>
+_единица:_ ms<br>
+_диапазон:_ 0..4000<br>
+_по умолчанию:_ 0<br>
+
+* **@release** 
+Запросить/установить release time<br>
+_тип:_ float<br>
+_единица:_ ms<br>
+_диапазон:_ 0..1000<br>
+_по умолчанию:_ 50<br>
 
 * **@vibr_freq** 
 Запросить/установить vibrato frequency<br>
@@ -74,54 +116,12 @@ _тип:_ symbol<br>
 _варианты:_ a, e, i, o, u<br>
 _по умолчанию:_ a<br>
 
-* **@attack** 
-Запросить/установить attack time<br>
-_тип:_ float<br>
-_единица:_ ms<br>
-_диапазон:_ 0..1000<br>
-_по умолчанию:_ 30<br>
-
-* **@release** 
-Запросить/установить release time<br>
-_тип:_ float<br>
-_единица:_ ms<br>
-_диапазон:_ 0..1000<br>
-_по умолчанию:_ 50<br>
-
-* **@active** 
-Запросить/установить on/off dsp processing<br>
-_тип:_ bool<br>
-_по умолчанию:_ 1<br>
-
-* **@portamento** 
-Запросить/установить portamento time<br>
-_тип:_ float<br>
-_единица:_ ms<br>
-_диапазон:_ 0..4000<br>
-_по умолчанию:_ 0<br>
-
 * **@wsmooth** 
 Запросить/установить vowel smoothing time<br>
 _тип:_ float<br>
 _единица:_ ms<br>
 _диапазон:_ 0..1000<br>
 _по умолчанию:_ 10<br>
-
-* **@fvowel** 
-Запросить/установить vowel index: 0=a, 1=e, 2=i, 3=o, 4=u. Float values can be interpoltaed.<br>
-_тип:_ float<br>
-_диапазон:_ 0..4<br>
-_по умолчанию:_ 0<br>
-
-* **@osc** (initonly)
-Запросить/установить OSC server name to listen<br>
-_тип:_ symbol<br>
-
-* **@id** (initonly)
-Запросить/установить OSC address id. If specified, bind all properties to
-/ID/synth_voice_fofc/PROP_NAME osc address, if empty bind to
-/synth_voice_fofc/PROP_NAME.<br>
-_тип:_ symbol<br>
 
 
 

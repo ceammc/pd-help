@@ -32,57 +32,15 @@ _единица:_ semitone<br>
 
 ## свойства:
 
-* **@window** 
-Запросить/установить the window size. &#39;standard&#39; is expected to produce better results than the
-other window options in most situations. &#39;short&#39; may result in crisper sound
-for audio that depends strongly on its timing qualities. &#39;long&#39; is likely to
-result in a smoother sound at the expense of clarity and timing<br>
+* **@detector** 
+Запросить/установить control the type of transient detector used. &#39;compound&#39; a general-purpose
+transient detector which is likely to be good for most situations. &#39;precussive&#39;
+detect percussive transients. &#39;piano&#39; use an onset detector with less of a bias
+toward percussive transients. This may give better results with certain
+material (e.g. relatively monophonic piano music).<br>
 _тип:_ symbol<br>
-_варианты:_ standard, short, long<br>
-_по умолчанию:_ standard<br>
-
-* **@quality** 
-Запросить/установить method used for pitch shifting. &#39;speed&#39; may sound less clear than &#39;quality&#39;,
-especially for large pitch shifts. &#39;quality&#39; method has a CPU cost
-approximately proportional to the required frequency shift. &#39;consistency&#39; gives
-greatest consistency when used to create small variations in pitch around the
-1.0-ratio level. Unlike the previous two options, this avoids discontinuities
-when moving across the 1.0 pitch scale in real-time. It also consumes more CPU
-than the others in the case where the pitch scale is exactly 1.0.<br>
-_тип:_ symbol<br>
-_варианты:_ speed, quality, consistency<br>
-_по умолчанию:_ speed<br>
-
-* **@transpose** 
-Запросить/установить transposition in semitones<br>
-_тип:_ float<br>
-_единица:_ semitone<br>
-_диапазон:_ -24..24<br>
-_по умолчанию:_ 0<br>
-
-* **@phase** 
-Запросить/установить control the adjustment of component frequency phases from one analysis window
-to the next during non-transient segments. &#39;False&#39; adjust the phase in each
-frequency bin independently from its neighbours. This usually results in a
-slightly softer, phasier sound. &#39;True&#39; adjust phases when stretching in such a
-way as to try to retain the continuity of phase relationships between adjacent
-frequency bins whose phases are behaving in similar ways<br>
-_тип:_ bool<br>
-_по умолчанию:_ 1<br>
-
-* **@smooth** 
-Запросить/установить control the use of window-presum FFT and time-domain smoothing. If true result
-in a softer sound with some audible artifacts around sharp transients, but it
-may be appropriate for longer stretches of some instruments and can mix well
-with @window short<br>
-_тип:_ bool<br>
-_по умолчанию:_ 0<br>
-
-* **@scale** 
-Запросить/установить transposition as ratio<br>
-_тип:_ float<br>
-_диапазон:_ 0.25..4<br>
-_по умолчанию:_ 1<br>
+_варианты:_ compound, percussive, soft<br>
+_по умолчанию:_ compound<br>
 
 * **@formant** 
 Запросить/установить control the handling of formant shape (spectral envelope) when pitch-shifting.
@@ -98,6 +56,42 @@ _по умолчанию:_ 0<br>
 _тип:_ float<br>
 _единица:_ samp<br>
 _по умолчанию:_ 1024<br>
+
+* **@phase** 
+Запросить/установить control the adjustment of component frequency phases from one analysis window
+to the next during non-transient segments. &#39;False&#39; adjust the phase in each
+frequency bin independently from its neighbours. This usually results in a
+slightly softer, phasier sound. &#39;True&#39; adjust phases when stretching in such a
+way as to try to retain the continuity of phase relationships between adjacent
+frequency bins whose phases are behaving in similar ways<br>
+_тип:_ bool<br>
+_по умолчанию:_ 1<br>
+
+* **@quality** 
+Запросить/установить method used for pitch shifting. &#39;speed&#39; may sound less clear than &#39;quality&#39;,
+especially for large pitch shifts. &#39;quality&#39; method has a CPU cost
+approximately proportional to the required frequency shift. &#39;consistency&#39; gives
+greatest consistency when used to create small variations in pitch around the
+1.0-ratio level. Unlike the previous two options, this avoids discontinuities
+when moving across the 1.0 pitch scale in real-time. It also consumes more CPU
+than the others in the case where the pitch scale is exactly 1.0.<br>
+_тип:_ symbol<br>
+_варианты:_ speed, quality, consistency<br>
+_по умолчанию:_ speed<br>
+
+* **@scale** 
+Запросить/установить transposition as ratio<br>
+_тип:_ float<br>
+_диапазон:_ 0.25..4<br>
+_по умолчанию:_ 1<br>
+
+* **@smooth** 
+Запросить/установить control the use of window-presum FFT and time-domain smoothing. If true result
+in a softer sound with some audible artifacts around sharp transients, but it
+may be appropriate for longer stretches of some instruments and can mix well
+with @window short<br>
+_тип:_ bool<br>
+_по умолчанию:_ 0<br>
 
 * **@trans** 
 Запросить/установить control the component frequency phase-reset mechanism that may be used at
@@ -118,15 +112,21 @@ _тип:_ symbol<br>
 _варианты:_ crisp, mixed, smooth<br>
 _по умолчанию:_ crisp<br>
 
-* **@detector** 
-Запросить/установить control the type of transient detector used. &#39;compound&#39; a general-purpose
-transient detector which is likely to be good for most situations. &#39;precussive&#39;
-detect percussive transients. &#39;piano&#39; use an onset detector with less of a bias
-toward percussive transients. This may give better results with certain
-material (e.g. relatively monophonic piano music).<br>
+* **@transpose** 
+Запросить/установить transposition in semitones<br>
+_тип:_ float<br>
+_единица:_ semitone<br>
+_диапазон:_ -24..24<br>
+_по умолчанию:_ 0<br>
+
+* **@window** 
+Запросить/установить the window size. &#39;standard&#39; is expected to produce better results than the
+other window options in most situations. &#39;short&#39; may result in crisper sound
+for audio that depends strongly on its timing qualities. &#39;long&#39; is likely to
+result in a smoother sound at the expense of clarity and timing<br>
 _тип:_ symbol<br>
-_варианты:_ compound, percussive, soft<br>
-_по умолчанию:_ compound<br>
+_варианты:_ standard, short, long<br>
+_по умолчанию:_ standard<br>
 
 
 

@@ -35,10 +35,9 @@ _тип:_ symbol<br>
 Запросить/установить target array name<br>
 _тип:_ symbol<br>
 
-* **@redraw** 
-Запросить/установить redraw after array change<br>
-_тип:_ bool<br>
-_по умолчанию:_ 1<br>
+* **@fit** 
+Запросить/установить alias to @mode fit property<br>
+_тип:_ alias<br>
 
 * **@mode** 
 Запросить/установить rendering mode: *fit* to array size, *resize* array to envelope length or *raw*
@@ -47,16 +46,17 @@ _тип:_ symbol<br>
 _варианты:_ fit, resize, raw<br>
 _по умолчанию:_ fit<br>
 
-* **@fit** 
-Запросить/установить alias to @mode fit property<br>
+* **@raw** 
+Запросить/установить alias to @mode raw property<br>
 _тип:_ alias<br>
+
+* **@redraw** 
+Запросить/установить redraw after array change<br>
+_тип:_ bool<br>
+_по умолчанию:_ 1<br>
 
 * **@resize** 
 Запросить/установить alias to @mode resize property<br>
-_тип:_ alias<br>
-
-* **@raw** 
-Запросить/установить alias to @mode raw property<br>
 _тип:_ alias<br>
 
 

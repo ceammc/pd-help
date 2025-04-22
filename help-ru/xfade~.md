@@ -37,6 +37,20 @@ _тип:_ float<br>
 
 ## свойства:
 
+* **@lin** 
+Запросить/установить alias to @type lin<br>
+_тип:_ alias<br>
+
+* **@n** (initonly)
+Запросить/установить number of xfade inputs<br>
+_тип:_ int<br>
+_диапазон:_ 2..16<br>
+_по умолчанию:_ 2<br>
+
+* **@pow** 
+Запросить/установить alias to @type pow<br>
+_тип:_ alias<br>
+
 * **@smooth** 
 Запросить/установить signal change smooth time<br>
 _тип:_ float<br>
@@ -50,24 +64,10 @@ _тип:_ symbol<br>
 _варианты:_ lin, pow<br>
 _по умолчанию:_ pow<br>
 
-* **@lin** 
-Запросить/установить alias to @type lin<br>
-_тип:_ alias<br>
-
-* **@pow** 
-Запросить/установить alias to @type pow<br>
-_тип:_ alias<br>
-
 * **@x** 
 Запросить/установить crossfade property. Valid value in [0..N-1] range.<br>
 _тип:_ float<br>
 _по умолчанию:_ 0<br>
-
-* **@n** (initonly)
-Запросить/установить number of xfade inputs<br>
-_тип:_ int<br>
-_диапазон:_ 2..16<br>
-_по умолчанию:_ 2<br>
 
 
 

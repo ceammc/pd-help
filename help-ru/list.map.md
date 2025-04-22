@@ -31,16 +31,16 @@ _тип:_ list<br>
 
 ## свойства:
 
+* **@def** 
+Запросить/установить default value to replace missing keys. If empty (by default), missing keys are
+ignored.<br>
+_тип:_ list<br>
+
 * **@dict** 
 Запросить/установить mapping dictionary, the syntax is [KEY: VALUES...], for example: [1: &#34;one&#34; 2:
 &#34;two&#34; k: &#34;map values&#34;]<br>
 _тип:_ list<br>
 _по умолчанию:_ []<br>
-
-* **@def** 
-Запросить/установить default value to replace missing keys. If empty (by default), missing keys are
-ignored.<br>
-_тип:_ list<br>
 
 
 

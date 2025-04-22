@@ -34,25 +34,6 @@ _единица:_ ms<br>
 
 ## свойства:
 
-* **@t** 
-Запросить/установить time between arpeggio<br>
-_тип:_ float<br>
-_единица:_ ms<br>
-_диапазон:_ 1..1000<br>
-_по умолчанию:_ 100<br>
-
-* **@mode** 
-Запросить/установить argpeggiator mode<br>
-_тип:_ symbol<br>
-_варианты:_ up, down, tri, up1, down1, tri1, random, random1<br>
-_по умолчанию:_ up<br>
-
-* **@seed** 
-Запросить/установить random seed value (to get reproducible random series)<br>
-_тип:_ int<br>
-_минимальное значение:_ 0<br>
-_по умолчанию:_ 0<br>
-
 * **@external** 
 Запросить/установить use external clock<br>
 _тип:_ bool<br>
@@ -64,6 +45,12 @@ _тип:_ int<br>
 _минимальное значение:_ 1<br>
 _по умолчанию:_ 1<br>
 
+* **@mode** 
+Запросить/установить argpeggiator mode<br>
+_тип:_ symbol<br>
+_варианты:_ up, down, tri, up1, down1, tri1, random, random1<br>
+_по умолчанию:_ up<br>
+
 * **@on** 
 Запросить/установить arpeggiator state: on/off<br>
 _тип:_ bool<br>
@@ -73,6 +60,19 @@ _по умолчанию:_ 1<br>
 Запросить/установить bypass arpeggiator<br>
 _тип:_ bool<br>
 _по умолчанию:_ 0<br>
+
+* **@seed** 
+Запросить/установить random seed value (to get reproducible random series)<br>
+_тип:_ int<br>
+_минимальное значение:_ 0<br>
+_по умолчанию:_ 0<br>
+
+* **@t** 
+Запросить/установить time between arpeggio<br>
+_тип:_ float<br>
+_единица:_ ms<br>
+_диапазон:_ 1..1000<br>
+_по умолчанию:_ 100<br>
 
 
 

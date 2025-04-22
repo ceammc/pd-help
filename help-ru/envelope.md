@@ -446,12 +446,6 @@ creates step-segmented envelope with arbitrary number of segments<br>
 
 ## свойства:
 
-* **@npoints** (readonly)
-Запросить number of points<br>
-_тип:_ int<br>
-_минимальное значение:_ 0<br>
-_по умолчанию:_ 0<br>
-
 * **@length** (readonly)
 Запросить total envelope time length<br>
 _тип:_ float<br>
@@ -459,16 +453,22 @@ _единица:_ ms<br>
 _минимальное значение:_ 0<br>
 _по умолчанию:_ 0<br>
 
+* **@npoints** (readonly)
+Запросить number of points<br>
+_тип:_ int<br>
+_минимальное значение:_ 0<br>
+_по умолчанию:_ 0<br>
+
 * **@points** (readonly)
 Запросить list of point times (ms)<br>
 _тип:_ list<br>
 
-* **@values** (readonly)
-Запросить list of point values<br>
-_тип:_ list<br>
-
 * **@stops** (readonly)
 Запросить list of stop points<br>
+_тип:_ list<br>
+
+* **@values** (readonly)
+Запросить list of point values<br>
 _тип:_ list<br>
 
 

@@ -77,7 +77,7 @@ creates ASR envelope with one stop point<br>
 * **at**
 output envelope value at specified position to second outlet<br>
   __параметры:__
-  - **VAL** position (in milliseconds if unit arg is ommited )<br>
+  - **VAL** position (in milliseconds if unit arg is omitted)<br>
     тип: float <br>
     обязательно: True <br>
 
@@ -325,52 +325,10 @@ stores specified preset<br>
 
 ## свойства:
 
-* **@length** 
-Запросить/установить envelope time length<br>
-_тип:_ float<br>
-_единица:_ ms<br>
-_минимальное значение:_ 10<br>
-_по умолчанию:_ 400<br>
-
-* **@presetname** 
-Запросить/установить preset name for using with [ui.preset]<br>
-_тип:_ symbol<br>
-_по умолчанию:_ (null)<br>
-
-* **@send** 
-Запросить/установить send destination<br>
-_тип:_ symbol<br>
-_по умолчанию:_ (null)<br>
-
-* **@receive** 
-Запросить/установить receive source<br>
-_тип:_ symbol<br>
-_по умолчанию:_ (null)<br>
-
-* **@size** 
-Запросить/установить element size (width, height pair)<br>
-_тип:_ list<br>
-_по умолчанию:_ 200 150<br>
-
-* **@pinned** 
-Запросить/установить pin mode. if 1 - put element to the lowest level<br>
-_тип:_ bool<br>
-_по умолчанию:_ 0<br>
-
-* **@norm** 
-Запросить/установить normalize input values<br>
-_тип:_ bool<br>
-_по умолчанию:_ 1<br>
-
 * **@active_color** 
 Запросить/установить element active color (list of red, green, blue values in 0-1 range)<br>
 _тип:_ list<br>
 _по умолчанию:_ 0 0.75 1 1<br>
-
-* **@line_color** 
-Запросить/установить line color (list of red, green, blue values in 0-1 range)<br>
-_тип:_ list<br>
-_по умолчанию:_ 0.1 0.1 0.1 1<br>
 
 * **@background_color** 
 Запросить/установить element background color (list of red, green, blue values in 0-1 range)<br>
@@ -382,23 +340,17 @@ _по умолчанию:_ 0.93 0.93 0.93 1<br>
 _тип:_ list<br>
 _по умолчанию:_ 0.6 0.6 0.6 1<br>
 
-* **@fontsize** 
-Запросить/установить fontsize<br>
-_тип:_ int<br>
-_диапазон:_ 4..100<br>
-_по умолчанию:_ 11<br>
-
 * **@fontname** 
 Запросить/установить fontname<br>
 _тип:_ symbol<br>
 _варианты:_ Courier, DejaVu, Helvetica, Monaco, Times<br>
 _по умолчанию:_ Helvetica<br>
 
-* **@fontweight** 
-Запросить/установить font weight<br>
-_тип:_ symbol<br>
-_варианты:_ normal, bold<br>
-_по умолчанию:_ normal<br>
+* **@fontsize** 
+Запросить/установить fontsize<br>
+_тип:_ int<br>
+_диапазон:_ 4..100<br>
+_по умолчанию:_ 11<br>
 
 * **@fontslant** 
 Запросить/установить font slant<br>
@@ -406,19 +358,67 @@ _тип:_ symbol<br>
 _варианты:_ roman, italic<br>
 _по умолчанию:_ roman<br>
 
+* **@fontweight** 
+Запросить/установить font weight<br>
+_тип:_ symbol<br>
+_варианты:_ normal, bold<br>
+_по умолчанию:_ normal<br>
+
+* **@length** 
+Запросить/установить envelope time length<br>
+_тип:_ float<br>
+_единица:_ ms<br>
+_минимальное значение:_ 10<br>
+_по умолчанию:_ 400<br>
+
+* **@line_color** 
+Запросить/установить line color (list of red, green, blue values in 0-1 range)<br>
+_тип:_ list<br>
+_по умолчанию:_ 0.1 0.1 0.1 1<br>
+
 * **@mouse_events** 
 Запросить/установить mouse events output mode. If on outputs @mouse_down, @mouse_up and @mouse_drag
 events<br>
 _тип:_ bool<br>
 _по умолчанию:_ 0<br>
 
+* **@norm** 
+Запросить/установить normalize input values<br>
+_тип:_ bool<br>
+_по умолчанию:_ 1<br>
+
 * **@output_mode** 
 Запросить/установить output envelope mode. If set to &#34;mouse_up&#34; - output envelope on mouse up if
 Ctrl/Cmd key not pressed. If set to &#34;drag&#34; - output envelope on every change.
-Note: in any mode you can output evenlope with Ctrl/Cmd + mouse down.<br>
+Note: in any mode you can output envelope with Ctrl/Cmd + mouse down.<br>
 _тип:_ symbol<br>
 _варианты:_ mouse_up, drag<br>
 _по умолчанию:_ mouse_up<br>
+
+* **@pinned** 
+Запросить/установить pin mode. If 1 - put element to the lowest level<br>
+_тип:_ bool<br>
+_по умолчанию:_ 0<br>
+
+* **@presetname** 
+Запросить/установить preset name for using with [ui.preset]<br>
+_тип:_ symbol<br>
+_по умолчанию:_ (null)<br>
+
+* **@receive** 
+Запросить/установить receive source<br>
+_тип:_ symbol<br>
+_по умолчанию:_ (null)<br>
+
+* **@send** 
+Запросить/установить send destination<br>
+_тип:_ symbol<br>
+_по умолчанию:_ (null)<br>
+
+* **@size** 
+Запросить/установить element size (width, height pair)<br>
+_тип:_ list<br>
+_по умолчанию:_ 200 150<br>
 
 
 

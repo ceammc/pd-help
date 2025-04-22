@@ -51,8 +51,42 @@ reset counter to start value and repeat counter to 0<br>
 
 ## свойства:
 
+* **@fold** 
+Запросить/установить alias to @mode fold<br>
+_тип:_ alias<br>
+
 * **@from** 
 Запросить/установить start value. Setting this property resets @i to 0<br>
+_тип:_ int<br>
+_по умолчанию:_ 0<br>
+
+* **@i** 
+Запросить/установить current iteration<br>
+_тип:_ int<br>
+_по умолчанию:_ 0<br>
+
+* **@inf** 
+Запросить/установить alias to @r -1, repeats infinitely<br>
+_тип:_ alias<br>
+
+* **@mode** 
+Запросить/установить repeat counter mode<br>
+_тип:_ symbol<br>
+_варианты:_ wrap, fold<br>
+_по умолчанию:_ wrap<br>
+
+* **@once** 
+Запросить/установить alias to @r 1, play once<br>
+_тип:_ alias<br>
+
+* **@r** 
+Запросить/установить number of repeats. If -1: repeat infinitely.<br>
+_тип:_ int<br>
+_минимальное значение:_ -1<br>
+_по умолчанию:_ -1<br>
+
+* **@ri** (readonly)
+Запросить current repeat iteration<br>
 _тип:_ int<br>
 _по умолчанию:_ 0<br>
 
@@ -61,48 +95,14 @@ _по умолчанию:_ 0<br>
 _тип:_ int<br>
 _по умолчанию:_ 0<br>
 
-* **@r** 
-Запросить/установить number of repeats. If -1: repeat infinitely.<br>
-_тип:_ int<br>
-_минимальное значение:_ -1<br>
-_по умолчанию:_ -1<br>
-
-* **@inf** 
-Запросить/установить alias to @r -1, repeats infinitely<br>
-_тип:_ alias<br>
-
-* **@once** 
-Запросить/установить alias to @r 1, play once<br>
-_тип:_ alias<br>
-
-* **@i** 
-Запросить/установить current iteration<br>
-_тип:_ int<br>
-_по умолчанию:_ 0<br>
-
-* **@ri** (readonly)
-Запросить current repeat iteration<br>
-_тип:_ int<br>
-_по умолчанию:_ 0<br>
-
-* **@mode** 
-Запросить/установить repeat counter mode<br>
-_тип:_ symbol<br>
-_варианты:_ wrap, fold<br>
-_по умолчанию:_ wrap<br>
-
-* **@wrap** 
-Запросить/установить alias to @mode wrap<br>
-_тип:_ alias<br>
-
-* **@fold** 
-Запросить/установить alias to @mode fold<br>
-_тип:_ alias<br>
-
 * **@value** (readonly)
 Запросить current value<br>
 _тип:_ int<br>
 _по умолчанию:_ 0<br>
+
+* **@wrap** 
+Запросить/установить alias to @mode wrap<br>
+_тип:_ alias<br>
 
 
 

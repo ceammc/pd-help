@@ -40,17 +40,17 @@ reset all scheduled delays<br>
 
 ## свойства:
 
-* **@t** 
-Запросить/установить delay time list<br>
-_тип:_ list<br>
-_единица:_ ms<br>
-_минимальное значение:_ 0<br>
-
 * **@block** 
 Запросить/установить blocking mode. If true, discards incoming messages until scheduled message will
 output, after that is ready to accept the new one.<br>
 _тип:_ bool<br>
 _по умолчанию:_ 0<br>
+
+* **@t** 
+Запросить/установить delay time list<br>
+_тип:_ list<br>
+_единица:_ ms<br>
+_минимальное значение:_ 0<br>
 
 
 

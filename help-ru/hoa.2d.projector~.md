@@ -37,17 +37,17 @@ _тип:_ int<br>
 
 ## свойства:
 
-* **@order** (initonly)
-Запросить/установить the order of decomposition<br>
-_тип:_ int<br>
-_диапазон:_ 1..63<br>
-_по умолчанию:_ 1<br>
-
 * **@n** (initonly)
 Запросить/установить number of channels (planewaves)<br>
 _тип:_ int<br>
 _диапазон:_ 0..63<br>
 _по умолчанию:_ 0<br>
+
+* **@order** (initonly)
+Запросить/установить the order of decomposition<br>
+_тип:_ int<br>
+_диапазон:_ 1..63<br>
+_по умолчанию:_ 1<br>
 
 
 

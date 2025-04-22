@@ -37,8 +37,8 @@ _тип:_ list<br>
 Запросить/установить matching atoms<br>
 _тип:_ list<br>
 
-* **@trim** (initonly)
-Запросить/установить cut first element from list, transform float or symbol to bang<br>
+* **@as_any** (initonly)
+Запросить/установить trim list or symbol selector on output<br>
 _тип:_ flag<br>
 _по умолчанию:_ 0<br>
 
@@ -47,8 +47,8 @@ _по умолчанию:_ 0<br>
 _тип:_ bool<br>
 _по умолчанию:_ 1<br>
 
-* **@as_any** (initonly)
-Запросить/установить trim list or symbol selector on output<br>
+* **@trim** (initonly)
+Запросить/установить cut first element from list, transform float or symbol to bang<br>
 _тип:_ flag<br>
 _по умолчанию:_ 0<br>
 

@@ -42,23 +42,25 @@ reset synth<br>
 
 ## свойства:
 
-* **@pitch** 
-Запросить/установить midi pitch<br>
-_тип:_ float<br>
-_диапазон:_ 21..108<br>
-_по умолчанию:_ 48<br>
+* **@osc** (initonly)
+Запросить/установить OSC server name to listen<br>
+_тип:_ symbol<br>
 
-* **@freq** 
-Запросить/установить frequency<br>
-_тип:_ float<br>
-_единица:_ Hz<br>
-_по умолчанию:_ 130.8128<br>
+* **@id** (initonly)
+Запросить/установить OSC address id. If specified, bind all properties to /ID/synth_piano/PROP_NAME
+osc address, if empty bind to /synth_piano/PROP_NAME.<br>
+_тип:_ symbol<br>
 
-* **@stiffness** 
-Запросить/установить stiffness factor<br>
+* **@active** 
+Запросить/установить on/off dsp processing<br>
+_тип:_ bool<br>
+_по умолчанию:_ 1<br>
+
+* **@brightness** 
+Запросить/установить brightness<br>
 _тип:_ float<br>
 _диапазон:_ 0..1<br>
-_по умолчанию:_ 0.28<br>
+_по умолчанию:_ 0<br>
 
 * **@detuning** 
 Запросить/установить detuning factor<br>
@@ -66,8 +68,14 @@ _тип:_ float<br>
 _диапазон:_ 0..1<br>
 _по умолчанию:_ 0.1<br>
 
-* **@brightness** 
-Запросить/установить brightness<br>
+* **@freq** 
+Запросить/установить frequency<br>
+_тип:_ float<br>
+_единица:_ Hz<br>
+_по умолчанию:_ 130.8128<br>
+
+* **@gate** 
+Запросить/установить play trigger - 1: on, 0: off<br>
 _тип:_ float<br>
 _диапазон:_ 0..1<br>
 _по умолчанию:_ 0<br>
@@ -78,11 +86,17 @@ _тип:_ float<br>
 _диапазон:_ 0..1<br>
 _по умолчанию:_ 0.1<br>
 
-* **@room_size** 
-Запросить/установить reverb room size<br>
+* **@pan** 
+Запросить/установить pan angle<br>
 _тип:_ float<br>
-_диапазон:_ 0.005..1<br>
-_по умолчанию:_ 0.36<br>
+_диапазон:_ 0..1<br>
+_по умолчанию:_ 0.6<br>
+
+* **@pitch** 
+Запросить/установить midi pitch<br>
+_тип:_ float<br>
+_диапазон:_ 21..108<br>
+_по умолчанию:_ 48<br>
 
 * **@reverb_gain** 
 Запросить/установить reverb gain<br>
@@ -90,37 +104,23 @@ _тип:_ float<br>
 _диапазон:_ 0..1<br>
 _по умолчанию:_ 0.137<br>
 
+* **@room_size** 
+Запросить/установить reverb room size<br>
+_тип:_ float<br>
+_диапазон:_ 0.005..1<br>
+_по умолчанию:_ 0.36<br>
+
+* **@stiffness** 
+Запросить/установить stiffness factor<br>
+_тип:_ float<br>
+_диапазон:_ 0..1<br>
+_по умолчанию:_ 0.28<br>
+
 * **@width** 
 Запросить/установить spatialization width<br>
 _тип:_ float<br>
 _диапазон:_ 0..1<br>
 _по умолчанию:_ 0.5<br>
-
-* **@pan** 
-Запросить/установить pan angle<br>
-_тип:_ float<br>
-_диапазон:_ 0..1<br>
-_по умолчанию:_ 0.6<br>
-
-* **@gate** 
-Запросить/установить play trigger - 1: on, 0: off<br>
-_тип:_ float<br>
-_диапазон:_ 0..1<br>
-_по умолчанию:_ 0<br>
-
-* **@active** 
-Запросить/установить on/off dsp processing<br>
-_тип:_ bool<br>
-_по умолчанию:_ 1<br>
-
-* **@osc** (initonly)
-Запросить/установить OSC server name to listen<br>
-_тип:_ symbol<br>
-
-* **@id** (initonly)
-Запросить/установить OSC address id. If specified, bind all properties to /ID/synth_piano/PROP_NAME
-osc address, if empty bind to /synth_piano/PROP_NAME.<br>
-_тип:_ symbol<br>
 
 
 

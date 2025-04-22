@@ -43,17 +43,10 @@ reset reverb<br>
 
 ## свойства:
 
-* **@size** 
-Запросить/установить room size<br>
-_тип:_ float<br>
-_диапазон:_ 0..1<br>
-_по умолчанию:_ 0.5<br>
-
-* **@filter** 
-Запросить/установить filter coefficient<br>
-_тип:_ float<br>
-_диапазон:_ 0..1<br>
-_по умолчанию:_ 1<br>
+* **@bypass** 
+Запросить/установить bypass flag. If true: bypass &#39;effected&#39; signal.<br>
+_тип:_ bool<br>
+_по умолчанию:_ 0<br>
 
 * **@damp** 
 Запросить/установить damping of the lowpass comb filter<br>
@@ -68,10 +61,17 @@ _тип:_ float<br>
 _диапазон:_ 0..1<br>
 _по умолчанию:_ 1<br>
 
-* **@bypass** 
-Запросить/установить bypass flag. If true: bypass &#39;effected&#39; signal.<br>
-_тип:_ bool<br>
-_по умолчанию:_ 0<br>
+* **@filter** 
+Запросить/установить filter coefficient<br>
+_тип:_ float<br>
+_диапазон:_ 0..1<br>
+_по умолчанию:_ 1<br>
+
+* **@size** 
+Запросить/установить room size<br>
+_тип:_ float<br>
+_диапазон:_ 0..1<br>
+_по умолчанию:_ 0.5<br>
 
 
 

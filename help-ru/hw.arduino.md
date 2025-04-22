@@ -47,42 +47,6 @@ disconnect from device<br>
 
 ## свойства:
 
-* **@port** (initonly)
-Запросить/установить name of arduino serial port, eg.: COM3 on Windows, /dev/ttyACM0 on Linux and
-/dev/cu.usbmodem411 on MacOSX. If specified on creation tries to connect to
-this device only<br>
-_тип:_ symbol<br>
-
-* **@serial** 
-Запросить/установить USB device serial number. If specified at creation, tries to connect to devices
-only with such serial number<br>
-_тип:_ symbol<br>
-
-* **@rate** 
-Запросить/установить serial baud rate. Standard value supported by most serial ports: 110, 300, 600,
-1200, 2400, 4800, 9600, 14400, 19200, 28800, 38400, 56000, 57600, 115200<br>
-_тип:_ int<br>
-_варианты:_ 57600, 110, 300, 600, 1200, 2400, 4800, 9600, 14400, 19200, 38400, 56000, 115200, 128000, 256000<br>
-_по умолчанию:_ 57600<br>
-
-* **@vendor_id** 
-Запросить/установить USB device vendor id. If specified at creation, tries to connect to devices
-only with such vendor. Note: vendor id is specified in decimal mode, not in hex<br>
-_тип:_ int<br>
-_по умолчанию:_ 0<br>
-
-* **@product_id** 
-Запросить/установить USB device product id. If vendor and product ids are specified at creation,
-tries to connect to devices only with such properties. Note: product id is
-specified in decimal mode, not in hex<br>
-_тип:_ int<br>
-_по умолчанию:_ 0<br>
-
-* **@reconnect** (initonly)
-Запросить/установить enables hot-pluggin<br>
-_тип:_ flag<br>
-_по умолчанию:_ 0<br>
-
 * **@connected** (readonly)
 Запросить state of connection to device<br>
 _тип:_ bool<br>
@@ -95,6 +59,42 @@ _тип:_ list<br>
 * **@on_connect** 
 Запросить/установить function called every time on connect<br>
 _тип:_ symbol<br>
+
+* **@port** (initonly)
+Запросить/установить name of arduino serial port, eg.: COM3 on Windows, /dev/ttyACM0 on Linux and
+/dev/cu.usbmodem411 on MacOSX. If specified on creation tries to connect to
+this device only<br>
+_тип:_ symbol<br>
+
+* **@product_id** 
+Запросить/установить USB device product id. If vendor and product ids are specified at creation,
+tries to connect to devices only with such properties. Note: product id is
+specified in decimal mode, not in hex<br>
+_тип:_ int<br>
+_по умолчанию:_ 0<br>
+
+* **@rate** 
+Запросить/установить serial baud rate. Standard value supported by most serial ports: 110, 300, 600,
+1200, 2400, 4800, 9600, 14400, 19200, 28800, 38400, 56000, 57600, 115200<br>
+_тип:_ int<br>
+_варианты:_ 57600, 110, 300, 600, 1200, 2400, 4800, 9600, 14400, 19200, 38400, 56000, 115200, 128000, 256000<br>
+_по умолчанию:_ 57600<br>
+
+* **@reconnect** (initonly)
+Запросить/установить enables hot-pluggin<br>
+_тип:_ flag<br>
+_по умолчанию:_ 0<br>
+
+* **@serial** 
+Запросить/установить USB device serial number. If specified at creation, tries to connect to devices
+only with such serial number<br>
+_тип:_ symbol<br>
+
+* **@vendor_id** 
+Запросить/установить USB device vendor id. If specified at creation, tries to connect to devices
+only with such vendor. Note: vendor id is specified in decimal mode, not in hex<br>
+_тип:_ int<br>
+_по умолчанию:_ 0<br>
 
 
 

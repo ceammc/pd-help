@@ -25,11 +25,20 @@ layout: default_ru
 
 ## свойства:
 
-* **@freq** 
-Запросить/установить base frequency<br>
-_тип:_ float<br>
-_диапазон:_ 40..500<br>
-_по умолчанию:_ 100<br>
+* **@osc** (initonly)
+Запросить/установить OSC server name to listen<br>
+_тип:_ symbol<br>
+
+* **@id** (initonly)
+Запросить/установить OSC address id. If specified, bind all properties to
+/ID/synth_risset_arp/PROP_NAME osc address, if empty bind to
+/synth_risset_arp/PROP_NAME.<br>
+_тип:_ symbol<br>
+
+* **@active** 
+Запросить/установить on/off dsp processing<br>
+_тип:_ bool<br>
+_по умолчанию:_ 1<br>
 
 * **@detune** 
 Запросить/установить detune percent<br>
@@ -37,11 +46,11 @@ _тип:_ float<br>
 _диапазон:_ 0..1000<br>
 _по умолчанию:_ 5<br>
 
-* **@spread** 
-Запросить/установить stereo spread<br>
+* **@freq** 
+Запросить/установить base frequency<br>
 _тип:_ float<br>
-_диапазон:_ 0..1<br>
-_по умолчанию:_ 1<br>
+_диапазон:_ 40..500<br>
+_по умолчанию:_ 100<br>
 
 * **@harmonic1** 
 Запросить/установить 1st harmonic amplitude<br>
@@ -91,20 +100,11 @@ _тип:_ float<br>
 _диапазон:_ 0..1<br>
 _по умолчанию:_ 1<br>
 
-* **@active** 
-Запросить/установить on/off dsp processing<br>
-_тип:_ bool<br>
+* **@spread** 
+Запросить/установить stereo spread<br>
+_тип:_ float<br>
+_диапазон:_ 0..1<br>
 _по умолчанию:_ 1<br>
-
-* **@osc** (initonly)
-Запросить/установить OSC server name to listen<br>
-_тип:_ symbol<br>
-
-* **@id** (initonly)
-Запросить/установить OSC address id. If specified, bind all properties to
-/ID/synth_risset_arp/PROP_NAME osc address, if empty bind to
-/synth_risset_arp/PROP_NAME.<br>
-_тип:_ symbol<br>
 
 
 

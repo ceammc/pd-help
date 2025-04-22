@@ -113,68 +113,9 @@ stores specified preset<br>
 
 ## свойства:
 
-* **@clockwise** 
-Запросить/установить clockwise positive direction<br>
-_тип:_ bool<br>
-_по умолчанию:_ 1<br>
-
-* **@direction** 
-Запросить/установить zero-angle direction<br>
-_тип:_ symbol<br>
-_варианты:_ N, W, S, E<br>
-_по умолчанию:_ N<br>
-
-* **@positive** 
-Запросить/установить use positive output angle range. For example: [0..360) when using degrees,
-otherwise using [-180..180) range.<br>
-_тип:_ bool<br>
-_по умолчанию:_ 0<br>
-
-* **@radians** 
-Запросить/установить using radians instead of degrees<br>
-_тип:_ bool<br>
-_по умолчанию:_ 0<br>
-
 * **@angle** 
 Запросить/установить angle<br>
 _тип:_ float<br>
-_по умолчанию:_ 0<br>
-
-* **@radius** 
-Запросить/установить radius<br>
-_тип:_ float<br>
-_диапазон:_ 0..1<br>
-_по умолчанию:_ 0<br>
-
-* **@presetname** 
-Запросить/установить preset name for using with [ui.preset]<br>
-_тип:_ symbol<br>
-_по умолчанию:_ (null)<br>
-
-* **@send** 
-Запросить/установить send destination<br>
-_тип:_ symbol<br>
-_по умолчанию:_ (null)<br>
-
-* **@receive** 
-Запросить/установить receive source<br>
-_тип:_ symbol<br>
-_по умолчанию:_ (null)<br>
-
-* **@size** 
-Запросить/установить element size (width, height pair)<br>
-_тип:_ list<br>
-_по умолчанию:_ 100 100<br>
-
-* **@pinned** 
-Запросить/установить pin mode. if 1 - put element to the lowest level<br>
-_тип:_ bool<br>
-_по умолчанию:_ 0<br>
-
-* **@mouse_events** 
-Запросить/установить mouse events output mode. If on outputs @mouse_down, @mouse_up and @mouse_drag
-events<br>
-_тип:_ bool<br>
 _по умолчанию:_ 0<br>
 
 * **@background_color** 
@@ -187,11 +128,16 @@ _по умолчанию:_ 0.93 0.93 0.93 1<br>
 _тип:_ list<br>
 _по умолчанию:_ 0.6 0.6 0.6 1<br>
 
-* **@fontsize** 
-Запросить/установить fontsize<br>
-_тип:_ int<br>
-_диапазон:_ 4..100<br>
-_по умолчанию:_ 11<br>
+* **@clockwise** 
+Запросить/установить clockwise positive direction<br>
+_тип:_ bool<br>
+_по умолчанию:_ 1<br>
+
+* **@direction** 
+Запросить/установить zero-angle direction<br>
+_тип:_ symbol<br>
+_варианты:_ N, W, S, E<br>
+_по умолчанию:_ N<br>
 
 * **@fontname** 
 Запросить/установить fontname<br>
@@ -199,11 +145,11 @@ _тип:_ symbol<br>
 _варианты:_ Helvetica, Monaco, Courier, Times, DejaVu<br>
 _по умолчанию:_ Helvetica<br>
 
-* **@fontweight** 
-Запросить/установить font weight<br>
-_тип:_ symbol<br>
-_варианты:_ normal, bold<br>
-_по умолчанию:_ normal<br>
+* **@fontsize** 
+Запросить/установить fontsize<br>
+_тип:_ int<br>
+_диапазон:_ 4..100<br>
+_по умолчанию:_ 11<br>
 
 * **@fontslant** 
 Запросить/установить font slant<br>
@@ -211,10 +157,22 @@ _тип:_ symbol<br>
 _варианты:_ roman, italic<br>
 _по умолчанию:_ roman<br>
 
+* **@fontweight** 
+Запросить/установить font weight<br>
+_тип:_ symbol<br>
+_варианты:_ normal, bold<br>
+_по умолчанию:_ normal<br>
+
 * **@label** 
 Запросить/установить label text<br>
 _тип:_ symbol<br>
 _по умолчанию:_ (null)<br>
+
+* **@label_align** 
+Запросить/установить label horizontal align<br>
+_тип:_ symbol<br>
+_варианты:_ left, center, right<br>
+_по умолчанию:_ left<br>
 
 * **@label_color** 
 Запросить/установить label color in RGB format within 0-1 range, for example: 0.2 0.4 0.1<br>
@@ -226,17 +184,10 @@ _по умолчанию:_ 0 0 0 1<br>
 _тип:_ bool<br>
 _по умолчанию:_ 0<br>
 
-* **@label_align** 
-Запросить/установить label horizontal align<br>
-_тип:_ symbol<br>
-_варианты:_ left, center, right<br>
-_по умолчанию:_ left<br>
-
-* **@label_valign** 
-Запросить/установить label vertical align<br>
-_тип:_ symbol<br>
-_варианты:_ top, center, bottom<br>
-_по умолчанию:_ top<br>
+* **@label_margins** 
+Запросить/установить label offset in pixels<br>
+_тип:_ list<br>
+_по умолчанию:_ 0 0<br>
 
 * **@label_side** 
 Запросить/установить label snap side<br>
@@ -244,10 +195,59 @@ _тип:_ symbol<br>
 _варианты:_ left, top, right, bottom<br>
 _по умолчанию:_ top<br>
 
-* **@label_margins** 
-Запросить/установить label offset in pixels<br>
+* **@label_valign** 
+Запросить/установить label vertical align<br>
+_тип:_ symbol<br>
+_варианты:_ top, center, bottom<br>
+_по умолчанию:_ top<br>
+
+* **@mouse_events** 
+Запросить/установить mouse events output mode. If on outputs @mouse_down, @mouse_up and @mouse_drag
+events<br>
+_тип:_ bool<br>
+_по умолчанию:_ 0<br>
+
+* **@pinned** 
+Запросить/установить pin mode. if 1 - put element to the lowest level<br>
+_тип:_ bool<br>
+_по умолчанию:_ 0<br>
+
+* **@positive** 
+Запросить/установить use positive output angle range. For example: [0..360) when using degrees,
+otherwise using [-180..180) range.<br>
+_тип:_ bool<br>
+_по умолчанию:_ 0<br>
+
+* **@presetname** 
+Запросить/установить preset name for using with [ui.preset]<br>
+_тип:_ symbol<br>
+_по умолчанию:_ (null)<br>
+
+* **@radians** 
+Запросить/установить using radians instead of degrees<br>
+_тип:_ bool<br>
+_по умолчанию:_ 0<br>
+
+* **@radius** 
+Запросить/установить radius<br>
+_тип:_ float<br>
+_диапазон:_ 0..1<br>
+_по умолчанию:_ 0<br>
+
+* **@receive** 
+Запросить/установить receive source<br>
+_тип:_ symbol<br>
+_по умолчанию:_ (null)<br>
+
+* **@send** 
+Запросить/установить send destination<br>
+_тип:_ symbol<br>
+_по умолчанию:_ (null)<br>
+
+* **@size** 
+Запросить/установить element size (width, height pair)<br>
 _тип:_ list<br>
-_по умолчанию:_ 0 0<br>
+_по умолчанию:_ 100 100<br>
 
 
 

@@ -37,17 +37,6 @@ reset object state<br>
 
 ## свойства:
 
-* **@res** 
-Запросить/установить normalized amount of corner-resonance<br>
-_тип:_ float<br>
-_диапазон:_ 0..1<br>
-_по умолчанию:_ 0.4<br>
-
-* **@active** 
-Запросить/установить on/off dsp processing<br>
-_тип:_ bool<br>
-_по умолчанию:_ 1<br>
-
 * **@osc** (initonly)
 Запросить/установить OSC server name to listen<br>
 _тип:_ symbol<br>
@@ -56,6 +45,17 @@ _тип:_ symbol<br>
 Запросить/установить OSC address id. If specified, bind all properties to /ID/flt_moog_vcf/PROP_NAME
 osc address, if empty bind to /flt_moog_vcf/PROP_NAME.<br>
 _тип:_ symbol<br>
+
+* **@active** 
+Запросить/установить on/off dsp processing<br>
+_тип:_ bool<br>
+_по умолчанию:_ 1<br>
+
+* **@res** 
+Запросить/установить normalized amount of corner-resonance<br>
+_тип:_ float<br>
+_диапазон:_ 0..1<br>
+_по умолчанию:_ 0.4<br>
 
 
 

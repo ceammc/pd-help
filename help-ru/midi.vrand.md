@@ -35,36 +35,8 @@ _тип:_ float<br>
 
 ## свойства:
 
-* **@min** 
-Запросить/установить min random range<br>
-_тип:_ float<br>
-_по умолчанию:_ 0<br>
-
-* **@max** 
-Запросить/установить max random range<br>
-_тип:_ float<br>
-_по умолчанию:_ 127<br>
-
-* **@seed** 
-Запросить/установить random seed<br>
-_тип:_ int<br>
-_минимальное значение:_ 0<br>
-_по умолчанию:_ 0<br>
-
-* **@mode** 
-Запросить/установить assign mode. If *assign* - replace origin velocity with random new one
-(default), if *add* - adds random value to origin velocity, if *sub* - subtract
-random value from origin velocity.<br>
-_тип:_ symbol<br>
-_варианты:_ assign, add, sub<br>
-_по умолчанию:_ assign<br>
-
 * **@add** 
 Запросить/установить alias to @mode add<br>
-_тип:_ alias<br>
-
-* **@sub** 
-Запросить/установить alias to @mode sub<br>
 _тип:_ alias<br>
 
 * **@assign** 
@@ -80,6 +52,34 @@ at @min and prob=0 at @max, *cmin* - constant @min value, *cmax* - constant
 _тип:_ symbol<br>
 _варианты:_ uniform, gauss, linup, lindown, cmin, cmax, cmean<br>
 _по умолчанию:_ uniform<br>
+
+* **@max** 
+Запросить/установить max random range<br>
+_тип:_ float<br>
+_по умолчанию:_ 127<br>
+
+* **@min** 
+Запросить/установить min random range<br>
+_тип:_ float<br>
+_по умолчанию:_ 0<br>
+
+* **@mode** 
+Запросить/установить assign mode. If *assign* - replace origin velocity with random new one
+(default), if *add* - adds random value to origin velocity, if *sub* - subtract
+random value from origin velocity.<br>
+_тип:_ symbol<br>
+_варианты:_ assign, add, sub<br>
+_по умолчанию:_ assign<br>
+
+* **@seed** 
+Запросить/установить random seed<br>
+_тип:_ int<br>
+_минимальное значение:_ 0<br>
+_по умолчанию:_ 0<br>
+
+* **@sub** 
+Запросить/установить alias to @mode sub<br>
+_тип:_ alias<br>
 
 
 

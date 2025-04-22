@@ -35,15 +35,15 @@ _тип:_ int<br>
 
 ## свойства:
 
+* **@free** 
+Запросить/установить clear cell mode. If on - clear cell counter after zero was reached.<br>
+_тип:_ bool<br>
+_по умолчанию:_ 1<br>
+
 * **@n** 
 Запросить/установить number of memory cells<br>
 _тип:_ int<br>
 _диапазон:_ 1..32<br>
-_по умолчанию:_ 1<br>
-
-* **@free** 
-Запросить/установить clear cell mode. If on - clear cell counter after zero was reached.<br>
-_тип:_ bool<br>
 _по умолчанию:_ 1<br>
 
 * **@ttl** 

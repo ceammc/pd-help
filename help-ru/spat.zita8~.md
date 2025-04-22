@@ -41,17 +41,25 @@ reset spat and reverb<br>
 
 ## свойства:
 
+* **@osc** (initonly)
+Запросить/установить OSC server name to listen<br>
+_тип:_ symbol<br>
+
+* **@id** (initonly)
+Запросить/установить OSC address id. If specified, bind all properties to /ID/spat_zita8/PROP_NAME
+osc address, if empty bind to /spat_zita8/PROP_NAME.<br>
+_тип:_ symbol<br>
+
+* **@active** 
+Запросить/установить on/off dsp processing<br>
+_тип:_ bool<br>
+_по умолчанию:_ 1<br>
+
 * **@angle** 
 Запросить/установить source panning position<br>
 _тип:_ float<br>
 _диапазон:_ 0..1<br>
 _по умолчанию:_ 0<br>
-
-* **@radius** 
-Запросить/установить source distance from circle center<br>
-_тип:_ float<br>
-_диапазон:_ 0..1<br>
-_по умолчанию:_ 1<br>
 
 * **@decay_low** 
 Запросить/установить time (in seconds) to decay 60dB in low-frequency band<br>
@@ -75,13 +83,6 @@ _единица:_ ms<br>
 _диапазон:_ 20..100<br>
 _по умолчанию:_ 60<br>
 
-* **@freq_low** 
-Запросить/установить Crossover frequency (Hz) separating low and middle frequencies<br>
-_тип:_ float<br>
-_единица:_ Hz<br>
-_диапазон:_ 50..1000<br>
-_по умолчанию:_ 200<br>
-
 * **@dump_hf** 
 Запросить/установить Frequency (Hz) at which the high-frequency T60 is half the middle-band&#39;s T60<br>
 _тип:_ float<br>
@@ -89,19 +90,18 @@ _единица:_ Hz<br>
 _диапазон:_ 1500..47040<br>
 _по умолчанию:_ 6000<br>
 
-* **@active** 
-Запросить/установить on/off dsp processing<br>
-_тип:_ bool<br>
+* **@freq_low** 
+Запросить/установить Crossover frequency (Hz) separating low and middle frequencies<br>
+_тип:_ float<br>
+_единица:_ Hz<br>
+_диапазон:_ 50..1000<br>
+_по умолчанию:_ 200<br>
+
+* **@radius** 
+Запросить/установить source distance from circle center<br>
+_тип:_ float<br>
+_диапазон:_ 0..1<br>
 _по умолчанию:_ 1<br>
-
-* **@osc** (initonly)
-Запросить/установить OSC server name to listen<br>
-_тип:_ symbol<br>
-
-* **@id** (initonly)
-Запросить/установить OSC address id. If specified, bind all properties to /ID/spat_zita8/PROP_NAME
-osc address, if empty bind to /spat_zita8/PROP_NAME.<br>
-_тип:_ symbol<br>
 
 
 

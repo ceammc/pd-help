@@ -33,15 +33,15 @@ _тип:_ list<br>
 
 ## свойства:
 
-* **@weights** 
-Запросить/установить list of weights (non-negative floats)<br>
-_тип:_ list<br>
-
 * **@seed** 
 Запросить/установить generator seed<br>
 _тип:_ int<br>
 _минимальное значение:_ 0<br>
 _по умолчанию:_ 0<br>
+
+* **@weights** 
+Запросить/установить list of weights (non-negative floats)<br>
+_тип:_ list<br>
 
 
 

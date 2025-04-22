@@ -36,6 +36,15 @@ _тип:_ float<br>
 
 ## свойства:
 
+* **@osc** (initonly)
+Запросить/установить OSC server name to listen<br>
+_тип:_ symbol<br>
+
+* **@id** (initonly)
+Запросить/установить OSC address id. If specified, bind all properties to /ID/osc_pulse/PROP_NAME
+osc address, if empty bind to /osc_pulse/PROP_NAME.<br>
+_тип:_ symbol<br>
+
 * **@active** 
 Запросить/установить on/off dsp processing<br>
 _тип:_ bool<br>
@@ -46,15 +55,6 @@ _по умолчанию:_ 1<br>
 _тип:_ float<br>
 _диапазон:_ 0..1<br>
 _по умолчанию:_ 0.5<br>
-
-* **@osc** (initonly)
-Запросить/установить OSC server name to listen<br>
-_тип:_ symbol<br>
-
-* **@id** (initonly)
-Запросить/установить OSC address id. If specified, bind all properties to /ID/osc_pulse/PROP_NAME
-osc address, if empty bind to /osc_pulse/PROP_NAME.<br>
-_тип:_ symbol<br>
 
 
 

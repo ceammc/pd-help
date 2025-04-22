@@ -45,7 +45,7 @@ aftertouch channel pressure<br>
 select instrument bank number on a MIDI channel, but doesn&#39;t change instrument,
 it should be done with after that with *prog* message.<br>
   __параметры:__
-  - **[CHAN=0]** MIDI channel, if zero or ommited set for all channels<br>
+  - **[CHAN=0]** MIDI channel, if zero or omitted set for all channels<br>
     тип: int <br>
 
   - **BANK** instrument bank number<br>
@@ -55,7 +55,7 @@ it should be done with after that with *prog* message.<br>
 * **bend**
 pitchband change<br>
   __параметры:__
-  - **[CHAN=0]** MIDI channel, if zero or ommited set for all channels<br>
+  - **[CHAN=0]** MIDI channel, if zero or omitted set for all channels<br>
     тип: int <br>
 
   - **VALUE** value in 0..0x3fff range, with 0x2000 center.<br>
@@ -65,7 +65,7 @@ pitchband change<br>
 * **bend:f**
 pitchband change<br>
   __параметры:__
-  - **[CHAN=0]** MIDI channel, if zero or ommited set for all channels<br>
+  - **[CHAN=0]** MIDI channel, if zero or omitted set for all channels<br>
     тип: int <br>
 
   - **VALUE** value in -1..+1 range, with 0 center.<br>
@@ -75,7 +75,7 @@ pitchband change<br>
 * **bend:i**
 pitchband change<br>
   __параметры:__
-  - **[CHAN=0]** MIDI channel, if zero or ommited set for all channels<br>
+  - **[CHAN=0]** MIDI channel, if zero or omitted set for all channels<br>
     тип: int <br>
 
   - **VALUE** value in -0x2000..0x1fff range, with 0 center.<br>
@@ -85,7 +85,7 @@ pitchband change<br>
 * **bendsens**
 set pitchbend sensitivity<br>
   __параметры:__
-  - **[CHAN=0]** MIDI channel, if zero or ommited set for all channels<br>
+  - **[CHAN=0]** MIDI channel, if zero or omitted set for all channels<br>
     тип: int <br>
 
   - **RANGE** semitones sensitivity<br>
@@ -96,7 +96,7 @@ set pitchbend sensitivity<br>
 * **cc**
 control change<br>
   __параметры:__
-  - **[CHAN=0]** MIDI channel, if zero or ommited set on all channel<br>
+  - **[CHAN=0]** MIDI channel, if zero or omitted set on all channel<br>
     тип: int <br>
 
   - **CC** MIDI control number<br>
@@ -108,14 +108,14 @@ control change<br>
     обязательно: True <br>
 
 * **gen**
-set a SoundFont generator (effect) value on a MIDI channel in real-time
+set a SoundFont generator (effect) value on the MIDI channel in real-time
 (CHANNEL, PARAM, VALUE or PARAM, VALUE expected)<br>
 
 * **hold**
 hold (sustain, right) pedal, ignore note release when active, release all notes
 when set to off.<br>
   __параметры:__
-  - **CHAN=0** MIDI channel, if zero or ommited sustain all channels<br>
+  - **CHAN=0** MIDI channel, if zero or omitted sustain all channels<br>
     тип: int <br>
     обязательно: True <br>
 
@@ -126,7 +126,7 @@ when set to off.<br>
 * **legato**
 enable or disable legato/smooth transitions between consecutive notes<br>
   __параметры:__
-  - **CHAN** MIDI channel, if zero or ommited apply to all channels<br>
+  - **CHAN** MIDI channel, if zero or omitted apply to all channels<br>
     тип: int <br>
     обязательно: True <br>
 
@@ -144,7 +144,7 @@ send raw midi message to synth<br>
 * **note**
 play note<br>
   __параметры:__
-  - **[CHAN=0]** MIDI channel, if zero or ommited play on first(!) channel<br>
+  - **[CHAN=0]** MIDI channel, if zero or omitted play on first(!) channel<br>
     тип: int <br>
 
   - **NOTE** MIDI note<br>
@@ -164,7 +164,7 @@ turn off all notes on a MIDI channel (put them into release phase)<br>
 * **pan**
 set channel panning<br>
   __параметры:__
-  - **[CHAN=0]** MIDI channel, if zero or ommited set for all channels<br>
+  - **[CHAN=0]** MIDI channel, if zero or omitted set for all channels<br>
     тип: int <br>
 
   - **PAN** pan value, 0: left, 8192(0x2000): center, 16383(0x3fff): right<br>
@@ -174,7 +174,7 @@ set channel panning<br>
 * **pan:f**
 set channel panning<br>
   __параметры:__
-  - **[CHAN=0]** MIDI channel, if zero or ommited set for all channels<br>
+  - **[CHAN=0]** MIDI channel, if zero or omitted set for all channels<br>
     тип: int <br>
 
   - **PAN** pan value, -1: left, 0: center, 1): right<br>
@@ -184,7 +184,7 @@ set channel panning<br>
 * **pan:i**
 set channel panning<br>
   __параметры:__
-  - **[CHAN=0]** MIDI channel, if zero or ommited set for all channels<br>
+  - **[CHAN=0]** MIDI channel, if zero or omitted set for all channels<br>
     тип: int <br>
 
   - **PAN** pan value, -8192(-0x2000): left, 0: center, 8191(0x1fff): right<br>
@@ -212,7 +212,7 @@ polytouch key pressure<br>
 * **prog**
 program change<br>
   __параметры:__
-  - **[CHAN=0]** MIDI channel, if zero or ommited set for all channels<br>
+  - **[CHAN=0]** MIDI channel, if zero or omitted set for all channels<br>
     тип: int <br>
 
   - **PGM** program number<br>
@@ -225,10 +225,24 @@ reset synth channels<br>
   - **[CHAN=0]** MIDI channel, if zero or not specified reset all channels<br>
     тип: int <br>
 
+* **set_preset**
+set soundfont preset for midi channel<br>
+  __параметры:__
+  - **CHAN** MIDI channel<br>
+    тип: int <br>
+    обязательно: True <br>
+
+  - **PRESET** preset name or index<br>
+    тип: atom <br>
+    обязательно: True <br>
+
+  - **[SFONT]** soundfont index. See @soundfonts property.<br>
+    тип: int <br>
+
 * **soft**
 soft (left) pedal, activate the soft strike effect<br>
   __параметры:__
-  - **CHAN** MIDI channel, if zero or ommited apply to all channels<br>
+  - **CHAN** MIDI channel, if zero or omitted apply to all channels<br>
     тип: int <br>
     обязательно: True <br>
 
@@ -240,7 +254,7 @@ soft (left) pedal, activate the soft strike effect<br>
 sostenuto (middle) pedal, hold notes pressed before pedal activation, new notes
 are passed untouched. Release holded notes when set to off<br>
   __параметры:__
-  - **CHAN** MIDI channel, if zero or ommited apply to all channels<br>
+  - **CHAN** MIDI channel, if zero or omitted apply to all channels<br>
     тип: int <br>
     обязательно: True <br>
 
@@ -262,7 +276,7 @@ accept SYSEX message<br>
     обязательно: True <br>
 
 * **tune.**
-set fine tuninig in cents, see tune:s<br>
+set fine tuning in cents, see tune:s<br>
 
 * **tune:12**
 set and activate octave tuning program in cents deviations<br>
@@ -290,7 +304,7 @@ set fine tuning in cents<br>
     обязательно: True <br>
 
 * **tune:s**
-set tuninig in semitones<br>
+set tuning in semitones<br>
   __параметры:__
   - **[CHAN=0]** MIDI channel, if zero or not specified apply tuning to all channels<br>
     тип: int <br>
@@ -310,38 +324,26 @@ select tuning bank and preset<br>
     тип: int <br>
     обязательно: True <br>
 
-* **set_preset**
-set soundfont preset for midi channel<br>
-  __параметры:__
-  - **CHAN** MIDI channel<br>
-    тип: int <br>
-    обязательно: True <br>
-
-  - **PRESET** preset name or index<br>
-    тип: atom <br>
-    обязательно: True <br>
-
-  - **[SFONT]** soundfont index. See @soundfonts property.<br>
-    тип: int <br>
-
 
 
 
 ## свойства:
 
-* **@sf** 
-Запросить/установить soundfont path, you can use **default** value to load default soundfont<br>
-_тип:_ symbol<br>
-_по умолчанию:_ default<br>
+* **@avoices** (readonly)
+Запросить number midi channels<br>
+_тип:_ float<br>
+_по умолчанию:_ 0<br>
 
-* **@version** (readonly)
-Запросить FluidSynth version<br>
-_тип:_ symbol<br>
-_по умолчанию:_ 2.3.2<br>
+* **@bufsize** (readonly)
+Запросить internal buffer size<br>
+_тип:_ float<br>
+_единица:_ samp<br>
+_по умолчанию:_ 0<br>
 
-* **@soundfonts** (readonly)
-Запросить list of found soundfonts<br>
-_тип:_ list<br>
+* **@cpuload** (readonly)
+Запросить current cpu load<br>
+_тип:_ float<br>
+_по умолчанию:_ 0<br>
 
 * **@gain** 
 Запросить/установить output gain<br>
@@ -349,11 +351,24 @@ _тип:_ float<br>
 _диапазон:_ 0..10<br>
 _по умолчанию:_ 0<br>
 
-* **@volume** 
-Запросить/установить output volume (same as @gain but in db)<br>
+* **@n** (readonly)
+Запросить number of active voices<br>
+_тип:_ int<br>
+_по умолчанию:_ 16<br>
+
+* **@poly** 
+Запросить/установить max number of voices<br>
 _тип:_ float<br>
-_единица:_ db<br>
-_диапазон:_ -60..20<br>
+_диапазон:_ 1..1024<br>
+_по умолчанию:_ 0<br>
+
+* **@presets** (readonly)
+Запросить presets name for current soundfont<br>
+_тип:_ list<br>
+
+* **@reverb_damp** 
+Запросить/установить reverberation damp<br>
+_тип:_ float<br>
 _по умолчанию:_ 0<br>
 
 * **@reverb_level** 
@@ -371,41 +386,26 @@ _по умолчанию:_ 0<br>
 _тип:_ float<br>
 _по умолчанию:_ 0<br>
 
-* **@reverb_damp** 
-Запросить/установить reverberation damp<br>
-_тип:_ float<br>
-_по умолчанию:_ 0<br>
+* **@sf** 
+Запросить/установить soundfont path, you can use **default** value to load default soundfont<br>
+_тип:_ symbol<br>
+_по умолчанию:_ default<br>
 
-* **@poly** 
-Запросить/установить max number of voices<br>
-_тип:_ float<br>
-_диапазон:_ 1..1024<br>
-_по умолчанию:_ 0<br>
-
-* **@avoices** (readonly)
-Запросить number midi channels<br>
-_тип:_ float<br>
-_по умолчанию:_ 0<br>
-
-* **@n** (readonly)
-Запросить number of active voices<br>
-_тип:_ int<br>
-_по умолчанию:_ 16<br>
-
-* **@cpuload** (readonly)
-Запросить current cpu load<br>
-_тип:_ float<br>
-_по умолчанию:_ 0<br>
-
-* **@bufsize** (readonly)
-Запросить internal buffer size<br>
-_тип:_ float<br>
-_единица:_ samp<br>
-_по умолчанию:_ 0<br>
-
-* **@presets** (readonly)
-Запросить presets name for current soundfont<br>
+* **@soundfonts** (readonly)
+Запросить list of found soundfonts<br>
 _тип:_ list<br>
+
+* **@version** (readonly)
+Запросить FluidSynth version<br>
+_тип:_ symbol<br>
+_по умолчанию:_ 2.3.2<br>
+
+* **@volume** 
+Запросить/установить output volume (same as @gain but in db)<br>
+_тип:_ float<br>
+_единица:_ db<br>
+_диапазон:_ -60..20<br>
+_по умолчанию:_ 0<br>
 
 
 

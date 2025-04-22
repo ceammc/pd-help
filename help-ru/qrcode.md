@@ -31,15 +31,9 @@ _тип:_ symbol<br>
 
 ## свойства:
 
-* **@value** 
-Запросить/установить string value<br>
-_тип:_ symbol<br>
-
-* **@quality** 
-Запросить/установить encoding quality<br>
-_тип:_ symbol<br>
-_варианты:_ low, medium, quartile, high<br>
-_по умолчанию:_ low<br>
+* **@high** 
+Запросить/установить alias to @quality high<br>
+_тип:_ alias<br>
 
 * **@low** 
 Запросить/установить alias to @quality low<br>
@@ -49,13 +43,19 @@ _тип:_ alias<br>
 Запросить/установить alias to @quality medium<br>
 _тип:_ alias<br>
 
+* **@quality** 
+Запросить/установить encoding quality<br>
+_тип:_ symbol<br>
+_варианты:_ low, medium, quartile, high<br>
+_по умолчанию:_ low<br>
+
 * **@quartile** 
 Запросить/установить alias to @quality quartile<br>
 _тип:_ alias<br>
 
-* **@high** 
-Запросить/установить alias to @quality high<br>
-_тип:_ alias<br>
+* **@value** 
+Запросить/установить string value<br>
+_тип:_ symbol<br>
 
 
 

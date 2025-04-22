@@ -45,16 +45,16 @@ end<br>
 _тип:_ int<br>
 _по умолчанию:_ 0<br>
 
-* **@to** 
-Запросить/установить end slice position. You can use negative index to address elements from the end<br>
-_тип:_ int<br>
-_по умолчанию:_ -1<br>
-
 * **@step** 
 Запросить/установить slice step<br>
 _тип:_ int<br>
 _минимальное значение:_ 0<br>
 _по умолчанию:_ 1<br>
+
+* **@to** 
+Запросить/установить end slice position. You can use negative index to address elements from the end<br>
+_тип:_ int<br>
+_по умолчанию:_ -1<br>
 
 
 

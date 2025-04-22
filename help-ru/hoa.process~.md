@@ -62,6 +62,16 @@ open Pd window for specified instance<br>
 
 ## свойства:
 
+* **@args** (initonly)
+Запросить/установить arguments passed to instances<br>
+_тип:_ list<br>
+
+* **@domain** (initonly)
+Запросить/установить process domain: harmonics or planewaves<br>
+_тип:_ symbol<br>
+_варианты:_ harmonics, planewaves<br>
+_по умолчанию:_ harmonics<br>
+
 * **@n** (initonly)
 Запросить/установить the order of decomposition/number of planewaves<br>
 _тип:_ int<br>
@@ -71,16 +81,6 @@ _по умолчанию:_ 0<br>
 * **@patch** (initonly)
 Запросить/установить patch name<br>
 _тип:_ symbol<br>
-
-* **@domain** (initonly)
-Запросить/установить process domain: harmonics or planewaves<br>
-_тип:_ symbol<br>
-_варианты:_ harmonics, planewaves<br>
-_по умолчанию:_ harmonics<br>
-
-* **@args** (initonly)
-Запросить/установить arguments passed to instances<br>
-_тип:_ list<br>
 
 
 

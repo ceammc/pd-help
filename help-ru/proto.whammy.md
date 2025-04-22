@@ -105,22 +105,10 @@ toggle pedal on/off<br>
 _тип:_ bool<br>
 _по умолчанию:_ 1<br>
 
-* **@mode** 
-Запросить/установить pedal mode (should correspond to hardware switch on pedal)<br>
-_тип:_ symbol<br>
-_варианты:_ chords, classic<br>
-_по умолчанию:_ classic<br>
-
 * **@chan** 
 Запросить/установить output Midi channel<br>
 _тип:_ int<br>
 _диапазон:_ 0..15<br>
-_по умолчанию:_ 0<br>
-
-* **@seed** 
-Запросить/установить random seed<br>
-_тип:_ int<br>
-_минимальное значение:_ 0<br>
 _по умолчанию:_ 0<br>
 
 * **@chords** 
@@ -130,6 +118,18 @@ _тип:_ alias<br>
 * **@classic** 
 Запросить/установить alias for @mode classic<br>
 _тип:_ alias<br>
+
+* **@mode** 
+Запросить/установить pedal mode (should correspond to hardware switch on pedal)<br>
+_тип:_ symbol<br>
+_варианты:_ chords, classic<br>
+_по умолчанию:_ classic<br>
+
+* **@seed** 
+Запросить/установить random seed<br>
+_тип:_ int<br>
+_минимальное значение:_ 0<br>
+_по умолчанию:_ 0<br>
 
 
 

@@ -33,11 +33,10 @@ stops speech and clear speech queue<br>
 
 ## свойства:
 
-* **@voice** 
-Запросить/установить default voice<br>
-_тип:_ symbol<br>
-_варианты:_ kal16, slt, rms, awb<br>
-_по умолчанию:_ kal16<br>
+* **@pitch** 
+Запросить/установить voice pitch (-1 - default value)<br>
+_тип:_ float<br>
+_по умолчанию:_ -1<br>
 
 * **@speed** 
 Запросить/установить speaking speed<br>
@@ -45,10 +44,11 @@ _тип:_ float<br>
 _диапазон:_ 0.5..4<br>
 _по умолчанию:_ 1<br>
 
-* **@pitch** 
-Запросить/установить voice pitch (-1 - default value)<br>
-_тип:_ float<br>
-_по умолчанию:_ -1<br>
+* **@voice** 
+Запросить/установить default voice<br>
+_тип:_ symbol<br>
+_варианты:_ kal16, slt, rms, awb<br>
+_по умолчанию:_ kal16<br>
 
 
 

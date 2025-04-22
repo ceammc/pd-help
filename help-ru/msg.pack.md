@@ -35,6 +35,10 @@ _тип:_ list<br>
 
 ## свойства:
 
+* **@msg** 
+Запросить/установить message prefix. Change value via [prop.set] object<br>
+_тип:_ list<br>
+
 * **@n** (initonly)
 Запросить/установить number of inlets<br>
 _тип:_ int<br>
@@ -45,10 +49,6 @@ _по умолчанию:_ 2<br>
 Запросить/установить sync mode. If true: output value on each inlet value change<br>
 _тип:_ bool<br>
 _по умолчанию:_ 0<br>
-
-* **@msg** 
-Запросить/установить message prefix. Change value via [prop.set] object<br>
-_тип:_ list<br>
 
 
 

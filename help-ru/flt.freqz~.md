@@ -37,13 +37,13 @@ _тип:_ list<br>
 _тип:_ list<br>
 _по умолчанию:_ 1<br>
 
-* **@sr** 
-Запросить/установить normalize using current samplerate<br>
+* **@db** 
+Запросить/установить output amp response in db scale<br>
 _тип:_ bool<br>
 _по умолчанию:_ 0<br>
 
-* **@db** 
-Запросить/установить output amp response in db scale<br>
+* **@sr** 
+Запросить/установить normalize using current samplerate<br>
 _тип:_ bool<br>
 _по умолчанию:_ 0<br>
 

@@ -25,19 +25,19 @@ layout: default_ru
 
 ## свойства:
 
-* **@mode** 
-Запросить/установить input mode<br>
-_тип:_ symbol<br>
-_варианты:_ int, float<br>
-_по умолчанию:_ int<br>
+* **@float** 
+Запросить/установить alias to @mode float. Expected input values are in [0-1] range<br>
+_тип:_ alias<br>
 
 * **@int** 
 Запросить/установить alias to @mode int. Expected input values are in [0-255] range<br>
 _тип:_ alias<br>
 
-* **@float** 
-Запросить/установить alias to @mode float. Expected input values are in [0-1] range<br>
-_тип:_ alias<br>
+* **@mode** 
+Запросить/установить input mode<br>
+_тип:_ symbol<br>
+_варианты:_ int, float<br>
+_по умолчанию:_ int<br>
 
 * **@sync** (initonly)
 Запросить/установить output value on any inlet change<br>

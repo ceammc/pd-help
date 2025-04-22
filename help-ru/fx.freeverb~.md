@@ -43,11 +43,24 @@ reset reverb<br>
 
 ## свойства:
 
-* **@room** 
-Запросить/установить room size<br>
-_тип:_ float<br>
-_диапазон:_ 0..1<br>
-_по умолчанию:_ 0.5<br>
+* **@osc** (initonly)
+Запросить/установить OSC server name to listen<br>
+_тип:_ symbol<br>
+
+* **@id** (initonly)
+Запросить/установить OSC address id. If specified, bind all properties to /ID/fx_freeverb/PROP_NAME
+osc address, if empty bind to /fx_freeverb/PROP_NAME.<br>
+_тип:_ symbol<br>
+
+* **@active** 
+Запросить/установить on/off dsp processing<br>
+_тип:_ bool<br>
+_по умолчанию:_ 1<br>
+
+* **@bypass** 
+Запросить/установить bypass flag. If true: bypass &#39;effected&#39; signal.<br>
+_тип:_ bool<br>
+_по умолчанию:_ 0<br>
 
 * **@damp** 
 Запросить/установить damping of the lowpass comb filter<br>
@@ -62,32 +75,17 @@ _тип:_ float<br>
 _диапазон:_ 0..1<br>
 _по умолчанию:_ 0.33<br>
 
-* **@bypass** 
-Запросить/установить bypass flag. If true: bypass &#39;effected&#39; signal.<br>
-_тип:_ bool<br>
-_по умолчанию:_ 0<br>
-
-* **@active** 
-Запросить/установить on/off dsp processing<br>
-_тип:_ bool<br>
-_по умолчанию:_ 1<br>
-
-* **@freeze** 
-Запросить/установить freeze reverberation tail<br>
-_тип:_ bool<br>
-_по умолчанию:_ 0<br>
+* **@fr_damp** 
+Запросить/установить freeze room damp<br>
+_тип:_ float<br>
+_диапазон:_ 0..1<br>
+_по умолчанию:_ 0.0001<br>
 
 * **@fr_room** 
 Запросить/установить freeze room size<br>
 _тип:_ float<br>
 _диапазон:_ 0..1<br>
 _по умолчанию:_ 0.999<br>
-
-* **@fr_damp** 
-Запросить/установить freeze room damp<br>
-_тип:_ float<br>
-_диапазон:_ 0..1<br>
-_по умолчанию:_ 0.0001<br>
 
 * **@fr_time** 
 Запросить/установить length of freeze tail<br>
@@ -96,14 +94,16 @@ _единица:_ ms<br>
 _диапазон:_ 0..1000<br>
 _по умолчанию:_ 100<br>
 
-* **@osc** (initonly)
-Запросить/установить OSC server name to listen<br>
-_тип:_ symbol<br>
+* **@freeze** 
+Запросить/установить freeze reverberation tail<br>
+_тип:_ bool<br>
+_по умолчанию:_ 0<br>
 
-* **@id** (initonly)
-Запросить/установить OSC address id. If specified, bind all properties to /ID/fx_freeverb/PROP_NAME
-osc address, if empty bind to /fx_freeverb/PROP_NAME.<br>
-_тип:_ symbol<br>
+* **@room** 
+Запросить/установить room size<br>
+_тип:_ float<br>
+_диапазон:_ 0..1<br>
+_по умолчанию:_ 0.5<br>
 
 
 

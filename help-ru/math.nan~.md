@@ -27,12 +27,6 @@ In computing, NaN, standing for not a number, is a numeric data type value repre
 
 ## свойства:
 
-* **@type** 
-Запросить/установить type of outputed NaN: quiet or signal<br>
-_тип:_ symbol<br>
-_варианты:_ quiet, signal<br>
-_по умолчанию:_ quiet<br>
-
 * **@quiet** 
 Запросить/установить alias to @type quiet<br>
 _тип:_ alias<br>
@@ -40,6 +34,12 @@ _тип:_ alias<br>
 * **@signal** 
 Запросить/установить alias to @type signal<br>
 _тип:_ alias<br>
+
+* **@type** 
+Запросить/установить type of outputed NaN: quiet or signal<br>
+_тип:_ symbol<br>
+_варианты:_ quiet, signal<br>
+_по умолчанию:_ quiet<br>
 
 
 

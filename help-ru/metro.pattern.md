@@ -31,15 +31,15 @@ _тип:_ list<br>
 
 ## свойства:
 
-* **@pattern** 
-Запросить/установить time intervals (in ms) performed in a loop<br>
-_тип:_ list<br>
-
 * **@current** 
 Запросить/установить current pattern index<br>
 _тип:_ int<br>
 _минимальное значение:_ 0<br>
 _по умолчанию:_ 0<br>
+
+* **@pattern** 
+Запросить/установить time intervals (in ms) performed in a loop<br>
+_тип:_ list<br>
 
 * **@sync** 
 Запросить/установить sync mode - change pattern after full cycle<br>

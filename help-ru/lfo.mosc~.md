@@ -44,6 +44,20 @@ reset to initial state<br>
 
 ## свойства:
 
+* **@osc** (initonly)
+Запросить/установить OSC server name to listen<br>
+_тип:_ symbol<br>
+
+* **@id** (initonly)
+Запросить/установить OSC address id. If specified, bind all properties to /ID/lfo_mosc/PROP_NAME osc
+address, if empty bind to /lfo_mosc/PROP_NAME.<br>
+_тип:_ symbol<br>
+
+* **@active** 
+Запросить/установить on/off dsp processing<br>
+_тип:_ bool<br>
+_по умолчанию:_ 1<br>
+
 * **@duty** 
 Запросить/установить duty cycle for pulse waveform<br>
 _тип:_ float<br>
@@ -61,32 +75,18 @@ _тип:_ float<br>
 _диапазон:_ 0..1<br>
 _по умолчанию:_ 0<br>
 
-* **@windex** 
-Запросить/установить waveform index (counting from 0): sin, saw, tri, sqr, pulse, +sin, +saw, +tri,
-+sqr, +pulse.<br>
-_тип:_ int<br>
-_диапазон:_ 0..9<br>
-_по умолчанию:_ 0<br>
-
 * **@wave** 
 Запросить/установить wave type<br>
 _тип:_ symbol<br>
 _варианты:_ sin, saw, tri, sqr, pulse, +sin, +saw, +tri, +sqr, +pulse<br>
 _по умолчанию:_ sin<br>
 
-* **@active** 
-Запросить/установить on/off dsp processing<br>
-_тип:_ bool<br>
-_по умолчанию:_ 1<br>
-
-* **@osc** (initonly)
-Запросить/установить OSC server name to listen<br>
-_тип:_ symbol<br>
-
-* **@id** (initonly)
-Запросить/установить OSC address id. If specified, bind all properties to /ID/lfo_mosc/PROP_NAME osc
-address, if empty bind to /lfo_mosc/PROP_NAME.<br>
-_тип:_ symbol<br>
+* **@windex** 
+Запросить/установить waveform index (counting from 0): sin, saw, tri, sqr, pulse, +sin, +saw, +tri,
++sqr, +pulse.<br>
+_тип:_ int<br>
+_диапазон:_ 0..9<br>
+_по умолчанию:_ 0<br>
 
 
 

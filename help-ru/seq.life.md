@@ -139,14 +139,14 @@ adds vertical bee-hive<br>
 
 ## свойства:
 
-* **@rows** 
-Запросить/установить number of rows<br>
+* **@cols** 
+Запросить/установить number of columns<br>
 _тип:_ int<br>
 _диапазон:_ 1..64<br>
 _по умолчанию:_ 16<br>
 
-* **@cols** 
-Запросить/установить number of columns<br>
+* **@rows** 
+Запросить/установить number of rows<br>
 _тип:_ int<br>
 _диапазон:_ 1..64<br>
 _по умолчанию:_ 16<br>

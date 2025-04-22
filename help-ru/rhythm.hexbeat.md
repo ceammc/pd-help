@@ -31,13 +31,13 @@ _тип:_ symbol<br>
 
 ## свойства:
 
-* **@pattern** (readonly)
-Запросить list pattern<br>
-_тип:_ list<br>
-
 * **@hex** 
 Запросить/установить hex pattern<br>
 _тип:_ symbol<br>
+
+* **@pattern** (readonly)
+Запросить list pattern<br>
+_тип:_ list<br>
 
 
 

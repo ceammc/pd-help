@@ -71,10 +71,27 @@ set current time<br>
 
 ## свойства:
 
+* **@filter** 
+Запросить/установить output signal filtering. LTC should have a rise time of 40us+/-10 us. If you
+want a perfect square wave, set to 0<br>
+_тип:_ float<br>
+_диапазон:_ 0..500<br>
+_по умолчанию:_ 0<br>
+
+* **@fps** 
+Запросить/установить frames per second rate. Supported values are: 24, 25, 29.97, 30.<br>
+_тип:_ float<br>
+_по умолчанию:_ 25<br>
+
 * **@on** 
 Запросить/установить encoder state<br>
 _тип:_ bool<br>
 _по умолчанию:_ 0<br>
+
+* **@speed** 
+Запросить/установить playing speed<br>
+_тип:_ float<br>
+_по умолчанию:_ 1<br>
 
 * **@volume** 
 Запросить/установить output signal level<br>
@@ -82,23 +99,6 @@ _тип:_ float<br>
 _единица:_ db<br>
 _диапазон:_ -42..0<br>
 _по умолчанию:_ -3<br>
-
-* **@fps** 
-Запросить/установить frames per second rate. Supported values are: 24, 25, 29.97, 30.<br>
-_тип:_ float<br>
-_по умолчанию:_ 25<br>
-
-* **@speed** 
-Запросить/установить playing speed<br>
-_тип:_ float<br>
-_по умолчанию:_ 1<br>
-
-* **@filter** 
-Запросить/установить output signal filtering. LTC should have a rise time of 40us+/-10 us. If you
-want a perfect square wave, set to 0<br>
-_тип:_ float<br>
-_диапазон:_ 0..500<br>
-_по умолчанию:_ 0<br>
 
 
 

@@ -40,7 +40,7 @@ aftertouch channel pressure<br>
     обязательно: True <br>
 
 * **bend**
-pitchband change<br>
+pitchbend change<br>
   __параметры:__
   - **[CHAN=0]** MIDI channel, ignored<br>
     тип: int <br>
@@ -50,7 +50,7 @@ pitchband change<br>
     обязательно: True <br>
 
 * **bend:f**
-pitchband change<br>
+pitchbend change<br>
   __параметры:__
   - **[CHAN=0]** MIDI channel, ignored<br>
     тип: int <br>
@@ -60,7 +60,7 @@ pitchband change<br>
     обязательно: True <br>
 
 * **bend:i**
-pitchband change<br>
+pitchbend change<br>
   __параметры:__
   - **[CHAN=0]** MIDI channel, ignored<br>
     тип: int <br>
@@ -160,7 +160,7 @@ set channel panning<br>
   - **[CHAN]** MIDI channel, ignored<br>
     тип: int <br>
 
-  - **PAN** pan value, -1: left, 0: center, 1): right<br>
+  - **PAN** pan value, -1: left, 0: center, 1: right<br>
     тип: float <br>
     обязательно: True <br>
 
@@ -195,7 +195,7 @@ polytouch key pressure<br>
 * **prog**
 program change<br>
   __параметры:__
-  - **[CHAN=0]** MIDI channel, if zero or ommited set for all channels<br>
+  - **[CHAN=0]** MIDI channel, if zero or omitted set for all channels<br>
     тип: int <br>
 
   - **PGM** program number<br>
@@ -265,20 +265,15 @@ select tuning bank and preset<br>
 
 ## свойства:
 
-* **@sf** 
-Запросить/установить soundfont path or builtin waveform name: #sine, #tri, #saw, #square, #noise<br>
-_тип:_ symbol<br>
-
-* **@poly** 
-Запросить/установить max number of voices<br>
-_тип:_ int<br>
-_диапазон:_ 1..256<br>
-_по умолчанию:_ 64<br>
-
 * **@avoices** (readonly)
 Запросить number midi channels<br>
 _тип:_ int<br>
 _по умолчанию:_ 0<br>
+
+* **@cc_labels** (readonly)
+Запросить dict of controller labels<br>
+_тип:_ atom<br>
+_по умолчанию:_ []<br>
 
 * **@freq** 
 Запросить/установить A4 standard tuning<br>
@@ -286,21 +281,26 @@ _тип:_ float<br>
 _единица:_ Hz<br>
 _по умолчанию:_ 440<br>
 
-* **@key_labels** (readonly)
-Запросить dict of control key labels<br>
-_тип:_ atom<br>
-_по умолчанию:_ []<br>
-
-* **@cc_labels** (readonly)
-Запросить dict of controller labels<br>
-_тип:_ atom<br>
-_по умолчанию:_ []<br>
-
 * **@gain** 
 Запросить/установить output gain (same as @value but in amp units)<br>
 _тип:_ float<br>
 _диапазон:_ 0..16<br>
 _по умолчанию:_ 0.429<br>
+
+* **@key_labels** (readonly)
+Запросить dict of control key labels<br>
+_тип:_ atom<br>
+_по умолчанию:_ []<br>
+
+* **@poly** 
+Запросить/установить max number of voices<br>
+_тип:_ int<br>
+_диапазон:_ 1..256<br>
+_по умолчанию:_ 64<br>
+
+* **@sf** 
+Запросить/установить soundfont path or builtin waveform name: #sine, #tri, #saw, #square, #noise<br>
+_тип:_ symbol<br>
 
 * **@volume** 
 Запросить/установить output volume (same as @gain but in db)<br>

@@ -46,40 +46,6 @@ reset envelope to initial state<br>
 
 ## свойства:
 
-* **@attack** 
-Запросить/установить attack time<br>
-_тип:_ float<br>
-_единица:_ ms<br>
-_диапазон:_ 0..100000<br>
-_по умолчанию:_ 10<br>
-
-* **@release** 
-Запросить/установить release time<br>
-_тип:_ float<br>
-_единица:_ ms<br>
-_диапазон:_ 0..100000<br>
-_по умолчанию:_ 300<br>
-
-* **@gate** 
-Запросить/установить trigger signal<br>
-_тип:_ bool<br>
-_по умолчанию:_ 0<br>
-
-* **@ar** (readonly)
-Запросить attack release pair<br>
-_тип:_ list<br>
-
-* **@length** (readonly)
-Запросить envelope length<br>
-_тип:_ float<br>
-_единица:_ ms<br>
-_по умолчанию:_ 310<br>
-
-* **@active** 
-Запросить/установить on/off dsp processing<br>
-_тип:_ bool<br>
-_по умолчанию:_ 1<br>
-
 * **@osc** (initonly)
 Запросить/установить OSC server name to listen<br>
 _тип:_ symbol<br>
@@ -88,6 +54,40 @@ _тип:_ symbol<br>
 Запросить/установить OSC address id. If specified, bind all properties to /ID/env_ar/PROP_NAME osc
 address, if empty bind to /env_ar/PROP_NAME.<br>
 _тип:_ symbol<br>
+
+* **@active** 
+Запросить/установить on/off dsp processing<br>
+_тип:_ bool<br>
+_по умолчанию:_ 1<br>
+
+* **@ar** (readonly)
+Запросить attack release pair<br>
+_тип:_ list<br>
+
+* **@attack** 
+Запросить/установить attack time<br>
+_тип:_ float<br>
+_единица:_ ms<br>
+_диапазон:_ 0..100000<br>
+_по умолчанию:_ 10<br>
+
+* **@gate** 
+Запросить/установить trigger signal<br>
+_тип:_ bool<br>
+_по умолчанию:_ 0<br>
+
+* **@length** (readonly)
+Запросить envelope length<br>
+_тип:_ float<br>
+_единица:_ ms<br>
+_по умолчанию:_ 310<br>
+
+* **@release** 
+Запросить/установить release time<br>
+_тип:_ float<br>
+_единица:_ ms<br>
+_диапазон:_ 0..100000<br>
+_по умолчанию:_ 300<br>
 
 
 

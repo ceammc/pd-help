@@ -41,6 +41,10 @@ _тип:_ list<br>
 Запросить/установить second argument<br>
 _тип:_ list<br>
 
+* **@full** 
+Запросить/установить alias to @mode full<br>
+_тип:_ alias<br>
+
 * **@mode** 
 Запросить/установить output mode. &#39;full&#39; - output the cross-correlation at each point of overlap,
 with an output length of (M+N-1). At the end-points of the cross-correlation,
@@ -53,16 +57,12 @@ _тип:_ symbol<br>
 _варианты:_ valid, same, full<br>
 _по умолчанию:_ valid<br>
 
-* **@valid** 
-Запросить/установить alias to @mode valid<br>
-_тип:_ alias<br>
-
 * **@same** 
 Запросить/установить alias to @mode same<br>
 _тип:_ alias<br>
 
-* **@full** 
-Запросить/установить alias to @mode full<br>
+* **@valid** 
+Запросить/установить alias to @mode valid<br>
 _тип:_ alias<br>
 
 

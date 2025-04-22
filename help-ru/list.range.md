@@ -27,11 +27,9 @@ Note: if @type = any, numbers are smaller then symbols
 
 ## свойства:
 
-* **@type** 
-Запросить/установить type of accepted atoms<br>
-_тип:_ symbol<br>
-_варианты:_ float, symbol, any<br>
-_по умолчанию:_ float<br>
+* **@a** 
+Запросить/установить alias to @type any, accept all<br>
+_тип:_ alias<br>
 
 * **@f** 
 Запросить/установить alias to @type float, accept only floats<br>
@@ -41,9 +39,11 @@ _тип:_ alias<br>
 Запросить/установить alias to @type symbol, accept only symbols<br>
 _тип:_ alias<br>
 
-* **@a** 
-Запросить/установить alias to @type any, accept all<br>
-_тип:_ alias<br>
+* **@type** 
+Запросить/установить type of accepted atoms<br>
+_тип:_ symbol<br>
+_варианты:_ float, symbol, any<br>
+_по умолчанию:_ float<br>
 
 
 

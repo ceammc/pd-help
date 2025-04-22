@@ -34,18 +34,6 @@ _единица:_ Hz<br>
 
 ## свойства:
 
-* **@freq** 
-Запросить/установить average frequency of noise impulses per second<br>
-_тип:_ float<br>
-_единица:_ Hz<br>
-_диапазон:_ 0..100<br>
-_по умолчанию:_ 10<br>
-
-* **@active** 
-Запросить/установить on/off dsp processing<br>
-_тип:_ bool<br>
-_по умолчанию:_ 1<br>
-
 * **@osc** (initonly)
 Запросить/установить OSC server name to listen<br>
 _тип:_ symbol<br>
@@ -55,6 +43,18 @@ _тип:_ symbol<br>
 /ID/noise_crackle/PROP_NAME osc address, if empty bind to
 /noise_crackle/PROP_NAME.<br>
 _тип:_ symbol<br>
+
+* **@active** 
+Запросить/установить on/off dsp processing<br>
+_тип:_ bool<br>
+_по умолчанию:_ 1<br>
+
+* **@freq** 
+Запросить/установить average frequency of noise impulses per second<br>
+_тип:_ float<br>
+_единица:_ Hz<br>
+_диапазон:_ 0..100<br>
+_по умолчанию:_ 10<br>
 
 
 

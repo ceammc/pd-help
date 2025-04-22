@@ -39,25 +39,25 @@ _тип:_ float<br>
 
 ## свойства:
 
+* **@closed** (initonly)
+Запросить/установить generate closed range sequence<br>
+_тип:_ flag<br>
+_по умолчанию:_ 0<br>
+
 * **@from** 
 Запросить/установить start value<br>
 _тип:_ float<br>
 _по умолчанию:_ 0<br>
-
-* **@to** 
-Запросить/установить end value<br>
-_тип:_ float<br>
-_по умолчанию:_ 1<br>
 
 * **@step** 
 Запросить/установить sequence step (always positive)<br>
 _тип:_ float<br>
 _по умолчанию:_ 1<br>
 
-* **@closed** (initonly)
-Запросить/установить generate closed range sequence<br>
-_тип:_ flag<br>
-_по умолчанию:_ 0<br>
+* **@to** 
+Запросить/установить end value<br>
+_тип:_ float<br>
+_по умолчанию:_ 1<br>
 
 
 

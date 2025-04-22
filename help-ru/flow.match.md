@@ -33,14 +33,14 @@ _тип:_ list<br>
 
 ## свойства:
 
-* **@patterns** (initonly)
-Запросить/установить list of regular expressions<br>
-_тип:_ list<br>
-
 * **@cut** 
 Запросить/установить cut or pass message selector<br>
 _тип:_ bool<br>
 _по умолчанию:_ 0<br>
+
+* **@patterns** (initonly)
+Запросить/установить list of regular expressions<br>
+_тип:_ list<br>
 
 
 

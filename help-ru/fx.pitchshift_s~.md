@@ -31,37 +31,6 @@ reset object state<br>
 
 ## свойства:
 
-* **@window** 
-Запросить/установить the window size<br>
-_тип:_ float<br>
-_единица:_ ms<br>
-_диапазон:_ 10..2000<br>
-_по умолчанию:_ 200<br>
-
-* **@fade** 
-Запросить/установить crossfade duration<br>
-_тип:_ float<br>
-_единица:_ ms<br>
-_диапазон:_ 0..1000<br>
-_по умолчанию:_ 100<br>
-
-* **@drywet** 
-Запросить/установить proportion of mix between the original (dry) and &#39;effected&#39; (wet) signals. 0 -
-dry signal, 1 - wet.<br>
-_тип:_ float<br>
-_диапазон:_ 0..1<br>
-_по умолчанию:_ 1<br>
-
-* **@bypass** 
-Запросить/установить bypass flag. If true: bypass &#39;effected&#39; signal.<br>
-_тип:_ bool<br>
-_по умолчанию:_ 0<br>
-
-* **@active** 
-Запросить/установить on/off dsp processing<br>
-_тип:_ bool<br>
-_по умолчанию:_ 1<br>
-
 * **@osc** (initonly)
 Запросить/установить OSC server name to listen<br>
 _тип:_ symbol<br>
@@ -71,6 +40,37 @@ _тип:_ symbol<br>
 /ID/fx_pitchshift_s/PROP_NAME osc address, if empty bind to
 /fx_pitchshift_s/PROP_NAME.<br>
 _тип:_ symbol<br>
+
+* **@active** 
+Запросить/установить on/off dsp processing<br>
+_тип:_ bool<br>
+_по умолчанию:_ 1<br>
+
+* **@bypass** 
+Запросить/установить bypass flag. If true: bypass &#39;effected&#39; signal.<br>
+_тип:_ bool<br>
+_по умолчанию:_ 0<br>
+
+* **@drywet** 
+Запросить/установить proportion of mix between the original (dry) and &#39;effected&#39; (wet) signals. 0 -
+dry signal, 1 - wet.<br>
+_тип:_ float<br>
+_диапазон:_ 0..1<br>
+_по умолчанию:_ 1<br>
+
+* **@fade** 
+Запросить/установить crossfade duration<br>
+_тип:_ float<br>
+_единица:_ ms<br>
+_диапазон:_ 0..1000<br>
+_по умолчанию:_ 100<br>
+
+* **@window** 
+Запросить/установить the window size<br>
+_тип:_ float<br>
+_единица:_ ms<br>
+_диапазон:_ 10..2000<br>
+_по умолчанию:_ 200<br>
 
 
 

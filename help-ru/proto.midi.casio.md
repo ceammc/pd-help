@@ -25,6 +25,48 @@ Note: only PX160 model supported at this moment Note: on PX160 instrument change
 
 ## методы:
 
+* **chorus**
+set chorus fx level<br>
+  __параметры:__
+  - **VALUE** level<br>
+    тип: float <br>
+    обязательно: True <br>
+
+* **chorus_depth**
+set chorus depth<br>
+  __параметры:__
+  - **DEPTH** depth value<br>
+    тип: float <br>
+    обязательно: True <br>
+
+* **chorus_fb**
+set chorus feedback level<br>
+  __параметры:__
+  - **AMOUNT** level<br>
+    тип: float <br>
+    обязательно: True <br>
+
+* **chorus_rate**
+set chorus rate<br>
+  __параметры:__
+  - **RATE** rate value<br>
+    тип: float <br>
+    обязательно: True <br>
+
+* **chorus_send**
+set chorus send level<br>
+  __параметры:__
+  - **AMOUNT** level<br>
+    тип: float <br>
+    обязательно: True <br>
+
+* **chorus_type**
+set chorus type<br>
+  __параметры:__
+  - **TYPE** chorus type. For PX160 - 1: chorus1, 2: chorus2, 3: deep chorus, 4: flanger<br>
+    тип: int <br>
+    обязательно: True <br>
+
 * **instr**
 send Note On message<br>
   __параметры:__
@@ -51,48 +93,6 @@ set reverb type<br>
   __параметры:__
   - **TYPE** reverb type. For PX160 - 1: room, 2: default (hall), 3: hall2, 4: stadium<br>
     тип: int <br>
-    обязательно: True <br>
-
-* **chorus**
-set chorus fx level<br>
-  __параметры:__
-  - **VALUE** level<br>
-    тип: float <br>
-    обязательно: True <br>
-
-* **chorus_type**
-set chorus type<br>
-  __параметры:__
-  - **TYPE** chorus type. For PX160 - 1: chorus1, 2: chorus2, 3: deep chorus, 4: flanger<br>
-    тип: int <br>
-    обязательно: True <br>
-
-* **chorus_send**
-set chorus send level<br>
-  __параметры:__
-  - **AMOUNT** level<br>
-    тип: float <br>
-    обязательно: True <br>
-
-* **chorus_fb**
-set chorus feedback level<br>
-  __параметры:__
-  - **AMOUNT** level<br>
-    тип: float <br>
-    обязательно: True <br>
-
-* **chorus_depth**
-set chorus depth<br>
-  __параметры:__
-  - **DEPTH** depth value<br>
-    тип: float <br>
-    обязательно: True <br>
-
-* **chorus_rate**
-set chorus rate<br>
-  __параметры:__
-  - **RATE** rate value<br>
-    тип: float <br>
     обязательно: True <br>
 
 

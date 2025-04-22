@@ -49,6 +49,17 @@ _тип:_ float<br>
 
 ## свойства:
 
+* **@clip** 
+Запросить/установить noclip (don&#39;t clip) max (clip ceiling) min (clip floor) minmax (clip both).<br>
+_тип:_ symbol<br>
+_варианты:_ noclip, min, max, minmax<br>
+_по умолчанию:_ minmax<br>
+
+* **@curve** 
+Запросить/установить 0 (linear) &lt;0 (concave, negatively curved) &gt;0 (convex, positively curved)<br>
+_тип:_ float<br>
+_по умолчанию:_ -4<br>
+
 * **@in_from** 
 Запросить/установить begin of input range<br>
 _тип:_ float<br>
@@ -59,6 +70,22 @@ _по умолчанию:_ 0<br>
 _тип:_ float<br>
 _по умолчанию:_ 127<br>
 
+* **@max** 
+Запросить/установить alias to @clip max<br>
+_тип:_ alias<br>
+
+* **@min** 
+Запросить/установить alias to @clip min<br>
+_тип:_ alias<br>
+
+* **@minmax** 
+Запросить/установить alias to @clip minmax<br>
+_тип:_ alias<br>
+
+* **@noclip** 
+Запросить/установить alias to @clip noclip<br>
+_тип:_ alias<br>
+
 * **@out_from** 
 Запросить/установить begin of output range<br>
 _тип:_ float<br>
@@ -68,33 +95,6 @@ _по умолчанию:_ 0<br>
 Запросить/установить end of output range<br>
 _тип:_ float<br>
 _по умолчанию:_ 1<br>
-
-* **@curve** 
-Запросить/установить 0 (linear) &lt;0 (concave, negatively curved) &gt;0 (convex, positively curved)<br>
-_тип:_ float<br>
-_по умолчанию:_ -4<br>
-
-* **@clip** 
-Запросить/установить noclip (don&#39;t clip) max (clip ceiling) min (clip floor) minmax (clip both).<br>
-_тип:_ symbol<br>
-_варианты:_ noclip, min, max, minmax<br>
-_по умолчанию:_ minmax<br>
-
-* **@noclip** 
-Запросить/установить alias to @clip noclip<br>
-_тип:_ alias<br>
-
-* **@min** 
-Запросить/установить alias to @clip min<br>
-_тип:_ alias<br>
-
-* **@max** 
-Запросить/установить alias to @clip max<br>
-_тип:_ alias<br>
-
-* **@minmax** 
-Запросить/установить alias to @clip minmax<br>
-_тип:_ alias<br>
 
 
 

@@ -42,39 +42,12 @@ reset the file pointer and all existing grains to the file start<br>
 Запросить/установить path file to granulate. Only WAV and AIFF formats are supported.<br>
 _тип:_ symbol<br>
 
-* **@voices** 
-Запросить/установить number of simultaneous grain &#34;voices&#34; to use<br>
+* **@gdelay** 
+Запросить/установить delay parameter that causes grain calculations to pause between grains<br>
 _тип:_ int<br>
-_диапазон:_ 0..200<br>
-_по умолчанию:_ 1<br>
-
-* **@stretch** 
-Запросить/установить stretch factor used for grain playback (1 - 1000). Granular synthesis allows
-for time-stetching without affecting the original pitch of a sound. A stretch
-factor of 4 will produce a resulting sound of length 4 times the orignal sound.
-The default parameter of 1 produces no stretching.<br>
-_тип:_ int<br>
-_диапазон:_ 1..1000<br>
-_по умолчанию:_ 1<br>
-
-* **@random** 
-Запросить/установить factor used when setting individual grain parameters. This random factor is
-applied when all grain state durations are calculated. If set to 0.0, no
-randomness occurs. When @random=0.5, a grain segment of length duration will be
-randomly augmented by up to +-duration seconds (i.e., a 30 millisecond length
-will be augmented by an extra length of up to +15 or -15 milliseconds)<br>
-_тип:_ float<br>
-_диапазон:_ 0..0.97<br>
-_по умолчанию:_ 0.1<br>
-
-* **@gramp** 
-Запросить/установить grain ramp. For values of @gramp greater than zero, a linear envelope will be
-applied to each grain. If @gramp = 100, the resultant grain &#34;window&#34; is
-triangular while @gramp = 50 produces a trapezoidal window.<br>
-_тип:_ int<br>
-_единица:_ %<br>
-_диапазон:_ 1..100<br>
-_по умолчанию:_ 50<br>
+_единица:_ ms<br>
+_минимальное значение:_ 0<br>
+_по умолчанию:_ 0<br>
 
 * **@gdur** 
 Запросить/установить grain duration<br>
@@ -91,12 +64,39 @@ _единица:_ ms<br>
 _минимальное значение:_ 0<br>
 _по умолчанию:_ 0<br>
 
-* **@gdelay** 
-Запросить/установить delay parameter that causes grain calculations to pause between grains<br>
+* **@gramp** 
+Запросить/установить grain ramp. For values of @gramp greater than zero, a linear envelope will be
+applied to each grain. If @gramp = 100, the resultant grain &#34;window&#34; is
+triangular while @gramp = 50 produces a trapezoidal window.<br>
 _тип:_ int<br>
-_единица:_ ms<br>
-_минимальное значение:_ 0<br>
-_по умолчанию:_ 0<br>
+_единица:_ %<br>
+_диапазон:_ 1..100<br>
+_по умолчанию:_ 50<br>
+
+* **@random** 
+Запросить/установить factor used when setting individual grain parameters. This random factor is
+applied when all grain state durations are calculated. If set to 0.0, no
+randomness occurs. When @random=0.5, a grain segment of length duration will be
+randomly augmented by up to +-duration seconds (i.e., a 30 millisecond length
+will be augmented by an extra length of up to +15 or -15 milliseconds)<br>
+_тип:_ float<br>
+_диапазон:_ 0..0.97<br>
+_по умолчанию:_ 0.1<br>
+
+* **@stretch** 
+Запросить/установить stretch factor used for grain playback (1 - 1000). Granular synthesis allows
+for time-stetching without affecting the original pitch of a sound. A stretch
+factor of 4 will produce a resulting sound of length 4 times the orignal sound.
+The default parameter of 1 produces no stretching.<br>
+_тип:_ int<br>
+_диапазон:_ 1..1000<br>
+_по умолчанию:_ 1<br>
+
+* **@voices** 
+Запросить/установить number of simultaneous grain &#34;voices&#34; to use<br>
+_тип:_ int<br>
+_диапазон:_ 0..200<br>
+_по умолчанию:_ 1<br>
 
 
 

@@ -39,25 +39,6 @@ note on/off message<br>
 
 ## свойства:
 
-* **@freq** 
-Запросить/установить maximum speed of whistles<br>
-_тип:_ float<br>
-_единица:_ Hz<br>
-_диапазон:_ 0..480<br>
-_по умолчанию:_ 130.8128<br>
-
-* **@pitch** 
-Запросить/установить midi pitch<br>
-_тип:_ float<br>
-_диапазон:_ 24..84<br>
-_по умолчанию:_ 48<br>
-
-* **@gate** 
-Запросить/установить synth gate (&gt;0 - play)<br>
-_тип:_ float<br>
-_диапазон:_ 0..1<br>
-_по умолчанию:_ 0<br>
-
 * **@osc** (initonly)
 Запросить/установить OSC server name to listen<br>
 _тип:_ symbol<br>
@@ -66,6 +47,25 @@ _тип:_ symbol<br>
 Запросить/установить OSC address id. If specified, bind all properties to /ID/synth_dx7/PROP_NAME
 osc address, if empty bind to /synth_dx7/PROP_NAME.<br>
 _тип:_ symbol<br>
+
+* **@freq** 
+Запросить/установить maximum speed of whistles<br>
+_тип:_ float<br>
+_единица:_ Hz<br>
+_диапазон:_ 0..480<br>
+_по умолчанию:_ 130.8128<br>
+
+* **@gate** 
+Запросить/установить synth gate (&gt;0 - play)<br>
+_тип:_ float<br>
+_диапазон:_ 0..1<br>
+_по умолчанию:_ 0<br>
+
+* **@pitch** 
+Запросить/установить midi pitch<br>
+_тип:_ float<br>
+_диапазон:_ 24..84<br>
+_по умолчанию:_ 48<br>
 
 
 

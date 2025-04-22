@@ -31,14 +31,14 @@ _тип:_ int<br>
 
 ## свойства:
 
-* **@from** 
-Запросить/установить enumeration start index<br>
-_тип:_ int<br>
-_по умолчанию:_ 0<br>
-
 * **@append** (initonly)
 Запросить/установить put element index after element value<br>
 _тип:_ flag<br>
+_по умолчанию:_ 0<br>
+
+* **@from** 
+Запросить/установить enumeration start index<br>
+_тип:_ int<br>
 _по умолчанию:_ 0<br>
 
 

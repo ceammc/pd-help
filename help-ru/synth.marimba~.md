@@ -39,23 +39,20 @@ note on/off message<br>
 
 ## свойства:
 
-* **@pitch** 
-Запросить/установить midi pitch<br>
-_тип:_ float<br>
-_диапазон:_ 36..84<br>
-_по умолчанию:_ 48<br>
+* **@osc** (initonly)
+Запросить/установить OSC server name to listen<br>
+_тип:_ symbol<br>
 
-* **@freq** 
-Запросить/установить frequency<br>
-_тип:_ float<br>
-_единица:_ Hz<br>
-_по умолчанию:_ 130.8128<br>
+* **@id** (initonly)
+Запросить/установить OSC address id. If specified, bind all properties to
+/ID/synth_marimba/PROP_NAME osc address, if empty bind to
+/synth_marimba/PROP_NAME.<br>
+_тип:_ symbol<br>
 
-* **@pos** 
-Запросить/установить excitation position<br>
-_тип:_ float<br>
-_диапазон:_ 0..4<br>
-_по умолчанию:_ 0<br>
+* **@active** 
+Запросить/установить on/off dsp processing<br>
+_тип:_ bool<br>
+_по умолчанию:_ 1<br>
 
 * **@cutoff** 
 Запросить/установить cuttoff frequency of the strike generator<br>
@@ -63,11 +60,11 @@ _тип:_ float<br>
 _диапазон:_ 1000..10000<br>
 _по умолчанию:_ 7000<br>
 
-* **@sharp** 
-Запросить/установить sharpness of the strike<br>
+* **@freq** 
+Запросить/установить frequency<br>
 _тип:_ float<br>
-_диапазон:_ 0.01..1<br>
-_по умолчанию:_ 0.25<br>
+_единица:_ Hz<br>
+_по умолчанию:_ 130.8128<br>
 
 * **@gain** 
 Запросить/установить strike gain<br>
@@ -81,20 +78,23 @@ _тип:_ float<br>
 _диапазон:_ 0..1<br>
 _по умолчанию:_ 0<br>
 
-* **@active** 
-Запросить/установить on/off dsp processing<br>
-_тип:_ bool<br>
-_по умолчанию:_ 1<br>
+* **@pitch** 
+Запросить/установить midi pitch<br>
+_тип:_ float<br>
+_диапазон:_ 36..84<br>
+_по умолчанию:_ 48<br>
 
-* **@osc** (initonly)
-Запросить/установить OSC server name to listen<br>
-_тип:_ symbol<br>
+* **@pos** 
+Запросить/установить excitation position<br>
+_тип:_ float<br>
+_диапазон:_ 0..4<br>
+_по умолчанию:_ 0<br>
 
-* **@id** (initonly)
-Запросить/установить OSC address id. If specified, bind all properties to
-/ID/synth_marimba/PROP_NAME osc address, if empty bind to
-/synth_marimba/PROP_NAME.<br>
-_тип:_ symbol<br>
+* **@sharp** 
+Запросить/установить sharpness of the strike<br>
+_тип:_ float<br>
+_диапазон:_ 0.01..1<br>
+_по умолчанию:_ 0.25<br>
 
 
 

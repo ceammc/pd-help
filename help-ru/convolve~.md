@@ -23,19 +23,19 @@ layout: default_ru
 
 ## методы:
 
+* **load_array**
+load IR from array<br>
+  __параметры:__
+  - **ARRAY** array name<br>
+    тип: symbol <br>
+    обязательно: True <br>
+
 * **load_file**
 load IR from specified file (resamples if required from file samplerate to
 runtime samplerate)<br>
   __параметры:__
   - **FILE** file name, relative or absolute<br>
     тип: atom <br>
-    обязательно: True <br>
-
-* **load_array**
-load IR from array<br>
-  __параметры:__
-  - **ARRAY** array name<br>
-    тип: symbol <br>
     обязательно: True <br>
 
 * **set**
@@ -50,13 +50,6 @@ set IR from list<br>
 
 ## свойства:
 
-* **@offset** 
-Запросить/установить impulse response (IR) offset<br>
-_тип:_ int<br>
-_единица:_ samp<br>
-_минимальное значение:_ 0<br>
-_по умолчанию:_ 0<br>
-
 * **@maxsize** 
 Запросить/установить max impulse response size<br>
 _тип:_ int<br>
@@ -68,6 +61,13 @@ _по умолчанию:_ 50000<br>
 Запросить/установить normalize impulse response<br>
 _тип:_ bool<br>
 _по умолчанию:_ 1<br>
+
+* **@offset** 
+Запросить/установить impulse response (IR) offset<br>
+_тип:_ int<br>
+_единица:_ samp<br>
+_минимальное значение:_ 0<br>
+_по умолчанию:_ 0<br>
 
 
 

@@ -45,6 +45,11 @@ _единица:_ ms<br>
 _диапазон:_ 5..1000<br>
 _по умолчанию:_ 100<br>
 
+* **@external** 
+Запросить/установить use external clock<br>
+_тип:_ bool<br>
+_по умолчанию:_ 0<br>
+
 * **@letter** 
 Запросить/установить space between letters in dot units<br>
 _тип:_ int<br>
@@ -56,11 +61,6 @@ _по умолчанию:_ 3<br>
 _тип:_ int<br>
 _диапазон:_ 2..20<br>
 _по умолчанию:_ 5<br>
-
-* **@external** 
-Запросить/установить use external clock<br>
-_тип:_ bool<br>
-_по умолчанию:_ 0<br>
 
 
 

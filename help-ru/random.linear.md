@@ -27,16 +27,6 @@ Generates random number in interval [@v0, @v1) with linear distribution [@p0, @p
 
 ## свойства:
 
-* **@v0** 
-Запросить/установить begin of value interval<br>
-_тип:_ float<br>
-_по умолчанию:_ 0<br>
-
-* **@v1** 
-Запросить/установить end of value interval<br>
-_тип:_ float<br>
-_по умолчанию:_ 1<br>
-
 * **@p0** 
 Запросить/установить probability at begin<br>
 _тип:_ float<br>
@@ -52,6 +42,16 @@ _по умолчанию:_ 0<br>
 _тип:_ int<br>
 _минимальное значение:_ 0<br>
 _по умолчанию:_ 0<br>
+
+* **@v0** 
+Запросить/установить begin of value interval<br>
+_тип:_ float<br>
+_по умолчанию:_ 0<br>
+
+* **@v1** 
+Запросить/установить end of value interval<br>
+_тип:_ float<br>
+_по умолчанию:_ 1<br>
 
 
 

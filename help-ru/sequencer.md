@@ -52,15 +52,48 @@ manually output current element and move to next<br>
 
 ## свойства:
 
-* **@v** 
-Запросить/установить sequence elements<br>
-_тип:_ list<br>
+* **@div** 
+Запросить/установить beat subdivision<br>
+_тип:_ int<br>
+_диапазон:_ 1..64<br>
+_по умолчанию:_ 1<br>
 
 * **@dur** 
 Запросить/установить whole sequence duration. Changing this property also changes @t interval
 between bangs.<br>
 _тип:_ float<br>
 _минимальное значение:_ 0<br>
+_по умолчанию:_ 0<br>
+
+* **@i** (readonly)
+Запросить current sequence iteration<br>
+_тип:_ int<br>
+_по умолчанию:_ 0<br>
+
+* **@inf** 
+Запросить/установить alias to @r -1<br>
+_тип:_ alias<br>
+
+* **@mode** 
+Запросить/установить sequencer mode. &#39;inc&#39;: from first to last, &#39;dec&#39;: from last to first, &#39;tri&#39;:
+from first to last, then back<br>
+_тип:_ symbol<br>
+_варианты:_ inc, dec, tri<br>
+_по умолчанию:_ inc<br>
+
+* **@once** 
+Запросить/установить alias to @r 1<br>
+_тип:_ alias<br>
+
+* **@r** 
+Запросить/установить number of whole sequence repeats. If -1: output infinitly.<br>
+_тип:_ int<br>
+_минимальное значение:_ -1<br>
+_по умолчанию:_ 1<br>
+
+* **@ri** (readonly)
+Запросить current repeat iteration<br>
+_тип:_ int<br>
 _по умолчанию:_ 0<br>
 
 * **@t** 
@@ -71,48 +104,15 @@ _единица:_ ms<br>
 _диапазон:_ 1..20000<br>
 _по умолчанию:_ 20<br>
 
-* **@r** 
-Запросить/установить number of whole sequence repeats. If -1: output infinitly.<br>
-_тип:_ int<br>
-_минимальное значение:_ -1<br>
-_по умолчанию:_ 1<br>
-
-* **@once** 
-Запросить/установить alias to @r 1<br>
-_тип:_ alias<br>
-
-* **@inf** 
-Запросить/установить alias to @r -1<br>
-_тип:_ alias<br>
-
-* **@i** (readonly)
-Запросить current sequence iteration<br>
-_тип:_ int<br>
-_по умолчанию:_ 0<br>
-
-* **@ri** (readonly)
-Запросить current repeat iteration<br>
-_тип:_ int<br>
-_по умолчанию:_ 0<br>
-
-* **@div** 
-Запросить/установить beat subdivision<br>
-_тип:_ int<br>
-_диапазон:_ 1..64<br>
-_по умолчанию:_ 1<br>
-
 * **@upbeat** 
 Запросить/установить wait specified number of beats before sequence start<br>
 _тип:_ float<br>
 _минимальное значение:_ 0<br>
 _по умолчанию:_ 0<br>
 
-* **@mode** 
-Запросить/установить sequencer mode. &#39;inc&#39;: from first to last, &#39;dec&#39;: from last to first, &#39;tri&#39;:
-from first to last, then back<br>
-_тип:_ symbol<br>
-_варианты:_ inc, dec, tri<br>
-_по умолчанию:_ inc<br>
+* **@v** 
+Запросить/установить sequence elements<br>
+_тип:_ list<br>
 
 
 

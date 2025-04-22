@@ -25,6 +25,9 @@ Service &#39;.local.&#39; domain suffix is optional and can be omitted. There ar
 
 ## методы:
 
+* **ifaces**
+output available network interfaces and their info<br>
+
 * **register**
 register MDNS service instance. Instance will be available with DNS name
 NAME.local<br>
@@ -44,10 +47,11 @@ NAME.local<br>
   - **[PROPS]** list of text props (TXT record), for example: @prop1 FOO @prop2 BOO will have TXT records prop1=FOO prop2=BAR<br>
     тип: list <br>
 
-* **unregister**
-manually unregister service instance.<br>
+* **resolve**
+does mDNS name resolving: get service information: host, ip, port etc by
+SERVICE type and INSTANCE name<br>
   __параметры:__
-  - **SERVICE** service name, for example: _osc._tcp, or alias: #osc<br>
+  - **SERVICE** service name, for example: _osc._tcp, or alias: #osc or #http<br>
     тип: symbol <br>
     обязательно: True <br>
 
@@ -65,25 +69,21 @@ subscribe to service events: add, remove and resolve<br>
   - **[ON=true]** if true: subscribe, false: unsubscribe<br>
     тип: bool <br>
 
-* **unsubscribe**
-unsubscribe from specified service events<br>
+* **unregister**
+manually unregister service instance.<br>
   __параметры:__
-  - **SERVICE** service name, for example: _osc._tcp, or alias: #osc or #all<br>
-    тип: symbol <br>
-    обязательно: True <br>
-
-* **ifaces**
-output available network interfaces and their info<br>
-
-* **resolve**
-does mDNS name resolving: get service information: host, ip, port etc by
-SERVICE type and INSTANCE name<br>
-  __параметры:__
-  - **SERVICE** service name, for example: _osc._tcp, or alias: #osc or #http<br>
+  - **SERVICE** service name, for example: _osc._tcp, or alias: #osc<br>
     тип: symbol <br>
     обязательно: True <br>
 
   - **NAME** instance name, for example: MY_SUPER_SERVER<br>
+    тип: symbol <br>
+    обязательно: True <br>
+
+* **unsubscribe**
+unsubscribe from specified service events<br>
+  __параметры:__
+  - **SERVICE** service name, for example: _osc._tcp, or alias: #osc or #all<br>
     тип: symbol <br>
     обязательно: True <br>
 
@@ -92,17 +92,17 @@ SERVICE type and INSTANCE name<br>
 
 ## свойства:
 
-* **@ip** 
-Запросить/установить restrict addresses by type<br>
-_тип:_ symbol<br>
-_варианты:_ v4, v6, any<br>
-_по умолчанию:_ v4<br>
-
 * **@fullname** 
 Запросить/установить if true: output full instance name (with service and domain suffix), for ex.:
 &#39;THE_SERVICE._xx.local.&#39; format<br>
 _тип:_ bool<br>
 _по умолчанию:_ 1<br>
+
+* **@ip** 
+Запросить/установить restrict addresses by type<br>
+_тип:_ symbol<br>
+_варианты:_ v4, v6, any<br>
+_по умолчанию:_ v4<br>
 
 
 

@@ -33,6 +33,26 @@ _тип:_ list<br>
 
 ## свойства:
 
+* **@clip** 
+Запросить/установить alias to @method clip. If index &lt; 0 - return first element. If index greater or
+equal list size - return last element<br>
+_тип:_ alias<br>
+
+* **@default** 
+Запросить/установить default output value if not found. If not set, outputs error message to console<br>
+_тип:_ atom<br>
+_по умолчанию:_ null<br>
+
+* **@fold** 
+Запросить/установить alias to @method fold. In range [0, LIST_SIZE) ordinal elements are returned.
+[LIST_SIZE, 2*LIST_SIZE) - returned in negative order etc.<br>
+_тип:_ alias<br>
+
+* **@index** 
+Запросить/установить indexes<br>
+_тип:_ list<br>
+_по умолчанию:_ 0<br>
+
 * **@method** 
 Запросить/установить methods of processing of negative/invalid indexes<br>
 _тип:_ symbol<br>
@@ -43,30 +63,10 @@ _по умолчанию:_ rel<br>
 Запросить/установить alias to @method rel. Negative index means position from the end of the list<br>
 _тип:_ alias<br>
 
-* **@clip** 
-Запросить/установить alias to @method clip. If index &lt; 0 - return first element. If index greater or
-equal list size - return last element<br>
-_тип:_ alias<br>
-
-* **@fold** 
-Запросить/установить alias to @method fold. In range [0, LIST_SIZE) ordinal elements are returned.
-[LIST_SIZE, 2*LIST_SIZE) - returned in negative order etc.<br>
-_тип:_ alias<br>
-
 * **@wrap** 
 Запросить/установить alias to @method wrap. In range [0, LIST_SIZE) ordinal elements are returned.
 Other indexes are wrapped by modulo division.<br>
 _тип:_ alias<br>
-
-* **@index** 
-Запросить/установить indexes<br>
-_тип:_ list<br>
-_по умолчанию:_ 0<br>
-
-* **@default** 
-Запросить/установить default output value if not found. If not set, outputs error message to console<br>
-_тип:_ atom<br>
-_по умолчанию:_ null<br>
 
 
 

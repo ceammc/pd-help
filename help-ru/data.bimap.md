@@ -70,15 +70,6 @@ write to JSON file, to overwrite existing file use @force flag<br>
 
 ## свойства:
 
-* **@value** 
-Запросить/установить value, list of pairs: LEFT_KEY1 RIGHT_KEY1 LEFT_KEY2 RIGHT_KEY2 etc.<br>
-_тип:_ list<br>
-
-* **@size** (readonly)
-Запросить number of left-right pairs in map<br>
-_тип:_ int<br>
-_по умолчанию:_ 0<br>
-
 * **@empty** (readonly)
 Запросить true if empty<br>
 _тип:_ bool<br>
@@ -90,6 +81,15 @@ _тип:_ list<br>
 
 * **@keys_right** (readonly)
 Запросить list of right map keys<br>
+_тип:_ list<br>
+
+* **@size** (readonly)
+Запросить number of left-right pairs in map<br>
+_тип:_ int<br>
+_по умолчанию:_ 0<br>
+
+* **@value** 
+Запросить/установить value, list of pairs: LEFT_KEY1 RIGHT_KEY1 LEFT_KEY2 RIGHT_KEY2 etc.<br>
 _тип:_ list<br>
 
 

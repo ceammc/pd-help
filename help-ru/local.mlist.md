@@ -119,15 +119,15 @@ sorts list<br>
 
 ## свойства:
 
-* **@id** (initonly)
-Запросить/установить local variable id<br>
-_тип:_ symbol<br>
-_по умолчанию:_ default<br>
-
 * **@empty** (readonly)
 Запросить 1 if list is empty, otherwise 0<br>
 _тип:_ bool<br>
 _по умолчанию:_ 1<br>
+
+* **@id** (initonly)
+Запросить/установить local variable id<br>
+_тип:_ symbol<br>
+_по умолчанию:_ default<br>
 
 * **@size** (readonly)
 Запросить number of elements in list<br>

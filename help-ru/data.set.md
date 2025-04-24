@@ -6,7 +6,7 @@ layout: default_ru
 
 # data.set
 
-###### container that store unique elements
+###### множество: контейнер, в котором хранятся только уникальные элементы
 
 *доступно с версии:* 0.3
 

@@ -66,7 +66,7 @@ _псевдонимы:_ \[ceammc/merge~\]
 _псевдонимы:_ \[ceammc/mix~\]
 
 
-[**nsig~**](nsig~.html): Mulitchannel converter from control to audio rate <br>
+[**nsig~**](nsig~.html): multichannel converter from control to audio rate <br>
 _псевдонимы:_ \[ceammc/nsig~\]
 
 

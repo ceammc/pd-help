@@ -3,7 +3,7 @@
 
 # an.onset~
 
-###### onset detector
+###### the signal onset detector
 
 *available since version:* 0.9
 

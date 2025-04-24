@@ -5,7 +5,7 @@
 **aliases:** [ceammc/mlist], [mlist], [ceammc/ml], [ml]
 
 
-###### multidimensional list container
+###### the multidimensional list container
 
 *available since version:* 0.6
 

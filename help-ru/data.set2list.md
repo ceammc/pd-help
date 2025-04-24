@@ -6,7 +6,7 @@ layout: default_ru
 
 # data.set2list
 
-###### converts set to list
+###### преобразует множество в список
 
 *доступно с версии:* 0.3
 

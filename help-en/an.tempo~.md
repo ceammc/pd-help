@@ -3,7 +3,7 @@
 
 # an.tempo~
 
-###### tempo detector
+###### the signal tempo detector
 
 *available since version:* 0.9.3
 

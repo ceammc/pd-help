@@ -6,7 +6,7 @@ layout: default_ru
 
 # data.mlist
 
-###### multidimensional list container
+###### многомерный список
 
 *доступно с версии:* 0.6
 

@@ -6,7 +6,7 @@ layout: default_ru
 
 # data.color
 
-###### Color datatype
+###### цветовой тип данных
 
 *доступно с версии:* 0.9.7
 

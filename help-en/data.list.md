@@ -3,7 +3,7 @@
 
 # data.list
 
-###### list container
+###### the list container
 
 *available since version:* 0.1
 

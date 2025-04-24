@@ -3,7 +3,7 @@
 
 # data.fifo
 
-###### First-In-First-Out (FIFO) queue data container
+###### FIFO (First In First Out) - the queue data container
 
 *available since version:* 0.1
 

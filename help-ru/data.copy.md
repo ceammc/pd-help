@@ -6,7 +6,7 @@ layout: default_ru
 
 # data.copy
 
-###### make copy for any data types: MList, Set etc...
+###### делает копии любых типов данных: MList, Set и т.д.
 
 *доступно с версии:* 0.9.2
 

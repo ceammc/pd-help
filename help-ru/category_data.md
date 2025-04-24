@@ -14,41 +14,41 @@ layout: default_ru
 
 [**color.scale**](color.scale.html): create color scales 
 
-[**data.bimap**](data.bimap.html): bidirectional map container <br>
+[**data.bimap**](data.bimap.html): двунаправленное отображение <br>
 _псевдонимы:_ \[ceammc/bimap\], \[bimap\]
 
 
-[**data.color**](data.color.html): Color datatype <br>
+[**data.color**](data.color.html): цветовой тип данных <br>
 _псевдонимы:_ \[color\], \[ceammc/color\]
 
 
-[**data.copy**](data.copy.html): make copy for any data types: MList, Set etc... 
+[**data.copy**](data.copy.html): делает копии любых типов данных: MList, Set и т.д. 
 
-[**data.dict**](data.dict.html): dictionary container: store values by key <br>
+[**data.dict**](data.dict.html): контейнер словаря: хранит пары ключ-значение <br>
 _псевдонимы:_ \[ceammc/dict\], \[dict\]
 
 
-[**data.fifo**](data.fifo.html): First-In-First-Out (FIFO) queue data container 
+[**data.fifo**](data.fifo.html): FIFO First In First Out) - контейнер данных &#34;очередь&#34; 
 
-[**data.float**](data.float.html): robust float object <br>
+[**data.float**](data.float.html): многофункциональный объект числа с плавающей точкой <br>
 _псевдонимы:_ \[.float\], \[.f\]
 
 
-[**data.int**](data.int.html): robust int object <br>
+[**data.int**](data.int.html): многофункциональный объект целого числа <br>
 _псевдонимы:_ \[.int\], \[.i\]
 
 
-[**data.list**](data.list.html): list container 
+[**data.list**](data.list.html): cписок 
 
-[**data.mlist**](data.mlist.html): multidimensional list container <br>
+[**data.mlist**](data.mlist.html): многомерный список <br>
 _псевдонимы:_ \[ceammc/mlist\], \[mlist\], \[ceammc/ml\], \[ml\]
 
 
 [**data.path**](data.path.html): тип данных: путь в файловой системе 
 
-[**data.set**](data.set.html): container that store unique elements 
+[**data.set**](data.set.html): множество: контейнер, в котором хранятся только уникальные элементы 
 
-[**data.set2list**](data.set2list.html): converts set to list <br>
+[**data.set2list**](data.set2list.html): преобразует множество в список <br>
 _псевдонимы:_ \[ceammc/set-&gt;list\], \[set-&gt;list\]
 
 

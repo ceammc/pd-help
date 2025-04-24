@@ -5,7 +5,7 @@
 **aliases:** [ceammc/set-&gt;list], [set-&gt;list]
 
 
-###### converts set to list
+###### converts the set to the list
 
 *available since version:* 0.3
 

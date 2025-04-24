@@ -3,7 +3,7 @@
 
 # data.copy
 
-###### make copy for any data types: MList, Set etc...
+###### makes a copy for any data type: MList, Set etc...
 
 *available since version:* 0.9.2
 

@@ -5,7 +5,7 @@
 **aliases:** [.float], [.f]
 
 
-###### robust float object
+###### a multi-functional float object
 
 *available since version:* 0.6
 

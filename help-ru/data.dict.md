@@ -6,7 +6,7 @@ layout: default_ru
 
 # data.dict
 
-###### dictionary container: store values by key
+###### контейнер словаря: хранит пары ключ-значение
 
 *доступно с версии:* 0.6
 

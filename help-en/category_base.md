@@ -62,7 +62,7 @@ _aliases:_ \[ceammc/merge\~\]
 _aliases:_ \[ceammc/mix\~\]
 
 
-[**nsig\~**](nsig~.html): Mulitchannel converter from control to audio rate <br>
+[**nsig\~**](nsig~.html): multichannel converter from control to audio rate <br>
 _aliases:_ \[ceammc/nsig\~\]
 
 

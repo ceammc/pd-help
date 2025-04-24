@@ -61,13 +61,13 @@ objects to analyse sounds properties
 
 [**an.onset**](an.onset.html): onset detector for arrays 
 
-[**an.onset\~**](an.onset~.html): onset detector 
+[**an.onset\~**](an.onset~.html): the signal onset detector 
 
-[**an.pitchtrack\~**](an.pitchtrack~.html): pitch tracker 
+[**an.pitchtrack\~**](an.pitchtrack~.html): the signal pitch tracker 
 
 [**an.rms\~**](an.rms~.html): root mean square of the signal with moving-average algorithm 
 
-[**an.tempo\~**](an.tempo~.html): tempo detector 
+[**an.tempo\~**](an.tempo~.html): the signal tempo detector 
 
 [**an.zero\~**](an.zero~.html): calculate the signal zero crossing count/rate/freq 
 
@@ -185,7 +185,7 @@ objects for working with arrays and tables
 
 [**mix\~**](mix~.html): multislot signal mixer 
 
-[**nsig\~**](nsig~.html): Mulitchannel converter from control to audio rate 
+[**nsig\~**](nsig~.html): multichannel converter from control to audio rate 
 
 [**obj.props**](obj.props.html): property extractor 
 
@@ -354,27 +354,27 @@ objects for working with arrays and tables
 
 [**data.bimap**](data.bimap.html): bidirectional map container 
 
-[**data.color**](data.color.html): Color datatype 
+[**data.color**](data.color.html): color datatype 
 
-[**data.copy**](data.copy.html): make copy for any data types: MList, Set etc... 
+[**data.copy**](data.copy.html): makes a copy for any data type: MList, Set etc... 
 
-[**data.dict**](data.dict.html): dictionary container: store values by key 
+[**data.dict**](data.dict.html): the dictionary container: stores key-values pairs 
 
-[**data.fifo**](data.fifo.html): First-In-First-Out (FIFO) queue data container 
+[**data.fifo**](data.fifo.html): FIFO (First In First Out) - the queue data container 
 
-[**data.float**](data.float.html): robust float object 
+[**data.float**](data.float.html): a multi-functional float object 
 
-[**data.int**](data.int.html): robust int object 
+[**data.int**](data.int.html): a multi-functional integer object 
 
-[**data.list**](data.list.html): list container 
+[**data.list**](data.list.html): the list container 
 
-[**data.mlist**](data.mlist.html): multidimensional list container 
+[**data.mlist**](data.mlist.html): the multidimensional list container 
 
 [**data.path**](data.path.html): filesystem path datatype 
 
-[**data.set**](data.set.html): container that store unique elements 
+[**data.set**](data.set.html): the set: container that store only unique elements 
 
-[**data.set2list**](data.set2list.html): converts set to list 
+[**data.set2list**](data.set2list.html): converts the set to the list 
 
 [**dict.contains**](dict.contains.html): predicate to check if dict contains a keys 
 

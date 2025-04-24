@@ -5,7 +5,7 @@
 **aliases:** [.int], [.i]
 
 
-###### robust int object
+###### a multi-functional integer object
 
 *available since version:* 0.6
 

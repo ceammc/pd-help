@@ -14,37 +14,37 @@
 _aliases:_ \[ceammc/bimap\], \[bimap\]
 
 
-[**data.color**](data.color.html): Color datatype <br>
+[**data.color**](data.color.html): color datatype <br>
 _aliases:_ \[color\], \[ceammc/color\]
 
 
-[**data.copy**](data.copy.html): make copy for any data types: MList, Set etc... 
+[**data.copy**](data.copy.html): makes a copy for any data type: MList, Set etc... 
 
-[**data.dict**](data.dict.html): dictionary container: store values by key <br>
+[**data.dict**](data.dict.html): the dictionary container: stores key-values pairs <br>
 _aliases:_ \[ceammc/dict\], \[dict\]
 
 
-[**data.fifo**](data.fifo.html): First-In-First-Out (FIFO) queue data container 
+[**data.fifo**](data.fifo.html): FIFO (First In First Out) - the queue data container 
 
-[**data.float**](data.float.html): robust float object <br>
+[**data.float**](data.float.html): a multi-functional float object <br>
 _aliases:_ \[.float\], \[.f\]
 
 
-[**data.int**](data.int.html): robust int object <br>
+[**data.int**](data.int.html): a multi-functional integer object <br>
 _aliases:_ \[.int\], \[.i\]
 
 
-[**data.list**](data.list.html): list container 
+[**data.list**](data.list.html): the list container 
 
-[**data.mlist**](data.mlist.html): multidimensional list container <br>
+[**data.mlist**](data.mlist.html): the multidimensional list container <br>
 _aliases:_ \[ceammc/mlist\], \[mlist\], \[ceammc/ml\], \[ml\]
 
 
 [**data.path**](data.path.html): filesystem path datatype 
 
-[**data.set**](data.set.html): container that store unique elements 
+[**data.set**](data.set.html): the set: container that store only unique elements 
 
-[**data.set2list**](data.set2list.html): converts set to list <br>
+[**data.set2list**](data.set2list.html): converts the set to the list <br>
 _aliases:_ \[ceammc/set-&gt;list\], \[set-&gt;list\]
 
 

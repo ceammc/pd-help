@@ -5,7 +5,7 @@
 **aliases:** [ceammc/dict], [dict]
 
 
-###### dictionary container: store values by key
+###### the dictionary container: stores key-values pairs
 
 *available since version:* 0.6
 

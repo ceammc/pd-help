@@ -5,7 +5,7 @@
 **aliases:** [color], [ceammc/color]
 
 
-###### Color datatype
+###### color datatype
 
 *available since version:* 0.9.7
 

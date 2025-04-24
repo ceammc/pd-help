@@ -64,13 +64,13 @@ layout: default_ru
 
 [**an.onset**](an.onset.html): детектор атаки для массивов 
 
-[**an.onset~**](an.onset~.html): детектор атаки 
+[**an.onset~**](an.onset~.html): детектор атаки сигнала 
 
-[**an.pitchtrack~**](an.pitchtrack~.html): питч-трекер 
+[**an.pitchtrack~**](an.pitchtrack~.html): отслеживает высоту сигнала 
 
 [**an.rms~**](an.rms~.html): среднее квадратичное сигнала с алгоритмом скользящего среднего 
 
-[**an.tempo~**](an.tempo~.html): детектор темпа 
+[**an.tempo~**](an.tempo~.html): детектор темпа сигнала 
 
 [**an.zero~**](an.zero~.html): вычисление частоты/скорости/числа пересечения сигналом нулевого значения 
 
@@ -188,7 +188,7 @@ layout: default_ru
 
 [**mix~**](mix~.html): multislot signal mixer 
 
-[**nsig~**](nsig~.html): Mulitchannel converter from control to audio rate 
+[**nsig~**](nsig~.html): multichannel converter from control to audio rate 
 
 [**obj.props**](obj.props.html): property extractor 
 
@@ -355,29 +355,29 @@ layout: default_ru
 
 [**color.scale**](color.scale.html): create color scales 
 
-[**data.bimap**](data.bimap.html): bidirectional map container 
+[**data.bimap**](data.bimap.html): двунаправленное отображение 
 
-[**data.color**](data.color.html): Color datatype 
+[**data.color**](data.color.html): цветовой тип данных 
 
-[**data.copy**](data.copy.html): make copy for any data types: MList, Set etc... 
+[**data.copy**](data.copy.html): делает копии любых типов данных: MList, Set и т.д. 
 
-[**data.dict**](data.dict.html): dictionary container: store values by key 
+[**data.dict**](data.dict.html): контейнер словаря: хранит пары ключ-значение 
 
-[**data.fifo**](data.fifo.html): First-In-First-Out (FIFO) queue data container 
+[**data.fifo**](data.fifo.html): FIFO First In First Out) - контейнер данных &#34;очередь&#34; 
 
-[**data.float**](data.float.html): robust float object 
+[**data.float**](data.float.html): многофункциональный объект числа с плавающей точкой 
 
-[**data.int**](data.int.html): robust int object 
+[**data.int**](data.int.html): многофункциональный объект целого числа 
 
-[**data.list**](data.list.html): list container 
+[**data.list**](data.list.html): cписок 
 
-[**data.mlist**](data.mlist.html): multidimensional list container 
+[**data.mlist**](data.mlist.html): многомерный список 
 
 [**data.path**](data.path.html): тип данных: путь в файловой системе 
 
-[**data.set**](data.set.html): container that store unique elements 
+[**data.set**](data.set.html): множество: контейнер, в котором хранятся только уникальные элементы 
 
-[**data.set2list**](data.set2list.html): converts set to list 
+[**data.set2list**](data.set2list.html): преобразует множество в список 
 
 [**dict.contains**](dict.contains.html): predicate to check if dict contains a keys 
 

@@ -6,7 +6,7 @@ layout: default_ru
 
 # data.fifo
 
-###### First-In-First-Out (FIFO) queue data container
+###### FIFO First In First Out) - контейнер данных &#34;очередь&#34;
 
 *доступно с версии:* 0.1
 

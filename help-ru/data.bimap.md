@@ -6,7 +6,7 @@ layout: default_ru
 
 # data.bimap
 
-###### bidirectional map container
+###### двунаправленное отображение
 
 *доступно с версии:* 0.9.7
 

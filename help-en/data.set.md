@@ -3,7 +3,7 @@
 
 # data.set
 
-###### container that store unique elements
+###### the set: container that store only unique elements
 
 *available since version:* 0.3
 

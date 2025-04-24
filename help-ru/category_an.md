@@ -12,15 +12,15 @@ layout: default_ru
 
 [**an.onset**](an.onset.html): детектор атаки для массивов 
 
-[**an.onset~**](an.onset~.html): детектор атаки 
+[**an.onset~**](an.onset~.html): детектор атаки сигнала 
 
-[**an.pitchtrack~**](an.pitchtrack~.html): питч-трекер <br>
+[**an.pitchtrack~**](an.pitchtrack~.html): отслеживает высоту сигнала <br>
 _псевдонимы:_ \[ceammc/helmholtz~\], \[helmholtz~\]
 
 
 [**an.rms~**](an.rms~.html): среднее квадратичное сигнала с алгоритмом скользящего среднего 
 
-[**an.tempo~**](an.tempo~.html): детектор темпа 
+[**an.tempo~**](an.tempo~.html): детектор темпа сигнала 
 
 [**an.zero~**](an.zero~.html): вычисление частоты/скорости/числа пересечения сигналом нулевого значения 
 

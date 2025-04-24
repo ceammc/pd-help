@@ -5,7 +5,7 @@
 **aliases:** [ceammc/helmholtz\~], [helmholtz\~]
 
 
-###### pitch tracker
+###### the signal pitch tracker
 
 *available since version:* 0.7
 

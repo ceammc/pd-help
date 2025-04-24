@@ -3,7 +3,7 @@
 
 # array.convolve
 
-###### array FFT convolution
+###### FFT convolution of the array
 
 *available since version:* 0.9.5
 

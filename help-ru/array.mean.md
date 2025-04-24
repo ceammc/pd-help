@@ -6,7 +6,7 @@ layout: default_ru
 
 # array.mean
 
-###### calculates array arithmetic mean value
+###### вычисляет среднее арифметическое значение массива
 
 *доступно с версии:* 0.8
 

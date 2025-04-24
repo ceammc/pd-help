@@ -6,7 +6,7 @@ layout: default_ru
 
 # array.fill
 
-###### fill array with single value, pattern or function
+###### заполнение массива одним значением, шаблоном или функцией
 
 *доступно с версии:* 0.3
 

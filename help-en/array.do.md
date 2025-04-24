@@ -3,7 +3,7 @@
 
 # array.do
 
-###### iterate and modify array content via side-chain
+###### iterate and modify the array content via the side-chain
 
 *available since version:* 0.3
 

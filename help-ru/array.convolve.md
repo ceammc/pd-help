@@ -6,7 +6,7 @@ layout: default_ru
 
 # array.convolve
 
-###### array FFT convolution
+###### FFT свертка массива
 
 *доступно с версии:* 0.9.5
 

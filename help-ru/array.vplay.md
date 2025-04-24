@@ -6,7 +6,7 @@ layout: default_ru
 
 # array.vplay
 
-###### simple array player for using with vline~
+###### простой плеер массивов для использования с объектом vline~
 
 *доступно с версии:* 0.5
 

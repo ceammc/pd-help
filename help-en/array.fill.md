@@ -3,7 +3,7 @@
 
 # array.fill
 
-###### fill array with single value, pattern or function
+###### fill the array with the single value, pattern or function
 
 *available since version:* 0.3
 

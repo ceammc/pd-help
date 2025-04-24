@@ -6,7 +6,7 @@ layout: default_ru
 
 # array.set
 
-###### set array content from list
+###### устанавливает содержание массива данными из списка
 
 *доступно с версии:* 0.4
 

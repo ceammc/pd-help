@@ -6,7 +6,7 @@ layout: default_ru
 
 # array.p2s
 
-###### convert array phase [0..1] to sample position
+###### преобразование фазы в массиве [0..1] в индекс семпла
 
 *доступно с версии:* 0.2
 

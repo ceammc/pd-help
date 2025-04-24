@@ -6,7 +6,7 @@ layout: default_ru
 
 # array.rms
 
-###### calculates root mean square value for array
+###### вычисляет среднее квадратное значение для массива
 
 *доступно с версии:* 0.7.1
 

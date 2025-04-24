@@ -6,7 +6,7 @@ layout: default_ru
 
 # array.sum2
 
-###### calculates sum of squares of array elements
+###### вычисляет сумму квадратов элементов массива
 
 *доступно с версии:* 0.8
 

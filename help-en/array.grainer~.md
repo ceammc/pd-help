@@ -216,9 +216,6 @@ _type:_ audio
 
 
 
-**See also:**
-[\[array.each\]](array.each.html)
-
 
 
 

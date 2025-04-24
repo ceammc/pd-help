@@ -6,7 +6,7 @@ layout: default_ru
 
 # array.sum
 
-###### calculates sum of array elements
+###### вычисляет сумму элементов массива
 
 *доступно с версии:* 0.8
 

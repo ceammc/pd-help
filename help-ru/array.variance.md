@@ -6,7 +6,7 @@ layout: default_ru
 
 # array.variance
 
-###### calculates variance of array values
+###### вычисляет дисперсию значений массива
 
 *доступно с версии:* 0.7.1
 

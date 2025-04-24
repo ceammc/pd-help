@@ -6,7 +6,7 @@ layout: default_ru
 
 # an.onset
 
-###### onset detector for arrays
+###### детектор атаки для массивов
 
 *доступно с версии:* 0.9
 

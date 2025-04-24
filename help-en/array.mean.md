@@ -3,7 +3,7 @@
 
 # array.mean
 
-###### calculates array arithmetic mean value
+###### calculates the array arithmetic mean value
 
 *available since version:* 0.8
 

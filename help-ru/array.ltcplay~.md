@@ -6,7 +6,7 @@ layout: default_ru
 
 # array.ltcplay~
 
-###### array player controlled by LTC
+###### проигрывание звуковой таблицы, с управлением по LTC
 
 *доступно с версии:* 0.9.7
 

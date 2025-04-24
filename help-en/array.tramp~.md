@@ -3,7 +3,7 @@
 
 # array.tramp~
 
-###### triggered ramp generator for array
+###### triggered ramp index generator for the array
 
 *available since version:* 0.9.7
 

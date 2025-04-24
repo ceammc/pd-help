@@ -3,7 +3,7 @@
 
 # array.rms
 
-###### calculates root mean square value for array
+###### calculates the root mean square value for the array
 
 *available since version:* 0.7.1
 

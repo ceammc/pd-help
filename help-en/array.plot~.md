@@ -3,7 +3,7 @@
 
 # array.plot~
 
-###### plot signal on specified array
+###### plot the signal on the specified array
 
 *available since version:* 0.9
 

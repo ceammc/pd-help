@@ -3,7 +3,7 @@
 
 # array.stretch
 
-###### array time-stretch, pitch-shift or rate-change
+###### the array time-stretch, pitch-shift or rate-change
 
 *available since version:* 0.4
 

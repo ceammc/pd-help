@@ -6,7 +6,7 @@ layout: default_ru
 
 # array.stddev
 
-###### calculates standard deviation for array values
+###### вычисляет стандартное отклонение для значений массива
 
 *доступно с версии:* 0.7.1
 

@@ -6,7 +6,7 @@ layout: default_ru
 
 # array.grainer~
 
-###### array granulator
+###### гранулятор звуковой таблицы
 
 *доступно с версии:* 0.9.2
 
@@ -218,9 +218,6 @@ _тип:_ audio
 [granular](keywords/granular.html)
 
 
-
-**Смотрите также:**
-[\[array.each\]](array.each.html)
 
 
 

@@ -6,7 +6,7 @@ layout: default_ru
 
 # array.tramp~
 
-###### triggered ramp generator for array
+###### запускаемый генератор линейного индекса для массива
 
 *доступно с версии:* 0.9.7
 

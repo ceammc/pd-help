@@ -6,7 +6,7 @@ layout: default_ru
 
 # array.window
 
-###### fill array with window
+###### заполенение массива оконной функцией
 
 *доступно с версии:* 0.7
 

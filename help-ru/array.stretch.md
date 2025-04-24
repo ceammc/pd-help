@@ -6,7 +6,7 @@ layout: default_ru
 
 # array.stretch
 
-###### array time-stretch, pitch-shift or rate-change
+###### растяжение во времени, изменени высоты тона или скорости у массива
 
 *доступно с версии:* 0.4
 

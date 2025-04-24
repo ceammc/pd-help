@@ -6,7 +6,7 @@ layout: default_ru
 
 # array.bpm
 
-###### BPM calculator
+###### вычисление BPM
 
 *доступно с версии:* 0.4
 

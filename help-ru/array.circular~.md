@@ -6,7 +6,7 @@ layout: default_ru
 
 # array.circular~
 
-###### circular buffer for arrays
+###### чтение/запись сигнала в массив, как в кольцевой буфер
 
 *доступно с версии:* 0.9.4
 

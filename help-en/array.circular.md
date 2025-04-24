@@ -3,7 +3,7 @@
 
 # array.circular
 
-###### array read/write as circular buffer
+###### read/write to the array as circular buffer
 
 *available since version:* 0.9.5
 

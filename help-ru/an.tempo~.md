@@ -6,7 +6,7 @@ layout: default_ru
 
 # an.tempo~
 
-###### tempo detector
+###### детектор темпа
 
 *доступно с версии:* 0.9.3
 

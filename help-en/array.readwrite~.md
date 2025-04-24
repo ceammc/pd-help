@@ -5,7 +5,7 @@
 **aliases:** [array.rw\~]
 
 
-###### array reader/writer
+###### simultaneous read/write signals to the array
 
 *available since version:* 0.9.7
 

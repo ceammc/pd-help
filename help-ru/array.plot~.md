@@ -6,7 +6,7 @@ layout: default_ru
 
 # array.plot~
 
-###### plot signal on specified array
+###### постороение графика сигнала на заданном массиве
 
 *доступно с версии:* 0.9
 

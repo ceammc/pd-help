@@ -6,7 +6,7 @@ layout: default_ru
 
 # array.s2p
 
-###### convert sample position to phase range [0..1]
+###### преобразование индекса семпла в фазовый диапазон [0..1]
 
 *доступно с версии:* 0.2
 

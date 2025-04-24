@@ -3,7 +3,7 @@
 
 # an.rms~
 
-###### root mean square with moving-average algorithm.
+###### root mean square of the signal with moving-average algorithm
 
 *available since version:* 0.9.1
 

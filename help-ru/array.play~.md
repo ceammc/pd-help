@@ -6,7 +6,7 @@ layout: default_ru
 
 # array.play~
 
-###### array player with variable speed and amplitude
+###### проигрывание массива с изменяемой скоростью и амплитудой
 
 *доступно с версии:* 0.9.1
 

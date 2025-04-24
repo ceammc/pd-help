@@ -6,7 +6,7 @@ layout: default_ru
 
 # an.onset~
 
-###### onset detector
+###### детектор атаки
 
 *доступно с версии:* 0.9
 

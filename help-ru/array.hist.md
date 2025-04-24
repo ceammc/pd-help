@@ -6,7 +6,7 @@ layout: default_ru
 
 # array.hist
 
-###### calculates array histogram
+###### вычисление гистограммы массива
 
 *доступно с версии:* 0.7.1
 

@@ -14,11 +14,11 @@ objects to analyse sounds properties
 _aliases:_ \[ceammc/helmholtz\~\], \[helmholtz\~\]
 
 
-[**an.rms\~**](an.rms~.html): root mean square with moving-average algorithm. 
+[**an.rms\~**](an.rms~.html): root mean square of the signal with moving-average algorithm 
 
 [**an.tempo\~**](an.tempo~.html): tempo detector 
 
-[**an.zero\~**](an.zero~.html): zero crossing count/rate/freq calculator 
+[**an.zero\~**](an.zero~.html): calculate the signal zero crossing count/rate/freq 
 
 
 **Version:** 0.9.8

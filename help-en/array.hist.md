@@ -5,7 +5,7 @@
 **aliases:** [array.histogram]
 
 
-###### calculates array histogram
+###### calculate the array histogram
 
 *available since version:* 0.7.1
 

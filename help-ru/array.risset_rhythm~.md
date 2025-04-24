@@ -6,7 +6,7 @@ layout: default_ru
 
 # array.risset_rhythm~
 
-###### Risset Rhythm: accelerando or ritardando
+###### ритм Риссет: ускорение или замедление
 
 *доступно с версии:* 0.9.5
 

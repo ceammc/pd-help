@@ -5,7 +5,7 @@
 **aliases:** [ceammc/list-&gt;array], [list-&gt;array]
 
 
-###### set array content from list
+###### set the array content from the list data
 
 *available since version:* 0.4
 

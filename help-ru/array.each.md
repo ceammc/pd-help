@@ -6,7 +6,7 @@ layout: default_ru
 
 # array.each
 
-###### process each array elements via side-chain
+###### обработка каждого элемента массива через боковую цепь
 
 *доступно с версии:* 0.3
 

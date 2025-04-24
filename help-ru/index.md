@@ -62,17 +62,17 @@ layout: default_ru
 ---
 
 
-[**an.onset**](an.onset.html): onset detector for arrays 
+[**an.onset**](an.onset.html): детектор атаки для массивов 
 
-[**an.onset~**](an.onset~.html): onset detector 
+[**an.onset~**](an.onset~.html): детектор атаки 
 
-[**an.pitchtrack~**](an.pitchtrack~.html): pitch tracker 
+[**an.pitchtrack~**](an.pitchtrack~.html): питч-трекер 
 
-[**an.rms~**](an.rms~.html): root mean square with moving-average algorithm. 
+[**an.rms~**](an.rms~.html): среднее квадратичное сигнала с алгоритмом скользящего среднего 
 
-[**an.tempo~**](an.tempo~.html): tempo detector 
+[**an.tempo~**](an.tempo~.html): детектор темпа 
 
-[**an.zero~**](an.zero~.html): zero crossing count/rate/freq calculator 
+[**an.zero~**](an.zero~.html): вычисление частоты/скорости/числа пересечения сигналом нулевого значения 
 
 
 ### <a id="cat_array" href="category_array.html">array</a>
@@ -81,61 +81,61 @@ layout: default_ru
 ---
 
 
-[**array.bpm**](array.bpm.html): BPM calculator 
+[**array.bpm**](array.bpm.html): вычисление BPM 
 
-[**array.circular**](array.circular.html): array read/write as circular buffer 
+[**array.circular**](array.circular.html): чтение/запись в массив, как в кольцевой буфер 
 
-[**array.circular~**](array.circular~.html): circular buffer for arrays 
+[**array.circular~**](array.circular~.html): чтение/запись сигнала в массив, как в кольцевой буфер 
 
-[**array.convolve**](array.convolve.html): array FFT convolution 
+[**array.convolve**](array.convolve.html): FFT свертка массива 
 
-[**array.copy**](array.copy.html): copy samples from one array to another 
+[**array.copy**](array.copy.html): копирование семплов из одного массива в другой 
 
-[**array.do**](array.do.html): iterate and modify array content via side-chain 
+[**array.do**](array.do.html): обход и модифиция содержимого массива через боковую цепь 
 
-[**array.each**](array.each.html): process each array elements via side-chain 
+[**array.each**](array.each.html): обработка каждого элемента массива через боковую цепь 
 
-[**array.fill**](array.fill.html): fill array with single value, pattern or function 
+[**array.fill**](array.fill.html): заполнение массива одним значением, шаблоном или функцией 
 
-[**array.grainer~**](array.grainer~.html): array granulator 
+[**array.grainer~**](array.grainer~.html): гранулятор звуковой таблицы 
 
-[**array.hist**](array.hist.html): calculates array histogram 
+[**array.hist**](array.hist.html): вычисление гистограммы массива 
 
-[**array.ltcplay~**](array.ltcplay~.html): array player controlled by LTC 
+[**array.ltcplay~**](array.ltcplay~.html): проигрывание звуковой таблицы, с управлением по LTC 
 
-[**array.mean**](array.mean.html): calculates array arithmetic mean value 
+[**array.mean**](array.mean.html): вычисляет среднее арифметическое значение массива 
 
-[**array.minmax**](array.minmax.html): find array min and max element value 
+[**array.minmax**](array.minmax.html): поиск минимального и максимального значения в массиве 
 
-[**array.play~**](array.play~.html): array player with variable speed and amplitude 
+[**array.play~**](array.play~.html): проигрывание массива с изменяемой скоростью и амплитудой 
 
-[**array.plot**](array.plot.html): array data plotter 
+[**array.plot**](array.plot.html): построение числовых графиков данных на массиве 
 
-[**array.plot~**](array.plot~.html): plot signal on specified array 
+[**array.plot~**](array.plot~.html): постороение графика сигнала на заданном массиве 
 
-[**array.readwrite~**](array.readwrite~.html): array reader/writer 
+[**array.readwrite~**](array.readwrite~.html): одновременное чтение/запись сигналов в массив 
 
-[**array.resample**](array.resample.html): array resampler 
+[**array.resample**](array.resample.html): пересемплирование массива 
 
-[**array.rms**](array.rms.html): calculates root mean square value for array 
+[**array.rms**](array.rms.html): вычисляет среднее квадратное значение для массива 
 
-[**array.set**](array.set.html): set array content from list 
+[**array.set**](array.set.html): устанавливает содержание массива данными из списка 
 
-[**array.stddev**](array.stddev.html): calculates standard deviation for array values 
+[**array.stddev**](array.stddev.html): вычисляет стандартное отклонение для значений массива 
 
-[**array.stretch**](array.stretch.html): array time-stretch, pitch-shift or rate-change 
+[**array.stretch**](array.stretch.html): растяжение во времени, изменени высоты тона или скорости у массива 
 
-[**array.sum**](array.sum.html): calculates sum of array elements 
+[**array.sum**](array.sum.html): вычисляет сумму элементов массива 
 
-[**array.sum2**](array.sum2.html): calculates sum of squares of array elements 
+[**array.sum2**](array.sum2.html): вычисляет сумму квадратов элементов массива 
 
-[**array.tramp~**](array.tramp~.html): triggered ramp generator for array 
+[**array.tramp~**](array.tramp~.html): запускаемый генератор линейного индекса для массива 
 
-[**array.variance**](array.variance.html): calculates variance of array values 
+[**array.variance**](array.variance.html): вычисляет дисперсию значений массива 
 
-[**array.vplay**](array.vplay.html): simple array player for using with vline~ 
+[**array.vplay**](array.vplay.html): простой плеер массивов для использования с объектом vline~ 
 
-[**array.window**](array.window.html): fill array with window 
+[**array.window**](array.window.html): заполенение массива оконной функцией 
 
 [**plot.geomspace~**](plot.geomspace~.html): outputs numbers spaced evenly on a log scale (a geometric progression) 
 
@@ -236,9 +236,9 @@ layout: default_ru
 ---
 
 
-[**array.p2s**](array.p2s.html): convert array phase [0..1] to sample position 
+[**array.p2s**](array.p2s.html): преобразование фазы в массиве [0..1] в индекс семпла 
 
-[**array.s2p**](array.s2p.html): convert sample position to phase range [0..1] 
+[**array.s2p**](array.s2p.html): преобразование индекса семпла в фазовый диапазон [0..1] 
 
 [**conv.amp2dbfs**](conv.amp2dbfs.html): convert from amplitude to decibel full scale 
 

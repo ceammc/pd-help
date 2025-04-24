@@ -6,7 +6,7 @@ layout: default_ru
 
 # an.pitchtrack~
 
-###### pitch tracker
+###### питч-трекер
 
 *доступно с версии:* 0.7
 

@@ -3,7 +3,7 @@
 
 # an.zero~
 
-###### zero crossing count/rate/freq calculator
+###### calculate the signal zero crossing count/rate/freq
 
 *available since version:* 0.9.5
 

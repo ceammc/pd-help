@@ -6,7 +6,7 @@ layout: default_ru
 
 # array.do
 
-###### iterate and modify array content via side-chain
+###### обход и модифиция содержимого массива через боковую цепь
 
 *доступно с версии:* 0.3
 

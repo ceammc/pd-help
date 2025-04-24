@@ -6,7 +6,7 @@ layout: default_ru
 
 # an.rms~
 
-###### root mean square with moving-average algorithm.
+###### среднее квадратичное сигнала с алгоритмом скользящего среднего
 
 *доступно с версии:* 0.9.1
 

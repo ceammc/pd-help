@@ -6,7 +6,7 @@ layout: default_ru
 
 # array.minmax
 
-###### find array min and max element value
+###### поиск минимального и максимального значения в массиве
 
 *доступно с версии:* 0.3
 

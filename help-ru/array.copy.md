@@ -6,7 +6,7 @@ layout: default_ru
 
 # array.copy
 
-###### copy samples from one array to another
+###### копирование семплов из одного массива в другой
 
 *доступно с версии:* 0.3
 

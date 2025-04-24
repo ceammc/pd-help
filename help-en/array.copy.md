@@ -3,7 +3,7 @@
 
 # array.copy
 
-###### copy samples from one array to another
+###### copy samples from the one array to another
 
 *available since version:* 0.3
 

@@ -5,7 +5,7 @@
 **aliases:** [array.p-&gt;s], [array.phase-&gt;sample]
 
 
-###### convert array phase [0..1] to sample position
+###### converting the array phase [0..1] to the sample index
 
 *available since version:* 0.2
 

@@ -6,7 +6,7 @@ layout: default_ru
 
 # array.readwrite~
 
-###### array reader/writer
+###### одновременное чтение/запись сигналов в массив
 
 *доступно с версии:* 0.9.7
 

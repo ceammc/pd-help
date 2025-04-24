@@ -3,7 +3,7 @@
 
 # array.window
 
-###### fill array with window
+###### fills the array with the window function
 
 *available since version:* 0.7
 

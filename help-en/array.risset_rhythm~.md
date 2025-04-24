@@ -3,7 +3,7 @@
 
 # array.risset_rhythm~
 
-###### Risset Rhythm: accelerando or ritardando
+###### Risset rhythm: accelerando or ritardando
 
 *available since version:* 0.9.5
 

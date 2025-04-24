@@ -6,11 +6,11 @@
 
 
 
-[**array.p2s**](array.p2s.html): convert array phase [0..1] to sample position <br>
+[**array.p2s**](array.p2s.html): converting the array phase [0..1] to the sample index <br>
 _aliases:_ \[array.p-&gt;s\], \[array.phase-&gt;sample\]
 
 
-[**array.s2p**](array.s2p.html): convert sample position to phase range [0..1] <br>
+[**array.s2p**](array.s2p.html): convert the sample index to the phase range [0..1] <br>
 _aliases:_ \[array.s-&gt;p\], \[array.sample-&gt;phase\]
 
 

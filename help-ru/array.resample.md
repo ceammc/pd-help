@@ -6,7 +6,7 @@ layout: default_ru
 
 # array.resample
 
-###### array resampler
+###### пересемплирование массива
 
 *доступно с версии:* 0.9
 

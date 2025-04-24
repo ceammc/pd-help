@@ -3,7 +3,7 @@
 
 # array.minmax
 
-###### find array min and max element value
+###### find minimal and max values in the array
 
 *available since version:* 0.3
 

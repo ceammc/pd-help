@@ -10,19 +10,19 @@ layout: default_ru
 объекты для анализа свойств звука
 
 
-[**an.onset**](an.onset.html): onset detector for arrays 
+[**an.onset**](an.onset.html): детектор атаки для массивов 
 
-[**an.onset~**](an.onset~.html): onset detector 
+[**an.onset~**](an.onset~.html): детектор атаки 
 
-[**an.pitchtrack~**](an.pitchtrack~.html): pitch tracker <br>
+[**an.pitchtrack~**](an.pitchtrack~.html): питч-трекер <br>
 _псевдонимы:_ \[ceammc/helmholtz~\], \[helmholtz~\]
 
 
-[**an.rms~**](an.rms~.html): root mean square with moving-average algorithm. 
+[**an.rms~**](an.rms~.html): среднее квадратичное сигнала с алгоритмом скользящего среднего 
 
-[**an.tempo~**](an.tempo~.html): tempo detector 
+[**an.tempo~**](an.tempo~.html): детектор темпа 
 
-[**an.zero~**](an.zero~.html): zero crossing count/rate/freq calculator 
+[**an.zero~**](an.zero~.html): вычисление частоты/скорости/числа пересечения сигналом нулевого значения 
 
 
 **Версия:** 0.9.8

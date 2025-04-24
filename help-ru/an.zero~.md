@@ -6,7 +6,7 @@ layout: default_ru
 
 # an.zero~
 
-###### zero crossing count/rate/freq calculator
+###### вычисление частоты/скорости/числа пересечения сигналом нулевого значения
 
 *доступно с версии:* 0.9.5
 

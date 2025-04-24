@@ -6,7 +6,7 @@ layout: default_ru
 
 # global.int
 
-###### global named integer object
+###### глобальной именованное целое число
 
 *доступно с версии:* 0.1
 

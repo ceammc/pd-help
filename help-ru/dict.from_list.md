@@ -6,7 +6,7 @@ layout: default_ru
 
 # dict.from_list
 
-###### creates dictionary from list
+###### создает словарь из списка
 
 *доступно с версии:* 0.7
 

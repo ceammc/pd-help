@@ -3,7 +3,7 @@
 
 # dict.pass
 
-###### passes specified keys in dict
+###### passes only specified keys in the dictionary
 
 *available since version:* 0.7
 

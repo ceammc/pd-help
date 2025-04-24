@@ -6,7 +6,7 @@ layout: default_ru
 
 # global.float
 
-###### global named float object
+###### глобальной именованное число с плавающей точкой
 
 *доступно с версии:* 0.1
 

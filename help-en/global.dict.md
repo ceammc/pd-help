@@ -5,7 +5,7 @@
 **aliases:** [global.json]
 
 
-###### global named dict object
+###### global named dictionary
 
 *available since version:* 0.6
 

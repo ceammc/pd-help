@@ -52,31 +52,31 @@ _псевдонимы:_ \[ceammc/mlist\], \[mlist\], \[ceammc/ml\], \[ml\]
 _псевдонимы:_ \[ceammc/set-&gt;list\], \[set-&gt;list\]
 
 
-[**dict.contains**](dict.contains.html): predicate to check if dict contains a keys 
+[**dict.contains**](dict.contains.html): проверка, содержит ли словарь указанный ключ 
 
-[**dict.each**](dict.each.html): map each value in dict 
+[**dict.each**](dict.each.html): отображение каждого значения в словаре с помощью боковой цепи обработки 
 
-[**dict.from_list**](dict.from_list.html): creates dictionary from list <br>
+[**dict.from_list**](dict.from_list.html): создает словарь из списка <br>
 _псевдонимы:_ \[ceammc/list-&gt;dict\], \[list-&gt;dict\]
 
 
-[**dict.get**](dict.get.html): output dict values 
+[**dict.get**](dict.get.html): выводит значения словаря 
 
-[**dict.keys**](dict.keys.html): get list of dict keys 
+[**dict.keys**](dict.keys.html): выводит список ключей словаря 
 
-[**dict.pass**](dict.pass.html): passes specified keys in dict 
+[**dict.pass**](dict.pass.html): пропускает (фильтрует) только указанные ключи в словаре 
 
-[**dict.reject**](dict.reject.html): rejects specified keys from dict 
+[**dict.reject**](dict.reject.html): удаляет указанные ключи из словаря 
 
-[**dict.size**](dict.size.html): dictionary size 
+[**dict.size**](dict.size.html): выводит размер словаря (число пар ключ/значение) 
 
-[**dict.to_list**](dict.to_list.html): converts dictionary to plain list <br>
+[**dict.to_list**](dict.to_list.html): конвертирует словарь в простой одномерный список <br>
 _псевдонимы:_ \[ceammc/dict-&gt;list\], \[dict-&gt;list\]
 
 
-[**dict.values**](dict.values.html): dictionary values as mlist 
+[**dict.values**](dict.values.html): выводит значения словаря в виде многоуровневнего списка (MList) 
 
-[**global.bimap**](global.bimap.html): Global visibility bidirectional map container 
+[**global.bimap**](global.bimap.html): глобальное двунаправленное отображение 
 
 [**local.bimap**](local.bimap.html): local to patch bidirectional map container 
 

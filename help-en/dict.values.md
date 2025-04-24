@@ -3,7 +3,7 @@
 
 # dict.values
 
-###### dictionary values as mlist
+###### output the dictionary values as MList
 
 *available since version:* 0.6
 

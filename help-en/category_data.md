@@ -48,31 +48,31 @@ _aliases:_ \[ceammc/mlist\], \[mlist\], \[ceammc/ml\], \[ml\]
 _aliases:_ \[ceammc/set-&gt;list\], \[set-&gt;list\]
 
 
-[**dict.contains**](dict.contains.html): predicate to check if dict contains a keys 
+[**dict.contains**](dict.contains.html): check if the dictionary contains the key 
 
-[**dict.each**](dict.each.html): map each value in dict 
+[**dict.each**](dict.each.html): map each value in dictionary with the side-chain function 
 
-[**dict.from_list**](dict.from_list.html): creates dictionary from list <br>
+[**dict.from_list**](dict.from_list.html): creates dictionary from the list <br>
 _aliases:_ \[ceammc/list-&gt;dict\], \[list-&gt;dict\]
 
 
-[**dict.get**](dict.get.html): output dict values 
+[**dict.get**](dict.get.html): output the dictionary values 
 
-[**dict.keys**](dict.keys.html): get list of dict keys 
+[**dict.keys**](dict.keys.html): output the list of dictionary keys 
 
-[**dict.pass**](dict.pass.html): passes specified keys in dict 
+[**dict.pass**](dict.pass.html): passes only specified keys in the dictionary 
 
-[**dict.reject**](dict.reject.html): rejects specified keys from dict 
+[**dict.reject**](dict.reject.html): rejects specified keys from the dictionary 
 
-[**dict.size**](dict.size.html): dictionary size 
+[**dict.size**](dict.size.html): output the dictionary size (number of key/value pairs) 
 
 [**dict.to_list**](dict.to_list.html): converts dictionary to plain list <br>
 _aliases:_ \[ceammc/dict-&gt;list\], \[dict-&gt;list\]
 
 
-[**dict.values**](dict.values.html): dictionary values as mlist 
+[**dict.values**](dict.values.html): output the dictionary values as MList 
 
-[**global.bimap**](global.bimap.html): Global visibility bidirectional map container 
+[**global.bimap**](global.bimap.html): global bidirectional map 
 
 [**local.bimap**](local.bimap.html): local to patch bidirectional map container 
 

@@ -6,7 +6,7 @@ layout: default_ru
 
 # is_even
 
-###### checks if input number is even
+###### проверка входного числа на чётность
 
 *доступно с версии:* 0.1
 

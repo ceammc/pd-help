@@ -6,7 +6,7 @@ layout: default_ru
 
 # global.dict
 
-###### global named dict object
+###### глобальный именованный словарь
 
 *доступно с версии:* 0.6
 

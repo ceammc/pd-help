@@ -6,7 +6,7 @@ layout: default_ru
 
 # global.set
 
-###### global named set object
+###### глобальное именованное множество
 
 *доступно с версии:* 0.6
 

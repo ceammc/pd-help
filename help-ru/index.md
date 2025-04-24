@@ -379,27 +379,27 @@ layout: default_ru
 
 [**data.set2list**](data.set2list.html): преобразует множество в список 
 
-[**dict.contains**](dict.contains.html): predicate to check if dict contains a keys 
+[**dict.contains**](dict.contains.html): проверка, содержит ли словарь указанный ключ 
 
-[**dict.each**](dict.each.html): map each value in dict 
+[**dict.each**](dict.each.html): отображение каждого значения в словаре с помощью боковой цепи обработки 
 
-[**dict.from_list**](dict.from_list.html): creates dictionary from list 
+[**dict.from_list**](dict.from_list.html): создает словарь из списка 
 
-[**dict.get**](dict.get.html): output dict values 
+[**dict.get**](dict.get.html): выводит значения словаря 
 
-[**dict.keys**](dict.keys.html): get list of dict keys 
+[**dict.keys**](dict.keys.html): выводит список ключей словаря 
 
-[**dict.pass**](dict.pass.html): passes specified keys in dict 
+[**dict.pass**](dict.pass.html): пропускает (фильтрует) только указанные ключи в словаре 
 
-[**dict.reject**](dict.reject.html): rejects specified keys from dict 
+[**dict.reject**](dict.reject.html): удаляет указанные ключи из словаря 
 
-[**dict.size**](dict.size.html): dictionary size 
+[**dict.size**](dict.size.html): выводит размер словаря (число пар ключ/значение) 
 
-[**dict.to_list**](dict.to_list.html): converts dictionary to plain list 
+[**dict.to_list**](dict.to_list.html): конвертирует словарь в простой одномерный список 
 
-[**dict.values**](dict.values.html): dictionary values as mlist 
+[**dict.values**](dict.values.html): выводит значения словаря в виде многоуровневнего списка (MList) 
 
-[**global.bimap**](global.bimap.html): Global visibility bidirectional map container 
+[**global.bimap**](global.bimap.html): глобальное двунаправленное отображение 
 
 [**local.bimap**](local.bimap.html): local to patch bidirectional map container 
 
@@ -782,22 +782,22 @@ layout: default_ru
 
 
 ### <a id="cat_global" href="category_global.html">global</a>
-
+глобальные именованные объекты, доступные отовсюду в PureData
 
 ---
 
 
-[**global.dict**](global.dict.html): global named dict object 
+[**global.dict**](global.dict.html): глобальный именованный словарь 
 
-[**global.float**](global.float.html): global named float object 
+[**global.float**](global.float.html): глобальной именованное число с плавающей точкой 
 
-[**global.int**](global.int.html): global named integer object 
+[**global.int**](global.int.html): глобальной именованное целое число 
 
-[**global.list**](global.list.html): global named list object 
+[**global.list**](global.list.html): глобальный именованный список 
 
-[**global.mlist**](global.mlist.html): global named mlist object 
+[**global.mlist**](global.mlist.html): глобальный именованный многоуровневый список (MList) 
 
-[**global.set**](global.set.html): global named set object 
+[**global.set**](global.set.html): глобальное именованное множество 
 
 
 ### <a id="cat_hw" href="category_hw.html">hw</a>
@@ -1549,34 +1549,34 @@ layout: default_ru
 
 
 ### <a id="cat_predicates" href="category_predicates.html">predicates</a>
-
+объекты предикатов. Проверка типов сообщений или данных, возвращают 1 или 0.
 
 ---
 
 
-[**is_any**](is_any.html): checks if input data has *any* type 
+[**is_any**](is_any.html): Проверьте, есть ли входные данные *любые* 
 
-[**is_bang**](is_bang.html): checks if input data has *bang* type 
+[**is_bang**](is_bang.html): проверяет, является ли входное сообщение *bang* 
 
-[**is_data**](is_data.html): checks if input data has *data* type 
+[**is_data**](is_data.html): проверяет, является ли входное сообщение типом данных 
 
-[**is_dict**](is_dict.html): checks if input data has *dict* type 
+[**is_dict**](is_dict.html): проверяет, является ли входное сообщение словарём 
 
-[**is_even**](is_even.html): checks if input number is even 
+[**is_even**](is_even.html): проверка входного числа на чётность 
 
-[**is_file**](is_file.html): checks if file exists and accessible 
+[**is_file**](is_file.html): проверка существования и доступности файла 
 
-[**is_float**](is_float.html): checks if input data has *float* type 
+[**is_float**](is_float.html): проверка, является ли входное сообщение числом с плавающей точкой 
 
-[**is_list**](is_list.html): checks if input data has *list* type 
+[**is_list**](is_list.html): проверка, является ли входное сообщение списком 
 
-[**is_odd**](is_odd.html): checks if input number is odd 
+[**is_odd**](is_odd.html): проверка входного числа на нечётност 
 
-[**is_pointer**](is_pointer.html): checks if input data has *pointer* type 
+[**is_pointer**](is_pointer.html): проверка, является ли входное сообщение указателем 
 
-[**is_prop**](is_prop.html): checks if input message is *property* message 
+[**is_prop**](is_prop.html): проверка, является ли входное сообщение *свойством* 
 
-[**is_symbol**](is_symbol.html): checks if input data has *symbol* type 
+[**is_symbol**](is_symbol.html): проверка, является ли входное сообщение *символом* 
 
 
 ### <a id="cat_preset" href="category_preset.html">preset</a>

@@ -3,7 +3,7 @@
 
 # dict.keys
 
-###### get list of dict keys
+###### output the list of dictionary keys
 
 *available since version:* 0.6
 

@@ -5,7 +5,7 @@
 **aliases:** [ceammc/list-&gt;dict], [list-&gt;dict]
 
 
-###### creates dictionary from list
+###### creates dictionary from the list
 
 *available since version:* 0.7
 

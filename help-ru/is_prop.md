@@ -6,7 +6,7 @@ layout: default_ru
 
 # is_prop
 
-###### checks if input message is *property* message
+###### проверка, является ли входное сообщение *свойством*
 
 *доступно с версии:* 0.9.6
 

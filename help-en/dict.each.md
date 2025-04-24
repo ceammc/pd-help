@@ -3,7 +3,7 @@
 
 # dict.each
 
-###### map each value in dict
+###### map each value in dictionary with the side-chain function
 
 *available since version:* 0.7
 

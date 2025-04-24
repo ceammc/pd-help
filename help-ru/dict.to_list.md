@@ -6,7 +6,7 @@ layout: default_ru
 
 # dict.to_list
 
-###### converts dictionary to plain list
+###### конвертирует словарь в простой одномерный список
 
 *доступно с версии:* 0.7
 

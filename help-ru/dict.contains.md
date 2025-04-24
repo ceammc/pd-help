@@ -6,7 +6,7 @@ layout: default_ru
 
 # dict.contains
 
-###### predicate to check if dict contains a keys
+###### проверка, содержит ли словарь указанный ключ
 
 *доступно с версии:* 0.6
 

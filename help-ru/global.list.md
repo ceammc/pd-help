@@ -6,7 +6,7 @@ layout: default_ru
 
 # global.list
 
-###### global named list object
+###### глобальный именованный список
 
 *доступно с версии:* 0.1
 

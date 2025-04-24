@@ -6,7 +6,7 @@ layout: default_ru
 
 # is_odd
 
-###### checks if input number is odd
+###### проверка входного числа на нечётност
 
 *доступно с версии:* 0.1
 

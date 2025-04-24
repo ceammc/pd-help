@@ -3,7 +3,7 @@
 
 # is_list
 
-###### checks if input data has *list* type
+###### checks if the input message is a *list*
 
 *available since version:* 0.1
 

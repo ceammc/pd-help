@@ -6,7 +6,7 @@ layout: default_ru
 
 # is_symbol
 
-###### checks if input data has *symbol* type
+###### проверка, является ли входное сообщение *символом*
 
 *доступно с версии:* 0.1
 

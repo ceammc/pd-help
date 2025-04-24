@@ -3,7 +3,7 @@
 
 # global.mlist
 
-###### global named mlist object
+###### global named multilevel list (MList)
 
 *available since version:* 0.6
 

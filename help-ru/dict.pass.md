@@ -6,7 +6,7 @@ layout: default_ru
 
 # dict.pass
 
-###### passes specified keys in dict
+###### пропускает (фильтрует) только указанные ключи в словаре
 
 *доступно с версии:* 0.7
 

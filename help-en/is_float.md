@@ -3,7 +3,7 @@
 
 # is_float
 
-###### checks if input data has *float* type
+###### checks if the input message is a *float*
 
 *available since version:* 0.1
 

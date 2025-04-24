@@ -5,7 +5,7 @@
 **aliases:** [ceammc/is_data]
 
 
-###### checks if input data has *data* type
+###### checks if the input is a *data* type
 
 *available since version:* 0.6
 

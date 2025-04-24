@@ -6,7 +6,7 @@ layout: default_ru
 
 # is_dict
 
-###### checks if input data has *dict* type
+###### проверяет, является ли входное сообщение словарём
 
 *доступно с версии:* 0.7
 

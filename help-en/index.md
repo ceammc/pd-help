@@ -376,27 +376,27 @@ objects for working with arrays and tables
 
 [**data.set2list**](data.set2list.html): converts the set to the list 
 
-[**dict.contains**](dict.contains.html): predicate to check if dict contains a keys 
+[**dict.contains**](dict.contains.html): check if the dictionary contains the key 
 
-[**dict.each**](dict.each.html): map each value in dict 
+[**dict.each**](dict.each.html): map each value in dictionary with the side-chain function 
 
-[**dict.from_list**](dict.from_list.html): creates dictionary from list 
+[**dict.from_list**](dict.from_list.html): creates dictionary from the list 
 
-[**dict.get**](dict.get.html): output dict values 
+[**dict.get**](dict.get.html): output the dictionary values 
 
-[**dict.keys**](dict.keys.html): get list of dict keys 
+[**dict.keys**](dict.keys.html): output the list of dictionary keys 
 
-[**dict.pass**](dict.pass.html): passes specified keys in dict 
+[**dict.pass**](dict.pass.html): passes only specified keys in the dictionary 
 
-[**dict.reject**](dict.reject.html): rejects specified keys from dict 
+[**dict.reject**](dict.reject.html): rejects specified keys from the dictionary 
 
-[**dict.size**](dict.size.html): dictionary size 
+[**dict.size**](dict.size.html): output the dictionary size (number of key/value pairs) 
 
 [**dict.to_list**](dict.to_list.html): converts dictionary to plain list 
 
-[**dict.values**](dict.values.html): dictionary values as mlist 
+[**dict.values**](dict.values.html): output the dictionary values as MList 
 
-[**global.bimap**](global.bimap.html): Global visibility bidirectional map container 
+[**global.bimap**](global.bimap.html): global bidirectional map 
 
 [**local.bimap**](local.bimap.html): local to patch bidirectional map container 
 
@@ -779,22 +779,22 @@ dataflow control
 
 
 ### <a id="cat_global" href="category_global.html">global</a>
-
+global named objects accessible from everywhere in PureData
 
 ---
 
 
-[**global.dict**](global.dict.html): global named dict object 
+[**global.dict**](global.dict.html): global named dictionary 
 
 [**global.float**](global.float.html): global named float object 
 
 [**global.int**](global.int.html): global named integer object 
 
-[**global.list**](global.list.html): global named list object 
+[**global.list**](global.list.html): global named list 
 
-[**global.mlist**](global.mlist.html): global named mlist object 
+[**global.mlist**](global.mlist.html): global named multilevel list (MList) 
 
-[**global.set**](global.set.html): global named set object 
+[**global.set**](global.set.html): global named set 
 
 
 ### <a id="cat_hw" href="category_hw.html">hw</a>
@@ -1546,34 +1546,34 @@ math objects. can operate with list of numbers
 
 
 ### <a id="cat_predicates" href="category_predicates.html">predicates</a>
-
+predicate objects. Checks message or data types, returns 1 or 0.
 
 ---
 
 
 [**is_any**](is_any.html): checks if input data has *any* type 
 
-[**is_bang**](is_bang.html): checks if input data has *bang* type 
+[**is_bang**](is_bang.html): checks if the input is a *bang* 
 
-[**is_data**](is_data.html): checks if input data has *data* type 
+[**is_data**](is_data.html): checks if the input is a *data* type 
 
-[**is_dict**](is_dict.html): checks if input data has *dict* type 
+[**is_dict**](is_dict.html): checks if the input message is a dictionary 
 
-[**is_even**](is_even.html): checks if input number is even 
+[**is_even**](is_even.html): even number check 
 
-[**is_file**](is_file.html): checks if file exists and accessible 
+[**is_file**](is_file.html): checks if the file exists and accessible 
 
-[**is_float**](is_float.html): checks if input data has *float* type 
+[**is_float**](is_float.html): checks if the input message is a *float* 
 
-[**is_list**](is_list.html): checks if input data has *list* type 
+[**is_list**](is_list.html): checks if the input message is a *list* 
 
-[**is_odd**](is_odd.html): checks if input number is odd 
+[**is_odd**](is_odd.html): input number oddity check 
 
-[**is_pointer**](is_pointer.html): checks if input data has *pointer* type 
+[**is_pointer**](is_pointer.html): checks if input messagee is a *pointer* 
 
-[**is_prop**](is_prop.html): checks if input message is *property* message 
+[**is_prop**](is_prop.html): checks if the input message is a *property* message 
 
-[**is_symbol**](is_symbol.html): checks if input data has *symbol* type 
+[**is_symbol**](is_symbol.html): checks if input message is a *symbol* 
 
 
 ### <a id="cat_preset" href="category_preset.html">preset</a>

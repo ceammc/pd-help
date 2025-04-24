@@ -3,7 +3,7 @@
 
 # dict.size
 
-###### dictionary size
+###### output the dictionary size (number of key/value pairs)
 
 *available since version:* 0.6
 

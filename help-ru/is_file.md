@@ -6,7 +6,7 @@ layout: default_ru
 
 # is_file
 
-###### checks if file exists and accessible
+###### проверка существования и доступности файла
 
 *доступно с версии:* 0.2
 

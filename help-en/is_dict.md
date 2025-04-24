@@ -5,7 +5,7 @@
 **aliases:** [ceammc/is_dict]
 
 
-###### checks if input data has *dict* type
+###### checks if the input message is a dictionary
 
 *available since version:* 0.7
 

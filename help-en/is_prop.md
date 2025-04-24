@@ -3,7 +3,7 @@
 
 # is_prop
 
-###### checks if input message is *property* message
+###### checks if the input message is a *property* message
 
 *available since version:* 0.9.6
 

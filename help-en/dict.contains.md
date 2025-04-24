@@ -3,7 +3,7 @@
 
 # dict.contains
 
-###### predicate to check if dict contains a keys
+###### check if the dictionary contains the key
 
 *available since version:* 0.6
 

@@ -3,7 +3,7 @@
 
 # global.bimap
 
-###### Global visibility bidirectional map container
+###### global bidirectional map
 
 *available since version:* 0.9.7
 

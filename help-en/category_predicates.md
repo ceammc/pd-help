@@ -3,38 +3,38 @@
 
 # Category: predicates
 
-
+predicate objects. Checks message or data types, returns 1 or 0.
 
 
 [**is_any**](is_any.html): checks if input data has *any* type 
 
-[**is_bang**](is_bang.html): checks if input data has *bang* type 
+[**is_bang**](is_bang.html): checks if the input is a *bang* 
 
-[**is_data**](is_data.html): checks if input data has *data* type <br>
+[**is_data**](is_data.html): checks if the input is a *data* type <br>
 _aliases:_ \[ceammc/is_data\]
 
 
-[**is_dict**](is_dict.html): checks if input data has *dict* type <br>
+[**is_dict**](is_dict.html): checks if the input message is a dictionary <br>
 _aliases:_ \[ceammc/is_dict\]
 
 
-[**is_even**](is_even.html): checks if input number is even 
+[**is_even**](is_even.html): even number check 
 
-[**is_file**](is_file.html): checks if file exists and accessible <br>
+[**is_file**](is_file.html): checks if the file exists and accessible <br>
 _aliases:_ \[ceammc/is_file\]
 
 
-[**is_float**](is_float.html): checks if input data has *float* type 
+[**is_float**](is_float.html): checks if the input message is a *float* 
 
-[**is_list**](is_list.html): checks if input data has *list* type 
+[**is_list**](is_list.html): checks if the input message is a *list* 
 
-[**is_odd**](is_odd.html): checks if input number is odd 
+[**is_odd**](is_odd.html): input number oddity check 
 
-[**is_pointer**](is_pointer.html): checks if input data has *pointer* type 
+[**is_pointer**](is_pointer.html): checks if input messagee is a *pointer* 
 
-[**is_prop**](is_prop.html): checks if input message is *property* message 
+[**is_prop**](is_prop.html): checks if the input message is a *property* message 
 
-[**is_symbol**](is_symbol.html): checks if input data has *symbol* type 
+[**is_symbol**](is_symbol.html): checks if input message is a *symbol* 
 
 
 **Version:** 0.9.8

@@ -6,7 +6,7 @@ layout: default_ru
 
 # is_pointer
 
-###### checks if input data has *pointer* type
+###### проверка, является ли входное сообщение указателем
 
 *доступно с версии:* 0.1
 

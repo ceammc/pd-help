@@ -5,7 +5,7 @@
 **aliases:** [ceammc/is_file]
 
 
-###### checks if file exists and accessible
+###### checks if the file exists and accessible
 
 *available since version:* 0.2
 

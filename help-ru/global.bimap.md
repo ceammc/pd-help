@@ -6,7 +6,7 @@ layout: default_ru
 
 # global.bimap
 
-###### Global visibility bidirectional map container
+###### глобальное двунаправленное отображение
 
 *доступно с версии:* 0.9.7
 

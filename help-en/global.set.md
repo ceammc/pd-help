@@ -3,7 +3,7 @@
 
 # global.set
 
-###### global named set object
+###### global named set
 
 *available since version:* 0.6
 

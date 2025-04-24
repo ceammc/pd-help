@@ -7,22 +7,22 @@ layout: default_ru
 ## Категория: global
 
 ---
+глобальные именованные объекты, доступные отовсюду в PureData
 
 
-
-[**global.dict**](global.dict.html): global named dict object <br>
+[**global.dict**](global.dict.html): глобальный именованный словарь <br>
 _псевдонимы:_ \[global.json\]
 
 
-[**global.float**](global.float.html): global named float object 
+[**global.float**](global.float.html): глобальной именованное число с плавающей точкой 
 
-[**global.int**](global.int.html): global named integer object 
+[**global.int**](global.int.html): глобальной именованное целое число 
 
-[**global.list**](global.list.html): global named list object 
+[**global.list**](global.list.html): глобальный именованный список 
 
-[**global.mlist**](global.mlist.html): global named mlist object 
+[**global.mlist**](global.mlist.html): глобальный именованный многоуровневый список (MList) 
 
-[**global.set**](global.set.html): global named set object 
+[**global.set**](global.set.html): глобальное именованное множество 
 
 
 **Версия:** 0.9.8

@@ -6,7 +6,7 @@ layout: default_ru
 
 # is_float
 
-###### checks if input data has *float* type
+###### проверка, является ли входное сообщение числом с плавающей точкой
 
 *доступно с версии:* 0.1
 

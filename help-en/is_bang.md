@@ -3,7 +3,7 @@
 
 # is_bang
 
-###### checks if input data has *bang* type
+###### checks if the input is a *bang*
 
 *available since version:* 0.1
 

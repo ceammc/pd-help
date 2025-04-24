@@ -6,7 +6,7 @@ layout: default_ru
 
 # is_data
 
-###### checks if input data has *data* type
+###### проверяет, является ли входное сообщение типом данных
 
 *доступно с версии:* 0.6
 

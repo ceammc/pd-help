@@ -3,7 +3,7 @@
 
 # is_even
 
-###### checks if input number is even
+###### even number check
 
 *available since version:* 0.1
 

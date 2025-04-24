@@ -6,7 +6,7 @@ layout: default_ru
 
 # dict.get
 
-###### output dict values
+###### выводит значения словаря
 
 *доступно с версии:* 0.6
 

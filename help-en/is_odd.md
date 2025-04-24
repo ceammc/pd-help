@@ -3,7 +3,7 @@
 
 # is_odd
 
-###### checks if input number is odd
+###### input number oddity check
 
 *available since version:* 0.1
 

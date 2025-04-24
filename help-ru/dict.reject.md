@@ -6,7 +6,7 @@ layout: default_ru
 
 # dict.reject
 
-###### rejects specified keys from dict
+###### удаляет указанные ключи из словаря
 
 *доступно с версии:* 0.7
 

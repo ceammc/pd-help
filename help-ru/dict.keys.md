@@ -6,7 +6,7 @@ layout: default_ru
 
 # dict.keys
 
-###### get list of dict keys
+###### выводит список ключей словаря
 
 *доступно с версии:* 0.6
 

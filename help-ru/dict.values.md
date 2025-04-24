@@ -6,7 +6,7 @@ layout: default_ru
 
 # dict.values
 
-###### dictionary values as mlist
+###### выводит значения словаря в виде многоуровневнего списка (MList)
 
 *доступно с версии:* 0.6
 

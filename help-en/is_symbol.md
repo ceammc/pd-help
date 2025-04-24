@@ -3,7 +3,7 @@
 
 # is_symbol
 
-###### checks if input data has *symbol* type
+###### checks if input message is a *symbol*
 
 *available since version:* 0.1
 

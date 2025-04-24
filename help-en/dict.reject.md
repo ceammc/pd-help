@@ -3,7 +3,7 @@
 
 # dict.reject
 
-###### rejects specified keys from dict
+###### rejects specified keys from the dictionary
 
 *available since version:* 0.7
 

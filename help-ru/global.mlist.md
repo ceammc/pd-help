@@ -6,7 +6,7 @@ layout: default_ru
 
 # global.mlist
 
-###### global named mlist object
+###### глобальный именованный многоуровневый список (MList)
 
 *доступно с версии:* 0.6
 

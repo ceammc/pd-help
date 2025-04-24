@@ -6,7 +6,7 @@ layout: default_ru
 
 # is_bang
 
-###### checks if input data has *bang* type
+###### проверяет, является ли входное сообщение *bang*
 
 *доступно с версии:* 0.1
 

@@ -3,7 +3,7 @@
 
 # global.list
 
-###### global named list object
+###### global named list
 
 *available since version:* 0.1
 

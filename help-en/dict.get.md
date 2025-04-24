@@ -3,7 +3,7 @@
 
 # dict.get
 
-###### output dict values
+###### output the dictionary values
 
 *available since version:* 0.6
 

@@ -6,7 +6,7 @@ layout: default_ru
 
 # is_list
 
-###### checks if input data has *list* type
+###### проверка, является ли входное сообщение списком
 
 *доступно с версии:* 0.1
 

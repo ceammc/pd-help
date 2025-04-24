@@ -453,7 +453,7 @@ objects for working with sound dynamic range
 
 
 ### <a id="cat_env" href="category_env.html">env</a>
-
+objects to work with sound envelopes
 
 ---
 
@@ -698,7 +698,7 @@ dataflow control
 
 
 ### <a id="cat_fx" href="category_fx.html">fx</a>
-
+various sound effects
 
 ---
 
@@ -1465,7 +1465,7 @@ math objects. can operate with list of numbers
 
 
 ### <a id="cat_osc" href="category_osc.html">osc</a>
-
+oscillators
 
 ---
 
@@ -1660,7 +1660,7 @@ predicate objects. Checks message or data types, returns 1 or 0.
 
 
 ### <a id="cat_random" href="category_random.html">random</a>
-
+random number generation
 
 ---
 

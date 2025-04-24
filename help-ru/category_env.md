@@ -7,7 +7,7 @@ layout: default_ru
 ## Категория: env
 
 ---
-
+объекты для работы со звуковыми огибающими
 
 
 [**env.adsr~**](env.adsr~.html): ADSR (Attack, Decay, Sustain, Release) envelope generator 

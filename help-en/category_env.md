@@ -3,7 +3,7 @@
 
 # Category: env
 
-
+objects to work with sound envelopes
 
 
 [**env.adsr\~**](env.adsr~.html): ADSR (Attack, Decay, Sustain, Release) envelope generator 

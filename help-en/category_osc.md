@@ -3,7 +3,7 @@
 
 # Category: osc
 
-
+oscillators
 
 
 [**osc.blit\~**](osc.blit~.html): Bandlimited impulse train oscillator 

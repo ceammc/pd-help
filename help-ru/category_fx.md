@@ -7,7 +7,7 @@ layout: default_ru
 ## Категория: fx
 
 ---
-
+различные звуковые эффекты
 
 
 [**fx.bitdown~**](fx.bitdown~.html): bit downer and downsampler effect 

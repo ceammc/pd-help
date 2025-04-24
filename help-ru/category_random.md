@@ -7,7 +7,7 @@ layout: default_ru
 ## Категория: random
 
 ---
-
+генераторы случайных числе
 
 
 [**random.atom**](random.atom.html): weighted atom generation from specified list <br>

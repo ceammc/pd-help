@@ -7,7 +7,7 @@ layout: default_ru
 ## Категория: osc
 
 ---
-
+осцилляторы
 
 
 [**osc.blit~**](osc.blit~.html): Bandlimited impulse train oscillator 

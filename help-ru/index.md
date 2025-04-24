@@ -456,7 +456,7 @@ layout: default_ru
 
 
 ### <a id="cat_env" href="category_env.html">env</a>
-
+объекты для работы со звуковыми огибающими
 
 ---
 
@@ -701,7 +701,7 @@ layout: default_ru
 
 
 ### <a id="cat_fx" href="category_fx.html">fx</a>
-
+различные звуковые эффекты
 
 ---
 
@@ -1468,7 +1468,7 @@ layout: default_ru
 
 
 ### <a id="cat_osc" href="category_osc.html">osc</a>
-
+осцилляторы
 
 ---
 
@@ -1663,7 +1663,7 @@ layout: default_ru
 
 
 ### <a id="cat_random" href="category_random.html">random</a>
-
+генераторы случайных числе
 
 ---
 

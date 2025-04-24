@@ -3,7 +3,7 @@
 
 # Category: fx
 
-
+various sound effects
 
 
 [**fx.bitdown\~**](fx.bitdown~.html): bit downer and downsampler effect 

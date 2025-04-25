@@ -6,7 +6,7 @@ layout: default_ru
 
 # flow.reject_if
 
-###### reject values by predicate
+###### не пропускает значение, принятое предикатом боковой цепи обработки
 
 *доступно с версии:* 0.3
 

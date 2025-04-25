@@ -6,7 +6,7 @@ layout: default_ru
 
 # flow.multiplex~
 
-###### audio stream multiplexer
+###### мультиплексор аудиопотока
 
 *доступно с версии:* 0.6
 

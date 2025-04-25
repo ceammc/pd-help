@@ -6,7 +6,7 @@ layout: default_ru
 
 # route.cycle
 
-###### cyclic message router
+###### циклический маршрутизатор сообщений
 
 *доступно с версии:* 0.9.7
 

@@ -6,7 +6,7 @@ layout: default_ru
 
 # flow.seqdelay
 
-###### sequential delay/router for input flow
+###### последовательный маршрутизатор с задержками для входного потока
 
 *доступно с версии:* 0.9.5
 

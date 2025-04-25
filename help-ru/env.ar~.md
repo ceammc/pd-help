@@ -6,7 +6,7 @@ layout: default_ru
 
 # env.ar~
 
-###### Attack/Release envelope generator
+###### генератор огибающей Attack/Release
 
 *доступно с версии:* 0.7
 

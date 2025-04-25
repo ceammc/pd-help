@@ -6,7 +6,7 @@ layout: default_ru
 
 # flow.prepend
 
-###### prepend message before received one
+###### вставляет сообщение перед текущим
 
 *доступно с версии:* 0.9.7
 

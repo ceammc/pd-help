@@ -6,7 +6,7 @@ layout: default_ru
 
 # random.pw_const
 
-###### piecewise constant random distribution
+###### кусочно-постоянное случайное распределение
 
 *доступно с версии:* 0.4
 

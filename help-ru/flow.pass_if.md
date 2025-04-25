@@ -6,7 +6,7 @@ layout: default_ru
 
 # flow.pass_if
 
-###### pass values that accepted by predicate object
+###### пропускает значение, принятое предикатом боковой цепи обработки
 
 *доступно с версии:* 0.3
 

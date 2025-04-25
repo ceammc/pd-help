@@ -6,7 +6,7 @@ layout: default_ru
 
 # flow.demultiplex
 
-###### control flow demultiplexer
+###### демультиплексор управляющего потока
 
 *доступно с версии:* 0.6
 

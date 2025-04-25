@@ -6,7 +6,7 @@ layout: default_ru
 
 # random.int
 
-###### uniform random integer generator in specified range
+###### равномерный генератор случайных целых чисел в заданном диапазоне
 
 *доступно с версии:* 0.1
 

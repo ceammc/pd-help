@@ -6,7 +6,7 @@ layout: default_ru
 
 # env2vline
 
-###### Converts envelope to bunch of vline messages
+###### преобразует огибающую в последовательность сообщений для объекта vline
 
 *доступно с версии:* 0.5
 

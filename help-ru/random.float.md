@@ -6,7 +6,7 @@ layout: default_ru
 
 # random.float
 
-###### uniform random float generator in specified range
+###### равномерный генератор случайных чисел с плавающей точкой в заданном диапазоне
 
 *доступно с версии:* 0.1
 

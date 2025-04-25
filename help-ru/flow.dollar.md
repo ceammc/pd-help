@@ -6,7 +6,7 @@ layout: default_ru
 
 # flow.dollar
 
-###### data flow dollar converter
+###### подставляет $-значения
 
 *доступно с версии:* 0.9.3
 

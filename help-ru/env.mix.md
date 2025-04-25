@@ -6,7 +6,7 @@ layout: default_ru
 
 # env.mix
 
-###### Mix between two envelopes. Envelopes should contain equal number of segments
+###### микс между двумя огибающими, содержащими равное количество сегментов
 
 *доступно с версии:* 0.5
 

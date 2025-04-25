@@ -6,7 +6,7 @@ layout: default_ru
 
 # flow.split
 
-###### split data flow by external side-chain predicate
+###### разделят управляющий поток внешним предикатом боковой цепи
 
 *доступно с версии:* 0.3
 

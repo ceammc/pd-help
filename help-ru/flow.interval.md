@@ -6,7 +6,7 @@ layout: default_ru
 
 # flow.interval
 
-###### measure time between flow events
+###### измерение времени между сообщениями
 
 *доступно с версии:* 0.6
 
@@ -34,7 +34,7 @@ _тип:_ control
 
 ## выходы:
 
-* output time between current and previous event in milliseconds<br>
+* output time between the current and the previous message in milliseconds<br>
 _тип:_ control
 
 

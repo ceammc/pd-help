@@ -6,7 +6,7 @@ layout: default_ru
 
 # flow.group
 
-###### group input atoms in list of specified size
+###### группирует входные атомы в списки указанного размера
 
 *доступно с версии:* 0.3
 

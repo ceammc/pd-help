@@ -6,7 +6,7 @@ layout: default_ru
 
 # flow.pipe
 
-###### enhanced version on vanilla pipe object
+###### усовершенствованная версия объекта [pipe]
 
 *доступно с версии:* 0.9.1
 

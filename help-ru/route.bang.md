@@ -6,7 +6,7 @@ layout: default_ru
 
 # route.bang
 
-###### separate bang messages from other types
+###### отделяет пустые события (bangs) от сообщений других типов
 
 *доступно с версии:* 0.9.6
 

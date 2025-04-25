@@ -6,7 +6,7 @@ layout: default_ru
 
 # flow.sync
 
-###### bus with only hot inlets
+###### синхронная многоканальная шина
 
 *доступно с версии:* 0.1
 

@@ -6,7 +6,7 @@ layout: default_ru
 
 # flow.count
 
-###### control flow event counter
+###### счетчик числа сообщений в управляющем потоке
 
 *доступно с версии:* 0.4
 

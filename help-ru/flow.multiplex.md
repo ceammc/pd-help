@@ -6,7 +6,7 @@ layout: default_ru
 
 # flow.multiplex
 
-###### control flow multiplexer
+###### мультиплексор управляющего потока
 
 *доступно с версии:* 0.6
 

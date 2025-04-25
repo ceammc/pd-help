@@ -6,7 +6,7 @@ layout: default_ru
 
 # random.discrete
 
-###### random weighted integers on interval [0, n)
+###### генерирует случайные взвешенные целые числа на интервале [0, n)
 
 *доступно с версии:* 0.4
 

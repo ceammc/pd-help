@@ -6,7 +6,7 @@ layout: default_ru
 
 # random.pw_lin
 
-###### piecewise linear random distribution
+###### кусочно-линейное случайное распределение
 
 *доступно с версии:* 0.4
 

@@ -6,7 +6,7 @@ layout: default_ru
 
 # random.atom
 
-###### weighted atom generation from specified list
+###### случайный взвешенный выбор атомов из указанного списка
 
 *доступно с версии:* 0.9.1
 

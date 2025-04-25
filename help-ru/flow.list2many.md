@@ -6,7 +6,7 @@ layout: default_ru
 
 # flow.list2many
 
-###### routes list element with message selectors
+###### маршрутизирует элемент списка с соответствующим сообщением
 
 *доступно с версии:* 0.9.2
 

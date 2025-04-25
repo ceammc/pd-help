@@ -6,7 +6,7 @@ layout: default_ru
 
 # route.float
 
-###### separate float messages from other types
+###### отделяет числовые сообщения от других типов
 
 *доступно с версии:* 0.9.2
 

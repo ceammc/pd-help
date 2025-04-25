@@ -6,7 +6,7 @@ layout: default_ru
 
 # flow.select
 
-###### vanilla flow on steroids
+###### улучшенный селектор сообщений
 
 *доступно с версии:* 0.9.1
 

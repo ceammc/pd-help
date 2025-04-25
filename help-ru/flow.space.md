@@ -6,15 +6,13 @@ layout: default_ru
 
 # flow.space
 
-###### space in time messages received at the same logical time
+###### распределить во времени сообщения, полученные одновременно
 
 *доступно с версии:* 0.9.1
 
 ---
 
 
-## информация
-first message is delayed to next scheduler time
 
 
 [![example](../examples/img/flow.space.jpg)](../examples/pd/flow.space.pd)

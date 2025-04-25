@@ -6,7 +6,7 @@ layout: default_ru
 
 # flow.route
 
-###### advanced message router
+###### улучшенный маршрутизатор сообщений
 
 *доступно с версии:* 0.6
 

@@ -6,7 +6,7 @@ layout: default_ru
 
 # flow.queue
 
-###### multi-channel control flow sync queue (or FIFO)
+###### многоканальная очередь сообщений с возможностью синхронизации
 
 *доступно с версии:* 0.9.1
 
@@ -22,11 +22,11 @@ layout: default_ru
 ## аргументы:
 
 * **MAX_SIZE**
-max queue size<br>
+max queue lane size<br>
 _тип:_ int<br>
 
 * **N**
-number of lines<br>
+number of lanes<br>
 _тип:_ int<br>
 
 
@@ -41,7 +41,7 @@ _тип:_ bool<br>
 _по умолчанию:_ 0<br>
 
 * **@max_size** 
-Запросить/установить max queue size<br>
+Запросить/установить max queue lane size<br>
 _тип:_ int<br>
 _диапазон:_ 1..1024<br>
 _по умолчанию:_ 32<br>

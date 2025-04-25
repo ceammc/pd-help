@@ -6,7 +6,7 @@ layout: default_ru
 
 # flow.gate
 
-###### control flow gate. [spigot] analog
+###### шлюз для потока сообщений. аналог объекта [spigot]
 
 *доступно с версии:* 0.4
 

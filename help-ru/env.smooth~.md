@@ -6,7 +6,7 @@ layout: default_ru
 
 # env.smooth~
 
-###### An envelope with an exponential attack and release
+###### огибающая с экспоненциальной атакой и отпусканием
 
 *доступно с версии:* 0.6
 

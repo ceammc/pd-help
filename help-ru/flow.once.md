@@ -6,7 +6,7 @@ layout: default_ru
 
 # flow.once
 
-###### one message pass thru
+###### пропускает единственное сообщение
 
 *доступно с версии:* 0.6
 

@@ -6,7 +6,7 @@ layout: default_ru
 
 # env.tscale
 
-###### Envelope time-scale
+###### растяжение огибающей во времени
 
 *доступно с версии:* 0.5
 

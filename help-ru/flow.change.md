@@ -6,7 +6,7 @@ layout: default_ru
 
 # flow.change
 
-###### rejects redundant input values
+###### удаляет повторяющиеся сообщения
 
 *доступно с версии:* 0.3
 

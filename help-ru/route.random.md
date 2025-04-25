@@ -6,7 +6,7 @@ layout: default_ru
 
 # route.random
 
-###### routes input flow to random outlet
+###### направляет входное сообщение в случайный выход
 
 *доступно с версии:* 0.9.6
 

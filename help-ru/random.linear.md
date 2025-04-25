@@ -6,7 +6,7 @@ layout: default_ru
 
 # random.linear
 
-###### random linear distribution
+###### случайное линейное распределение
 
 *доступно с версии:* 0.4
 

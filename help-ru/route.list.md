@@ -6,7 +6,7 @@ layout: default_ru
 
 # route.list
 
-###### separate list messages from other types
+###### отделяет списки от сообщений других типов
 
 *доступно с версии:* 0.9.6
 

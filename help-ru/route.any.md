@@ -6,7 +6,7 @@ layout: default_ru
 
 # route.any
 
-###### separate any messages from bangs, floats, symbols and lists
+###### отделяет сообщения общего вида от пустых событий (bang), числовых значений, символов и списков
 
 *доступно с версии:* 0.9.6
 

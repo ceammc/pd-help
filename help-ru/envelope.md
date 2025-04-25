@@ -6,7 +6,7 @@ layout: default_ru
 
 # envelope
 
-###### Envelope data type
+###### тип данных огибающей
 
 *доступно с версии:* 0.5
 

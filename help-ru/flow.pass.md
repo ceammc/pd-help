@@ -6,7 +6,7 @@ layout: default_ru
 
 # flow.pass
 
-###### pass specified values
+###### пропускает указанные значения
 
 *доступно с версии:* 0.3
 

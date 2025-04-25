@@ -6,7 +6,7 @@ layout: default_ru
 
 # flow.sync_pack
 
-###### flow pack with all hot inlets
+###### [flow.pack] со всеми &#34;горячими&#34; входами
 
 *доступно с версии:* 0.8
 

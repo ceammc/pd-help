@@ -6,7 +6,7 @@ layout: default_ru
 
 # flow.less
 
-###### numeric stream router, like many [moses]
+###### маршрутизатор числового потока по условию &#39;меньше&#39;
 
 *доступно с версии:* 0.4
 

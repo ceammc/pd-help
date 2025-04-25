@@ -6,7 +6,7 @@ layout: default_ru
 
 # env.asr2~
 
-###### stereo Attack/Sustain/Release envelope generator
+###### стерео генератор огибающей Attack/Sustain/Release
 
 *доступно с версии:* 0.9.7
 

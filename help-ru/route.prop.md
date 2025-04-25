@@ -6,7 +6,7 @@ layout: default_ru
 
 # route.prop
 
-###### separate property messages from other types
+###### отделяет сообщения со свойствами от других типов
 
 *доступно с версии:* 0.9.6
 

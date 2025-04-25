@@ -6,7 +6,7 @@ layout: default_ru
 
 # env.vscale
 
-###### Envelope value-scale
+###### изменение амплитуды огибующей
 
 *доступно с версии:* 0.5
 

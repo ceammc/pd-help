@@ -6,7 +6,7 @@ layout: default_ru
 
 # env2array
 
-###### Renders envelope to specified array
+###### рендеринг огибающей в массив
 
 *доступно с версии:* 0.5
 

@@ -6,7 +6,7 @@ layout: default_ru
 
 # random.gauss
 
-###### gaussian random distribution
+###### гауссово случайное распределение
 
 *доступно с версии:* 0.1
 

@@ -6,7 +6,7 @@ layout: default_ru
 
 # env.asr~
 
-###### Attack/Sustain/Release envelope generator
+###### генератор огибающей Attack/Sustain/Release
 
 *доступно с версии:* 0.6
 

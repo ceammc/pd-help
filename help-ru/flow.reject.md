@@ -6,7 +6,7 @@ layout: default_ru
 
 # flow.reject
 
-###### reject specified values
+###### не пропускает указанные значения
 
 *доступно с версии:* 0.3
 

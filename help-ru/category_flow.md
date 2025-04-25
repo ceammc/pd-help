@@ -14,51 +14,51 @@ layout: default_ru
 _псевдонимы:_ \[ceammc/expand_env\]
 
 
-[**flow.append**](flow.append.html): append message to flow stream 
+[**flow.append**](flow.append.html): Добавить сообщение для потока 
 
-[**flow.change**](flow.change.html): rejects redundant input values 
+[**flow.change**](flow.change.html): удаляет повторяющиеся сообщения 
 
-[**flow.count**](flow.count.html): control flow event counter 
+[**flow.count**](flow.count.html): счетчик числа сообщений в управляющем потоке 
 
-[**flow.delay**](flow.delay.html): enhanced version on vanilla delay object <br>
+[**flow.delay**](flow.delay.html): усовершенствованная версия объекта [delay] <br>
 _псевдонимы:_ \[flow.del\]
 
 
-[**flow.demultiplex**](flow.demultiplex.html): control flow demultiplexer <br>
+[**flow.demultiplex**](flow.demultiplex.html): демультиплексор управляющего потока <br>
 _псевдонимы:_ \[flow.demux\]
 
 
-[**flow.demultiplex2~**](flow.demultiplex2~.html): audio stream stereo demultiplexer <br>
+[**flow.demultiplex2~**](flow.demultiplex2~.html): демультиплексор стерео аудиопотока <br>
 _псевдонимы:_ \[flow.demux2~\], \[ceammc/demux2~\], \[demux2~\]
 
 
-[**flow.demultiplex~**](flow.demultiplex~.html): audio stream demultiplexer <br>
+[**flow.demultiplex~**](flow.demultiplex~.html): демультиплексор аудиопотока <br>
 _псевдонимы:_ \[flow.demux~\], \[ceammc/demux~\], \[demux~\]
 
 
-[**flow.dollar**](flow.dollar.html): data flow dollar converter <br>
+[**flow.dollar**](flow.dollar.html): подставляет $-значения <br>
 _псевдонимы:_ \[flow.$$\]
 
 
-[**flow.dup**](flow.dup.html): message duplicator 
+[**flow.dup**](flow.dup.html): дупликатор сообщений 
 
-[**flow.float**](flow.float.html): pass floats <br>
+[**flow.float**](flow.float.html): плавать <br>
 _псевдонимы:_ \[flow.f\]
 
 
-[**flow.gate**](flow.gate.html): control flow gate. [spigot] analog <br>
+[**flow.gate**](flow.gate.html): шлюз для потока сообщений. аналог объекта [spigot] <br>
 _псевдонимы:_ \[ceammc/gate\], \[gate\]
 
 
-[**flow.greater**](flow.greater.html): numeric stream router <br>
+[**flow.greater**](flow.greater.html): маршрутизатор числового потока по условию &#39;больше&#39; <br>
 _псевдонимы:_ \[flow.&gt;\]
 
 
-[**flow.greater_eq**](flow.greater_eq.html): numeric stream router <br>
+[**flow.greater_eq**](flow.greater_eq.html): маршрутизатор числового потока по условию &#39;больше или равно&#39; <br>
 _псевдонимы:_ \[flow.&gt;=\]
 
 
-[**flow.group**](flow.group.html): group input atoms in list of specified size <br>
+[**flow.group**](flow.group.html): группирует входные атомы в списки указанного размера <br>
 _псевдонимы:_ \[ceammc/group\], \[group\]
 
 
@@ -66,103 +66,103 @@ _псевдонимы:_ \[ceammc/group\], \[group\]
 _псевдонимы:_ \[flow.hist\]
 
 
-[**flow.interval**](flow.interval.html): measure time between flow events 
+[**flow.interval**](flow.interval.html): измерение времени между сообщениями 
 
-[**flow.less**](flow.less.html): numeric stream router, like many [moses] <br>
+[**flow.less**](flow.less.html): маршрутизатор числового потока по условию &#39;меньше&#39; <br>
 _псевдонимы:_ \[flow.&lt;\]
 
 
-[**flow.less_eq**](flow.less_eq.html): numeric stream router, like many [moses] <br>
+[**flow.less_eq**](flow.less_eq.html): маршрутизатор числового потока по условию &#39;меньше или равно&#39; <br>
 _псевдонимы:_ \[flow.&lt;=\]
 
 
-[**flow.list2many**](flow.list2many.html): routes list element with message selectors <br>
+[**flow.list2many**](flow.list2many.html): маршрутизирует элемент списка с соответствующим сообщением <br>
 _псевдонимы:_ \[ceammc/list-&gt;many\], \[list-&gt;many\]
 
 
-[**flow.match**](flow.match.html): route data flow by regexp match 
+[**flow.match**](flow.match.html): маршрутизатор управляющего потока с помощью совпадений с регулярным выражением 
 
-[**flow.mem**](flow.mem.html): store data flow in memory 
+[**flow.mem**](flow.mem.html): сохраняет в памяти или выводит сообщения потока управления 
 
-[**flow.multiplex**](flow.multiplex.html): control flow multiplexer <br>
+[**flow.multiplex**](flow.multiplex.html): мультиплексор управляющего потока <br>
 _псевдонимы:_ \[flow.mux\]
 
 
-[**flow.multiplex2~**](flow.multiplex2~.html): audio stream stereo multiplexer <br>
+[**flow.multiplex2~**](flow.multiplex2~.html): мультиплексор стерео аудиопотока <br>
 _псевдонимы:_ \[flow.mux2~\], \[ceammc/mux2~\], \[mux2~\]
 
 
-[**flow.multiplex~**](flow.multiplex~.html): audio stream multiplexer <br>
+[**flow.multiplex~**](flow.multiplex~.html): мультиплексор аудиопотока <br>
 _псевдонимы:_ \[flow.mux~\], \[ceammc/mux~\], \[mux~\]
 
 
-[**flow.once**](flow.once.html): one message pass thru <br>
+[**flow.once**](flow.once.html): пропускает единственное сообщение <br>
 _псевдонимы:_ \[ceammc/once\], \[once\]
 
 
-[**flow.pack**](flow.pack.html): flow pack 
+[**flow.pack**](flow.pack.html): упаковка атомов из нескольких потоков в один 
 
-[**flow.pass**](flow.pass.html): pass specified values <br>
+[**flow.pass**](flow.pass.html): пропускает указанные значения <br>
 _псевдонимы:_ \[ceammc/pass\], \[pass\]
 
 
-[**flow.pass_if**](flow.pass_if.html): pass values that accepted by predicate object <br>
+[**flow.pass_if**](flow.pass_if.html): пропускает значение, принятое предикатом боковой цепи обработки <br>
 _псевдонимы:_ \[ceammc/pass_if\], \[pass_if\]
 
 
-[**flow.pipe**](flow.pipe.html): enhanced version on vanilla pipe object 
+[**flow.pipe**](flow.pipe.html): усовершенствованная версия объекта [pipe] 
 
-[**flow.prepend**](flow.prepend.html): prepend message before received one 
+[**flow.prepend**](flow.prepend.html): вставляет сообщение перед текущим 
 
-[**flow.queue**](flow.queue.html): multi-channel control flow sync queue (or FIFO) 
+[**flow.queue**](flow.queue.html): многоканальная очередь сообщений с возможностью синхронизации 
 
-[**flow.record**](flow.record.html): flow stream recorder/player <br>
+[**flow.record**](flow.record.html): запись/воспроизведение управляющего потока <br>
 _псевдонимы:_ \[flow.rec\]
 
 
-[**flow.reject**](flow.reject.html): reject specified values <br>
+[**flow.reject**](flow.reject.html): не пропускает указанные значения <br>
 _псевдонимы:_ \[ceammc/reject\], \[reject\], \[flow.!\]
 
 
-[**flow.reject_if**](flow.reject_if.html): reject values by predicate <br>
+[**flow.reject_if**](flow.reject_if.html): не пропускает значение, принятое предикатом боковой цепи обработки <br>
 _псевдонимы:_ \[ceammc/reject_if\], \[reject_if\]
 
 
-[**flow.ring**](flow.ring.html): dataflow ring buffer <br>
+[**flow.ring**](flow.ring.html): маршрутизатор в виде очереди для управляющего потока <br>
 _псевдонимы:_ \[flow.&gt;&gt;\]
 
 
-[**flow.route**](flow.route.html): advanced message router 
+[**flow.route**](flow.route.html): улучшенный маршрутизатор сообщений 
 
-[**flow.select**](flow.select.html): vanilla flow on steroids <br>
+[**flow.select**](flow.select.html): улучшенный селектор сообщений <br>
 _псевдонимы:_ \[flow.sel\]
 
 
-[**flow.seqdelay**](flow.seqdelay.html): sequential delay/router for input flow <br>
+[**flow.seqdelay**](flow.seqdelay.html): последовательный маршрутизатор с задержками для входного потока <br>
 _псевдонимы:_ \[flow.seqdel\]
 
 
-[**flow.space**](flow.space.html): space in time messages received at the same logical time 
+[**flow.space**](flow.space.html): распределить во времени сообщения, полученные одновременно 
 
-[**flow.speedlim**](flow.speedlim.html): control stream speed limiter <br>
+[**flow.speedlim**](flow.speedlim.html): ограничитель скорости потока <br>
 _псевдонимы:_ \[ceammc/speedlim\], \[speedlim\]
 
 
-[**flow.split**](flow.split.html): split data flow by external side-chain predicate <br>
+[**flow.split**](flow.split.html): разделят управляющий поток внешним предикатом боковой цепи <br>
 _псевдонимы:_ \[ceammc/split\], \[split\]
 
 
-[**flow.stack**](flow.stack.html): any message stack 
+[**flow.stack**](flow.stack.html): стек сообщений 
 
-[**flow.sync**](flow.sync.html): bus with only hot inlets <br>
+[**flow.sync**](flow.sync.html): синхронная многоканальная шина <br>
 _псевдонимы:_ \[flow.&#39;\]
 
 
-[**flow.sync_pack**](flow.sync_pack.html): flow pack with all hot inlets <br>
+[**flow.sync_pack**](flow.sync_pack.html): [flow.pack] со всеми &#34;горячими&#34; входами <br>
 _псевдонимы:_ \[flow.pack&#39;\]
 
 
-[**flow.tee~**](flow.tee~.html): separate audio and control streams <br>
+[**flow.tee~**](flow.tee~.html): извлекает управляющие сообщения из аудиосоединений <br>
 _псевдонимы:_ \[ceammc/tee~\], \[tee~\], \[ceammc/~-&gt;\], \[~-&gt;\]
 
 
@@ -170,33 +170,33 @@ _псевдонимы:_ \[ceammc/tee~\], \[tee~\], \[ceammc/~-&gt;\], \[~-&gt;\]
 _псевдонимы:_ \[ceammc/replace\]
 
 
-[**route.any**](route.any.html): separate any messages from bangs, floats, symbols and lists 
+[**route.any**](route.any.html): отделяет сообщения общего вида от пустых событий (bang), числовых значений, символов и списков 
 
-[**route.bang**](route.bang.html): separate bang messages from other types <br>
+[**route.bang**](route.bang.html): отделяет пустые события (bangs) от сообщений других типов <br>
 _псевдонимы:_ \[route.b\]
 
 
-[**route.cycle**](route.cycle.html): cyclic message router 
+[**route.cycle**](route.cycle.html): циклический маршрутизатор сообщений 
 
-[**route.data**](route.data.html): separate any messages from bangs, floats, symbols and lists <br>
+[**route.data**](route.data.html): отделяет сообщения с данными от других <br>
 _псевдонимы:_ \[route.d\]
 
 
-[**route.float**](route.float.html): separate float messages from other types <br>
+[**route.float**](route.float.html): отделяет числовые сообщения от других типов <br>
 _псевдонимы:_ \[route.f\]
 
 
-[**route.list**](route.list.html): separate list messages from other types <br>
+[**route.list**](route.list.html): отделяет списки от сообщений других типов <br>
 _псевдонимы:_ \[route.l\]
 
 
-[**route.prop**](route.prop.html): separate property messages from other types 
+[**route.prop**](route.prop.html): отделяет сообщения со свойствами от других типов 
 
-[**route.random**](route.random.html): routes input flow to random outlet <br>
+[**route.random**](route.random.html): направляет входное сообщение в случайный выход <br>
 _псевдонимы:_ \[route.r\]
 
 
-[**route.symbol**](route.symbol.html): separate symbol messages from other types <br>
+[**route.symbol**](route.symbol.html): отделяет символьные сообщения от других типов <br>
 _псевдонимы:_ \[route.s\]
 
 

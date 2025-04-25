@@ -6,7 +6,7 @@ layout: default_ru
 
 # route.data
 
-###### separate any messages from bangs, floats, symbols and lists
+###### отделяет сообщения с данными от других
 
 *доступно с версии:* 0.9.6
 

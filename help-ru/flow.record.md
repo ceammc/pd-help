@@ -6,7 +6,7 @@ layout: default_ru
 
 # flow.record
 
-###### flow stream recorder/player
+###### запись/воспроизведение управляющего потока
 
 *доступно с версии:* 0.9
 
@@ -32,7 +32,7 @@ _по умолчанию:_ 0<br>
 
 * **@max** 
 Запросить/установить max number of events, if 0: no max size check. If @auto is set - starts
-playback when max size reached.<br>
+playback when max size reached<br>
 _тип:_ int<br>
 _диапазон:_ 0..65536<br>
 _по умолчанию:_ 256<br>
@@ -50,7 +50,7 @@ _диапазон:_ 0.0156..64<br>
 _по умолчанию:_ 1<br>
 
 * **@sync** 
-Запросить/установить use external bang pulse to sync recorded events with.<br>
+Запросить/установить use external bang pulse to sync recorded events with<br>
 _тип:_ bool<br>
 _по умолчанию:_ 0<br>
 

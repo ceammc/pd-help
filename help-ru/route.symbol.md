@@ -6,7 +6,7 @@ layout: default_ru
 
 # route.symbol
 
-###### separate symbol messages from other types
+###### отделяет символьные сообщения от других типов
 
 *доступно с версии:* 0.9.6
 

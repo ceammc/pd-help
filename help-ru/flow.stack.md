@@ -6,7 +6,7 @@ layout: default_ru
 
 # flow.stack
 
-###### any message stack
+###### стек сообщений
 
 *доступно с версии:* 0.9.1
 

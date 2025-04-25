@@ -461,33 +461,33 @@ layout: default_ru
 ---
 
 
-[**env.adsr~**](env.adsr~.html): ADSR (Attack, Decay, Sustain, Release) envelope generator 
+[**env.adsr~**](env.adsr~.html): генератор огибающей ADSR (Attack, Decay, Sustain, Release) 
 
-[**env.ar~**](env.ar~.html): Attack/Release envelope generator 
+[**env.ar~**](env.ar~.html): генератор огибающей Attack/Release 
 
-[**env.asr2~**](env.asr2~.html): stereo Attack/Sustain/Release envelope generator 
+[**env.asr2~**](env.asr2~.html): стерео генератор огибающей Attack/Sustain/Release 
 
-[**env.asr~**](env.asr~.html): Attack/Sustain/Release envelope generator 
+[**env.asr~**](env.asr~.html): генератор огибающей Attack/Sustain/Release 
 
-[**env.concat**](env.concat.html): Envelope concatenation 
+[**env.concat**](env.concat.html): конкатенация огибающих 
 
-[**env.follow~**](env.follow~.html): Envelope follower with independent attack and release times 
+[**env.follow~**](env.follow~.html): Последователь конверта с независимой атакой и временем выпуска 
 
-[**env.mix**](env.mix.html): Mix between two envelopes. Envelopes should contain equal number of segments 
+[**env.mix**](env.mix.html): микс между двумя огибающими, содержащими равное количество сегментов 
 
-[**env.smooth~**](env.smooth~.html): An envelope with an exponential attack and release 
+[**env.smooth~**](env.smooth~.html): огибающая с экспоненциальной атакой и отпусканием 
 
-[**env.tscale**](env.tscale.html): Envelope time-scale 
+[**env.tscale**](env.tscale.html): растяжение огибающей во времени 
 
-[**env.tshift**](env.tshift.html): Envelope time-shift (horizontal) 
+[**env.tshift**](env.tshift.html): сдвиг огибающей по времени (по горизонтали) 
 
-[**env.vscale**](env.vscale.html): Envelope value-scale 
+[**env.vscale**](env.vscale.html): изменение амплитуды огибующей 
 
-[**env2array**](env2array.html): Renders envelope to specified array 
+[**env2array**](env2array.html): рендеринг огибающей в массив 
 
-[**env2vline**](env2vline.html): Converts envelope to bunch of vline messages 
+[**env2vline**](env2vline.html): преобразует огибающую в последовательность сообщений для объекта vline 
 
-[**envelope**](envelope.html): Envelope data type 
+[**envelope**](envelope.html): тип данных огибающей 
 
 [**vline2env**](vline2env.html): Converts vline messages to env 
 
@@ -500,115 +500,115 @@ layout: default_ru
 
 [**expand_env**](expand_env.html): Substitute environment variables in data stream 
 
-[**flow.append**](flow.append.html): append message to flow stream 
+[**flow.append**](flow.append.html): Добавить сообщение для потока 
 
-[**flow.change**](flow.change.html): rejects redundant input values 
+[**flow.change**](flow.change.html): удаляет повторяющиеся сообщения 
 
-[**flow.count**](flow.count.html): control flow event counter 
+[**flow.count**](flow.count.html): счетчик числа сообщений в управляющем потоке 
 
-[**flow.delay**](flow.delay.html): enhanced version on vanilla delay object 
+[**flow.delay**](flow.delay.html): усовершенствованная версия объекта [delay] 
 
-[**flow.demultiplex**](flow.demultiplex.html): control flow demultiplexer 
+[**flow.demultiplex**](flow.demultiplex.html): демультиплексор управляющего потока 
 
-[**flow.demultiplex2~**](flow.demultiplex2~.html): audio stream stereo demultiplexer 
+[**flow.demultiplex2~**](flow.demultiplex2~.html): демультиплексор стерео аудиопотока 
 
-[**flow.demultiplex~**](flow.demultiplex~.html): audio stream demultiplexer 
+[**flow.demultiplex~**](flow.demultiplex~.html): демультиплексор аудиопотока 
 
-[**flow.dollar**](flow.dollar.html): data flow dollar converter 
+[**flow.dollar**](flow.dollar.html): подставляет $-значения 
 
-[**flow.dup**](flow.dup.html): message duplicator 
+[**flow.dup**](flow.dup.html): дупликатор сообщений 
 
-[**flow.float**](flow.float.html): pass floats 
+[**flow.float**](flow.float.html): плавать 
 
-[**flow.gate**](flow.gate.html): control flow gate. [spigot] analog 
+[**flow.gate**](flow.gate.html): шлюз для потока сообщений. аналог объекта [spigot] 
 
-[**flow.greater**](flow.greater.html): numeric stream router 
+[**flow.greater**](flow.greater.html): маршрутизатор числового потока по условию &#39;больше&#39; 
 
-[**flow.greater_eq**](flow.greater_eq.html): numeric stream router 
+[**flow.greater_eq**](flow.greater_eq.html): маршрутизатор числового потока по условию &#39;больше или равно&#39; 
 
-[**flow.group**](flow.group.html): group input atoms in list of specified size 
+[**flow.group**](flow.group.html): группирует входные атомы в списки указанного размера 
 
 [**flow.histogram**](flow.histogram.html): гисторамма для числового потока управления 
 
-[**flow.interval**](flow.interval.html): measure time between flow events 
+[**flow.interval**](flow.interval.html): измерение времени между сообщениями 
 
-[**flow.less**](flow.less.html): numeric stream router, like many [moses] 
+[**flow.less**](flow.less.html): маршрутизатор числового потока по условию &#39;меньше&#39; 
 
-[**flow.less_eq**](flow.less_eq.html): numeric stream router, like many [moses] 
+[**flow.less_eq**](flow.less_eq.html): маршрутизатор числового потока по условию &#39;меньше или равно&#39; 
 
-[**flow.list2many**](flow.list2many.html): routes list element with message selectors 
+[**flow.list2many**](flow.list2many.html): маршрутизирует элемент списка с соответствующим сообщением 
 
-[**flow.match**](flow.match.html): route data flow by regexp match 
+[**flow.match**](flow.match.html): маршрутизатор управляющего потока с помощью совпадений с регулярным выражением 
 
-[**flow.mem**](flow.mem.html): store data flow in memory 
+[**flow.mem**](flow.mem.html): сохраняет в памяти или выводит сообщения потока управления 
 
-[**flow.multiplex**](flow.multiplex.html): control flow multiplexer 
+[**flow.multiplex**](flow.multiplex.html): мультиплексор управляющего потока 
 
-[**flow.multiplex2~**](flow.multiplex2~.html): audio stream stereo multiplexer 
+[**flow.multiplex2~**](flow.multiplex2~.html): мультиплексор стерео аудиопотока 
 
-[**flow.multiplex~**](flow.multiplex~.html): audio stream multiplexer 
+[**flow.multiplex~**](flow.multiplex~.html): мультиплексор аудиопотока 
 
-[**flow.once**](flow.once.html): one message pass thru 
+[**flow.once**](flow.once.html): пропускает единственное сообщение 
 
-[**flow.pack**](flow.pack.html): flow pack 
+[**flow.pack**](flow.pack.html): упаковка атомов из нескольких потоков в один 
 
-[**flow.pass**](flow.pass.html): pass specified values 
+[**flow.pass**](flow.pass.html): пропускает указанные значения 
 
-[**flow.pass_if**](flow.pass_if.html): pass values that accepted by predicate object 
+[**flow.pass_if**](flow.pass_if.html): пропускает значение, принятое предикатом боковой цепи обработки 
 
-[**flow.pipe**](flow.pipe.html): enhanced version on vanilla pipe object 
+[**flow.pipe**](flow.pipe.html): усовершенствованная версия объекта [pipe] 
 
-[**flow.prepend**](flow.prepend.html): prepend message before received one 
+[**flow.prepend**](flow.prepend.html): вставляет сообщение перед текущим 
 
-[**flow.queue**](flow.queue.html): multi-channel control flow sync queue (or FIFO) 
+[**flow.queue**](flow.queue.html): многоканальная очередь сообщений с возможностью синхронизации 
 
-[**flow.record**](flow.record.html): flow stream recorder/player 
+[**flow.record**](flow.record.html): запись/воспроизведение управляющего потока 
 
-[**flow.reject**](flow.reject.html): reject specified values 
+[**flow.reject**](flow.reject.html): не пропускает указанные значения 
 
-[**flow.reject_if**](flow.reject_if.html): reject values by predicate 
+[**flow.reject_if**](flow.reject_if.html): не пропускает значение, принятое предикатом боковой цепи обработки 
 
-[**flow.ring**](flow.ring.html): dataflow ring buffer 
+[**flow.ring**](flow.ring.html): маршрутизатор в виде очереди для управляющего потока 
 
-[**flow.route**](flow.route.html): advanced message router 
+[**flow.route**](flow.route.html): улучшенный маршрутизатор сообщений 
 
-[**flow.select**](flow.select.html): vanilla flow on steroids 
+[**flow.select**](flow.select.html): улучшенный селектор сообщений 
 
-[**flow.seqdelay**](flow.seqdelay.html): sequential delay/router for input flow 
+[**flow.seqdelay**](flow.seqdelay.html): последовательный маршрутизатор с задержками для входного потока 
 
-[**flow.space**](flow.space.html): space in time messages received at the same logical time 
+[**flow.space**](flow.space.html): распределить во времени сообщения, полученные одновременно 
 
-[**flow.speedlim**](flow.speedlim.html): control stream speed limiter 
+[**flow.speedlim**](flow.speedlim.html): ограничитель скорости потока 
 
-[**flow.split**](flow.split.html): split data flow by external side-chain predicate 
+[**flow.split**](flow.split.html): разделят управляющий поток внешним предикатом боковой цепи 
 
-[**flow.stack**](flow.stack.html): any message stack 
+[**flow.stack**](flow.stack.html): стек сообщений 
 
-[**flow.sync**](flow.sync.html): bus with only hot inlets 
+[**flow.sync**](flow.sync.html): синхронная многоканальная шина 
 
-[**flow.sync_pack**](flow.sync_pack.html): flow pack with all hot inlets 
+[**flow.sync_pack**](flow.sync_pack.html): [flow.pack] со всеми &#34;горячими&#34; входами 
 
-[**flow.tee~**](flow.tee~.html): separate audio and control streams 
+[**flow.tee~**](flow.tee~.html): извлекает управляющие сообщения из аудиосоединений 
 
 [**replace**](replace.html): Replace atoms in data stream 
 
-[**route.any**](route.any.html): separate any messages from bangs, floats, symbols and lists 
+[**route.any**](route.any.html): отделяет сообщения общего вида от пустых событий (bang), числовых значений, символов и списков 
 
-[**route.bang**](route.bang.html): separate bang messages from other types 
+[**route.bang**](route.bang.html): отделяет пустые события (bangs) от сообщений других типов 
 
-[**route.cycle**](route.cycle.html): cyclic message router 
+[**route.cycle**](route.cycle.html): циклический маршрутизатор сообщений 
 
-[**route.data**](route.data.html): separate any messages from bangs, floats, symbols and lists 
+[**route.data**](route.data.html): отделяет сообщения с данными от других 
 
-[**route.float**](route.float.html): separate float messages from other types 
+[**route.float**](route.float.html): отделяет числовые сообщения от других типов 
 
-[**route.list**](route.list.html): separate list messages from other types 
+[**route.list**](route.list.html): отделяет списки от сообщений других типов 
 
-[**route.prop**](route.prop.html): separate property messages from other types 
+[**route.prop**](route.prop.html): отделяет сообщения со свойствами от других типов 
 
-[**route.random**](route.random.html): routes input flow to random outlet 
+[**route.random**](route.random.html): направляет входное сообщение в случайный выход 
 
-[**route.symbol**](route.symbol.html): separate symbol messages from other types 
+[**route.symbol**](route.symbol.html): отделяет символьные сообщения от других типов 
 
 
 ### <a id="cat_flt" href="category_flt.html">flt</a>
@@ -1668,21 +1668,21 @@ layout: default_ru
 ---
 
 
-[**random.atom**](random.atom.html): weighted atom generation from specified list 
+[**random.atom**](random.atom.html): случайный взвешенный выбор атомов из указанного списка 
 
-[**random.discrete**](random.discrete.html): random weighted integers on interval [0, n) 
+[**random.discrete**](random.discrete.html): генерирует случайные взвешенные целые числа на интервале [0, n) 
 
-[**random.float**](random.float.html): uniform random float generator in specified range 
+[**random.float**](random.float.html): равномерный генератор случайных чисел с плавающей точкой в заданном диапазоне 
 
-[**random.gauss**](random.gauss.html): gaussian random distribution 
+[**random.gauss**](random.gauss.html): гауссово случайное распределение 
 
-[**random.int**](random.int.html): uniform random integer generator in specified range 
+[**random.int**](random.int.html): равномерный генератор случайных целых чисел в заданном диапазоне 
 
-[**random.linear**](random.linear.html): random linear distribution 
+[**random.linear**](random.linear.html): случайное линейное распределение 
 
-[**random.pw_const**](random.pw_const.html): piecewise constant random distribution 
+[**random.pw_const**](random.pw_const.html): кусочно-постоянное случайное распределение 
 
-[**random.pw_lin**](random.pw_lin.html): piecewise linear random distribution 
+[**random.pw_lin**](random.pw_lin.html): кусочно-линейное случайное распределение 
 
 
 ### <a id="cat_samp" href="category_samp.html">samp</a>

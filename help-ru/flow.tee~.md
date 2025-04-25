@@ -6,7 +6,7 @@ layout: default_ru
 
 # flow.tee~
 
-###### separate audio and control streams
+###### извлекает управляющие сообщения из аудиосоединений
 
 *доступно с версии:* 0.4
 

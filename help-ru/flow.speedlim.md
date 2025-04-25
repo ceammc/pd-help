@@ -6,7 +6,7 @@ layout: default_ru
 
 # flow.speedlim
 
-###### control stream speed limiter
+###### ограничитель скорости потока
 
 *доступно с версии:* 0.5
 

@@ -6,7 +6,7 @@ layout: default_ru
 
 # flow.greater
 
-###### numeric stream router
+###### маршрутизатор числового потока по условию &#39;больше&#39;
 
 *доступно с версии:* 0.9.1
 
@@ -14,7 +14,7 @@ layout: default_ru
 
 
 ## информация
-Numbers thar are *less* or *equal* then last argument are passed to N-th inlet
+Numbers that are *less* or *equal* then last argument are passed to the N-th inlet
 
 
 [![example](../examples/img/flow.greater.jpg)](../examples/pd/flow.greater.pd)

@@ -6,7 +6,7 @@ layout: default_ru
 
 # env.tshift
 
-###### Envelope time-shift (horizontal)
+###### сдвиг огибающей по времени (по горизонтали)
 
 *доступно с версии:* 0.5
 

@@ -6,7 +6,7 @@ layout: default_ru
 
 # flow.dup
 
-###### message duplicator
+###### дупликатор сообщений
 
 *доступно с версии:* 0.9.1
 

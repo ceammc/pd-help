@@ -6,7 +6,7 @@ layout: default_ru
 
 # env.concat
 
-###### Envelope concatenation
+###### конкатенация огибающих
 
 *доступно с версии:* 0.5
 

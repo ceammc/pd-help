@@ -6,7 +6,7 @@ layout: default_ru
 
 # flow.demultiplex2~
 
-###### audio stream stereo demultiplexer
+###### демультиплексор стерео аудиопотока
 
 *доступно с версии:* 0.6
 

@@ -6,7 +6,7 @@ layout: default_ru
 
 # flow.delay
 
-###### enhanced version on vanilla delay object
+###### усовершенствованная версия объекта [delay]
 
 *доступно с версии:* 0.9.1
 
@@ -61,7 +61,7 @@ _тип:_ control
 
 ## выходы:
 
-* outputs nothing. connect to destination object(s)<br>
+* delayed output<br>
 _тип:_ control
 
 

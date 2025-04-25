@@ -6,7 +6,7 @@ layout: default_ru
 
 # env.adsr~
 
-###### ADSR (Attack, Decay, Sustain, Release) envelope generator
+###### генератор огибающей ADSR (Attack, Decay, Sustain, Release)
 
 *доступно с версии:* 0.7
 

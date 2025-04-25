@@ -6,7 +6,7 @@ layout: default_ru
 
 # midi.file
 
-###### standard midi file SMF reader and writer
+###### чтение и запись стандартных MIDI файлов (SMF)
 
 *доступно с версии:* 0.4
 

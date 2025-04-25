@@ -6,7 +6,7 @@ layout: default_ru
 
 # midi.arp
 
-###### MIDI arpeggiator
+###### MIDI арпеджиатор
 
 *доступно с версии:* 0.9.6
 

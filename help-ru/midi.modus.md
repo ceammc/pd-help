@@ -6,7 +6,7 @@ layout: default_ru
 
 # midi.modus
 
-###### snap/skip midi pitches according modus
+###### приводит или удаляет MIDI-ноты согласно указанному ладу
 
 *доступно с версии:* 0.9.5
 

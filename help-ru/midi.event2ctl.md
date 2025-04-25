@@ -6,7 +6,7 @@ layout: default_ru
 
 # midi.event2ctl
 
-###### convert MidiEvent message to controller channel/value pair
+###### конвертируем сообщение MidiEvent в пару канал/значение
 
 *доступно с версии:* 0.4
 

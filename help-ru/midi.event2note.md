@@ -6,7 +6,7 @@ layout: default_ru
 
 # midi.event2note
 
-###### convert MidiEvent message to midi note/velocity pair
+###### конвертирует сообщение MidiEvent в пару нота/сила нажатия
 
 *доступно с версии:* 0.4
 

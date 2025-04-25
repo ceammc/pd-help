@@ -6,7 +6,7 @@ layout: default_ru
 
 # midi.key2str
 
-###### convert key number to SPN name according to tonality
+###### преобразует номер MIDI-клавиши в имя ноты в формате SPN
 
 *доступно с версии:* 0.4
 
@@ -62,6 +62,9 @@ _тип:_ control
 [midi](keywords/midi.html)
 [key](keywords/key.html)
 [name](keywords/name.html)
+[spn](keywords/spn.html)
+[pitch](keywords/pitch.html)
+[notation](keywords/notation.html)
 
 
 

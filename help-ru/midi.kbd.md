@@ -6,7 +6,7 @@ layout: default_ru
 
 # midi.kdb
 
-###### computer keyboard midi
+###### эмулятор MIDI клавиатуры c помощью клавиатуры компьютера
 
 *доступно с версии:* 0.9.3
 

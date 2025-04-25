@@ -6,7 +6,7 @@ layout: default_ru
 
 # midi.cc
 
-###### enhanced version of vanilla ctlin
+###### усовершенствованная версия [ctlin]
 
 *доступно с версии:* 0.9.2
 

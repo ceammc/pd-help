@@ -6,7 +6,7 @@ layout: default_ru
 
 # midi.track
 
-###### extract track from MidiFile
+###### извлекает трек из сообщения MidiFile
 
 *доступно с версии:* 0.4
 

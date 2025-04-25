@@ -6,7 +6,7 @@ layout: default_ru
 
 # midi.sustain
 
-###### sustain pedal emulation
+###### эмуляция педали сустейна
 
 *доступно с версии:* 0.9.3
 

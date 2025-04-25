@@ -1,12 +1,10 @@
 [index](../index.html)
 ---
 
-## Ключевое слово: pitch
+## Ключевое слово: spn
 
 ### Объекты:
-* [conv.pitch2midi](../conv.pitch2midi.html)
 * [midi.key2str](../midi.key2str.html)
-* [midi.modus](../midi.modus.html)
 
 ---
 **Сайт:** [https://github.com/uliss/pure-data](https://github.com/uliss/pure-data)

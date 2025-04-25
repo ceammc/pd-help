@@ -6,7 +6,7 @@ layout: default_ru
 
 # midi.tuning
 
-###### apply tuning to midi messages
+###### применяет настройку для нотного потока
 
 *доступно с версии:* 0.9.1
 

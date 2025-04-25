@@ -6,7 +6,7 @@ layout: default_ru
 
 # midi.split
 
-###### midi note splitter
+###### разбивает MIDI ноты на диапазоны
 
 *доступно с версии:* 0.9.5
 

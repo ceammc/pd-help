@@ -6,7 +6,7 @@ layout: default_ru
 
 # midi.clock
 
-###### midi clock toolbox
+###### MIDI-clock
 
 *доступно с версии:* 0.9.2
 

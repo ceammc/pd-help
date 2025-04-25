@@ -6,7 +6,7 @@ layout: default_ru
 
 # midi.oct
 
-###### midi octave transpose
+###### октавная MIDI транспозиция
 
 *доступно с версии:* 0.9.2
 

@@ -6,7 +6,7 @@ layout: default_ru
 
 # midi.event2prg
 
-###### convert MidiEvent message to midi program change value
+###### конвертирует сообщение MidiEvent в MIDI: изменение программы
 
 *доступно с версии:* 0.4
 

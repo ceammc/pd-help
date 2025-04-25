@@ -6,7 +6,7 @@ layout: default_ru
 
 # midi.vrand
 
-###### midi velocity randomizer
+###### рандомизатор силы нажатия MIDI
 
 *доступно с версии:* 0.9.2
 

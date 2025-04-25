@@ -6,7 +6,7 @@ layout: default_ru
 
 # midi.prg2str
 
-###### convert GM Instrument number to name (string or symbol)
+###### преобразует номер инструмента GeneralMidi в его имя
 
 *доступно с версии:* 0.4
 

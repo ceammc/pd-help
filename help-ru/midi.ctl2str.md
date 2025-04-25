@@ -6,7 +6,7 @@ layout: default_ru
 
 # midi.ctl2str
 
-###### convert Standard MIDI Controllers number to name
+###### преображует номер стандартного MIDI контроллеров в имя
 
 *доступно с версии:* 0.4
 

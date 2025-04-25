@@ -6,7 +6,7 @@ layout: default_ru
 
 # midi.note.pass
 
-###### midi note pass by expression
+###### пропускает MIDI-ноты согласно вычисляемому выражению
 
 *доступно с версии:* 0.9.7
 

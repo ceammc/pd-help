@@ -6,7 +6,7 @@ layout: default_ru
 
 # midi.sysex
 
-###### sysex input messages as list
+###### выводит входные sysex сообщения в виде списка
 
 *доступно с версии:* 0.9.2
 

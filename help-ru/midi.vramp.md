@@ -6,7 +6,7 @@ layout: default_ru
 
 # midi.vramp
 
-###### apply crescendo or diminuendo for midi message flow
+###### применяет crescendo или diminuendo для потока нот
 
 *доступно с версии:* 0.9.1
 

@@ -1663,7 +1663,7 @@ layout: default_ru
 
 
 ### <a id="cat_random" href="category_random.html">random</a>
-генераторы случайных числе
+генераторы случайных чисел
 
 ---
 

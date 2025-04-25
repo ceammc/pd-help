@@ -5,7 +5,7 @@
 **aliases:** [flow.&#39;]
 
 
-###### bus with only hot inlets
+###### sync multichannel bus
 
 *available since version:* 0.1
 

@@ -5,7 +5,7 @@
 **aliases:** [flow.rec]
 
 
-###### flow stream recorder/player
+###### control flow record/play
 
 *available since version:* 0.9
 
@@ -31,7 +31,7 @@ _default:_ 0<br>
 
 * **@max** 
 Get/set max number of events, if 0: no max size check. If @auto is set - starts
-playback when max size reached.<br>
+playback when max size reached<br>
 _type:_ int<br>
 _range:_ 0..65536<br>
 _default:_ 256<br>
@@ -49,7 +49,7 @@ _range:_ 0.0156..64<br>
 _default:_ 1<br>
 
 * **@sync** 
-Get/set use external bang pulse to sync recorded events with.<br>
+Get/set use external bang pulse to sync recorded events with<br>
 _type:_ bool<br>
 _default:_ 0<br>
 

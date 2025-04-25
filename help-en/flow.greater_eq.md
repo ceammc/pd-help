@@ -5,7 +5,7 @@
 **aliases:** [flow.&gt;=]
 
 
-###### numeric stream router
+###### numeric stream router by &#39;greater or equal&#39; condition
 
 *available since version:* 0.9
 

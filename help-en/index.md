@@ -466,25 +466,25 @@ objects to work with sound envelopes
 
 [**env.asr\~**](env.asr~.html): Attack/Sustain/Release envelope generator 
 
-[**env.concat**](env.concat.html): Envelope concatenation 
+[**env.concat**](env.concat.html): envelope concatenation 
 
 [**env.follow\~**](env.follow~.html): Envelope follower with independent attack and release times 
 
-[**env.mix**](env.mix.html): Mix between two envelopes. Envelopes should contain equal number of segments 
+[**env.mix**](env.mix.html): mix between two envelopes that contain the equal number of segments 
 
-[**env.smooth\~**](env.smooth~.html): An envelope with an exponential attack and release 
+[**env.smooth\~**](env.smooth~.html): envelope with an exponential attack and release 
 
-[**env.tscale**](env.tscale.html): Envelope time-scale 
+[**env.tscale**](env.tscale.html): envelope time-scale 
 
-[**env.tshift**](env.tshift.html): Envelope time-shift (horizontal) 
+[**env.tshift**](env.tshift.html): envelope time-shift (horizontal) 
 
-[**env.vscale**](env.vscale.html): Envelope value-scale 
+[**env.vscale**](env.vscale.html): envelope amplitude value-scale 
 
-[**env2array**](env2array.html): Renders envelope to specified array 
+[**env2array**](env2array.html): renders the envelope into the array 
 
-[**env2vline**](env2vline.html): Converts envelope to bunch of vline messages 
+[**env2vline**](env2vline.html): сonverts the envelope into the sequence of messages for vline object 
 
-[**envelope**](envelope.html): Envelope data type 
+[**envelope**](envelope.html): envelope data type 
 
 [**vline2env**](vline2env.html): Converts vline messages to env 
 
@@ -499,45 +499,45 @@ dataflow control
 
 [**flow.append**](flow.append.html): append message to flow stream 
 
-[**flow.change**](flow.change.html): rejects redundant input values 
+[**flow.change**](flow.change.html): rejects repeatet input messages 
 
 [**flow.count**](flow.count.html): control flow event counter 
 
-[**flow.delay**](flow.delay.html): enhanced version on vanilla delay object 
+[**flow.delay**](flow.delay.html): enhanced version of the vanilla [delay] object 
 
-[**flow.demultiplex**](flow.demultiplex.html): control flow demultiplexer 
+[**flow.demultiplex**](flow.demultiplex.html): demultiplex of the control flow 
 
 [**flow.demultiplex2\~**](flow.demultiplex2~.html): audio stream stereo demultiplexer 
 
 [**flow.demultiplex\~**](flow.demultiplex~.html): audio stream demultiplexer 
 
-[**flow.dollar**](flow.dollar.html): data flow dollar converter 
+[**flow.dollar**](flow.dollar.html): substitude the $-values 
 
-[**flow.dup**](flow.dup.html): message duplicator 
+[**flow.dup**](flow.dup.html): duplicate messages 
 
 [**flow.float**](flow.float.html): pass floats 
 
-[**flow.gate**](flow.gate.html): control flow gate. [spigot] analog 
+[**flow.gate**](flow.gate.html): control flow gate. [spigot] object analog 
 
-[**flow.greater**](flow.greater.html): numeric stream router 
+[**flow.greater**](flow.greater.html): numeric stream router by &#39;greater&#39; condition 
 
-[**flow.greater_eq**](flow.greater_eq.html): numeric stream router 
+[**flow.greater_eq**](flow.greater_eq.html): numeric stream router by &#39;greater or equal&#39; condition 
 
-[**flow.group**](flow.group.html): group input atoms in list of specified size 
+[**flow.group**](flow.group.html): group input atoms in lists of specified size 
 
 [**flow.histogram**](flow.histogram.html): histogram for numeric control flow 
 
-[**flow.interval**](flow.interval.html): measure time between flow events 
+[**flow.interval**](flow.interval.html): measure the time between messages 
 
-[**flow.less**](flow.less.html): numeric stream router, like many [moses] 
+[**flow.less**](flow.less.html): numeric stream router by &#39;less&#39; condition 
 
-[**flow.less_eq**](flow.less_eq.html): numeric stream router, like many [moses] 
+[**flow.less_eq**](flow.less_eq.html): numeric stream router by &#39;less or equal&#39; condition 
 
-[**flow.list2many**](flow.list2many.html): routes list element with message selectors 
+[**flow.list2many**](flow.list2many.html): routes the list element with the corresponding message 
 
-[**flow.match**](flow.match.html): route data flow by regexp match 
+[**flow.match**](flow.match.html): routes the control flow by the regular expession match 
 
-[**flow.mem**](flow.mem.html): store data flow in memory 
+[**flow.mem**](flow.mem.html): store into the memory or output the control flow messages 
 
 [**flow.multiplex**](flow.multiplex.html): control flow multiplexer 
 
@@ -545,67 +545,67 @@ dataflow control
 
 [**flow.multiplex\~**](flow.multiplex~.html): audio stream multiplexer 
 
-[**flow.once**](flow.once.html): one message pass thru 
+[**flow.once**](flow.once.html): pass the only message 
 
-[**flow.pack**](flow.pack.html): flow pack 
+[**flow.pack**](flow.pack.html): packs atoms from multiple stream into the single one 
 
 [**flow.pass**](flow.pass.html): pass specified values 
 
-[**flow.pass_if**](flow.pass_if.html): pass values that accepted by predicate object 
+[**flow.pass_if**](flow.pass_if.html): passes the message, accepted by the predicate side-chain 
 
-[**flow.pipe**](flow.pipe.html): enhanced version on vanilla pipe object 
+[**flow.pipe**](flow.pipe.html): enhanced version on the vanilla [pipe] object 
 
-[**flow.prepend**](flow.prepend.html): prepend message before received one 
+[**flow.prepend**](flow.prepend.html): inject the message before the current one 
 
-[**flow.queue**](flow.queue.html): multi-channel control flow sync queue (or FIFO) 
+[**flow.queue**](flow.queue.html): multichannel message queue with sync capabilities 
 
-[**flow.record**](flow.record.html): flow stream recorder/player 
+[**flow.record**](flow.record.html): control flow record/play 
 
 [**flow.reject**](flow.reject.html): reject specified values 
 
-[**flow.reject_if**](flow.reject_if.html): reject values by predicate 
+[**flow.reject_if**](flow.reject_if.html): reject the message, accepted by the predicate side-chain 
 
-[**flow.ring**](flow.ring.html): dataflow ring buffer 
+[**flow.ring**](flow.ring.html): queue router for control flow 
 
-[**flow.route**](flow.route.html): advanced message router 
+[**flow.route**](flow.route.html): enhanced message router 
 
-[**flow.select**](flow.select.html): vanilla flow on steroids 
+[**flow.select**](flow.select.html): enhanced message selector 
 
-[**flow.seqdelay**](flow.seqdelay.html): sequential delay/router for input flow 
+[**flow.seqdelay**](flow.seqdelay.html): sequential delay/router for the input stream 
 
-[**flow.space**](flow.space.html): space in time messages received at the same logical time 
+[**flow.space**](flow.space.html): spaces in time messages received at the same logical time 
 
 [**flow.speedlim**](flow.speedlim.html): control stream speed limiter 
 
-[**flow.split**](flow.split.html): split data flow by external side-chain predicate 
+[**flow.split**](flow.split.html): splits control flow by external side-chain predicate 
 
-[**flow.stack**](flow.stack.html): any message stack 
+[**flow.stack**](flow.stack.html): message stack 
 
-[**flow.sync**](flow.sync.html): bus with only hot inlets 
+[**flow.sync**](flow.sync.html): sync multichannel bus 
 
-[**flow.sync_pack**](flow.sync_pack.html): flow pack with all hot inlets 
+[**flow.sync_pack**](flow.sync_pack.html): [flow.pack] with all &#34;hot&#34; inlets 
 
-[**flow.tee\~**](flow.tee~.html): separate audio and control streams 
+[**flow.tee\~**](flow.tee~.html): extracts control messages from audio connections 
 
 [**replace**](replace.html): Replace atoms in data stream 
 
-[**route.any**](route.any.html): separate any messages from bangs, floats, symbols and lists 
+[**route.any**](route.any.html): separate messages from bangs, floats, symbols and lists 
 
-[**route.bang**](route.bang.html): separate bang messages from other types 
+[**route.bang**](route.bang.html): separates the bang messages from others 
 
 [**route.cycle**](route.cycle.html): cyclic message router 
 
-[**route.data**](route.data.html): separate any messages from bangs, floats, symbols and lists 
+[**route.data**](route.data.html): separates data messages from others 
 
-[**route.float**](route.float.html): separate float messages from other types 
+[**route.float**](route.float.html): separates float messages from others 
 
-[**route.list**](route.list.html): separate list messages from other types 
+[**route.list**](route.list.html): separates list messages from other types 
 
-[**route.prop**](route.prop.html): separate property messages from other types 
+[**route.prop**](route.prop.html): separates property messages from other types 
 
-[**route.random**](route.random.html): routes input flow to random outlet 
+[**route.random**](route.random.html): routes the input message into the random outlet 
 
-[**route.symbol**](route.symbol.html): separate symbol messages from other types 
+[**route.symbol**](route.symbol.html): separates symbol messages from other types 
 
 
 ### <a id="cat_flt" href="category_flt.html">flt</a>
@@ -1665,15 +1665,15 @@ random number generation
 ---
 
 
-[**random.atom**](random.atom.html): weighted atom generation from specified list 
+[**random.atom**](random.atom.html): weighed choosing of the random atom from the specified list 
 
-[**random.discrete**](random.discrete.html): random weighted integers on interval [0, n) 
+[**random.discrete**](random.discrete.html): generate random weighted integers on the interval [0, n) 
 
-[**random.float**](random.float.html): uniform random float generator in specified range 
+[**random.float**](random.float.html): uniform random generator of floats in the specified range 
 
 [**random.gauss**](random.gauss.html): gaussian random distribution 
 
-[**random.int**](random.int.html): uniform random integer generator in specified range 
+[**random.int**](random.int.html): uniform random integer generator in the specified range 
 
 [**random.linear**](random.linear.html): random linear distribution 
 

@@ -5,7 +5,7 @@
 **aliases:** [flow.&gt;]
 
 
-###### numeric stream router
+###### numeric stream router by &#39;greater&#39; condition
 
 *available since version:* 0.9.1
 
@@ -13,7 +13,7 @@
 
 
 ## information
-Numbers thar are *less* or *equal* then last argument are passed to N-th inlet
+Numbers that are *less* or *equal* then last argument are passed to the N-th inlet
 
 
 [![example](../examples/img/flow.greater.jpg)](../examples/pd/flow.greater.pd)

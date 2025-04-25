@@ -3,7 +3,7 @@
 
 # route.any
 
-###### separate any messages from bangs, floats, symbols and lists
+###### separate messages from bangs, floats, symbols and lists
 
 *available since version:* 0.9.6
 

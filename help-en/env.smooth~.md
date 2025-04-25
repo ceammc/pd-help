@@ -3,7 +3,7 @@
 
 # env.smooth~
 
-###### An envelope with an exponential attack and release
+###### envelope with an exponential attack and release
 
 *available since version:* 0.6
 

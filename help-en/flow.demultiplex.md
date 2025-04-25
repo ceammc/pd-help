@@ -5,7 +5,7 @@
 **aliases:** [flow.demux]
 
 
-###### control flow demultiplexer
+###### demultiplex of the control flow
 
 *available since version:* 0.6
 

@@ -3,7 +3,7 @@
 
 # env.concat
 
-###### Envelope concatenation
+###### envelope concatenation
 
 *available since version:* 0.5
 

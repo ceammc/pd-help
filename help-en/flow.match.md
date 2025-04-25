@@ -3,7 +3,7 @@
 
 # flow.match
 
-###### route data flow by regexp match
+###### routes the control flow by the regular expession match
 
 *available since version:* 0.7.1
 

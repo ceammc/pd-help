@@ -5,7 +5,7 @@
 **aliases:** [route.d]
 
 
-###### separate any messages from bangs, floats, symbols and lists
+###### separates data messages from others
 
 *available since version:* 0.9.6
 

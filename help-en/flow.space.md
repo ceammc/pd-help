@@ -3,15 +3,13 @@
 
 # flow.space
 
-###### space in time messages received at the same logical time
+###### spaces in time messages received at the same logical time
 
 *available since version:* 0.9.1
 
 ---
 
 
-## information
-first message is delayed to next scheduler time
 
 
 [![example](../examples/img/flow.space.jpg)](../examples/pd/flow.space.pd)

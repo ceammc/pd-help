@@ -5,7 +5,7 @@
 **aliases:** [route.f]
 
 
-###### separate float messages from other types
+###### separates float messages from others
 
 *available since version:* 0.9.2
 

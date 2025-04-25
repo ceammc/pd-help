@@ -5,7 +5,7 @@
 **aliases:** [ceammc/reject_if], [reject_if]
 
 
-###### reject values by predicate
+###### reject the message, accepted by the predicate side-chain
 
 *available since version:* 0.3
 

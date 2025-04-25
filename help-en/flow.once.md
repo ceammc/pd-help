@@ -5,7 +5,7 @@
 **aliases:** [ceammc/once], [once]
 
 
-###### one message pass thru
+###### pass the only message
 
 *available since version:* 0.6
 

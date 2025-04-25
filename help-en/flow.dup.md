@@ -3,7 +3,7 @@
 
 # flow.dup
 
-###### message duplicator
+###### duplicate messages
 
 *available since version:* 0.9.1
 

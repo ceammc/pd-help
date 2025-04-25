@@ -5,7 +5,7 @@
 **aliases:** [random.i]
 
 
-###### uniform random integer generator in specified range
+###### uniform random integer generator in the specified range
 
 *available since version:* 0.1
 

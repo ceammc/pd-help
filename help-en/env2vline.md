@@ -5,7 +5,7 @@
 **aliases:** [ceammc/env2vline], [ceammc/env-&gt;vline], [env-&gt;vline]
 
 
-###### Converts envelope to bunch of vline messages
+###### сonverts the envelope into the sequence of messages for vline object
 
 *available since version:* 0.5
 

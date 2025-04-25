@@ -5,7 +5,7 @@
 **aliases:** [route.r]
 
 
-###### routes input flow to random outlet
+###### routes the input message into the random outlet
 
 *available since version:* 0.9.6
 

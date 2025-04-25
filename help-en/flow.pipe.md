@@ -3,7 +3,7 @@
 
 # flow.pipe
 
-###### enhanced version on vanilla pipe object
+###### enhanced version on the vanilla [pipe] object
 
 *available since version:* 0.9.1
 

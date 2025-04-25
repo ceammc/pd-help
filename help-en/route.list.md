@@ -5,7 +5,7 @@
 **aliases:** [route.l]
 
 
-###### separate list messages from other types
+###### separates list messages from other types
 
 *available since version:* 0.9.6
 

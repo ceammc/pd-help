@@ -3,7 +3,7 @@
 
 # flow.mem
 
-###### store data flow in memory
+###### store into the memory or output the control flow messages
 
 *available since version:* 0.9.1
 

@@ -3,7 +3,7 @@
 
 # route.prop
 
-###### separate property messages from other types
+###### separates property messages from other types
 
 *available since version:* 0.9.6
 

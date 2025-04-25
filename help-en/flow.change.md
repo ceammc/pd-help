@@ -3,7 +3,7 @@
 
 # flow.change
 
-###### rejects redundant input values
+###### rejects repeatet input messages
 
 *available since version:* 0.3
 

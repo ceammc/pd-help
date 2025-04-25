@@ -5,7 +5,7 @@
 **aliases:** [ceammc/envelope], [ceammc/env], [env]
 
 
-###### Envelope data type
+###### envelope data type
 
 *available since version:* 0.5
 

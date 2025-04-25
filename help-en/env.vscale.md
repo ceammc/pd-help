@@ -3,7 +3,7 @@
 
 # env.vscale
 
-###### Envelope value-scale
+###### envelope amplitude value-scale
 
 *available since version:* 0.5
 

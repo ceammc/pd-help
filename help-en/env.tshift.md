@@ -3,7 +3,7 @@
 
 # env.tshift
 
-###### Envelope time-shift (horizontal)
+###### envelope time-shift (horizontal)
 
 *available since version:* 0.5
 

@@ -5,7 +5,7 @@
 **aliases:** [ceammc/env2array], [ceammc/env-&gt;array], [env-&gt;array]
 
 
-###### Renders envelope to specified array
+###### renders the envelope into the array
 
 *available since version:* 0.5
 

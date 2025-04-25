@@ -3,7 +3,7 @@
 
 # flow.prepend
 
-###### prepend message before received one
+###### inject the message before the current one
 
 *available since version:* 0.9.7
 

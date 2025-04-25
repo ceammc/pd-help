@@ -3,7 +3,7 @@
 
 # flow.route
 
-###### advanced message router
+###### enhanced message router
 
 *available since version:* 0.6
 

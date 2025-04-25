@@ -5,7 +5,7 @@
 **aliases:** [route.b]
 
 
-###### separate bang messages from other types
+###### separates the bang messages from others
 
 *available since version:* 0.9.6
 

@@ -3,7 +3,7 @@
 
 # flow.interval
 
-###### measure time between flow events
+###### measure the time between messages
 
 *available since version:* 0.6
 
@@ -31,7 +31,7 @@ _type:_ control
 
 ## outlets:
 
-* output time between current and previous event in milliseconds<br>
+* output time between the current and the previous message in milliseconds<br>
 _type:_ control
 
 

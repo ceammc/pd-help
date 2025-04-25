@@ -5,7 +5,7 @@
 **aliases:** [flow.del]
 
 
-###### enhanced version on vanilla delay object
+###### enhanced version of the vanilla [delay] object
 
 *available since version:* 0.9.1
 
@@ -60,7 +60,7 @@ _type:_ control
 
 ## outlets:
 
-* outputs nothing. connect to destination object(s)<br>
+* delayed output<br>
 _type:_ control
 
 

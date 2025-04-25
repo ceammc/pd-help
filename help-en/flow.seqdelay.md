@@ -5,7 +5,7 @@
 **aliases:** [flow.seqdel]
 
 
-###### sequential delay/router for input flow
+###### sequential delay/router for the input stream
 
 *available since version:* 0.9.5
 

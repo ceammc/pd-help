@@ -5,7 +5,7 @@
 **aliases:** [flow.&gt;&gt;]
 
 
-###### dataflow ring buffer
+###### queue router for control flow
 
 *available since version:* 0.9.1
 

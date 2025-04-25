@@ -5,7 +5,7 @@
 **aliases:** [ceammc/list-&gt;many], [list-&gt;many]
 
 
-###### routes list element with message selectors
+###### routes the list element with the corresponding message
 
 *available since version:* 0.9.2
 

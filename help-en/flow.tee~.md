@@ -5,7 +5,7 @@
 **aliases:** [ceammc/tee\~], [tee\~], [ceammc/\~-&gt;], [\~-&gt;]
 
 
-###### separate audio and control streams
+###### extracts control messages from audio connections
 
 *available since version:* 0.4
 

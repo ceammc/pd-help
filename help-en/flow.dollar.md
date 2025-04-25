@@ -5,7 +5,7 @@
 **aliases:** [flow.$$]
 
 
-###### data flow dollar converter
+###### substitude the $-values
 
 *available since version:* 0.9.3
 

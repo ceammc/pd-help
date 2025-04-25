@@ -3,7 +3,7 @@
 
 # flow.pack
 
-###### flow pack
+###### packs atoms from multiple stream into the single one
 
 *available since version:* 0.8
 

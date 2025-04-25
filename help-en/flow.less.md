@@ -5,7 +5,7 @@
 **aliases:** [flow.&lt;]
 
 
-###### numeric stream router, like many [moses]
+###### numeric stream router by &#39;less&#39; condition
 
 *available since version:* 0.4
 

@@ -5,7 +5,7 @@
 **aliases:** [random.a]
 
 
-###### weighted atom generation from specified list
+###### weighed choosing of the random atom from the specified list
 
 *available since version:* 0.9.1
 

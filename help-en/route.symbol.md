@@ -5,7 +5,7 @@
 **aliases:** [route.s]
 
 
-###### separate symbol messages from other types
+###### separates symbol messages from other types
 
 *available since version:* 0.9.6
 

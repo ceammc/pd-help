@@ -5,7 +5,7 @@
 **aliases:** [random.f]
 
 
-###### uniform random float generator in specified range
+###### uniform random generator of floats in the specified range
 
 *available since version:* 0.1
 

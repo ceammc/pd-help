@@ -5,7 +5,7 @@
 **aliases:** [ceammc/group], [group]
 
 
-###### group input atoms in list of specified size
+###### group input atoms in lists of specified size
 
 *available since version:* 0.3
 

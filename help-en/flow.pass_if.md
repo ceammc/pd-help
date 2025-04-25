@@ -5,7 +5,7 @@
 **aliases:** [ceammc/pass_if], [pass_if]
 
 
-###### pass values that accepted by predicate object
+###### passes the message, accepted by the predicate side-chain
 
 *available since version:* 0.3
 

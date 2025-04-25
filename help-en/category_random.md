@@ -6,19 +6,19 @@
 random number generation
 
 
-[**random.atom**](random.atom.html): weighted atom generation from specified list <br>
+[**random.atom**](random.atom.html): weighed choosing of the random atom from the specified list <br>
 _aliases:_ \[random.a\]
 
 
-[**random.discrete**](random.discrete.html): random weighted integers on interval [0, n) 
+[**random.discrete**](random.discrete.html): generate random weighted integers on the interval [0, n) 
 
-[**random.float**](random.float.html): uniform random float generator in specified range <br>
+[**random.float**](random.float.html): uniform random generator of floats in the specified range <br>
 _aliases:_ \[random.f\]
 
 
 [**random.gauss**](random.gauss.html): gaussian random distribution 
 
-[**random.int**](random.int.html): uniform random integer generator in specified range <br>
+[**random.int**](random.int.html): uniform random integer generator in the specified range <br>
 _aliases:_ \[random.i\]
 
 

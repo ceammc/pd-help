@@ -3,7 +3,7 @@
 
 # flow.stack
 
-###### any message stack
+###### message stack
 
 *available since version:* 0.9.1
 

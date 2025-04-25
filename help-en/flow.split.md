@@ -5,7 +5,7 @@
 **aliases:** [ceammc/split], [split]
 
 
-###### split data flow by external side-chain predicate
+###### splits control flow by external side-chain predicate
 
 *available since version:* 0.3
 

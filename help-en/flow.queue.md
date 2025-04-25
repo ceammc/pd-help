@@ -3,7 +3,7 @@
 
 # flow.queue
 
-###### multi-channel control flow sync queue (or FIFO)
+###### multichannel message queue with sync capabilities
 
 *available since version:* 0.9.1
 
@@ -19,11 +19,11 @@
 ## arguments:
 
 * **MAX_SIZE**
-max queue size<br>
+max queue lane size<br>
 _type:_ int<br>
 
 * **N**
-number of lines<br>
+number of lanes<br>
 _type:_ int<br>
 
 
@@ -38,7 +38,7 @@ _type:_ bool<br>
 _default:_ 0<br>
 
 * **@max_size** 
-Get/set max queue size<br>
+Get/set max queue lane size<br>
 _type:_ int<br>
 _range:_ 1..1024<br>
 _default:_ 32<br>

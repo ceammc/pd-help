@@ -5,7 +5,7 @@
 **aliases:** [flow.pack&#39;]
 
 
-###### flow pack with all hot inlets
+###### [flow.pack] with all &#34;hot&#34; inlets
 
 *available since version:* 0.8
 

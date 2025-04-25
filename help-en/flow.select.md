@@ -5,7 +5,7 @@
 **aliases:** [flow.sel]
 
 
-###### vanilla flow on steroids
+###### enhanced message selector
 
 *available since version:* 0.9.1
 

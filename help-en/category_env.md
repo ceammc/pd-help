@@ -14,29 +14,29 @@ objects to work with sound envelopes
 
 [**env.asr\~**](env.asr~.html): Attack/Sustain/Release envelope generator 
 
-[**env.concat**](env.concat.html): Envelope concatenation 
+[**env.concat**](env.concat.html): envelope concatenation 
 
 [**env.follow\~**](env.follow~.html): Envelope follower with independent attack and release times 
 
-[**env.mix**](env.mix.html): Mix between two envelopes. Envelopes should contain equal number of segments 
+[**env.mix**](env.mix.html): mix between two envelopes that contain the equal number of segments 
 
-[**env.smooth\~**](env.smooth~.html): An envelope with an exponential attack and release 
+[**env.smooth\~**](env.smooth~.html): envelope with an exponential attack and release 
 
-[**env.tscale**](env.tscale.html): Envelope time-scale 
+[**env.tscale**](env.tscale.html): envelope time-scale 
 
-[**env.tshift**](env.tshift.html): Envelope time-shift (horizontal) 
+[**env.tshift**](env.tshift.html): envelope time-shift (horizontal) 
 
-[**env.vscale**](env.vscale.html): Envelope value-scale 
+[**env.vscale**](env.vscale.html): envelope amplitude value-scale 
 
-[**env2array**](env2array.html): Renders envelope to specified array <br>
+[**env2array**](env2array.html): renders the envelope into the array <br>
 _aliases:_ \[ceammc/env2array\], \[ceammc/env-&gt;array\], \[env-&gt;array\]
 
 
-[**env2vline**](env2vline.html): Converts envelope to bunch of vline messages <br>
+[**env2vline**](env2vline.html): сonverts the envelope into the sequence of messages for vline object <br>
 _aliases:_ \[ceammc/env2vline\], \[ceammc/env-&gt;vline\], \[env-&gt;vline\]
 
 
-[**envelope**](envelope.html): Envelope data type <br>
+[**envelope**](envelope.html): envelope data type <br>
 _aliases:_ \[ceammc/envelope\], \[ceammc/env\], \[env\]
 
 

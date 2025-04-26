@@ -102,7 +102,7 @@ _псевдонимы:_ \[math./\]
 
 [**math.exp2~**](math.exp2~.html): base-2 exponential for signal 
 
-[**math.expr**](math.expr.html): dynamic [expr] 
+[**math.expr**](math.expr.html): dynamic \[expr\] 
 
 [**math.exp~**](math.exp~.html): base-e exponential for signal 
 

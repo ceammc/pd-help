@@ -6,7 +6,7 @@ layout: default_ru
 
 # list.route
 
-###### acts like [route] but for lists
+###### acts like \[route\] but for lists
 
 *доступно с версии:* 0.5
 

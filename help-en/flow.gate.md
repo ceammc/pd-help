@@ -5,7 +5,7 @@
 **aliases:** [ceammc/gate], [gate]
 
 
-###### control flow gate. [spigot] object analog
+###### control flow gate. \[spigot\] object analog
 
 *available since version:* 0.4
 

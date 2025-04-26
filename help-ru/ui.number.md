@@ -6,7 +6,7 @@ layout: default_ru
 
 # ui.number
 
-###### counterpart of the vanilla [nbx]
+###### counterpart of the vanilla \[nbx\]
 
 *доступно с версии:* 0.1
 

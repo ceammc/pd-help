@@ -16,7 +16,7 @@ _aliases:_ \[ceammc/expand_env\]
 
 [**flow.count**](flow.count.html): control flow event counter 
 
-[**flow.delay**](flow.delay.html): enhanced version of the vanilla [delay] object <br>
+[**flow.delay**](flow.delay.html): enhanced version of the vanilla \[delay\] object <br>
 _aliases:_ \[flow.del\]
 
 
@@ -42,7 +42,7 @@ _aliases:_ \[flow.$$\]
 _aliases:_ \[flow.f\]
 
 
-[**flow.gate**](flow.gate.html): control flow gate. [spigot] object analog <br>
+[**flow.gate**](flow.gate.html): control flow gate. \[spigot\] object analog <br>
 _aliases:_ \[ceammc/gate\], \[gate\]
 
 
@@ -106,7 +106,7 @@ _aliases:_ \[ceammc/pass\], \[pass\]
 _aliases:_ \[ceammc/pass_if\], \[pass_if\]
 
 
-[**flow.pipe**](flow.pipe.html): enhanced version on the vanilla [pipe] object 
+[**flow.pipe**](flow.pipe.html): enhanced version on the vanilla \[pipe\] object 
 
 [**flow.prepend**](flow.prepend.html): inject the message before the current one 
 
@@ -154,7 +154,7 @@ _aliases:_ \[ceammc/split\], \[split\]
 _aliases:_ \[flow.&#39;\]
 
 
-[**flow.sync_pack**](flow.sync_pack.html): [flow.pack] with all &#34;hot&#34; inlets <br>
+[**flow.sync_pack**](flow.sync_pack.html): \[flow.pack\] with all &#34;hot&#34; inlets <br>
 _aliases:_ \[flow.pack&#39;\]
 
 

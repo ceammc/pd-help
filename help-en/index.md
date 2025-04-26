@@ -233,9 +233,9 @@ objects for working with arrays and tables
 ---
 
 
-[**array.p2s**](array.p2s.html): converting the array phase [0..1] to the sample index 
+[**array.p2s**](array.p2s.html): converting the array phase \[0..1\] to the sample index 
 
-[**array.s2p**](array.s2p.html): convert the sample index to the phase range [0..1] 
+[**array.s2p**](array.s2p.html): convert the sample index to the phase range \[0..1\] 
 
 [**conv.amp2dbfs**](conv.amp2dbfs.html): convert from amplitude to decibel full scale 
 
@@ -305,9 +305,9 @@ objects for working with arrays and tables
 
 [**conv.note2guido**](conv.note2guido.html): convert MIDI note to Guido notation 
 
-[**conv.phase2rad**](conv.phase2rad.html): convert phase value [0-1] to radians [0-2π] 
+[**conv.phase2rad**](conv.phase2rad.html): convert phase value \[0-1\] to radians \[0-2π\] 
 
-[**conv.phase2rad\~**](conv.phase2rad~.html): convert phase value [0-1] to radians [0-2π] 
+[**conv.phase2rad\~**](conv.phase2rad~.html): convert phase value \[0-1\] to radians \[0-2π\] 
 
 [**conv.pitch2midi**](conv.pitch2midi.html): converts symbol pitch name to MIDI note number 
 
@@ -503,7 +503,7 @@ dataflow control
 
 [**flow.count**](flow.count.html): control flow event counter 
 
-[**flow.delay**](flow.delay.html): enhanced version of the vanilla [delay] object 
+[**flow.delay**](flow.delay.html): enhanced version of the vanilla \[delay\] object 
 
 [**flow.demultiplex**](flow.demultiplex.html): demultiplex of the control flow 
 
@@ -517,7 +517,7 @@ dataflow control
 
 [**flow.float**](flow.float.html): pass floats 
 
-[**flow.gate**](flow.gate.html): control flow gate. [spigot] object analog 
+[**flow.gate**](flow.gate.html): control flow gate. \[spigot\] object analog 
 
 [**flow.greater**](flow.greater.html): numeric stream router by &#39;greater&#39; condition 
 
@@ -553,7 +553,7 @@ dataflow control
 
 [**flow.pass_if**](flow.pass_if.html): passes the message, accepted by the predicate side-chain 
 
-[**flow.pipe**](flow.pipe.html): enhanced version on the vanilla [pipe] object 
+[**flow.pipe**](flow.pipe.html): enhanced version on the vanilla \[pipe\] object 
 
 [**flow.prepend**](flow.prepend.html): inject the message before the current one 
 
@@ -583,7 +583,7 @@ dataflow control
 
 [**flow.sync**](flow.sync.html): sync multichannel bus 
 
-[**flow.sync_pack**](flow.sync_pack.html): [flow.pack] with all &#34;hot&#34; inlets 
+[**flow.sync_pack**](flow.sync_pack.html): \[flow.pack\] with all &#34;hot&#34; inlets 
 
 [**flow.tee\~**](flow.tee~.html): extracts control messages from audio connections 
 
@@ -996,7 +996,7 @@ objects for list processing
 
 [**list.rotate**](list.rotate.html): rotates list 
 
-[**list.route**](list.route.html): acts like [route] but for lists 
+[**list.route**](list.route.html): acts like \[route\] but for lists 
 
 [**list.rundiff**](list.rundiff.html): running difference 
 
@@ -1145,7 +1145,7 @@ math objects. can operate with list of numbers
 
 [**math.exp2\~**](math.exp2~.html): base-2 exponential for signal 
 
-[**math.expr**](math.expr.html): dynamic [expr] 
+[**math.expr**](math.expr.html): dynamic \[expr\] 
 
 [**math.exp\~**](math.exp~.html): base-e exponential for signal 
 
@@ -1269,50 +1269,50 @@ math objects. can operate with list of numbers
 
 
 ### <a id="cat_midi" href="category_midi.html">midi</a>
-
+working with MIDI protocol
 
 ---
 
 
 [**midi.arp**](midi.arp.html): MIDI arpeggiator 
 
-[**midi.cc**](midi.cc.html): enhanced version of vanilla ctlin 
+[**midi.cc**](midi.cc.html): enhanced version of vanilla \[ctlin\] 
 
-[**midi.clock**](midi.clock.html): midi clock toolbox 
+[**midi.clock**](midi.clock.html): MIDI-clock 
 
-[**midi.ctl2str**](midi.ctl2str.html): convert Standard MIDI Controllers number to name 
+[**midi.ctl2str**](midi.ctl2str.html): converts Standard MIDI Controllers number to name 
 
-[**midi.event2ctl**](midi.event2ctl.html): convert MidiEvent message to controller channel/value pair 
+[**midi.event2ctl**](midi.event2ctl.html): converts the MidiEvent message into the controller channel/value pair 
 
-[**midi.event2note**](midi.event2note.html): convert MidiEvent message to midi note/velocity pair 
+[**midi.event2note**](midi.event2note.html): converts the MidiEvent message into the midi note/velocity pair 
 
-[**midi.event2prg**](midi.event2prg.html): convert MidiEvent message to midi program change value 
+[**midi.event2prg**](midi.event2prg.html): converts the MidiEvent message into the program change 
 
-[**midi.file**](midi.file.html): standard midi file SMF reader and writer 
+[**midi.file**](midi.file.html): the standard midi file (SMF) reader and writer 
 
-[**midi.kbd**](midi.kbd.html): computer keyboard midi 
+[**midi.kbd**](midi.kbd.html): computer keyboard MIDI emulator 
 
-[**midi.key2str**](midi.key2str.html): convert key number to SPN name according to tonality 
+[**midi.key2str**](midi.key2str.html): converts the MIDI-key into the SPN name format 
 
-[**midi.modus**](midi.modus.html): snap/skip midi pitches according modus 
+[**midi.modus**](midi.modus.html): snap or skip MIDI-pitches according the specified modus 
 
-[**midi.note.pass**](midi.note.pass.html): midi note pass by expression 
+[**midi.note.pass**](midi.note.pass.html): passes MIDI notes according to the calculated expression 
 
-[**midi.oct**](midi.oct.html): midi octave transpose 
+[**midi.oct**](midi.oct.html): MIDI octave transposition 
 
-[**midi.prg2str**](midi.prg2str.html): convert GM Instrument number to name (string or symbol) 
+[**midi.prg2str**](midi.prg2str.html): converts the GM Instrument number into the name 
 
-[**midi.split**](midi.split.html): midi note splitter 
+[**midi.split**](midi.split.html): MIDI note range splitter 
 
 [**midi.sustain**](midi.sustain.html): sustain pedal emulation 
 
-[**midi.sysex**](midi.sysex.html): sysex input messages as list 
+[**midi.sysex**](midi.sysex.html): output sysex input messages as a list 
 
-[**midi.track**](midi.track.html): extract track from MidiFile 
+[**midi.track**](midi.track.html): extracts the track from MidiFile message 
 
-[**midi.tuning**](midi.tuning.html): apply tuning to midi messages 
+[**midi.tuning**](midi.tuning.html): apply the tuning for notes flow 
 
-[**midi.vramp**](midi.vramp.html): apply crescendo or diminuendo for midi message flow 
+[**midi.vramp**](midi.vramp.html): apply crescendo or diminuendo for notes flow 
 
 [**midi.vrand**](midi.vrand.html): midi velocity randomizer 
 
@@ -1667,7 +1667,7 @@ random number generation
 
 [**random.atom**](random.atom.html): weighed choosing of the random atom from the specified list 
 
-[**random.discrete**](random.discrete.html): generate random weighted integers on the interval [0, n) 
+[**random.discrete**](random.discrete.html): generate random weighted integers on the interval \[0, n) 
 
 [**random.float**](random.float.html): uniform random generator of floats in the specified range 
 
@@ -2035,9 +2035,9 @@ sound synthesis
 
 [**ui.mouse_route**](ui.mouse_route.html): routes mouse events from ui objects 
 
-[**ui.number**](ui.number.html): counterpart of the vanilla [nbx] 
+[**ui.number**](ui.number.html): counterpart of the vanilla \[nbx\] 
 
-[**ui.number\~**](ui.number~.html): counterpart of the vanilla [nbx] for signal 
+[**ui.number\~**](ui.number~.html): counterpart of the vanilla \[nbx\] for signal 
 
 [**ui.plot\~**](ui.plot~.html): signal plotter 
 
@@ -2478,6 +2478,7 @@ sound synthesis
 [none](keywords/none.html)
 [normalize](keywords/normalize.html)
 [not](keywords/not.html)
+[notation](keywords/notation.html)
 [notch](keywords/notch.html)
 [note](keywords/note.html)
 [num_compare](keywords/num_compare.html)
@@ -2645,6 +2646,7 @@ sound synthesis
 [spi](keywords/spi.html)
 [split](keywords/split.html)
 [splitter](keywords/splitter.html)
+[spn](keywords/spn.html)
 [spread](keywords/spread.html)
 [spring](keywords/spring.html)
 [sqrt](keywords/sqrt.html)

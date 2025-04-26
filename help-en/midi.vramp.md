@@ -3,7 +3,7 @@
 
 # midi.vramp
 
-###### apply crescendo or diminuendo for midi message flow
+###### apply crescendo or diminuendo for notes flow
 
 *available since version:* 0.9.1
 

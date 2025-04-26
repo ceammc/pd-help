@@ -5,7 +5,7 @@
 **aliases:** [midi.ev-&gt;prg]
 
 
-###### convert MidiEvent message to midi program change value
+###### converts the MidiEvent message into the program change
 
 *available since version:* 0.4
 

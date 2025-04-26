@@ -5,7 +5,7 @@
 **aliases:** [midi.ctl-&gt;str]
 
 
-###### convert Standard MIDI Controllers number to name
+###### converts Standard MIDI Controllers number to name
 
 *available since version:* 0.4
 

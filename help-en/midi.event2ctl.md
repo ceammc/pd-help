@@ -5,7 +5,7 @@
 **aliases:** [midi.ev-&gt;ctl]
 
 
-###### convert MidiEvent message to controller channel/value pair
+###### converts the MidiEvent message into the controller channel/value pair
 
 *available since version:* 0.4
 

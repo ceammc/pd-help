@@ -14,7 +14,7 @@ layout: default_ru
 _псевдонимы:_ \[random.a\]
 
 
-[**random.discrete**](random.discrete.html): генерирует случайные взвешенные целые числа на интервале [0, n) 
+[**random.discrete**](random.discrete.html): генерирует случайные взвешенные целые числа на интервале \[0, n) 
 
 [**random.float**](random.float.html): равномерный генератор случайных чисел с плавающей точкой в заданном диапазоне <br>
 _псевдонимы:_ \[random.f\]

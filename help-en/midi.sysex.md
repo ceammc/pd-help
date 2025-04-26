@@ -3,7 +3,7 @@
 
 # midi.sysex
 
-###### sysex input messages as list
+###### output sysex input messages as a list
 
 *available since version:* 0.9.2
 

@@ -86,11 +86,11 @@ _псевдонимы:_ \[ui.mf\]
 _псевдонимы:_ \[ui.mr\]
 
 
-[**ui.number**](ui.number.html): counterpart of the vanilla [nbx] <br>
+[**ui.number**](ui.number.html): counterpart of the vanilla \[nbx\] <br>
 _псевдонимы:_ \[ui.n\]
 
 
-[**ui.number~**](ui.number~.html): counterpart of the vanilla [nbx] for signal <br>
+[**ui.number~**](ui.number~.html): counterpart of the vanilla \[nbx\] for signal <br>
 _псевдонимы:_ \[ui.n~\]
 
 

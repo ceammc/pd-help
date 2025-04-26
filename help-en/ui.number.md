@@ -5,7 +5,7 @@
 **aliases:** [ui.n]
 
 
-###### counterpart of the vanilla [nbx]
+###### counterpart of the vanilla \[nbx\]
 
 *available since version:* 0.1
 

@@ -3,7 +3,7 @@
 
 # midi.oct
 
-###### midi octave transpose
+###### MIDI octave transposition
 
 *available since version:* 0.9.2
 

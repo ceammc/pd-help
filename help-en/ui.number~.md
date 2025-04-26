@@ -5,7 +5,7 @@
 **aliases:** [ui.n\~]
 
 
-###### counterpart of the vanilla [nbx] for signal
+###### counterpart of the vanilla \[nbx\] for signal
 
 *available since version:* 0.1
 

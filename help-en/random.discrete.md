@@ -3,7 +3,7 @@
 
 # random.discrete
 
-###### generate random weighted integers on the interval [0, n)
+###### generate random weighted integers on the interval \[0, n)
 
 *available since version:* 0.4
 

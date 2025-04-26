@@ -10,7 +10,7 @@ random number generation
 _aliases:_ \[random.a\]
 
 
-[**random.discrete**](random.discrete.html): generate random weighted integers on the interval [0, n) 
+[**random.discrete**](random.discrete.html): generate random weighted integers on the interval \[0, n) 
 
 [**random.float**](random.float.html): uniform random generator of floats in the specified range <br>
 _aliases:_ \[random.f\]

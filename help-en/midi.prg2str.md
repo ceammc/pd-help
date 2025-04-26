@@ -5,7 +5,7 @@
 **aliases:** [midi.prg-&gt;str]
 
 
-###### convert GM Instrument number to name (string or symbol)
+###### converts the GM Instrument number into the name
 
 *available since version:* 0.4
 

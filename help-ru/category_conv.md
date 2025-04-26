@@ -10,11 +10,11 @@ layout: default_ru
 
 
 
-[**array.p2s**](array.p2s.html): преобразование фазы в массиве [0..1] в индекс семпла <br>
+[**array.p2s**](array.p2s.html): преобразование фазы в массиве \[0..1\] в индекс семпла <br>
 _псевдонимы:_ \[array.p-&gt;s\], \[array.phase-&gt;sample\]
 
 
-[**array.s2p**](array.s2p.html): преобразование индекса семпла в фазовый диапазон [0..1] <br>
+[**array.s2p**](array.s2p.html): преобразование индекса семпла в фазовый диапазон \[0..1\] <br>
 _псевдонимы:_ \[array.s-&gt;p\], \[array.sample-&gt;phase\]
 
 
@@ -154,11 +154,11 @@ _псевдонимы:_ \[ceammc/ms-&gt;str\], \[ms-&gt;str\]
 _псевдонимы:_ \[ceammc/note-&gt;guido\], \[note-&gt;guido\]
 
 
-[**conv.phase2rad**](conv.phase2rad.html): convert phase value [0-1] to radians [0-2π] <br>
+[**conv.phase2rad**](conv.phase2rad.html): convert phase value \[0-1\] to radians \[0-2π\] <br>
 _псевдонимы:_ \[ceammc/phase-&gt;rad\], \[phase-&gt;rad\]
 
 
-[**conv.phase2rad~**](conv.phase2rad~.html): convert phase value [0-1] to radians [0-2π] <br>
+[**conv.phase2rad~**](conv.phase2rad~.html): convert phase value \[0-1\] to radians \[0-2π\] <br>
 _псевдонимы:_ \[ceammc/phase-&gt;rad~\], \[phase-&gt;rad~\]
 
 

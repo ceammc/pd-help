@@ -3,7 +3,7 @@
 
 # midi.modus
 
-###### snap/skip midi pitches according modus
+###### snap or skip MIDI-pitches according the specified modus
 
 *available since version:* 0.9.5
 

@@ -1,12 +1,10 @@
 [index](../index.html)
 ---
 
-## Keyword: pitch
+## Keyword: spn
 
 ### Objects:
-* [conv.pitch2midi](../conv.pitch2midi.html)
 * [midi.key2str](../midi.key2str.html)
-* [midi.modus](../midi.modus.html)
 
 ---
 **Website:** [https://github.com/uliss/pure-data](https://github.com/uliss/pure-data)

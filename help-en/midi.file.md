@@ -3,7 +3,7 @@
 
 # midi.file
 
-###### standard midi file SMF reader and writer
+###### the standard midi file (SMF) reader and writer
 
 *available since version:* 0.4
 

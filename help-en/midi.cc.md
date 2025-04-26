@@ -3,7 +3,7 @@
 
 # midi.cc
 
-###### enhanced version of vanilla ctlin
+###### enhanced version of vanilla \[ctlin\]
 
 *available since version:* 0.9.2
 

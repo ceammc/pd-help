@@ -20,7 +20,7 @@ _псевдонимы:_ \[ceammc/expand_env\]
 
 [**flow.count**](flow.count.html): счетчик числа сообщений в управляющем потоке 
 
-[**flow.delay**](flow.delay.html): усовершенствованная версия объекта [delay] <br>
+[**flow.delay**](flow.delay.html): усовершенствованная версия объекта \[delay\] <br>
 _псевдонимы:_ \[flow.del\]
 
 
@@ -46,7 +46,7 @@ _псевдонимы:_ \[flow.$$\]
 _псевдонимы:_ \[flow.f\]
 
 
-[**flow.gate**](flow.gate.html): шлюз для потока сообщений. аналог объекта [spigot] <br>
+[**flow.gate**](flow.gate.html): шлюз для потока сообщений. аналог объекта \[spigot\] <br>
 _псевдонимы:_ \[ceammc/gate\], \[gate\]
 
 
@@ -110,7 +110,7 @@ _псевдонимы:_ \[ceammc/pass\], \[pass\]
 _псевдонимы:_ \[ceammc/pass_if\], \[pass_if\]
 
 
-[**flow.pipe**](flow.pipe.html): усовершенствованная версия объекта [pipe] 
+[**flow.pipe**](flow.pipe.html): усовершенствованная версия объекта \[pipe\] 
 
 [**flow.prepend**](flow.prepend.html): вставляет сообщение перед текущим 
 
@@ -158,7 +158,7 @@ _псевдонимы:_ \[ceammc/split\], \[split\]
 _псевдонимы:_ \[flow.&#39;\]
 
 
-[**flow.sync_pack**](flow.sync_pack.html): [flow.pack] со всеми &#34;горячими&#34; входами <br>
+[**flow.sync_pack**](flow.sync_pack.html): \[flow.pack\] со всеми &#34;горячими&#34; входами <br>
 _псевдонимы:_ \[flow.pack&#39;\]
 
 

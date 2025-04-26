@@ -3,7 +3,7 @@
 
 # math.expr
 
-###### dynamic [expr]
+###### dynamic \[expr\]
 
 *available since version:* 0.6
 

@@ -5,7 +5,7 @@
 **aliases:** [array.p-&gt;s], [array.phase-&gt;sample]
 
 
-###### converting the array phase [0..1] to the sample index
+###### converting the array phase \[0..1\] to the sample index
 
 *available since version:* 0.2
 

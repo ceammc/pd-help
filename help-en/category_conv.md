@@ -6,11 +6,11 @@
 
 
 
-[**array.p2s**](array.p2s.html): converting the array phase [0..1] to the sample index <br>
+[**array.p2s**](array.p2s.html): converting the array phase \[0..1\] to the sample index <br>
 _aliases:_ \[array.p-&gt;s\], \[array.phase-&gt;sample\]
 
 
-[**array.s2p**](array.s2p.html): convert the sample index to the phase range [0..1] <br>
+[**array.s2p**](array.s2p.html): convert the sample index to the phase range \[0..1\] <br>
 _aliases:_ \[array.s-&gt;p\], \[array.sample-&gt;phase\]
 
 
@@ -150,11 +150,11 @@ _aliases:_ \[ceammc/ms-&gt;str\], \[ms-&gt;str\]
 _aliases:_ \[ceammc/note-&gt;guido\], \[note-&gt;guido\]
 
 
-[**conv.phase2rad**](conv.phase2rad.html): convert phase value [0-1] to radians [0-2π] <br>
+[**conv.phase2rad**](conv.phase2rad.html): convert phase value \[0-1\] to radians \[0-2π\] <br>
 _aliases:_ \[ceammc/phase-&gt;rad\], \[phase-&gt;rad\]
 
 
-[**conv.phase2rad\~**](conv.phase2rad~.html): convert phase value [0-1] to radians [0-2π] <br>
+[**conv.phase2rad\~**](conv.phase2rad~.html): convert phase value \[0-1\] to radians \[0-2π\] <br>
 _aliases:_ \[ceammc/phase-&gt;rad\~\], \[phase-&gt;rad\~\]
 
 

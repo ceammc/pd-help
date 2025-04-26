@@ -3,7 +3,7 @@
 
 # list.route
 
-###### acts like [route] but for lists
+###### acts like \[route\] but for lists
 
 *available since version:* 0.5
 

@@ -3,7 +3,7 @@
 
 # midi.split
 
-###### midi note splitter
+###### MIDI note range splitter
 
 *available since version:* 0.9.5
 

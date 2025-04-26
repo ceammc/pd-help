@@ -62,17 +62,17 @@ layout: default_ru
 ---
 
 
-[**an.onset**](an.onset.html): детектор атаки для массивов 
+[**an.onset**](an.onset.html): детектор атаки для массивов
 
-[**an.onset~**](an.onset~.html): детектор атаки сигнала 
+[**an.onset~**](an.onset~.html): детектор атаки сигнала
 
-[**an.pitchtrack~**](an.pitchtrack~.html): отслеживает высоту сигнала 
+[**an.pitchtrack~**](an.pitchtrack~.html): отслеживает высоту сигнала
 
-[**an.rms~**](an.rms~.html): среднее квадратичное сигнала с алгоритмом скользящего среднего 
+[**an.rms~**](an.rms~.html): среднее квадратичное сигнала с алгоритмом скользящего среднего
 
-[**an.tempo~**](an.tempo~.html): детектор темпа сигнала 
+[**an.tempo~**](an.tempo~.html): детектор темпа сигнала
 
-[**an.zero~**](an.zero~.html): вычисление частоты/скорости/числа пересечения сигналом нулевого значения 
+[**an.zero~**](an.zero~.html): вычисление частоты/скорости/числа пересечения сигналом нулевого значения
 
 
 ### <a id="cat_array" href="category_array.html">array</a>
@@ -81,71 +81,71 @@ layout: default_ru
 ---
 
 
-[**array.bpm**](array.bpm.html): вычисление BPM 
+[**array.bpm**](array.bpm.html): вычисление BPM
 
-[**array.circular**](array.circular.html): чтение/запись в массив, как в кольцевой буфер 
+[**array.circular**](array.circular.html): чтение/запись в массив, как в кольцевой буфер
 
-[**array.circular~**](array.circular~.html): чтение/запись сигнала в массив, как в кольцевой буфер 
+[**array.circular~**](array.circular~.html): чтение/запись сигнала в массив, как в кольцевой буфер
 
-[**array.convolve**](array.convolve.html): FFT свертка массива 
+[**array.convolve**](array.convolve.html): FFT свертка массива
 
-[**array.copy**](array.copy.html): копирование семплов из одного массива в другой 
+[**array.copy**](array.copy.html): копирование семплов из одного массива в другой
 
-[**array.do**](array.do.html): обход и модифиция содержимого массива через боковую цепь 
+[**array.do**](array.do.html): обход и модифиция содержимого массива через боковую цепь
 
-[**array.each**](array.each.html): обработка каждого элемента массива через боковую цепь 
+[**array.each**](array.each.html): обработка каждого элемента массива через боковую цепь
 
-[**array.fill**](array.fill.html): заполнение массива одним значением, шаблоном или функцией 
+[**array.fill**](array.fill.html): заполнение массива одним значением, шаблоном или функцией
 
-[**array.grainer~**](array.grainer~.html): гранулятор звуковой таблицы 
+[**array.grainer~**](array.grainer~.html): гранулятор звуковой таблицы
 
-[**array.hist**](array.hist.html): вычисление гистограммы массива 
+[**array.hist**](array.hist.html): вычисление гистограммы массива
 
-[**array.ltcplay~**](array.ltcplay~.html): проигрывание звуковой таблицы, с управлением по LTC 
+[**array.ltcplay~**](array.ltcplay~.html): проигрывание звуковой таблицы, с управлением по LTC
 
-[**array.mean**](array.mean.html): вычисляет среднее арифметическое значение массива 
+[**array.mean**](array.mean.html): вычисляет среднее арифметическое значение массива
 
-[**array.minmax**](array.minmax.html): поиск минимального и максимального значения в массиве 
+[**array.minmax**](array.minmax.html): поиск минимального и максимального значения в массиве
 
-[**array.play~**](array.play~.html): проигрывание массива с изменяемой скоростью и амплитудой 
+[**array.play~**](array.play~.html): проигрывание массива с изменяемой скоростью и амплитудой
 
-[**array.plot**](array.plot.html): построение числовых графиков данных на массиве 
+[**array.plot**](array.plot.html): построение числовых графиков данных на массиве
 
-[**array.plot~**](array.plot~.html): постороение графика сигнала на заданном массиве 
+[**array.plot~**](array.plot~.html): постороение графика сигнала на заданном массиве
 
-[**array.readwrite~**](array.readwrite~.html): одновременное чтение/запись сигналов в массив 
+[**array.readwrite~**](array.readwrite~.html): одновременное чтение/запись сигналов в массив
 
-[**array.resample**](array.resample.html): пересемплирование массива 
+[**array.resample**](array.resample.html): пересемплирование массива
 
-[**array.rms**](array.rms.html): вычисляет среднее квадратное значение для массива 
+[**array.rms**](array.rms.html): вычисляет среднее квадратное значение для массива
 
-[**array.set**](array.set.html): устанавливает содержание массива данными из списка 
+[**array.set**](array.set.html): устанавливает содержание массива данными из списка
 
-[**array.stddev**](array.stddev.html): вычисляет стандартное отклонение для значений массива 
+[**array.stddev**](array.stddev.html): вычисляет стандартное отклонение для значений массива
 
-[**array.stretch**](array.stretch.html): растяжение во времени, изменени высоты тона или скорости у массива 
+[**array.stretch**](array.stretch.html): растяжение во времени, изменени высоты тона или скорости у массива
 
-[**array.sum**](array.sum.html): вычисляет сумму элементов массива 
+[**array.sum**](array.sum.html): вычисляет сумму элементов массива
 
-[**array.sum2**](array.sum2.html): вычисляет сумму квадратов элементов массива 
+[**array.sum2**](array.sum2.html): вычисляет сумму квадратов элементов массива
 
-[**array.tramp~**](array.tramp~.html): запускаемый генератор линейного индекса для массива 
+[**array.tramp~**](array.tramp~.html): запускаемый генератор линейного индекса для массива
 
-[**array.variance**](array.variance.html): вычисляет дисперсию значений массива 
+[**array.variance**](array.variance.html): вычисляет дисперсию значений массива
 
-[**array.vplay**](array.vplay.html): простой плеер массивов для использования с объектом vline~ 
+[**array.vplay**](array.vplay.html): простой плеер массивов для использования с объектом vline~
 
-[**array.window**](array.window.html): заполенение массива оконной функцией 
+[**array.window**](array.window.html): заполенение массива оконной функцией
 
-[**plot.geomspace~**](plot.geomspace~.html): outputs numbers spaced evenly on a log scale (a geometric progression) 
+[**plot.geomspace~**](plot.geomspace~.html): outputs numbers spaced evenly on a log scale (a geometric progression)
 
-[**plot.hist~**](plot.hist~.html): calculate and output signal histogram 
+[**plot.hist~**](plot.hist~.html): calculate and output signal histogram
 
-[**plot.linspace~**](plot.linspace~.html): outputs numbers spaced evenly spaced over a specified interval 
+[**plot.linspace~**](plot.linspace~.html): outputs numbers spaced evenly spaced over a specified interval
 
-[**plot.logspace~**](plot.logspace~.html): outputs numbers spaced evenly on a log scale 
+[**plot.logspace~**](plot.logspace~.html): outputs numbers spaced evenly on a log scale
 
-[**plot.response~**](plot.response~.html): output amp/phase freq response to impulse 
+[**plot.response~**](plot.response~.html): output amp/phase freq response to impulse
 
 
 ### <a id="cat_base" href="category_base.html">base</a>
@@ -154,61 +154,61 @@ layout: default_ru
 ---
 
 
-[**bitmap**](bitmap.html): бинарное изображение (битовая 2D-матрица) 
+[**bitmap**](bitmap.html): бинарное изображение (битовая 2D-матрица)
 
-[**ceammc.search**](ceammc.search.html): ceammc library search object 
+[**ceammc.search**](ceammc.search.html): ceammc library search object
 
-[**chrono.datetime**](chrono.datetime.html): output current date and time info 
+[**chrono.datetime**](chrono.datetime.html): output current date and time info
 
-[**convolve~**](convolve~.html): realtime FFT convolution 
+[**convolve~**](convolve~.html): realtime FFT convolution
 
-[**function**](function.html): named function 
+[**function**](function.html): named function
 
-[**function.call**](function.call.html): call named function 
+[**function.call**](function.call.html): call named function
 
-[**gain~**](gain~.html): multislot signal gain 
+[**gain~**](gain~.html): multislot signal gain
 
-[**gate~**](gate~.html): multislot signal gate 
+[**gate~**](gate~.html): multislot signal gate
 
-[**logger**](logger.html): advanced data logger 
+[**logger**](logger.html): advanced data logger
 
-[**matrix~**](matrix~.html): signal routing matrix 
+[**matrix~**](matrix~.html): signal routing matrix
 
-[**merge~**](merge~.html): parametrized signal merge 
+[**merge~**](merge~.html): parametrized signal merge
 
-[**metro.choice**](metro.choice.html): metro with random choice from timeset 
+[**metro.choice**](metro.choice.html): metro with random choice from timeset
 
-[**metro.pattern**](metro.pattern.html): metro with rhythmic patterns 
+[**metro.pattern**](metro.pattern.html): metro with rhythmic patterns
 
-[**metro.random**](metro.random.html): metro random bang with specified range 
+[**metro.random**](metro.random.html): metro random bang with specified range
 
-[**metro.seq**](metro.seq.html): metro sequencer 
+[**metro.seq**](metro.seq.html): metro sequencer
 
-[**metro.wchoice**](metro.wchoice.html): metro with weighted random choice from timeset 
+[**metro.wchoice**](metro.wchoice.html): metro with weighted random choice from timeset
 
-[**mix~**](mix~.html): multislot signal mixer 
+[**mix~**](mix~.html): multislot signal mixer
 
-[**nsig~**](nsig~.html): multichannel converter from control to audio rate 
+[**nsig~**](nsig~.html): multichannel converter from control to audio rate
 
-[**obj.props**](obj.props.html): property extractor 
+[**obj.props**](obj.props.html): property extractor
 
-[**radio**](radio.html): float index to outlet values as radio switch 
+[**radio**](radio.html): float index to outlet values as radio switch
 
-[**split~**](split~.html): parametrized signal splitter 
+[**split~**](split~.html): parametrized signal splitter
 
-[**spring**](spring.html): float value &#34;spring&#34; 
+[**spring**](spring.html): float value &#34;spring&#34;
 
-[**sync**](sync.html): value synchronization 
+[**sync**](sync.html): value synchronization
 
-[**window**](window.html): returns window value by given window position 
+[**window**](window.html): returns window value by given window position
 
-[**xdac~**](xdac~.html): dac~ with channel ranges 
+[**xdac~**](xdac~.html): dac~ with channel ranges
 
-[**xfade2~**](xfade2~.html): multi stereo-signal crossfade 
+[**xfade2~**](xfade2~.html): multi stereo-signal crossfade
 
-[**xfade~**](xfade~.html): multi signal crossfade 
+[**xfade~**](xfade~.html): multi signal crossfade
 
-[**z~**](z~.html): sample delay 
+[**z~**](z~.html): sample delay
 
 
 ### <a id="cat_chaos" href="category_chaos.html">chaos</a>
@@ -217,17 +217,17 @@ layout: default_ru
 ---
 
 
-[**chaos.gbman0**](chaos.gbman0.html): Gingerbreadman map chaotic generator 
+[**chaos.gbman0**](chaos.gbman0.html): Gingerbreadman map chaotic generator
 
-[**chaos.gbman0~**](chaos.gbman0~.html): Gingerbreadman map chaotic generator 
+[**chaos.gbman0~**](chaos.gbman0~.html): Gingerbreadman map chaotic generator
 
-[**chaos.jong**](chaos.jong.html): Peter de Jong attractor 
+[**chaos.jong**](chaos.jong.html): Peter de Jong attractor
 
-[**chaos.logistic**](chaos.logistic.html): Logistic map chaotic generator 
+[**chaos.logistic**](chaos.logistic.html): Logistic map chaotic generator
 
-[**chaos.std0**](chaos.std0.html): Standard map chaotic generator 
+[**chaos.std0**](chaos.std0.html): Standard map chaotic generator
 
-[**chaos.std0~**](chaos.std0~.html): Standard map chaotic generator 
+[**chaos.std0~**](chaos.std0~.html): Standard map chaotic generator
 
 
 ### <a id="cat_conv" href="category_conv.html">conv</a>
@@ -236,113 +236,113 @@ layout: default_ru
 ---
 
 
-[**array.p2s**](array.p2s.html): преобразование фазы в массиве [0..1] в индекс семпла 
+[**array.p2s**](array.p2s.html): преобразование фазы в массиве \[0..1\] в индекс семпла
 
-[**array.s2p**](array.s2p.html): преобразование индекса семпла в фазовый диапазон [0..1] 
+[**array.s2p**](array.s2p.html): преобразование индекса семпла в фазовый диапазон \[0..1\]
 
-[**conv.amp2dbfs**](conv.amp2dbfs.html): convert from amplitude to decibel full scale 
+[**conv.amp2dbfs**](conv.amp2dbfs.html): convert from amplitude to decibel full scale
 
-[**conv.amp2dbfs~**](conv.amp2dbfs~.html): convert from amplitude to decibel full scale 
+[**conv.amp2dbfs~**](conv.amp2dbfs~.html): convert from amplitude to decibel full scale
 
-[**conv.bar2ms**](conv.bar2ms.html): calculate bar and beat duration 
+[**conv.bar2ms**](conv.bar2ms.html): calculate bar and beat duration
 
-[**conv.bits2bang**](conv.bits2bang.html): convert list of bits to bang events 
+[**conv.bits2bang**](conv.bits2bang.html): convert list of bits to bang events
 
-[**conv.bits2int**](conv.bits2int.html): convert list of bits to integer 
+[**conv.bits2int**](conv.bits2int.html): convert list of bits to integer
 
-[**conv.bits2note**](conv.bits2note.html): convert list of bits to note events 
+[**conv.bits2note**](conv.bits2note.html): convert list of bits to note events
 
-[**conv.bits2pos**](conv.bits2pos.html): convert list of bits to list of bit position 
+[**conv.bits2pos**](conv.bits2pos.html): convert list of bits to list of bit position
 
-[**conv.bpm2hz**](conv.bpm2hz.html): converts BPM to frequency in hertz 
+[**conv.bpm2hz**](conv.bpm2hz.html): converts BPM to frequency in hertz
 
-[**conv.bpm2ms**](conv.bpm2ms.html): convert frequency in BPM to period in milliseconds 
+[**conv.bpm2ms**](conv.bpm2ms.html): convert frequency in BPM to period in milliseconds
 
-[**conv.bpm2sec**](conv.bpm2sec.html): convert frequency in BPM to period in seconds 
+[**conv.bpm2sec**](conv.bpm2sec.html): convert frequency in BPM to period in seconds
 
-[**conv.car2pol**](conv.car2pol.html): convert cartesian coords to polar 
+[**conv.car2pol**](conv.car2pol.html): convert cartesian coords to polar
 
-[**conv.cc2amp**](conv.cc2amp.html): convert from MIDI Control Change range 
+[**conv.cc2amp**](conv.cc2amp.html): convert from MIDI Control Change range
 
-[**conv.char2morse**](conv.char2morse.html): convert character to morse code 
+[**conv.char2morse**](conv.char2morse.html): convert character to morse code
 
-[**conv.color2rgba**](conv.color2rgba.html): convert named or hex color to separate RGBA values 
+[**conv.color2rgba**](conv.color2rgba.html): convert named or hex color to separate RGBA values
 
-[**conv.dbfs2amp**](conv.dbfs2amp.html): convert decibel full scale to amplitude 
+[**conv.dbfs2amp**](conv.dbfs2amp.html): convert decibel full scale to amplitude
 
-[**conv.dbfs2amp~**](conv.dbfs2amp~.html): convert decibel full scale to amplitude 
+[**conv.dbfs2amp~**](conv.dbfs2amp~.html): convert decibel full scale to amplitude
 
-[**conv.degree2key**](conv.degree2key.html): convert scale degree to key 
+[**conv.degree2key**](conv.degree2key.html): convert scale degree to key
 
-[**conv.edge2bang**](conv.edge2bang.html): edge detector for numeric stream 
+[**conv.edge2bang**](conv.edge2bang.html): edge detector for numeric stream
 
-[**conv.guido2note**](conv.guido2note.html): конвертер из Guido-нотации в MIDI ноту и длительность 
+[**conv.guido2note**](conv.guido2note.html): конвертер из Guido-нотации в MIDI ноту и длительность
 
-[**conv.hex2int**](conv.hex2int.html): hex symbol to int value 
+[**conv.hex2int**](conv.hex2int.html): hex symbol to int value
 
-[**conv.hsl2rgb**](conv.hsl2rgb.html): convert HSL color values to RGB 
+[**conv.hsl2rgb**](conv.hsl2rgb.html): convert HSL color values to RGB
 
-[**conv.int2bits**](conv.int2bits.html): convert integer to list of bits 
+[**conv.int2bits**](conv.int2bits.html): convert integer to list of bits
 
-[**conv.lab2rgb**](conv.lab2rgb.html): convert LAB color values to RGB 
+[**conv.lab2rgb**](conv.lab2rgb.html): convert LAB color values to RGB
 
-[**conv.lin2curve**](conv.lin2curve.html): map linear to exponential range with 0 allowed. 
+[**conv.lin2curve**](conv.lin2curve.html): map linear to exponential range with 0 allowed.
 
-[**conv.lin2exp**](conv.lin2exp.html): maps linear range to exponential range 
+[**conv.lin2exp**](conv.lin2exp.html): maps linear range to exponential range
 
-[**conv.lin2lin**](conv.lin2lin.html): convert from one linear range to another 
+[**conv.lin2lin**](conv.lin2lin.html): convert from one linear range to another
 
-[**conv.lin2lin~**](conv.lin2lin~.html): convert from one linear range to another for signals 
+[**conv.lin2lin~**](conv.lin2lin~.html): convert from one linear range to another for signals
 
-[**conv.list2props**](conv.list2props.html): converts list to series of property messages 
+[**conv.list2props**](conv.list2props.html): converts list to series of property messages
 
-[**conv.midi2freq**](conv.midi2freq.html): convert from midi pitch to frequency in hz (with various base A and temperament) 
+[**conv.midi2freq**](conv.midi2freq.html): convert from midi pitch to frequency in hz (with various base A and temperament)
 
-[**conv.ms2bpm**](conv.ms2bpm.html): convert period in milliseconds to frequency in BPM 
+[**conv.ms2bpm**](conv.ms2bpm.html): convert period in milliseconds to frequency in BPM
 
-[**conv.ms2samp**](conv.ms2samp.html): convert time in milliseconds to number of samples according to current samplerate 
+[**conv.ms2samp**](conv.ms2samp.html): convert time in milliseconds to number of samples according to current samplerate
 
-[**conv.ms2samp~**](conv.ms2samp~.html): convert time in milliseconds to number of samples according to current samplerate 
+[**conv.ms2samp~**](conv.ms2samp~.html): convert time in milliseconds to number of samples according to current samplerate
 
-[**conv.ms2str**](conv.ms2str.html): converts float time in milliseconds to formated symbol (or string) 
+[**conv.ms2str**](conv.ms2str.html): converts float time in milliseconds to formated symbol (or string)
 
-[**conv.note2guido**](conv.note2guido.html): convert MIDI note to Guido notation 
+[**conv.note2guido**](conv.note2guido.html): convert MIDI note to Guido notation
 
-[**conv.phase2rad**](conv.phase2rad.html): convert phase value [0-1] to radians [0-2π] 
+[**conv.phase2rad**](conv.phase2rad.html): convert phase value \[0-1\] to radians \[0-2π\]
 
-[**conv.phase2rad~**](conv.phase2rad~.html): convert phase value [0-1] to radians [0-2π] 
+[**conv.phase2rad~**](conv.phase2rad~.html): convert phase value \[0-1\] to radians \[0-2π\]
 
-[**conv.pitch2midi**](conv.pitch2midi.html): converts symbol pitch name to MIDI note number 
+[**conv.pitch2midi**](conv.pitch2midi.html): converts symbol pitch name to MIDI note number
 
-[**conv.pol2car**](conv.pol2car.html): convert from polar coordinates to cartesian 
+[**conv.pol2car**](conv.pol2car.html): convert from polar coordinates to cartesian
 
-[**conv.rad2phase**](conv.rad2phase.html): convert radians value to phase 
+[**conv.rad2phase**](conv.rad2phase.html): convert radians value to phase
 
-[**conv.rad2phase~**](conv.rad2phase~.html): convert radians value to phase 
+[**conv.rad2phase~**](conv.rad2phase~.html): convert radians value to phase
 
-[**conv.rgb2hex**](conv.rgb2hex.html): convert separate RGB values to hex color 
+[**conv.rgb2hex**](conv.rgb2hex.html): convert separate RGB values to hex color
 
-[**conv.samp2ms**](conv.samp2ms.html): convert samples to time according to samplerate 
+[**conv.samp2ms**](conv.samp2ms.html): convert samples to time according to samplerate
 
-[**conv.samp2ms~**](conv.samp2ms~.html): convert samples to milliseconds according to samplerate 
+[**conv.samp2ms~**](conv.samp2ms~.html): convert samples to milliseconds according to samplerate
 
-[**conv.samp2sec**](conv.samp2sec.html): convert samples to time according to samplerate 
+[**conv.samp2sec**](conv.samp2sec.html): convert samples to time according to samplerate
 
-[**conv.sec2bpm**](conv.sec2bpm.html): convert period in seconds to frequency in BPM 
+[**conv.sec2bpm**](conv.sec2bpm.html): convert period in seconds to frequency in BPM
 
-[**conv.sec2samp**](conv.sec2samp.html): convert time in seconds to number of samples according to current samplerate 
+[**conv.sec2samp**](conv.sec2samp.html): convert time in seconds to number of samples according to current samplerate
 
-[**conv.sec2str**](conv.sec2str.html): converts float time in seconds to formated symbol (or string) 
+[**conv.sec2str**](conv.sec2str.html): converts float time in seconds to formated symbol (or string)
 
-[**conv.semi2ratio**](conv.semi2ratio.html): convert interval in semitones to frequency ratio in 12-ET 
+[**conv.semi2ratio**](conv.semi2ratio.html): convert interval in semitones to frequency ratio in 12-ET
 
-[**conv.sig2float~**](conv.sig2float~.html): convert signal to floats 
+[**conv.sig2float~**](conv.sig2float~.html): convert signal to floats
 
-[**conv.str2sec**](conv.str2sec.html): converts formatted time to float value in seconds 
+[**conv.str2sec**](conv.str2sec.html): converts formatted time to float value in seconds
 
-[**music.dur2time**](music.dur2time.html): convert duration list to time 
+[**music.dur2time**](music.dur2time.html): convert duration list to time
 
-[**music.voice2midi**](music.voice2midi.html): конвертирует одноголосную музыкальную нотацию в список нот MIDI 
+[**music.voice2midi**](music.voice2midi.html): конвертирует одноголосную музыкальную нотацию в список нот MIDI
 
 
 ### <a id="cat_data" href="category_data.html">data</a>
@@ -351,75 +351,75 @@ layout: default_ru
 ---
 
 
-[**color.mix**](color.mix.html): color mixer 
+[**color.mix**](color.mix.html): color mixer
 
-[**color.scale**](color.scale.html): create color scales 
+[**color.scale**](color.scale.html): create color scales
 
-[**data.bimap**](data.bimap.html): двунаправленное отображение 
+[**data.bimap**](data.bimap.html): двунаправленное отображение
 
-[**data.color**](data.color.html): цветовой тип данных 
+[**data.color**](data.color.html): цветовой тип данных
 
-[**data.copy**](data.copy.html): делает копии любых типов данных: MList, Set и т.д. 
+[**data.copy**](data.copy.html): делает копии любых типов данных: MList, Set и т.д.
 
-[**data.dict**](data.dict.html): контейнер словаря: хранит пары ключ-значение 
+[**data.dict**](data.dict.html): контейнер словаря: хранит пары ключ-значение
 
-[**data.fifo**](data.fifo.html): FIFO First In First Out) - контейнер данных &#34;очередь&#34; 
+[**data.fifo**](data.fifo.html): FIFO First In First Out) - контейнер данных &#34;очередь&#34;
 
-[**data.float**](data.float.html): многофункциональный объект числа с плавающей точкой 
+[**data.float**](data.float.html): многофункциональный объект числа с плавающей точкой
 
-[**data.int**](data.int.html): многофункциональный объект целого числа 
+[**data.int**](data.int.html): многофункциональный объект целого числа
 
-[**data.list**](data.list.html): cписок 
+[**data.list**](data.list.html): cписок
 
-[**data.mlist**](data.mlist.html): многомерный список 
+[**data.mlist**](data.mlist.html): многомерный список
 
-[**data.path**](data.path.html): тип данных: путь в файловой системе 
+[**data.path**](data.path.html): тип данных: путь в файловой системе
 
-[**data.set**](data.set.html): множество: контейнер, в котором хранятся только уникальные элементы 
+[**data.set**](data.set.html): множество: контейнер, в котором хранятся только уникальные элементы
 
-[**data.set2list**](data.set2list.html): преобразует множество в список 
+[**data.set2list**](data.set2list.html): преобразует множество в список
 
-[**dict.contains**](dict.contains.html): проверка, содержит ли словарь указанный ключ 
+[**dict.contains**](dict.contains.html): проверка, содержит ли словарь указанный ключ
 
-[**dict.each**](dict.each.html): отображение каждого значения в словаре с помощью боковой цепи обработки 
+[**dict.each**](dict.each.html): отображение каждого значения в словаре с помощью боковой цепи обработки
 
-[**dict.from_list**](dict.from_list.html): создает словарь из списка 
+[**dict.from_list**](dict.from_list.html): создает словарь из списка
 
-[**dict.get**](dict.get.html): выводит значения словаря 
+[**dict.get**](dict.get.html): выводит значения словаря
 
-[**dict.keys**](dict.keys.html): выводит список ключей словаря 
+[**dict.keys**](dict.keys.html): выводит список ключей словаря
 
-[**dict.pass**](dict.pass.html): пропускает (фильтрует) только указанные ключи в словаре 
+[**dict.pass**](dict.pass.html): пропускает (фильтрует) только указанные ключи в словаре
 
-[**dict.reject**](dict.reject.html): удаляет указанные ключи из словаря 
+[**dict.reject**](dict.reject.html): удаляет указанные ключи из словаря
 
-[**dict.size**](dict.size.html): выводит размер словаря (число пар ключ/значение) 
+[**dict.size**](dict.size.html): выводит размер словаря (число пар ключ/значение)
 
-[**dict.to_list**](dict.to_list.html): конвертирует словарь в простой одномерный список 
+[**dict.to_list**](dict.to_list.html): конвертирует словарь в простой одномерный список
 
-[**dict.values**](dict.values.html): выводит значения словаря в виде многоуровневнего списка (MList) 
+[**dict.values**](dict.values.html): выводит значения словаря в виде многоуровневнего списка (MList)
 
-[**global.bimap**](global.bimap.html): глобальное двунаправленное отображение 
+[**global.bimap**](global.bimap.html): глобальное двунаправленное отображение
 
-[**local.bimap**](local.bimap.html): local to patch bidirectional map container 
+[**local.bimap**](local.bimap.html): local to patch bidirectional map container
 
-[**mlist.flatten**](mlist.flatten.html): flatten nested mlist 
+[**mlist.flatten**](mlist.flatten.html): flatten nested mlist
 
-[**rtree.to_list**](rtree.to_list.html): convert OpenMusic-like rhythm tree to list of fractions 
+[**rtree.to_list**](rtree.to_list.html): convert OpenMusic-like rhythm tree to list of fractions
 
-[**set.contains**](set.contains.html): check if specified element is in set 
+[**set.contains**](set.contains.html): check if specified element is in set
 
-[**set.diff**](set.diff.html): difference between two sets 
+[**set.diff**](set.diff.html): difference between two sets
 
-[**set.equal**](set.equal.html): checks if two sets are equal (contains same elements) 
+[**set.equal**](set.equal.html): checks if two sets are equal (contains same elements)
 
-[**set.intersect**](set.intersect.html): output intersection of given sets 
+[**set.intersect**](set.intersect.html): output intersection of given sets
 
-[**set.size**](set.size.html): get number of elements in set 
+[**set.size**](set.size.html): get number of elements in set
 
-[**set.symdiff**](set.symdiff.html): symmetric difference between two sets 
+[**set.symdiff**](set.symdiff.html): symmetric difference between two sets
 
-[**set.union**](set.union.html): output union of given sets 
+[**set.union**](set.union.html): output union of given sets
 
 
 ### <a id="cat_dyn" href="category_dyn.html">dyn</a>
@@ -428,31 +428,31 @@ layout: default_ru
 ---
 
 
-[**dyn.comp2~**](dyn.comp2~.html): stereo dynamic range compressor 
+[**dyn.comp2~**](dyn.comp2~.html): stereo dynamic range compressor
 
-[**dyn.comp_peak2~**](dyn.comp_peak2~.html): stereo peak feed forward compressor with channel linking 
+[**dyn.comp_peak2~**](dyn.comp_peak2~.html): stereo peak feed forward compressor with channel linking
 
-[**dyn.comp_peak~**](dyn.comp_peak~.html): mono dynamic range peak feed forward compressor 
+[**dyn.comp_peak~**](dyn.comp_peak~.html): mono dynamic range peak feed forward compressor
 
-[**dyn.comp_up2~**](dyn.comp_up2~.html): stereo upward compressor with channel linking 
+[**dyn.comp_up2~**](dyn.comp_up2~.html): stereo upward compressor with channel linking
 
-[**dyn.comp_up~**](dyn.comp_up~.html): mono upward compressor 
+[**dyn.comp_up~**](dyn.comp_up~.html): mono upward compressor
 
-[**dyn.comp~**](dyn.comp~.html): mono dynamic range compressors 
+[**dyn.comp~**](dyn.comp~.html): mono dynamic range compressors
 
-[**dyn.expand2~**](dyn.expand2~.html): stereo dynamic range expander with channel linking 
+[**dyn.expand2~**](dyn.expand2~.html): stereo dynamic range expander with channel linking
 
-[**dyn.expand~**](dyn.expand~.html): mono dynamic range expander 
+[**dyn.expand~**](dyn.expand~.html): mono dynamic range expander
 
-[**dyn.gate2~**](dyn.gate2~.html): stereo signal gate 
+[**dyn.gate2~**](dyn.gate2~.html): stereo signal gate
 
-[**dyn.gate~**](dyn.gate~.html): mono signal gate 
+[**dyn.gate~**](dyn.gate~.html): mono signal gate
 
-[**dyn.limit2~**](dyn.limit2~.html): stereo 1176LN Peak Limiter 
+[**dyn.limit2~**](dyn.limit2~.html): stereo 1176LN Peak Limiter
 
-[**dyn.limit~**](dyn.limit~.html): mono 1176LN Peak Limiter 
+[**dyn.limit~**](dyn.limit~.html): mono 1176LN Peak Limiter
 
-[**dyn.softclip~**](dyn.softclip~.html): soft signal clip 
+[**dyn.softclip~**](dyn.softclip~.html): soft signal clip
 
 
 ### <a id="cat_env" href="category_env.html">env</a>
@@ -461,35 +461,35 @@ layout: default_ru
 ---
 
 
-[**env.adsr~**](env.adsr~.html): генератор огибающей ADSR (Attack, Decay, Sustain, Release) 
+[**env.adsr~**](env.adsr~.html): генератор огибающей ADSR (Attack, Decay, Sustain, Release)
 
-[**env.ar~**](env.ar~.html): генератор огибающей Attack/Release 
+[**env.ar~**](env.ar~.html): генератор огибающей Attack/Release
 
-[**env.asr2~**](env.asr2~.html): стерео генератор огибающей Attack/Sustain/Release 
+[**env.asr2~**](env.asr2~.html): стерео генератор огибающей Attack/Sustain/Release
 
-[**env.asr~**](env.asr~.html): генератор огибающей Attack/Sustain/Release 
+[**env.asr~**](env.asr~.html): генератор огибающей Attack/Sustain/Release
 
-[**env.concat**](env.concat.html): конкатенация огибающих 
+[**env.concat**](env.concat.html): конкатенация огибающих
 
-[**env.follow~**](env.follow~.html): Последователь конверта с независимой атакой и временем выпуска 
+[**env.follow~**](env.follow~.html): Последователь конверта с независимой атакой и временем выпуска
 
-[**env.mix**](env.mix.html): микс между двумя огибающими, содержащими равное количество сегментов 
+[**env.mix**](env.mix.html): микс между двумя огибающими, содержащими равное количество сегментов
 
-[**env.smooth~**](env.smooth~.html): огибающая с экспоненциальной атакой и отпусканием 
+[**env.smooth~**](env.smooth~.html): огибающая с экспоненциальной атакой и отпусканием
 
-[**env.tscale**](env.tscale.html): растяжение огибающей во времени 
+[**env.tscale**](env.tscale.html): растяжение огибающей во времени
 
-[**env.tshift**](env.tshift.html): сдвиг огибающей по времени (по горизонтали) 
+[**env.tshift**](env.tshift.html): сдвиг огибающей по времени (по горизонтали)
 
-[**env.vscale**](env.vscale.html): изменение амплитуды огибующей 
+[**env.vscale**](env.vscale.html): изменение амплитуды огибующей
 
-[**env2array**](env2array.html): рендеринг огибающей в массив 
+[**env2array**](env2array.html): рендеринг огибающей в массив
 
-[**env2vline**](env2vline.html): преобразует огибающую в последовательность сообщений для объекта vline 
+[**env2vline**](env2vline.html): преобразует огибающую в последовательность сообщений для объекта vline
 
-[**envelope**](envelope.html): тип данных огибающей 
+[**envelope**](envelope.html): тип данных огибающей
 
-[**vline2env**](vline2env.html): Converts vline messages to env 
+[**vline2env**](vline2env.html): Converts vline messages to env
 
 
 ### <a id="cat_flow" href="category_flow.html">flow</a>
@@ -498,117 +498,117 @@ layout: default_ru
 ---
 
 
-[**expand_env**](expand_env.html): Substitute environment variables in data stream 
+[**expand_env**](expand_env.html): Substitute environment variables in data stream
 
-[**flow.append**](flow.append.html): Добавить сообщение для потока 
+[**flow.append**](flow.append.html): Добавить сообщение для потока
 
-[**flow.change**](flow.change.html): удаляет повторяющиеся сообщения 
+[**flow.change**](flow.change.html): удаляет повторяющиеся сообщения
 
-[**flow.count**](flow.count.html): счетчик числа сообщений в управляющем потоке 
+[**flow.count**](flow.count.html): счетчик числа сообщений в управляющем потоке
 
-[**flow.delay**](flow.delay.html): усовершенствованная версия объекта [delay] 
+[**flow.delay**](flow.delay.html): усовершенствованная версия объекта \[delay\]
 
-[**flow.demultiplex**](flow.demultiplex.html): демультиплексор управляющего потока 
+[**flow.demultiplex**](flow.demultiplex.html): демультиплексор управляющего потока
 
-[**flow.demultiplex2~**](flow.demultiplex2~.html): демультиплексор стерео аудиопотока 
+[**flow.demultiplex2~**](flow.demultiplex2~.html): демультиплексор стерео аудиопотока
 
-[**flow.demultiplex~**](flow.demultiplex~.html): демультиплексор аудиопотока 
+[**flow.demultiplex~**](flow.demultiplex~.html): демультиплексор аудиопотока
 
-[**flow.dollar**](flow.dollar.html): подставляет $-значения 
+[**flow.dollar**](flow.dollar.html): подставляет $-значения
 
-[**flow.dup**](flow.dup.html): дупликатор сообщений 
+[**flow.dup**](flow.dup.html): дупликатор сообщений
 
-[**flow.float**](flow.float.html): плавать 
+[**flow.float**](flow.float.html): плавать
 
-[**flow.gate**](flow.gate.html): шлюз для потока сообщений. аналог объекта [spigot] 
+[**flow.gate**](flow.gate.html): шлюз для потока сообщений. аналог объекта \[spigot\]
 
-[**flow.greater**](flow.greater.html): маршрутизатор числового потока по условию &#39;больше&#39; 
+[**flow.greater**](flow.greater.html): маршрутизатор числового потока по условию &#39;больше&#39;
 
-[**flow.greater_eq**](flow.greater_eq.html): маршрутизатор числового потока по условию &#39;больше или равно&#39; 
+[**flow.greater_eq**](flow.greater_eq.html): маршрутизатор числового потока по условию &#39;больше или равно&#39;
 
-[**flow.group**](flow.group.html): группирует входные атомы в списки указанного размера 
+[**flow.group**](flow.group.html): группирует входные атомы в списки указанного размера
 
-[**flow.histogram**](flow.histogram.html): гисторамма для числового потока управления 
+[**flow.histogram**](flow.histogram.html): гисторамма для числового потока управления
 
-[**flow.interval**](flow.interval.html): измерение времени между сообщениями 
+[**flow.interval**](flow.interval.html): измерение времени между сообщениями
 
-[**flow.less**](flow.less.html): маршрутизатор числового потока по условию &#39;меньше&#39; 
+[**flow.less**](flow.less.html): маршрутизатор числового потока по условию &#39;меньше&#39;
 
-[**flow.less_eq**](flow.less_eq.html): маршрутизатор числового потока по условию &#39;меньше или равно&#39; 
+[**flow.less_eq**](flow.less_eq.html): маршрутизатор числового потока по условию &#39;меньше или равно&#39;
 
-[**flow.list2many**](flow.list2many.html): маршрутизирует элемент списка с соответствующим сообщением 
+[**flow.list2many**](flow.list2many.html): маршрутизирует элемент списка с соответствующим сообщением
 
-[**flow.match**](flow.match.html): маршрутизатор управляющего потока с помощью совпадений с регулярным выражением 
+[**flow.match**](flow.match.html): маршрутизатор управляющего потока с помощью совпадений с регулярным выражением
 
-[**flow.mem**](flow.mem.html): сохраняет в памяти или выводит сообщения потока управления 
+[**flow.mem**](flow.mem.html): сохраняет в памяти или выводит сообщения потока управления
 
-[**flow.multiplex**](flow.multiplex.html): мультиплексор управляющего потока 
+[**flow.multiplex**](flow.multiplex.html): мультиплексор управляющего потока
 
-[**flow.multiplex2~**](flow.multiplex2~.html): мультиплексор стерео аудиопотока 
+[**flow.multiplex2~**](flow.multiplex2~.html): мультиплексор стерео аудиопотока
 
-[**flow.multiplex~**](flow.multiplex~.html): мультиплексор аудиопотока 
+[**flow.multiplex~**](flow.multiplex~.html): мультиплексор аудиопотока
 
-[**flow.once**](flow.once.html): пропускает единственное сообщение 
+[**flow.once**](flow.once.html): пропускает единственное сообщение
 
-[**flow.pack**](flow.pack.html): упаковка атомов из нескольких потоков в один 
+[**flow.pack**](flow.pack.html): упаковка атомов из нескольких потоков в один
 
-[**flow.pass**](flow.pass.html): пропускает указанные значения 
+[**flow.pass**](flow.pass.html): пропускает указанные значения
 
-[**flow.pass_if**](flow.pass_if.html): пропускает значение, принятое предикатом боковой цепи обработки 
+[**flow.pass_if**](flow.pass_if.html): пропускает значение, принятое предикатом боковой цепи обработки
 
-[**flow.pipe**](flow.pipe.html): усовершенствованная версия объекта [pipe] 
+[**flow.pipe**](flow.pipe.html): усовершенствованная версия объекта \[pipe\]
 
-[**flow.prepend**](flow.prepend.html): вставляет сообщение перед текущим 
+[**flow.prepend**](flow.prepend.html): вставляет сообщение перед текущим
 
-[**flow.queue**](flow.queue.html): многоканальная очередь сообщений с возможностью синхронизации 
+[**flow.queue**](flow.queue.html): многоканальная очередь сообщений с возможностью синхронизации
 
-[**flow.record**](flow.record.html): запись/воспроизведение управляющего потока 
+[**flow.record**](flow.record.html): запись/воспроизведение управляющего потока
 
-[**flow.reject**](flow.reject.html): не пропускает указанные значения 
+[**flow.reject**](flow.reject.html): не пропускает указанные значения
 
-[**flow.reject_if**](flow.reject_if.html): не пропускает значение, принятое предикатом боковой цепи обработки 
+[**flow.reject_if**](flow.reject_if.html): не пропускает значение, принятое предикатом боковой цепи обработки
 
-[**flow.ring**](flow.ring.html): маршрутизатор в виде очереди для управляющего потока 
+[**flow.ring**](flow.ring.html): маршрутизатор в виде очереди для управляющего потока
 
-[**flow.route**](flow.route.html): улучшенный маршрутизатор сообщений 
+[**flow.route**](flow.route.html): улучшенный маршрутизатор сообщений
 
-[**flow.select**](flow.select.html): улучшенный селектор сообщений 
+[**flow.select**](flow.select.html): улучшенный селектор сообщений
 
-[**flow.seqdelay**](flow.seqdelay.html): последовательный маршрутизатор с задержками для входного потока 
+[**flow.seqdelay**](flow.seqdelay.html): последовательный маршрутизатор с задержками для входного потока
 
-[**flow.space**](flow.space.html): распределить во времени сообщения, полученные одновременно 
+[**flow.space**](flow.space.html): распределить во времени сообщения, полученные одновременно
 
-[**flow.speedlim**](flow.speedlim.html): ограничитель скорости потока 
+[**flow.speedlim**](flow.speedlim.html): ограничитель скорости потока
 
-[**flow.split**](flow.split.html): разделят управляющий поток внешним предикатом боковой цепи 
+[**flow.split**](flow.split.html): разделят управляющий поток внешним предикатом боковой цепи
 
-[**flow.stack**](flow.stack.html): стек сообщений 
+[**flow.stack**](flow.stack.html): стек сообщений
 
-[**flow.sync**](flow.sync.html): синхронная многоканальная шина 
+[**flow.sync**](flow.sync.html): синхронная многоканальная шина
 
-[**flow.sync_pack**](flow.sync_pack.html): [flow.pack] со всеми &#34;горячими&#34; входами 
+[**flow.sync_pack**](flow.sync_pack.html): \[flow.pack\] со всеми &#34;горячими&#34; входами
 
-[**flow.tee~**](flow.tee~.html): извлекает управляющие сообщения из аудиосоединений 
+[**flow.tee~**](flow.tee~.html): извлекает управляющие сообщения из аудиосоединений
 
-[**replace**](replace.html): Replace atoms in data stream 
+[**replace**](replace.html): Replace atoms in data stream
 
-[**route.any**](route.any.html): отделяет сообщения общего вида от пустых событий (bang), числовых значений, символов и списков 
+[**route.any**](route.any.html): отделяет сообщения общего вида от пустых событий (bang), числовых значений, символов и списков
 
-[**route.bang**](route.bang.html): отделяет пустые события (bangs) от сообщений других типов 
+[**route.bang**](route.bang.html): отделяет пустые события (bangs) от сообщений других типов
 
-[**route.cycle**](route.cycle.html): циклический маршрутизатор сообщений 
+[**route.cycle**](route.cycle.html): циклический маршрутизатор сообщений
 
-[**route.data**](route.data.html): отделяет сообщения с данными от других 
+[**route.data**](route.data.html): отделяет сообщения с данными от других
 
-[**route.float**](route.float.html): отделяет числовые сообщения от других типов 
+[**route.float**](route.float.html): отделяет числовые сообщения от других типов
 
-[**route.list**](route.list.html): отделяет списки от сообщений других типов 
+[**route.list**](route.list.html): отделяет списки от сообщений других типов
 
-[**route.prop**](route.prop.html): отделяет сообщения со свойствами от других типов 
+[**route.prop**](route.prop.html): отделяет сообщения со свойствами от других типов
 
-[**route.random**](route.random.html): направляет входное сообщение в случайный выход 
+[**route.random**](route.random.html): направляет входное сообщение в случайный выход
 
-[**route.symbol**](route.symbol.html): отделяет символьные сообщения от других типов 
+[**route.symbol**](route.symbol.html): отделяет символьные сообщения от других типов
 
 
 ### <a id="cat_flt" href="category_flt.html">flt</a>
@@ -617,87 +617,87 @@ layout: default_ru
 ---
 
 
-[**flt.a-weight**](flt.a-weight.html): convert frequency to A-weight value 
+[**flt.a-weight**](flt.a-weight.html): convert frequency to A-weight value
 
-[**flt.biquad~**](flt.biquad~.html): second order IIR filter. 
+[**flt.biquad~**](flt.biquad~.html): second order IIR filter.
 
-[**flt.bpf12~**](flt.bpf12~.html): Two pole band-pass butterworth filter 
+[**flt.bpf12~**](flt.bpf12~.html): Two pole band-pass butterworth filter
 
-[**flt.bpf24~**](flt.bpf24~.html): Four pole band-pass butterworth filter 
+[**flt.bpf24~**](flt.bpf24~.html): Four pole band-pass butterworth filter
 
-[**flt.bpf36e~**](flt.bpf36e~.html): elliptic band-pass filter with -36db rolloff 
+[**flt.bpf36e~**](flt.bpf36e~.html): elliptic band-pass filter with -36db rolloff
 
-[**flt.bpf72e~**](flt.bpf72e~.html): elliptic band-pass filter with -72db rolloff 
+[**flt.bpf72e~**](flt.bpf72e~.html): elliptic band-pass filter with -72db rolloff
 
-[**flt.c_apf**](flt.c_apf.html): Allpass filter coefficient calculator for biquad 
+[**flt.c_apf**](flt.c_apf.html): Allpass filter coefficient calculator for biquad
 
-[**flt.c_bpf~**](flt.c_bpf~.html): BPF coefficient calculator for biquad filter 
+[**flt.c_bpf~**](flt.c_bpf~.html): BPF coefficient calculator for biquad filter
 
-[**flt.c_highshelf~**](flt.c_highshelf~.html): Highshelf filter coefficient calculator for biquad 
+[**flt.c_highshelf~**](flt.c_highshelf~.html): Highshelf filter coefficient calculator for biquad
 
-[**flt.c_hpf**](flt.c_hpf.html): HPF coefficient calculator for biquad filter 
+[**flt.c_hpf**](flt.c_hpf.html): HPF coefficient calculator for biquad filter
 
-[**flt.c_hpf~**](flt.c_hpf~.html): HPF coefficient calculator for biquad filter 
+[**flt.c_hpf~**](flt.c_hpf~.html): HPF coefficient calculator for biquad filter
 
-[**flt.c_lowshelf~**](flt.c_lowshelf~.html): Lowshelf filter coefficient calculator for biquad 
+[**flt.c_lowshelf~**](flt.c_lowshelf~.html): Lowshelf filter coefficient calculator for biquad
 
-[**flt.c_lpf**](flt.c_lpf.html): LPF coefficient calculator for biquad filter 
+[**flt.c_lpf**](flt.c_lpf.html): LPF coefficient calculator for biquad filter
 
-[**flt.c_lpf~**](flt.c_lpf~.html): LPF coefficient calculator for biquad filter 
+[**flt.c_lpf~**](flt.c_lpf~.html): LPF coefficient calculator for biquad filter
 
-[**flt.c_notch**](flt.c_notch.html): Notch filter coefficient calculator for biquad 
+[**flt.c_notch**](flt.c_notch.html): Notch filter coefficient calculator for biquad
 
-[**flt.c_notch~**](flt.c_notch~.html): Band-reject coefficient calculator for biquad filter 
+[**flt.c_notch~**](flt.c_notch~.html): Band-reject coefficient calculator for biquad filter
 
-[**flt.c_peak~**](flt.c_peak~.html): Peaking equalizer calculator for biquad 
+[**flt.c_peak~**](flt.c_peak~.html): Peaking equalizer calculator for biquad
 
-[**flt.c_pole**](flt.c_pole.html): One-pole coefficient calculator for biquad filter 
+[**flt.c_pole**](flt.c_pole.html): One-pole coefficient calculator for biquad filter
 
-[**flt.dcblock2~**](flt.dcblock2~.html): stereo DC blocker 
+[**flt.dcblock2~**](flt.dcblock2~.html): stereo DC blocker
 
-[**flt.dcblock~**](flt.dcblock~.html): mono DC blocker 
+[**flt.dcblock~**](flt.dcblock~.html): mono DC blocker
 
-[**flt.eq10~**](flt.eq10~.html): graphic 10 band equalizer 
+[**flt.eq10~**](flt.eq10~.html): graphic 10 band equalizer
 
-[**flt.eq_peak_cq~**](flt.eq_peak_cq~.html): constant-Q second order peaking equalizer section 
+[**flt.eq_peak_cq~**](flt.eq_peak_cq~.html): constant-Q second order peaking equalizer section
 
-[**flt.eq_peak~**](flt.eq_peak~.html): second order &#34;peaking equalizer&#34; section (gain boost or cut near some frequency). Also called a &#34;parametric equalizer&#34; section. 
+[**flt.eq_peak~**](flt.eq_peak~.html): second order &#34;peaking equalizer&#34; section (gain boost or cut near some frequency). Also called a &#34;parametric equalizer&#34; section.
 
-[**flt.fb_comb~**](flt.fb_comb~.html): feedback comb filter 
+[**flt.fb_comb~**](flt.fb_comb~.html): feedback comb filter
 
-[**flt.fbank5x1~**](flt.fbank5x1~.html): 5 band one octave butterworth filterbank 
+[**flt.fbank5x1~**](flt.fbank5x1~.html): 5 band one octave butterworth filterbank
 
-[**flt.ff_comb~**](flt.ff_comb~.html): feed forward comb filter 
+[**flt.ff_comb~**](flt.ff_comb~.html): feed forward comb filter
 
-[**flt.freqz**](flt.freqz.html): compute the frequency response of a digital filter 
+[**flt.freqz**](flt.freqz.html): compute the frequency response of a digital filter
 
-[**flt.freqz~**](flt.freqz~.html): compute the frequency response of a digital filter 
+[**flt.freqz~**](flt.freqz~.html): compute the frequency response of a digital filter
 
-[**flt.highshelf~**](flt.highshelf~.html): gain boost|cut above some frequency 
+[**flt.highshelf~**](flt.highshelf~.html): gain boost|cut above some frequency
 
-[**flt.hpf12~**](flt.hpf12~.html): High-pass second order Butterworth filter 
+[**flt.hpf12~**](flt.hpf12~.html): High-pass second order Butterworth filter
 
-[**flt.hpf24~**](flt.hpf24~.html): High-pass fourth order Butterworth filter 
+[**flt.hpf24~**](flt.hpf24~.html): High-pass fourth order Butterworth filter
 
-[**flt.lowshelf~**](flt.lowshelf~.html): gain boost|cut below some frequency 
+[**flt.lowshelf~**](flt.lowshelf~.html): gain boost|cut below some frequency
 
-[**flt.lpf12~**](flt.lpf12~.html): Low-pass second order Butterworth filter 
+[**flt.lpf12~**](flt.lpf12~.html): Low-pass second order Butterworth filter
 
-[**flt.lpf24~**](flt.lpf24~.html): Low-pass fourth order Butterworth filter 
+[**flt.lpf24~**](flt.lpf24~.html): Low-pass fourth order Butterworth filter
 
-[**flt.median**](flt.median.html): Median control flow filter 
+[**flt.median**](flt.median.html): Median control flow filter
 
-[**flt.moog_vcf~**](flt.moog_vcf~.html): Moog Voltage Controlled Filter 
+[**flt.moog_vcf~**](flt.moog_vcf~.html): Moog Voltage Controlled Filter
 
-[**flt.notch~**](flt.notch~.html): band-rejection filter 
+[**flt.notch~**](flt.notch~.html): band-rejection filter
 
-[**flt.resonbp~**](flt.resonbp~.html): Simple resonant bandpass filter 
+[**flt.resonbp~**](flt.resonbp~.html): Simple resonant bandpass filter
 
-[**flt.resonhp~**](flt.resonhp~.html): Simple resonant highpass filter 
+[**flt.resonhp~**](flt.resonhp~.html): Simple resonant highpass filter
 
-[**flt.resonlp~**](flt.resonlp~.html): Simple resonant lowpass filter 
+[**flt.resonlp~**](flt.resonlp~.html): Simple resonant lowpass filter
 
-[**flt.speaker~**](flt.speaker~.html): speaker emulation band-pass filter 
+[**flt.speaker~**](flt.speaker~.html): speaker emulation band-pass filter
 
 
 ### <a id="cat_fx" href="category_fx.html">fx</a>
@@ -706,79 +706,79 @@ layout: default_ru
 ---
 
 
-[**fx.bitdown~**](fx.bitdown~.html): bit downer and downsampler effect 
+[**fx.bitdown~**](fx.bitdown~.html): bit downer and downsampler effect
 
-[**fx.chorus~**](fx.chorus~.html): Chorus effect 
+[**fx.chorus~**](fx.chorus~.html): Chorus effect
 
-[**fx.dattorro~**](fx.dattorro~.html): dattorro reverb 
+[**fx.dattorro~**](fx.dattorro~.html): dattorro reverb
 
-[**fx.delay~**](fx.delay~.html): smooth delay with a feedback control 
+[**fx.delay~**](fx.delay~.html): smooth delay with a feedback control
 
-[**fx.distortion1~**](fx.distortion1~.html): distortion #1 from Guitarix effects set 
+[**fx.distortion1~**](fx.distortion1~.html): distortion #1 from Guitarix effects set
 
-[**fx.distortion2~**](fx.distortion2~.html): distortion #2 from Guitarix effects set 
+[**fx.distortion2~**](fx.distortion2~.html): distortion #2 from Guitarix effects set
 
-[**fx.distortion3~**](fx.distortion3~.html): simple distortion #3 from Guitarix effects set 
+[**fx.distortion3~**](fx.distortion3~.html): simple distortion #3 from Guitarix effects set
 
-[**fx.distortion~**](fx.distortion~.html): cubic nonlinearity distortion 
+[**fx.distortion~**](fx.distortion~.html): cubic nonlinearity distortion
 
-[**fx.drive~**](fx.drive~.html): Guitarix drive effect 
+[**fx.drive~**](fx.drive~.html): Guitarix drive effect
 
-[**fx.drone_box~**](fx.drone_box~.html): mono sympathetic resonance generator 
+[**fx.drone_box~**](fx.drone_box~.html): mono sympathetic resonance generator
 
-[**fx.echo2~**](fx.echo2~.html): stereo echo effect 
+[**fx.echo2~**](fx.echo2~.html): stereo echo effect
 
-[**fx.echo~**](fx.echo~.html): enhanced echo effect 
+[**fx.echo~**](fx.echo~.html): enhanced echo effect
 
-[**fx.flanger~**](fx.flanger~.html): mono flanging effect 
+[**fx.flanger~**](fx.flanger~.html): mono flanging effect
 
-[**fx.freeverb2~**](fx.freeverb2~.html): freeverb2 - stereo version of freeverb 
+[**fx.freeverb2~**](fx.freeverb2~.html): freeverb2 - stereo version of freeverb
 
-[**fx.freeverb~**](fx.freeverb~.html): freeverb - common used open-source reverb 
+[**fx.freeverb~**](fx.freeverb~.html): freeverb - common used open-source reverb
 
-[**fx.freqshift~**](fx.freqshift~.html): frequency shifter or single-sideband ring modulation 
+[**fx.freqshift~**](fx.freqshift~.html): frequency shifter or single-sideband ring modulation
 
-[**fx.granulator~**](fx.granulator~.html): simple input stream granulator 
+[**fx.granulator~**](fx.granulator~.html): simple input stream granulator
 
-[**fx.greyhole~**](fx.greyhole~.html): A complex echo-like effect 
+[**fx.greyhole~**](fx.greyhole~.html): A complex echo-like effect
 
-[**fx.infrev~**](fx.infrev~.html): port of Infinity VST plugin from airwindows 
+[**fx.infrev~**](fx.infrev~.html): port of Infinity VST plugin from airwindows
 
-[**fx.jcrev~**](fx.jcrev~.html): Schroeder quad reverberator from 1972 
+[**fx.jcrev~**](fx.jcrev~.html): Schroeder quad reverberator from 1972
 
-[**fx.looper~**](fx.looper~.html): One track looper 
+[**fx.looper~**](fx.looper~.html): One track looper
 
-[**fx.overdrive~**](fx.overdrive~.html): overdrive effect 
+[**fx.overdrive~**](fx.overdrive~.html): overdrive effect
 
-[**fx.pitchshift_s~**](fx.pitchshift_s~.html): signal version of fx.pitchshift~ 
+[**fx.pitchshift_s~**](fx.pitchshift_s~.html): signal version of fx.pitchshift~
 
-[**fx.pitchshift~**](fx.pitchshift~.html): simple pitch shifter based on 2 delay lines 
+[**fx.pitchshift~**](fx.pitchshift~.html): simple pitch shifter based on 2 delay lines
 
-[**fx.rb_pitchshift~**](fx.rb_pitchshift~.html): rubber band pitchshift 
+[**fx.rb_pitchshift~**](fx.rb_pitchshift~.html): rubber band pitchshift
 
-[**fx.recho~**](fx.recho~.html): reversed echo effect 
+[**fx.recho~**](fx.recho~.html): reversed echo effect
 
-[**fx.ringmod~**](fx.ringmod~.html): ring modulator effect 
+[**fx.ringmod~**](fx.ringmod~.html): ring modulator effect
 
-[**fx.room~**](fx.room~.html): Gardners room emulation algorithms 
+[**fx.room~**](fx.room~.html): Gardners room emulation algorithms
 
-[**fx.satrev~**](fx.satrev~.html): Schroeder reverberator from 1971 
+[**fx.satrev~**](fx.satrev~.html): Schroeder reverberator from 1971
 
-[**fx.scramble~**](fx.scramble~.html): scramble delayed sound fragments 
+[**fx.scramble~**](fx.scramble~.html): scramble delayed sound fragments
 
-[**fx.shimmer~**](fx.shimmer~.html): shimmer reverb effect effect 
+[**fx.shimmer~**](fx.shimmer~.html): shimmer reverb effect effect
 
-[**fx.stutter~**](fx.stutter~.html): stutter effect 
+[**fx.stutter~**](fx.stutter~.html): stutter effect
 
-[**fx.tapiir~**](fx.tapiir~.html): multi-tap delay 
+[**fx.tapiir~**](fx.tapiir~.html): multi-tap delay
 
-[**fx.tremolo~**](fx.tremolo~.html): tremolo effect from guitarix project 
+[**fx.tremolo~**](fx.tremolo~.html): tremolo effect from guitarix project
 
-[**fx.vocoder~**](fx.vocoder~.html): very simple vocoder where the spectrum of the modulation signal is analyzed using a 32-band filter bank 
+[**fx.vocoder~**](fx.vocoder~.html): very simple vocoder where the spectrum of the modulation signal is analyzed using a 32-band filter bank
 
-[**fx.wahwah~**](fx.wahwah~.html): digitized CryBaby wah pedal 
+[**fx.wahwah~**](fx.wahwah~.html): digitized CryBaby wah pedal
 
-[**fx.zita_rev1~**](fx.zita_rev1~.html): Zita stereo reverb 
+[**fx.zita_rev1~**](fx.zita_rev1~.html): Zita stereo reverb
 
 
 ### <a id="cat_global" href="category_global.html">global</a>
@@ -787,17 +787,17 @@ layout: default_ru
 ---
 
 
-[**global.dict**](global.dict.html): глобальный именованный словарь 
+[**global.dict**](global.dict.html): глобальный именованный словарь
 
-[**global.float**](global.float.html): глобальной именованное число с плавающей точкой 
+[**global.float**](global.float.html): глобальной именованное число с плавающей точкой
 
-[**global.int**](global.int.html): глобальной именованное целое число 
+[**global.int**](global.int.html): глобальной именованное целое число
 
-[**global.list**](global.list.html): глобальный именованный список 
+[**global.list**](global.list.html): глобальный именованный список
 
-[**global.mlist**](global.mlist.html): глобальный именованный многоуровневый список (MList) 
+[**global.mlist**](global.mlist.html): глобальный именованный многоуровневый список (MList)
 
-[**global.set**](global.set.html): глобальное именованное множество 
+[**global.set**](global.set.html): глобальное именованное множество
 
 
 ### <a id="cat_hw" href="category_hw.html">hw</a>
@@ -806,51 +806,51 @@ layout: default_ru
 ---
 
 
-[**hw.apple_smc**](hw.apple_smc.html): query the system management control in Apples 
+[**hw.apple_smc**](hw.apple_smc.html): query the system management control in Apples
 
-[**hw.apple_sms**](hw.apple_sms.html): query the sudden motion sensor in Apples 
+[**hw.apple_sms**](hw.apple_sms.html): query the sudden motion sensor in Apples
 
-[**hw.arduino**](hw.arduino.html): Arduino device 
+[**hw.arduino**](hw.arduino.html): Arduino device
 
-[**hw.display**](hw.display.html): get/set display properties 
+[**hw.display**](hw.display.html): get/set display properties
 
-[**hw.gamepad**](hw.gamepad.html): геймпад контроллеры 
+[**hw.gamepad**](hw.gamepad.html): геймпад контроллеры
 
-[**hw.kbd_light**](hw.kbd_light.html): Get/set keyboard light on some devices 
+[**hw.kbd_light**](hw.kbd_light.html): Get/set keyboard light on some devices
 
-[**hw.motu.avb**](hw.motu.avb.html): controls Motu AVB devices over http requests 
+[**hw.motu.avb**](hw.motu.avb.html): controls Motu AVB devices over http requests
 
-[**hw.printer**](hw.printer.html): базовая поддержка печати документов 
+[**hw.printer**](hw.printer.html): базовая поддержка печати документов
 
-[**hw.rpi.adc.ads1115**](hw.rpi.adc.ads1115.html): драйвер для 16-битного АЦП на чипе ads1115 для Raspberry Pi 
+[**hw.rpi.adc.ads1115**](hw.rpi.adc.ads1115.html): драйвер для 16-битного АЦП на чипе ads1115 для Raspberry Pi
 
-[**hw.rpi.display.hd44780**](hw.rpi.display.hd44780.html): драйвер для ЖКИ дисплея (1602 или 2004 модуль) для Raspberry Pi 
+[**hw.rpi.display.hd44780**](hw.rpi.display.hd44780.html): драйвер для ЖКИ дисплея (1602 или 2004 модуль) для Raspberry Pi
 
-[**hw.rpi.display.ssd1306**](hw.rpi.display.ssd1306.html): драйвер для OLED дисплея на чипе ssd1306 для Raspberry Pi 
+[**hw.rpi.display.ssd1306**](hw.rpi.display.ssd1306.html): драйвер для OLED дисплея на чипе ssd1306 для Raspberry Pi
 
-[**hw.rpi.gpio**](hw.rpi.gpio.html): управление GPIO на Raspberry Pi 
+[**hw.rpi.gpio**](hw.rpi.gpio.html): управление GPIO на Raspberry Pi
 
-[**hw.rpi.i2c.pca9685**](hw.rpi.i2c.pca9685.html): драйвер для 16-канального 12-битного ШИМ модуля на чипе PCA9685 для Raspberry Pi 
+[**hw.rpi.i2c.pca9685**](hw.rpi.i2c.pca9685.html): драйвер для 16-канального 12-битного ШИМ модуля на чипе PCA9685 для Raspberry Pi
 
-[**hw.rpi.pwm**](hw.rpi.pwm.html): аппаратный ШИМ (PWM) для RaspberryPi 
+[**hw.rpi.pwm**](hw.rpi.pwm.html): аппаратный ШИМ (PWM) для RaspberryPi
 
-[**hw.rpi.rotenc**](hw.rpi.rotenc.html): поворотный энкодер для Raspberry Pi 
+[**hw.rpi.rotenc**](hw.rpi.rotenc.html): поворотный энкодер для Raspberry Pi
 
-[**hw.rpi.sensor.dht11**](hw.rpi.sensor.dht11.html): цифровой датчик влажности и температуры (DHT11) для Raspberry Pi 
+[**hw.rpi.sensor.dht11**](hw.rpi.sensor.dht11.html): цифровой датчик влажности и температуры (DHT11) для Raspberry Pi
 
-[**hw.rpi.sensor.ir**](hw.rpi.sensor.ir.html): ИК (инфракрасные) датчики и протоколы для Raspberry Pi 
+[**hw.rpi.sensor.ir**](hw.rpi.sensor.ir.html): ИК (инфракрасные) датчики и протоколы для Raspberry Pi
 
-[**hw.rpi.sensor.mpu6050**](hw.rpi.sensor.mpu6050.html): MPU-6050 гироскоп и датчик ускорения для Raspberry Pi 
+[**hw.rpi.sensor.mpu6050**](hw.rpi.sensor.mpu6050.html): MPU-6050 гироскоп и датчик ускорения для Raspberry Pi
 
-[**hw.rpi.sensor.sr04**](hw.rpi.sensor.sr04.html): HC-SR04 ультразвуковой датчик расстояния для Raspberry Pi 
+[**hw.rpi.sensor.sr04**](hw.rpi.sensor.sr04.html): HC-SR04 ультразвуковой датчик расстояния для Raspberry Pi
 
-[**hw.rpi.sensor.vl53l0x**](hw.rpi.sensor.vl53l0x.html): лазерный дальномер на чипе VL53L0X для Raspberry Pi 
+[**hw.rpi.sensor.vl53l0x**](hw.rpi.sensor.vl53l0x.html): лазерный дальномер на чипе VL53L0X для Raspberry Pi
 
-[**hw.rpi.spi.max7219**](hw.rpi.spi.max7219.html): драйвер для LED матрицы на чипе max7219 для Raspberry Pi 
+[**hw.rpi.spi.max7219**](hw.rpi.spi.max7219.html): драйвер для LED матрицы на чипе max7219 для Raspberry Pi
 
-[**hw.rpi.spi.ws2812**](hw.rpi.spi.ws2812.html): драйвер для светодиодной ленты ws2812 для Raspberry Pi 
+[**hw.rpi.spi.ws2812**](hw.rpi.spi.ws2812.html): драйвер для светодиодной ленты ws2812 для Raspberry Pi
 
-[**hw.serial**](hw.serial.html): serial port device 
+[**hw.serial**](hw.serial.html): serial port device
 
 
 ### <a id="cat_lang" href="category_lang.html">lang</a>
@@ -859,11 +859,11 @@ layout: default_ru
 ---
 
 
-[**lang.faust~**](lang.faust~.html): faust realtime compilation 
+[**lang.faust~**](lang.faust~.html): faust realtime compilation
 
-[**lang.lua**](lang.lua.html): Lua JIT language bindings 
+[**lang.lua**](lang.lua.html): Lua JIT language bindings
 
-[**ui.faust~**](ui.faust~.html): faust compiled ui object 
+[**ui.faust~**](ui.faust~.html): faust compiled ui object
 
 
 ### <a id="cat_lfo" href="category_lfo.html">lfo</a>
@@ -872,25 +872,25 @@ layout: default_ru
 ---
 
 
-[**lfo.+pulse~**](lfo.%2Bpulse~.html): Unit-amplitude nonnegative low frequency pulse train 
+[**lfo.+pulse~**](lfo.%2Bpulse~.html): Unit-amplitude nonnegative low frequency pulse train
 
-[**lfo.+saw~**](lfo.%2Bsaw~.html): Positive unit-amplitude low frequency saw wave 
+[**lfo.+saw~**](lfo.%2Bsaw~.html): Positive unit-amplitude low frequency saw wave
 
-[**lfo.+square~**](lfo.%2Bsquare~.html): Positive low frequency square wave 
+[**lfo.+square~**](lfo.%2Bsquare~.html): Positive low frequency square wave
 
-[**lfo.+tri~**](lfo.%2Btri~.html): Positive unit-amplitude low frequency triangle wave 
+[**lfo.+tri~**](lfo.%2Btri~.html): Positive unit-amplitude low frequency triangle wave
 
-[**lfo.impulse~**](lfo.impulse~.html): Unit-amplitude low-frequency impulse train 
+[**lfo.impulse~**](lfo.impulse~.html): Unit-amplitude low-frequency impulse train
 
-[**lfo.mosc~**](lfo.mosc~.html): multi-oscillator with various waveforms 
+[**lfo.mosc~**](lfo.mosc~.html): multi-oscillator with various waveforms
 
-[**lfo.pulse~**](lfo.pulse~.html): Full-range unit-amplitude low frequency pulse train 
+[**lfo.pulse~**](lfo.pulse~.html): Full-range unit-amplitude low frequency pulse train
 
-[**lfo.saw~**](lfo.saw~.html): Full-range unit-amplitude low frequency saw 
+[**lfo.saw~**](lfo.saw~.html): Full-range unit-amplitude low frequency saw
 
-[**lfo.square~**](lfo.square~.html): Zero-mean unit-amplitude low frequency square wave 
+[**lfo.square~**](lfo.square~.html): Zero-mean unit-amplitude low frequency square wave
 
-[**lfo.tri~**](lfo.tri~.html): Zero-mean unit-amplitude low frequency triangle wave 
+[**lfo.tri~**](lfo.tri~.html): Zero-mean unit-amplitude low frequency triangle wave
 
 
 ### <a id="cat_list" href="category_list.html">list</a>
@@ -899,145 +899,145 @@ layout: default_ru
 ---
 
 
-[**list.^at**](list.%5Eat.html): on input index(es) outputs list element(s) 
+[**list.^at**](list.%5Eat.html): on input index(es) outputs list element(s)
 
-[**list.^contains**](list.%5Econtains.html): checks if input atom is found in the list 
+[**list.^contains**](list.%5Econtains.html): checks if input atom is found in the list
 
-[**list.^search**](list.%5Esearch.html): on input atom returns it index in list 
+[**list.^search**](list.%5Esearch.html): on input atom returns it index in list
 
-[**list.all_of**](list.all_of.html): checks if all list atoms accepted by predicate 
+[**list.all_of**](list.all_of.html): checks if all list atoms accepted by predicate
 
-[**list.any_of**](list.any_of.html): checks if at least one list element is accepted by predicate 
+[**list.any_of**](list.any_of.html): checks if at least one list element is accepted by predicate
 
-[**list.append**](list.append.html): append atom or list to the end of input list 
+[**list.append**](list.append.html): append atom or list to the end of input list
 
-[**list.apply_to**](list.apply_to.html): modifies list value at specified position, filtering it via external object 
+[**list.apply_to**](list.apply_to.html): modifies list value at specified position, filtering it via external object
 
-[**list.at**](list.at.html): outputs list element(s) at specified index(es) 
+[**list.at**](list.at.html): outputs list element(s) at specified index(es)
 
-[**list.choice**](list.choice.html): outputs random element from list 
+[**list.choice**](list.choice.html): outputs random element from list
 
-[**list.contains**](list.contains.html): checks if input list contains specified atoms 
+[**list.contains**](list.contains.html): checks if input list contains specified atoms
 
-[**list.convolve**](list.convolve.html): convolution for lists 
+[**list.convolve**](list.convolve.html): convolution for lists
 
-[**list.correlate**](list.correlate.html): list cross-correlation 
+[**list.correlate**](list.correlate.html): list cross-correlation
 
-[**list.count**](list.count.html): output the number of items that equal to specified value 
+[**list.count**](list.count.html): output the number of items that equal to specified value
 
-[**list.count_if**](list.count_if.html): output the number of items that satisfy to external predicate 
+[**list.count_if**](list.count_if.html): output the number of items that satisfy to external predicate
 
-[**list.delta**](list.delta.html): returns the difference between the current list of floats and the previous one. 
+[**list.delta**](list.delta.html): returns the difference between the current list of floats and the previous one.
 
-[**list.distribution**](list.distribution.html): list value distribution 
+[**list.distribution**](list.distribution.html): list value distribution
 
-[**list.do**](list.do.html): iterate and modify list contents via side-chain 
+[**list.do**](list.do.html): iterate and modify list contents via side-chain
 
-[**list.each**](list.each.html): maps each list value via external side-chain 
+[**list.each**](list.each.html): maps each list value via external side-chain
 
-[**list.enumerate**](list.enumerate.html): enumerates input list 
+[**list.enumerate**](list.enumerate.html): enumerates input list
 
-[**list.equal**](list.equal.html): checks if given lists are equal 
+[**list.equal**](list.equal.html): checks if given lists are equal
 
-[**list.first**](list.first.html): returns first list element 
+[**list.first**](list.first.html): returns first list element
 
-[**list.gen**](list.gen.html): generates list of specified length via external generator 
+[**list.gen**](list.gen.html): generates list of specified length via external generator
 
-[**list.histogram**](list.histogram.html): outputs distribution histogram 
+[**list.histogram**](list.histogram.html): outputs distribution histogram
 
-[**list.insert**](list.insert.html): insert atom or list to the specified position of input list 
+[**list.insert**](list.insert.html): insert atom or list to the specified position of input list
 
-[**list.integrator**](list.integrator.html): returns the sum of the previously stored list and the current one then stores this sum 
+[**list.integrator**](list.integrator.html): returns the sum of the previously stored list and the current one then stores this sum
 
-[**list.last**](list.last.html): output last list element 
+[**list.last**](list.last.html): output last list element
 
-[**list.length**](list.length.html): output the number of atoms in the list 
+[**list.length**](list.length.html): output the number of atoms in the list
 
-[**list.map**](list.map.html): map list values by specified dictionary 
+[**list.map**](list.map.html): map list values by specified dictionary
 
-[**list.max**](list.max.html): output largest element in the list 
+[**list.max**](list.max.html): output largest element in the list
 
-[**list.mean**](list.mean.html): calculates average of list of floats 
+[**list.mean**](list.mean.html): calculates average of list of floats
 
-[**list.min**](list.min.html): returns smallest element in the list 
+[**list.min**](list.min.html): returns smallest element in the list
 
-[**list.none_of**](list.none_of.html): checks if none of list atoms is accepted by predicate 
+[**list.none_of**](list.none_of.html): checks if none of list atoms is accepted by predicate
 
-[**list.normalize**](list.normalize.html): normalizes float list values to get their sum = 1.0 
+[**list.normalize**](list.normalize.html): normalizes float list values to get their sum = 1.0
 
-[**list.pass**](list.pass.html): leave in list only specified elements 
+[**list.pass**](list.pass.html): leave in list only specified elements
 
-[**list.pass_if**](list.pass_if.html): leave only elements accepted by predicate 
+[**list.pass_if**](list.pass_if.html): leave only elements accepted by predicate
 
-[**list.prepend**](list.prepend.html): prepend atom or list before input list 
+[**list.prepend**](list.prepend.html): prepend atom or list before input list
 
-[**list.product**](list.product.html): calculates product of floats in list 
+[**list.product**](list.product.html): calculates product of floats in list
 
-[**list.range**](list.range.html): output list smallest and largest value 
+[**list.range**](list.range.html): output list smallest and largest value
 
-[**list.reduce**](list.reduce.html): apply function of two arguments cumulatively to the list 
+[**list.reduce**](list.reduce.html): apply function of two arguments cumulatively to the list
 
-[**list.reject**](list.reject.html): remove specified element from list 
+[**list.reject**](list.reject.html): remove specified element from list
 
-[**list.remove**](list.remove.html): remove list element(s) at specified positions 
+[**list.remove**](list.remove.html): remove list element(s) at specified positions
 
-[**list.remove_if**](list.remove_if.html): remove elements by predicate 
+[**list.remove_if**](list.remove_if.html): remove elements by predicate
 
-[**list.repack**](list.repack.html): repack list to specified size 
+[**list.repack**](list.repack.html): repack list to specified size
 
-[**list.repeat**](list.repeat.html): output new list by repeating input list specified times 
+[**list.repeat**](list.repeat.html): output new list by repeating input list specified times
 
-[**list.resample**](list.resample.html): resample list with specified ratio 
+[**list.resample**](list.resample.html): resample list with specified ratio
 
-[**list.resize**](list.resize.html): changes list size 
+[**list.resize**](list.resize.html): changes list size
 
-[**list.reverse**](list.reverse.html): reverses the order of the elements in the list 
+[**list.reverse**](list.reverse.html): reverses the order of the elements in the list
 
-[**list.rldecode**](list.rldecode.html): Run-length list decoder (RLE) 
+[**list.rldecode**](list.rldecode.html): Run-length list decoder (RLE)
 
-[**list.rlencode**](list.rlencode.html): RLE (run-length encoding) for lists 
+[**list.rlencode**](list.rlencode.html): RLE (run-length encoding) for lists
 
-[**list.rotate**](list.rotate.html): rotates list 
+[**list.rotate**](list.rotate.html): rotates list
 
-[**list.route**](list.route.html): acts like [route] but for lists 
+[**list.route**](list.route.html): acts like \[route\] but for lists
 
-[**list.rundiff**](list.rundiff.html): running difference 
+[**list.rundiff**](list.rundiff.html): running difference
 
-[**list.runsum**](list.runsum.html): running sum 
+[**list.runsum**](list.runsum.html): running sum
 
-[**list.search**](list.search.html): search specified items in input list 
+[**list.search**](list.search.html): search specified items in input list
 
-[**list.separate**](list.separate.html): sends list elements one by one separately 
+[**list.separate**](list.separate.html): sends list elements one by one separately
 
-[**list.seq**](list.seq.html): numeric sequence list generator 
+[**list.seq**](list.seq.html): numeric sequence list generator
 
-[**list.set**](list.set.html): set list value at specified position 
+[**list.set**](list.set.html): set list value at specified position
 
-[**list.shift**](list.shift.html): shifts the contents of the list with linear interpolation 
+[**list.shift**](list.shift.html): shifts the contents of the list with linear interpolation
 
-[**list.shuffle**](list.shuffle.html): randomly rearranges elements in list 
+[**list.shuffle**](list.shuffle.html): randomly rearranges elements in list
 
-[**list.slice**](list.slice.html): extract sublist 
+[**list.slice**](list.slice.html): extract sublist
 
-[**list.sort**](list.sort.html): sorts list values by ascending order 
+[**list.sort**](list.sort.html): sorts list values by ascending order
 
-[**list.sort_with**](list.sort_with.html): sort list with user defined side-chain 
+[**list.sort_with**](list.sort_with.html): sort list with user defined side-chain
 
-[**list.split**](list.split.html): splits list into two parts, the length of first list is specified by the argument 
+[**list.split**](list.split.html): splits list into two parts, the length of first list is specified by the argument
 
-[**list.stretch**](list.stretch.html): stretches list - changes its size with linear interpolation 
+[**list.stretch**](list.stretch.html): stretches list - changes its size with linear interpolation
 
-[**list.sum**](list.sum.html): calculates sum of floats in list 
+[**list.sum**](list.sum.html): calculates sum of floats in list
 
-[**list.unique**](list.unique.html): removes duplicates from input list 
+[**list.unique**](list.unique.html): removes duplicates from input list
 
-[**list.unpack**](list.unpack.html): unpack list elements to separate outlets 
+[**list.unpack**](list.unpack.html): unpack list elements to separate outlets
 
-[**list.unzip**](list.unzip.html): splits list to N lists, each to separate output 
+[**list.unzip**](list.unzip.html): splits list to N lists, each to separate output
 
-[**list.walk**](list.walk.html): Walks thru the list 
+[**list.walk**](list.walk.html): Walks thru the list
 
-[**list.zip**](list.zip.html): takes n lists from n inlets (specified by argument) and output their elements sequentially (list1-1 list2-1 list1-2 list2-2 etc.). 
+[**list.zip**](list.zip.html): takes n lists from n inlets (specified by argument) and output their elements sequentially (list1-1 list2-1 list1-2 list2-2 etc.).
 
 
 ### <a id="cat_live" href="category_live.html">live</a>
@@ -1046,7 +1046,7 @@ layout: default_ru
 ---
 
 
-[**live.capture~**](live.capture~.html): record up to 32s of sound and playback the recorded sound in loop 
+[**live.capture~**](live.capture~.html): record up to 32s of sound and playback the recorded sound in loop
 
 
 ### <a id="cat_local" href="category_local.html">local</a>
@@ -1055,17 +1055,17 @@ layout: default_ru
 ---
 
 
-[**local.dict**](local.dict.html): local named dict object 
+[**local.dict**](local.dict.html): local named dict object
 
-[**local.float**](local.float.html): canvas-scoped named float variable 
+[**local.float**](local.float.html): canvas-scoped named float variable
 
-[**local.int**](local.int.html): canvas-scoped named integer variable 
+[**local.int**](local.int.html): canvas-scoped named integer variable
 
-[**local.list**](local.list.html): local named list object 
+[**local.list**](local.list.html): local named list object
 
-[**local.mlist**](local.mlist.html): local named mlist object 
+[**local.mlist**](local.mlist.html): local named mlist object
 
-[**local.set**](local.set.html): local named set object 
+[**local.set**](local.set.html): local named set object
 
 
 ### <a id="cat_math" href="category_math.html">math</a>
@@ -1074,201 +1074,201 @@ layout: default_ru
 ---
 
 
-[**math.abs**](math.abs.html): absolute value function 
+[**math.abs**](math.abs.html): absolute value function
 
-[**math.abs~**](math.abs~.html): absolute value function for signals 
+[**math.abs~**](math.abs~.html): absolute value function for signals
 
-[**math.acos**](math.acos.html): arc cosine function 
+[**math.acos**](math.acos.html): arc cosine function
 
-[**math.acosh**](math.acosh.html): inverse hyperbolic cosine function 
+[**math.acosh**](math.acosh.html): inverse hyperbolic cosine function
 
-[**math.acosh~**](math.acosh~.html): hyperbolic arc cosine for signals 
+[**math.acosh~**](math.acosh~.html): hyperbolic arc cosine for signals
 
-[**math.acos~**](math.acos~.html): arc cosine function for signals 
+[**math.acos~**](math.acos~.html): arc cosine function for signals
 
-[**math.and**](math.and.html): operation AND for multiple arguments 
+[**math.and**](math.and.html): operation AND for multiple arguments
 
-[**math.approx**](math.approx.html): check if input value approximately equal to pattern 
+[**math.approx**](math.approx.html): check if input value approximately equal to pattern
 
-[**math.asin**](math.asin.html): arc sine function 
+[**math.asin**](math.asin.html): arc sine function
 
-[**math.asinh**](math.asinh.html): inverse hyperbolic sine function 
+[**math.asinh**](math.asinh.html): inverse hyperbolic sine function
 
-[**math.asinh~**](math.asinh~.html): hyperbolic arc sine for signals 
+[**math.asinh~**](math.asinh~.html): hyperbolic arc sine for signals
 
-[**math.asin~**](math.asin~.html): arc sine for signals 
+[**math.asin~**](math.asin~.html): arc sine for signals
 
-[**math.atan**](math.atan.html): arc tangent function 
+[**math.atan**](math.atan.html): arc tangent function
 
-[**math.atanh**](math.atanh.html): inverse hyperbolic tangent function 
+[**math.atanh**](math.atanh.html): inverse hyperbolic tangent function
 
-[**math.atanh~**](math.atanh~.html): hyperbolic arc tangent for signals 
+[**math.atanh~**](math.atanh~.html): hyperbolic arc tangent for signals
 
-[**math.atan~**](math.atan~.html): arc tangent for signals 
+[**math.atan~**](math.atan~.html): arc tangent for signals
 
-[**math.binomial**](math.binomial.html): binomial coefficient calculator 
+[**math.binomial**](math.binomial.html): binomial coefficient calculator
 
-[**math.cabs~**](math.cabs~.html): magnitude of a complex signals 
+[**math.cabs~**](math.cabs~.html): magnitude of a complex signals
 
-[**math.carg~**](math.carg~.html): phase angle of a complex signals 
+[**math.carg~**](math.carg~.html): phase angle of a complex signals
 
-[**math.cbrt**](math.cbrt.html): cube root function 
+[**math.cbrt**](math.cbrt.html): cube root function
 
-[**math.cbrt~**](math.cbrt~.html): cube root function for signals 
+[**math.cbrt~**](math.cbrt~.html): cube root function for signals
 
-[**math.cdiv~**](math.cdiv~.html): division of complex signals 
+[**math.cdiv~**](math.cdiv~.html): division of complex signals
 
-[**math.ceil**](math.ceil.html): round to smallest integral value not less than input value 
+[**math.ceil**](math.ceil.html): round to smallest integral value not less than input value
 
-[**math.ceil~**](math.ceil~.html): round to smallest integral value not less than input value 
+[**math.ceil~**](math.ceil~.html): round to smallest integral value not less than input value
 
-[**math.cexp~**](math.cexp~.html): exponent of a complex signals 
+[**math.cexp~**](math.cexp~.html): exponent of a complex signals
 
-[**math.cmul~**](math.cmul~.html): multiplication of complex signals 
+[**math.cmul~**](math.cmul~.html): multiplication of complex signals
 
-[**math.cos**](math.cos.html): cosine function 
+[**math.cos**](math.cos.html): cosine function
 
-[**math.cosh**](math.cosh.html): hyperbolic cosine function 
+[**math.cosh**](math.cosh.html): hyperbolic cosine function
 
-[**math.cosh~**](math.cosh~.html): hyperbolic cosine for signals 
+[**math.cosh~**](math.cosh~.html): hyperbolic cosine for signals
 
-[**math.cos~**](math.cos~.html): cosine function 
+[**math.cos~**](math.cos~.html): cosine function
 
-[**math.div**](math.div.html): division (on lists too) 
+[**math.div**](math.div.html): division (on lists too)
 
-[**math.e**](math.e.html): mathematical constant, base of the natural logarithm 
+[**math.e**](math.e.html): mathematical constant, base of the natural logarithm
 
-[**math.erf**](math.erf.html): error function 
+[**math.erf**](math.erf.html): error function
 
-[**math.erf~**](math.erf~.html): error function for signals 
+[**math.erf~**](math.erf~.html): error function for signals
 
-[**math.exp**](math.exp.html): exponential functions 
+[**math.exp**](math.exp.html): exponential functions
 
-[**math.exp2**](math.exp2.html): exponential functions 
+[**math.exp2**](math.exp2.html): exponential functions
 
-[**math.exp2~**](math.exp2~.html): base-2 exponential for signal 
+[**math.exp2~**](math.exp2~.html): base-2 exponential for signal
 
-[**math.expr**](math.expr.html): dynamic [expr] 
+[**math.expr**](math.expr.html): dynamic \[expr\]
 
-[**math.exp~**](math.exp~.html): base-e exponential for signal 
+[**math.exp~**](math.exp~.html): base-e exponential for signal
 
-[**math.floor**](math.floor.html): round to largest integral value not greater than x 
+[**math.floor**](math.floor.html): round to largest integral value not greater than x
 
-[**math.floor~**](math.floor~.html): round to largest integral value not greater than x 
+[**math.floor~**](math.floor~.html): round to largest integral value not greater than x
 
-[**math.gamma**](math.gamma.html): gamma function 
+[**math.gamma**](math.gamma.html): gamma function
 
-[**math.gamma~**](math.gamma~.html): gamma function for floating point signals 
+[**math.gamma~**](math.gamma~.html): gamma function for floating point signals
 
-[**math.gcd**](math.gcd.html): calculate greatest common divisor 
+[**math.gcd**](math.gcd.html): calculate greatest common divisor
 
-[**math.inf**](math.inf.html): infinity value that cannot be represented accurately 
+[**math.inf**](math.inf.html): infinity value that cannot be represented accurately
 
-[**math.inf~**](math.inf~.html): inifinity signal generator 
+[**math.inf~**](math.inf~.html): inifinity signal generator
 
-[**math.lcm**](math.lcm.html): calculate least common multiple 
+[**math.lcm**](math.lcm.html): calculate least common multiple
 
-[**math.lgamma**](math.lgamma.html): natural logarithm of the absolute value of the gamma function 
+[**math.lgamma**](math.lgamma.html): natural logarithm of the absolute value of the gamma function
 
-[**math.lgamma~**](math.lgamma~.html): natural logarithm of the absolute value of the gamma function for signals 
+[**math.lgamma~**](math.lgamma~.html): natural logarithm of the absolute value of the gamma function for signals
 
-[**math.log**](math.log.html): natural logarithm 
+[**math.log**](math.log.html): natural logarithm
 
-[**math.log10**](math.log10.html): logarithm functions 
+[**math.log10**](math.log10.html): logarithm functions
 
-[**math.log10~**](math.log10~.html): natural logarithm 
+[**math.log10~**](math.log10~.html): natural logarithm
 
-[**math.log2**](math.log2.html): logarithm functions 
+[**math.log2**](math.log2.html): logarithm functions
 
-[**math.log2~**](math.log2~.html): base-2 logarithm 
+[**math.log2~**](math.log2~.html): base-2 logarithm
 
-[**math.log~**](math.log~.html): natural logarithm 
+[**math.log~**](math.log~.html): natural logarithm
 
-[**math.mul**](math.mul.html): multiplication (on lists too) 
+[**math.mul**](math.mul.html): multiplication (on lists too)
 
-[**math.nan**](math.nan.html): Not a Number, unrepresentable value 
+[**math.nan**](math.nan.html): Not a Number, unrepresentable value
 
-[**math.nan~**](math.nan~.html): signal NaN 
+[**math.nan~**](math.nan~.html): signal NaN
 
-[**math.neg**](math.neg.html): negate function 
+[**math.neg**](math.neg.html): negate function
 
-[**math.or**](math.or.html): operation OR for multiple arguments 
+[**math.or**](math.or.html): operation OR for multiple arguments
 
-[**math.pi**](math.pi.html): mathematical constant 
+[**math.pi**](math.pi.html): mathematical constant
 
-[**math.pi~**](math.pi~.html): mathematical constant 
+[**math.pi~**](math.pi~.html): mathematical constant
 
-[**math.polyeval**](math.polyeval.html): evaluates the polynomial described by the coefficients list 
+[**math.polyeval**](math.polyeval.html): evaluates the polynomial described by the coefficients list
 
-[**math.reciprocal**](math.reciprocal.html): calculate reciprocal number 
+[**math.reciprocal**](math.reciprocal.html): calculate reciprocal number
 
-[**math.reciprocal~**](math.reciprocal~.html): calculate reciprocal number for signals 
+[**math.reciprocal~**](math.reciprocal~.html): calculate reciprocal number for signals
 
-[**math.round**](math.round.html): round to integral value, regardless of rounding direction 
+[**math.round**](math.round.html): round to integral value, regardless of rounding direction
 
-[**math.round~**](math.round~.html): signal round 
+[**math.round~**](math.round~.html): signal round
 
-[**math.sign**](math.sign.html): sign function 
+[**math.sign**](math.sign.html): sign function
 
-[**math.sin**](math.sin.html): sine function 
+[**math.sin**](math.sin.html): sine function
 
-[**math.sinh**](math.sinh.html): hyperbolic sine function 
+[**math.sinh**](math.sinh.html): hyperbolic sine function
 
-[**math.sinh~**](math.sinh~.html): hyperbolic sine for signals 
+[**math.sinh~**](math.sinh~.html): hyperbolic sine for signals
 
-[**math.sin~**](math.sin~.html): sine function 
+[**math.sin~**](math.sin~.html): sine function
 
-[**math.sqrt**](math.sqrt.html): square root function 
+[**math.sqrt**](math.sqrt.html): square root function
 
-[**math.sqrt~**](math.sqrt~.html): square root for signal 
+[**math.sqrt~**](math.sqrt~.html): square root for signal
 
-[**math.squared**](math.squared.html): value square 
+[**math.squared**](math.squared.html): value square
 
-[**math.squared~**](math.squared~.html): signal value square 
+[**math.squared~**](math.squared~.html): signal value square
 
-[**math.sync_add**](math.sync_add.html): sync addition 
+[**math.sync_add**](math.sync_add.html): sync addition
 
-[**math.sync_and**](math.sync_and.html): sync logical AND operation 
+[**math.sync_and**](math.sync_and.html): sync logical AND operation
 
-[**math.sync_div**](math.sync_div.html): sync division 
+[**math.sync_div**](math.sync_div.html): sync division
 
-[**math.sync_eq**](math.sync_eq.html): sync equal numbers check 
+[**math.sync_eq**](math.sync_eq.html): sync equal numbers check
 
-[**math.sync_ge**](math.sync_ge.html): sync greater equal numbers compare 
+[**math.sync_ge**](math.sync_ge.html): sync greater equal numbers compare
 
-[**math.sync_gt**](math.sync_gt.html): sync greater then numbers compare 
+[**math.sync_gt**](math.sync_gt.html): sync greater then numbers compare
 
-[**math.sync_le**](math.sync_le.html): sync less equal numbers compare 
+[**math.sync_le**](math.sync_le.html): sync less equal numbers compare
 
-[**math.sync_lshift**](math.sync_lshift.html): sync signed bit left shift 
+[**math.sync_lshift**](math.sync_lshift.html): sync signed bit left shift
 
-[**math.sync_lt**](math.sync_lt.html): sync less then numbers compare 
+[**math.sync_lt**](math.sync_lt.html): sync less then numbers compare
 
-[**math.sync_mod**](math.sync_mod.html): sync remainder of modulo division (float or integer) 
+[**math.sync_mod**](math.sync_mod.html): sync remainder of modulo division (float or integer)
 
-[**math.sync_mul**](math.sync_mul.html): sync multiplication 
+[**math.sync_mul**](math.sync_mul.html): sync multiplication
 
-[**math.sync_ne**](math.sync_ne.html): sync numbers for not equality 
+[**math.sync_ne**](math.sync_ne.html): sync numbers for not equality
 
-[**math.sync_or**](math.sync_or.html): sync logical OR operation 
+[**math.sync_or**](math.sync_or.html): sync logical OR operation
 
-[**math.sync_rshift**](math.sync_rshift.html): sync signed bit right shift 
+[**math.sync_rshift**](math.sync_rshift.html): sync signed bit right shift
 
-[**math.sync_sub**](math.sync_sub.html): sync subtraction 
+[**math.sync_sub**](math.sync_sub.html): sync subtraction
 
-[**math.sync_xor**](math.sync_xor.html): sync logical XOR operation 
+[**math.sync_xor**](math.sync_xor.html): sync logical XOR operation
 
-[**math.tan**](math.tan.html): tangent function 
+[**math.tan**](math.tan.html): tangent function
 
-[**math.tanh**](math.tanh.html): hyperbolic tangent function 
+[**math.tanh**](math.tanh.html): hyperbolic tangent function
 
-[**math.tanh~**](math.tanh~.html): hyperbolic tangent for signals 
+[**math.tanh~**](math.tanh~.html): hyperbolic tangent for signals
 
-[**math.tan~**](math.tan~.html): tangent function 
+[**math.tan~**](math.tan~.html): tangent function
 
-[**math.trunc**](math.trunc.html): truncate to integer value 
+[**math.trunc**](math.trunc.html): truncate to integer value
 
-[**math.trunc~**](math.trunc~.html): truncate to integer value 
+[**math.trunc~**](math.trunc~.html): truncate to integer value
 
 
 ### <a id="cat_midi" href="category_midi.html">midi</a>
@@ -1277,47 +1277,47 @@ layout: default_ru
 ---
 
 
-[**midi.arp**](midi.arp.html): MIDI арпеджиатор 
+[**midi.arp**](midi.arp.html): MIDI арпеджиатор
 
-[**midi.cc**](midi.cc.html): усовершенствованная версия [ctlin] 
+[**midi.cc**](midi.cc.html): усовершенствованная версия \[ctlin\]
 
-[**midi.clock**](midi.clock.html): MIDI-clock 
+[**midi.clock**](midi.clock.html): MIDI-clock
 
-[**midi.ctl2str**](midi.ctl2str.html): преображует номер стандартного MIDI контроллеров в имя 
+[**midi.ctl2str**](midi.ctl2str.html): преображует номер стандартного MIDI контроллеров в имя
 
-[**midi.event2ctl**](midi.event2ctl.html): конвертируем сообщение MidiEvent в пару канал/значение 
+[**midi.event2ctl**](midi.event2ctl.html): конвертируем сообщение MidiEvent в пару канал/значение
 
-[**midi.event2note**](midi.event2note.html): конвертирует сообщение MidiEvent в пару нота/сила нажатия 
+[**midi.event2note**](midi.event2note.html): конвертирует сообщение MidiEvent в пару нота/сила нажатия
 
-[**midi.event2prg**](midi.event2prg.html): конвертирует сообщение MidiEvent в MIDI: изменение программы 
+[**midi.event2prg**](midi.event2prg.html): конвертирует сообщение MidiEvent в MIDI: изменение программы
 
-[**midi.file**](midi.file.html): чтение и запись стандартных MIDI файлов (SMF) 
+[**midi.file**](midi.file.html): чтение и запись стандартных MIDI файлов (SMF)
 
-[**midi.kbd**](midi.kbd.html): эмулятор MIDI клавиатуры c помощью клавиатуры компьютера 
+[**midi.kbd**](midi.kbd.html): эмулятор MIDI клавиатуры c помощью клавиатуры компьютера
 
-[**midi.key2str**](midi.key2str.html): преобразует номер MIDI-клавиши в имя ноты в формате SPN 
+[**midi.key2str**](midi.key2str.html): преобразует номер MIDI-клавиши в имя ноты в формате SPN
 
-[**midi.modus**](midi.modus.html): приводит или удаляет MIDI-ноты согласно указанному ладу 
+[**midi.modus**](midi.modus.html): приводит или удаляет MIDI-ноты согласно указанному ладу
 
-[**midi.note.pass**](midi.note.pass.html): пропускает MIDI-ноты согласно вычисляемому выражению 
+[**midi.note.pass**](midi.note.pass.html): пропускает MIDI-ноты согласно вычисляемому выражению
 
-[**midi.oct**](midi.oct.html): октавная MIDI транспозиция 
+[**midi.oct**](midi.oct.html): октавная MIDI транспозиция
 
-[**midi.prg2str**](midi.prg2str.html): преобразует номер инструмента GeneralMidi в его имя 
+[**midi.prg2str**](midi.prg2str.html): преобразует номер инструмента GeneralMidi в его имя
 
-[**midi.split**](midi.split.html): разбивает MIDI ноты на диапазоны 
+[**midi.split**](midi.split.html): разбивает MIDI ноты на диапазоны
 
-[**midi.sustain**](midi.sustain.html): эмуляция педали сустейна 
+[**midi.sustain**](midi.sustain.html): эмуляция педали сустейна
 
-[**midi.sysex**](midi.sysex.html): выводит входные sysex сообщения в виде списка 
+[**midi.sysex**](midi.sysex.html): выводит входные sysex сообщения в виде списка
 
-[**midi.track**](midi.track.html): извлекает трек из сообщения MidiFile 
+[**midi.track**](midi.track.html): извлекает трек из сообщения MidiFile
 
-[**midi.tuning**](midi.tuning.html): применяет настройку для нотного потока 
+[**midi.tuning**](midi.tuning.html): применяет настройку для нотного потока
 
-[**midi.vramp**](midi.vramp.html): применяет crescendo или diminuendo для потока нот 
+[**midi.vramp**](midi.vramp.html): применяет crescendo или diminuendo для потока нот
 
-[**midi.vrand**](midi.vrand.html): рандомизатор силы нажатия MIDI 
+[**midi.vrand**](midi.vrand.html): рандомизатор силы нажатия MIDI
 
 
 ### <a id="cat_misc" href="category_misc.html">misc</a>
@@ -1326,23 +1326,23 @@ layout: default_ru
 ---
 
 
-[**click~**](click~.html): Output single impulse on bang 
+[**click~**](click~.html): Output single impulse on bang
 
-[**fluid~**](fluid~.html): FluidSynth SoundFont 2 player 
+[**fluid~**](fluid~.html): FluidSynth SoundFont 2 player
 
-[**modplug~**](modplug~.html): MOD file player (using libmodplug) 
+[**modplug~**](modplug~.html): MOD file player (using libmodplug)
 
-[**qrcode**](qrcode.html): QR code generator 
+[**qrcode**](qrcode.html): QR code generator
 
-[**risset.gliss**](risset.gliss.html): Sheppard/Risset glissando calculator 
+[**risset.gliss**](risset.gliss.html): Sheppard/Risset glissando calculator
 
-[**sfizz~**](sfizz~.html): SFZ format sample player 
+[**sfizz~**](sfizz~.html): SFZ format sample player
 
-[**speech.flite**](speech.flite.html): render speech to array 
+[**speech.flite**](speech.flite.html): render speech to array
 
-[**speech.flite~**](speech.flite~.html): render speech to array 
+[**speech.flite~**](speech.flite~.html): render speech to array
 
-[**speech.rhvoice~**](speech.rhvoice~.html): RHVoice text to speech synthesis 
+[**speech.rhvoice~**](speech.rhvoice~.html): RHVoice text to speech synthesis
 
 
 ### <a id="cat_msg" href="category_msg.html">msg</a>
@@ -1351,21 +1351,21 @@ layout: default_ru
 ---
 
 
-[**loadexpr**](loadexpr.html): send message when patch loads 
+[**loadexpr**](loadexpr.html): send message when patch loads
 
-[**msg**](msg.html): message constructor 
+[**msg**](msg.html): message constructor
 
-[**msg.after**](msg.after.html): send specified message after incoming message 
+[**msg.after**](msg.after.html): send specified message after incoming message
 
-[**msg.onclose**](msg.onclose.html): send message when patch closes 
+[**msg.onclose**](msg.onclose.html): send message when patch closes
 
-[**msg.onload**](msg.onload.html): send message when patch loads 
+[**msg.onload**](msg.onload.html): send message when patch loads
 
-[**msg.pack**](msg.pack.html): message pack 
+[**msg.pack**](msg.pack.html): message pack
 
-[**msg.sched**](msg.sched.html): message scheduler 
+[**msg.sched**](msg.sched.html): message scheduler
 
-[**msg.unpack**](msg.unpack.html): распаковка сообщения на селектор и аргументы 
+[**msg.unpack**](msg.unpack.html): распаковка сообщения на селектор и аргументы
 
 
 ### <a id="cat_music" href="category_music.html">music</a>
@@ -1374,11 +1374,11 @@ layout: default_ru
 ---
 
 
-[**rhythm.euclid**](rhythm.euclid.html): euclid pattern generator 
+[**rhythm.euclid**](rhythm.euclid.html): euclid pattern generator
 
-[**rhythm.hexbeat**](rhythm.hexbeat.html): hexbeat pattern generator 
+[**rhythm.hexbeat**](rhythm.hexbeat.html): hexbeat pattern generator
 
-[**rhythm.lsystem**](rhythm.lsystem.html): L-system pattern generator 
+[**rhythm.lsystem**](rhythm.lsystem.html): L-system pattern generator
 
 
 ### <a id="cat_net" href="category_net.html">net</a>
@@ -1387,29 +1387,29 @@ layout: default_ru
 ---
 
 
-[**net.artnet.send**](net.artnet.send.html): ArtNet DMX message sender 
+[**net.artnet.send**](net.artnet.send.html): ArtNet DMX message sender
 
-[**net.freesound**](net.freesound.html): клиент для Freesound API v2 
+[**net.freesound**](net.freesound.html): клиент для Freesound API v2
 
-[**net.host2ip**](net.host2ip.html): returns IP address by DNS name 
+[**net.host2ip**](net.host2ip.html): returns IP address by DNS name
 
-[**net.http.client**](net.http.client.html): HTTP клиент 
+[**net.http.client**](net.http.client.html): HTTP клиент
 
-[**net.http.send**](net.http.send.html): HTTP request sender 
+[**net.http.send**](net.http.send.html): HTTP request sender
 
-[**net.mdns**](net.mdns.html): обнаружение служб MDNS 
+[**net.mdns**](net.mdns.html): обнаружение служб MDNS
 
-[**net.mqtt.client**](net.mqtt.client.html): MQTT клиент 
+[**net.mqtt.client**](net.mqtt.client.html): MQTT клиент
 
-[**net.osc.receive**](net.osc.receive.html): OSC message listener 
+[**net.osc.receive**](net.osc.receive.html): OSC message listener
 
-[**net.osc.send**](net.osc.send.html): OSC message sender 
+[**net.osc.send**](net.osc.send.html): OSC message sender
 
-[**net.osc.server**](net.osc.server.html): OSC server control 
+[**net.osc.server**](net.osc.server.html): OSC server control
 
-[**net.ws.client**](net.ws.client.html): WebSocket клиент 
+[**net.ws.client**](net.ws.client.html): WebSocket клиент
 
-[**net.ws.server**](net.ws.server.html): WebSocket сервер 
+[**net.ws.server**](net.ws.server.html): WebSocket сервер
 
 
 ### <a id="cat_noise" href="category_noise.html">noise</a>
@@ -1418,53 +1418,53 @@ layout: default_ru
 ---
 
 
-[**noise.baker**](noise.baker.html): Part of a-chaos library 
+[**noise.baker**](noise.baker.html): Part of a-chaos library
 
-[**noise.chua~**](noise.chua~.html): Chua&#39;s diode circuit 
+[**noise.chua~**](noise.chua~.html): Chua&#39;s diode circuit
 
-[**noise.clifford**](noise.clifford.html): clifford attractor 
+[**noise.clifford**](noise.clifford.html): clifford attractor
 
-[**noise.collatz**](noise.collatz.html): collatz conjecture output 
+[**noise.collatz**](noise.collatz.html): collatz conjecture output
 
-[**noise.colored~**](noise.colored~.html): colored noise generator with an arbitrary spectral roll 
+[**noise.colored~**](noise.colored~.html): colored noise generator with an arbitrary spectral roll
 
-[**noise.crackle~**](noise.crackle~.html): sparse noise generator 
+[**noise.crackle~**](noise.crackle~.html): sparse noise generator
 
-[**noise.duffing**](noise.duffing.html): duffing attractor 
+[**noise.duffing**](noise.duffing.html): duffing attractor
 
-[**noise.ginger**](noise.ginger.html): Gingerbreadman map chaotic generator 
+[**noise.ginger**](noise.ginger.html): Gingerbreadman map chaotic generator
 
-[**noise.henon**](noise.henon.html): henon attractor 
+[**noise.henon**](noise.henon.html): henon attractor
 
-[**noise.henon_heilles**](noise.henon_heilles.html): Hénon–Heiles_system 
+[**noise.henon_heilles**](noise.henon_heilles.html): Hénon–Heiles_system
 
-[**noise.henon_phase**](noise.henon_phase.html): henon phase Ddagrams 
+[**noise.henon_phase**](noise.henon_phase.html): henon phase Ddagrams
 
-[**noise.henonf**](noise.henonf.html): Henon phase 
+[**noise.henonf**](noise.henonf.html): Henon phase
 
-[**noise.ikeda**](noise.ikeda.html): Ikeda attractor 
+[**noise.ikeda**](noise.ikeda.html): Ikeda attractor
 
-[**noise.lfreq0~**](noise.lfreq0~.html): sampled/held noise (piecewise constant) 
+[**noise.lfreq0~**](noise.lfreq0~.html): sampled/held noise (piecewise constant)
 
-[**noise.lfreq~**](noise.lfreq~.html): noise.lfreq0~ smoothed with no overshoot 
+[**noise.lfreq~**](noise.lfreq~.html): noise.lfreq0~ smoothed with no overshoot
 
-[**noise.lorenz**](noise.lorenz.html): Lorenz chaos 
+[**noise.lorenz**](noise.lorenz.html): Lorenz chaos
 
-[**noise.lyapunov**](noise.lyapunov.html): lyapunov random attractor 
+[**noise.lyapunov**](noise.lyapunov.html): lyapunov random attractor
 
-[**noise.navier_stokes**](noise.navier_stokes.html): navier-stokes diff equations 
+[**noise.navier_stokes**](noise.navier_stokes.html): navier-stokes diff equations
 
-[**noise.pink~**](noise.pink~.html): Pink noise generator 
+[**noise.pink~**](noise.pink~.html): Pink noise generator
 
-[**noise.rossler**](noise.rossler.html): Rössler attractor 
+[**noise.rossler**](noise.rossler.html): Rössler attractor
 
-[**noise.stein**](noise.stein.html): Stein distribution 
+[**noise.stein**](noise.stein.html): Stein distribution
 
-[**noise.torus**](noise.torus.html): torus attractor 
+[**noise.torus**](noise.torus.html): torus attractor
 
-[**noise.verhulst**](noise.verhulst.html): verhulst distribution 
+[**noise.verhulst**](noise.verhulst.html): verhulst distribution
 
-[**noise.white~**](noise.white~.html): White noise generator 
+[**noise.white~**](noise.white~.html): White noise generator
 
 
 ### <a id="cat_osc" href="category_osc.html">osc</a>
@@ -1473,23 +1473,23 @@ layout: default_ru
 ---
 
 
-[**osc.blit~**](osc.blit~.html): Bandlimited impulse train oscillator 
+[**osc.blit~**](osc.blit~.html): Bandlimited impulse train oscillator
 
-[**osc.impulse~**](osc.impulse~.html): Bandlimited impulse train generator 
+[**osc.impulse~**](osc.impulse~.html): Bandlimited impulse train generator
 
-[**osc.pulse~**](osc.pulse~.html): Bandlimited pulse train oscillator 
+[**osc.pulse~**](osc.pulse~.html): Bandlimited pulse train oscillator
 
-[**osc.saw4~**](osc.saw4~.html): Bandlimited sawtooth wave 
+[**osc.saw4~**](osc.saw4~.html): Bandlimited sawtooth wave
 
-[**osc.saw~**](osc.saw~.html): Alias-free sawtooth wave 
+[**osc.saw~**](osc.saw~.html): Alias-free sawtooth wave
 
-[**osc.sinfb~**](osc.sinfb~.html): Sine oscilator with feedback 
+[**osc.sinfb~**](osc.sinfb~.html): Sine oscilator with feedback
 
-[**osc.sin~**](osc.sin~.html): Sine wave oscillator 
+[**osc.sin~**](osc.sin~.html): Sine wave oscillator
 
-[**osc.square~**](osc.square~.html): Bandlimited square wave oscillator 
+[**osc.square~**](osc.square~.html): Bandlimited square wave oscillator
 
-[**osc.tri~**](osc.tri~.html): Bandlimited triangle wave oscillator 
+[**osc.tri~**](osc.tri~.html): Bandlimited triangle wave oscillator
 
 
 ### <a id="cat_patch" href="category_patch.html">patch</a>
@@ -1498,23 +1498,23 @@ layout: default_ru
 ---
 
 
-[**canvas.active**](canvas.active.html): checks if canvas window is on top and active 
+[**canvas.active**](canvas.active.html): checks if canvas window is on top and active
 
-[**canvas.current**](canvas.current.html): verbose information about current canvas 
+[**canvas.current**](canvas.current.html): verbose information about current canvas
 
-[**canvas.dir**](canvas.dir.html): current canvas directory and nesting level 
+[**canvas.dir**](canvas.dir.html): current canvas directory and nesting level
 
-[**canvas.name**](canvas.name.html): current canvas name 
+[**canvas.name**](canvas.name.html): current canvas name
 
-[**canvas.path**](canvas.path.html): current canvas fullpath 
+[**canvas.path**](canvas.path.html): current canvas fullpath
 
-[**canvas.top**](canvas.top.html): verbose information about top-level canvas 
+[**canvas.top**](canvas.top.html): verbose information about top-level canvas
 
-[**patch.args**](patch.args.html): Get patch or subpatch arguments 
+[**patch.args**](patch.args.html): Get patch or subpatch arguments
 
-[**patch.deps**](patch.deps.html): patch dependencies: used objects and abstractions 
+[**patch.deps**](patch.deps.html): patch dependencies: used objects and abstractions
 
-[**patch.tree**](patch.tree.html): patch tree 
+[**patch.tree**](patch.tree.html): patch tree
 
 
 ### <a id="cat_path" href="category_path.html">path</a>
@@ -1523,29 +1523,29 @@ layout: default_ru
 ---
 
 
-[**file.size**](file.size.html): output file size 
+[**file.size**](file.size.html): output file size
 
-[**path.basename**](path.basename.html): outputs filename portion of pathname 
+[**path.basename**](path.basename.html): outputs filename portion of pathname
 
-[**path.dirname**](path.dirname.html): outputs directory portion of pathname 
+[**path.dirname**](path.dirname.html): outputs directory portion of pathname
 
-[**path.exists**](path.exists.html): checks if given path exists 
+[**path.exists**](path.exists.html): checks if given path exists
 
-[**path.file**](path.file.html): file input/output 
+[**path.file**](path.file.html): file input/output
 
-[**path.is_dir**](path.is_dir.html): check if path is directory 
+[**path.is_dir**](path.is_dir.html): check if path is directory
 
-[**path.lsdir**](path.lsdir.html): list directory contents 
+[**path.lsdir**](path.lsdir.html): list directory contents
 
-[**path.monitor**](path.monitor.html): filesystem event monitor 
+[**path.monitor**](path.monitor.html): filesystem event monitor
 
-[**path.normalize**](path.normalize.html): normalize file paths 
+[**path.normalize**](path.normalize.html): normalize file paths
 
-[**path.pattern**](path.pattern.html): pattern filename generator 
+[**path.pattern**](path.pattern.html): pattern filename generator
 
-[**path.search**](path.search.html): file search 
+[**path.search**](path.search.html): file search
 
-[**path.split**](path.split.html): file path split 
+[**path.split**](path.split.html): file path split
 
 
 ### <a id="cat_predicates" href="category_predicates.html">predicates</a>
@@ -1554,29 +1554,29 @@ layout: default_ru
 ---
 
 
-[**is_any**](is_any.html): Проверьте, есть ли входные данные *любые* 
+[**is_any**](is_any.html): Проверьте, есть ли входные данные *любые*
 
-[**is_bang**](is_bang.html): проверяет, является ли входное сообщение *bang* 
+[**is_bang**](is_bang.html): проверяет, является ли входное сообщение *bang*
 
-[**is_data**](is_data.html): проверяет, является ли входное сообщение типом данных 
+[**is_data**](is_data.html): проверяет, является ли входное сообщение типом данных
 
-[**is_dict**](is_dict.html): проверяет, является ли входное сообщение словарём 
+[**is_dict**](is_dict.html): проверяет, является ли входное сообщение словарём
 
-[**is_even**](is_even.html): проверка входного числа на чётность 
+[**is_even**](is_even.html): проверка входного числа на чётность
 
-[**is_file**](is_file.html): проверка существования и доступности файла 
+[**is_file**](is_file.html): проверка существования и доступности файла
 
-[**is_float**](is_float.html): проверка, является ли входное сообщение числом с плавающей точкой 
+[**is_float**](is_float.html): проверка, является ли входное сообщение числом с плавающей точкой
 
-[**is_list**](is_list.html): проверка, является ли входное сообщение списком 
+[**is_list**](is_list.html): проверка, является ли входное сообщение списком
 
-[**is_odd**](is_odd.html): проверка входного числа на нечётност 
+[**is_odd**](is_odd.html): проверка входного числа на нечётност
 
-[**is_pointer**](is_pointer.html): проверка, является ли входное сообщение указателем 
+[**is_pointer**](is_pointer.html): проверка, является ли входное сообщение указателем
 
-[**is_prop**](is_prop.html): проверка, является ли входное сообщение *свойством* 
+[**is_prop**](is_prop.html): проверка, является ли входное сообщение *свойством*
 
-[**is_symbol**](is_symbol.html): проверка, является ли входное сообщение *символом* 
+[**is_symbol**](is_symbol.html): проверка, является ли входное сообщение *символом*
 
 
 ### <a id="cat_preset" href="category_preset.html">preset</a>
@@ -1585,13 +1585,13 @@ layout: default_ru
 ---
 
 
-[**preset.float**](preset.float.html): load/store float preset 
+[**preset.float**](preset.float.html): load/store float preset
 
-[**preset.list**](preset.list.html): load/store symbol preset 
+[**preset.list**](preset.list.html): load/store symbol preset
 
-[**preset.storage**](preset.storage.html): preset storage control 
+[**preset.storage**](preset.storage.html): preset storage control
 
-[**preset.symbol**](preset.symbol.html): load/store symbol preset 
+[**preset.symbol**](preset.symbol.html): load/store symbol preset
 
 
 ### <a id="cat_property" href="category_property.html">property</a>
@@ -1600,23 +1600,23 @@ layout: default_ru
 ---
 
 
-[**patch.props**](patch.props.html): patch properties manager 
+[**patch.props**](patch.props.html): patch properties manager
 
-[**prop**](prop.html): get/set named property value for subpatch or abstraction 
+[**prop**](prop.html): get/set named property value for subpatch or abstraction
 
-[**prop.declare**](prop.declare.html): declare named property for subpatch or abstraction 
+[**prop.declare**](prop.declare.html): declare named property for subpatch or abstraction
 
-[**prop.get**](prop.get.html): get property from connected object/subpatch/abstraction 
+[**prop.get**](prop.get.html): get property from connected object/subpatch/abstraction
 
-[**prop.join**](prop.join.html): join property to main data flow 
+[**prop.join**](prop.join.html): join property to main data flow
 
-[**prop.random**](prop.random.html): property randomizer 
+[**prop.random**](prop.random.html): property randomizer
 
-[**prop.route**](prop.route.html): separate properties from dataflow 
+[**prop.route**](prop.route.html): separate properties from dataflow
 
-[**prop.route~**](prop.route~.html): Property extractor from audio streams 
+[**prop.route~**](prop.route~.html): Property extractor from audio streams
 
-[**prop.set**](prop.set.html): set property for connected object/subpatch/abstraction 
+[**prop.set**](prop.set.html): set property for connected object/subpatch/abstraction
 
 
 ### <a id="cat_proto" href="category_proto.html">proto</a>
@@ -1625,41 +1625,41 @@ layout: default_ru
 ---
 
 
-[**proto.arturia.minilab**](proto.arturia.minilab.html): simple SysEx control for Arturia MiniLab 
+[**proto.arturia.minilab**](proto.arturia.minilab.html): simple SysEx control for Arturia MiniLab
 
-[**proto.feelworld**](proto.feelworld.html): protocol for FeelWorld LivePro L1 HDMI mixer 
+[**proto.feelworld**](proto.feelworld.html): protocol for FeelWorld LivePro L1 HDMI mixer
 
-[**proto.firmata**](proto.firmata.html): Firmata Arduino protocol support 
+[**proto.firmata**](proto.firmata.html): Firmata Arduino protocol support
 
-[**proto.inscore**](proto.inscore.html): INScore message creator 
+[**proto.inscore**](proto.inscore.html): INScore message creator
 
-[**proto.ltc.in~**](proto.ltc.in~.html): LTC decoder 
+[**proto.ltc.in~**](proto.ltc.in~.html): LTC decoder
 
-[**proto.ltc.out~**](proto.ltc.out~.html): LTC encoder 
+[**proto.ltc.out~**](proto.ltc.out~.html): LTC encoder
 
-[**proto.midi**](proto.midi.html): raw midi encoder/parser 
+[**proto.midi**](proto.midi.html): raw midi encoder/parser
 
-[**proto.midi.casio**](proto.midi.casio.html): Casio Privia MIDI control 
+[**proto.midi.casio**](proto.midi.casio.html): Casio Privia MIDI control
 
-[**proto.midi.cc**](proto.midi.cc.html): raw midi CC encoder/parser 
+[**proto.midi.cc**](proto.midi.cc.html): raw midi CC encoder/parser
 
-[**proto.midi.sysex**](proto.midi.sysex.html): raw midi SYSex encoder/parser 
+[**proto.midi.sysex**](proto.midi.sysex.html): raw midi SYSex encoder/parser
 
-[**proto.moppy**](proto.moppy.html): protocol for Musical flOPPY controller 
+[**proto.moppy**](proto.moppy.html): protocol for Musical flOPPY controller
 
-[**proto.morse**](proto.morse.html): Morse encoder 
+[**proto.morse**](proto.morse.html): Morse encoder
 
-[**proto.mpv**](proto.mpv.html): mpv video player control 
+[**proto.mpv**](proto.mpv.html): mpv video player control
 
-[**proto.obs**](proto.obs.html): WebSocket клиент для управления OBS studio 
+[**proto.obs**](proto.obs.html): WebSocket клиент для управления OBS studio
 
-[**proto.sp.alpaca**](proto.sp.alpaca.html): protocol parser for Arduino-based CEAMMC footswitch 
+[**proto.sp.alpaca**](proto.sp.alpaca.html): protocol parser for Arduino-based CEAMMC footswitch
 
-[**proto.vlc**](proto.vlc.html): VLC video player control over HTTP 
+[**proto.vlc**](proto.vlc.html): VLC video player control over HTTP
 
-[**proto.whammy**](proto.whammy.html): Control for Digitech Whammy pedal 
+[**proto.whammy**](proto.whammy.html): Control for Digitech Whammy pedal
 
-[**proto.xtouch_ext**](proto.xtouch_ext.html): Behringer XTouch Extender XMidi protocol 
+[**proto.xtouch_ext**](proto.xtouch_ext.html): Behringer XTouch Extender XMidi protocol
 
 
 ### <a id="cat_random" href="category_random.html">random</a>
@@ -1668,21 +1668,21 @@ layout: default_ru
 ---
 
 
-[**random.atom**](random.atom.html): случайный взвешенный выбор атомов из указанного списка 
+[**random.atom**](random.atom.html): случайный взвешенный выбор атомов из указанного списка
 
-[**random.discrete**](random.discrete.html): генерирует случайные взвешенные целые числа на интервале [0, n) 
+[**random.discrete**](random.discrete.html): генерирует случайные взвешенные целые числа на интервале \[0, n)
 
-[**random.float**](random.float.html): равномерный генератор случайных чисел с плавающей точкой в заданном диапазоне 
+[**random.float**](random.float.html): равномерный генератор случайных чисел с плавающей точкой в заданном диапазоне
 
-[**random.gauss**](random.gauss.html): гауссово случайное распределение 
+[**random.gauss**](random.gauss.html): гауссово случайное распределение
 
-[**random.int**](random.int.html): равномерный генератор случайных целых чисел в заданном диапазоне 
+[**random.int**](random.int.html): равномерный генератор случайных целых чисел в заданном диапазоне
 
-[**random.linear**](random.linear.html): случайное линейное распределение 
+[**random.linear**](random.linear.html): случайное линейное распределение
 
-[**random.pw_const**](random.pw_const.html): кусочно-постоянное случайное распределение 
+[**random.pw_const**](random.pw_const.html): кусочно-постоянное случайное распределение
 
-[**random.pw_lin**](random.pw_lin.html): кусочно-линейное случайное распределение 
+[**random.pw_lin**](random.pw_lin.html): кусочно-линейное случайное распределение
 
 
 ### <a id="cat_samp" href="category_samp.html">samp</a>
@@ -1691,7 +1691,7 @@ layout: default_ru
 ---
 
 
-[**samp.time~**](samp.time~.html): sample counter 
+[**samp.time~**](samp.time~.html): sample counter
 
 
 ### <a id="cat_seq" href="category_seq.html">seq</a>
@@ -1700,23 +1700,23 @@ layout: default_ru
 ---
 
 
-[**seq.arp**](seq.arp.html): sequence arpeggiator 
+[**seq.arp**](seq.arp.html): sequence arpeggiator
 
-[**seq.bangs**](seq.bangs.html): bang sequencer 
+[**seq.bangs**](seq.bangs.html): bang sequencer
 
-[**seq.counter**](seq.counter.html): sequencer counter 
+[**seq.counter**](seq.counter.html): sequencer counter
 
-[**seq.life**](seq.life.html): Conway game of life sequencer 
+[**seq.life**](seq.life.html): Conway game of life sequencer
 
-[**seq.matrix**](seq.matrix.html): sequencer control for ui.matrix 
+[**seq.matrix**](seq.matrix.html): sequencer control for ui.matrix
 
-[**seq.nbangs**](seq.nbangs.html): output specified number of bang with time intervals 
+[**seq.nbangs**](seq.nbangs.html): output specified number of bang with time intervals
 
-[**seq.phasor**](seq.phasor.html): control rate phasor (saw) generator 
+[**seq.phasor**](seq.phasor.html): control rate phasor (saw) generator
 
-[**seq.toggles**](seq.toggles.html): toggle sequencer 
+[**seq.toggles**](seq.toggles.html): toggle sequencer
 
-[**sequencer**](sequencer.html): basic sequence player 
+[**sequencer**](sequencer.html): basic sequence player
 
 
 ### <a id="cat_snd" href="category_snd.html">snd</a>
@@ -1725,9 +1725,9 @@ layout: default_ru
 ---
 
 
-[**snd.file**](snd.file.html): Sound file loader on steroids 
+[**snd.file**](snd.file.html): Sound file loader on steroids
 
-[**snd.play~**](snd.play~.html): Sound file player on steroids 
+[**snd.play~**](snd.play~.html): Sound file player on steroids
 
 
 ### <a id="cat_spat" href="category_spat.html">spat</a>
@@ -1736,75 +1736,75 @@ layout: default_ru
 ---
 
 
-[**hoa.2d.decoder~**](hoa.2d.decoder~.html): hoa 2d decoder 
+[**hoa.2d.decoder~**](hoa.2d.decoder~.html): hoa 2d decoder
 
-[**hoa.2d.encoder~**](hoa.2d.encoder~.html): hoa 2d encoder 
+[**hoa.2d.encoder~**](hoa.2d.encoder~.html): hoa 2d encoder
 
-[**hoa.2d.exchanger~**](hoa.2d.exchanger~.html): renumbers and normalizes the channels 
+[**hoa.2d.exchanger~**](hoa.2d.exchanger~.html): renumbers and normalizes the channels
 
-[**hoa.2d.map~**](hoa.2d.map~.html): a 2d ambisonic multisource spatializer 
+[**hoa.2d.map~**](hoa.2d.map~.html): a 2d ambisonic multisource spatializer
 
-[**hoa.2d.optim~**](hoa.2d.optim~.html): a 2D ambisonic optimization tool 
+[**hoa.2d.optim~**](hoa.2d.optim~.html): a 2D ambisonic optimization tool
 
-[**hoa.2d.projector~**](hoa.2d.projector~.html): a plane waves decomposer from circular harmonics domain 
+[**hoa.2d.projector~**](hoa.2d.projector~.html): a plane waves decomposer from circular harmonics domain
 
-[**hoa.2d.recomposer~**](hoa.2d.recomposer~.html): recomposes a 2d plane wave decomposition into circular harmonics 
+[**hoa.2d.recomposer~**](hoa.2d.recomposer~.html): recomposes a 2d plane wave decomposition into circular harmonics
 
-[**hoa.2d.rotate~**](hoa.2d.rotate~.html): a 2D ambisonic sound field rotation 
+[**hoa.2d.rotate~**](hoa.2d.rotate~.html): a 2D ambisonic sound field rotation
 
-[**hoa.2d.space**](hoa.2d.space.html): planewaves amp control 
+[**hoa.2d.space**](hoa.2d.space.html): planewaves amp control
 
-[**hoa.2d.wider~**](hoa.2d.wider~.html): a 2d fractional ambisonic order simulator 
+[**hoa.2d.wider~**](hoa.2d.wider~.html): a 2d fractional ambisonic order simulator
 
-[**hoa.3d.decoder~**](hoa.3d.decoder~.html): hoa 3d decoder 
+[**hoa.3d.decoder~**](hoa.3d.decoder~.html): hoa 3d decoder
 
-[**hoa.3d.encoder~**](hoa.3d.encoder~.html): hoa 3d encoder 
+[**hoa.3d.encoder~**](hoa.3d.encoder~.html): hoa 3d encoder
 
-[**hoa.3d.exchanger~**](hoa.3d.exchanger~.html): renumbers and normalizes the channels 
+[**hoa.3d.exchanger~**](hoa.3d.exchanger~.html): renumbers and normalizes the channels
 
-[**hoa.3d.map~**](hoa.3d.map~.html): a 3d ambisonic multisource spatializer 
+[**hoa.3d.map~**](hoa.3d.map~.html): a 3d ambisonic multisource spatializer
 
-[**hoa.3d.meter~**](hoa.3d.meter~.html): multi spherical meter with sound field descriptor 
+[**hoa.3d.meter~**](hoa.3d.meter~.html): multi spherical meter with sound field descriptor
 
-[**hoa.3d.optim~**](hoa.3d.optim~.html): a 3D ambisonic optimization tool 
+[**hoa.3d.optim~**](hoa.3d.optim~.html): a 3D ambisonic optimization tool
 
-[**hoa.3d.scope~**](hoa.3d.scope~.html): a 3d ambisonic harmonic scope 
+[**hoa.3d.scope~**](hoa.3d.scope~.html): a 3d ambisonic harmonic scope
 
-[**hoa.3d.wider~**](hoa.3d.wider~.html): a 3d fractional ambisonic order simulator 
+[**hoa.3d.wider~**](hoa.3d.wider~.html): a 3d fractional ambisonic order simulator
 
-[**hoa.@process**](hoa.%40process.html): process properties manager for hoa.process~ 
+[**hoa.@process**](hoa.%40process.html): process properties manager for hoa.process~
 
-[**hoa.in**](hoa.in.html): message inlet for a patcher loaded by hoa.process~ 
+[**hoa.in**](hoa.in.html): message inlet for a patcher loaded by hoa.process~
 
-[**hoa.in~**](hoa.in~.html): signal inlet for a patcher loaded by hoa.process~ 
+[**hoa.in~**](hoa.in~.html): signal inlet for a patcher loaded by hoa.process~
 
-[**hoa.map.ui**](hoa.map.ui.html): a GUI to spatialize sources on a map 
+[**hoa.map.ui**](hoa.map.ui.html): a GUI to spatialize sources on a map
 
-[**hoa.out**](hoa.out.html): message outlet for a patcher loaded by hoa.process~ 
+[**hoa.out**](hoa.out.html): message outlet for a patcher loaded by hoa.process~
 
-[**hoa.out~**](hoa.out~.html): signal inlet for a patcher loaded by hoa.process~ 
+[**hoa.out~**](hoa.out~.html): signal inlet for a patcher loaded by hoa.process~
 
-[**hoa.process~**](hoa.process~.html): patcher loader for multichannel processing 
+[**hoa.process~**](hoa.process~.html): patcher loader for multichannel processing
 
-[**hoa.scope~**](hoa.scope~.html): a 2d ambisonic harmonic scope 
+[**hoa.scope~**](hoa.scope~.html): a 2d ambisonic harmonic scope
 
-[**pan.cos~**](pan.cos~.html): two channel equal power sine/cosine panner 
+[**pan.cos~**](pan.cos~.html): two channel equal power sine/cosine panner
 
-[**pan.linsig~**](pan.linsig~.html): two channel linear panner with signal control 
+[**pan.linsig~**](pan.linsig~.html): two channel linear panner with signal control
 
-[**pan.lin~**](pan.lin~.html): two channel linear panner 
+[**pan.lin~**](pan.lin~.html): two channel linear panner
 
-[**pan.spread~**](pan.spread~.html): spreads input channels across the stereo field 
+[**pan.spread~**](pan.spread~.html): spreads input channels across the stereo field
 
-[**pan.sqrt~**](pan.sqrt~.html): two channel equal power square root panner 
+[**pan.sqrt~**](pan.sqrt~.html): two channel equal power square root panner
 
-[**spat.pan4~**](spat.pan4~.html): GMEM SPAT: 4-outputs spatializer 
+[**spat.pan4~**](spat.pan4~.html): GMEM SPAT: 4-outputs spatializer
 
-[**spat.pan8~**](spat.pan8~.html): GMEM SPAT: 8-outputs spatializer 
+[**spat.pan8~**](spat.pan8~.html): GMEM SPAT: 8-outputs spatializer
 
-[**spat.zita6x8~**](spat.zita6x8~.html): spat with 6 inputs sources to 8 channel output 
+[**spat.zita6x8~**](spat.zita6x8~.html): spat with 6 inputs sources to 8 channel output
 
-[**spat.zita8~**](spat.zita8~.html): 8 channel reverb spatializer 
+[**spat.zita8~**](spat.zita8~.html): 8 channel reverb spatializer
 
 
 ### <a id="cat_string" href="category_string.html">string</a>
@@ -1813,33 +1813,33 @@ layout: default_ru
 ---
 
 
-[**string**](string.html): string constructor 
+[**string**](string.html): string constructor
 
-[**string.contains**](string.contains.html): checks if string contains specified substring 
+[**string.contains**](string.contains.html): checks if string contains specified substring
 
-[**string.ends_with**](string.ends_with.html): checks if string ends with specified substring 
+[**string.ends_with**](string.ends_with.html): checks if string ends with specified substring
 
-[**string.equal**](string.equal.html): check strings or symbols for equality 
+[**string.equal**](string.equal.html): check strings or symbols for equality
 
-[**string.format**](string.format.html): formats string like printf. 
+[**string.format**](string.format.html): formats string like printf.
 
-[**string.join**](string.join.html): joins (concatenates) list to string with separator 
+[**string.join**](string.join.html): joins (concatenates) list to string with separator
 
-[**string.length**](string.length.html): number of characters in string (unicode supported) 
+[**string.length**](string.length.html): number of characters in string (unicode supported)
 
-[**string.match**](string.match.html): check if string match regular expression 
+[**string.match**](string.match.html): check if string match regular expression
 
-[**string.remove**](string.remove.html): remove substring from input string 
+[**string.remove**](string.remove.html): remove substring from input string
 
-[**string.replace**](string.replace.html): replace from one substring to another in input string 
+[**string.replace**](string.replace.html): replace from one substring to another in input string
 
-[**string.split**](string.split.html): split string or symbol by separator 
+[**string.split**](string.split.html): split string or symbol by separator
 
-[**string.starts_with**](string.starts_with.html): checks if string starts with specified substring 
+[**string.starts_with**](string.starts_with.html): checks if string starts with specified substring
 
-[**string.substr**](string.substr.html): extract substring from input string 
+[**string.substr**](string.substr.html): extract substring from input string
 
-[**string2symbol**](string2symbol.html): converts string to symbol 
+[**string2symbol**](string2symbol.html): converts string to symbol
 
 
 ### <a id="cat_symbol" href="category_symbol.html">symbol</a>
@@ -1848,15 +1848,15 @@ layout: default_ru
 ---
 
 
-[**symbol.equal**](symbol.equal.html): check symbols for equality 
+[**symbol.equal**](symbol.equal.html): check symbols for equality
 
-[**symbol.length**](symbol.length.html): number of characters in symbol (unicode supported) 
+[**symbol.length**](symbol.length.html): number of characters in symbol (unicode supported)
 
-[**symbol.num_compare**](symbol.num_compare.html): numeric symbol compare 
+[**symbol.num_compare**](symbol.num_compare.html): numeric symbol compare
 
-[**symbol2any**](symbol2any.html): converts symbol or string to message 
+[**symbol2any**](symbol2any.html): converts symbol or string to message
 
-[**symbol2intlist**](symbol2intlist.html): converts symbol to list of character codes 
+[**symbol2intlist**](symbol2intlist.html): converts symbol to list of character codes
 
 
 ### <a id="cat_synth" href="category_synth.html">synth</a>
@@ -1865,73 +1865,73 @@ layout: default_ru
 ---
 
 
-[**synth.bee3~**](synth.bee3~.html): Hammond-oid organ FM synthesis instrument 
+[**synth.bee3~**](synth.bee3~.html): Hammond-oid organ FM synthesis instrument
 
-[**synth.birds~**](synth.birds~.html): bird singing generator 
+[**synth.birds~**](synth.birds~.html): bird singing generator
 
-[**synth.church_bell~**](synth.church_bell~.html): generic church bell modal model 
+[**synth.church_bell~**](synth.church_bell~.html): generic church bell modal model
 
-[**synth.clap~**](synth.clap~.html): clap synth from faust libraries 
+[**synth.clap~**](synth.clap~.html): clap synth from faust libraries
 
-[**synth.dubdub~**](synth.dubdub~.html): simple synth based on a sawtooth wave filtered by a resonant lowpass 
+[**synth.dubdub~**](synth.dubdub~.html): simple synth based on a sawtooth wave filtered by a resonant lowpass
 
-[**synth.dx7~**](synth.dx7~.html): FAUST dx7 implementation 
+[**synth.dx7~**](synth.dx7~.html): FAUST dx7 implementation
 
-[**synth.eguitar~**](synth.eguitar~.html): simple electric guitar model with steel strings 
+[**synth.eguitar~**](synth.eguitar~.html): simple electric guitar model with steel strings
 
-[**synth.english_bell~**](synth.english_bell~.html): english church bell modal model 
+[**synth.english_bell~**](synth.english_bell~.html): english church bell modal model
 
-[**synth.fgrain~**](synth.fgrain~.html): file granulator from STK 
+[**synth.fgrain~**](synth.fgrain~.html): file granulator from STK
 
-[**synth.french_bell~**](synth.french_bell~.html): french church bell modal model 
+[**synth.french_bell~**](synth.french_bell~.html): french church bell modal model
 
-[**synth.german_bell~**](synth.german_bell~.html): german church bell modal model 
+[**synth.german_bell~**](synth.german_bell~.html): german church bell modal model
 
-[**synth.glass_harm~**](synth.glass_harm~.html): nonlinear banded waveguide modeled Glass Harmonica 
+[**synth.glass_harm~**](synth.glass_harm~.html): nonlinear banded waveguide modeled Glass Harmonica
 
-[**synth.glitch~**](synth.glitch~.html): Glitch synthesizer by naivesound 
+[**synth.glitch~**](synth.glitch~.html): Glitch synthesizer by naivesound
 
-[**synth.harpsichord~**](synth.harpsichord~.html): waveguide commuted harpsichord 
+[**synth.harpsichord~**](synth.harpsichord~.html): waveguide commuted harpsichord
 
-[**synth.hat~**](synth.hat~.html): hi-hat synth from faust librariest 
+[**synth.hat~**](synth.hat~.html): hi-hat synth from faust librariest
 
-[**synth.kick2~**](synth.kick2~.html): low-kick synth from faust librariest 
+[**synth.kick2~**](synth.kick2~.html): low-kick synth from faust librariest
 
-[**synth.kick~**](synth.kick~.html): low-kick synth from Guitarix project 
+[**synth.kick~**](synth.kick~.html): low-kick synth from Guitarix project
 
-[**synth.ks~**](synth.ks~.html): Karplus-Strong string 
+[**synth.ks~**](synth.ks~.html): Karplus-Strong string
 
-[**synth.marimba~**](synth.marimba~.html): simple marimba physical model implementing a single tone bar connected to tube 
+[**synth.marimba~**](synth.marimba~.html): simple marimba physical model implementing a single tone bar connected to tube
 
-[**synth.metro~**](synth.metro~.html): ready to use metronome synth 
+[**synth.metro~**](synth.metro~.html): ready to use metronome synth
 
-[**synth.piano~**](synth.piano~.html): waveguide commuted piano 
+[**synth.piano~**](synth.piano~.html): waveguide commuted piano
 
-[**synth.rhodey~**](synth.rhodey~.html): STK Fender Rhodes electric piano FM synthesis instrument 
+[**synth.rhodey~**](synth.rhodey~.html): STK Fender Rhodes electric piano FM synthesis instrument
 
-[**synth.risset_arp~**](synth.risset_arp~.html): Jean Claude Risset&#39;s harmonic arpeggio effect 
+[**synth.risset_arp~**](synth.risset_arp~.html): Jean Claude Risset&#39;s harmonic arpeggio effect
 
-[**synth.risset_bell~**](synth.risset_bell~.html): Jean Claude Risset&#39;s bell synth 
+[**synth.risset_bell~**](synth.risset_bell~.html): Jean Claude Risset&#39;s bell synth
 
-[**synth.risset_tone~**](synth.risset_tone~.html): Jean Claude Risset&#39;s endless glissando 
+[**synth.risset_tone~**](synth.risset_tone~.html): Jean Claude Risset&#39;s endless glissando
 
-[**synth.russian_bell~**](synth.russian_bell~.html): russian church bell modal model 
+[**synth.russian_bell~**](synth.russian_bell~.html): russian church bell modal model
 
-[**synth.shakers~**](synth.shakers~.html): various percussion sounds from STK library 
+[**synth.shakers~**](synth.shakers~.html): various percussion sounds from STK library
 
-[**synth.sitar~**](synth.sitar~.html): STK sitar 
+[**synth.sitar~**](synth.sitar~.html): STK sitar
 
-[**synth.snare~**](synth.snare~.html): Snare drum synth from Guitarix project 
+[**synth.snare~**](synth.snare~.html): Snare drum synth from Guitarix project
 
-[**synth.standard_bell~**](synth.standard_bell~.html): german church bell modal model 
+[**synth.standard_bell~**](synth.standard_bell~.html): german church bell modal model
 
-[**synth.tube_bell~**](synth.tube_bell~.html): STK tubular bell (orchestral chime) FM synthesis instrument 
+[**synth.tube_bell~**](synth.tube_bell~.html): STK tubular bell (orchestral chime) FM synthesis instrument
 
-[**synth.voice_fofc~**](synth.voice_fofc~.html): Simple formant/vocal synthesizer with FOF-cycle filterbank. 
+[**synth.voice_fofc~**](synth.voice_fofc~.html): Simple formant/vocal synthesizer with FOF-cycle filterbank.
 
-[**synth.voice_fofs~**](synth.voice_fofs~.html): Simple formant/vocal synthesizer with FOF-smooth filterbank. 
+[**synth.voice_fofs~**](synth.voice_fofs~.html): Simple formant/vocal synthesizer with FOF-smooth filterbank.
 
-[**synth.wurley~**](synth.wurley~.html): Wurlitzer electric piano FM synthesis instrument 
+[**synth.wurley~**](synth.wurley~.html): Wurlitzer electric piano FM synthesis instrument
 
 
 ### <a id="cat_system" href="category_system.html">system</a>
@@ -1940,27 +1940,27 @@ layout: default_ru
 ---
 
 
-[**system.colorpanel**](system.colorpanel.html): System color panel dialog popup 
+[**system.colorpanel**](system.colorpanel.html): System color panel dialog popup
 
-[**system.command**](system.command.html): запуск цепочек команд с перенаправлением вывода в Unix и Windows 
+[**system.command**](system.command.html): запуск цепочек команд с перенаправлением вывода в Unix и Windows
 
-[**system.cursor**](system.cursor.html): Output cursor motion, mousewheel and button clicks 
+[**system.cursor**](system.cursor.html): Output cursor motion, mousewheel and button clicks
 
-[**system.exec**](system.exec.html): run external command in separate process 
+[**system.exec**](system.exec.html): run external command in separate process
 
-[**system.exit**](system.exit.html): quit PureData 
+[**system.exit**](system.exit.html): quit PureData
 
-[**system.getenv**](system.getenv.html): Get system environment variables 
+[**system.getenv**](system.getenv.html): Get system environment variables
 
-[**system.hostname**](system.hostname.html): outputs system hostname 
+[**system.hostname**](system.hostname.html): outputs system hostname
 
-[**system.info**](system.info.html): получение информации о системе: ЦПУ и температура 
+[**system.info**](system.info.html): получение информации о системе: ЦПУ и температура
 
-[**system.memsize**](system.memsize.html): returns the size of physical memory (RAM) in bytes round to float data type. 
+[**system.memsize**](system.memsize.html): returns the size of physical memory (RAM) in bytes round to float data type.
 
-[**system.memused**](system.memused.html): returns the process physical memory use - current and peak 
+[**system.memused**](system.memused.html): returns the process physical memory use - current and peak
 
-[**system.screen_size**](system.screen_size.html): returns current screen size in pixels 
+[**system.screen_size**](system.screen_size.html): returns current screen size in pixels
 
 
 ### <a id="cat_tl" href="category_tl.html">tl</a>
@@ -1969,15 +1969,15 @@ layout: default_ru
 ---
 
 
-[**tl.bang**](tl.bang.html): Timeline bang (with possible delay) 
+[**tl.bang**](tl.bang.html): Timeline bang (with possible delay)
 
-[**tl.cue**](tl.cue.html): Timeline section 
+[**tl.cue**](tl.cue.html): Timeline section
 
-[**tl.timeline**](tl.timeline.html): Timeline - event scheduler 
+[**tl.timeline**](tl.timeline.html): Timeline - event scheduler
 
-[**tl.toggle**](tl.toggle.html): Timeline bang 
+[**tl.toggle**](tl.toggle.html): Timeline bang
 
-[**tl.transport**](tl.transport.html): Timeline transport control 
+[**tl.transport**](tl.transport.html): Timeline transport control
 
 
 ### <a id="cat_ui" href="category_ui.html">ui</a>
@@ -1986,85 +1986,85 @@ layout: default_ru
 ---
 
 
-[**ui.aview**](ui.aview.html): array view with cursor and selection 
+[**ui.aview**](ui.aview.html): array view with cursor and selection
 
-[**ui.bang**](ui.bang.html): A bang... that&#39;s all 
+[**ui.bang**](ui.bang.html): A bang... that&#39;s all
 
-[**ui.button**](ui.button.html): button widget 
+[**ui.button**](ui.button.html): button widget
 
-[**ui.canvas**](ui.canvas.html): UI canvas for drawing 
+[**ui.canvas**](ui.canvas.html): UI canvas for drawing
 
-[**ui.cmeter~**](ui.cmeter~.html): Multichannel circular peak and rms signal meter 
+[**ui.cmeter~**](ui.cmeter~.html): Multichannel circular peak and rms signal meter
 
-[**ui.colorpanel**](ui.colorpanel.html): colorchooser widget 
+[**ui.colorpanel**](ui.colorpanel.html): colorchooser widget
 
-[**ui.display**](ui.display.html): Display GUI object 
+[**ui.display**](ui.display.html): Display GUI object
 
-[**ui.dsp~**](ui.dsp~.html): GUI for turning DSP on/off 
+[**ui.dsp~**](ui.dsp~.html): GUI for turning DSP on/off
 
-[**ui.env**](ui.env.html): envelope editor widget 
+[**ui.env**](ui.env.html): envelope editor widget
 
-[**ui.filter**](ui.filter.html): UI filter object calculator for biquad filter 
+[**ui.filter**](ui.filter.html): UI filter object calculator for biquad filter
 
-[**ui.filter~**](ui.filter~.html): UI filter object based on biquad filter 
+[**ui.filter~**](ui.filter~.html): UI filter object based on biquad filter
 
-[**ui.gain2~**](ui.gain2~.html): UI stereo gain control 
+[**ui.gain2~**](ui.gain2~.html): UI stereo gain control
 
-[**ui.gain~**](ui.gain~.html): UI gain control 
+[**ui.gain~**](ui.gain~.html): UI gain control
 
-[**ui.icon**](ui.icon.html): simple icon with button capabilities 
+[**ui.icon**](ui.icon.html): simple icon with button capabilities
 
-[**ui.incdec**](ui.incdec.html): value increment/decrement 
+[**ui.incdec**](ui.incdec.html): value increment/decrement
 
-[**ui.keyboard**](ui.keyboard.html): keyboard widget 
+[**ui.keyboard**](ui.keyboard.html): keyboard widget
 
-[**ui.knob**](ui.knob.html): knob widget 
+[**ui.knob**](ui.knob.html): knob widget
 
-[**ui.label**](ui.label.html): simple label widget 
+[**ui.label**](ui.label.html): simple label widget
 
-[**ui.lcd**](ui.lcd.html): black and white bitmap display 
+[**ui.lcd**](ui.lcd.html): black and white bitmap display
 
-[**ui.link**](ui.link.html): Hyperlink widget 
+[**ui.link**](ui.link.html): Hyperlink widget
 
-[**ui.matrix**](ui.matrix.html): The matrix of toggles has you. 
+[**ui.matrix**](ui.matrix.html): The matrix of toggles has you.
 
-[**ui.menu**](ui.menu.html): Dropdown menu 
+[**ui.menu**](ui.menu.html): Dropdown menu
 
-[**ui.meter~**](ui.meter~.html): Shows peak and rms signal level 
+[**ui.meter~**](ui.meter~.html): Shows peak and rms signal level
 
-[**ui.midi**](ui.midi.html): incoming MIDI message viewport 
+[**ui.midi**](ui.midi.html): incoming MIDI message viewport
 
-[**ui.mouse_filter**](ui.mouse_filter.html): filter mouse events from ui objects 
+[**ui.mouse_filter**](ui.mouse_filter.html): filter mouse events from ui objects
 
-[**ui.mouse_route**](ui.mouse_route.html): routes mouse events from ui objects 
+[**ui.mouse_route**](ui.mouse_route.html): routes mouse events from ui objects
 
-[**ui.number**](ui.number.html): counterpart of the vanilla [nbx] 
+[**ui.number**](ui.number.html): counterpart of the vanilla \[nbx\]
 
-[**ui.number~**](ui.number~.html): counterpart of the vanilla [nbx] for signal 
+[**ui.number~**](ui.number~.html): counterpart of the vanilla \[nbx\] for signal
 
-[**ui.plot~**](ui.plot~.html): signal plotter 
+[**ui.plot~**](ui.plot~.html): signal plotter
 
-[**ui.polar**](ui.polar.html): 2D slider in polar coordinates 
+[**ui.polar**](ui.polar.html): 2D slider in polar coordinates
 
-[**ui.preset**](ui.preset.html): Preset manager 
+[**ui.preset**](ui.preset.html): Preset manager
 
-[**ui.radio**](ui.radio.html): counterpart of the vanilla radio toggle 
+[**ui.radio**](ui.radio.html): counterpart of the vanilla radio toggle
 
-[**ui.rslider**](ui.rslider.html): range slider 
+[**ui.rslider**](ui.rslider.html): range slider
 
-[**ui.scope~**](ui.scope~.html): Scope GUI object 
+[**ui.scope~**](ui.scope~.html): Scope GUI object
 
-[**ui.slider**](ui.slider.html): counterpart of the vanilla slider 
+[**ui.slider**](ui.slider.html): counterpart of the vanilla slider
 
-[**ui.slider2d**](ui.slider2d.html): 2D slider widget 
+[**ui.slider2d**](ui.slider2d.html): 2D slider widget
 
-[**ui.sliders**](ui.sliders.html): Multiple slider widget 
+[**ui.sliders**](ui.sliders.html): Multiple slider widget
 
-[**ui.spectroscope~**](ui.spectroscope~.html): Spectroscope GUI object 
+[**ui.spectroscope~**](ui.spectroscope~.html): Spectroscope GUI object
 
-[**ui.tab**](ui.tab.html): displays a list of text buttons or text toggles 
+[**ui.tab**](ui.tab.html): displays a list of text buttons or text toggles
 
-[**ui.toggle**](ui.toggle.html): modern toggle widget 
+[**ui.toggle**](ui.toggle.html): modern toggle widget
 
 
 

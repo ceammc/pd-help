@@ -3,7 +3,7 @@
 
 # midi.track
 
-###### extract track from MidiFile
+###### extracts the track from MidiFile message
 
 *available since version:* 0.4
 

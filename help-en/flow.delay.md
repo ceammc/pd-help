@@ -5,7 +5,7 @@
 **aliases:** [flow.del]
 
 
-###### enhanced version of the vanilla [delay] object
+###### enhanced version of the vanilla \[delay\] object
 
 *available since version:* 0.9.1
 

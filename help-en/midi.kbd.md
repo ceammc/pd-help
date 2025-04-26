@@ -3,7 +3,7 @@
 
 # midi.kdb
 
-###### computer keyboard midi
+###### computer keyboard MIDI emulator
 
 *available since version:* 0.9.3
 

@@ -5,7 +5,7 @@
 **aliases:** [note.pass]
 
 
-###### midi note pass by expression
+###### passes MIDI notes according to the calculated expression
 
 *available since version:* 0.9.7
 

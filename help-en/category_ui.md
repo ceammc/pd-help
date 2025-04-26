@@ -82,11 +82,11 @@ _aliases:_ \[ui.mf\]
 _aliases:_ \[ui.mr\]
 
 
-[**ui.number**](ui.number.html): counterpart of the vanilla [nbx] <br>
+[**ui.number**](ui.number.html): counterpart of the vanilla \[nbx\] <br>
 _aliases:_ \[ui.n\]
 
 
-[**ui.number\~**](ui.number~.html): counterpart of the vanilla [nbx] for signal <br>
+[**ui.number\~**](ui.number~.html): counterpart of the vanilla \[nbx\] for signal <br>
 _aliases:_ \[ui.n\~\]
 
 

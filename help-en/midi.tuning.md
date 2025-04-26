@@ -3,7 +3,7 @@
 
 # midi.tuning
 
-###### apply tuning to midi messages
+###### apply the tuning for notes flow
 
 *available since version:* 0.9.1
 

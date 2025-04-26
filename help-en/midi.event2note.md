@@ -5,7 +5,7 @@
 **aliases:** [midi.ev-&gt;note]
 
 
-###### convert MidiEvent message to midi note/velocity pair
+###### converts the MidiEvent message into the midi note/velocity pair
 
 *available since version:* 0.4
 

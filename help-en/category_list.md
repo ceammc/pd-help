@@ -128,7 +128,7 @@ _aliases:_ \[list.wrap\]
 _aliases:_ \[list.&lt;&lt;\], \[list.&gt;&gt;\]
 
 
-[**list.route**](list.route.html): acts like [route] but for lists 
+[**list.route**](list.route.html): acts like \[route\] but for lists 
 
 [**list.rundiff**](list.rundiff.html): running difference 
 

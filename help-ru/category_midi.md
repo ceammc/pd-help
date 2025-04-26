@@ -12,7 +12,7 @@ layout: default_ru
 
 [**midi.arp**](midi.arp.html): MIDI арпеджиатор 
 
-[**midi.cc**](midi.cc.html): усовершенствованная версия [ctlin] 
+[**midi.cc**](midi.cc.html): усовершенствованная версия \[ctlin\] 
 
 [**midi.clock**](midi.clock.html): MIDI-clock 
 

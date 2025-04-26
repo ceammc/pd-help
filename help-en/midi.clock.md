@@ -3,7 +3,7 @@
 
 # midi.clock
 
-###### midi clock toolbox
+###### MIDI-clock
 
 *available since version:* 0.9.2
 

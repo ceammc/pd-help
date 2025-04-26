@@ -5,7 +5,7 @@
 **aliases:** [midi.key-&gt;str]
 
 
-###### convert key number to SPN name according to tonality
+###### converts the MIDI-key into the SPN name format
 
 *available since version:* 0.4
 
@@ -61,6 +61,9 @@ _type:_ control
 [midi](keywords/midi.html)
 [key](keywords/key.html)
 [name](keywords/name.html)
+[spn](keywords/spn.html)
+[pitch](keywords/pitch.html)
+[notation](keywords/notation.html)
 
 
 

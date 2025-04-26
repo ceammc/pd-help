@@ -5,7 +5,7 @@
 **aliases:** [array.s-&gt;p], [array.sample-&gt;phase]
 
 
-###### convert the sample index to the phase range [0..1]
+###### convert the sample index to the phase range \[0..1\]
 
 *available since version:* 0.2
 

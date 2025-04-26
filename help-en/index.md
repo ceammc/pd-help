@@ -1787,7 +1787,7 @@ random number generation
 
 [**pan.cos\~**](pan.cos~.html): two channel equal power sine/cosine panner 
 
-[**pan.linsig\~**](pan.linsig~.html): two channel linear panner with signal control 
+[**pan.linsig\~**](pan.linsig~.html): two channel linear panner with the signal control 
 
 [**pan.lin\~**](pan.lin~.html): two channel linear panner 
 

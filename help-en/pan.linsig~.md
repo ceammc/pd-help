@@ -3,7 +3,7 @@
 
 # pan.linsig~
 
-###### two channel linear panner with signal control
+###### two channel linear panner with the signal control
 
 *available since version:* 0.7
 

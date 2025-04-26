@@ -3,7 +3,7 @@
 
 # lfo.impulse~
 
-###### Unit-amplitude low-frequency impulse train
+###### unit-amplitude low-frequency impulse train
 
 *available since version:* 0.1
 

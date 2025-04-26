@@ -6,7 +6,7 @@ layout: default_ru
 
 # lfo.tri~
 
-###### Zero-mean unit-amplitude low frequency triangle wave
+###### низкочастотная треугольная волна единичной амплитуды с нулевым средним значением
 
 *доступно с версии:* 0.1
 

@@ -3,7 +3,7 @@
 
 # lfo.tri~
 
-###### Zero-mean unit-amplitude low frequency triangle wave
+###### zero-mean unit-amplitude low frequency triangle wave
 
 *available since version:* 0.1
 

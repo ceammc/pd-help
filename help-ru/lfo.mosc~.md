@@ -6,7 +6,7 @@ layout: default_ru
 
 # lfo.mosc~
 
-###### multi-oscillator with various waveforms
+###### мультиосциллятор с различными формами волн
 
 *доступно с версии:* 0.9.3
 

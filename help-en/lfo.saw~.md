@@ -3,7 +3,7 @@
 
 # lfo.saw~
 
-###### Full-range unit-amplitude low frequency saw
+###### full-range unit-amplitude low frequency saw
 
 *available since version:* 0.7
 

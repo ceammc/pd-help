@@ -6,7 +6,7 @@ layout: default_ru
 
 # lfo.square~
 
-###### Zero-mean unit-amplitude low frequency square wave
+###### низкочастотная квадратная волна единичной амплитуды с нулевым средним значением
 
 *доступно с версии:* 0.1
 

@@ -6,7 +6,7 @@ layout: default_ru
 
 # lfo.impulse~
 
-###### Unit-amplitude low-frequency impulse train
+###### низкочастотный импульсный осциллятор единичной амплитуды
 
 *доступно с версии:* 0.1
 

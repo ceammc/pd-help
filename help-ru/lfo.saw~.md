@@ -6,7 +6,7 @@ layout: default_ru
 
 # lfo.saw~
 
-###### Full-range unit-amplitude low frequency saw
+###### низкочастотная пилообразная волна в диапазоне \[-1,+1\]
 
 *доступно с версии:* 0.7
 

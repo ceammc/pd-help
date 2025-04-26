@@ -20,7 +20,7 @@ layout: default_ru
 
 [**env.concat**](env.concat.html): конкатенация огибающих 
 
-[**env.follow~**](env.follow~.html): Последователь конверта с независимой атакой и временем выпуска 
+[**env.follow~**](env.follow~.html): Envelope follower with independent attack and release times 
 
 [**env.mix**](env.mix.html): микс между двумя огибающими, содержащими равное количество сегментов 
 

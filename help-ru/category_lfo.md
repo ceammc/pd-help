@@ -10,25 +10,25 @@ layout: default_ru
 
 
 
-[**lfo.+pulse~**](lfo.%2Bpulse~.html): Unit-amplitude nonnegative low frequency pulse train 
+[**lfo.+pulse~**](lfo.%2Bpulse~.html): прямоугольная низкочастотная волна единичной амплитудны в дипазоне \[0,+1\] 
 
-[**lfo.+saw~**](lfo.%2Bsaw~.html): Positive unit-amplitude low frequency saw wave 
+[**lfo.+saw~**](lfo.%2Bsaw~.html): низкочастотная пилообразная волна в диапазоне \[0,+1\] 
 
-[**lfo.+square~**](lfo.%2Bsquare~.html): Positive low frequency square wave 
+[**lfo.+square~**](lfo.%2Bsquare~.html): низкочастотная квадратная волна единичной амплитуды в диапазоне \[0,+1\] 
 
-[**lfo.+tri~**](lfo.%2Btri~.html): Positive unit-amplitude low frequency triangle wave 
+[**lfo.+tri~**](lfo.%2Btri~.html): низкочастотная треугольная волна единичной амплитуды в диапазоне \[0,+1) 
 
-[**lfo.impulse~**](lfo.impulse~.html): Unit-amplitude low-frequency impulse train 
+[**lfo.impulse~**](lfo.impulse~.html): низкочастотный импульсный осциллятор единичной амплитуды 
 
-[**lfo.mosc~**](lfo.mosc~.html): multi-oscillator with various waveforms 
+[**lfo.mosc~**](lfo.mosc~.html): мультиосциллятор с различными формами волн 
 
-[**lfo.pulse~**](lfo.pulse~.html): Full-range unit-amplitude low frequency pulse train 
+[**lfo.pulse~**](lfo.pulse~.html): прямоугольная низкочастотная волна единичной амплитудны в дипазоне \[-1,+1\] 
 
-[**lfo.saw~**](lfo.saw~.html): Full-range unit-amplitude low frequency saw 
+[**lfo.saw~**](lfo.saw~.html): низкочастотная пилообразная волна в диапазоне \[-1,+1\] 
 
-[**lfo.square~**](lfo.square~.html): Zero-mean unit-amplitude low frequency square wave 
+[**lfo.square~**](lfo.square~.html): низкочастотная квадратная волна единичной амплитуды с нулевым средним значением 
 
-[**lfo.tri~**](lfo.tri~.html): Zero-mean unit-amplitude low frequency triangle wave 
+[**lfo.tri~**](lfo.tri~.html): низкочастотная треугольная волна единичной амплитуды с нулевым средним значением 
 
 
 **Версия:** 0.9.8

@@ -3,7 +3,7 @@
 
 # lfo.pulse~
 
-###### Full-range unit-amplitude low frequency pulse train
+###### full-range unit-amplitude low frequency pulse train
 
 *available since version:* 0.6
 

@@ -3,7 +3,7 @@
 
 # lfo.square~
 
-###### Zero-mean unit-amplitude low frequency square wave
+###### zero-mean unit-amplitude low frequency square wave
 
 *available since version:* 0.1
 

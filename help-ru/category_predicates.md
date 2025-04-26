@@ -10,7 +10,7 @@ layout: default_ru
 объекты предикатов. Проверка типов сообщений или данных, возвращают 1 или 0.
 
 
-[**is_any**](is_any.html): Проверьте, есть ли входные данные *любые* 
+[**is_any**](is_any.html): checks if input data has *any* type 
 
 [**is_bang**](is_bang.html): проверяет, является ли входное сообщение *bang* 
 

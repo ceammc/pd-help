@@ -14,7 +14,7 @@ layout: default_ru
 _псевдонимы:_ \[ceammc/expand_env\]
 
 
-[**flow.append**](flow.append.html): Добавить сообщение для потока 
+[**flow.append**](flow.append.html): append message to flow stream 
 
 [**flow.change**](flow.change.html): удаляет повторяющиеся сообщения 
 
@@ -42,7 +42,7 @@ _псевдонимы:_ \[flow.$$\]
 
 [**flow.dup**](flow.dup.html): дупликатор сообщений 
 
-[**flow.float**](flow.float.html): плавать <br>
+[**flow.float**](flow.float.html): pass floats <br>
 _псевдонимы:_ \[flow.f\]
 
 

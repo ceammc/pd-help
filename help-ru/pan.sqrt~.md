@@ -6,7 +6,7 @@ layout: default_ru
 
 # pan.sqrt~
 
-###### two channel equal power square root panner
+###### двухканальное квадратичное панорамирование равной мощности
 
 *доступно с версии:* 0.5
 

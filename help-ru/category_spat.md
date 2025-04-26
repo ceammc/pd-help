@@ -86,17 +86,17 @@ _псевдонимы:_ \[hoa.2d.process~\], \[hoa.3d.process~\]
 _псевдонимы:_ \[hoa.2d.scope~\]
 
 
-[**pan.cos~**](pan.cos~.html): two channel equal power sine/cosine panner 
+[**pan.cos~**](pan.cos~.html): двухканальное косинусное панорамирование равной мощности 
 
-[**pan.linsig~**](pan.linsig~.html): two channel linear panner with signal control 
+[**pan.linsig~**](pan.linsig~.html): двухканальное линейное панорамирование управляемое сигналом 
 
-[**pan.lin~**](pan.lin~.html): two channel linear panner <br>
+[**pan.lin~**](pan.lin~.html): двухканальное линейное панорамирование <br>
 _псевдонимы:_ \[ceammc/pan~\], \[pan~\]
 
 
-[**pan.spread~**](pan.spread~.html): spreads input channels across the stereo field 
+[**pan.spread~**](pan.spread~.html): распределяет входные каналы по стереополю 
 
-[**pan.sqrt~**](pan.sqrt~.html): two channel equal power square root panner 
+[**pan.sqrt~**](pan.sqrt~.html): двухканальное квадратичное панорамирование равной мощности 
 
 [**spat.pan4~**](spat.pan4~.html): GMEM SPAT: 4-outputs spatializer <br>
 _псевдонимы:_ \[ceammc/pan4~\], \[pan4~\]

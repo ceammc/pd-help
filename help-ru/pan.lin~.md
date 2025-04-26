@@ -6,7 +6,7 @@ layout: default_ru
 
 # pan.lin~
 
-###### two channel linear panner
+###### двухканальное линейное панорамирование
 
 *доступно с версии:* 0.5
 

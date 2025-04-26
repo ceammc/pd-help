@@ -6,7 +6,7 @@ layout: default_ru
 
 # pan.linsig~
 
-###### two channel linear panner with signal control
+###### двухканальное линейное панорамирование управляемое сигналом
 
 *доступно с версии:* 0.7
 

@@ -1283,9 +1283,9 @@ layout: default_ru
 
 [**midi.clock**](midi.clock.html): MIDI-clock
 
-[**midi.ctl2str**](midi.ctl2str.html): преображует номер стандартного MIDI контроллеров в имя
+[**midi.ctl2str**](midi.ctl2str.html): преобразует номер стандартного MIDI контроллера в имя
 
-[**midi.event2ctl**](midi.event2ctl.html): конвертируем сообщение MidiEvent в пару канал/значение
+[**midi.event2ctl**](midi.event2ctl.html): конвертирует сообщение MidiEvent в пару канал/значение
 
 [**midi.event2note**](midi.event2note.html): конвертирует сообщение MidiEvent в пару нота/сила нажатия
 
@@ -1788,15 +1788,15 @@ layout: default_ru
 
 [**hoa.scope~**](hoa.scope~.html): a 2d ambisonic harmonic scope
 
-[**pan.cos~**](pan.cos~.html): two channel equal power sine/cosine panner
+[**pan.cos~**](pan.cos~.html): двухканальное косинусное панорамирование равной мощности
 
-[**pan.linsig~**](pan.linsig~.html): two channel linear panner with signal control
+[**pan.linsig~**](pan.linsig~.html): двухканальное линейное панорамирование управляемое сигналом
 
-[**pan.lin~**](pan.lin~.html): two channel linear panner
+[**pan.lin~**](pan.lin~.html): двухканальное линейное панорамирование
 
-[**pan.spread~**](pan.spread~.html): spreads input channels across the stereo field
+[**pan.spread~**](pan.spread~.html): распределяет входные каналы по стереополю
 
-[**pan.sqrt~**](pan.sqrt~.html): two channel equal power square root panner
+[**pan.sqrt~**](pan.sqrt~.html): двухканальное квадратичное панорамирование равной мощности
 
 [**spat.pan4~**](spat.pan4~.html): GMEM SPAT: 4-outputs spatializer
 

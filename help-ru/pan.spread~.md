@@ -6,7 +6,7 @@ layout: default_ru
 
 # pan.spread~
 
-###### spreads input channels across the stereo field
+###### распределяет входные каналы по стереополю
 
 *доступно с версии:* 0.5
 

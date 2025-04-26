@@ -16,11 +16,11 @@ layout: default_ru
 
 [**midi.clock**](midi.clock.html): MIDI-clock 
 
-[**midi.ctl2str**](midi.ctl2str.html): преображует номер стандартного MIDI контроллеров в имя <br>
+[**midi.ctl2str**](midi.ctl2str.html): преобразует номер стандартного MIDI контроллера в имя <br>
 _псевдонимы:_ \[midi.ctl-&gt;str\]
 
 
-[**midi.event2ctl**](midi.event2ctl.html): конвертируем сообщение MidiEvent в пару канал/значение <br>
+[**midi.event2ctl**](midi.event2ctl.html): конвертирует сообщение MidiEvent в пару канал/значение <br>
 _псевдонимы:_ \[midi.ev-&gt;ctl\]
 
 

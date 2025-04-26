@@ -6,7 +6,7 @@ layout: default_ru
 
 # pan.cos~
 
-###### two channel equal power sine/cosine panner
+###### двухканальное косинусное панорамирование равной мощности
 
 *доступно с версии:* 0.5
 

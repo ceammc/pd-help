@@ -5,7 +5,7 @@
 **aliases:** [ceammc/bar-&gt;ms], [bar-&gt;ms]
 
 
-###### calculate bar and beat duration
+###### calculates bar and beat duration
 
 *available since version:* 0.9.7
 

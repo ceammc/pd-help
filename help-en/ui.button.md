@@ -5,7 +5,7 @@
 **aliases:** [ui.btn]
 
 
-###### button widget
+###### on/off button widget
 
 *available since version:* 0.9.2
 

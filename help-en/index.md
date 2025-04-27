@@ -130,7 +130,7 @@ working with arrays and tables
 
 [**array.variance**](array.variance.html): calculates variance of array values 
 
-[**array.vplay**](array.vplay.html): simple array player for using with the vline~ object 
+[**array.vplay**](array.vplay.html): simple array player for using with the \[vline~\] object 
 
 [**array.window**](array.window.html): fills the array with the window function 
 
@@ -237,45 +237,45 @@ various converters
 
 [**array.s2p**](array.s2p.html): convert the sample index to the phase range \[0..1\] 
 
-[**conv.amp2dbfs**](conv.amp2dbfs.html): convert from amplitude to decibel full scale 
+[**conv.amp2dbfs**](conv.amp2dbfs.html): convert from the amplitude to a decibel full scale 
 
-[**conv.amp2dbfs\~**](conv.amp2dbfs~.html): convert from amplitude to decibel full scale 
+[**conv.amp2dbfs\~**](conv.amp2dbfs~.html): convert from the amplitude to a decibel full scale 
 
-[**conv.bar2ms**](conv.bar2ms.html): calculate bar and beat duration 
+[**conv.bar2ms**](conv.bar2ms.html): calculates bar and beat duration 
 
 [**conv.bits2bang**](conv.bits2bang.html): convert list of bits to bang events 
 
 [**conv.bits2int**](conv.bits2int.html): convert list of bits to integer 
 
-[**conv.bits2note**](conv.bits2note.html): convert list of bits to note events 
+[**conv.bits2note**](conv.bits2note.html): convert list of bits into note, velocity pairs 
 
-[**conv.bits2pos**](conv.bits2pos.html): convert list of bits to list of bit position 
+[**conv.bits2pos**](conv.bits2pos.html): converts the list of bits into the list of checked bit position 
 
-[**conv.bpm2hz**](conv.bpm2hz.html): converts BPM to frequency in hertz 
+[**conv.bpm2hz**](conv.bpm2hz.html): converts BPM tempo into a frequency in hertz 
 
-[**conv.bpm2ms**](conv.bpm2ms.html): convert frequency in BPM to period in milliseconds 
+[**conv.bpm2ms**](conv.bpm2ms.html): converts the BPM tempo into a beat period in milliseconds 
 
-[**conv.bpm2sec**](conv.bpm2sec.html): convert frequency in BPM to period in seconds 
+[**conv.bpm2sec**](conv.bpm2sec.html): converts the BPM tempo into a period in seconds 
 
-[**conv.car2pol**](conv.car2pol.html): convert cartesian coords to polar 
+[**conv.car2pol**](conv.car2pol.html): converts cartesian coords to polar 
 
-[**conv.cc2amp**](conv.cc2amp.html): convert from MIDI Control Change range 
+[**conv.cc2amp**](conv.cc2amp.html): converts from MIDI Control Change range 
 
-[**conv.char2morse**](conv.char2morse.html): convert character to morse code 
+[**conv.char2morse**](conv.char2morse.html): converts the single character into the Morse code 
 
-[**conv.color2rgba**](conv.color2rgba.html): convert named or hex color to separate RGBA values 
+[**conv.color2rgba**](conv.color2rgba.html): converts the named or hex color into separate RGBA values 
 
 [**conv.dbfs2amp**](conv.dbfs2amp.html): convert decibel full scale to amplitude 
 
 [**conv.dbfs2amp\~**](conv.dbfs2amp~.html): convert decibel full scale to amplitude 
 
-[**conv.degree2key**](conv.degree2key.html): convert scale degree to key 
+[**conv.degree2key**](conv.degree2key.html): converts the scale degree into a key number 
 
 [**conv.edge2bang**](conv.edge2bang.html): edge detector for numeric stream 
 
-[**conv.guido2note**](conv.guido2note.html): convert Guido notation into MIDI and duration 
+[**conv.guido2note**](conv.guido2note.html): convert the Guido notation into a MIDI pitch and duration 
 
-[**conv.hex2int**](conv.hex2int.html): hex symbol to int value 
+[**conv.hex2int**](conv.hex2int.html): converts hex symbol into a integer value 
 
 [**conv.hsl2rgb**](conv.hsl2rgb.html): convert HSL color values to RGB 
 
@@ -283,59 +283,59 @@ various converters
 
 [**conv.lab2rgb**](conv.lab2rgb.html): convert LAB color values to RGB 
 
-[**conv.lin2curve**](conv.lin2curve.html): map linear to exponential range with 0 allowed. 
+[**conv.lin2curve**](conv.lin2curve.html): map linear to exponential range with 0 allowed 
 
 [**conv.lin2exp**](conv.lin2exp.html): maps linear range to exponential range 
 
-[**conv.lin2lin**](conv.lin2lin.html): convert from one linear range to another 
+[**conv.lin2lin**](conv.lin2lin.html): converts from the one linear range into another 
 
-[**conv.lin2lin\~**](conv.lin2lin~.html): convert from one linear range to another for signals 
+[**conv.lin2lin\~**](conv.lin2lin~.html): converts from the one linear range to another for signals 
 
 [**conv.list2props**](conv.list2props.html): converts list to series of property messages 
 
-[**conv.midi2freq**](conv.midi2freq.html): convert from midi pitch to frequency in hz (with various base A and temperament) 
+[**conv.midi2freq**](conv.midi2freq.html): advanced MIDI pitch conversion to a frequency 
 
-[**conv.ms2bpm**](conv.ms2bpm.html): convert period in milliseconds to frequency in BPM 
+[**conv.ms2bpm**](conv.ms2bpm.html): converts period in milliseconds to BPM tempo 
 
 [**conv.ms2samp**](conv.ms2samp.html): convert time in milliseconds to number of samples according to current samplerate 
 
 [**conv.ms2samp\~**](conv.ms2samp~.html): convert time in milliseconds to number of samples according to current samplerate 
 
-[**conv.ms2str**](conv.ms2str.html): converts float time in milliseconds to formated symbol (or string) 
+[**conv.ms2str**](conv.ms2str.html): formats time in milliseconds to symbol or string 
 
-[**conv.note2guido**](conv.note2guido.html): convert MIDI note to Guido notation 
+[**conv.note2guido**](conv.note2guido.html): converts MIDI note number to Guido notation 
 
-[**conv.phase2rad**](conv.phase2rad.html): convert phase value \[0-1\] to radians \[0-2π\] 
+[**conv.phase2rad**](conv.phase2rad.html): converts phase value \[0-1\] to radians \[0-2π\] 
 
 [**conv.phase2rad\~**](conv.phase2rad~.html): convert phase value \[0-1\] to radians \[0-2π\] 
 
-[**conv.pitch2midi**](conv.pitch2midi.html): converts symbol pitch name to MIDI note number 
+[**conv.pitch2midi**](conv.pitch2midi.html): converts SPN pitch to MIDI note number 
 
 [**conv.pol2car**](conv.pol2car.html): convert from polar coordinates to cartesian 
 
-[**conv.rad2phase**](conv.rad2phase.html): convert radians value to phase 
+[**conv.rad2phase**](conv.rad2phase.html): convert radians value to phase \[0-1) 
 
-[**conv.rad2phase\~**](conv.rad2phase~.html): convert radians value to phase 
+[**conv.rad2phase\~**](conv.rad2phase~.html): convert radians value to phase \[0-1) 
 
 [**conv.rgb2hex**](conv.rgb2hex.html): convert separate RGB values to hex color 
 
-[**conv.samp2ms**](conv.samp2ms.html): convert samples to time according to samplerate 
+[**conv.samp2ms**](conv.samp2ms.html): converts samples to millisecond according samplerate 
 
-[**conv.samp2ms\~**](conv.samp2ms~.html): convert samples to milliseconds according to samplerate 
+[**conv.samp2ms\~**](conv.samp2ms~.html): converts samples to milliseconds according to samplerate 
 
-[**conv.samp2sec**](conv.samp2sec.html): convert samples to time according to samplerate 
+[**conv.samp2sec**](conv.samp2sec.html): convert samples to seconds according to samplerate 
 
-[**conv.sec2bpm**](conv.sec2bpm.html): convert period in seconds to frequency in BPM 
+[**conv.sec2bpm**](conv.sec2bpm.html): converts period in seconds to frequency in BPM 
 
-[**conv.sec2samp**](conv.sec2samp.html): convert time in seconds to number of samples according to current samplerate 
+[**conv.sec2samp**](conv.sec2samp.html): converts time in seconds to number of samples according to current samplerate 
 
-[**conv.sec2str**](conv.sec2str.html): converts float time in seconds to formated symbol (or string) 
+[**conv.sec2str**](conv.sec2str.html): formats time in seconds to symbol or string 
 
-[**conv.semi2ratio**](conv.semi2ratio.html): convert interval in semitones to frequency ratio in 12-ET 
+[**conv.semi2ratio**](conv.semi2ratio.html): converts interval in semitones to frequency ratio in 12-ET 
 
-[**conv.sig2float\~**](conv.sig2float~.html): convert signal to floats 
+[**conv.sig2float\~**](conv.sig2float~.html): converts audiosignal to control numeric stream 
 
-[**conv.str2sec**](conv.str2sec.html): converts formatted time to float value in seconds 
+[**conv.str2sec**](conv.str2sec.html): converts the formatted time to a float value in seconds 
 
 [**music.dur2time**](music.dur2time.html): convert duration list to time 
 
@@ -860,7 +860,7 @@ working with various hardware
 
 [**lang.lua**](lang.lua.html): Lua JIT language bindings 
 
-[**ui.faust\~**](ui.faust~.html): faust compiled ui object 
+[**ui.faust\~**](ui.faust~.html): Faust DSP programming language widget 
 
 
 ### <a id="cat_lfo" href="category_lfo.html">lfo</a>
@@ -1551,7 +1551,7 @@ predicate objects. Checks message or data types, returns 1 or 0.
 ---
 
 
-[**is_any**](is_any.html): checks if input data has *any* type 
+[**is_any**](is_any.html): checks if the input has a general message type 
 
 [**is_bang**](is_bang.html): checks if the input is a *bang* 
 
@@ -1983,35 +1983,35 @@ graphical user interface objects
 ---
 
 
-[**ui.aview**](ui.aview.html): array view with cursor and selection 
+[**ui.aview**](ui.aview.html): array view with cursor and range selection 
 
-[**ui.bang**](ui.bang.html): A bang... that&#39;s all 
+[**ui.bang**](ui.bang.html): a button that sends an empty event (bang) 
 
-[**ui.button**](ui.button.html): button widget 
+[**ui.button**](ui.button.html): on/off button widget 
 
-[**ui.canvas**](ui.canvas.html): UI canvas for drawing 
+[**ui.canvas**](ui.canvas.html): canvas for drawing 
 
-[**ui.cmeter\~**](ui.cmeter~.html): Multichannel circular peak and rms signal meter 
+[**ui.cmeter\~**](ui.cmeter~.html): multichannel circular signal meter 
 
 [**ui.colorpanel**](ui.colorpanel.html): colorchooser widget 
 
-[**ui.display**](ui.display.html): Display GUI object 
+[**ui.display**](ui.display.html): display widget 
 
-[**ui.dsp\~**](ui.dsp~.html): GUI for turning DSP on/off 
+[**ui.dsp\~**](ui.dsp~.html): widget to switch DSP on or off 
 
-[**ui.env**](ui.env.html): envelope editor widget 
+[**ui.env**](ui.env.html): envelope editor 
 
-[**ui.filter**](ui.filter.html): UI filter object calculator for biquad filter 
+[**ui.filter**](ui.filter.html): filter widget for calculating \[flt.biquad~\] coefficients 
 
-[**ui.filter\~**](ui.filter~.html): UI filter object based on biquad filter 
+[**ui.filter\~**](ui.filter~.html): sound filter widget 
 
-[**ui.gain2\~**](ui.gain2~.html): UI stereo gain control 
+[**ui.gain2\~**](ui.gain2~.html): stereo gain control 
 
-[**ui.gain\~**](ui.gain~.html): UI gain control 
+[**ui.gain\~**](ui.gain~.html): gain control 
 
 [**ui.icon**](ui.icon.html): simple icon with button capabilities 
 
-[**ui.incdec**](ui.incdec.html): value increment/decrement 
+[**ui.incdec**](ui.incdec.html): value increment or decrement widget 
 
 [**ui.keyboard**](ui.keyboard.html): keyboard widget 
 
@@ -2021,13 +2021,13 @@ graphical user interface objects
 
 [**ui.lcd**](ui.lcd.html): black and white bitmap display 
 
-[**ui.link**](ui.link.html): Hyperlink widget 
+[**ui.link**](ui.link.html): hyperlink widget 
 
-[**ui.matrix**](ui.matrix.html): The matrix of toggles has you. 
+[**ui.matrix**](ui.matrix.html): toggel matrix 
 
-[**ui.menu**](ui.menu.html): Dropdown menu 
+[**ui.menu**](ui.menu.html): dropdown menu 
 
-[**ui.meter\~**](ui.meter~.html): Shows peak and rms signal level 
+[**ui.meter\~**](ui.meter~.html): peak and RMS signal level 
 
 [**ui.midi**](ui.midi.html): incoming MIDI message viewport 
 
@@ -2035,29 +2035,29 @@ graphical user interface objects
 
 [**ui.mouse_route**](ui.mouse_route.html): routes mouse events from ui objects 
 
-[**ui.number**](ui.number.html): counterpart of the vanilla \[nbx\] 
+[**ui.number**](ui.number.html): number box 
 
-[**ui.number\~**](ui.number~.html): counterpart of the vanilla \[nbx\] for signal 
+[**ui.number\~**](ui.number~.html): number viewport for signals 
 
 [**ui.plot\~**](ui.plot~.html): signal plotter 
 
 [**ui.polar**](ui.polar.html): 2D slider in polar coordinates 
 
-[**ui.preset**](ui.preset.html): Preset manager 
+[**ui.preset**](ui.preset.html): preset manager 
 
-[**ui.radio**](ui.radio.html): counterpart of the vanilla radio toggle 
+[**ui.radio**](ui.radio.html): radio toggle with multiselect option 
 
-[**ui.rslider**](ui.rslider.html): range slider 
+[**ui.rslider**](ui.rslider.html): two range slider 
 
-[**ui.scope\~**](ui.scope~.html): Scope GUI object 
+[**ui.scope\~**](ui.scope~.html): waveform signal scope widget 
 
-[**ui.slider**](ui.slider.html): counterpart of the vanilla slider 
+[**ui.slider**](ui.slider.html): slider widget 
 
 [**ui.slider2d**](ui.slider2d.html): 2D slider widget 
 
-[**ui.sliders**](ui.sliders.html): Multiple slider widget 
+[**ui.sliders**](ui.sliders.html): multiple slider widget 
 
-[**ui.spectroscope\~**](ui.spectroscope~.html): Spectroscope GUI object 
+[**ui.spectroscope\~**](ui.spectroscope~.html): spectroscope widget 
 
 [**ui.tab**](ui.tab.html): displays a list of text buttons or text toggles 
 

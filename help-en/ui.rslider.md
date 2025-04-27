@@ -5,7 +5,7 @@
 **aliases:** [ui.rsl]
 
 
-###### range slider
+###### two range slider
 
 *available since version:* 0.1
 

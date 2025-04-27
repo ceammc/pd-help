@@ -3,7 +3,7 @@
 
 # ui.aview
 
-###### array view with cursor and selection
+###### array view with cursor and range selection
 
 *available since version:* 0.6
 

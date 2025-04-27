@@ -6,7 +6,7 @@ layout: default_ru
 
 # flow.append
 
-###### append message to flow stream
+###### добавляет сообщение в поток
 
 *доступно с версии:* 0.9
 

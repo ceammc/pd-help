@@ -6,49 +6,49 @@
 graphical user interface objects
 
 
-[**ui.aview**](ui.aview.html): array view with cursor and selection 
+[**ui.aview**](ui.aview.html): array view with cursor and range selection 
 
-[**ui.bang**](ui.bang.html): A bang... that&#39;s all <br>
+[**ui.bang**](ui.bang.html): a button that sends an empty event (bang) <br>
 _aliases:_ \[ui.b\]
 
 
-[**ui.button**](ui.button.html): button widget <br>
+[**ui.button**](ui.button.html): on/off button widget <br>
 _aliases:_ \[ui.btn\]
 
 
-[**ui.canvas**](ui.canvas.html): UI canvas for drawing <br>
+[**ui.canvas**](ui.canvas.html): canvas for drawing <br>
 _aliases:_ \[ui.cnv\]
 
 
-[**ui.cmeter\~**](ui.cmeter~.html): Multichannel circular peak and rms signal meter <br>
+[**ui.cmeter\~**](ui.cmeter~.html): multichannel circular signal meter <br>
 _aliases:_ \[ui.cm\~\], \[hoa.2d.meter\~\]
 
 
 [**ui.colorpanel**](ui.colorpanel.html): colorchooser widget 
 
-[**ui.display**](ui.display.html): Display GUI object <br>
+[**ui.display**](ui.display.html): display widget <br>
 _aliases:_ \[ui.d\], \[ui.dt\]
 
 
-[**ui.dsp\~**](ui.dsp~.html): GUI for turning DSP on/off 
+[**ui.dsp\~**](ui.dsp~.html): widget to switch DSP on or off 
 
-[**ui.env**](ui.env.html): envelope editor widget 
+[**ui.env**](ui.env.html): envelope editor 
 
-[**ui.filter**](ui.filter.html): UI filter object calculator for biquad filter 
+[**ui.filter**](ui.filter.html): filter widget for calculating \[flt.biquad~\] coefficients 
 
-[**ui.filter\~**](ui.filter~.html): UI filter object based on biquad filter 
+[**ui.filter\~**](ui.filter~.html): sound filter widget 
 
-[**ui.gain2\~**](ui.gain2~.html): UI stereo gain control <br>
+[**ui.gain2\~**](ui.gain2~.html): stereo gain control <br>
 _aliases:_ \[ui.hgain2\~\], \[ui.vgain2\~\]
 
 
-[**ui.gain\~**](ui.gain~.html): UI gain control <br>
+[**ui.gain\~**](ui.gain~.html): gain control <br>
 _aliases:_ \[ui.hgain\~\], \[ui.vgain\~\]
 
 
 [**ui.icon**](ui.icon.html): simple icon with button capabilities 
 
-[**ui.incdec**](ui.incdec.html): value increment/decrement 
+[**ui.incdec**](ui.incdec.html): value increment or decrement widget 
 
 [**ui.keyboard**](ui.keyboard.html): keyboard widget <br>
 _aliases:_ \[ui.hk\], \[ui.vkeyboard\], \[ui.vk\]
@@ -62,13 +62,13 @@ _aliases:_ \[ui.k\]
 
 [**ui.lcd**](ui.lcd.html): black and white bitmap display 
 
-[**ui.link**](ui.link.html): Hyperlink widget 
+[**ui.link**](ui.link.html): hyperlink widget 
 
-[**ui.matrix**](ui.matrix.html): The matrix of toggles has you. 
+[**ui.matrix**](ui.matrix.html): toggel matrix 
 
-[**ui.menu**](ui.menu.html): Dropdown menu 
+[**ui.menu**](ui.menu.html): dropdown menu 
 
-[**ui.meter\~**](ui.meter~.html): Shows peak and rms signal level <br>
+[**ui.meter\~**](ui.meter~.html): peak and RMS signal level <br>
 _aliases:_ \[ui.m\~\], \[ui.hm\~\], \[ui.vm\~\]
 
 
@@ -82,11 +82,11 @@ _aliases:_ \[ui.mf\]
 _aliases:_ \[ui.mr\]
 
 
-[**ui.number**](ui.number.html): counterpart of the vanilla \[nbx\] <br>
+[**ui.number**](ui.number.html): number box <br>
 _aliases:_ \[ui.n\]
 
 
-[**ui.number\~**](ui.number~.html): counterpart of the vanilla \[nbx\] for signal <br>
+[**ui.number\~**](ui.number~.html): number viewport for signals <br>
 _aliases:_ \[ui.n\~\]
 
 
@@ -94,19 +94,19 @@ _aliases:_ \[ui.n\~\]
 
 [**ui.polar**](ui.polar.html): 2D slider in polar coordinates 
 
-[**ui.preset**](ui.preset.html): Preset manager 
+[**ui.preset**](ui.preset.html): preset manager 
 
-[**ui.radio**](ui.radio.html): counterpart of the vanilla radio toggle <br>
+[**ui.radio**](ui.radio.html): radio toggle with multiselect option <br>
 _aliases:_ \[ui.radio*\], \[ui.hrd\], \[ui.hrd*\], \[ui.vrd\], \[ui.vrd*\]
 
 
-[**ui.rslider**](ui.rslider.html): range slider <br>
+[**ui.rslider**](ui.rslider.html): two range slider <br>
 _aliases:_ \[ui.rsl\]
 
 
-[**ui.scope\~**](ui.scope~.html): Scope GUI object 
+[**ui.scope\~**](ui.scope~.html): waveform signal scope widget 
 
-[**ui.slider**](ui.slider.html): counterpart of the vanilla slider <br>
+[**ui.slider**](ui.slider.html): slider widget <br>
 _aliases:_ \[ui.hsl\], \[ui.vsl\]
 
 
@@ -114,11 +114,11 @@ _aliases:_ \[ui.hsl\], \[ui.vsl\]
 _aliases:_ \[ui.s2d\]
 
 
-[**ui.sliders**](ui.sliders.html): Multiple slider widget <br>
+[**ui.sliders**](ui.sliders.html): multiple slider widget <br>
 _aliases:_ \[ui.vsliders\]
 
 
-[**ui.spectroscope\~**](ui.spectroscope~.html): Spectroscope GUI object <br>
+[**ui.spectroscope\~**](ui.spectroscope~.html): spectroscope widget <br>
 _aliases:_ \[ui.ssc\~\]
 
 

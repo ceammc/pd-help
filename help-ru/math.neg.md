@@ -6,7 +6,7 @@ layout: default_ru
 
 # math.neg
 
-###### negate function
+###### отрицательная функция
 
 *доступно с версии:* 0.1
 

@@ -6,7 +6,7 @@ layout: default_ru
 
 # ui.preset
 
-###### Preset manager
+###### менеджер пресетов
 
 *доступно с версии:* 0.1
 

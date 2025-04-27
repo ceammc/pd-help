@@ -5,7 +5,7 @@
 **aliases:** [ceammc/lin-&gt;lin], [lin-&gt;lin], [ceammc/l-&gt;l], [l-&gt;l]
 
 
-###### convert from one linear range to another
+###### converts from the one linear range into another
 
 *available since version:* 0.1
 

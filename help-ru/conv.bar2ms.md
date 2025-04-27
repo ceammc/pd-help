@@ -6,7 +6,7 @@ layout: default_ru
 
 # conv.bar2ms
 
-###### calculate bar and beat duration
+###### вычисляет продолжительность такта и ударной доли
 
 *доступно с версии:* 0.9.7
 

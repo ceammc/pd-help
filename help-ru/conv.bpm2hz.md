@@ -6,7 +6,7 @@ layout: default_ru
 
 # conv.bpm2hz
 
-###### converts BPM to frequency in hertz
+###### преобразует темп BPM в частоту в герцах
 
 *доступно с версии:* 0.1
 

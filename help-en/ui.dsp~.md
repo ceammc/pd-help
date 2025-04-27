@@ -3,7 +3,7 @@
 
 # ui.dsp~
 
-###### GUI for turning DSP on/off
+###### widget to switch DSP on or off
 
 *available since version:* 0.1
 

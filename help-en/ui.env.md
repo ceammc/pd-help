@@ -3,7 +3,7 @@
 
 # ui.env
 
-###### envelope editor widget
+###### envelope editor
 
 *available since version:* 0.5
 

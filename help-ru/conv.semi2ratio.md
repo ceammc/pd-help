@@ -6,7 +6,7 @@ layout: default_ru
 
 # conv.semi2ratio
 
-###### convert interval in semitones to frequency ratio in 12-ET
+###### преобразует интервал в полутонах в частотное отношение в 12-ET
 
 *доступно с версии:* 0.9.7
 

@@ -5,7 +5,7 @@
 **aliases:** [ceammc/hex-&gt;int], [hex-&gt;int]
 
 
-###### hex symbol to int value
+###### converts hex symbol into a integer value
 
 *available since version:* 0.9.1
 

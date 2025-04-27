@@ -6,7 +6,7 @@ layout: default_ru
 
 # conv.pitch2midi
 
-###### converts symbol pitch name to MIDI note number
+###### преобразует ноту в формате SPN в номер ноты MIDI
 
 *доступно с версии:* 0.4
 

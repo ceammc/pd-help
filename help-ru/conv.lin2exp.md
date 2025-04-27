@@ -6,7 +6,7 @@ layout: default_ru
 
 # conv.lin2exp
 
-###### maps linear range to exponential range
+###### отображает линейный диапазон в экспоненциальный
 
 *доступно с версии:* 0.1
 

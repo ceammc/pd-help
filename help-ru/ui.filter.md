@@ -6,7 +6,7 @@ layout: default_ru
 
 # ui.filter
 
-###### UI filter object calculator for biquad filter
+###### виджет-калькулятор коэффициентов для фильтра \[flt.biquad~\]
 
 *доступно с версии:* 0.9.2
 

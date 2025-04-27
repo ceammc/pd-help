@@ -6,7 +6,7 @@ layout: default_ru
 
 # conv.samp2sec
 
-###### convert samples to time according to samplerate
+###### преобразовывает семплы в секунды в соответствии со скоростью семплирования
 
 *доступно с версии:* 0.2
 

@@ -6,7 +6,7 @@ layout: default_ru
 
 # conv.str2sec
 
-###### converts formatted time to float value in seconds
+###### преобразует отформатированное время в числовое значение в секундах
 
 *доступно с версии:* 0.1
 

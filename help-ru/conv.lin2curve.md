@@ -6,7 +6,7 @@ layout: default_ru
 
 # conv.lin2curve
 
-###### map linear to exponential range with 0 allowed.
+###### отображает линейный диапазон в экспоненциальный с разрешенным 0
 
 *доступно с версии:* 0.1
 

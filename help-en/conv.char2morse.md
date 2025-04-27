@@ -5,7 +5,7 @@
 **aliases:** [ceammc/char-&gt;morse], [char-&gt;morse]
 
 
-###### convert character to morse code
+###### converts the single character into the Morse code
 
 *available since version:* 0.9.7
 
@@ -36,7 +36,7 @@ _default:_ 0<br>
 
 ## inlets:
 
-* single characted<br>
+* single character<br>
 _type:_ control
 
 

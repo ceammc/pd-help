@@ -5,7 +5,7 @@
 **aliases:** [ui.vsliders]
 
 
-###### Multiple slider widget
+###### multiple slider widget
 
 *available since version:* 0.1
 

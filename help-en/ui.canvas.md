@@ -5,7 +5,7 @@
 **aliases:** [ui.cnv]
 
 
-###### UI canvas for drawing
+###### canvas for drawing
 
 *available since version:* 0.9.7
 

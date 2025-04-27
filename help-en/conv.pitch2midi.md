@@ -5,7 +5,7 @@
 **aliases:** [ceammc/pitch-&gt;midi], [pitch-&gt;midi]
 
 
-###### converts symbol pitch name to MIDI note number
+###### converts SPN pitch to MIDI note number
 
 *available since version:* 0.4
 

@@ -5,7 +5,7 @@
 **aliases:** [ceammc/ms-&gt;str], [ms-&gt;str]
 
 
-###### converts float time in milliseconds to formated symbol (or string)
+###### formats time in milliseconds to symbol or string
 
 *available since version:* 0.9.7
 

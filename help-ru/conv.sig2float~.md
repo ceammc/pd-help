@@ -6,7 +6,7 @@ layout: default_ru
 
 # conv.sig2float~
 
-###### convert signal to floats
+###### преобразует аудиосигнал в управляющий числовой поток
 
 *доступно с версии:* 0.9.2
 

@@ -6,7 +6,7 @@ layout: default_ru
 
 # conv.rgb2hex
 
-###### convert separate RGB values to hex color
+###### преобразование отдельных значений RGB в шестнадцатеричный цвет
 
 *доступно с версии:* 0.9.7
 

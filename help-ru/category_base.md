@@ -20,7 +20,7 @@ _псевдонимы:_ \[ceammc/bitmap\]
 _псевдонимы:_ \[ceammc/datetime\], \[datetime\]
 
 
-[**convolve~**](convolve~.html): realtime FFT convolution <br>
+[**convolve~**](convolve~.html): свёртка FFT в реальном времени <br>
 _псевдонимы:_ \[ceammc/convolve~\]
 
 

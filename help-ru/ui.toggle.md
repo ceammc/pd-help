@@ -6,7 +6,7 @@ layout: default_ru
 
 # ui.toggle
 
-###### modern toggle widget
+###### cовременный виджет переключателя
 
 *доступно с версии:* 0.1
 

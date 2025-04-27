@@ -3,7 +3,7 @@
 
 # ui.menu
 
-###### Dropdown menu
+###### dropdown menu
 
 *available since version:* 0.1
 

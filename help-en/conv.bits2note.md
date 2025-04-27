@@ -5,7 +5,7 @@
 **aliases:** [ceammc/bits-&gt;note], [bits-&gt;note]
 
 
-###### convert list of bits to note events
+###### convert list of bits into note, velocity pairs
 
 *available since version:* 0.9.2
 

@@ -54,7 +54,7 @@ _псевдонимы:_ \[array.rw~\]
 _псевдонимы:_ \[array.r\]
 
 
-[**array.rms**](array.rms.html): вычисляет среднее квадратное значение для массива 
+[**array.rms**](array.rms.html): вычисляет среднее квадратичное значение для массива 
 
 [**array.set**](array.set.html): устанавливает содержание массива данными из списка <br>
 _псевдонимы:_ \[ceammc/list-&gt;array\], \[list-&gt;array\]
@@ -72,9 +72,9 @@ _псевдонимы:_ \[ceammc/list-&gt;array\], \[list-&gt;array\]
 
 [**array.variance**](array.variance.html): вычисляет дисперсию значений массива 
 
-[**array.vplay**](array.vplay.html): простой плеер массивов для использования с объектом vline~ 
+[**array.vplay**](array.vplay.html): простой плеер массивов для использования с объектом \[vline~\] 
 
-[**array.window**](array.window.html): заполенение массива оконной функцией 
+[**array.window**](array.window.html): заполнение массива оконной функцией 
 
 [**plot.geomspace~**](plot.geomspace~.html): outputs numbers spaced evenly on a log scale (a geometric progression) 
 

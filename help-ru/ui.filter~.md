@@ -6,7 +6,7 @@ layout: default_ru
 
 # ui.filter~
 
-###### UI filter object based on biquad filter
+###### виджет звукового фильтра
 
 *доступно с версии:* 0.9.3
 

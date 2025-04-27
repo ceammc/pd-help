@@ -3,7 +3,7 @@
 
 # ui.filter~
 
-###### UI filter object based on biquad filter
+###### sound filter widget
 
 *available since version:* 0.9.3
 

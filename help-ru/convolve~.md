@@ -6,7 +6,7 @@ layout: default_ru
 
 # convolve~
 
-###### realtime FFT convolution
+###### свёртка FFT в реальном времени
 
 *доступно с версии:* 0.9.7
 

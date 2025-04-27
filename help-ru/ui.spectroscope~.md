@@ -6,7 +6,7 @@ layout: default_ru
 
 # ui.spectroscope~
 
-###### Spectroscope GUI object
+###### виджет просмотрщика спектра
 
 *доступно с версии:* 0.1
 

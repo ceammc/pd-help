@@ -5,7 +5,7 @@
 **aliases:** [ceammc/phase-&gt;rad], [phase-&gt;rad]
 
 
-###### convert phase value \[0-1\] to radians \[0-2π\]
+###### converts phase value \[0-1\] to radians \[0-2π\]
 
 *available since version:* 0.8
 

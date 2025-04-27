@@ -6,7 +6,7 @@ layout: default_ru
 
 # conv.sec2str
 
-###### converts float time in seconds to formated symbol (or string)
+###### форматирует время в секундах в символ или строку
 
 *доступно с версии:* 0.1
 

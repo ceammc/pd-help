@@ -5,7 +5,7 @@
 **aliases:** [ui.b]
 
 
-###### A bang... that&#39;s all
+###### a button that sends an empty event (bang)
 
 *available since version:* 0.1
 

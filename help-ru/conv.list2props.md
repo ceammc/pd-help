@@ -6,7 +6,7 @@ layout: default_ru
 
 # conv.list2props
 
-###### converts list to series of property messages
+###### преобразует список в серию свойств-сообщений
 
 *доступно с версии:* 0.7
 

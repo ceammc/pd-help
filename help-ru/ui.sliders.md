@@ -6,7 +6,7 @@ layout: default_ru
 
 # ui.sliders
 
-###### Multiple slider widget
+###### виджет многоползункового слайдера
 
 *доступно с версии:* 0.1
 

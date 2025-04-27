@@ -6,7 +6,7 @@ layout: default_ru
 
 # conv.int2bits
 
-###### convert integer to list of bits
+###### конвертировать целое число в список битов
 
 *доступно с версии:* 0.9.1
 

@@ -6,7 +6,7 @@ layout: default_ru
 
 # conv.pol2car
 
-###### convert from polar coordinates to cartesian
+###### преобразование из полярных координат в картезианские
 
 *доступно с версии:* 0.8
 

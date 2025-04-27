@@ -6,7 +6,7 @@ layout: default_ru
 
 # ui.colorpanel
 
-###### colorchooser widget
+###### виджет выбора цвета
 
 *доступно с версии:* 0.1
 

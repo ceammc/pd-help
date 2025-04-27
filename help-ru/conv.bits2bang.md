@@ -6,7 +6,7 @@ layout: default_ru
 
 # conv.bits2bang
 
-###### convert list of bits to bang events
+###### конвертирует список битов в пустые события
 
 *доступно с версии:* 0.9.2
 

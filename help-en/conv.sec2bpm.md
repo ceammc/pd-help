@@ -5,7 +5,7 @@
 **aliases:** [ceammc/sec-&gt;bpm], [sec-&gt;bpm]
 
 
-###### convert period in seconds to frequency in BPM
+###### converts period in seconds to frequency in BPM
 
 *available since version:* 0.9.1
 

@@ -6,7 +6,7 @@ layout: default_ru
 
 # ui.lcd
 
-###### black and white bitmap display
+###### черно-белый растровый дисплей
 
 *доступно с версии:* 0.9.7
 

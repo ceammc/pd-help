@@ -6,7 +6,7 @@ layout: default_ru
 
 # ui.tab
 
-###### displays a list of text buttons or text toggles
+###### список текстовых кнопок или текстовых переключателей
 
 *доступно с версии:* 0.1
 

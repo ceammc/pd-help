@@ -6,7 +6,7 @@ layout: default_ru
 
 # ui.keyboard
 
-###### keyboard widget
+###### виджет клавиатуры
 
 *доступно с версии:* 0.1
 

@@ -14,15 +14,15 @@ _aliases:_ \[array.p-&gt;s\], \[array.phase-&gt;sample\]
 _aliases:_ \[array.s-&gt;p\], \[array.sample-&gt;phase\]
 
 
-[**conv.amp2dbfs**](conv.amp2dbfs.html): convert from amplitude to decibel full scale <br>
+[**conv.amp2dbfs**](conv.amp2dbfs.html): convert from the amplitude to a decibel full scale <br>
 _aliases:_ \[ceammc/amp-&gt;dbfs\], \[amp-&gt;dbfs\]
 
 
-[**conv.amp2dbfs\~**](conv.amp2dbfs~.html): convert from amplitude to decibel full scale <br>
+[**conv.amp2dbfs\~**](conv.amp2dbfs~.html): convert from the amplitude to a decibel full scale <br>
 _aliases:_ \[ceammc/amp-&gt;dbfs\~\], \[amp-&gt;dbfs\~\]
 
 
-[**conv.bar2ms**](conv.bar2ms.html): calculate bar and beat duration <br>
+[**conv.bar2ms**](conv.bar2ms.html): calculates bar and beat duration <br>
 _aliases:_ \[ceammc/bar-&gt;ms\], \[bar-&gt;ms\]
 
 
@@ -34,39 +34,39 @@ _aliases:_ \[ceammc/bits-&gt;bang\], \[bits-&gt;bang\]
 _aliases:_ \[ceammc/bits-&gt;int\], \[bits-&gt;int\]
 
 
-[**conv.bits2note**](conv.bits2note.html): convert list of bits to note events <br>
+[**conv.bits2note**](conv.bits2note.html): convert list of bits into note, velocity pairs <br>
 _aliases:_ \[ceammc/bits-&gt;note\], \[bits-&gt;note\]
 
 
-[**conv.bits2pos**](conv.bits2pos.html): convert list of bits to list of bit position <br>
+[**conv.bits2pos**](conv.bits2pos.html): converts the list of bits into the list of checked bit position <br>
 _aliases:_ \[ceammc/bits-&gt;pos\], \[bits-&gt;pos\]
 
 
-[**conv.bpm2hz**](conv.bpm2hz.html): converts BPM to frequency in hertz <br>
+[**conv.bpm2hz**](conv.bpm2hz.html): converts BPM tempo into a frequency in hertz <br>
 _aliases:_ \[ceammc/bpm-&gt;hz\], \[bpm-&gt;hz\]
 
 
-[**conv.bpm2ms**](conv.bpm2ms.html): convert frequency in BPM to period in milliseconds <br>
+[**conv.bpm2ms**](conv.bpm2ms.html): converts the BPM tempo into a beat period in milliseconds <br>
 _aliases:_ \[ceammc/bpm-&gt;ms\], \[bpm-&gt;ms\]
 
 
-[**conv.bpm2sec**](conv.bpm2sec.html): convert frequency in BPM to period in seconds <br>
+[**conv.bpm2sec**](conv.bpm2sec.html): converts the BPM tempo into a period in seconds <br>
 _aliases:_ \[ceammc/bpm-&gt;sec\], \[bpm-&gt;sec\]
 
 
-[**conv.car2pol**](conv.car2pol.html): convert cartesian coords to polar <br>
+[**conv.car2pol**](conv.car2pol.html): converts cartesian coords to polar <br>
 _aliases:_ \[ceammc/car-&gt;pol\], \[car-&gt;pol\]
 
 
-[**conv.cc2amp**](conv.cc2amp.html): convert from MIDI Control Change range <br>
+[**conv.cc2amp**](conv.cc2amp.html): converts from MIDI Control Change range <br>
 _aliases:_ \[ceammc/cc-&gt;amp\], \[cc-&gt;amp\]
 
 
-[**conv.char2morse**](conv.char2morse.html): convert character to morse code <br>
+[**conv.char2morse**](conv.char2morse.html): converts the single character into the Morse code <br>
 _aliases:_ \[ceammc/char-&gt;morse\], \[char-&gt;morse\]
 
 
-[**conv.color2rgba**](conv.color2rgba.html): convert named or hex color to separate RGBA values <br>
+[**conv.color2rgba**](conv.color2rgba.html): converts the named or hex color into separate RGBA values <br>
 _aliases:_ \[ceammc/color-&gt;rgba\], \[color-&gt;rgba\]
 
 
@@ -78,7 +78,7 @@ _aliases:_ \[ceammc/dbfs-&gt;amp\], \[dbfs-&gt;amp\]
 _aliases:_ \[ceammc/dbfs-&gt;amp\~\], \[dbfs-&gt;amp\~\]
 
 
-[**conv.degree2key**](conv.degree2key.html): convert scale degree to key <br>
+[**conv.degree2key**](conv.degree2key.html): converts the scale degree into a key number <br>
 _aliases:_ \[ceammc/degree-&gt;key\], \[degree-&gt;key\]
 
 
@@ -86,11 +86,11 @@ _aliases:_ \[ceammc/degree-&gt;key\], \[degree-&gt;key\]
 _aliases:_ \[ceammc/edge-&gt;bang\], \[edge-&gt;bang\]
 
 
-[**conv.guido2note**](conv.guido2note.html): convert Guido notation into MIDI and duration <br>
+[**conv.guido2note**](conv.guido2note.html): convert the Guido notation into a MIDI pitch and duration <br>
 _aliases:_ \[ceammc/guido-&gt;note\], \[guido-&gt;note\]
 
 
-[**conv.hex2int**](conv.hex2int.html): hex symbol to int value <br>
+[**conv.hex2int**](conv.hex2int.html): converts hex symbol into a integer value <br>
 _aliases:_ \[ceammc/hex-&gt;int\], \[hex-&gt;int\]
 
 
@@ -106,7 +106,7 @@ _aliases:_ \[ceammc/int-&gt;bits\], \[int-&gt;bits\]
 _aliases:_ \[ceammc/lab-&gt;rgb\], \[lab-&gt;rgb\]
 
 
-[**conv.lin2curve**](conv.lin2curve.html): map linear to exponential range with 0 allowed. <br>
+[**conv.lin2curve**](conv.lin2curve.html): map linear to exponential range with 0 allowed <br>
 _aliases:_ \[ceammc/lin-&gt;curve\], \[lin-&gt;curve\]
 
 
@@ -114,11 +114,11 @@ _aliases:_ \[ceammc/lin-&gt;curve\], \[lin-&gt;curve\]
 _aliases:_ \[ceammc/lin-&gt;exp\], \[lin-&gt;exp\]
 
 
-[**conv.lin2lin**](conv.lin2lin.html): convert from one linear range to another <br>
+[**conv.lin2lin**](conv.lin2lin.html): converts from the one linear range into another <br>
 _aliases:_ \[ceammc/lin-&gt;lin\], \[lin-&gt;lin\], \[ceammc/l-&gt;l\], \[l-&gt;l\]
 
 
-[**conv.lin2lin\~**](conv.lin2lin~.html): convert from one linear range to another for signals <br>
+[**conv.lin2lin\~**](conv.lin2lin~.html): converts from the one linear range to another for signals <br>
 _aliases:_ \[ceammc/lin-&gt;lin\~\], \[lin-&gt;lin\~\], \[ceammc/l-&gt;l\~\], \[l-&gt;l\~\]
 
 
@@ -126,11 +126,11 @@ _aliases:_ \[ceammc/lin-&gt;lin\~\], \[lin-&gt;lin\~\], \[ceammc/l-&gt;l\~\], \[
 _aliases:_ \[ceammc/list-&gt;props\], \[list-&gt;props\], \[ceammc/any-&gt;props\], \[any-&gt;props\]
 
 
-[**conv.midi2freq**](conv.midi2freq.html): convert from midi pitch to frequency in hz (with various base A and temperament) <br>
+[**conv.midi2freq**](conv.midi2freq.html): advanced MIDI pitch conversion to a frequency <br>
 _aliases:_ \[ceammc/midi-&gt;freq\], \[midi-&gt;freq\], \[ceammc/m-&gt;f\], \[m-&gt;f\]
 
 
-[**conv.ms2bpm**](conv.ms2bpm.html): convert period in milliseconds to frequency in BPM <br>
+[**conv.ms2bpm**](conv.ms2bpm.html): converts period in milliseconds to BPM tempo <br>
 _aliases:_ \[ceammc/ms-&gt;bpm\], \[ms-&gt;bpm\]
 
 
@@ -142,15 +142,15 @@ _aliases:_ \[ceammc/ms-&gt;samp\], \[ms-&gt;samp\]
 _aliases:_ \[ceammc/ms-&gt;samp\~\], \[ms-&gt;samp\~\]
 
 
-[**conv.ms2str**](conv.ms2str.html): converts float time in milliseconds to formated symbol (or string) <br>
+[**conv.ms2str**](conv.ms2str.html): formats time in milliseconds to symbol or string <br>
 _aliases:_ \[ceammc/ms-&gt;str\], \[ms-&gt;str\]
 
 
-[**conv.note2guido**](conv.note2guido.html): convert MIDI note to Guido notation <br>
+[**conv.note2guido**](conv.note2guido.html): converts MIDI note number to Guido notation <br>
 _aliases:_ \[ceammc/note-&gt;guido\], \[note-&gt;guido\]
 
 
-[**conv.phase2rad**](conv.phase2rad.html): convert phase value \[0-1\] to radians \[0-2π\] <br>
+[**conv.phase2rad**](conv.phase2rad.html): converts phase value \[0-1\] to radians \[0-2π\] <br>
 _aliases:_ \[ceammc/phase-&gt;rad\], \[phase-&gt;rad\]
 
 
@@ -158,7 +158,7 @@ _aliases:_ \[ceammc/phase-&gt;rad\], \[phase-&gt;rad\]
 _aliases:_ \[ceammc/phase-&gt;rad\~\], \[phase-&gt;rad\~\]
 
 
-[**conv.pitch2midi**](conv.pitch2midi.html): converts symbol pitch name to MIDI note number <br>
+[**conv.pitch2midi**](conv.pitch2midi.html): converts SPN pitch to MIDI note number <br>
 _aliases:_ \[ceammc/pitch-&gt;midi\], \[pitch-&gt;midi\]
 
 
@@ -166,11 +166,11 @@ _aliases:_ \[ceammc/pitch-&gt;midi\], \[pitch-&gt;midi\]
 _aliases:_ \[ceammc/pol-&gt;car\], \[pol-&gt;car\]
 
 
-[**conv.rad2phase**](conv.rad2phase.html): convert radians value to phase <br>
+[**conv.rad2phase**](conv.rad2phase.html): convert radians value to phase \[0-1) <br>
 _aliases:_ \[ceammc/rad-&gt;phase\], \[rad-&gt;phase\]
 
 
-[**conv.rad2phase\~**](conv.rad2phase~.html): convert radians value to phase <br>
+[**conv.rad2phase\~**](conv.rad2phase~.html): convert radians value to phase \[0-1) <br>
 _aliases:_ \[ceammc/rad-&gt;phase\~\], \[rad-&gt;phase\~\]
 
 
@@ -178,39 +178,39 @@ _aliases:_ \[ceammc/rad-&gt;phase\~\], \[rad-&gt;phase\~\]
 _aliases:_ \[ceammc/rgb-&gt;hex\], \[rgb-&gt;hex\]
 
 
-[**conv.samp2ms**](conv.samp2ms.html): convert samples to time according to samplerate <br>
+[**conv.samp2ms**](conv.samp2ms.html): converts samples to millisecond according samplerate <br>
 _aliases:_ \[ceammc/samp-&gt;ms\], \[samp-&gt;ms\]
 
 
-[**conv.samp2ms\~**](conv.samp2ms~.html): convert samples to milliseconds according to samplerate <br>
+[**conv.samp2ms\~**](conv.samp2ms~.html): converts samples to milliseconds according to samplerate <br>
 _aliases:_ \[ceammc/samp-&gt;ms\~\], \[samp-&gt;ms\~\]
 
 
-[**conv.samp2sec**](conv.samp2sec.html): convert samples to time according to samplerate <br>
+[**conv.samp2sec**](conv.samp2sec.html): convert samples to seconds according to samplerate <br>
 _aliases:_ \[ceammc/samp-&gt;sec\], \[samp-&gt;sec\]
 
 
-[**conv.sec2bpm**](conv.sec2bpm.html): convert period in seconds to frequency in BPM <br>
+[**conv.sec2bpm**](conv.sec2bpm.html): converts period in seconds to frequency in BPM <br>
 _aliases:_ \[ceammc/sec-&gt;bpm\], \[sec-&gt;bpm\]
 
 
-[**conv.sec2samp**](conv.sec2samp.html): convert time in seconds to number of samples according to current samplerate <br>
+[**conv.sec2samp**](conv.sec2samp.html): converts time in seconds to number of samples according to current samplerate <br>
 _aliases:_ \[ceammc/sec-&gt;samp\], \[sec-&gt;samp\]
 
 
-[**conv.sec2str**](conv.sec2str.html): converts float time in seconds to formated symbol (or string) <br>
+[**conv.sec2str**](conv.sec2str.html): formats time in seconds to symbol or string <br>
 _aliases:_ \[ceammc/sec-&gt;str\], \[sec-&gt;str\]
 
 
-[**conv.semi2ratio**](conv.semi2ratio.html): convert interval in semitones to frequency ratio in 12-ET <br>
+[**conv.semi2ratio**](conv.semi2ratio.html): converts interval in semitones to frequency ratio in 12-ET <br>
 _aliases:_ \[ceammc/semi-&gt;ratio\], \[semi-&gt;ratio\]
 
 
-[**conv.sig2float\~**](conv.sig2float~.html): convert signal to floats <br>
+[**conv.sig2float\~**](conv.sig2float~.html): converts audiosignal to control numeric stream <br>
 _aliases:_ \[ceammc/sig-&gt;float\~\], \[sig-&gt;float\~\], \[ceammc/s-&gt;f\~\], \[s-&gt;f\~\]
 
 
-[**conv.str2sec**](conv.str2sec.html): converts formatted time to float value in seconds <br>
+[**conv.str2sec**](conv.str2sec.html): converts the formatted time to a float value in seconds <br>
 _aliases:_ \[ceammc/str-&gt;sec\], \[str-&gt;sec\]
 
 

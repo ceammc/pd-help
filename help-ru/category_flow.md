@@ -14,7 +14,7 @@ layout: default_ru
 _псевдонимы:_ \[ceammc/expand_env\]
 
 
-[**flow.append**](flow.append.html): append message to flow stream 
+[**flow.append**](flow.append.html): добавляет сообщение в поток 
 
 [**flow.change**](flow.change.html): удаляет повторяющиеся сообщения 
 

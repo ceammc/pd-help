@@ -5,7 +5,7 @@
 **aliases:** [ceammc/car-&gt;pol], [car-&gt;pol]
 
 
-###### convert cartesian coords to polar
+###### converts cartesian coords to polar
 
 *available since version:* 0.8
 

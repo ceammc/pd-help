@@ -6,7 +6,7 @@ layout: default_ru
 
 # conv.bits2note
 
-###### convert list of bits to note events
+###### конвертирует список битов в пары: номер ноты, сила нажания
 
 *доступно с версии:* 0.9.2
 

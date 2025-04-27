@@ -6,7 +6,7 @@ layout: default_ru
 
 # ui.label
 
-###### simple label widget
+###### простой виджет надписи
 
 *доступно с версии:* 0.5
 

@@ -6,7 +6,7 @@ layout: default_ru
 
 # conv.lin2lin
 
-###### convert from one linear range to another
+###### отображает один линейный диапазон в другой
 
 *доступно с версии:* 0.1
 

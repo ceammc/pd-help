@@ -6,7 +6,7 @@
 predicate objects. Checks message or data types, returns 1 or 0.
 
 
-[**is_any**](is_any.html): checks if input data has *any* type 
+[**is_any**](is_any.html): checks if the input has a general message type 
 
 [**is_bang**](is_bang.html): checks if the input is a *bang* 
 

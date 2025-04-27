@@ -10,7 +10,7 @@ layout: default_ru
 фильтры
 
 
-[**flt.a-weight**](flt.a-weight.html): convert frequency to A-weight value 
+[**flt.a-weight**](flt.a-weight.html): вычисляет А-взвешенное значение для данной частоты 
 
 [**flt.biquad~**](flt.biquad~.html): БИХ фильтр второго порядка 
 
@@ -60,7 +60,7 @@ _псевдонимы:_ \[ceammc/pole-&gt;biquad\], \[pole-&gt;biquad\]
 
 [**flt.dcblock~**](flt.dcblock~.html): одноканальный фильтр, блокирующий постоянную составляющую сигнала 
 
-[**flt.eq10~**](flt.eq10~.html): графический 10-полосный эквалайзер  
+[**flt.eq10~**](flt.eq10~.html): графический 10-полосный эквалайзер 
 
 [**flt.eq_peak_cq~**](flt.eq_peak_cq~.html): секция эквалайзера: пиковый фильтр второго порядка c constant-Q 
 

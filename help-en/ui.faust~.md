@@ -3,7 +3,7 @@
 
 # ui.faust~
 
-###### faust compiled ui object
+###### Faust DSP programming language widget
 
 *available since version:* 0.9.2
 

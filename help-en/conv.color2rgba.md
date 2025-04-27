@@ -5,7 +5,7 @@
 **aliases:** [ceammc/color-&gt;rgba], [color-&gt;rgba]
 
 
-###### convert named or hex color to separate RGBA values
+###### converts the named or hex color into separate RGBA values
 
 *available since version:* 0.9.7
 

@@ -6,7 +6,7 @@ layout: default_ru
 
 # conv.samp2ms~
 
-###### convert samples to milliseconds according to samplerate
+###### преобразовывает семплы в миллисекунды в соответствии со скоростью семплирования
 
 *доступно с версии:* 0.9
 

@@ -5,7 +5,7 @@
 **aliases:** [ceammc/guido-&gt;note], [guido-&gt;note]
 
 
-###### convert Guido notation into MIDI and duration
+###### convert the Guido notation into a MIDI pitch and duration
 
 *available since version:* 0.9.8
 

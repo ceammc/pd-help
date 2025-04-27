@@ -6,7 +6,7 @@ layout: default_ru
 
 # ui.incdec
 
-###### value increment/decrement
+###### виджет увеличения или уменьшения значения
 
 *доступно с версии:* 0.1
 

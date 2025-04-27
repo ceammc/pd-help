@@ -6,7 +6,7 @@ layout: default_ru
 
 # math.cabs~
 
-###### magnitude of a complex signals
+###### абсолютное значение комплексного сигнала
 
 *доступно с версии:* 0.9
 

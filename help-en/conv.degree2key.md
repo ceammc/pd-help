@@ -5,7 +5,7 @@
 **aliases:** [ceammc/degree-&gt;key], [degree-&gt;key]
 
 
-###### convert scale degree to key
+###### converts the scale degree into a key number
 
 *available since version:* 0.9.1
 

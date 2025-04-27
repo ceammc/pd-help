@@ -6,7 +6,7 @@ layout: default_ru
 
 # ui.env
 
-###### envelope editor widget
+###### редактор огибающей
 
 *доступно с версии:* 0.5
 

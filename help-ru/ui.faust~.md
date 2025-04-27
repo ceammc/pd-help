@@ -6,7 +6,7 @@ layout: default_ru
 
 # ui.faust~
 
-###### faust compiled ui object
+###### виджет языка программирования Faust
 
 *доступно с версии:* 0.9.2
 

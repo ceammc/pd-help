@@ -6,7 +6,7 @@ layout: default_ru
 
 # ui.canvas
 
-###### UI canvas for drawing
+###### холст для рисования
 
 *доступно с версии:* 0.9.7
 

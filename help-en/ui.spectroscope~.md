@@ -5,7 +5,7 @@
 **aliases:** [ui.ssc\~]
 
 
-###### Spectroscope GUI object
+###### spectroscope widget
 
 *available since version:* 0.1
 

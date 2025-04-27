@@ -10,7 +10,7 @@
 
 [**lang.lua**](lang.lua.html): Lua JIT language bindings 
 
-[**ui.faust\~**](ui.faust~.html): faust compiled ui object 
+[**ui.faust\~**](ui.faust~.html): Faust DSP programming language widget 
 
 
 **Version:** 0.9.8

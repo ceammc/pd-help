@@ -5,7 +5,7 @@
 **aliases:** [ceammc/lin-&gt;curve], [lin-&gt;curve]
 
 
-###### map linear to exponential range with 0 allowed.
+###### map linear to exponential range with 0 allowed
 
 *available since version:* 0.1
 

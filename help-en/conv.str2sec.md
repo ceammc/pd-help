@@ -5,7 +5,7 @@
 **aliases:** [ceammc/str-&gt;sec], [str-&gt;sec]
 
 
-###### converts formatted time to float value in seconds
+###### converts the formatted time to a float value in seconds
 
 *available since version:* 0.1
 

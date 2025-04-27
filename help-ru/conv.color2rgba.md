@@ -6,7 +6,7 @@ layout: default_ru
 
 # conv.color2rgba
 
-###### convert named or hex color to separate RGBA values
+###### преобразует именованный или шестнадцатеричный цвет в отдельные значения RGBA
 
 *доступно с версии:* 0.9.7
 

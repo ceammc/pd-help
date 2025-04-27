@@ -6,7 +6,7 @@ layout: default_ru
 
 # ui.scope~
 
-###### Scope GUI object
+###### виджет просмотра формы волны
 
 *доступно с версии:* 0.1
 

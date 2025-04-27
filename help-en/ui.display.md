@@ -5,7 +5,7 @@
 **aliases:** [ui.d], [ui.dt]
 
 
-###### Display GUI object
+###### display widget
 
 *available since version:* 0.1
 

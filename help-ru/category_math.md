@@ -50,7 +50,7 @@ _псевдонимы:_ \[ceammc/approx\], \[approx\]
 _псевдонимы:_ \[math.nck\]
 
 
-[**math.cabs~**](math.cabs~.html): magnitude of a complex signals <br>
+[**math.cabs~**](math.cabs~.html): абсолютное значение комплексного сигнала <br>
 _псевдонимы:_ \[ceammc/cabs~\], \[cabs~\]
 
 
@@ -146,7 +146,7 @@ _псевдонимы:_ \[math.*\]
 
 [**math.nan~**](math.nan~.html): сигнал NaNN 
 
-[**math.neg**](math.neg.html): negate function <br>
+[**math.neg**](math.neg.html): отрицательная функция <br>
 _псевдонимы:_ \[ceammc/-x\], \[-x\]
 
 

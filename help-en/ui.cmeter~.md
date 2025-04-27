@@ -5,7 +5,7 @@
 **aliases:** [ui.cm\~], [hoa.2d.meter\~]
 
 
-###### Multichannel circular peak and rms signal meter
+###### multichannel circular signal meter
 
 *available since version:* 0.9.7
 

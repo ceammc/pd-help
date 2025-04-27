@@ -5,7 +5,7 @@
 **aliases:** [ui.n]
 
 
-###### counterpart of the vanilla \[nbx\]
+###### number box
 
 *available since version:* 0.1
 

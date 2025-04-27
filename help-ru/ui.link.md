@@ -6,7 +6,7 @@ layout: default_ru
 
 # ui.link
 
-###### Hyperlink widget
+###### виджет гиперссылки
 
 *доступно с версии:* 0.1
 

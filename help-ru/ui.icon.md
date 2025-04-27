@@ -6,7 +6,7 @@ layout: default_ru
 
 # ui.icon
 
-###### simple icon with button capabilities
+###### простая иконка с возможностями нажатия
 
 *доступно с версии:* 0.5
 

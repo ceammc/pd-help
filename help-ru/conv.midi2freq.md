@@ -6,7 +6,7 @@ layout: default_ru
 
 # conv.midi2freq
 
-###### convert from midi pitch to frequency in hz (with various base A and temperament)
+###### продвинутое преобразование MIDI нот в частоту в Гц
 
 *доступно с версии:* 0.6
 

@@ -5,7 +5,7 @@
 **aliases:** [ceammc/sec-&gt;str], [sec-&gt;str]
 
 
-###### converts float time in seconds to formated symbol (or string)
+###### formats time in seconds to symbol or string
 
 *available since version:* 0.1
 

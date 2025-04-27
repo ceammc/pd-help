@@ -6,7 +6,7 @@ layout: default_ru
 
 # conv.note2guido
 
-###### convert MIDI note to Guido notation
+###### преобразует MIDI ноту в Guido-нотацию
 
 *доступно с версии:* 0.9.5
 

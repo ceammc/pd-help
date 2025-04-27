@@ -5,7 +5,7 @@
 **aliases:** [ceammc/bpm-&gt;hz], [bpm-&gt;hz]
 
 
-###### converts BPM to frequency in hertz
+###### converts BPM tempo into a frequency in hertz
 
 *available since version:* 0.1
 

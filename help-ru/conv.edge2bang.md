@@ -6,7 +6,7 @@ layout: default_ru
 
 # conv.edge2bang
 
-###### edge detector for numeric stream
+###### детектор переходного для численного потока
 
 *доступно с версии:* 0.9.4
 

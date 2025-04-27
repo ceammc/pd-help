@@ -5,7 +5,7 @@
 **aliases:** [ceammc/note-&gt;guido], [note-&gt;guido]
 
 
-###### convert MIDI note to Guido notation
+###### converts MIDI note number to Guido notation
 
 *available since version:* 0.9.5
 

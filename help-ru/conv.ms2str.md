@@ -6,7 +6,7 @@ layout: default_ru
 
 # conv.ms2str
 
-###### converts float time in milliseconds to formated symbol (or string)
+###### форматирует время в миллисекундах в символ или строку
 
 *доступно с версии:* 0.9.7
 

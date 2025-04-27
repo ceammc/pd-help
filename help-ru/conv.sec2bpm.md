@@ -6,7 +6,7 @@ layout: default_ru
 
 # conv.sec2bpm
 
-###### convert period in seconds to frequency in BPM
+###### преобразует период в секундах в темп BPM
 
 *доступно с версии:* 0.9.1
 

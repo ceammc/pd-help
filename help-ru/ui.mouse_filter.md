@@ -6,7 +6,7 @@ layout: default_ru
 
 # ui.mouse_filter
 
-###### filter mouse events from ui objects
+###### фильтр событий мыши из ui объектов
 
 *доступно с версии:* 0.8
 

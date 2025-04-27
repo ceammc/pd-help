@@ -5,7 +5,7 @@
 **aliases:** [ceammc/amp-&gt;dbfs], [amp-&gt;dbfs]
 
 
-###### convert from amplitude to decibel full scale
+###### convert from the amplitude to a decibel full scale
 
 *available since version:* 0.6
 

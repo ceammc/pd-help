@@ -6,7 +6,7 @@ layout: default_ru
 
 # conv.ms2samp~
 
-###### convert time in milliseconds to number of samples according to current samplerate
+###### преобразовать время в миллисекундах в количество семплов в соответствии с текущей скоростью семплирования
 
 *доступно с версии:* 0.9
 

@@ -6,7 +6,7 @@ layout: default_ru
 
 # conv.char2morse
 
-###### convert character to morse code
+###### преобразует единичный символ в код Морзе
 
 *доступно с версии:* 0.9.7
 
@@ -37,7 +37,7 @@ _по умолчанию:_ 0<br>
 
 ## входы:
 
-* single characted<br>
+* single character<br>
 _тип:_ control
 
 

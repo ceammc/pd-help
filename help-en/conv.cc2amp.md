@@ -5,7 +5,7 @@
 **aliases:** [ceammc/cc-&gt;amp], [cc-&gt;amp]
 
 
-###### convert from MIDI Control Change range
+###### converts from MIDI Control Change range
 
 *available since version:* 0.3
 

@@ -6,7 +6,7 @@ layout: default_ru
 
 # conv.hsl2rgb
 
-###### convert HSL color values to RGB
+###### преобразование цветовых значений из HSL в RGB
 
 *доступно с версии:* 0.9.7
 

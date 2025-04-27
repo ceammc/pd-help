@@ -3,7 +3,7 @@
 
 # ui.incdec
 
-###### value increment/decrement
+###### value increment or decrement widget
 
 *available since version:* 0.1
 

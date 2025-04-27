@@ -6,7 +6,7 @@ layout: default_ru
 
 # ui.knob
 
-###### knob widget
+###### виджет ручки
 
 *доступно с версии:* 0.1
 

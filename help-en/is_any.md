@@ -3,7 +3,7 @@
 
 # is_any
 
-###### checks if input data has *any* type
+###### checks if the input has a general message type
 
 *available since version:* 0.1
 

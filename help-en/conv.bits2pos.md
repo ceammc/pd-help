@@ -5,7 +5,7 @@
 **aliases:** [ceammc/bits-&gt;pos], [bits-&gt;pos]
 
 
-###### convert list of bits to list of bit position
+###### converts the list of bits into the list of checked bit position
 
 *available since version:* 0.9.2
 

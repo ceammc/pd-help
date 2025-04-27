@@ -6,7 +6,7 @@ layout: default_ru
 
 # ui.rslider
 
-###### range slider
+###### двухдиапазонный слайдер
 
 *доступно с версии:* 0.1
 

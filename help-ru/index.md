@@ -117,7 +117,7 @@ layout: default_ru
 
 [**array.resample**](array.resample.html): пересемплирование массива
 
-[**array.rms**](array.rms.html): вычисляет среднее квадратное значение для массива
+[**array.rms**](array.rms.html): вычисляет среднее квадратичное значение для массива
 
 [**array.set**](array.set.html): устанавливает содержание массива данными из списка
 
@@ -133,9 +133,9 @@ layout: default_ru
 
 [**array.variance**](array.variance.html): вычисляет дисперсию значений массива
 
-[**array.vplay**](array.vplay.html): простой плеер массивов для использования с объектом vline~
+[**array.vplay**](array.vplay.html): простой плеер массивов для использования с объектом \[vline~\]
 
-[**array.window**](array.window.html): заполенение массива оконной функцией
+[**array.window**](array.window.html): заполнение массива оконной функцией
 
 [**plot.geomspace~**](plot.geomspace~.html): outputs numbers spaced evenly on a log scale (a geometric progression)
 
@@ -160,7 +160,7 @@ layout: default_ru
 
 [**chrono.datetime**](chrono.datetime.html): output current date and time info
 
-[**convolve~**](convolve~.html): realtime FFT convolution
+[**convolve~**](convolve~.html): свёртка FFT в реальном времени
 
 [**function**](function.html): named function
 
@@ -240,105 +240,105 @@ layout: default_ru
 
 [**array.s2p**](array.s2p.html): преобразование индекса семпла в фазовый диапазон \[0..1\]
 
-[**conv.amp2dbfs**](conv.amp2dbfs.html): convert from amplitude to decibel full scale
+[**conv.amp2dbfs**](conv.amp2dbfs.html): преобразование из амплитуды в децибелы полной шкалы
 
-[**conv.amp2dbfs~**](conv.amp2dbfs~.html): convert from amplitude to decibel full scale
+[**conv.amp2dbfs~**](conv.amp2dbfs~.html): преобразование из амплитуды в децибелы полной шкалы
 
-[**conv.bar2ms**](conv.bar2ms.html): calculate bar and beat duration
+[**conv.bar2ms**](conv.bar2ms.html): вычисляет продолжительность такта и ударной доли
 
-[**conv.bits2bang**](conv.bits2bang.html): convert list of bits to bang events
+[**conv.bits2bang**](conv.bits2bang.html): конвертирует список битов в пустые события
 
-[**conv.bits2int**](conv.bits2int.html): convert list of bits to integer
+[**conv.bits2int**](conv.bits2int.html): преобразовать список битов в целое число
 
-[**conv.bits2note**](conv.bits2note.html): convert list of bits to note events
+[**conv.bits2note**](conv.bits2note.html): конвертирует список битов в пары: номер ноты, сила нажания
 
-[**conv.bits2pos**](conv.bits2pos.html): convert list of bits to list of bit position
+[**conv.bits2pos**](conv.bits2pos.html): преобразует список битов в список позиций установленных битов
 
-[**conv.bpm2hz**](conv.bpm2hz.html): converts BPM to frequency in hertz
+[**conv.bpm2hz**](conv.bpm2hz.html): преобразует темп BPM в частоту в герцах
 
-[**conv.bpm2ms**](conv.bpm2ms.html): convert frequency in BPM to period in milliseconds
+[**conv.bpm2ms**](conv.bpm2ms.html): преобразует темп BPM в период между ударными долями в миллисекундах
 
-[**conv.bpm2sec**](conv.bpm2sec.html): convert frequency in BPM to period in seconds
+[**conv.bpm2sec**](conv.bpm2sec.html): преобразует темп BPM в период между ударными долями в секундах
 
-[**conv.car2pol**](conv.car2pol.html): convert cartesian coords to polar
+[**conv.car2pol**](conv.car2pol.html): преобразует картезианские координаты в полярные
 
-[**conv.cc2amp**](conv.cc2amp.html): convert from MIDI Control Change range
+[**conv.cc2amp**](conv.cc2amp.html): converts from MIDI Control Change range
 
-[**conv.char2morse**](conv.char2morse.html): convert character to morse code
+[**conv.char2morse**](conv.char2morse.html): преобразует единичный символ в код Морзе
 
-[**conv.color2rgba**](conv.color2rgba.html): convert named or hex color to separate RGBA values
+[**conv.color2rgba**](conv.color2rgba.html): преобразует именованный или шестнадцатеричный цвет в отдельные значения RGBA
 
-[**conv.dbfs2amp**](conv.dbfs2amp.html): convert decibel full scale to amplitude
+[**conv.dbfs2amp**](conv.dbfs2amp.html): преобразование децибел полной шкалы в амплитуду
 
-[**conv.dbfs2amp~**](conv.dbfs2amp~.html): convert decibel full scale to amplitude
+[**conv.dbfs2amp~**](conv.dbfs2amp~.html): преобразование децибел полной шкалы в амплитуду
 
-[**conv.degree2key**](conv.degree2key.html): convert scale degree to key
+[**conv.degree2key**](conv.degree2key.html): преобразует номер ступени лада в номер клавиши
 
-[**conv.edge2bang**](conv.edge2bang.html): edge detector for numeric stream
+[**conv.edge2bang**](conv.edge2bang.html): детектор переходного для численного потока
 
 [**conv.guido2note**](conv.guido2note.html): конвертер из Guido-нотации в MIDI ноту и длительность
 
-[**conv.hex2int**](conv.hex2int.html): hex symbol to int value
+[**conv.hex2int**](conv.hex2int.html): конвертирует шестнадцатеричный символ в целочисленное значение
 
-[**conv.hsl2rgb**](conv.hsl2rgb.html): convert HSL color values to RGB
+[**conv.hsl2rgb**](conv.hsl2rgb.html): преобразование цветовых значений из HSL в RGB
 
-[**conv.int2bits**](conv.int2bits.html): convert integer to list of bits
+[**conv.int2bits**](conv.int2bits.html): конвертировать целое число в список битов
 
-[**conv.lab2rgb**](conv.lab2rgb.html): convert LAB color values to RGB
+[**conv.lab2rgb**](conv.lab2rgb.html): преобразование цветовых значений из LAB в RGB
 
-[**conv.lin2curve**](conv.lin2curve.html): map linear to exponential range with 0 allowed.
+[**conv.lin2curve**](conv.lin2curve.html): отображает линейный диапазон в экспоненциальный с разрешенным 0
 
-[**conv.lin2exp**](conv.lin2exp.html): maps linear range to exponential range
+[**conv.lin2exp**](conv.lin2exp.html): отображает линейный диапазон в экспоненциальный
 
-[**conv.lin2lin**](conv.lin2lin.html): convert from one linear range to another
+[**conv.lin2lin**](conv.lin2lin.html): отображает один линейный диапазон в другой
 
-[**conv.lin2lin~**](conv.lin2lin~.html): convert from one linear range to another for signals
+[**conv.lin2lin~**](conv.lin2lin~.html): отображает один линейный диапазон в другой для сигналов
 
-[**conv.list2props**](conv.list2props.html): converts list to series of property messages
+[**conv.list2props**](conv.list2props.html): преобразует список в серию свойств-сообщений
 
-[**conv.midi2freq**](conv.midi2freq.html): convert from midi pitch to frequency in hz (with various base A and temperament)
+[**conv.midi2freq**](conv.midi2freq.html): продвинутое преобразование MIDI нот в частоту в Гц
 
-[**conv.ms2bpm**](conv.ms2bpm.html): convert period in milliseconds to frequency in BPM
+[**conv.ms2bpm**](conv.ms2bpm.html): преобразование периода в миллисекундах в темп BPM
 
-[**conv.ms2samp**](conv.ms2samp.html): convert time in milliseconds to number of samples according to current samplerate
+[**conv.ms2samp**](conv.ms2samp.html): преобразовать время в миллисекундах в количество семплов в соответствии с текущей скоростью семплирования
 
-[**conv.ms2samp~**](conv.ms2samp~.html): convert time in milliseconds to number of samples according to current samplerate
+[**conv.ms2samp~**](conv.ms2samp~.html): преобразовать время в миллисекундах в количество семплов в соответствии с текущей скоростью семплирования
 
-[**conv.ms2str**](conv.ms2str.html): converts float time in milliseconds to formated symbol (or string)
+[**conv.ms2str**](conv.ms2str.html): форматирует время в миллисекундах в символ или строку
 
-[**conv.note2guido**](conv.note2guido.html): convert MIDI note to Guido notation
+[**conv.note2guido**](conv.note2guido.html): преобразует MIDI ноту в Guido-нотацию
 
-[**conv.phase2rad**](conv.phase2rad.html): convert phase value \[0-1\] to radians \[0-2π\]
+[**conv.phase2rad**](conv.phase2rad.html): преобразует значение фазы \[0-1\] в радианы \[0-2π\]
 
-[**conv.phase2rad~**](conv.phase2rad~.html): convert phase value \[0-1\] to radians \[0-2π\]
+[**conv.phase2rad~**](conv.phase2rad~.html): преобразует значение фазы \[0-1\] в радианы \[0-2π\]
 
-[**conv.pitch2midi**](conv.pitch2midi.html): converts symbol pitch name to MIDI note number
+[**conv.pitch2midi**](conv.pitch2midi.html): преобразует ноту в формате SPN в номер ноты MIDI
 
-[**conv.pol2car**](conv.pol2car.html): convert from polar coordinates to cartesian
+[**conv.pol2car**](conv.pol2car.html): преобразование из полярных координат в картезианские
 
-[**conv.rad2phase**](conv.rad2phase.html): convert radians value to phase
+[**conv.rad2phase**](conv.rad2phase.html): преобразование радианов в фазу \[0-1)
 
-[**conv.rad2phase~**](conv.rad2phase~.html): convert radians value to phase
+[**conv.rad2phase~**](conv.rad2phase~.html): преобразование значения радианов в фазу \[0-1)
 
-[**conv.rgb2hex**](conv.rgb2hex.html): convert separate RGB values to hex color
+[**conv.rgb2hex**](conv.rgb2hex.html): преобразование отдельных значений RGB в шестнадцатеричный цвет
 
-[**conv.samp2ms**](conv.samp2ms.html): convert samples to time according to samplerate
+[**conv.samp2ms**](conv.samp2ms.html): преобразовывает семплы в миллисекунды в соответствии со скоростью семплирования
 
-[**conv.samp2ms~**](conv.samp2ms~.html): convert samples to milliseconds according to samplerate
+[**conv.samp2ms~**](conv.samp2ms~.html): преобразовывает семплы в миллисекунды в соответствии со скоростью семплирования
 
-[**conv.samp2sec**](conv.samp2sec.html): convert samples to time according to samplerate
+[**conv.samp2sec**](conv.samp2sec.html): преобразовывает семплы в секунды в соответствии со скоростью семплирования
 
-[**conv.sec2bpm**](conv.sec2bpm.html): convert period in seconds to frequency in BPM
+[**conv.sec2bpm**](conv.sec2bpm.html): преобразует период в секундах в темп BPM
 
-[**conv.sec2samp**](conv.sec2samp.html): convert time in seconds to number of samples according to current samplerate
+[**conv.sec2samp**](conv.sec2samp.html): преобразует секунды в количество семплов согласно текущей скорости семплирования
 
-[**conv.sec2str**](conv.sec2str.html): converts float time in seconds to formated symbol (or string)
+[**conv.sec2str**](conv.sec2str.html): форматирует время в секундах в символ или строку
 
-[**conv.semi2ratio**](conv.semi2ratio.html): convert interval in semitones to frequency ratio in 12-ET
+[**conv.semi2ratio**](conv.semi2ratio.html): преобразует интервал в полутонах в частотное отношение в 12-ET
 
-[**conv.sig2float~**](conv.sig2float~.html): convert signal to floats
+[**conv.sig2float~**](conv.sig2float~.html): преобразует аудиосигнал в управляющий числовой поток
 
-[**conv.str2sec**](conv.str2sec.html): converts formatted time to float value in seconds
+[**conv.str2sec**](conv.str2sec.html): преобразует отформатированное время в числовое значение в секундах
 
 [**music.dur2time**](music.dur2time.html): convert duration list to time
 
@@ -500,7 +500,7 @@ layout: default_ru
 
 [**expand_env**](expand_env.html): Substitute environment variables in data stream
 
-[**flow.append**](flow.append.html): append message to flow stream
+[**flow.append**](flow.append.html): добавляет сообщение в поток
 
 [**flow.change**](flow.change.html): удаляет повторяющиеся сообщения
 
@@ -617,7 +617,7 @@ layout: default_ru
 ---
 
 
-[**flt.a-weight**](flt.a-weight.html): convert frequency to A-weight value
+[**flt.a-weight**](flt.a-weight.html): вычисляет А-взвешенное значение для данной частоты
 
 [**flt.biquad~**](flt.biquad~.html): БИХ фильтр второго порядка
 
@@ -657,7 +657,7 @@ layout: default_ru
 
 [**flt.dcblock~**](flt.dcblock~.html): одноканальный фильтр, блокирующий постоянную составляющую сигнала
 
-[**flt.eq10~**](flt.eq10~.html): графический 10-полосный эквалайзер 
+[**flt.eq10~**](flt.eq10~.html): графический 10-полосный эквалайзер
 
 [**flt.eq_peak_cq~**](flt.eq_peak_cq~.html): секция эквалайзера: пиковый фильтр второго порядка c constant-Q
 
@@ -863,7 +863,7 @@ layout: default_ru
 
 [**lang.lua**](lang.lua.html): Lua JIT language bindings
 
-[**ui.faust~**](ui.faust~.html): faust compiled ui object
+[**ui.faust~**](ui.faust~.html): виджет языка программирования Faust
 
 
 ### <a id="cat_lfo" href="category_lfo.html">lfo</a>
@@ -1108,7 +1108,7 @@ layout: default_ru
 
 [**math.binomial**](math.binomial.html): калькулятор биномиальных коэффициентов
 
-[**math.cabs~**](math.cabs~.html): magnitude of a complex signals
+[**math.cabs~**](math.cabs~.html): абсолютное значение комплексного сигнала
 
 [**math.carg~**](math.carg~.html): фазовый угол комплексных сигналов
 
@@ -1190,7 +1190,7 @@ layout: default_ru
 
 [**math.nan~**](math.nan~.html): сигнал NaNN
 
-[**math.neg**](math.neg.html): negate function
+[**math.neg**](math.neg.html): отрицательная функция
 
 [**math.or**](math.or.html): операция ИЛИ для множества аргументов
 
@@ -1554,7 +1554,7 @@ layout: default_ru
 ---
 
 
-[**is_any**](is_any.html): checks if input data has *any* type
+[**is_any**](is_any.html): проверяет, является ли входное сообщение сообщением общего типа
 
 [**is_bang**](is_bang.html): проверяет, является ли входное сообщение *bang*
 
@@ -1986,85 +1986,85 @@ layout: default_ru
 ---
 
 
-[**ui.aview**](ui.aview.html): array view with cursor and selection
+[**ui.aview**](ui.aview.html): отображение массива с курсором и выбором диапазона
 
-[**ui.bang**](ui.bang.html): A bang... that&#39;s all
+[**ui.bang**](ui.bang.html): кнопка отправляющая пустое событие (bang)
 
-[**ui.button**](ui.button.html): button widget
+[**ui.button**](ui.button.html): виджет кнопки c двумя состояниями
 
-[**ui.canvas**](ui.canvas.html): UI canvas for drawing
+[**ui.canvas**](ui.canvas.html): холст для рисования
 
-[**ui.cmeter~**](ui.cmeter~.html): Multichannel circular peak and rms signal meter
+[**ui.cmeter~**](ui.cmeter~.html): многоканальный круговой измеритель уровня сигнала
 
-[**ui.colorpanel**](ui.colorpanel.html): colorchooser widget
+[**ui.colorpanel**](ui.colorpanel.html): виджет выбора цвета
 
-[**ui.display**](ui.display.html): Display GUI object
+[**ui.display**](ui.display.html): виджет дисплей
 
-[**ui.dsp~**](ui.dsp~.html): GUI for turning DSP on/off
+[**ui.dsp~**](ui.dsp~.html): виджет для включения или выключения обработки звука
 
-[**ui.env**](ui.env.html): envelope editor widget
+[**ui.env**](ui.env.html): редактор огибающей
 
-[**ui.filter**](ui.filter.html): UI filter object calculator for biquad filter
+[**ui.filter**](ui.filter.html): виджет-калькулятор коэффициентов для фильтра \[flt.biquad~\]
 
-[**ui.filter~**](ui.filter~.html): UI filter object based on biquad filter
+[**ui.filter~**](ui.filter~.html): виджет звукового фильтра
 
-[**ui.gain2~**](ui.gain2~.html): UI stereo gain control
+[**ui.gain2~**](ui.gain2~.html): контроль громкости стерео
 
-[**ui.gain~**](ui.gain~.html): UI gain control
+[**ui.gain~**](ui.gain~.html): контроль громкости
 
-[**ui.icon**](ui.icon.html): simple icon with button capabilities
+[**ui.icon**](ui.icon.html): простая иконка с возможностями нажатия
 
-[**ui.incdec**](ui.incdec.html): value increment/decrement
+[**ui.incdec**](ui.incdec.html): виджет увеличения или уменьшения значения
 
-[**ui.keyboard**](ui.keyboard.html): keyboard widget
+[**ui.keyboard**](ui.keyboard.html): виджет клавиатуры
 
-[**ui.knob**](ui.knob.html): knob widget
+[**ui.knob**](ui.knob.html): виджет ручки
 
-[**ui.label**](ui.label.html): simple label widget
+[**ui.label**](ui.label.html): простой виджет надписи
 
-[**ui.lcd**](ui.lcd.html): black and white bitmap display
+[**ui.lcd**](ui.lcd.html): черно-белый растровый дисплей
 
-[**ui.link**](ui.link.html): Hyperlink widget
+[**ui.link**](ui.link.html): виджет гиперссылки
 
-[**ui.matrix**](ui.matrix.html): The matrix of toggles has you.
+[**ui.matrix**](ui.matrix.html): матрица переключателей
 
-[**ui.menu**](ui.menu.html): Dropdown menu
+[**ui.menu**](ui.menu.html): выпадающее меню
 
-[**ui.meter~**](ui.meter~.html): Shows peak and rms signal level
+[**ui.meter~**](ui.meter~.html): пиковый и RMS уровень сигнала
 
-[**ui.midi**](ui.midi.html): incoming MIDI message viewport
+[**ui.midi**](ui.midi.html): окно просмотра MIDI сообщений
 
-[**ui.mouse_filter**](ui.mouse_filter.html): filter mouse events from ui objects
+[**ui.mouse_filter**](ui.mouse_filter.html): фильтр событий мыши из ui объектов
 
-[**ui.mouse_route**](ui.mouse_route.html): routes mouse events from ui objects
+[**ui.mouse_route**](ui.mouse_route.html): маршрутизация событий мыши от ui объектов
 
-[**ui.number**](ui.number.html): counterpart of the vanilla \[nbx\]
+[**ui.number**](ui.number.html): числовой бокс
 
-[**ui.number~**](ui.number~.html): counterpart of the vanilla \[nbx\] for signal
+[**ui.number~**](ui.number~.html): просмотр числовых значений сигнала
 
-[**ui.plot~**](ui.plot~.html): signal plotter
+[**ui.plot~**](ui.plot~.html): построитель графика для сигналов
 
-[**ui.polar**](ui.polar.html): 2D slider in polar coordinates
+[**ui.polar**](ui.polar.html): 2D слайдер в полярных координатах
 
-[**ui.preset**](ui.preset.html): Preset manager
+[**ui.preset**](ui.preset.html): менеджер пресетов
 
-[**ui.radio**](ui.radio.html): counterpart of the vanilla radio toggle
+[**ui.radio**](ui.radio.html): радиопереключатель с возможностью множественного выбора
 
-[**ui.rslider**](ui.rslider.html): range slider
+[**ui.rslider**](ui.rslider.html): двухдиапазонный слайдер
 
-[**ui.scope~**](ui.scope~.html): Scope GUI object
+[**ui.scope~**](ui.scope~.html): виджет просмотра формы волны
 
-[**ui.slider**](ui.slider.html): counterpart of the vanilla slider
+[**ui.slider**](ui.slider.html): виджет слайдера (ползунка)
 
-[**ui.slider2d**](ui.slider2d.html): 2D slider widget
+[**ui.slider2d**](ui.slider2d.html): 2D виджет слайдера
 
-[**ui.sliders**](ui.sliders.html): Multiple slider widget
+[**ui.sliders**](ui.sliders.html): виджет многоползункового слайдера
 
-[**ui.spectroscope~**](ui.spectroscope~.html): Spectroscope GUI object
+[**ui.spectroscope~**](ui.spectroscope~.html): виджет просмотрщика спектра
 
-[**ui.tab**](ui.tab.html): displays a list of text buttons or text toggles
+[**ui.tab**](ui.tab.html): список текстовых кнопок или текстовых переключателей
 
-[**ui.toggle**](ui.toggle.html): modern toggle widget
+[**ui.toggle**](ui.toggle.html): cовременный виджет переключателя
 
 
 

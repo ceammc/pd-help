@@ -3,7 +3,7 @@
 
 # ui.filter
 
-###### UI filter object calculator for biquad filter
+###### filter widget for calculating \[flt.biquad~\] coefficients
 
 *available since version:* 0.9.2
 

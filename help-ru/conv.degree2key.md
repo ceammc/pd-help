@@ -6,7 +6,7 @@ layout: default_ru
 
 # conv.degree2key
 
-###### convert scale degree to key
+###### преобразует номер ступени лада в номер клавиши
 
 *доступно с версии:* 0.9.1
 

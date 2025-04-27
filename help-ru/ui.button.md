@@ -6,7 +6,7 @@ layout: default_ru
 
 # ui.button
 
-###### button widget
+###### виджет кнопки c двумя состояниями
 
 *доступно с версии:* 0.9.2
 

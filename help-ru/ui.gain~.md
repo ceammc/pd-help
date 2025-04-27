@@ -6,7 +6,7 @@ layout: default_ru
 
 # ui.gain~
 
-###### UI gain control
+###### контроль громкости
 
 *доступно с версии:* 0.5
 

@@ -5,7 +5,7 @@
 **aliases:** [ceammc/sec-&gt;samp], [sec-&gt;samp]
 
 
-###### convert time in seconds to number of samples according to current samplerate
+###### converts time in seconds to number of samples according to current samplerate
 
 *available since version:* 0.2
 

@@ -6,7 +6,7 @@ layout: default_ru
 
 # ui.slider
 
-###### counterpart of the vanilla slider
+###### виджет слайдера (ползунка)
 
 *доступно с версии:* 0.1
 

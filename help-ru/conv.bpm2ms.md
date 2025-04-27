@@ -6,7 +6,7 @@ layout: default_ru
 
 # conv.bpm2ms
 
-###### convert frequency in BPM to period in milliseconds
+###### преобразует темп BPM в период между ударными долями в миллисекундах
 
 *доступно с версии:* 0.1
 

@@ -6,7 +6,7 @@ layout: default_ru
 
 # conv.dbfs2amp~
 
-###### convert decibel full scale to amplitude
+###### преобразование децибел полной шкалы в амплитуду
 
 *доступно с версии:* 0.6
 

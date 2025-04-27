@@ -6,7 +6,7 @@ layout: default_ru
 
 # ui.menu
 
-###### Dropdown menu
+###### выпадающее меню
 
 *доступно с версии:* 0.1
 

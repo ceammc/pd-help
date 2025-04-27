@@ -3,7 +3,7 @@
 
 # ui.link
 
-###### Hyperlink widget
+###### hyperlink widget
 
 *available since version:* 0.1
 

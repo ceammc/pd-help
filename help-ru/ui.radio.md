@@ -6,7 +6,7 @@ layout: default_ru
 
 # ui.radio
 
-###### counterpart of the vanilla radio toggle
+###### радиопереключатель с возможностью множественного выбора
 
 *доступно с версии:* 0.1
 

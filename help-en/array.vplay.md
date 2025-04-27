@@ -3,7 +3,7 @@
 
 # array.vplay
 
-###### simple array player for using with the vline~ object
+###### simple array player for using with the \[vline~\] object
 
 *available since version:* 0.5
 

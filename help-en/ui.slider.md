@@ -5,7 +5,7 @@
 **aliases:** [ui.hsl], [ui.vsl]
 
 
-###### counterpart of the vanilla slider
+###### slider widget
 
 *available since version:* 0.1
 

@@ -6,7 +6,7 @@ layout: default_ru
 
 # ui.slider2d
 
-###### 2D slider widget
+###### 2D виджет слайдера
 
 *доступно с версии:* 0.1
 

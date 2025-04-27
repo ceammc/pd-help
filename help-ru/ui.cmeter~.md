@@ -6,7 +6,7 @@ layout: default_ru
 
 # ui.cmeter~
 
-###### Multichannel circular peak and rms signal meter
+###### многоканальный круговой измеритель уровня сигнала
 
 *доступно с версии:* 0.9.7
 

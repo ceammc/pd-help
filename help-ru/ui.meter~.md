@@ -6,7 +6,7 @@ layout: default_ru
 
 # ui.meter~
 
-###### Shows peak and rms signal level
+###### пиковый и RMS уровень сигнала
 
 *доступно с версии:* 0.1
 

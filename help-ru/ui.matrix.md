@@ -6,7 +6,7 @@ layout: default_ru
 
 # ui.matrix
 
-###### The matrix of toggles has you.
+###### матрица переключателей
 
 *доступно с версии:* 0.1
 

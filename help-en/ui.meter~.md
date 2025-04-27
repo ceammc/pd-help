@@ -5,7 +5,7 @@
 **aliases:** [ui.m\~], [ui.hm\~], [ui.vm\~]
 
 
-###### Shows peak and rms signal level
+###### peak and RMS signal level
 
 *available since version:* 0.1
 

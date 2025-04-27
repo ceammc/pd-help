@@ -6,7 +6,7 @@ layout: default_ru
 
 # ui.polar
 
-###### 2D slider in polar coordinates
+###### 2D слайдер в полярных координатах
 
 *доступно с версии:* 0.8
 

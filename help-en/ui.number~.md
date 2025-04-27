@@ -5,7 +5,7 @@
 **aliases:** [ui.n\~]
 
 
-###### counterpart of the vanilla \[nbx\] for signal
+###### number viewport for signals
 
 *available since version:* 0.1
 

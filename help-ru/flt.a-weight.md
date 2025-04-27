@@ -6,7 +6,7 @@ layout: default_ru
 
 # flt.a-weight
 
-###### convert frequency to A-weight value
+###### вычисляет А-взвешенное значение для данной частоты
 
 *доступно с версии:* 0.9.5
 

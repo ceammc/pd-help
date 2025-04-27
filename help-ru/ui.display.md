@@ -6,7 +6,7 @@ layout: default_ru
 
 # ui.display
 
-###### Display GUI object
+###### виджет дисплей
 
 *доступно с версии:* 0.1
 

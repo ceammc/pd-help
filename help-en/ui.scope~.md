@@ -3,7 +3,7 @@
 
 # ui.scope~
 
-###### Scope GUI object
+###### waveform signal scope widget
 
 *available since version:* 0.1
 

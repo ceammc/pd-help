@@ -14,7 +14,7 @@ layout: default_ru
 
 [**lang.lua**](lang.lua.html): Lua JIT language bindings 
 
-[**ui.faust~**](ui.faust~.html): faust compiled ui object 
+[**ui.faust~**](ui.faust~.html): виджет языка программирования Faust 
 
 
 **Версия:** 0.9.8

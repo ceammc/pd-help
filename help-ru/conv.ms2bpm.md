@@ -6,7 +6,7 @@ layout: default_ru
 
 # conv.ms2bpm
 
-###### convert period in milliseconds to frequency in BPM
+###### преобразование периода в миллисекундах в темп BPM
 
 *доступно с версии:* 0.9.11
 

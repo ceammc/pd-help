@@ -6,7 +6,7 @@ layout: default_ru
 
 # conv.cc2amp
 
-###### convert from MIDI Control Change range
+###### converts from MIDI Control Change range
 
 *доступно с версии:* 0.3
 

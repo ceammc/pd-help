@@ -5,7 +5,7 @@
 **aliases:** [ui.hgain\~], [ui.vgain\~]
 
 
-###### UI gain control
+###### gain control
 
 *available since version:* 0.5
 

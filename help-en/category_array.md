@@ -68,7 +68,7 @@ _aliases:_ \[ceammc/list-&gt;array\], \[list-&gt;array\]
 
 [**array.variance**](array.variance.html): calculates variance of array values 
 
-[**array.vplay**](array.vplay.html): simple array player for using with the vline~ object 
+[**array.vplay**](array.vplay.html): simple array player for using with the \[vline~\] object 
 
 [**array.window**](array.window.html): fills the array with the window function 
 

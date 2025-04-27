@@ -6,7 +6,7 @@ layout: default_ru
 
 # ui.gain2~
 
-###### UI stereo gain control
+###### контроль громкости стерео
 
 *доступно с версии:* 0.7
 

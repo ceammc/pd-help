@@ -6,7 +6,7 @@ layout: default_ru
 
 # conv.phase2rad~
 
-###### convert phase value \[0-1\] to radians \[0-2π\]
+###### преобразует значение фазы \[0-1\] в радианы \[0-2π\]
 
 *доступно с версии:* 0.8
 

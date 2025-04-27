@@ -5,7 +5,7 @@
 **aliases:** [ui.radio*], [ui.hrd], [ui.hrd*], [ui.vrd], [ui.vrd*]
 
 
-###### counterpart of the vanilla radio toggle
+###### radio toggle with multiselect option
 
 *available since version:* 0.1
 

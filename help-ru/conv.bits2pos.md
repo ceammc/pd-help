@@ -6,7 +6,7 @@ layout: default_ru
 
 # conv.bits2pos
 
-###### convert list of bits to list of bit position
+###### преобразует список битов в список позиций установленных битов
 
 *доступно с версии:* 0.9.2
 

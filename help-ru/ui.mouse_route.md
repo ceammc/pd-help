@@ -6,7 +6,7 @@ layout: default_ru
 
 # ui.mouse_route
 
-###### routes mouse events from ui objects
+###### маршрутизация событий мыши от ui объектов
 
 *доступно с версии:* 0.8
 

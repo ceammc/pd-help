@@ -5,7 +5,7 @@
 **aliases:** [ui.hgain2\~], [ui.vgain2\~]
 
 
-###### UI stereo gain control
+###### stereo gain control
 
 *available since version:* 0.7
 

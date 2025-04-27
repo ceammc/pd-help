@@ -6,7 +6,7 @@ layout: default_ru
 
 # ui.aview
 
-###### array view with cursor and selection
+###### отображение массива с курсором и выбором диапазона
 
 *доступно с версии:* 0.6
 

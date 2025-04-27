@@ -5,7 +5,7 @@
 **aliases:** [ceammc/semi-&gt;ratio], [semi-&gt;ratio]
 
 
-###### convert interval in semitones to frequency ratio in 12-ET
+###### converts interval in semitones to frequency ratio in 12-ET
 
 *available since version:* 0.9.7
 

@@ -6,7 +6,7 @@ layout: default_ru
 
 # ui.midi
 
-###### incoming MIDI message viewport
+###### окно просмотра MIDI сообщений
 
 *доступно с версии:* 0.9.2
 

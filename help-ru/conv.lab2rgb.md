@@ -6,7 +6,7 @@ layout: default_ru
 
 # conv.lab2rgb
 
-###### convert LAB color values to RGB
+###### преобразование цветовых значений из LAB в RGB
 
 *доступно с версии:* 0.9.7
 

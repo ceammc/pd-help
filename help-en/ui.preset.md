@@ -3,7 +3,7 @@
 
 # ui.preset
 
-###### Preset manager
+###### preset manager
 
 *available since version:* 0.1
 

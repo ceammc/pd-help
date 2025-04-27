@@ -3,7 +3,7 @@
 
 # flt.median
 
-###### Median control flow filter
+###### median control flow filter
 
 *available since version:* 0.7
 

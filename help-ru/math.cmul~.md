@@ -6,7 +6,7 @@ layout: default_ru
 
 # math.cmul~
 
-###### multiplication of complex signals
+###### умножение комплексных сигналов
 
 *доступно с версии:* 0.7
 

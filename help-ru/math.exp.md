@@ -6,7 +6,7 @@ layout: default_ru
 
 # math.exp
 
-###### exponential functions
+###### экспоненциальная функция на основе числа e
 
 *доступно с версии:* 0.1
 

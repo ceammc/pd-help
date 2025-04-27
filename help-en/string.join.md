@@ -5,7 +5,7 @@
 **aliases:** [str.join]
 
 
-###### joins (concatenates) list to string with separator
+###### joins the list into a string with the element separator
 
 *available since version:* 0.3
 

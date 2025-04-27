@@ -3,7 +3,7 @@
 
 # flt.resonbp~
 
-###### Simple resonant bandpass filter
+###### simple resonant bandpass filter
 
 *available since version:* 0.1
 

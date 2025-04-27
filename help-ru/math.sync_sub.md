@@ -6,7 +6,7 @@ layout: default_ru
 
 # math.sync_sub
 
-###### sync subtraction
+###### синхронное вычитание
 
 *доступно с версии:* 0.8
 

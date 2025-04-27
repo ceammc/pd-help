@@ -3,7 +3,7 @@
 
 # math.nan~
 
-###### signal NaN
+###### NaN signal
 
 *available since version:* 0.9.1
 

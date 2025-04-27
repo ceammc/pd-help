@@ -6,7 +6,7 @@ layout: default_ru
 
 # path.pattern
 
-###### pattern filename generator
+###### генерирует имя файла по данному шаблону
 
 *доступно с версии:* 0.9.5
 

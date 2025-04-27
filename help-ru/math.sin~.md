@@ -6,7 +6,7 @@ layout: default_ru
 
 # math.sin~
 
-###### sine function
+###### функция синуса
 
 *доступно с версии:* 0.9
 

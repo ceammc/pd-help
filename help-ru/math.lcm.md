@@ -6,7 +6,7 @@ layout: default_ru
 
 # math.lcm
 
-###### calculate least common multiple
+###### вычисляет наименьшее общее кратное
 
 *доступно с версии:* 0.3
 

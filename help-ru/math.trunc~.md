@@ -6,7 +6,7 @@ layout: default_ru
 
 # math.trunc~
 
-###### truncate to integer value
+###### усечение до целочисленного значения
 
 *доступно с версии:* 0.9
 

@@ -6,7 +6,7 @@ layout: default_ru
 
 # flt.bpf72e~
 
-###### elliptic band-pass filter with -72db rolloff
+###### эллиптический полосовой фильтр с -72db спадом
 
 *доступно с версии:* 0.9.7
 

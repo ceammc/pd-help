@@ -6,7 +6,7 @@ layout: default_ru
 
 # osc.tri~
 
-###### Bandlimited triangle wave oscillator
+###### осциллятор треугольной волны с ограниченным спектром
 
 *доступно с версии:* 0.1
 

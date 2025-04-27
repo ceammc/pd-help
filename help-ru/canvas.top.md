@@ -6,7 +6,7 @@ layout: default_ru
 
 # canvas.top
 
-###### verbose information about top-level canvas
+###### подробная информация о холсте верхнего уровня у объекта
 
 *доступно с версии:* 0.4
 

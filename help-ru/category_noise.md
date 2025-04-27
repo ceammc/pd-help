@@ -7,7 +7,7 @@ layout: default_ru
 ## Категория: noise
 
 ---
-
+генераторы шума
 
 
 [**noise.baker**](noise.baker.html): Part of a-chaos library 

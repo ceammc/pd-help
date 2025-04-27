@@ -6,7 +6,7 @@ layout: default_ru
 
 # string.ends_with
 
-###### checks if string ends with specified substring
+###### проверяет, заканчивается ли строка указанной подстрочкой
 
 *доступно с версии:* 0.3
 

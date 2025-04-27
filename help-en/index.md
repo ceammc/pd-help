@@ -73,7 +73,7 @@ objects to analyse sounds properties
 
 
 ### <a id="cat_array" href="category_array.html">array</a>
-objects for working with arrays and tables
+working with arrays and tables
 
 ---
 
@@ -228,7 +228,7 @@ objects for working with arrays and tables
 
 
 ### <a id="cat_conv" href="category_conv.html">conv</a>
-
+various converters
 
 ---
 
@@ -343,7 +343,7 @@ objects for working with arrays and tables
 
 
 ### <a id="cat_data" href="category_data.html">data</a>
-
+working with various datatypes
 
 ---
 
@@ -420,7 +420,7 @@ objects for working with arrays and tables
 
 
 ### <a id="cat_dyn" href="category_dyn.html">dyn</a>
-objects for working with sound dynamic range
+working with sound dynamic range
 
 ---
 
@@ -453,7 +453,7 @@ objects for working with sound dynamic range
 
 
 ### <a id="cat_env" href="category_env.html">env</a>
-objects to work with sound envelopes
+working with sound envelopes
 
 ---
 
@@ -468,7 +468,7 @@ objects to work with sound envelopes
 
 [**env.concat**](env.concat.html): envelope concatenation 
 
-[**env.follow\~**](env.follow~.html): Envelope follower with independent attack and release times 
+[**env.follow\~**](env.follow~.html): envelope follower with independent attack and release times 
 
 [**env.mix**](env.mix.html): mix between two envelopes that contain the equal number of segments 
 
@@ -609,46 +609,46 @@ dataflow control
 
 
 ### <a id="cat_flt" href="category_flt.html">flt</a>
-
+filters
 
 ---
 
 
 [**flt.a-weight**](flt.a-weight.html): convert frequency to A-weight value 
 
-[**flt.biquad\~**](flt.biquad~.html): second order IIR filter. 
+[**flt.biquad\~**](flt.biquad~.html): second order IIR filter 
 
-[**flt.bpf12\~**](flt.bpf12~.html): Two pole band-pass butterworth filter 
+[**flt.bpf12\~**](flt.bpf12~.html): two pole band-pass Butterworth filter 
 
-[**flt.bpf24\~**](flt.bpf24~.html): Four pole band-pass butterworth filter 
+[**flt.bpf24\~**](flt.bpf24~.html): four pole band-pass Butterworth filter 
 
 [**flt.bpf36e\~**](flt.bpf36e~.html): elliptic band-pass filter with -36db rolloff 
 
 [**flt.bpf72e\~**](flt.bpf72e~.html): elliptic band-pass filter with -72db rolloff 
 
-[**flt.c_apf**](flt.c_apf.html): Allpass filter coefficient calculator for biquad 
+[**flt.c_apf**](flt.c_apf.html): allpass filter coefficients calculator for \[flt.biquad~\] object 
 
-[**flt.c_bpf\~**](flt.c_bpf~.html): BPF coefficient calculator for biquad filter 
+[**flt.c_bpf\~**](flt.c_bpf~.html): BPF coefficients calculator for \[flt.biquad~\] 
 
-[**flt.c_highshelf\~**](flt.c_highshelf~.html): Highshelf filter coefficient calculator for biquad 
+[**flt.c_highshelf\~**](flt.c_highshelf~.html): highshelf filter coefficient calculator for \[flt.biquad~\] 
 
-[**flt.c_hpf**](flt.c_hpf.html): HPF coefficient calculator for biquad filter 
+[**flt.c_hpf**](flt.c_hpf.html): HPF coefficients calculator for \[flt.biquad~\] 
 
-[**flt.c_hpf\~**](flt.c_hpf~.html): HPF coefficient calculator for biquad filter 
+[**flt.c_hpf\~**](flt.c_hpf~.html): HPF coefficients calculator for \[flt.biquad~\] 
 
-[**flt.c_lowshelf\~**](flt.c_lowshelf~.html): Lowshelf filter coefficient calculator for biquad 
+[**flt.c_lowshelf\~**](flt.c_lowshelf~.html): lowshelf filter coefficients calculator for \[flt.biquad~\] 
 
-[**flt.c_lpf**](flt.c_lpf.html): LPF coefficient calculator for biquad filter 
+[**flt.c_lpf**](flt.c_lpf.html): LPF coefficients calculator for \[flt.biquad~\] 
 
-[**flt.c_lpf\~**](flt.c_lpf~.html): LPF coefficient calculator for biquad filter 
+[**flt.c_lpf\~**](flt.c_lpf~.html): LPF coefficients calculator for \[flt.biquad~\] 
 
-[**flt.c_notch**](flt.c_notch.html): Notch filter coefficient calculator for biquad 
+[**flt.c_notch**](flt.c_notch.html): band-reject filter coefficients calculator for \[flt.biquad~\] 
 
-[**flt.c_notch\~**](flt.c_notch~.html): Band-reject coefficient calculator for biquad filter 
+[**flt.c_notch\~**](flt.c_notch~.html): band-reject filter coefficients calculator for \[flt.biquad~\] 
 
-[**flt.c_peak\~**](flt.c_peak~.html): Peaking equalizer calculator for biquad 
+[**flt.c_peak\~**](flt.c_peak~.html): peaking filter calculator for \[flt.biquad~\] 
 
-[**flt.c_pole**](flt.c_pole.html): One-pole coefficient calculator for biquad filter 
+[**flt.c_pole**](flt.c_pole.html): оne-pole coefficient calculator for \[flt.biquad~\] 
 
 [**flt.dcblock2\~**](flt.dcblock2~.html): stereo DC blocker 
 
@@ -658,7 +658,7 @@ dataflow control
 
 [**flt.eq_peak_cq\~**](flt.eq_peak_cq~.html): constant-Q second order peaking equalizer section 
 
-[**flt.eq_peak\~**](flt.eq_peak~.html): second order &#34;peaking equalizer&#34; section (gain boost or cut near some frequency). Also called a &#34;parametric equalizer&#34; section. 
+[**flt.eq_peak\~**](flt.eq_peak~.html): second order peaking equalizer section 
 
 [**flt.fb_comb\~**](flt.fb_comb~.html): feedback comb filter 
 
@@ -672,7 +672,7 @@ dataflow control
 
 [**flt.highshelf\~**](flt.highshelf~.html): gain boost|cut above some frequency 
 
-[**flt.hpf12\~**](flt.hpf12~.html): High-pass second order Butterworth filter 
+[**flt.hpf12\~**](flt.hpf12~.html): high-pass second order Butterworth filter 
 
 [**flt.hpf24\~**](flt.hpf24~.html): High-pass fourth order Butterworth filter 
 
@@ -682,17 +682,17 @@ dataflow control
 
 [**flt.lpf24\~**](flt.lpf24~.html): Low-pass fourth order Butterworth filter 
 
-[**flt.median**](flt.median.html): Median control flow filter 
+[**flt.median**](flt.median.html): median control flow filter 
 
 [**flt.moog_vcf\~**](flt.moog_vcf~.html): Moog Voltage Controlled Filter 
 
 [**flt.notch\~**](flt.notch~.html): band-rejection filter 
 
-[**flt.resonbp\~**](flt.resonbp~.html): Simple resonant bandpass filter 
+[**flt.resonbp\~**](flt.resonbp~.html): simple resonant bandpass filter 
 
-[**flt.resonhp\~**](flt.resonhp~.html): Simple resonant highpass filter 
+[**flt.resonhp\~**](flt.resonhp~.html): simple resonant highpass filter 
 
-[**flt.resonlp\~**](flt.resonlp~.html): Simple resonant lowpass filter 
+[**flt.resonlp\~**](flt.resonlp~.html): simple resonant lowpass filter 
 
 [**flt.speaker\~**](flt.speaker~.html): speaker emulation band-pass filter 
 
@@ -798,7 +798,7 @@ global named objects accessible from everywhere in PureData
 
 
 ### <a id="cat_hw" href="category_hw.html">hw</a>
-objects for working with various hardware
+working with various hardware
 
 ---
 
@@ -864,18 +864,18 @@ objects for working with various hardware
 
 
 ### <a id="cat_lfo" href="category_lfo.html">lfo</a>
-
+low frequency oscillators
 
 ---
 
 
-[**lfo.+pulse\~**](lfo.%2Bpulse~.html): Unit-amplitude nonnegative low frequency pulse train 
+[**lfo.+pulse\~**](lfo.%2Bpulse~.html): unit-amplitude nonnegative low frequency pulse train 
 
-[**lfo.+saw\~**](lfo.%2Bsaw~.html): Positive unit-amplitude low frequency saw wave 
+[**lfo.+saw\~**](lfo.%2Bsaw~.html): positive unit-amplitude low frequency saw wave 
 
-[**lfo.+square\~**](lfo.%2Bsquare~.html): Positive low frequency square wave 
+[**lfo.+square\~**](lfo.%2Bsquare~.html): positive low frequency square wave 
 
-[**lfo.+tri\~**](lfo.%2Btri~.html): Positive unit-amplitude low frequency triangle wave 
+[**lfo.+tri\~**](lfo.%2Btri~.html): positive unit-amplitude low frequency triangle wave 
 
 [**lfo.impulse\~**](lfo.impulse~.html): unit-amplitude low-frequency impulse train 
 
@@ -891,7 +891,7 @@ objects for working with various hardware
 
 
 ### <a id="cat_list" href="category_list.html">list</a>
-objects for list processing
+list processing
 
 ---
 
@@ -1047,7 +1047,7 @@ objects for list processing
 
 
 ### <a id="cat_local" href="category_local.html">local</a>
-
+local named objects accessible only from current canvas
 
 ---
 
@@ -1066,7 +1066,7 @@ objects for list processing
 
 
 ### <a id="cat_math" href="category_math.html">math</a>
-math objects. can operate with list of numbers
+math objects that can operate with number lists
 
 ---
 
@@ -1085,7 +1085,7 @@ math objects. can operate with list of numbers
 
 [**math.and**](math.and.html): operation AND for multiple arguments 
 
-[**math.approx**](math.approx.html): check if input value approximately equal to pattern 
+[**math.approx**](math.approx.html): checks if the input value is approximately equal to the pattern 
 
 [**math.asin**](math.asin.html): arc sine function 
 
@@ -1115,7 +1115,7 @@ math objects. can operate with list of numbers
 
 [**math.cdiv\~**](math.cdiv~.html): division of complex signals 
 
-[**math.ceil**](math.ceil.html): round to smallest integral value not less than input value 
+[**math.ceil**](math.ceil.html): round to the smallest integral value not less than input value 
 
 [**math.ceil\~**](math.ceil~.html): round to smallest integral value not less than input value 
 
@@ -1131,7 +1131,7 @@ math objects. can operate with list of numbers
 
 [**math.cos\~**](math.cos~.html): cosine function 
 
-[**math.div**](math.div.html): division (on lists too) 
+[**math.div**](math.div.html): division 
 
 [**math.e**](math.e.html): mathematical constant, base of the natural logarithm 
 
@@ -1139,31 +1139,31 @@ math objects. can operate with list of numbers
 
 [**math.erf\~**](math.erf~.html): error function for signals 
 
-[**math.exp**](math.exp.html): exponential functions 
+[**math.exp**](math.exp.html): base-e exponential function 
 
-[**math.exp2**](math.exp2.html): exponential functions 
+[**math.exp2**](math.exp2.html): base-2 exponential function 
 
 [**math.exp2\~**](math.exp2~.html): base-2 exponential for signal 
 
-[**math.expr**](math.expr.html): dynamic \[expr\] 
+[**math.expr**](math.expr.html): dynamic version of \[expr\] object 
 
-[**math.exp\~**](math.exp~.html): base-e exponential for signal 
+[**math.exp\~**](math.exp~.html): base-e exponential function for signals 
 
-[**math.floor**](math.floor.html): round to largest integral value not greater than x 
+[**math.floor**](math.floor.html): round to largest integral value not greater than input value 
 
-[**math.floor\~**](math.floor~.html): round to largest integral value not greater than x 
+[**math.floor\~**](math.floor~.html): round to largest integral value not greater than input value 
 
 [**math.gamma**](math.gamma.html): gamma function 
 
-[**math.gamma\~**](math.gamma~.html): gamma function for floating point signals 
+[**math.gamma\~**](math.gamma~.html): gamma function fot signals 
 
 [**math.gcd**](math.gcd.html): calculate greatest common divisor 
 
-[**math.inf**](math.inf.html): infinity value that cannot be represented accurately 
+[**math.inf**](math.inf.html): output infinity value in the IEEE 754 standart 
 
-[**math.inf\~**](math.inf~.html): inifinity signal generator 
+[**math.inf\~**](math.inf~.html): output infinity value in the IEEE 754 standart 
 
-[**math.lcm**](math.lcm.html): calculate least common multiple 
+[**math.lcm**](math.lcm.html): calculates least common multiple 
 
 [**math.lgamma**](math.lgamma.html): natural logarithm of the absolute value of the gamma function 
 
@@ -1171,29 +1171,29 @@ math objects. can operate with list of numbers
 
 [**math.log**](math.log.html): natural logarithm 
 
-[**math.log10**](math.log10.html): logarithm functions 
+[**math.log10**](math.log10.html): base-10 logarithm 
 
-[**math.log10\~**](math.log10~.html): natural logarithm 
+[**math.log10\~**](math.log10~.html): base-10 logarithm 
 
-[**math.log2**](math.log2.html): logarithm functions 
+[**math.log2**](math.log2.html): base-2 logarithm 
 
-[**math.log2\~**](math.log2~.html): base-2 logarithm 
+[**math.log2\~**](math.log2~.html): base-2 logarithm for signals 
 
-[**math.log\~**](math.log~.html): natural logarithm 
+[**math.log\~**](math.log~.html): natural logarithm for signals 
 
-[**math.mul**](math.mul.html): multiplication (on lists too) 
+[**math.mul**](math.mul.html): multiplication 
 
 [**math.nan**](math.nan.html): Not a Number, unrepresentable value 
 
-[**math.nan\~**](math.nan~.html): signal NaN 
+[**math.nan\~**](math.nan~.html): NaN signal 
 
 [**math.neg**](math.neg.html): negate function 
 
 [**math.or**](math.or.html): operation OR for multiple arguments 
 
-[**math.pi**](math.pi.html): mathematical constant 
+[**math.pi**](math.pi.html): mathematical constant π 
 
-[**math.pi\~**](math.pi~.html): mathematical constant 
+[**math.pi\~**](math.pi~.html): mathematical constant π 
 
 [**math.polyeval**](math.polyeval.html): evaluates the polynomial described by the coefficients list 
 
@@ -1379,7 +1379,7 @@ working with MIDI protocol
 
 
 ### <a id="cat_net" href="category_net.html">net</a>
-
+objects for network
 
 ---
 
@@ -1410,7 +1410,7 @@ working with MIDI protocol
 
 
 ### <a id="cat_noise" href="category_noise.html">noise</a>
-
+noise generators
 
 ---
 
@@ -1470,67 +1470,67 @@ oscillators
 ---
 
 
-[**osc.blit\~**](osc.blit~.html): Bandlimited impulse train oscillator 
+[**osc.blit\~**](osc.blit~.html): bandlimited oscillator with controllable harmonics 
 
-[**osc.impulse\~**](osc.impulse~.html): Bandlimited impulse train generator 
+[**osc.impulse\~**](osc.impulse~.html): bandlimited impulse train generator 
 
-[**osc.pulse\~**](osc.pulse~.html): Bandlimited pulse train oscillator 
+[**osc.pulse\~**](osc.pulse~.html): bandlimited pulse train oscillator 
 
-[**osc.saw4\~**](osc.saw4~.html): Bandlimited sawtooth wave 
+[**osc.saw4\~**](osc.saw4~.html): bandlimited sawtooth wave 
 
-[**osc.saw\~**](osc.saw~.html): Alias-free sawtooth wave 
+[**osc.saw\~**](osc.saw~.html): alias-free sawtooth wave 
 
-[**osc.sinfb\~**](osc.sinfb~.html): Sine oscilator with feedback 
+[**osc.sinfb\~**](osc.sinfb~.html): sine oscilator with feedback 
 
-[**osc.sin\~**](osc.sin~.html): Sine wave oscillator 
+[**osc.sin\~**](osc.sin~.html): sine wave oscillator 
 
-[**osc.square\~**](osc.square~.html): Bandlimited square wave oscillator 
+[**osc.square\~**](osc.square~.html): bandlimited square wave oscillator 
 
-[**osc.tri\~**](osc.tri~.html): Bandlimited triangle wave oscillator 
+[**osc.tri\~**](osc.tri~.html): bandlimited triangle wave oscillator 
 
 
 ### <a id="cat_patch" href="category_patch.html">patch</a>
-
+working with patches
 
 ---
 
 
-[**canvas.active**](canvas.active.html): checks if canvas window is on top and active 
+[**canvas.active**](canvas.active.html): checks if the canvas of the object is on the top and active 
 
-[**canvas.current**](canvas.current.html): verbose information about current canvas 
+[**canvas.current**](canvas.current.html): get the information about the current canvas of the object 
 
-[**canvas.dir**](canvas.dir.html): current canvas directory and nesting level 
+[**canvas.dir**](canvas.dir.html): outputs the current canvas directory of the object and nesting level 
 
-[**canvas.name**](canvas.name.html): current canvas name 
+[**canvas.name**](canvas.name.html): output the current canvas name of the object 
 
-[**canvas.path**](canvas.path.html): current canvas fullpath 
+[**canvas.path**](canvas.path.html): output the current canvas filesystem fullpath of the object 
 
-[**canvas.top**](canvas.top.html): verbose information about top-level canvas 
+[**canvas.top**](canvas.top.html): verbose information about top-level canvas of the object 
 
-[**patch.args**](patch.args.html): Get patch or subpatch arguments 
+[**patch.args**](patch.args.html): get patch or subpatch initial arguments 
 
-[**patch.deps**](patch.deps.html): patch dependencies: used objects and abstractions 
+[**patch.deps**](patch.deps.html): output the patch dependencies: used objects and abstractions 
 
-[**patch.tree**](patch.tree.html): patch tree 
+[**patch.tree**](patch.tree.html): output the object tree of the patch 
 
 
 ### <a id="cat_path" href="category_path.html">path</a>
-
+working with filesystem paths
 
 ---
 
 
 [**file.size**](file.size.html): output file size 
 
-[**path.basename**](path.basename.html): outputs filename portion of pathname 
+[**path.basename**](path.basename.html): outputs the filename portion of the pathname 
 
 [**path.dirname**](path.dirname.html): outputs directory portion of pathname 
 
-[**path.exists**](path.exists.html): checks if given path exists 
+[**path.exists**](path.exists.html): checks if the given path exists 
 
 [**path.file**](path.file.html): file input/output 
 
-[**path.is_dir**](path.is_dir.html): check if path is directory 
+[**path.is_dir**](path.is_dir.html): checks if the path is a directory 
 
 [**path.lsdir**](path.lsdir.html): list directory contents 
 
@@ -1542,7 +1542,7 @@ oscillators
 
 [**path.search**](path.search.html): file search 
 
-[**path.split**](path.split.html): file path split 
+[**path.split**](path.split.html): split path into dirname and basename 
 
 
 ### <a id="cat_predicates" href="category_predicates.html">predicates</a>
@@ -1592,28 +1592,28 @@ predicate objects. Checks message or data types, returns 1 or 0.
 
 
 ### <a id="cat_property" href="category_property.html">property</a>
-
+working with object or patch properties
 
 ---
 
 
-[**patch.props**](patch.props.html): patch properties manager 
+[**patch.props**](patch.props.html): get or set the patch properties 
 
-[**prop**](prop.html): get/set named property value for subpatch or abstraction 
+[**prop**](prop.html): get/set the named property value for subpatch or abstraction 
 
-[**prop.declare**](prop.declare.html): declare named property for subpatch or abstraction 
+[**prop.declare**](prop.declare.html): declare the named property for a subpatch or an abstraction 
 
-[**prop.get**](prop.get.html): get property from connected object/subpatch/abstraction 
+[**prop.get**](prop.get.html): get the property value from connected object, subpatch or abstraction 
 
-[**prop.join**](prop.join.html): join property to main data flow 
+[**prop.join**](prop.join.html): inject properties into the main data flow 
 
-[**prop.random**](prop.random.html): property randomizer 
+[**prop.random**](prop.random.html): property value randomizer 
 
-[**prop.route**](prop.route.html): separate properties from dataflow 
+[**prop.route**](prop.route.html): separates properties from the dataflow 
 
-[**prop.route\~**](prop.route~.html): Property extractor from audio streams 
+[**prop.route\~**](prop.route~.html): property extractor from audio connections 
 
-[**prop.set**](prop.set.html): set property for connected object/subpatch/abstraction 
+[**prop.set**](prop.set.html): set the property value for connected object, subpatch or abstraction 
 
 
 ### <a id="cat_proto" href="category_proto.html">proto</a>
@@ -1728,7 +1728,7 @@ random number generation
 
 
 ### <a id="cat_spat" href="category_spat.html">spat</a>
-
+working with sound spatialisation
 
 ---
 
@@ -1805,42 +1805,42 @@ random number generation
 
 
 ### <a id="cat_string" href="category_string.html">string</a>
-
+working with String datatype
 
 ---
 
 
-[**string**](string.html): string constructor 
+[**string**](string.html): constructs the string 
 
-[**string.contains**](string.contains.html): checks if string contains specified substring 
+[**string.contains**](string.contains.html): checks if the string contains specified substring 
 
-[**string.ends_with**](string.ends_with.html): checks if string ends with specified substring 
+[**string.ends_with**](string.ends_with.html): checks if the string ends with the specified substring 
 
 [**string.equal**](string.equal.html): check strings or symbols for equality 
 
-[**string.format**](string.format.html): formats string like printf. 
+[**string.format**](string.format.html): formats a string like printf function 
 
-[**string.join**](string.join.html): joins (concatenates) list to string with separator 
+[**string.join**](string.join.html): joins the list into a string with the element separator 
 
-[**string.length**](string.length.html): number of characters in string (unicode supported) 
+[**string.length**](string.length.html): number of characters in the string (with Unicode support) 
 
-[**string.match**](string.match.html): check if string match regular expression 
+[**string.match**](string.match.html): checks if the string matches to the regular expression 
 
-[**string.remove**](string.remove.html): remove substring from input string 
+[**string.remove**](string.remove.html): removes a substring from the input string 
 
-[**string.replace**](string.replace.html): replace from one substring to another in input string 
+[**string.replace**](string.replace.html): replace from one substring to another in the input string 
 
-[**string.split**](string.split.html): split string or symbol by separator 
+[**string.split**](string.split.html): splits the string or symbol into the list by the separator 
 
-[**string.starts_with**](string.starts_with.html): checks if string starts with specified substring 
+[**string.starts_with**](string.starts_with.html): checks if the string starts with the specified substring 
 
-[**string.substr**](string.substr.html): extract substring from input string 
+[**string.substr**](string.substr.html): extract a substring from the input string 
 
-[**string2symbol**](string2symbol.html): converts string to symbol 
+[**string2symbol**](string2symbol.html): converts the string into the symbol 
 
 
 ### <a id="cat_symbol" href="category_symbol.html">symbol</a>
-
+working with symbols
 
 ---
 
@@ -1961,7 +1961,7 @@ sound synthesis
 
 
 ### <a id="cat_tl" href="category_tl.html">tl</a>
-
+working with timeline
 
 ---
 
@@ -1978,7 +1978,7 @@ sound synthesis
 
 
 ### <a id="cat_ui" href="category_ui.html">ui</a>
-
+graphical user interface objects
 
 ---
 

@@ -3,7 +3,7 @@
 
 # osc.sinfb~
 
-###### Sine oscilator with feedback
+###### sine oscilator with feedback
 
 *available since version:* 0.1
 

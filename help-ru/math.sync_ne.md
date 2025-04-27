@@ -6,7 +6,7 @@ layout: default_ru
 
 # math.sync_ne
 
-###### sync numbers for not equality
+###### синхронная проверка на неравенство
 
 *доступно с версии:* 0.8
 

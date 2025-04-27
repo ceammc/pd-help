@@ -6,7 +6,7 @@ layout: default_ru
 
 # math.sync_add
 
-###### sync addition
+###### синхронное сложение
 
 *доступно с версии:* 0.8
 

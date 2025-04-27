@@ -6,7 +6,7 @@ layout: default_ru
 
 # path.dirname
 
-###### outputs directory portion of pathname
+###### выводит имя каталога файла из пути к файлу
 
 *доступно с версии:* 0.1
 

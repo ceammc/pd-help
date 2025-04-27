@@ -6,7 +6,7 @@ layout: default_ru
 
 # canvas.active
 
-###### checks if canvas window is on top and active
+###### проверяет, активно ли окно холста объекта и расположено ли оно поверх других
 
 *доступно с версии:* 0.9.6
 

@@ -6,7 +6,7 @@ layout: default_ru
 
 # flt.fb_comb~
 
-###### feedback comb filter
+###### гребенчатый фильтр с обратной связью (БИХ)
 
 *доступно с версии:* 0.9.1
 

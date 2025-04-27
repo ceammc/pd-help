@@ -5,7 +5,7 @@
 **aliases:** [p.get]
 
 
-###### get property from connected object/subpatch/abstraction
+###### get the property value from connected object, subpatch or abstraction
 
 *available since version:* 0.9
 

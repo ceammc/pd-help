@@ -6,7 +6,7 @@ layout: default_ru
 
 # canvas.path
 
-###### current canvas fullpath
+###### выводит полный путь холста в файловой системе у объекта
 
 *доступно с версии:* 0.8
 

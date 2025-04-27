@@ -5,7 +5,7 @@
 **aliases:** [ceammc/hpf-&gt;biquad], [hpf-&gt;biquad]
 
 
-###### HPF coefficient calculator for biquad filter
+###### HPF coefficients calculator for \[flt.biquad~\]
 
 *available since version:* 0.9.2
 

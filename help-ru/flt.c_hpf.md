@@ -6,7 +6,7 @@ layout: default_ru
 
 # flt.c_hpf
 
-###### HPF coefficient calculator for biquad filter
+###### калькулятор коэффициентов ФВЧ частот для \[flt.biquad~\]
 
 *доступно с версии:* 0.9.2
 

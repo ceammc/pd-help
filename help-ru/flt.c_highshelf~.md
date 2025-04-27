@@ -6,7 +6,7 @@ layout: default_ru
 
 # flt.c_highshelf~
 
-###### Highshelf filter coefficient calculator for biquad
+###### калькулятор коэффициентов полочного фильтра высоких частот для \[flt.biquad~\]
 
 *доступно с версии:* 0.1
 

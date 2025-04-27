@@ -6,7 +6,7 @@ layout: default_ru
 
 # flt.c_bpf~
 
-###### BPF coefficient calculator for biquad filter
+###### калькулятор коэффициентов полосового фильтра для \[flt.biquad~\]
 
 *доступно с версии:* 0.1
 

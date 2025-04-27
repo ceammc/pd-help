@@ -6,7 +6,7 @@ layout: default_ru
 
 # flt.eq10~
 
-###### graphic 10 band equalizer
+###### графический 10-полосный эквалайзер
 
 *доступно с версии:* 0.1
 

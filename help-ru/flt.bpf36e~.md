@@ -6,7 +6,7 @@ layout: default_ru
 
 # flt.bpf36e~
 
-###### elliptic band-pass filter with -36db rolloff
+###### эллиптический полосовой фильтр с -36db спадом
 
 *доступно с версии:* 0.9.7
 

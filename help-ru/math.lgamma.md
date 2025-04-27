@@ -6,7 +6,7 @@ layout: default_ru
 
 # math.lgamma
 
-###### natural logarithm of the absolute value of the gamma function
+###### натуральный логарифм абсолютного значения гамма-функции
 
 *доступно с версии:* 0.9
 

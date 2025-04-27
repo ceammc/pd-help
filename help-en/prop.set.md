@@ -5,7 +5,7 @@
 **aliases:** [p.set]
 
 
-###### set property for connected object/subpatch/abstraction
+###### set the property value for connected object, subpatch or abstraction
 
 *available since version:* 0.9
 

@@ -5,7 +5,7 @@
 **aliases:** [str.starts_with]
 
 
-###### checks if string starts with specified substring
+###### checks if the string starts with the specified substring
 
 *available since version:* 0.3
 

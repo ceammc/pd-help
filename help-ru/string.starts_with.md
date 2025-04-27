@@ -6,7 +6,7 @@ layout: default_ru
 
 # string.starts_with
 
-###### checks if string starts with specified substring
+###### проверка, начинается ли строка с определенной подстроки
 
 *доступно с версии:* 0.3
 

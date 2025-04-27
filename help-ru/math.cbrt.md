@@ -6,7 +6,7 @@ layout: default_ru
 
 # math.cbrt
 
-###### cube root function
+###### кубический корень
 
 *доступно с версии:* 0.1
 

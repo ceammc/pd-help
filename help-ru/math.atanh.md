@@ -6,7 +6,7 @@ layout: default_ru
 
 # math.atanh
 
-###### inverse hyperbolic tangent function
+###### обратный гиперболический тангенс
 
 *доступно с версии:* 0.1
 

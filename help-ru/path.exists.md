@@ -6,7 +6,7 @@ layout: default_ru
 
 # path.exists
 
-###### checks if given path exists
+###### проверка существования пути
 
 *доступно с версии:* 0.1
 

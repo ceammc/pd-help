@@ -3,7 +3,7 @@
 
 # osc.pulse~
 
-###### Bandlimited pulse train oscillator
+###### bandlimited pulse train oscillator
 
 *available since version:* 0.1
 

@@ -6,7 +6,7 @@ layout: default_ru
 
 # math.sync_lshift
 
-###### sync signed bit left shift
+###### синхронный битовый сдвиг налево
 
 *доступно с версии:* 0.9.1
 

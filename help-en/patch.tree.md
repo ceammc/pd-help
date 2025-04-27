@@ -3,7 +3,7 @@
 
 # patch.tree
 
-###### patch tree
+###### output the object tree of the patch
 
 *available since version:* 0.9.1
 

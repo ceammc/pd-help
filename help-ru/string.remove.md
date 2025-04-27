@@ -6,7 +6,7 @@ layout: default_ru
 
 # string.remove
 
-###### remove substring from input string
+###### удаляет подстроку из входной строки
 
 *доступно с версии:* 0.3
 

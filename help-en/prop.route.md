@@ -5,7 +5,7 @@
 **aliases:** [prop-&gt;], [@-&gt;], [ceammc/prop-&gt;], [ceammc/@-&gt;], [prop.split]
 
 
-###### separate properties from dataflow
+###### separates properties from the dataflow
 
 *available since version:* 0.9
 

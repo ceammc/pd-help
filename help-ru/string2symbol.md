@@ -6,7 +6,7 @@ layout: default_ru
 
 # string2symbol
 
-###### converts string to symbol
+###### преобразует строку в символ
 
 *доступно с версии:* 0.3
 

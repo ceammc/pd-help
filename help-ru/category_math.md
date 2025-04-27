@@ -7,46 +7,46 @@ layout: default_ru
 ## Категория: math
 
 ---
-различные математические объекты, которые могут работать в том числе и со списками чисел
+математические объекты, которые могут работать со списками чисел
 
 
-[**math.abs**](math.abs.html): absolute value function 
+[**math.abs**](math.abs.html): абсолютное значение 
 
-[**math.abs~**](math.abs~.html): absolute value function for signals 
+[**math.abs~**](math.abs~.html): функция абсолютного значения для сигналов 
 
-[**math.acos**](math.acos.html): arc cosine function 
+[**math.acos**](math.acos.html): арккосинус 
 
-[**math.acosh**](math.acosh.html): inverse hyperbolic cosine function 
+[**math.acosh**](math.acosh.html): обратный гиперболический косинус 
 
-[**math.acosh~**](math.acosh~.html): hyperbolic arc cosine for signals 
+[**math.acosh~**](math.acosh~.html): обратный гиперболический косинус для сигналов 
 
-[**math.acos~**](math.acos~.html): arc cosine function for signals 
+[**math.acos~**](math.acos~.html): арккосинус для сигналов 
 
-[**math.and**](math.and.html): operation AND for multiple arguments <br>
+[**math.and**](math.and.html): операция И для множества аргументов <br>
 _псевдонимы:_ \[ceammc/and\], \[and\]
 
 
-[**math.approx**](math.approx.html): check if input value approximately equal to pattern <br>
+[**math.approx**](math.approx.html): проверить, если входное значение приблизительно равно образцу <br>
 _псевдонимы:_ \[ceammc/approx\], \[approx\]
 
 
-[**math.asin**](math.asin.html): arc sine function 
+[**math.asin**](math.asin.html): арксинус 
 
-[**math.asinh**](math.asinh.html): inverse hyperbolic sine function 
+[**math.asinh**](math.asinh.html): обратный гиперболический синус 
 
-[**math.asinh~**](math.asinh~.html): hyperbolic arc sine for signals 
+[**math.asinh~**](math.asinh~.html): обратный гиперболической синус для сигналов 
 
-[**math.asin~**](math.asin~.html): arc sine for signals 
+[**math.asin~**](math.asin~.html): арксинус для сигналов 
 
-[**math.atan**](math.atan.html): arc tangent function 
+[**math.atan**](math.atan.html): арктангенс 
 
-[**math.atanh**](math.atanh.html): inverse hyperbolic tangent function 
+[**math.atanh**](math.atanh.html): обратный гиперболический тангенс 
 
-[**math.atanh~**](math.atanh~.html): hyperbolic arc tangent for signals 
+[**math.atanh~**](math.atanh~.html): обратный гиперболический тангенс для сигналов 
 
-[**math.atan~**](math.atan~.html): arc tangent for signals 
+[**math.atan~**](math.atan~.html): арктангенс для сигналов 
 
-[**math.binomial**](math.binomial.html): binomial coefficient calculator <br>
+[**math.binomial**](math.binomial.html): калькулятор биномиальных коэффициентов <br>
 _псевдонимы:_ \[math.nck\]
 
 
@@ -54,229 +54,229 @@ _псевдонимы:_ \[math.nck\]
 _псевдонимы:_ \[ceammc/cabs~\], \[cabs~\]
 
 
-[**math.carg~**](math.carg~.html): phase angle of a complex signals <br>
+[**math.carg~**](math.carg~.html): фазовый угол комплексных сигналов <br>
 _псевдонимы:_ \[ceammc/carg~\], \[carg~\]
 
 
-[**math.cbrt**](math.cbrt.html): cube root function 
+[**math.cbrt**](math.cbrt.html): кубический корень 
 
-[**math.cbrt~**](math.cbrt~.html): cube root function for signals 
+[**math.cbrt~**](math.cbrt~.html): кубический корень для сигналов 
 
-[**math.cdiv~**](math.cdiv~.html): division of complex signals <br>
+[**math.cdiv~**](math.cdiv~.html): деление комплексных сигналов <br>
 _псевдонимы:_ \[ceammc/cdiv~\], \[cdiv~\]
 
 
-[**math.ceil**](math.ceil.html): round to smallest integral value not less than input value 
+[**math.ceil**](math.ceil.html): округление до наименьшего целого значения, которое не меньше входного 
 
-[**math.ceil~**](math.ceil~.html): round to smallest integral value not less than input value 
+[**math.ceil~**](math.ceil~.html): округление до наименьшего целого значения, которое не менее входного 
 
-[**math.cexp~**](math.cexp~.html): exponent of a complex signals <br>
+[**math.cexp~**](math.cexp~.html): комплексная экспонента для сигналов <br>
 _псевдонимы:_ \[ceammc/cexp~\], \[cexp~\]
 
 
-[**math.cmul~**](math.cmul~.html): multiplication of complex signals <br>
+[**math.cmul~**](math.cmul~.html): умножение комплексных сигналов <br>
 _псевдонимы:_ \[ceammc/cmul~\], \[cmul~\]
 
 
-[**math.cos**](math.cos.html): cosine function 
+[**math.cos**](math.cos.html): функция косинуса 
 
-[**math.cosh**](math.cosh.html): hyperbolic cosine function 
+[**math.cosh**](math.cosh.html): гиперболический косинус 
 
-[**math.cosh~**](math.cosh~.html): hyperbolic cosine for signals 
+[**math.cosh~**](math.cosh~.html): гиперболический косинус для сигналов 
 
-[**math.cos~**](math.cos~.html): cosine function 
+[**math.cos~**](math.cos~.html): функция косинуса 
 
-[**math.div**](math.div.html): division (on lists too) <br>
+[**math.div**](math.div.html): деление <br>
 _псевдонимы:_ \[math./\]
 
 
-[**math.e**](math.e.html): mathematical constant, base of the natural logarithm 
+[**math.e**](math.e.html): математическая константа, основание натурального логарифма 
 
-[**math.erf**](math.erf.html): error function 
+[**math.erf**](math.erf.html): функция ошибок 
 
-[**math.erf~**](math.erf~.html): error function for signals 
+[**math.erf~**](math.erf~.html): функция ошибок для сигналов 
 
-[**math.exp**](math.exp.html): exponential functions 
+[**math.exp**](math.exp.html): экспоненциальная функция на основе числа e 
 
-[**math.exp2**](math.exp2.html): exponential functions 
+[**math.exp2**](math.exp2.html): экспоненциальная функция на основе 2 
 
-[**math.exp2~**](math.exp2~.html): base-2 exponential for signal 
+[**math.exp2~**](math.exp2~.html): экспоненциальная функция на основе 2 для сигналов 
 
-[**math.expr**](math.expr.html): dynamic \[expr\] 
+[**math.expr**](math.expr.html): динамическая версия объекта \[expr\] 
 
-[**math.exp~**](math.exp~.html): base-e exponential for signal 
+[**math.exp~**](math.exp~.html): экспоненциальная функция для сигналов на основе числа e 
 
-[**math.floor**](math.floor.html): round to largest integral value not greater than x 
+[**math.floor**](math.floor.html): округление до наибольшего целого значения, не превышающего входное значение 
 
-[**math.floor~**](math.floor~.html): round to largest integral value not greater than x 
+[**math.floor~**](math.floor~.html): округление до наибольшего целого значения, не превышающего входного значения 
 
-[**math.gamma**](math.gamma.html): gamma function 
+[**math.gamma**](math.gamma.html): гамма функция 
 
-[**math.gamma~**](math.gamma~.html): gamma function for floating point signals 
+[**math.gamma~**](math.gamma~.html): гамма-функция для сигналов 
 
-[**math.gcd**](math.gcd.html): calculate greatest common divisor 
+[**math.gcd**](math.gcd.html): вычисляет наибольший общий делитель 
 
-[**math.inf**](math.inf.html): infinity value that cannot be represented accurately 
+[**math.inf**](math.inf.html): выводит бесконечное значение в стандарте IEEE 754 
 
-[**math.inf~**](math.inf~.html): inifinity signal generator 
+[**math.inf~**](math.inf~.html): выводит бесконечное значение в стандарте IEEE 754 
 
-[**math.lcm**](math.lcm.html): calculate least common multiple 
+[**math.lcm**](math.lcm.html): вычисляет наименьшее общее кратное 
 
-[**math.lgamma**](math.lgamma.html): natural logarithm of the absolute value of the gamma function 
+[**math.lgamma**](math.lgamma.html): натуральный логарифм абсолютного значения гамма-функции 
 
-[**math.lgamma~**](math.lgamma~.html): natural logarithm of the absolute value of the gamma function for signals 
+[**math.lgamma~**](math.lgamma~.html): натуральный логарифм абсолютного значения гамма-функции для сигналов 
 
-[**math.log**](math.log.html): natural logarithm 
+[**math.log**](math.log.html): натуральный логарифм 
 
-[**math.log10**](math.log10.html): logarithm functions 
+[**math.log10**](math.log10.html): логарифм по основанию 10 
 
-[**math.log10~**](math.log10~.html): natural logarithm 
+[**math.log10~**](math.log10~.html): логарифм по основанию 10 
 
-[**math.log2**](math.log2.html): logarithm functions 
+[**math.log2**](math.log2.html): логарифм по основанию 2 
 
-[**math.log2~**](math.log2~.html): base-2 logarithm 
+[**math.log2~**](math.log2~.html): логарифм по основанию 2 для сигналов 
 
-[**math.log~**](math.log~.html): natural logarithm 
+[**math.log~**](math.log~.html): натуральный логарифм для сигналов 
 
-[**math.mul**](math.mul.html): multiplication (on lists too) <br>
+[**math.mul**](math.mul.html): умножение <br>
 _псевдонимы:_ \[math.*\]
 
 
-[**math.nan**](math.nan.html): Not a Number, unrepresentable value 
+[**math.nan**](math.nan.html): Не число, непредставимое значение 
 
-[**math.nan~**](math.nan~.html): signal NaN 
+[**math.nan~**](math.nan~.html): сигнал NaNN 
 
 [**math.neg**](math.neg.html): negate function <br>
 _псевдонимы:_ \[ceammc/-x\], \[-x\]
 
 
-[**math.or**](math.or.html): operation OR for multiple arguments <br>
+[**math.or**](math.or.html): операция ИЛИ для множества аргументов <br>
 _псевдонимы:_ \[ceammc/or\], \[or\]
 
 
-[**math.pi**](math.pi.html): mathematical constant <br>
+[**math.pi**](math.pi.html): математическая константа π <br>
 _псевдонимы:_ \[ceammc/pi\], \[pi\]
 
 
-[**math.pi~**](math.pi~.html): mathematical constant <br>
+[**math.pi~**](math.pi~.html): математическая константа π <br>
 _псевдонимы:_ \[ceammc/pi~\], \[pi~\]
 
 
-[**math.polyeval**](math.polyeval.html): evaluates the polynomial described by the coefficients list 
+[**math.polyeval**](math.polyeval.html): вычисляет многочлен, описанный списком коэффициентов 
 
-[**math.reciprocal**](math.reciprocal.html): calculate reciprocal number <br>
+[**math.reciprocal**](math.reciprocal.html): вычислить обратное значение <br>
 _псевдонимы:_ \[ceammc/1/x\], \[1/x\]
 
 
-[**math.reciprocal~**](math.reciprocal~.html): calculate reciprocal number for signals <br>
+[**math.reciprocal~**](math.reciprocal~.html): вычислить обратное значение для сигналов <br>
 _псевдонимы:_ \[ceammc/1/x~\], \[1/x~\]
 
 
-[**math.round**](math.round.html): round to integral value, regardless of rounding direction <br>
+[**math.round**](math.round.html): округление до ближайшего целого значения <br>
 _псевдонимы:_ \[round\], \[ceammc/round\]
 
 
-[**math.round~**](math.round~.html): signal round <br>
+[**math.round~**](math.round~.html): округление сигнала до ближайшего целого значения <br>
 _псевдонимы:_ \[round~\], \[ceammc/round~\]
 
 
-[**math.sign**](math.sign.html): sign function 
+[**math.sign**](math.sign.html): знаковая функция 
 
-[**math.sin**](math.sin.html): sine function 
+[**math.sin**](math.sin.html): функция синуса 
 
-[**math.sinh**](math.sinh.html): hyperbolic sine function 
+[**math.sinh**](math.sinh.html): гиперболическая функция синуса 
 
-[**math.sinh~**](math.sinh~.html): hyperbolic sine for signals 
+[**math.sinh~**](math.sinh~.html): гиперболический синус для сигналов 
 
-[**math.sin~**](math.sin~.html): sine function 
+[**math.sin~**](math.sin~.html): функция синуса 
 
-[**math.sqrt**](math.sqrt.html): square root function 
+[**math.sqrt**](math.sqrt.html): функция квадратного корня 
 
-[**math.sqrt~**](math.sqrt~.html): square root for signal 
+[**math.sqrt~**](math.sqrt~.html): квадратный корень для сигнала 
 
-[**math.squared**](math.squared.html): value square <br>
+[**math.squared**](math.squared.html): возведение в квадрат <br>
 _псевдонимы:_ \[math.^2\], \[ceammc/^2\], \[^2\]
 
 
-[**math.squared~**](math.squared~.html): signal value square <br>
+[**math.squared~**](math.squared~.html): возведение в квадрат <br>
 _псевдонимы:_ \[math.^2~\], \[ceammc/^2~\], \[^2~\]
 
 
-[**math.sync_add**](math.sync_add.html): sync addition <br>
+[**math.sync_add**](math.sync_add.html): синхронное сложение <br>
 _псевдонимы:_ \[math.+&#39;\], \[ceammc/+&#39;\], \[+&#39;\]
 
 
-[**math.sync_and**](math.sync_and.html): sync logical AND operation <br>
+[**math.sync_and**](math.sync_and.html): синхронное логическое И <br>
 _псевдонимы:_ \[math.&amp;&amp;&#39;\], \[ceammc/&amp;&amp;&#39;\], \[&amp;&amp;&#39;\]
 
 
-[**math.sync_div**](math.sync_div.html): sync division <br>
+[**math.sync_div**](math.sync_div.html): синхронное деление <br>
 _псевдонимы:_ \[math./&#39;\], \[ceammc//&#39;\], \[/&#39;\]
 
 
-[**math.sync_eq**](math.sync_eq.html): sync equal numbers check <br>
+[**math.sync_eq**](math.sync_eq.html): синхронная проверка на равенство <br>
 _псевдонимы:_ \[math.==&#39;\], \[ceammc/==&#39;\], \[==&#39;\]
 
 
-[**math.sync_ge**](math.sync_ge.html): sync greater equal numbers compare <br>
+[**math.sync_ge**](math.sync_ge.html): синхронная проверка на больше или равно <br>
 _псевдонимы:_ \[math.&gt;=&#39;\], \[ceammc/&gt;=&#39;\], \[&gt;=&#39;\]
 
 
-[**math.sync_gt**](math.sync_gt.html): sync greater then numbers compare <br>
+[**math.sync_gt**](math.sync_gt.html): синхронная проверка на большее значение <br>
 _псевдонимы:_ \[math.&gt;&#39;\], \[ceammc/&gt;&#39;\], \[&gt;&#39;\]
 
 
-[**math.sync_le**](math.sync_le.html): sync less equal numbers compare <br>
+[**math.sync_le**](math.sync_le.html): синхронная проверка на меньше или равно <br>
 _псевдонимы:_ \[math.&lt;=&#39;\], \[ceammc/&lt;=&#39;\], \[&lt;=&#39;\]
 
 
-[**math.sync_lshift**](math.sync_lshift.html): sync signed bit left shift <br>
+[**math.sync_lshift**](math.sync_lshift.html): синхронный битовый сдвиг налево <br>
 _псевдонимы:_ \[math.&lt;&lt;&#39;\], \[ceammc/&lt;&lt;&#39;\], \[&lt;&lt;&#39;\]
 
 
-[**math.sync_lt**](math.sync_lt.html): sync less then numbers compare <br>
+[**math.sync_lt**](math.sync_lt.html): синхронная проверка на меньшее значение <br>
 _псевдонимы:_ \[math.&lt;&#39;\], \[ceammc/&lt;&#39;\], \[&lt;&#39;\]
 
 
-[**math.sync_mod**](math.sync_mod.html): sync remainder of modulo division (float or integer) <br>
+[**math.sync_mod**](math.sync_mod.html): синхронный остаток от деления по модулю (с плавающей точкой или целое) <br>
 _псевдонимы:_ \[math.%&#39;\], \[ceammc/%&#39;\], \[%&#39;\]
 
 
-[**math.sync_mul**](math.sync_mul.html): sync multiplication <br>
+[**math.sync_mul**](math.sync_mul.html): синхронное умножение <br>
 _псевдонимы:_ \[math.*&#39;\], \[ceammc/*&#39;\], \[*&#39;\]
 
 
-[**math.sync_ne**](math.sync_ne.html): sync numbers for not equality <br>
+[**math.sync_ne**](math.sync_ne.html): синхронная проверка на неравенство <br>
 _псевдонимы:_ \[math.!=&#39;\], \[ceammc/!=&#39;\], \[!=&#39;\]
 
 
-[**math.sync_or**](math.sync_or.html): sync logical OR operation <br>
+[**math.sync_or**](math.sync_or.html): синхронная логическая операция И <br>
 _псевдонимы:_ \[math.||&#39;\], \[ceammc/||&#39;\], \[||&#39;\]
 
 
-[**math.sync_rshift**](math.sync_rshift.html): sync signed bit right shift <br>
+[**math.sync_rshift**](math.sync_rshift.html): синхронный битовый сдвиг вправо <br>
 _псевдонимы:_ \[math.&gt;&gt;&#39;\], \[ceammc/&gt;&gt;&#39;\], \[&gt;&gt;&#39;\]
 
 
-[**math.sync_sub**](math.sync_sub.html): sync subtraction <br>
+[**math.sync_sub**](math.sync_sub.html): синхронное вычитание <br>
 _псевдонимы:_ \[math.-&#39;\], \[ceammc/-&#39;\], \[-&#39;\]
 
 
-[**math.sync_xor**](math.sync_xor.html): sync logical XOR operation <br>
+[**math.sync_xor**](math.sync_xor.html): логическая операция исключающее ИЛИ <br>
 _псевдонимы:_ \[math.^&#39;\], \[ceammc/^&#39;\], \[^&#39;\]
 
 
-[**math.tan**](math.tan.html): tangent function 
+[**math.tan**](math.tan.html): тангенс 
 
-[**math.tanh**](math.tanh.html): hyperbolic tangent function 
+[**math.tanh**](math.tanh.html): гиперболический тангенс 
 
-[**math.tanh~**](math.tanh~.html): hyperbolic tangent for signals 
+[**math.tanh~**](math.tanh~.html): гиперболический тангенс для сигналов 
 
-[**math.tan~**](math.tan~.html): tangent function 
+[**math.tan~**](math.tan~.html): тангенс 
 
-[**math.trunc**](math.trunc.html): truncate to integer value 
+[**math.trunc**](math.trunc.html): усечение до целочисленного значения 
 
-[**math.trunc~**](math.trunc~.html): truncate to integer value 
+[**math.trunc~**](math.trunc~.html): усечение до целочисленного значения 
 
 
 **Версия:** 0.9.8

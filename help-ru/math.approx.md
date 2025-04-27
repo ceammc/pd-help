@@ -6,7 +6,7 @@ layout: default_ru
 
 # math.approx
 
-###### check if input value approximately equal to pattern
+###### проверить, если входное значение приблизительно равно образцу
 
 *доступно с версии:* 0.1
 

@@ -6,7 +6,7 @@ layout: default_ru
 
 # flt.lpf12~
 
-###### Low-pass second order Butterworth filter
+###### ФНЧ Баттерворта второго порядка
 
 *доступно с версии:* 0.1
 

@@ -3,7 +3,7 @@
 
 # canvas.name
 
-###### current canvas name
+###### output the current canvas name of the object
 
 *available since version:* 0.8
 

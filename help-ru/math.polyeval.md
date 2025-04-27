@@ -6,7 +6,7 @@ layout: default_ru
 
 # math.polyeval
 
-###### evaluates the polynomial described by the coefficients list
+###### вычисляет многочлен, описанный списком коэффициентов
 
 *доступно с версии:* 0.6
 

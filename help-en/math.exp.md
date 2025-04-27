@@ -3,7 +3,7 @@
 
 # math.exp
 
-###### exponential functions
+###### base-e exponential function
 
 *available since version:* 0.1
 

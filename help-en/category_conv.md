@@ -3,7 +3,7 @@
 
 # Category: conv
 
-
+various converters
 
 
 [**array.p2s**](array.p2s.html): converting the array phase \[0..1\] to the sample index <br>

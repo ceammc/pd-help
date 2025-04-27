@@ -6,7 +6,7 @@ layout: default_ru
 
 # math.binomial
 
-###### binomial coefficient calculator
+###### калькулятор биномиальных коэффициентов
 
 *доступно с версии:* 0.9.4
 

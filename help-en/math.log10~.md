@@ -3,7 +3,7 @@
 
 # math.log10~
 
-###### natural logarithm
+###### base-10 logarithm
 
 *available since version:* 0.9
 

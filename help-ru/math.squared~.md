@@ -6,7 +6,7 @@ layout: default_ru
 
 # math.squared~
 
-###### signal value square
+###### возведение в квадрат
 
 *доступно с версии:* 0.9
 

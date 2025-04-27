@@ -7,7 +7,7 @@ layout: default_ru
 ## Категория: net
 
 ---
-
+объекты для работы с сетью
 
 
 [**net.artnet.send**](net.artnet.send.html): ArtNet DMX message sender <br>

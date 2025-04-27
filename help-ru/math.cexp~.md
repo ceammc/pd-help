@@ -6,7 +6,7 @@ layout: default_ru
 
 # math.cexp~
 
-###### exponent of a complex signals
+###### комплексная экспонента для сигналов
 
 *доступно с версии:* 0.9
 

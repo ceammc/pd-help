@@ -6,7 +6,7 @@ layout: default_ru
 
 # math.inf
 
-###### infinity value that cannot be represented accurately
+###### выводит бесконечное значение в стандарте IEEE 754
 
 *доступно с версии:* 0.1
 

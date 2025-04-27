@@ -6,7 +6,7 @@ layout: default_ru
 
 # math.sync_or
 
-###### sync logical OR operation
+###### синхронная логическая операция И
 
 *доступно с версии:* 0.8
 

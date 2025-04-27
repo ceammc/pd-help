@@ -6,7 +6,7 @@ layout: default_ru
 
 # math.cosh~
 
-###### hyperbolic cosine for signals
+###### гиперболический косинус для сигналов
 
 *доступно с версии:* 0.9
 

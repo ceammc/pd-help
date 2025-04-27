@@ -3,7 +3,7 @@
 
 # math.log2~
 
-###### base-2 logarithm
+###### base-2 logarithm for signals
 
 *available since version:* 0.9
 

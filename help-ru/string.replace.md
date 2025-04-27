@@ -6,7 +6,7 @@ layout: default_ru
 
 # string.replace
 
-###### replace from one substring to another in input string
+###### замена одной строки на другую во входной строке
 
 *доступно с версии:* 0.3
 

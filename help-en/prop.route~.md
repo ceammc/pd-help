@@ -5,7 +5,7 @@
 **aliases:** [prop\~&gt;], [@\~&gt;], [ceammc/prop\~&gt;], [ceammc/@\~&gt;], [prop.get\~]
 
 
-###### Property extractor from audio streams
+###### property extractor from audio connections
 
 *available since version:* 0.6
 

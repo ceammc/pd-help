@@ -6,7 +6,7 @@ layout: default_ru
 
 # flt.freqz
 
-###### compute the frequency response of a digital filter
+###### вычисляет частотный отклик цифрового фильтра
 
 *доступно с версии:* 0.9.2
 

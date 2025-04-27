@@ -6,7 +6,7 @@ layout: default_ru
 
 # math.acosh~
 
-###### hyperbolic arc cosine for signals
+###### обратный гиперболический косинус для сигналов
 
 *доступно с версии:* 0.9
 

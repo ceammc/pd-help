@@ -5,7 +5,7 @@
 **aliases:** [str.ends_with]
 
 
-###### checks if string ends with specified substring
+###### checks if the string ends with the specified substring
 
 *available since version:* 0.3
 

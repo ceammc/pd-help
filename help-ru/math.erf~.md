@@ -6,7 +6,7 @@ layout: default_ru
 
 # math.erf~
 
-###### error function for signals
+###### функция ошибок для сигналов
 
 *доступно с версии:* 0.9
 

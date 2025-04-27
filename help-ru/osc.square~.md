@@ -6,7 +6,7 @@ layout: default_ru
 
 # osc.square~
 
-###### Bandlimited square wave oscillator
+###### осциллятор квадратной волны с ограниченным спектром
 
 *доступно с версии:* 0.1
 

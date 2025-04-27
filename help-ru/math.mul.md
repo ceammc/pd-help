@@ -6,7 +6,7 @@ layout: default_ru
 
 # math.mul
 
-###### multiplication (on lists too)
+###### умножение
 
 *доступно с версии:* 0.6
 

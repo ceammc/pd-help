@@ -5,7 +5,7 @@
 **aliases:** [ceammc/lpf-&gt;biquad], [lpf-&gt;biquad]
 
 
-###### LPF coefficient calculator for biquad filter
+###### LPF coefficients calculator for \[flt.biquad~\]
 
 *available since version:* 0.9.2
 

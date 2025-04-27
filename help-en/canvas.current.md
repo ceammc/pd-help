@@ -3,7 +3,7 @@
 
 # canvas.current
 
-###### verbose information about current canvas
+###### get the information about the current canvas of the object
 
 *available since version:* 0.4
 

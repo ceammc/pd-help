@@ -6,7 +6,7 @@ layout: default_ru
 
 # flt.hpf24~
 
-###### High-pass fourth order Butterworth filter
+###### ФВЧ Баттерворта четвертого порядка
 
 *доступно с версии:* 0.1
 

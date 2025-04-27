@@ -3,7 +3,7 @@
 
 # lfo.+tri~
 
-###### Positive unit-amplitude low frequency triangle wave
+###### positive unit-amplitude low frequency triangle wave
 
 *available since version:* 0.7
 

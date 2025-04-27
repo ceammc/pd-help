@@ -6,7 +6,7 @@ layout: default_ru
 
 # math.sinh
 
-###### hyperbolic sine function
+###### гиперболическая функция синуса
 
 *доступно с версии:* 0.1
 

@@ -6,7 +6,7 @@ layout: default_ru
 
 # math.round
 
-###### round to integral value, regardless of rounding direction
+###### округление до ближайшего целого значения
 
 *доступно с версии:* 0.1
 

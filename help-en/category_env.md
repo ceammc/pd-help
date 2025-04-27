@@ -3,7 +3,7 @@
 
 # Category: env
 
-objects to work with sound envelopes
+working with sound envelopes
 
 
 [**env.adsr\~**](env.adsr~.html): ADSR (Attack, Decay, Sustain, Release) envelope generator 
@@ -16,7 +16,7 @@ objects to work with sound envelopes
 
 [**env.concat**](env.concat.html): envelope concatenation 
 
-[**env.follow\~**](env.follow~.html): Envelope follower with independent attack and release times 
+[**env.follow\~**](env.follow~.html): envelope follower with independent attack and release times 
 
 [**env.mix**](env.mix.html): mix between two envelopes that contain the equal number of segments 
 

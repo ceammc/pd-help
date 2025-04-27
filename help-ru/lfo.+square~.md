@@ -6,7 +6,7 @@ layout: default_ru
 
 # lfo.+square~
 
-###### Positive low frequency square wave
+###### низкочастотная квадратная волна единичной амплитуды в диапазоне \[0,+1\]
 
 *доступно с версии:* 0.7
 

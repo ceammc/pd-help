@@ -3,7 +3,7 @@
 
 # Category: ui
 
-
+graphical user interface objects
 
 
 [**ui.aview**](ui.aview.html): array view with cursor and selection 

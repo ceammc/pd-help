@@ -6,7 +6,7 @@ layout: default_ru
 
 # math.tan~
 
-###### tangent function
+###### тангенс
 
 *доступно с версии:* 0.9
 

@@ -6,7 +6,7 @@ layout: default_ru
 
 # math.sync_mod
 
-###### sync remainder of modulo division (float or integer)
+###### синхронный остаток от деления по модулю (с плавающей точкой или целое)
 
 *доступно с версии:* 0.8
 

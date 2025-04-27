@@ -3,7 +3,7 @@
 
 # osc.sin~
 
-###### Sine wave oscillator
+###### sine wave oscillator
 
 *available since version:* 0.7
 

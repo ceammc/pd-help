@@ -3,7 +3,7 @@
 
 # flt.c_lpf~
 
-###### LPF coefficient calculator for biquad filter
+###### LPF coefficients calculator for \[flt.biquad~\]
 
 *available since version:* 0.1
 

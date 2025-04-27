@@ -6,7 +6,7 @@ layout: default_ru
 
 # flt.bpf12~
 
-###### Two pole band-pass butterworth filter
+###### двухполюсный полосовой фильтр Баттерворта
 
 *доступно с версии:* 0.1
 

@@ -6,7 +6,7 @@ layout: default_ru
 
 # string.equal
 
-###### check strings or symbols for equality
+###### проверка строк или символов на равенство
 
 *доступно с версии:* 0.3
 

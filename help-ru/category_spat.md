@@ -7,7 +7,7 @@ layout: default_ru
 ## Категория: spat
 
 ---
-
+работа с пространственным звуком
 
 
 [**hoa.2d.decoder~**](hoa.2d.decoder~.html): hoa 2d decoder <br>

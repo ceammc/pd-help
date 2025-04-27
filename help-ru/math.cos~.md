@@ -6,7 +6,7 @@ layout: default_ru
 
 # math.cos~
 
-###### cosine function
+###### функция косинуса
 
 *доступно с версии:* 0.9
 

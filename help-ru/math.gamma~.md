@@ -6,7 +6,7 @@ layout: default_ru
 
 # math.gamma~
 
-###### gamma function for floating point signals
+###### гамма-функция для сигналов
 
 *доступно с версии:* 0.9
 

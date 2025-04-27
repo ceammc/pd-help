@@ -3,16 +3,16 @@
 
 # Category: lfo
 
+low frequency oscillators
 
 
+[**lfo.+pulse\~**](lfo.%2Bpulse~.html): unit-amplitude nonnegative low frequency pulse train 
 
-[**lfo.+pulse\~**](lfo.%2Bpulse~.html): Unit-amplitude nonnegative low frequency pulse train 
+[**lfo.+saw\~**](lfo.%2Bsaw~.html): positive unit-amplitude low frequency saw wave 
 
-[**lfo.+saw\~**](lfo.%2Bsaw~.html): Positive unit-amplitude low frequency saw wave 
+[**lfo.+square\~**](lfo.%2Bsquare~.html): positive low frequency square wave 
 
-[**lfo.+square\~**](lfo.%2Bsquare~.html): Positive low frequency square wave 
-
-[**lfo.+tri\~**](lfo.%2Btri~.html): Positive unit-amplitude low frequency triangle wave 
+[**lfo.+tri\~**](lfo.%2Btri~.html): positive unit-amplitude low frequency triangle wave 
 
 [**lfo.impulse\~**](lfo.impulse~.html): unit-amplitude low-frequency impulse train 
 

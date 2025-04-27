@@ -6,7 +6,7 @@ layout: default_ru
 
 # string.match
 
-###### check if string match regular expression
+###### проверка соответствия строки регулярному выражению
 
 *доступно с версии:* 0.7.1
 

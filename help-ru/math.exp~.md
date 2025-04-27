@@ -6,7 +6,7 @@ layout: default_ru
 
 # math.exp~
 
-###### base-e exponential for signal
+###### экспоненциальная функция для сигналов на основе числа e
 
 *доступно с версии:* 0.9
 

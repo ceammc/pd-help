@@ -3,7 +3,7 @@
 
 # Category: symbol
 
-
+working with symbols
 
 
 [**symbol.equal**](symbol.equal.html): check symbols for equality 

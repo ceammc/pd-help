@@ -5,7 +5,7 @@
 **aliases:** [str.contains]
 
 
-###### checks if string contains specified substring
+###### checks if the string contains specified substring
 
 *available since version:* 0.3
 

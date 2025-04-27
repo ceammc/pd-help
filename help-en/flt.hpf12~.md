@@ -3,7 +3,7 @@
 
 # flt.hpf12~
 
-###### High-pass second order Butterworth filter
+###### high-pass second order Butterworth filter
 
 *available since version:* 0.1
 

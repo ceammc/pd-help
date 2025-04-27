@@ -6,7 +6,7 @@ layout: default_ru
 
 # math.atan
 
-###### arc tangent function
+###### арктангенс
 
 *доступно с версии:* 0.1
 

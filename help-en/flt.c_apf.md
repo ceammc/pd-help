@@ -5,7 +5,7 @@
 **aliases:** [ceammc/apf-&gt;biquad], [apf-&gt;biquad]
 
 
-###### Allpass filter coefficient calculator for biquad
+###### allpass filter coefficients calculator for \[flt.biquad~\] object
 
 *available since version:* 0.9.2
 

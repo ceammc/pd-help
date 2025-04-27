@@ -6,7 +6,7 @@ layout: default_ru
 
 # prop.set
 
-###### set property for connected object/subpatch/abstraction
+###### устанавливает значение свойства для подключенного объекта, субпатча или абстракции
 
 *доступно с версии:* 0.9
 

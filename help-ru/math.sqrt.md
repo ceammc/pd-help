@@ -6,7 +6,7 @@ layout: default_ru
 
 # math.sqrt
 
-###### square root function
+###### функция квадратного корня
 
 *доступно с версии:* 0.1
 

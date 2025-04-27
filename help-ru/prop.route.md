@@ -6,7 +6,7 @@ layout: default_ru
 
 # prop.route
 
-###### separate properties from dataflow
+###### отделяет свойства от основного потока данных
 
 *доступно с версии:* 0.9
 

@@ -3,7 +3,7 @@
 
 # math.exp~
 
-###### base-e exponential for signal
+###### base-e exponential function for signals
 
 *available since version:* 0.9
 

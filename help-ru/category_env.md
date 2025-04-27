@@ -7,7 +7,7 @@ layout: default_ru
 ## Категория: env
 
 ---
-объекты для работы со звуковыми огибающими
+работа со звуковыми огибающими
 
 
 [**env.adsr~**](env.adsr~.html): генератор огибающей ADSR (Attack, Decay, Sustain, Release) 
@@ -20,7 +20,7 @@ layout: default_ru
 
 [**env.concat**](env.concat.html): конкатенация огибающих 
 
-[**env.follow~**](env.follow~.html): Envelope follower with independent attack and release times 
+[**env.follow~**](env.follow~.html): детектор огибающей с независимой атакой и временем отпускания 
 
 [**env.mix**](env.mix.html): микс между двумя огибающими, содержащими равное количество сегментов 
 

@@ -6,7 +6,7 @@ layout: default_ru
 
 # flt.speaker~
 
-###### speaker emulation band-pass filter
+###### полосовой фильтр-эмуляция динамика
 
 *доступно с версии:* 0.9.7
 

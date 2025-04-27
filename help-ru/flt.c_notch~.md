@@ -6,7 +6,7 @@ layout: default_ru
 
 # flt.c_notch~
 
-###### Band-reject coefficient calculator for biquad filter
+###### калькулятор коэффициентов режекторного фильтра для \[flt.biquad~\]
 
 *доступно с версии:* 0.1
 

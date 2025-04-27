@@ -3,7 +3,7 @@
 
 # osc.square~
 
-###### Bandlimited square wave oscillator
+###### bandlimited square wave oscillator
 
 *available since version:* 0.1
 

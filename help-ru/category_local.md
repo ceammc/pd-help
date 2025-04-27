@@ -7,7 +7,7 @@ layout: default_ru
 ## Категория: local
 
 ---
-
+локальный именованные объекты, доступные только из текущего холста
 
 
 [**local.dict**](local.dict.html): local named dict object <br>

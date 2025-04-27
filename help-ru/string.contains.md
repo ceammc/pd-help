@@ -6,7 +6,7 @@ layout: default_ru
 
 # string.contains
 
-###### checks if string contains specified substring
+###### проверяет, содержит ли строка указанную подстроку
 
 *доступно с версии:* 0.3
 

@@ -76,7 +76,7 @@ layout: default_ru
 
 
 ### <a id="cat_array" href="category_array.html">array</a>
-объекты для работы со звуковыми массивами и таблицами
+работа со звуковыми массивами и таблицами
 
 ---
 
@@ -231,7 +231,7 @@ layout: default_ru
 
 
 ### <a id="cat_conv" href="category_conv.html">conv</a>
-
+различные конвертеры
 
 ---
 
@@ -346,7 +346,7 @@ layout: default_ru
 
 
 ### <a id="cat_data" href="category_data.html">data</a>
-
+работа с различными типами данных
 
 ---
 
@@ -423,7 +423,7 @@ layout: default_ru
 
 
 ### <a id="cat_dyn" href="category_dyn.html">dyn</a>
-объекты для работы с динамическим диапазоном звука
+работа с динамическим диапазоном звука
 
 ---
 
@@ -456,7 +456,7 @@ layout: default_ru
 
 
 ### <a id="cat_env" href="category_env.html">env</a>
-объекты для работы со звуковыми огибающими
+работа со звуковыми огибающими
 
 ---
 
@@ -471,7 +471,7 @@ layout: default_ru
 
 [**env.concat**](env.concat.html): конкатенация огибающих
 
-[**env.follow~**](env.follow~.html): Envelope follower with independent attack and release times
+[**env.follow~**](env.follow~.html): детектор огибающей с независимой атакой и временем отпускания
 
 [**env.mix**](env.mix.html): микс между двумя огибающими, содержащими равное количество сегментов
 
@@ -612,92 +612,92 @@ layout: default_ru
 
 
 ### <a id="cat_flt" href="category_flt.html">flt</a>
-
+фильтры
 
 ---
 
 
 [**flt.a-weight**](flt.a-weight.html): convert frequency to A-weight value
 
-[**flt.biquad~**](flt.biquad~.html): second order IIR filter.
+[**flt.biquad~**](flt.biquad~.html): БИХ фильтр второго порядка
 
-[**flt.bpf12~**](flt.bpf12~.html): Two pole band-pass butterworth filter
+[**flt.bpf12~**](flt.bpf12~.html): двухполюсный полосовой фильтр Баттерворта
 
-[**flt.bpf24~**](flt.bpf24~.html): Four pole band-pass butterworth filter
+[**flt.bpf24~**](flt.bpf24~.html): четырехполюсный полосовой фильтр Баттерворта
 
-[**flt.bpf36e~**](flt.bpf36e~.html): elliptic band-pass filter with -36db rolloff
+[**flt.bpf36e~**](flt.bpf36e~.html): эллиптический полосовой фильтр с -36db спадом
 
-[**flt.bpf72e~**](flt.bpf72e~.html): elliptic band-pass filter with -72db rolloff
+[**flt.bpf72e~**](flt.bpf72e~.html): эллиптический полосовой фильтр с -72db спадом
 
-[**flt.c_apf**](flt.c_apf.html): Allpass filter coefficient calculator for biquad
+[**flt.c_apf**](flt.c_apf.html): калькулятор коэффициентов всепропускающего фильтра для объекта \[flt.biquad~\]
 
-[**flt.c_bpf~**](flt.c_bpf~.html): BPF coefficient calculator for biquad filter
+[**flt.c_bpf~**](flt.c_bpf~.html): калькулятор коэффициентов полосового фильтра для \[flt.biquad~\]
 
-[**flt.c_highshelf~**](flt.c_highshelf~.html): Highshelf filter coefficient calculator for biquad
+[**flt.c_highshelf~**](flt.c_highshelf~.html): калькулятор коэффициентов полочного фильтра высоких частот для \[flt.biquad~\]
 
-[**flt.c_hpf**](flt.c_hpf.html): HPF coefficient calculator for biquad filter
+[**flt.c_hpf**](flt.c_hpf.html): калькулятор коэффициентов ФВЧ частот для \[flt.biquad~\]
 
-[**flt.c_hpf~**](flt.c_hpf~.html): HPF coefficient calculator for biquad filter
+[**flt.c_hpf~**](flt.c_hpf~.html): калькулятор коэффициентов ФВЧ частот для \[flt.biquad~\]
 
-[**flt.c_lowshelf~**](flt.c_lowshelf~.html): Lowshelf filter coefficient calculator for biquad
+[**flt.c_lowshelf~**](flt.c_lowshelf~.html): калькулятор коэффициентов полочного фильтра низких частот для \[flt.biquad~\]
 
-[**flt.c_lpf**](flt.c_lpf.html): LPF coefficient calculator for biquad filter
+[**flt.c_lpf**](flt.c_lpf.html): калькулятор коэффициентов ФНЧ для \[flt.biquad~\]
 
-[**flt.c_lpf~**](flt.c_lpf~.html): LPF coefficient calculator for biquad filter
+[**flt.c_lpf~**](flt.c_lpf~.html): калькулятор коэффициентов ФНЧ для \[flt.biquad~\]
 
-[**flt.c_notch**](flt.c_notch.html): Notch filter coefficient calculator for biquad
+[**flt.c_notch**](flt.c_notch.html): калькулятор коэффициентов режекторного фильтра для \[flt.biquad~\]
 
-[**flt.c_notch~**](flt.c_notch~.html): Band-reject coefficient calculator for biquad filter
+[**flt.c_notch~**](flt.c_notch~.html): калькулятор коэффициентов режекторного фильтра для \[flt.biquad~\]
 
-[**flt.c_peak~**](flt.c_peak~.html): Peaking equalizer calculator for biquad
+[**flt.c_peak~**](flt.c_peak~.html): калькулятор пикового фильтра для \[flt.biquad~\]
 
-[**flt.c_pole**](flt.c_pole.html): One-pole coefficient calculator for biquad filter
+[**flt.c_pole**](flt.c_pole.html): калькулятор однополюсного фильтра для \[flt.biquad~\]
 
-[**flt.dcblock2~**](flt.dcblock2~.html): stereo DC blocker
+[**flt.dcblock2~**](flt.dcblock2~.html): двухканальный фильтр, блокирующий постоянную составляющую сигнала
 
-[**flt.dcblock~**](flt.dcblock~.html): mono DC blocker
+[**flt.dcblock~**](flt.dcblock~.html): одноканальный фильтр, блокирующий постоянную составляющую сигнала
 
-[**flt.eq10~**](flt.eq10~.html): graphic 10 band equalizer
+[**flt.eq10~**](flt.eq10~.html): графический 10-полосный эквалайзер 
 
-[**flt.eq_peak_cq~**](flt.eq_peak_cq~.html): constant-Q second order peaking equalizer section
+[**flt.eq_peak_cq~**](flt.eq_peak_cq~.html): секция эквалайзера: пиковый фильтр второго порядка c constant-Q
 
-[**flt.eq_peak~**](flt.eq_peak~.html): second order &#34;peaking equalizer&#34; section (gain boost or cut near some frequency). Also called a &#34;parametric equalizer&#34; section.
+[**flt.eq_peak~**](flt.eq_peak~.html): секция эквалайзера: пиковый фильтр второго порядка
 
-[**flt.fb_comb~**](flt.fb_comb~.html): feedback comb filter
+[**flt.fb_comb~**](flt.fb_comb~.html): гребенчатый фильтр с обратной связью (БИХ)
 
-[**flt.fbank5x1~**](flt.fbank5x1~.html): 5 band one octave butterworth filterbank
+[**flt.fbank5x1~**](flt.fbank5x1~.html): 5-полосный банк однооктавных фильтров Баттерворта
 
-[**flt.ff_comb~**](flt.ff_comb~.html): feed forward comb filter
+[**flt.ff_comb~**](flt.ff_comb~.html): гребенчатый фильтр (КИХ)
 
-[**flt.freqz**](flt.freqz.html): compute the frequency response of a digital filter
+[**flt.freqz**](flt.freqz.html): вычисляет частотный отклик цифрового фильтра
 
-[**flt.freqz~**](flt.freqz~.html): compute the frequency response of a digital filter
+[**flt.freqz~**](flt.freqz~.html): вычисляет частотный отклик цифрового фильтра
 
-[**flt.highshelf~**](flt.highshelf~.html): gain boost|cut above some frequency
+[**flt.highshelf~**](flt.highshelf~.html): усиление или ослабление частот выше указанной
 
-[**flt.hpf12~**](flt.hpf12~.html): High-pass second order Butterworth filter
+[**flt.hpf12~**](flt.hpf12~.html): ФВЧ Баттерворта второго порядка
 
-[**flt.hpf24~**](flt.hpf24~.html): High-pass fourth order Butterworth filter
+[**flt.hpf24~**](flt.hpf24~.html): ФВЧ Баттерворта четвертого порядка
 
-[**flt.lowshelf~**](flt.lowshelf~.html): gain boost|cut below some frequency
+[**flt.lowshelf~**](flt.lowshelf~.html): усиление или ослабление частот ниже указанной
 
-[**flt.lpf12~**](flt.lpf12~.html): Low-pass second order Butterworth filter
+[**flt.lpf12~**](flt.lpf12~.html): ФНЧ Баттерворта второго порядка
 
-[**flt.lpf24~**](flt.lpf24~.html): Low-pass fourth order Butterworth filter
+[**flt.lpf24~**](flt.lpf24~.html): ФНЧ Баттерворта четвертого порядка
 
-[**flt.median**](flt.median.html): Median control flow filter
+[**flt.median**](flt.median.html): медианный фильтр для контрольного потока
 
-[**flt.moog_vcf~**](flt.moog_vcf~.html): Moog Voltage Controlled Filter
+[**flt.moog_vcf~**](flt.moog_vcf~.html): управляемый напряжением фильтр Муга
 
-[**flt.notch~**](flt.notch~.html): band-rejection filter
+[**flt.notch~**](flt.notch~.html): режекторный фильтр
 
-[**flt.resonbp~**](flt.resonbp~.html): Simple resonant bandpass filter
+[**flt.resonbp~**](flt.resonbp~.html): простой резонансный полосовой фильтр
 
-[**flt.resonhp~**](flt.resonhp~.html): Simple resonant highpass filter
+[**flt.resonhp~**](flt.resonhp~.html): простой резонансный ФВЧ
 
-[**flt.resonlp~**](flt.resonlp~.html): Simple resonant lowpass filter
+[**flt.resonlp~**](flt.resonlp~.html): простой резонансный ФНЧ
 
-[**flt.speaker~**](flt.speaker~.html): speaker emulation band-pass filter
+[**flt.speaker~**](flt.speaker~.html): полосовой фильтр-эмуляция динамика
 
 
 ### <a id="cat_fx" href="category_fx.html">fx</a>
@@ -801,7 +801,7 @@ layout: default_ru
 
 
 ### <a id="cat_hw" href="category_hw.html">hw</a>
-объекты для работы с различными аппаратными устройствами
+работа с различными аппаратными устройствами
 
 ---
 
@@ -867,7 +867,7 @@ layout: default_ru
 
 
 ### <a id="cat_lfo" href="category_lfo.html">lfo</a>
-
+низкочастотные осцилляторы
 
 ---
 
@@ -894,7 +894,7 @@ layout: default_ru
 
 
 ### <a id="cat_list" href="category_list.html">list</a>
-объекты для работы со списками
+работа со списками
 
 ---
 
@@ -1050,7 +1050,7 @@ layout: default_ru
 
 
 ### <a id="cat_local" href="category_local.html">local</a>
-
+локальный именованные объекты, доступные только из текущего холста
 
 ---
 
@@ -1069,206 +1069,206 @@ layout: default_ru
 
 
 ### <a id="cat_math" href="category_math.html">math</a>
-различные математические объекты, которые могут работать в том числе и со списками чисел
+математические объекты, которые могут работать со списками чисел
 
 ---
 
 
-[**math.abs**](math.abs.html): absolute value function
+[**math.abs**](math.abs.html): абсолютное значение
 
-[**math.abs~**](math.abs~.html): absolute value function for signals
+[**math.abs~**](math.abs~.html): функция абсолютного значения для сигналов
 
-[**math.acos**](math.acos.html): arc cosine function
+[**math.acos**](math.acos.html): арккосинус
 
-[**math.acosh**](math.acosh.html): inverse hyperbolic cosine function
+[**math.acosh**](math.acosh.html): обратный гиперболический косинус
 
-[**math.acosh~**](math.acosh~.html): hyperbolic arc cosine for signals
+[**math.acosh~**](math.acosh~.html): обратный гиперболический косинус для сигналов
 
-[**math.acos~**](math.acos~.html): arc cosine function for signals
+[**math.acos~**](math.acos~.html): арккосинус для сигналов
 
-[**math.and**](math.and.html): operation AND for multiple arguments
+[**math.and**](math.and.html): операция И для множества аргументов
 
-[**math.approx**](math.approx.html): check if input value approximately equal to pattern
+[**math.approx**](math.approx.html): проверить, если входное значение приблизительно равно образцу
 
-[**math.asin**](math.asin.html): arc sine function
+[**math.asin**](math.asin.html): арксинус
 
-[**math.asinh**](math.asinh.html): inverse hyperbolic sine function
+[**math.asinh**](math.asinh.html): обратный гиперболический синус
 
-[**math.asinh~**](math.asinh~.html): hyperbolic arc sine for signals
+[**math.asinh~**](math.asinh~.html): обратный гиперболической синус для сигналов
 
-[**math.asin~**](math.asin~.html): arc sine for signals
+[**math.asin~**](math.asin~.html): арксинус для сигналов
 
-[**math.atan**](math.atan.html): arc tangent function
+[**math.atan**](math.atan.html): арктангенс
 
-[**math.atanh**](math.atanh.html): inverse hyperbolic tangent function
+[**math.atanh**](math.atanh.html): обратный гиперболический тангенс
 
-[**math.atanh~**](math.atanh~.html): hyperbolic arc tangent for signals
+[**math.atanh~**](math.atanh~.html): обратный гиперболический тангенс для сигналов
 
-[**math.atan~**](math.atan~.html): arc tangent for signals
+[**math.atan~**](math.atan~.html): арктангенс для сигналов
 
-[**math.binomial**](math.binomial.html): binomial coefficient calculator
+[**math.binomial**](math.binomial.html): калькулятор биномиальных коэффициентов
 
 [**math.cabs~**](math.cabs~.html): magnitude of a complex signals
 
-[**math.carg~**](math.carg~.html): phase angle of a complex signals
+[**math.carg~**](math.carg~.html): фазовый угол комплексных сигналов
 
-[**math.cbrt**](math.cbrt.html): cube root function
+[**math.cbrt**](math.cbrt.html): кубический корень
 
-[**math.cbrt~**](math.cbrt~.html): cube root function for signals
+[**math.cbrt~**](math.cbrt~.html): кубический корень для сигналов
 
-[**math.cdiv~**](math.cdiv~.html): division of complex signals
+[**math.cdiv~**](math.cdiv~.html): деление комплексных сигналов
 
-[**math.ceil**](math.ceil.html): round to smallest integral value not less than input value
+[**math.ceil**](math.ceil.html): округление до наименьшего целого значения, которое не меньше входного
 
-[**math.ceil~**](math.ceil~.html): round to smallest integral value not less than input value
+[**math.ceil~**](math.ceil~.html): округление до наименьшего целого значения, которое не менее входного
 
-[**math.cexp~**](math.cexp~.html): exponent of a complex signals
+[**math.cexp~**](math.cexp~.html): комплексная экспонента для сигналов
 
-[**math.cmul~**](math.cmul~.html): multiplication of complex signals
+[**math.cmul~**](math.cmul~.html): умножение комплексных сигналов
 
-[**math.cos**](math.cos.html): cosine function
+[**math.cos**](math.cos.html): функция косинуса
 
-[**math.cosh**](math.cosh.html): hyperbolic cosine function
+[**math.cosh**](math.cosh.html): гиперболический косинус
 
-[**math.cosh~**](math.cosh~.html): hyperbolic cosine for signals
+[**math.cosh~**](math.cosh~.html): гиперболический косинус для сигналов
 
-[**math.cos~**](math.cos~.html): cosine function
+[**math.cos~**](math.cos~.html): функция косинуса
 
-[**math.div**](math.div.html): division (on lists too)
+[**math.div**](math.div.html): деление
 
-[**math.e**](math.e.html): mathematical constant, base of the natural logarithm
+[**math.e**](math.e.html): математическая константа, основание натурального логарифма
 
-[**math.erf**](math.erf.html): error function
+[**math.erf**](math.erf.html): функция ошибок
 
-[**math.erf~**](math.erf~.html): error function for signals
+[**math.erf~**](math.erf~.html): функция ошибок для сигналов
 
-[**math.exp**](math.exp.html): exponential functions
+[**math.exp**](math.exp.html): экспоненциальная функция на основе числа e
 
-[**math.exp2**](math.exp2.html): exponential functions
+[**math.exp2**](math.exp2.html): экспоненциальная функция на основе 2
 
-[**math.exp2~**](math.exp2~.html): base-2 exponential for signal
+[**math.exp2~**](math.exp2~.html): экспоненциальная функция на основе 2 для сигналов
 
-[**math.expr**](math.expr.html): dynamic \[expr\]
+[**math.expr**](math.expr.html): динамическая версия объекта \[expr\]
 
-[**math.exp~**](math.exp~.html): base-e exponential for signal
+[**math.exp~**](math.exp~.html): экспоненциальная функция для сигналов на основе числа e
 
-[**math.floor**](math.floor.html): round to largest integral value not greater than x
+[**math.floor**](math.floor.html): округление до наибольшего целого значения, не превышающего входное значение
 
-[**math.floor~**](math.floor~.html): round to largest integral value not greater than x
+[**math.floor~**](math.floor~.html): округление до наибольшего целого значения, не превышающего входного значения
 
-[**math.gamma**](math.gamma.html): gamma function
+[**math.gamma**](math.gamma.html): гамма функция
 
-[**math.gamma~**](math.gamma~.html): gamma function for floating point signals
+[**math.gamma~**](math.gamma~.html): гамма-функция для сигналов
 
-[**math.gcd**](math.gcd.html): calculate greatest common divisor
+[**math.gcd**](math.gcd.html): вычисляет наибольший общий делитель
 
-[**math.inf**](math.inf.html): infinity value that cannot be represented accurately
+[**math.inf**](math.inf.html): выводит бесконечное значение в стандарте IEEE 754
 
-[**math.inf~**](math.inf~.html): inifinity signal generator
+[**math.inf~**](math.inf~.html): выводит бесконечное значение в стандарте IEEE 754
 
-[**math.lcm**](math.lcm.html): calculate least common multiple
+[**math.lcm**](math.lcm.html): вычисляет наименьшее общее кратное
 
-[**math.lgamma**](math.lgamma.html): natural logarithm of the absolute value of the gamma function
+[**math.lgamma**](math.lgamma.html): натуральный логарифм абсолютного значения гамма-функции
 
-[**math.lgamma~**](math.lgamma~.html): natural logarithm of the absolute value of the gamma function for signals
+[**math.lgamma~**](math.lgamma~.html): натуральный логарифм абсолютного значения гамма-функции для сигналов
 
-[**math.log**](math.log.html): natural logarithm
+[**math.log**](math.log.html): натуральный логарифм
 
-[**math.log10**](math.log10.html): logarithm functions
+[**math.log10**](math.log10.html): логарифм по основанию 10
 
-[**math.log10~**](math.log10~.html): natural logarithm
+[**math.log10~**](math.log10~.html): логарифм по основанию 10
 
-[**math.log2**](math.log2.html): logarithm functions
+[**math.log2**](math.log2.html): логарифм по основанию 2
 
-[**math.log2~**](math.log2~.html): base-2 logarithm
+[**math.log2~**](math.log2~.html): логарифм по основанию 2 для сигналов
 
-[**math.log~**](math.log~.html): natural logarithm
+[**math.log~**](math.log~.html): натуральный логарифм для сигналов
 
-[**math.mul**](math.mul.html): multiplication (on lists too)
+[**math.mul**](math.mul.html): умножение
 
-[**math.nan**](math.nan.html): Not a Number, unrepresentable value
+[**math.nan**](math.nan.html): Не число, непредставимое значение
 
-[**math.nan~**](math.nan~.html): signal NaN
+[**math.nan~**](math.nan~.html): сигнал NaNN
 
 [**math.neg**](math.neg.html): negate function
 
-[**math.or**](math.or.html): operation OR for multiple arguments
+[**math.or**](math.or.html): операция ИЛИ для множества аргументов
 
-[**math.pi**](math.pi.html): mathematical constant
+[**math.pi**](math.pi.html): математическая константа π
 
-[**math.pi~**](math.pi~.html): mathematical constant
+[**math.pi~**](math.pi~.html): математическая константа π
 
-[**math.polyeval**](math.polyeval.html): evaluates the polynomial described by the coefficients list
+[**math.polyeval**](math.polyeval.html): вычисляет многочлен, описанный списком коэффициентов
 
-[**math.reciprocal**](math.reciprocal.html): calculate reciprocal number
+[**math.reciprocal**](math.reciprocal.html): вычислить обратное значение
 
-[**math.reciprocal~**](math.reciprocal~.html): calculate reciprocal number for signals
+[**math.reciprocal~**](math.reciprocal~.html): вычислить обратное значение для сигналов
 
-[**math.round**](math.round.html): round to integral value, regardless of rounding direction
+[**math.round**](math.round.html): округление до ближайшего целого значения
 
-[**math.round~**](math.round~.html): signal round
+[**math.round~**](math.round~.html): округление сигнала до ближайшего целого значения
 
-[**math.sign**](math.sign.html): sign function
+[**math.sign**](math.sign.html): знаковая функция
 
-[**math.sin**](math.sin.html): sine function
+[**math.sin**](math.sin.html): функция синуса
 
-[**math.sinh**](math.sinh.html): hyperbolic sine function
+[**math.sinh**](math.sinh.html): гиперболическая функция синуса
 
-[**math.sinh~**](math.sinh~.html): hyperbolic sine for signals
+[**math.sinh~**](math.sinh~.html): гиперболический синус для сигналов
 
-[**math.sin~**](math.sin~.html): sine function
+[**math.sin~**](math.sin~.html): функция синуса
 
-[**math.sqrt**](math.sqrt.html): square root function
+[**math.sqrt**](math.sqrt.html): функция квадратного корня
 
-[**math.sqrt~**](math.sqrt~.html): square root for signal
+[**math.sqrt~**](math.sqrt~.html): квадратный корень для сигнала
 
-[**math.squared**](math.squared.html): value square
+[**math.squared**](math.squared.html): возведение в квадрат
 
-[**math.squared~**](math.squared~.html): signal value square
+[**math.squared~**](math.squared~.html): возведение в квадрат
 
-[**math.sync_add**](math.sync_add.html): sync addition
+[**math.sync_add**](math.sync_add.html): синхронное сложение
 
-[**math.sync_and**](math.sync_and.html): sync logical AND operation
+[**math.sync_and**](math.sync_and.html): синхронное логическое И
 
-[**math.sync_div**](math.sync_div.html): sync division
+[**math.sync_div**](math.sync_div.html): синхронное деление
 
-[**math.sync_eq**](math.sync_eq.html): sync equal numbers check
+[**math.sync_eq**](math.sync_eq.html): синхронная проверка на равенство
 
-[**math.sync_ge**](math.sync_ge.html): sync greater equal numbers compare
+[**math.sync_ge**](math.sync_ge.html): синхронная проверка на больше или равно
 
-[**math.sync_gt**](math.sync_gt.html): sync greater then numbers compare
+[**math.sync_gt**](math.sync_gt.html): синхронная проверка на большее значение
 
-[**math.sync_le**](math.sync_le.html): sync less equal numbers compare
+[**math.sync_le**](math.sync_le.html): синхронная проверка на меньше или равно
 
-[**math.sync_lshift**](math.sync_lshift.html): sync signed bit left shift
+[**math.sync_lshift**](math.sync_lshift.html): синхронный битовый сдвиг налево
 
-[**math.sync_lt**](math.sync_lt.html): sync less then numbers compare
+[**math.sync_lt**](math.sync_lt.html): синхронная проверка на меньшее значение
 
-[**math.sync_mod**](math.sync_mod.html): sync remainder of modulo division (float or integer)
+[**math.sync_mod**](math.sync_mod.html): синхронный остаток от деления по модулю (с плавающей точкой или целое)
 
-[**math.sync_mul**](math.sync_mul.html): sync multiplication
+[**math.sync_mul**](math.sync_mul.html): синхронное умножение
 
-[**math.sync_ne**](math.sync_ne.html): sync numbers for not equality
+[**math.sync_ne**](math.sync_ne.html): синхронная проверка на неравенство
 
-[**math.sync_or**](math.sync_or.html): sync logical OR operation
+[**math.sync_or**](math.sync_or.html): синхронная логическая операция И
 
-[**math.sync_rshift**](math.sync_rshift.html): sync signed bit right shift
+[**math.sync_rshift**](math.sync_rshift.html): синхронный битовый сдвиг вправо
 
-[**math.sync_sub**](math.sync_sub.html): sync subtraction
+[**math.sync_sub**](math.sync_sub.html): синхронное вычитание
 
-[**math.sync_xor**](math.sync_xor.html): sync logical XOR operation
+[**math.sync_xor**](math.sync_xor.html): логическая операция исключающее ИЛИ
 
-[**math.tan**](math.tan.html): tangent function
+[**math.tan**](math.tan.html): тангенс
 
-[**math.tanh**](math.tanh.html): hyperbolic tangent function
+[**math.tanh**](math.tanh.html): гиперболический тангенс
 
-[**math.tanh~**](math.tanh~.html): hyperbolic tangent for signals
+[**math.tanh~**](math.tanh~.html): гиперболический тангенс для сигналов
 
-[**math.tan~**](math.tan~.html): tangent function
+[**math.tan~**](math.tan~.html): тангенс
 
-[**math.trunc**](math.trunc.html): truncate to integer value
+[**math.trunc**](math.trunc.html): усечение до целочисленного значения
 
-[**math.trunc~**](math.trunc~.html): truncate to integer value
+[**math.trunc~**](math.trunc~.html): усечение до целочисленного значения
 
 
 ### <a id="cat_midi" href="category_midi.html">midi</a>
@@ -1382,7 +1382,7 @@ layout: default_ru
 
 
 ### <a id="cat_net" href="category_net.html">net</a>
-
+объекты для работы с сетью
 
 ---
 
@@ -1413,7 +1413,7 @@ layout: default_ru
 
 
 ### <a id="cat_noise" href="category_noise.html">noise</a>
-
+генераторы шума
 
 ---
 
@@ -1473,79 +1473,79 @@ layout: default_ru
 ---
 
 
-[**osc.blit~**](osc.blit~.html): Bandlimited impulse train oscillator
+[**osc.blit~**](osc.blit~.html): генератор с ограниченным спектром и управлением гармониками
 
-[**osc.impulse~**](osc.impulse~.html): Bandlimited impulse train generator
+[**osc.impulse~**](osc.impulse~.html): генератор импульсного сигнала с ограниченным спектром
 
-[**osc.pulse~**](osc.pulse~.html): Bandlimited pulse train oscillator
+[**osc.pulse~**](osc.pulse~.html): осциллятор прямоугольной волны с ограниченным спектром
 
-[**osc.saw4~**](osc.saw4~.html): Bandlimited sawtooth wave
+[**osc.saw4~**](osc.saw4~.html): осциллятор пилообразного сигнала с ограниченным спектром
 
-[**osc.saw~**](osc.saw~.html): Alias-free sawtooth wave
+[**osc.saw~**](osc.saw~.html): осциллятор пилообразного сигнала с ограниченным спектром
 
-[**osc.sinfb~**](osc.sinfb~.html): Sine oscilator with feedback
+[**osc.sinfb~**](osc.sinfb~.html): синусоидальный осциллятор с обратной связью
 
-[**osc.sin~**](osc.sin~.html): Sine wave oscillator
+[**osc.sin~**](osc.sin~.html): синусоидальный осциллятор
 
-[**osc.square~**](osc.square~.html): Bandlimited square wave oscillator
+[**osc.square~**](osc.square~.html): осциллятор квадратной волны с ограниченным спектром
 
-[**osc.tri~**](osc.tri~.html): Bandlimited triangle wave oscillator
+[**osc.tri~**](osc.tri~.html): осциллятор треугольной волны с ограниченным спектром
 
 
 ### <a id="cat_patch" href="category_patch.html">patch</a>
-
+работа с патчами
 
 ---
 
 
-[**canvas.active**](canvas.active.html): checks if canvas window is on top and active
+[**canvas.active**](canvas.active.html): проверяет, активно ли окно холста объекта и расположено ли оно поверх других
 
-[**canvas.current**](canvas.current.html): verbose information about current canvas
+[**canvas.current**](canvas.current.html): получение информации о текущем холста объекта
 
-[**canvas.dir**](canvas.dir.html): current canvas directory and nesting level
+[**canvas.dir**](canvas.dir.html): выводит директорию холста у объекта и его уровень вложенности
 
-[**canvas.name**](canvas.name.html): current canvas name
+[**canvas.name**](canvas.name.html): выводит имя текущего холста у объекта
 
-[**canvas.path**](canvas.path.html): current canvas fullpath
+[**canvas.path**](canvas.path.html): выводит полный путь холста в файловой системе у объекта
 
-[**canvas.top**](canvas.top.html): verbose information about top-level canvas
+[**canvas.top**](canvas.top.html): подробная информация о холсте верхнего уровня у объекта
 
-[**patch.args**](patch.args.html): Get patch or subpatch arguments
+[**patch.args**](patch.args.html): получить начальные аргументы для патча или субпатча
 
-[**patch.deps**](patch.deps.html): patch dependencies: used objects and abstractions
+[**patch.deps**](patch.deps.html): выводит зависимости патча: используемые объекты и абстракции
 
-[**patch.tree**](patch.tree.html): patch tree
+[**patch.tree**](patch.tree.html): выводит дерево объектов патча
 
 
 ### <a id="cat_path" href="category_path.html">path</a>
-
+работа с путями файловой системы
 
 ---
 
 
 [**file.size**](file.size.html): output file size
 
-[**path.basename**](path.basename.html): outputs filename portion of pathname
+[**path.basename**](path.basename.html): выводит имя файла из пути к файлу
 
-[**path.dirname**](path.dirname.html): outputs directory portion of pathname
+[**path.dirname**](path.dirname.html): выводит имя каталога файла из пути к файлу
 
-[**path.exists**](path.exists.html): checks if given path exists
+[**path.exists**](path.exists.html): проверка существования пути
 
-[**path.file**](path.file.html): file input/output
+[**path.file**](path.file.html): файловый ввод/вывод
 
-[**path.is_dir**](path.is_dir.html): check if path is directory
+[**path.is_dir**](path.is_dir.html): проверяет, является ли путь каталогом
 
-[**path.lsdir**](path.lsdir.html): list directory contents
+[**path.lsdir**](path.lsdir.html): cписок содержимого каталога
 
-[**path.monitor**](path.monitor.html): filesystem event monitor
+[**path.monitor**](path.monitor.html): мониторинг событий файловой системы
 
-[**path.normalize**](path.normalize.html): normalize file paths
+[**path.normalize**](path.normalize.html): нормализует пути файлов
 
-[**path.pattern**](path.pattern.html): pattern filename generator
+[**path.pattern**](path.pattern.html): генерирует имя файла по данному шаблону
 
-[**path.search**](path.search.html): file search
+[**path.search**](path.search.html): поиск файлов
 
-[**path.split**](path.split.html): file path split
+[**path.split**](path.split.html): разбивает путь на имя каталога и файла
 
 
 ### <a id="cat_predicates" href="category_predicates.html">predicates</a>
@@ -1595,28 +1595,28 @@ layout: default_ru
 
 
 ### <a id="cat_property" href="category_property.html">property</a>
-
+работа со свойствами объектов или патчей
 
 ---
 
 
-[**patch.props**](patch.props.html): patch properties manager
+[**patch.props**](patch.props.html): получение или установка свойств патча
 
-[**prop**](prop.html): get/set named property value for subpatch or abstraction
+[**prop**](prop.html): получить/установить именованное значение свойства для субпатча или абстракции
 
-[**prop.declare**](prop.declare.html): declare named property for subpatch or abstraction
+[**prop.declare**](prop.declare.html): объявляет именованное свойство для субпатча или абстракции
 
-[**prop.get**](prop.get.html): get property from connected object/subpatch/abstraction
+[**prop.get**](prop.get.html): получить значение свойства от подсоединённого объекта, субпатча или абстракции
 
-[**prop.join**](prop.join.html): join property to main data flow
+[**prop.join**](prop.join.html): добавляет свойства в основной поток данных
 
-[**prop.random**](prop.random.html): property randomizer
+[**prop.random**](prop.random.html): рандомизатор значения свойства
 
-[**prop.route**](prop.route.html): separate properties from dataflow
+[**prop.route**](prop.route.html): отделяет свойства от основного потока данных
 
-[**prop.route~**](prop.route~.html): Property extractor from audio streams
+[**prop.route~**](prop.route~.html): отделяет свойства от аудиосоединений
 
-[**prop.set**](prop.set.html): set property for connected object/subpatch/abstraction
+[**prop.set**](prop.set.html): устанавливает значение свойства для подключенного объекта, субпатча или абстракции
 
 
 ### <a id="cat_proto" href="category_proto.html">proto</a>
@@ -1731,7 +1731,7 @@ layout: default_ru
 
 
 ### <a id="cat_spat" href="category_spat.html">spat</a>
-
+работа с пространственным звуком
 
 ---
 
@@ -1808,42 +1808,42 @@ layout: default_ru
 
 
 ### <a id="cat_string" href="category_string.html">string</a>
-
+работа с типом данных String
 
 ---
 
 
-[**string**](string.html): string constructor
+[**string**](string.html): создание строки
 
-[**string.contains**](string.contains.html): checks if string contains specified substring
+[**string.contains**](string.contains.html): проверяет, содержит ли строка указанную подстроку
 
-[**string.ends_with**](string.ends_with.html): checks if string ends with specified substring
+[**string.ends_with**](string.ends_with.html): проверяет, заканчивается ли строка указанной подстрочкой
 
-[**string.equal**](string.equal.html): check strings or symbols for equality
+[**string.equal**](string.equal.html): проверка строк или символов на равенство
 
-[**string.format**](string.format.html): formats string like printf.
+[**string.format**](string.format.html): форматирует строки в стиле функции printf
 
-[**string.join**](string.join.html): joins (concatenates) list to string with separator
+[**string.join**](string.join.html): объединяет список в строку с указанным разделителем элементов
 
-[**string.length**](string.length.html): number of characters in string (unicode supported)
+[**string.length**](string.length.html): количество символов в строке (с поддержкой Unicode)
 
-[**string.match**](string.match.html): check if string match regular expression
+[**string.match**](string.match.html): проверка соответствия строки регулярному выражению
 
-[**string.remove**](string.remove.html): remove substring from input string
+[**string.remove**](string.remove.html): удаляет подстроку из входной строки
 
-[**string.replace**](string.replace.html): replace from one substring to another in input string
+[**string.replace**](string.replace.html): замена одной строки на другую во входной строке
 
-[**string.split**](string.split.html): split string or symbol by separator
+[**string.split**](string.split.html): разбивает строку или символ в список по разделителю
 
-[**string.starts_with**](string.starts_with.html): checks if string starts with specified substring
+[**string.starts_with**](string.starts_with.html): проверка, начинается ли строка с определенной подстроки
 
-[**string.substr**](string.substr.html): extract substring from input string
+[**string.substr**](string.substr.html): извлечение подстроки из входной строки
 
-[**string2symbol**](string2symbol.html): converts string to symbol
+[**string2symbol**](string2symbol.html): преобразует строку в символ
 
 
 ### <a id="cat_symbol" href="category_symbol.html">symbol</a>
-
+работа с символами
 
 ---
 
@@ -1964,7 +1964,7 @@ layout: default_ru
 
 
 ### <a id="cat_tl" href="category_tl.html">tl</a>
-
+работа с таймлайном
 
 ---
 
@@ -1981,7 +1981,7 @@ layout: default_ru
 
 
 ### <a id="cat_ui" href="category_ui.html">ui</a>
-
+объекты графического интерфейса пользователя
 
 ---
 

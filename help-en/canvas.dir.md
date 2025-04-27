@@ -3,7 +3,7 @@
 
 # canvas.dir
 
-###### current canvas directory and nesting level
+###### outputs the current canvas directory of the object and nesting level
 
 *available since version:* 0.8
 

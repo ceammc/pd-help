@@ -6,7 +6,7 @@ layout: default_ru
 
 # canvas.dir
 
-###### current canvas directory and nesting level
+###### выводит директорию холста у объекта и его уровень вложенности
 
 *доступно с версии:* 0.8
 

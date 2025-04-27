@@ -3,7 +3,7 @@
 
 # Category: data
 
-
+working with various datatypes
 
 
 [**color.mix**](color.mix.html): color mixer 

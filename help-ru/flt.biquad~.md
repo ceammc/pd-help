@@ -6,7 +6,7 @@ layout: default_ru
 
 # flt.biquad~
 
-###### second order IIR filter.
+###### БИХ фильтр второго порядка
 
 *доступно с версии:* 0.1
 

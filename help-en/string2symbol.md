@@ -5,7 +5,7 @@
 **aliases:** [ceammc/string2symbol], [ceammc/str-&gt;sym], [str-&gt;sym]
 
 
-###### converts string to symbol
+###### converts the string into the symbol
 
 *available since version:* 0.3
 

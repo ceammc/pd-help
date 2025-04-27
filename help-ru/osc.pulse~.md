@@ -6,7 +6,7 @@ layout: default_ru
 
 # osc.pulse~
 
-###### Bandlimited pulse train oscillator
+###### осциллятор прямоугольной волны с ограниченным спектром
 
 *доступно с версии:* 0.1
 

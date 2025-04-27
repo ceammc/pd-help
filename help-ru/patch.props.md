@@ -6,7 +6,7 @@ layout: default_ru
 
 # patch.props
 
-###### patch properties manager
+###### получение или установка свойств патча
 
 *доступно с версии:* 0.7
 

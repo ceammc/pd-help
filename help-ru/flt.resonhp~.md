@@ -6,7 +6,7 @@ layout: default_ru
 
 # flt.resonhp~
 
-###### Simple resonant highpass filter
+###### простой резонансный ФВЧ
 
 *доступно с версии:* 0.9.6
 

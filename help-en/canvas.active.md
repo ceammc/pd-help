@@ -5,7 +5,7 @@
 **aliases:** [ceammc/canvas.active]
 
 
-###### checks if canvas window is on top and active
+###### checks if the canvas of the object is on the top and active
 
 *available since version:* 0.9.6
 

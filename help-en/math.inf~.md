@@ -3,7 +3,7 @@
 
 # math.inf~
 
-###### inifinity signal generator
+###### output infinity value in the IEEE 754 standart
 
 *available since version:* 0.9.1
 

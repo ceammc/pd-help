@@ -7,62 +7,62 @@ layout: default_ru
 ## Категория: string
 
 ---
+работа с типом данных String
 
 
-
-[**string**](string.html): string constructor <br>
+[**string**](string.html): создание строки <br>
 _псевдонимы:_ \[ceammc/string\], \[ceammc/str\], \[str\]
 
 
-[**string.contains**](string.contains.html): checks if string contains specified substring <br>
+[**string.contains**](string.contains.html): проверяет, содержит ли строка указанную подстроку <br>
 _псевдонимы:_ \[str.contains\]
 
 
-[**string.ends_with**](string.ends_with.html): checks if string ends with specified substring <br>
+[**string.ends_with**](string.ends_with.html): проверяет, заканчивается ли строка указанной подстрочкой <br>
 _псевдонимы:_ \[str.ends_with\]
 
 
-[**string.equal**](string.equal.html): check strings or symbols for equality <br>
+[**string.equal**](string.equal.html): проверка строк или символов на равенство <br>
 _псевдонимы:_ \[str.equal\]
 
 
-[**string.format**](string.format.html): formats string like printf. <br>
+[**string.format**](string.format.html): форматирует строки в стиле функции printf <br>
 _псевдонимы:_ \[str.format\]
 
 
-[**string.join**](string.join.html): joins (concatenates) list to string with separator <br>
+[**string.join**](string.join.html): объединяет список в строку с указанным разделителем элементов <br>
 _псевдонимы:_ \[str.join\]
 
 
-[**string.length**](string.length.html): number of characters in string (unicode supported) <br>
+[**string.length**](string.length.html): количество символов в строке (с поддержкой Unicode) <br>
 _псевдонимы:_ \[str.length\]
 
 
-[**string.match**](string.match.html): check if string match regular expression <br>
+[**string.match**](string.match.html): проверка соответствия строки регулярному выражению <br>
 _псевдонимы:_ \[str.match\]
 
 
-[**string.remove**](string.remove.html): remove substring from input string <br>
+[**string.remove**](string.remove.html): удаляет подстроку из входной строки <br>
 _псевдонимы:_ \[str.remove\]
 
 
-[**string.replace**](string.replace.html): replace from one substring to another in input string <br>
+[**string.replace**](string.replace.html): замена одной строки на другую во входной строке <br>
 _псевдонимы:_ \[str.replace\]
 
 
-[**string.split**](string.split.html): split string or symbol by separator <br>
+[**string.split**](string.split.html): разбивает строку или символ в список по разделителю <br>
 _псевдонимы:_ \[str.split\], \[symbol.split\]
 
 
-[**string.starts_with**](string.starts_with.html): checks if string starts with specified substring <br>
+[**string.starts_with**](string.starts_with.html): проверка, начинается ли строка с определенной подстроки <br>
 _псевдонимы:_ \[str.starts_with\]
 
 
-[**string.substr**](string.substr.html): extract substring from input string <br>
+[**string.substr**](string.substr.html): извлечение подстроки из входной строки <br>
 _псевдонимы:_ \[str.substr\]
 
 
-[**string2symbol**](string2symbol.html): converts string to symbol <br>
+[**string2symbol**](string2symbol.html): преобразует строку в символ <br>
 _псевдонимы:_ \[ceammc/string2symbol\], \[ceammc/str-&gt;sym\], \[str-&gt;sym\]
 
 

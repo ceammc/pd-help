@@ -3,7 +3,7 @@
 
 # osc.saw4~
 
-###### Bandlimited sawtooth wave
+###### bandlimited sawtooth wave
 
 *available since version:* 0.7
 

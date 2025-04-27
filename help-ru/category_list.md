@@ -7,7 +7,7 @@ layout: default_ru
 ## Категория: list
 
 ---
-объекты для работы со списками
+работа со списками
 
 
 [**list.^at**](list.%5Eat.html): on input index(es) outputs list element(s) 

@@ -6,7 +6,7 @@ layout: default_ru
 
 # math.atan~
 
-###### arc tangent for signals
+###### арктангенс для сигналов
 
 *доступно с версии:* 0.9
 

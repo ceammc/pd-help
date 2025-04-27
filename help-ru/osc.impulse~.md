@@ -6,7 +6,7 @@ layout: default_ru
 
 # osc.impulse~
 
-###### Bandlimited impulse train generator
+###### генератор импульсного сигнала с ограниченным спектром
 
 *доступно с версии:* 0.1
 

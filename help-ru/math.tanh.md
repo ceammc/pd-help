@@ -6,7 +6,7 @@ layout: default_ru
 
 # math.tanh
 
-###### hyperbolic tangent function
+###### гиперболический тангенс
 
 *доступно с версии:* 0.1
 

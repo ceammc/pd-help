@@ -6,7 +6,7 @@ layout: default_ru
 
 # flt.hpf12~
 
-###### High-pass second order Butterworth filter
+###### ФВЧ Баттерворта второго порядка
 
 *доступно с версии:* 0.1
 

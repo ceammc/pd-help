@@ -5,7 +5,7 @@
 **aliases:** [ceammc/string], [ceammc/str], [str]
 
 
-###### string constructor
+###### constructs the string
 
 *available since version:* 0.3
 

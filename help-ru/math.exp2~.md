@@ -6,7 +6,7 @@ layout: default_ru
 
 # math.exp2~
 
-###### base-2 exponential for signal
+###### экспоненциальная функция на основе 2 для сигналов
 
 *доступно с версии:* 0.9
 

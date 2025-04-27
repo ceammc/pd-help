@@ -6,7 +6,7 @@ layout: default_ru
 
 # osc.blit~
 
-###### Bandlimited impulse train oscillator
+###### генератор с ограниченным спектром и управлением гармониками
 
 *доступно с версии:* 0.6
 

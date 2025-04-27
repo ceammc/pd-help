@@ -6,7 +6,7 @@ layout: default_ru
 
 # math.floor
 
-###### round to largest integral value not greater than x
+###### округление до наибольшего целого значения, не превышающего входное значение
 
 *доступно с версии:* 0.1
 

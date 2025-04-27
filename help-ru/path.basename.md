@@ -6,7 +6,7 @@ layout: default_ru
 
 # path.basename
 
-###### outputs filename portion of pathname
+###### выводит имя файла из пути к файлу
 
 *доступно с версии:* 0.1
 

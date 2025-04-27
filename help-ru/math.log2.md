@@ -6,7 +6,7 @@ layout: default_ru
 
 # math.log2
 
-###### logarithm functions
+###### логарифм по основанию 2
 
 *доступно с версии:* 0.1
 

@@ -6,7 +6,7 @@ layout: default_ru
 
 # path.monitor
 
-###### filesystem event monitor
+###### мониторинг событий файловой системы
 
 *доступно с версии:* 0.9.5
 

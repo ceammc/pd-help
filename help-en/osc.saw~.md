@@ -3,7 +3,7 @@
 
 # osc.saw~
 
-###### Alias-free sawtooth wave
+###### alias-free sawtooth wave
 
 *available since version:* 0.1
 

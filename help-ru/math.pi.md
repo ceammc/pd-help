@@ -6,7 +6,7 @@ layout: default_ru
 
 # math.pi
 
-###### mathematical constant
+###### математическая константа π
 
 *доступно с версии:* 0.1
 

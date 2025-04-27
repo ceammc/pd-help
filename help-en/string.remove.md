@@ -5,7 +5,7 @@
 **aliases:** [str.remove]
 
 
-###### remove substring from input string
+###### removes a substring from the input string
 
 *available since version:* 0.3
 

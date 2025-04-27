@@ -3,7 +3,7 @@
 
 # flt.bpf24~
 
-###### Four pole band-pass butterworth filter
+###### four pole band-pass Butterworth filter
 
 *available since version:* 0.1
 

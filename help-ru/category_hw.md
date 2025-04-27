@@ -7,7 +7,7 @@ layout: default_ru
 ## Категория: hw
 
 ---
-объекты для работы с различными аппаратными устройствами
+работа с различными аппаратными устройствами
 
 
 [**hw.apple_smc**](hw.apple_smc.html): query the system management control in Apples 

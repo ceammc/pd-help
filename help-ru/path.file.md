@@ -6,7 +6,7 @@ layout: default_ru
 
 # path.file
 
-###### file input/output
+###### файловый ввод/вывод
 
 *доступно с версии:* 0.9.5
 

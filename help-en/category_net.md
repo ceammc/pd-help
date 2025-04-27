@@ -3,7 +3,7 @@
 
 # Category: net
 
-
+objects for network
 
 
 [**net.artnet.send**](net.artnet.send.html): ArtNet DMX message sender <br>

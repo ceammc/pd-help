@@ -5,7 +5,7 @@
 **aliases:** [ceammc/pole-&gt;biquad], [pole-&gt;biquad]
 
 
-###### One-pole coefficient calculator for biquad filter
+###### оne-pole coefficient calculator for \[flt.biquad~\]
 
 *available since version:* 0.9.2
 

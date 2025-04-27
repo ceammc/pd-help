@@ -6,7 +6,7 @@ layout: default_ru
 
 # patch.args
 
-###### Get patch or subpatch arguments
+###### получить начальные аргументы для патча или субпатча
 
 *доступно с версии:* 0.4
 

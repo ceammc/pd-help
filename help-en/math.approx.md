@@ -5,7 +5,7 @@
 **aliases:** [ceammc/approx], [approx]
 
 
-###### check if input value approximately equal to pattern
+###### checks if the input value is approximately equal to the pattern
 
 *available since version:* 0.1
 

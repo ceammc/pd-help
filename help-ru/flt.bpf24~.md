@@ -6,7 +6,7 @@ layout: default_ru
 
 # flt.bpf24~
 
-###### Four pole band-pass butterworth filter
+###### четырехполюсный полосовой фильтр Баттерворта
 
 *доступно с версии:* 0.1
 

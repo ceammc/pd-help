@@ -7,7 +7,7 @@ layout: default_ru
 ## Категория: symbol
 
 ---
-
+работа с символами
 
 
 [**symbol.equal**](symbol.equal.html): check symbols for equality 

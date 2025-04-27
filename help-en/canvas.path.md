@@ -3,7 +3,7 @@
 
 # canvas.path
 
-###### current canvas fullpath
+###### output the current canvas filesystem fullpath of the object
 
 *available since version:* 0.8
 

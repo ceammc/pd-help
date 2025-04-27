@@ -6,7 +6,7 @@ layout: default_ru
 
 # math.abs
 
-###### absolute value function
+###### абсолютное значение
 
 *доступно с версии:* 0.1
 

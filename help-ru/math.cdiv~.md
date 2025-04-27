@@ -6,7 +6,7 @@ layout: default_ru
 
 # math.cdiv~
 
-###### division of complex signals
+###### деление комплексных сигналов
 
 *доступно с версии:* 0.7
 

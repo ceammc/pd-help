@@ -6,7 +6,7 @@ layout: default_ru
 
 # math.reciprocal~
 
-###### calculate reciprocal number for signals
+###### вычислить обратное значение для сигналов
 
 *доступно с версии:* 0.9
 

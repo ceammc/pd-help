@@ -6,7 +6,7 @@ layout: default_ru
 
 # prop.declare
 
-###### declare named property for subpatch or abstraction
+###### объявляет именованное свойство для субпатча или абстракции
 
 *доступно с версии:* 0.7
 

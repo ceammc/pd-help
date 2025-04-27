@@ -6,7 +6,7 @@ layout: default_ru
 
 # math.cosh
 
-###### hyperbolic cosine function
+###### гиперболический косинус
 
 *доступно с версии:* 0.1
 

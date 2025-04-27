@@ -6,7 +6,7 @@ layout: default_ru
 
 # math.sync_xor
 
-###### sync logical XOR operation
+###### логическая операция исключающее ИЛИ
 
 *доступно с версии:* 0.8
 

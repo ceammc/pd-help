@@ -3,7 +3,7 @@
 
 # math.inf
 
-###### infinity value that cannot be represented accurately
+###### output infinity value in the IEEE 754 standart
 
 *available since version:* 0.1
 

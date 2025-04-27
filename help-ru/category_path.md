@@ -7,36 +7,36 @@ layout: default_ru
 ## Категория: path
 
 ---
-
+работа с путями файловой системы
 
 
 [**file.size**](file.size.html): output file size 
 
-[**path.basename**](path.basename.html): outputs filename portion of pathname 
+[**path.basename**](path.basename.html): выводит имя файла из пути к файлу 
 
-[**path.dirname**](path.dirname.html): outputs directory portion of pathname 
+[**path.dirname**](path.dirname.html): выводит имя каталога файла из пути к файлу 
 
-[**path.exists**](path.exists.html): checks if given path exists 
+[**path.exists**](path.exists.html): проверка существования пути 
 
-[**path.file**](path.file.html): file input/output 
+[**path.file**](path.file.html): файловый ввод/вывод 
 
-[**path.is_dir**](path.is_dir.html): check if path is directory 
+[**path.is_dir**](path.is_dir.html): проверяет, является ли путь каталогом 
 
-[**path.lsdir**](path.lsdir.html): list directory contents <br>
+[**path.lsdir**](path.lsdir.html): cписок содержимого каталога <br>
 _псевдонимы:_ \[path.ls\]
 
 
-[**path.monitor**](path.monitor.html): filesystem event monitor 
+[**path.monitor**](path.monitor.html): мониторинг событий файловой системы 
 
-[**path.normalize**](path.normalize.html): normalize file paths <br>
+[**path.normalize**](path.normalize.html): нормализует пути файлов <br>
 _псевдонимы:_ \[path.norm\]
 
 
-[**path.pattern**](path.pattern.html): pattern filename generator 
+[**path.pattern**](path.pattern.html): генерирует имя файла по данному шаблону 
 
-[**path.search**](path.search.html): file search 
+[**path.search**](path.search.html): поиск файлов 
 
-[**path.split**](path.split.html): file path split 
+[**path.split**](path.split.html): разбивает путь на имя каталога и файла 
 
 
 **Версия:** 0.9.8

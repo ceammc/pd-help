@@ -3,7 +3,7 @@
 
 # math.log2
 
-###### logarithm functions
+###### base-2 logarithm
 
 *available since version:* 0.1
 

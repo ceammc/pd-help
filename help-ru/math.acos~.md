@@ -6,7 +6,7 @@ layout: default_ru
 
 # math.acos~
 
-###### arc cosine function for signals
+###### арккосинус для сигналов
 
 *доступно с версии:* 0.9
 

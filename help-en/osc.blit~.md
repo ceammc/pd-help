@@ -3,7 +3,7 @@
 
 # osc.blit~
 
-###### Bandlimited impulse train oscillator
+###### bandlimited oscillator with controllable harmonics
 
 *available since version:* 0.6
 

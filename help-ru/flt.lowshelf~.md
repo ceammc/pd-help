@@ -6,7 +6,7 @@ layout: default_ru
 
 # flt.lowshelf~
 
-###### gain boost|cut below some frequency
+###### усиление или ослабление частот ниже указанной
 
 *доступно с версии:* 0.1
 

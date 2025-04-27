@@ -3,7 +3,7 @@
 
 # canvas.top
 
-###### verbose information about top-level canvas
+###### verbose information about top-level canvas of the object
 
 *available since version:* 0.4
 

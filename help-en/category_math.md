@@ -3,7 +3,7 @@
 
 # Category: math
 
-math objects. can operate with list of numbers
+math objects that can operate with number lists 
 
 
 [**math.abs**](math.abs.html): absolute value function 
@@ -22,7 +22,7 @@ math objects. can operate with list of numbers
 _aliases:_ \[ceammc/and\], \[and\]
 
 
-[**math.approx**](math.approx.html): check if input value approximately equal to pattern <br>
+[**math.approx**](math.approx.html): checks if the input value is approximately equal to the pattern <br>
 _aliases:_ \[ceammc/approx\], \[approx\]
 
 
@@ -62,7 +62,7 @@ _aliases:_ \[ceammc/carg\~\], \[carg\~\]
 _aliases:_ \[ceammc/cdiv\~\], \[cdiv\~\]
 
 
-[**math.ceil**](math.ceil.html): round to smallest integral value not less than input value 
+[**math.ceil**](math.ceil.html): round to the smallest integral value not less than input value 
 
 [**math.ceil\~**](math.ceil~.html): round to smallest integral value not less than input value 
 
@@ -82,7 +82,7 @@ _aliases:_ \[ceammc/cmul\~\], \[cmul\~\]
 
 [**math.cos\~**](math.cos~.html): cosine function 
 
-[**math.div**](math.div.html): division (on lists too) <br>
+[**math.div**](math.div.html): division <br>
 _aliases:_ \[math./\]
 
 
@@ -92,31 +92,31 @@ _aliases:_ \[math./\]
 
 [**math.erf\~**](math.erf~.html): error function for signals 
 
-[**math.exp**](math.exp.html): exponential functions 
+[**math.exp**](math.exp.html): base-e exponential function 
 
-[**math.exp2**](math.exp2.html): exponential functions 
+[**math.exp2**](math.exp2.html): base-2 exponential function 
 
 [**math.exp2\~**](math.exp2~.html): base-2 exponential for signal 
 
-[**math.expr**](math.expr.html): dynamic \[expr\] 
+[**math.expr**](math.expr.html): dynamic version of \[expr\] object 
 
-[**math.exp\~**](math.exp~.html): base-e exponential for signal 
+[**math.exp\~**](math.exp~.html): base-e exponential function for signals 
 
-[**math.floor**](math.floor.html): round to largest integral value not greater than x 
+[**math.floor**](math.floor.html): round to largest integral value not greater than input value 
 
-[**math.floor\~**](math.floor~.html): round to largest integral value not greater than x 
+[**math.floor\~**](math.floor~.html): round to largest integral value not greater than input value 
 
 [**math.gamma**](math.gamma.html): gamma function 
 
-[**math.gamma\~**](math.gamma~.html): gamma function for floating point signals 
+[**math.gamma\~**](math.gamma~.html): gamma function fot signals 
 
 [**math.gcd**](math.gcd.html): calculate greatest common divisor 
 
-[**math.inf**](math.inf.html): infinity value that cannot be represented accurately 
+[**math.inf**](math.inf.html): output infinity value in the IEEE 754 standart 
 
-[**math.inf\~**](math.inf~.html): inifinity signal generator 
+[**math.inf\~**](math.inf~.html): output infinity value in the IEEE 754 standart 
 
-[**math.lcm**](math.lcm.html): calculate least common multiple 
+[**math.lcm**](math.lcm.html): calculates least common multiple 
 
 [**math.lgamma**](math.lgamma.html): natural logarithm of the absolute value of the gamma function 
 
@@ -124,23 +124,23 @@ _aliases:_ \[math./\]
 
 [**math.log**](math.log.html): natural logarithm 
 
-[**math.log10**](math.log10.html): logarithm functions 
+[**math.log10**](math.log10.html): base-10 logarithm 
 
-[**math.log10\~**](math.log10~.html): natural logarithm 
+[**math.log10\~**](math.log10~.html): base-10 logarithm 
 
-[**math.log2**](math.log2.html): logarithm functions 
+[**math.log2**](math.log2.html): base-2 logarithm 
 
-[**math.log2\~**](math.log2~.html): base-2 logarithm 
+[**math.log2\~**](math.log2~.html): base-2 logarithm for signals 
 
-[**math.log\~**](math.log~.html): natural logarithm 
+[**math.log\~**](math.log~.html): natural logarithm for signals 
 
-[**math.mul**](math.mul.html): multiplication (on lists too) <br>
+[**math.mul**](math.mul.html): multiplication <br>
 _aliases:_ \[math.*\]
 
 
 [**math.nan**](math.nan.html): Not a Number, unrepresentable value 
 
-[**math.nan\~**](math.nan~.html): signal NaN 
+[**math.nan\~**](math.nan~.html): NaN signal 
 
 [**math.neg**](math.neg.html): negate function <br>
 _aliases:_ \[ceammc/-x\], \[-x\]
@@ -150,11 +150,11 @@ _aliases:_ \[ceammc/-x\], \[-x\]
 _aliases:_ \[ceammc/or\], \[or\]
 
 
-[**math.pi**](math.pi.html): mathematical constant <br>
+[**math.pi**](math.pi.html): mathematical constant π <br>
 _aliases:_ \[ceammc/pi\], \[pi\]
 
 
-[**math.pi\~**](math.pi~.html): mathematical constant <br>
+[**math.pi\~**](math.pi~.html): mathematical constant π <br>
 _aliases:_ \[ceammc/pi\~\], \[pi\~\]
 
 

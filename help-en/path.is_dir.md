@@ -3,7 +3,7 @@
 
 # path.is_dir
 
-###### check if path is directory
+###### checks if the path is a directory
 
 *available since version:* 0.9
 

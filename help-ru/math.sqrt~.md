@@ -6,7 +6,7 @@ layout: default_ru
 
 # math.sqrt~
 
-###### square root for signal
+###### квадратный корень для сигнала
 
 *доступно с версии:* 0.9
 

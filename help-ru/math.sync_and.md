@@ -6,7 +6,7 @@ layout: default_ru
 
 # math.sync_and
 
-###### sync logical AND operation
+###### синхронное логическое И
 
 *доступно с версии:* 0.8
 

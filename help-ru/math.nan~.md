@@ -6,7 +6,7 @@ layout: default_ru
 
 # math.nan~
 
-###### signal NaN
+###### сигнал NaNN
 
 *доступно с версии:* 0.9.1
 

@@ -6,7 +6,7 @@ layout: default_ru
 
 # lfo.+saw~
 
-###### Positive unit-amplitude low frequency saw wave
+###### низкочастотная пилообразная волна в диапазоне \[0,+1\]
 
 *доступно с версии:* 0.7
 

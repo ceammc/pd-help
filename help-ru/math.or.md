@@ -6,7 +6,7 @@ layout: default_ru
 
 # math.or
 
-###### operation OR for multiple arguments
+###### операция ИЛИ для множества аргументов
 
 *доступно с версии:* 0.2
 

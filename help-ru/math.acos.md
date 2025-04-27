@@ -6,7 +6,7 @@ layout: default_ru
 
 # math.acos
 
-###### arc cosine function
+###### арккосинус
 
 *доступно с версии:* 0.1
 

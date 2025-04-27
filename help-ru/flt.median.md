@@ -6,7 +6,7 @@ layout: default_ru
 
 # flt.median
 
-###### Median control flow filter
+###### медианный фильтр для контрольного потока
 
 *доступно с версии:* 0.7
 

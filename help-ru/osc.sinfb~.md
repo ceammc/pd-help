@@ -6,7 +6,7 @@ layout: default_ru
 
 # osc.sinfb~
 
-###### Sine oscilator with feedback
+###### синусоидальный осциллятор с обратной связью
 
 *доступно с версии:* 0.1
 

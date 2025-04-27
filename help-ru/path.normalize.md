@@ -6,7 +6,7 @@ layout: default_ru
 
 # path.normalize
 
-###### normalize file paths
+###### нормализует пути файлов
 
 *доступно с версии:* 0.9.4
 

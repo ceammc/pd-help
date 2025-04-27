@@ -5,7 +5,7 @@
 **aliases:** [str.replace]
 
 
-###### replace from one substring to another in input string
+###### replace from one substring to another in the input string
 
 *available since version:* 0.3
 

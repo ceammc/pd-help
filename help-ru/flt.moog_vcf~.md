@@ -6,7 +6,7 @@ layout: default_ru
 
 # flt.moog_vcf~
 
-###### Moog Voltage Controlled Filter
+###### управляемый напряжением фильтр Муга
 
 *доступно с версии:* 0.6
 

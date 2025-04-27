@@ -6,7 +6,7 @@ layout: default_ru
 
 # math.sync_le
 
-###### sync less equal numbers compare
+###### синхронная проверка на меньше или равно
 
 *доступно с версии:* 0.8
 

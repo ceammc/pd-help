@@ -3,7 +3,7 @@
 
 # flt.c_lowshelf~
 
-###### Lowshelf filter coefficient calculator for biquad
+###### lowshelf filter coefficients calculator for \[flt.biquad~\]
 
 *available since version:* 0.1
 

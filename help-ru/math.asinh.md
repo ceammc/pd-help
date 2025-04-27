@@ -6,7 +6,7 @@ layout: default_ru
 
 # math.asinh
 
-###### inverse hyperbolic sine function
+###### обратный гиперболический синус
 
 *доступно с версии:* 0.1
 

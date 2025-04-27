@@ -3,7 +3,7 @@
 
 # Category: dyn
 
-objects for working with sound dynamic range
+working with sound dynamic range
 
 
 [**dyn.comp2\~**](dyn.comp2~.html): stereo dynamic range compressor 

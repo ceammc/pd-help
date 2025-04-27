@@ -7,7 +7,7 @@ layout: default_ru
 ## Категория: data
 
 ---
-
+работа с различными типами данных
 
 
 [**color.mix**](color.mix.html): color mixer 

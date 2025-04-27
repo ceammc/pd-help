@@ -6,7 +6,7 @@ layout: default_ru
 
 # math.tanh~
 
-###### hyperbolic tangent for signals
+###### гиперболический тангенс для сигналов
 
 *доступно с версии:* 0.9
 

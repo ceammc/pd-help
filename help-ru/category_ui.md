@@ -7,7 +7,7 @@ layout: default_ru
 ## Категория: ui
 
 ---
-
+объекты графического интерфейса пользователя
 
 
 [**ui.aview**](ui.aview.html): array view with cursor and selection 

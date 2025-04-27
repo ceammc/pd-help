@@ -6,7 +6,7 @@ layout: default_ru
 
 # math.asin
 
-###### arc sine function
+###### арксинус
 
 *доступно с версии:* 0.1
 

@@ -5,7 +5,7 @@
 **aliases:** [str.format]
 
 
-###### formats string like printf.
+###### formats a string like printf function
 
 *available since version:* 0.3
 

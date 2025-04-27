@@ -6,7 +6,7 @@ layout: default_ru
 
 # path.is_dir
 
-###### check if path is directory
+###### проверяет, является ли путь каталогом
 
 *доступно с версии:* 0.9
 

@@ -3,7 +3,7 @@
 
 # Category: noise
 
-
+noise generators
 
 
 [**noise.baker**](noise.baker.html): Part of a-chaos library 

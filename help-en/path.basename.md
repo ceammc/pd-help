@@ -3,7 +3,7 @@
 
 # path.basename
 
-###### outputs filename portion of pathname
+###### outputs the filename portion of the pathname
 
 *available since version:* 0.1
 

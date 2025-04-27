@@ -6,7 +6,7 @@ layout: default_ru
 
 # math.cbrt~
 
-###### cube root function for signals
+###### кубический корень для сигналов
 
 *доступно с версии:* 0.9
 

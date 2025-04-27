@@ -6,7 +6,7 @@ layout: default_ru
 
 # math.gcd
 
-###### calculate greatest common divisor
+###### вычисляет наибольший общий делитель
 
 *доступно с версии:* 0.3
 

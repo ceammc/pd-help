@@ -6,7 +6,7 @@ layout: default_ru
 
 # flt.resonlp~
 
-###### Simple resonant lowpass filter
+###### простой резонансный ФНЧ
 
 *доступно с версии:* 0.9.6
 

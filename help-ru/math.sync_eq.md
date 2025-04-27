@@ -6,7 +6,7 @@ layout: default_ru
 
 # math.sync_eq
 
-###### sync equal numbers check
+###### синхронная проверка на равенство
 
 *доступно с версии:* 0.8
 

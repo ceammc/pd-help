@@ -6,7 +6,7 @@ layout: default_ru
 
 # math.reciprocal
 
-###### calculate reciprocal number
+###### вычислить обратное значение
 
 *доступно с версии:* 0.1
 

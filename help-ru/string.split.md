@@ -6,7 +6,7 @@ layout: default_ru
 
 # string.split
 
-###### split string or symbol by separator
+###### разбивает строку или символ в список по разделителю
 
 *доступно с версии:* 0.3
 

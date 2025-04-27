@@ -6,7 +6,7 @@ layout: default_ru
 
 # flt.lpf24~
 
-###### Low-pass fourth order Butterworth filter
+###### ФНЧ Баттерворта четвертого порядка
 
 *доступно с версии:* 0.1
 

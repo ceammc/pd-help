@@ -6,7 +6,7 @@ layout: default_ru
 
 # prop.random
 
-###### property randomizer
+###### рандомизатор значения свойства
 
 *доступно с версии:* 0.9.4
 

@@ -6,7 +6,7 @@ layout: default_ru
 
 # lfo.+tri~
 
-###### Positive unit-amplitude low frequency triangle wave
+###### низкочастотная треугольная волна единичной амплитуды в диапазоне \[0,+1)
 
 *доступно с версии:* 0.7
 

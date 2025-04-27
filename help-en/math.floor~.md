@@ -3,7 +3,7 @@
 
 # math.floor~
 
-###### round to largest integral value not greater than x
+###### round to largest integral value not greater than input value
 
 *available since version:* 0.9
 

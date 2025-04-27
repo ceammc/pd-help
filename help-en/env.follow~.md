@@ -3,7 +3,7 @@
 
 # env.follow~
 
-###### Envelope follower with independent attack and release times
+###### envelope follower with independent attack and release times
 
 *available since version:* 0.1
 

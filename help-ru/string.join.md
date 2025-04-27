@@ -6,7 +6,7 @@ layout: default_ru
 
 # string.join
 
-###### joins (concatenates) list to string with separator
+###### объединяет список в строку с указанным разделителем элементов
 
 *доступно с версии:* 0.3
 

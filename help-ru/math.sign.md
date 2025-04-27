@@ -6,7 +6,7 @@ layout: default_ru
 
 # math.sign
 
-###### sign function
+###### знаковая функция
 
 *доступно с версии:* 0.1
 

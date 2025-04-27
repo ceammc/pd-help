@@ -6,7 +6,7 @@ layout: default_ru
 
 # string
 
-###### string constructor
+###### создание строки
 
 *доступно с версии:* 0.3
 

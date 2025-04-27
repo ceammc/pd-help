@@ -6,7 +6,7 @@ layout: default_ru
 
 # env.follow~
 
-###### Envelope follower with independent attack and release times
+###### детектор огибающей с независимой атакой и временем отпускания
 
 *доступно с версии:* 0.1
 

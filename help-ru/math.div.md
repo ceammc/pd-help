@@ -6,7 +6,7 @@ layout: default_ru
 
 # math.div
 
-###### division (on lists too)
+###### деление
 
 *доступно с версии:* 0.6
 

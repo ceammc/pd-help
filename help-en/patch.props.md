@@ -3,7 +3,7 @@
 
 # patch.props
 
-###### patch properties manager
+###### get or set the patch properties
 
 *available since version:* 0.7
 

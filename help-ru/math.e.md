@@ -6,7 +6,7 @@ layout: default_ru
 
 # math.e
 
-###### mathematical constant, base of the natural logarithm
+###### математическая константа, основание натурального логарифма
 
 *доступно с версии:* 0.1
 

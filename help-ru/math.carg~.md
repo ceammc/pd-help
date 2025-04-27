@@ -6,7 +6,7 @@ layout: default_ru
 
 # math.carg~
 
-###### phase angle of a complex signals
+###### фазовый угол комплексных сигналов
 
 *доступно с версии:* 0.9
 

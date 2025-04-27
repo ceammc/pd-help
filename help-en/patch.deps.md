@@ -3,7 +3,7 @@
 
 # patch.deps
 
-###### patch dependencies: used objects and abstractions
+###### output the patch dependencies: used objects and abstractions
 
 *available since version:* 0.9.0
 

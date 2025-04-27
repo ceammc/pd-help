@@ -3,7 +3,7 @@
 
 # flt.resonlp~
 
-###### Simple resonant lowpass filter
+###### simple resonant lowpass filter
 
 *available since version:* 0.9.6
 

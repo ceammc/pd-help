@@ -7,36 +7,36 @@ layout: default_ru
 ## Категория: property
 
 ---
+работа со свойствами объектов или патчей
 
 
+[**patch.props**](patch.props.html): получение или установка свойств патча 
 
-[**patch.props**](patch.props.html): patch properties manager 
-
-[**prop**](prop.html): get/set named property value for subpatch or abstraction <br>
+[**prop**](prop.html): получить/установить именованное значение свойства для субпатча или абстракции <br>
 _псевдонимы:_ \[ceammc/prop\]
 
 
-[**prop.declare**](prop.declare.html): declare named property for subpatch or abstraction 
+[**prop.declare**](prop.declare.html): объявляет именованное свойство для субпатча или абстракции 
 
-[**prop.get**](prop.get.html): get property from connected object/subpatch/abstraction <br>
+[**prop.get**](prop.get.html): получить значение свойства от подсоединённого объекта, субпатча или абстракции <br>
 _псевдонимы:_ \[p.get\]
 
 
-[**prop.join**](prop.join.html): join property to main data flow <br>
+[**prop.join**](prop.join.html): добавляет свойства в основной поток данных <br>
 _псевдонимы:_ \[prop&lt;-\]
 
 
-[**prop.random**](prop.random.html): property randomizer 
+[**prop.random**](prop.random.html): рандомизатор значения свойства 
 
-[**prop.route**](prop.route.html): separate properties from dataflow <br>
+[**prop.route**](prop.route.html): отделяет свойства от основного потока данных <br>
 _псевдонимы:_ \[prop-&gt;\], \[@-&gt;\], \[ceammc/prop-&gt;\], \[ceammc/@-&gt;\], \[prop.split\]
 
 
-[**prop.route~**](prop.route~.html): Property extractor from audio streams <br>
+[**prop.route~**](prop.route~.html): отделяет свойства от аудиосоединений <br>
 _псевдонимы:_ \[prop~&gt;\], \[@~&gt;\], \[ceammc/prop~&gt;\], \[ceammc/@~&gt;\], \[prop.get~\]
 
 
-[**prop.set**](prop.set.html): set property for connected object/subpatch/abstraction <br>
+[**prop.set**](prop.set.html): устанавливает значение свойства для подключенного объекта, субпатча или абстракции <br>
 _псевдонимы:_ \[p.set\]
 
 

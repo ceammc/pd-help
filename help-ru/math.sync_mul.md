@@ -6,7 +6,7 @@ layout: default_ru
 
 # math.sync_mul
 
-###### sync multiplication
+###### синхронное умножение
 
 *доступно с версии:* 0.8
 

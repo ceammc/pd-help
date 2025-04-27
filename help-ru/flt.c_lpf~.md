@@ -6,7 +6,7 @@ layout: default_ru
 
 # flt.c_lpf~
 
-###### LPF coefficient calculator for biquad filter
+###### калькулятор коэффициентов ФНЧ для \[flt.biquad~\]
 
 *доступно с версии:* 0.1
 

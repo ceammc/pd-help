@@ -3,7 +3,7 @@
 
 # flt.bpf12~
 
-###### Two pole band-pass butterworth filter
+###### two pole band-pass Butterworth filter
 
 *available since version:* 0.1
 

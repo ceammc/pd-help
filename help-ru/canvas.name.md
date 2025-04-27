@@ -6,7 +6,7 @@ layout: default_ru
 
 # canvas.name
 
-###### current canvas name
+###### выводит имя текущего холста у объекта
 
 *доступно с версии:* 0.8
 

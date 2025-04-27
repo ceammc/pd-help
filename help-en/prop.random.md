@@ -3,7 +3,7 @@
 
 # prop.random
 
-###### property randomizer
+###### property value randomizer
 
 *available since version:* 0.9.4
 

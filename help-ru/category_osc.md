@@ -10,23 +10,23 @@ layout: default_ru
 осцилляторы
 
 
-[**osc.blit~**](osc.blit~.html): Bandlimited impulse train oscillator 
+[**osc.blit~**](osc.blit~.html): генератор с ограниченным спектром и управлением гармониками 
 
-[**osc.impulse~**](osc.impulse~.html): Bandlimited impulse train generator 
+[**osc.impulse~**](osc.impulse~.html): генератор импульсного сигнала с ограниченным спектром 
 
-[**osc.pulse~**](osc.pulse~.html): Bandlimited pulse train oscillator 
+[**osc.pulse~**](osc.pulse~.html): осциллятор прямоугольной волны с ограниченным спектром 
 
-[**osc.saw4~**](osc.saw4~.html): Bandlimited sawtooth wave 
+[**osc.saw4~**](osc.saw4~.html): осциллятор пилообразного сигнала с ограниченным спектром 
 
-[**osc.saw~**](osc.saw~.html): Alias-free sawtooth wave 
+[**osc.saw~**](osc.saw~.html): осциллятор пилообразного сигнала с ограниченным спектром 
 
-[**osc.sinfb~**](osc.sinfb~.html): Sine oscilator with feedback 
+[**osc.sinfb~**](osc.sinfb~.html): синусоидальный осциллятор с обратной связью 
 
-[**osc.sin~**](osc.sin~.html): Sine wave oscillator 
+[**osc.sin~**](osc.sin~.html): синусоидальный осциллятор 
 
-[**osc.square~**](osc.square~.html): Bandlimited square wave oscillator 
+[**osc.square~**](osc.square~.html): осциллятор квадратной волны с ограниченным спектром 
 
-[**osc.tri~**](osc.tri~.html): Bandlimited triangle wave oscillator 
+[**osc.tri~**](osc.tri~.html): осциллятор треугольной волны с ограниченным спектром 
 
 
 **Версия:** 0.9.8

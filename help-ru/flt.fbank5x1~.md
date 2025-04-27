@@ -6,7 +6,7 @@ layout: default_ru
 
 # flt.fbank5x1~
 
-###### 5 band one octave butterworth filterbank
+###### 5-полосный банк однооктавных фильтров Баттерворта
 
 *доступно с версии:* 0.9.2
 

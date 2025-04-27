@@ -3,7 +3,7 @@
 
 # flt.c_notch~
 
-###### Band-reject coefficient calculator for biquad filter
+###### band-reject filter coefficients calculator for \[flt.biquad~\]
 
 *available since version:* 0.1
 

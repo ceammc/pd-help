@@ -3,7 +3,7 @@
 
 # flt.c_bpf~
 
-###### BPF coefficient calculator for biquad filter
+###### BPF coefficients calculator for \[flt.biquad~\]
 
 *available since version:* 0.1
 

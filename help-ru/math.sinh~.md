@@ -6,7 +6,7 @@ layout: default_ru
 
 # math.sinh~
 
-###### hyperbolic sine for signals
+###### гиперболический синус для сигналов
 
 *доступно с версии:* 0.9
 

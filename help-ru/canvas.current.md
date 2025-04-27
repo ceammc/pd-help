@@ -6,7 +6,7 @@ layout: default_ru
 
 # canvas.current
 
-###### verbose information about current canvas
+###### получение информации о текущем холста объекта
 
 *доступно с версии:* 0.4
 

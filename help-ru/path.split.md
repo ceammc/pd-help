@@ -6,7 +6,7 @@ layout: default_ru
 
 # path.split
 
-###### file path split
+###### разбивает путь на имя каталога и файла
 
 *доступно с версии:* 0.9.4
 

@@ -6,7 +6,7 @@ layout: default_ru
 
 # math.and
 
-###### operation AND for multiple arguments
+###### операция И для множества аргументов
 
 *доступно с версии:* 0.2
 

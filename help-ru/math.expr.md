@@ -6,7 +6,7 @@ layout: default_ru
 
 # math.expr
 
-###### dynamic \[expr\]
+###### динамическая версия объекта \[expr\]
 
 *доступно с версии:* 0.6
 

@@ -6,7 +6,7 @@ layout: default_ru
 
 # math.sync_ge
 
-###### sync greater equal numbers compare
+###### синхронная проверка на больше или равно
 
 *доступно с версии:* 0.8
 

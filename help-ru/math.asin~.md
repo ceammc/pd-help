@@ -6,7 +6,7 @@ layout: default_ru
 
 # math.asin~
 
-###### arc sine for signals
+###### арксинус для сигналов
 
 *доступно с версии:* 0.9
 

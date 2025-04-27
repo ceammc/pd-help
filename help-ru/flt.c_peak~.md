@@ -6,7 +6,7 @@ layout: default_ru
 
 # flt.c_peak~
 
-###### Peaking equalizer calculator for biquad
+###### калькулятор пикового фильтра для \[flt.biquad~\]
 
 *доступно с версии:* 0.1
 

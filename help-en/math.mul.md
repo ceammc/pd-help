@@ -5,7 +5,7 @@
 **aliases:** [math.*]
 
 
-###### multiplication (on lists too)
+###### multiplication
 
 *available since version:* 0.6
 

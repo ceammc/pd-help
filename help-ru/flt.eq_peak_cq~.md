@@ -6,7 +6,7 @@ layout: default_ru
 
 # flt.eq_peak_cq~
 
-###### constant-Q second order peaking equalizer section
+###### секция эквалайзера: пиковый фильтр второго порядка c constant-Q
 
 *доступно с версии:* 0.6
 

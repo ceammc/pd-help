@@ -3,7 +3,7 @@
 
 # path.split
 
-###### file path split
+###### split path into dirname and basename
 
 *available since version:* 0.9.4
 

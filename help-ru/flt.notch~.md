@@ -6,7 +6,7 @@ layout: default_ru
 
 # flt.notch~
 
-###### band-rejection filter
+###### режекторный фильтр
 
 *доступно с версии:* 0.1
 

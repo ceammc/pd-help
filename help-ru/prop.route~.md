@@ -6,7 +6,7 @@ layout: default_ru
 
 # prop.route~
 
-###### Property extractor from audio streams
+###### отделяет свойства от аудиосоединений
 
 *доступно с версии:* 0.6
 

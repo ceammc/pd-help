@@ -6,7 +6,7 @@ layout: default_ru
 
 # math.log10~
 
-###### natural logarithm
+###### логарифм по основанию 10
 
 *доступно с версии:* 0.9
 

@@ -5,7 +5,7 @@
 **aliases:** [str.substr]
 
 
-###### extract substring from input string
+###### extract a substring from the input string
 
 *available since version:* 0.3
 

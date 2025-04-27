@@ -6,7 +6,7 @@ layout: default_ru
 
 # flt.resonbp~
 
-###### Simple resonant bandpass filter
+###### простой резонансный полосовой фильтр
 
 *доступно с версии:* 0.1
 

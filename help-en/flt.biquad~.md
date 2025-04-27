@@ -3,7 +3,7 @@
 
 # flt.biquad~
 
-###### second order IIR filter.
+###### second order IIR filter
 
 *available since version:* 0.1
 

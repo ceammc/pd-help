@@ -6,7 +6,7 @@ layout: default_ru
 
 # osc.sin~
 
-###### Sine wave oscillator
+###### синусоидальный осциллятор
 
 *доступно с версии:* 0.7
 

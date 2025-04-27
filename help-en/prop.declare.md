@@ -3,7 +3,7 @@
 
 # prop.declare
 
-###### declare named property for subpatch or abstraction
+###### declare the named property for a subpatch or an abstraction
 
 *available since version:* 0.7
 

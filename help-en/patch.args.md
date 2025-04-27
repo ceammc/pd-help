@@ -3,7 +3,7 @@
 
 # patch.args
 
-###### Get patch or subpatch arguments
+###### get patch or subpatch initial arguments
 
 *available since version:* 0.4
 

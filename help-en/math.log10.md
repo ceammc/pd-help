@@ -3,7 +3,7 @@
 
 # math.log10
 
-###### logarithm functions
+###### base-10 logarithm
 
 *available since version:* 0.1
 

@@ -6,7 +6,7 @@ layout: default_ru
 
 # math.asinh~
 
-###### hyperbolic arc sine for signals
+###### обратный гиперболической синус для сигналов
 
 *доступно с версии:* 0.9
 

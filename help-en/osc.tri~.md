@@ -3,7 +3,7 @@
 
 # osc.tri~
 
-###### Bandlimited triangle wave oscillator
+###### bandlimited triangle wave oscillator
 
 *available since version:* 0.1
 

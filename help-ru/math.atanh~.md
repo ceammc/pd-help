@@ -6,7 +6,7 @@ layout: default_ru
 
 # math.atanh~
 
-###### hyperbolic arc tangent for signals
+###### обратный гиперболический тангенс для сигналов
 
 *доступно с версии:* 0.9
 

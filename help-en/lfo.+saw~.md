@@ -3,7 +3,7 @@
 
 # lfo.+saw~
 
-###### Positive unit-amplitude low frequency saw wave
+###### positive unit-amplitude low frequency saw wave
 
 *available since version:* 0.7
 

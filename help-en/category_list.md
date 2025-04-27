@@ -3,7 +3,7 @@
 
 # Category: list
 
-objects for list processing
+list processing
 
 
 [**list.^at**](list.%5Eat.html): on input index(es) outputs list element(s) 

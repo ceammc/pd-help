@@ -6,7 +6,7 @@ layout: default_ru
 
 # prop
 
-###### get/set named property value for subpatch or abstraction
+###### получить/установить именованное значение свойства для субпатча или абстракции
 
 *доступно с версии:* 0.7
 
@@ -14,7 +14,7 @@ layout: default_ru
 
 
 ## информация
-Property should be declared with [prop.declare]. Min/max limits can be set to property
+The property should be declared with [prop.declare]. Min/max limits can be set to the property
 
 
 [![example](../examples/img/prop.jpg)](../examples/pd/prop.pd)

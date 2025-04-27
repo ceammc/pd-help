@@ -6,7 +6,7 @@ layout: default_ru
 
 # path.lsdir
 
-###### list directory contents
+###### cписок содержимого каталога
 
 *доступно с версии:* 0.2
 

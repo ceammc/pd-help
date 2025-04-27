@@ -6,7 +6,7 @@ layout: default_ru
 
 # flt.c_notch
 
-###### Notch filter coefficient calculator for biquad
+###### калькулятор коэффициентов режекторного фильтра для \[flt.biquad~\]
 
 *доступно с версии:* 0.9.2
 

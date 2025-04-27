@@ -3,7 +3,7 @@
 
 # math.log~
 
-###### natural logarithm
+###### natural logarithm for signals
 
 *available since version:* 0.9
 

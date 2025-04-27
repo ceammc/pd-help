@@ -3,7 +3,7 @@
 
 # Category: local
 
-
+local named objects accessible only from current canvas
 
 
 [**local.dict**](local.dict.html): local named dict object <br>

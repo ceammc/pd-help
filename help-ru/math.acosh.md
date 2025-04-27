@@ -6,7 +6,7 @@ layout: default_ru
 
 # math.acosh
 
-###### inverse hyperbolic cosine function
+###### обратный гиперболический косинус
 
 *доступно с версии:* 0.1
 

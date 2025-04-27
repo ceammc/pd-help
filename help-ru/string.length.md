@@ -6,7 +6,7 @@ layout: default_ru
 
 # string.length
 
-###### number of characters in string (unicode supported)
+###### количество символов в строке (с поддержкой Unicode)
 
 *доступно с версии:* 0.3
 

@@ -5,7 +5,7 @@
 **aliases:** [math./]
 
 
-###### division (on lists too)
+###### division
 
 *available since version:* 0.6
 

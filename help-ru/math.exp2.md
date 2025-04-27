@@ -6,7 +6,7 @@ layout: default_ru
 
 # math.exp2
 
-###### exponential functions
+###### экспоненциальная функция на основе 2
 
 *доступно с версии:* 0.1
 

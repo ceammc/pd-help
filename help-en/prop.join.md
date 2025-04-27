@@ -5,7 +5,7 @@
 **aliases:** [prop&lt;-]
 
 
-###### join property to main data flow
+###### inject properties into the main data flow
 
 *available since version:* 0.9
 

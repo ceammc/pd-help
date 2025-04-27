@@ -6,7 +6,7 @@ layout: default_ru
 
 # math.log~
 
-###### natural logarithm
+###### натуральный логарифм для сигналов
 
 *доступно с версии:* 0.9
 

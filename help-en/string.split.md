@@ -5,7 +5,7 @@
 **aliases:** [str.split], [symbol.split]
 
 
-###### split string or symbol by separator
+###### splits the string or symbol into the list by the separator
 
 *available since version:* 0.3
 

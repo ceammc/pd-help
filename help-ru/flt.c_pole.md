@@ -6,7 +6,7 @@ layout: default_ru
 
 # flt.c_pole
 
-###### One-pole coefficient calculator for biquad filter
+###### калькулятор однополюсного фильтра для \[flt.biquad~\]
 
 *доступно с версии:* 0.9.2
 

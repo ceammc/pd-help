@@ -6,7 +6,7 @@ layout: default_ru
 
 # string.substr
 
-###### extract substring from input string
+###### извлечение подстроки из входной строки
 
 *доступно с версии:* 0.3
 

@@ -6,7 +6,7 @@ layout: default_ru
 
 # lfo.+pulse~
 
-###### Unit-amplitude nonnegative low frequency pulse train
+###### прямоугольная низкочастотная волна единичной амплитудны в дипазоне \[0,+1\]
 
 *доступно с версии:* 0.7
 

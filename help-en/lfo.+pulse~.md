@@ -3,7 +3,7 @@
 
 # lfo.+pulse~
 
-###### Unit-amplitude nonnegative low frequency pulse train
+###### unit-amplitude nonnegative low frequency pulse train
 
 *available since version:* 0.7
 

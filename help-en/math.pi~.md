@@ -5,7 +5,7 @@
 **aliases:** [ceammc/pi\~], [pi\~]
 
 
-###### mathematical constant
+###### mathematical constant π
 
 *available since version:* 0.9
 

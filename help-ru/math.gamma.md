@@ -6,7 +6,7 @@ layout: default_ru
 
 # math.gamma
 
-###### gamma function
+###### гамма функция
 
 *доступно с версии:* 0.9
 

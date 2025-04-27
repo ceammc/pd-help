@@ -3,7 +3,7 @@
 
 # osc.impulse~
 
-###### Bandlimited impulse train generator
+###### bandlimited impulse train generator
 
 *available since version:* 0.1
 

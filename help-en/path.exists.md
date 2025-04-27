@@ -3,7 +3,7 @@
 
 # path.exists
 
-###### checks if given path exists
+###### checks if the given path exists
 
 *available since version:* 0.1
 

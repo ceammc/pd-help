@@ -6,7 +6,7 @@ layout: default_ru
 
 # path.search
 
-###### file search
+###### поиск файлов
 
 *доступно с версии:* 0.9.4
 

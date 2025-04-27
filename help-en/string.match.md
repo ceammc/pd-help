@@ -5,7 +5,7 @@
 **aliases:** [str.match]
 
 
-###### check if string match regular expression
+###### checks if the string matches to the regular expression
 
 *available since version:* 0.7.1
 

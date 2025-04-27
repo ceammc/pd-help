@@ -3,7 +3,7 @@
 
 # flt.c_peak~
 
-###### Peaking equalizer calculator for biquad
+###### peaking filter calculator for \[flt.biquad~\]
 
 *available since version:* 0.1
 

@@ -6,7 +6,7 @@ layout: default_ru
 
 # math.inf~
 
-###### inifinity signal generator
+###### выводит бесконечное значение в стандарте IEEE 754
 
 *доступно с версии:* 0.9.1
 

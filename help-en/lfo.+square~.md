@@ -3,7 +3,7 @@
 
 # lfo.+square~
 
-###### Positive low frequency square wave
+###### positive low frequency square wave
 
 *available since version:* 0.7
 

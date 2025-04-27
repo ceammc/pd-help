@@ -6,7 +6,7 @@ layout: default_ru
 
 # math.nan
 
-###### Not a Number, unrepresentable value
+###### Не число, непредставимое значение
 
 *доступно с версии:* 0.1
 

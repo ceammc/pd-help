@@ -5,7 +5,7 @@
 **aliases:** [str.length]
 
 
-###### number of characters in string (unicode supported)
+###### number of characters in the string (with Unicode support)
 
 *available since version:* 0.3
 

@@ -6,7 +6,7 @@ layout: default_ru
 
 # prop.join
 
-###### join property to main data flow
+###### добавляет свойства в основной поток данных
 
 *доступно с версии:* 0.9
 

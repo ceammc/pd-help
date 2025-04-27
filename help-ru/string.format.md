@@ -6,7 +6,7 @@ layout: default_ru
 
 # string.format
 
-###### formats string like printf.
+###### форматирует строки в стиле функции printf
 
 *доступно с версии:* 0.3
 

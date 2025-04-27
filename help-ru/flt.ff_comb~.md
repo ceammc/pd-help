@@ -6,7 +6,7 @@ layout: default_ru
 
 # flt.ff_comb~
 
-###### feed forward comb filter
+###### гребенчатый фильтр (КИХ)
 
 *доступно с версии:* 0.9.1
 

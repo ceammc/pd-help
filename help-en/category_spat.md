@@ -3,7 +3,7 @@
 
 # Category: spat
 
-
+working with sound spatialisation
 
 
 [**hoa.2d.decoder\~**](hoa.2d.decoder~.html): hoa 2d decoder <br>

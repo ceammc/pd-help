@@ -6,7 +6,7 @@ layout: default_ru
 
 # math.sync_div
 
-###### sync division
+###### синхронное деление
 
 *доступно с версии:* 0.8
 

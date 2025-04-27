@@ -6,7 +6,7 @@ layout: default_ru
 
 # math.abs~
 
-###### absolute value function for signals
+###### функция абсолютного значения для сигналов
 
 *доступно с версии:* 0.9
 

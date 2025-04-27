@@ -6,7 +6,7 @@ layout: default_ru
 
 # flt.c_apf
 
-###### Allpass filter coefficient calculator for biquad
+###### калькулятор коэффициентов всепропускающего фильтра для объекта \[flt.biquad~\]
 
 *доступно с версии:* 0.9.2
 

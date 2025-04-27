@@ -6,7 +6,7 @@ layout: default_ru
 
 # patch.deps
 
-###### patch dependencies: used objects and abstractions
+###### выводит зависимости патча: используемые объекты и абстракции
 
 *доступно с версии:* 0.9.0
 

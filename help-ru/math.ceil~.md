@@ -6,7 +6,7 @@ layout: default_ru
 
 # math.ceil~
 
-###### round to smallest integral value not less than input value
+###### округление до наименьшего целого значения, которое не менее входного
 
 *доступно с версии:* 0.9
 

@@ -3,7 +3,7 @@
 
 # math.inf~
 
-###### output infinity value in the IEEE 754 standart
+###### output infinity value in the IEEE 754 standard
 
 *available since version:* 0.9.1
 

@@ -78,11 +78,11 @@ _псевдонимы:_ \[ui.m~\], \[ui.hm~\], \[ui.vm~\]
 
 [**ui.midi**](ui.midi.html): окно просмотра MIDI сообщений 
 
-[**ui.mouse_filter**](ui.mouse_filter.html): фильтр событий мыши из ui объектов <br>
+[**ui.mouse_filter**](ui.mouse_filter.html): фильтр событий мыши из UI объектов <br>
 _псевдонимы:_ \[ui.mf\]
 
 
-[**ui.mouse_route**](ui.mouse_route.html): маршрутизация событий мыши от ui объектов <br>
+[**ui.mouse_route**](ui.mouse_route.html): маршрутизация событий мыши от UI объектов <br>
 _псевдонимы:_ \[ui.mr\]
 
 

@@ -12,7 +12,7 @@ _aliases:_ \[ceammc/expand_env\]
 
 [**flow.append**](flow.append.html): append message to flow stream 
 
-[**flow.change**](flow.change.html): rejects repeatet input messages 
+[**flow.change**](flow.change.html): rejects repeated input messages 
 
 [**flow.count**](flow.count.html): control flow event counter 
 
@@ -76,7 +76,7 @@ _aliases:_ \[flow.&lt;=\]
 _aliases:_ \[ceammc/list-&gt;many\], \[list-&gt;many\]
 
 
-[**flow.match**](flow.match.html): routes the control flow by the regular expession match 
+[**flow.match**](flow.match.html): routes the control flow by the regular expression match 
 
 [**flow.mem**](flow.mem.html): store into the memory or output the control flow messages 
 

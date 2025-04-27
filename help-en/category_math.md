@@ -64,7 +64,7 @@ _aliases:_ \[ceammc/cdiv\~\], \[cdiv\~\]
 
 [**math.ceil**](math.ceil.html): round to the smallest integral value not less than input value 
 
-[**math.ceil\~**](math.ceil~.html): round to smallest integral value not less than input value 
+[**math.ceil\~**](math.ceil~.html): round to the smallest integral value not less than input value 
 
 [**math.cexp\~**](math.cexp~.html): exponent of a complex signals <br>
 _aliases:_ \[ceammc/cexp\~\], \[cexp\~\]
@@ -102,21 +102,21 @@ _aliases:_ \[math./\]
 
 [**math.exp\~**](math.exp~.html): base-e exponential function for signals 
 
-[**math.floor**](math.floor.html): round to largest integral value not greater than input value 
+[**math.floor**](math.floor.html): round to the largest integral value not greater than input value 
 
-[**math.floor\~**](math.floor~.html): round to largest integral value not greater than input value 
+[**math.floor\~**](math.floor~.html): round to the largest integral value not greater than input value 
 
 [**math.gamma**](math.gamma.html): gamma function 
 
-[**math.gamma\~**](math.gamma~.html): gamma function fot signals 
+[**math.gamma\~**](math.gamma~.html): gamma function for signals 
 
-[**math.gcd**](math.gcd.html): calculate greatest common divisor 
+[**math.gcd**](math.gcd.html): calculate the greatest common divisor 
 
-[**math.inf**](math.inf.html): output infinity value in the IEEE 754 standart 
+[**math.inf**](math.inf.html): output infinity value in the IEEE 754 standard 
 
-[**math.inf\~**](math.inf~.html): output infinity value in the IEEE 754 standart 
+[**math.inf\~**](math.inf~.html): output infinity value in the IEEE 754 standard 
 
-[**math.lcm**](math.lcm.html): calculates least common multiple 
+[**math.lcm**](math.lcm.html): calculates the least common multiple 
 
 [**math.lgamma**](math.lgamma.html): natural logarithm of the absolute value of the gamma function 
 
@@ -218,7 +218,7 @@ _aliases:_ \[math.==&#39;\], \[ceammc/==&#39;\], \[==&#39;\]
 _aliases:_ \[math.&gt;=&#39;\], \[ceammc/&gt;=&#39;\], \[&gt;=&#39;\]
 
 
-[**math.sync_gt**](math.sync_gt.html): sync greater then numbers compare <br>
+[**math.sync_gt**](math.sync_gt.html): sync greater than numbers compare <br>
 _aliases:_ \[math.&gt;&#39;\], \[ceammc/&gt;&#39;\], \[&gt;&#39;\]
 
 
@@ -230,7 +230,7 @@ _aliases:_ \[math.&lt;=&#39;\], \[ceammc/&lt;=&#39;\], \[&lt;=&#39;\]
 _aliases:_ \[math.&lt;&lt;&#39;\], \[ceammc/&lt;&lt;&#39;\], \[&lt;&lt;&#39;\]
 
 
-[**math.sync_lt**](math.sync_lt.html): sync less then numbers compare <br>
+[**math.sync_lt**](math.sync_lt.html): sync less than numbers compare <br>
 _aliases:_ \[math.&lt;&#39;\], \[ceammc/&lt;&#39;\], \[&lt;&#39;\]
 
 

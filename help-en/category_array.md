@@ -46,7 +46,7 @@ _aliases:_ \[array.p\~\]
 _aliases:_ \[array.rw\~\]
 
 
-[**array.resample**](array.resample.html): array resampler <br>
+[**array.resample**](array.resample.html): resampling the array <br>
 _aliases:_ \[array.r\]
 
 

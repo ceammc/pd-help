@@ -3,7 +3,7 @@
 
 # fx.shimmer~
 
-###### shimmer reverb effect effect
+###### shimmer reverb effect
 
 *available since version:* 0.9.4
 

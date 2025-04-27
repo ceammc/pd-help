@@ -62,7 +62,7 @@ _псевдонимы:_ \[flow.&gt;=\]
 _псевдонимы:_ \[ceammc/group\], \[group\]
 
 
-[**flow.histogram**](flow.histogram.html): гисторамма для числового потока управления <br>
+[**flow.histogram**](flow.histogram.html): гистограмма для числового потока управления <br>
 _псевдонимы:_ \[flow.hist\]
 
 

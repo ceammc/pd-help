@@ -22,7 +22,7 @@ working with sound envelopes
 
 [**env.smooth\~**](env.smooth~.html): envelope with an exponential attack and release 
 
-[**env.tscale**](env.tscale.html): envelope time-scale 
+[**env.tscale**](env.tscale.html): envelope timescale 
 
 [**env.tshift**](env.tshift.html): envelope time-shift (horizontal) 
 

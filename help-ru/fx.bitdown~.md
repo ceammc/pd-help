@@ -6,7 +6,7 @@ layout: default_ru
 
 # fx.bitdown~
 
-###### bit downer and downsampler effect
+###### a bit downer and downsampler effect
 
 *доступно с версии:* 0.7
 

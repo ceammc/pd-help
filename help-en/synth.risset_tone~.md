@@ -3,7 +3,7 @@
 
 # synth.risset_tone~
 
-###### Jean Claude Risset&#39;s endless glissando
+###### Jean-Claude Risset&#39;s endless glissando
 
 *available since version:* 0.5
 

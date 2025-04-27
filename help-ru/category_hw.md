@@ -40,7 +40,7 @@ _псевдонимы:_ \[hw.rpi.display.lcd1602\], \[hw.rpi.display.lcd2004\]
 _псевдонимы:_ \[hw.rpi.pwm.pca9685\]
 
 
-[**hw.rpi.pwm**](hw.rpi.pwm.html): аппаратный ШИМ (PWM) для RaspberryPi 
+[**hw.rpi.pwm**](hw.rpi.pwm.html): аппаратный ШИМ (PWM) для Raspberry Pi 
 
 [**hw.rpi.rotenc**](hw.rpi.rotenc.html): поворотный энкодер для Raspberry Pi 
 

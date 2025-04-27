@@ -74,7 +74,7 @@ _псевдонимы:_ \[ceammc/list-&gt;dict\], \[list-&gt;dict\]
 _псевдонимы:_ \[ceammc/dict-&gt;list\], \[dict-&gt;list\]
 
 
-[**dict.values**](dict.values.html): выводит значения словаря в виде многоуровневнего списка (MList) 
+[**dict.values**](dict.values.html): выводит значения словаря в виде многоуровневого списка (MList) 
 
 [**global.bimap**](global.bimap.html): глобальное двунаправленное отображение 
 

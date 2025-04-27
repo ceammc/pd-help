@@ -3,7 +3,7 @@
 
 # hw.rpi.pwm
 
-###### hardware PWM output for RaspberryPi
+###### hardware PWM output for Raspberry Pi
 
 *available since version:* 0.9.8
 

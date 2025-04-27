@@ -6,7 +6,7 @@ layout: default_ru
 
 # synth.risset_tone~
 
-###### Jean Claude Risset&#39;s endless glissando
+###### Jean-Claude Risset&#39;s endless glissando
 
 *доступно с версии:* 0.5
 

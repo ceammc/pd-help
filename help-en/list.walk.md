@@ -3,7 +3,7 @@
 
 # list.walk
 
-###### Walks thru the list
+###### walks through the list
 
 *available since version:* 0.1
 

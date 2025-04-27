@@ -38,7 +38,7 @@ _псевдонимы:_ \[ceammc/bits-&gt;bang\], \[bits-&gt;bang\]
 _псевдонимы:_ \[ceammc/bits-&gt;int\], \[bits-&gt;int\]
 
 
-[**conv.bits2note**](conv.bits2note.html): конвертирует список битов в пары: номер ноты, сила нажания <br>
+[**conv.bits2note**](conv.bits2note.html): конвертирует список битов в пары: номер ноты, сила нажатия <br>
 _псевдонимы:_ \[ceammc/bits-&gt;note\], \[bits-&gt;note\]
 
 

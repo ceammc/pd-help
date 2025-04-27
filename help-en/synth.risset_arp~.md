@@ -3,7 +3,7 @@
 
 # synth.risset_arp~
 
-###### Jean Claude Risset&#39;s harmonic arpeggio effect
+###### Jean-Claude Risset&#39;s harmonic arpeggio effect
 
 *available since version:* 0.6
 

@@ -5,7 +5,7 @@
 **aliases:** [array.r]
 
 
-###### array resampler
+###### resampling the array
 
 *available since version:* 0.9
 

@@ -3,7 +3,7 @@
 
 # synth.risset_bell~
 
-###### Jean Claude Risset&#39;s bell synth
+###### Jean-Claude Risset&#39;s bell synth
 
 *available since version:* 0.9.4
 

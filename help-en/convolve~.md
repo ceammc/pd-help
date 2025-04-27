@@ -5,7 +5,7 @@
 **aliases:** [ceammc/convolve\~]
 
 
-###### realtime FFT convolution
+###### real-time FFT convolution
 
 *available since version:* 0.9.7
 

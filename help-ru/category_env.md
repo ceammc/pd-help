@@ -30,7 +30,7 @@ layout: default_ru
 
 [**env.tshift**](env.tshift.html): сдвиг огибающей по времени (по горизонтали) 
 
-[**env.vscale**](env.vscale.html): изменение амплитуды огибующей 
+[**env.vscale**](env.vscale.html): изменение амплитуды огибающей 
 
 [**env2array**](env2array.html): рендеринг огибающей в массив <br>
 _псевдонимы:_ \[ceammc/env2array\], \[ceammc/env-&gt;array\], \[env-&gt;array\]

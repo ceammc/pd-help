@@ -3,7 +3,7 @@
 
 # env.tscale
 
-###### envelope time-scale
+###### envelope timescale
 
 *available since version:* 0.5
 

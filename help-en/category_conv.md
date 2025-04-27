@@ -90,7 +90,7 @@ _aliases:_ \[ceammc/edge-&gt;bang\], \[edge-&gt;bang\]
 _aliases:_ \[ceammc/guido-&gt;note\], \[guido-&gt;note\]
 
 
-[**conv.hex2int**](conv.hex2int.html): converts hex symbol into a integer value <br>
+[**conv.hex2int**](conv.hex2int.html): converts hex symbol into an integer value <br>
 _aliases:_ \[ceammc/hex-&gt;int\], \[hex-&gt;int\]
 
 
@@ -134,11 +134,11 @@ _aliases:_ \[ceammc/midi-&gt;freq\], \[midi-&gt;freq\], \[ceammc/m-&gt;f\], \[m-
 _aliases:_ \[ceammc/ms-&gt;bpm\], \[ms-&gt;bpm\]
 
 
-[**conv.ms2samp**](conv.ms2samp.html): convert time in milliseconds to number of samples according to current samplerate <br>
+[**conv.ms2samp**](conv.ms2samp.html): convert time in milliseconds to number of samples according to current sample rate <br>
 _aliases:_ \[ceammc/ms-&gt;samp\], \[ms-&gt;samp\]
 
 
-[**conv.ms2samp\~**](conv.ms2samp~.html): convert time in milliseconds to number of samples according to current samplerate <br>
+[**conv.ms2samp\~**](conv.ms2samp~.html): convert time in milliseconds to number of samples according to current sample rate <br>
 _aliases:_ \[ceammc/ms-&gt;samp\~\], \[ms-&gt;samp\~\]
 
 
@@ -178,15 +178,15 @@ _aliases:_ \[ceammc/rad-&gt;phase\~\], \[rad-&gt;phase\~\]
 _aliases:_ \[ceammc/rgb-&gt;hex\], \[rgb-&gt;hex\]
 
 
-[**conv.samp2ms**](conv.samp2ms.html): converts samples to millisecond according samplerate <br>
+[**conv.samp2ms**](conv.samp2ms.html): converts samples to millisecond according sample rate <br>
 _aliases:_ \[ceammc/samp-&gt;ms\], \[samp-&gt;ms\]
 
 
-[**conv.samp2ms\~**](conv.samp2ms~.html): converts samples to milliseconds according to samplerate <br>
+[**conv.samp2ms\~**](conv.samp2ms~.html): converts samples to milliseconds according to sample rate <br>
 _aliases:_ \[ceammc/samp-&gt;ms\~\], \[samp-&gt;ms\~\]
 
 
-[**conv.samp2sec**](conv.samp2sec.html): convert samples to seconds according to samplerate <br>
+[**conv.samp2sec**](conv.samp2sec.html): convert samples to seconds according to sample rate <br>
 _aliases:_ \[ceammc/samp-&gt;sec\], \[samp-&gt;sec\]
 
 
@@ -194,7 +194,7 @@ _aliases:_ \[ceammc/samp-&gt;sec\], \[samp-&gt;sec\]
 _aliases:_ \[ceammc/sec-&gt;bpm\], \[sec-&gt;bpm\]
 
 
-[**conv.sec2samp**](conv.sec2samp.html): converts time in seconds to number of samples according to current samplerate <br>
+[**conv.sec2samp**](conv.sec2samp.html): converts time in seconds to number of samples according to current sample rate <br>
 _aliases:_ \[ceammc/sec-&gt;samp\], \[sec-&gt;samp\]
 
 
@@ -206,7 +206,7 @@ _aliases:_ \[ceammc/sec-&gt;str\], \[sec-&gt;str\]
 _aliases:_ \[ceammc/semi-&gt;ratio\], \[semi-&gt;ratio\]
 
 
-[**conv.sig2float\~**](conv.sig2float~.html): converts audiosignal to control numeric stream <br>
+[**conv.sig2float\~**](conv.sig2float~.html): converts audio signal to control numeric stream <br>
 _aliases:_ \[ceammc/sig-&gt;float\~\], \[sig-&gt;float\~\], \[ceammc/s-&gt;f\~\], \[s-&gt;f\~\]
 
 

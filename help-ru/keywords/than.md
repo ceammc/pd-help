@@ -1,7 +1,7 @@
 [index](../index.html)
 ---
 
-## Ключевое слово: then
+## Ключевое слово: than
 
 ### Объекты:
 * [math.sync_gt](../math.sync_gt.html)

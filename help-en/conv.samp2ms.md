@@ -5,7 +5,7 @@
 **aliases:** [ceammc/samp-&gt;ms], [samp-&gt;ms]
 
 
-###### converts samples to millisecond according samplerate
+###### converts samples to millisecond according sample rate
 
 *available since version:* 0.8
 

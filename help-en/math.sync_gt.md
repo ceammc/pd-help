@@ -5,7 +5,7 @@
 **aliases:** [math.&gt;&#39;], [ceammc/&gt;&#39;], [&gt;&#39;]
 
 
-###### sync greater then numbers compare
+###### sync greater than numbers compare
 
 *available since version:* 0.8
 
@@ -51,7 +51,7 @@ _type:_ control
 [math](keywords/math.html)
 [sync](keywords/sync.html)
 [greater](keywords/greater.html)
-[then](keywords/then.html)
+[than](keywords/than.html)
 [compare](keywords/compare.html)
 
 

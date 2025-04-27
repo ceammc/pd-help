@@ -3,7 +3,7 @@
 
 # math.lcm
 
-###### calculates least common multiple
+###### calculates the least common multiple
 
 *available since version:* 0.3
 

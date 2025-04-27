@@ -64,7 +64,7 @@ _aliases:_ \[ui.k\]
 
 [**ui.link**](ui.link.html): hyperlink widget 
 
-[**ui.matrix**](ui.matrix.html): toggel matrix 
+[**ui.matrix**](ui.matrix.html): toggle matrix 
 
 [**ui.menu**](ui.menu.html): dropdown menu 
 
@@ -74,11 +74,11 @@ _aliases:_ \[ui.m\~\], \[ui.hm\~\], \[ui.vm\~\]
 
 [**ui.midi**](ui.midi.html): incoming MIDI message viewport 
 
-[**ui.mouse_filter**](ui.mouse_filter.html): filter mouse events from ui objects <br>
+[**ui.mouse_filter**](ui.mouse_filter.html): filter mouse events from UI objects <br>
 _aliases:_ \[ui.mf\]
 
 
-[**ui.mouse_route**](ui.mouse_route.html): routes mouse events from ui objects <br>
+[**ui.mouse_route**](ui.mouse_route.html): routes mouse events from UI objects <br>
 _aliases:_ \[ui.mr\]
 
 

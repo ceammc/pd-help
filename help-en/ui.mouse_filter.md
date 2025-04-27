@@ -5,7 +5,7 @@
 **aliases:** [ui.mf]
 
 
-###### filter mouse events from ui objects
+###### filter mouse events from UI objects
 
 *available since version:* 0.8
 

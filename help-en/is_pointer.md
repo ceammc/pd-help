@@ -3,7 +3,7 @@
 
 # is_pointer
 
-###### checks if input messagee is a *pointer*
+###### checks if input message is a *pointer*
 
 *available since version:* 0.1
 

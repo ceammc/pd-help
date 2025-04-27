@@ -16,7 +16,7 @@ oscillators
 
 [**osc.saw\~**](osc.saw~.html): alias-free sawtooth wave 
 
-[**osc.sinfb\~**](osc.sinfb~.html): sine oscilator with feedback 
+[**osc.sinfb\~**](osc.sinfb~.html): sine oscillator with feedback 
 
 [**osc.sin\~**](osc.sin~.html): sine wave oscillator 
 

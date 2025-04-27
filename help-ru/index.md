@@ -91,7 +91,7 @@ layout: default_ru
 
 [**array.copy**](array.copy.html): копирование семплов из одного массива в другой
 
-[**array.do**](array.do.html): обход и модифиция содержимого массива через боковую цепь
+[**array.do**](array.do.html): обход и модификация содержимого массива через боковую цепь
 
 [**array.each**](array.each.html): обработка каждого элемента массива через боковую цепь
 
@@ -111,7 +111,7 @@ layout: default_ru
 
 [**array.plot**](array.plot.html): построение числовых графиков данных на массиве
 
-[**array.plot~**](array.plot~.html): постороение графика сигнала на заданном массиве
+[**array.plot~**](array.plot~.html): построение графика сигнала на заданном массиве
 
 [**array.readwrite~**](array.readwrite~.html): одновременное чтение/запись сигналов в массив
 
@@ -123,7 +123,7 @@ layout: default_ru
 
 [**array.stddev**](array.stddev.html): вычисляет стандартное отклонение для значений массива
 
-[**array.stretch**](array.stretch.html): растяжение во времени, изменени высоты тона или скорости у массива
+[**array.stretch**](array.stretch.html): растяжение во времени, изменение высоты тона или скорости у массива
 
 [**array.sum**](array.sum.html): вычисляет сумму элементов массива
 
@@ -250,7 +250,7 @@ layout: default_ru
 
 [**conv.bits2int**](conv.bits2int.html): преобразовать список битов в целое число
 
-[**conv.bits2note**](conv.bits2note.html): конвертирует список битов в пары: номер ноты, сила нажания
+[**conv.bits2note**](conv.bits2note.html): конвертирует список битов в пары: номер ноты, сила нажатия
 
 [**conv.bits2pos**](conv.bits2pos.html): преобразует список битов в список позиций установленных битов
 
@@ -397,7 +397,7 @@ layout: default_ru
 
 [**dict.to_list**](dict.to_list.html): конвертирует словарь в простой одномерный список
 
-[**dict.values**](dict.values.html): выводит значения словаря в виде многоуровневнего списка (MList)
+[**dict.values**](dict.values.html): выводит значения словаря в виде многоуровневого списка (MList)
 
 [**global.bimap**](global.bimap.html): глобальное двунаправленное отображение
 
@@ -481,7 +481,7 @@ layout: default_ru
 
 [**env.tshift**](env.tshift.html): сдвиг огибающей по времени (по горизонтали)
 
-[**env.vscale**](env.vscale.html): изменение амплитуды огибующей
+[**env.vscale**](env.vscale.html): изменение амплитуды огибающей
 
 [**env2array**](env2array.html): рендеринг огибающей в массив
 
@@ -528,7 +528,7 @@ layout: default_ru
 
 [**flow.group**](flow.group.html): группирует входные атомы в списки указанного размера
 
-[**flow.histogram**](flow.histogram.html): гисторамма для числового потока управления
+[**flow.histogram**](flow.histogram.html): гистограмма для числового потока управления
 
 [**flow.interval**](flow.interval.html): измерение времени между сообщениями
 
@@ -706,7 +706,7 @@ layout: default_ru
 ---
 
 
-[**fx.bitdown~**](fx.bitdown~.html): bit downer and downsampler effect
+[**fx.bitdown~**](fx.bitdown~.html): a bit downer and downsampler effect
 
 [**fx.chorus~**](fx.chorus~.html): Chorus effect
 
@@ -732,9 +732,9 @@ layout: default_ru
 
 [**fx.flanger~**](fx.flanger~.html): mono flanging effect
 
-[**fx.freeverb2~**](fx.freeverb2~.html): freeverb2 - stereo version of freeverb
+[**fx.freeverb2~**](fx.freeverb2~.html): stereo version of \[fx.freeverb~\]
 
-[**fx.freeverb~**](fx.freeverb~.html): freeverb - common used open-source reverb
+[**fx.freeverb~**](fx.freeverb~.html): freeverb - commonly used open-source reverb
 
 [**fx.freqshift~**](fx.freqshift~.html): frequency shifter or single-sideband ring modulation
 
@@ -766,7 +766,7 @@ layout: default_ru
 
 [**fx.scramble~**](fx.scramble~.html): scramble delayed sound fragments
 
-[**fx.shimmer~**](fx.shimmer~.html): shimmer reverb effect effect
+[**fx.shimmer~**](fx.shimmer~.html): shimmer reverb effect
 
 [**fx.stutter~**](fx.stutter~.html): stutter effect
 
@@ -832,7 +832,7 @@ layout: default_ru
 
 [**hw.rpi.i2c.pca9685**](hw.rpi.i2c.pca9685.html): драйвер для 16-канального 12-битного ШИМ модуля на чипе PCA9685 для Raspberry Pi
 
-[**hw.rpi.pwm**](hw.rpi.pwm.html): аппаратный ШИМ (PWM) для RaspberryPi
+[**hw.rpi.pwm**](hw.rpi.pwm.html): аппаратный ШИМ (PWM) для Raspberry Pi
 
 [**hw.rpi.rotenc**](hw.rpi.rotenc.html): поворотный энкодер для Raspberry Pi
 
@@ -872,7 +872,7 @@ layout: default_ru
 ---
 
 
-[**lfo.+pulse~**](lfo.%2Bpulse~.html): прямоугольная низкочастотная волна единичной амплитудны в дипазоне \[0,+1\]
+[**lfo.+pulse~**](lfo.%2Bpulse~.html): прямоугольная низкочастотная волна единичной амплитуды в диапазоне \[0,+1\]
 
 [**lfo.+saw~**](lfo.%2Bsaw~.html): низкочастотная пилообразная волна в диапазоне \[0,+1\]
 
@@ -884,7 +884,7 @@ layout: default_ru
 
 [**lfo.mosc~**](lfo.mosc~.html): мультиосциллятор с различными формами волн
 
-[**lfo.pulse~**](lfo.pulse~.html): прямоугольная низкочастотная волна единичной амплитудны в дипазоне \[-1,+1\]
+[**lfo.pulse~**](lfo.pulse~.html): прямоугольная низкочастотная волна единичной амплитуды в диапазоне \[-1,+1\]
 
 [**lfo.saw~**](lfo.saw~.html): низкочастотная пилообразная волна в диапазоне \[-1,+1\]
 
@@ -955,7 +955,7 @@ layout: default_ru
 
 [**list.map**](list.map.html): map list values by specified dictionary
 
-[**list.max**](list.max.html): output largest element in the list
+[**list.max**](list.max.html): output the largest element in the list
 
 [**list.mean**](list.mean.html): calculates average of list of floats
 
@@ -1035,7 +1035,7 @@ layout: default_ru
 
 [**list.unzip**](list.unzip.html): splits list to N lists, each to separate output
 
-[**list.walk**](list.walk.html): Walks thru the list
+[**list.walk**](list.walk.html): walks through the list
 
 [**list.zip**](list.zip.html): takes n lists from n inlets (specified by argument) and output their elements sequentially (list1-1 list2-1 list1-2 list2-2 etc.).
 
@@ -1156,7 +1156,7 @@ layout: default_ru
 
 [**math.floor~**](math.floor~.html): округление до наибольшего целого значения, не превышающего входного значения
 
-[**math.gamma**](math.gamma.html): гамма функция
+[**math.gamma**](math.gamma.html): гамма-функция
 
 [**math.gamma~**](math.gamma~.html): гамма-функция для сигналов
 
@@ -1570,7 +1570,7 @@ layout: default_ru
 
 [**is_list**](is_list.html): проверка, является ли входное сообщение списком
 
-[**is_odd**](is_odd.html): проверка входного числа на нечётност
+[**is_odd**](is_odd.html): проверка входного числа на нечётность
 
 [**is_pointer**](is_pointer.html): проверка, является ли входное сообщение указателем
 
@@ -1817,7 +1817,7 @@ layout: default_ru
 
 [**string.contains**](string.contains.html): проверяет, содержит ли строка указанную подстроку
 
-[**string.ends_with**](string.ends_with.html): проверяет, заканчивается ли строка указанной подстрочкой
+[**string.ends_with**](string.ends_with.html): проверяет, заканчивается ли строка указанной подстрокой
 
 [**string.equal**](string.equal.html): проверка строк или символов на равенство
 
@@ -1909,11 +1909,11 @@ layout: default_ru
 
 [**synth.rhodey~**](synth.rhodey~.html): STK Fender Rhodes electric piano FM synthesis instrument
 
-[**synth.risset_arp~**](synth.risset_arp~.html): Jean Claude Risset&#39;s harmonic arpeggio effect
+[**synth.risset_arp~**](synth.risset_arp~.html): Jean-Claude Risset&#39;s harmonic arpeggio effect
 
-[**synth.risset_bell~**](synth.risset_bell~.html): Jean Claude Risset&#39;s bell synth
+[**synth.risset_bell~**](synth.risset_bell~.html): Jean-Claude Risset&#39;s bell synth
 
-[**synth.risset_tone~**](synth.risset_tone~.html): Jean Claude Risset&#39;s endless glissando
+[**synth.risset_tone~**](synth.risset_tone~.html): Jean-Claude Risset&#39;s endless glissando
 
 [**synth.russian_bell~**](synth.russian_bell~.html): russian church bell modal model
 
@@ -2034,9 +2034,9 @@ layout: default_ru
 
 [**ui.midi**](ui.midi.html): окно просмотра MIDI сообщений
 
-[**ui.mouse_filter**](ui.mouse_filter.html): фильтр событий мыши из ui объектов
+[**ui.mouse_filter**](ui.mouse_filter.html): фильтр событий мыши из UI объектов
 
-[**ui.mouse_route**](ui.mouse_route.html): маршрутизация событий мыши от ui объектов
+[**ui.mouse_route**](ui.mouse_route.html): маршрутизация событий мыши от UI объектов
 
 [**ui.number**](ui.number.html): числовой бокс
 

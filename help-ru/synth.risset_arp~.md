@@ -6,7 +6,7 @@ layout: default_ru
 
 # synth.risset_arp~
 
-###### Jean Claude Risset&#39;s harmonic arpeggio effect
+###### Jean-Claude Risset&#39;s harmonic arpeggio effect
 
 *доступно с версии:* 0.6
 

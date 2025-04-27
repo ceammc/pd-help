@@ -5,7 +5,7 @@
 **aliases:** [ui.mr]
 
 
-###### routes mouse events from ui objects
+###### routes mouse events from UI objects
 
 *available since version:* 0.8
 

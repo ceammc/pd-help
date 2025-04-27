@@ -50,11 +50,11 @@ sound synthesis
 
 [**synth.rhodey\~**](synth.rhodey~.html): STK Fender Rhodes electric piano FM synthesis instrument 
 
-[**synth.risset_arp\~**](synth.risset_arp~.html): Jean Claude Risset&#39;s harmonic arpeggio effect 
+[**synth.risset_arp\~**](synth.risset_arp~.html): Jean-Claude Risset&#39;s harmonic arpeggio effect 
 
-[**synth.risset_bell\~**](synth.risset_bell~.html): Jean Claude Risset&#39;s bell synth 
+[**synth.risset_bell\~**](synth.risset_bell~.html): Jean-Claude Risset&#39;s bell synth 
 
-[**synth.risset_tone\~**](synth.risset_tone~.html): Jean Claude Risset&#39;s endless glissando 
+[**synth.risset_tone\~**](synth.risset_tone~.html): Jean-Claude Risset&#39;s endless glissando 
 
 [**synth.russian_bell\~**](synth.russian_bell~.html): russian church bell modal model 
 

@@ -3,7 +3,7 @@
 
 # fx.bitdown~
 
-###### bit downer and downsampler effect
+###### a bit downer and downsampler effect
 
 *available since version:* 0.7
 

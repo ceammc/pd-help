@@ -5,7 +5,7 @@
 **aliases:** [ceammc/ms-&gt;samp\~], [ms-&gt;samp\~]
 
 
-###### convert time in milliseconds to number of samples according to current samplerate
+###### convert time in milliseconds to number of samples according to current sample rate
 
 *available since version:* 0.9
 

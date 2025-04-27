@@ -3,7 +3,7 @@
 
 # list.max
 
-###### output largest element in the list
+###### output the largest element in the list
 
 *available since version:* 0.1
 

@@ -3,7 +3,7 @@
 
 # math.gcd
 
-###### calculate greatest common divisor
+###### calculate the greatest common divisor
 
 *available since version:* 0.3
 

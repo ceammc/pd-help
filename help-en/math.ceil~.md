@@ -3,7 +3,7 @@
 
 # math.ceil~
 
-###### round to smallest integral value not less than input value
+###### round to the smallest integral value not less than input value
 
 *available since version:* 0.9
 

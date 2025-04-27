@@ -6,7 +6,7 @@ layout: default_ru
 
 # hw.rpi.pwm
 
-###### аппаратный ШИМ (PWM) для RaspberryPi
+###### аппаратный ШИМ (PWM) для Raspberry Pi
 
 *доступно с версии:* 0.9.8
 

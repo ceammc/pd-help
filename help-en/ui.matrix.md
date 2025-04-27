@@ -3,7 +3,7 @@
 
 # ui.matrix
 
-###### toggel matrix
+###### toggle matrix
 
 *available since version:* 0.1
 

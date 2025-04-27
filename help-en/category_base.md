@@ -16,7 +16,7 @@ _aliases:_ \[ceammc/bitmap\]
 _aliases:_ \[ceammc/datetime\], \[datetime\]
 
 
-[**convolve\~**](convolve~.html): realtime FFT convolution <br>
+[**convolve\~**](convolve~.html): real-time FFT convolution <br>
 _aliases:_ \[ceammc/convolve\~\]
 
 

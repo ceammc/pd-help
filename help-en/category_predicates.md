@@ -30,7 +30,7 @@ _aliases:_ \[ceammc/is_file\]
 
 [**is_odd**](is_odd.html): input number oddity check 
 
-[**is_pointer**](is_pointer.html): checks if input messagee is a *pointer* 
+[**is_pointer**](is_pointer.html): checks if input message is a *pointer* 
 
 [**is_prop**](is_prop.html): checks if the input message is a *property* message 
 

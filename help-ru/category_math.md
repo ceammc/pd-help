@@ -110,7 +110,7 @@ _псевдонимы:_ \[math./\]
 
 [**math.floor~**](math.floor~.html): округление до наибольшего целого значения, не превышающего входного значения 
 
-[**math.gamma**](math.gamma.html): гамма функция 
+[**math.gamma**](math.gamma.html): гамма-функция 
 
 [**math.gamma~**](math.gamma~.html): гамма-функция для сигналов 
 

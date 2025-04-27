@@ -18,7 +18,7 @@ _псевдонимы:_ \[ceammc/string\], \[ceammc/str\], \[str\]
 _псевдонимы:_ \[str.contains\]
 
 
-[**string.ends_with**](string.ends_with.html): проверяет, заканчивается ли строка указанной подстрочкой <br>
+[**string.ends_with**](string.ends_with.html): проверяет, заканчивается ли строка указанной подстрокой <br>
 _псевдонимы:_ \[str.ends_with\]
 
 

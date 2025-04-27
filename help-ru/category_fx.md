@@ -10,7 +10,7 @@ layout: default_ru
 различные звуковые эффекты
 
 
-[**fx.bitdown~**](fx.bitdown~.html): bit downer and downsampler effect 
+[**fx.bitdown~**](fx.bitdown~.html): a bit downer and downsampler effect 
 
 [**fx.chorus~**](fx.chorus~.html): Chorus effect 
 
@@ -40,9 +40,9 @@ _псевдонимы:_ \[fx.secho~\]
 
 [**fx.flanger~**](fx.flanger~.html): mono flanging effect 
 
-[**fx.freeverb2~**](fx.freeverb2~.html): freeverb2 - stereo version of freeverb 
+[**fx.freeverb2~**](fx.freeverb2~.html): stereo version of \[fx.freeverb~\] 
 
-[**fx.freeverb~**](fx.freeverb~.html): freeverb - common used open-source reverb 
+[**fx.freeverb~**](fx.freeverb~.html): freeverb - commonly used open-source reverb 
 
 [**fx.freqshift~**](fx.freqshift~.html): frequency shifter or single-sideband ring modulation 
 
@@ -74,7 +74,7 @@ _псевдонимы:_ \[fx.secho~\]
 
 [**fx.scramble~**](fx.scramble~.html): scramble delayed sound fragments 
 
-[**fx.shimmer~**](fx.shimmer~.html): shimmer reverb effect effect 
+[**fx.shimmer~**](fx.shimmer~.html): shimmer reverb effect 
 
 [**fx.stutter~**](fx.stutter~.html): stutter effect 
 

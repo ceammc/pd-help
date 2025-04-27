@@ -36,7 +36,7 @@ _aliases:_ \[hw.rpi.display.lcd1602\], \[hw.rpi.display.lcd2004\]
 _aliases:_ \[hw.rpi.pwm.pca9685\]
 
 
-[**hw.rpi.pwm**](hw.rpi.pwm.html): hardware PWM output for RaspberryPi 
+[**hw.rpi.pwm**](hw.rpi.pwm.html): hardware PWM output for Raspberry Pi 
 
 [**hw.rpi.rotenc**](hw.rpi.rotenc.html): rotary encoder for Raspberry Pi 
 

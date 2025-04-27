@@ -64,7 +64,7 @@ _aliases:_ \[ceammc/pole-&gt;biquad\], \[pole-&gt;biquad\]
 
 [**flt.fb_comb\~**](flt.fb_comb~.html): feedback comb filter 
 
-[**flt.fbank5x1\~**](flt.fbank5x1~.html): 5 band one octave butterworth filterbank 
+[**flt.fbank5x1\~**](flt.fbank5x1~.html): 5 band one octave Butterworth filterbank 
 
 [**flt.ff_comb\~**](flt.ff_comb~.html): feed forward comb filter 
 

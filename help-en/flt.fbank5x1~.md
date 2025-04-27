@@ -3,7 +3,7 @@
 
 # flt.fbank5x1~
 
-###### 5 band one octave butterworth filterbank
+###### 5 band one octave Butterworth filterbank
 
 *available since version:* 0.9.2
 

@@ -6,7 +6,7 @@ layout: default_ru
 
 # list.walk
 
-###### Walks thru the list
+###### walks through the list
 
 *доступно с версии:* 0.1
 

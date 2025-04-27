@@ -3,7 +3,7 @@
 
 # math.gamma~
 
-###### gamma function fot signals
+###### gamma function for signals
 
 *available since version:* 0.9
 

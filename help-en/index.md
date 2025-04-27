@@ -112,7 +112,7 @@ working with arrays and tables
 
 [**array.readwrite\~**](array.readwrite~.html): simultaneous read/write signals to the array 
 
-[**array.resample**](array.resample.html): array resampler 
+[**array.resample**](array.resample.html): resampling the array 
 
 [**array.rms**](array.rms.html): calculates the root mean square value for the array 
 
@@ -157,7 +157,7 @@ working with arrays and tables
 
 [**chrono.datetime**](chrono.datetime.html): output current date and time info 
 
-[**convolve\~**](convolve~.html): realtime FFT convolution 
+[**convolve\~**](convolve~.html): real-time FFT convolution 
 
 [**function**](function.html): named function 
 
@@ -275,7 +275,7 @@ various converters
 
 [**conv.guido2note**](conv.guido2note.html): convert the Guido notation into a MIDI pitch and duration 
 
-[**conv.hex2int**](conv.hex2int.html): converts hex symbol into a integer value 
+[**conv.hex2int**](conv.hex2int.html): converts hex symbol into an integer value 
 
 [**conv.hsl2rgb**](conv.hsl2rgb.html): convert HSL color values to RGB 
 
@@ -297,9 +297,9 @@ various converters
 
 [**conv.ms2bpm**](conv.ms2bpm.html): converts period in milliseconds to BPM tempo 
 
-[**conv.ms2samp**](conv.ms2samp.html): convert time in milliseconds to number of samples according to current samplerate 
+[**conv.ms2samp**](conv.ms2samp.html): convert time in milliseconds to number of samples according to current sample rate 
 
-[**conv.ms2samp\~**](conv.ms2samp~.html): convert time in milliseconds to number of samples according to current samplerate 
+[**conv.ms2samp\~**](conv.ms2samp~.html): convert time in milliseconds to number of samples according to current sample rate 
 
 [**conv.ms2str**](conv.ms2str.html): formats time in milliseconds to symbol or string 
 
@@ -319,21 +319,21 @@ various converters
 
 [**conv.rgb2hex**](conv.rgb2hex.html): convert separate RGB values to hex color 
 
-[**conv.samp2ms**](conv.samp2ms.html): converts samples to millisecond according samplerate 
+[**conv.samp2ms**](conv.samp2ms.html): converts samples to millisecond according sample rate 
 
-[**conv.samp2ms\~**](conv.samp2ms~.html): converts samples to milliseconds according to samplerate 
+[**conv.samp2ms\~**](conv.samp2ms~.html): converts samples to milliseconds according to sample rate 
 
-[**conv.samp2sec**](conv.samp2sec.html): convert samples to seconds according to samplerate 
+[**conv.samp2sec**](conv.samp2sec.html): convert samples to seconds according to sample rate 
 
 [**conv.sec2bpm**](conv.sec2bpm.html): converts period in seconds to frequency in BPM 
 
-[**conv.sec2samp**](conv.sec2samp.html): converts time in seconds to number of samples according to current samplerate 
+[**conv.sec2samp**](conv.sec2samp.html): converts time in seconds to number of samples according to current sample rate 
 
 [**conv.sec2str**](conv.sec2str.html): formats time in seconds to symbol or string 
 
 [**conv.semi2ratio**](conv.semi2ratio.html): converts interval in semitones to frequency ratio in 12-ET 
 
-[**conv.sig2float\~**](conv.sig2float~.html): converts audiosignal to control numeric stream 
+[**conv.sig2float\~**](conv.sig2float~.html): converts audio signal to control numeric stream 
 
 [**conv.str2sec**](conv.str2sec.html): converts the formatted time to a float value in seconds 
 
@@ -474,7 +474,7 @@ working with sound envelopes
 
 [**env.smooth\~**](env.smooth~.html): envelope with an exponential attack and release 
 
-[**env.tscale**](env.tscale.html): envelope time-scale 
+[**env.tscale**](env.tscale.html): envelope timescale 
 
 [**env.tshift**](env.tshift.html): envelope time-shift (horizontal) 
 
@@ -499,7 +499,7 @@ dataflow control
 
 [**flow.append**](flow.append.html): append message to flow stream 
 
-[**flow.change**](flow.change.html): rejects repeatet input messages 
+[**flow.change**](flow.change.html): rejects repeated input messages 
 
 [**flow.count**](flow.count.html): control flow event counter 
 
@@ -535,7 +535,7 @@ dataflow control
 
 [**flow.list2many**](flow.list2many.html): routes the list element with the corresponding message 
 
-[**flow.match**](flow.match.html): routes the control flow by the regular expession match 
+[**flow.match**](flow.match.html): routes the control flow by the regular expression match 
 
 [**flow.mem**](flow.mem.html): store into the memory or output the control flow messages 
 
@@ -662,7 +662,7 @@ filters
 
 [**flt.fb_comb\~**](flt.fb_comb~.html): feedback comb filter 
 
-[**flt.fbank5x1\~**](flt.fbank5x1~.html): 5 band one octave butterworth filterbank 
+[**flt.fbank5x1\~**](flt.fbank5x1~.html): 5 band one octave Butterworth filterbank 
 
 [**flt.ff_comb\~**](flt.ff_comb~.html): feed forward comb filter 
 
@@ -703,7 +703,7 @@ various sound effects
 ---
 
 
-[**fx.bitdown\~**](fx.bitdown~.html): bit downer and downsampler effect 
+[**fx.bitdown\~**](fx.bitdown~.html): a bit downer and downsampler effect 
 
 [**fx.chorus\~**](fx.chorus~.html): Chorus effect 
 
@@ -729,9 +729,9 @@ various sound effects
 
 [**fx.flanger\~**](fx.flanger~.html): mono flanging effect 
 
-[**fx.freeverb2\~**](fx.freeverb2~.html): freeverb2 - stereo version of freeverb 
+[**fx.freeverb2\~**](fx.freeverb2~.html): stereo version of \[fx.freeverb~\] 
 
-[**fx.freeverb\~**](fx.freeverb~.html): freeverb - common used open-source reverb 
+[**fx.freeverb\~**](fx.freeverb~.html): freeverb - commonly used open-source reverb 
 
 [**fx.freqshift\~**](fx.freqshift~.html): frequency shifter or single-sideband ring modulation 
 
@@ -763,7 +763,7 @@ various sound effects
 
 [**fx.scramble\~**](fx.scramble~.html): scramble delayed sound fragments 
 
-[**fx.shimmer\~**](fx.shimmer~.html): shimmer reverb effect effect 
+[**fx.shimmer\~**](fx.shimmer~.html): shimmer reverb effect 
 
 [**fx.stutter\~**](fx.stutter~.html): stutter effect 
 
@@ -829,7 +829,7 @@ working with various hardware
 
 [**hw.rpi.i2c.pca9685**](hw.rpi.i2c.pca9685.html): driver for 16-channel 12-bit PWM module on PCA9685 chip for Raspberry Pi 
 
-[**hw.rpi.pwm**](hw.rpi.pwm.html): hardware PWM output for RaspberryPi 
+[**hw.rpi.pwm**](hw.rpi.pwm.html): hardware PWM output for Raspberry Pi 
 
 [**hw.rpi.rotenc**](hw.rpi.rotenc.html): rotary encoder for Raspberry Pi 
 
@@ -952,7 +952,7 @@ list processing
 
 [**list.map**](list.map.html): map list values by specified dictionary 
 
-[**list.max**](list.max.html): output largest element in the list 
+[**list.max**](list.max.html): output the largest element in the list 
 
 [**list.mean**](list.mean.html): calculates average of list of floats 
 
@@ -1032,7 +1032,7 @@ list processing
 
 [**list.unzip**](list.unzip.html): splits list to N lists, each to separate output 
 
-[**list.walk**](list.walk.html): Walks thru the list 
+[**list.walk**](list.walk.html): walks through the list 
 
 [**list.zip**](list.zip.html): takes n lists from n inlets (specified by argument) and output their elements sequentially (list1-1 list2-1 list1-2 list2-2 etc.). 
 
@@ -1117,7 +1117,7 @@ math objects that can operate with number lists
 
 [**math.ceil**](math.ceil.html): round to the smallest integral value not less than input value 
 
-[**math.ceil\~**](math.ceil~.html): round to smallest integral value not less than input value 
+[**math.ceil\~**](math.ceil~.html): round to the smallest integral value not less than input value 
 
 [**math.cexp\~**](math.cexp~.html): exponent of a complex signals 
 
@@ -1149,21 +1149,21 @@ math objects that can operate with number lists
 
 [**math.exp\~**](math.exp~.html): base-e exponential function for signals 
 
-[**math.floor**](math.floor.html): round to largest integral value not greater than input value 
+[**math.floor**](math.floor.html): round to the largest integral value not greater than input value 
 
-[**math.floor\~**](math.floor~.html): round to largest integral value not greater than input value 
+[**math.floor\~**](math.floor~.html): round to the largest integral value not greater than input value 
 
 [**math.gamma**](math.gamma.html): gamma function 
 
-[**math.gamma\~**](math.gamma~.html): gamma function fot signals 
+[**math.gamma\~**](math.gamma~.html): gamma function for signals 
 
-[**math.gcd**](math.gcd.html): calculate greatest common divisor 
+[**math.gcd**](math.gcd.html): calculate the greatest common divisor 
 
-[**math.inf**](math.inf.html): output infinity value in the IEEE 754 standart 
+[**math.inf**](math.inf.html): output infinity value in the IEEE 754 standard 
 
-[**math.inf\~**](math.inf~.html): output infinity value in the IEEE 754 standart 
+[**math.inf\~**](math.inf~.html): output infinity value in the IEEE 754 standard 
 
-[**math.lcm**](math.lcm.html): calculates least common multiple 
+[**math.lcm**](math.lcm.html): calculates the least common multiple 
 
 [**math.lgamma**](math.lgamma.html): natural logarithm of the absolute value of the gamma function 
 
@@ -1233,13 +1233,13 @@ math objects that can operate with number lists
 
 [**math.sync_ge**](math.sync_ge.html): sync greater equal numbers compare 
 
-[**math.sync_gt**](math.sync_gt.html): sync greater then numbers compare 
+[**math.sync_gt**](math.sync_gt.html): sync greater than numbers compare 
 
 [**math.sync_le**](math.sync_le.html): sync less equal numbers compare 
 
 [**math.sync_lshift**](math.sync_lshift.html): sync signed bit left shift 
 
-[**math.sync_lt**](math.sync_lt.html): sync less then numbers compare 
+[**math.sync_lt**](math.sync_lt.html): sync less than numbers compare 
 
 [**math.sync_mod**](math.sync_mod.html): sync remainder of modulo division (float or integer) 
 
@@ -1480,7 +1480,7 @@ oscillators
 
 [**osc.saw\~**](osc.saw~.html): alias-free sawtooth wave 
 
-[**osc.sinfb\~**](osc.sinfb~.html): sine oscilator with feedback 
+[**osc.sinfb\~**](osc.sinfb~.html): sine oscillator with feedback 
 
 [**osc.sin\~**](osc.sin~.html): sine wave oscillator 
 
@@ -1569,7 +1569,7 @@ predicate objects. Checks message or data types, returns 1 or 0.
 
 [**is_odd**](is_odd.html): input number oddity check 
 
-[**is_pointer**](is_pointer.html): checks if input messagee is a *pointer* 
+[**is_pointer**](is_pointer.html): checks if input message is a *pointer* 
 
 [**is_prop**](is_prop.html): checks if the input message is a *property* message 
 
@@ -1906,11 +1906,11 @@ sound synthesis
 
 [**synth.rhodey\~**](synth.rhodey~.html): STK Fender Rhodes electric piano FM synthesis instrument 
 
-[**synth.risset_arp\~**](synth.risset_arp~.html): Jean Claude Risset&#39;s harmonic arpeggio effect 
+[**synth.risset_arp\~**](synth.risset_arp~.html): Jean-Claude Risset&#39;s harmonic arpeggio effect 
 
-[**synth.risset_bell\~**](synth.risset_bell~.html): Jean Claude Risset&#39;s bell synth 
+[**synth.risset_bell\~**](synth.risset_bell~.html): Jean-Claude Risset&#39;s bell synth 
 
-[**synth.risset_tone\~**](synth.risset_tone~.html): Jean Claude Risset&#39;s endless glissando 
+[**synth.risset_tone\~**](synth.risset_tone~.html): Jean-Claude Risset&#39;s endless glissando 
 
 [**synth.russian_bell\~**](synth.russian_bell~.html): russian church bell modal model 
 
@@ -2023,7 +2023,7 @@ graphical user interface objects
 
 [**ui.link**](ui.link.html): hyperlink widget 
 
-[**ui.matrix**](ui.matrix.html): toggel matrix 
+[**ui.matrix**](ui.matrix.html): toggle matrix 
 
 [**ui.menu**](ui.menu.html): dropdown menu 
 
@@ -2031,9 +2031,9 @@ graphical user interface objects
 
 [**ui.midi**](ui.midi.html): incoming MIDI message viewport 
 
-[**ui.mouse_filter**](ui.mouse_filter.html): filter mouse events from ui objects 
+[**ui.mouse_filter**](ui.mouse_filter.html): filter mouse events from UI objects 
 
-[**ui.mouse_route**](ui.mouse_route.html): routes mouse events from ui objects 
+[**ui.mouse_route**](ui.mouse_route.html): routes mouse events from UI objects 
 
 [**ui.number**](ui.number.html): number box 
 
@@ -2684,7 +2684,7 @@ graphical user interface objects
 [temperature](keywords/temperature.html)
 [tempo](keywords/tempo.html)
 [test](keywords/test.html)
-[then](keywords/then.html)
+[than](keywords/than.html)
 [time](keywords/time.html)
 [timeline](keywords/timeline.html)
 [tof](keywords/tof.html)

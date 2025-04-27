@@ -72,7 +72,7 @@ _псевдонимы:_ \[list.size\]
 
 [**list.map**](list.map.html): map list values by specified dictionary 
 
-[**list.max**](list.max.html): output largest element in the list 
+[**list.max**](list.max.html): output the largest element in the list 
 
 [**list.mean**](list.mean.html): calculates average of list of floats <br>
 _псевдонимы:_ \[list.average\]
@@ -172,7 +172,7 @@ _псевдонимы:_ \[list.sep\]
 _псевдонимы:_ \[list.deinterleave\]
 
 
-[**list.walk**](list.walk.html): Walks thru the list 
+[**list.walk**](list.walk.html): walks through the list 
 
 [**list.zip**](list.zip.html): takes n lists from n inlets (specified by argument) and output their elements sequentially (list1-1 list2-1 list1-2 list2-2 etc.). <br>
 _псевдонимы:_ \[list.interleave\]

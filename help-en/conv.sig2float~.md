@@ -5,7 +5,7 @@
 **aliases:** [ceammc/sig-&gt;float\~], [sig-&gt;float\~], [ceammc/s-&gt;f\~], [s-&gt;f\~]
 
 
-###### converts audiosignal to control numeric stream
+###### converts audio signal to control numeric stream
 
 *available since version:* 0.9.2
 

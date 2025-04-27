@@ -52,7 +52,7 @@ _тип:_ control
 [math](keywords/math.html)
 [sync](keywords/sync.html)
 [less](keywords/less.html)
-[then](keywords/then.html)
+[than](keywords/than.html)
 
 
 

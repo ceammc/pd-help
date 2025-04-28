@@ -19,7 +19,7 @@
 ## arguments:
 
 * **FREQ**
-frequency<br>
+See @freq<br>
 _type:_ float<br>
 _units:_ Hz<br>
 
@@ -52,6 +52,13 @@ Get/set duty cycle<br>
 _type:_ float<br>
 _range:_ 0..1<br>
 _default:_ 0.5<br>
+
+* **@freq** 
+Get/set frequency<br>
+_type:_ float<br>
+_units:_ Hz<br>
+_range:_ 0..22050<br>
+_default:_ 0<br>
 
 
 

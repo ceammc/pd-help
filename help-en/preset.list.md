@@ -37,6 +37,9 @@ _type:_ list<br>
 * **clear**
 clear preset at specified index<br>
 
+* **interp**
+do nothing<br>
+
 * **load**
 load preset value by specified index and output it<br>
 

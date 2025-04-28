@@ -166,8 +166,8 @@ _default:_ 128 64<br>
 * **@spi_bus** (initonly)
 Get/set SPI bus<br>
 _type:_ int<br>
-_range:_ 0..6<br>
-_default:_ 0<br>
+_range:_ -1..6<br>
+_default:_ -1<br>
 
 * **@spi_cs** (initonly)
 Get/set CS (chip select) GPIO pin<br>

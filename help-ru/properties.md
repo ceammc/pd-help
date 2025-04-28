@@ -199,6 +199,7 @@ layout: default_ru
 [synth.church_bell~](synth.church_bell~.html)
 [synth.clap~](synth.clap~.html)
 [synth.dubdub~](synth.dubdub~.html)
+[synth.dx7~](synth.dx7~.html)
 [synth.eguitar~](synth.eguitar~.html)
 [synth.english_bell~](synth.english_bell~.html)
 [synth.french_bell~](synth.french_bell~.html)
@@ -255,6 +256,9 @@ layout: default_ru
 [synth.rhodey~](synth.rhodey~.html)
 [synth.tube_bell~](synth.tube_bell~.html)
 [synth.wurley~](synth.wurley~.html)
+
+### @algorithm
+[synth.dx7~](synth.dx7~.html)
 
 ### @align
 [ui.label](ui.label.html)
@@ -813,9 +817,6 @@ layout: default_ru
 ### @crop
 [hoa.2d.decoder~](hoa.2d.decoder~.html)
 
-### @cs
-[hw.rpi.spi.max7219](hw.rpi.spi.max7219.html)
-
 ### @ctlin
 [midi.sustain](midi.sustain.html)
 
@@ -1368,6 +1369,7 @@ layout: default_ru
 [fx.recho~](fx.recho~.html)
 [fx.scramble~](fx.scramble~.html)
 [osc.sinfb~](osc.sinfb~.html)
+[synth.dx7~](synth.dx7~.html)
 
 ### @fidthr
 [an.pitchtrack~](an.pitchtrack~.html)
@@ -1697,9 +1699,27 @@ layout: default_ru
 [fx.chorus~](fx.chorus~.html)
 [fx.ringmod~](fx.ringmod~.html)
 [fx.tremolo~](fx.tremolo~.html)
+[lfo.+pulse~](lfo.%2Bpulse~.html)
+[lfo.+saw~](lfo.%2Bsaw~.html)
+[lfo.+square~](lfo.%2Bsquare~.html)
+[lfo.+tri~](lfo.%2Btri~.html)
+[lfo.impulse~](lfo.impulse~.html)
+[lfo.mosc~](lfo.mosc~.html)
+[lfo.pulse~](lfo.pulse~.html)
+[lfo.saw~](lfo.saw~.html)
+[lfo.square~](lfo.square~.html)
+[lfo.tri~](lfo.tri~.html)
 [noise.crackle~](noise.crackle~.html)
 [noise.lfreq0~](noise.lfreq0~.html)
 [noise.lfreq~](noise.lfreq~.html)
+[osc.impulse~](osc.impulse~.html)
+[osc.pulse~](osc.pulse~.html)
+[osc.saw4~](osc.saw4~.html)
+[osc.saw~](osc.saw~.html)
+[osc.sinfb~](osc.sinfb~.html)
+[osc.sin~](osc.sin~.html)
+[osc.square~](osc.square~.html)
+[osc.tri~](osc.tri~.html)
 [seq.phasor](seq.phasor.html)
 [sfizz~](sfizz~.html)
 [synth.bee3~](synth.bee3~.html)
@@ -1794,6 +1814,7 @@ layout: default_ru
 [live.capture~](live.capture~.html)
 [sfizz~](sfizz~.html)
 [synth.church_bell~](synth.church_bell~.html)
+[synth.dx7~](synth.dx7~.html)
 [synth.eguitar~](synth.eguitar~.html)
 [synth.english_bell~](synth.english_bell~.html)
 [synth.french_bell~](synth.french_bell~.html)
@@ -1806,6 +1827,18 @@ layout: default_ru
 [synth.standard_bell~](synth.standard_bell~.html)
 [ui.filter](ui.filter.html)
 [ui.filter~](ui.filter~.html)
+
+### @gainAL
+[fx.granulator~](fx.granulator~.html)
+
+### @gainAR
+[fx.granulator~](fx.granulator~.html)
+
+### @gainBL
+[fx.granulator~](fx.granulator~.html)
+
+### @gainBR
+[fx.granulator~](fx.granulator~.html)
 
 ### @gains
 [fx.tapiir~](fx.tapiir~.html)
@@ -1979,6 +2012,12 @@ layout: default_ru
 ### @hpf
 [flt.c_pole](flt.c_pole.html)
 
+### @hpfA
+[fx.granulator~](fx.granulator~.html)
+
+### @hpfB
+[fx.granulator~](fx.granulator~.html)
+
 ### @hs
 [an.onset](an.onset.html)
 [an.onset~](an.onset~.html)
@@ -2111,6 +2150,7 @@ layout: default_ru
 [lfo.+saw~](lfo.%2Bsaw~.html)
 [lfo.+square~](lfo.%2Bsquare~.html)
 [lfo.+tri~](lfo.%2Btri~.html)
+[lfo.impulse~](lfo.impulse~.html)
 [lfo.mosc~](lfo.mosc~.html)
 [lfo.pulse~](lfo.pulse~.html)
 [lfo.saw~](lfo.saw~.html)
@@ -2130,9 +2170,14 @@ layout: default_ru
 [noise.crackle~](noise.crackle~.html)
 [noise.lfreq0~](noise.lfreq0~.html)
 [noise.lfreq~](noise.lfreq~.html)
+[osc.impulse~](osc.impulse~.html)
 [osc.pulse~](osc.pulse~.html)
 [osc.saw4~](osc.saw4~.html)
+[osc.saw~](osc.saw~.html)
 [osc.sinfb~](osc.sinfb~.html)
+[osc.sin~](osc.sin~.html)
+[osc.square~](osc.square~.html)
+[osc.tri~](osc.tri~.html)
 [preset.float](preset.float.html)
 [preset.list](preset.list.html)
 [preset.symbol](preset.symbol.html)
@@ -2236,9 +2281,6 @@ layout: default_ru
 [preset.list](preset.list.html)
 [preset.symbol](preset.symbol.html)
 [rhythm.lsystem](rhythm.lsystem.html)
-
-### @initfreq
-[lfo.pulse~](lfo.pulse~.html)
 
 ### @inner_bins
 [flow.histogram](flow.histogram.html)
@@ -2534,7 +2576,6 @@ layout: default_ru
 [env.ar~](env.ar~.html)
 [envelope](envelope.html)
 [flow.ring](flow.ring.html)
-[fx.granulator~](fx.granulator~.html)
 [fx.looper~](fx.looper~.html)
 [list.walk](list.walk.html)
 [seq.toggles](seq.toggles.html)
@@ -2961,6 +3002,7 @@ layout: default_ru
 [flow.dup](flow.dup.html)
 [flow.mem](flow.mem.html)
 [flow.pack](flow.pack.html)
+[flow.sync](flow.sync.html)
 [flow.sync_pack](flow.sync_pack.html)
 [flt.freqz](flt.freqz.html)
 [fluid~](fluid~.html)
@@ -3177,11 +3219,263 @@ layout: default_ru
 ### @onrepeat
 [flow.change](flow.change.html)
 
+### @op0:L1
+[synth.dx7~](synth.dx7~.html)
+
+### @op0:L2
+[synth.dx7~](synth.dx7~.html)
+
+### @op0:L3
+[synth.dx7~](synth.dx7~.html)
+
+### @op0:L4
+[synth.dx7~](synth.dx7~.html)
+
+### @op0:R1
+[synth.dx7~](synth.dx7~.html)
+
+### @op0:R2
+[synth.dx7~](synth.dx7~.html)
+
+### @op0:R3
+[synth.dx7~](synth.dx7~.html)
+
+### @op0:R4
+[synth.dx7~](synth.dx7~.html)
+
+### @op0:detune
+[synth.dx7~](synth.dx7~.html)
+
+### @op0:freq
+[synth.dx7~](synth.dx7~.html)
+
+### @op0:level
+[synth.dx7~](synth.dx7~.html)
+
+### @op0:opMode
+[synth.dx7~](synth.dx7~.html)
+
+### @op0:rate
+[synth.dx7~](synth.dx7~.html)
+
+### @op0:vel
+[synth.dx7~](synth.dx7~.html)
+
+### @op1:L1
+[synth.dx7~](synth.dx7~.html)
+
+### @op1:L2
+[synth.dx7~](synth.dx7~.html)
+
+### @op1:L3
+[synth.dx7~](synth.dx7~.html)
+
+### @op1:L4
+[synth.dx7~](synth.dx7~.html)
+
+### @op1:R1
+[synth.dx7~](synth.dx7~.html)
+
+### @op1:R2
+[synth.dx7~](synth.dx7~.html)
+
+### @op1:R3
+[synth.dx7~](synth.dx7~.html)
+
+### @op1:R4
+[synth.dx7~](synth.dx7~.html)
+
+### @op1:detune
+[synth.dx7~](synth.dx7~.html)
+
+### @op1:freq
+[synth.dx7~](synth.dx7~.html)
+
+### @op1:level
+[synth.dx7~](synth.dx7~.html)
+
+### @op1:opMode
+[synth.dx7~](synth.dx7~.html)
+
+### @op1:rate
+[synth.dx7~](synth.dx7~.html)
+
+### @op1:vel
+[synth.dx7~](synth.dx7~.html)
+
+### @op2:L1
+[synth.dx7~](synth.dx7~.html)
+
+### @op2:L2
+[synth.dx7~](synth.dx7~.html)
+
+### @op2:L3
+[synth.dx7~](synth.dx7~.html)
+
+### @op2:L4
+[synth.dx7~](synth.dx7~.html)
+
+### @op2:R1
+[synth.dx7~](synth.dx7~.html)
+
+### @op2:R2
+[synth.dx7~](synth.dx7~.html)
+
+### @op2:R3
+[synth.dx7~](synth.dx7~.html)
+
+### @op2:R4
+[synth.dx7~](synth.dx7~.html)
+
+### @op2:detune
+[synth.dx7~](synth.dx7~.html)
+
+### @op2:freq
+[synth.dx7~](synth.dx7~.html)
+
+### @op2:level
+[synth.dx7~](synth.dx7~.html)
+
+### @op2:opMode
+[synth.dx7~](synth.dx7~.html)
+
+### @op2:rate
+[synth.dx7~](synth.dx7~.html)
+
+### @op2:vel
+[synth.dx7~](synth.dx7~.html)
+
 ### @op3
 [synth.bee3~](synth.bee3~.html)
 
+### @op3:L1
+[synth.dx7~](synth.dx7~.html)
+
+### @op3:L2
+[synth.dx7~](synth.dx7~.html)
+
+### @op3:L3
+[synth.dx7~](synth.dx7~.html)
+
+### @op3:L4
+[synth.dx7~](synth.dx7~.html)
+
+### @op3:R1
+[synth.dx7~](synth.dx7~.html)
+
+### @op3:R2
+[synth.dx7~](synth.dx7~.html)
+
+### @op3:R3
+[synth.dx7~](synth.dx7~.html)
+
+### @op3:R4
+[synth.dx7~](synth.dx7~.html)
+
+### @op3:detune
+[synth.dx7~](synth.dx7~.html)
+
+### @op3:freq
+[synth.dx7~](synth.dx7~.html)
+
+### @op3:level
+[synth.dx7~](synth.dx7~.html)
+
+### @op3:opMode
+[synth.dx7~](synth.dx7~.html)
+
+### @op3:rate
+[synth.dx7~](synth.dx7~.html)
+
+### @op3:vel
+[synth.dx7~](synth.dx7~.html)
+
 ### @op4
 [synth.bee3~](synth.bee3~.html)
+
+### @op4:L1
+[synth.dx7~](synth.dx7~.html)
+
+### @op4:L2
+[synth.dx7~](synth.dx7~.html)
+
+### @op4:L3
+[synth.dx7~](synth.dx7~.html)
+
+### @op4:L4
+[synth.dx7~](synth.dx7~.html)
+
+### @op4:R1
+[synth.dx7~](synth.dx7~.html)
+
+### @op4:R2
+[synth.dx7~](synth.dx7~.html)
+
+### @op4:R3
+[synth.dx7~](synth.dx7~.html)
+
+### @op4:R4
+[synth.dx7~](synth.dx7~.html)
+
+### @op4:detune
+[synth.dx7~](synth.dx7~.html)
+
+### @op4:freq
+[synth.dx7~](synth.dx7~.html)
+
+### @op4:level
+[synth.dx7~](synth.dx7~.html)
+
+### @op4:opMode
+[synth.dx7~](synth.dx7~.html)
+
+### @op4:rate
+[synth.dx7~](synth.dx7~.html)
+
+### @op4:vel
+[synth.dx7~](synth.dx7~.html)
+
+### @op5:L1
+[synth.dx7~](synth.dx7~.html)
+
+### @op5:L2
+[synth.dx7~](synth.dx7~.html)
+
+### @op5:L3
+[synth.dx7~](synth.dx7~.html)
+
+### @op5:L4
+[synth.dx7~](synth.dx7~.html)
+
+### @op5:R1
+[synth.dx7~](synth.dx7~.html)
+
+### @op5:R2
+[synth.dx7~](synth.dx7~.html)
+
+### @op5:R3
+[synth.dx7~](synth.dx7~.html)
+
+### @op5:R4
+[synth.dx7~](synth.dx7~.html)
+
+### @op5:detune
+[synth.dx7~](synth.dx7~.html)
+
+### @op5:freq
+[synth.dx7~](synth.dx7~.html)
+
+### @op5:level
+[synth.dx7~](synth.dx7~.html)
+
+### @op5:opMode
+[synth.dx7~](synth.dx7~.html)
+
+### @op5:rate
+[synth.dx7~](synth.dx7~.html)
+
+### @op5:vel
+[synth.dx7~](synth.dx7~.html)
 
 ### @open
 [seq.phasor](seq.phasor.html)
@@ -3293,6 +3587,7 @@ layout: default_ru
 [lfo.+saw~](lfo.%2Bsaw~.html)
 [lfo.+square~](lfo.%2Bsquare~.html)
 [lfo.+tri~](lfo.%2Btri~.html)
+[lfo.impulse~](lfo.impulse~.html)
 [lfo.mosc~](lfo.mosc~.html)
 [lfo.pulse~](lfo.pulse~.html)
 [lfo.saw~](lfo.saw~.html)
@@ -3304,9 +3599,14 @@ layout: default_ru
 [noise.crackle~](noise.crackle~.html)
 [noise.lfreq0~](noise.lfreq0~.html)
 [noise.lfreq~](noise.lfreq~.html)
+[osc.impulse~](osc.impulse~.html)
 [osc.pulse~](osc.pulse~.html)
 [osc.saw4~](osc.saw4~.html)
+[osc.saw~](osc.saw~.html)
 [osc.sinfb~](osc.sinfb~.html)
+[osc.sin~](osc.sin~.html)
+[osc.square~](osc.square~.html)
+[osc.tri~](osc.tri~.html)
 [spat.pan4~](spat.pan4~.html)
 [spat.pan8~](spat.pan8~.html)
 [spat.zita6x8~](spat.zita6x8~.html)
@@ -3629,6 +3929,12 @@ layout: default_ru
 [synth.sitar~](synth.sitar~.html)
 [synth.tube_bell~](synth.tube_bell~.html)
 [synth.wurley~](synth.wurley~.html)
+
+### @pitchA
+[fx.granulator~](fx.granulator~.html)
+
+### @pitchB
+[fx.granulator~](fx.granulator~.html)
 
 ### @pitchwheel
 [ui.midi](ui.midi.html)
@@ -4346,6 +4652,7 @@ layout: default_ru
 [flow.pipe](flow.pipe.html)
 [flow.stack](flow.stack.html)
 [flt.median](flt.median.html)
+[fx.granulator~](fx.granulator~.html)
 [fx.greyhole~](fx.greyhole~.html)
 [fx.infrev~](fx.infrev~.html)
 [fx.room~](fx.room~.html)
@@ -4497,15 +4804,14 @@ layout: default_ru
 [an.onset](an.onset.html)
 [an.onset~](an.onset~.html)
 
-### @spi
-[hw.rpi.spi.max7219](hw.rpi.spi.max7219.html)
-
 ### @spi_bus
 [hw.rpi.display.ssd1306](hw.rpi.display.ssd1306.html)
+[hw.rpi.spi.max7219](hw.rpi.spi.max7219.html)
 [hw.rpi.spi.ws2812](hw.rpi.spi.ws2812.html)
 
 ### @spi_cs
 [hw.rpi.display.ssd1306](hw.rpi.display.ssd1306.html)
+[hw.rpi.spi.max7219](hw.rpi.spi.max7219.html)
 [hw.rpi.spi.ws2812](hw.rpi.spi.ws2812.html)
 
 ### @spi_dc
@@ -4528,6 +4834,7 @@ layout: default_ru
 
 ### @spread
 [fx.freeverb2~](fx.freeverb2~.html)
+[fx.granulator~](fx.granulator~.html)
 [pan.spread~](pan.spread~.html)
 [synth.risset_arp~](synth.risset_arp~.html)
 
@@ -5400,4 +5707,4 @@ layout: default_ru
 
 **Лицензия:** GPL3
 
-**Авторы:** Albert Graef, Alex Nadzharov, André Sier, Eliott Paris, Hans-Christoph Steiner, Julian Parker, Katja Vetter, Mayank Sanganeria, Mikhail Malt, Oliver Larkin, Olli Parviainen, Paul Bourke, Pierre Cochard, Pierre Guillot, Richard Dudas, Romain Michon, Serge Poltavsky, Thomas Le Meur, Till Bovermann, Viacheslav Lotsmanov, Yann Orlarey, naivesound, thedrgreenthumb
+**Авторы:** Albert Graef, Alex Nadzharov, André Sier, Eliott Paris, Hans-Christoph Steiner, Julian Parker, Katja Vetter, Luca Hilbrich, Lukas Hartmann, Mikhail Malt, Oliver Larkin, Olli Parviainen, Paul Bourke, Pierre Cochard, Pierre Guillot, Richard Dudas, Romain Michon, Serge Poltavsky, Thomas Le Meur, Till Bovermann, Viacheslav Lotsmanov, Yann Orlarey, naivesound, thedrgreenthumb

@@ -19,7 +19,7 @@
 ## arguments:
 
 * **FREQ**
-initial frequency<br>
+See @freq<br>
 _type:_ float<br>
 _units:_ Hz<br>
 
@@ -51,6 +51,13 @@ _default:_ 1<br>
 Get/set oscillator feedback coefficient<br>
 _type:_ float<br>
 _range:_ 0..6.2832<br>
+_default:_ 0<br>
+
+* **@freq** 
+Get/set frequency<br>
+_type:_ float<br>
+_units:_ Hz<br>
+_range:_ 0..22050<br>
 _default:_ 0<br>
 
 

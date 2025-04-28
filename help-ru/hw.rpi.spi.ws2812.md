@@ -160,8 +160,8 @@ _по умолчанию:_ 16<br>
 * **@spi_bus** (initonly)
 Запросить/установить spi bus number<br>
 _тип:_ int<br>
-_диапазон:_ 0..6<br>
-_по умолчанию:_ 0<br>
+_диапазон:_ -1..6<br>
+_по умолчанию:_ -1<br>
 
 * **@spi_cs** (initonly)
 Запросить/установить spi CS (chip select/enable). In most cases you don&#39;t need to set this property,

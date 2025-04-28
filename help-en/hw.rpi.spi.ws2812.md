@@ -157,8 +157,8 @@ _default:_ 16<br>
 * **@spi_bus** (initonly)
 Get/set spi bus number<br>
 _type:_ int<br>
-_range:_ 0..6<br>
-_default:_ 0<br>
+_range:_ -1..6<br>
+_default:_ -1<br>
 
 * **@spi_cs** (initonly)
 Get/set spi CS (chip select/enable). In most cases you don&#39;t need to set this property,

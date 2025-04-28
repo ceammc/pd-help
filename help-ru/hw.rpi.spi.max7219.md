@@ -151,22 +151,22 @@ write string into 7-segment display (no led matrix support!)<br>
 
 ## свойства:
 
-* **@cs** (initonly)
-Запросить/установить CS (ChipSelect, SlaveSelect or ChipEnable) index<br>
-_тип:_ int<br>
-_диапазон:_ 0..3<br>
-_по умолчанию:_ 0<br>
-
 * **@displays** (initonly)
 Запросить/установить number of displays connected into the chain<br>
 _тип:_ int<br>
-_диапазон:_ 1..8<br>
+_диапазон:_ 1..4<br>
 _по умолчанию:_ 1<br>
 
-* **@spi** (initonly)
-Запросить/установить SPI bus number.<br>
+* **@spi_bus** (initonly)
+Запросить/установить SPI bus number<br>
 _тип:_ int<br>
-_диапазон:_ 0..6<br>
+_диапазон:_ -1..6<br>
+_по умолчанию:_ -1<br>
+
+* **@spi_cs** (initonly)
+Запросить/установить CS (ChipSelect, SlaveSelect or ChipEnable) index<br>
+_тип:_ int<br>
+_диапазон:_ 0..3<br>
 _по умолчанию:_ 0<br>
 
 

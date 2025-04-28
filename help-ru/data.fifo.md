@@ -24,7 +24,7 @@ If size argument specified - creates queue with fixed size. When count of values
 ## аргументы:
 
 * **SIZE**
-if specified, creates fixed-size queue. Value &#39;0&#39; means default size (1024)<br>
+if specified, creates fixed-size queue. See @size property<br>
 _тип:_ int<br>
 
 

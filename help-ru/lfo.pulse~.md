@@ -21,7 +21,7 @@ layout: default_ru
 
 ## аргументы:
 
-* **INITFREQ**
+* **FREQ**
 initial frequency<br>
 _тип:_ float<br>
 _единица:_ Hz<br>
@@ -62,10 +62,11 @@ _тип:_ float<br>
 _диапазон:_ 0..1<br>
 _по умолчанию:_ 0.5<br>
 
-* **@initfreq** (initonly)
+* **@freq** 
 Запросить/установить initial frequency<br>
 _тип:_ float<br>
 _единица:_ Hz<br>
+_диапазон:_ 0..1000<br>
 _по умолчанию:_ 0<br>
 
 * **@pause** 

@@ -61,6 +61,13 @@ _type:_ float<br>
 _range:_ 0..1<br>
 _default:_ 0.5<br>
 
+* **@freq** 
+Get/set initial frequency<br>
+_type:_ float<br>
+_units:_ Hz<br>
+_range:_ 0..1000<br>
+_default:_ 0<br>
+
 * **@pause** 
 Get/set pause oscillator at current value<br>
 _type:_ bool<br>

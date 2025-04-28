@@ -490,6 +490,9 @@
 ### clear_all
 [hoa.map.ui](hoa.map.ui.html)
 
+### clear_line
+[hw.rpi.display.hd44780](hw.rpi.display.hd44780.html)
+
 ### clear_pwm
 [hw.rpi.gpio](hw.rpi.gpio.html)
 
@@ -1086,6 +1089,7 @@
 [hoa.2d.space](hoa.2d.space.html)
 [hoa.map.ui](hoa.map.ui.html)
 [preset.float](preset.float.html)
+[preset.list](preset.list.html)
 [preset.storage](preset.storage.html)
 [preset.symbol](preset.symbol.html)
 [ui.colorpanel](ui.colorpanel.html)
@@ -1221,6 +1225,7 @@
 [preset.symbol](preset.symbol.html)
 [proto.mpv](proto.mpv.html)
 [snd.file](snd.file.html)
+[synth.dx7~](synth.dx7~.html)
 [ui.colorpanel](ui.colorpanel.html)
 [ui.env](ui.env.html)
 [ui.filter](ui.filter.html)
@@ -1797,6 +1802,7 @@
 [midi.file](midi.file.html)
 [preset.storage](preset.storage.html)
 [speech.rhvoice~](speech.rhvoice~.html)
+[synth.dx7~](synth.dx7~.html)
 [synth.glitch~](synth.glitch~.html)
 [ui.faust~](ui.faust~.html)
 [ui.matrix](ui.matrix.html)
@@ -2870,4 +2876,4 @@
 
 **License:** GPL3
 
-**Authors:** Albert Graef, Alex Nadzharov, André Sier, Eliott Paris, Hans-Christoph Steiner, Julian Parker, Katja Vetter, Mayank Sanganeria, Mikhail Malt, Oliver Larkin, Olli Parviainen, Paul Bourke, Pierre Cochard, Pierre Guillot, Richard Dudas, Romain Michon, Serge Poltavsky, Thomas Le Meur, Till Bovermann, Viacheslav Lotsmanov, Yann Orlarey, naivesound, thedrgreenthumb
+**Authors:** Albert Graef, Alex Nadzharov, André Sier, Eliott Paris, Hans-Christoph Steiner, Julian Parker, Katja Vetter, Luca Hilbrich, Lukas Hartmann, Mikhail Malt, Oliver Larkin, Olli Parviainen, Paul Bourke, Pierre Cochard, Pierre Guillot, Richard Dudas, Romain Michon, Serge Poltavsky, Thomas Le Meur, Till Bovermann, Viacheslav Lotsmanov, Yann Orlarey, naivesound, thedrgreenthumb

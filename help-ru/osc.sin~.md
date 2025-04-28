@@ -24,7 +24,7 @@ included for library comprehension
 ## аргументы:
 
 * **FREQ**
-frequency<br>
+See @freq<br>
 _тип:_ float<br>
 _единица:_ Hz<br>
 
@@ -34,10 +34,26 @@ _единица:_ Hz<br>
 
 ## свойства:
 
+* **@osc** (initonly)
+Запросить/установить OSC server name to listen<br>
+_тип:_ symbol<br>
+
+* **@id** (initonly)
+Запросить/установить OSC address id. If specified, bind all properties to /ID/osc_sin/PROP_NAME osc
+address, if empty bind to /osc_sin/PROP_NAME.<br>
+_тип:_ symbol<br>
+
 * **@active** 
 Запросить/установить on/off dsp processing<br>
 _тип:_ bool<br>
 _по умолчанию:_ 1<br>
+
+* **@freq** 
+Запросить/установить frequency<br>
+_тип:_ float<br>
+_единица:_ Hz<br>
+_диапазон:_ 0..22050<br>
+_по умолчанию:_ 0<br>
 
 
 

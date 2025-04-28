@@ -30,6 +30,14 @@ _type:_ int<br>
 
 
 
+## properties:
+
+* **@n** (initonly)
+Get/set number of inputs/outputs<br>
+_type:_ int<br>
+_range:_ 2..16<br>
+_default:_ 2<br>
+
 
 
 ## inlets:

@@ -52,6 +52,13 @@ _тип:_ symbol<br>
 _тип:_ bool<br>
 _по умолчанию:_ 1<br>
 
+* **@freq** 
+Запросить/установить initial frequency<br>
+_тип:_ float<br>
+_единица:_ Hz<br>
+_диапазон:_ 0..1000<br>
+_по умолчанию:_ 0<br>
+
 * **@pause** 
 Запросить/установить pause oscillator at current value<br>
 _тип:_ bool<br>

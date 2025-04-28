@@ -148,22 +148,22 @@ write string into 7-segment display (no led matrix support!)<br>
 
 ## properties:
 
-* **@cs** (initonly)
-Get/set CS (ChipSelect, SlaveSelect or ChipEnable) index<br>
-_type:_ int<br>
-_range:_ 0..3<br>
-_default:_ 0<br>
-
 * **@displays** (initonly)
 Get/set number of displays connected into the chain<br>
 _type:_ int<br>
-_range:_ 1..8<br>
+_range:_ 1..4<br>
 _default:_ 1<br>
 
-* **@spi** (initonly)
-Get/set SPI bus number.<br>
+* **@spi_bus** (initonly)
+Get/set SPI bus number<br>
 _type:_ int<br>
-_range:_ 0..6<br>
+_range:_ -1..6<br>
+_default:_ -1<br>
+
+* **@spi_cs** (initonly)
+Get/set CS (ChipSelect, SlaveSelect or ChipEnable) index<br>
+_type:_ int<br>
+_range:_ 0..3<br>
 _default:_ 0<br>
 
 

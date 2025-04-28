@@ -22,7 +22,7 @@ layout: default_ru
 ## аргументы:
 
 * **FREQ**
-initial frequency<br>
+See @freq<br>
 _тип:_ float<br>
 _единица:_ Hz<br>
 
@@ -54,6 +54,13 @@ _по умолчанию:_ 1<br>
 Запросить/установить oscillator feedback coefficient<br>
 _тип:_ float<br>
 _диапазон:_ 0..6.2832<br>
+_по умолчанию:_ 0<br>
+
+* **@freq** 
+Запросить/установить frequency<br>
+_тип:_ float<br>
+_единица:_ Hz<br>
+_диапазон:_ 0..22050<br>
 _по умолчанию:_ 0<br>
 
 

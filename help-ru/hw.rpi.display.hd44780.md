@@ -42,6 +42,13 @@ write character to the display and move cursor to the next position<br>
 * **clear**
 clear all display data and set cursor position to 0, 0<br>
 
+* **clear_line**
+clear only specified line<br>
+  __параметры:__
+  - **LINE** line index<br>
+    тип: int <br>
+    обязательно: True <br>
+
 * **cursor_blink**
 turn on/off cursor blinking<br>
   __параметры:__

@@ -3,7 +3,7 @@
 
 # hoa.3d.encoder~
 
-###### hoa 3d encoder
+###### 3D encoder of higher order ambisonics
 
 *available since version:* 0.9.7
 

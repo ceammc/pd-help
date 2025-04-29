@@ -10,79 +10,79 @@ layout: default_ru
 работа с пространственным звуком
 
 
-[**hoa.2d.decoder~**](hoa.2d.decoder~.html): hoa 2d decoder <br>
+[**hoa.2d.decoder~**](hoa.2d.decoder~.html): двумерный декодер амбисоников высоких порядков <br>
 _псевдонимы:_ \[hoa.decoder~\]
 
 
-[**hoa.2d.encoder~**](hoa.2d.encoder~.html): hoa 2d encoder <br>
+[**hoa.2d.encoder~**](hoa.2d.encoder~.html): двумерный кодировщик амбисоников высоких порядков <br>
 _псевдонимы:_ \[hoa.encoder~\]
 
 
-[**hoa.2d.exchanger~**](hoa.2d.exchanger~.html): renumbers and normalizes the channels <br>
+[**hoa.2d.exchanger~**](hoa.2d.exchanger~.html): перенумерование и нормализация каналов в двумерных амбисониках <br>
 _псевдонимы:_ \[hoa.exchanger~\]
 
 
-[**hoa.2d.map~**](hoa.2d.map~.html): a 2d ambisonic multisource spatializer <br>
+[**hoa.2d.map~**](hoa.2d.map~.html): многоканальное управление пространственными источниками в двумерных амбисониках <br>
 _псевдонимы:_ \[hoa.map~\]
 
 
-[**hoa.2d.optim~**](hoa.2d.optim~.html): a 2D ambisonic optimization tool <br>
+[**hoa.2d.optim~**](hoa.2d.optim~.html): оптимизация двумерных амбисоников <br>
 _псевдонимы:_ \[hoa.optim~\]
 
 
-[**hoa.2d.projector~**](hoa.2d.projector~.html): a plane waves decomposer from circular harmonics domain <br>
+[**hoa.2d.projector~**](hoa.2d.projector~.html): декомпозиция из сферических гармоник в плоские волны <br>
 _псевдонимы:_ \[hoa.projector~\]
 
 
-[**hoa.2d.recomposer~**](hoa.2d.recomposer~.html): recomposes a 2d plane wave decomposition into circular harmonics <br>
+[**hoa.2d.recomposer~**](hoa.2d.recomposer~.html): декомпозиция плоских двумерных волн в сферические гармоники <br>
 _псевдонимы:_ \[hoa.recomposer~\]
 
 
-[**hoa.2d.rotate~**](hoa.2d.rotate~.html): a 2D ambisonic sound field rotation <br>
+[**hoa.2d.rotate~**](hoa.2d.rotate~.html): вращение двумерного амбисонического звукового поля <br>
 _псевдонимы:_ \[hoa.rotate~\]
 
 
-[**hoa.2d.space**](hoa.2d.space.html): planewaves amp control <br>
+[**hoa.2d.space**](hoa.2d.space.html): контроль амплитуды двумерных плоских волн <br>
 _псевдонимы:_ \[hoa.space\]
 
 
-[**hoa.2d.wider~**](hoa.2d.wider~.html): a 2d fractional ambisonic order simulator <br>
+[**hoa.2d.wider~**](hoa.2d.wider~.html): двумерная симуляция дробного амбисонического порядка <br>
 _псевдонимы:_ \[hoa.wider~\]
 
 
-[**hoa.3d.decoder~**](hoa.3d.decoder~.html): hoa 3d decoder 
+[**hoa.3d.decoder~**](hoa.3d.decoder~.html): трехмерный декодер амбисоников высоких порядков 
 
-[**hoa.3d.encoder~**](hoa.3d.encoder~.html): hoa 3d encoder 
+[**hoa.3d.encoder~**](hoa.3d.encoder~.html): 3D кодировщик амбисоников высоких порядков 
 
-[**hoa.3d.exchanger~**](hoa.3d.exchanger~.html): renumbers and normalizes the channels 
+[**hoa.3d.exchanger~**](hoa.3d.exchanger~.html): перенумерование и нормализация каналов 
 
-[**hoa.3d.map~**](hoa.3d.map~.html): a 3d ambisonic multisource spatializer 
+[**hoa.3d.map~**](hoa.3d.map~.html): многоканальное управление пространственными источниками для трехмерных амбисоников 
 
-[**hoa.3d.meter~**](hoa.3d.meter~.html): multi spherical meter with sound field descriptor 
+[**hoa.3d.meter~**](hoa.3d.meter~.html): трехмерный измеритель уровня звукового поля 
 
-[**hoa.3d.optim~**](hoa.3d.optim~.html): a 3D ambisonic optimization tool 
+[**hoa.3d.optim~**](hoa.3d.optim~.html): оптимизация трехмерных амбисоников высоких порядков 
 
-[**hoa.3d.scope~**](hoa.3d.scope~.html): a 3d ambisonic harmonic scope 
+[**hoa.3d.scope~**](hoa.3d.scope~.html): отображение сферических гармоник в трехмерном амбисоническом поле 
 
-[**hoa.3d.wider~**](hoa.3d.wider~.html): a 3d fractional ambisonic order simulator 
+[**hoa.3d.wider~**](hoa.3d.wider~.html): трехмерная симуляция дробного амбисонического порядка 
 
-[**hoa.@process**](hoa.%40process.html): process properties manager for hoa.process~ 
+[**hoa.@process**](hoa.%40process.html): управление свойствами объекта \[hoa.process~\] 
 
-[**hoa.in**](hoa.in.html): message inlet for a patcher loaded by hoa.process~ 
+[**hoa.in**](hoa.in.html): контрольный вход для патча, загружаемого объектом \[hoa.process~\] 
 
-[**hoa.in~**](hoa.in~.html): signal inlet for a patcher loaded by hoa.process~ 
+[**hoa.in~**](hoa.in~.html): сигнальный вход для патча, загружаемого объектом \[hoa.process~\] 
 
-[**hoa.map.ui**](hoa.map.ui.html): a GUI to spatialize sources on a map 
+[**hoa.map.ui**](hoa.map.ui.html): GUI для пространственного размещения источников 
 
-[**hoa.out**](hoa.out.html): message outlet for a patcher loaded by hoa.process~ 
+[**hoa.out**](hoa.out.html): контрольный выход для патча, загружаемого объектом \[hoa.process~\] 
 
-[**hoa.out~**](hoa.out~.html): signal inlet for a patcher loaded by hoa.process~ 
+[**hoa.out~**](hoa.out~.html): сигнальный выход для патча, загружаемого объектом \[hoa.process~\] 
 
-[**hoa.process~**](hoa.process~.html): patcher loader for multichannel processing <br>
+[**hoa.process~**](hoa.process~.html): загрузчик патчей для многоканальной обработки <br>
 _псевдонимы:_ \[hoa.2d.process~\], \[hoa.3d.process~\]
 
 
-[**hoa.scope~**](hoa.scope~.html): a 2d ambisonic harmonic scope <br>
+[**hoa.scope~**](hoa.scope~.html): отображение сферических гармоник в двумерном амбисоническом поле <br>
 _псевдонимы:_ \[hoa.2d.scope~\]
 
 

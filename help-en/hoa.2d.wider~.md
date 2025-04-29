@@ -5,7 +5,7 @@
 **aliases:** [hoa.wider\~]
 
 
-###### a 2d fractional ambisonic order simulator
+###### a 2D fractional ambisonic order simulator
 
 *available since version:* 0.8
 

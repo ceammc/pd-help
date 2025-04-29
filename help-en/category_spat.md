@@ -6,19 +6,19 @@
 working with sound spatialisation
 
 
-[**hoa.2d.decoder\~**](hoa.2d.decoder~.html): hoa 2d decoder <br>
+[**hoa.2d.decoder\~**](hoa.2d.decoder~.html): 2D decoder of higher order ambisonics <br>
 _aliases:_ \[hoa.decoder\~\]
 
 
-[**hoa.2d.encoder\~**](hoa.2d.encoder~.html): hoa 2d encoder <br>
+[**hoa.2d.encoder\~**](hoa.2d.encoder~.html): 2D decoder of higher order ambisonics <br>
 _aliases:_ \[hoa.encoder\~\]
 
 
-[**hoa.2d.exchanger\~**](hoa.2d.exchanger~.html): renumbers and normalizes the channels <br>
+[**hoa.2d.exchanger\~**](hoa.2d.exchanger~.html): renumbers and normalizes the channels in 2d ambisonics <br>
 _aliases:_ \[hoa.exchanger\~\]
 
 
-[**hoa.2d.map\~**](hoa.2d.map~.html): a 2d ambisonic multisource spatializer <br>
+[**hoa.2d.map\~**](hoa.2d.map~.html): a 2D ambisonic multisource spatializer <br>
 _aliases:_ \[hoa.map\~\]
 
 
@@ -38,21 +38,21 @@ _aliases:_ \[hoa.recomposer\~\]
 _aliases:_ \[hoa.rotate\~\]
 
 
-[**hoa.2d.space**](hoa.2d.space.html): planewaves amp control <br>
+[**hoa.2d.space**](hoa.2d.space.html): 2D planewaves amplitude control <br>
 _aliases:_ \[hoa.space\]
 
 
-[**hoa.2d.wider\~**](hoa.2d.wider~.html): a 2d fractional ambisonic order simulator <br>
+[**hoa.2d.wider\~**](hoa.2d.wider~.html): a 2D fractional ambisonic order simulator <br>
 _aliases:_ \[hoa.wider\~\]
 
 
-[**hoa.3d.decoder\~**](hoa.3d.decoder~.html): hoa 3d decoder 
+[**hoa.3d.decoder\~**](hoa.3d.decoder~.html): 3D decoder of higher order ambisonics 
 
-[**hoa.3d.encoder\~**](hoa.3d.encoder~.html): hoa 3d encoder 
+[**hoa.3d.encoder\~**](hoa.3d.encoder~.html): 3D encoder of higher order ambisonics 
 
 [**hoa.3d.exchanger\~**](hoa.3d.exchanger~.html): renumbers and normalizes the channels 
 
-[**hoa.3d.map\~**](hoa.3d.map~.html): a 3d ambisonic multisource spatializer 
+[**hoa.3d.map\~**](hoa.3d.map~.html): a 3D ambisonic multisource spatializer 
 
 [**hoa.3d.meter\~**](hoa.3d.meter~.html): multi spherical meter with sound field descriptor 
 
@@ -62,11 +62,11 @@ _aliases:_ \[hoa.wider\~\]
 
 [**hoa.3d.wider\~**](hoa.3d.wider~.html): a 3d fractional ambisonic order simulator 
 
-[**hoa.@process**](hoa.%40process.html): process properties manager for hoa.process~ 
+[**hoa.@process**](hoa.%40process.html): properties manager for \[hoa.process~\] object 
 
-[**hoa.in**](hoa.in.html): message inlet for a patcher loaded by hoa.process~ 
+[**hoa.in**](hoa.in.html): message inlet for a patcher loaded by \[hoa.process~\] object 
 
-[**hoa.in\~**](hoa.in~.html): signal inlet for a patcher loaded by hoa.process~ 
+[**hoa.in\~**](hoa.in~.html): signal inlet for a patcher loaded by \[hoa.process~\] object 
 
 [**hoa.map.ui**](hoa.map.ui.html): a GUI to spatialize sources on a map 
 

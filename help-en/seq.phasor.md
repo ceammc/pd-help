@@ -3,7 +3,7 @@
 
 # seq.phasor
 
-###### control rate phasor (saw) generator
+###### control rate phasor generator
 
 *available since version:* 0.9.1
 

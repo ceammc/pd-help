@@ -5,7 +5,7 @@
 **aliases:** [hoa.exchanger\~]
 
 
-###### renumbers and normalizes the channels
+###### renumbers and normalizes the channels in 2d ambisonics
 
 *available since version:* 0.9.7
 
@@ -13,7 +13,7 @@
 
 
 ## information
-The library default normalization is SN3D and the numbering is ACN (cf tutorials). The exchangers will always convert from or to the standard.
+The library default normalization is SN2D and the numbering is ACN (cf tutorials). The exchangers will always convert from or to the standard.
 
 
 [![example](../examples/img/hoa.2d.exchanger~.jpg)](../examples/pd/hoa.2d.exchanger~.pd)

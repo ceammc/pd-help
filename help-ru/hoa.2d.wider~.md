@@ -6,7 +6,7 @@ layout: default_ru
 
 # hoa.2d.wider~
 
-###### a 2d fractional ambisonic order simulator
+###### двумерная симуляция дробного амбисонического порядка
 
 *доступно с версии:* 0.8
 

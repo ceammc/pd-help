@@ -5,7 +5,7 @@
 **aliases:** [hoa.space]
 
 
-###### planewaves amp control
+###### 2D planewaves amplitude control
 
 *available since version:* 0.9.7
 

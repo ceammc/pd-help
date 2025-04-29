@@ -6,7 +6,7 @@ layout: default_ru
 
 # set.size
 
-###### get number of elements in set
+###### выводит количество элементов в множестве
 
 *доступно с версии:* 0.3
 

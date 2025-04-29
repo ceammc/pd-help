@@ -6,7 +6,7 @@ layout: default_ru
 
 # hoa.2d.projector~
 
-###### a plane waves decomposer from circular harmonics domain
+###### декомпозиция из сферических гармоник в плоские волны
 
 *доступно с версии:* 0.8
 

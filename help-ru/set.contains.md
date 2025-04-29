@@ -6,7 +6,7 @@ layout: default_ru
 
 # set.contains
 
-###### check if specified element is in set
+###### проверяет, присутстует ли предварительно заданный элемент во входном множестве
 
 *доступно с версии:* 0.3
 

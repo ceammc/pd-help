@@ -3,7 +3,7 @@
 
 # set.union
 
-###### output union of given sets
+###### union of sets
 
 *available since version:* 0.3
 

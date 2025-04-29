@@ -6,7 +6,7 @@ layout: default_ru
 
 # hoa.2d.rotate~
 
-###### a 2D ambisonic sound field rotation
+###### вращение двумерного амбисонического звукового поля
 
 *доступно с версии:* 0.8
 

@@ -3,7 +3,7 @@
 
 # set.intersect
 
-###### output intersection of given sets
+###### intersection of sets
 
 *available since version:* 0.3
 

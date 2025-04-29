@@ -3,7 +3,7 @@
 
 # hoa.3d.map~
 
-###### a 3d ambisonic multisource spatializer
+###### a 3D ambisonic multisource spatializer
 
 *available since version:* 0.9.7
 

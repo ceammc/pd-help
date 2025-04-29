@@ -78,7 +78,7 @@ _aliases:_ \[fx.secho\~\]
 
 [**fx.tremolo\~**](fx.tremolo~.html): tremolo effect from Guitarix project 
 
-[**fx.vocoder\~**](fx.vocoder~.html): very simple vocoder where the spectrum of the modulation signal is analyzed using a 32-band filter bank 
+[**fx.vocoder\~**](fx.vocoder~.html): simple vocoder where the spectrum of the modulation signal is analyzed using a 32-band filter bank 
 
 [**fx.wahwah\~**](fx.wahwah~.html): digitized CryBaby wah pedal 
 

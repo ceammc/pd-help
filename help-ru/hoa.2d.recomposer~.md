@@ -6,7 +6,7 @@ layout: default_ru
 
 # hoa.2d.recomposer~
 
-###### recomposes a 2d plane wave decomposition into circular harmonics
+###### декомпозиция плоских двумерных волн в сферические гармоники
 
 *доступно с версии:* 0.8
 

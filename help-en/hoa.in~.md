@@ -3,7 +3,7 @@
 
 # hoa.in~
 
-###### signal inlet for a patcher loaded by hoa.process~
+###### signal inlet for a patcher loaded by \[hoa.process~\] object
 
 *available since version:* 0.8
 

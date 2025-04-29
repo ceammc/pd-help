@@ -7,32 +7,32 @@ layout: default_ru
 ## Категория: seq
 
 ---
+секвенсеры: обход данных различными способами
 
 
+[**seq.arp**](seq.arp.html): арпеджиатор аккордов 
 
-[**seq.arp**](seq.arp.html): sequence arpeggiator 
-
-[**seq.bangs**](seq.bangs.html): bang sequencer <br>
+[**seq.bangs**](seq.bangs.html): секвенсер пустых событий <br>
 _псевдонимы:_ \[seq.b\]
 
 
-[**seq.counter**](seq.counter.html): sequencer counter 
+[**seq.counter**](seq.counter.html): циклический счётчик 
 
-[**seq.life**](seq.life.html): Conway game of life sequencer 
+[**seq.life**](seq.life.html): секвенсер для игры Life Джона Конвея 
 
-[**seq.matrix**](seq.matrix.html): sequencer control for ui.matrix 
+[**seq.matrix**](seq.matrix.html): секвенсер для объекта \[ui.matrix\] 
 
-[**seq.nbangs**](seq.nbangs.html): output specified number of bang with time intervals <br>
+[**seq.nbangs**](seq.nbangs.html): выводит заданное число пустых сообщений через интервалы времени <br>
 _псевдонимы:_ \[seq.nb\]
 
 
-[**seq.phasor**](seq.phasor.html): control rate phasor (saw) generator 
+[**seq.phasor**](seq.phasor.html): генератор фазора (пилы) для контрольных сигналов 
 
-[**seq.toggles**](seq.toggles.html): toggle sequencer <br>
+[**seq.toggles**](seq.toggles.html): секвенсор переключающих событий <br>
 _псевдонимы:_ \[seq.t\]
 
 
-[**sequencer**](sequencer.html): basic sequence player <br>
+[**sequencer**](sequencer.html): базовый секвенсер значений <br>
 _псевдонимы:_ \[ceammc/sequencer\], \[ceammc/seq\], \[seq\]
 
 

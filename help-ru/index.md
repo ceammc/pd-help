@@ -385,7 +385,7 @@ layout: default_ru
 
 [**dict.from_list**](dict.from_list.html): создает словарь из списка
 
-[**dict.get**](dict.get.html): выводит значения словаря
+[**dict.get**](dict.get.html): выводит значения словаря по предварительно заданному списку ключей
 
 [**dict.keys**](dict.keys.html): выводит список ключей словаря
 
@@ -407,19 +407,19 @@ layout: default_ru
 
 [**rtree.to_list**](rtree.to_list.html): convert OpenMusic-like rhythm tree to list of fractions
 
-[**set.contains**](set.contains.html): check if specified element is in set
+[**set.contains**](set.contains.html): проверяет, присутстует ли предварительно заданный элемент во входном множестве
 
-[**set.diff**](set.diff.html): difference between two sets
+[**set.diff**](set.diff.html): разность между множествами
 
-[**set.equal**](set.equal.html): checks if two sets are equal (contains same elements)
+[**set.equal**](set.equal.html): проверяет, равны ли два множества (содержат одинаковые элементы)
 
-[**set.intersect**](set.intersect.html): output intersection of given sets
+[**set.intersect**](set.intersect.html): пересечение множеств
 
-[**set.size**](set.size.html): get number of elements in set
+[**set.size**](set.size.html): выводит количество элементов в множестве
 
-[**set.symdiff**](set.symdiff.html): symmetric difference between two sets
+[**set.symdiff**](set.symdiff.html): симметрическая разность между двумя множествами
 
-[**set.union**](set.union.html): output union of given sets
+[**set.union**](set.union.html): объединение множеств
 
 
 ### <a id="cat_dyn" href="category_dyn.html">dyn</a>
@@ -774,7 +774,7 @@ layout: default_ru
 
 [**fx.tremolo~**](fx.tremolo~.html): эффект тремоло от проекта Guitarix
 
-[**fx.vocoder~**](fx.vocoder~.html): very simple vocoder where the spectrum of the modulation signal is analyzed using a 32-band filter bank
+[**fx.vocoder~**](fx.vocoder~.html): простой вокодер, в котором спектр модулирующего сигнала анализируется с помощью 32-диапазонного фильтра
 
 [**fx.wahwah~**](fx.wahwah~.html): педаль CryBaby WahWah
 
@@ -927,7 +927,7 @@ layout: default_ru
 
 [**list.count_if**](list.count_if.html): выводит число элементов, удовлетворяющих внешнему предикату боковой цепи обработки
 
-[**list.delta**](list.delta.html): выводит список разностей между текущим и предыдущим списком
+[**list.delta**](list.delta.html): выводит и сохраняет список разностей между текущим и предыдущим сохраненным списком
 
 [**list.distribution**](list.distribution.html): выводит список распределения значений в списке
 
@@ -947,7 +947,7 @@ layout: default_ru
 
 [**list.insert**](list.insert.html): вставляет элементы в указанную позицию в списке
 
-[**list.integrator**](list.integrator.html): returns the sum of the previously stored list and the current one
+[**list.integrator**](list.integrator.html): выводит и сохраняет список сумм между ранее сохраненным списком и текущим
 
 [**list.last**](list.last.html): выводит последний элемент списка
 
@@ -1033,7 +1033,7 @@ layout: default_ru
 
 [**list.unpack**](list.unpack.html): распаковывает элементы списка в соответствующие им выходы объекта
 
-[**list.unzip**](list.unzip.html): распаковывает входной список на N списков из чередующихся эелементов
+[**list.unzip**](list.unzip.html): распаковывает входной список на N списков из чередующихся элементов
 
 [**list.walk**](list.walk.html): различные алгоритмы обхода элементов в списке
 
@@ -1620,7 +1620,7 @@ layout: default_ru
 
 
 ### <a id="cat_proto" href="category_proto.html">proto</a>
-
+работа с различными протоколами сообщений и форматами данных
 
 ---
 
@@ -1695,28 +1695,28 @@ layout: default_ru
 
 
 ### <a id="cat_seq" href="category_seq.html">seq</a>
-
+секвенсеры: обход данных различными способами
 
 ---
 
 
-[**seq.arp**](seq.arp.html): sequence arpeggiator
+[**seq.arp**](seq.arp.html): арпеджиатор аккордов
 
-[**seq.bangs**](seq.bangs.html): bang sequencer
+[**seq.bangs**](seq.bangs.html): секвенсер пустых событий
 
-[**seq.counter**](seq.counter.html): sequencer counter
+[**seq.counter**](seq.counter.html): циклический счётчик
 
-[**seq.life**](seq.life.html): Conway game of life sequencer
+[**seq.life**](seq.life.html): секвенсер для игры Life Джона Конвея
 
-[**seq.matrix**](seq.matrix.html): sequencer control for ui.matrix
+[**seq.matrix**](seq.matrix.html): секвенсер для объекта \[ui.matrix\]
 
-[**seq.nbangs**](seq.nbangs.html): output specified number of bang with time intervals
+[**seq.nbangs**](seq.nbangs.html): выводит заданное число пустых сообщений через интервалы времени
 
-[**seq.phasor**](seq.phasor.html): control rate phasor (saw) generator
+[**seq.phasor**](seq.phasor.html): генератор фазора (пилы) для контрольных сигналов
 
-[**seq.toggles**](seq.toggles.html): toggle sequencer
+[**seq.toggles**](seq.toggles.html): секвенсор переключающих событий
 
-[**sequencer**](sequencer.html): basic sequence player
+[**sequencer**](sequencer.html): базовый секвенсер значений
 
 
 ### <a id="cat_snd" href="category_snd.html">snd</a>
@@ -1736,57 +1736,57 @@ layout: default_ru
 ---
 
 
-[**hoa.2d.decoder~**](hoa.2d.decoder~.html): hoa 2d decoder
+[**hoa.2d.decoder~**](hoa.2d.decoder~.html): двумерный декодер амбисоников высоких порядков
 
-[**hoa.2d.encoder~**](hoa.2d.encoder~.html): hoa 2d encoder
+[**hoa.2d.encoder~**](hoa.2d.encoder~.html): двумерный кодировщик амбисоников высоких порядков
 
-[**hoa.2d.exchanger~**](hoa.2d.exchanger~.html): renumbers and normalizes the channels
+[**hoa.2d.exchanger~**](hoa.2d.exchanger~.html): перенумерование и нормализация каналов в двумерных амбисониках
 
-[**hoa.2d.map~**](hoa.2d.map~.html): a 2d ambisonic multisource spatializer
+[**hoa.2d.map~**](hoa.2d.map~.html): многоканальное управление пространственными источниками в двумерных амбисониках
 
-[**hoa.2d.optim~**](hoa.2d.optim~.html): a 2D ambisonic optimization tool
+[**hoa.2d.optim~**](hoa.2d.optim~.html): оптимизация двумерных амбисоников
 
-[**hoa.2d.projector~**](hoa.2d.projector~.html): a plane waves decomposer from circular harmonics domain
+[**hoa.2d.projector~**](hoa.2d.projector~.html): декомпозиция из сферических гармоник в плоские волны
 
-[**hoa.2d.recomposer~**](hoa.2d.recomposer~.html): recomposes a 2d plane wave decomposition into circular harmonics
+[**hoa.2d.recomposer~**](hoa.2d.recomposer~.html): декомпозиция плоских двумерных волн в сферические гармоники
 
-[**hoa.2d.rotate~**](hoa.2d.rotate~.html): a 2D ambisonic sound field rotation
+[**hoa.2d.rotate~**](hoa.2d.rotate~.html): вращение двумерного амбисонического звукового поля
 
-[**hoa.2d.space**](hoa.2d.space.html): planewaves amp control
+[**hoa.2d.space**](hoa.2d.space.html): контроль амплитуды двумерных плоских волн
 
-[**hoa.2d.wider~**](hoa.2d.wider~.html): a 2d fractional ambisonic order simulator
+[**hoa.2d.wider~**](hoa.2d.wider~.html): двумерная симуляция дробного амбисонического порядка
 
-[**hoa.3d.decoder~**](hoa.3d.decoder~.html): hoa 3d decoder
+[**hoa.3d.decoder~**](hoa.3d.decoder~.html): трехмерный декодер амбисоников высоких порядков
 
-[**hoa.3d.encoder~**](hoa.3d.encoder~.html): hoa 3d encoder
+[**hoa.3d.encoder~**](hoa.3d.encoder~.html): 3D кодировщик амбисоников высоких порядков
 
-[**hoa.3d.exchanger~**](hoa.3d.exchanger~.html): renumbers and normalizes the channels
+[**hoa.3d.exchanger~**](hoa.3d.exchanger~.html): перенумерование и нормализация каналов
 
-[**hoa.3d.map~**](hoa.3d.map~.html): a 3d ambisonic multisource spatializer
+[**hoa.3d.map~**](hoa.3d.map~.html): многоканальное управление пространственными источниками для трехмерных амбисоников
 
-[**hoa.3d.meter~**](hoa.3d.meter~.html): multi spherical meter with sound field descriptor
+[**hoa.3d.meter~**](hoa.3d.meter~.html): трехмерный измеритель уровня звукового поля
 
-[**hoa.3d.optim~**](hoa.3d.optim~.html): a 3D ambisonic optimization tool
+[**hoa.3d.optim~**](hoa.3d.optim~.html): оптимизация трехмерных амбисоников высоких порядков
 
-[**hoa.3d.scope~**](hoa.3d.scope~.html): a 3d ambisonic harmonic scope
+[**hoa.3d.scope~**](hoa.3d.scope~.html): отображение сферических гармоник в трехмерном амбисоническом поле
 
-[**hoa.3d.wider~**](hoa.3d.wider~.html): a 3d fractional ambisonic order simulator
+[**hoa.3d.wider~**](hoa.3d.wider~.html): трехмерная симуляция дробного амбисонического порядка
 
-[**hoa.@process**](hoa.%40process.html): process properties manager for hoa.process~
+[**hoa.@process**](hoa.%40process.html): управление свойствами объекта \[hoa.process~\]
 
-[**hoa.in**](hoa.in.html): message inlet for a patcher loaded by hoa.process~
+[**hoa.in**](hoa.in.html): контрольный вход для патча, загружаемого объектом \[hoa.process~\]
 
-[**hoa.in~**](hoa.in~.html): signal inlet for a patcher loaded by hoa.process~
+[**hoa.in~**](hoa.in~.html): сигнальный вход для патча, загружаемого объектом \[hoa.process~\]
 
-[**hoa.map.ui**](hoa.map.ui.html): a GUI to spatialize sources on a map
+[**hoa.map.ui**](hoa.map.ui.html): GUI для пространственного размещения источников
 
-[**hoa.out**](hoa.out.html): message outlet for a patcher loaded by hoa.process~
+[**hoa.out**](hoa.out.html): контрольный выход для патча, загружаемого объектом \[hoa.process~\]
 
-[**hoa.out~**](hoa.out~.html): signal inlet for a patcher loaded by hoa.process~
+[**hoa.out~**](hoa.out~.html): сигнальный выход для патча, загружаемого объектом \[hoa.process~\]
 
-[**hoa.process~**](hoa.process~.html): patcher loader for multichannel processing
+[**hoa.process~**](hoa.process~.html): загрузчик патчей для многоканальной обработки
 
-[**hoa.scope~**](hoa.scope~.html): a 2d ambisonic harmonic scope
+[**hoa.scope~**](hoa.scope~.html): отображение сферических гармоник в двумерном амбисоническом поле
 
 [**pan.cos~**](pan.cos~.html): двухканальное косинусное панорамирование равной мощности
 

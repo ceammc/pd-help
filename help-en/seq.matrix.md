@@ -3,7 +3,7 @@
 
 # seq.matrix
 
-###### sequencer control for ui.matrix
+###### sequencer control for \[ui.matrix\] object
 
 *available since version:* 0.9.1
 

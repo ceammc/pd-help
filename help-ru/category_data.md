@@ -60,7 +60,7 @@ _псевдонимы:_ \[ceammc/set-&gt;list\], \[set-&gt;list\]
 _псевдонимы:_ \[ceammc/list-&gt;dict\], \[list-&gt;dict\]
 
 
-[**dict.get**](dict.get.html): выводит значения словаря 
+[**dict.get**](dict.get.html): выводит значения словаря по предварительно заданному списку ключей 
 
 [**dict.keys**](dict.keys.html): выводит список ключей словаря 
 
@@ -86,19 +86,19 @@ _псевдонимы:_ \[ceammc/dict-&gt;list\], \[dict-&gt;list\]
 _псевдонимы:_ \[ceammc/rtree-&gt;list\], \[rtree-&gt;list\]
 
 
-[**set.contains**](set.contains.html): check if specified element is in set 
+[**set.contains**](set.contains.html): проверяет, присутстует ли предварительно заданный элемент во входном множестве 
 
-[**set.diff**](set.diff.html): difference between two sets 
+[**set.diff**](set.diff.html): разность между множествами 
 
-[**set.equal**](set.equal.html): checks if two sets are equal (contains same elements) 
+[**set.equal**](set.equal.html): проверяет, равны ли два множества (содержат одинаковые элементы) 
 
-[**set.intersect**](set.intersect.html): output intersection of given sets 
+[**set.intersect**](set.intersect.html): пересечение множеств 
 
-[**set.size**](set.size.html): get number of elements in set 
+[**set.size**](set.size.html): выводит количество элементов в множестве 
 
-[**set.symdiff**](set.symdiff.html): symmetric difference between two sets 
+[**set.symdiff**](set.symdiff.html): симметрическая разность между двумя множествами 
 
-[**set.union**](set.union.html): output union of given sets 
+[**set.union**](set.union.html): объединение множеств 
 
 
 **Версия:** 0.9.8

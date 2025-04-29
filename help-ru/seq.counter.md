@@ -6,7 +6,7 @@ layout: default_ru
 
 # seq.counter
 
-###### sequencer counter
+###### циклический счётчик
 
 *доступно с версии:* 0.9.1
 

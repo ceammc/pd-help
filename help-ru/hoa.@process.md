@@ -6,7 +6,7 @@ layout: default_ru
 
 # hoa.@process
 
-###### process properties manager for hoa.process~
+###### управление свойствами объекта \[hoa.process~\]
 
 *доступно с версии:* 0.8
 

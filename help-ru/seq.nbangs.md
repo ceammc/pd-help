@@ -6,7 +6,7 @@ layout: default_ru
 
 # seq.nbangs
 
-###### output specified number of bang with time intervals
+###### выводит заданное число пустых сообщений через интервалы времени
 
 *доступно с версии:* 0.9.1
 

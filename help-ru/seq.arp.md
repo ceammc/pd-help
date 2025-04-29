@@ -6,7 +6,7 @@ layout: default_ru
 
 # seq.arp
 
-###### sequence arpeggiator
+###### арпеджиатор аккордов
 
 *доступно с версии:* 0.9.1
 

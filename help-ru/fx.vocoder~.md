@@ -6,7 +6,7 @@ layout: default_ru
 
 # fx.vocoder~
 
-###### very simple vocoder where the spectrum of the modulation signal is analyzed using a 32-band filter bank
+###### простой вокодер, в котором спектр модулирующего сигнала анализируется с помощью 32-диапазонного фильтра
 
 *доступно с версии:* 0.7
 

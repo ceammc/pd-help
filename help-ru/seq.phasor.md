@@ -6,7 +6,7 @@ layout: default_ru
 
 # seq.phasor
 
-###### control rate phasor (saw) generator
+###### генератор фазора (пилы) для контрольных сигналов
 
 *доступно с версии:* 0.9.1
 

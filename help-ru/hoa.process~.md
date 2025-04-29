@@ -6,7 +6,7 @@ layout: default_ru
 
 # hoa.process~
 
-###### patcher loader for multichannel processing
+###### загрузчик патчей для многоканальной обработки
 
 *доступно с версии:* 0.8
 

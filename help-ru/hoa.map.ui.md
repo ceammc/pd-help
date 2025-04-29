@@ -6,7 +6,7 @@ layout: default_ru
 
 # hoa.map.ui
 
-###### a GUI to spatialize sources on a map
+###### GUI для пространственного размещения источников
 
 *доступно с версии:* 0.9.7
 

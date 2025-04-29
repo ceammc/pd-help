@@ -6,7 +6,7 @@ layout: default_ru
 
 # set.intersect
 
-###### output intersection of given sets
+###### пересечение множеств
 
 *доступно с версии:* 0.3
 

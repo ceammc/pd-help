@@ -6,7 +6,7 @@ layout: default_ru
 
 # hoa.3d.exchanger~
 
-###### renumbers and normalizes the channels
+###### перенумерование и нормализация каналов
 
 *доступно с версии:* 0.9.7
 

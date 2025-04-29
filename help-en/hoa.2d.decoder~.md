@@ -5,7 +5,7 @@
 **aliases:** [hoa.decoder\~]
 
 
-###### hoa 2d decoder
+###### 2D decoder of higher order ambisonics
 
 *available since version:* 0.8
 

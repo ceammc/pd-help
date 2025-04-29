@@ -6,7 +6,7 @@ layout: default_ru
 
 # seq.bangs
 
-###### bang sequencer
+###### секвенсер пустых событий
 
 *доступно с версии:* 0.9.1
 

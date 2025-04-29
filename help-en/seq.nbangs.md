@@ -5,7 +5,7 @@
 **aliases:** [seq.nb]
 
 
-###### output specified number of bang with time intervals
+###### outputs the specified number of bangs with a time intervals
 
 *available since version:* 0.9.1
 

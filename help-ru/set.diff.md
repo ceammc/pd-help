@@ -6,7 +6,7 @@ layout: default_ru
 
 # set.diff
 
-###### difference between two sets
+###### разность между множествами
 
 *доступно с версии:* 0.3
 

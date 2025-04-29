@@ -6,7 +6,7 @@ layout: default_ru
 
 # set.equal
 
-###### checks if two sets are equal (contains same elements)
+###### проверяет, равны ли два множества (содержат одинаковые элементы)
 
 *доступно с версии:* 0.3
 

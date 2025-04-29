@@ -3,7 +3,7 @@
 
 # Category: proto
 
-
+working with various data protocols and data formats
 
 
 [**proto.arturia.minilab**](proto.arturia.minilab.html): simple SysEx control for Arturia MiniLab 

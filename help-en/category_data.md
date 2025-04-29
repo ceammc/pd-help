@@ -56,7 +56,7 @@ _aliases:_ \[ceammc/set-&gt;list\], \[set-&gt;list\]
 _aliases:_ \[ceammc/list-&gt;dict\], \[list-&gt;dict\]
 
 
-[**dict.get**](dict.get.html): output the dictionary values 
+[**dict.get**](dict.get.html): output the dictionary values by pre-defined key list 
 
 [**dict.keys**](dict.keys.html): output the list of dictionary keys 
 
@@ -82,19 +82,19 @@ _aliases:_ \[ceammc/dict-&gt;list\], \[dict-&gt;list\]
 _aliases:_ \[ceammc/rtree-&gt;list\], \[rtree-&gt;list\]
 
 
-[**set.contains**](set.contains.html): check if specified element is in set 
+[**set.contains**](set.contains.html): checks whether the predefined element is present in the input set 
 
 [**set.diff**](set.diff.html): difference between two sets 
 
 [**set.equal**](set.equal.html): checks if two sets are equal (contains same elements) 
 
-[**set.intersect**](set.intersect.html): output intersection of given sets 
+[**set.intersect**](set.intersect.html): intersection of sets 
 
-[**set.size**](set.size.html): get number of elements in set 
+[**set.size**](set.size.html): outputs the number of elements in a set 
 
 [**set.symdiff**](set.symdiff.html): symmetric difference between two sets 
 
-[**set.union**](set.union.html): output union of given sets 
+[**set.union**](set.union.html): union of sets 
 
 
 **Version:** 0.9.8

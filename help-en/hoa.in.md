@@ -3,7 +3,7 @@
 
 # hoa.in
 
-###### message inlet for a patcher loaded by hoa.process~
+###### message inlet for a patcher loaded by \[hoa.process~\] object
 
 *available since version:* 0.8
 

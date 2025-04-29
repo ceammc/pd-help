@@ -6,7 +6,7 @@ layout: default_ru
 
 # sequencer
 
-###### basic sequence player
+###### базовый секвенсер значений
 
 *доступно с версии:* 0.9.1
 

@@ -36,7 +36,7 @@ _aliases:_ \[list.conv\]
 
 [**list.count_if**](list.count_if.html): output the number of items that satisfy to an side-chain predicate 
 
-[**list.delta**](list.delta.html): output the list of differences between the current list and the previous one 
+[**list.delta**](list.delta.html): outputs and saves the list of differences between the current and the previously saved list 
 
 [**list.distribution**](list.distribution.html): output list value distribution 
 
@@ -58,7 +58,7 @@ _aliases:_ \[list.hist\]
 
 [**list.insert**](list.insert.html): insert elements into the specified list position 
 
-[**list.integrator**](list.integrator.html): returns the sum of the previously stored list and the current one 
+[**list.integrator**](list.integrator.html): outputs and stores the list of sums between the previously stored list and the current one 
 
 [**list.last**](list.last.html): output the last list element 
 

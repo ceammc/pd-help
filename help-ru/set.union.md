@@ -6,7 +6,7 @@ layout: default_ru
 
 # set.union
 
-###### output union of given sets
+###### объединение множеств
 
 *доступно с версии:* 0.3
 

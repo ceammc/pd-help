@@ -3,7 +3,7 @@
 
 # list.delta
 
-###### output the list of differences between the current list and the previous one
+###### outputs and saves the list of differences between the current and the previously saved list
 
 *available since version:* 0.1
 

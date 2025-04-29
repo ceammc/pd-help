@@ -382,7 +382,7 @@ working with various datatypes
 
 [**dict.from_list**](dict.from_list.html): creates dictionary from the list 
 
-[**dict.get**](dict.get.html): output the dictionary values 
+[**dict.get**](dict.get.html): output the dictionary values by pre-defined key list 
 
 [**dict.keys**](dict.keys.html): output the list of dictionary keys 
 
@@ -404,19 +404,19 @@ working with various datatypes
 
 [**rtree.to_list**](rtree.to_list.html): convert OpenMusic-like rhythm tree to list of fractions 
 
-[**set.contains**](set.contains.html): check if specified element is in set 
+[**set.contains**](set.contains.html): checks whether the predefined element is present in the input set 
 
 [**set.diff**](set.diff.html): difference between two sets 
 
 [**set.equal**](set.equal.html): checks if two sets are equal (contains same elements) 
 
-[**set.intersect**](set.intersect.html): output intersection of given sets 
+[**set.intersect**](set.intersect.html): intersection of sets 
 
-[**set.size**](set.size.html): get number of elements in set 
+[**set.size**](set.size.html): outputs the number of elements in a set 
 
 [**set.symdiff**](set.symdiff.html): symmetric difference between two sets 
 
-[**set.union**](set.union.html): output union of given sets 
+[**set.union**](set.union.html): union of sets 
 
 
 ### <a id="cat_dyn" href="category_dyn.html">dyn</a>
@@ -771,7 +771,7 @@ various sound effects
 
 [**fx.tremolo\~**](fx.tremolo~.html): tremolo effect from Guitarix project 
 
-[**fx.vocoder\~**](fx.vocoder~.html): very simple vocoder where the spectrum of the modulation signal is analyzed using a 32-band filter bank 
+[**fx.vocoder\~**](fx.vocoder~.html): simple vocoder where the spectrum of the modulation signal is analyzed using a 32-band filter bank 
 
 [**fx.wahwah\~**](fx.wahwah~.html): digitized CryBaby wah pedal 
 
@@ -924,7 +924,7 @@ list processing
 
 [**list.count_if**](list.count_if.html): output the number of items that satisfy to an side-chain predicate 
 
-[**list.delta**](list.delta.html): output the list of differences between the current list and the previous one 
+[**list.delta**](list.delta.html): outputs and saves the list of differences between the current and the previously saved list 
 
 [**list.distribution**](list.distribution.html): output list value distribution 
 
@@ -944,7 +944,7 @@ list processing
 
 [**list.insert**](list.insert.html): insert elements into the specified list position 
 
-[**list.integrator**](list.integrator.html): returns the sum of the previously stored list and the current one 
+[**list.integrator**](list.integrator.html): outputs and stores the list of sums between the previously stored list and the current one 
 
 [**list.last**](list.last.html): output the last list element 
 
@@ -1617,7 +1617,7 @@ working with object or patch properties
 
 
 ### <a id="cat_proto" href="category_proto.html">proto</a>
-
+working with various data protocols and data formats
 
 ---
 
@@ -1692,24 +1692,24 @@ random number generation
 
 
 ### <a id="cat_seq" href="category_seq.html">seq</a>
-
+sequencers: traversing the data in a various ways
 
 ---
 
 
-[**seq.arp**](seq.arp.html): sequence arpeggiator 
+[**seq.arp**](seq.arp.html): chord arpeggiator 
 
-[**seq.bangs**](seq.bangs.html): bang sequencer 
+[**seq.bangs**](seq.bangs.html): bang event sequencer 
 
-[**seq.counter**](seq.counter.html): sequencer counter 
+[**seq.counter**](seq.counter.html): cyclic counter 
 
 [**seq.life**](seq.life.html): Conway game of life sequencer 
 
-[**seq.matrix**](seq.matrix.html): sequencer control for ui.matrix 
+[**seq.matrix**](seq.matrix.html): sequencer control for \[ui.matrix\] object 
 
-[**seq.nbangs**](seq.nbangs.html): output specified number of bang with time intervals 
+[**seq.nbangs**](seq.nbangs.html): outputs the specified number of bangs with a time intervals 
 
-[**seq.phasor**](seq.phasor.html): control rate phasor (saw) generator 
+[**seq.phasor**](seq.phasor.html): control rate phasor generator 
 
 [**seq.toggles**](seq.toggles.html): toggle sequencer 
 
@@ -1733,13 +1733,13 @@ working with sound spatialisation
 ---
 
 
-[**hoa.2d.decoder\~**](hoa.2d.decoder~.html): hoa 2d decoder 
+[**hoa.2d.decoder\~**](hoa.2d.decoder~.html): 2D decoder of higher order ambisonics 
 
-[**hoa.2d.encoder\~**](hoa.2d.encoder~.html): hoa 2d encoder 
+[**hoa.2d.encoder\~**](hoa.2d.encoder~.html): 2D decoder of higher order ambisonics 
 
-[**hoa.2d.exchanger\~**](hoa.2d.exchanger~.html): renumbers and normalizes the channels 
+[**hoa.2d.exchanger\~**](hoa.2d.exchanger~.html): renumbers and normalizes the channels in 2d ambisonics 
 
-[**hoa.2d.map\~**](hoa.2d.map~.html): a 2d ambisonic multisource spatializer 
+[**hoa.2d.map\~**](hoa.2d.map~.html): a 2D ambisonic multisource spatializer 
 
 [**hoa.2d.optim\~**](hoa.2d.optim~.html): a 2D ambisonic optimization tool 
 
@@ -1749,17 +1749,17 @@ working with sound spatialisation
 
 [**hoa.2d.rotate\~**](hoa.2d.rotate~.html): a 2D ambisonic sound field rotation 
 
-[**hoa.2d.space**](hoa.2d.space.html): planewaves amp control 
+[**hoa.2d.space**](hoa.2d.space.html): 2D planewaves amplitude control 
 
-[**hoa.2d.wider\~**](hoa.2d.wider~.html): a 2d fractional ambisonic order simulator 
+[**hoa.2d.wider\~**](hoa.2d.wider~.html): a 2D fractional ambisonic order simulator 
 
-[**hoa.3d.decoder\~**](hoa.3d.decoder~.html): hoa 3d decoder 
+[**hoa.3d.decoder\~**](hoa.3d.decoder~.html): 3D decoder of higher order ambisonics 
 
-[**hoa.3d.encoder\~**](hoa.3d.encoder~.html): hoa 3d encoder 
+[**hoa.3d.encoder\~**](hoa.3d.encoder~.html): 3D encoder of higher order ambisonics 
 
 [**hoa.3d.exchanger\~**](hoa.3d.exchanger~.html): renumbers and normalizes the channels 
 
-[**hoa.3d.map\~**](hoa.3d.map~.html): a 3d ambisonic multisource spatializer 
+[**hoa.3d.map\~**](hoa.3d.map~.html): a 3D ambisonic multisource spatializer 
 
 [**hoa.3d.meter\~**](hoa.3d.meter~.html): multi spherical meter with sound field descriptor 
 
@@ -1769,11 +1769,11 @@ working with sound spatialisation
 
 [**hoa.3d.wider\~**](hoa.3d.wider~.html): a 3d fractional ambisonic order simulator 
 
-[**hoa.@process**](hoa.%40process.html): process properties manager for hoa.process~ 
+[**hoa.@process**](hoa.%40process.html): properties manager for \[hoa.process~\] object 
 
-[**hoa.in**](hoa.in.html): message inlet for a patcher loaded by hoa.process~ 
+[**hoa.in**](hoa.in.html): message inlet for a patcher loaded by \[hoa.process~\] object 
 
-[**hoa.in\~**](hoa.in~.html): signal inlet for a patcher loaded by hoa.process~ 
+[**hoa.in\~**](hoa.in~.html): signal inlet for a patcher loaded by \[hoa.process~\] object 
 
 [**hoa.map.ui**](hoa.map.ui.html): a GUI to spatialize sources on a map 
 

@@ -40,7 +40,7 @@ _псевдонимы:_ \[list.conv\]
 
 [**list.count_if**](list.count_if.html): выводит число элементов, удовлетворяющих внешнему предикату боковой цепи обработки 
 
-[**list.delta**](list.delta.html): выводит список разностей между текущим и предыдущим списком 
+[**list.delta**](list.delta.html): выводит и сохраняет список разностей между текущим и предыдущим сохраненным списком 
 
 [**list.distribution**](list.distribution.html): выводит список распределения значений в списке 
 
@@ -62,7 +62,7 @@ _псевдонимы:_ \[list.hist\]
 
 [**list.insert**](list.insert.html): вставляет элементы в указанную позицию в списке 
 
-[**list.integrator**](list.integrator.html): returns the sum of the previously stored list and the current one 
+[**list.integrator**](list.integrator.html): выводит и сохраняет список сумм между ранее сохраненным списком и текущим 
 
 [**list.last**](list.last.html): выводит последний элемент списка 
 
@@ -168,7 +168,7 @@ _псевдонимы:_ \[list.sep\]
 
 [**list.unpack**](list.unpack.html): распаковывает элементы списка в соответствующие им выходы объекта 
 
-[**list.unzip**](list.unzip.html): распаковывает входной список на N списков из чередующихся эелементов <br>
+[**list.unzip**](list.unzip.html): распаковывает входной список на N списков из чередующихся элементов <br>
 _псевдонимы:_ \[list.deinterleave\]
 
 

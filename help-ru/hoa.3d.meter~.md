@@ -6,7 +6,7 @@ layout: default_ru
 
 # hoa.3d.meter~
 
-###### multi spherical meter with sound field descriptor
+###### трехмерный измеритель уровня звукового поля
 
 *доступно с версии:* 0.9.7
 

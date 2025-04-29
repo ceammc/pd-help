@@ -3,7 +3,7 @@
 
 # seq.arp
 
-###### sequence arpeggiator
+###### chord arpeggiator
 
 *available since version:* 0.9.1
 

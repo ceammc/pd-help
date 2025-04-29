@@ -6,7 +6,7 @@ layout: default_ru
 
 # hoa.2d.optim~
 
-###### a 2D ambisonic optimization tool
+###### оптимизация двумерных амбисоников
 
 *доступно с версии:* 0.8
 

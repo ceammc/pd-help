@@ -6,7 +6,7 @@ layout: default_ru
 
 # set.symdiff
 
-###### symmetric difference between two sets
+###### симметрическая разность между двумя множествами
 
 *доступно с версии:* 0.3
 

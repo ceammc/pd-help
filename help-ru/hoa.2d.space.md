@@ -6,7 +6,7 @@ layout: default_ru
 
 # hoa.2d.space
 
-###### planewaves amp control
+###### контроль амплитуды двумерных плоских волн
 
 *доступно с версии:* 0.9.7
 

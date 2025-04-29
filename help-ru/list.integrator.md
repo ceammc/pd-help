@@ -6,7 +6,7 @@ layout: default_ru
 
 # list.integrator
 
-###### returns the sum of the previously stored list and the current one
+###### выводит и сохраняет список сумм между ранее сохраненным списком и текущим
 
 *доступно с версии:* 0.1
 

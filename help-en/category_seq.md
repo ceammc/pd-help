@@ -3,26 +3,26 @@
 
 # Category: seq
 
+sequencers: traversing the data in a various ways
 
 
+[**seq.arp**](seq.arp.html): chord arpeggiator 
 
-[**seq.arp**](seq.arp.html): sequence arpeggiator 
-
-[**seq.bangs**](seq.bangs.html): bang sequencer <br>
+[**seq.bangs**](seq.bangs.html): bang event sequencer <br>
 _aliases:_ \[seq.b\]
 
 
-[**seq.counter**](seq.counter.html): sequencer counter 
+[**seq.counter**](seq.counter.html): cyclic counter 
 
 [**seq.life**](seq.life.html): Conway game of life sequencer 
 
-[**seq.matrix**](seq.matrix.html): sequencer control for ui.matrix 
+[**seq.matrix**](seq.matrix.html): sequencer control for \[ui.matrix\] object 
 
-[**seq.nbangs**](seq.nbangs.html): output specified number of bang with time intervals <br>
+[**seq.nbangs**](seq.nbangs.html): outputs the specified number of bangs with a time intervals <br>
 _aliases:_ \[seq.nb\]
 
 
-[**seq.phasor**](seq.phasor.html): control rate phasor (saw) generator 
+[**seq.phasor**](seq.phasor.html): control rate phasor generator 
 
 [**seq.toggles**](seq.toggles.html): toggle sequencer <br>
 _aliases:_ \[seq.t\]

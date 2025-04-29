@@ -7,7 +7,7 @@ layout: default_ru
 ## Категория: proto
 
 ---
-
+работа с различными протоколами сообщений и форматами данных
 
 
 [**proto.arturia.minilab**](proto.arturia.minilab.html): simple SysEx control for Arturia MiniLab 

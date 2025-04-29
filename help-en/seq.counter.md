@@ -3,7 +3,7 @@
 
 # seq.counter
 
-###### sequencer counter
+###### cyclic counter
 
 *available since version:* 0.9.1
 

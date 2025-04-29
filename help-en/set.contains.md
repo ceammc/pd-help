@@ -3,7 +3,7 @@
 
 # set.contains
 
-###### check if specified element is in set
+###### checks whether the predefined element is present in the input set
 
 *available since version:* 0.3
 

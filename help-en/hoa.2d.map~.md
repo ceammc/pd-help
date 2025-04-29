@@ -5,7 +5,7 @@
 **aliases:** [hoa.map\~]
 
 
-###### a 2d ambisonic multisource spatializer
+###### a 2D ambisonic multisource spatializer
 
 *available since version:* 0.8
 

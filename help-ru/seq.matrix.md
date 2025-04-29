@@ -6,7 +6,7 @@ layout: default_ru
 
 # seq.matrix
 
-###### sequencer control for ui.matrix
+###### секвенсер для объекта \[ui.matrix\]
 
 *доступно с версии:* 0.9.1
 

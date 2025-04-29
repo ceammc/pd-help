@@ -6,7 +6,7 @@ layout: default_ru
 
 # seq.life
 
-###### Conway game of life sequencer
+###### секвенсер для игры Life Джона Конвея
 
 *доступно с версии:* 0.9.2
 

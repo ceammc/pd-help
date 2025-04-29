@@ -6,7 +6,7 @@ layout: default_ru
 
 # hoa.3d.optim~
 
-###### a 3D ambisonic optimization tool
+###### оптимизация трехмерных амбисоников высоких порядков
 
 *доступно с версии:* 0.9.7
 

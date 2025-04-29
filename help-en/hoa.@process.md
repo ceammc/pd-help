@@ -3,7 +3,7 @@
 
 # hoa.@process
 
-###### process properties manager for hoa.process~
+###### properties manager for \[hoa.process~\] object
 
 *available since version:* 0.8
 

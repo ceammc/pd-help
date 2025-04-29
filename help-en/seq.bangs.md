@@ -5,7 +5,7 @@
 **aliases:** [seq.b]
 
 
-###### bang sequencer
+###### bang event sequencer
 
 *available since version:* 0.9.1
 

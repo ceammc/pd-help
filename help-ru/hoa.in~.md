@@ -6,7 +6,7 @@ layout: default_ru
 
 # hoa.in~
 
-###### signal inlet for a patcher loaded by hoa.process~
+###### сигнальный вход для патча, загружаемого объектом \[hoa.process~\]
 
 *доступно с версии:* 0.8
 

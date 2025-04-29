@@ -82,7 +82,7 @@ _псевдонимы:_ \[fx.secho~\]
 
 [**fx.tremolo~**](fx.tremolo~.html): эффект тремоло от проекта Guitarix 
 
-[**fx.vocoder~**](fx.vocoder~.html): very simple vocoder where the spectrum of the modulation signal is analyzed using a 32-band filter bank 
+[**fx.vocoder~**](fx.vocoder~.html): простой вокодер, в котором спектр модулирующего сигнала анализируется с помощью 32-диапазонного фильтра 
 
 [**fx.wahwah~**](fx.wahwah~.html): педаль CryBaby WahWah 
 

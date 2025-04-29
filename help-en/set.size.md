@@ -3,7 +3,7 @@
 
 # set.size
 
-###### get number of elements in set
+###### outputs the number of elements in a set
 
 *available since version:* 0.3
 

@@ -65,7 +65,7 @@ _тип:_ control
 
 **Смотрите также:**
 [\[hw.apple_sms\]](hw.apple_sms.html)
-[\[hw.cpu_temp\]](hw.cpu_temp.html)
+[\[system.info\]](system.info.html)
 
 
 

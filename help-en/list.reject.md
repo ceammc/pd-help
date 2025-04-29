@@ -58,9 +58,6 @@ _type:_ control
 
 
 
-**See also:**
-[\[list.reject_if\]](list.reject_if.html)
-
 
 
 

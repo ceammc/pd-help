@@ -61,9 +61,6 @@ _тип:_ control
 
 
 
-**Смотрите также:**
-[\[list.reject_if\]](list.reject_if.html)
-
 
 
 

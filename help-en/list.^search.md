@@ -3,7 +3,7 @@
 
 # list.^search
 
-###### on input atom returns it index in list
+###### outputs the indices of the found input elements in a predefined list
 
 *available since version:* 0.6
 

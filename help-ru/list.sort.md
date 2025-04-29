@@ -6,7 +6,7 @@ layout: default_ru
 
 # list.sort
 
-###### sorts list values by ascending order
+###### сортирует список в порядке возрастания
 
 *доступно с версии:* 0.1
 

@@ -5,7 +5,6 @@
 
 ### Объекты:
 * [is_symbol](../is_symbol.html)
-* [preset.list](../preset.list.html)
 * [preset.symbol](../preset.symbol.html)
 * [route.symbol](../route.symbol.html)
 * [string2symbol](../string2symbol.html)

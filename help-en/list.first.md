@@ -3,7 +3,7 @@
 
 # list.first
 
-###### returns first list element
+###### output the first list element
 
 *available since version:* 0.1
 

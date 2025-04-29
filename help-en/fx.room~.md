@@ -3,7 +3,7 @@
 
 # fx.room~
 
-###### Gardners room emulation algorithms
+###### Gardners room emulation algorithm
 
 *available since version:* 0.9.4
 

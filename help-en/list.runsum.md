@@ -3,7 +3,7 @@
 
 # list.runsum
 
-###### running sum
+###### outputs the list of positional sums which is updated upon each incoming list
 
 *available since version:* 0.9.4
 

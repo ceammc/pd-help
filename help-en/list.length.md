@@ -5,7 +5,7 @@
 **aliases:** [list.size]
 
 
-###### output the number of atoms in the list
+###### output the number of elements in the list
 
 *available since version:* 0.1
 

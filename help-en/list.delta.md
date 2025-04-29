@@ -3,7 +3,7 @@
 
 # list.delta
 
-###### returns the difference between the current list of floats and the previous one.
+###### output the list of differences between the current list and the previous one
 
 *available since version:* 0.1
 

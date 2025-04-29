@@ -6,7 +6,7 @@ layout: default_ru
 
 # list.correlate
 
-###### list cross-correlation
+###### взаимная корреляция между списками
 
 *доступно с версии:* 0.9.4
 

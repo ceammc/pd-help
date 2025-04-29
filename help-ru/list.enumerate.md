@@ -6,7 +6,7 @@ layout: default_ru
 
 # list.enumerate
 
-###### enumerates input list
+###### нумерует элементы списка
 
 *доступно с версии:* 0.3
 

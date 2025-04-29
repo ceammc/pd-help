@@ -6,7 +6,7 @@ layout: default_ru
 
 # list.set
 
-###### set list value at specified position
+###### устанавливает значение элемента списка в указанной позиции
 
 *доступно с версии:* 0.6
 

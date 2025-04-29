@@ -6,7 +6,7 @@ layout: default_ru
 
 # list.separate
 
-###### sends list elements one by one separately
+###### поочередно выводит каждый элемент списка в виде отдельного сообщения
 
 *доступно с версии:* 0.3
 

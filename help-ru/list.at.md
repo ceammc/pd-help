@@ -6,7 +6,7 @@ layout: default_ru
 
 # list.at
 
-###### outputs list element(s) at specified index(es)
+###### выводит предварительно указанные элементы входящего списка
 
 *доступно с версии:* 0.1
 

@@ -3,7 +3,7 @@
 
 # fx.zita_rev1~
 
-###### Zita stereo reverb
+###### zita stereo reverb
 
 *available since version:* 0.2
 

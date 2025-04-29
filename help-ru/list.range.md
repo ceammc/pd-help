@@ -6,7 +6,7 @@ layout: default_ru
 
 # list.range
 
-###### output list smallest and largest value
+###### выводит минимальный и максимальный элемент в списке
 
 *доступно с версии:* 0.1
 

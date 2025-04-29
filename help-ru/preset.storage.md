@@ -6,7 +6,7 @@ layout: default_ru
 
 # preset.storage
 
-###### preset storage control
+###### управление пресетами
 
 *доступно с версии:* 0.4
 

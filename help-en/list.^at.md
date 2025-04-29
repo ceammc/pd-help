@@ -3,7 +3,7 @@
 
 # list.^at
 
-###### on input index(es) outputs list element(s)
+###### outputs elements from a predefined list based on an input list of indices
 
 *available since version:* 0.6
 

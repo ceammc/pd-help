@@ -706,79 +706,79 @@ layout: default_ru
 ---
 
 
-[**fx.bitdown~**](fx.bitdown~.html): a bit downer and downsampler effect
+[**fx.bitdown~**](fx.bitdown~.html): понижение разрядности входного сигнала и эффект даунсемплинга
 
-[**fx.chorus~**](fx.chorus~.html): Chorus effect
+[**fx.chorus~**](fx.chorus~.html): хорус-эффект
 
-[**fx.dattorro~**](fx.dattorro~.html): dattorro reverb
+[**fx.dattorro~**](fx.dattorro~.html): реверберация Dattorro
 
-[**fx.delay~**](fx.delay~.html): smooth delay with a feedback control
+[**fx.delay~**](fx.delay~.html): плавный дилей с контролем обратной связи
 
-[**fx.distortion1~**](fx.distortion1~.html): distortion #1 from Guitarix effects set
+[**fx.distortion1~**](fx.distortion1~.html): дисторшн №1 из набора эффектов Guitarix
 
-[**fx.distortion2~**](fx.distortion2~.html): distortion #2 from Guitarix effects set
+[**fx.distortion2~**](fx.distortion2~.html): дисторшн №2 из набора эффектов Guitarix
 
-[**fx.distortion3~**](fx.distortion3~.html): simple distortion #3 from Guitarix effects set
+[**fx.distortion3~**](fx.distortion3~.html): простой дисторшн №3 из набора эффектов Guitarix
 
-[**fx.distortion~**](fx.distortion~.html): cubic nonlinearity distortion
+[**fx.distortion~**](fx.distortion~.html): кубический нелинейный дисторшн
 
-[**fx.drive~**](fx.drive~.html): Guitarix drive effect
+[**fx.drive~**](fx.drive~.html): драйв-эффект из Guitarix
 
-[**fx.drone_box~**](fx.drone_box~.html): mono sympathetic resonance generator
+[**fx.drone_box~**](fx.drone_box~.html): одноканальный симпатический резонансный генератор
 
-[**fx.echo2~**](fx.echo2~.html): stereo echo effect
+[**fx.echo2~**](fx.echo2~.html): стерео эхо-эффект
 
-[**fx.echo~**](fx.echo~.html): enhanced echo effect
+[**fx.echo~**](fx.echo~.html): улучшенный эхо-эффект
 
-[**fx.flanger~**](fx.flanger~.html): mono flanging effect
+[**fx.flanger~**](fx.flanger~.html): одноканальный фленжер эффект
 
-[**fx.freeverb2~**](fx.freeverb2~.html): stereo version of \[fx.freeverb~\]
+[**fx.freeverb2~**](fx.freeverb2~.html): стерео версия \[fx.freeverb~\]
 
-[**fx.freeverb~**](fx.freeverb~.html): freeverb - commonly used open-source reverb
+[**fx.freeverb~**](fx.freeverb~.html): широко используемый ревербератор с открытым исходным кодом
 
-[**fx.freqshift~**](fx.freqshift~.html): frequency shifter or single-sideband ring modulation
+[**fx.freqshift~**](fx.freqshift~.html): сдвиг частоты или однополосный кольцевой модулятор
 
-[**fx.granulator~**](fx.granulator~.html): simple input stream granulator
+[**fx.granulator~**](fx.granulator~.html): гранулятор входного потока
 
-[**fx.greyhole~**](fx.greyhole~.html): A complex echo-like effect
+[**fx.greyhole~**](fx.greyhole~.html): cложный эхоподобный эффект
 
-[**fx.infrev~**](fx.infrev~.html): port of Infinity VST plugin from airwindows
+[**fx.infrev~**](fx.infrev~.html): порт плагина Infinity VST из &#34;airwindows&#34;
 
-[**fx.jcrev~**](fx.jcrev~.html): Schroeder quad reverberator from 1972
+[**fx.jcrev~**](fx.jcrev~.html): квадрофонический ревербератор Шрёдера из 1972 года
 
-[**fx.looper~**](fx.looper~.html): One track looper
+[**fx.looper~**](fx.looper~.html): однодорожечный лупер
 
-[**fx.overdrive~**](fx.overdrive~.html): overdrive effect
+[**fx.overdrive~**](fx.overdrive~.html): эффект перегрузки
 
-[**fx.pitchshift_s~**](fx.pitchshift_s~.html): signal version of fx.pitchshift~
+[**fx.pitchshift_s~**](fx.pitchshift_s~.html): сигнальная версия \[fx.pitchshift~\]
 
-[**fx.pitchshift~**](fx.pitchshift~.html): simple pitch shifter based on 2 delay lines
+[**fx.pitchshift~**](fx.pitchshift~.html): простой питчшифтер на основе 2 линий задержки
 
-[**fx.rb_pitchshift~**](fx.rb_pitchshift~.html): rubber band pitchshift
+[**fx.rb_pitchshift~**](fx.rb_pitchshift~.html): питчшифтер из библиотеки rubberband
 
-[**fx.recho~**](fx.recho~.html): reversed echo effect
+[**fx.recho~**](fx.recho~.html): обратный эффект эха
 
-[**fx.ringmod~**](fx.ringmod~.html): ring modulator effect
+[**fx.ringmod~**](fx.ringmod~.html): кольцевой модулятор
 
-[**fx.room~**](fx.room~.html): Gardners room emulation algorithms
+[**fx.room~**](fx.room~.html): алгоритм Гарднера для эмуляции комнаты
 
-[**fx.satrev~**](fx.satrev~.html): Schroeder reverberator from 1971
+[**fx.satrev~**](fx.satrev~.html): ревербератор Шрёдера 1971 года
 
-[**fx.scramble~**](fx.scramble~.html): scramble delayed sound fragments
+[**fx.scramble~**](fx.scramble~.html): скремблер задержанных звуковых фрагментов
 
-[**fx.shimmer~**](fx.shimmer~.html): shimmer reverb effect
+[**fx.shimmer~**](fx.shimmer~.html): шиммер-эффект реверберации
 
-[**fx.stutter~**](fx.stutter~.html): stutter effect
+[**fx.stutter~**](fx.stutter~.html): эффект заикания
 
-[**fx.tapiir~**](fx.tapiir~.html): multi-tap delay
+[**fx.tapiir~**](fx.tapiir~.html): многоуровневая задержка
 
-[**fx.tremolo~**](fx.tremolo~.html): tremolo effect from guitarix project
+[**fx.tremolo~**](fx.tremolo~.html): эффект тремоло от проекта Guitarix
 
 [**fx.vocoder~**](fx.vocoder~.html): very simple vocoder where the spectrum of the modulation signal is analyzed using a 32-band filter bank
 
-[**fx.wahwah~**](fx.wahwah~.html): digitized CryBaby wah pedal
+[**fx.wahwah~**](fx.wahwah~.html): педаль CryBaby WahWah
 
-[**fx.zita_rev1~**](fx.zita_rev1~.html): Zita stereo reverb
+[**fx.zita_rev1~**](fx.zita_rev1~.html): zita стерео ревербератор
 
 
 ### <a id="cat_global" href="category_global.html">global</a>
@@ -899,145 +899,145 @@ layout: default_ru
 ---
 
 
-[**list.^at**](list.%5Eat.html): on input index(es) outputs list element(s)
+[**list.^at**](list.%5Eat.html): выводит элементы предварительно заданного списка по входящему списку индексов
 
-[**list.^contains**](list.%5Econtains.html): checks if input atom is found in the list
+[**list.^contains**](list.%5Econtains.html): проверяет, содержит ли предварительно заданный список входной элемент
 
-[**list.^search**](list.%5Esearch.html): on input atom returns it index in list
+[**list.^search**](list.%5Esearch.html): выводит индексы найденных входных элементов в предварительно заданном списке
 
-[**list.all_of**](list.all_of.html): checks if all list atoms accepted by predicate
+[**list.all_of**](list.all_of.html): проверяет, все ли элементы списка были приняты предикатом боковой цепи обработки
 
-[**list.any_of**](list.any_of.html): checks if at least one list element is accepted by predicate
+[**list.any_of**](list.any_of.html): проверяет, был ли принят хотя бы один элемент списка предикатом боковой цепи обработки
 
-[**list.append**](list.append.html): append atom or list to the end of input list
+[**list.append**](list.append.html): добавляет элементы в конец списка
 
-[**list.apply_to**](list.apply_to.html): modifies list value at specified position, filtering it via external object
+[**list.apply_to**](list.apply_to.html): обрабатывает указанные элементы списка через боковую церь обработки
 
-[**list.at**](list.at.html): outputs list element(s) at specified index(es)
+[**list.at**](list.at.html): выводит предварительно указанные элементы входящего списка
 
-[**list.choice**](list.choice.html): outputs random element from list
+[**list.choice**](list.choice.html): вывод случайного элемента из списка
 
-[**list.contains**](list.contains.html): checks if input list contains specified atoms
+[**list.contains**](list.contains.html): проверяет, содержит ли входной список предварительно указанные элементы
 
-[**list.convolve**](list.convolve.html): convolution for lists
+[**list.convolve**](list.convolve.html): операция свертки для списков
 
-[**list.correlate**](list.correlate.html): list cross-correlation
+[**list.correlate**](list.correlate.html): взаимная корреляция между списками
 
-[**list.count**](list.count.html): output the number of items that equal to specified value
+[**list.count**](list.count.html): выводить количество элементов, равных заданному значению
 
-[**list.count_if**](list.count_if.html): output the number of items that satisfy to external predicate
+[**list.count_if**](list.count_if.html): выводит число элементов, удовлетворяющих внешнему предикату боковой цепи обработки
 
-[**list.delta**](list.delta.html): returns the difference between the current list of floats and the previous one.
+[**list.delta**](list.delta.html): выводит список разностей между текущим и предыдущим списком
 
-[**list.distribution**](list.distribution.html): list value distribution
+[**list.distribution**](list.distribution.html): выводит список распределения значений в списке
 
-[**list.do**](list.do.html): iterate and modify list contents via side-chain
+[**list.do**](list.do.html): итерирование и изменение содержимого списка через боковую цепь обработки
 
-[**list.each**](list.each.html): maps each list value via external side-chain
+[**list.each**](list.each.html): отображает каждое значение списка через внешнюю боковую цепь обработки
 
-[**list.enumerate**](list.enumerate.html): enumerates input list
+[**list.enumerate**](list.enumerate.html): нумерует элементы списка
 
-[**list.equal**](list.equal.html): checks if given lists are equal
+[**list.equal**](list.equal.html): проверка списков на равенство
 
-[**list.first**](list.first.html): returns first list element
+[**list.first**](list.first.html): выводит первый элемент списка
 
-[**list.gen**](list.gen.html): generates list of specified length via external generator
+[**list.gen**](list.gen.html): генерирует список указанной длины через генератор боковой цепи
 
-[**list.histogram**](list.histogram.html): outputs distribution histogram
+[**list.histogram**](list.histogram.html): выводит гистограмму распределений списка
 
-[**list.insert**](list.insert.html): insert atom or list to the specified position of input list
+[**list.insert**](list.insert.html): вставляет элементы в указанную позицию в списке
 
-[**list.integrator**](list.integrator.html): returns the sum of the previously stored list and the current one then stores this sum
+[**list.integrator**](list.integrator.html): returns the sum of the previously stored list and the current one
 
-[**list.last**](list.last.html): output last list element
+[**list.last**](list.last.html): выводит последний элемент списка
 
-[**list.length**](list.length.html): output the number of atoms in the list
+[**list.length**](list.length.html): выводит количество элементов в списке
 
 [**list.map**](list.map.html): map list values by specified dictionary
 
-[**list.max**](list.max.html): output the largest element in the list
+[**list.max**](list.max.html): выводит самый большой элемент в списке
 
-[**list.mean**](list.mean.html): calculates average of list of floats
+[**list.mean**](list.mean.html): вычисляет среднее значение в списке
 
-[**list.min**](list.min.html): returns smallest element in the list
+[**list.min**](list.min.html): возвращает наименьший элемент в списке
 
-[**list.none_of**](list.none_of.html): checks if none of list atoms is accepted by predicate
+[**list.none_of**](list.none_of.html): проверяет, что ни один из элементов не принимается предикатом боковой цепи обработки
 
-[**list.normalize**](list.normalize.html): normalizes float list values to get their sum = 1.0
+[**list.normalize**](list.normalize.html): нормализует числовые значения списка, чтобы их сумма была равна единице
 
-[**list.pass**](list.pass.html): leave in list only specified elements
+[**list.pass**](list.pass.html): оставлять в списке только указанные элементы
 
-[**list.pass_if**](list.pass_if.html): leave only elements accepted by predicate
+[**list.pass_if**](list.pass_if.html): оставляет в списке только элементы, принятые предикатом боковой цепи обработки
 
-[**list.prepend**](list.prepend.html): prepend atom or list before input list
+[**list.prepend**](list.prepend.html): вставить элементы в начало списка
 
-[**list.product**](list.product.html): calculates product of floats in list
+[**list.product**](list.product.html): вычисляет произведение всех чисел в списке
 
-[**list.range**](list.range.html): output list smallest and largest value
+[**list.range**](list.range.html): выводит минимальный и максимальный элемент в списке
 
-[**list.reduce**](list.reduce.html): apply function of two arguments cumulatively to the list
+[**list.reduce**](list.reduce.html): преобразование списка к единственному значению через боковую цепь обработки
 
-[**list.reject**](list.reject.html): remove specified element from list
+[**list.reject**](list.reject.html): удаляет указанные элементы из списка
 
-[**list.remove**](list.remove.html): remove list element(s) at specified positions
+[**list.remove**](list.remove.html): удалить элементы списка по указанным позициям
 
-[**list.remove_if**](list.remove_if.html): remove elements by predicate
+[**list.remove_if**](list.remove_if.html): удалить элементы списка при помощи предиката боковой цепи
 
-[**list.repack**](list.repack.html): repack list to specified size
+[**list.repack**](list.repack.html): переупаковать список в последовательность списков определенного размера
 
-[**list.repeat**](list.repeat.html): output new list by repeating input list specified times
+[**list.repeat**](list.repeat.html): создает список на основе повторов исходного списка
 
-[**list.resample**](list.resample.html): resample list with specified ratio
+[**list.resample**](list.resample.html): пересемплирует значения в списке с указанным соотношением длины
 
-[**list.resize**](list.resize.html): changes list size
+[**list.resize**](list.resize.html): изменяет длину списка
 
-[**list.reverse**](list.reverse.html): reverses the order of the elements in the list
+[**list.reverse**](list.reverse.html): меняет порядок элементов в списке на обратный
 
-[**list.rldecode**](list.rldecode.html): Run-length list decoder (RLE)
+[**list.rldecode**](list.rldecode.html): декодирование повторов в списках
 
-[**list.rlencode**](list.rlencode.html): RLE (run-length encoding) for lists
+[**list.rlencode**](list.rlencode.html): кодирование повторов в списках
 
-[**list.rotate**](list.rotate.html): rotates list
+[**list.rotate**](list.rotate.html): циклическое вращение списка на целое число шагов
 
-[**list.route**](list.route.html): acts like \[route\] but for lists
+[**list.route**](list.route.html): маршрутизирует список по первому элементу, как объект \[route\]
 
-[**list.rundiff**](list.rundiff.html): running difference
+[**list.rundiff**](list.rundiff.html): вычисляет разницу между соседними элементами входного списка
 
-[**list.runsum**](list.runsum.html): running sum
+[**list.runsum**](list.runsum.html): выводит список позиционных сумм, который обновляется при каждом входящем списке
 
-[**list.search**](list.search.html): search specified items in input list
+[**list.search**](list.search.html): выводит позиции предварительно заданных элементов во входном списке
 
-[**list.separate**](list.separate.html): sends list elements one by one separately
+[**list.separate**](list.separate.html): поочередно выводит каждый элемент списка в виде отдельного сообщения
 
-[**list.seq**](list.seq.html): numeric sequence list generator
+[**list.seq**](list.seq.html): генерирует последовательноть чисел в виде списка
 
-[**list.set**](list.set.html): set list value at specified position
+[**list.set**](list.set.html): устанавливает значение элемента списка в указанной позиции
 
-[**list.shift**](list.shift.html): shifts the contents of the list with linear interpolation
+[**list.shift**](list.shift.html): циклический сдвиг списка на вещественное число с линейной интерполяцией
 
-[**list.shuffle**](list.shuffle.html): randomly rearranges elements in list
+[**list.shuffle**](list.shuffle.html): переставляет элементы списка в случайном порядке
 
-[**list.slice**](list.slice.html): extract sublist
+[**list.slice**](list.slice.html): выводит подсписок
 
-[**list.sort**](list.sort.html): sorts list values by ascending order
+[**list.sort**](list.sort.html): сортирует список в порядке возрастания
 
-[**list.sort_with**](list.sort_with.html): sort list with user defined side-chain
+[**list.sort_with**](list.sort_with.html): сортирует список при помощи боковой цепи обработки
 
-[**list.split**](list.split.html): splits list into two parts, the length of first list is specified by the argument
+[**list.split**](list.split.html): разделяет список на две части по указанному индексу
 
-[**list.stretch**](list.stretch.html): stretches list - changes its size with linear interpolation
+[**list.stretch**](list.stretch.html): изменяет длину списка, изменяя его значения с помощью линейной интерполяции
 
-[**list.sum**](list.sum.html): calculates sum of floats in list
+[**list.sum**](list.sum.html): вычисляет сумму элементов в списке
 
-[**list.unique**](list.unique.html): removes duplicates from input list
+[**list.unique**](list.unique.html): удаляет дубликаты из списка
 
-[**list.unpack**](list.unpack.html): unpack list elements to separate outlets
+[**list.unpack**](list.unpack.html): распаковывает элементы списка в соответствующие им выходы объекта
 
-[**list.unzip**](list.unzip.html): splits list to N lists, each to separate output
+[**list.unzip**](list.unzip.html): распаковывает входной список на N списков из чередующихся эелементов
 
-[**list.walk**](list.walk.html): walks through the list
+[**list.walk**](list.walk.html): различные алгоритмы обхода элементов в списке
 
-[**list.zip**](list.zip.html): takes n lists from n inlets (specified by argument) and output their elements sequentially (list1-1 list2-1 list1-2 list2-2 etc.).
+[**list.zip**](list.zip.html): создает чередующийся список элементов из N входных списков
 
 
 ### <a id="cat_live" href="category_live.html">live</a>
@@ -1580,18 +1580,18 @@ layout: default_ru
 
 
 ### <a id="cat_preset" href="category_preset.html">preset</a>
-
+работа с пресетами
 
 ---
 
 
-[**preset.float**](preset.float.html): load/store float preset
+[**preset.float**](preset.float.html): загружает или сохраняет числовое значение в пресете
 
-[**preset.list**](preset.list.html): load/store symbol preset
+[**preset.list**](preset.list.html): загружает или сохраняет список в пресете
 
-[**preset.storage**](preset.storage.html): preset storage control
+[**preset.storage**](preset.storage.html): управление пресетами
 
-[**preset.symbol**](preset.symbol.html): load/store symbol preset
+[**preset.symbol**](preset.symbol.html): загружает или сохраняет символ в пресет
 
 
 ### <a id="cat_property" href="category_property.html">property</a>

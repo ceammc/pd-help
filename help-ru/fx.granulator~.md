@@ -6,7 +6,7 @@ layout: default_ru
 
 # fx.granulator~
 
-###### simple input stream granulator
+###### гранулятор входного потока
 
 *доступно с версии:* 0.7
 

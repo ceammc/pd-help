@@ -6,7 +6,7 @@ layout: default_ru
 
 # list.pass
 
-###### leave in list only specified elements
+###### оставлять в списке только указанные элементы
 
 *доступно с версии:* 0.9.5
 

@@ -3,7 +3,7 @@
 
 # fx.tremolo~
 
-###### tremolo effect from guitarix project
+###### tremolo effect from Guitarix project
 
 *available since version:* 0.9.7
 

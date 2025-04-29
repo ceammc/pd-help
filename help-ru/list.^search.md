@@ -6,7 +6,7 @@ layout: default_ru
 
 # list.^search
 
-###### on input atom returns it index in list
+###### выводит индексы найденных входных элементов в предварительно заданном списке
 
 *доступно с версии:* 0.6
 

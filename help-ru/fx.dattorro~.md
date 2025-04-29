@@ -6,7 +6,7 @@ layout: default_ru
 
 # fx.dattorro~
 
-###### dattorro reverb
+###### реверберация Dattorro
 
 *доступно с версии:* 0.9.6
 

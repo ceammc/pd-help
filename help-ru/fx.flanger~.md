@@ -6,7 +6,7 @@ layout: default_ru
 
 # fx.flanger~
 
-###### mono flanging effect
+###### одноканальный фленжер эффект
 
 *доступно с версии:* 0.2
 

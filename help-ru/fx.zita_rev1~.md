@@ -6,7 +6,7 @@ layout: default_ru
 
 # fx.zita_rev1~
 
-###### Zita stereo reverb
+###### zita стерео ревербератор
 
 *доступно с версии:* 0.2
 

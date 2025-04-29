@@ -6,7 +6,7 @@ layout: default_ru
 
 # preset.float
 
-###### load/store float preset
+###### загружает или сохраняет числовое значение в пресете
 
 *доступно с версии:* 0.4
 

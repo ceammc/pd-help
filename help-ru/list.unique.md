@@ -6,7 +6,7 @@ layout: default_ru
 
 # list.unique
 
-###### removes duplicates from input list
+###### удаляет дубликаты из списка
 
 *доступно с версии:* 0.1
 

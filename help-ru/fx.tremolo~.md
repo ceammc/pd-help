@@ -6,7 +6,7 @@ layout: default_ru
 
 # fx.tremolo~
 
-###### tremolo effect from guitarix project
+###### эффект тремоло от проекта Guitarix
 
 *доступно с версии:* 0.9.7
 

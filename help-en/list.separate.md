@@ -5,7 +5,7 @@
 **aliases:** [list.sep]
 
 
-###### sends list elements one by one separately
+###### outputs each list item in turn as a separate message
 
 *available since version:* 0.3
 

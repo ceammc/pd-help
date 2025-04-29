@@ -10,83 +10,83 @@ layout: default_ru
 различные звуковые эффекты
 
 
-[**fx.bitdown~**](fx.bitdown~.html): a bit downer and downsampler effect 
+[**fx.bitdown~**](fx.bitdown~.html): понижение разрядности входного сигнала и эффект даунсемплинга 
 
-[**fx.chorus~**](fx.chorus~.html): Chorus effect 
+[**fx.chorus~**](fx.chorus~.html): хорус-эффект 
 
-[**fx.dattorro~**](fx.dattorro~.html): dattorro reverb 
+[**fx.dattorro~**](fx.dattorro~.html): реверберация Dattorro 
 
-[**fx.delay~**](fx.delay~.html): smooth delay with a feedback control <br>
+[**fx.delay~**](fx.delay~.html): плавный дилей с контролем обратной связи <br>
 _псевдонимы:_ \[fx.sdelay~\]
 
 
-[**fx.distortion1~**](fx.distortion1~.html): distortion #1 from Guitarix effects set 
+[**fx.distortion1~**](fx.distortion1~.html): дисторшн №1 из набора эффектов Guitarix 
 
-[**fx.distortion2~**](fx.distortion2~.html): distortion #2 from Guitarix effects set 
+[**fx.distortion2~**](fx.distortion2~.html): дисторшн №2 из набора эффектов Guitarix 
 
-[**fx.distortion3~**](fx.distortion3~.html): simple distortion #3 from Guitarix effects set 
+[**fx.distortion3~**](fx.distortion3~.html): простой дисторшн №3 из набора эффектов Guitarix 
 
-[**fx.distortion~**](fx.distortion~.html): cubic nonlinearity distortion 
+[**fx.distortion~**](fx.distortion~.html): кубический нелинейный дисторшн 
 
-[**fx.drive~**](fx.drive~.html): Guitarix drive effect 
+[**fx.drive~**](fx.drive~.html): драйв-эффект из Guitarix 
 
-[**fx.drone_box~**](fx.drone_box~.html): mono sympathetic resonance generator 
+[**fx.drone_box~**](fx.drone_box~.html): одноканальный симпатический резонансный генератор 
 
-[**fx.echo2~**](fx.echo2~.html): stereo echo effect 
+[**fx.echo2~**](fx.echo2~.html): стерео эхо-эффект 
 
-[**fx.echo~**](fx.echo~.html): enhanced echo effect <br>
+[**fx.echo~**](fx.echo~.html): улучшенный эхо-эффект <br>
 _псевдонимы:_ \[fx.secho~\]
 
 
-[**fx.flanger~**](fx.flanger~.html): mono flanging effect 
+[**fx.flanger~**](fx.flanger~.html): одноканальный фленжер эффект 
 
-[**fx.freeverb2~**](fx.freeverb2~.html): stereo version of \[fx.freeverb~\] 
+[**fx.freeverb2~**](fx.freeverb2~.html): стерео версия \[fx.freeverb~\] 
 
-[**fx.freeverb~**](fx.freeverb~.html): freeverb - commonly used open-source reverb 
+[**fx.freeverb~**](fx.freeverb~.html): широко используемый ревербератор с открытым исходным кодом 
 
-[**fx.freqshift~**](fx.freqshift~.html): frequency shifter or single-sideband ring modulation 
+[**fx.freqshift~**](fx.freqshift~.html): сдвиг частоты или однополосный кольцевой модулятор 
 
-[**fx.granulator~**](fx.granulator~.html): simple input stream granulator 
+[**fx.granulator~**](fx.granulator~.html): гранулятор входного потока 
 
-[**fx.greyhole~**](fx.greyhole~.html): A complex echo-like effect 
+[**fx.greyhole~**](fx.greyhole~.html): cложный эхоподобный эффект 
 
-[**fx.infrev~**](fx.infrev~.html): port of Infinity VST plugin from airwindows 
+[**fx.infrev~**](fx.infrev~.html): порт плагина Infinity VST из &#34;airwindows&#34; 
 
-[**fx.jcrev~**](fx.jcrev~.html): Schroeder quad reverberator from 1972 
+[**fx.jcrev~**](fx.jcrev~.html): квадрофонический ревербератор Шрёдера из 1972 года 
 
-[**fx.looper~**](fx.looper~.html): One track looper 
+[**fx.looper~**](fx.looper~.html): однодорожечный лупер 
 
-[**fx.overdrive~**](fx.overdrive~.html): overdrive effect 
+[**fx.overdrive~**](fx.overdrive~.html): эффект перегрузки 
 
-[**fx.pitchshift_s~**](fx.pitchshift_s~.html): signal version of fx.pitchshift~ 
+[**fx.pitchshift_s~**](fx.pitchshift_s~.html): сигнальная версия \[fx.pitchshift~\] 
 
-[**fx.pitchshift~**](fx.pitchshift~.html): simple pitch shifter based on 2 delay lines 
+[**fx.pitchshift~**](fx.pitchshift~.html): простой питчшифтер на основе 2 линий задержки 
 
-[**fx.rb_pitchshift~**](fx.rb_pitchshift~.html): rubber band pitchshift 
+[**fx.rb_pitchshift~**](fx.rb_pitchshift~.html): питчшифтер из библиотеки rubberband 
 
-[**fx.recho~**](fx.recho~.html): reversed echo effect 
+[**fx.recho~**](fx.recho~.html): обратный эффект эха 
 
-[**fx.ringmod~**](fx.ringmod~.html): ring modulator effect 
+[**fx.ringmod~**](fx.ringmod~.html): кольцевой модулятор 
 
-[**fx.room~**](fx.room~.html): Gardners room emulation algorithms 
+[**fx.room~**](fx.room~.html): алгоритм Гарднера для эмуляции комнаты 
 
-[**fx.satrev~**](fx.satrev~.html): Schroeder reverberator from 1971 
+[**fx.satrev~**](fx.satrev~.html): ревербератор Шрёдера 1971 года 
 
-[**fx.scramble~**](fx.scramble~.html): scramble delayed sound fragments 
+[**fx.scramble~**](fx.scramble~.html): скремблер задержанных звуковых фрагментов 
 
-[**fx.shimmer~**](fx.shimmer~.html): shimmer reverb effect 
+[**fx.shimmer~**](fx.shimmer~.html): шиммер-эффект реверберации 
 
-[**fx.stutter~**](fx.stutter~.html): stutter effect 
+[**fx.stutter~**](fx.stutter~.html): эффект заикания 
 
-[**fx.tapiir~**](fx.tapiir~.html): multi-tap delay 
+[**fx.tapiir~**](fx.tapiir~.html): многоуровневая задержка 
 
-[**fx.tremolo~**](fx.tremolo~.html): tremolo effect from guitarix project 
+[**fx.tremolo~**](fx.tremolo~.html): эффект тремоло от проекта Guitarix 
 
 [**fx.vocoder~**](fx.vocoder~.html): very simple vocoder where the spectrum of the modulation signal is analyzed using a 32-band filter bank 
 
-[**fx.wahwah~**](fx.wahwah~.html): digitized CryBaby wah pedal 
+[**fx.wahwah~**](fx.wahwah~.html): педаль CryBaby WahWah 
 
-[**fx.zita_rev1~**](fx.zita_rev1~.html): Zita stereo reverb 
+[**fx.zita_rev1~**](fx.zita_rev1~.html): zita стерео ревербератор 
 
 
 **Версия:** 0.9.8

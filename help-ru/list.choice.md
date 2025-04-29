@@ -6,7 +6,7 @@ layout: default_ru
 
 # list.choice
 
-###### outputs random element from list
+###### вывод случайного элемента из списка
 
 *доступно с версии:* 0.1
 

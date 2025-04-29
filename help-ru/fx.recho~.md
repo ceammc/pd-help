@@ -6,7 +6,7 @@ layout: default_ru
 
 # fx.recho~
 
-###### reversed echo effect
+###### обратный эффект эха
 
 *доступно с версии:* 0.9.4
 

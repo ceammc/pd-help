@@ -6,7 +6,7 @@ layout: default_ru
 
 # list.reject
 
-###### remove specified element from list
+###### удаляет указанные элементы из списка
 
 *доступно с версии:* 0.9.5
 

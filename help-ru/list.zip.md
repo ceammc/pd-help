@@ -6,13 +6,15 @@ layout: default_ru
 
 # list.zip
 
-###### takes n lists from n inlets (specified by argument) and output their elements sequentially (list1-1 list2-1 list1-2 list2-2 etc.).
+###### создает чередующийся список элементов из N входных списков
 
 *доступно с версии:* 0.1
 
 ---
 
 
+## информация
+takes X lists of length M and outputs them as a single list: l₀[0], l₁[0], ..., lₓ[0], ..., l₀[M-1] l₁[M-1] ... lₓ[M-1]
 
 
 [![example](../examples/img/list.zip.jpg)](../examples/pd/list.zip.pd)

@@ -3,7 +3,7 @@
 
 # list.search
 
-###### search specified items in input list
+###### outputs the positions of pre-defined elements in the input list
 
 *available since version:* 0.6
 

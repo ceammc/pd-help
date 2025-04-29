@@ -3,7 +3,7 @@
 
 # list.count_if
 
-###### output the number of items that satisfy to external predicate
+###### output the number of items that satisfy to an side-chain predicate
 
 *available since version:* 0.1
 

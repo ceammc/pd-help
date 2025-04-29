@@ -6,7 +6,7 @@ layout: default_ru
 
 # fx.overdrive~
 
-###### overdrive effect
+###### эффект перегрузки
 
 *доступно с версии:* 0.9.7
 

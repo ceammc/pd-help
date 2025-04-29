@@ -6,7 +6,7 @@ layout: default_ru
 
 # list.rldecode
 
-###### Run-length list decoder (RLE)
+###### декодирование повторов в списках
 
 *доступно с версии:* 0.1
 

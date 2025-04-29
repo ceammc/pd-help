@@ -6,7 +6,7 @@ layout: default_ru
 
 # list.last
 
-###### output last list element
+###### выводит последний элемент списка
 
 *доступно с версии:* 0.1
 

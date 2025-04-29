@@ -6,7 +6,7 @@ layout: default_ru
 
 # list.sort_with
 
-###### sort list with user defined side-chain
+###### сортирует список при помощи боковой цепи обработки
 
 *доступно с версии:* 0.2
 

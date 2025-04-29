@@ -3,7 +3,7 @@
 
 # list.insert
 
-###### insert atom or list to the specified position of input list
+###### insert elements into the specified list position
 
 *available since version:* 0.6
 

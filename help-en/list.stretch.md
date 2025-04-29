@@ -3,7 +3,7 @@
 
 # list.stretch
 
-###### stretches list - changes its size with linear interpolation
+###### changes the length of the list by adjusting its values using linear interpolation
 
 *available since version:* 0.1
 

@@ -6,7 +6,7 @@ layout: default_ru
 
 # fx.drive~
 
-###### Guitarix drive effect
+###### драйв-эффект из Guitarix
 
 *доступно с версии:* 0.7
 

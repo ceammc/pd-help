@@ -6,7 +6,7 @@ layout: default_ru
 
 # list.stretch
 
-###### stretches list - changes its size with linear interpolation
+###### изменяет длину списка, изменяя его значения с помощью линейной интерполяции
 
 *доступно с версии:* 0.1
 

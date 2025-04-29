@@ -6,7 +6,7 @@ layout: default_ru
 
 # fx.echo~
 
-###### enhanced echo effect
+###### улучшенный эхо-эффект
 
 *доступно с версии:* 0.6
 

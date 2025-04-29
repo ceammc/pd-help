@@ -6,7 +6,7 @@ layout: default_ru
 
 # fx.shimmer~
 
-###### shimmer reverb effect
+###### шиммер-эффект реверберации
 
 *доступно с версии:* 0.9.4
 

@@ -3,7 +3,7 @@
 
 # fx.freqshift~
 
-###### frequency shifter or single-sideband ring modulation
+###### frequency shifter or the single-sideband ring modulation
 
 *available since version:* 0.1
 

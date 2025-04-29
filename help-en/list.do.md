@@ -3,7 +3,7 @@
 
 # list.do
 
-###### iterate and modify list contents via side-chain
+###### iterate and modify the list contents via a side-chain
 
 *available since version:* 0.5
 

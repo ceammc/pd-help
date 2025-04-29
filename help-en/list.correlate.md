@@ -3,7 +3,7 @@
 
 # list.correlate
 
-###### list cross-correlation
+###### lists cross-correlation
 
 *available since version:* 0.9.4
 

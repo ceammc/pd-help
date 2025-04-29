@@ -3,7 +3,7 @@
 
 # list.slice
 
-###### extract sublist
+###### outputs a sublist
 
 *available since version:* 0.2
 

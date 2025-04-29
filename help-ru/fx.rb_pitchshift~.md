@@ -6,7 +6,7 @@ layout: default_ru
 
 # fx.rb_pitchshift~
 
-###### rubber band pitchshift
+###### питчшифтер из библиотеки rubberband
 
 *доступно с версии:* 0.9.4
 

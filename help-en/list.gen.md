@@ -3,7 +3,7 @@
 
 # list.gen
 
-###### generates list of specified length via external generator
+###### generates a list of the specified length via a side-chain generator
 
 *available since version:* 0.1
 

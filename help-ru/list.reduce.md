@@ -6,7 +6,7 @@ layout: default_ru
 
 # list.reduce
 
-###### apply function of two arguments cumulatively to the list
+###### преобразование списка к единственному значению через боковую цепь обработки
 
 *доступно с версии:* 0.1
 

@@ -5,7 +5,7 @@
 **aliases:** [list.&lt;&lt;], [list.&gt;&gt;]
 
 
-###### rotates list
+###### a cyclic list rotation by an integer number of steps
 
 *available since version:* 0.1
 

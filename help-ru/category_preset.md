@@ -7,20 +7,20 @@ layout: default_ru
 ## Категория: preset
 
 ---
+работа с пресетами
 
 
-
-[**preset.float**](preset.float.html): load/store float preset <br>
+[**preset.float**](preset.float.html): загружает или сохраняет числовое значение в пресете <br>
 _псевдонимы:_ \[preset.f\]
 
 
-[**preset.list**](preset.list.html): load/store symbol preset <br>
+[**preset.list**](preset.list.html): загружает или сохраняет список в пресете <br>
 _псевдонимы:_ \[preset.l\]
 
 
-[**preset.storage**](preset.storage.html): preset storage control 
+[**preset.storage**](preset.storage.html): управление пресетами 
 
-[**preset.symbol**](preset.symbol.html): load/store symbol preset <br>
+[**preset.symbol**](preset.symbol.html): загружает или сохраняет символ в пресет <br>
 _псевдонимы:_ \[preset.s\]
 
 

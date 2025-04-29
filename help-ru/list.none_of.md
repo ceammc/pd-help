@@ -6,7 +6,7 @@ layout: default_ru
 
 # list.none_of
 
-###### checks if none of list atoms is accepted by predicate
+###### проверяет, что ни один из элементов не принимается предикатом боковой цепи обработки
 
 *доступно с версии:* 0.1
 

@@ -6,7 +6,7 @@ layout: default_ru
 
 # fx.distortion3~
 
-###### simple distortion #3 from Guitarix effects set
+###### простой дисторшн №3 из набора эффектов Guitarix
 
 *доступно с версии:* 0.7
 

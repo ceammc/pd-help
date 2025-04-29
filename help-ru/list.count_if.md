@@ -6,7 +6,7 @@ layout: default_ru
 
 # list.count_if
 
-###### output the number of items that satisfy to external predicate
+###### выводит число элементов, удовлетворяющих внешнему предикату боковой цепи обработки
 
 *доступно с версии:* 0.1
 

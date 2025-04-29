@@ -3,7 +3,7 @@
 
 # list.route
 
-###### acts like \[route\] but for lists
+###### routes the list by the first element, like \[route\] object
 
 *available since version:* 0.5
 

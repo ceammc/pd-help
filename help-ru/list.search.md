@@ -6,7 +6,7 @@ layout: default_ru
 
 # list.search
 
-###### search specified items in input list
+###### выводит позиции предварительно заданных элементов во входном списке
 
 *доступно с версии:* 0.6
 

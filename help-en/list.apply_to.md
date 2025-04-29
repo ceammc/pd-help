@@ -3,7 +3,7 @@
 
 # list.apply_to
 
-###### modifies list value at specified position, filtering it via external object
+###### modifies specified list elements via a side-chain
 
 *available since version:* 0.1
 

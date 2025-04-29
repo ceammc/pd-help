@@ -3,7 +3,7 @@
 
 # list.set
 
-###### set list value at specified position
+###### sets the value of the list item at the specified position
 
 *available since version:* 0.6
 

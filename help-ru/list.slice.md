@@ -6,7 +6,7 @@ layout: default_ru
 
 # list.slice
 
-###### extract sublist
+###### выводит подсписок
 
 *доступно с версии:* 0.2
 

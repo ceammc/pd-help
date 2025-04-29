@@ -3,7 +3,7 @@
 
 # fx.greyhole~
 
-###### A complex echo-like effect
+###### a complex echo-like effect
 
 *available since version:* 0.5
 

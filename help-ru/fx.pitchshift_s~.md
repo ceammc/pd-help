@@ -6,7 +6,7 @@ layout: default_ru
 
 # fx.pitchshift_s~
 
-###### signal version of fx.pitchshift~
+###### сигнальная версия \[fx.pitchshift~\]
 
 *доступно с версии:* 0.9
 

@@ -3,7 +3,7 @@
 
 # list.none_of
 
-###### checks if none of list atoms is accepted by predicate
+###### checks if none of list elements is accepted by the predicate side-chain
 
 *available since version:* 0.1
 

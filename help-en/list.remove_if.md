@@ -3,7 +3,7 @@
 
 # list.remove_if
 
-###### remove elements by predicate
+###### remove list elements by the side-chain predicate
 
 *available since version:* 0.1
 

@@ -6,7 +6,7 @@ layout: default_ru
 
 # list.rundiff
 
-###### running difference
+###### вычисляет разницу между соседними элементами входного списка
 
 *доступно с версии:* 0.9.4
 
@@ -14,7 +14,7 @@ layout: default_ru
 
 
 ## информация
-Computes the adjacent difference of the elements of the input list • y0 = x0 • y1 = x1 - x0 • y2 = x2 - x1 • y3 = x3 - x2 etc...
+calculation flow: • y0 = x0 • y1 = x1 - x0 • y2 = x2 - x1 • y3 = x3 - x2 etc...
 
 
 [![example](../examples/img/list.rundiff.jpg)](../examples/pd/list.rundiff.pd)

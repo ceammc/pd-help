@@ -3,7 +3,7 @@
 
 # list.normalize
 
-###### normalizes float list values to get their sum = 1.0
+###### normalizes numeric list values to get their sum equal to 1.0
 
 *available since version:* 0.1
 

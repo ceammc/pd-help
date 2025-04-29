@@ -6,7 +6,7 @@ layout: default_ru
 
 # list.distribution
 
-###### list value distribution
+###### выводит список распределения значений в списке
 
 *доступно с версии:* 0.1
 

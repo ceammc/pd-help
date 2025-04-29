@@ -6,7 +6,7 @@ layout: default_ru
 
 # list.split
 
-###### splits list into two parts, the length of first list is specified by the argument
+###### разделяет список на две части по указанному индексу
 
 *доступно с версии:* 0.1
 

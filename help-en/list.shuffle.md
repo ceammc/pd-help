@@ -3,7 +3,7 @@
 
 # list.shuffle
 
-###### randomly rearranges elements in list
+###### rearranges the elements of the list in a random order
 
 *available since version:* 0.1
 

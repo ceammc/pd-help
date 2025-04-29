@@ -6,7 +6,7 @@ layout: default_ru
 
 # list.sum
 
-###### calculates sum of floats in list
+###### вычисляет сумму элементов в списке
 
 *доступно с версии:* 0.1
 

@@ -3,7 +3,7 @@
 
 # list.min
 
-###### returns smallest element in the list
+###### returns a smallest list element
 
 *available since version:* 0.1
 

@@ -6,7 +6,7 @@ layout: default_ru
 
 # list.reverse
 
-###### reverses the order of the elements in the list
+###### меняет порядок элементов в списке на обратный
 
 *доступно с версии:* 0.1
 

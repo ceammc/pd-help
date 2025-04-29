@@ -3,7 +3,7 @@
 
 # list.sort_with
 
-###### sort list with user defined side-chain
+###### sorts the list using a side processing chain
 
 *available since version:* 0.2
 

@@ -3,7 +3,7 @@
 
 # list.reject
 
-###### remove specified element from list
+###### remove specified elements from the list
 
 *available since version:* 0.9.5
 

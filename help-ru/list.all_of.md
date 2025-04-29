@@ -6,7 +6,7 @@ layout: default_ru
 
 # list.all_of
 
-###### checks if all list atoms accepted by predicate
+###### проверяет, все ли элементы списка были приняты предикатом боковой цепи обработки
 
 *доступно с версии:* 0.1
 

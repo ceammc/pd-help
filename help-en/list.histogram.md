@@ -5,7 +5,7 @@
 **aliases:** [list.hist]
 
 
-###### outputs distribution histogram
+###### outputs a list distribution histogram
 
 *available since version:* 0.3
 

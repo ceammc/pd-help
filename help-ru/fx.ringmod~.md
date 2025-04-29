@@ -6,7 +6,7 @@ layout: default_ru
 
 # fx.ringmod~
 
-###### ring modulator effect
+###### кольцевой модулятор
 
 *доступно с версии:* 0.9.7
 

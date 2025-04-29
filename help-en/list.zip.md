@@ -5,13 +5,15 @@
 **aliases:** [list.interleave]
 
 
-###### takes n lists from n inlets (specified by argument) and output their elements sequentially (list1-1 list2-1 list1-2 list2-2 etc.).
+###### creates an interleaved list of items from N input lists
 
 *available since version:* 0.1
 
 ---
 
 
+## information
+takes X lists of length M and outputs them as a single list: l₀[0], l₁[0], ..., lₓ[0], ..., l₀[M-1] l₁[M-1] ... lₓ[M-1]
 
 
 [![example](../examples/img/list.zip.jpg)](../examples/pd/list.zip.pd)

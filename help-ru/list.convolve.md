@@ -6,7 +6,7 @@ layout: default_ru
 
 # list.convolve
 
-###### convolution for lists
+###### операция свертки для списков
 
 *доступно с версии:* 0.9.4
 

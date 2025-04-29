@@ -3,7 +3,7 @@
 
 # list.enumerate
 
-###### enumerates input list
+###### enumerates list elements
 
 *available since version:* 0.3
 

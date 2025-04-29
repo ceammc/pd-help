@@ -6,7 +6,7 @@ layout: default_ru
 
 # list.product
 
-###### calculates product of floats in list
+###### вычисляет произведение всех чисел в списке
 
 *доступно с версии:* 0.1
 

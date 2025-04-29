@@ -6,7 +6,7 @@ layout: default_ru
 
 # list.equal
 
-###### checks if given lists are equal
+###### проверка списков на равенство
 
 *доступно с версии:* 0.1
 

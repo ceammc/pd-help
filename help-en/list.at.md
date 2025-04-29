@@ -3,7 +3,7 @@
 
 # list.at
 
-###### outputs list element(s) at specified index(es)
+###### outputs the previously specified elements of the input list
 
 *available since version:* 0.1
 

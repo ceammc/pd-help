@@ -3,7 +3,7 @@
 
 # fx.infrev~
 
-###### port of Infinity VST plugin from airwindows
+###### port of Infinity VST plugin from &#34;airwindows&#34;
 
 *available since version:* 0.9.3
 

@@ -5,7 +5,7 @@
 **aliases:** [list.unwrap]
 
 
-###### Run-length list decoder (RLE)
+###### run-length decoding lists
 
 *available since version:* 0.1
 

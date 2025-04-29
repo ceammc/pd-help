@@ -6,7 +6,7 @@ layout: default_ru
 
 # fx.chorus~
 
-###### Chorus effect
+###### хорус-эффект
 
 *доступно с версии:* 0.7
 

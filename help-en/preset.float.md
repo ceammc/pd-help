@@ -5,7 +5,7 @@
 **aliases:** [preset.f]
 
 
-###### load/store float preset
+###### load or store the float into a preset
 
 *available since version:* 0.4
 

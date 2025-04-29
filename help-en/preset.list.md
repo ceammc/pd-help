@@ -5,7 +5,7 @@
 **aliases:** [preset.l]
 
 
-###### load/store symbol preset
+###### loads or store the list into a preset
 
 *available since version:* 0.4
 
@@ -94,7 +94,7 @@ _type:_ control
 
 [preset](keywords/preset.html)
 [storage](keywords/storage.html)
-[symbol](keywords/symbol.html)
+[list](keywords/list.html)
 
 
 

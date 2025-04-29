@@ -3,7 +3,7 @@
 
 # fx.freeverb2~
 
-###### stereo version of \[fx.freeverb~\]
+###### a stereo version of \[fx.freeverb~\]
 
 *available since version:* 0.2
 

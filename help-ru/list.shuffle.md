@@ -6,7 +6,7 @@ layout: default_ru
 
 # list.shuffle
 
-###### randomly rearranges elements in list
+###### переставляет элементы списка в случайном порядке
 
 *доступно с версии:* 0.1
 

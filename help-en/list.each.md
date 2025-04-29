@@ -3,7 +3,7 @@
 
 # list.each
 
-###### maps each list value via external side-chain
+###### maps an each list value via an external side-chain
 
 *available since version:* 0.1
 

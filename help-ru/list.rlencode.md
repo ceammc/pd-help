@@ -6,7 +6,7 @@ layout: default_ru
 
 # list.rlencode
 
-###### RLE (run-length encoding) for lists
+###### кодирование повторов в списках
 
 *доступно с версии:* 0.1
 

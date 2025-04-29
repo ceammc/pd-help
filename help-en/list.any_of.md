@@ -3,7 +3,7 @@
 
 # list.any_of
 
-###### checks if at least one list element is accepted by predicate
+###### checks whether at least one list element has been accepted by the processing sidechain
 
 *available since version:* 0.1
 

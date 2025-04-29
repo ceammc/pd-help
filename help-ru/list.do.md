@@ -6,7 +6,7 @@ layout: default_ru
 
 # list.do
 
-###### iterate and modify list contents via side-chain
+###### итерирование и изменение содержимого списка через боковую цепь обработки
 
 *доступно с версии:* 0.5
 

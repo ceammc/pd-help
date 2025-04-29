@@ -3,7 +3,7 @@
 
 # list.split
 
-###### splits list into two parts, the length of first list is specified by the argument
+###### divides the list into two parts at the specified index position
 
 *available since version:* 0.1
 

@@ -10,171 +10,171 @@ layout: default_ru
 работа со списками
 
 
-[**list.^at**](list.%5Eat.html): on input index(es) outputs list element(s) 
+[**list.^at**](list.%5Eat.html): выводит элементы предварительно заданного списка по входящему списку индексов 
 
-[**list.^contains**](list.%5Econtains.html): checks if input atom is found in the list 
+[**list.^contains**](list.%5Econtains.html): проверяет, содержит ли предварительно заданный список входной элемент 
 
-[**list.^search**](list.%5Esearch.html): on input atom returns it index in list 
+[**list.^search**](list.%5Esearch.html): выводит индексы найденных входных элементов в предварительно заданном списке 
 
-[**list.all_of**](list.all_of.html): checks if all list atoms accepted by predicate 
+[**list.all_of**](list.all_of.html): проверяет, все ли элементы списка были приняты предикатом боковой цепи обработки 
 
-[**list.any_of**](list.any_of.html): checks if at least one list element is accepted by predicate 
+[**list.any_of**](list.any_of.html): проверяет, был ли принят хотя бы один элемент списка предикатом боковой цепи обработки 
 
-[**list.append**](list.append.html): append atom or list to the end of input list 
+[**list.append**](list.append.html): добавляет элементы в конец списка 
 
-[**list.apply_to**](list.apply_to.html): modifies list value at specified position, filtering it via external object 
+[**list.apply_to**](list.apply_to.html): обрабатывает указанные элементы списка через боковую церь обработки 
 
-[**list.at**](list.at.html): outputs list element(s) at specified index(es) 
+[**list.at**](list.at.html): выводит предварительно указанные элементы входящего списка 
 
-[**list.choice**](list.choice.html): outputs random element from list 
+[**list.choice**](list.choice.html): вывод случайного элемента из списка 
 
-[**list.contains**](list.contains.html): checks if input list contains specified atoms 
+[**list.contains**](list.contains.html): проверяет, содержит ли входной список предварительно указанные элементы 
 
-[**list.convolve**](list.convolve.html): convolution for lists <br>
+[**list.convolve**](list.convolve.html): операция свертки для списков <br>
 _псевдонимы:_ \[list.conv\]
 
 
-[**list.correlate**](list.correlate.html): list cross-correlation 
+[**list.correlate**](list.correlate.html): взаимная корреляция между списками 
 
-[**list.count**](list.count.html): output the number of items that equal to specified value 
+[**list.count**](list.count.html): выводить количество элементов, равных заданному значению 
 
-[**list.count_if**](list.count_if.html): output the number of items that satisfy to external predicate 
+[**list.count_if**](list.count_if.html): выводит число элементов, удовлетворяющих внешнему предикату боковой цепи обработки 
 
-[**list.delta**](list.delta.html): returns the difference between the current list of floats and the previous one. 
+[**list.delta**](list.delta.html): выводит список разностей между текущим и предыдущим списком 
 
-[**list.distribution**](list.distribution.html): list value distribution 
+[**list.distribution**](list.distribution.html): выводит список распределения значений в списке 
 
-[**list.do**](list.do.html): iterate and modify list contents via side-chain 
+[**list.do**](list.do.html): итерирование и изменение содержимого списка через боковую цепь обработки 
 
-[**list.each**](list.each.html): maps each list value via external side-chain 
+[**list.each**](list.each.html): отображает каждое значение списка через внешнюю боковую цепь обработки 
 
-[**list.enumerate**](list.enumerate.html): enumerates input list 
+[**list.enumerate**](list.enumerate.html): нумерует элементы списка 
 
-[**list.equal**](list.equal.html): checks if given lists are equal 
+[**list.equal**](list.equal.html): проверка списков на равенство 
 
-[**list.first**](list.first.html): returns first list element 
+[**list.first**](list.first.html): выводит первый элемент списка 
 
-[**list.gen**](list.gen.html): generates list of specified length via external generator 
+[**list.gen**](list.gen.html): генерирует список указанной длины через генератор боковой цепи 
 
-[**list.histogram**](list.histogram.html): outputs distribution histogram <br>
+[**list.histogram**](list.histogram.html): выводит гистограмму распределений списка <br>
 _псевдонимы:_ \[list.hist\]
 
 
-[**list.insert**](list.insert.html): insert atom or list to the specified position of input list 
+[**list.insert**](list.insert.html): вставляет элементы в указанную позицию в списке 
 
-[**list.integrator**](list.integrator.html): returns the sum of the previously stored list and the current one then stores this sum 
+[**list.integrator**](list.integrator.html): returns the sum of the previously stored list and the current one 
 
-[**list.last**](list.last.html): output last list element 
+[**list.last**](list.last.html): выводит последний элемент списка 
 
-[**list.length**](list.length.html): output the number of atoms in the list <br>
+[**list.length**](list.length.html): выводит количество элементов в списке <br>
 _псевдонимы:_ \[list.size\]
 
 
 [**list.map**](list.map.html): map list values by specified dictionary 
 
-[**list.max**](list.max.html): output the largest element in the list 
+[**list.max**](list.max.html): выводит самый большой элемент в списке 
 
-[**list.mean**](list.mean.html): calculates average of list of floats <br>
+[**list.mean**](list.mean.html): вычисляет среднее значение в списке <br>
 _псевдонимы:_ \[list.average\]
 
 
-[**list.min**](list.min.html): returns smallest element in the list 
+[**list.min**](list.min.html): возвращает наименьший элемент в списке 
 
-[**list.none_of**](list.none_of.html): checks if none of list atoms is accepted by predicate 
+[**list.none_of**](list.none_of.html): проверяет, что ни один из элементов не принимается предикатом боковой цепи обработки 
 
-[**list.normalize**](list.normalize.html): normalizes float list values to get their sum = 1.0 
+[**list.normalize**](list.normalize.html): нормализует числовые значения списка, чтобы их сумма была равна единице 
 
-[**list.pass**](list.pass.html): leave in list only specified elements 
+[**list.pass**](list.pass.html): оставлять в списке только указанные элементы 
 
-[**list.pass_if**](list.pass_if.html): leave only elements accepted by predicate <br>
+[**list.pass_if**](list.pass_if.html): оставляет в списке только элементы, принятые предикатом боковой цепи обработки <br>
 _псевдонимы:_ \[list.filter\]
 
 
-[**list.prepend**](list.prepend.html): prepend atom or list before input list 
+[**list.prepend**](list.prepend.html): вставить элементы в начало списка 
 
-[**list.product**](list.product.html): calculates product of floats in list 
+[**list.product**](list.product.html): вычисляет произведение всех чисел в списке 
 
-[**list.range**](list.range.html): output list smallest and largest value <br>
+[**list.range**](list.range.html): выводит минимальный и максимальный элемент в списке <br>
 _псевдонимы:_ \[list.minmax\]
 
 
-[**list.reduce**](list.reduce.html): apply function of two arguments cumulatively to the list <br>
+[**list.reduce**](list.reduce.html): преобразование списка к единственному значению через боковую цепь обработки <br>
 _псевдонимы:_ \[list.foldl\]
 
 
-[**list.reject**](list.reject.html): remove specified element from list 
+[**list.reject**](list.reject.html): удаляет указанные элементы из списка 
 
-[**list.remove**](list.remove.html): remove list element(s) at specified positions 
+[**list.remove**](list.remove.html): удалить элементы списка по указанным позициям 
 
-[**list.remove_if**](list.remove_if.html): remove elements by predicate 
+[**list.remove_if**](list.remove_if.html): удалить элементы списка при помощи предиката боковой цепи 
 
-[**list.repack**](list.repack.html): repack list to specified size 
+[**list.repack**](list.repack.html): переупаковать список в последовательность списков определенного размера 
 
-[**list.repeat**](list.repeat.html): output new list by repeating input list specified times 
+[**list.repeat**](list.repeat.html): создает список на основе повторов исходного списка 
 
-[**list.resample**](list.resample.html): resample list with specified ratio <br>
+[**list.resample**](list.resample.html): пересемплирует значения в списке с указанным соотношением длины <br>
 _псевдонимы:_ \[list.r\]
 
 
-[**list.resize**](list.resize.html): changes list size 
+[**list.resize**](list.resize.html): изменяет длину списка 
 
-[**list.reverse**](list.reverse.html): reverses the order of the elements in the list 
+[**list.reverse**](list.reverse.html): меняет порядок элементов в списке на обратный 
 
-[**list.rldecode**](list.rldecode.html): Run-length list decoder (RLE) <br>
+[**list.rldecode**](list.rldecode.html): декодирование повторов в списках <br>
 _псевдонимы:_ \[list.unwrap\]
 
 
-[**list.rlencode**](list.rlencode.html): RLE (run-length encoding) for lists <br>
+[**list.rlencode**](list.rlencode.html): кодирование повторов в списках <br>
 _псевдонимы:_ \[list.wrap\]
 
 
-[**list.rotate**](list.rotate.html): rotates list <br>
+[**list.rotate**](list.rotate.html): циклическое вращение списка на целое число шагов <br>
 _псевдонимы:_ \[list.&lt;&lt;\], \[list.&gt;&gt;\]
 
 
-[**list.route**](list.route.html): acts like \[route\] but for lists 
+[**list.route**](list.route.html): маршрутизирует список по первому элементу, как объект \[route\] 
 
-[**list.rundiff**](list.rundiff.html): running difference 
+[**list.rundiff**](list.rundiff.html): вычисляет разницу между соседними элементами входного списка 
 
-[**list.runsum**](list.runsum.html): running sum 
+[**list.runsum**](list.runsum.html): выводит список позиционных сумм, который обновляется при каждом входящем списке 
 
-[**list.search**](list.search.html): search specified items in input list 
+[**list.search**](list.search.html): выводит позиции предварительно заданных элементов во входном списке 
 
-[**list.separate**](list.separate.html): sends list elements one by one separately <br>
+[**list.separate**](list.separate.html): поочередно выводит каждый элемент списка в виде отдельного сообщения <br>
 _псевдонимы:_ \[list.sep\]
 
 
-[**list.seq**](list.seq.html): numeric sequence list generator 
+[**list.seq**](list.seq.html): генерирует последовательноть чисел в виде списка 
 
-[**list.set**](list.set.html): set list value at specified position 
+[**list.set**](list.set.html): устанавливает значение элемента списка в указанной позиции 
 
-[**list.shift**](list.shift.html): shifts the contents of the list with linear interpolation 
+[**list.shift**](list.shift.html): циклический сдвиг списка на вещественное число с линейной интерполяцией 
 
-[**list.shuffle**](list.shuffle.html): randomly rearranges elements in list 
+[**list.shuffle**](list.shuffle.html): переставляет элементы списка в случайном порядке 
 
-[**list.slice**](list.slice.html): extract sublist 
+[**list.slice**](list.slice.html): выводит подсписок 
 
-[**list.sort**](list.sort.html): sorts list values by ascending order 
+[**list.sort**](list.sort.html): сортирует список в порядке возрастания 
 
-[**list.sort_with**](list.sort_with.html): sort list with user defined side-chain 
+[**list.sort_with**](list.sort_with.html): сортирует список при помощи боковой цепи обработки 
 
-[**list.split**](list.split.html): splits list into two parts, the length of first list is specified by the argument 
+[**list.split**](list.split.html): разделяет список на две части по указанному индексу 
 
-[**list.stretch**](list.stretch.html): stretches list - changes its size with linear interpolation 
+[**list.stretch**](list.stretch.html): изменяет длину списка, изменяя его значения с помощью линейной интерполяции 
 
-[**list.sum**](list.sum.html): calculates sum of floats in list 
+[**list.sum**](list.sum.html): вычисляет сумму элементов в списке 
 
-[**list.unique**](list.unique.html): removes duplicates from input list 
+[**list.unique**](list.unique.html): удаляет дубликаты из списка 
 
-[**list.unpack**](list.unpack.html): unpack list elements to separate outlets 
+[**list.unpack**](list.unpack.html): распаковывает элементы списка в соответствующие им выходы объекта 
 
-[**list.unzip**](list.unzip.html): splits list to N lists, each to separate output <br>
+[**list.unzip**](list.unzip.html): распаковывает входной список на N списков из чередующихся эелементов <br>
 _псевдонимы:_ \[list.deinterleave\]
 
 
-[**list.walk**](list.walk.html): walks through the list 
+[**list.walk**](list.walk.html): различные алгоритмы обхода элементов в списке 
 
-[**list.zip**](list.zip.html): takes n lists from n inlets (specified by argument) and output their elements sequentially (list1-1 list2-1 list1-2 list2-2 etc.). <br>
+[**list.zip**](list.zip.html): создает чередующийся список элементов из N входных списков <br>
 _псевдонимы:_ \[list.interleave\]
 
 

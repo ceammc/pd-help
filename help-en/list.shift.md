@@ -3,7 +3,7 @@
 
 # list.shift
 
-###### shifts the contents of the list with linear interpolation
+###### cyclic shift of a list by a real number with a linear Interpolation
 
 *available since version:* 0.1
 

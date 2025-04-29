@@ -3,7 +3,7 @@
 
 # fx.granulator~
 
-###### simple input stream granulator
+###### input stream granulator
 
 *available since version:* 0.7
 

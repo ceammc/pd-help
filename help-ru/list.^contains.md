@@ -6,7 +6,7 @@ layout: default_ru
 
 # list.^contains
 
-###### checks if input atom is found in the list
+###### проверяет, содержит ли предварительно заданный список входной элемент
 
 *доступно с версии:* 0.6
 

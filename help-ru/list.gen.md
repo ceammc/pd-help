@@ -6,7 +6,7 @@ layout: default_ru
 
 # list.gen
 
-###### generates list of specified length via external generator
+###### генерирует список указанной длины через генератор боковой цепи
 
 *доступно с версии:* 0.1
 

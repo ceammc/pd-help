@@ -6,7 +6,7 @@ layout: default_ru
 
 # preset.list
 
-###### load/store symbol preset
+###### загружает или сохраняет список в пресете
 
 *доступно с версии:* 0.4
 
@@ -95,7 +95,7 @@ _тип:_ control
 
 [preset](keywords/preset.html)
 [storage](keywords/storage.html)
-[symbol](keywords/symbol.html)
+[list](keywords/list.html)
 
 
 

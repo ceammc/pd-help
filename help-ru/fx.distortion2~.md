@@ -6,7 +6,7 @@ layout: default_ru
 
 # fx.distortion2~
 
-###### distortion #2 from Guitarix effects set
+###### дисторшн №2 из набора эффектов Guitarix
 
 *доступно с версии:* 0.7
 

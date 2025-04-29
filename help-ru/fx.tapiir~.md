@@ -6,7 +6,7 @@ layout: default_ru
 
 # fx.tapiir~
 
-###### multi-tap delay
+###### многоуровневая задержка
 
 *доступно с версии:* 0.9.4
 

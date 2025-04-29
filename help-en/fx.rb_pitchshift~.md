@@ -3,7 +3,7 @@
 
 # fx.rb_pitchshift~
 
-###### rubber band pitchshift
+###### pitchshift from the rubberband library
 
 *available since version:* 0.9.4
 

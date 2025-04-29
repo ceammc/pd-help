@@ -6,7 +6,7 @@ layout: default_ru
 
 # list.pass_if
 
-###### leave only elements accepted by predicate
+###### оставляет в списке только элементы, принятые предикатом боковой цепи обработки
 
 *доступно с версии:* 0.3
 
@@ -14,7 +14,7 @@ layout: default_ru
 
 
 ## информация
-Predicate object should accept atom and output 0 (remove element) or 1 (leave element).
+Predicate object should accept atom and output 0 (remove element) or 1 (leave element)
 
 
 [![example](../examples/img/list.pass_if.jpg)](../examples/pd/list.pass_if.pd)

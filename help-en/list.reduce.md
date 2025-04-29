@@ -5,7 +5,7 @@
 **aliases:** [list.foldl]
 
 
-###### apply function of two arguments cumulatively to the list
+###### transforms the list into a single value through side-chain processing
 
 *available since version:* 0.1
 

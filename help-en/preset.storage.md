@@ -3,7 +3,7 @@
 
 # preset.storage
 
-###### preset storage control
+###### preset storage controller
 
 *available since version:* 0.4
 

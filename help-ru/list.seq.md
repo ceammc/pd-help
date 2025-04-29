@@ -6,7 +6,7 @@ layout: default_ru
 
 # list.seq
 
-###### numeric sequence list generator
+###### генерирует последовательноть чисел в виде списка
 
 *доступно с версии:* 0.1
 

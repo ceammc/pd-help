@@ -6,7 +6,7 @@ layout: default_ru
 
 # fx.scramble~
 
-###### scramble delayed sound fragments
+###### скремблер задержанных звуковых фрагментов
 
 *доступно с версии:* 0.9.7
 

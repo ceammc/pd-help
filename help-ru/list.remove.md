@@ -6,7 +6,7 @@ layout: default_ru
 
 # list.remove
 
-###### remove list element(s) at specified positions
+###### удалить элементы списка по указанным позициям
 
 *доступно с версии:* 0.6
 

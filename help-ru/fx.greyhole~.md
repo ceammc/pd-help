@@ -6,7 +6,7 @@ layout: default_ru
 
 # fx.greyhole~
 
-###### A complex echo-like effect
+###### cложный эхоподобный эффект
 
 *доступно с версии:* 0.5
 

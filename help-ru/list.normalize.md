@@ -6,7 +6,7 @@ layout: default_ru
 
 # list.normalize
 
-###### normalizes float list values to get their sum = 1.0
+###### нормализует числовые значения списка, чтобы их сумма была равна единице
 
 *доступно с версии:* 0.1
 

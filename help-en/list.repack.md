@@ -3,7 +3,7 @@
 
 # list.repack
 
-###### repack list to specified size
+###### repack the list into a sequence of lists of the specified size
 
 *available since version:* 0.1
 

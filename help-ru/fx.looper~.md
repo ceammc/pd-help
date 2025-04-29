@@ -6,7 +6,7 @@ layout: default_ru
 
 # fx.looper~
 
-###### One track looper
+###### однодорожечный лупер
 
 *доступно с версии:* 0.5
 

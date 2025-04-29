@@ -3,7 +3,7 @@
 
 # fx.looper~
 
-###### One track looper
+###### a single track looper
 
 *available since version:* 0.5
 

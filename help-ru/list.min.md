@@ -6,7 +6,7 @@ layout: default_ru
 
 # list.min
 
-###### returns smallest element in the list
+###### возвращает наименьший элемент в списке
 
 *доступно с версии:* 0.1
 

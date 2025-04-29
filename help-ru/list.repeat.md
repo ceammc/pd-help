@@ -6,7 +6,7 @@ layout: default_ru
 
 # list.repeat
 
-###### output new list by repeating input list specified times
+###### создает список на основе повторов исходного списка
 
 *доступно с версии:* 0.1
 

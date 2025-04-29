@@ -6,7 +6,7 @@ layout: default_ru
 
 # list.max
 
-###### output the largest element in the list
+###### выводит самый большой элемент в списке
 
 *доступно с версии:* 0.1
 

@@ -6,7 +6,7 @@ layout: default_ru
 
 # list.append
 
-###### append atom or list to the end of input list
+###### добавляет элементы в конец списка
 
 *доступно с версии:* 0.6
 

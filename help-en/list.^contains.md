@@ -3,7 +3,7 @@
 
 # list.^contains
 
-###### checks if input atom is found in the list
+###### checks whether the predefined list contains the input element
 
 *available since version:* 0.6
 

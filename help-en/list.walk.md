@@ -3,7 +3,7 @@
 
 # list.walk
 
-###### walks through the list
+###### various algorithms for traversing elements in a list
 
 *available since version:* 0.1
 

@@ -3,7 +3,7 @@
 
 # list.prepend
 
-###### prepend atom or list before input list
+###### insert elements into a list begining
 
 *available since version:* 0.6
 

@@ -6,7 +6,7 @@ layout: default_ru
 
 # fx.freeverb2~
 
-###### stereo version of \[fx.freeverb~\]
+###### стерео версия \[fx.freeverb~\]
 
 *доступно с версии:* 0.2
 

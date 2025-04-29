@@ -3,7 +3,7 @@
 
 # list.seq
 
-###### numeric sequence list generator
+###### generates a sequence of numbers in the form of a list
 
 *available since version:* 0.1
 

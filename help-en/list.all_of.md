@@ -3,7 +3,7 @@
 
 # list.all_of
 
-###### checks if all list atoms accepted by predicate
+###### checks whether all elements of the list have been accepted by the predicate of the side chain processing
 
 *available since version:* 0.1
 

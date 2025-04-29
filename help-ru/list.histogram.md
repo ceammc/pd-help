@@ -6,7 +6,7 @@ layout: default_ru
 
 # list.histogram
 
-###### outputs distribution histogram
+###### выводит гистограмму распределений списка
 
 *доступно с версии:* 0.3
 

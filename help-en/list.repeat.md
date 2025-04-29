@@ -3,7 +3,7 @@
 
 # list.repeat
 
-###### output new list by repeating input list specified times
+###### creates a list based on the repetitions of the original list
 
 *available since version:* 0.1
 

@@ -6,7 +6,7 @@ layout: default_ru
 
 # list.delta
 
-###### returns the difference between the current list of floats and the previous one.
+###### выводит список разностей между текущим и предыдущим списком
 
 *доступно с версии:* 0.1
 

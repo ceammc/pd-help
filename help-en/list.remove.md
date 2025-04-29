@@ -3,7 +3,7 @@
 
 # list.remove
 
-###### remove list element(s) at specified positions
+###### remove list elements at specified positions
 
 *available since version:* 0.6
 

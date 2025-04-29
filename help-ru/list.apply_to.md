@@ -6,7 +6,7 @@ layout: default_ru
 
 # list.apply_to
 
-###### modifies list value at specified position, filtering it via external object
+###### обрабатывает указанные элементы списка через боковую церь обработки
 
 *доступно с версии:* 0.1
 

@@ -3,7 +3,7 @@
 
 # list.unpack
 
-###### unpack list elements to separate outlets
+###### unpacks list elements into corresponding object outlets
 
 *available since version:* 0.3
 

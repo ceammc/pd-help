@@ -6,7 +6,7 @@ layout: default_ru
 
 # list.unpack
 
-###### unpack list elements to separate outlets
+###### распаковывает элементы списка в соответствующие им выходы объекта
 
 *доступно с версии:* 0.3
 

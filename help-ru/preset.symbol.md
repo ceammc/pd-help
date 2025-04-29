@@ -6,7 +6,7 @@ layout: default_ru
 
 # preset.symbol
 
-###### load/store symbol preset
+###### загружает или сохраняет символ в пресет
 
 *доступно с версии:* 0.4
 

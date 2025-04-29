@@ -6,7 +6,7 @@ layout: default_ru
 
 # fx.freqshift~
 
-###### frequency shifter or single-sideband ring modulation
+###### сдвиг частоты или однополосный кольцевой модулятор
 
 *доступно с версии:* 0.1
 

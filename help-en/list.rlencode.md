@@ -5,7 +5,7 @@
 **aliases:** [list.wrap]
 
 
-###### RLE (run-length encoding) for lists
+###### run-length encoding for lists
 
 *available since version:* 0.1
 

@@ -6,7 +6,7 @@ layout: default_ru
 
 # fx.drone_box~
 
-###### mono sympathetic resonance generator
+###### одноканальный симпатический резонансный генератор
 
 *доступно с версии:* 0.6
 

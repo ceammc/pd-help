@@ -3,7 +3,7 @@
 
 # fx.pitchshift_s~
 
-###### signal version of fx.pitchshift~
+###### signal version of \[fx.pitchshift~\]
 
 *available since version:* 0.9
 

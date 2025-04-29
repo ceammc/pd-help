@@ -3,7 +3,7 @@
 
 # fx.freeverb~
 
-###### freeverb - commonly used open-source reverb
+###### commonly used open-source reverb
 
 *available since version:* 0.2
 

@@ -3,7 +3,7 @@
 
 # list.sort
 
-###### sorts list values by ascending order
+###### sorts the list in ascending orderr
 
 *available since version:* 0.1
 

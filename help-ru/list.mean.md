@@ -6,7 +6,7 @@ layout: default_ru
 
 # list.mean
 
-###### calculates average of list of floats
+###### вычисляет среднее значение в списке
 
 *доступно с версии:* 0.1
 

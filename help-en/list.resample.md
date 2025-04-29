@@ -5,7 +5,7 @@
 **aliases:** [list.r]
 
 
-###### resample list with specified ratio
+###### resamples the values in the list with the specified length ratio
 
 *available since version:* 0.9
 

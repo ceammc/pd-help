@@ -6,7 +6,7 @@ layout: default_ru
 
 # list.first
 
-###### returns first list element
+###### выводит первый элемент списка
 
 *доступно с версии:* 0.1
 

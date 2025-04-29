@@ -6,7 +6,7 @@ layout: default_ru
 
 # fx.room~
 
-###### Gardners room emulation algorithms
+###### алгоритм Гарднера для эмуляции комнаты
 
 *доступно с версии:* 0.9.4
 

@@ -3,7 +3,7 @@
 
 # list.product
 
-###### calculates product of floats in list
+###### calculates the product of all numbers in a list
 
 *available since version:* 0.1
 

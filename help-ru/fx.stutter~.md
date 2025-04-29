@@ -6,7 +6,7 @@ layout: default_ru
 
 # fx.stutter~
 
-###### stutter effect
+###### эффект заикания
 
 *доступно с версии:* 0.9.6
 

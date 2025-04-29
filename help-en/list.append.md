@@ -3,7 +3,7 @@
 
 # list.append
 
-###### append atom or list to the end of input list
+###### append elements to the end of a list
 
 *available since version:* 0.6
 

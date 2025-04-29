@@ -6,7 +6,7 @@ layout: default_ru
 
 # list.shift
 
-###### shifts the contents of the list with linear interpolation
+###### циклический сдвиг списка на вещественное число с линейной интерполяцией
 
 *доступно с версии:* 0.1
 

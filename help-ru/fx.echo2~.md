@@ -6,7 +6,7 @@ layout: default_ru
 
 # fx.echo2~
 
-###### stereo echo effect
+###### стерео эхо-эффект
 
 *доступно с версии:* 0.9.4
 

@@ -5,7 +5,7 @@
 **aliases:** [list.minmax]
 
 
-###### output list smallest and largest value
+###### outputs list smallest and largest elements
 
 *available since version:* 0.1
 

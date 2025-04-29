@@ -6,7 +6,7 @@ layout: default_ru
 
 # fx.jcrev~
 
-###### Schroeder quad reverberator from 1972
+###### квадрофонический ревербератор Шрёдера из 1972 года
 
 *доступно с версии:* 0.9.6
 

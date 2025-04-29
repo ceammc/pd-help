@@ -6,7 +6,7 @@ layout: default_ru
 
 # list.each
 
-###### maps each list value via external side-chain
+###### отображает каждое значение списка через внешнюю боковую цепь обработки
 
 *доступно с версии:* 0.1
 

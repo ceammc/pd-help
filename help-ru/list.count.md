@@ -6,7 +6,7 @@ layout: default_ru
 
 # list.count
 
-###### output the number of items that equal to specified value
+###### выводить количество элементов, равных заданному значению
 
 *доступно с версии:* 0.1
 

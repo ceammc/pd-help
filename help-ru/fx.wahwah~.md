@@ -6,7 +6,7 @@ layout: default_ru
 
 # fx.wahwah~
 
-###### digitized CryBaby wah pedal
+###### педаль CryBaby WahWah
 
 *доступно с версии:* 0.6
 

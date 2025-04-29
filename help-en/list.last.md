@@ -3,7 +3,7 @@
 
 # list.last
 
-###### output last list element
+###### output the last list element
 
 *available since version:* 0.1
 

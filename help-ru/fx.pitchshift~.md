@@ -6,7 +6,7 @@ layout: default_ru
 
 # fx.pitchshift~
 
-###### simple pitch shifter based on 2 delay lines
+###### простой питчшифтер на основе 2 линий задержки
 
 *доступно с версии:* 0.1
 

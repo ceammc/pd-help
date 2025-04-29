@@ -3,7 +3,7 @@
 
 # list.unique
 
-###### removes duplicates from input list
+###### removes duplicates from the list
 
 *available since version:* 0.1
 

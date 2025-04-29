@@ -3,7 +3,7 @@
 
 # fx.dattorro~
 
-###### dattorro reverb
+###### Dattorro reverb
 
 *available since version:* 0.9.6
 

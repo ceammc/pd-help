@@ -6,7 +6,7 @@ layout: default_ru
 
 # list.any_of
 
-###### checks if at least one list element is accepted by predicate
+###### проверяет, был ли принят хотя бы один элемент списка предикатом боковой цепи обработки
 
 *доступно с версии:* 0.1
 

@@ -6,7 +6,7 @@ layout: default_ru
 
 # list.route
 
-###### acts like \[route\] but for lists
+###### маршрутизирует список по первому элементу, как объект \[route\]
 
 *доступно с версии:* 0.5
 

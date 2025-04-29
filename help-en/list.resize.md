@@ -3,7 +3,7 @@
 
 # list.resize
 
-###### changes list size
+###### changes the list size
 
 *available since version:* 0.1
 

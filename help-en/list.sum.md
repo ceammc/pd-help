@@ -3,7 +3,7 @@
 
 # list.sum
 
-###### calculates sum of floats in list
+###### calculates the sum of the elements in the list
 
 *available since version:* 0.1
 

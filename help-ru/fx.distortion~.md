@@ -6,7 +6,7 @@ layout: default_ru
 
 # fx.distortion~
 
-###### cubic nonlinearity distortion
+###### кубический нелинейный дисторшн
 
 *доступно с версии:* 0.2
 

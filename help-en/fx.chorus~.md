@@ -3,7 +3,7 @@
 
 # fx.chorus~
 
-###### Chorus effect
+###### chorus effect
 
 *available since version:* 0.7
 

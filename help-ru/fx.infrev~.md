@@ -6,7 +6,7 @@ layout: default_ru
 
 # fx.infrev~
 
-###### port of Infinity VST plugin from airwindows
+###### порт плагина Infinity VST из &#34;airwindows&#34;
 
 *доступно с версии:* 0.9.3
 

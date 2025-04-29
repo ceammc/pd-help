@@ -6,7 +6,7 @@ layout: default_ru
 
 # fx.delay~
 
-###### smooth delay with a feedback control
+###### плавный дилей с контролем обратной связи
 
 *доступно с версии:* 0.6
 

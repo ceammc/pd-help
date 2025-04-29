@@ -6,7 +6,7 @@ layout: default_ru
 
 # list.resize
 
-###### changes list size
+###### изменяет длину списка
 
 *доступно с версии:* 0.1
 

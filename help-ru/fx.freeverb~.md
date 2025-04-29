@@ -6,7 +6,7 @@ layout: default_ru
 
 # fx.freeverb~
 
-###### freeverb - commonly used open-source reverb
+###### широко используемый ревербератор с открытым исходным кодом
 
 *доступно с версии:* 0.2
 

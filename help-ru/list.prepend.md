@@ -6,7 +6,7 @@ layout: default_ru
 
 # list.prepend
 
-###### prepend atom or list before input list
+###### вставить элементы в начало списка
 
 *доступно с версии:* 0.6
 

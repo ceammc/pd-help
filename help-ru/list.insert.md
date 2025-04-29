@@ -6,7 +6,7 @@ layout: default_ru
 
 # list.insert
 
-###### insert atom or list to the specified position of input list
+###### вставляет элементы в указанную позицию в списке
 
 *доступно с версии:* 0.6
 

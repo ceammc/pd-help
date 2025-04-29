@@ -3,7 +3,7 @@
 
 # list.distribution
 
-###### list value distribution
+###### output list value distribution
 
 *available since version:* 0.1
 

@@ -705,9 +705,9 @@ various sound effects
 
 [**fx.bitdown\~**](fx.bitdown~.html): a bit downer and downsampler effect 
 
-[**fx.chorus\~**](fx.chorus~.html): Chorus effect 
+[**fx.chorus\~**](fx.chorus~.html): chorus effect 
 
-[**fx.dattorro\~**](fx.dattorro~.html): dattorro reverb 
+[**fx.dattorro\~**](fx.dattorro~.html): Dattorro reverb 
 
 [**fx.delay\~**](fx.delay~.html): smooth delay with a feedback control 
 
@@ -729,35 +729,35 @@ various sound effects
 
 [**fx.flanger\~**](fx.flanger~.html): mono flanging effect 
 
-[**fx.freeverb2\~**](fx.freeverb2~.html): stereo version of \[fx.freeverb~\] 
+[**fx.freeverb2\~**](fx.freeverb2~.html): a stereo version of \[fx.freeverb~\] 
 
-[**fx.freeverb\~**](fx.freeverb~.html): freeverb - commonly used open-source reverb 
+[**fx.freeverb\~**](fx.freeverb~.html): commonly used open-source reverb 
 
-[**fx.freqshift\~**](fx.freqshift~.html): frequency shifter or single-sideband ring modulation 
+[**fx.freqshift\~**](fx.freqshift~.html): frequency shifter or the single-sideband ring modulation 
 
-[**fx.granulator\~**](fx.granulator~.html): simple input stream granulator 
+[**fx.granulator\~**](fx.granulator~.html): input stream granulator 
 
-[**fx.greyhole\~**](fx.greyhole~.html): A complex echo-like effect 
+[**fx.greyhole\~**](fx.greyhole~.html): a complex echo-like effect 
 
-[**fx.infrev\~**](fx.infrev~.html): port of Infinity VST plugin from airwindows 
+[**fx.infrev\~**](fx.infrev~.html): port of Infinity VST plugin from &#34;airwindows&#34; 
 
 [**fx.jcrev\~**](fx.jcrev~.html): Schroeder quad reverberator from 1972 
 
-[**fx.looper\~**](fx.looper~.html): One track looper 
+[**fx.looper\~**](fx.looper~.html): a single track looper 
 
 [**fx.overdrive\~**](fx.overdrive~.html): overdrive effect 
 
-[**fx.pitchshift_s\~**](fx.pitchshift_s~.html): signal version of fx.pitchshift~ 
+[**fx.pitchshift_s\~**](fx.pitchshift_s~.html): signal version of \[fx.pitchshift~\] 
 
 [**fx.pitchshift\~**](fx.pitchshift~.html): simple pitch shifter based on 2 delay lines 
 
-[**fx.rb_pitchshift\~**](fx.rb_pitchshift~.html): rubber band pitchshift 
+[**fx.rb_pitchshift\~**](fx.rb_pitchshift~.html): pitchshift from the rubberband library 
 
 [**fx.recho\~**](fx.recho~.html): reversed echo effect 
 
 [**fx.ringmod\~**](fx.ringmod~.html): ring modulator effect 
 
-[**fx.room\~**](fx.room~.html): Gardners room emulation algorithms 
+[**fx.room\~**](fx.room~.html): Gardners room emulation algorithm 
 
 [**fx.satrev\~**](fx.satrev~.html): Schroeder reverberator from 1971 
 
@@ -769,13 +769,13 @@ various sound effects
 
 [**fx.tapiir\~**](fx.tapiir~.html): multi-tap delay 
 
-[**fx.tremolo\~**](fx.tremolo~.html): tremolo effect from guitarix project 
+[**fx.tremolo\~**](fx.tremolo~.html): tremolo effect from Guitarix project 
 
 [**fx.vocoder\~**](fx.vocoder~.html): very simple vocoder where the spectrum of the modulation signal is analyzed using a 32-band filter bank 
 
 [**fx.wahwah\~**](fx.wahwah~.html): digitized CryBaby wah pedal 
 
-[**fx.zita_rev1\~**](fx.zita_rev1~.html): Zita stereo reverb 
+[**fx.zita_rev1\~**](fx.zita_rev1~.html): zita stereo reverb 
 
 
 ### <a id="cat_global" href="category_global.html">global</a>
@@ -896,145 +896,145 @@ list processing
 ---
 
 
-[**list.^at**](list.%5Eat.html): on input index(es) outputs list element(s) 
+[**list.^at**](list.%5Eat.html): outputs elements from a predefined list based on an input list of indices 
 
-[**list.^contains**](list.%5Econtains.html): checks if input atom is found in the list 
+[**list.^contains**](list.%5Econtains.html): checks whether the predefined list contains the input element 
 
-[**list.^search**](list.%5Esearch.html): on input atom returns it index in list 
+[**list.^search**](list.%5Esearch.html): outputs the indices of the found input elements in a predefined list 
 
-[**list.all_of**](list.all_of.html): checks if all list atoms accepted by predicate 
+[**list.all_of**](list.all_of.html): checks whether all elements of the list have been accepted by the predicate of the side chain processing 
 
-[**list.any_of**](list.any_of.html): checks if at least one list element is accepted by predicate 
+[**list.any_of**](list.any_of.html): checks whether at least one list element has been accepted by the processing sidechain 
 
-[**list.append**](list.append.html): append atom or list to the end of input list 
+[**list.append**](list.append.html): append elements to the end of a list 
 
-[**list.apply_to**](list.apply_to.html): modifies list value at specified position, filtering it via external object 
+[**list.apply_to**](list.apply_to.html): modifies specified list elements via a side-chain 
 
-[**list.at**](list.at.html): outputs list element(s) at specified index(es) 
+[**list.at**](list.at.html): outputs the previously specified elements of the input list 
 
 [**list.choice**](list.choice.html): outputs random element from list 
 
-[**list.contains**](list.contains.html): checks if input list contains specified atoms 
+[**list.contains**](list.contains.html): checks if the input list contains specified elements 
 
 [**list.convolve**](list.convolve.html): convolution for lists 
 
-[**list.correlate**](list.correlate.html): list cross-correlation 
+[**list.correlate**](list.correlate.html): lists cross-correlation 
 
 [**list.count**](list.count.html): output the number of items that equal to specified value 
 
-[**list.count_if**](list.count_if.html): output the number of items that satisfy to external predicate 
+[**list.count_if**](list.count_if.html): output the number of items that satisfy to an side-chain predicate 
 
-[**list.delta**](list.delta.html): returns the difference between the current list of floats and the previous one. 
+[**list.delta**](list.delta.html): output the list of differences between the current list and the previous one 
 
-[**list.distribution**](list.distribution.html): list value distribution 
+[**list.distribution**](list.distribution.html): output list value distribution 
 
-[**list.do**](list.do.html): iterate and modify list contents via side-chain 
+[**list.do**](list.do.html): iterate and modify the list contents via a side-chain 
 
-[**list.each**](list.each.html): maps each list value via external side-chain 
+[**list.each**](list.each.html): maps an each list value via an external side-chain 
 
-[**list.enumerate**](list.enumerate.html): enumerates input list 
+[**list.enumerate**](list.enumerate.html): enumerates list elements 
 
-[**list.equal**](list.equal.html): checks if given lists are equal 
+[**list.equal**](list.equal.html): list equal check 
 
-[**list.first**](list.first.html): returns first list element 
+[**list.first**](list.first.html): output the first list element 
 
-[**list.gen**](list.gen.html): generates list of specified length via external generator 
+[**list.gen**](list.gen.html): generates a list of the specified length via a side-chain generator 
 
-[**list.histogram**](list.histogram.html): outputs distribution histogram 
+[**list.histogram**](list.histogram.html): outputs a list distribution histogram 
 
-[**list.insert**](list.insert.html): insert atom or list to the specified position of input list 
+[**list.insert**](list.insert.html): insert elements into the specified list position 
 
-[**list.integrator**](list.integrator.html): returns the sum of the previously stored list and the current one then stores this sum 
+[**list.integrator**](list.integrator.html): returns the sum of the previously stored list and the current one 
 
-[**list.last**](list.last.html): output last list element 
+[**list.last**](list.last.html): output the last list element 
 
-[**list.length**](list.length.html): output the number of atoms in the list 
+[**list.length**](list.length.html): output the number of elements in the list 
 
 [**list.map**](list.map.html): map list values by specified dictionary 
 
-[**list.max**](list.max.html): output the largest element in the list 
+[**list.max**](list.max.html): output the largest list element 
 
-[**list.mean**](list.mean.html): calculates average of list of floats 
+[**list.mean**](list.mean.html): calculates the average value in a list 
 
-[**list.min**](list.min.html): returns smallest element in the list 
+[**list.min**](list.min.html): returns a smallest list element 
 
-[**list.none_of**](list.none_of.html): checks if none of list atoms is accepted by predicate 
+[**list.none_of**](list.none_of.html): checks if none of list elements is accepted by the predicate side-chain 
 
-[**list.normalize**](list.normalize.html): normalizes float list values to get their sum = 1.0 
+[**list.normalize**](list.normalize.html): normalizes numeric list values to get their sum equal to 1.0 
 
 [**list.pass**](list.pass.html): leave in list only specified elements 
 
-[**list.pass_if**](list.pass_if.html): leave only elements accepted by predicate 
+[**list.pass_if**](list.pass_if.html): leave only elements accepted by side-chain predicate 
 
-[**list.prepend**](list.prepend.html): prepend atom or list before input list 
+[**list.prepend**](list.prepend.html): insert elements into a list begining 
 
-[**list.product**](list.product.html): calculates product of floats in list 
+[**list.product**](list.product.html): calculates the product of all numbers in a list 
 
-[**list.range**](list.range.html): output list smallest and largest value 
+[**list.range**](list.range.html): outputs list smallest and largest elements 
 
-[**list.reduce**](list.reduce.html): apply function of two arguments cumulatively to the list 
+[**list.reduce**](list.reduce.html): transforms the list into a single value through side-chain processing 
 
-[**list.reject**](list.reject.html): remove specified element from list 
+[**list.reject**](list.reject.html): remove specified elements from the list 
 
-[**list.remove**](list.remove.html): remove list element(s) at specified positions 
+[**list.remove**](list.remove.html): remove list elements at specified positions 
 
-[**list.remove_if**](list.remove_if.html): remove elements by predicate 
+[**list.remove_if**](list.remove_if.html): remove list elements by the side-chain predicate 
 
-[**list.repack**](list.repack.html): repack list to specified size 
+[**list.repack**](list.repack.html): repack the list into a sequence of lists of the specified size 
 
-[**list.repeat**](list.repeat.html): output new list by repeating input list specified times 
+[**list.repeat**](list.repeat.html): creates a list based on the repetitions of the original list 
 
-[**list.resample**](list.resample.html): resample list with specified ratio 
+[**list.resample**](list.resample.html): resamples the values in the list with the specified length ratio 
 
-[**list.resize**](list.resize.html): changes list size 
+[**list.resize**](list.resize.html): changes the list size 
 
 [**list.reverse**](list.reverse.html): reverses the order of the elements in the list 
 
-[**list.rldecode**](list.rldecode.html): Run-length list decoder (RLE) 
+[**list.rldecode**](list.rldecode.html): run-length decoding lists 
 
-[**list.rlencode**](list.rlencode.html): RLE (run-length encoding) for lists 
+[**list.rlencode**](list.rlencode.html): run-length encoding for lists 
 
-[**list.rotate**](list.rotate.html): rotates list 
+[**list.rotate**](list.rotate.html): a cyclic list rotation by an integer number of steps 
 
-[**list.route**](list.route.html): acts like \[route\] but for lists 
+[**list.route**](list.route.html): routes the list by the first element, like \[route\] object 
 
-[**list.rundiff**](list.rundiff.html): running difference 
+[**list.rundiff**](list.rundiff.html): сomputes the difference between the adjacent elements of the input list 
 
-[**list.runsum**](list.runsum.html): running sum 
+[**list.runsum**](list.runsum.html): outputs the list of positional sums which is updated upon each incoming list 
 
-[**list.search**](list.search.html): search specified items in input list 
+[**list.search**](list.search.html): outputs the positions of pre-defined elements in the input list 
 
-[**list.separate**](list.separate.html): sends list elements one by one separately 
+[**list.separate**](list.separate.html): outputs each list item in turn as a separate message 
 
-[**list.seq**](list.seq.html): numeric sequence list generator 
+[**list.seq**](list.seq.html): generates a sequence of numbers in the form of a list 
 
-[**list.set**](list.set.html): set list value at specified position 
+[**list.set**](list.set.html): sets the value of the list item at the specified position 
 
-[**list.shift**](list.shift.html): shifts the contents of the list with linear interpolation 
+[**list.shift**](list.shift.html): cyclic shift of a list by a real number with a linear Interpolation 
 
-[**list.shuffle**](list.shuffle.html): randomly rearranges elements in list 
+[**list.shuffle**](list.shuffle.html): rearranges the elements of the list in a random order 
 
-[**list.slice**](list.slice.html): extract sublist 
+[**list.slice**](list.slice.html): outputs a sublist 
 
-[**list.sort**](list.sort.html): sorts list values by ascending order 
+[**list.sort**](list.sort.html): sorts the list in ascending orderr 
 
-[**list.sort_with**](list.sort_with.html): sort list with user defined side-chain 
+[**list.sort_with**](list.sort_with.html): sorts the list using a side processing chain 
 
-[**list.split**](list.split.html): splits list into two parts, the length of first list is specified by the argument 
+[**list.split**](list.split.html): divides the list into two parts at the specified index position 
 
-[**list.stretch**](list.stretch.html): stretches list - changes its size with linear interpolation 
+[**list.stretch**](list.stretch.html): changes the length of the list by adjusting its values using linear interpolation 
 
-[**list.sum**](list.sum.html): calculates sum of floats in list 
+[**list.sum**](list.sum.html): calculates the sum of the elements in the list 
 
-[**list.unique**](list.unique.html): removes duplicates from input list 
+[**list.unique**](list.unique.html): removes duplicates from the list 
 
-[**list.unpack**](list.unpack.html): unpack list elements to separate outlets 
+[**list.unpack**](list.unpack.html): unpacks list elements into corresponding object outlets 
 
-[**list.unzip**](list.unzip.html): splits list to N lists, each to separate output 
+[**list.unzip**](list.unzip.html): unpacks the input list into N lists of interleaved elements 
 
-[**list.walk**](list.walk.html): walks through the list 
+[**list.walk**](list.walk.html): various algorithms for traversing elements in a list 
 
-[**list.zip**](list.zip.html): takes n lists from n inlets (specified by argument) and output their elements sequentially (list1-1 list2-1 list1-2 list2-2 etc.). 
+[**list.zip**](list.zip.html): creates an interleaved list of items from N input lists 
 
 
 ### <a id="cat_live" href="category_live.html">live</a>
@@ -1577,18 +1577,18 @@ predicate objects. Checks message or data types, returns 1 or 0.
 
 
 ### <a id="cat_preset" href="category_preset.html">preset</a>
-
+working with presets
 
 ---
 
 
-[**preset.float**](preset.float.html): load/store float preset 
+[**preset.float**](preset.float.html): load or store the float into a preset 
 
-[**preset.list**](preset.list.html): load/store symbol preset 
+[**preset.list**](preset.list.html): loads or store the list into a preset 
 
-[**preset.storage**](preset.storage.html): preset storage control 
+[**preset.storage**](preset.storage.html): preset storage controller 
 
-[**preset.symbol**](preset.symbol.html): load/store symbol preset 
+[**preset.symbol**](preset.symbol.html): load or store the symbol into a preset 
 
 
 ### <a id="cat_property" href="category_property.html">property</a>

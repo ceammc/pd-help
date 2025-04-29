@@ -6,7 +6,7 @@ layout: default_ru
 
 # list.resample
 
-###### resample list with specified ratio
+###### пересемплирует значения в списке с указанным соотношением длины
 
 *доступно с версии:* 0.9
 

@@ -5,7 +5,7 @@
 **aliases:** [list.average]
 
 
-###### calculates average of list of floats
+###### calculates the average value in a list
 
 *available since version:* 0.1
 

@@ -6,7 +6,7 @@ layout: default_ru
 
 # list.length
 
-###### output the number of atoms in the list
+###### выводит количество элементов в списке
 
 *доступно с версии:* 0.1
 

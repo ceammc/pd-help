@@ -6,7 +6,7 @@ layout: default_ru
 
 # list.remove_if
 
-###### remove elements by predicate
+###### удалить элементы списка при помощи предиката боковой цепи
 
 *доступно с версии:* 0.1
 

@@ -5,7 +5,7 @@
 **aliases:** [preset.s]
 
 
-###### load/store symbol preset
+###### load or store the symbol into a preset
 
 *available since version:* 0.4
 

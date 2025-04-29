@@ -3,7 +3,7 @@
 
 # list.equal
 
-###### checks if given lists are equal
+###### list equal check
 
 *available since version:* 0.1
 

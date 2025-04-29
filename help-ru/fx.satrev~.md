@@ -6,7 +6,7 @@ layout: default_ru
 
 # fx.satrev~
 
-###### Schroeder reverberator from 1971
+###### ревербератор Шрёдера 1971 года
 
 *доступно с версии:* 0.9.6
 

@@ -6,7 +6,7 @@ layout: default_ru
 
 # xfade~
 
-###### multi signal crossfade
+###### многоканальный кроссфейд
 
 *доступно с версии:* 0.6
 

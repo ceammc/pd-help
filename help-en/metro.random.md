@@ -3,7 +3,7 @@
 
 # metro.random
 
-###### metro random bang with specified range
+###### a metronome with a random period selection within a specified range
 
 *available since version:* 0.9
 

@@ -5,7 +5,7 @@
 **aliases:** [ceammc/split\~]
 
 
-###### parametrized signal splitter
+###### parametrized multichannel signal splitter
 
 *available since version:* 0.9.7
 

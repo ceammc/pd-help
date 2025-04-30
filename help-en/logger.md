@@ -5,7 +5,7 @@
 **aliases:** [ceammc/logger], [log.error], [log.post], [log.debug], [log.verbose], [log.stdout], [log.stderr]
 
 
-###### advanced data logger
+###### advanced data logger for Pd window
 
 *available since version:* 0.9.1
 

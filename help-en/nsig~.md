@@ -5,7 +5,7 @@
 **aliases:** [ceammc/nsig\~]
 
 
-###### multichannel converter from control to audio rate
+###### multichannel converter from the control signals to audio
 
 *available since version:* 0.9
 

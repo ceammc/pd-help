@@ -6,7 +6,7 @@ layout: default_ru
 
 # xdac~
 
-###### dac~ with channel ranges
+###### \[dac~\] с диапазонами каналов
 
 *доступно с версии:* 0.8
 

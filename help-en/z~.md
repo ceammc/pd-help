@@ -5,7 +5,7 @@
 **aliases:** [ceammc/z\~]
 
 
-###### sample delay
+###### integer sample delay
 
 *available since version:* 0.9.5
 

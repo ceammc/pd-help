@@ -5,7 +5,7 @@
 **aliases:** [ceammc/xfade\~]
 
 
-###### multi signal crossfade
+###### multichannel crossfade
 
 *available since version:* 0.6
 

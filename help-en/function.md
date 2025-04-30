@@ -5,7 +5,7 @@
 **aliases:** [func], [ceammc/func], [ceammc/function]
 
 
-###### named function
+###### the named function
 
 *available since version:* 0.3
 

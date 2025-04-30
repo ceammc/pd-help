@@ -3,7 +3,7 @@
 
 # obj.props
 
-###### property extractor
+###### exctract object properties from the connected object
 
 *available since version:* 0.7
 

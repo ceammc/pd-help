@@ -5,7 +5,7 @@
 **aliases:** [ceammc/xdac\~]
 
 
-###### dac~ with channel ranges
+###### \[dac~\] with channel ranges
 
 *available since version:* 0.8
 

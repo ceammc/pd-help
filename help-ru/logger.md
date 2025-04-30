@@ -6,7 +6,7 @@ layout: default_ru
 
 # logger
 
-###### advanced data logger
+###### продвинутый логгер для окна Pd
 
 *доступно с версии:* 0.9.1
 

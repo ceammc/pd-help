@@ -6,7 +6,7 @@ layout: default_ru
 
 # obj.props
 
-###### property extractor
+###### извлекает свойства из подключенного объекта
 
 *доступно с версии:* 0.7
 

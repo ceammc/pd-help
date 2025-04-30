@@ -6,7 +6,7 @@ layout: default_ru
 
 # merge~
 
-###### parametrized signal merge
+###### слияние аудиосигналов
 
 *доступно с версии:* 0.9.7
 

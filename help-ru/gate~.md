@@ -6,7 +6,7 @@ layout: default_ru
 
 # gate~
 
-###### multislot signal gate
+###### многоканальный гейт для сигналов
 
 *доступно с версии:* 0.9.7
 

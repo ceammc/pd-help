@@ -5,7 +5,7 @@
 **aliases:** [ceammc/gate\~]
 
 
-###### multislot signal gate
+###### multichannel signal gate
 
 *available since version:* 0.9.7
 

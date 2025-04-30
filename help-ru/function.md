@@ -6,7 +6,7 @@ layout: default_ru
 
 # function
 
-###### named function
+###### именованная функция
 
 *доступно с версии:* 0.3
 

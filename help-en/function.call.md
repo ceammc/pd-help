@@ -5,7 +5,7 @@
 **aliases:** [func.call]
 
 
-###### call named function
+###### calls the named function
 
 *available since version:* 0.3
 

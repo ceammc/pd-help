@@ -6,7 +6,7 @@ layout: default_ru
 
 # nsig~
 
-###### multichannel converter from control to audio rate
+###### многоканальный преобразователь управляющих сигналов в звуковые
 
 *доступно с версии:* 0.9
 

@@ -6,7 +6,7 @@ layout: default_ru
 
 # gain~
 
-###### multislot signal gain
+###### многоканальное усиление сигнала
 
 *доступно с версии:* 0.6
 

@@ -3,7 +3,7 @@
 
 # metro.wchoice
 
-###### metro with weighted random choice from timeset
+###### a metronome with a random selection of period at each beat from a specified list with weighted coefficients
 
 *available since version:* 0.9.7
 

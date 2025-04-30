@@ -6,7 +6,7 @@ layout: default_ru
 
 # split~
 
-###### parametrized signal splitter
+###### параметризованный многоканальный сплиттер сигналов
 
 *доступно с версии:* 0.9.7
 

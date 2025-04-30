@@ -6,7 +6,7 @@ layout: default_ru
 
 # metro.pattern
 
-###### metro with rhythmic patterns
+###### метроном с ритмическими паттернами
 
 *доступно с версии:* 0.5
 

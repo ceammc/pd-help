@@ -6,7 +6,7 @@ layout: default_ru
 
 # ceammc.search
 
-###### ceammc library search object
+###### поиск в библиотеке \[ceammc\]
 
 *доступно с версии:* 0.9.1
 

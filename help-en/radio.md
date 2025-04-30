@@ -5,7 +5,7 @@
 **aliases:** [ceammc/radio]
 
 
-###### float index to outlet values as radio switch
+###### upon receiving the index, the state of individual outputs is established as a radio switch
 
 *available since version:* 0.6
 

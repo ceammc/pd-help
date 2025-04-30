@@ -146,66 +146,66 @@ working with arrays and tables
 
 
 ### <a id="cat_base" href="category_base.html">base</a>
-
+basic general-purpose objects for working with sound
 
 ---
 
 
 [**bitmap**](bitmap.html): binary image (2D bit matrix) 
 
-[**ceammc.search**](ceammc.search.html): ceammc library search object 
+[**ceammc.search**](ceammc.search.html): search in the \[ceammc\] library 
 
-[**chrono.datetime**](chrono.datetime.html): output current date and time info 
+[**chrono.datetime**](chrono.datetime.html): outputs the current date and time 
 
 [**convolve\~**](convolve~.html): real-time FFT convolution 
 
-[**function**](function.html): named function 
+[**function**](function.html): the named function 
 
-[**function.call**](function.call.html): call named function 
+[**function.call**](function.call.html): calls the named function 
 
-[**gain\~**](gain~.html): multislot signal gain 
+[**gain\~**](gain~.html): multichannel signal gain 
 
-[**gate\~**](gate~.html): multislot signal gate 
+[**gate\~**](gate~.html): multichannel signal gate 
 
-[**logger**](logger.html): advanced data logger 
+[**logger**](logger.html): advanced data logger for Pd window 
 
 [**matrix\~**](matrix~.html): signal routing matrix 
 
-[**merge\~**](merge~.html): parametrized signal merge 
+[**merge\~**](merge~.html): merge audio signals 
 
-[**metro.choice**](metro.choice.html): metro with random choice from timeset 
+[**metro.choice**](metro.choice.html): a metronome that randomly selects a period for each beat from a given set 
 
-[**metro.pattern**](metro.pattern.html): metro with rhythmic patterns 
+[**metro.pattern**](metro.pattern.html): metronome with rhythmic patterns 
 
-[**metro.random**](metro.random.html): metro random bang with specified range 
+[**metro.random**](metro.random.html): a metronome with a random period selection within a specified range 
 
-[**metro.seq**](metro.seq.html): metro sequencer 
+[**metro.seq**](metro.seq.html): a metronome that changes its period with each beat in the specified sequence 
 
-[**metro.wchoice**](metro.wchoice.html): metro with weighted random choice from timeset 
+[**metro.wchoice**](metro.wchoice.html): a metronome with a random selection of period at each beat from a specified list with weighted coefficients 
 
-[**mix\~**](mix~.html): multislot signal mixer 
+[**mix\~**](mix~.html): multichannel signal mixer 
 
-[**nsig\~**](nsig~.html): multichannel converter from control to audio rate 
+[**nsig\~**](nsig~.html): multichannel converter from the control signals to audio 
 
-[**obj.props**](obj.props.html): property extractor 
+[**obj.props**](obj.props.html): exctract object properties from the connected object 
 
-[**radio**](radio.html): float index to outlet values as radio switch 
+[**radio**](radio.html): upon receiving the index, the state of individual outputs is established as a radio switch 
 
-[**split\~**](split~.html): parametrized signal splitter 
+[**split\~**](split~.html): parametrized multichannel signal splitter 
 
-[**spring**](spring.html): float value &#34;spring&#34; 
+[**spring**](spring.html): behaves like a spring, bouncing back to its original state 
 
-[**sync**](sync.html): value synchronization 
+[**sync**](sync.html): synchronization of multiple values without overflowing stack loops 
 
-[**window**](window.html): returns window value by given window position 
+[**window**](window.html): returns the value of the window function 
 
-[**xdac\~**](xdac~.html): dac~ with channel ranges 
+[**xdac\~**](xdac~.html): \[dac~\] with channel ranges 
 
-[**xfade2\~**](xfade2~.html): multi stereo-signal crossfade 
+[**xfade2\~**](xfade2~.html): multi-channel crossfade for stereo signals 
 
-[**xfade\~**](xfade~.html): multi signal crossfade 
+[**xfade\~**](xfade~.html): multichannel crossfade 
 
-[**z\~**](z~.html): sample delay 
+[**z\~**](z~.html): integer sample delay 
 
 
 ### <a id="cat_chaos" href="category_chaos.html">chaos</a>

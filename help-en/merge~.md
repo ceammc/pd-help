@@ -5,7 +5,7 @@
 **aliases:** [ceammc/merge\~]
 
 
-###### parametrized signal merge
+###### merge audio signals
 
 *available since version:* 0.9.7
 

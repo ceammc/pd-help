@@ -5,7 +5,7 @@
 **aliases:** [ceammc/gain\~]
 
 
-###### multislot signal gain
+###### multichannel signal gain
 
 *available since version:* 0.6
 

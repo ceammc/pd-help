@@ -5,7 +5,7 @@
 **aliases:** [ceammc/window], [ceammc/win], [win]
 
 
-###### returns window value by given window position
+###### returns the value of the window function
 
 *available since version:* 0.4
 

@@ -5,7 +5,7 @@
 **aliases:** [ceammc/sync]
 
 
-###### value synchronization
+###### synchronization of multiple values without overflowing stack loops
 
 *available since version:* 0.9.1
 

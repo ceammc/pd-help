@@ -3,7 +3,7 @@
 
 # metro.choice
 
-###### metro with random choice from timeset
+###### a metronome that randomly selects a period for each beat from a given set
 
 *available since version:* 0.9.7
 

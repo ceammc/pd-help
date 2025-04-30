@@ -6,7 +6,7 @@ layout: default_ru
 
 # matrix~
 
-###### signal routing matrix
+###### матрица маршрутизации сигналов
 
 *доступно с версии:* 0.6
 

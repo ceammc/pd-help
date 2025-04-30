@@ -6,7 +6,7 @@ layout: default_ru
 
 # metro.random
 
-###### metro random bang with specified range
+###### метроном со случайным выбором периода в указанном диапазоне
 
 *доступно с версии:* 0.9
 

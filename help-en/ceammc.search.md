@@ -3,7 +3,7 @@
 
 # ceammc.search
 
-###### ceammc library search object
+###### search in the \[ceammc\] library
 
 *available since version:* 0.9.1
 

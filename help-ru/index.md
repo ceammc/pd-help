@@ -149,66 +149,66 @@ layout: default_ru
 
 
 ### <a id="cat_base" href="category_base.html">base</a>
-
+базовые объекты общего назначения при работе со звуком
 
 ---
 
 
 [**bitmap**](bitmap.html): бинарное изображение (битовая 2D-матрица)
 
-[**ceammc.search**](ceammc.search.html): ceammc library search object
+[**ceammc.search**](ceammc.search.html): поиск в библиотеке \[ceammc\]
 
-[**chrono.datetime**](chrono.datetime.html): output current date and time info
+[**chrono.datetime**](chrono.datetime.html): выводит текущую дату и время
 
 [**convolve~**](convolve~.html): свёртка FFT в реальном времени
 
-[**function**](function.html): named function
+[**function**](function.html): именованная функция
 
-[**function.call**](function.call.html): call named function
+[**function.call**](function.call.html): вызывает именованную функцию
 
-[**gain~**](gain~.html): multislot signal gain
+[**gain~**](gain~.html): многоканальное усиление сигнала
 
-[**gate~**](gate~.html): multislot signal gate
+[**gate~**](gate~.html): многоканальный гейт для сигналов
 
-[**logger**](logger.html): advanced data logger
+[**logger**](logger.html): продвинутый логгер для окна Pd
 
-[**matrix~**](matrix~.html): signal routing matrix
+[**matrix~**](matrix~.html): матрица маршрутизации сигналов
 
-[**merge~**](merge~.html): parametrized signal merge
+[**merge~**](merge~.html): слияние аудиосигналов
 
-[**metro.choice**](metro.choice.html): metro with random choice from timeset
+[**metro.choice**](metro.choice.html): метроном со случайным выбором периода при каждом ударе из заданного списка
 
-[**metro.pattern**](metro.pattern.html): metro with rhythmic patterns
+[**metro.pattern**](metro.pattern.html): метроном с ритмическими паттернами
 
-[**metro.random**](metro.random.html): metro random bang with specified range
+[**metro.random**](metro.random.html): метроном со случайным выбором периода в указанном диапазоне
 
-[**metro.seq**](metro.seq.html): metro sequencer
+[**metro.seq**](metro.seq.html): метроном изменяющий свой период при каждом ударе в указанной последовательности
 
-[**metro.wchoice**](metro.wchoice.html): metro with weighted random choice from timeset
+[**metro.wchoice**](metro.wchoice.html): метроном со случайным выбором периода при каждом ударе из заданного списка с весовыми коэффициентами
 
-[**mix~**](mix~.html): multislot signal mixer
+[**mix~**](mix~.html): многоканальный микшер сигналов
 
-[**nsig~**](nsig~.html): multichannel converter from control to audio rate
+[**nsig~**](nsig~.html): многоканальный преобразователь управляющих сигналов в звуковые
 
-[**obj.props**](obj.props.html): property extractor
+[**obj.props**](obj.props.html): извлекает свойства из подключенного объекта
 
-[**radio**](radio.html): float index to outlet values as radio switch
+[**radio**](radio.html): при поступлении индекса устанавлиет состояние отдельных выходов как радиопереключатель
 
-[**split~**](split~.html): parametrized signal splitter
+[**split~**](split~.html): параметризованный многоканальный сплиттер сигналов
 
-[**spring**](spring.html): float value &#34;spring&#34;
+[**spring**](spring.html): ведет себя как пружина, возвращающаяся в первоначальное состояние
 
-[**sync**](sync.html): value synchronization
+[**sync**](sync.html): синхронизация нескольких значений без переполняющих стек петель
 
-[**window**](window.html): returns window value by given window position
+[**window**](window.html): возвращает значение оконной функции
 
-[**xdac~**](xdac~.html): dac~ with channel ranges
+[**xdac~**](xdac~.html): \[dac~\] с диапазонами каналов
 
-[**xfade2~**](xfade2~.html): multi stereo-signal crossfade
+[**xfade2~**](xfade2~.html): многоканальный кроссфейд для стерео сигналов
 
-[**xfade~**](xfade~.html): multi signal crossfade
+[**xfade~**](xfade~.html): многоканальный кроссфейд
 
-[**z~**](z~.html): sample delay
+[**z~**](z~.html): целочисленная задержка сэмплов
 
 
 ### <a id="cat_chaos" href="category_chaos.html">chaos</a>

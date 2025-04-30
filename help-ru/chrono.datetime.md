@@ -6,7 +6,7 @@ layout: default_ru
 
 # chrono.datetime
 
-###### output current date and time info
+###### выводит текущую дату и время
 
 *доступно с версии:* 0.9.6
 

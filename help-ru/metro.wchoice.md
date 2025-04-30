@@ -6,7 +6,7 @@ layout: default_ru
 
 # metro.wchoice
 
-###### metro with weighted random choice from timeset
+###### метроном со случайным выбором периода при каждом ударе из заданного списка с весовыми коэффициентами
 
 *доступно с версии:* 0.9.7
 

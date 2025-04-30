@@ -6,7 +6,7 @@ layout: default_ru
 
 # xfade2~
 
-###### multi stereo-signal crossfade
+###### многоканальный кроссфейд для стерео сигналов
 
 *доступно с версии:* 0.6
 

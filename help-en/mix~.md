@@ -5,7 +5,7 @@
 **aliases:** [ceammc/mix\~]
 
 
-###### multislot signal mixer
+###### multichannel signal mixer
 
 *available since version:* 0.6
 

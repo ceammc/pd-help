@@ -6,7 +6,7 @@ layout: default_ru
 
 # radio
 
-###### float index to outlet values as radio switch
+###### при поступлении индекса устанавлиет состояние отдельных выходов как радиопереключатель
 
 *доступно с версии:* 0.6
 

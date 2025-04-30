@@ -6,7 +6,7 @@ layout: default_ru
 
 # function.call
 
-###### call named function
+###### вызывает именованную функцию
 
 *доступно с версии:* 0.3
 

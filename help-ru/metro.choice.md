@@ -6,7 +6,7 @@ layout: default_ru
 
 # metro.choice
 
-###### metro with random choice from timeset
+###### метроном со случайным выбором периода при каждом ударе из заданного списка
 
 *доступно с версии:* 0.9.7
 

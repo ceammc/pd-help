@@ -3,7 +3,7 @@
 
 # metro.pattern
 
-###### metro with rhythmic patterns
+###### metronome with rhythmic patterns
 
 *available since version:* 0.5
 

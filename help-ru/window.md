@@ -6,7 +6,7 @@ layout: default_ru
 
 # window
 
-###### returns window value by given window position
+###### возвращает значение оконной функции
 
 *доступно с версии:* 0.4
 

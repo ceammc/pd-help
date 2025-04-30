@@ -6,7 +6,7 @@ layout: default_ru
 
 # mix~
 
-###### multislot signal mixer
+###### многоканальный микшер сигналов
 
 *доступно с версии:* 0.6
 

@@ -5,7 +5,7 @@
 **aliases:** [ceammc/spring]
 
 
-###### float value &#34;spring&#34;
+###### behaves like a spring, bouncing back to its original state
 
 *available since version:* 0.9.4
 

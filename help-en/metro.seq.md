@@ -3,7 +3,7 @@
 
 # metro.seq
 
-###### metro sequencer
+###### a metronome that changes its period with each beat in the specified sequence
 
 *available since version:* 0.5
 

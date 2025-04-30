@@ -5,7 +5,7 @@
 **aliases:** [ceammc/datetime], [datetime]
 
 
-###### output current date and time info
+###### outputs the current date and time
 
 *available since version:* 0.9.6
 

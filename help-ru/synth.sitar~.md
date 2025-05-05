@@ -6,7 +6,7 @@ layout: default_ru
 
 # synth.sitar~
 
-###### STK sitar
+###### синтезатор ситара из библиотеки STK
 
 *доступно с версии:* 0.9.1
 

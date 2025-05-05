@@ -6,7 +6,7 @@ layout: default_ru
 
 # local.bimap
 
-###### local to patch bidirectional map container
+###### локальный для патча контейнер двунаправленного отображения
 
 *доступно с версии:* 0.9.7
 

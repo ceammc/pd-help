@@ -3,7 +3,7 @@
 
 # live.capture~
 
-###### record up to 32s of sound and playback the recorded sound in loop
+###### record up to 32 seconds of sound and playback the recorded sound in loop
 
 *available since version:* 0.1
 

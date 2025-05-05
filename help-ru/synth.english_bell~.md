@@ -6,7 +6,7 @@ layout: default_ru
 
 # synth.english_bell~
 
-###### english church bell modal model
+###### модовый синтез модели английского церковного колокола
 
 *доступно с версии:* 0.9.4
 

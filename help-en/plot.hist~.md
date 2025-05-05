@@ -5,7 +5,7 @@
 **aliases:** [ceammc/hist\~], [hist\~]
 
 
-###### calculate and output signal histogram
+###### calculates and displays the histogram of the input signal
 
 *available since version:* 0.9
 

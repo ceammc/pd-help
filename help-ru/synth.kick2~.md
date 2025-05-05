@@ -6,7 +6,7 @@ layout: default_ru
 
 # synth.kick2~
 
-###### low-kick synth from faust librariest
+###### синтезатор бочки из библиотеки Faust
 
 *доступно с версии:* 0.9.5
 

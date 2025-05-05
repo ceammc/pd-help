@@ -6,7 +6,7 @@ layout: default_ru
 
 # synth.kick~
 
-###### low-kick synth from Guitarix project
+###### синтезатор бочки из проекта Guitarix
 
 *доступно с версии:* 0.9.4
 

@@ -6,7 +6,7 @@ layout: default_ru
 
 # loadexpr
 
-###### send message when patch loads
+###### отправить сообщение при загрузке патча
 
 *доступно с версии:* 0.9.2
 

@@ -10,9 +10,9 @@ layout: default_ru
 
 
 
-[**lang.faust~**](lang.faust~.html): faust realtime compilation 
+[**lang.faust~**](lang.faust~.html): компиляция кода Faust DSP Language в реальном времени 
 
-[**lang.lua**](lang.lua.html): Lua JIT language bindings 
+[**lang.lua**](lang.lua.html): языковые привязки для Lua JIT 
 
 [**ui.faust~**](ui.faust~.html): виджет языка программирования Faust 
 

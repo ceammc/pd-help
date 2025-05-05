@@ -6,7 +6,7 @@ layout: default_ru
 
 # noise.baker
 
-###### Part of a-chaos library
+###### хаотический генератор на основе преобразования Пекаря
 
 *доступно с версии:* 0.5
 

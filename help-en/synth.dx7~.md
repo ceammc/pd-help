@@ -3,7 +3,7 @@
 
 # synth.dx7~
 
-###### FAUST dx7 implementation
+###### dx7 implementation from Faust libraries
 
 *available since version:* 0.6
 

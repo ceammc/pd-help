@@ -6,7 +6,7 @@ layout: default_ru
 
 # dyn.gate~
 
-###### mono signal gate
+###### моно-сигнальный гейт
 
 *доступно с версии:* 0.1
 

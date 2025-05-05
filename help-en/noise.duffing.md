@@ -3,7 +3,7 @@
 
 # noise.duffing
 
-###### duffing attractor
+###### chaotic generator based on a Duffing oscillator
 
 *available since version:* 0.5
 

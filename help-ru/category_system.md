@@ -10,29 +10,29 @@ layout: default_ru
 
 
 
-[**system.colorpanel**](system.colorpanel.html): System color panel dialog popup 
+[**system.colorpanel**](system.colorpanel.html): системный диалог выбора цвета 
 
 [**system.command**](system.command.html): запуск цепочек команд с перенаправлением вывода в Unix и Windows <br>
 _псевдонимы:_ \[system.cmd\]
 
 
-[**system.cursor**](system.cursor.html): Output cursor motion, mousewheel and button clicks 
+[**system.cursor**](system.cursor.html): выводит положение курсора, нажатия кнопок мыши и колеса прокрутки 
 
-[**system.exec**](system.exec.html): run external command in separate process 
+[**system.exec**](system.exec.html): запуск внешней команды в отдельном процессе 
 
-[**system.exit**](system.exit.html): quit PureData 
+[**system.exit**](system.exit.html): завершает PureData 
 
-[**system.getenv**](system.getenv.html): Get system environment variables 
+[**system.getenv**](system.getenv.html): выводит системные переменные окружения 
 
-[**system.hostname**](system.hostname.html): outputs system hostname 
+[**system.hostname**](system.hostname.html): выводит имя хоста системы 
 
 [**system.info**](system.info.html): получение информации о системе: ЦПУ и температура 
 
-[**system.memsize**](system.memsize.html): returns the size of physical memory (RAM) in bytes round to float data type. 
+[**system.memsize**](system.memsize.html): возвращает размер физической памяти (ОЗУ) в байтах 
 
-[**system.memused**](system.memused.html): returns the process physical memory use - current and peak 
+[**system.memused**](system.memused.html): выводит использование физической памяти процессом - текущее и пиковое 
 
-[**system.screen_size**](system.screen_size.html): returns current screen size in pixels 
+[**system.screen_size**](system.screen_size.html): выводит размер активного экрана в пикселях 
 
 
 **Версия:** 0.9.8

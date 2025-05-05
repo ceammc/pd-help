@@ -6,7 +6,7 @@ layout: default_ru
 
 # proto.vlc
 
-###### VLC video player control over HTTP
+###### управление видеоплеером VLC через HTTP
 
 *доступно с версии:* 0.9.5
 

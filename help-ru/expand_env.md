@@ -6,7 +6,7 @@ layout: default_ru
 
 # expand_env
 
-###### Substitute environment variables in data stream
+###### подставляет значения переменных среды в поток данных
 
 *доступно с версии:* 0.1
 

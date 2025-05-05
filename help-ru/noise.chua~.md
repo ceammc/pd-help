@@ -6,7 +6,7 @@ layout: default_ru
 
 # noise.chua~
 
-###### Chua&#39;s diode circuit
+###### диодная схема цепи Чуа
 
 *доступно с версии:* 0.9.6
 

@@ -6,7 +6,7 @@ layout: default_ru
 
 # noise.duffing
 
-###### duffing attractor
+###### хаотический генератор на основе осциллятора Дуффинга
 
 *доступно с версии:* 0.5
 

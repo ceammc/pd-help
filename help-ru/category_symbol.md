@@ -10,17 +10,17 @@ layout: default_ru
 работа с символами
 
 
-[**symbol.equal**](symbol.equal.html): check symbols for equality 
+[**symbol.equal**](symbol.equal.html): проверка символов на равенство 
 
-[**symbol.length**](symbol.length.html): number of characters in symbol (unicode supported) 
+[**symbol.length**](symbol.length.html): выводит число символов в символьном типе (с поддержкой Unicode) 
 
-[**symbol.num_compare**](symbol.num_compare.html): numeric symbol compare 
+[**symbol.num_compare**](symbol.num_compare.html): цифровое сравнение символов 
 
-[**symbol2any**](symbol2any.html): converts symbol or string to message <br>
+[**symbol2any**](symbol2any.html): преобразует символ или строку в сообщение <br>
 _псевдонимы:_ \[ceammc/symbol2any\], \[ceammc/sym-&gt;any\], \[ceammc/str-&gt;any\], \[ceammc/string2any\], \[sym-&gt;any\], \[str-&gt;any\], \[string2any\]
 
 
-[**symbol2intlist**](symbol2intlist.html): converts symbol to list of character codes <br>
+[**symbol2intlist**](symbol2intlist.html): преобразует символьный тип в список кодов составляющих его символов <br>
 _псевдонимы:_ \[ceammc/symbol2intlist\], \[ceammc/sym-&gt;ilist\], \[sym-&gt;ilist\]
 
 

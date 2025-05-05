@@ -6,7 +6,7 @@ layout: default_ru
 
 # synth.birds~
 
-###### bird singing generator
+###### генератор пения птиц
 
 *доступно с версии:* 0.6
 

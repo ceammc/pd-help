@@ -6,7 +6,7 @@ layout: default_ru
 
 # proto.arturia.minilab
 
-###### simple SysEx control for Arturia MiniLab
+###### управление по SysEx для Arturia MiniLab
 
 *доступно с версии:* 0.9.7
 

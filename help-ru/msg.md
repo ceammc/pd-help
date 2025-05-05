@@ -6,7 +6,7 @@ layout: default_ru
 
 # msg
 
-###### message constructor
+###### конструктор сообщений
 
 *доступно с версии:* 0.1
 

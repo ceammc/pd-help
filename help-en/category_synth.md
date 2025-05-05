@@ -12,31 +12,31 @@ sound synthesis
 
 [**synth.church_bell\~**](synth.church_bell~.html): generic church bell modal model 
 
-[**synth.clap\~**](synth.clap~.html): clap synth from faust libraries 
+[**synth.clap\~**](synth.clap~.html): clap synth from Faust libraries 
 
 [**synth.dubdub\~**](synth.dubdub~.html): simple synth based on a sawtooth wave filtered by a resonant lowpass 
 
-[**synth.dx7\~**](synth.dx7~.html): FAUST dx7 implementation 
+[**synth.dx7\~**](synth.dx7~.html): dx7 implementation from Faust libraries 
 
 [**synth.eguitar\~**](synth.eguitar~.html): simple electric guitar model with steel strings 
 
 [**synth.english_bell\~**](synth.english_bell~.html): english church bell modal model 
 
-[**synth.fgrain\~**](synth.fgrain~.html): file granulator from STK 
+[**synth.fgrain\~**](synth.fgrain~.html): file granulator from STK libraries 
 
 [**synth.french_bell\~**](synth.french_bell~.html): french church bell modal model 
 
 [**synth.german_bell\~**](synth.german_bell~.html): german church bell modal model 
 
-[**synth.glass_harm\~**](synth.glass_harm~.html): nonlinear banded waveguide modeled Glass Harmonica 
+[**synth.glass_harm\~**](synth.glass_harm~.html): nonlinear banded waveguide modeled glass harmonica 
 
-[**synth.glitch\~**](synth.glitch~.html): Glitch synthesizer by naivesound 
+[**synth.glitch\~**](synth.glitch~.html): glitch synthesizer by naivesound 
 
 [**synth.harpsichord\~**](synth.harpsichord~.html): waveguide commuted harpsichord 
 
-[**synth.hat\~**](synth.hat~.html): hi-hat synth from faust librariest 
+[**synth.hat\~**](synth.hat~.html): hi-hat synth from Faust libraries 
 
-[**synth.kick2\~**](synth.kick2~.html): low-kick synth from faust librariest 
+[**synth.kick2\~**](synth.kick2~.html): low-kick synth from Faust libraries 
 
 [**synth.kick\~**](synth.kick~.html): low-kick synth from Guitarix project 
 
@@ -62,15 +62,15 @@ sound synthesis
 
 [**synth.sitar\~**](synth.sitar~.html): STK sitar 
 
-[**synth.snare\~**](synth.snare~.html): Snare drum synth from Guitarix project 
+[**synth.snare\~**](synth.snare~.html): snare drum synth from Guitarix project 
 
-[**synth.standard_bell\~**](synth.standard_bell~.html): german church bell modal model 
+[**synth.standard_bell\~**](synth.standard_bell~.html): standart bell modal model 
 
 [**synth.tube_bell\~**](synth.tube_bell~.html): STK tubular bell (orchestral chime) FM synthesis instrument 
 
-[**synth.voice_fofc\~**](synth.voice_fofc~.html): Simple formant/vocal synthesizer with FOF-cycle filterbank. 
+[**synth.voice_fofc\~**](synth.voice_fofc~.html): simple formant/vocal synthesizer with FOF-cycle filterbank. 
 
-[**synth.voice_fofs\~**](synth.voice_fofs~.html): Simple formant/vocal synthesizer with FOF-smooth filterbank. 
+[**synth.voice_fofs\~**](synth.voice_fofs~.html): simple formant/vocal synthesizer with FOF-smooth filterbank. 
 
 [**synth.wurley\~**](synth.wurley~.html): Wurlitzer electric piano FM synthesis instrument 
 

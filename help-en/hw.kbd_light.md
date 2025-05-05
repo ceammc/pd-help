@@ -3,7 +3,7 @@
 
 # hw.kbd_light
 
-###### Get/set keyboard light on some devices
+###### controlling the keyboard backlight on some devices
 
 *available since version:* 0.8
 

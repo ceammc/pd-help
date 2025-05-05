@@ -5,7 +5,7 @@
 **aliases:** [net.osc.s]
 
 
-###### OSC message sender
+###### sending messages via the OSC protocol
 
 *available since version:* 0.9.5
 

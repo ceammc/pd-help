@@ -6,7 +6,7 @@ layout: default_ru
 
 # system.screen_size
 
-###### returns current screen size in pixels
+###### выводит размер активного экрана в пикселях
 
 *доступно с версии:* 0.1
 

@@ -6,7 +6,7 @@ layout: default_ru
 
 # chaos.gbman0~
 
-###### Gingerbreadman map chaotic generator
+###### хаотический генератор на основе отображения Пряничного человечка
 
 *доступно с версии:* 0.9
 

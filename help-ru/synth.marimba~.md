@@ -6,7 +6,7 @@ layout: default_ru
 
 # synth.marimba~
 
-###### simple marimba physical model implementing a single tone bar connected to tube
+###### простая физическая модель маримбы, реализующая звуковой брусок, соединенный с трубой
 
 *доступно с версии:* 0.6
 

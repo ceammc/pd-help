@@ -3,7 +3,7 @@
 
 # proto.inscore
 
-###### INScore message creator
+###### creation of messages for the INScore program
 
 *available since version:* 0.9.6
 

@@ -6,7 +6,7 @@ layout: default_ru
 
 # dyn.comp~
 
-###### mono dynamic range compressors
+###### моно-компрессор
 
 *доступно с версии:* 0.1
 

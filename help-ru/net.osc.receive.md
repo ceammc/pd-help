@@ -6,7 +6,7 @@ layout: default_ru
 
 # net.osc.receive
 
-###### OSC message listener
+###### получение сообщений протокола OSC
 
 *доступно с версии:* 0.9.5
 

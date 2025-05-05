@@ -6,7 +6,7 @@ layout: default_ru
 
 # rhythm.hexbeat
 
-###### hexbeat pattern generator
+###### генератор ритмического паттерна по шестнадцатиричным значениям
 
 *доступно с версии:* 0.9.7
 

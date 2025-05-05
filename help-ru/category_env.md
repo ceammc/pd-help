@@ -44,7 +44,7 @@ _псевдонимы:_ \[ceammc/env2vline\], \[ceammc/env-&gt;vline\], \[env-&g
 _псевдонимы:_ \[ceammc/envelope\], \[ceammc/env\], \[env\]
 
 
-[**vline2env**](vline2env.html): Converts vline messages to env <br>
+[**vline2env**](vline2env.html): преобразование сообщений vline для Env <br>
 _псевдонимы:_ \[ceammc/vline2env\], \[ceammc/vline-&gt;env\], \[vline-&gt;env\]
 
 

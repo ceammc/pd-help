@@ -3,7 +3,7 @@
 
 # snd.play~
 
-###### Sound file player on steroids
+###### sound file player with additional capabilities
 
 *available since version:* 0.9.7
 

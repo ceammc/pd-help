@@ -6,7 +6,7 @@ layout: default_ru
 
 # synth.shakers~
 
-###### various percussion sounds from STK library
+###### различные перкуссионные звуки из библиотеки STK
 
 *доступно с версии:* 0.6
 

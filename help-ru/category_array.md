@@ -76,17 +76,17 @@ _псевдонимы:_ \[ceammc/list-&gt;array\], \[list-&gt;array\]
 
 [**array.window**](array.window.html): заполнение массива оконной функцией 
 
-[**plot.geomspace~**](plot.geomspace~.html): outputs numbers spaced evenly on a log scale (a geometric progression) 
+[**plot.geomspace~**](plot.geomspace~.html): выводит последовательность равномерно распределенных по логарифмической шкале чисел (геометрическая прогрессия) 
 
-[**plot.hist~**](plot.hist~.html): calculate and output signal histogram <br>
+[**plot.hist~**](plot.hist~.html): вычисляет и выводит гистограмму входного сигнала <br>
 _псевдонимы:_ \[ceammc/hist~\], \[hist~\]
 
 
-[**plot.linspace~**](plot.linspace~.html): outputs numbers spaced evenly spaced over a specified interval 
+[**plot.linspace~**](plot.linspace~.html): выводит последовательность равномерно распределенных в заданном интервале числе 
 
-[**plot.logspace~**](plot.logspace~.html): outputs numbers spaced evenly on a log scale 
+[**plot.logspace~**](plot.logspace~.html): выводит последовательность равномерно распределенных по логарифмической шкале чисел 
 
-[**plot.response~**](plot.response~.html): output amp/phase freq response to impulse 
+[**plot.response~**](plot.response~.html): выводит амплитудный, фазовый и частотный отклики на входной сигнал 
 
 
 **Версия:** 0.9.8

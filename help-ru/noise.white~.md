@@ -6,7 +6,7 @@ layout: default_ru
 
 # noise.white~
 
-###### White noise generator
+###### генератор белого шума
 
 *доступно с версии:* 0.1
 

@@ -3,7 +3,7 @@
 
 # file.size
 
-###### output file size
+###### outputs the file size
 
 *available since version:* 0.9.4
 

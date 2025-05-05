@@ -72,17 +72,17 @@ _aliases:_ \[ceammc/list-&gt;array\], \[list-&gt;array\]
 
 [**array.window**](array.window.html): fills the array with the window function 
 
-[**plot.geomspace\~**](plot.geomspace~.html): outputs numbers spaced evenly on a log scale (a geometric progression) 
+[**plot.geomspace\~**](plot.geomspace~.html): generates a sequence of numbers that are evenly distributed on a logarithmic scale (geometric progression) 
 
-[**plot.hist\~**](plot.hist~.html): calculate and output signal histogram <br>
+[**plot.hist\~**](plot.hist~.html): calculates and displays the histogram of the input signal <br>
 _aliases:_ \[ceammc/hist\~\], \[hist\~\]
 
 
-[**plot.linspace\~**](plot.linspace~.html): outputs numbers spaced evenly spaced over a specified interval 
+[**plot.linspace\~**](plot.linspace~.html): generates a sequence of numbers that are uniformly distributed within the specified interval 
 
 [**plot.logspace\~**](plot.logspace~.html): outputs numbers spaced evenly on a log scale 
 
-[**plot.response\~**](plot.response~.html): output amp/phase freq response to impulse 
+[**plot.response\~**](plot.response~.html): produces the amplitude, phase, and frequency responses to the input signal 
 
 
 **Version:** 0.9.8

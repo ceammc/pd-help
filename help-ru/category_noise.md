@@ -10,53 +10,53 @@ layout: default_ru
 генераторы шума
 
 
-[**noise.baker**](noise.baker.html): Part of a-chaos library 
+[**noise.baker**](noise.baker.html): хаотический генератор на основе преобразования Пекаря 
 
-[**noise.chua~**](noise.chua~.html): Chua&#39;s diode circuit 
+[**noise.chua~**](noise.chua~.html): диодная схема цепи Чуа 
 
-[**noise.clifford**](noise.clifford.html): clifford attractor 
+[**noise.clifford**](noise.clifford.html): аттрактор Клиффорда 
 
-[**noise.collatz**](noise.collatz.html): collatz conjecture output 
+[**noise.collatz**](noise.collatz.html): выводит число последовательности Коллаца 
 
-[**noise.colored~**](noise.colored~.html): colored noise generator with an arbitrary spectral roll 
+[**noise.colored~**](noise.colored~.html): генератор цветного шума с произвольным наклоном спектра 
 
-[**noise.crackle~**](noise.crackle~.html): sparse noise generator 
+[**noise.crackle~**](noise.crackle~.html): генератор разреженного шума 
 
-[**noise.duffing**](noise.duffing.html): duffing attractor 
+[**noise.duffing**](noise.duffing.html): хаотический генератор на основе осциллятора Дуффинга 
 
-[**noise.ginger**](noise.ginger.html): Gingerbreadman map chaotic generator 
+[**noise.ginger**](noise.ginger.html): хаотический генератор на основе отображения Пряничного человечка 
 
-[**noise.henon**](noise.henon.html): henon attractor 
+[**noise.henon**](noise.henon.html): хаотический генератор на основе отображения Эно 
 
 [**noise.henon_heilles**](noise.henon_heilles.html): Hénon–Heiles_system 
 
-[**noise.henon_phase**](noise.henon_phase.html): henon phase Ddagrams 
+[**noise.henon_phase**](noise.henon_phase.html): фазовые диаграммы Эно 
 
 [**noise.henonf**](noise.henonf.html): Henon phase 
 
-[**noise.ikeda**](noise.ikeda.html): Ikeda attractor 
+[**noise.ikeda**](noise.ikeda.html): генератор хаоса на основе отображения Икеды 
 
-[**noise.lfreq0~**](noise.lfreq0~.html): sampled/held noise (piecewise constant) 
+[**noise.lfreq0~**](noise.lfreq0~.html): семплированный/удержанный шум (кусочно постоянный) 
 
-[**noise.lfreq~**](noise.lfreq~.html): noise.lfreq0~ smoothed with no overshoot 
+[**noise.lfreq~**](noise.lfreq~.html): сглаженный шум объекта \[noise.lfreq0~\] 
 
-[**noise.lorenz**](noise.lorenz.html): Lorenz chaos 
+[**noise.lorenz**](noise.lorenz.html): хаотический атрактор Лоренца 
 
-[**noise.lyapunov**](noise.lyapunov.html): lyapunov random attractor 
+[**noise.lyapunov**](noise.lyapunov.html): случайный аттрактор Ляпунова 
 
-[**noise.navier_stokes**](noise.navier_stokes.html): navier-stokes diff equations 
+[**noise.navier_stokes**](noise.navier_stokes.html): дифференциальные уравнения Навье-Стокса 
 
-[**noise.pink~**](noise.pink~.html): Pink noise generator 
+[**noise.pink~**](noise.pink~.html): генератор розового шума 
 
-[**noise.rossler**](noise.rossler.html): Rössler attractor 
+[**noise.rossler**](noise.rossler.html): аттрактор Рёсслера 
 
-[**noise.stein**](noise.stein.html): Stein distribution 
+[**noise.stein**](noise.stein.html): распределение Штейна 
 
-[**noise.torus**](noise.torus.html): torus attractor 
+[**noise.torus**](noise.torus.html): аттрактор в виде тора 
 
-[**noise.verhulst**](noise.verhulst.html): verhulst distribution 
+[**noise.verhulst**](noise.verhulst.html): распределение Ферхюльста 
 
-[**noise.white~**](noise.white~.html): White noise generator 
+[**noise.white~**](noise.white~.html): генератор белого шума 
 
 
 **Версия:** 0.9.8

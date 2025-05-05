@@ -6,7 +6,7 @@ layout: default_ru
 
 # system.colorpanel
 
-###### System color panel dialog popup
+###### системный диалог выбора цвета
 
 *доступно с версии:* 0.1
 

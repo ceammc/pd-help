@@ -3,7 +3,7 @@
 
 # symbol.length
 
-###### number of characters in symbol (unicode supported)
+###### outputs the number of characters in a symbol (unicode supported)
 
 *available since version:* 0.1
 

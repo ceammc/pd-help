@@ -6,7 +6,7 @@ layout: default_ru
 
 # synth.voice_fofc~
 
-###### Simple formant/vocal synthesizer with FOF-cycle filterbank.
+###### простой формантный/вокальный синтезатор с банком фильтров FOF-цикла.
 
 *доступно с версии:* 0.9.6
 

@@ -3,7 +3,7 @@
 
 # synth.clap~
 
-###### clap synth from faust libraries
+###### clap synth from Faust libraries
 
 *available since version:* 0.9.5
 

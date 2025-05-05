@@ -6,7 +6,7 @@
 working with various hardware
 
 
-[**hw.apple_smc**](hw.apple_smc.html): query the system management control in Apples 
+[**hw.apple_smc**](hw.apple_smc.html): query Apple system management control 
 
 [**hw.apple_sms**](hw.apple_sms.html): query the sudden motion sensor in Apples 
 
@@ -16,9 +16,9 @@ working with various hardware
 
 [**hw.gamepad**](hw.gamepad.html): gamepad controller 
 
-[**hw.kbd_light**](hw.kbd_light.html): Get/set keyboard light on some devices 
+[**hw.kbd_light**](hw.kbd_light.html): controlling the keyboard backlight on some devices 
 
-[**hw.motu.avb**](hw.motu.avb.html): controls Motu AVB devices over http requests 
+[**hw.motu.avb**](hw.motu.avb.html): controls Motu AVB devices over HTTP requests 
 
 [**hw.printer**](hw.printer.html): basic document printing support 
 

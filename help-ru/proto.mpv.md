@@ -6,7 +6,7 @@ layout: default_ru
 
 # proto.mpv
 
-###### mpv video player control
+###### управление видео плеером MPV
 
 *доступно с версии:* 0.9.3
 

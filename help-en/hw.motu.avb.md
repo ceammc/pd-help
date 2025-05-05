@@ -3,7 +3,7 @@
 
 # hw.motu.avb
 
-###### controls Motu AVB devices over http requests
+###### controls Motu AVB devices over HTTP requests
 
 *available since version:* 0.9.5
 

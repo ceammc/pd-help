@@ -10,7 +10,7 @@ layout: default_ru
 работа с путями файловой системы
 
 
-[**file.size**](file.size.html): output file size 
+[**file.size**](file.size.html): выводит размер файла 
 
 [**path.basename**](path.basename.html): выводит имя файла из пути к файлу 
 

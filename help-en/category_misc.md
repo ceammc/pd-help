@@ -6,7 +6,7 @@
 
 
 
-[**click\~**](click~.html): Output single impulse on bang <br>
+[**click\~**](click~.html): outputs a single impulse on a bang input <br>
 _aliases:_ \[ceammc/click\~\]
 
 
@@ -14,7 +14,7 @@ _aliases:_ \[ceammc/click\~\]
 _aliases:_ \[ceammc/fluid\~\]
 
 
-[**modplug\~**](modplug~.html): MOD file player (using libmodplug) <br>
+[**modplug\~**](modplug~.html): MOD file player <br>
 _aliases:_ \[ceammc/modplug\~\]
 
 
@@ -30,7 +30,7 @@ _aliases:_ \[ceammc/sfizz\~\]
 
 [**speech.flite**](speech.flite.html): render speech to array 
 
-[**speech.flite\~**](speech.flite~.html): render speech to array 
+[**speech.flite\~**](speech.flite~.html): Flite text to speech synthesis 
 
 [**speech.rhvoice\~**](speech.rhvoice~.html): RHVoice text to speech synthesis <br>
 _aliases:_ \[ceammc/rhvoice\~\], \[rhvoice\~\]

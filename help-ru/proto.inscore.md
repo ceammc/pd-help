@@ -6,7 +6,7 @@ layout: default_ru
 
 # proto.inscore
 
-###### INScore message creator
+###### создание сообщений для программы INScore
 
 *доступно с версии:* 0.9.6
 

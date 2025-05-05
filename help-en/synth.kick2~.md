@@ -3,7 +3,7 @@
 
 # synth.kick2~
 
-###### low-kick synth from faust librariest
+###### low-kick synth from Faust libraries
 
 *available since version:* 0.9.5
 

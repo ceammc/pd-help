@@ -6,7 +6,7 @@ layout: default_ru
 
 # msg.onclose
 
-###### send message when patch closes
+###### отправить сообщение при закрытии патча
 
 *доступно с версии:* 0.9.7
 

@@ -6,7 +6,7 @@ layout: default_ru
 
 # noise.lfreq~
 
-###### noise.lfreq0~ smoothed with no overshoot
+###### сглаженный шум объекта \[noise.lfreq0~\]
 
 *доступно с версии:* 0.2
 

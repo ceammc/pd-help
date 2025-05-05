@@ -6,7 +6,7 @@ layout: default_ru
 
 # synth.wurley~
 
-###### Wurlitzer electric piano FM synthesis instrument
+###### FM-синтезатор электро-фортепиано в стиле Wurlitzer
 
 *доступно с версии:* 0.6
 

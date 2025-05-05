@@ -6,7 +6,7 @@ layout: default_ru
 
 # proto.whammy
 
-###### Control for Digitech Whammy pedal
+###### управление педалью Digitech Whammy Pedal
 
 *доступно с версии:* 0.9.5
 

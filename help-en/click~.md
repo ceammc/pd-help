@@ -5,7 +5,7 @@
 **aliases:** [ceammc/click\~]
 
 
-###### Output single impulse on bang
+###### outputs a single impulse on a bang input
 
 *available since version:* 0.4
 

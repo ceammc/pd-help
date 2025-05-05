@@ -6,7 +6,7 @@ layout: default_ru
 
 # fluid~
 
-###### FluidSynth SoundFont 2 player
+###### плеер для семплов FluidSynth SoundFont 2
 
 *доступно с версии:* 0.6
 

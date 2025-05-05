@@ -137,15 +137,15 @@ layout: default_ru
 
 [**array.window**](array.window.html): заполнение массива оконной функцией
 
-[**plot.geomspace~**](plot.geomspace~.html): outputs numbers spaced evenly on a log scale (a geometric progression)
+[**plot.geomspace~**](plot.geomspace~.html): выводит последовательность равномерно распределенных по логарифмической шкале чисел (геометрическая прогрессия)
 
-[**plot.hist~**](plot.hist~.html): calculate and output signal histogram
+[**plot.hist~**](plot.hist~.html): вычисляет и выводит гистограмму входного сигнала
 
-[**plot.linspace~**](plot.linspace~.html): outputs numbers spaced evenly spaced over a specified interval
+[**plot.linspace~**](plot.linspace~.html): выводит последовательность равномерно распределенных в заданном интервале числе
 
-[**plot.logspace~**](plot.logspace~.html): outputs numbers spaced evenly on a log scale
+[**plot.logspace~**](plot.logspace~.html): выводит последовательность равномерно распределенных по логарифмической шкале чисел
 
-[**plot.response~**](plot.response~.html): output amp/phase freq response to impulse
+[**plot.response~**](plot.response~.html): выводит амплитудный, фазовый и частотный отклики на входной сигнал
 
 
 ### <a id="cat_base" href="category_base.html">base</a>
@@ -219,15 +219,15 @@ layout: default_ru
 
 [**chaos.gbman0**](chaos.gbman0.html): Gingerbreadman map chaotic generator
 
-[**chaos.gbman0~**](chaos.gbman0~.html): Gingerbreadman map chaotic generator
+[**chaos.gbman0~**](chaos.gbman0~.html): хаотический генератор на основе отображения Пряничного человечка
 
-[**chaos.jong**](chaos.jong.html): Peter de Jong attractor
+[**chaos.jong**](chaos.jong.html): аттрактор Питера де Йонга
 
-[**chaos.logistic**](chaos.logistic.html): Logistic map chaotic generator
+[**chaos.logistic**](chaos.logistic.html): хаотический генератор на основе логистического отображения
 
-[**chaos.std0**](chaos.std0.html): Standard map chaotic generator
+[**chaos.std0**](chaos.std0.html): хаотический генератор на основе стандартного отображения
 
-[**chaos.std0~**](chaos.std0~.html): Standard map chaotic generator
+[**chaos.std0~**](chaos.std0~.html): хаотический генератор на основе стандартного отображения
 
 
 ### <a id="cat_conv" href="category_conv.html">conv</a>
@@ -340,7 +340,7 @@ layout: default_ru
 
 [**conv.str2sec**](conv.str2sec.html): преобразует отформатированное время в числовое значение в секундах
 
-[**music.dur2time**](music.dur2time.html): convert duration list to time
+[**music.dur2time**](music.dur2time.html): преобразование списка музыкальных длительностей в список временных периодов
 
 [**music.voice2midi**](music.voice2midi.html): конвертирует одноголосную музыкальную нотацию в список нот MIDI
 
@@ -351,9 +351,9 @@ layout: default_ru
 ---
 
 
-[**color.mix**](color.mix.html): color mixer
+[**color.mix**](color.mix.html): смешивание цветов
 
-[**color.scale**](color.scale.html): create color scales
+[**color.scale**](color.scale.html): создание цветовой шкалы
 
 [**data.bimap**](data.bimap.html): двунаправленное отображение
 
@@ -401,11 +401,11 @@ layout: default_ru
 
 [**global.bimap**](global.bimap.html): глобальное двунаправленное отображение
 
-[**local.bimap**](local.bimap.html): local to patch bidirectional map container
+[**local.bimap**](local.bimap.html): локальный для патча контейнер двунаправленного отображения
 
-[**mlist.flatten**](mlist.flatten.html): flatten nested mlist
+[**mlist.flatten**](mlist.flatten.html): преобразует многоуровневый список в одноуровневый
 
-[**rtree.to_list**](rtree.to_list.html): convert OpenMusic-like rhythm tree to list of fractions
+[**rtree.to_list**](rtree.to_list.html): преобразует OpenMusic-подобное ритмическое дерево в список дробей
 
 [**set.contains**](set.contains.html): проверяет, присутстует ли предварительно заданный элемент во входном множестве
 
@@ -428,31 +428,31 @@ layout: default_ru
 ---
 
 
-[**dyn.comp2~**](dyn.comp2~.html): stereo dynamic range compressor
+[**dyn.comp2~**](dyn.comp2~.html): стерео-компрессор
 
-[**dyn.comp_peak2~**](dyn.comp_peak2~.html): stereo peak feed forward compressor with channel linking
+[**dyn.comp_peak2~**](dyn.comp_peak2~.html): пиковый стерео-компрессор прямой топологии
 
-[**dyn.comp_peak~**](dyn.comp_peak~.html): mono dynamic range peak feed forward compressor
+[**dyn.comp_peak~**](dyn.comp_peak~.html): пиковый моно-компрессор прямой топологии
 
-[**dyn.comp_up2~**](dyn.comp_up2~.html): stereo upward compressor with channel linking
+[**dyn.comp_up2~**](dyn.comp_up2~.html): восходящий стерео-компрессор со связью каналов
 
-[**dyn.comp_up~**](dyn.comp_up~.html): mono upward compressor
+[**dyn.comp_up~**](dyn.comp_up~.html): восходящий моно-компрессор
 
-[**dyn.comp~**](dyn.comp~.html): mono dynamic range compressors
+[**dyn.comp~**](dyn.comp~.html): моно-компрессор
 
-[**dyn.expand2~**](dyn.expand2~.html): stereo dynamic range expander with channel linking
+[**dyn.expand2~**](dyn.expand2~.html): расширение динамического стерео-диапазона
 
-[**dyn.expand~**](dyn.expand~.html): mono dynamic range expander
+[**dyn.expand~**](dyn.expand~.html): расширение динамического моно-диапазона
 
-[**dyn.gate2~**](dyn.gate2~.html): stereo signal gate
+[**dyn.gate2~**](dyn.gate2~.html): стерео-сигнальный гейт
 
-[**dyn.gate~**](dyn.gate~.html): mono signal gate
+[**dyn.gate~**](dyn.gate~.html): моно-сигнальный гейт
 
-[**dyn.limit2~**](dyn.limit2~.html): stereo 1176LN Peak Limiter
+[**dyn.limit2~**](dyn.limit2~.html): пиковый стерео-ограничитель сигнала в схемотехнике 1176LN
 
-[**dyn.limit~**](dyn.limit~.html): mono 1176LN Peak Limiter
+[**dyn.limit~**](dyn.limit~.html): пиковый моно-ограничитель сигнала в схемотехнике 1176LN
 
-[**dyn.softclip~**](dyn.softclip~.html): soft signal clip
+[**dyn.softclip~**](dyn.softclip~.html): мягкое клиппирование сигнала
 
 
 ### <a id="cat_env" href="category_env.html">env</a>
@@ -489,7 +489,7 @@ layout: default_ru
 
 [**envelope**](envelope.html): тип данных огибающей
 
-[**vline2env**](vline2env.html): Converts vline messages to env
+[**vline2env**](vline2env.html): преобразование сообщений vline для Env
 
 
 ### <a id="cat_flow" href="category_flow.html">flow</a>
@@ -498,7 +498,7 @@ layout: default_ru
 ---
 
 
-[**expand_env**](expand_env.html): Substitute environment variables in data stream
+[**expand_env**](expand_env.html): подставляет значения переменных среды в поток данных
 
 [**flow.append**](flow.append.html): добавляет сообщение в поток
 
@@ -590,7 +590,7 @@ layout: default_ru
 
 [**flow.tee~**](flow.tee~.html): извлекает управляющие сообщения из аудиосоединений
 
-[**replace**](replace.html): Replace atoms in data stream
+[**replace**](replace.html): замена атомов в потоке данных
 
 [**route.any**](route.any.html): отделяет сообщения общего вида от пустых событий (bang), числовых значений, символов и списков
 
@@ -806,19 +806,19 @@ layout: default_ru
 ---
 
 
-[**hw.apple_smc**](hw.apple_smc.html): query the system management control in Apples
+[**hw.apple_smc**](hw.apple_smc.html): запросы к системе SMC в Apple
 
-[**hw.apple_sms**](hw.apple_sms.html): query the sudden motion sensor in Apples
+[**hw.apple_sms**](hw.apple_sms.html): опрос датчика внезапного движения в Apple
 
-[**hw.arduino**](hw.arduino.html): Arduino device
+[**hw.arduino**](hw.arduino.html): устройство Arduino
 
-[**hw.display**](hw.display.html): get/set display properties
+[**hw.display**](hw.display.html): получение/установка свойств дисплея
 
 [**hw.gamepad**](hw.gamepad.html): геймпад контроллеры
 
-[**hw.kbd_light**](hw.kbd_light.html): Get/set keyboard light on some devices
+[**hw.kbd_light**](hw.kbd_light.html): управление подсветкой клавиатуры на некоторых устройствах
 
-[**hw.motu.avb**](hw.motu.avb.html): controls Motu AVB devices over http requests
+[**hw.motu.avb**](hw.motu.avb.html): управление устройствами Motu AVB по HTTP
 
 [**hw.printer**](hw.printer.html): базовая поддержка печати документов
 
@@ -850,7 +850,7 @@ layout: default_ru
 
 [**hw.rpi.spi.ws2812**](hw.rpi.spi.ws2812.html): драйвер для светодиодной ленты ws2812 для Raspberry Pi
 
-[**hw.serial**](hw.serial.html): serial port device
+[**hw.serial**](hw.serial.html): серийный порт устройства
 
 
 ### <a id="cat_lang" href="category_lang.html">lang</a>
@@ -859,9 +859,9 @@ layout: default_ru
 ---
 
 
-[**lang.faust~**](lang.faust~.html): faust realtime compilation
+[**lang.faust~**](lang.faust~.html): компиляция кода Faust DSP Language в реальном времени
 
-[**lang.lua**](lang.lua.html): Lua JIT language bindings
+[**lang.lua**](lang.lua.html): языковые привязки для Lua JIT
 
 [**ui.faust~**](ui.faust~.html): виджет языка программирования Faust
 
@@ -1046,7 +1046,7 @@ layout: default_ru
 ---
 
 
-[**live.capture~**](live.capture~.html): record up to 32s of sound and playback the recorded sound in loop
+[**live.capture~**](live.capture~.html): запись до 32 секунд звука и его воспроизведение в петле
 
 
 ### <a id="cat_local" href="category_local.html">local</a>
@@ -1055,17 +1055,17 @@ layout: default_ru
 ---
 
 
-[**local.dict**](local.dict.html): local named dict object
+[**local.dict**](local.dict.html): локальный для патча словарь
 
-[**local.float**](local.float.html): canvas-scoped named float variable
+[**local.float**](local.float.html): локальное для патча именованное число с плавающей точкой
 
-[**local.int**](local.int.html): canvas-scoped named integer variable
+[**local.int**](local.int.html): локальное для патча именованное целое число
 
-[**local.list**](local.list.html): local named list object
+[**local.list**](local.list.html): локальный для патча именованный список
 
-[**local.mlist**](local.mlist.html): local named mlist object
+[**local.mlist**](local.mlist.html): локальный для патча именованный многоуровневый список
 
-[**local.set**](local.set.html): local named set object
+[**local.set**](local.set.html): локальное для патча именованное множество
 
 
 ### <a id="cat_math" href="category_math.html">math</a>
@@ -1326,23 +1326,23 @@ layout: default_ru
 ---
 
 
-[**click~**](click~.html): Output single impulse on bang
+[**click~**](click~.html): выводит единичный импульс при пустом входном событии
 
-[**fluid~**](fluid~.html): FluidSynth SoundFont 2 player
+[**fluid~**](fluid~.html): плеер для семплов FluidSynth SoundFont 2
 
-[**modplug~**](modplug~.html): MOD file player (using libmodplug)
+[**modplug~**](modplug~.html): плеер файлов MOD
 
-[**qrcode**](qrcode.html): QR code generator
+[**qrcode**](qrcode.html): генератор QR кода
 
-[**risset.gliss**](risset.gliss.html): Sheppard/Risset glissando calculator
+[**risset.gliss**](risset.gliss.html): калькулятор для глиссандо Шеппарда/Риссе
 
-[**sfizz~**](sfizz~.html): SFZ format sample player
+[**sfizz~**](sfizz~.html): плеер семплов в формате SFZ
 
-[**speech.flite**](speech.flite.html): render speech to array
+[**speech.flite**](speech.flite.html): рендеринг синтезатора речи в массив
 
-[**speech.flite~**](speech.flite~.html): render speech to array
+[**speech.flite~**](speech.flite~.html): синтезатор речи Flite
 
-[**speech.rhvoice~**](speech.rhvoice~.html): RHVoice text to speech synthesis
+[**speech.rhvoice~**](speech.rhvoice~.html): синтезатор речи RHVoice
 
 
 ### <a id="cat_msg" href="category_msg.html">msg</a>
@@ -1351,19 +1351,19 @@ layout: default_ru
 ---
 
 
-[**loadexpr**](loadexpr.html): send message when patch loads
+[**loadexpr**](loadexpr.html): отправить сообщение при загрузке патча
 
-[**msg**](msg.html): message constructor
+[**msg**](msg.html): конструктор сообщений
 
-[**msg.after**](msg.after.html): send specified message after incoming message
+[**msg.after**](msg.after.html): отправляет указанное сообщение после пересланного входящего сообщения
 
-[**msg.onclose**](msg.onclose.html): send message when patch closes
+[**msg.onclose**](msg.onclose.html): отправить сообщение при закрытии патча
 
-[**msg.onload**](msg.onload.html): send message when patch loads
+[**msg.onload**](msg.onload.html): отправить указанное сообщение при загрузе патча
 
-[**msg.pack**](msg.pack.html): message pack
+[**msg.pack**](msg.pack.html): упаковка сообщений
 
-[**msg.sched**](msg.sched.html): message scheduler
+[**msg.sched**](msg.sched.html): планировщик отправки сообщений
 
 [**msg.unpack**](msg.unpack.html): распаковка сообщения на селектор и аргументы
 
@@ -1374,11 +1374,11 @@ layout: default_ru
 ---
 
 
-[**rhythm.euclid**](rhythm.euclid.html): euclid pattern generator
+[**rhythm.euclid**](rhythm.euclid.html): генератор эвклидовых паттернов
 
-[**rhythm.hexbeat**](rhythm.hexbeat.html): hexbeat pattern generator
+[**rhythm.hexbeat**](rhythm.hexbeat.html): генератор ритмического паттерна по шестнадцатиричным значениям
 
-[**rhythm.lsystem**](rhythm.lsystem.html): L-system pattern generator
+[**rhythm.lsystem**](rhythm.lsystem.html): генератор ритмического рисунка на основе L-систем
 
 
 ### <a id="cat_net" href="category_net.html">net</a>
@@ -1387,25 +1387,25 @@ layout: default_ru
 ---
 
 
-[**net.artnet.send**](net.artnet.send.html): ArtNet DMX message sender
+[**net.artnet.send**](net.artnet.send.html): отправление сообщений ArtNet DMX
 
 [**net.freesound**](net.freesound.html): клиент для Freesound API v2
 
-[**net.host2ip**](net.host2ip.html): returns IP address by DNS name
+[**net.host2ip**](net.host2ip.html): выводит IP-адрес по имени DNS
 
 [**net.http.client**](net.http.client.html): HTTP клиент
 
-[**net.http.send**](net.http.send.html): HTTP request sender
+[**net.http.send**](net.http.send.html): отправляет HTTP запросы
 
 [**net.mdns**](net.mdns.html): обнаружение служб MDNS
 
 [**net.mqtt.client**](net.mqtt.client.html): MQTT клиент
 
-[**net.osc.receive**](net.osc.receive.html): OSC message listener
+[**net.osc.receive**](net.osc.receive.html): получение сообщений протокола OSC
 
-[**net.osc.send**](net.osc.send.html): OSC message sender
+[**net.osc.send**](net.osc.send.html): отправка сообщений протокола OSC
 
-[**net.osc.server**](net.osc.server.html): OSC server control
+[**net.osc.server**](net.osc.server.html): управление сервером OSC
 
 [**net.ws.client**](net.ws.client.html): WebSocket клиент
 
@@ -1418,53 +1418,53 @@ layout: default_ru
 ---
 
 
-[**noise.baker**](noise.baker.html): Part of a-chaos library
+[**noise.baker**](noise.baker.html): хаотический генератор на основе преобразования Пекаря
 
-[**noise.chua~**](noise.chua~.html): Chua&#39;s diode circuit
+[**noise.chua~**](noise.chua~.html): диодная схема цепи Чуа
 
-[**noise.clifford**](noise.clifford.html): clifford attractor
+[**noise.clifford**](noise.clifford.html): аттрактор Клиффорда
 
-[**noise.collatz**](noise.collatz.html): collatz conjecture output
+[**noise.collatz**](noise.collatz.html): выводит число последовательности Коллаца
 
-[**noise.colored~**](noise.colored~.html): colored noise generator with an arbitrary spectral roll
+[**noise.colored~**](noise.colored~.html): генератор цветного шума с произвольным наклоном спектра
 
-[**noise.crackle~**](noise.crackle~.html): sparse noise generator
+[**noise.crackle~**](noise.crackle~.html): генератор разреженного шума
 
-[**noise.duffing**](noise.duffing.html): duffing attractor
+[**noise.duffing**](noise.duffing.html): хаотический генератор на основе осциллятора Дуффинга
 
-[**noise.ginger**](noise.ginger.html): Gingerbreadman map chaotic generator
+[**noise.ginger**](noise.ginger.html): хаотический генератор на основе отображения Пряничного человечка
 
-[**noise.henon**](noise.henon.html): henon attractor
+[**noise.henon**](noise.henon.html): хаотический генератор на основе отображения Эно
 
 [**noise.henon_heilles**](noise.henon_heilles.html): Hénon–Heiles_system
 
-[**noise.henon_phase**](noise.henon_phase.html): henon phase Ddagrams
+[**noise.henon_phase**](noise.henon_phase.html): фазовые диаграммы Эно
 
 [**noise.henonf**](noise.henonf.html): Henon phase
 
-[**noise.ikeda**](noise.ikeda.html): Ikeda attractor
+[**noise.ikeda**](noise.ikeda.html): генератор хаоса на основе отображения Икеды
 
-[**noise.lfreq0~**](noise.lfreq0~.html): sampled/held noise (piecewise constant)
+[**noise.lfreq0~**](noise.lfreq0~.html): семплированный/удержанный шум (кусочно постоянный)
 
-[**noise.lfreq~**](noise.lfreq~.html): noise.lfreq0~ smoothed with no overshoot
+[**noise.lfreq~**](noise.lfreq~.html): сглаженный шум объекта \[noise.lfreq0~\]
 
-[**noise.lorenz**](noise.lorenz.html): Lorenz chaos
+[**noise.lorenz**](noise.lorenz.html): хаотический атрактор Лоренца
 
-[**noise.lyapunov**](noise.lyapunov.html): lyapunov random attractor
+[**noise.lyapunov**](noise.lyapunov.html): случайный аттрактор Ляпунова
 
-[**noise.navier_stokes**](noise.navier_stokes.html): navier-stokes diff equations
+[**noise.navier_stokes**](noise.navier_stokes.html): дифференциальные уравнения Навье-Стокса
 
-[**noise.pink~**](noise.pink~.html): Pink noise generator
+[**noise.pink~**](noise.pink~.html): генератор розового шума
 
-[**noise.rossler**](noise.rossler.html): Rössler attractor
+[**noise.rossler**](noise.rossler.html): аттрактор Рёсслера
 
-[**noise.stein**](noise.stein.html): Stein distribution
+[**noise.stein**](noise.stein.html): распределение Штейна
 
-[**noise.torus**](noise.torus.html): torus attractor
+[**noise.torus**](noise.torus.html): аттрактор в виде тора
 
-[**noise.verhulst**](noise.verhulst.html): verhulst distribution
+[**noise.verhulst**](noise.verhulst.html): распределение Ферхюльста
 
-[**noise.white~**](noise.white~.html): White noise generator
+[**noise.white~**](noise.white~.html): генератор белого шума
 
 
 ### <a id="cat_osc" href="category_osc.html">osc</a>
@@ -1523,7 +1523,7 @@ layout: default_ru
 ---
 
 
-[**file.size**](file.size.html): output file size
+[**file.size**](file.size.html): выводит размер файла
 
 [**path.basename**](path.basename.html): выводит имя файла из пути к файлу
 
@@ -1625,41 +1625,41 @@ layout: default_ru
 ---
 
 
-[**proto.arturia.minilab**](proto.arturia.minilab.html): simple SysEx control for Arturia MiniLab
+[**proto.arturia.minilab**](proto.arturia.minilab.html): управление по SysEx для Arturia MiniLab
 
-[**proto.feelworld**](proto.feelworld.html): protocol for FeelWorld LivePro L1 HDMI mixer
+[**proto.feelworld**](proto.feelworld.html): управление видео-микшером FeelWorld LivePro L1 HDMI
 
-[**proto.firmata**](proto.firmata.html): Firmata Arduino protocol support
+[**proto.firmata**](proto.firmata.html): поддержка протокола Firmata для Arduino
 
-[**proto.inscore**](proto.inscore.html): INScore message creator
+[**proto.inscore**](proto.inscore.html): создание сообщений для программы INScore
 
-[**proto.ltc.in~**](proto.ltc.in~.html): LTC decoder
+[**proto.ltc.in~**](proto.ltc.in~.html): LTC-декодер
 
-[**proto.ltc.out~**](proto.ltc.out~.html): LTC encoder
+[**proto.ltc.out~**](proto.ltc.out~.html): LTC энкодер
 
-[**proto.midi**](proto.midi.html): raw midi encoder/parser
+[**proto.midi**](proto.midi.html): декодер/энкодер исходных сообщений MIDI
 
-[**proto.midi.casio**](proto.midi.casio.html): Casio Privia MIDI control
+[**proto.midi.casio**](proto.midi.casio.html): управление Casio Privia MIDI
 
-[**proto.midi.cc**](proto.midi.cc.html): raw midi CC encoder/parser
+[**proto.midi.cc**](proto.midi.cc.html): декодер/энкодер исходных сообщений MIDI СС
 
-[**proto.midi.sysex**](proto.midi.sysex.html): raw midi SYSex encoder/parser
+[**proto.midi.sysex**](proto.midi.sysex.html): декодер/энкодер исходных сообщений MIDI SYSex
 
-[**proto.moppy**](proto.moppy.html): protocol for Musical flOPPY controller
+[**proto.moppy**](proto.moppy.html): nротокол для музыкального контроллера flOPPY
 
-[**proto.morse**](proto.morse.html): Morse encoder
+[**proto.morse**](proto.morse.html): Морзе энкодер
 
-[**proto.mpv**](proto.mpv.html): mpv video player control
+[**proto.mpv**](proto.mpv.html): управление видео плеером MPV
 
 [**proto.obs**](proto.obs.html): WebSocket клиент для управления OBS studio
 
-[**proto.sp.alpaca**](proto.sp.alpaca.html): protocol parser for Arduino-based CEAMMC footswitch
+[**proto.sp.alpaca**](proto.sp.alpaca.html): парсер протокола для ножной педали на базе Arduino CEAMMC
 
-[**proto.vlc**](proto.vlc.html): VLC video player control over HTTP
+[**proto.vlc**](proto.vlc.html): управление видеоплеером VLC через HTTP
 
-[**proto.whammy**](proto.whammy.html): Control for Digitech Whammy pedal
+[**proto.whammy**](proto.whammy.html): управление педалью Digitech Whammy Pedal
 
-[**proto.xtouch_ext**](proto.xtouch_ext.html): Behringer XTouch Extender XMidi protocol
+[**proto.xtouch_ext**](proto.xtouch_ext.html): управление Behringer XTouch XMidi
 
 
 ### <a id="cat_random" href="category_random.html">random</a>
@@ -1691,7 +1691,7 @@ layout: default_ru
 ---
 
 
-[**samp.time~**](samp.time~.html): sample counter
+[**samp.time~**](samp.time~.html): счетчик семплов
 
 
 ### <a id="cat_seq" href="category_seq.html">seq</a>
@@ -1725,9 +1725,9 @@ layout: default_ru
 ---
 
 
-[**snd.file**](snd.file.html): Sound file loader on steroids
+[**snd.file**](snd.file.html): загрузчик звуковых файлов с дополнительными возможностями
 
-[**snd.play~**](snd.play~.html): Sound file player on steroids
+[**snd.play~**](snd.play~.html): проигрыватель звуковых файлов с дополнительными возможностями
 
 
 ### <a id="cat_spat" href="category_spat.html">spat</a>
@@ -1798,13 +1798,13 @@ layout: default_ru
 
 [**pan.sqrt~**](pan.sqrt~.html): двухканальное квадратичное панорамирование равной мощности
 
-[**spat.pan4~**](spat.pan4~.html): GMEM SPAT: 4-outputs spatializer
+[**spat.pan4~**](spat.pan4~.html): GMEM SPAT: управление 4-х канальным пространственным звуком
 
-[**spat.pan8~**](spat.pan8~.html): GMEM SPAT: 8-outputs spatializer
+[**spat.pan8~**](spat.pan8~.html): GMEM SPAT: управление 8 канальным пространственным звуком
 
-[**spat.zita6x8~**](spat.zita6x8~.html): spat with 6 inputs sources to 8 channel output
+[**spat.zita6x8~**](spat.zita6x8~.html): управление пространственным звуком с 6 входными источниками на 8 выходных каналов
 
-[**spat.zita8~**](spat.zita8~.html): 8 channel reverb spatializer
+[**spat.zita8~**](spat.zita8~.html): 8-канальная пространственная реверберация
 
 
 ### <a id="cat_string" href="category_string.html">string</a>
@@ -1848,15 +1848,15 @@ layout: default_ru
 ---
 
 
-[**symbol.equal**](symbol.equal.html): check symbols for equality
+[**symbol.equal**](symbol.equal.html): проверка символов на равенство
 
-[**symbol.length**](symbol.length.html): number of characters in symbol (unicode supported)
+[**symbol.length**](symbol.length.html): выводит число символов в символьном типе (с поддержкой Unicode)
 
-[**symbol.num_compare**](symbol.num_compare.html): numeric symbol compare
+[**symbol.num_compare**](symbol.num_compare.html): цифровое сравнение символов
 
-[**symbol2any**](symbol2any.html): converts symbol or string to message
+[**symbol2any**](symbol2any.html): преобразует символ или строку в сообщение
 
-[**symbol2intlist**](symbol2intlist.html): converts symbol to list of character codes
+[**symbol2intlist**](symbol2intlist.html): преобразует символьный тип в список кодов составляющих его символов
 
 
 ### <a id="cat_synth" href="category_synth.html">synth</a>
@@ -1865,73 +1865,73 @@ layout: default_ru
 ---
 
 
-[**synth.bee3~**](synth.bee3~.html): Hammond-oid organ FM synthesis instrument
+[**synth.bee3~**](synth.bee3~.html): FM-синтезатор в духе органа Хэммонда
 
-[**synth.birds~**](synth.birds~.html): bird singing generator
+[**synth.birds~**](synth.birds~.html): генератор пения птиц
 
-[**synth.church_bell~**](synth.church_bell~.html): generic church bell modal model
+[**synth.church_bell~**](synth.church_bell~.html): модовая модель церковного колокола
 
-[**synth.clap~**](synth.clap~.html): clap synth from faust libraries
+[**synth.clap~**](synth.clap~.html): синтезатор хлопка ладонями на основе библиотеки языка Faust
 
-[**synth.dubdub~**](synth.dubdub~.html): simple synth based on a sawtooth wave filtered by a resonant lowpass
+[**synth.dubdub~**](synth.dubdub~.html): простой синтезатор на основе пилообразной волны, фильтруемой резонансным фильтром нижних частот
 
-[**synth.dx7~**](synth.dx7~.html): FAUST dx7 implementation
+[**synth.dx7~**](synth.dx7~.html): реализация синтезатора DX7 из библиотеки Faust
 
-[**synth.eguitar~**](synth.eguitar~.html): simple electric guitar model with steel strings
+[**synth.eguitar~**](synth.eguitar~.html): простая модель электрогитары со стальными струнами
 
-[**synth.english_bell~**](synth.english_bell~.html): english church bell modal model
+[**synth.english_bell~**](synth.english_bell~.html): модовый синтез модели английского церковного колокола
 
-[**synth.fgrain~**](synth.fgrain~.html): file granulator from STK
+[**synth.fgrain~**](synth.fgrain~.html): файловый гранулятор из библиотеки STK
 
-[**synth.french_bell~**](synth.french_bell~.html): french church bell modal model
+[**synth.french_bell~**](synth.french_bell~.html): модовый синтез модели французского церковного колокола
 
-[**synth.german_bell~**](synth.german_bell~.html): german church bell modal model
+[**synth.german_bell~**](synth.german_bell~.html): модовый синтез немецкой модели колокола
 
-[**synth.glass_harm~**](synth.glass_harm~.html): nonlinear banded waveguide modeled Glass Harmonica
+[**synth.glass_harm~**](synth.glass_harm~.html): нелинейная волноводная модель стеклянной гармоники
 
-[**synth.glitch~**](synth.glitch~.html): Glitch synthesizer by naivesound
+[**synth.glitch~**](synth.glitch~.html): глитч-синтезатор от naivesound
 
-[**synth.harpsichord~**](synth.harpsichord~.html): waveguide commuted harpsichord
+[**synth.harpsichord~**](synth.harpsichord~.html): синтезатор клавесина на основе техники волноводного синтеза
 
-[**synth.hat~**](synth.hat~.html): hi-hat synth from faust librariest
+[**synth.hat~**](synth.hat~.html): синтезатор хай-хэта из библиотеки Faust
 
-[**synth.kick2~**](synth.kick2~.html): low-kick synth from faust librariest
+[**synth.kick2~**](synth.kick2~.html): синтезатор бочки из библиотеки Faust
 
-[**synth.kick~**](synth.kick~.html): low-kick synth from Guitarix project
+[**synth.kick~**](synth.kick~.html): синтезатор бочки из проекта Guitarix
 
-[**synth.ks~**](synth.ks~.html): Karplus-Strong string
+[**synth.ks~**](synth.ks~.html): синтезатор колебаний струны по алгоритму Каплуса-Стронга
 
-[**synth.marimba~**](synth.marimba~.html): simple marimba physical model implementing a single tone bar connected to tube
+[**synth.marimba~**](synth.marimba~.html): простая физическая модель маримбы, реализующая звуковой брусок, соединенный с трубой
 
-[**synth.metro~**](synth.metro~.html): ready to use metronome synth
+[**synth.metro~**](synth.metro~.html): готовый к использованию синтезатор метронома
 
-[**synth.piano~**](synth.piano~.html): waveguide commuted piano
+[**synth.piano~**](synth.piano~.html): фортепиано на основе техники связанного волноводного синтеза
 
-[**synth.rhodey~**](synth.rhodey~.html): STK Fender Rhodes electric piano FM synthesis instrument
+[**synth.rhodey~**](synth.rhodey~.html): FM-синтезатор в стиле Fender Rhodes piano из библиотеки STK
 
-[**synth.risset_arp~**](synth.risset_arp~.html): Jean-Claude Risset&#39;s harmonic arpeggio effect
+[**synth.risset_arp~**](synth.risset_arp~.html): эффект арпеджио Жан-Клода Риссе
 
-[**synth.risset_bell~**](synth.risset_bell~.html): Jean-Claude Risset&#39;s bell synth
+[**synth.risset_bell~**](synth.risset_bell~.html): колокол Жан-Клода Риссе
 
-[**synth.risset_tone~**](synth.risset_tone~.html): Jean-Claude Risset&#39;s endless glissando
+[**synth.risset_tone~**](synth.risset_tone~.html): бесконечное глиссандо Жан-Клода Риссе
 
-[**synth.russian_bell~**](synth.russian_bell~.html): russian church bell modal model
+[**synth.russian_bell~**](synth.russian_bell~.html): модовый синтез модели русского церковного колокола
 
-[**synth.shakers~**](synth.shakers~.html): various percussion sounds from STK library
+[**synth.shakers~**](synth.shakers~.html): различные перкуссионные звуки из библиотеки STK
 
-[**synth.sitar~**](synth.sitar~.html): STK sitar
+[**synth.sitar~**](synth.sitar~.html): синтезатор ситара из библиотеки STK
 
-[**synth.snare~**](synth.snare~.html): Snare drum synth from Guitarix project
+[**synth.snare~**](synth.snare~.html): синтезатор малого барабана из проекта Guitarix
 
-[**synth.standard_bell~**](synth.standard_bell~.html): german church bell modal model
+[**synth.standard_bell~**](synth.standard_bell~.html): модовый синтез стандартной модели колокола
 
-[**synth.tube_bell~**](synth.tube_bell~.html): STK tubular bell (orchestral chime) FM synthesis instrument
+[**synth.tube_bell~**](synth.tube_bell~.html): FM-синтезатор оркестрового колокола из библиотеки STK
 
-[**synth.voice_fofc~**](synth.voice_fofc~.html): Simple formant/vocal synthesizer with FOF-cycle filterbank.
+[**synth.voice_fofc~**](synth.voice_fofc~.html): простой формантный/вокальный синтезатор с банком фильтров FOF-цикла.
 
-[**synth.voice_fofs~**](synth.voice_fofs~.html): Simple formant/vocal synthesizer with FOF-smooth filterbank.
+[**synth.voice_fofs~**](synth.voice_fofs~.html): простой формантный/вокальный синтезатор со сглаженным банком фильтров FOF
 
-[**synth.wurley~**](synth.wurley~.html): Wurlitzer electric piano FM synthesis instrument
+[**synth.wurley~**](synth.wurley~.html): FM-синтезатор электро-фортепиано в стиле Wurlitzer
 
 
 ### <a id="cat_system" href="category_system.html">system</a>
@@ -1940,27 +1940,27 @@ layout: default_ru
 ---
 
 
-[**system.colorpanel**](system.colorpanel.html): System color panel dialog popup
+[**system.colorpanel**](system.colorpanel.html): системный диалог выбора цвета
 
 [**system.command**](system.command.html): запуск цепочек команд с перенаправлением вывода в Unix и Windows
 
-[**system.cursor**](system.cursor.html): Output cursor motion, mousewheel and button clicks
+[**system.cursor**](system.cursor.html): выводит положение курсора, нажатия кнопок мыши и колеса прокрутки
 
-[**system.exec**](system.exec.html): run external command in separate process
+[**system.exec**](system.exec.html): запуск внешней команды в отдельном процессе
 
-[**system.exit**](system.exit.html): quit PureData
+[**system.exit**](system.exit.html): завершает PureData
 
-[**system.getenv**](system.getenv.html): Get system environment variables
+[**system.getenv**](system.getenv.html): выводит системные переменные окружения
 
-[**system.hostname**](system.hostname.html): outputs system hostname
+[**system.hostname**](system.hostname.html): выводит имя хоста системы
 
 [**system.info**](system.info.html): получение информации о системе: ЦПУ и температура
 
-[**system.memsize**](system.memsize.html): returns the size of physical memory (RAM) in bytes round to float data type.
+[**system.memsize**](system.memsize.html): возвращает размер физической памяти (ОЗУ) в байтах
 
-[**system.memused**](system.memused.html): returns the process physical memory use - current and peak
+[**system.memused**](system.memused.html): выводит использование физической памяти процессом - текущее и пиковое
 
-[**system.screen_size**](system.screen_size.html): returns current screen size in pixels
+[**system.screen_size**](system.screen_size.html): выводит размер активного экрана в пикселях
 
 
 ### <a id="cat_tl" href="category_tl.html">tl</a>
@@ -1969,15 +1969,15 @@ layout: default_ru
 ---
 
 
-[**tl.bang**](tl.bang.html): Timeline bang (with possible delay)
+[**tl.bang**](tl.bang.html): выводит пустое событие временной шкалы
 
-[**tl.cue**](tl.cue.html): Timeline section
+[**tl.cue**](tl.cue.html): определяет секцию на временной шкале
 
-[**tl.timeline**](tl.timeline.html): Timeline - event scheduler
+[**tl.timeline**](tl.timeline.html): планировщик событий временной шкалы
 
-[**tl.toggle**](tl.toggle.html): Timeline bang
+[**tl.toggle**](tl.toggle.html): переключатель на временной шкале
 
-[**tl.transport**](tl.transport.html): Timeline transport control
+[**tl.transport**](tl.transport.html): управление временной шкалой
 
 
 ### <a id="cat_ui" href="category_ui.html">ui</a>

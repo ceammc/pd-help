@@ -12,19 +12,19 @@ layout: default_ru
 
 [**chaos.gbman0**](chaos.gbman0.html): Gingerbreadman map chaotic generator 
 
-[**chaos.gbman0~**](chaos.gbman0~.html): Gingerbreadman map chaotic generator 
+[**chaos.gbman0~**](chaos.gbman0~.html): хаотический генератор на основе отображения Пряничного человечка 
 
-[**chaos.jong**](chaos.jong.html): Peter de Jong attractor <br>
+[**chaos.jong**](chaos.jong.html): аттрактор Питера де Йонга <br>
 _псевдонимы:_ \[noise.jong\]
 
 
-[**chaos.logistic**](chaos.logistic.html): Logistic map chaotic generator <br>
+[**chaos.logistic**](chaos.logistic.html): хаотический генератор на основе логистического отображения <br>
 _псевдонимы:_ \[noise.logistic\]
 
 
-[**chaos.std0**](chaos.std0.html): Standard map chaotic generator 
+[**chaos.std0**](chaos.std0.html): хаотический генератор на основе стандартного отображения 
 
-[**chaos.std0~**](chaos.std0~.html): Standard map chaotic generator 
+[**chaos.std0~**](chaos.std0~.html): хаотический генератор на основе стандартного отображения 
 
 
 **Версия:** 0.9.8

@@ -3,7 +3,7 @@
 
 # lang.faust~
 
-###### faust realtime compilation
+###### real-time compilation of Faust DSP Language code
 
 *available since version:* 0.9.2
 

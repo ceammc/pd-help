@@ -3,7 +3,7 @@
 
 # noise.white~
 
-###### White noise generator
+###### white noise generator
 
 *available since version:* 0.1
 

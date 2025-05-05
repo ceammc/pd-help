@@ -6,7 +6,7 @@ layout: default_ru
 
 # hw.kbd_light
 
-###### Get/set keyboard light on some devices
+###### управление подсветкой клавиатуры на некоторых устройствах
 
 *доступно с версии:* 0.8
 

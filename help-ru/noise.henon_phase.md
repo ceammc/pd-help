@@ -6,7 +6,7 @@ layout: default_ru
 
 # noise.henon_phase
 
-###### henon phase Ddagrams
+###### фазовые диаграммы Эно
 
 *доступно с версии:* .5
 

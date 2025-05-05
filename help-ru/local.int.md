@@ -6,7 +6,7 @@ layout: default_ru
 
 # local.int
 
-###### canvas-scoped named integer variable
+###### локальное для патча именованное целое число
 
 *доступно с версии:* 0.1
 

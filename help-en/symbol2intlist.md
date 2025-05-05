@@ -5,7 +5,7 @@
 **aliases:** [ceammc/symbol2intlist], [ceammc/sym-&gt;ilist], [sym-&gt;ilist]
 
 
-###### converts symbol to list of character codes
+###### converts the symbol into a list of character codes
 
 *available since version:* 0.9.1
 

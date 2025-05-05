@@ -5,7 +5,7 @@
 **aliases:** [noise.logistic]
 
 
-###### Logistic map chaotic generator
+###### logistic map chaotic generator
 
 *available since version:* 0.9
 

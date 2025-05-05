@@ -6,7 +6,7 @@ layout: default_ru
 
 # dyn.comp_up2~
 
-###### stereo upward compressor with channel linking
+###### восходящий стерео-компрессор со связью каналов
 
 *доступно с версии:* 0.9.7
 

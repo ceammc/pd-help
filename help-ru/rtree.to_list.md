@@ -6,7 +6,7 @@ layout: default_ru
 
 # rtree.to_list
 
-###### convert OpenMusic-like rhythm tree to list of fractions
+###### преобразует OpenMusic-подобное ритмическое дерево в список дробей
 
 *доступно с версии:* 0.9.1
 

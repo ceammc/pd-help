@@ -10,45 +10,45 @@ layout: default_ru
 работа с различными протоколами сообщений и форматами данных
 
 
-[**proto.arturia.minilab**](proto.arturia.minilab.html): simple SysEx control for Arturia MiniLab 
+[**proto.arturia.minilab**](proto.arturia.minilab.html): управление по SysEx для Arturia MiniLab 
 
-[**proto.feelworld**](proto.feelworld.html): protocol for FeelWorld LivePro L1 HDMI mixer 
+[**proto.feelworld**](proto.feelworld.html): управление видео-микшером FeelWorld LivePro L1 HDMI 
 
-[**proto.firmata**](proto.firmata.html): Firmata Arduino protocol support 
+[**proto.firmata**](proto.firmata.html): поддержка протокола Firmata для Arduino 
 
-[**proto.inscore**](proto.inscore.html): INScore message creator 
+[**proto.inscore**](proto.inscore.html): создание сообщений для программы INScore 
 
-[**proto.ltc.in~**](proto.ltc.in~.html): LTC decoder <br>
+[**proto.ltc.in~**](proto.ltc.in~.html): LTC-декодер <br>
 _псевдонимы:_ \[ltc.in~\]
 
 
-[**proto.ltc.out~**](proto.ltc.out~.html): LTC encoder <br>
+[**proto.ltc.out~**](proto.ltc.out~.html): LTC энкодер <br>
 _псевдонимы:_ \[ltc.out~\]
 
 
-[**proto.midi**](proto.midi.html): raw midi encoder/parser 
+[**proto.midi**](proto.midi.html): декодер/энкодер исходных сообщений MIDI 
 
-[**proto.midi.casio**](proto.midi.casio.html): Casio Privia MIDI control 
+[**proto.midi.casio**](proto.midi.casio.html): управление Casio Privia MIDI 
 
-[**proto.midi.cc**](proto.midi.cc.html): raw midi CC encoder/parser 
+[**proto.midi.cc**](proto.midi.cc.html): декодер/энкодер исходных сообщений MIDI СС 
 
-[**proto.midi.sysex**](proto.midi.sysex.html): raw midi SYSex encoder/parser 
+[**proto.midi.sysex**](proto.midi.sysex.html): декодер/энкодер исходных сообщений MIDI SYSex 
 
-[**proto.moppy**](proto.moppy.html): protocol for Musical flOPPY controller 
+[**proto.moppy**](proto.moppy.html): nротокол для музыкального контроллера flOPPY 
 
-[**proto.morse**](proto.morse.html): Morse encoder 
+[**proto.morse**](proto.morse.html): Морзе энкодер 
 
-[**proto.mpv**](proto.mpv.html): mpv video player control 
+[**proto.mpv**](proto.mpv.html): управление видео плеером MPV 
 
 [**proto.obs**](proto.obs.html): WebSocket клиент для управления OBS studio 
 
-[**proto.sp.alpaca**](proto.sp.alpaca.html): protocol parser for Arduino-based CEAMMC footswitch 
+[**proto.sp.alpaca**](proto.sp.alpaca.html): парсер протокола для ножной педали на базе Arduino CEAMMC 
 
-[**proto.vlc**](proto.vlc.html): VLC video player control over HTTP 
+[**proto.vlc**](proto.vlc.html): управление видеоплеером VLC через HTTP 
 
-[**proto.whammy**](proto.whammy.html): Control for Digitech Whammy pedal 
+[**proto.whammy**](proto.whammy.html): управление педалью Digitech Whammy Pedal 
 
-[**proto.xtouch_ext**](proto.xtouch_ext.html): Behringer XTouch Extender XMidi protocol 
+[**proto.xtouch_ext**](proto.xtouch_ext.html): управление Behringer XTouch XMidi 
 
 
 **Версия:** 0.9.8

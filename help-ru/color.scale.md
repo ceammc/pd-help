@@ -6,7 +6,7 @@ layout: default_ru
 
 # color.scale
 
-###### create color scales
+###### создание цветовой шкалы
 
 *доступно с версии:* 0.9.7
 

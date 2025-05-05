@@ -6,7 +6,7 @@ layout: default_ru
 
 # net.osc.server
 
-###### OSC server control
+###### управление сервером OSC
 
 *доступно с версии:* 0.9.5
 

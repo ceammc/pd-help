@@ -6,7 +6,7 @@ layout: default_ru
 
 # proto.ltc.out~
 
-###### LTC encoder
+###### LTC энкодер
 
 *доступно с версии:* 0.9.7
 

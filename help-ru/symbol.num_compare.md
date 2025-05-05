@@ -6,7 +6,7 @@ layout: default_ru
 
 # symbol.num_compare
 
-###### numeric symbol compare
+###### цифровое сравнение символов
 
 *доступно с версии:* 0.4
 

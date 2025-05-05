@@ -10,13 +10,13 @@ layout: default_ru
 объекты для работы с сетью
 
 
-[**net.artnet.send**](net.artnet.send.html): ArtNet DMX message sender <br>
+[**net.artnet.send**](net.artnet.send.html): отправление сообщений ArtNet DMX <br>
 _псевдонимы:_ \[artnet.send\]
 
 
 [**net.freesound**](net.freesound.html): клиент для Freesound API v2 
 
-[**net.host2ip**](net.host2ip.html): returns IP address by DNS name <br>
+[**net.host2ip**](net.host2ip.html): выводит IP-адрес по имени DNS <br>
 _псевдонимы:_ \[net.host-&gt;ip\]
 
 
@@ -24,7 +24,7 @@ _псевдонимы:_ \[net.host-&gt;ip\]
 _псевдонимы:_ \[http.client\]
 
 
-[**net.http.send**](net.http.send.html): HTTP request sender <br>
+[**net.http.send**](net.http.send.html): отправляет HTTP запросы <br>
 _псевдонимы:_ \[http.send\]
 
 
@@ -34,15 +34,15 @@ _псевдонимы:_ \[http.send\]
 _псевдонимы:_ \[mqtt.client\]
 
 
-[**net.osc.receive**](net.osc.receive.html): OSC message listener <br>
+[**net.osc.receive**](net.osc.receive.html): получение сообщений протокола OSC <br>
 _псевдонимы:_ \[net.osc.r\]
 
 
-[**net.osc.send**](net.osc.send.html): OSC message sender <br>
+[**net.osc.send**](net.osc.send.html): отправка сообщений протокола OSC <br>
 _псевдонимы:_ \[net.osc.s\]
 
 
-[**net.osc.server**](net.osc.server.html): OSC server control <br>
+[**net.osc.server**](net.osc.server.html): управление сервером OSC <br>
 _псевдонимы:_ \[net.osc\]
 
 

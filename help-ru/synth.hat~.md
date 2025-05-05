@@ -6,7 +6,7 @@ layout: default_ru
 
 # synth.hat~
 
-###### hi-hat synth from faust librariest
+###### синтезатор хай-хэта из библиотеки Faust
 
 *доступно с версии:* 0.9.5
 

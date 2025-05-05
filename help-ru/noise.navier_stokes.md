@@ -6,7 +6,7 @@ layout: default_ru
 
 # noise.navier_stokes
 
-###### navier-stokes diff equations
+###### дифференциальные уравнения Навье-Стокса
 
 *доступно с версии:* 0.5
 

@@ -6,7 +6,7 @@ layout: default_ru
 
 # synth.piano~
 
-###### waveguide commuted piano
+###### фортепиано на основе техники связанного волноводного синтеза
 
 *доступно с версии:* 0.9.2
 

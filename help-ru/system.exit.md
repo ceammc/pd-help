@@ -6,7 +6,7 @@ layout: default_ru
 
 # system.exit
 
-###### quit PureData
+###### завершает PureData
 
 *доступно с версии:* 0.9.2
 

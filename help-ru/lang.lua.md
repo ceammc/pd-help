@@ -6,7 +6,7 @@ layout: default_ru
 
 # lang.lua
 
-###### Lua JIT language bindings
+###### языковые привязки для Lua JIT
 
 *доступно с версии:* 0.9.5
 

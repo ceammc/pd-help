@@ -6,7 +6,7 @@ layout: default_ru
 
 # synth.church_bell~
 
-###### generic church bell modal model
+###### модовая модель церковного колокола
 
 *доступно с версии:* 0.6
 

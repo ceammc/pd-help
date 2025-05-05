@@ -6,7 +6,7 @@ layout: default_ru
 
 # noise.ikeda
 
-###### Ikeda attractor
+###### генератор хаоса на основе отображения Икеды
 
 *доступно с версии:* 0.5
 

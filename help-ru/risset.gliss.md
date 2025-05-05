@@ -6,7 +6,7 @@ layout: default_ru
 
 # risset.gliss
 
-###### Sheppard/Risset glissando calculator
+###### калькулятор для глиссандо Шеппарда/Риссе
 
 *доступно с версии:* 0.9.5
 

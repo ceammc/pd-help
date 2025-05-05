@@ -3,7 +3,7 @@
 
 # system.exec
 
-###### run external command in separate process
+###### run the external command in a separate process
 
 *available since version:* 0.7
 

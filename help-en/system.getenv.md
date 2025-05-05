@@ -3,7 +3,7 @@
 
 # system.getenv
 
-###### Get system environment variables
+###### output system environment variables
 
 *available since version:* 0.1
 

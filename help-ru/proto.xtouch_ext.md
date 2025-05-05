@@ -6,7 +6,7 @@ layout: default_ru
 
 # proto.xtouch_ext
 
-###### Behringer XTouch Extender XMidi protocol
+###### управление Behringer XTouch XMidi
 
 *доступно с версии:* 0.9.1
 

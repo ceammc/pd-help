@@ -3,7 +3,7 @@
 
 # noise.verhulst
 
-###### verhulst distribution
+###### Verhulst distribution
 
 *available since version:* 0.5
 

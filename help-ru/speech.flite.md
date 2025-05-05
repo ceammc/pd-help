@@ -6,7 +6,7 @@ layout: default_ru
 
 # speech.flite
 
-###### render speech to array
+###### рендеринг синтезатора речи в массив
 
 *доступно с версии:* 0.6
 

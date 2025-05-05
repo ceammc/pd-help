@@ -6,7 +6,7 @@ layout: default_ru
 
 # net.artnet.send
 
-###### ArtNet DMX message sender
+###### отправление сообщений ArtNet DMX
 
 *доступно с версии:* 0.9.5
 

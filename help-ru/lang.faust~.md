@@ -6,7 +6,7 @@ layout: default_ru
 
 # lang.faust~
 
-###### faust realtime compilation
+###### компиляция кода Faust DSP Language в реальном времени
 
 *доступно с версии:* 0.9.2
 

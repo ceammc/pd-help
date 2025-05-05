@@ -6,7 +6,7 @@ layout: default_ru
 
 # proto.midi.sysex
 
-###### raw midi SYSex encoder/parser
+###### декодер/энкодер исходных сообщений MIDI SYSex
 
 *доступно с версии:* 0.9.4
 

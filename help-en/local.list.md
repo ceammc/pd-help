@@ -3,7 +3,7 @@
 
 # local.list
 
-###### local named list object
+###### a local named list object
 
 *available since version:* 0.1
 

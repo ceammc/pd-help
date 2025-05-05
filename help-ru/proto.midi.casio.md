@@ -6,7 +6,7 @@ layout: default_ru
 
 # proto.midi.casio
 
-###### Casio Privia MIDI control
+###### управление Casio Privia MIDI
 
 *доступно с версии:* 0.9.5
 

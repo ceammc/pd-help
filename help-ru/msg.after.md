@@ -6,7 +6,7 @@ layout: default_ru
 
 # msg.after
 
-###### send specified message after incoming message
+###### отправляет указанное сообщение после пересланного входящего сообщения
 
 *доступно с версии:* 0.7
 

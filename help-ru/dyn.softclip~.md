@@ -6,7 +6,7 @@ layout: default_ru
 
 # dyn.softclip~
 
-###### soft signal clip
+###### мягкое клиппирование сигнала
 
 *доступно с версии:* 0.1
 

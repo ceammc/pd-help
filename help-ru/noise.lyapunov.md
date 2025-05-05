@@ -6,7 +6,7 @@ layout: default_ru
 
 # noise.lyapunov
 
-###### lyapunov random attractor
+###### случайный аттрактор Ляпунова
 
 *доступно с версии:* 0.5
 

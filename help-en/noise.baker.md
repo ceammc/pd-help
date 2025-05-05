@@ -3,7 +3,7 @@
 
 # noise.baker
 
-###### Part of a-chaos library
+###### Baker map chaos generator
 
 *available since version:* 0.5
 

@@ -6,7 +6,7 @@ layout: default_ru
 
 # msg.pack
 
-###### message pack
+###### упаковка сообщений
 
 *доступно с версии:* 0.9.7
 

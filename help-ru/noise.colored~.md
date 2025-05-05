@@ -6,7 +6,7 @@ layout: default_ru
 
 # noise.colored~
 
-###### colored noise generator with an arbitrary spectral roll
+###### генератор цветного шума с произвольным наклоном спектра
 
 *доступно с версии:* 0.9.6
 

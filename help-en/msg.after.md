@@ -3,7 +3,7 @@
 
 # msg.after
 
-###### send specified message after incoming message
+###### sends the specified message following the forwarded incoming message
 
 *available since version:* 0.7
 

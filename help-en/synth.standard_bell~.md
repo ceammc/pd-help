@@ -3,7 +3,7 @@
 
 # synth.standard_bell~
 
-###### german church bell modal model
+###### standart bell modal model
 
 *available since version:* 0.9.4
 

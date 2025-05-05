@@ -10,19 +10,19 @@ layout: default_ru
 локальный именованные объекты, доступные только из текущего холста
 
 
-[**local.dict**](local.dict.html): local named dict object <br>
+[**local.dict**](local.dict.html): локальный для патча словарь <br>
 _псевдонимы:_ \[local.json\]
 
 
-[**local.float**](local.float.html): canvas-scoped named float variable 
+[**local.float**](local.float.html): локальное для патча именованное число с плавающей точкой 
 
-[**local.int**](local.int.html): canvas-scoped named integer variable 
+[**local.int**](local.int.html): локальное для патча именованное целое число 
 
-[**local.list**](local.list.html): local named list object 
+[**local.list**](local.list.html): локальный для патча именованный список 
 
-[**local.mlist**](local.mlist.html): local named mlist object 
+[**local.mlist**](local.mlist.html): локальный для патча именованный многоуровневый список 
 
-[**local.set**](local.set.html): local named set object 
+[**local.set**](local.set.html): локальное для патча именованное множество 
 
 
 **Версия:** 0.9.8

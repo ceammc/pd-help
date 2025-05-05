@@ -3,7 +3,7 @@
 
 # noise.henon_phase
 
-###### henon phase Ddagrams
+###### henon phase diagrams
 
 *available since version:* .5
 

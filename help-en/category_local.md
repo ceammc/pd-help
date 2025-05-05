@@ -14,9 +14,9 @@ _aliases:_ \[local.json\]
 
 [**local.int**](local.int.html): canvas-scoped named integer variable 
 
-[**local.list**](local.list.html): local named list object 
+[**local.list**](local.list.html): a local named list object 
 
-[**local.mlist**](local.mlist.html): local named mlist object 
+[**local.mlist**](local.mlist.html): local named Mlist object 
 
 [**local.set**](local.set.html): local named set object 
 

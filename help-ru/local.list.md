@@ -6,7 +6,7 @@ layout: default_ru
 
 # local.list
 
-###### local named list object
+###### локальный для патча именованный список
 
 *доступно с версии:* 0.1
 

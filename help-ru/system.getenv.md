@@ -6,7 +6,7 @@ layout: default_ru
 
 # system.getenv
 
-###### Get system environment variables
+###### выводит системные переменные окружения
 
 *доступно с версии:* 0.1
 

@@ -6,7 +6,7 @@ layout: default_ru
 
 # proto.midi
 
-###### raw midi encoder/parser
+###### декодер/энкодер исходных сообщений MIDI
 
 *доступно с версии:* 0.9.2
 

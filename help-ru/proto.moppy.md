@@ -6,7 +6,7 @@ layout: default_ru
 
 # proto.moppy
 
-###### protocol for Musical flOPPY controller
+###### nротокол для музыкального контроллера flOPPY
 
 *доступно с версии:* 0.9.5
 

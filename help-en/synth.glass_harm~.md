@@ -3,7 +3,7 @@
 
 # synth.glass_harm~
 
-###### nonlinear banded waveguide modeled Glass Harmonica
+###### nonlinear banded waveguide modeled glass harmonica
 
 *available since version:* 0.9.2
 

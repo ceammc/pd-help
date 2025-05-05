@@ -6,7 +6,7 @@ layout: default_ru
 
 # spat.pan4~
 
-###### GMEM SPAT: 4-outputs spatializer
+###### GMEM SPAT: управление 4-х канальным пространственным звуком
 
 *доступно с версии:* 0.6
 

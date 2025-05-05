@@ -5,7 +5,7 @@
 **aliases:** [ceammc/replace]
 
 
-###### Replace atoms in data stream
+###### replace atoms in data stream
 
 *available since version:* 0.1
 

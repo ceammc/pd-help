@@ -3,7 +3,7 @@
 
 # noise.lorenz
 
-###### Lorenz chaos
+###### Lorenz chaos attractor
 
 *available since version:* 0.5
 

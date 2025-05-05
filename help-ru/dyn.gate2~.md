@@ -6,7 +6,7 @@ layout: default_ru
 
 # dyn.gate2~
 
-###### stereo signal gate
+###### стерео-сигнальный гейт
 
 *доступно с версии:* 0.1
 

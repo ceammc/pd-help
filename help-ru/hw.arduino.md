@@ -6,7 +6,7 @@ layout: default_ru
 
 # hw.arduino
 
-###### Arduino device
+###### устройство Arduino
 
 *доступно с версии:* 0.5
 
@@ -14,7 +14,7 @@ layout: default_ru
 
 
 ## информация
-Arduino serial port tha t supports reconnect and hotplug. If no properties are given tries to connect to first available and not opened device. If @reconnect flag is given, waits for device hotplug and reconnects to it.
+Arduino serial port that supports reconnect and hotplug. If no properties are given tries to connect to the first available and not opened device. If @reconnect flag is given, waits for device hotplug and reconnects to it.
 
 
 [![example](../examples/img/hw.arduino.jpg)](../examples/pd/hw.arduino.pd)

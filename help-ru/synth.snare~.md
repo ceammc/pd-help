@@ -6,7 +6,7 @@ layout: default_ru
 
 # synth.snare~
 
-###### Snare drum synth from Guitarix project
+###### синтезатор малого барабана из проекта Guitarix
 
 *доступно с версии:* 0.9.4
 

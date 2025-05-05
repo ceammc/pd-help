@@ -6,7 +6,7 @@ layout: default_ru
 
 # chaos.jong
 
-###### Peter de Jong attractor
+###### аттрактор Питера де Йонга
 
 *доступно с версии:* 0.9
 

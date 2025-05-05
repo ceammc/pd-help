@@ -3,7 +3,7 @@
 
 # system.memused
 
-###### returns the process physical memory use - current and peak
+###### outputs the process physical memory usage - current and peak
 
 *available since version:* 0.1
 

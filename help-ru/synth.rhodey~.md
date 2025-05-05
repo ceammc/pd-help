@@ -6,7 +6,7 @@ layout: default_ru
 
 # synth.rhodey~
 
-###### STK Fender Rhodes electric piano FM synthesis instrument
+###### FM-синтезатор в стиле Fender Rhodes piano из библиотеки STK
 
 *доступно с версии:* 0.6
 

@@ -6,7 +6,7 @@ layout: default_ru
 
 # msg.onload
 
-###### send message when patch loads
+###### отправить указанное сообщение при загрузе патча
 
 *доступно с версии:* 0.7
 

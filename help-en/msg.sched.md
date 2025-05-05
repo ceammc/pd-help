@@ -3,7 +3,7 @@
 
 # msg.sched
 
-###### message scheduler
+###### message dispatch scheduler
 
 *available since version:* 0.9.4
 

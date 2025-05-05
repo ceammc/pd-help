@@ -6,7 +6,7 @@ layout: default_ru
 
 # speech.flite~
 
-###### render speech to array
+###### синтезатор речи Flite
 
 *доступно с версии:* 0.9.2
 

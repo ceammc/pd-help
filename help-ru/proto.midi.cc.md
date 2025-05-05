@@ -6,7 +6,7 @@ layout: default_ru
 
 # proto.midi.cc
 
-###### raw midi CC encoder/parser
+###### декодер/энкодер исходных сообщений MIDI СС
 
 *доступно с версии:* 0.9.4
 

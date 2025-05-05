@@ -6,7 +6,7 @@ layout: default_ru
 
 # net.host2ip
 
-###### returns IP address by DNS name
+###### выводит IP-адрес по имени DNS
 
 *доступно с версии:* 0.7
 

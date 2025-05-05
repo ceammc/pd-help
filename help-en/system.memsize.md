@@ -3,7 +3,7 @@
 
 # system.memsize
 
-###### returns the size of physical memory (RAM) in bytes round to float data type.
+###### returns the size of physical memory (RAM) in bytes
 
 *available since version:* 0.1
 

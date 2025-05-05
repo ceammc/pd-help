@@ -3,7 +3,7 @@
 
 # system.screen_size
 
-###### returns current screen size in pixels
+###### outputs the current screen size in pixels
 
 *available since version:* 0.1
 

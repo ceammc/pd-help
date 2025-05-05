@@ -6,7 +6,7 @@ layout: default_ru
 
 # dyn.expand~
 
-###### mono dynamic range expander
+###### расширение динамического моно-диапазона
 
 *доступно с версии:* 0.9.7
 

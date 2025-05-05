@@ -10,7 +10,7 @@ layout: default_ru
 управление потоками данных
 
 
-[**expand_env**](expand_env.html): Substitute environment variables in data stream <br>
+[**expand_env**](expand_env.html): подставляет значения переменных среды в поток данных <br>
 _псевдонимы:_ \[ceammc/expand_env\]
 
 
@@ -166,7 +166,7 @@ _псевдонимы:_ \[flow.pack&#39;\]
 _псевдонимы:_ \[ceammc/tee~\], \[tee~\], \[ceammc/~-&gt;\], \[~-&gt;\]
 
 
-[**replace**](replace.html): Replace atoms in data stream <br>
+[**replace**](replace.html): замена атомов в потоке данных <br>
 _псевдонимы:_ \[ceammc/replace\]
 
 

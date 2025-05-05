@@ -11,7 +11,7 @@
 
 
 ## information
-Arduino serial port tha t supports reconnect and hotplug. If no properties are given tries to connect to first available and not opened device. If @reconnect flag is given, waits for device hotplug and reconnects to it.
+Arduino serial port that supports reconnect and hotplug. If no properties are given tries to connect to the first available and not opened device. If @reconnect flag is given, waits for device hotplug and reconnects to it.
 
 
 [![example](../examples/img/hw.arduino.jpg)](../examples/pd/hw.arduino.pd)

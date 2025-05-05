@@ -3,7 +3,7 @@
 
 # hw.apple_smc
 
-###### query the system management control in Apples
+###### query Apple system management control
 
 *available since version:* 0.8
 

@@ -6,7 +6,7 @@ layout: default_ru
 
 # qrcode
 
-###### QR code generator
+###### генератор QR кода
 
 *доступно с версии:* 0.9.7
 

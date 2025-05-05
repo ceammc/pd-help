@@ -10,9 +10,9 @@ layout: default_ru
 работа с различными типами данных
 
 
-[**color.mix**](color.mix.html): color mixer 
+[**color.mix**](color.mix.html): смешивание цветов 
 
-[**color.scale**](color.scale.html): create color scales 
+[**color.scale**](color.scale.html): создание цветовой шкалы 
 
 [**data.bimap**](data.bimap.html): двунаправленное отображение <br>
 _псевдонимы:_ \[ceammc/bimap\], \[bimap\]
@@ -78,11 +78,11 @@ _псевдонимы:_ \[ceammc/dict-&gt;list\], \[dict-&gt;list\]
 
 [**global.bimap**](global.bimap.html): глобальное двунаправленное отображение 
 
-[**local.bimap**](local.bimap.html): local to patch bidirectional map container 
+[**local.bimap**](local.bimap.html): локальный для патча контейнер двунаправленного отображения 
 
-[**mlist.flatten**](mlist.flatten.html): flatten nested mlist 
+[**mlist.flatten**](mlist.flatten.html): преобразует многоуровневый список в одноуровневый 
 
-[**rtree.to_list**](rtree.to_list.html): convert OpenMusic-like rhythm tree to list of fractions <br>
+[**rtree.to_list**](rtree.to_list.html): преобразует OpenMusic-подобное ритмическое дерево в список дробей <br>
 _псевдонимы:_ \[ceammc/rtree-&gt;list\], \[rtree-&gt;list\]
 
 

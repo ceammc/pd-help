@@ -6,7 +6,7 @@ layout: default_ru
 
 # proto.sp.alpaca
 
-###### protocol parser for Arduino-based CEAMMC footswitch
+###### парсер протокола для ножной педали на базе Arduino CEAMMC
 
 *доступно с версии:* 0.8
 

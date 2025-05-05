@@ -6,7 +6,7 @@ layout: default_ru
 
 # symbol2intlist
 
-###### converts symbol to list of character codes
+###### преобразует символьный тип в список кодов составляющих его символов
 
 *доступно с версии:* 0.9.1
 

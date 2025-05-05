@@ -6,7 +6,7 @@ layout: default_ru
 
 # net.osc.send
 
-###### OSC message sender
+###### отправка сообщений протокола OSC
 
 *доступно с версии:* 0.9.5
 

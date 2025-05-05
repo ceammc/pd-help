@@ -14,13 +14,13 @@
 _aliases:_ \[noise.jong\]
 
 
-[**chaos.logistic**](chaos.logistic.html): Logistic map chaotic generator <br>
+[**chaos.logistic**](chaos.logistic.html): logistic map chaotic generator <br>
 _aliases:_ \[noise.logistic\]
 
 
-[**chaos.std0**](chaos.std0.html): Standard map chaotic generator 
+[**chaos.std0**](chaos.std0.html): standard map chaotic generator 
 
-[**chaos.std0\~**](chaos.std0~.html): Standard map chaotic generator 
+[**chaos.std0\~**](chaos.std0~.html): standard map chaotic generator 
 
 
 **Version:** 0.9.8

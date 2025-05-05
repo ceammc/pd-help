@@ -3,7 +3,7 @@
 
 # noise.henon
 
-###### henon attractor
+###### Henon map chaos attractor
 
 *available since version:* .5
 

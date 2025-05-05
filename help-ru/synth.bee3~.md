@@ -6,7 +6,7 @@ layout: default_ru
 
 # synth.bee3~
 
-###### Hammond-oid organ FM synthesis instrument
+###### FM-синтезатор в духе органа Хэммонда
 
 *доступно с версии:* 0.6
 

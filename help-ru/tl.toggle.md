@@ -6,7 +6,7 @@ layout: default_ru
 
 # tl.toggle
 
-###### Timeline bang
+###### переключатель на временной шкале
 
 *доступно с версии:* 0.7
 

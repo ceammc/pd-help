@@ -6,7 +6,7 @@ layout: default_ru
 
 # noise.clifford
 
-###### clifford attractor
+###### аттрактор Клиффорда
 
 *доступно с версии:* 0.5
 

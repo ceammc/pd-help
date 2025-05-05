@@ -6,7 +6,7 @@ layout: default_ru
 
 # plot.geomspace~
 
-###### outputs numbers spaced evenly on a log scale (a geometric progression)
+###### выводит последовательность равномерно распределенных по логарифмической шкале чисел (геометрическая прогрессия)
 
 *доступно с версии:* 0.9
 

@@ -6,7 +6,7 @@ layout: default_ru
 
 # local.mlist
 
-###### local named mlist object
+###### локальный для патча именованный многоуровневый список
 
 *доступно с версии:* 0.6
 

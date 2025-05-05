@@ -10,7 +10,7 @@ layout: default_ru
 
 
 
-[**samp.time~**](samp.time~.html): sample counter <br>
+[**samp.time~**](samp.time~.html): счетчик семплов <br>
 _псевдонимы:_ \[samp.t~\]
 
 

@@ -5,7 +5,7 @@
 **aliases:** [ceammc/loadexpr]
 
 
-###### send message when patch loads
+###### sends the message when the patch loads
 
 *available since version:* 0.9.2
 

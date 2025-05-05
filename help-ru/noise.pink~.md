@@ -6,7 +6,7 @@ layout: default_ru
 
 # noise.pink~
 
-###### Pink noise generator
+###### генератор розового шума
 
 *доступно с версии:* 0.1
 

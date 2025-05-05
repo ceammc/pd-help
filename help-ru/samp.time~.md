@@ -6,7 +6,7 @@ layout: default_ru
 
 # samp.time~
 
-###### sample counter
+###### счетчик семплов
 
 *доступно с версии:* 0.9.4
 

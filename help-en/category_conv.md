@@ -214,7 +214,7 @@ _aliases:_ \[ceammc/sig-&gt;float\~\], \[sig-&gt;float\~\], \[ceammc/s-&gt;f\~\]
 _aliases:_ \[ceammc/str-&gt;sec\], \[str-&gt;sec\]
 
 
-[**music.dur2time**](music.dur2time.html): convert duration list to time <br>
+[**music.dur2time**](music.dur2time.html): transforms the list of musical durations into a list of time periods <br>
 _aliases:_ \[music.d-&gt;t\]
 
 

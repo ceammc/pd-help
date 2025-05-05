@@ -8,7 +8,7 @@ working with various datatypes
 
 [**color.mix**](color.mix.html): color mixer 
 
-[**color.scale**](color.scale.html): create color scales 
+[**color.scale**](color.scale.html): creation of the color scale 
 
 [**data.bimap**](data.bimap.html): bidirectional map container <br>
 _aliases:_ \[ceammc/bimap\], \[bimap\]
@@ -74,9 +74,9 @@ _aliases:_ \[ceammc/dict-&gt;list\], \[dict-&gt;list\]
 
 [**global.bimap**](global.bimap.html): global bidirectional map 
 
-[**local.bimap**](local.bimap.html): local to patch bidirectional map container 
+[**local.bimap**](local.bimap.html): local the to patch bidirectional map container 
 
-[**mlist.flatten**](mlist.flatten.html): flatten nested mlist 
+[**mlist.flatten**](mlist.flatten.html): converts a multi-level list into a single-level list 
 
 [**rtree.to_list**](rtree.to_list.html): convert OpenMusic-like rhythm tree to list of fractions <br>
 _aliases:_ \[ceammc/rtree-&gt;list\], \[rtree-&gt;list\]

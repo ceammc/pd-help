@@ -3,7 +3,7 @@
 
 # system.colorpanel
 
-###### System color panel dialog popup
+###### system color panel dialog popup
 
 *available since version:* 0.1
 

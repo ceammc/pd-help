@@ -6,7 +6,7 @@ layout: default_ru
 
 # synth.russian_bell~
 
-###### russian church bell modal model
+###### модовый синтез модели русского церковного колокола
 
 *доступно с версии:* 0.9.1
 

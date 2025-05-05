@@ -6,7 +6,7 @@ layout: default_ru
 
 # synth.metro~
 
-###### ready to use metronome synth
+###### готовый к использованию синтезатор метронома
 
 *доступно с версии:* 0.9.7
 

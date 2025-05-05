@@ -5,7 +5,7 @@
 **aliases:** [ceammc/loadmsg], [loadmsg]
 
 
-###### send message when patch loads
+###### send the specified message upon patch loading
 
 *available since version:* 0.7
 

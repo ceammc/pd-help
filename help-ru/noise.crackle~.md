@@ -6,7 +6,7 @@ layout: default_ru
 
 # noise.crackle~
 
-###### sparse noise generator
+###### генератор разреженного шума
 
 *доступно с версии:* 0.6
 

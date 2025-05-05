@@ -3,7 +3,7 @@
 
 # plot.response~
 
-###### output amp/phase freq response to impulse
+###### produces the amplitude, phase, and frequency responses to the input signal
 
 *available since version:* 0.9
 

@@ -218,7 +218,7 @@ _псевдонимы:_ \[ceammc/sig-&gt;float~\], \[sig-&gt;float~\], \[ceammc/
 _псевдонимы:_ \[ceammc/str-&gt;sec\], \[str-&gt;sec\]
 
 
-[**music.dur2time**](music.dur2time.html): convert duration list to time <br>
+[**music.dur2time**](music.dur2time.html): преобразование списка музыкальных длительностей в список временных периодов <br>
 _псевдонимы:_ \[music.d-&gt;t\]
 
 

@@ -6,7 +6,7 @@ layout: default_ru
 
 # hw.apple_smc
 
-###### query the system management control in Apples
+###### запросы к системе SMC в Apple
 
 *доступно с версии:* 0.8
 

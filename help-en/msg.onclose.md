@@ -3,7 +3,7 @@
 
 # msg.onclose
 
-###### send message when patch closes
+###### send a message when closing a patch
 
 *available since version:* 0.9.7
 

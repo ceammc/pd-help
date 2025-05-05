@@ -6,7 +6,7 @@ layout: default_ru
 
 # synth.fgrain~
 
-###### file granulator from STK
+###### файловый гранулятор из библиотеки STK
 
 *доступно с версии:* 0.6
 

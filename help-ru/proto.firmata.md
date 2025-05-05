@@ -6,7 +6,7 @@ layout: default_ru
 
 # proto.firmata
 
-###### Firmata Arduino protocol support
+###### поддержка протокола Firmata для Arduino
 
 *доступно с версии:* 0.5
 

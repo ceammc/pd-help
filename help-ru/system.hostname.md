@@ -6,7 +6,7 @@ layout: default_ru
 
 # system.hostname
 
-###### outputs system hostname
+###### выводит имя хоста системы
 
 *доступно с версии:* 0.1
 

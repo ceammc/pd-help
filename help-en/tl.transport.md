@@ -3,7 +3,7 @@
 
 # tl.transport
 
-###### Timeline transport control
+###### timeline transport control
 
 *available since version:* 0.1
 

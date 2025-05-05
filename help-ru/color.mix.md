@@ -6,7 +6,7 @@ layout: default_ru
 
 # color.mix
 
-###### color mixer
+###### смешивание цветов
 
 *доступно с версии:* 0.9.7
 

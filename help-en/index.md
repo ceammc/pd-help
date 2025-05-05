@@ -134,15 +134,15 @@ working with arrays and tables
 
 [**array.window**](array.window.html): fills the array with the window function 
 
-[**plot.geomspace\~**](plot.geomspace~.html): outputs numbers spaced evenly on a log scale (a geometric progression) 
+[**plot.geomspace\~**](plot.geomspace~.html): generates a sequence of numbers that are evenly distributed on a logarithmic scale (geometric progression) 
 
-[**plot.hist\~**](plot.hist~.html): calculate and output signal histogram 
+[**plot.hist\~**](plot.hist~.html): calculates and displays the histogram of the input signal 
 
-[**plot.linspace\~**](plot.linspace~.html): outputs numbers spaced evenly spaced over a specified interval 
+[**plot.linspace\~**](plot.linspace~.html): generates a sequence of numbers that are uniformly distributed within the specified interval 
 
 [**plot.logspace\~**](plot.logspace~.html): outputs numbers spaced evenly on a log scale 
 
-[**plot.response\~**](plot.response~.html): output amp/phase freq response to impulse 
+[**plot.response\~**](plot.response~.html): produces the amplitude, phase, and frequency responses to the input signal 
 
 
 ### <a id="cat_base" href="category_base.html">base</a>
@@ -220,11 +220,11 @@ basic general-purpose objects for working with sound
 
 [**chaos.jong**](chaos.jong.html): Peter de Jong attractor 
 
-[**chaos.logistic**](chaos.logistic.html): Logistic map chaotic generator 
+[**chaos.logistic**](chaos.logistic.html): logistic map chaotic generator 
 
-[**chaos.std0**](chaos.std0.html): Standard map chaotic generator 
+[**chaos.std0**](chaos.std0.html): standard map chaotic generator 
 
-[**chaos.std0\~**](chaos.std0~.html): Standard map chaotic generator 
+[**chaos.std0\~**](chaos.std0~.html): standard map chaotic generator 
 
 
 ### <a id="cat_conv" href="category_conv.html">conv</a>
@@ -337,7 +337,7 @@ various converters
 
 [**conv.str2sec**](conv.str2sec.html): converts the formatted time to a float value in seconds 
 
-[**music.dur2time**](music.dur2time.html): convert duration list to time 
+[**music.dur2time**](music.dur2time.html): transforms the list of musical durations into a list of time periods 
 
 [**music.voice2midi**](music.voice2midi.html): convert single voice music to list of MIDI pitches 
 
@@ -350,7 +350,7 @@ working with various datatypes
 
 [**color.mix**](color.mix.html): color mixer 
 
-[**color.scale**](color.scale.html): create color scales 
+[**color.scale**](color.scale.html): creation of the color scale 
 
 [**data.bimap**](data.bimap.html): bidirectional map container 
 
@@ -398,9 +398,9 @@ working with various datatypes
 
 [**global.bimap**](global.bimap.html): global bidirectional map 
 
-[**local.bimap**](local.bimap.html): local to patch bidirectional map container 
+[**local.bimap**](local.bimap.html): local the to patch bidirectional map container 
 
-[**mlist.flatten**](mlist.flatten.html): flatten nested mlist 
+[**mlist.flatten**](mlist.flatten.html): converts a multi-level list into a single-level list 
 
 [**rtree.to_list**](rtree.to_list.html): convert OpenMusic-like rhythm tree to list of fractions 
 
@@ -486,7 +486,7 @@ working with sound envelopes
 
 [**envelope**](envelope.html): envelope data type 
 
-[**vline2env**](vline2env.html): Converts vline messages to env 
+[**vline2env**](vline2env.html): сonverts vline messages to Env 
 
 
 ### <a id="cat_flow" href="category_flow.html">flow</a>
@@ -495,7 +495,7 @@ dataflow control
 ---
 
 
-[**expand_env**](expand_env.html): Substitute environment variables in data stream 
+[**expand_env**](expand_env.html): substitutes environment variables in a data stream 
 
 [**flow.append**](flow.append.html): append message to flow stream 
 
@@ -587,7 +587,7 @@ dataflow control
 
 [**flow.tee\~**](flow.tee~.html): extracts control messages from audio connections 
 
-[**replace**](replace.html): Replace atoms in data stream 
+[**replace**](replace.html): replace atoms in data stream 
 
 [**route.any**](route.any.html): separate messages from bangs, floats, symbols and lists 
 
@@ -803,7 +803,7 @@ working with various hardware
 ---
 
 
-[**hw.apple_smc**](hw.apple_smc.html): query the system management control in Apples 
+[**hw.apple_smc**](hw.apple_smc.html): query Apple system management control 
 
 [**hw.apple_sms**](hw.apple_sms.html): query the sudden motion sensor in Apples 
 
@@ -813,9 +813,9 @@ working with various hardware
 
 [**hw.gamepad**](hw.gamepad.html): gamepad controller 
 
-[**hw.kbd_light**](hw.kbd_light.html): Get/set keyboard light on some devices 
+[**hw.kbd_light**](hw.kbd_light.html): controlling the keyboard backlight on some devices 
 
-[**hw.motu.avb**](hw.motu.avb.html): controls Motu AVB devices over http requests 
+[**hw.motu.avb**](hw.motu.avb.html): controls Motu AVB devices over HTTP requests 
 
 [**hw.printer**](hw.printer.html): basic document printing support 
 
@@ -856,7 +856,7 @@ working with various hardware
 ---
 
 
-[**lang.faust\~**](lang.faust~.html): faust realtime compilation 
+[**lang.faust\~**](lang.faust~.html): real-time compilation of Faust DSP Language code 
 
 [**lang.lua**](lang.lua.html): Lua JIT language bindings 
 
@@ -1043,7 +1043,7 @@ list processing
 ---
 
 
-[**live.capture\~**](live.capture~.html): record up to 32s of sound and playback the recorded sound in loop 
+[**live.capture\~**](live.capture~.html): record up to 32 seconds of sound and playback the recorded sound in loop 
 
 
 ### <a id="cat_local" href="category_local.html">local</a>
@@ -1058,9 +1058,9 @@ local named objects accessible only from current canvas
 
 [**local.int**](local.int.html): canvas-scoped named integer variable 
 
-[**local.list**](local.list.html): local named list object 
+[**local.list**](local.list.html): a local named list object 
 
-[**local.mlist**](local.mlist.html): local named mlist object 
+[**local.mlist**](local.mlist.html): local named Mlist object 
 
 [**local.set**](local.set.html): local named set object 
 
@@ -1323,11 +1323,11 @@ working with MIDI protocol
 ---
 
 
-[**click\~**](click~.html): Output single impulse on bang 
+[**click\~**](click~.html): outputs a single impulse on a bang input 
 
 [**fluid\~**](fluid~.html): FluidSynth SoundFont 2 player 
 
-[**modplug\~**](modplug~.html): MOD file player (using libmodplug) 
+[**modplug\~**](modplug~.html): MOD file player 
 
 [**qrcode**](qrcode.html): QR code generator 
 
@@ -1337,7 +1337,7 @@ working with MIDI protocol
 
 [**speech.flite**](speech.flite.html): render speech to array 
 
-[**speech.flite\~**](speech.flite~.html): render speech to array 
+[**speech.flite\~**](speech.flite~.html): Flite text to speech synthesis 
 
 [**speech.rhvoice\~**](speech.rhvoice~.html): RHVoice text to speech synthesis 
 
@@ -1348,19 +1348,19 @@ working with MIDI protocol
 ---
 
 
-[**loadexpr**](loadexpr.html): send message when patch loads 
+[**loadexpr**](loadexpr.html): sends the message when the patch loads 
 
 [**msg**](msg.html): message constructor 
 
-[**msg.after**](msg.after.html): send specified message after incoming message 
+[**msg.after**](msg.after.html): sends the specified message following the forwarded incoming message 
 
-[**msg.onclose**](msg.onclose.html): send message when patch closes 
+[**msg.onclose**](msg.onclose.html): send a message when closing a patch 
 
-[**msg.onload**](msg.onload.html): send message when patch loads 
+[**msg.onload**](msg.onload.html): send the specified message upon patch loading 
 
 [**msg.pack**](msg.pack.html): message pack 
 
-[**msg.sched**](msg.sched.html): message scheduler 
+[**msg.sched**](msg.sched.html): message dispatch scheduler 
 
 [**msg.unpack**](msg.unpack.html): message unpack to selector and arguments 
 
@@ -1388,7 +1388,7 @@ objects for network
 
 [**net.freesound**](net.freesound.html): Freesound API v2 client 
 
-[**net.host2ip**](net.host2ip.html): returns IP address by DNS name 
+[**net.host2ip**](net.host2ip.html): outputs IP address by DNS name 
 
 [**net.http.client**](net.http.client.html): HTTP client 
 
@@ -1398,9 +1398,9 @@ objects for network
 
 [**net.mqtt.client**](net.mqtt.client.html): MQTT client 
 
-[**net.osc.receive**](net.osc.receive.html): OSC message listener 
+[**net.osc.receive**](net.osc.receive.html): receiving messages from the OSC protocol 
 
-[**net.osc.send**](net.osc.send.html): OSC message sender 
+[**net.osc.send**](net.osc.send.html): sending messages via the OSC protocol 
 
 [**net.osc.server**](net.osc.server.html): OSC server control 
 
@@ -1415,7 +1415,7 @@ noise generators
 ---
 
 
-[**noise.baker**](noise.baker.html): Part of a-chaos library 
+[**noise.baker**](noise.baker.html): Baker map chaos generator 
 
 [**noise.chua\~**](noise.chua~.html): Chua&#39;s diode circuit 
 
@@ -1427,15 +1427,15 @@ noise generators
 
 [**noise.crackle\~**](noise.crackle~.html): sparse noise generator 
 
-[**noise.duffing**](noise.duffing.html): duffing attractor 
+[**noise.duffing**](noise.duffing.html): chaotic generator based on a Duffing oscillator 
 
 [**noise.ginger**](noise.ginger.html): Gingerbreadman map chaotic generator 
 
-[**noise.henon**](noise.henon.html): henon attractor 
+[**noise.henon**](noise.henon.html): Henon map chaos attractor 
 
 [**noise.henon_heilles**](noise.henon_heilles.html): Hénon–Heiles_system 
 
-[**noise.henon_phase**](noise.henon_phase.html): henon phase Ddagrams 
+[**noise.henon_phase**](noise.henon_phase.html): henon phase diagrams 
 
 [**noise.henonf**](noise.henonf.html): Henon phase 
 
@@ -1443,15 +1443,15 @@ noise generators
 
 [**noise.lfreq0\~**](noise.lfreq0~.html): sampled/held noise (piecewise constant) 
 
-[**noise.lfreq\~**](noise.lfreq~.html): noise.lfreq0~ smoothed with no overshoot 
+[**noise.lfreq\~**](noise.lfreq~.html): \[noise.lfreq0~\] smoothed with no overshoot 
 
-[**noise.lorenz**](noise.lorenz.html): Lorenz chaos 
+[**noise.lorenz**](noise.lorenz.html): Lorenz chaos attractor 
 
 [**noise.lyapunov**](noise.lyapunov.html): lyapunov random attractor 
 
-[**noise.navier_stokes**](noise.navier_stokes.html): navier-stokes diff equations 
+[**noise.navier_stokes**](noise.navier_stokes.html): Navier-Stokes differential equations 
 
-[**noise.pink\~**](noise.pink~.html): Pink noise generator 
+[**noise.pink\~**](noise.pink~.html): pink noise generator 
 
 [**noise.rossler**](noise.rossler.html): Rössler attractor 
 
@@ -1459,9 +1459,9 @@ noise generators
 
 [**noise.torus**](noise.torus.html): torus attractor 
 
-[**noise.verhulst**](noise.verhulst.html): verhulst distribution 
+[**noise.verhulst**](noise.verhulst.html): Verhulst distribution 
 
-[**noise.white\~**](noise.white~.html): White noise generator 
+[**noise.white\~**](noise.white~.html): white noise generator 
 
 
 ### <a id="cat_osc" href="category_osc.html">osc</a>
@@ -1520,7 +1520,7 @@ working with filesystem paths
 ---
 
 
-[**file.size**](file.size.html): output file size 
+[**file.size**](file.size.html): outputs the file size 
 
 [**path.basename**](path.basename.html): outputs the filename portion of the pathname 
 
@@ -1624,11 +1624,11 @@ working with various data protocols and data formats
 
 [**proto.arturia.minilab**](proto.arturia.minilab.html): simple SysEx control for Arturia MiniLab 
 
-[**proto.feelworld**](proto.feelworld.html): protocol for FeelWorld LivePro L1 HDMI mixer 
+[**proto.feelworld**](proto.feelworld.html): controlling the FeelWorld LivePro L1 HDMI mixer 
 
 [**proto.firmata**](proto.firmata.html): Firmata Arduino protocol support 
 
-[**proto.inscore**](proto.inscore.html): INScore message creator 
+[**proto.inscore**](proto.inscore.html): creation of messages for the INScore program 
 
 [**proto.ltc.in\~**](proto.ltc.in~.html): LTC decoder 
 
@@ -1646,7 +1646,7 @@ working with various data protocols and data formats
 
 [**proto.morse**](proto.morse.html): Morse encoder 
 
-[**proto.mpv**](proto.mpv.html): mpv video player control 
+[**proto.mpv**](proto.mpv.html): MPV video player control 
 
 [**proto.obs**](proto.obs.html): WebSocket client to control OBS studio 
 
@@ -1654,7 +1654,7 @@ working with various data protocols and data formats
 
 [**proto.vlc**](proto.vlc.html): VLC video player control over HTTP 
 
-[**proto.whammy**](proto.whammy.html): Control for Digitech Whammy pedal 
+[**proto.whammy**](proto.whammy.html): control for Digitech Whammy pedal 
 
 [**proto.xtouch_ext**](proto.xtouch_ext.html): Behringer XTouch Extender XMidi protocol 
 
@@ -1722,9 +1722,9 @@ sequencers: traversing the data in a various ways
 ---
 
 
-[**snd.file**](snd.file.html): Sound file loader on steroids 
+[**snd.file**](snd.file.html): sound file loader with additional features 
 
-[**snd.play\~**](snd.play~.html): Sound file player on steroids 
+[**snd.play\~**](snd.play~.html): sound file player with additional capabilities 
 
 
 ### <a id="cat_spat" href="category_spat.html">spat</a>
@@ -1847,13 +1847,13 @@ working with symbols
 
 [**symbol.equal**](symbol.equal.html): check symbols for equality 
 
-[**symbol.length**](symbol.length.html): number of characters in symbol (unicode supported) 
+[**symbol.length**](symbol.length.html): outputs the number of characters in a symbol (unicode supported) 
 
 [**symbol.num_compare**](symbol.num_compare.html): numeric symbol compare 
 
-[**symbol2any**](symbol2any.html): converts symbol or string to message 
+[**symbol2any**](symbol2any.html): converts symbol or string into a message 
 
-[**symbol2intlist**](symbol2intlist.html): converts symbol to list of character codes 
+[**symbol2intlist**](symbol2intlist.html): converts the symbol into a list of character codes 
 
 
 ### <a id="cat_synth" href="category_synth.html">synth</a>
@@ -1868,31 +1868,31 @@ sound synthesis
 
 [**synth.church_bell\~**](synth.church_bell~.html): generic church bell modal model 
 
-[**synth.clap\~**](synth.clap~.html): clap synth from faust libraries 
+[**synth.clap\~**](synth.clap~.html): clap synth from Faust libraries 
 
 [**synth.dubdub\~**](synth.dubdub~.html): simple synth based on a sawtooth wave filtered by a resonant lowpass 
 
-[**synth.dx7\~**](synth.dx7~.html): FAUST dx7 implementation 
+[**synth.dx7\~**](synth.dx7~.html): dx7 implementation from Faust libraries 
 
 [**synth.eguitar\~**](synth.eguitar~.html): simple electric guitar model with steel strings 
 
 [**synth.english_bell\~**](synth.english_bell~.html): english church bell modal model 
 
-[**synth.fgrain\~**](synth.fgrain~.html): file granulator from STK 
+[**synth.fgrain\~**](synth.fgrain~.html): file granulator from STK libraries 
 
 [**synth.french_bell\~**](synth.french_bell~.html): french church bell modal model 
 
 [**synth.german_bell\~**](synth.german_bell~.html): german church bell modal model 
 
-[**synth.glass_harm\~**](synth.glass_harm~.html): nonlinear banded waveguide modeled Glass Harmonica 
+[**synth.glass_harm\~**](synth.glass_harm~.html): nonlinear banded waveguide modeled glass harmonica 
 
-[**synth.glitch\~**](synth.glitch~.html): Glitch synthesizer by naivesound 
+[**synth.glitch\~**](synth.glitch~.html): glitch synthesizer by naivesound 
 
 [**synth.harpsichord\~**](synth.harpsichord~.html): waveguide commuted harpsichord 
 
-[**synth.hat\~**](synth.hat~.html): hi-hat synth from faust librariest 
+[**synth.hat\~**](synth.hat~.html): hi-hat synth from Faust libraries 
 
-[**synth.kick2\~**](synth.kick2~.html): low-kick synth from faust librariest 
+[**synth.kick2\~**](synth.kick2~.html): low-kick synth from Faust libraries 
 
 [**synth.kick\~**](synth.kick~.html): low-kick synth from Guitarix project 
 
@@ -1918,15 +1918,15 @@ sound synthesis
 
 [**synth.sitar\~**](synth.sitar~.html): STK sitar 
 
-[**synth.snare\~**](synth.snare~.html): Snare drum synth from Guitarix project 
+[**synth.snare\~**](synth.snare~.html): snare drum synth from Guitarix project 
 
-[**synth.standard_bell\~**](synth.standard_bell~.html): german church bell modal model 
+[**synth.standard_bell\~**](synth.standard_bell~.html): standart bell modal model 
 
 [**synth.tube_bell\~**](synth.tube_bell~.html): STK tubular bell (orchestral chime) FM synthesis instrument 
 
-[**synth.voice_fofc\~**](synth.voice_fofc~.html): Simple formant/vocal synthesizer with FOF-cycle filterbank. 
+[**synth.voice_fofc\~**](synth.voice_fofc~.html): simple formant/vocal synthesizer with FOF-cycle filterbank. 
 
-[**synth.voice_fofs\~**](synth.voice_fofs~.html): Simple formant/vocal synthesizer with FOF-smooth filterbank. 
+[**synth.voice_fofs\~**](synth.voice_fofs~.html): simple formant/vocal synthesizer with FOF-smooth filterbank. 
 
 [**synth.wurley\~**](synth.wurley~.html): Wurlitzer electric piano FM synthesis instrument 
 
@@ -1937,27 +1937,27 @@ sound synthesis
 ---
 
 
-[**system.colorpanel**](system.colorpanel.html): System color panel dialog popup 
+[**system.colorpanel**](system.colorpanel.html): system color panel dialog popup 
 
 [**system.command**](system.command.html): run commands with pipes on Unix and Windows 
 
-[**system.cursor**](system.cursor.html): Output cursor motion, mousewheel and button clicks 
+[**system.cursor**](system.cursor.html): outputs the cursor motion, mousewheel and button clicks 
 
-[**system.exec**](system.exec.html): run external command in separate process 
+[**system.exec**](system.exec.html): run the external command in a separate process 
 
 [**system.exit**](system.exit.html): quit PureData 
 
-[**system.getenv**](system.getenv.html): Get system environment variables 
+[**system.getenv**](system.getenv.html): output system environment variables 
 
 [**system.hostname**](system.hostname.html): outputs system hostname 
 
 [**system.info**](system.info.html): retrieve system information: CPU and temperature 
 
-[**system.memsize**](system.memsize.html): returns the size of physical memory (RAM) in bytes round to float data type. 
+[**system.memsize**](system.memsize.html): returns the size of physical memory (RAM) in bytes 
 
-[**system.memused**](system.memused.html): returns the process physical memory use - current and peak 
+[**system.memused**](system.memused.html): outputs the process physical memory usage - current and peak 
 
-[**system.screen_size**](system.screen_size.html): returns current screen size in pixels 
+[**system.screen_size**](system.screen_size.html): outputs the current screen size in pixels 
 
 
 ### <a id="cat_tl" href="category_tl.html">tl</a>
@@ -1966,15 +1966,15 @@ working with timeline
 ---
 
 
-[**tl.bang**](tl.bang.html): Timeline bang (with possible delay) 
+[**tl.bang**](tl.bang.html): outputs a timeline bang 
 
-[**tl.cue**](tl.cue.html): Timeline section 
+[**tl.cue**](tl.cue.html): defines the timeline section 
 
-[**tl.timeline**](tl.timeline.html): Timeline - event scheduler 
+[**tl.timeline**](tl.timeline.html): timeline event scheduler 
 
-[**tl.toggle**](tl.toggle.html): Timeline bang 
+[**tl.toggle**](tl.toggle.html): timeline toggle 
 
-[**tl.transport**](tl.transport.html): Timeline transport control 
+[**tl.transport**](tl.transport.html): timeline transport control 
 
 
 ### <a id="cat_ui" href="category_ui.html">ui</a>

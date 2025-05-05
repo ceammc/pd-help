@@ -6,7 +6,7 @@ layout: default_ru
 
 # local.dict
 
-###### local named dict object
+###### локальный для патча словарь
 
 *доступно с версии:* 0.6
 

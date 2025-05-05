@@ -6,7 +6,7 @@ layout: default_ru
 
 # hw.motu.avb
 
-###### controls Motu AVB devices over http requests
+###### управление устройствами Motu AVB по HTTP
 
 *доступно с версии:* 0.9.5
 

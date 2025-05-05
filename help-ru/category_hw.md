@@ -10,19 +10,19 @@ layout: default_ru
 работа с различными аппаратными устройствами
 
 
-[**hw.apple_smc**](hw.apple_smc.html): query the system management control in Apples 
+[**hw.apple_smc**](hw.apple_smc.html): запросы к системе SMC в Apple 
 
-[**hw.apple_sms**](hw.apple_sms.html): query the sudden motion sensor in Apples 
+[**hw.apple_sms**](hw.apple_sms.html): опрос датчика внезапного движения в Apple 
 
-[**hw.arduino**](hw.arduino.html): Arduino device 
+[**hw.arduino**](hw.arduino.html): устройство Arduino 
 
-[**hw.display**](hw.display.html): get/set display properties 
+[**hw.display**](hw.display.html): получение/установка свойств дисплея 
 
 [**hw.gamepad**](hw.gamepad.html): геймпад контроллеры 
 
-[**hw.kbd_light**](hw.kbd_light.html): Get/set keyboard light on some devices 
+[**hw.kbd_light**](hw.kbd_light.html): управление подсветкой клавиатуры на некоторых устройствах 
 
-[**hw.motu.avb**](hw.motu.avb.html): controls Motu AVB devices over http requests 
+[**hw.motu.avb**](hw.motu.avb.html): управление устройствами Motu AVB по HTTP 
 
 [**hw.printer**](hw.printer.html): базовая поддержка печати документов 
 
@@ -58,7 +58,7 @@ _псевдонимы:_ \[hw.rpi.pwm.pca9685\]
 
 [**hw.rpi.spi.ws2812**](hw.rpi.spi.ws2812.html): драйвер для светодиодной ленты ws2812 для Raspberry Pi 
 
-[**hw.serial**](hw.serial.html): serial port device 
+[**hw.serial**](hw.serial.html): серийный порт устройства 
 
 
 **Версия:** 0.9.8

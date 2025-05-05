@@ -3,7 +3,7 @@
 
 # speech.flite~
 
-###### render speech to array
+###### Flite text to speech synthesis
 
 *available since version:* 0.9.2
 

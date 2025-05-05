@@ -6,7 +6,7 @@ layout: default_ru
 
 # dyn.expand2~
 
-###### stereo dynamic range expander with channel linking
+###### расширение динамического стерео-диапазона
 
 *доступно с версии:* 0.9.7
 

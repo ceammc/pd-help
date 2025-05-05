@@ -6,7 +6,7 @@ layout: default_ru
 
 # chaos.logistic
 
-###### Logistic map chaotic generator
+###### хаотический генератор на основе логистического отображения
 
 *доступно с версии:* 0.9
 

@@ -6,7 +6,7 @@ layout: default_ru
 
 # noise.verhulst
 
-###### verhulst distribution
+###### распределение Ферхюльста
 
 *доступно с версии:* 0.5
 

@@ -98,17 +98,17 @@ _псевдонимы:_ \[ceammc/pan~\], \[pan~\]
 
 [**pan.sqrt~**](pan.sqrt~.html): двухканальное квадратичное панорамирование равной мощности 
 
-[**spat.pan4~**](spat.pan4~.html): GMEM SPAT: 4-outputs spatializer <br>
+[**spat.pan4~**](spat.pan4~.html): GMEM SPAT: управление 4-х канальным пространственным звуком <br>
 _псевдонимы:_ \[ceammc/pan4~\], \[pan4~\]
 
 
-[**spat.pan8~**](spat.pan8~.html): GMEM SPAT: 8-outputs spatializer <br>
+[**spat.pan8~**](spat.pan8~.html): GMEM SPAT: управление 8 канальным пространственным звуком <br>
 _псевдонимы:_ \[ceammc/pan8~\], \[pan8~\]
 
 
-[**spat.zita6x8~**](spat.zita6x8~.html): spat with 6 inputs sources to 8 channel output 
+[**spat.zita6x8~**](spat.zita6x8~.html): управление пространственным звуком с 6 входными источниками на 8 выходных каналов 
 
-[**spat.zita8~**](spat.zita8~.html): 8 channel reverb spatializer 
+[**spat.zita8~**](spat.zita8~.html): 8-канальная пространственная реверберация 
 
 
 **Версия:** 0.9.8

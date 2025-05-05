@@ -3,7 +3,7 @@
 
 # synth.glitch~
 
-###### Glitch synthesizer by naivesound
+###### glitch synthesizer by naivesound
 
 *available since version:* 0.9.1
 

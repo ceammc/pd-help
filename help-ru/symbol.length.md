@@ -6,7 +6,7 @@ layout: default_ru
 
 # symbol.length
 
-###### number of characters in symbol (unicode supported)
+###### выводит число символов в символьном типе (с поддержкой Unicode)
 
 *доступно с версии:* 0.1
 

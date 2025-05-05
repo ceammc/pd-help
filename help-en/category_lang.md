@@ -6,7 +6,7 @@
 
 
 
-[**lang.faust\~**](lang.faust~.html): faust realtime compilation 
+[**lang.faust\~**](lang.faust~.html): real-time compilation of Faust DSP Language code 
 
 [**lang.lua**](lang.lua.html): Lua JIT language bindings 
 

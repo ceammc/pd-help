@@ -6,7 +6,7 @@ layout: default_ru
 
 # plot.logspace~
 
-###### outputs numbers spaced evenly on a log scale
+###### выводит последовательность равномерно распределенных по логарифмической шкале чисел
 
 *доступно с версии:* 0.9
 

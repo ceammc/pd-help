@@ -3,7 +3,7 @@
 
 # local.mlist
 
-###### local named mlist object
+###### local named Mlist object
 
 *available since version:* 0.6
 

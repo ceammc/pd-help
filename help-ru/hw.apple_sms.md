@@ -6,7 +6,7 @@ layout: default_ru
 
 # hw.apple_sms
 
-###### query the sudden motion sensor in Apples
+###### опрос датчика внезапного движения в Apple
 
 *доступно с версии:* 0.8
 

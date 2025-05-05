@@ -6,7 +6,7 @@ layout: default_ru
 
 # noise.lorenz
 
-###### Lorenz chaos
+###### хаотический атрактор Лоренца
 
 *доступно с версии:* 0.5
 

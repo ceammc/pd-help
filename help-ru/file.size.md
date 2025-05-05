@@ -6,7 +6,7 @@ layout: default_ru
 
 # file.size
 
-###### output file size
+###### выводит размер файла
 
 *доступно с версии:* 0.9.4
 

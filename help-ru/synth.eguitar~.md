@@ -6,7 +6,7 @@ layout: default_ru
 
 # synth.eguitar~
 
-###### simple electric guitar model with steel strings
+###### простая модель электрогитары со стальными струнами
 
 *доступно с версии:* 0.6
 

@@ -6,7 +6,7 @@ layout: default_ru
 
 # symbol2any
 
-###### converts symbol or string to message
+###### преобразует символ или строку в сообщение
 
 *доступно с версии:* 0.9.1
 

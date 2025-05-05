@@ -3,7 +3,7 @@
 
 # proto.whammy
 
-###### Control for Digitech Whammy pedal
+###### control for Digitech Whammy pedal
 
 *available since version:* 0.9.5
 

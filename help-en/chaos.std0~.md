@@ -3,7 +3,7 @@
 
 # chaos.std0~
 
-###### Standard map chaotic generator
+###### standard map chaotic generator
 
 *available since version:* 0.9
 

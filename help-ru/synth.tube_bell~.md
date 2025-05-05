@@ -6,7 +6,7 @@ layout: default_ru
 
 # synth.tube_bell~
 
-###### STK tubular bell (orchestral chime) FM synthesis instrument
+###### FM-синтезатор оркестрового колокола из библиотеки STK
 
 *доступно с версии:* 0.9.4
 

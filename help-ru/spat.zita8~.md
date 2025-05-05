@@ -6,7 +6,7 @@ layout: default_ru
 
 # spat.zita8~
 
-###### 8 channel reverb spatializer
+###### 8-канальная пространственная реверберация
 
 *доступно с версии:* 0.9.4
 

@@ -6,7 +6,7 @@ layout: default_ru
 
 # synth.clap~
 
-###### clap synth from faust libraries
+###### синтезатор хлопка ладонями на основе библиотеки языка Faust
 
 *доступно с версии:* 0.9.5
 

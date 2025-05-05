@@ -6,7 +6,7 @@ layout: default_ru
 
 # dyn.comp_up~
 
-###### mono upward compressor
+###### восходящий моно-компрессор
 
 *доступно с версии:* 0.9.7
 

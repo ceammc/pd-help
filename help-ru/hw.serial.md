@@ -6,7 +6,7 @@ layout: default_ru
 
 # hw.serial
 
-###### serial port device
+###### серийный порт устройства
 
 *доступно с версии:* 0.5
 

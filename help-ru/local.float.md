@@ -6,7 +6,7 @@ layout: default_ru
 
 # local.float
 
-###### canvas-scoped named float variable
+###### локальное для патча именованное число с плавающей точкой
 
 *доступно с версии:* 0.1
 

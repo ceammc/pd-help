@@ -6,7 +6,7 @@ layout: default_ru
 
 # synth.dubdub~
 
-###### simple synth based on a sawtooth wave filtered by a resonant lowpass
+###### простой синтезатор на основе пилообразной волны, фильтруемой резонансным фильтром нижних частот
 
 *доступно с версии:* 0.6
 

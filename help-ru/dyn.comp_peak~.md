@@ -6,7 +6,7 @@ layout: default_ru
 
 # dyn.comp_peak~
 
-###### mono dynamic range peak feed forward compressor
+###### пиковый моно-компрессор прямой топологии
 
 *доступно с версии:* 0.9.7
 

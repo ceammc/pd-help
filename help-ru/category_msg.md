@@ -10,25 +10,25 @@ layout: default_ru
 
 
 
-[**loadexpr**](loadexpr.html): send message when patch loads <br>
+[**loadexpr**](loadexpr.html): отправить сообщение при загрузке патча <br>
 _псевдонимы:_ \[ceammc/loadexpr\]
 
 
-[**msg**](msg.html): message constructor <br>
+[**msg**](msg.html): конструктор сообщений <br>
 _псевдонимы:_ \[ceammc/msg\], \[ceammc/m\], \[m\], \[ceammc/prepend\], \[prepend\]
 
 
-[**msg.after**](msg.after.html): send specified message after incoming message 
+[**msg.after**](msg.after.html): отправляет указанное сообщение после пересланного входящего сообщения 
 
-[**msg.onclose**](msg.onclose.html): send message when patch closes 
+[**msg.onclose**](msg.onclose.html): отправить сообщение при закрытии патча 
 
-[**msg.onload**](msg.onload.html): send message when patch loads <br>
+[**msg.onload**](msg.onload.html): отправить указанное сообщение при загрузе патча <br>
 _псевдонимы:_ \[ceammc/loadmsg\], \[loadmsg\]
 
 
-[**msg.pack**](msg.pack.html): message pack 
+[**msg.pack**](msg.pack.html): упаковка сообщений 
 
-[**msg.sched**](msg.sched.html): message scheduler 
+[**msg.sched**](msg.sched.html): планировщик отправки сообщений 
 
 [**msg.unpack**](msg.unpack.html): распаковка сообщения на селектор и аргументы 
 

@@ -5,7 +5,7 @@
 **aliases:** [net.osc.r]
 
 
-###### OSC message listener
+###### receiving messages from the OSC protocol
 
 *available since version:* 0.9.5
 

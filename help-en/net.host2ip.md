@@ -5,7 +5,7 @@
 **aliases:** [net.host-&gt;ip]
 
 
-###### returns IP address by DNS name
+###### outputs IP address by DNS name
 
 *available since version:* 0.7
 

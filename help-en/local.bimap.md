@@ -3,7 +3,7 @@
 
 # local.bimap
 
-###### local to patch bidirectional map container
+###### local the to patch bidirectional map container
 
 *available since version:* 0.9.7
 

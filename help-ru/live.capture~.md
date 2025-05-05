@@ -6,7 +6,7 @@ layout: default_ru
 
 # live.capture~
 
-###### record up to 32s of sound and playback the recorded sound in loop
+###### запись до 32 секунд звука и его воспроизведение в петле
 
 *доступно с версии:* 0.1
 

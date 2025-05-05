@@ -5,7 +5,7 @@
 **aliases:** [ceammc/symbol2any], [ceammc/sym-&gt;any], [ceammc/str-&gt;any], [ceammc/string2any], [sym-&gt;any], [str-&gt;any], [string2any]
 
 
-###### converts symbol or string to message
+###### converts symbol or string into a message
 
 *available since version:* 0.9.1
 

@@ -3,7 +3,7 @@
 
 # plot.linspace~
 
-###### outputs numbers spaced evenly spaced over a specified interval
+###### generates a sequence of numbers that are uniformly distributed within the specified interval
 
 *available since version:* 0.9
 

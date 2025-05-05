@@ -6,7 +6,7 @@ layout: default_ru
 
 # spat.zita6x8~
 
-###### spat with 6 inputs sources to 8 channel output
+###### управление пространственным звуком с 6 входными источниками на 8 выходных каналов
 
 *доступно с версии:* 0.9.1
 

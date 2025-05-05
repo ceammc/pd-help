@@ -3,7 +3,7 @@
 
 # synth.fgrain~
 
-###### file granulator from STK
+###### file granulator from STK libraries
 
 *available since version:* 0.6
 

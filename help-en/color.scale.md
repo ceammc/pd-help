@@ -3,7 +3,7 @@
 
 # color.scale
 
-###### create color scales
+###### creation of the color scale
 
 *available since version:* 0.9.7
 

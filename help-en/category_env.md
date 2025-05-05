@@ -40,7 +40,7 @@ _aliases:_ \[ceammc/env2vline\], \[ceammc/env-&gt;vline\], \[env-&gt;vline\]
 _aliases:_ \[ceammc/envelope\], \[ceammc/env\], \[env\]
 
 
-[**vline2env**](vline2env.html): Converts vline messages to env <br>
+[**vline2env**](vline2env.html): сonverts vline messages to Env <br>
 _aliases:_ \[ceammc/vline2env\], \[ceammc/vline-&gt;env\], \[vline-&gt;env\]
 
 

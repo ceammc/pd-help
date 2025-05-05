@@ -10,9 +10,9 @@ layout: default_ru
 
 
 
-[**snd.file**](snd.file.html): Sound file loader on steroids 
+[**snd.file**](snd.file.html): загрузчик звуковых файлов с дополнительными возможностями 
 
-[**snd.play~**](snd.play~.html): Sound file player on steroids 
+[**snd.play~**](snd.play~.html): проигрыватель звуковых файлов с дополнительными возможностями 
 
 
 **Версия:** 0.9.8

@@ -5,7 +5,7 @@
 **aliases:** [ceammc/modplug\~]
 
 
-###### MOD file player (using libmodplug)
+###### MOD file player
 
 *available since version:* 0.4
 

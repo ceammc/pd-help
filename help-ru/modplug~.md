@@ -6,7 +6,7 @@ layout: default_ru
 
 # modplug~
 
-###### MOD file player (using libmodplug)
+###### плеер файлов MOD
 
 *доступно с версии:* 0.4
 

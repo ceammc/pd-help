@@ -6,7 +6,7 @@ layout: default_ru
 
 # plot.hist~
 
-###### calculate and output signal histogram
+###### вычисляет и выводит гистограмму входного сигнала
 
 *доступно с версии:* 0.9
 

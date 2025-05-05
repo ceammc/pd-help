@@ -3,7 +3,7 @@
 
 # noise.navier_stokes
 
-###### navier-stokes diff equations
+###### Navier-Stokes differential equations
 
 *available since version:* 0.5
 

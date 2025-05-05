@@ -8,11 +8,11 @@ working with various data protocols and data formats
 
 [**proto.arturia.minilab**](proto.arturia.minilab.html): simple SysEx control for Arturia MiniLab 
 
-[**proto.feelworld**](proto.feelworld.html): protocol for FeelWorld LivePro L1 HDMI mixer 
+[**proto.feelworld**](proto.feelworld.html): controlling the FeelWorld LivePro L1 HDMI mixer 
 
 [**proto.firmata**](proto.firmata.html): Firmata Arduino protocol support 
 
-[**proto.inscore**](proto.inscore.html): INScore message creator 
+[**proto.inscore**](proto.inscore.html): creation of messages for the INScore program 
 
 [**proto.ltc.in\~**](proto.ltc.in~.html): LTC decoder <br>
 _aliases:_ \[ltc.in\~\]
@@ -34,7 +34,7 @@ _aliases:_ \[ltc.out\~\]
 
 [**proto.morse**](proto.morse.html): Morse encoder 
 
-[**proto.mpv**](proto.mpv.html): mpv video player control 
+[**proto.mpv**](proto.mpv.html): MPV video player control 
 
 [**proto.obs**](proto.obs.html): WebSocket client to control OBS studio 
 
@@ -42,7 +42,7 @@ _aliases:_ \[ltc.out\~\]
 
 [**proto.vlc**](proto.vlc.html): VLC video player control over HTTP 
 
-[**proto.whammy**](proto.whammy.html): Control for Digitech Whammy pedal 
+[**proto.whammy**](proto.whammy.html): control for Digitech Whammy pedal 
 
 [**proto.xtouch_ext**](proto.xtouch_ext.html): Behringer XTouch Extender XMidi protocol 
 

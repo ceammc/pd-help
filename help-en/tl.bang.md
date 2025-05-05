@@ -5,7 +5,7 @@
 **aliases:** [tl.b]
 
 
-###### Timeline bang (with possible delay)
+###### outputs a timeline bang
 
 *available since version:* 0.1
 

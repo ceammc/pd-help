@@ -5,7 +5,7 @@
 **aliases:** [music.d-&gt;t]
 
 
-###### convert duration list to time
+###### transforms the list of musical durations into a list of time periods
 
 *available since version:* 0.9.4
 

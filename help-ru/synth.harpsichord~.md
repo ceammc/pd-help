@@ -6,7 +6,7 @@ layout: default_ru
 
 # synth.harpsichord~
 
-###### waveguide commuted harpsichord
+###### синтезатор клавесина на основе техники волноводного синтеза
 
 *доступно с версии:* 0.9.2
 

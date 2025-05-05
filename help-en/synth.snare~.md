@@ -3,7 +3,7 @@
 
 # synth.snare~
 
-###### Snare drum synth from Guitarix project
+###### snare drum synth from Guitarix project
 
 *available since version:* 0.9.4
 

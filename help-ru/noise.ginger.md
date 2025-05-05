@@ -6,7 +6,7 @@ layout: default_ru
 
 # noise.ginger
 
-###### Gingerbreadman map chaotic generator
+###### хаотический генератор на основе отображения Пряничного человечка
 
 *доступно с версии:* 0.1
 

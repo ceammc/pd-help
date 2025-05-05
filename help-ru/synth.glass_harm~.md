@@ -6,7 +6,7 @@ layout: default_ru
 
 # synth.glass_harm~
 
-###### nonlinear banded waveguide modeled Glass Harmonica
+###### нелинейная волноводная модель стеклянной гармоники
 
 *доступно с версии:* 0.9.2
 

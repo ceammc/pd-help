@@ -5,7 +5,7 @@
 **aliases:** [ceammc/timeline], [timeline]
 
 
-###### Timeline - event scheduler
+###### timeline event scheduler
 
 *available since version:* 0.7
 

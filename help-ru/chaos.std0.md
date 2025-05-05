@@ -6,7 +6,7 @@ layout: default_ru
 
 # chaos.std0
 
-###### Standard map chaotic generator
+###### хаотический генератор на основе стандартного отображения
 
 *доступно с версии:* 0.9
 

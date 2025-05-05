@@ -6,7 +6,7 @@ layout: default_ru
 
 # noise.lfreq0~
 
-###### sampled/held noise (piecewise constant)
+###### семплированный/удержанный шум (кусочно постоянный)
 
 *доступно с версии:* 0.6
 

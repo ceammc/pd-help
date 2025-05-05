@@ -6,7 +6,7 @@ layout: default_ru
 
 # noise.rossler
 
-###### Rössler attractor
+###### аттрактор Рёсслера
 
 *доступно с версии:* 0.5
 

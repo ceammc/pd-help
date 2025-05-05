@@ -6,7 +6,7 @@ layout: default_ru
 
 # tl.timeline
 
-###### Timeline - event scheduler
+###### планировщик событий временной шкалы
 
 *доступно с версии:* 0.7
 

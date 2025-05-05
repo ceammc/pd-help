@@ -6,7 +6,7 @@ layout: default_ru
 
 # noise.stein
 
-###### Stein distribution
+###### распределение Штейна
 
 *доступно с версии:* 0.5
 

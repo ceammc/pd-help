@@ -3,7 +3,7 @@
 
 # tl.cue
 
-###### Timeline section
+###### defines the timeline section
 
 *available since version:* 0.1
 

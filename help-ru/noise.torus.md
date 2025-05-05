@@ -6,7 +6,7 @@ layout: default_ru
 
 # noise.torus
 
-###### torus attractor
+###### аттрактор в виде тора
 
 *доступно с версии:* 0.5
 

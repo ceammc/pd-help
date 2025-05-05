@@ -6,7 +6,7 @@ layout: default_ru
 
 # tl.bang
 
-###### Timeline bang (with possible delay)
+###### выводит пустое событие временной шкалы
 
 *доступно с версии:* 0.1
 

@@ -3,7 +3,7 @@
 
 # noise.lfreq~
 
-###### noise.lfreq0~ smoothed with no overshoot
+###### \[noise.lfreq0~\] smoothed with no overshoot
 
 *available since version:* 0.2
 

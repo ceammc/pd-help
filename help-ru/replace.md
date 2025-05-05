@@ -6,7 +6,7 @@ layout: default_ru
 
 # replace
 
-###### Replace atoms in data stream
+###### замена атомов в потоке данных
 
 *доступно с версии:* 0.1
 

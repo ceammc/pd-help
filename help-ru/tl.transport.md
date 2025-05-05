@@ -6,7 +6,7 @@ layout: default_ru
 
 # tl.transport
 
-###### Timeline transport control
+###### управление временной шкалой
 
 *доступно с версии:* 0.1
 

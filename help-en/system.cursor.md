@@ -3,7 +3,7 @@
 
 # system.cursor
 
-###### Output cursor motion, mousewheel and button clicks
+###### outputs the cursor motion, mousewheel and button clicks
 
 *available since version:* 0.1
 

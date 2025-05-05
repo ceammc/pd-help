@@ -6,7 +6,7 @@ layout: default_ru
 
 # speech.rhvoice~
 
-###### RHVoice text to speech synthesis
+###### синтезатор речи RHVoice
 
 *доступно с версии:* 0.9.5
 

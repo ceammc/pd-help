@@ -6,7 +6,7 @@ layout: default_ru
 
 # synth.standard_bell~
 
-###### german church bell modal model
+###### модовый синтез стандартной модели колокола
 
 *доступно с версии:* 0.9.4
 

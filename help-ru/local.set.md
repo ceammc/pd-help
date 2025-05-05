@@ -6,7 +6,7 @@ layout: default_ru
 
 # local.set
 
-###### local named set object
+###### локальное для патча именованное множество
 
 *доступно с версии:* 0.6
 

@@ -6,7 +6,7 @@ layout: default_ru
 
 # system.memused
 
-###### returns the process physical memory use - current and peak
+###### выводит использование физической памяти процессом - текущее и пиковое
 
 *доступно с версии:* 0.1
 

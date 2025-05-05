@@ -6,7 +6,7 @@ layout: default_ru
 
 # proto.ltc.in~
 
-###### LTC decoder
+###### LTC-декодер
 
 *доступно с версии:* 0.9.7
 

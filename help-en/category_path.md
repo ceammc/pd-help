@@ -6,7 +6,7 @@
 working with filesystem paths
 
 
-[**file.size**](file.size.html): output file size 
+[**file.size**](file.size.html): outputs the file size 
 
 [**path.basename**](path.basename.html): outputs the filename portion of the pathname 
 

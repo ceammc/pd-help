@@ -6,7 +6,7 @@ layout: default_ru
 
 # click~
 
-###### Output single impulse on bang
+###### выводит единичный импульс при пустом входном событии
 
 *доступно с версии:* 0.4
 

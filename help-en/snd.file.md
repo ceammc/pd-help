@@ -3,7 +3,7 @@
 
 # snd.file
 
-###### Sound file loader on steroids
+###### sound file loader with additional features
 
 *available since version:* 0.1
 

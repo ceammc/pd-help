@@ -6,7 +6,7 @@ layout: default_ru
 
 # snd.file
 
-###### Sound file loader on steroids
+###### загрузчик звуковых файлов с дополнительными возможностями
 
 *доступно с версии:* 0.1
 

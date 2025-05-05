@@ -6,7 +6,7 @@ layout: default_ru
 
 # dyn.comp2~
 
-###### stereo dynamic range compressor
+###### стерео-компрессор
 
 *доступно с версии:* 0.1
 

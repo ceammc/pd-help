@@ -10,11 +10,11 @@ layout: default_ru
 
 
 
-[**rhythm.euclid**](rhythm.euclid.html): euclid pattern generator 
+[**rhythm.euclid**](rhythm.euclid.html): генератор эвклидовых паттернов 
 
-[**rhythm.hexbeat**](rhythm.hexbeat.html): hexbeat pattern generator 
+[**rhythm.hexbeat**](rhythm.hexbeat.html): генератор ритмического паттерна по шестнадцатиричным значениям 
 
-[**rhythm.lsystem**](rhythm.lsystem.html): L-system pattern generator 
+[**rhythm.lsystem**](rhythm.lsystem.html): генератор ритмического рисунка на основе L-систем 
 
 
 **Версия:** 0.9.8

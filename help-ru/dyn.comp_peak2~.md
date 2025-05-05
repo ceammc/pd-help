@@ -6,7 +6,7 @@ layout: default_ru
 
 # dyn.comp_peak2~
 
-###### stereo peak feed forward compressor with channel linking
+###### пиковый стерео-компрессор прямой топологии
 
 *доступно с версии:* 0.9.7
 

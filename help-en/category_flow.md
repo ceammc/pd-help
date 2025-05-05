@@ -6,7 +6,7 @@
 dataflow control
 
 
-[**expand_env**](expand_env.html): Substitute environment variables in data stream <br>
+[**expand_env**](expand_env.html): substitutes environment variables in a data stream <br>
 _aliases:_ \[ceammc/expand_env\]
 
 
@@ -162,7 +162,7 @@ _aliases:_ \[flow.pack&#39;\]
 _aliases:_ \[ceammc/tee\~\], \[tee\~\], \[ceammc/\~-&gt;\], \[\~-&gt;\]
 
 
-[**replace**](replace.html): Replace atoms in data stream <br>
+[**replace**](replace.html): replace atoms in data stream <br>
 _aliases:_ \[ceammc/replace\]
 
 

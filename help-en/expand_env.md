@@ -5,7 +5,7 @@
 **aliases:** [ceammc/expand_env]
 
 
-###### Substitute environment variables in data stream
+###### substitutes environment variables in a data stream
 
 *available since version:* 0.1
 

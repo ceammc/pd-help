@@ -6,7 +6,7 @@ layout: default_ru
 
 # msg.sched
 
-###### message scheduler
+###### планировщик отправки сообщений
 
 *доступно с версии:* 0.9.4
 

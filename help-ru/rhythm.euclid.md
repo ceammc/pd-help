@@ -6,7 +6,7 @@ layout: default_ru
 
 # rhythm.euclid
 
-###### euclid pattern generator
+###### генератор эвклидовых паттернов
 
 *доступно с версии:* 0.9.7
 

@@ -6,7 +6,7 @@ layout: default_ru
 
 # system.memsize
 
-###### returns the size of physical memory (RAM) in bytes round to float data type.
+###### возвращает размер физической памяти (ОЗУ) в байтах
 
 *доступно с версии:* 0.1
 

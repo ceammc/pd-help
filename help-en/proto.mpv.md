@@ -3,7 +3,7 @@
 
 # proto.mpv
 
-###### mpv video player control
+###### MPV video player control
 
 *available since version:* 0.9.3
 

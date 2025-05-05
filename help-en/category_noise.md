@@ -6,7 +6,7 @@
 noise generators
 
 
-[**noise.baker**](noise.baker.html): Part of a-chaos library 
+[**noise.baker**](noise.baker.html): Baker map chaos generator 
 
 [**noise.chua\~**](noise.chua~.html): Chua&#39;s diode circuit 
 
@@ -18,15 +18,15 @@ noise generators
 
 [**noise.crackle\~**](noise.crackle~.html): sparse noise generator 
 
-[**noise.duffing**](noise.duffing.html): duffing attractor 
+[**noise.duffing**](noise.duffing.html): chaotic generator based on a Duffing oscillator 
 
 [**noise.ginger**](noise.ginger.html): Gingerbreadman map chaotic generator 
 
-[**noise.henon**](noise.henon.html): henon attractor 
+[**noise.henon**](noise.henon.html): Henon map chaos attractor 
 
 [**noise.henon_heilles**](noise.henon_heilles.html): Hénon–Heiles_system 
 
-[**noise.henon_phase**](noise.henon_phase.html): henon phase Ddagrams 
+[**noise.henon_phase**](noise.henon_phase.html): henon phase diagrams 
 
 [**noise.henonf**](noise.henonf.html): Henon phase 
 
@@ -34,15 +34,15 @@ noise generators
 
 [**noise.lfreq0\~**](noise.lfreq0~.html): sampled/held noise (piecewise constant) 
 
-[**noise.lfreq\~**](noise.lfreq~.html): noise.lfreq0~ smoothed with no overshoot 
+[**noise.lfreq\~**](noise.lfreq~.html): \[noise.lfreq0~\] smoothed with no overshoot 
 
-[**noise.lorenz**](noise.lorenz.html): Lorenz chaos 
+[**noise.lorenz**](noise.lorenz.html): Lorenz chaos attractor 
 
 [**noise.lyapunov**](noise.lyapunov.html): lyapunov random attractor 
 
-[**noise.navier_stokes**](noise.navier_stokes.html): navier-stokes diff equations 
+[**noise.navier_stokes**](noise.navier_stokes.html): Navier-Stokes differential equations 
 
-[**noise.pink\~**](noise.pink~.html): Pink noise generator 
+[**noise.pink\~**](noise.pink~.html): pink noise generator 
 
 [**noise.rossler**](noise.rossler.html): Rössler attractor 
 
@@ -50,9 +50,9 @@ noise generators
 
 [**noise.torus**](noise.torus.html): torus attractor 
 
-[**noise.verhulst**](noise.verhulst.html): verhulst distribution 
+[**noise.verhulst**](noise.verhulst.html): Verhulst distribution 
 
-[**noise.white\~**](noise.white~.html): White noise generator 
+[**noise.white\~**](noise.white~.html): white noise generator 
 
 
 **Version:** 0.9.8

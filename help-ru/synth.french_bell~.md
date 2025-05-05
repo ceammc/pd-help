@@ -6,7 +6,7 @@ layout: default_ru
 
 # synth.french_bell~
 
-###### french church bell modal model
+###### модовый синтез модели французского церковного колокола
 
 *доступно с версии:* 0.9.4
 

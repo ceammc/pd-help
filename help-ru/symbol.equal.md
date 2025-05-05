@@ -6,7 +6,7 @@ layout: default_ru
 
 # symbol.equal
 
-###### check symbols for equality
+###### проверка символов на равенство
 
 *доступно с версии:* 0.1
 

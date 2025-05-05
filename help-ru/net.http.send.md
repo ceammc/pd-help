@@ -6,7 +6,7 @@ layout: default_ru
 
 # net.http.send
 
-###### HTTP request sender
+###### отправляет HTTP запросы
 
 *доступно с версии:* 0.9.5
 

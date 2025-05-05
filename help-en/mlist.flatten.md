@@ -3,7 +3,7 @@
 
 # mlist.flatten
 
-###### flatten nested mlist
+###### converts a multi-level list into a single-level list
 
 *available since version:* 0.6
 

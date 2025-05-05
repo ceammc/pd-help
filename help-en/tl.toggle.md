@@ -5,7 +5,7 @@
 **aliases:** [tl.t]
 
 
-###### Timeline bang
+###### timeline toggle
 
 *available since version:* 0.7
 

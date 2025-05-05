@@ -3,7 +3,7 @@
 
 # noise.pink~
 
-###### Pink noise generator
+###### pink noise generator
 
 *available since version:* 0.1
 

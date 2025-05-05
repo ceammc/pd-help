@@ -6,7 +6,7 @@ layout: default_ru
 
 # hw.display
 
-###### get/set display properties
+###### получение/установка свойств дисплея
 
 *доступно с версии:* 0.7.1
 

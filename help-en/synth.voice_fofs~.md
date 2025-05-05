@@ -3,7 +3,7 @@
 
 # synth.voice_fofs~
 
-###### Simple formant/vocal synthesizer with FOF-smooth filterbank.
+###### simple formant/vocal synthesizer with FOF-smooth filterbank.
 
 *available since version:* 0.9.6
 

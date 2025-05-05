@@ -6,7 +6,7 @@ layout: default_ru
 
 # proto.feelworld
 
-###### protocol for FeelWorld LivePro L1 HDMI mixer
+###### управление видео-микшером FeelWorld LivePro L1 HDMI
 
 *доступно с версии:* 0.9.5
 

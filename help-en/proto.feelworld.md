@@ -3,7 +3,7 @@
 
 # proto.feelworld
 
-###### protocol for FeelWorld LivePro L1 HDMI mixer
+###### controlling the FeelWorld LivePro L1 HDMI mixer
 
 *available since version:* 0.9.5
 

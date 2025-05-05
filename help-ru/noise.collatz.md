@@ -6,7 +6,7 @@ layout: default_ru
 
 # noise.collatz
 
-###### collatz conjecture output
+###### выводит число последовательности Коллаца
 
 *доступно с версии:* 0.5
 

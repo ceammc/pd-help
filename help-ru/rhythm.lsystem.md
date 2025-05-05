@@ -6,7 +6,7 @@ layout: default_ru
 
 # rhythm.lsystem
 
-###### L-system pattern generator
+###### генератор ритмического рисунка на основе L-систем
 
 *доступно с версии:* 0.9.7
 

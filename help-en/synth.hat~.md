@@ -3,7 +3,7 @@
 
 # synth.hat~
 
-###### hi-hat synth from faust librariest
+###### hi-hat synth from Faust libraries
 
 *available since version:* 0.9.5
 

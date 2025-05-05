@@ -6,7 +6,7 @@ layout: default_ru
 
 # mlist.flatten
 
-###### flatten nested mlist
+###### преобразует многоуровневый список в одноуровневый
 
 *доступно с версии:* 0.6
 

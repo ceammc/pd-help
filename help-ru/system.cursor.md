@@ -6,7 +6,7 @@ layout: default_ru
 
 # system.cursor
 
-###### Output cursor motion, mousewheel and button clicks
+###### выводит положение курсора, нажатия кнопок мыши и колеса прокрутки
 
 *доступно с версии:* 0.1
 

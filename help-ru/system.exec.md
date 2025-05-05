@@ -6,7 +6,7 @@ layout: default_ru
 
 # system.exec
 
-###### run external command in separate process
+###### запуск внешней команды в отдельном процессе
 
 *доступно с версии:* 0.7
 

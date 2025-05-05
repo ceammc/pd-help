@@ -6,7 +6,7 @@ layout: default_ru
 
 # plot.linspace~
 
-###### outputs numbers spaced evenly spaced over a specified interval
+###### выводит последовательность равномерно распределенных в заданном интервале числе
 
 *доступно с версии:* 0.9
 

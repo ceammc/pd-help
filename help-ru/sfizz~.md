@@ -6,7 +6,7 @@ layout: default_ru
 
 # sfizz~
 
-###### SFZ format sample player
+###### плеер семплов в формате SFZ
 
 *доступно с версии:* 0.9.4
 

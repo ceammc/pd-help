@@ -12,7 +12,7 @@ _aliases:_ \[artnet.send\]
 
 [**net.freesound**](net.freesound.html): Freesound API v2 client 
 
-[**net.host2ip**](net.host2ip.html): returns IP address by DNS name <br>
+[**net.host2ip**](net.host2ip.html): outputs IP address by DNS name <br>
 _aliases:_ \[net.host-&gt;ip\]
 
 
@@ -30,11 +30,11 @@ _aliases:_ \[http.send\]
 _aliases:_ \[mqtt.client\]
 
 
-[**net.osc.receive**](net.osc.receive.html): OSC message listener <br>
+[**net.osc.receive**](net.osc.receive.html): receiving messages from the OSC protocol <br>
 _aliases:_ \[net.osc.r\]
 
 
-[**net.osc.send**](net.osc.send.html): OSC message sender <br>
+[**net.osc.send**](net.osc.send.html): sending messages via the OSC protocol <br>
 _aliases:_ \[net.osc.s\]
 
 

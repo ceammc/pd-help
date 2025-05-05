@@ -6,7 +6,7 @@ layout: default_ru
 
 # synth.glitch~
 
-###### Glitch synthesizer by naivesound
+###### глитч-синтезатор от naivesound
 
 *доступно с версии:* 0.9.1
 

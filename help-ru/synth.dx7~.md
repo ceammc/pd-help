@@ -6,7 +6,7 @@ layout: default_ru
 
 # synth.dx7~
 
-###### FAUST dx7 implementation
+###### реализация синтезатора DX7 из библиотеки Faust
 
 *доступно с версии:* 0.6
 
